@@ -41,7 +41,7 @@ to right To read all $k$ heads, then left to right again to update them. This co
 simulated Step. Over $t(n)$ steps, the total is $O(t(n)^2)$. $\blacksquare$
 
 **Theorem 6.1a (Time Hierarchy Theorem).** If $t_1, t_2$ are time-constructible functions with
-$t_1(n) \log t_1(n) = o(t_2(n))$ Then $\mathrm{TIME(t_1(n)) \subsetneq \mathrm{TIME(t_2(n))$.
+$t_1(n) \log t_1(n) = o(t_2(n))$ Then $\mathrm{TIME(t_1(n)) \subsetneq \mathrm{TIME(t_2(n))}}$.
 
 *Proof (idea).* Use diagonalisation. Construct a TM $D$ that on input $x$ of length $n$:
 
@@ -53,13 +53,13 @@ $t_1(n) \log t_1(n) = o(t_2(n))$ Then $\mathrm{TIME(t_1(n)) \subsetneq \mathrm{T
 $D$ runs in time $O(t_2(n))$ and differs from every TM that runs in time $O(t_1(n))$ on at least One
 input. $\blacksquare$
 
-**Corollary.** $\mathrm{P \subsetneq \mathrm{EXPTIME$.
+**Corollary.** $\mathrm{P \subsetneq \mathrm{EXPTIME}}$.
 
 **Definition.**
-$\mathrm{TIME(t(n)) = \{L : L \mathrm{ is decided by a deterministic TM in  O(t(n))\}$.
+$\mathrm{TIME(t(n))} = \{L : L \mathrm{ is decided by a deterministic TM in  O(t(n))\}}$.
 
 **Definition.**
-$\mathrm{NTIME(t(n)) = \{L : L \mathrm{ is decided by a nondeterministic TM in  O(t(n))\}$.
+$\mathrm{NTIME(t(n))} = \{L : L \mathrm{ is decided by a nondeterministic TM in  O(t(n))\}}$.
 
 ### 6.2 The Class P
 
@@ -410,7 +410,7 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 
 $$
 \mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
-$$
+}}}}$$
 
 **Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
@@ -440,8 +440,8 @@ $\blacksquare$
 **PSPACE.** The class of languages decidable in polynomial space:
 
 $$
-\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)
-$$
+\mathrm{PSPACE} = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)
+}$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE}$.
 - $\mathrm{P} \neq \mathrm{PSPACE}$ (space hierarchy theorem).
@@ -451,8 +451,8 @@ $$
 **EXPTIME.** The class of languages decidable in exponential time:
 
 $$
-\mathrm{EXPTIME = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})
-$$
+\mathrm{EXPTIME} = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})
+}$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$.
 - $\mathrm{P} \neq \mathrm{EXPTIME}$ (time hierarchy theorem).
@@ -463,15 +463,15 @@ $$
 
 $$
 \mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}
-$$
+}}}}$$
 
 $$
 \mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME
-$$
+}}}}}}$$
 
 $$
 \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
-$$
+}}}}$$
 
 <div class="table-wrap">
 
@@ -575,6 +575,89 @@ The Baker--Gill--Solovay theorem is a caution: the techniques available to compl
 well in the oracle worlds where the answer goes both ways. This is why the resolution of P vs.
 NP requires *non-relativising* techniques; which the circuit-complexity approach (circuit lower
 bounds) and the algebraic approach (arithmetisation in IP = PSPACE) exemplify.
+
+### 6.12 The PCP Theorem: Proofs You Can Check by Glance
+
+Suppose a proof of a statement is written down, but you are allowed to **randomly inspect only a
+handful of its positions** — a constant number of characters — and, from that glance alone,
+accept correct proofs always and reject bogus ones with high probability. For most proof systems
+this is impossible: skip one step of a long calculation and you might miss the error. The
+**PCP theorem** says that for NP statements, such proofs exist — after rewriting the proof into
+a special redundant form.
+
+**Theorem 6.13 (Feige–Goldwasser–Lund–Safra–Szegedy 1991; Arora–Safra 1992;
+Arora–Lund–Motwani–Sudan–Szegedy 1992).**
+
+$$\mathrm{NP = PCP(O(\log n),\ O(1))}$$
+
+A language $L$ is in NP **if and only if** there is a verifier $V$ that, given an input $x$ of
+length $n$ and oracle access to a proof $\pi$:
+
+1. flips $O(\log n)$ random coins (so at most $\mathrm{poly}(n)$ possible inspection patterns),
+2. queries **constant** many positions of $\pi$,
+3. accepts or rejects — with **completeness** ≥ $\tfrac{2}{3}$ when $x \in L$ (some proof makes
+   $V$ accept with probability 1 in the standard formulation), and **soundness** ≤ $\tfrac{1}{3}$
+   when $x \notin L$ (every proof fools $V$ on at most a third of its random choices).
+
+The proof $\pi$ may be exponentially long in $n$ — the verifier never reads it all; it only
+probes.
+
+**Why "rewritten" matters.** A vanilla NP witness (a satisfying assignment) has no such robust
+property: changing one variable's value can be detected only by checking a constraint that
+mentions it. The PCP construction encodes the witness into a *locally testable* object where
+every error contaminates a constant fraction of the proof, so any inconsistent assignment
+corrupts enough positions that a constant-sample check catches it. Building such encodings is
+the entire difficulty of the theorem.
+
+**The engine: gap amplification.** Start from a constraint-satisfaction view of NP: SAT
+compiles to a system of constant-size constraints where a satisfying assignment satisfies all
+of them. The PCP construction repeatedly applies a transformation that:
+
+- keeps satisfiable systems perfectly satisfiable, and
+- drives unsatisfiable systems' maximum satisfiable fraction down by a constant factor,
+
+while increasing the proof size only polynomially. After $O(\log n)$ amplification rounds, an
+unsatisfiable instance has *no* assignment satisfying more than a constant fraction below 1 —
+and at that point a verifier can sample a single random constraint, check it with a constant
+number of proof probes, and get soundness $1 - \varepsilon$. That constant gap is what makes
+$O(1)$ queries possible.
+
+**Dinur's proof (2006).** The original proofs were long and algebraic. Irit Dinur's
+combinatorial proof reformulates the amplification as a *graph powering* step on constraint
+graphs: expand the constraint graph so that violations spread, then reduce alphabet size with
+a local test — repeat $O(\log n)$ times. This version is short enough to teach and is the
+standard reference for a first encounter.
+
+**The consequence that reshaped a field: hardness of approximation.** Because the PCP
+reduction preserves a *gap*, it maps optimisation problems to themselves with a gap: MAX-3SAT
+compiles so that satisfiable instances stay fully satisfiable while unsatisfiable ones have no
+assignment satisfying more than a $1 - \varepsilon$ fraction of clauses. Any polynomial-time
+algorithm guaranteeing better than $1 - \varepsilon$ would distinguish the two cases — solving
+NP-complete SAT exactly. This yields optimal inapproximability constants:
+
+| Problem | Best polynomial approximation | Hardness (via PCP) |
+|---|---|---|
+| MAX-3SAT | $\tfrac{7}{8}$ (random assignment) | better than $\tfrac{7}{8}$ is NP-hard |
+| Vertex cover | $2 - o(1)$ | better than $2 - \varepsilon$ is NP-hard (UG-hard at 2) |
+| Set cover | $\ln n$ | $(1 - o(1)) \ln n$ is NP-hard |
+| Chromatic number | $n^{1-\varepsilon}$ | $n^{1-\varepsilon}$ is NP-hard |
+
+Before the PCP theorem these gaps had no explanation; after it, "the best known approximation
+ratio equals random assignment" stopped being an embarrassment and became a theorem's
+fingerprint.
+
+**Connection to interactive proofs.** The PCP theorem is the compiled form of the
+**IP = PSPACE** result: an interactive proof protocol between a verifier and a (possibly
+untrusted) prover can be converted, by committing the prover to answers via Merkle-tree-style
+cryptographic hashing, into a non-interactive oracle proof inspectable in constant queries.
+This lineage — interactive proofs → probabilistically checkable proofs → delegation of
+computation — is the foundation of modern *proofs of proximity*, *SNARKs*, and verifiable
+delegation in blockchain systems.
+
+**In one sentence.** Every NP statement has proofs that certify themselves: if the claim is
+true, some proof survives arbitrary probing; if false, every proof is caught by a constant-size
+glance — and this impossible-sounding object is exactly what makes approximation hardness and
+modern verifiable computation possible.
 
 ### Where to go next
 
