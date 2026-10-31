@@ -319,5 +319,5 @@ Theory](/10-measure-theory/2_measures/).
   characteristic functions and distributions
 - [Measure Theory](/10-measure-theory/2_measures/); the Lebesgue integral
   behind expectation
-- [Posterior Asymptotics](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/) : where these ideas go at research level
+- [Posterior Asymptotics](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/): where these ideas go at research level
 - [How to Use These Notes](/how-to-use/); the method

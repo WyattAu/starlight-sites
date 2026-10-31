@@ -290,7 +290,7 @@ and choosing the wrong one silently changes the drift.
 
 ## Where the research frontier is
 
-- **Rough paths.** Lyons' theory constructs the integral for *any* rough signal : not just Brownian motion — by treating the iterated integrals as extra data.
+- **Rough paths.** Lyons' theory constructs the integral for *any* rough signal: not just Brownian motion — by treating the iterated integrals as extra data.
   It removes the probabilistic structure entirely and gives pathwise meaning to
   what Itô defines in $L^2$. It also explains *why* Itô's correction exists: it
   is the Lévy area.
@@ -353,6 +353,6 @@ Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
   the axioms, filtrations and adaptedness
 - [Measure Theory](/10-measure-theory/2_measures/); the integral the Itô
   isometry lives in
-- [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/) : the $L^2$ structure
-- [Posterior Asymptotics](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/) : the statistical counterpart
+- [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/): the $L^2$ structure
+- [Posterior Asymptotics](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/): the statistical counterpart
 - [How to Use These Notes](/how-to-use/); the method

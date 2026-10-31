@@ -92,7 +92,7 @@ Two hypotheses convert this identity into guarantees, and it is worth naming whi
 
 **Theorem 5.1.** If $E[u \mid X] = 0$, then $E[\hat{\beta}] = \beta$.
 
-**Proof.** By the decomposition, $E[\hat{\beta} \mid X] = \beta + (X'X)^{-1}X'E[u \mid X] = \beta$ : conditioning on $X$ makes $(X'X)^{-1}X'$ a fixed matrix, so it pulls through the conditional
+**Proof.** By the decomposition, $E[\hat{\beta} \mid X] = \beta + (X'X)^{-1}X'E[u \mid X] = \beta$: conditioning on $X$ makes $(X'X)^{-1}X'$ a fixed matrix, so it pulls through the conditional
 expectation, and strict exogeneity kills the second term. Then the tower law gives
 $E[\hat{\beta}] = E\bigl[E[\hat{\beta} \mid X]\bigr] = \beta$. $\blacksquare$
 

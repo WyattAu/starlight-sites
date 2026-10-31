@@ -247,5 +247,5 @@ Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) and
   measurable functions between probability spaces
 - [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/); where
   countable additivity pays off
-- [Sigma-Algebras and Measurable Spaces](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) : the measure-theoretic version of this page
+- [Sigma-Algebras and Measurable Spaces](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/): the measure-theoretic version of this page
 - [How to Use These Notes](/how-to-use/); the method

@@ -294,6 +294,6 @@ ergodic; common in statistical mechanics reasoning; is unjustified.
 
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/) -
   the Tier-U treatment this builds on
-- [Noether's Theorem and Conservation Laws](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/) : symmetries and integrals of motion
-- [Nonlinear Dynamics and Chaos](/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/) : the dissipative counterpart
+- [Noether's Theorem and Conservation Laws](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/): symmetries and integrals of motion
+- [Nonlinear Dynamics and Chaos](/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/): the dissipative counterpart
 - [How to Use These Notes](https://mathematics.wyattau.com/how-to-use/); the method

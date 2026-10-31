@@ -281,7 +281,7 @@ $\langle x, y - y' \rangle = 0$ for all $x$; take $x = y - y'$ and get $\|y - y'
 
 **Proof.** Define $\Phi : H \to H^*$ by $\Phi(y) = \varphi_y$ where
 $\varphi_y(x) = \langle x, y \rangle$. By Theorem 2.10, $\Phi$ is bijective and isometric:
-$\|\varphi_y\| = \|y\|$. It is *anti-linear*; $\Phi(\alpha y + \beta y') = \bar{\alpha}\Phi(y) + \bar{\beta}\Phi(y')$ : because of the conjugate-linearity of the inner product in its second argument, which is the
+$\|\varphi_y\| = \|y\|$. It is *anti-linear*; $\Phi(\alpha y + \beta y') = \bar{\alpha}\Phi(y) + \bar{\beta}\Phi(y')$: because of the conjugate-linearity of the inner product in its second argument, which is the
 structural price of the isomorphism. $\blacksquare$
 
 ### 2.6 Key Relationships

@@ -85,7 +85,8 @@ dimension as $X$ for the just-identified case; otherwise more), the 2SLS estimat
 $$
 \hat{\beta}_{2SLS} = (X' P_Z X)^{-1} X' P_Z y, \qquad P_Z = Z(Z'Z)^{-1}Z',
 $$
- equivalently: regress each column of $X$ on $Z$ to get fitted $\hat{X} = P_Z X$, then
+
+- equivalently: regress each column of $X$ on $Z$ to get fitted $\hat{X} = P_Z X$, then
 regress $y$ on $\hat{X}$.
 
 **Theorem 4.1.** $\operatorname{plim}\, \hat{\beta}_{2SLS} = \beta$ under relevance and

@@ -303,6 +303,6 @@ Theory](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/) and
   group theory background
 - [Field Theory](/1-abstract-algebra/12_field-theory/); where the
   characteristic comes from
-- [Galois Theory Fundamentals](/1-abstract-algebra/13_galois-theory-fundamentals/) : the standard representation of $S_3$ and the cubic
-- [Spectral Theory of Self-Adjoint Operators](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/) : the parallel decomposition theorem
+- [Galois Theory Fundamentals](/1-abstract-algebra/13_galois-theory-fundamentals/): the standard representation of $S_3$ and the cubic
+- [Spectral Theory of Self-Adjoint Operators](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/): the parallel decomposition theorem
 - [How to Use These Notes](/how-to-use/); the method

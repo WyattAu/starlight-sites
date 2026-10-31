@@ -50,7 +50,7 @@ proof for this special case); infinitely many primes ending in ...001 (i.e. $1 \
 The general theorem needs complex analysis (L-functions); quote it, do not prove it, unless the
 course covers Dirichlet characters.
 
-Special case worth knowing: the Euclid-style proof of infinitely many primes $\equiv 3 \pmod 4$ : suppose $p_1, \ldots, p_k$ are all of them, set $N = 4 p_1 \cdots p_k - 1$; every prime factor
+Special case worth knowing: the Euclid-style proof of infinitely many primes $\equiv 3 \pmod 4$: suppose $p_1, \ldots, p_k$ are all of them, set $N = 4 p_1 \cdots p_k - 1$; every prime factor
 of $N$ is $\equiv 3 \pmod 4$ (products of numbers $\equiv 1 \bmod 4$ are $1 \bmod 4$) and cannot
 be among the $p_i$, contradiction.
 

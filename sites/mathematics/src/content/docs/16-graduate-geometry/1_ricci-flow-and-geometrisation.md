@@ -224,7 +224,7 @@ its engine, written out.
 ## Singularity formation: why the problem is hard
 
 The flow develops **singularities** in finite time. On a sphere, the metric
-shrinks to a point in finite time $T$, with curvature blowing up like $1/(T-t)$ : and at $T$ you can rescale and the manifold *is* the round sphere, so the
+shrinks to a point in finite time $T$, with curvature blowing up like $1/(T-t)$: and at $T$ you can rescale and the manifold *is* the round sphere, so the
 flow has done its job.
 
 On a general 3-manifold, singularities can be worse: necks can pinch, and the
@@ -245,7 +245,8 @@ $$
 \mathcal{W}(g, f) = \int \left( R|\nabla f|^2 + \frac{f - 2n}{2(T-t)} \right)
 (4\pi(T-t))^{-n/2} e^{-f}\, dV
 $$
- which is non-decreasing under the coupled flow of the metric and the
+
+- which is non-decreasing under the coupled flow of the metric and the
 function $f$. Monotonicity gives non-collapsing (a lower volume bound at
 singularities), which is what makes the blow-up limits non-trivial and
 classifiable.
@@ -356,6 +357,6 @@ Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/) and
   the scalar curvature
 - [Geodesics](/12-differential-geometry/6_geodesics/); the flow's geodesics
   and how they deform
-- [The Gauss-Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/) : the 2-dimensional case of uniformisation
-- [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/) : the PDE theory the flow needs
+- [The Gauss-Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/): the 2-dimensional case of uniformisation
+- [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/): the PDE theory the flow needs
 - [How to Use These Notes](/how-to-use/); the method

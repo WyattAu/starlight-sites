@@ -117,7 +117,7 @@ $x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$.
 $\varphi \in X^*$, so $\sup_n |\varphi(x_n)| < \infty$ for each *fixed*
 $\varphi$. The family $\{x_n\} \subseteq X \subseteq X^{**}$ is therefore
 pointwise bounded as a family of functionals on $X^*$, and
-[the uniform boundedness principle](/11-functional-analysis/4_the-fundamental-theorems/) : page 4's Theorem 4.11, with $X^*$ in the role of the complete space — gives
+[the uniform boundedness principle](/11-functional-analysis/4_the-fundamental-theorems/): page 4's Theorem 4.11, with $X^*$ in the role of the complete space — gives
 $\sup_n \|x_n\| = \sup_n \|(x_n)^{**}\| < \infty$. $\blacksquare$
 
 Note the proof's direction: weak convergence is convergence in the weak*
@@ -150,7 +150,7 @@ $1$ while the weak limit has norm $0$.
 **Lemma 6.9 (Mazur).** If $x_n \rightharpoonup x$, then some sequence of convex
 combinations of the $x_n$ converges to $x$ in norm.
 
-*Proof.* For each $N$, let $C_N = \overline{\operatorname{conv}}\{x_m : m \geq N\}$ : closed, convex, non-empty. *Claim:* $x \in C_N$ for every $N$.
+*Proof.* For each $N$, let $C_N = \overline{\operatorname{conv}}\{x_m : m \geq N\}$: closed, convex, non-empty. *Claim:* $x \in C_N$ for every $N$.
 
 Suppose not: $x \notin C_N$ for some $N$. Since $C_N$ is closed, convex and $x$
 is a positive distance outside it, the geometric form of Hahn–Banach; the

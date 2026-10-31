@@ -169,4 +169,4 @@ makes them possible.
   rigour ladder in practice
 - [Measure Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) -
   where the undergraduate treatment is rebuilt on better foundations
-- [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/) : the advanced tier
+- [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/): the advanced tier

@@ -70,7 +70,8 @@ $\lambda = \partial c / \partial y$ by the envelope theorem, proved in §4.
 $$
 \frac{\partial c}{\partial w_j}(w, y) = x_j(w, y)
 $$
- the partial derivative of the cost function with respect to input price $j$ is the
+
+- the partial derivative of the cost function with respect to input price $j$ is the
 conditional demand for input $j$.
 
 **Proof.** The proof mirrors Shephard's lemma for the expenditure function on the consumer
@@ -128,7 +129,7 @@ supply. One envelope argument, two duality pairs.
 ### 5. Duality: Production Function ↔ Cost Function
 
 **Theorem 5.1.** If $f$ is continuous, increasing, and quasi-concave, then $c(w, y)$ is
-continuously differentiable in $w$, increasing, homogeneous of degree one, concave in $w$, and : when $f$ is additionally **nondecreasing and unbounded** — the production function can be
+continuously differentiable in $w$, increasing, homogeneous of degree one, concave in $w$, and: when $f$ is additionally **nondecreasing and unbounded** — the production function can be
 recovered from $c$:
 
 $$

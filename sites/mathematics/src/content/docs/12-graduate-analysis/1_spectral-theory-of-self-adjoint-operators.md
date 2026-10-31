@@ -394,9 +394,9 @@ the part blocked practice never trains.
 
 ## See Also
 
-- [Normed Spaces and Banach Spaces](/11-functional-analysis/1_normed-spaces-and-banach-spaces/) : the background for bounded operators
-- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/) : resolvents and the Neumann series
-- [The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/) : Riesz representation, used implicitly throughout
-- [Lebesgue Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/) : the measure-theoretic background
+- [Normed Spaces and Banach Spaces](/11-functional-analysis/1_normed-spaces-and-banach-spaces/): the background for bounded operators
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/): resolvents and the Neumann series
+- [The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/): Riesz representation, used implicitly throughout
+- [Lebesgue Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/): the measure-theoretic background
 - [How to Use These Notes](/how-to-use/); the method, and why recall prompts
   come first

@@ -46,7 +46,7 @@ wrong is part of knowing how much to trust it.
 ## Self-tests
 
 Each page closes with self-test items keyed to its sections, written as retrieval practice. The
-harder ones ask where an argument used no-arbitrage versus where it used a preference assumption : the distinction that separates pricing results from equilibrium results, and the one exam
+harder ones ask where an argument used no-arbitrage versus where it used a preference assumption: the distinction that separates pricing results from equilibrium results, and the one exam
 answers most often blur.
 
 ## The writing convention

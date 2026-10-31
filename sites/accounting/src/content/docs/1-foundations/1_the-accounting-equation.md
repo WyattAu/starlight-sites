@@ -108,7 +108,7 @@ Every line balances because every entry was double-entry; Theorem 2.1 executing 
 ### 6. What This Page Sets Up
 
 Revenue and expense accounts are temporary equity sub-accounts: they accumulate the period's
-changes to equity, then are closed into it. That is why Case 2 covers "revenue earned on credit" : the credit to revenue is a credit to a future piece of equity. The
+changes to equity, then are closed into it. That is why Case 2 covers "revenue earned on credit": the credit to revenue is a credit to a future piece of equity. The
 [accounting cycle](/2-the-accounting-cycle/) runs this machinery across a full period, adding the
 accrual principle's adjustments; the equation remains the invariant throughout.
 

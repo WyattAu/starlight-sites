@@ -359,7 +359,7 @@ indicate loss of minimizing property.
 
 ### 6.12 The Morse Index Theorem
 
-**Theorem 6.7 (Morse Index Theorem).** The **index** of a geodesic segment $\gamma : [0, 1] \to M$ : the dimension of the largest subspace of endpoint-vanishing variation fields on which the index
+**Theorem 6.7 (Morse Index Theorem).** The **index** of a geodesic segment $\gamma : [0, 1] \to M$: the dimension of the largest subspace of endpoint-vanishing variation fields on which the index
 form $I$ is negative definite; equals the number of conjugate points to $p$ along $\gamma$ in
 $(0, 1)$, counted with multiplicity (each conjugate point contributing as many directions as there
 are independent Jacobi fields vanishing there).

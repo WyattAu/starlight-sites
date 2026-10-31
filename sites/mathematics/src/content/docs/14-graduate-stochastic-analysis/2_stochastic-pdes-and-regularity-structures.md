@@ -343,6 +343,6 @@ Integration](/14-graduate-stochastic-analysis/1_ito-integration-and-formula/),
   the product rule this subject lives or dies by
 - [Measure Theory](/10-measure-theory/2_measures/); why white noise is not
   measurable in the spaces the estimates want
-- [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/) : Banach-valued integration and the spaces solutions live in
-- [Ricci Flow and Geometrisation](/16-graduate-geometry/1_ricci-flow-and-geometrisation/) : the same renormalisation thinking in geometry
+- [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/): Banach-valued integration and the spaces solutions live in
+- [Ricci Flow and Geometrisation](/16-graduate-geometry/1_ricci-flow-and-geometrisation/): the same renormalisation thinking in geometry
 - [How to Use These Notes](/how-to-use/); the method

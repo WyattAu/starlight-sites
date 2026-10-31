@@ -154,7 +154,7 @@ a finite union of finite sets, hence finite; so the intersection is cofinite.
 $\blacksquare$
 
 The proof shows precisely where infinitude breaks: an *arbitrary* union of
-complements would be an arbitrary union of finite sets, which can be infinite : $\bigcup_n (\mathbb{N} \setminus \{n\}) = \mathbb{N}$, and $\mathbb{N}$
+complements would be an arbitrary union of finite sets, which can be infinite: $\bigcup_n (\mathbb{N} \setminus \{n\}) = \mathbb{N}$, and $\mathbb{N}$
 itself is not cofinite-complement. The finite-intersections axiom is what the
 cofinite topology can satisfy; the arbitrary-union complement behaviour is what
 it cannot exceed.

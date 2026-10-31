@@ -77,7 +77,7 @@ sufficient, and the corrections hold both standards.
 ## Where the site is going
 
 Foundations and the cycle open the site; management accounting (cost behaviour, budgeting,
-variance analysis) is the planned second subject area, built on the same mechanics-first standard : every variance computed from a source, every standard justified.
+variance analysis) is the planned second subject area, built on the same mechanics-first standard: every variance computed from a source, every standard justified.
 
 ## The reading order
 

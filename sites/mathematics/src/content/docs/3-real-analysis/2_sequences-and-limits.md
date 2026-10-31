@@ -267,7 +267,7 @@ be constructed as a completion rather than assumed.
 ## Interleaving problems
 
 Mix these with problems from [The Real Number
-System](/3-real-analysis/1_the-real-number-system/) and [Series](/3-real-analysis/3_series/) : deciding *which* tool to use is the part blocked practice never trains.
+System](/3-real-analysis/1_the-real-number-system/) and [Series](/3-real-analysis/3_series/): deciding *which* tool to use is the part blocked practice never trains.
 
 1. Show $a_n = \sqrt{n^2 + n} - n \to \tfrac12$, by rationalising and then
    bounding.
@@ -289,6 +289,6 @@ System](/3-real-analysis/1_the-real-number-system/) and [Series](/3-real-analysi
 - [Series](/3-real-analysis/3_series/); sequences of partial sums
 - [Continuity](/3-real-analysis/4_continuity/); the same definition, one
   abstraction up
-- [Measure Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) : where convergence gets harder and more useful
+- [Measure Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/): where convergence gets harder and more useful
 - [How to Use These Notes](/how-to-use/); the method, and why recall prompts
   come first

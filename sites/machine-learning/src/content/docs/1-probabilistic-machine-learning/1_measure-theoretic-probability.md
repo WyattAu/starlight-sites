@@ -140,7 +140,7 @@ and independently $X_n \xrightarrow{L^p} X \Rightarrow X_n \xrightarrow{P} X$.
 
 - **Almost sure:** $P(\{\omega : X_n(\omega) \to X(\omega)\}) = 1$; a
   statement about one probability measure on the *sequence* space.
-- **In probability:** $\forall \varepsilon > 0$, $P(|X_n - X| > \varepsilon) \to 0$ : a statement about each $n$ separately.
+- **In probability:** $\forall \varepsilon > 0$, $P(|X_n - X| > \varepsilon) \to 0$: a statement about each $n$ separately.
 - **In $L^p$:** $\mathbb{E}|X_n - X|^p \to 0$; the strongest, and the one that
   lets expectations pass through limits.
 - **In distribution:** $F_{X_n}(t) \to F_X(t)$ at continuity points; a

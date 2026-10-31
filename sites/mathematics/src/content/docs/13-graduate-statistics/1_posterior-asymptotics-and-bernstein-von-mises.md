@@ -167,7 +167,7 @@ in $n$. $\blacksquare$
 contraction theorem above replaces one move of this proof. The exponential
 testing condition is Schwartz's hypothesis verbatim; the sieve is what
 replaces the compact complement $\Theta_0^c$ when entropy is infinite; and the
-prior-mass condition is the Kullback–Leibler property. Each of the three moves : exponential testing, entropy control, prior mass — is a hypothesis in the
+prior-mass condition is the Kullback–Leibler property. Each of the three moves: exponential testing, entropy control, prior mass — is a hypothesis in the
 modern theorem, and each fails in a way the failure-mode section below
 documents.
 
@@ -436,8 +436,8 @@ unbounded and the parameter space is not locally identifiable.
 
 ## See Also
 
-- [Probability and Statistics](/8-probability-and-statistics/1_probability-spaces/) : the Tier-F probability background
+- [Probability and Statistics](/8-probability-and-statistics/1_probability-spaces/): the Tier-F probability background
 - [Measure Theory](/10-measure-theory/2_measures/); the integral the
   posterior is defined with
-- [Functional Analysis](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/) : Hilbert spaces in the white-noise model
+- [Functional Analysis](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/): Hilbert spaces in the white-noise model
 - [How to Use These Notes](/how-to-use/); the method

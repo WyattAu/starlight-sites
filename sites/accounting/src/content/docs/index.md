@@ -30,7 +30,7 @@ built to make the why visible.
 
 ## Start here
 
-- Begin with [The Accounting Equation and Double Entry](/1-foundations/1_the-accounting-equation/) : the invariant, the proof that double entry preserves it through all four entry shapes, and a
+- Begin with [The Accounting Equation and Double Entry](/1-foundations/1_the-accounting-equation/): the invariant, the proof that double entry preserves it through all four entry shapes, and a
   worked example balancing after every event.
 - Then [the cycle](/2-the-accounting-cycle/): the same machinery executed across a full period,
   with adjustments justified by the accrual principle and the statements constructed from the

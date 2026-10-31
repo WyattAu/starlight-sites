@@ -19,7 +19,7 @@ Mathematics has a technical vocabulary that school never defines; not because
 the terms are advanced, but because school mathematics never asks you to *prove*
 anything, and these terms are the language of proof. "Without loss of
 generality" appears 144 times across this site; "if and only if" 87 times; "up
-to isomorphism" 8 times. A reader who does not know what they mean will be lost : not because the mathematics is hard, but because the *English* is.
+to isomorphism" 8 times. A reader who does not know what they mean will be lost: not because the mathematics is hard, but because the *English* is.
 
 This page defines each term precisely, with examples of correct and incorrect
 use, so no reader is lost by vocabulary alone. The terms are ordered by how
