@@ -27,7 +27,7 @@ counterexample ends the matter; which is why finding them is so valuable.
 obtained by completing the square; and completing the square is also how you
 $e = \lim_{n\to\infty}(1 + 1/n)^n$; a limit, justified rigorously in the
 radians**; $\frac{d}{dx}\sin x = \cos x$ is false in degrees, because the
-| $\tan\theta$ | $0$ | $1/\sqrt3$ | $1$ | $\sqrt3$ | - |
+| $\tan\theta$ | $0$ | $1/\sqrt3$ | $1$ | $\sqrt3$ |; |
 cosine is even, sine is odd; visible from the unit circle.
 $\cos 2\theta = \cos^2\theta - \sin^2\theta = 2\cos^2\theta - 1 = 1 - 2\sin^2\theta$. Rearranged: $\cos^2\theta = \frac{1 + \cos 2\theta}{2}$ -
 is a level set of a quadratic; which is why completing the square classifies

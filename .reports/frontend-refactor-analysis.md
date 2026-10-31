@@ -9,8 +9,8 @@
 | **Package Mgr** | Bun | 1.2+ | Current; keep |
 | **Linter** | Biome | 2.5.0 | Current; keep |
 | **Testing** | Vitest + Playwright + Node test runner | 4.1.9 / 1.61.0 | Good; keep |
-| **Deployment** | Cloudflare Pages | - | Good; keep |
-| **Landing Page** | Plain static HTML | - | **Migrate to Astro** |
+| **Deployment** | Cloudflare Pages |; | Good; keep |
+| **Landing Page** | Plain static HTML |; | **Migrate to Astro** |
 1. **Landing page (`main`)** is plain HTML with inline CSS; no framework, no reuse, no type safety
 2. **No animation library**; only basic CSS transitions
 3. **No toast/notification system**; user feedback is ad-hoc
