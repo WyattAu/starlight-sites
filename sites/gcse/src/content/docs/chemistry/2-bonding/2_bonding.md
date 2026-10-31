@@ -55,10 +55,10 @@ the ionic compound together.
 
 **Example: Sodium chloride (NaCl)**
 
-$$\mathrm{Na \to \mathrm{Na^+ + e^-$$ $$\mathrm{Cl + e^- \to \mathrm{Cl^-$$
+$$\mathrm{Na} \to \mathrm{Na^+} + e^-$$ $$\mathrm{Cl} + e^- \to \mathrm{Cl^-}$$
 $$
-\mathrm{Na^+ + \mathrm{Cl^- \to \mathrm{NaCl
-$$
+\mathrm{Na^+} + \mathrm{Cl^-} \to \mathrm{NaCl
+}$$
 
 Sodium (Group 1) loses one electron to achieve a full outer shell (like neon). Chlorine (Group 7)
 Gains one electron to achieve a full outer shell (like argon).
@@ -145,8 +145,54 @@ Magnesium ($2, 8, 2$) loses 2 electrons to form Mg$^{2+}$. Oxygen ($2, 6$) gains
 O$^{2-}$.
 
 $$
-\mathrm{Mg + \mathrm{O \to \mathrm{Mg^{2+} + \mathrm{O^{2-}
-$$
+\mathrm{Mg} + \mathrm{O} \to \mathrm{Mg^{2+}} + \mathrm{O^{2-}
+}$$
+
+**Example: Sodium chloride (NaCl)**
+
+<svg viewBox="0 0 420 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+  <!-- Na⁺ ion on the left -->
+  <path d="M 48,40 L 40,40 L 40,140 L 48,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <circle cx="90" cy="90" r="28" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+  <text x="90" y="90" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">Na</text>
+  <circle cx="90" cy="90" r="14" stroke="#d1d5db" fill="none" stroke-width="1"/>
+  <circle cx="83" cy="90" r="2.5" fill="#6b7280"/>
+  <circle cx="97" cy="90" r="2.5" fill="#6b7280"/>
+  <path d="M 132,40 L 140,40 L 140,140 L 132,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <text x="146" y="55" font-size="16" fill="#dc2626" font-weight="bold">+</text>
+  <text x="90" y="160" text-anchor="middle" font-size="12" fill="#6b7280">Na⁺</text>
+  <!-- Cl⁻ ion on the right -->
+  <path d="M 218,40 L 210,40 L 210,140 L 218,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <circle cx="260" cy="90" r="28" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+  <text x="260" y="90" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">Cl</text>
+  <!-- 8 outer electrons: 1 dot (from Na) + 7 crosses (Cl's own) -->
+  <circle cx="260" cy="62" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+  <line x1="277" y1="65" x2="287" y2="75" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="287" y1="65" x2="277" y2="75" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="296" y1="76" x2="306" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="306" y1="76" x2="296" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="294" y1="90" x2="304" y2="90" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="304" y1="90" x2="294" y2="90" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="286" y1="106" x2="294" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="294" y1="106" x2="286" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="262" y1="118" x2="270" y2="126" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="270" y1="118" x2="262" y2="126" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="238" y1="106" x2="244" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="244" y1="106" x2="238" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="216" y1="76" x2="224" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="224" y1="76" x2="216" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <path d="M 302,40 L 310,40 L 310,140 L 302,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <text x="316" y="55" font-size="16" fill="#2563eb" font-weight="bold">−</text>
+  <text x="260" y="160" text-anchor="middle" font-size="12" fill="#6b7280">Cl⁻</text>
+  <!-- Arrow -->
+  <text x="170" y="90" text-anchor="middle" font-size="14" fill="#9ca3af">⟶</text>
+  <text x="170" y="108" text-anchor="middle" font-size="10" fill="#9ca3af">1 e⁻ transfer</text>
+</svg>
+<p style="text-align:center;font-size:12px;color:#6b7280;margin:4px 0">Sodium chloride (NaCl): sodium transfers one electron to chlorine. ● = sodium&#39;s electron, ✕ = chlorine&#39;s electrons</p>
+
+Sodium ($2, 8, 1$) loses its one outer electron to form Na$^{+}$ (its outer shell is now empty).
+Chlorine ($2, 8, 7$) gains that electron to form Cl$^{-}$, completing its outer shell with eight
+electrons (one from sodium, seven of its own).
 
 **Example: Calcium chloride (CaCl$_2$)**
 
@@ -154,8 +200,8 @@ Calcium ($2, 8, 8, 2$) loses 2 electrons. Each chlorine ($2, 8, 7$) gains 1 elec
 Atoms are needed.
 
 $$
-\mathrm{Ca + 2\mathrm{Cl \to \mathrm{Ca^{2+} + 2\mathrm{Cl^-
-$$
+\mathrm{Ca} + 2\mathrm{Cl} \to \mathrm{Ca^{2+}} + 2\mathrm{Cl^-
+}$$
 
 **Example: Sodium oxide (Na$_2$O)**
 
@@ -163,8 +209,8 @@ Each sodium ($2, 8, 1$) loses 1 electron. Oxygen ($2, 6$) gains 2 electrons. Two
 needed.
 
 $$
-2\mathrm{Na + \mathrm{O \to 2\mathrm{Na^+ + \mathrm{O^{2-}
-$$
+2\mathrm{Na} + \mathrm{O} \to 2\mathrm{Na^+} + \mathrm{O^{2-}
+}$$
 
 **Example: Aluminium oxide (Al$_2$O$_3$)**
 
@@ -173,8 +219,8 @@ form O$^{2-}$. The lowest common multiple of 3 and 2 is 6, so we need two alumin
 oxygen atoms.
 
 $$
-2\mathrm{Al + 3\mathrm{O \to 2\mathrm{Al^{3+} + 3\mathrm{O^{2-}
-$$
+2\mathrm{Al} + 3\mathrm{O} \to 2\mathrm{Al^{3+}} + 3\mathrm{O^{2-}
+}$$
 
 **Worked Example.** Draw the dot and cross diagram for calcium fluoride (CaF$_2$).
 
@@ -405,8 +451,8 @@ Together.
 </svg>
 
 $$
-\mathrm{H \cdot + \cdot \mathrm{H \to \mathrm{H - \mathrm{H
-$$
+\mathrm{H \cdot} + \cdot \mathrm{H} \to \mathrm{H} - \mathrm{H
+}$$
 
 **Water (H$_2$O):** Oxygen has 6 outer electrons and needs 2 more. Each hydrogen has 1 electron.
 
@@ -466,8 +512,10 @@ of electrons.
 <line x1="132.5" y1="125.0" x2="142.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
   <line x1="142.5" y1="125.0" x2="132.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
 <text x="160" y="245" text-anchor="middle" font-size="12" fill="#6b7280">Four shared pairs (single covalent bonds)</text>
-</svg> Carbon achieves a
-Full outer shell of 8 electrons, and each hydrogen achieves a full outer shell of 2 electrons.
+</svg>
+
+Carbon achieves a full outer shell of 8 electrons, and each hydrogen achieves a
+full outer shell of 2 electrons.
 
 **Ammonia (NH$_3$):** Nitrogen has 5 outer electrons and needs 3 more. Each hydrogen has 1 electron.
 Nitrogen forms three single bonds and retains one lone pair.
@@ -972,11 +1020,11 @@ The nanoparticle has a surface area to volume ratio about $10^7$ times larger.
 For a cube of side length $s$:
 
 $$
-\mathrm{Surface area = 6s^2, \quad \mathrm{Volume = s^3
+\mathrm{Surface area} = 6s^2, \quad \mathrm{Volume} = s^3
 $$
 
 $$
-\frac{\mathrm{Surface area}{\mathrm{Volume} = \frac{6s^2}{s^3} = \frac{6}{s}
+\frac{\mathrm{Surface area}{\mathrm{Volume}}} = \frac{6s^2}{s^3} = \frac{6}{s}
 $$
 
 The ratio is inversely proportional to the side length. As $s$ decreases, the ratio increases. This
