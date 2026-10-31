@@ -1,1 +1,175 @@
+---
+
+sources:
+  - text: Standard textbook reference
+
+title: "IB Economics"
+description: "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness."
+tags: [ib, ib-economics]
+categories: [ib-economics]
+date: 2026-05-21
+---
+sources:
+  - text: Standard textbook reference
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "ib", "url": "https://ib.wyattau.com"}, {"name": "Economics", "url": "https://ib.wyattau.com/economics"}, {"name": "Index", "url": "https://ib.wyattau.com/economics/index"}]
+}
+</script>
+
+<!-- Course Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "IB Economics",
+  "description": "IB Economics notes covering key definitions, core concepts, worked examples, and practice questions for targeted revision and exam readiness.",
+  "provider": {
+    "@type": "Organization",
+    "name": "Wyatt's Notes",
+    "url": "https://ib.wyattau.com"
+  },
+  "url": "https://ib.wyattau.com",
+  "educationalLevel": "Secondary",
+  "inLanguage": "en",
+  "isAccessibleForFree": true,
+  "hasCourseInstance": {
+    "@type": "CourseInstance",
+    "courseMode": "online",
+    "courseWorkload": "PT1H"
+  }
+}
+</script>
+
+## Intuition
+
+
+:::note[Going further with economics?]
+These pages teach the exam: diagrams, evaluation structure, and the
+institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
 is the university layer underneath; micro theory, econometrics, and game theory
+with the core theorems (Slutsky, Gauss--Markov, Nash existence) proved in full,
+and the proofs are where the assumptions behind the exam diagrams become
+visible. Skippable by design: the exam content stands on its own.
+:::
+
+**Economics is the study of choices under scarcity, how individuals, firms, and governments allocate limited resources:** Economic thinking reveals hidden trade-offs and incentives in every decision, from personal budgets to national policy
+
+**Why it matters:** Economic literacy is essential for informed citizenship and navigating an increasingly complex world
+
+**The key insight:** Economic thinking reveals hidden trade-offs and incentives in every decision, from personal budgets to national policy
+
+## 1. Microeconomics
+
+- [Supply and Demand](/economics/1-microeconomics/1_supply-and-demand/), scarcity, PPF, supply and demand,
+  consumer choice
+- [Elasticity](/economics/1-microeconomics/2_elasticity/), price, income, and cross-price elasticity of
+  demand and supply
+- [Market Failure](/economics/1-microeconomics/3-market-failure/), externalities, public goods, information
+  asymmetry, government intervention and failure
+- [Theory of the Firm](/economics/1-microeconomics/4-theory-of-the-firm/), market structures, perfect and
+  imperfect competition, oligopoly, monopoly, production theory
+
+## 2. Macroeconomics
+
+- [National Income](/economics/2-macroeconomics/1-national-income/), GDP, GNP, GNI, national income
+  accounting, GDP deflator, PPP
+- [Fiscal Policy](/economics/2-macroeconomics/2-fiscal-policy/), government spending, taxation, budget
+  deficits, crowding out, fiscal rules
+- [Monetary Policy](/economics/2-macroeconomics/3-monetary-policy/), interest rates, money supply,
+  inflation, monetary transmission, quantitative easing
+- [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/), aggregate demand and supply,
+  supply-side policies, economic growth, business cycles, Laffer curve
+
+## 3. International Economics
+
+- [International Trade](/economics/3-international-economics/1-trade/), comparative advantage, free trade,
+  trade protection, economic integration, WTO, globalisation
+- [Exchange Rates](/economics/3-international-economics/2-exchange-rates/), exchange rate systems,
+  determination, floating and fixed rates
+- [Balance of Payments](/economics/3-international-economics/3-balance-of-payments/), BOP accounts, current
+  account, capital account, FDI, multinational corporations
+
+## 4. Development Economics
+
+- [Measuring Development](/economics/4-development-economics/1-measuring-development/), GDP, HDI, Gini
+  coefficient, Lorenz curve, composite indicators
+- [Barriers to Growth](/economics/4-development-economics/2-barriers-to-growth/), poverty trap, debt,
+  institutional failure, Harrod-Domar, Lewis model, dual economy
+- [Trade and Aid](/economics/4-development-economics/3-trade-and-aid/), foreign aid, FDI, sustainable
+  development, microfinance, technology leapfrogging, SDGs
+
+## 5. Quantitative Economics
+
+- [Descriptive Statistics](/economics/5-quantitative-economics/1-descriptive-statistics/), real vs nominal,
+  compound interest, CBA, Lorenz curve, Gini, poverty, HDI, multiplier, IS-LM
+- [Index Numbers](/economics/5-quantitative-economics/2-index-numbers/), index number construction,
+  weighting, chaining, splicing, Laspeyres and Paasche indices
+
+## 6. Game Theory
+
+- [Game Theory and Behavioural Economics](/economics/6-game-theory/1_game-theory-and-behavioural/), Nash
+  equilibrium, prisoner"s dilemma, heuristics, biases, nudge theory, auctions
+
+## Study Tips
+
+- Use real-world examples for every concept, examiners reward applied knowledge of current economic
+  events and policies
+- Practise drawing and labelling diagrams (supply/demand, AD/AS, Lorenz curve) as they carry
+  significant marks in paper-based questions
+- Learn the precise definitions of key terms; IB mark schemes often require exact terminology to
+  earn full marks
+- Review past paper questions by topic and compare your responses against the published mark schemes
+  to understand the level of depth expected
+- For the internal assessment, choose news articles early and focus on linking multiple economic
+  concepts to the same article
+- Create a glossary of definitions as you study; Paper 1 and Paper 2 both begin with
+  short-definition questions that require precise wording
+
+## Overview
+
+This section provides comprehensive Ib Economics content, covering all specification points with detailed explanations, worked examples, and practice questions.
+
+## Content Structure
+
+Each page in this section includes:
+
+- **Definitions**: Clear, precise explanations of key concepts
+- **Worked Examples**: Step-by-step solutions with annotations
+- **Practice Questions**: Examination-style questions with detailed solutions
+- **Common Pitfalls**: Errors to avoid and how to fix them
+- **Exam Tips**: Strategies for maximising marks
+
+## How to Use These Notes
+
+1. Read the introductory page to understand the topic overview
+2. Work through each sub-topic in order
+3. Attempt the practice questions before checking solutions
+4. Use the flashcards to revise key terminology
+5. Complete the diagnostic test to identify remaining gaps
+
+## Key Topics
+
+- Core definitions and principles
+- Application to examination-style questions
+- Links to related topics across the specification
+- Assessment objective alignment
+
+## Revision Strategies
+
+- **Active Recall**: Test yourself regularly rather than re-reading notes
+- **Spaced Practice**: Revisit this topic at increasing intervals
+- **Interleaving**: Mix with other topics during revision sessions
+- **Elaboration**: Explain concepts in your own words
+
+## Exam Preparation
+
+## Cross-References
+
+- [Biology](https://gcse.wyattau.com/biology/)
+- [Chemistry](https://alevel.wyattau.com/chemistry/chemistry/)
+- [Computer Science](../computer-science/computer-science)
