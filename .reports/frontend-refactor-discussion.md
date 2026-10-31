@@ -1,6 +1,6 @@
 **Status:** Draft; pending decision
-| CI/CD | GitHub Actions |; | Current |
-| Hosting | Cloudflare (static + Workers) |; | Current |
+| CI/CD | GitHub Actions | - | Current |
+| Hosting | Cloudflare (static + Workers) | - | Current |
 | Node.js | Already using Bun | **Skip**; Bun is faster, already adopted |
 | Bun | Already using v1.2 | **Keep**; No action needed |
 | pnpm | Bun workspaces already handle monorepo | **Skip**; Bun's workspace support is sufficient |
