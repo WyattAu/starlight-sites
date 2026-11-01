@@ -13425,7 +13425,7 @@ Fertiliser to agricultural land. In your answer, describe the effects on (a) the
 **Answer.** (a) Excess nitrogen fertiliser (as $\mathrm{NH_4NO_3}$ or $\mathrm{NH_4^+}$) increases
 the Concentration of ammonium and nitrate in the soil far above natural levels. This can inhibit
 Nitrogen-fixing bacteria (because they have no selective advantage when fixed nitrogen is abundant)
-and Stimulate denitrifying bacteria, increasing $\mathrm{N_2\mathrm{O}$ emissions (a potent
+and Stimulate denitrifying bacteria, increasing $\mathrm{N_2\mathrm{O}}$ emissions (a potent
 greenhouse gas). The natural balance between fixation, nitrification, and denitrification is
 disrupted.
 
@@ -14235,7 +14235,7 @@ lost as:
 
 **Example:**
 
-- If the producer level captures $100,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}$ of light energy.
+- If the producer level captures $100,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$ of light energy.
 - Primary consumers receive approximately $10,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$.
 - Secondary consumers receive approximately $1,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$.
 - Tertiary consumers receive approximately $100\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$.
@@ -14246,13 +14246,13 @@ To convert biomass to energy:
 
 1. Dry the sample to constant mass (remove all water).
 2. Weigh the dry biomass.
-3. Multiply by the energy content per unit dry mass (approximately $18\ \mathrm{kJ\ g^{-1}$ for
+3. Multiply by the energy content per unit dry mass (approximately $18\ \mathrm{kJ\ g^{-1}}$ for
    plant material).
 
-**Example:** A forest produces $2,500\ \mathrm{kg\ ha^{-1}\ yr^{-1}$ of dry biomass.
+**Example:** A forest produces $2,500\ \mathrm{kg\ ha^{-1}\ yr^{-1}}$ of dry biomass.
 
 $$
-\mathrm{NPP} = 2,500\ \times 18 = 45,000\ \mathrm{kJ\ ha^{-1}\ yr^{-1}
+\mathrm{NPP} = 2,500\ \times 18 = 45,000\ \mathrm{kJ\ ha^{-1}\ yr^{-1}}
 $$
 
 $$
@@ -14261,7 +14261,7 @@ $$
 
 Ecological efficiency (efficiency of energy transfer from producers to primary consumers):
 
-If primary consumers consume $5,000\ \mathrm{kg\ ha^{-1}\ yr^{-1}$ of plant biomass:
+If primary consumers consume $5,000\ \mathrm{kg\ ha^{-1}\ yr^{-1}}$ of plant biomass:
 
 $$
 \text{Efficiency} = \frac{5,000 \times 18}{63,000} \times 100 = 14.3\%
@@ -15240,7 +15240,7 @@ $$
 $$
 
 The $\mathrm{H^+}$ ions are taken up by haemoglobin (acting as a buffer), causing $\mathrm{O_2}$ to
-be released (the Bohr effect). $\mathrm{HCO_3^-$ ions are exchanged for $\mathrm{Cl^-}$ ions
+be released (the Bohr effect). $\mathrm{HCO_3^-}$ ions are exchanged for $\mathrm{Cl^-}$ ions
 (chloride shift) to maintain electrochemical neutrality.
 
 ## 7. Quantitative Gas Exchange: Fick's Law Applications
@@ -16579,7 +16579,7 @@ $\mathrm{CO_2}$ is transported in the blood in three forms:
 
 | Form                                        | Percentage of $\mathrm{CO_2}$ Transport | Description                                                                                                                                                                                                                                                                                |
 | ------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Hydrogencarbonate ions ($\mathrm{HCO_3^-}$) | $\approx 70\%$                          | $\mathrm{CO_2}$ diffuses into red blood cells; carbonic anhydrase catalyses: $\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}$. $\mathrm{HCO_3^-$ moves out into the plasma (chloride shift: $\mathrm{Cl^-}$ moves in to maintain electrical neutrality). |
+| Hydrogencarbonate ions ($\mathrm{HCO_3^-}$) | $\approx 70\%$                          | $\mathrm{CO_2}$ diffuses into red blood cells; carbonic anhydrase catalyses: $\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}$. $\mathrm{HCO_3^-}$ moves out into the plasma (chloride shift: $\mathrm{Cl^-}$ moves in to maintain electrical neutrality). |
 | Carbaminohaemoglobin                        | $\approx 23\%$                          | $\mathrm{CO_2}$ binds reversibly to the amino groups of haemoglobin (not the same site as $\mathrm{O_2}$).                                                                                                                                                                                 |
 | Dissolved in plasma                         | $\approx 7\%$                           | $\mathrm{CO_2}$ is directly dissolved in blood plasma.                                                                                                                                                                                                                                     |
 
@@ -16598,7 +16598,7 @@ In the lungs (reverse Bohr effect):
 
 - Low $p\mathrm{CO_2}$ (expired air) $\to$ higher pH $\to$ increased haemoglobin affinity for
   $\mathrm{O_2}$ $\to$ $\mathrm{O_2}$ is loaded.
-- $\mathrm{HCO_3^-$ diffuses back into red blood cells; carbonic anhydrase catalyses the reverse
+- $\mathrm{HCO_3^-}$ diffuses back into red blood cells; carbonic anhydrase catalyses the reverse
   reaction; $\mathrm{CO_2}$ is exhaled.
 
 ## 24. Plant Transport: Detailed Vascular System
@@ -17054,10 +17054,10 @@ $$
 
 | Symbol            | Meaning                                                                                           | Unit                                             |
 | ----------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| Rate of diffusion | Volume per unit time                                                                              | $\mathrm{mol\ s^{-1}$ or $\mathrm{cm^3\ s^{-1}$  |
-| $D$               | Diffusion coefficient (a constant for a given substance in a given medium at a given temperature) | $\mathrm{m^2\ s^{-1}$                            |
+| Rate of diffusion | Volume per unit time                                                                              | $\mathrm{mol\ s^{-1}}$ or $\mathrm{cm^3\ s^{-1}}$  |
+| $D$               | Diffusion coefficient (a constant for a given substance in a given medium at a given temperature) | $\mathrm{m^2\ s^{-1}}$                            |
 | $A$               | Surface area across which diffusion occurs                                                        | $\mathrm{m^2}$                                   |
-| $\Delta C$        | Concentration gradient                                                                            | $\mathrm{mol\ mm^{-1}$ or $\mathrm{mol\ cm^{-3}$ |
+| $\Delta C$        | Concentration gradient                                                                            | $\mathrm{mol\ mm^{-1}}$ or $\mathrm{mol\ cm^{-3}}$ |
 | $\Delta x$        | Diffusion distance (thickness of membrane or tissue)                                              | $\mathrm{m}$ or $\mu$ M                           |
 
 </div>
@@ -17070,7 +17070,7 @@ For oxygen diffusing across the alveolar membrane:
 
 | Feature                                                 | Typical Value                                                               | Effect on Diffusion                                      |
 | ------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------- |
-| $D$ (diffusion coefficient for $\mathrm{O_2}$ in water) | ~1.7 $\times 10^{-9}\ \mathrm{m^2\ s^{-1}$                                  | Increases with temperature; larger for smaller molecules |
+| $D$ (diffusion coefficient for $\mathrm{O_2}$ in water) | ~1.7 $\times 10^{-9}\ \mathrm{m^2\ s^{-1}}$                                  | Increases with temperature; larger for smaller molecules |
 | $A$ (alveolar surface area)                             | ~70 m2 (combined total)                                                     | Larger area = faster diffusion                           |
 | $\Delta C$ ($\mathrm{O_2}$ gradient)                    | Alveolar $\mathrm{pO_2}$ (~13 kPa) vs venous blood $\mathrm{pO_2}$ (~5 kPa) | Larger gradient = faster diffusion                       |
 | $\Delta x$ (alveolar membrane thickness)                | ~1--2 $\mu$ M                                                                | Shorter distance = faster diffusion                      |
@@ -29863,7 +29863,7 @@ LTP is the cellular basis of learning and memory in the hippocampus:
 2. This causes a large, sustained depolarisation of the postsynaptic neuron (EPSPs summate).
 3. The depolarisation is sufficient to activate NMDA receptors, allowing $\mathrm{Ca^{2+}}$ to enter
    the postsynaptic neuron.
-4. $\mathrm{Ca^{2+}$ activates $\mathrm{Ca^{2+}}$/calmodulin-dependent protein kinase II (CaMKII).
+4. $\mathrm{Ca^{2+}}$ activates $\mathrm{Ca^{2+}}$/calmodulin-dependent protein kinase II (CaMKII).
 5. CaMKII phosphorylates AMPA receptors, causing them to be inserted into the postsynaptic membrane
    (more AMPA receptors $\to$ larger EPSPs to the same stimulus).
 6. The synapse is now "strengthened": the same presynaptic stimulus produces a larger postsynaptic
@@ -31331,7 +31331,7 @@ absorption.
 Aquatic plants face a unique challenge: $\mathrm{CO_2}$ dissolves in water and forms carbonic acid:
 
 $$
-\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^- \rightleftharpoons 2H^+ + CO_3^{2-}
+\mathrm{CO_2} + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^- \rightleftharpoons 2H^+ + CO_3^{2-}
 $$
 
 This reduces the concentration of freely available $\mathrm{CO_2}$ (as dissolved $\mathrm{CO_2}$),
@@ -31794,7 +31794,7 @@ crops at 1000 ppm $\mathrm{CO_2}$).
 ### 22.3 Light and Plant Growth
 
 **Worked Example.** A greenhouse uses LED grow lights providing
-$200\ \mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}$ of PAR (photosynthetically active radiation, 400--700
+$200\ \mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$ of PAR (photosynthetically active radiation, 400--700
 nm). The greenhouse floor area is $200\ \mathrm{m^2}$. Electricity costs $\pounds 0.15$ per kWh.
 
 Daily light integral (DLI) for a 16-hour photoperiod:
@@ -33078,7 +33078,7 @@ $\mathrm{CO_2}$:
 
 | Method                       | Principle                                                                                   | Measurement                                                               |
 | ---------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Oxygen electrode             | Measures $\mathrm{O_2}$ concentration in solution using a Clark-type electrode              | Rate of $\mathrm{O_2}$ production ($\mu\mathrm{mol\ O_2\ m^{-2}\ s^{-1}$) |
+| Oxygen electrode             | Measures $\mathrm{O_2}$ concentration in solution using a Clark-type electrode              | Rate of $\mathrm{O_2}$ production ($\mu\mathrm{mol\ O_2\ m^{-2}\ s^{-1}}$) |
 | Audus microburette           | Collects $\mathrm{O_2}$ bubbles from an aquatic plant (e.g., _Elodea_) in a capillary tube  | Volume of $\mathrm{O_2}$ produced per unit time                           |
 | Mass spectrometry            | Measures uptake of $\mathrm{^{13}CO_2}$ and production of $\mathrm{^{13}C}$-labelled sugars | Rate of carbon fixation                                                   |
 | Chlorophyll fluorimeter      | Measures fluorescence emitted by chlorophyll when light is shone on a leaf                  | Efficiency of photosystem II ($F_v/F_m$ ratio)                            |
@@ -33891,7 +33891,7 @@ Different respiratory substrates release different amounts of energy per unit ma
 
 Lipids contain approximately 2.5 times more energy per gram than carbohydrates because they have a
 higher proportion of $\mathrm{C{-}H}$ bonds (which release more energy when oxidised than
-$\mathrm{C{-}O$ bonds). This is why lipids are preferred for long-term energy storage.
+$\mathrm{C{-}O}$ bonds). This is why lipids are preferred for long-term energy storage.
 
 ### 7.2 Respiratory Quotient (RQ)
 
@@ -34339,7 +34339,7 @@ Energy value: $61 \times 30.5 = 1860.5\ \mathrm{kJ\ mol^{-1}}$.
 
 Compare with glucose: $32 \times 30.5 = 976\ \mathrm{kJ\ mol^{-1}}$.
 
-Palmitic acid (256 $\mathrm{g\ mol^{-1}}$) produces approximately $1860\ \mathrm{kJ\ mol^{-1}$ Or
+Palmitic acid (256 $\mathrm{g\ mol^{-1}}$) produces approximately $1860\ \mathrm{kJ\ mol^{-1}}$ Or
 $7.27\ \mathrm{kJ\ g^{-1}}$. Glucose (180 $\mathrm{g\ mol^{-1}}$) produces approximately
 $976\mathrm{kJ\ mol^{-1}}$ Or $5.42\ \mathrm{kJ\ g^{-1}}$.
 
@@ -37290,8 +37290,8 @@ Sulfuric acid ($\mathrm{H}_2\mathrm{SO}_4$) is a diprotic acid:
 
 **Worked Example:** Calculate the pH of $0.050\,\mathrm{mol\,dm^{-3}}$ $\mathrm{H}_2\mathrm{SO}_4$.
 
-The first dissociation gives $[\mathrm{H}^+] = 0.050\,\mathrm{mol\,dm^{-3}$ and
-$[\mathrm{HSO}_4^-] = 0.050\,\mathrm{mol\,dm^{-3}$.
+The first dissociation gives $[\mathrm{H}^+] = 0.050\,\mathrm{mol\,dm^{-3}}$ and
+$[\mathrm{HSO}_4^-] = 0.050\,\mathrm{mol\,dm^{-3}}$.
 
 For the second dissociation: let $x$ be the additional $[\mathrm{H}^+]$ from $\mathrm{HSO}_4^-$.
 
@@ -45396,7 +45396,7 @@ interact only through weaker dipole-dipole forces and London forces (1 mark).
 <details>
 <summary>Q2 (6 marks)</summary>
 
-Draw the dot-and-cross diagram for the carbonate ion, $\mathrm{CO}_3^{2-$. Explain the bond lengths
+Draw the dot-and-cross diagram for the carbonate ion, $\mathrm{CO}_3^{2}-$. Explain the bond lengths
 observed in the ion.
 
 **Mark Scheme:**
@@ -55892,7 +55892,7 @@ $$
 Where $Q$ is the reaction quotient.
 
 **Calculate the cell potential for
-$\mathrm{Zn}|\mathrm{Zn}^{2+}(0.010\,\mathrm{mol\,dm^{-3})||\mathrm{Cu}^{2+}(0.001\,\mathrm{mol\,dm^{-3})|\mathrm{Cu}$
+$\mathrm{Zn}|\mathrm{Zn}^{2+}(0.010\,\mathrm{mol\,dm^{-3})||\mathrm{Cu}^{2+}(0.001\,\mathrm{mol\,dm^{-3})|\mathrm{Cu}}}$
 at $298\,\mathrm{K}$.**
 
 $$
@@ -61679,7 +61679,7 @@ to $0.100\,\mathrm{mol\,dm^{-3}}$ in 120 s.
 
 (b) Calculate the half-life. (1 mark)
 
-(c) Calculate the time for the concentration to fall to $0.025\,\mathrm{mol\,dm^{-3}$. (2 marks)
+(c) Calculate the time for the concentration to fall to $0.025\,\mathrm{mol\,dm^{-3}}$. (2 marks)
 
 **Mark Scheme:**
 
@@ -61698,7 +61698,7 @@ value.)
 $t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{5.78 \times 10^{-3}} = 120\,\mathrm{s}$
 (1 mark.)
 
-(c) $0.025\,\mathrm{mol\,dm^{-3} = 0.200 \times \left(\frac{1}{2}\right)^n$ where $n$ is the number
+(c) $0.025\,\mathrm{mol\,dm^{-3}} = 0.200 \times \left(\frac{1}{2}\right)^n$ where $n$ is the number
 of half-lives.
 
 $\frac{0.025}{0.200} = 0.125 = \left(\frac{1}{2}\right)^3$ So $n = 3$ half-lives.
@@ -64287,7 +64287,7 @@ $$
 
 **Worked Example:** $25.0\,\mathrm{cm}^3$ of potassium manganate(VII) solution was used to titrate
 $20.0\,\mathrm{cm}^3$ of an iron(II) sulphate solution. The mean titre was $19.6\,\mathrm{cm}^3$ and
-the $\mathrm{KMnO}_4$ concentration was $0.0200\,\mathrm{mol\,dm^{-3}$. Calculate the concentration
+the $\mathrm{KMnO}_4$ concentration was $0.0200\,\mathrm{mol\,dm^{-3}}$. Calculate the concentration
 of the iron(II) solution.
 
 $$
@@ -65527,7 +65527,7 @@ equilibrium.
 **Worked Example:** Calculate the temperature at which $\Delta G = 0$ for the reaction
 $\mathrm{N}_2\mathrm{O}_4(g) \rightleftharpoons 2\mathrm{NO}_2(g)$ Given
 $\Delta H^\circ = +57.2\,\mathrm{kJ/mol}$ and
-$\Delta S^\circ = +175.8\,\mathrm{J\,K^{-1}\,\mathrm{mol}^{-1}$.
+$\Delta S^\circ = +175.8\,\mathrm{J\,K^{-1}\,\mathrm{mol}^{-1}}$.
 
 At $\Delta G = 0$: $0 = \Delta H^\circ - T\Delta S^\circ$
 
@@ -65592,7 +65592,7 @@ $$
 $$
 
 $\Delta H^\circ = +877\,\mathrm{kJ/mol}$,
-$\Delta S^\circ = +193\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}$
+$\Delta S^\circ = +193\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}}$
 
 $$
 \Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = 877000 - 1500 \times 193 = 877000 - 289500 = 587500\,\mathrm{J/mol} = +588\,\mathrm{kJ/mol}
@@ -65640,7 +65640,7 @@ different ions (1 mark).
 
 For the reaction $\mathrm{A}(g) + 2\mathrm{B}(g) \to \mathrm{C}(g) + \mathrm{D}(g)$:
 
-$\Delta H^\circ = -85\,\mathrm{kJ/mol}$, $\Delta S^\circ = -120\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}$
+$\Delta H^\circ = -85\,\mathrm{kJ/mol}$, $\Delta S^\circ = -120\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}}$
 
 (a) Calculate $\Delta G^\circ$ at $298\,\mathrm{K}$. (2 marks)
 
@@ -239358,7 +239358,7 @@ $$
 $$
 
 $$
-\boxed{v_{\mathrm{rms}} = \sqrt{\frac{3k_BT}{m}} = \sqrt{\frac{3RT}{M_r}}
+\boxed{v_{\mathrm{rms}}} = \sqrt{\frac{3k_BT}{m}} = \sqrt{\frac{3RT}{M_r}}
 $$
 
 Where $M_r$ is the molar mass.

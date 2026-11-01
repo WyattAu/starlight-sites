@@ -81,7 +81,7 @@ Maintenance debt that compounds over time.
 Each normal form is a strict subset of the one below it:
 
 $$
-1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF
+1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF}
 $$
 
 A relation in BCNF is automatically in 3NF, 2NF, and 1NF. The higher the normal form, the less
@@ -1929,7 +1929,7 @@ Reason about query correctness and performance.
 
 ### Selection (sigma)
 
-Filters tuples based on a predicate. Denoted $\sigma_{\mathrm{predicate}(R)$.
+Filters tuples based on a predicate. Denoted $\sigma_{\mathrm{predicate}(R)}$.
 
 ```sql
 -- sigma_{salary > 100000}(Employee)
@@ -1938,7 +1938,7 @@ SELECT * FROM Employee WHERE salary > 100000;
 
 ### Projection (pi)
 
-Selects a subset of attributes. Denoted $\pi_{\mathrm{attr_1, \mathrm{attr_2}(R)$.
+Selects a subset of attributes. Denoted $\pi_{\mathrm{attr_1, \mathrm{attr_2}(R)}}$.
 
 ```sql
 -- pi_{name, salary}(Employee)
@@ -1990,7 +1990,7 @@ Given `Takes(student, course)` and `RequiredCourse(course)`Find students who hav
 courses:
 
 $$
-\pi_{\mathrm{student, \mathrm{course}(\mathrm{Takes) \div \pi_{\mathrm{course}(\mathrm{RequiredCourse)
+\pi_{\mathrm{student, \mathrm{course}(\mathrm{Takes) \div \pi_{\mathrm{course}(\mathrm{RequiredCourse)}}}}}
 $$
 
 SQL has no direct division operator. You simulate it with a double `NOT EXISTS`:
@@ -2033,7 +2033,7 @@ SELECT name FROM suppliers;
 
 ### Rename (rho)
 
-The rename operation, denoted $\rho_{\mathrm{new\_name}(R)$ Gives a relation or its attributes new
+The rename operation, denoted $\rho_{\mathrm{new\_name}(R)}$ Gives a relation or its attributes new
 Names. In SQL, this is `AS`:
 
 ```sql
@@ -2487,7 +2487,7 @@ $$
 **Domain relational calculus:** variables range over attribute values (domains).
 
 $$
-\{ \lt \mathrm{name, \mathrm{salary \gt \mid \exists d, s (\mathrm{Employee(d, \mathrm{name, s) \land s \gt 100000) \}
+\{ \lt \mathrm{name, \mathrm{salary \gt \mid \exists d, s (\mathrm{Employee(d, \mathrm{name, s) \land s \gt 100000) \}}}}}
 $$
 
 Codd's theorem (1972) proves that relational algebra and relational calculus are **equivalent** in
@@ -2510,7 +2510,7 @@ A decomposition of relation $R$ into $R_1$ and $R_2$ is **lossless** if $R_1 \bo
 Information is lost). A decomposition is lossless if and only if:
 
 $$
-R_1 \cap R_2 \rightarrow R_1 \mathrm{ or  R_1 \cap R_2 \rightarrow R_2
+R_1 \cap R_2 \rightarrow R_1 \mathrm{ or  R_1 \cap R_2 \rightarrow R_2}
 $$
 
 That is, the common attributes form a superkey for at least one of the decomposed relations.
@@ -4963,11 +4963,11 @@ B+ Tree (all data in leaves, leaves linked):
 For a B+ tree with fan-out $f$ (number of children per internal node) and height $h$:
 
 $$
-\mathrm{Max entries = f^h
+\mathrm{Max entries} = f^h
 $$
 
 $$
-\mathrm{Height = \lceil \log_f N \rceil
+\mathrm{Height} = \lceil \log_f N \rceil
 $$
 
 In practice:
@@ -5336,21 +5336,21 @@ Bitmap Scan (sequential I/O):
 **Nested Loop Join:**
 
 - For each row in the outer table, look up matching rows in the inner table using an index
-- Cost: $O(N_{\mathrm{outer} \times \log N_{\mathrm{inner})$ with index on inner
+- Cost: $O(N_{\mathrm{outer} \times \log N_{\mathrm{inner})}}$ with index on inner
 - Best for: small outer table, indexed inner table, or when only a few rows match
 
 **Hash Join:**
 
 - Build an in-memory hash table from the inner (smaller) table, then probe with the outer table
-- Cost: $O(N_{\mathrm{inner} + N_{\mathrm{outer})$
+- Cost: $O(N_{\mathrm{inner}} + N_{\mathrm{outer})}$
 - Best for: large tables, equi-joins, when the inner table fits in memory (work_mem)
 - Fallback: if the hash table exceeds `work_mem`Spills to disk (slow)
 
 **Merge Join:**
 
 - Both inputs must be sorted on the join key; merge in a single pass
-- Cost: $O(N_{\mathrm{outer} \log N_{\mathrm{outer} + N_{\mathrm{inner} \log N_{\mathrm{inner})$ for
-  sorting, $O(N_{\mathrm{outer} + N_{\mathrm{inner})$ for merge
+- Cost: $O(N_{\mathrm{outer} \log N_{\mathrm{outer}}} + N_{\mathrm{inner} \log N_{\mathrm{inner})}}$ for
+  sorting, $O(N_{\mathrm{outer}} + N_{\mathrm{inner})}$ for merge
 - Best for: pre-sorted inputs, large result sets, range joins
 
 ### Understanding Cost Estimates
@@ -8780,11 +8780,11 @@ The PACELC theorem (Abadi, 2012) extends CAP: when there is **no** partition (th
 System must choose between **L**atency and **C**onsistency:
 
 $$
-\mathrm{PA \to \mathrm{EL : \mathrm{when no partition, prefer availability and latency over consistency
+\mathrm{PA} \to \mathrm{EL : \mathrm{when no partition, prefer availability and latency over consistency}}
 $$
 
 $$
-\mathrm{PC \to \mathrm{EC : \mathrm{when no partition, prefer consistency, accepting higher latency
+\mathrm{PC} \to \mathrm{EC : \mathrm{when no partition, prefer consistency, accepting higher latency}}
 $$
 
 This captures a nuance that CAP misses: even during normal operation (no partition), systems make
@@ -12931,7 +12931,7 @@ Responsible for a subset of the data.
 **Hash-based sharding:**
 
 $$
-\mathrm{shard = \mathrm{hash(\mathrm{key) \pmod{\mathrm{num\_shards}
+\mathrm{shard} = \mathrm{hash(\mathrm{key) \pmod{\mathrm{num\_shards}}}}
 $$
 
 - Even data distribution

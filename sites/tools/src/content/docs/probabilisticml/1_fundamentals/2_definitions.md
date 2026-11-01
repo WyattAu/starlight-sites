@@ -1227,9 +1227,7 @@ For a random variable $X$ taking values in an inner product space (
 $\mathbb{R}^d$ or a Hilbert space $\mathcal{H}$),
 the characteristic function is defined as: $$ \varphi_X(t) =
 \mathbb{E}\left[ e^{i \langle t, X \rangle} \right], \quad t \in
-\mathcal{H}
-
-$$
+\mathcal{H} $$
 where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^d$, this
 reduces to $\varphi_X(t) = \mathbb{E}\left[ e^{i t^\top X} \right]$ with
 $t \in \mathbb{R}^d$.

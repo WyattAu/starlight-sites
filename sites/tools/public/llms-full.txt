@@ -4722,7 +4722,7 @@ Height of the left subtree.
 ### Balance Factor
 
 $$
-\mathrm{bf(v) = \mathrm{height(v.\mathrm{right) - \mathrm{height(v.\mathrm{left)
+\mathrm{bf(v)} = \mathrm{height(v.\mathrm{right)}} - \mathrm{height(v.\mathrm{left)}}
 $$
 
 After every insertion or deletion, we walk back up from the modified node to the root, rebalancing
@@ -4932,7 +4932,7 @@ Internal nodes has height at most $2 \log_2(n+1)$.
 
 **Proof sketch**: the shortest path from root to leaf has only black nodes (length = bh), and the
 Longest has alternating red-black (length = 2 \cdot bh). Since at least half the nodes on any
-Root-to-leaf path are black, the height $h \le 2 \cdot \mathrm{bh$. A tree with black-height $b$ has
+Root-to-leaf path are black, the height $h \le 2 \cdot \mathrm{bh}$. A tree with black-height $b$ has
 at least $2^b - 1$ internal nodes, so $n \ge 2^{h/2} - 1$ Giving $h \le 2 \log_2(n+1)$.
 
 ### Node Definition
@@ -5362,17 +5362,17 @@ class SplayTree:
 ### Amortised Analysis
 
 The splay operation has amortised cost $O(\log n)$ using the **potential method**. Define the
-Potential of node $x$ with rank $r(x) = \lfloor \log_2(\mathrm{size(x)) \rfloor$. The amortised cost
-of a splay is bounded by $1 + 3(r(\mathrm{root) - r(x)) = O(\log n)$.
+Potential of node $x$ with rank $r(x) = \lfloor \log_2(\mathrm{size(x)) \rfloor}$. The amortised cost
+of a splay is bounded by $1 + 3(r(\mathrm{root)} - r(x)) = O(\log n)$.
 
 The **access lemma** states that the amortised cost of splaying node $x$ is at most
-$3(\log_2 n - \log_2(\mathrm{size(x))) + 1$ Which means frequently accessed nodes move toward the
+$3(\log_2 n - \log_2(\mathrm{size(x)))} + 1$ Which means frequently accessed nodes move toward the
 Root and become cheaper to access.
 
 ### Static Optimality Theorem
 
 For any sequence of $m$ accesses on a splay tree with $n$ nodes, the total access time is
-$O(m \log n + \mathrm{OPT)$ where OPT is the optimal access time using any static binary search
+$O(m \log n + \mathrm{OPT)}$ where OPT is the optimal access time using any static binary search
 tree. This means splay trees are within a constant factor of optimal for any access pattern.
 
 ## Treaps
@@ -5694,7 +5694,7 @@ $O(g(n))$ is the set of all functions $f(n)$ for which there exist positive cons
 such that:
 
 $$
-0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0
+0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0}
 $$
 
 Big-O provides an **upper bound** on the growth rate of a function. Saying $f(n) = O(n^2)$ means
@@ -5715,7 +5715,7 @@ $\Omega(g(n))$ is the set of all functions $f(n)$ for which there exist positive
 $n_0$ such that:
 
 $$
-0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0
+0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0}
 $$
 
 Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$ It means no matter how
@@ -5728,7 +5728,7 @@ $f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exac
 as $g(n)$ Up to constant factors.
 
 $$
-0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0
+0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0}
 $$
 
 :::note
@@ -6317,7 +6317,7 @@ Analysis gives expected running time over a random input. Quicksort with random 
 Expected $O(n \log n)$ comparisons, but the expected number of comparisons can be computed exactly:
 
 $$
-E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
+E[\mathrm{comparisons]} = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
 $$
 
 Where $H_n = \sum_{i=1}^{n} 1/i$ is the $n$-th harmonic number. The constant $1.386$ is about 39%
@@ -6384,7 +6384,7 @@ Amortised cost of each operation is $O(\log n)$ Proven using the potential metho
 The potential function for splay trees is:
 
 $$
-\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))
+\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))}
 $$
 
 Where `size(v)` is the number of nodes in the subtree rooted at `v`. The potential is always
@@ -7611,7 +7611,7 @@ Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $
 value of items selected. Each item can be taken at most once.
 
 $$
-dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i
+dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i}
 $$
 
 ```python
@@ -8562,7 +8562,7 @@ Given coins of different denominations and a target amount, find the minimum num
 to make that amount. Return -1 if it is not possible.
 
 $$
-dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin
+dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin}
 $$
 
 ```python
@@ -8714,7 +8714,7 @@ Given items with weights and values, and a knapsack with capacity $W$ Maximise t
 without exceeding the capacity.
 
 $$
-dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w
+dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w}
 $$
 
 ```python
@@ -9679,7 +9679,7 @@ def a_star(graph, source, target, heuristic):
 
 **Admissibility:** The heuristic $h(v)$ must satisfy
 $h(v) \le \mathrm{actual distance from  v
-\mathrm{ to target$. Common heuristics:
+\mathrm{ to target}}$. Common heuristics:
 
 <div class="table-wrap">
 
@@ -10664,7 +10664,7 @@ def huffman(frequencies):
 ### Expected Code Length
 
 $$
-L = \sum_{i=1}^{n} f_i \cdot \mathrm{len(c_i)
+L = \sum_{i=1}^{n} f_i \cdot \mathrm{len(c_i)}
 $$
 
 For a source with entropy $H = -\sum f_i \log_2 f_i$ Huffman coding satisfies $H \le L \lt H + 1$
@@ -11840,7 +11840,7 @@ Function $h_i$ maps an element to a row and column.
 | Operation | Algorithm                                 | Time   | Error                    |
 | --------- | ----------------------------------------- | ------ | ------------------------ |
 | Increment | For each row $i$: `count[i][h_i(x)] += 1` | $O(d)$ | N/A                      |
-| Estimate  | Return $\min_i \mathrm{count[i][h_i(x)]$  | $O(d)$ | $\le \mathrm{true count$ |
+| Estimate  | Return $\min_i \mathrm{count[i][h_i(x)]}$  | $O(d)$ | $\le \mathrm{true count}$ |
 | Space     | $d \times w$ counters                     | N/A    | N/A                      |
 
 </div>
@@ -13578,8 +13578,8 @@ Tim Peters for Python in 2002. It is the default sort in Python, Java (for objec
 3. **Merge runs:** Maintain a stack of run lengths. Merge runs when the top of the stack violates
    two invariants:
 
-- $|\mathrm{run_i| \gt |\mathrm{run_{i+1}| + |\mathrm{run_{i+2}|$
-- $|\mathrm{run_{i+1}| \gt |\mathrm{run_{i+2}|$
+- $|\mathrm{run_i| \gt |\mathrm{run_{i+1}|}} + |\mathrm{run_{i+2}|}$
+- $|\mathrm{run_{i+1}| \gt |\mathrm{run_{i+2}|}}$
 
 ### Why TimSort Is Fast in Practice
 
@@ -14416,7 +14416,7 @@ by at most 1. Named after Adelson-Velsky and Landis (1962).
 ### Balance Factor
 
 The balance factor of a node is:
-$\mathrm{bf(node) = \mathrm{height(\mathrm{left) - \mathrm{height(\mathrm{right)$.
+$\mathrm{bf(node)} = \mathrm{height(\mathrm{left)}} - \mathrm{height(\mathrm{right)}}$.
 
 Valid balance factors: $\{-1, 0, 1\}$. If the balance factor is outside this range, rotations are
 Needed to restore balance.
@@ -14662,7 +14662,7 @@ class Trie:
 | Insert                | $O(k)$                   | $O(k)$                 |
 | Exact search          | $O(k)$                   | $O(k)$ average         |
 | Prefix search         | $O(k)$                   | $O(n \cdot k)$         |
-| Space                 | $O(\mathrm{total chars)$ | $O(n \cdot k)$         |
+| Space                 | $O(\mathrm{total chars)}$ | $O(n \cdot k)$         |
 | Min string prefix     | $O(k)$                   | Not supported          |
 | Longest common prefix | $O(k)$                   | Not directly supported |
 
@@ -14728,7 +14728,7 @@ class GraphMatrix:
 
 | Representation   | Space      | Check edge $u$-$v$     | Iterate neighbours     | Sparse graph |
 | ---------------- | ---------- | ---------------------- | ---------------------- | ------------ |
-| Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))$ | $O(\mathrm{degree(u))$ | Efficient    |
+| Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))}$ | $O(\mathrm{degree(u))}$ | Efficient    |
 | Adjacency matrix | $O(V^2)$   | $O(1)$                 | $O(V)$                 | Wasteful     |
 
 </div>
@@ -41794,9 +41794,7 @@ For a random variable $X$ taking values in an inner product space (
 $\mathbb{R}^d$ or a Hilbert space $\mathcal{H}$),
 the characteristic function is defined as: $$ \varphi_X(t) =
 \mathbb{E}\left[ e^{i \langle t, X \rangle} \right], \quad t \in
-\mathcal{H}
-
-$$
+\mathcal{H} $$
 where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^d$, this
 reduces to $\varphi_X(t) = \mathbb{E}\left[ e^{i t^\top X} \right]$ with
 $t \in \mathbb{R}^d$.

@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Block utility/service worker paths
+Disallow: /api/
+Disallow: /sw.js
+Disallow: /reader.js
+Disallow: /cross-site-search.js
+Disallow: /page-search.js
+Disallow: /mermaid-render.js
+Disallow: /manifest.json
+
+# Allow content and assets
+Allow: /img/
+Allow: /docs/
+
+# Sitemaps
+Sitemap: https://gcse.wyattau.com/sitemap-index.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1

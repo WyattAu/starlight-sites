@@ -30866,7 +30866,7 @@ $$
 $$
 
 Products: hydrogen gas (cathode) and oxygen gas (anode). The solution becomes increasingly alkaline
-due to $\mathrm{OH^-$ accumulation.
+due to $\mathrm{OH^-}$ accumulation.
 
 ### Worked Example: Choosing a Salt Preparation Method
 
@@ -31295,7 +31295,7 @@ _If you get this wrong, revise: Buffers_
 
 <summary>Solution</summary>
 
-The added $\mathrm{OH^-$ reacts with the weak acid component:
+The added $\mathrm{OH^-}$ reacts with the weak acid component:
 
 $$
 \mathrm{CH_3COOH} + \mathrm{OH^-} \to \mathrm{CH_3COO^-} + \mathrm{H_2O}
@@ -32602,7 +32602,7 @@ _If you get this wrong, revise: Ionic Bonding and Simple Molecular vs Giant Cova
 <summary>Solution</summary>
 
 $\mathrm{NaCl}$ has a giant ionic lattice. Strong electrostatic forces between $\mathrm{Na^+}$ and
-$\mathrm{Cl^-$ act throughout the entire lattice, requiring large amounts of energy to overcome.
+$\mathrm{Cl^-}$ act throughout the entire lattice, requiring large amounts of energy to overcome.
 
 $\mathrm{CCl_4}$ is a simple molecular substance. The covalent bonds within each molecule are
 strong, but only weak van der Waals forces act between molecules. These weak intermolecular forces
@@ -46131,11 +46131,11 @@ Product: **chlorobenzene** ($\mathrm{C_6H_5Cl}$)
 (b) **Friedel-Crafts alkylation:**
 
 $$
-\mathrm{CH_3CH_2Cl} + \mathrm{AlCl_3} \to \mathrm{CH_3CH_2^+ + \mathrm{AlCl_4^-}
+\mathrm{CH_3CH_2Cl} + \mathrm{AlCl_3} \to \mathrm{CH_3CH_2^+} + \mathrm{AlCl_4^-}
 $$
 
 $$
-\mathrm{C_6H_6} + \mathrm{CH_3CH_2^+} \to \mathrm{C_6H_5CH_2CH_3 + \mathrm{H^+}
+\mathrm{C_6H_6} + \mathrm{CH_3CH_2^+} \to \mathrm{C_6H_5CH_2CH_3} + \mathrm{H^+}
 $$
 
 Product: **ethylbenzene** ($\mathrm{C_6H_5CH_2CH_3}$)
