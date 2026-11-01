@@ -4814,7 +4814,7 @@ cost of parsing $H$ and $S(H)$ the cost of serializing its semantic interface.
 **`#include` model:** Each TU independently preprocesses and parses $H$. Total cost:
 
 $$
-C_{\mathrm{include} = n \cdot (P(H) + S(H))
+C_{\mathrm{include}} = n \cdot (P(H) + S(H))
 $$
 
 **Header unit model:** $H$ is parsed once, producing a BMI. Each TU deserializes the BMI. Let $D(H)$
@@ -4822,17 +4822,17 @@ Denote deserialization cost, where $D(H) \lt P(H)$ because deserialization reads
 AST rather than re-parsing raw text. Total cost:
 
 $$
-C_{\mathrm{header\_unit} = P(H) + S(H) + n \cdot D(H)
+C_{\mathrm{header\_unit}} = P(H) + S(H) + n \cdot D(H)
 $$
 
 The savings are:
 
 $$
-C_{\mathrm{include} - C_{\mathrm{header\_unit} = (n - 1)(P(H) + S(H) - D(H))
+C_{\mathrm{include}} - C_{\mathrm{header\_unit}} = (n - 1)(P(H) + S(H) - D(H))
 $$
 
 Since $P(H) \gt D(H)$ for any non-trivial header, the savings grow linearly with the number of TUs.
-For a header like `&lt;vector&gt;` with $P(H) \approx 50\mathrm{ms$ and $D(H) \approx 5\mathrm{ms$
+For a header like `&lt;vector&gt;` with $P(H) \approx 50\mathrm{ms}$ and $D(H) \approx 5\mathrm{ms}$
 across 100 TUs, the savings are approximately $4.5$ seconds per incremental build.
 
 ## 2. The Global Module Fragment (GMF)
@@ -8456,7 +8456,7 @@ $A$ between a thread's load and its CAS. The CAS succeeds because the value is s
 Intermediate change may have invalidated invariants:
 
 $$
-\mathrm{Load(A) \to \mathrm{Other thread:  A \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds, incorrectly
+\mathrm{Load(A)} \to \mathrm{Other thread:  A} \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds, incorrectly}}
 $$
 
 `compare_exchange_weak` may fail spuriously (return `false` even when the expected value matches),
@@ -9074,11 +9074,11 @@ Machine:
 - **I:** No action.
 
 $$
-\mathrm{E \xrightarrow{\mathrm{write} \mathrm{M \quad \mathrm{S \xrightarrow{\mathrm{write request} \mathrm{RFO \to \mathrm{I \to \mathrm{M
+\mathrm{E \xrightarrow{\mathrm{write} \mathrm{M \quad \mathrm{S \xrightarrow{\mathrm{write request} \mathrm{RFO}}}}}} \to \mathrm{I} \to \mathrm{M}
 $$
 
 $$
-\mathrm{M \xrightarrow{\mathrm{snoop read} \mathrm{write-back \to \mathrm{S \quad \mathrm{I \xrightarrow{\mathrm{read miss} \mathrm{load \to \mathrm{S or E
+\mathrm{M \xrightarrow{\mathrm{snoop read} \mathrm{write}}}-back \to \mathrm{S \quad \mathrm{I \xrightarrow{\mathrm{read miss} \mathrm{load}}}} \to \mathrm{S or E}
 $$
 
 ### Formal State Transition Table
@@ -9192,7 +9192,7 @@ Same cache line ( 64 bytes). Even though the variables are logically independent
 treats them as a single unit for coherence purposes.
 
 $$
-\mathrm{False Sharing:  \mathrm{var_1 \in \mathrm{line_L \wedge \mathrm{var_2 \in \mathrm{line_L \wedge \mathrm{thread_1 \mathrm{ writes  \mathrm{var_1 \wedge \mathrm{thread_2 \mathrm{ writes  \mathrm{var_2
+\mathrm{False Sharing:  \mathrm{var_1 \in \mathrm{line_L \wedge \mathrm{var_2 \in \mathrm{line_L \wedge \mathrm{thread_1 \mathrm{ writes  \mathrm{var_1 \wedge \mathrm{thread_2 \mathrm{ writes  \mathrm{var_2}}}}}}}}}}}
 $$
 
 Each write by one thread invalidates the cache line for the other thread, causing repeated cache
@@ -9217,7 +9217,7 @@ Writes per thread.
 5. Step 3 and step 4 alternate for every write, producing a **ping-pong** pattern.
 6. Each ping-pong costs ~40-100ns (inter-core coherence latency), versus ~1-4ns for an L1 hit.
 7. For $n$ writes per thread, total coherence cost is
-   $\Theta(n \times \mathrm{coherence\_latency)$ Versus $\Theta(n \times \mathrm{L1\_latency)$
+   $\Theta(n \times \mathrm{coherence\_latency)}$ Versus $\Theta(n \times \mathrm{L1\_latency)}$
    without false sharing.
 8. The speedup from eliminating false sharing is
    $\frac{\mathrm{coherence\_latency}{\mathrm{L1\_latency} \approx 10\mathrm{x\mathrm{--100\mathrm{x$.
@@ -9917,7 +9917,7 @@ The compare-and-swap (CAS) loop is the fundamental building block of lock-free a
 Pattern is:
 
 $$
-\mathrm{loop:  \mathrm{old = \mathrm{load(x); \quad \mathrm{new = f(\mathrm{old); \quad \mathrm{if CAS(x, \mathrm{old, \mathrm{new) \mathrm{ then break
+\mathrm{loop:  \mathrm{old}} = \mathrm{load(x); \quad \mathrm{new}} = f(\mathrm{old); \quad \mathrm{if CAS(x, \mathrm{old, \mathrm{new) \mathrm{ then break}}}}}
 $$
 
 In C++, this translates to:
@@ -9987,7 +9987,7 @@ Take effect instantaneously at some point between its invocation and its respons
 Structures can achieve linearizability because CAS is itself a linearizable operation:
 
 $$
-\mathrm{CAS(x, \mathrm{old, \mathrm{new) \mathrm{ appears to execute atomically at the point where the store conditional succeeds
+\mathrm{CAS(x, \mathrm{old, \mathrm{new) \mathrm{ appears to execute atomically at the point where the store conditional succeeds}}}}
 $$
 
 This means that any data structure built entirely from CAS operations is linearizable, provided the
@@ -11031,7 +11031,7 @@ The barrier can accept a **completion function** that is executed once when all 
 Before any waiting thread is released:
 
 $$
-\mathrm{Phase  k \to \mathrm{completion function \to \mathrm{Phase  k+1
+\mathrm{Phase  k} \to \mathrm{completion function} \to \mathrm{Phase  k+1}
 $$
 
 ## Barrier Synchronization for Parallel Computation
@@ -11536,7 +11536,7 @@ Liveness analysis to minimize frame size [N4950 §9.5.4].
 The total frame size $S$ can be expressed as:
 
 $$
-S = \mathrm{sizeof(\mathrm{promise\_type) + \sum_{i \in \mathrm{live params} \mathrm{sizeof(p_i) + \sum_{j \in \mathrm{live locals} \mathrm{sizeof(l_j) + \mathrm{padding
+S = \mathrm{sizeof(\mathrm{promise\_type)}} + \sum_{i \in \mathrm{live params} \mathrm{sizeof(p_i)}} + \sum_{j \in \mathrm{live locals} \mathrm{sizeof(l_j)}} + \mathrm{padding}
 $$
 
 ### Frame Size Analysis
@@ -11587,20 +11587,20 @@ Suspension point introduces a new state, and the coroutine transitions between s
 [N4950 §9.5.4]:
 
 $$
-\mathrm{States = \{S_0, S_1, \ldots, S_n, S_{\mathrm{done}\}
+\mathrm{States} = \{S_0, S_1, \ldots, S_n, S_{\mathrm{done}\}}
 $$
 
 Where $S_0$ is the initial state (before the first suspension point), $S_i$ corresponds to the
-$i$-th suspension point, and $S_{\mathrm{done}$ is the terminal state.
+$i$-th suspension point, and $S_{\mathrm{done}}$ is the terminal state.
 
 The state machine for a coroutine with $n$ suspension points has the following transitions:
 
 $$
-S_i \xrightarrow{\mathrm{resume} S_{i+1} \quad \mathrm{for  i \in \{0, \ldots, n-1\}
+S_i \xrightarrow{\mathrm{resume} S_{i+1} \quad \mathrm{for  i \in \{0, \ldots, n}}-1\}
 $$
 
 $$
-S_n \xrightarrow{\mathrm{resume} S_{\mathrm{done}
+S_n \xrightarrow{\mathrm{resume} S_{\mathrm{done}}}
 $$
 
 At each state, the state machine executes the code segment between the previous suspension point and
@@ -11647,7 +11647,7 @@ By default, the coroutine frame is **dynamically allocated** on the heap using t
 `operator new` [N4950 §9.5.4]. The compiler generates a call equivalent to:
 
 $$
-\mathrm{frame = ::\operatorname{new}\bigl(\mathrm{sizeof(frame)\bigr)
+\mathrm{frame} = ::\operatorname{new}\bigl(\mathrm{sizeof(frame)\bigr)}
 $$
 
 There are two guaranteed elision scenarios where the compiler **may not** allocate on the heap
@@ -12153,7 +12153,7 @@ Concurrently, at least one of them performs a write, and there is no happens-bef
 between the accesses. Formally, a data race is present when all three conditions hold:
 
 $$
-\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens-before(t_1, t_2) \wedge \neg\mathrm{happens-before(t_2, t_1)
+\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens}}}}-before(t_1, t_2) \wedge \neg\mathrm{happens}-before(t_2, t_1)
 $$
 
 Where $m$ is a scalar memory location, $w$ denotes a write, $r$ denotes a read, and happens-before
@@ -12781,7 +12781,7 @@ Consumer (the code awaiting the result). They communicate through a **shared sta
 §33.6.4]:
 
 $$
-\underbrace{\mathrm{Producer}_{\mathrm{holds std::promise} \xrightarrow{\mathrm{shared state} \underbrace{\mathrm{Consumer}_{\mathrm{holds std::future}
+\underbrace{\mathrm{Producer}_{\mathrm{holds std::promise} \xrightarrow{\mathrm{shared state} \underbrace{\mathrm{Consumer}_{\mathrm{holds std::future}}}}}}
 $$
 
 The shared state transitions through these phases:
@@ -12973,7 +12973,7 @@ This means that exceptions propagate through coroutine chains, just as they woul
 Synchronous call chains:
 
 $$
-\mathrm{inner throws \rightarrow \mathrm{inner.unhandled\_exception() \rightarrow \mathrm{outer.await\_resume() rethrows
+\mathrm{inner throws \rightarrow \mathrm{inner.unhandled\_exception() \rightarrow \mathrm{outer.await\_resume() rethrows}}}
 $$
 
 ```cpp
@@ -13335,7 +13335,7 @@ are computed lazily on demand.
 The expression `co_yield expr` is defined by the standard as [N4950 §8.5.5]:
 
 $$
-\mathrm{co\_yield \; \mathrm{expr \;\equiv\; \mathrm{co\_await \; \mathrm{promise.yield\_value(\mathrm{expr)
+\mathrm{co\_yield \; \mathrm{expr \;\equiv\; \mathrm{co\_await \; \mathrm{promise.yield\_value(\mathrm{expr)}}}}}
 $$
 
 This means that `co_yield` requires the promise type to have a `yield_value` method that returns an
@@ -14171,14 +14171,14 @@ A **data dependency** exists when the address or value of one memory access depe
 Read by a prior memory access:
 
 $$
-\mathrm{data dependency:  a[i] \to b[a[i]]
+\mathrm{data dependency:  a[i]} \to b[a[i]]
 $$
 
 A **control dependency** exists when whether a memory access executes depends on the value read by a
 Prior access:
 
 $$
-\mathrm{control dependency:  \mathrm{if  (x) \{ y = 1; \}
+\mathrm{control dependency:  \mathrm{if  (x) \{ y}} = 1; \}
 $$
 
 :::caution
@@ -14215,7 +14215,7 @@ Sequenced-before relation is determined by the abstract machine's evaluation ord
   operands of `=` are indeterminately sequenced.
 
 $$
-A \xrightarrow{\mathrm{seq} B \implies B \mathrm{ observes  A \mathrm{'s side effects within the same thread
+A \xrightarrow{\mathrm{seq} B \implies B \mathrm{ observes  A \mathrm{'s side effects within the same thread}}}
 $$
 
 ## Happens-Before Relationship
@@ -14226,16 +14226,16 @@ effects of $A$.
 
 The happens-before relation is the **transitive closure** of:
 
-1. **Sequenced-before** ($\xrightarrow{\mathrm{seq}$): Within a single thread, operations are
+1. **Sequenced-before** ($\xrightarrow{\mathrm{seq}}$): Within a single thread, operations are
    ordered by the abstract machine.
 2. **Synchronizes-with**: A release operation on an atomic object $M$ in thread $A$
    **synchronizes-with** an acquire operation on $M$ in thread $B$ if $B$ reads a value written (or
    released) by $A$.
-3. **Sequenced-before is transitive**: If $A \xrightarrow{\mathrm{seq} B$ and
-   $B \xrightarrow{\mathrm{seq} C$ Then $A \xrightarrow{\mathrm{seq} C$.
+3. **Sequenced-before is transitive**: If $A \xrightarrow{\mathrm{seq} B}$ and
+   $B \xrightarrow{\mathrm{seq} C}$ Then $A \xrightarrow{\mathrm{seq} C}$.
 
 $$
-A \prec B \iff \exists\, C_1, C_2, \ldots, C_n : A \xrightarrow{\mathrm{seq} C_1 \xrightarrow{\mathrm{sw} C_2 \xrightarrow{\mathrm{seq} \ldots \xrightarrow{\mathrm{sw} C_n \xrightarrow{\mathrm{seq} B
+A \prec B \iff \exists\, C_1, C_2, \ldots, C_n : A \xrightarrow{\mathrm{seq} C_1 \xrightarrow{\mathrm{sw} C_2 \xrightarrow{\mathrm{seq} \ldots \xrightarrow{\mathrm{sw} C_n \xrightarrow{\mathrm{seq} B}}}}}
 $$
 
 **Formal definition:** $A$ happens-before $B$ ($A \prec B$) if and only if there exists a chain of
@@ -14270,7 +14270,7 @@ Variable in thread 2 if the load reads the value stored (or a value written late
 Operation) [N4950 §31.7.5]:
 
 $$
-\mathrm{store_{\mathrm{release}(x, v) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x, v)
+\mathrm{store_{\mathrm{release}(x, v) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x, v)}}}}}
 $$
 
 The synchronizes-with relationship creates a **happens-before** edge between the release store and
@@ -14795,11 +14795,11 @@ The `std::memory_order` enum [N4950 §31.7.5] defines six values:
 Memory orderings form a strict hierarchy from weakest to strongest:
 
 $$
-\mathrm{relaxed \subset \mathrm{consume \subset \mathrm{acquire \subset \mathrm{acq\_rel \subset \mathrm{seq\_cst
+\mathrm{relaxed \subset \mathrm{consume \subset \mathrm{acquire \subset \mathrm{acq\_rel \subset \mathrm{seq\_cst}}}}}
 $$
 
 $$
-\mathrm{relaxed \subset \mathrm{release \subset \mathrm{acq\_rel \subset \mathrm{seq\_cst
+\mathrm{relaxed \subset \mathrm{release \subset \mathrm{acq\_rel \subset \mathrm{seq\_cst}}}}
 $$
 
 Using a stronger ordering than necessary is always safe but may incur performance penalties. Using a
@@ -14811,7 +14811,7 @@ Relaxed atomics guarantee **atomicity only**: the operation is indivisible, but 
 Ordering constraints with respect to other memory operations.
 
 $$
-\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering
+\mathrm{relaxed:  \mathrm{atomicity \wedge \neg\mathrm{ordering}}}
 $$
 
 Use cases:
@@ -14878,21 +14878,21 @@ void reader() {
 Being reordered **before** it:
 
 $$
-\mathrm{acquire:  \forall\, w \mathrm{ after  \mathrm{load: w \nrightarrow \mathrm{before load
+\mathrm{acquire:  \forall\, w \mathrm{ after  \mathrm{load: w \nrightarrow \mathrm{before load}}}}
 $$
 
 **Release** semantics prevent memory operations **before** the atomic operation from being reordered
 **after** it:
 
 $$
-\mathrm{release:  \forall\, r \mathrm{ before  \mathrm{store: r \nrightarrow \mathrm{after store
+\mathrm{release:  \forall\, r \mathrm{ before  \mathrm{store: r \nrightarrow \mathrm{after store}}}}
 $$
 
 When a release store synchronizes-with an acquire load, a **synchronizes-with** relationship is
 Established [N4950 §31.7.5]:
 
 $$
-\mathrm{store_{\mathrm{release}(x) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x)
+\mathrm{store_{\mathrm{release}(x) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x)}}}}}
 $$
 
 This creates a happens-before edge, and all memory operations sequenced-before the release store are
@@ -14939,28 +14939,28 @@ Load.
 Formally [N4950 §6.9.2.2]:
 
 $$
-A \xrightarrow{\mathrm{sb} B \implies A \xrightarrow{\mathrm{hb} B
+A \xrightarrow{\mathrm{sb} B \implies A \xrightarrow{\mathrm{hb} B}}
 $$
 
 $$
-A \xrightarrow{\mathrm{sw} B \implies A \xrightarrow{\mathrm{hb} B
+A \xrightarrow{\mathrm{sw} B \implies A \xrightarrow{\mathrm{hb} B}}
 $$
 
 $$
-A \xrightarrow{\mathrm{hb} B \implies \mathrm{all side effects of  A \mathrm{ visible to  B
+A \xrightarrow{\mathrm{hb} B \implies \mathrm{all side effects of  A \mathrm{ visible to  B}}}
 $$
 
 ## Sequentially Consistent Ordering
 
 `memory_order_seq_cst` [N4950 §31.7.5] provides the strongest guarantee: there exists a total order
-$\mathrm{S$ over all `seq_cst` operations such that:
+$\mathrm{S}$ over all `seq_cst` operations such that:
 
-1. Every `seq_cst` operation in $\mathrm{S$ is consistent with the happens-before order.
-2. Every `seq_cst` load reads either the last preceding `seq_cst` store in $\mathrm{S$ or a value
+1. Every `seq_cst` operation in $\mathrm{S}$ is consistent with the happens-before order.
+2. Every `seq_cst` load reads either the last preceding `seq_cst` store in $\mathrm{S}$ or a value
    written by a non-`seq_cst` store.
 
 $$
-\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  b \lt_{\mathrm{total} a
+\forall\, a, b \in \mathrm{seq\_cst ops: a \lt_{\mathrm{total} b \mathrm{ or  b \lt_{\mathrm{total} a}}}}
 $$
 
 On x86, `seq_cst` stores require a `MFENCE` (or `LOCK XCHG`), and `seq_cst` loads require `LFENCE`
@@ -15394,7 +15394,7 @@ Times. The thread must call `unlock()` the same number of times it called `lock(
 be released. The implementation maintains an internal lock count:
 
 $$
-\mathrm{recursion depth = n_{\mathrm{lock} - n_{\mathrm{unlock}
+\mathrm{recursion depth} = n_{\mathrm{lock}} - n_{\mathrm{unlock}}
 $$
 
 When the recursion depth reaches zero, the mutex is released.
@@ -15683,7 +15683,7 @@ the other. The four necessary conditions (Coffman conditions) are:
    the next.
 
 $$
-\mathrm{Deadlock \iff \mathrm{Mutual Exclusion \wedge \mathrm{Hold-and-Wait \wedge \mathrm{No Preemption \wedge \mathrm{Circular Wait
+\mathrm{Deadlock \iff \mathrm{Mutual Exclusion \wedge \mathrm{Hold}}}-and-Wait \wedge \mathrm{No Preemption \wedge \mathrm{Circular Wait}}
 $$
 
 ### Deadlock in Practice: The Classic Dining Philosophers
@@ -16098,7 +16098,7 @@ The C++ coroutine mechanism consists of three interacting components [N4950 §9.
 The relationship between these three is:
 
 $$
-\mathrm{Caller \xrightarrow{\mathrm{invoke} \mathrm{Coroutine \xleftrightarrow{\mathrm{promise\_type} \mathrm{Caller \xleftrightarrow{\mathrm{awaiter} \mathrm{co\_await
+\mathrm{Caller \xrightarrow{\mathrm{invoke} \mathrm{Coroutine \xleftrightarrow{\mathrm{promise\_type} \mathrm{Caller \xleftrightarrow{\mathrm{awaiter} \mathrm{co\_await}}}}}}}
 $$
 
 ## `co_await` Expression Semantics [N4950 §9.5.4.3]
@@ -16953,7 +16953,7 @@ Coroutines enable natural expression of data pipelines where each stage can susp
 Independently:
 
 $$
-\mathrm{source \xrightarrow{\mathrm{co\_await} \mathrm{transform_1 \xrightarrow{\mathrm{co\_await} \mathrm{transform_2 \xrightarrow{\mathrm{co\_await} \mathrm{sink
+\mathrm{source \xrightarrow{\mathrm{co\_await} \mathrm{transform_1 \xrightarrow{\mathrm{co\_await} \mathrm{transform_2 \xrightarrow{\mathrm{co\_await} \mathrm{sink}}}}}}}
 $$
 
 Each stage is a coroutine that reads from the previous stage and writes to the next, with suspension
@@ -17760,7 +17760,7 @@ A new instance of the variable is created for each thread, and it is destroyed w
 Exits. The variable is initialized before its first use in each thread.
 
 $$
-\mathrm{thread\_local  T\, x \implies \forall\, t \in \mathrm{Threads: \exists!\, x_t
+\mathrm{thread\_local  T\, x \implies \forall\, t \in \mathrm{Threads: \exists!\, x_t}}
 $$
 
 Thread-local variables can be declared at namespace scope, at block scope, or as `static` class
@@ -18659,7 +18659,7 @@ Performs context switching.
 Supported by the implementation. This value approximates the number of hardware threads available:
 
 $$
-N_{\mathrm{optimal} = \mathrm{std::thread::hardware\_concurrency()
+N_{\mathrm{optimal}} = \mathrm{std::thread::hardware\_concurrency()}
 $$
 
 ```cpp
@@ -22387,7 +22387,7 @@ ID) based on the input configuration:
 The Package ID is a SHA-1 hash computed over the concatenation of:
 
 $$
-\mathrm{PackageID = \mathrm{SHA1(\mathrm{settings \| \mathrm{options \| \mathrm{requires)
+\mathrm{PackageID} = \mathrm{SHA1(\mathrm{settings \| \mathrm{options \| \mathrm{requires)}}}}
 $$
 
 Where `settings` is a sorted dictionary of `os`, `arch`, `compiler`, `compiler.version`
@@ -38376,7 +38376,7 @@ int main() {
 The monadic operations compose , forming a pipeline:
 
 $$
-\mathrm{expected_1 \xrightarrow{\mathrm{and\_then} \mathrm{expected_2 \xrightarrow{\mathrm{transform} \mathrm{expected_3 \xrightarrow{\mathrm{or\_else} \mathrm{expected_4
+\mathrm{expected_1 \xrightarrow{\mathrm{and\_then} \mathrm{expected_2 \xrightarrow{\mathrm{transform} \mathrm{expected_3 \xrightarrow{\mathrm{or\_else} \mathrm{expected_4}}}}}}}
 $$
 
 Each operation short-circuits on error: once an error enters the pipeline, it propagates through all
@@ -41280,8 +41280,8 @@ and only if all of the following hold:
 Let $V \subseteq C$ be the set of viable functions. A function $f \in V$ is the **best viable
 Function** if and only if for every other $g \in V \setminus \{f\}$:
 
-- $\mathrm{ICS_f(i) \preceq \mathrm{ICS_g(i)$ for all argument positions $i$ (not worse).
-- $\mathrm{ICS_f(j) \prec \mathrm{ICS_g(j)$ for at least one argument position $j$ (strictly
+- $\mathrm{ICS_f(i) \preceq \mathrm{ICS_g(i)}}$ for all argument positions $i$ (not worse).
+- $\mathrm{ICS_f(j) \prec \mathrm{ICS_g(j)}}$ for at least one argument position $j$ (strictly
   better).
 
 Where $\preceq$ denotes "no worse than" and $\prec$ denotes "strictly better" in the conversion
@@ -41671,7 +41671,7 @@ int main() {
 
 **Proof that `debug(T*)` is more specialized than `debug(T)`:**
 
-1. Let $A = \mathrm{debug(T*)$ and $B = \mathrm{debug(T)$.
+1. Let $A = \mathrm{debug(T*)}$ and $B = \mathrm{debug(T)}$.
 2. Can $A$ accept every type that $B$ can accept? No. $A$ requires a pointer type; $B$ accepts any
    type. So $A$ is not at least as specialized as $B$.
 3. Can $B$ accept every type that $A$ can accept? Yes. Every `T*` is also a valid `T` (where `T`
@@ -41791,11 +41791,11 @@ Argument and no worse for any argument, then $f_1$ is selected.
 **Proof:**
 
 1. Let $k$ be the number of arguments. For each argument $i \in \{1, \ldots, k\}$ Let
-   $\mathrm{ICS_{f_1}(i)$ and $\mathrm{ICS_{f_2}(i)$ be the implicit conversion sequences for $f_1$
+   $\mathrm{ICS_{f_1}(i)}$ and $\mathrm{ICS_{f_2}(i)}$ be the implicit conversion sequences for $f_1$
    and $f_2$ respectively.
 
-2. By the premise, $\exists j$ such that $\mathrm{ICS_{f_1}(j) \prec \mathrm{ICS_{f_2}(j)$ (strictly
-   better) and $\forall i, \mathrm{ICS_{f_1}(i) \preceq \mathrm{ICS_{f_2}(i)$ (no worse).
+2. By the premise, $\exists j$ such that $\mathrm{ICS_{f_1}(j) \prec \mathrm{ICS_{f_2}(j)}}$ (strictly
+   better) and $\forall i, \mathrm{ICS_{f_1}(i) \preceq \mathrm{ICS_{f_2}(i)}}$ (no worse).
 
 3. By [N4950 §12.4.3.2], this is exactly the definition of "better viable function."
 
@@ -46407,7 +46407,7 @@ Pointer mechanism, and the Empty Base Optimization (EBO).
 For a class with no virtual functions and no base classes, the memory layout is straightforward:
 Data members are laid out in declaration order with potential padding between them for alignment
 [N4950 §11.4.1]. Each non-static data member occupies
-$\lceil \mathrm{size / \mathrm{alignment \rceil \times \mathrm{alignment$ bytes.
+$\lceil \mathrm{size / \mathrm{alignment \rceil \times \mathrm{alignment}}}$ bytes.
 
 ```cpp
 #include <cstddef>
@@ -46441,7 +46441,7 @@ int main() {
 The layout on a typical 64-bit System V ABI platform is:
 
 $$
-\mathrm{sizeof(\texttt{Simple}) = 1 + 3\mathrm{(pad) + 4 + 1 + 3\mathrm{(pad) + 8 = 24
+\mathrm{sizeof(\texttt{Simple})} = 1 + 3\mathrm{(pad)} + 4 + 1 + 3\mathrm{(pad)} + 8 = 24
 $$
 
 :::tip
@@ -47133,7 +47133,7 @@ For **binary operators**, the choice between member and non-member affects impli
 Consider a class `Int` with an `explicit` constructor and a member `operator+`:
 
 $$
-\mathrm{For  \texttt{a + b} \mathrm{ where the left operand is not of class type:
+\mathrm{For  \texttt{a + b} \mathrm{ where the left operand is not of class type:}}
 $$
 
 1. Name lookup finds the candidate functions: member `Int::operator+` and non-member `operator+`.
@@ -50597,7 +50597,7 @@ The mechanism works as follows:
    function call.
 
 $$
-\mathrm{dispatch cost = 1 \mathrm{ memory load (vptr) + 1 \mathrm{ indexed load (function pointer) + 1 \mathrm{ indirect call
+\mathrm{dispatch cost} = 1 \mathrm{ memory load (vptr)} + 1 \mathrm{ indexed load (function pointer)} + 1 \mathrm{ indirect call}
 $$
 
 <div class="table-wrap">
@@ -58350,7 +58350,7 @@ graph TD
 In set notation:
 
 $$
-\mathrm{expression = \underbrace{\mathrm{glvalue}_{\mathrm{lvalue \cup \mathrm{xvalue} \;\cup\; \underbrace{\mathrm{rvalue}_{\mathrm{prvalue \cup \mathrm{xvalue}
+\mathrm{expression} = \underbrace{\mathrm{glvalue}_{\mathrm{lvalue \cup \mathrm{xvalue} \;\cup\; \underbrace{\mathrm{rvalue}_{\mathrm{prvalue \cup \mathrm{xvalue}}}}}}}
 $$
 
 The xvalue category occupies the intersection, it is both a glvalue (it has identity) and an rvalue
@@ -58519,15 +58519,15 @@ Simultaneously.
 The compound categories are unions:
 
 $$
-\mathrm{glvalue = \mathrm{lvalue \cup \mathrm{xvalue
+\mathrm{glvalue} = \mathrm{lvalue \cup \mathrm{xvalue}}
 $$
 
 $$
-\mathrm{rvalue = \mathrm{prvalue \cup \mathrm{xvalue
+\mathrm{rvalue} = \mathrm{prvalue \cup \mathrm{xvalue}}
 $$
 
 $$
-\mathrm{expression = \mathrm{lvalue \cup \mathrm{xvalue \cup \mathrm{prvalue
+\mathrm{expression} = \mathrm{lvalue \cup \mathrm{xvalue \cup \mathrm{prvalue}}}
 $$
 
 ### Formal Definitions [N4950 S7.2.1]
@@ -58653,7 +58653,7 @@ Rules [N4950 S11.3.2]:
 The rules are:
 
 $$
-T\&\& \to T\&, \quad T\&\& \to T\&\&, \quad \mathrm{everything else \to T\&
+T\&\& \to T\&, \quad T\&\& \to T\&\&, \quad \mathrm{everything else} \to T\&
 $$
 
 More concisely: **only `T&& &&` collapses to `T&&`; all other combinations collapse to `T&`.**
@@ -60200,21 +60200,21 @@ A red-black tree is a self-balancing binary search tree with the following prope
 
 **Theorem.** A red-black tree with $n$ internal nodes has height $h \leq 2 \log_2(n + 1)$.
 
-**Proof.** Define the **black-height** $\mathrm{bh(x)$ of a node $x$ as the number of black nodes On
+**Proof.** Define the **black-height** $\mathrm{bh(x)}$ of a node $x$ as the number of black nodes On
 any path from $x$ to a leaf (excluding $x$ itself). By property 5, this is well-defined.
 
-**Claim:** A subtree rooted at any node $x$ contains at least $2^{\mathrm{bh(x)} - 1$ internal
+**Claim:** A subtree rooted at any node $x$ contains at least $2^{\mathrm{bh(x)}} - 1$ internal
 Nodes.
 
 We prove this by induction on the height of $x$.
 
-_Base case:_ If $x$ is a leaf (height 0), then $\mathrm{bh(x) = 0$ and the subtree has 0 internal
+_Base case:_ If $x$ is a leaf (height 0), then $\mathrm{bh(x)} = 0$ and the subtree has 0 internal
 Nodes $= 2^0 - 1 = 1 - 1 = 0$. Holds.
 
 _Inductive step:_ Let $x$ have height $h \gt 0$ and children $a, b$. Each child has black-height
-either $\mathrm{bh(x)$ (if the child is red) or $\mathrm{bh(x) - 1$ (if the child is black). In
-either case, $\mathrm{bh(\mathrm{child) \geq \mathrm{bh(x) - 1$. By the inductive hypothesis, Each
-subtree has at least $2^{\mathrm{bh(x) - 1} - 1$ internal nodes. Therefore:
+either $\mathrm{bh(x)}$ (if the child is red) or $\mathrm{bh(x)} - 1$ (if the child is black). In
+either case, $\mathrm{bh(\mathrm{child) \geq \mathrm{bh(x)}}} - 1$. By the inductive hypothesis, Each
+subtree has at least $2^{\mathrm{bh(x) - 1}} - 1$ internal nodes. Therefore:
 
 $$
 \mathrm{size(x) \geq \left(2^{\mathrm{bh(x) - 1} - 1\right) + \left(2^{\mathrm{bh(x) - 1} - 1\right) + 1 = 2^{\mathrm{bh(x)} - 1
@@ -60224,10 +60224,10 @@ Now, at least half the nodes on any root-to-leaf path are black (by property 4: 
 Red nodes). Therefore, if the tree height is $h$:
 
 $$
-\mathrm{bh(\mathrm{root) \geq \frac{h}{2}
+\mathrm{bh(\mathrm{root) \geq \frac{h}{2}}}
 $$
 
-Combining with the claim ($n \geq 2^{\mathrm{bh(\mathrm{root)} - 1$):
+Combining with the claim ($n \geq 2^{\mathrm{bh(\mathrm{root)}}} - 1$):
 
 $$
 N \geq 2^{h/2} - 1 \implies 2^{h/2} \leq n + 1 \implies h \leq 2 \log_2(n + 1)
@@ -60331,13 +60331,13 @@ Contains a singly-linked list of all elements whose key hashes to that bucket in
 Produce the same bucket index (a **collision**), they are stored in the same linked list.
 
 $$
-\mathrm{bucket\_index = H(\mathrm{key) \mod \mathrm{bucket\_count
+\mathrm{bucket\_index} = H(\mathrm{key) \mod \mathrm{bucket\_count}}
 $$
 
 The average chain length equals the load factor:
 
 $$
-\mathrm{avg\_chain\_length = \frac{\mathrm{size()}{\mathrm{bucket\_count()} = \mathrm{load\_factor
+\mathrm{avg\_chain\_length} = \frac{\mathrm{size()}{\mathrm{bucket\_count()}}} = \mathrm{load\_factor}
 $$
 
 With default `max_load_factor = 1.0`. The average chain length is kept below 1.0, meaning most Lookups
@@ -62438,7 +62438,7 @@ The key distinction from the traditional iterator-pair model:
 The `std::sentinel_for` concept requires [N4950 §25.3.5.2]:
 
 $$
-\mathrm{sentinel\_for(S, I) \iff \mathrm{input\_iterator(I) \land \mathrm{semiregular(S) \land \mathrm{weakly\_equality\_comparable\_with(S, I)
+\mathrm{sentinel\_for(S, I) \iff \mathrm{input\_iterator(I) \land \mathrm{semiregular(S) \land \mathrm{weakly\_equality\_comparable\_with(S, I)}}}}
 $$
 
 ```cpp
@@ -63061,15 +63061,15 @@ Invalidation rules, and algorithm compatibility constraints.
 The C++ standard defines six **iterator categories** [N4950 §25.3], forming a refinement hierarchy:
 
 $$
-\mathrm{input \subset \mathrm{forward \subset \mathrm{bidirectional \subset \mathrm{random-access
+\mathrm{input \subset \mathrm{forward \subset \mathrm{bidirectional \subset \mathrm{random}}}}-access
 $$
 
 $$
-\mathrm{output \quad (\mathrm{not comparable with input)
+\mathrm{output \quad (\mathrm{not comparable with input)}}
 $$
 
 $$
-\mathrm{contiguous \subset \mathrm{random-access
+\mathrm{contiguous \subset \mathrm{random}}-access
 $$
 
 Each category adds capabilities:
@@ -63903,24 +63903,24 @@ int main() {
 Evaluation order:
 
 $$
-\mathrm{accumulate([a_1, a_2, \ldots, a_n], init, op) = op(\ldots op(op(init, a_1), a_2) \ldots, a_n)
+\mathrm{accumulate([a_1, a_2, \ldots, a_n], init, op)} = op(\ldots op(op(init, a_1), a_2) \ldots, a_n)
 $$
 
 `std::reduce` [N4950 §25.7.4] has **no guaranteed order** when used with parallel execution.
 Elements may be combined in any order and in any grouping:
 
 $$
-\mathrm{reduce([a_1, a_2, \ldots, a_n], init, op) = \mathrm{any binary tree of  op \mathrm{ applications
+\mathrm{reduce([a_1, a_2, \ldots, a_n], init, op)} = \mathrm{any binary tree of  op \mathrm{ applications}}
 $$
 
 This means `op` must be **commutative** and **associative** for well-defined results with `reduce`:
 
 $$
-Op(a, b) = op(b, a) \quad \mathrm{(commutative)
+Op(a, b) = op(b, a) \quad \mathrm{(commutative)}
 $$
 
 $$
-Op(op(a, b), c) = op(a, op(b, c)) \quad \mathrm{(associative)
+Op(op(a, b), c) = op(a, op(b, c)) \quad \mathrm{(associative)}
 $$
 
 ```cpp
@@ -64544,11 +64544,11 @@ when the resource itself is destroyed.
 This makes `monotonic_buffer_resource` ideal for scenarios with many short-lived allocations:
 
 $$
-\mathrm{allocate(n) = O(1) \quad \mathrm{deallocate(n) = O(1) \mathrm{ (no-op)
+\mathrm{allocate(n)} = O(1) \quad \mathrm{deallocate(n)} = O(1) \mathrm{ (no}-op)
 $$
 
 $$
-\mathrm{destroy() = O(1) \mathrm{ (releases all buffers at once)
+\mathrm{destroy()} = O(1) \mathrm{ (releases all buffers at once)}
 $$
 
 ```cpp
@@ -65072,7 +65072,7 @@ int main() {
 `std::ranges::sort` [N4950 §25.7.7] accepts an optional projection parameter. The signature is:
 
 $$
-\mathrm{sort(r, comp = \\{\\}, proj = \\{\\})
+\mathrm{sort(r, comp} = \\{\\}, proj = \\{\\})
 $$
 
 Where `comp` compares the **projected** values, and `proj` maps each element to the value used for
@@ -66014,7 +66014,7 @@ $$
 P(\mathrm{outcome  k) = \begin{cases} \lceil R / n \rceil / R & \mathrm{if  k \lt R \bmod n \\ \lfloor R / n \rfloor / R & \mathrm{otherwise \end{cases}
 $$
 
-Where $R = \mathrm{max - \mathrm{min + 1$ is the engine's range.
+Where $R = \mathrm{max} - \mathrm{min} + 1$ is the engine's range.
 
 For example, with a 16-bit engine ($R = 65536$) and $n = 3$:
 
@@ -68560,7 +68560,7 @@ Elements currently stored, while `capacity()` returns the number of elements for
 been allocated [N4950 §22.3.11.3]. The invariant is:
 
 $$
-\mathrm{size() \leq \mathrm{capacity()
+\mathrm{size() \leq \mathrm{capacity()}}
 $$
 
 `shrink_to_fit()` is a **non-binding request** to reduce `capacity()` to `size()` [N4950
@@ -68755,7 +68755,7 @@ guaranteed to store elements contiguously. Typical implementations use a **map o
 Blocks** (segments):
 
 $$
-\mathrm{deque = \underbrace{[\mathrm{block_0][\mathrm{block_1] \cdots [\mathrm{block_{n-1}]}_{\mathrm{fixed-size segments}
+\mathrm{deque} = \underbrace{[\mathrm{block_0][\mathrm{block_1] \cdots [\mathrm{block_{n-1}]}_{\mathrm{fixed-size segments}}}}}
 $$
 
 A central **map array** stores pointers to each block. Insertion at the front or back adds to The
@@ -69262,7 +69262,7 @@ $$
 $$
 
 $$
-\mathrm{element\_offset = (\mathrm{start\_offset + i) \mod B
+\mathrm{element\_offset} = (\mathrm{start\_offset} + i) \mod B
 $$
 
 The map array is a small heap-allocated array (often 8-16 entries initially). When the map Fills up,
@@ -72281,7 +72281,7 @@ $P$ also satisfies $Q$.
 Formally, for a constraint $P$ to subsume a constraint $Q$:
 
 $$
-\forall \mathrm{substitutions  S : P(S) \implies Q(S)
+\forall \mathrm{substitutions  S : P(S) \implies Q(S)}
 $$
 
 This is a structural comparison performed by the compiler, not a runtime check. The rules for
@@ -75231,7 +75231,7 @@ all five steps 50 times.
 The savings are proportional to:
 
 $$
-\mathrm{savings \propto \mathrm{template\_complexity \times (\mathrm{num\_TUs - 1)
+\mathrm{savings \propto \mathrm{template\_complexity \times (\mathrm{num\_TUs}}} - 1)
 $$
 
 For a project with 1000 `.cpp` files that all include a heavy templated utility header, the
@@ -75259,9 +75259,9 @@ Deduction and standard library internals:
 For a project with $N = 500$ translation units, the total wall-clock time for this template alone
 is:
 
-- **Without `extern template`:** $500 \times 28\mathrm{ms = 14\,000\mathrm{ms = 14\mathrm{s$
+- **Without `extern template`:** $500 \times 28\mathrm{ms} = 14\,000\mathrm{ms} = 14\mathrm{s}$
 - **With `extern template`:**
-  $499 \times 3\mathrm{ms + 1 \times 28\mathrm{ms = 1525\mathrm{ms \approx 1.5\mathrm{s$
+  $499 \times 3\mathrm{ms} + 1 \times 28\mathrm{ms} = 1525\mathrm{ms \approx 1.5\mathrm{s}}$
 
 The savings compound multiplicatively across multiple template instantiations. In real-world
 Codebases with dozens of heavy template headers, `extern template` can reduce total build times by
@@ -75967,19 +75967,19 @@ A **fold expression** reduces a parameter pack using a binary operator [N4950 §
 C++17. Fold expressions come in four forms:
 
 $$
-\mathrm{unary right fold:  (pack \ op \ ...)
+\mathrm{unary right fold:  (pack \ op \ ...)}
 $$
 
 $$
-\mathrm{unary left fold:  (\ldots \ op \ pack)
+\mathrm{unary left fold:  (\ldots \ op \ pack)}
 $$
 
 $$
-\mathrm{binary right fold:  (pack \ op \ \ldots \ op \ init)
+\mathrm{binary right fold:  (pack \ op \ \ldots \ op \ init)}
 $$
 
 $$
-\mathrm{binary left fold:  (init \ op \ \ldots \ op \ pack)
+\mathrm{binary left fold:  (init \ op \ \ldots \ op \ pack)}
 $$
 
 ```cpp
@@ -76074,8 +76074,8 @@ For a pack $(e_1, e_2, e_3)$ and operator $\oplus$:
 | ------------ | ----------------------- | --------------------------------------------------- | ------------------------ |
 | Unary right  | `(pack op ...)`         | $e_1 \oplus (e_2 \oplus e_3)$                       | `(a + (b + c))`          |
 | Unary left   | `(... op pack)`         | $(e_1 \oplus e_2) \oplus e_3$                       | `((a + b) + c)`          |
-| Binary right | `(pack op ... op init)` | $e_1 \oplus (e_2 \oplus (e_3 \oplus \mathrm{init))$ | `(a + (b + (c + init)))` |
-| Binary left  | `(init op ... op pack)` | $((\mathrm{init \oplus e_1) \oplus e_2) \oplus e_3$ | `(((init + a) + b) + c)` |
+| Binary right | `(pack op ... op init)` | $e_1 \oplus (e_2 \oplus (e_3 \oplus \mathrm{init))}$ | `(a + (b + (c + init)))` |
+| Binary left  | `(init op ... op pack)` | $((\mathrm{init \oplus e_1) \oplus e_2) \oplus e_3}$ | `(((init + a) + b) + c)` |
 
 </div>
 
@@ -76087,8 +76087,8 @@ For a single-element pack $(e_1)$:
 | ------------ | ------------------------- |
 | Unary right  | $e_1$                     |
 | Unary left   | $e_1$                     |
-| Binary right | $e_1 \oplus \mathrm{init$ |
-| Binary left  | $\mathrm{init \oplus e_1$ |
+| Binary right | $e_1 \oplus \mathrm{init}$ |
+| Binary left  | $\mathrm{init \oplus e_1}$ |
 
 </div>
 
@@ -76158,7 +76158,7 @@ $e_1 \oplus (e_2 \oplus (\ldots \oplus e_n))$.
 
 For a pack of size $n + 1$ The Standard specifies that the first element is the left operand of the
 Operator, and the remaining elements form the right operand via a nested fold:
-$e_1 \oplus (\mathrm{fold of  (e_2, \ldots, e_{n+1}))$.
+$e_1 \oplus (\mathrm{fold of  (e_2, \ldots, e_{n+1}))}$.
 
 By the inductive hypothesis, the inner fold evaluates to
 $e_2 \oplus (e_3 \oplus (\ldots \oplus e_{n+1}))$.
@@ -76262,12 +76262,12 @@ Forms are:
 
 **Binary left fold** `(init op ... op pack)`:
 $$
-((\mathrm{init \oplus e_1) \oplus e_2) \oplus \ldots \oplus e_n
+((\mathrm{init \oplus e_1) \oplus e_2) \oplus \ldots \oplus e_n}
 $$
 
 **Binary right fold** `(pack op ... op init)`:
 $$
-e_1 \oplus (e_2 \oplus (\ldots \oplus (e_n \oplus \mathrm{init)))
+e_1 \oplus (e_2 \oplus (\ldots \oplus (e_n \oplus \mathrm{init)))}
 $$
 
 ```cpp
@@ -76903,11 +76903,11 @@ Condition is `true`. The discarded statement (if present) is the `else` branch. 
 The critical difference from `if`:
 
 $$
-\mathrm{`if (cond)` : \mathrm{both branches must be well-formed
+\mathrm{`if (cond)` : \mathrm{both branches must be well}}-formed
 $$
 
 $$
-\mathrm{`if constexpr (cond)` : \mathrm{only the taken branch must be well-formed
+\mathrm{`if constexpr (cond)` : \mathrm{only the taken branch must be well}}-formed
 $$
 
 ```cpp
@@ -77217,11 +77217,11 @@ Compile time. If any argument is not a constant expression, the program is ill-f
 `consteval` specifier guarantees zero runtime overhead:
 
 $$
-\mathrm{`constexpr` : \mathrm{compile-time if possible, runtime otherwise
+\mathrm{`constexpr` : \mathrm{compile}}-time if possible, runtime otherwise
 $$
 
 $$
-\mathrm{`consteval` : \mathrm{compile-time always, error otherwise
+\mathrm{`consteval` : \mathrm{compile}}-time always, error otherwise
 $$
 
 ```cpp
@@ -80158,9 +80158,9 @@ struct Ambig<T* const> {};     // matches: T = const int
 
 **Proof of ambiguity.** Let $A$ = `const T*` and $B$ = `T* const`. Replace `T` in $A$ with a unique
 Type $U$: we get `const U*`. Does this match $B$ (`T* const`)? Yes, with $T = \mathrm{const
-U$. Now
+U}$. Now
 Replace `T` in $B$ with a unique type $V$: we get `V* const`. Does this match $A$ (`const T*`)? Yes,
-With $T = V \mathrm{ const$. Since $A$ matches $B$ **and** $B$ matches $A$ Neither is strictly More
+With $T = V \mathrm{ const}$. Since $A$ matches $B$ **and** $B$ matches $A$ Neither is strictly More
 specialized. The program is ill-formed.
 
 The fix is to provide a disambiguating specialization that is strictly more specialized than both:
@@ -80924,7 +80924,7 @@ Conversion (via `static_cast<To>(declval<From>())`), making it more permissive.
 The iterator concepts in `<iterator>` [N4950 §18.4.4] form a refinement hierarchy:
 
 $$
-\mathrm{input\_iterator \prec \mathrm{forward\_iterator \prec \mathrm{bidirectional\_iterator \prec \mathrm{random\_access\_iterator \prec \mathrm{contiguous\_iterator
+\mathrm{input\_iterator \prec \mathrm{forward\_iterator \prec \mathrm{bidirectional\_iterator \prec \mathrm{random\_access\_iterator \prec \mathrm{contiguous\_iterator}}}}}
 $$
 
 <div class="table-wrap">
@@ -81895,7 +81895,7 @@ These work by mapping the count `N` to a parameter pack of integers, which can t
 Parameter pack expansion:
 
 $$
-\mathrm{make\_index\_sequence<3> \Rightarrow \mathrm{index\_sequence<0, 1, 2>
+\mathrm{make\_index\_sequence<3> \Rightarrow \mathrm{index\_sequence<0, 1, 2>}}
 $$
 
 ```cpp
@@ -85669,7 +85669,7 @@ An IEEE 754 floating-point number encodes a signed value using three fields:
 
 The encoded value is:
 $$
-\mathrm{value = (-1)^{\mathrm{sign} \times 2^{(\mathrm{exponent - \mathrm{bias)} \times (1.\mathrm{mantissa)
+\mathrm{value} = (-1)^{\mathrm{sign} \times 2^{(\mathrm{exponent}}} - \mathrm{bias)} \times (1.\mathrm{mantissa)}
 $$
 the implicit leading `1.` (the "hidden bit") is the key optimization of IEEE 754: since the mantissa
 is normalized so the leading digit is always 1, it need not be stored.

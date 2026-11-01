@@ -284,7 +284,7 @@ between threat modeling and security investment.
 Risk is commonly expressed as:
 
 $$
-\mathrm{Risk = \mathrm{Likelihood \times \mathrm{Impact
+\mathrm{Risk} = \mathrm{Likelihood \times \mathrm{Impact}}
 $$
 
 Where likelihood and impact are each rated on a defined scale. A common 5-point scale:
@@ -1276,7 +1276,7 @@ of two large prime numbers.
 RSA encryption with OAEP:
 
 $$
-\mathrm{Ciphertext = (\mathrm{Plaintext \| \mathrm{Label)^{e} \mod n
+\mathrm{Ciphertext} = (\mathrm{Plaintext \| \mathrm{Label)^{e} \mod n}}
 $$
 
 Where $e$ is the public exponent ( 65537) and $n$ is the modulus (product of two primes $p$ And
@@ -1381,11 +1381,11 @@ A cryptographic hash function maps arbitrary-length input to a fixed-length outp
 Following properties:
 
 1. **Preimage resistance**: Given hash $h$ It is infeasible to find $m$ such that
-   $\mathrm{Hash(m) = h$
+   $\mathrm{Hash(m)} = h$
 2. **Second preimage resistance**: Given $m_1$ It is infeasible to find $m_2 \neq m_1$ such that
-   $\mathrm{Hash(m_1) = \mathrm{Hash(m_2)$
+   $\mathrm{Hash(m_1)} = \mathrm{Hash(m_2)}$
 3. **Collision resistance**: It is infeasible to find any pair $m_1 \neq m_2$ such that
-   $\mathrm{Hash(m_1) = \mathrm{Hash(m_2)$
+   $\mathrm{Hash(m_1)} = \mathrm{Hash(m_2)}$
 
 ### SHA Family
 
@@ -1423,7 +1423,7 @@ Expensive.
 
 - **Design**: Blowfish-based, adaptive cost parameter
 - **Salt**: 128-bit random salt embedded in output
-- **Cost factor**: $2^{\mathrm{cost}$ iterations (default 10 = 1024 iterations, recommended 12+)
+- **Cost factor**: $2^{\mathrm{cost}}$ iterations (default 10 = 1024 iterations, recommended 12+)
 - **Output**: 60 characters (e.g., `$2b$12$R9h/cIPz0gi...`)
 
 ```python
@@ -1515,11 +1515,11 @@ A MAC provides integrity and authenticity for a message. The sender and receiver
 HMAC (Hash-based MAC, RFC 2104) uses a cryptographic hash function with a secret key:
 
 $$
-\mathrm{HMAC(K, m) = H\Big((K' \oplus \mathrm{opad) \;\|\; H\big((K' \oplus \mathrm{ipad) \;\|\; m\big)\Big)
+\mathrm{HMAC(K, m)} = H\Big((K' \oplus \mathrm{opad) \;\|\; H\big((K' \oplus \mathrm{ipad) \;\|\; m\big)\Big)}}
 $$
 
-Where $K'$ is the key padded to the block size, $\mathrm{opad = \mathrm{0x5c...$ And
-$\mathrm{ipad = \mathrm{0x36...$.
+Where $K'$ is the key padded to the block size, $\mathrm{opad} = \mathrm{0x5c...}$ And
+$\mathrm{ipad} = \mathrm{0x36...}$.
 
 ```python
 import hmac
@@ -2881,10 +2881,10 @@ TOTP (RFC 6238) generates a 6-8 digit code based on a shared secret and the curr
 and client both compute:
 
 $$
-\mathrm{TOTP = \mathrm{Truncate\Big(\mathrm{HMAC-SHA-1(K, T)\Big)
+\mathrm{TOTP} = \mathrm{Truncate\Big(\mathrm{HMAC}}-SHA-1(K, T)\Big)
 $$
 
-Where $K$ is the shared secret and $T = \lfloor \mathrm{current\_time / 30 \rfloor$.
+Where $K$ is the shared secret and $T = \lfloor \mathrm{current\_time / 30 \rfloor}$.
 
 <div class="table-wrap">
 
@@ -3321,7 +3321,7 @@ ABAC evaluates access decisions based on attributes of the subject, resource, ac
 Environment:
 
 $$
-\mathrm{Allow = f(\mathrm{subject, \mathrm{resource, \mathrm{action, \mathrm{environment)
+\mathrm{Allow} = f(\mathrm{subject, \mathrm{resource, \mathrm{action, \mathrm{environment)}}}}
 $$
 
 Example policy (Cedar-like syntax):
