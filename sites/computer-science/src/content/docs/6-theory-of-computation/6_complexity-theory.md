@@ -588,7 +588,9 @@ a special redundant form.
 **Theorem 6.13 (Feige–Goldwasser–Lund–Safra–Szegedy 1991; Arora–Safra 1992;
 Arora–Lund–Motwani–Sudan–Szegedy 1992).**
 
-$$\mathrm{NP = PCP(O(\log n),\ O(1))}$$
+$$
+\mathrm{NP = PCP(O(\log n),\ O(1))}
+$$
 
 A language $L$ is in NP **if and only if** there is a verifier $V$ that, given an input $x$ of
 length $n$ and oracle access to a proof $\pi$:
