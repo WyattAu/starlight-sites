@@ -29,45 +29,45 @@ Decidability asks: **can an algorithm give a definitive yes/no answer for every 
 
 **Theorem 5.1.** The following languages are decidable:
 
-- $A_{\mathrm{DFA} = \{\langle B, w \rangle : B \mathrm{ is a DFA that accepts  w\}$.
-- $E_{\mathrm{DFA} = \{\langle B \rangle : B \mathrm{ is a DFA with  L(B) = \emptyset\}$.
-- $\mathrm{EQ_{\mathrm{DFA} = \{\langle A, B \rangle : A, B \mathrm{ are DFAs with  L(A) = L(B)\}$.
-- $A_{\mathrm{CFG} = \{\langle G, w \rangle : G \mathrm{ is a CFG that generates  w\}$.
+- $A_{\mathrm{DFA}} = \{\langle B, w \rangle : B \mathrm{ is a DFA that accepts  w\}}$.
+- $E_{\mathrm{DFA}} = \{\langle B \rangle : B \mathrm{ is a DFA with  L(B) = \emptyset\}}$.
+- $\mathrm{EQ_{\mathrm{DFA}}} = \{\langle A, B \rangle : A, B \mathrm{ are DFAs with  L(A) = L(B)\}}$.
+- $A_{\mathrm{CFG}} = \{\langle G, w \rangle : G \mathrm{ is a CFG that generates  w\}}$.
 
-_Proof (for $A_{\mathrm{DFA}$)._ Simulate $B$ on input $w$. This takes $O(|w|)$ steps and always
+_Proof (for $A_{\mathrm{DFA}}$)._ Simulate $B$ on input $w$. This takes $O(|w|)$ steps and always
 halts.
 
 _Proof (for
-$E_{\mathrm{DFA}$)._ Mark the start state. Repeatedly mark states reachable by
+$E_{\mathrm{DFA}}$)._ Mark the start state. Repeatedly mark states reachable by
 Transitions from already-marked states. After no more states can be marked, check if any accept
 state Is marked. If not, $L(B) = \emptyset$.
 
-_Proof (for $\mathrm{EQ_{\mathrm{DFA}$)._ Use the product construction to build a DFA for
+_Proof (for $\mathrm{EQ_{\mathrm{DFA}}}$)._ Use the product construction to build a DFA for
 $L(A)
 \triangle L(B) = (L(A) \cap \overline{L(B)}) \cup (\overline{L(A)} \cap
 L(B))$. Test if this
-DFA accepts any string (using the algorithm for $E_{\mathrm{DFA}$).
+DFA accepts any string (using the algorithm for $E_{\mathrm{DFA}}$).
 $\blacksquare$
 
 **Additional decidable problems:**
 
-- $A_{\mathrm{REX} = \{\langle R, w \rangle : R \mathrm{ is a regex and  w \in L(R)\}$, convert $R$
-  to a DFA, then decide $A_{\mathrm{DFA}$.
-- $E_{\mathrm{CFG} = \{\langle G \rangle : L(G) = \emptyset\}$, test all derivations up to length
+- $A_{\mathrm{REX}} = \{\langle R, w \rangle : R \mathrm{ is a regex and  w \in L(R)\}}$, convert $R$
+  to a DFA, then decide $A_{\mathrm{DFA}}$.
+- $E_{\mathrm{CFG}} = \{\langle G \rangle : L(G) = \emptyset\}$, test all derivations up to length
   $2^{|V|}$.
-- $\mathrm{INF_{\mathrm{CFL} = \{\langle G \rangle : L(G) \mathrm{ is infinite\}$, check if any
+- $\mathrm{INF_{\mathrm{CFL}}} = \{\langle G \rangle : L(G) \mathrm{ is infinite\}}$, check if any
   variable has a self-embedding derivation.
 
 ### 5.2 The Halting Problem
 
 **Theorem 5.2.**
-$A_{\mathrm{TM} = \{\langle M, w \rangle : M \mathrm{ is a TM and  M \mathrm{ accepts  w\}$ Is
+$A_{\mathrm{TM}} = \{\langle M, w \rangle : M \mathrm{ is a TM and  M \mathrm{ accepts  w\}}}$ Is
 Turing-recognisable but undecidable.
 
 _Proof of recognisability._ Simulate $M$ on $w$. If $M$ accepts, accept. If $M$ rejects, reject.
-This recognises $A_{\mathrm{TM}$. $\blacksquare$
+This recognises $A_{\mathrm{TM}}$. $\blacksquare$
 
-_Proof of undecidability (by contradiction)._ Assume a decider $H$ for $A_{\mathrm{TM}$ exists.
+_Proof of undecidability (by contradiction)._ Assume a decider $H$ for $A_{\mathrm{TM}}$ exists.
 Construct a TM $D$ that on input $\langle M \rangle$:
 
 1. Run $H$ on $\langle M, \langle M \rangle \rangle$.
@@ -83,11 +83,11 @@ Consider $D$ on input $\langle D \rangle$:
 
 Therefore $H$ cannot exist. $\blacksquare$
 
-**Theorem 5.2a.** $\overline{A_{\mathrm{TM}}$ is not Turing-recognisable.
+**Theorem 5.2a.** $\overline{A_{\mathrm{TM}}}$ is not Turing-recognisable.
 
-_Proof._ If $\overline{A_{\mathrm{TM}}$ were Turing-recognisable, then since $A_{\mathrm{TM}$ is
-also Turing-recognisable, $A_{\mathrm{TM}$ would be decidable (run both recognisers in parallel; one
-must accept). But $A_{\mathrm{TM}$ is undecidable. Contradiction. $\blacksquare$
+_Proof._ If $\overline{A_{\mathrm{TM}}}$ were Turing-recognisable, then since $A_{\mathrm{TM}}$ is
+also Turing-recognisable, $A_{\mathrm{TM}}$ would be decidable (run both recognisers in parallel; one
+must accept). But $A_{\mathrm{TM}}$ is undecidable. Contradiction. $\blacksquare$
 
 ### 5.3 Reductions and Undecidability
 
@@ -101,28 +101,28 @@ Computable, $A$ is decidable. $\blacksquare$
 
 **Corollary 5.4.** If $A \leq_m B$ and $A$ is undecidable, then $B$ is undecidable.
 
-**Applications.** Using reductions from $A_{\mathrm{TM}$ We can prove many problems undecidable:
+**Applications.** Using reductions from $A_{\mathrm{TM}}$ We can prove many problems undecidable:
 
 <div class="table-wrap">
 
 | Language                       | Description                         | Reduction from   |
 | ------------------------------ | ----------------------------------- | ---------------- |
-| $\mathrm{HALT_{\mathrm{TM}$    | $\{M, w : M \mathrm{ halts on  w\}$ | $A_{\mathrm{TM}$ |
-| $E_{\mathrm{TM}$               | $\{M : L(M) = \emptyset\}$          | $A_{\mathrm{TM}$ |
-| $\mathrm{REGULAR_{\mathrm{TM}$ | $\{M : L(M) \mathrm{ is regular\}$  | $A_{\mathrm{TM}$ |
-| $\mathrm{EQ_{\mathrm{TM}$      | $\{M_1, M_2 : L(M_1) = L(M_2)\}$    | $E_{\mathrm{TM}$ |
+| $\mathrm{HALT_{\mathrm{TM}}}$    | $\{M, w : M \mathrm{ halts on  w\}}$ | $A_{\mathrm{TM}}$ |
+| $E_{\mathrm{TM}}$               | $\{M : L(M) = \emptyset\}$          | $A_{\mathrm{TM}}$ |
+| $\mathrm{REGULAR_{\mathrm{TM}}}$ | $\{M : L(M) \mathrm{ is regular\}}$  | $A_{\mathrm{TM}}$ |
+| $\mathrm{EQ_{\mathrm{TM}}}$      | $\{M_1, M_2 : L(M_1) = L(M_2)\}$    | $E_{\mathrm{TM}}$ |
 
 </div>
 
-**Example reduction.** $A_{\mathrm{TM} \leq_m \mathrm{HALT_{\mathrm{TM}$.
+**Example reduction.** $A_{\mathrm{TM} \leq_m \mathrm{HALT_{\mathrm{TM}}}}$.
 
 _Proof._ Given $\langle M, w \rangle$ Construct a TM $M"$ that on input $x$: simulates $M$ on $w$. If
-$M$ accepts, accept. If $M$ rejects, loop. Then $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $M'$
-halts on some input (any input), iff $\langle M' \rangle \in \mathrm{HALT_{\mathrm{TM}$.
+$M$ accepts, accept. If $M$ rejects, loop. Then $\langle M, w \rangle \in A_{\mathrm{TM}}$ iff $M'$
+halts on some input (any input), iff $\langle M' \rangle \in \mathrm{HALT_{\mathrm{TM}}}$.
 $\blacksquare$
 
 <details>
-<summary>Worked Example: $A_{\mathrm{TM} \leq_m E_{\mathrm{TM}$</summary>
+<summary>Worked Example: $A_{\mathrm{TM} \leq_m E_{\mathrm{TM}}}$</summary>
 
 _Proof._ Given $\langle M, w \rangle$ Construct a TM $M_w$ that on input $x$:
 
@@ -132,17 +132,17 @@ _Proof._ Given $\langle M, w \rangle$ Construct a TM $M_w$ that on input $x$:
 
 Then $L(M_w) = \Sigma^*$ if $M$ accepts $w$ And $L(M_w) = \emptyset$ if $M$ does not accept $w$.
 
-Therefore: $\langle M, w \rangle \in A_{\mathrm{TM}$ iff $L(M_w) \neq \emptyset$ Iff
-$\langle M_w \rangle \notin E_{\mathrm{TM}$.
+Therefore: $\langle M, w \rangle \in A_{\mathrm{TM}}$ iff $L(M_w) \neq \emptyset$ Iff
+$\langle M_w \rangle \notin E_{\mathrm{TM}}$.
 
-The reduction $f(\langle M, w \rangle) = \langle M_w \rangle$ is computable. So if $E_{\mathrm{TM}$
-were decidable, $\overline{E_{\mathrm{TM}}$ would be decidable, and hence $A_{\mathrm{TM}$ Would be
+The reduction $f(\langle M, w \rangle) = \langle M_w \rangle$ is computable. So if $E_{\mathrm{TM}}$
+were decidable, $\overline{E_{\mathrm{TM}}}$ would be decidable, and hence $A_{\mathrm{TM}}$ Would be
 decidable, contradiction. $\blacksquare$
 
 </details>
 
 <details>
-<summary>Worked Example: $E_{\mathrm{TM} \leq_m \mathrm{EQ_{\mathrm{TM}$</summary>
+<summary>Worked Example: $E_{\mathrm{TM} \leq_m \mathrm{EQ_{\mathrm{TM}}}}$</summary>
 
 _Proof._ Given $\langle M \rangle$ Construct two TMs:
 
@@ -151,9 +151,9 @@ _Proof._ Given $\langle M \rangle$ Construct two TMs:
 
 Then $L(M) = \emptyset$ iff $L(M_1) = L(M_2)$.
 
-Therefore $\langle M \rangle \in E_{\mathrm{TM}$ iff
-$\langle M_1, M_2 \rangle \in \mathrm{EQ_{\mathrm{TM}$. If $\mathrm{EQ_{\mathrm{TM}$ were decidable,
-$E_{\mathrm{TM}$ would be decidable, contradiction. $\blacksquare$
+Therefore $\langle M \rangle \in E_{\mathrm{TM}}$ iff
+$\langle M_1, M_2 \rangle \in \mathrm{EQ_{\mathrm{TM}}}$. If $\mathrm{EQ_{\mathrm{TM}}}$ were decidable,
+$E_{\mathrm{TM}}$ would be decidable, contradiction. $\blacksquare$
 
 </details>
 
@@ -250,7 +250,7 @@ over in the presence of oracles.
 **The Turing jump.** Given a language $A$ Define the **halting problem relative to $A$**:
 
 $$
-A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}
+A' = \{\langle M^A, w \rangle : M^A \mathrm{ accepts  w\}}
 $$
 
 **Theorem 5.8.** $A' \not\leq_T A$ (i.e., $A'$ is strictly more difficult than $A$ under Turing

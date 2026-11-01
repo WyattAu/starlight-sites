@@ -403,7 +403,7 @@ $$
 $$
 
 The $\mathrm{H^+}$ ions are taken up by haemoglobin (acting as a buffer), causing $\mathrm{O_2}$ to
-be released (the Bohr effect). $\mathrm{HCO_3^-$ ions are exchanged for $\mathrm{Cl^-}$ ions
+be released (the Bohr effect). $\mathrm{HCO_3^-}$ ions are exchanged for $\mathrm{Cl^-}$ ions
 (chloride shift) to maintain electrochemical neutrality.
 
 ## 7. Quantitative Gas Exchange: Fick's Law Applications
@@ -1742,7 +1742,7 @@ $\mathrm{CO_2}$ is transported in the blood in three forms:
 
 | Form                                        | Percentage of $\mathrm{CO_2}$ Transport | Description                                                                                                                                                                                                                                                                                |
 | ------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Hydrogencarbonate ions ($\mathrm{HCO_3^-}$) | $\approx 70\%$                          | $\mathrm{CO_2}$ diffuses into red blood cells; carbonic anhydrase catalyses: $\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}$. $\mathrm{HCO_3^-$ moves out into the plasma (chloride shift: $\mathrm{Cl^-}$ moves in to maintain electrical neutrality). |
+| Hydrogencarbonate ions ($\mathrm{HCO_3^-}$) | $\approx 70\%$                          | $\mathrm{CO_2}$ diffuses into red blood cells; carbonic anhydrase catalyses: $\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^-}$. $\mathrm{HCO_3^-}$ moves out into the plasma (chloride shift: $\mathrm{Cl^-}$ moves in to maintain electrical neutrality). |
 | Carbaminohaemoglobin                        | $\approx 23\%$                          | $\mathrm{CO_2}$ binds reversibly to the amino groups of haemoglobin (not the same site as $\mathrm{O_2}$).                                                                                                                                                                                 |
 | Dissolved in plasma                         | $\approx 7\%$                           | $\mathrm{CO_2}$ is directly dissolved in blood plasma.                                                                                                                                                                                                                                     |
 
@@ -1761,7 +1761,7 @@ In the lungs (reverse Bohr effect):
 
 - Low $p\mathrm{CO_2}$ (expired air) $\to$ higher pH $\to$ increased haemoglobin affinity for
   $\mathrm{O_2}$ $\to$ $\mathrm{O_2}$ is loaded.
-- $\mathrm{HCO_3^-$ diffuses back into red blood cells; carbonic anhydrase catalyses the reverse
+- $\mathrm{HCO_3^-}$ diffuses back into red blood cells; carbonic anhydrase catalyses the reverse
   reaction; $\mathrm{CO_2}$ is exhaled.
 
 ## 24. Plant Transport: Detailed Vascular System
@@ -2217,10 +2217,10 @@ $$
 
 | Symbol            | Meaning                                                                                           | Unit                                             |
 | ----------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| Rate of diffusion | Volume per unit time                                                                              | $\mathrm{mol\ s^{-1}$ or $\mathrm{cm^3\ s^{-1}$  |
-| $D$               | Diffusion coefficient (a constant for a given substance in a given medium at a given temperature) | $\mathrm{m^2\ s^{-1}$                            |
+| Rate of diffusion | Volume per unit time                                                                              | $\mathrm{mol\ s^{-1}}$ or $\mathrm{cm^3\ s^{-1}}$  |
+| $D$               | Diffusion coefficient (a constant for a given substance in a given medium at a given temperature) | $\mathrm{m^2\ s^{-1}}$                            |
 | $A$               | Surface area across which diffusion occurs                                                        | $\mathrm{m^2}$                                   |
-| $\Delta C$        | Concentration gradient                                                                            | $\mathrm{mol\ mm^{-1}$ or $\mathrm{mol\ cm^{-3}$ |
+| $\Delta C$        | Concentration gradient                                                                            | $\mathrm{mol\ mm^{-1}}$ or $\mathrm{mol\ cm^{-3}}$ |
 | $\Delta x$        | Diffusion distance (thickness of membrane or tissue)                                              | $\mathrm{m}$ or $\mu$ M                           |
 
 </div>
@@ -2233,7 +2233,7 @@ For oxygen diffusing across the alveolar membrane:
 
 | Feature                                                 | Typical Value                                                               | Effect on Diffusion                                      |
 | ------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------- |
-| $D$ (diffusion coefficient for $\mathrm{O_2}$ in water) | ~1.7 $\times 10^{-9}\ \mathrm{m^2\ s^{-1}$                                  | Increases with temperature; larger for smaller molecules |
+| $D$ (diffusion coefficient for $\mathrm{O_2}$ in water) | ~1.7 $\times 10^{-9}\ \mathrm{m^2\ s^{-1}}$                                  | Increases with temperature; larger for smaller molecules |
 | $A$ (alveolar surface area)                             | ~70 m2 (combined total)                                                     | Larger area = faster diffusion                           |
 | $\Delta C$ ($\mathrm{O_2}$ gradient)                    | Alveolar $\mathrm{pO_2}$ (~13 kPa) vs venous blood $\mathrm{pO_2}$ (~5 kPa) | Larger gradient = faster diffusion                       |
 | $\Delta x$ (alveolar membrane thickness)                | ~1--2 $\mu$ M                                                                | Shorter distance = faster diffusion                      |

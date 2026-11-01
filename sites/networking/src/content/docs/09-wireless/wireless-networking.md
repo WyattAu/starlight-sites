@@ -37,9 +37,9 @@ $$
 Where $c = 3 \times 10^8$ m/s (speed of light in a vacuum).
 
 For 2.4 GHz Wi-Fi:
-$\lambda = \frac{3 \times 10^8}{2.4 \times 10^9} = 0.125\mathrm{ m = 12.5\mathrm{ cm$
+$\lambda = \frac{3 \times 10^8}{2.4 \times 10^9} = 0.125\mathrm{ m} = 12.5\mathrm{ cm}$
 
-For 5 GHz Wi-Fi: $\lambda = \frac{3 \times 10^8}{5 \times 10^9} = 0.06\mathrm{ m = 6\mathrm{ cm$
+For 5 GHz Wi-Fi: $\lambda = \frac{3 \times 10^8}{5 \times 10^9} = 0.06\mathrm{ m} = 6\mathrm{ cm}$
 
 - **Amplitude:** The strength or height of the wave. Higher amplitude corresponds to a stronger
   signal.
@@ -52,7 +52,7 @@ RF engineers use the decibel (dB) scale because it makes calculations involving 
 Small numbers more manageable. The decibel is a logarithmic ratio:
 
 $$
-\mathrm{dB = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right)
+\mathrm{dB} = 10 \cdot \log_{10}\left(\frac{P_2}{P_1}\right)
 $$
 
 <div class="table-wrap">
@@ -83,17 +83,17 @@ Common dBm values:
 **Free Space Path Loss (FSPL):** The signal attenuation over distance in free space:
 
 $$
-\mathrm{FSPL (dB) = 20 \cdot \log_{10}(d) + 20 \cdot \log_{10}(f) + 20 \cdot \log_{10}\left(\frac{4\pi}{c}\right)
+\mathrm{FSPL (dB)} = 20 \cdot \log_{10}(d) + 20 \cdot \log_{10}(f) + 20 \cdot \log_{10}\left(\frac{4\pi}{c}\right)
 $$
 
 For a simplified calculation at common Wi-Fi frequencies:
 
 $$
-\mathrm{FSPL_{2.4\mathrm{GHz} = 40.05 + 20 \cdot \log_{10}(d)
+\mathrm{FSPL_{2.4\mathrm{GHz}}} = 40.05 + 20 \cdot \log_{10}(d)
 $$
 
 $$
-\mathrm{FSPL_{5\mathrm{GHz} = 47.86 + 20 \cdot \log_{10}(d)
+\mathrm{FSPL_{5\mathrm{GHz}}} = 47.86 + 20 \cdot \log_{10}(d)
 $$
 
 Where $d$ is the distance in meters.
@@ -112,13 +112,13 @@ Given:
 FSPL at 2.4 GHz, 100 m:
 
 $$
-\mathrm{FSPL = 40.05 + 20 \cdot \log_{10}(100) = 40.05 + 40 = 80.05\mathrm{ dB
+\mathrm{FSPL} = 40.05 + 20 \cdot \log_{10}(100) = 40.05 + 40 = 80.05\mathrm{ dB}
 $$
 
 Received power (assuming 0 dBi receive antenna):
 
 $$
-P_{rx} = P_{tx} + G_{tx} - \mathrm{FSPL + G_{rx} = 20 + 6 - 80.05 + 0 = -54.05\mathrm{ dBm
+P_{rx} = P_{tx} + G_{tx} - \mathrm{FSPL} + G_{rx} = 20 + 6 - 80.05 + 0 = -54.05\mathrm{ dBm}
 $$
 
 This is a strong signal. Most Wi-Fi clients can operate down to approximately -75 dBm for basic
@@ -132,7 +132,7 @@ Connectivity and -65 dBm for good throughput.
 Floor:
 
 $$
-\mathrm{SNR (dB) = P_{\mathrm{signal} - P_{\mathrm{noise}
+\mathrm{SNR (dB)} = P_{\mathrm{signal}} - P_{\mathrm{noise}}
 $$
 
 A higher SNR means better signal quality. Typical Wi-Fi requirements:
@@ -207,7 +207,7 @@ A PHY rate of approximately 1300 Mbps.
 Estimated TCP throughput:
 
 $$
-1300 \mathrm{ Mbps \times 0.6 \approx 780 \mathrm{ Mbps
+1300 \mathrm{ Mbps \times 0.6 \approx 780 \mathrm{ Mbps}}
 $$
 
 This is the best-case single-client throughput. With multiple clients, the available airtime is
@@ -391,7 +391,7 @@ WPA2 is the current minimum standard for Wi-Fi security.
 - **WPA2-Personal (PSK):** Pre-shared key. The PSK is derived from a passphrase using PBKDF2 with
   4096 iterations of HMAC-SHA1:
   $$
-  \mathrm{PMK = \mathrm{PBKDF2-HMAC-SHA1(\mathrm{passphrase, \mathrm{SSID, 4096, 256\mathrm{ bits)
+  \mathrm{PMK} = \mathrm{PBKDF2}-HMAC-SHA1(\mathrm{passphrase, \mathrm{SSID, 4096, 256\mathrm{ bits)}}}
   $$
 - **WPA2-Enterprise (802.1X):** Uses a RADIUS server for per-user authentication. Supports EAP
   methods like EAP-TLS (certificate-based), PEAP-MSCHAPv2, and EAP-TTLS.
@@ -802,19 +802,19 @@ Data throughput.
 FSPL at 5 GHz, 50 m:
 
 $$
-\mathrm{FSPL = 47.86 + 20 \cdot \log_{10}(50) = 47.86 + 33.98 = 81.84\mathrm{ dB
+\mathrm{FSPL} = 47.86 + 20 \cdot \log_{10}(50) = 47.86 + 33.98 = 81.84\mathrm{ dB}
 $$
 
 Received power:
 
 $$
-P_{rx} = 23 + 3 - 81.84 + 2 = -53.84\mathrm{ dBm
+P_{rx} = 23 + 3 - 81.84 + 2 = -53.84\mathrm{ dBm}
 $$
 
 With a typical noise floor of -90 dBm:
 
 $$
-\mathrm{SNR = -53.84 - (-90) = 36.16\mathrm{ dB
+\mathrm{SNR} = -53.84 - (-90) = 36.16\mathrm{ dB}
 $$
 
 An SNR of 36 dB is in the "Excellent" range, supporting the highest MCS rates. This is well above
@@ -870,7 +870,7 @@ WPA2-Personal uses PBKDF2-HMAC-SHA1 with **4096 iterations** to derive the Pairw
 From the passphrase and SSID:
 
 $$
-\mathrm{PMK = \mathrm{PBKDF2-HMAC-SHA1(\mathrm{"MyP@ssw0rd!", \mathrm{"OfficeNet", 4096, 256\mathrm{ bits)
+\mathrm{PMK} = \mathrm{PBKDF2}-HMAC-SHA1(\mathrm{"MyP@ssw0rd!", \mathrm{"OfficeNet", 4096, 256\mathrm{ bits)}}}
 $$
 
 This is 4096 iterations regardless of the passphrase length or SSID. WPA3 increases security by
@@ -900,21 +900,21 @@ Mesh1 throughput from root: The backhaul link PHY rate is 866 Mbps. With approxi
 Efficiency for TCP, the effective throughput is:
 
 $$
-866 \times 0.5 \approx 433\mathrm{ Mbps
+866 \times 0.5 \approx 433\mathrm{ Mbps}
 $$
 
 But Mesh1 must share its airtime between backhaul (communicating with root) and client access. With
 A 50/50 split:
 
 $$
-\mathrm{Mesh1 backhaul capacity \approx 433 \times 0.5 \approx 216\mathrm{ Mbps
+\mathrm{Mesh1 backhaul capacity \approx 433 \times 0.5 \approx 216\mathrm{ Mbps}}
 $$
 
 Mesh2 receives approximately 216 Mbps from Mesh1 (Mesh1 splits its time between root backhaul and
 Mesh2 backhaul). Mesh2 then splits its time between its own backhaul and client access:
 
 $$
-\mathrm{Client throughput at Mesh2 \approx 216 \times 0.5 \approx 108\mathrm{ Mbps
+\mathrm{Client throughput at Mesh2 \approx 216 \times 0.5 \approx 108\mathrm{ Mbps}}
 $$
 
 In practice, the actual throughput would likely be lower (80-100 Mbps) due to additional overhead,
@@ -965,15 +965,15 @@ Second? (1 TU = 1024 microseconds.)
 <summary>Answer</summary>
 
 $$
-1 \mathrm{ TU = 1024\,\mu\mathrm{s = 1.024 \mathrm{ ms
+1 \mathrm{ TU} = 1024\,\mu\mathrm{s} = 1.024 \mathrm{ ms}
 $$
 
 $$
-\mathrm{Beacon interval = 100 \times 1.024 \mathrm{ ms = 102.4 \mathrm{ ms
+\mathrm{Beacon interval} = 100 \times 1.024 \mathrm{ ms} = 102.4 \mathrm{ ms}
 $$
 
 $$
-\mathrm{Beacons per second = \frac{1000}{102.4} \approx 9.77
+\mathrm{Beacons per second} = \frac{1000}{102.4} \approx 9.77
 $$
 
 The AP transmits approximately 10 beacons per second. This is the default beacon interval. A shorter

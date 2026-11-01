@@ -329,7 +329,7 @@ by at most 1. Named after Adelson-Velsky and Landis (1962).
 ### Balance Factor
 
 The balance factor of a node is:
-$\mathrm{bf(node) = \mathrm{height(\mathrm{left) - \mathrm{height(\mathrm{right)$.
+$\mathrm{bf(node)} = \mathrm{height(\mathrm{left)}} - \mathrm{height(\mathrm{right)}}$.
 
 Valid balance factors: $\{-1, 0, 1\}$. If the balance factor is outside this range, rotations are
 Needed to restore balance.
@@ -575,7 +575,7 @@ class Trie:
 | Insert                | $O(k)$                   | $O(k)$                 |
 | Exact search          | $O(k)$                   | $O(k)$ average         |
 | Prefix search         | $O(k)$                   | $O(n \cdot k)$         |
-| Space                 | $O(\mathrm{total chars)$ | $O(n \cdot k)$         |
+| Space                 | $O(\mathrm{total chars)}$ | $O(n \cdot k)$         |
 | Min string prefix     | $O(k)$                   | Not supported          |
 | Longest common prefix | $O(k)$                   | Not directly supported |
 
@@ -641,7 +641,7 @@ class GraphMatrix:
 
 | Representation   | Space      | Check edge $u$-$v$     | Iterate neighbours     | Sparse graph |
 | ---------------- | ---------- | ---------------------- | ---------------------- | ------------ |
-| Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))$ | $O(\mathrm{degree(u))$ | Efficient    |
+| Adjacency list   | $O(V + E)$ | $O(\mathrm{degree(u))}$ | $O(\mathrm{degree(u))}$ | Efficient    |
 | Adjacency matrix | $O(V^2)$   | $O(1)$                 | $O(V)$                 | Wasteful     |
 
 </div>

@@ -747,7 +747,7 @@ Function $h_i$ maps an element to a row and column.
 | Operation | Algorithm                                 | Time   | Error                    |
 | --------- | ----------------------------------------- | ------ | ------------------------ |
 | Increment | For each row $i$: `count[i][h_i(x)] += 1` | $O(d)$ | N/A                      |
-| Estimate  | Return $\min_i \mathrm{count[i][h_i(x)]$  | $O(d)$ | $\le \mathrm{true count$ |
+| Estimate  | Return $\min_i \mathrm{count[i][h_i(x)]}$  | $O(d)$ | $\le \mathrm{true count}$ |
 | Space     | $d \times w$ counters                     | N/A    | N/A                      |
 
 </div>

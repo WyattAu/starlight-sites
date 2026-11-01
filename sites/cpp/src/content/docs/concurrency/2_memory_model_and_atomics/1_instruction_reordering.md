@@ -183,14 +183,14 @@ A **data dependency** exists when the address or value of one memory access depe
 Read by a prior memory access:
 
 $$
-\mathrm{data dependency:  a[i] \to b[a[i]]
+\mathrm{data dependency:  a[i]} \to b[a[i]]
 $$
 
 A **control dependency** exists when whether a memory access executes depends on the value read by a
 Prior access:
 
 $$
-\mathrm{control dependency:  \mathrm{if  (x) \{ y = 1; \}
+\mathrm{control dependency:  \mathrm{if  (x) \{ y}} = 1; \}
 $$
 
 :::caution
@@ -227,7 +227,7 @@ Sequenced-before relation is determined by the abstract machine's evaluation ord
   operands of `=` are indeterminately sequenced.
 
 $$
-A \xrightarrow{\mathrm{seq} B \implies B \mathrm{ observes  A \mathrm{'s side effects within the same thread
+A \xrightarrow{\mathrm{seq} B \implies B \mathrm{ observes  A \mathrm{'s side effects within the same thread}}}
 $$
 
 ## Happens-Before Relationship
@@ -238,16 +238,16 @@ effects of $A$.
 
 The happens-before relation is the **transitive closure** of:
 
-1. **Sequenced-before** ($\xrightarrow{\mathrm{seq}$): Within a single thread, operations are
+1. **Sequenced-before** ($\xrightarrow{\mathrm{seq}}$): Within a single thread, operations are
    ordered by the abstract machine.
 2. **Synchronizes-with**: A release operation on an atomic object $M$ in thread $A$
    **synchronizes-with** an acquire operation on $M$ in thread $B$ if $B$ reads a value written (or
    released) by $A$.
-3. **Sequenced-before is transitive**: If $A \xrightarrow{\mathrm{seq} B$ and
-   $B \xrightarrow{\mathrm{seq} C$ Then $A \xrightarrow{\mathrm{seq} C$.
+3. **Sequenced-before is transitive**: If $A \xrightarrow{\mathrm{seq} B}$ and
+   $B \xrightarrow{\mathrm{seq} C}$ Then $A \xrightarrow{\mathrm{seq} C}$.
 
 $$
-A \prec B \iff \exists\, C_1, C_2, \ldots, C_n : A \xrightarrow{\mathrm{seq} C_1 \xrightarrow{\mathrm{sw} C_2 \xrightarrow{\mathrm{seq} \ldots \xrightarrow{\mathrm{sw} C_n \xrightarrow{\mathrm{seq} B
+A \prec B \iff \exists\, C_1, C_2, \ldots, C_n : A \xrightarrow{\mathrm{seq} C_1 \xrightarrow{\mathrm{sw} C_2 \xrightarrow{\mathrm{seq} \ldots \xrightarrow{\mathrm{sw} C_n \xrightarrow{\mathrm{seq} B}}}}}
 $$
 
 **Formal definition:** $A$ happens-before $B$ ($A \prec B$) if and only if there exists a chain of
@@ -282,7 +282,7 @@ Variable in thread 2 if the load reads the value stored (or a value written late
 Operation) [N4950 §31.7.5]:
 
 $$
-\mathrm{store_{\mathrm{release}(x, v) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x, v)
+\mathrm{store_{\mathrm{release}(x, v) \xrightarrow{\mathrm{sw} \mathrm{load_{\mathrm{acquire}(x, v)}}}}}
 $$
 
 The synchronizes-with relationship creates a **happens-before** edge between the release store and

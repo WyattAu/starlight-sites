@@ -602,11 +602,11 @@ Product: **chlorobenzene** ($\mathrm{C_6H_5Cl}$)
 (b) **Friedel-Crafts alkylation:**
 
 $$
-\mathrm{CH_3CH_2Cl} + \mathrm{AlCl_3} \to \mathrm{CH_3CH_2^+ + \mathrm{AlCl_4^-}
+\mathrm{CH_3CH_2Cl} + \mathrm{AlCl_3} \to \mathrm{CH_3CH_2^+} + \mathrm{AlCl_4^-}
 $$
 
 $$
-\mathrm{C_6H_6} + \mathrm{CH_3CH_2^+} \to \mathrm{C_6H_5CH_2CH_3 + \mathrm{H^+}
+\mathrm{C_6H_6} + \mathrm{CH_3CH_2^+} \to \mathrm{C_6H_5CH_2CH_3} + \mathrm{H^+}
 $$
 
 Product: **ethylbenzene** ($\mathrm{C_6H_5CH_2CH_3}$)

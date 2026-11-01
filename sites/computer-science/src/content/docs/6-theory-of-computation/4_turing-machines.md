@@ -36,17 +36,17 @@ Q_{\mathrm{reject})}}$ where:
 - $\Gamma$ is the tape alphabet, $\sqcup \in \Gamma$, $\Sigma \subseteq \Gamma$.
 - $\delta : Q \times \Gamma \to Q \times \Gamma \times \{L, R\}$ is the transition function.
 - $q_0 \in Q$ is the start state.
-- $q_{\mathrm{accept} \in Q$ is the accept state.
-- $q_{\mathrm{reject} \in Q$ is the reject state ($q_{\mathrm{accept} \neq q_{\mathrm{reject}$).
+- $q_{\mathrm{accept} \in Q}$ is the accept state.
+- $q_{\mathrm{reject} \in Q}$ is the reject state ($q_{\mathrm{accept} \neq q_{\mathrm{reject}}}$).
 
 The TM has an infinite tape (initially containing the input followed by blanks), a read/write head
 that moves left or right, and a finite control. At each step, based on the current state and symbol
 under the head, it writes a symbol, moves the head, and changes state.
 
-$M$ **accepts** input $w$ if the computation halts in $q_{\mathrm{accept}$. $M$ **rejects** $w$ if
-it halts in $q_{\mathrm{reject}$. $M$ **loops** if it never halts.
+$M$ **accepts** input $w$ if the computation halts in $q_{\mathrm{accept}}$. $M$ **rejects** $w$ if
+it halts in $q_{\mathrm{reject}}$. $M$ **loops** if it never halts.
 
-The **language recognised** by $M$ is $L(M) = \{w : M \mathrm{ accepts  w\}$.
+The **language recognised** by $M$ is $L(M) = \{w : M \mathrm{ accepts  w\}}$.
 
 A language is **Turing-recognisable** (recursively enumerable) if some TM recognises it. A language
 is **decidable** if some TM decides it (halts on all inputs, accepting or rejecting).
@@ -126,7 +126,7 @@ Design a single-tape TM that decides $L = \{0^n 1^n : n \geq 0\}$.
 
 **Idea:** Repeatedly cross off one `0` and one `1`. If all symbols are crossed off, accept.
 
-$M = (Q, \{0, 1\}, \{0, 1, \mathrm{x, \sqcup\}, \delta, q_0, q_{\mathrm{accept}, q_{\mathrm{reject})$.
+$M = (Q, \{0, 1\}, \{0, 1, \mathrm{x, \sqcup\}, \delta, q_0, q_{\mathrm{accept}, q_{\mathrm{reject})}}}$.
 
 **Key transitions:**
 
@@ -146,9 +146,9 @@ machine rejects. $\blacksquare$
 </details>
 
 <details>
-<summary>Worked Example: TM that decides $A_{\mathrm{DFA}$</summary>
+<summary>Worked Example: TM that decides $A_{\mathrm{DFA}}$</summary>
 
-Design a TM that decides $A_{\mathrm{DFA} = \{\langle B, w \rangle : B \mathrm{ accepts  w\}$.
+Design a TM that decides $A_{\mathrm{DFA}} = \{\langle B, w \rangle : B \mathrm{ accepts  w\}}$.
 
 **Construction.** On input $\langle B, w \rangle$ where $B = (Q, \Sigma, \delta, q_0, F)$:
 
@@ -196,12 +196,12 @@ remains, accept.
 
 **Algorithm:**
 
-1. Scan right to find the rightmost non-$\sqcup$ Non-$\mathrm{x$ symbol (call it $a$). If we cross
+1. Scan right to find the rightmost non-$\sqcup$ Non-$\mathrm{x}$ symbol (call it $a$). If we cross
    $\#$ on the way, note its position.
-2. Return to the leftmost non-$\sqcup$ Non-$\mathrm{x$ symbol (call it $b$).
+2. Return to the leftmost non-$\sqcup$ Non-$\mathrm{x}$ symbol (call it $b$).
 3. If $a \neq b$ Reject.
-4. Cross off both $a$ and $b$ (write $\mathrm{x$).
-5. Repeat until only $\#$ (and $\mathrm{x$ S) remain, then accept.
+4. Cross off both $a$ and $b$ (write $\mathrm{x}$).
+5. Repeat until only $\#$ (and $\mathrm{x}$ S) remain, then accept.
 
 _Correctness._ If the input is $w\#w^R$ The first symbol of $w$ equals the last symbol of $w^R$
 (which is the first symbol of $w$), the second equals the second-to-last, etc. Each Iteration

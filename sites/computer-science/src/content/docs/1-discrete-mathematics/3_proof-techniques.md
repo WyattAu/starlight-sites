@@ -158,7 +158,7 @@ Induction.
 
 _Proof (WOP implies induction)._ Let $P(n)$ be a property with $P(0)$ true and
 $P(k) \implies P(k+1)$. Suppose for contradiction that $P(n)$ fails for some $n \geq 0$. Let
-$S = \\{n \geq 0 : P(n)\; \mathrm{is\; false{}\\}$. By assumption $S \neq \emptyset$ So by WOP, $S$
+$S = \\{n \geq 0 : P(n)\; \mathrm{is\; false{}\\}}$. By assumption $S \neq \emptyset$ So by WOP, $S$
 has a least Element $m$. Since $P(0)$ is true, $m \geq 1$. Then $P(m - 1)$ is true (by minimality of
 $m$), And $P(m - 1) \implies P(m)$ by the inductive hypothesis, so $P(m)$ is true, contradicting
 $m \in S$. Therefore $S = \emptyset$ and $P(n)$ holds for all $n \geq 0$.

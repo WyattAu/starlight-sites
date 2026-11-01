@@ -439,7 +439,7 @@ $$
 P(\mathrm{outcome  k) = \begin{cases} \lceil R / n \rceil / R & \mathrm{if  k \lt R \bmod n \\ \lfloor R / n \rfloor / R & \mathrm{otherwise \end{cases}
 $$
 
-Where $R = \mathrm{max - \mathrm{min + 1$ is the engine's range.
+Where $R = \mathrm{max} - \mathrm{min} + 1$ is the engine's range.
 
 For example, with a 16-bit engine ($R = 65536$) and $n = 3$:
 

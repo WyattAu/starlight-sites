@@ -76,7 +76,7 @@ Performs context switching.
 Supported by the implementation. This value approximates the number of hardware threads available:
 
 $$
-N_{\mathrm{optimal} = \mathrm{std::thread::hardware\_concurrency()
+N_{\mathrm{optimal}} = \mathrm{std::thread::hardware\_concurrency()}
 $$
 
 ```cpp

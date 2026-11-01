@@ -1272,7 +1272,7 @@ _If you get this wrong, revise: Ionic Bonding and Simple Molecular vs Giant Cova
 <summary>Solution</summary>
 
 $\mathrm{NaCl}$ has a giant ionic lattice. Strong electrostatic forces between $\mathrm{Na^+}$ and
-$\mathrm{Cl^-$ act throughout the entire lattice, requiring large amounts of energy to overcome.
+$\mathrm{Cl^-}$ act throughout the entire lattice, requiring large amounts of energy to overcome.
 
 $\mathrm{CCl_4}$ is a simple molecular substance. The covalent bonds within each molecule are
 strong, but only weak van der Waals forces act between molecules. These weak intermolecular forces

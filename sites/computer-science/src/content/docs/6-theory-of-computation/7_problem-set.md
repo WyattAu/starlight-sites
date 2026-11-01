@@ -102,7 +102,7 @@ regular using the pumping lemma. (b) Give a CFG for $L$ and prove it is correct.
 decidable? Justify.
 
 **Problem 20.** For each of the following languages, state the smallest complexity class (from
-$\mathrm{Regular}$, $\mathrm{CFL$, $\mathrm{Decidable}$, $\mathrm{NP$ $\mathrm{PSPACE$,
+$\mathrm{Regular}$, $\mathrm{CFL}$, $\mathrm{Decidable}$, $\mathrm{NP}$ $\mathrm{PSPACE}$,
 $\mathrm{EXPTIME}$ Or "undecidable") that is known to contain it. Justify each answer briefly.
 
 (a) $\{0^n 1^n 0^n : n \geq 0\}$ (b) $\{\langle G \rangle : G \mathrm{ has} a Hamiltonian cycle\}$

@@ -100,7 +100,7 @@ The sequence of events in one heartbeat:
 **Cardiac output (HL):**
 
 $$
-\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate
+\mathrm{Cardiac output} = \mathrm{stroke volume \times \mathrm{heart rate}}
 $$
 
 ### Blood Pressure (OL/HL)
@@ -440,7 +440,7 @@ Nephrons.
    and ions, and some urea are reabsorbed. Glucose and amino acids are reabsorbed by active
    transport; water follows by osmosis.
 3. **Loop of Henle (countercurrent multiplication):** The descending limb is permeable to water but
-   not ions. The ascending limb actively pumps out $\mathrm{Na^+$ and $\mathrm{Cl^-$. This creates a
+   not ions. The ascending limb actively pumps out $\mathrm{Na^+}$ and $\mathrm{Cl^-}$. This creates a
    concentration gradient in the medulla, which is essential for producing concentrated urine.
 4. **Distal convoluted tubule:** Fine-tuning of water and ion balance under hormonal control (ADH
    and aldosterone).
@@ -471,9 +471,9 @@ Tries to replace the lost water.
 **Synaptic transmission:**
 
 1. An action potential arrives at the pre-synaptic membrane.
-2. Voltage-gated calcium channels open, and $\mathrm{Ca^{2+}$ ions flow into the pre-synaptic
+2. Voltage-gated calcium channels open, and $\mathrm{Ca^{2+}}$ ions flow into the pre-synaptic
    neurone.
-3. The influx of $\mathrm{Ca^{2+}$ causes synaptic vesicles to fuse with the pre-synaptic membrane,
+3. The influx of $\mathrm{Ca^{2+}}$ causes synaptic vesicles to fuse with the pre-synaptic membrane,
    releasing neurotransmitter into the synaptic cleft.
 4. The neurotransmitter diffuses across the synaptic cleft and binds to specific receptors on the
    post-synaptic membrane.

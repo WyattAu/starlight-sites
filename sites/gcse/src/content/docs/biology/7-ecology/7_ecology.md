@@ -29,7 +29,7 @@ categories:
 ### 1.1 Levels of Organisation in an Ecosystem
 
 $$
-\mathrm{Individual \to \mathrm{Population \to \mathrm{Community \to \mathrm{Ecosystem \to \mathrm{Biosphere
+\mathrm{Individual} \to \mathrm{Population} \to \mathrm{Community} \to \mathrm{Ecosystem} \to \mathrm{Biosphere}
 $$
 
 - **Individual:** A single organism.
@@ -113,7 +113,7 @@ Organisms are adapted to their environment through natural selection. Adaptation
   (reduces surface area, deters herbivores); swollen stem (stores water); shallow but extensive root
   system (quickly absorbs water after rain).
 - **Physiological:** CAM (Crassulacean Acid Metabolism) photosynthesis: stomata open at night to
-  take in $\mathrm{CO_2$ Reducing water loss during the hot day.
+  take in $\mathrm{CO_2}$ Reducing water loss during the hot day.
 
 **Worked Example: Surface-area-to-volume ratio and heat loss.**
 
@@ -138,7 +138,7 @@ heat.
 A **food chain** shows the transfer of energy from one organism to another:
 
 $$
-\mathrm{Producer \to \mathrm{Primary consumer \to \mathrm{Secondary consumer \to \mathrm{Tertiary consumer
+\mathrm{Producer} \to \mathrm{Primary consumer} \to \mathrm{Secondary consumer} \to \mathrm{Tertiary consumer}
 $$
 
 - **Producer:** An organism that makes its own food by photosynthesis (e.g. Plants, algae).
@@ -239,7 +239,7 @@ $$
 Transferred to the primary consumer. Calculate the efficiency.
 
 $$
-\mathrm{Efficiency = \frac{1000}{10000} \times 100\% = 10\%
+\mathrm{Efficiency} = \frac{1000}{10000} \times 100\% = 10\%
 $$
 
 **Worked Example 2.** If a primary consumer has 1,000 kJ of energy and 100 kJ is transferred to the
@@ -268,26 +268,26 @@ This shows how little energy reaches the top of a food chain.
 Carbon is constantly recycled between the atmosphere, organisms, and the Earth. The total amount of
 carbon on Earth is fixed, but it moves between different stores (reservoirs).
 
-**Processes that remove $\mathrm{CO_2$ from the atmosphere:**
+**Processes that remove $\mathrm{CO_2}$ from the atmosphere:**
 
-- **Photosynthesis:** Plants convert $\mathrm{CO_2$ into glucose. This is the main route by which
+- **Photosynthesis:** Plants convert $\mathrm{CO_2}$ into glucose. This is the main route by which
   carbon moves from the atmosphere into the biosphere.
-- **Dissolving in oceans:** $\mathrm{CO_2$ dissolves in seawater to form carbonic acid, which reacts
+- **Dissolving in oceans:** $\mathrm{CO_2}$ dissolves in seawater to form carbonic acid, which reacts
   to form carbonate ions. The oceans are a massive carbon store.
 
-**Processes that return $\mathrm{CO_2$ to the atmosphere:**
+**Processes that return $\mathrm{CO_2}$ to the atmosphere:**
 
-- **Respiration:** All living organisms release $\mathrm{CO_2$ during respiration. This includes
+- **Respiration:** All living organisms release $\mathrm{CO_2}$ during respiration. This includes
   plants, which respire 24 hours a day.
 - **Combustion:** Burning fossil fuels (coal, oil, natural gas) and biomass (wood, biofuels)
-  releases $\mathrm{CO_2$ that was previously locked away.
-- **Decomposition:** Decomposers break down dead material and release $\mathrm{CO_2$ as a by-product
+  releases $\mathrm{CO_2}$ that was previously locked away.
+- **Decomposition:** Decomposers break down dead material and release $\mathrm{CO_2}$ as a by-product
   of their respiration.
 
 **Carbon stores:**
 
-- Atmosphere (as $\mathrm{CO_2$) -- approximately 750 billion tonnes.
-- Oceans (as dissolved $\mathrm{CO_2$ and carbonate compounds) -- the largest active carbon store.
+- Atmosphere (as $\mathrm{CO_2}$) -- approximately 750 billion tonnes.
+- Oceans (as dissolved $\mathrm{CO_2}$ and carbonate compounds) -- the largest active carbon store.
 - Fossil fuels (coal, oil, natural gas) -- formed from the remains of organisms that died millions
   of years ago.
 - Limestone (calcium carbonate) -- formed from the shells of marine organisms over geological time.
@@ -346,7 +346,7 @@ optimum, the enzymes denature and decomposition slows.
 2. Place samples in different conditions (e.g. Warm/moist, cold/dry, warm/dry).
 3. Measure the mass of the samples at regular intervals (e.g. Every week for 4 weeks).
 4. The sample that loses mass fastest is decomposing most rapidly (the mass loss is due to carbon
-   being released as $\mathrm{CO_2$ by the decomposers).
+   being released as $\mathrm{CO_2}$ by the decomposers).
 
 **Variables:**
 
@@ -359,23 +359,23 @@ optimum, the enzymes denature and decomposition slows.
 
 The nitrogen cycle describes how nitrogen is converted between different chemical forms and
 circulates through the ecosystem. Nitrogen is essential for making amino acids and proteins, DNA,
-And other biomolecules, but most organisms cannot use atmospheric nitrogen ($\mathrm{N_2$) directly
+And other biomolecules, but most organisms cannot use atmospheric nitrogen ($\mathrm{N_2}$) directly
 because the triple bond between the two nitrogen atoms is very strong.
 
 **Key processes:**
 
-1. **Nitrogen fixation:** Conversion of atmospheric $\mathrm{N_2$ to ammonia ($\mathrm{NH_3$).
+1. **Nitrogen fixation:** Conversion of atmospheric $\mathrm{N_2}$ to ammonia ($\mathrm{NH_3}$).
    Carried out by nitrogen-fixing bacteria (e.g. Rhizobium in the root nodules of leguminous plants
    such as peas, beans, and clover) and by lightning (which provides enough energy to break the
-   $\mathrm{N\equiv\mathrm{N$ bond).
-2. **Nitrification:** Conversion of ammonia to nitrites ($\mathrm{NO_2^-$) and then nitrates
-   ($\mathrm{NO_3^-$). Carried out by nitrifying bacteria (Nitrosomonas and Nitrobacter) in the
+   $\mathrm{N\equiv\mathrm{N}}$ bond).
+2. **Nitrification:** Conversion of ammonia to nitrites ($\mathrm{NO_2^-}$) and then nitrates
+   ($\mathrm{NO_3^-}$). Carried out by nitrifying bacteria (Nitrosomonas and Nitrobacter) in the
    soil. Nitrates are the form of nitrogen that plants can absorb.
 3. **Assimilation:** Plants absorb nitrates through their roots and use them to make amino acids and
    proteins. Animals obtain nitrogen by eating plants or other animals.
 4. **Ammonification:** Decomposers break down dead organisms and waste (urine, faeces), releasing
    ammonia back into the soil.
-5. **Denitrification:** Conversion of nitrates back to $\mathrm{N_2$ gas. Carried out by
+5. **Denitrification:** Conversion of nitrates back to $\mathrm{N_2}$ gas. Carried out by
    denitrifying bacteria in waterlogged (anaerobic) soil. This process removes nitrogen from the
    ecosystem and returns it to the atmosphere, reducing the fertility of the soil.
 
@@ -385,10 +385,10 @@ because the triple bond between the two nitrogen atoms is very strong.
 
 | Process           | Bacteria                  | Conversion                                           | Conditions        |
 | ----------------- | ------------------------- | ---------------------------------------------------- | ----------------- |
-| Nitrogen fixation | Rhizobium, Azotobacter    | $\mathrm{N_2 \to \mathrm{NH_3$                       | Aerobic           |
-| Nitrification     | Nitrosomonas, Nitrobacter | $\mathrm{NH_3 \to \mathrm{NO_2^- \to \mathrm{NO_3^-$ | Aerobic           |
-| Denitrification   | Pseudomonas, Thiobacillus | $\mathrm{NO_3^- \to \mathrm{N_2$                     | Anaerobic         |
-| Ammonification    | Various decomposers       | Organic N $\to \mathrm{NH_3$                         | Aerobic/anaerobic |
+| Nitrogen fixation | Rhizobium, Azotobacter    | $\mathrm{N_2} \to \mathrm{NH_3}$                       | Aerobic           |
+| Nitrification     | Nitrosomonas, Nitrobacter | $\mathrm{NH_3} \to \mathrm{NO_2^-} \to \mathrm{NO_3^-}$ | Aerobic           |
+| Denitrification   | Pseudomonas, Thiobacillus | $\mathrm{NO_3^-} \to \mathrm{N_2}$                     | Anaerobic         |
+| Ammonification    | Various decomposers       | Organic N $\to \mathrm{NH_3}$                         | Aerobic/anaerobic |
 
 </div>
 
@@ -525,7 +525,7 @@ from fertiliser runoff.
 
 ### 4.6 Global Warming
 
-**Greenhouse gases** ($\mathrm{CO_2$ Methane, water vapour, nitrous oxide) trap heat in the
+**Greenhouse gases** ($\mathrm{CO_2}$ Methane, water vapour, nitrous oxide) trap heat in the
 Atmosphere, causing the Earth's average temperature to rise. This is the **greenhouse effect**.
 
 **Evidence for climate change:**
@@ -534,7 +534,7 @@ Atmosphere, causing the Earth's average temperature to rise. This is the **green
 - Rising sea levels (measured by tide gauges and satellite altimetry).
 - Melting ice caps and glaciers (measured by satellite imagery and ground surveys).
 - Increased frequency of extreme weather events (floods, droughts, heatwaves).
-- Increased atmospheric $\mathrm{CO_2$ concentration (measured at Mauna Loa Observatory since 1958;
+- Increased atmospheric $\mathrm{CO_2}$ concentration (measured at Mauna Loa Observatory since 1958;
   the Keeling Curve shows a steady increase from approximately 315 ppm to over 420 ppm).
 
 **Consequences:**
@@ -551,9 +551,9 @@ Atmosphere, causing the Earth's average temperature to rise. This is the **green
 
 - Using renewable energy sources instead of fossil fuels (solar, wind, hydroelectric, nuclear).
 - Energy efficiency (insulation, LED bulbs, electric vehicles).
-- Carbon capture and storage (capturing $\mathrm{CO_2$ from power stations and storing it
+- Carbon capture and storage (capturing $\mathrm{CO_2}$ from power stations and storing it
   underground).
-- Reforestation (planting trees to absorb $\mathrm{CO_2$ through photosynthesis).
+- Reforestation (planting trees to absorb $\mathrm{CO_2}$ through photosynthesis).
 - International agreements (Paris Agreement, 2015 -- commits countries to limit global warming to
   well below 2$^{\circ}$C above pre-industrial levels).
 
@@ -597,7 +597,7 @@ Gradient (e.g., from the shore of a lake into the surrounding field).
 **Mark-release-recapture:**
 
 $$
-\mathrm{Estimated population = \frac{n_1 \times n_2}{n_3}
+\mathrm{Estimated population} = \frac{n_1 \times n_2}{n_3}
 $$
 
 Where $n_1$ = number captured and marked first time, $n_2$ = number captured second time, $n_3$ =
@@ -614,14 +614,14 @@ Number marked in second capture.
 Are caught, of which 10 are marked.
 
 $$
-\mathrm{Population = \frac{50 \times 40}{10} = 200
+\mathrm{Population} = \frac{50 \times 40}{10} = 200
 $$
 
 **Worked Example 2:** 30 beetles are captured and marked. In a second capture of 50 beetles, 5 are
 Marked.
 
 $$
-\mathrm{Population = \frac{30 \times 50}{5} = 300
+\mathrm{Population} = \frac{30 \times 50}{5} = 300
 $$
 
 ### 5.5 Higher Tier: Reliability and Validity in Ecological Sampling
@@ -667,7 +667,7 @@ Conditions).
 
 2. Explain why only about 10% of energy is transferred from one trophic level to the next.
 
-3. Describe the carbon cycle, naming the processes that add and remove $\mathrm{CO_2$ from the
+3. Describe the carbon cycle, naming the processes that add and remove $\mathrm{CO_2}$ from the
    atmosphere.
 
 4. Explain how eutrophication leads to the death of fish in a lake.
@@ -747,8 +747,8 @@ on the planet.
 
 **The problem:** When peat bogs are drained for agriculture (e.g., for palm oil plantations in
 Southeast Asia) or harvested for fuel, the peat is exposed to air. Aerobic decomposition resumes,
-And the stored carbon is released as $\mathrm{CO_2$. Drained tropical peatlands are estimated to
-release approximately 1.5 billion tonnes of $\mathrm{CO_2$ per year, making them a major contributor
+And the stored carbon is released as $\mathrm{CO_2}$. Drained tropical peatlands are estimated to
+release approximately 1.5 billion tonnes of $\mathrm{CO_2}$ per year, making them a major contributor
 to climate change.
 
 **Conservation:** Protecting and restoring peat bogs is an important strategy for mitigating climate
@@ -763,7 +763,7 @@ quality of the environment.
 **Air quality indicators (lichens):**
 
 Lichens are symbiotic organisms composed of a fungus and an alga. They are sensitive to air
-Pollution, particularly sulphur dioxide ($\mathrm{SO_2$).
+Pollution, particularly sulphur dioxide ($\mathrm{SO_2}$).
 
 <div class="table-wrap">
 
@@ -868,7 +868,7 @@ This process can take 100--200 years or more, depending on the climate and soil 
 <details>
 <summary>Question 1: Food chain calculations</summary>
 
-A food chain consists of grass $\to$ rabbit $\to$ fox. If the grass produces $10,000 \mathrm{ kJ$ of
+A food chain consists of grass $\to$ rabbit $\to$ fox. If the grass produces $10,000 \mathrm{ kJ}$ of
 energy, calculate the energy available to the fox, assuming $10\%$ efficiency at each trophic level.
 
 </details>
@@ -876,13 +876,13 @@ energy, calculate the energy available to the fox, assuming $10\%$ efficiency at
 <details>
 <summary>Answer</summary>
 
-Grass: $10,000 \mathrm{ kJ$.
+Grass: $10,000 \mathrm{ kJ}$.
 
-Rabbit (primary consumer): $10,000 \times 0.10 = 1,000 \mathrm{ kJ$.
+Rabbit (primary consumer): $10,000 \times 0.10 = 1,000 \mathrm{ kJ}$.
 
-Fox (secondary consumer): $1,000 \times 0.10 = 100 \mathrm{ kJ$.
+Fox (secondary consumer): $1,000 \times 0.10 = 100 \mathrm{ kJ}$.
 
-Only $100 \mathrm{ kJ$ of the original $10,000 \mathrm{ kJ$ is available to the fox. The remaining
+Only $100 \mathrm{ kJ}$ of the original $10,000 \mathrm{ kJ}$ is available to the fox. The remaining
 energy is lost through respiration, excretion, and as heat.
 
 </details>
@@ -898,12 +898,12 @@ balance of carbon dioxide in the atmosphere.
 <details>
 <summary>Answer</summary>
 
-Decomposers break down dead organic matter, releasing $\mathrm{CO_2$ back into the atmosphere
+Decomposers break down dead organic matter, releasing $\mathrm{CO_2}$ back into the atmosphere
 through respiration. This recycles carbon that was stored in organisms.
 
-Deforestation reduces the number of trees available to absorb $\mathrm{CO_2$ through photosynthesis.
-It also releases stored carbon (as $\mathrm{CO_2$) when trees are burned or decompose. This
-increases the net $\mathrm{CO_2$ in the atmosphere, contributing to the enhanced greenhouse effect
+Deforestation reduces the number of trees available to absorb $\mathrm{CO_2}$ through photosynthesis.
+It also releases stored carbon (as $\mathrm{CO_2}$) when trees are burned or decompose. This
+increases the net $\mathrm{CO_2}$ in the atmosphere, contributing to the enhanced greenhouse effect
 and climate change.
 
 </details>
@@ -911,8 +911,8 @@ and climate change.
 <details>
 <summary>Question 3: Quadrat sampling</summary>
 
-A student uses a $1 \mathrm{ m^2$ quadrat to estimate the population of daisies in a
-$50 \mathrm{ m \times 20 \mathrm{ m$ field. The quadrat is placed randomly 10 times, and the counts
+A student uses a $1 \mathrm{ m^2}$ quadrat to estimate the population of daisies in a
+$50 \mathrm{ m \times 20 \mathrm{ m}}$ field. The quadrat is placed randomly 10 times, and the counts
 are: 3, 5, 2, 4, 6, 3, 4, 5, 2, 6. Estimate the total daisy population in the field.
 
 </details>
@@ -921,9 +921,9 @@ are: 3, 5, 2, 4, 6, 3, 4, 5, 2, 6. Estimate the total daisy population in the fi
 <summary>Answer</summary>
 
 Mean count per quadrat: $(3 + 5 + 2 + 4 + 6 + 3 + 4 + 5 + 2 + 6) / 10 = 40 / 10 = 4$ daisies per
-$\mathrm{m^2$.
+$\mathrm{m^2}$.
 
-Field area: $50 \times 20 = 1,000 \mathrm{ m^2$.
+Field area: $50 \times 20 = 1,000 \mathrm{ m^2}$.
 
 Estimated population: $4 \times 1,000 = 4,000$ daisies.
 

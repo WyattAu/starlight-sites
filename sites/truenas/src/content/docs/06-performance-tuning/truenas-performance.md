@@ -211,7 +211,7 @@ instead of a new copy.
 The deduplication table (DDT) requires approximately 320 bytes per unique block in RAM:
 
 $$
-DDT\_RAM = Unique\_Blocks \times 320 \mathrm{ bytes
+DDT\_RAM = Unique\_Blocks \times 320 \mathrm{ bytes}
 $$
 
 <div class="table-wrap">

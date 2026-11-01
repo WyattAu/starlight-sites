@@ -220,7 +220,7 @@ int main() {
 The monadic operations compose , forming a pipeline:
 
 $$
-\mathrm{expected_1 \xrightarrow{\mathrm{and\_then} \mathrm{expected_2 \xrightarrow{\mathrm{transform} \mathrm{expected_3 \xrightarrow{\mathrm{or\_else} \mathrm{expected_4
+\mathrm{expected_1 \xrightarrow{\mathrm{and\_then} \mathrm{expected_2 \xrightarrow{\mathrm{transform} \mathrm{expected_3 \xrightarrow{\mathrm{or\_else} \mathrm{expected_4}}}}}}}
 $$
 
 Each operation short-circuits on error: once an error enters the pipeline, it propagates through all

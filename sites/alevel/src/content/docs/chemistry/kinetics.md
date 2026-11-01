@@ -1072,7 +1072,7 @@ to $0.100\,\mathrm{mol\,dm^{-3}}$ in 120 s.
 
 (b) Calculate the half-life. (1 mark)
 
-(c) Calculate the time for the concentration to fall to $0.025\,\mathrm{mol\,dm^{-3}$. (2 marks)
+(c) Calculate the time for the concentration to fall to $0.025\,\mathrm{mol\,dm^{-3}}$. (2 marks)
 
 **Mark Scheme:**
 
@@ -1091,7 +1091,7 @@ value.)
 $t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{5.78 \times 10^{-3}} = 120\,\mathrm{s}$
 (1 mark.)
 
-(c) $0.025\,\mathrm{mol\,dm^{-3} = 0.200 \times \left(\frac{1}{2}\right)^n$ where $n$ is the number
+(c) $0.025\,\mathrm{mol\,dm^{-3}} = 0.200 \times \left(\frac{1}{2}\right)^n$ where $n$ is the number
 of half-lives.
 
 $\frac{0.025}{0.200} = 0.125 = \left(\frac{1}{2}\right)^3$ So $n = 3$ half-lives.

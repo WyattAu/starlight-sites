@@ -81,7 +81,7 @@ Maintenance debt that compounds over time.
 Each normal form is a strict subset of the one below it:
 
 $$
-1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF
+1NF \supset 2NF \supset 3NF \supset \mathrm{BCNF \supset 4NF \supset 5NF}
 $$
 
 A relation in BCNF is automatically in 3NF, 2NF, and 1NF. The higher the normal form, the less
