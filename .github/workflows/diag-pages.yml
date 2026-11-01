@@ -19,6 +19,7 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        shell: python
         # Pure Python: the previous bash loop embedded multi-line
         # `python3 -c "..."` snippets at column 1, which terminated the
         # YAML block scalar and made this workflow file unparseable.
