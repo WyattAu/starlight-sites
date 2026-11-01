@@ -25,18 +25,27 @@ jobs:
         run: |
           import json
           import os
+          import urllib.error
           import urllib.request
 
-          account = os.environ["CLOUDFLARE_ACCOUNT_ID"]
-          token = os.environ["CLOUDFLARE_API_TOKEN"]
+          account = os.environ.get("CLOUDFLARE_ACCOUNT_ID", "")
+          token = os.environ.get("CLOUDFLARE_API_TOKEN", "")
 
           def get(path):
+              # Print-and-continue on HTTP errors: this is a diagnostic,
+              # and Pages secrets may be scoped to the default branch.
               req = urllib.request.Request(
                   f"https://api.cloudflare.com/client/v4/accounts/{account}/pages/{path}",
                   headers={"Authorization": f"Bearer {token}"},
               )
-              with urllib.request.urlopen(req) as resp:
-                  return json.load(resp)
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      return json.load(resp)
+              except urllib.error.HTTPError as e:
+                  return {"success": False,
+                          "errors": f"HTTP {e.code}: {e.read(400).decode(errors='replace')}"}
+              except Exception as e:  # diagnostic must not crash the step
+                  return {"success": False, "errors": f"{type(e).__name__}: {e}"}
 
           for project in ["wyattsnotes-accounting", "wyattsnotes-economics", "wyattsnotes-finance"]:
               print(f"===== {project} =====")
