@@ -38,6 +38,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Introduction', slug: 'intro' },
         {
           label: 'Licensing',
           items: [{ label: 'Open Source Licenses', slug: 'osi-licenses' }],

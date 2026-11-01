@@ -38,6 +38,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Introduction', slug: 'intro' },
         {
           label: 'Relational Theory',
           items: [{ autogenerate: { directory: '01-relational-theory' } }],

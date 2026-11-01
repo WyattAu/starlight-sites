@@ -38,6 +38,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Introduction', slug: 'intro' },
         { label: 'Zfs', items: [{ autogenerate: { directory: '01-zfs' } }], collapsed: true },
         {
           label: 'Sharing And Permissions',

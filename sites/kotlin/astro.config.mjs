@@ -41,6 +41,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Introduction', slug: 'intro' },
         {
           label: 'Advanced',
           items: [{ autogenerate: { directory: 'advanced' } }],

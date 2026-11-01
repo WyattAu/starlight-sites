@@ -39,6 +39,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Introduction', slug: 'intro' },
         { label: 'Practice Test', slug: 'practice-test-mega' },
         {
           label: 'Mathematics',

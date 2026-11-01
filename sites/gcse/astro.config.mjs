@@ -40,6 +40,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Introduction', slug: 'intro' },
 
         { label: 'Biology', items: [{ autogenerate: { directory: 'biology' } }], collapsed: true },
         { label: 'Practice Test', slug: 'practice-test-mega' },

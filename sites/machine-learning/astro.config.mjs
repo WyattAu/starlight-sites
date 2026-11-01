@@ -38,6 +38,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Introduction', slug: 'intro' },
         {
           label: 'Machine Learning',
           items: [{ label: 'advanced topics', slug: 'advanced-topics' }],

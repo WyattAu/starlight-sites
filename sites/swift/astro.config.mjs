@@ -41,6 +41,7 @@ export default defineConfig({
       },
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
+        { label: 'Introduction', slug: 'intro' },
         { label: 'Intro', items: [{ autogenerate: { directory: '00-intro' } }], collapsed: true },
         { label: 'Basics', items: [{ autogenerate: { directory: '01-basics' } }], collapsed: true },
         {
