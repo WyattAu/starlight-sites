@@ -4724,7 +4724,7 @@ Attempt these from memory before reading.
 ## The four representations of a Hamiltonian system
 
 Physics education research is unambiguous that experts move fluently between
-four representations — words, pictures, equations, and phase portraits — and
+four representations; words, pictures, equations, and phase portraits; and
 that novices who are taught to translate between them outperform novices taught
 in equations alone. This page deliberately uses all four for the same object.
 
@@ -4771,7 +4771,7 @@ logarithmically. Keep that in mind: it is the reason the problem is hard.
 ## The symplectic form: the structure that makes it all work
 
 **In words.** Phase space is not just a set of points. It carries a geometric
-object — the symplectic form — that tells you how to measure *area* in a
+object; the symplectic form; that tells you how to measure *area* in a
 particular way, and Hamilton's equations are exactly the statement that the
 flow preserves that area.
 
@@ -4839,7 +4839,7 @@ $$
 algebra, and $\{q_i, p_j\} = \delta_{ij}$ is exactly the canonical
 commutation relation of quantum mechanics with $i\hbar$ times the bracket. The
 direction of quantisation runs from this structure, not from the Schrödinger
-equation — which is why deformation quantisation is formulated as a deformation
+equation; which is why deformation quantisation is formulated as a deformation
 of the Poisson algebra.
 
 ## Integrable systems and action-angle variables
@@ -4869,13 +4869,13 @@ torus* depends on whether the frequency ratios $\omega_i/\omega_j$ are rational.
 
 **Worked example (A).** The harmonic oscillator has $H = \frac{1}{2}(p^2 +
 \omega^2 q^2)$. With $I = H/\omega$ and $\theta = \arctan(\omega q / p)$, one
-finds $H = \omega I$ and $\dot\theta = \omega$ — a single torus (a circle),
+finds $H = \omega I$ and $\dot\theta = \omega$; a single torus (a circle),
 wound once per period.
 
 **The theorem this makes believable.** The Arnold–Liouville theorem states the
 converse: $n$ involutive integrals on a compact $2n$-dimensional level set
 imply the level set is a union of $n$-tori with linear flow. Integrability is
-rare — the three-body problem is not integrable — so the question becomes what
+rare; the three-body problem is not integrable; so the question becomes what
 happens to the tori when the system is *nearly* integrable.
 
 ## KAM theory: what survives a small perturbation
@@ -4883,7 +4883,7 @@ happens to the tori when the system is *nearly* integrable.
 **In words.** Take an integrable system and perturb it slightly. Naive
 perturbation theory predicts the tori are destroyed, and for most tori they
 are. But Kolmogorov, Arnold and Moser showed that tori whose frequencies are
-*irrational enough* survive — distorted, but still invariant. A Cantor set of
+*irrational enough* survive; distorted, but still invariant. A Cantor set of
 positive measure survives.
 
 **As equations.** Take
@@ -4904,7 +4904,7 @@ $$
 **Why the Diophantine condition.** Perturbation theory produces series whose
 terms contain denominators $\omega \cdot k$. For rational or nearly rational
 frequencies these get arbitrarily small and the series diverges. Diophantine
-frequencies are exactly those for which small divisors stay controlled — and
+frequencies are exactly those for which small divisors stay controlled; and
 the set of frequencies failing the condition has small measure. Number theory
 enters mechanics through the back door.
 
@@ -4926,7 +4926,7 @@ enters mechanics through the back door.
 **Why it was hard.** The proof requires a rapidly convergent iteration (Newton
 method rather than plain perturbation series) applied on a *Cantor family* of
 tori, with the parameters adjusted at each step. Kolmogorov's 1954 scheme was
-completed by Arnold (1961–63) and, for area-preserving maps, Moser (1962) —
+completed by Arnold (1961–63) and, for area-preserving maps, Moser (1962) -
 the "KAM" initials.
 
 **Where the research frontier is.**
@@ -4957,9 +4957,9 @@ usually taken as the birth of chaos theory.
 
 **Ergodicity is not implied.** A positive measure of surviving tori means the
 system is *not* ergodic on the energy surface. Treating KAM systems as
-ergodic — common in statistical mechanics reasoning — is unjustified.
+ergodic; common in statistical mechanics reasoning; is unjustified.
 
-## Recall prompts — attempt after reading
+## Recall prompts: attempt after reading
 
 - State Liouville's theorem, and say why Hamiltonian flow cannot spiral.
 - Write down the Poisson bracket and connect it to the canonical commutation
@@ -4985,13 +4985,11 @@ ergodic — common in statistical mechanics reasoning — is unjustified.
 
 ## See Also
 
-- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/) —
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/) -
   the Tier-U treatment this builds on
-- [Noether's Theorem and Conservation Laws](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/)
-  — symmetries and integrals of motion
-- [Nonlinear Dynamics and Chaos](/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/)
-  — the dissipative counterpart
-- [How to Use These Notes](https://mathematics.wyattau.com/how-to-use/) — the method
+- [Noether's Theorem and Conservation Laws](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/): symmetries and integrals of motion
+- [Nonlinear Dynamics and Chaos](/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/): the dissipative counterpart
+- [How to Use These Notes](https://mathematics.wyattau.com/how-to-use/); the method
 
 ## Thermal-Physics
 
@@ -37215,23 +37213,23 @@ the *language* changes: a statement like "$\mathbf{F} = m\mathbf{a}$ where
 $\mathbf{a} = \ddot{\mathbf{r}}$" assumes you can read vectors, differentiate,
 and treat an equation between vector quantities as three equations at once.
 
-This page rebuilds that language from first principles — vectors, trigonometry,
-coordinate geometry, and calculus — defining every term before it is used and
+This page rebuilds that language from first principles; vectors, trigonometry,
+coordinate geometry, and calculus; defining every term before it is used and
 proving every rule. A confident reader should take the self-test in §5 and only
 study the sections whose answers surprise.
 
 ## Intuition
 
-Physics quantities come in two kinds. A **scalar** — mass, energy, temperature —
-is a number. A **vector** — displacement, velocity, force — is a number *and* a
+Physics quantities come in two kinds. A **scalar**; mass, energy, temperature -
+is a number. A **vector**; displacement, velocity, force; is a number *and* a
 direction. The single most important upgrade from school physics is learning to
 compute with directions: a car turning a corner at constant *speed* is
 accelerating, because its velocity vector is changing. Nothing in school
 algebra can say that sentence; vectors can.
 
 The second upgrade is calculus. Speed is the derivative of position; acceleration
-is its second derivative. Every equation of motion — the ones school gives you as
-$s = ut + \frac{1}{2}at^2$ — is a differential equation, and the school formulas
+is its second derivative. Every equation of motion; the ones school gives you as
+$s = ut + \frac{1}{2}at^2$; is a differential equation, and the school formulas
 are what you get by solving it for constant acceleration. University physics
 derives them; this page gives you the differentiation that derivation needs.
 
@@ -37252,7 +37250,7 @@ $$
 These four identities resolve every "resolve the force along the slope" exercise,
 and they are the definition of component rather than a trick to memorise.
 
-**Addition by components.** $(u_x + v_x,\; u_y + v_y)$ — the parallelogram rule
+**Addition by components.** $(u_x + v_x,\; u_y + v_y)$; the parallelogram rule
 from school is component addition, proved by applying each vector's definition.
 
 **Scalar multiplication.** $c\,\mathbf{v}$ has magnitude $|c||\mathbf{v}|$,
@@ -37271,7 +37269,7 @@ $$
 suffices to check the two unit vectors along the axes: $\hat{\mathbf{i}}\cdot\hat{\mathbf{i}} = 1 = 1\cdot1\cos 0$ and $\hat{\mathbf{i}}\cdot\hat{\mathbf{j}} = 0 = \cos 90°$;
 bilinearity then extends it to every pair. $\blacksquare$
 
-The dot product answers "how much of $\mathbf{u}$ points along $\mathbf{v}$" —
+The dot product answers "how much of $\mathbf{u}$ points along $\mathbf{v}$" -
 which is the question every projection, every work integral, and every
 component-of-gravity-along-a-slope calculation is asking.
 
@@ -37296,12 +37294,12 @@ $$
 \lim_{h\to 0}\frac{1 - \cos h}{h^2} = \frac{1}{2}.
 $$
 
-They are why $\frac{d}{dx}\sin x = \cos x$ in radians — and why that derivative
+They are why $\frac{d}{dx}\sin x = \cos x$ in radians; and why that derivative
 is *false* in degrees. If you have ever differentiated $\sin$ in degrees and
 gotten a wrong trajectory, this is why.
 
 **Small-angle physics.** $\sin\theta \approx \theta$ and $\cos\theta \approx 1 - \theta^2/2$ for small $\theta$, which is the linearisation that makes
-pendulums harmonic and lenses computable — and the second-order term is what
+pendulums harmonic and lenses computable; and the second-order term is what
 makes the correction, so a pendulum's period grows with amplitude rather than
 staying constant.
 
@@ -37322,7 +37320,7 @@ reading $m$ and $c$ off a graph is reading a derivative and an initial condition
 
 **Areas and the quadratic.** Projectile range $R = \frac{v^2\sin 2\theta}{g}$
 is maximised at $\theta = 45°$ because $\sin 2\theta$ peaks at $1$ when
-$2\theta = 90°$ — a trigonometry fact doing the work of a differentiation, and a
+$2\theta = 90°$; a trigonometry fact doing the work of a differentiation, and a
 preview of how the university course will use both.
 
 ## 4. Calculus
@@ -37369,7 +37367,7 @@ $$
 $$
 
 is the simple harmonic motion equation, and $x = A\cos(\omega t + \phi)$ is its
-solution — verifiable by differentiating twice. Verification is a legitimate
+solution; verifiable by differentiating twice. Verification is a legitimate
 solution method at this level, and it is how the school formulas are recovered
 from the principles.
 
@@ -37399,9 +37397,9 @@ maximised at $\theta = 45°$.
 
 ## Where to go next
 
-- [Postulates of Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/) — vectors again, but in Hilbert space.
-- [Newtonian Mechanics Review](/1-classical-mechanics/1_newtonian-mechanics-review/) — track 1, which begins where this page ends.
-- [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/) — the scalars-only track, for contrast.
+- [Postulates of Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/); vectors again, but in Hilbert space.
+- [Newtonian Mechanics Review](/1-classical-mechanics/1_newtonian-mechanics-review/); track 1, which begins where this page ends.
+- [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/); the scalars-only track, for contrast.
 
 ---
 

@@ -90031,7 +90031,7 @@ flowchart LR
     E --> F[Maintenance]
 ```
 
-Each phase feeds the next in one direction — there is no looping back in the pure model, which is
+Each phase feeds the next in one direction; there is no looping back in the pure model, which is
 exactly its weakness when requirements change late.
 
 ### Characteristics
@@ -92676,7 +92676,7 @@ flowchart LR
     T --> V[Test Result]
 ```
 
-Every stage leaves an artefact that the next stage can check against — if a test result cannot be
+Every stage leaves an artefact that the next stage can check against; if a test result cannot be
 traced back to a requirement, either the test or the requirement is missing.
 
 A **traceability matrix** maps each requirement to the test cases that verify it.
@@ -93030,9 +93030,9 @@ A stack has a maximum capacity of 5 elements. Operations: `push(item)`, `pop()`,
 
 ```mermaid
 flowchart LR
-    W[Write failing test] --> F[See it fail — Red]
+    W[Write failing test] --> F[See it fail; Red]
     F --> M[Write minimum code]
-    M --> P[See it pass — Green]
+    M --> P[See it pass; Green]
     P --> R[Refactor]
     R --> W
 ```
@@ -102147,7 +102147,7 @@ URL: https://alevel.wyattau.com/economics/economics/
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the
 institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
-is the university layer underneath — micro theory, econometrics, and game theory
+is the university layer underneath; micro theory, econometrics, and game theory
 with the core theorems (Slutsky, Gauss--Markov, Nash existence) proved in full,
 and the proofs are where the assumptions behind the exam diagrams become
 visible. Skippable by design: the exam content stands on its own.

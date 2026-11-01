@@ -78527,7 +78527,7 @@ table.add_column("Uptime", justify="right")
 table.add_row("api-gateway", "v2.14.3", "[green]Running[/green]", "14d 6h")
 table.add_row("auth-service", "v1.8.0", "[green]Running[/green]", "14d 6h")
 table.add_row("worker-pool", "v3.1.2", "[yellow]Degraded[/yellow]", "2h 13m")
-table.add_row("scheduler", "v1.0.0", "[red]Stopped[/red]", "—")
+table.add_row("scheduler", "v1.0.0", "[red]Stopped[/red]", "-")
 
 console.print(table)
 ```

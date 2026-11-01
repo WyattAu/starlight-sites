@@ -59627,7 +59627,7 @@ sources:
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the
 institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
-is the university layer underneath — micro theory, econometrics, and game theory
+is the university layer underneath; micro theory, econometrics, and game theory
 with the core theorems (Slutsky, Gauss--Markov, Nash existence) proved in full,
 and the proofs are where the assumptions behind the exam diagrams become
 visible. Skippable by design: the exam content stands on its own.

@@ -50405,7 +50405,7 @@ Key features:
 
 </div>
 
-The six phase changes form three opposing pairs — each change has a reverse:
+The six phase changes form three opposing pairs; each change has a reverse:
 
 ```mermaid
 stateDiagram-v2
@@ -50420,7 +50420,7 @@ stateDiagram-v2
     g1 --> s1 : Deposition (heat out)
 ```
 
-Energy flows **in** for solid → liquid → gas and flows **out** for the reverse — the direction of
+Energy flows **in** for solid → liquid → gas and flows **out** for the reverse; the direction of
 each arrow's heat label is examinable.
 
 ### Water's Phase Diagram
@@ -80669,7 +80669,7 @@ sources:
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the
 institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
-is the university layer underneath — micro theory, econometrics, and game theory
+is the university layer underneath; micro theory, econometrics, and game theory
 with the core theorems (Slutsky, Gauss--Markov, Nash existence) proved in full,
 and the proofs are where the assumptions behind the exam diagrams become
 visible. Skippable by design: the exam content stands on its own.

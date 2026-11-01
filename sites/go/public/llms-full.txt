@@ -128,20 +128,20 @@ implicit type conversions, no function overloading, no unused variables, no
 unused imports. Each absence is a design decision: the feature was removed
 because it caused more problems than it solved in the languages that had it.
 The result is a language where every Go program in a large codebase looks the
-same, regardless of who wrote it — and where the compiler is fast enough that
+same, regardless of who wrote it; and where the compiler is fast enough that
 build times are measured in seconds, not minutes.
 
 The prerequisite is basic programming in any language. If you know C++, Java,
 or Python, the syntax will feel simple and the philosophy will feel
-restrictive — until you encounter the concurrency model, which is the reason
+restrictive; until you encounter the concurrency model, which is the reason
 the language exists.
 
 ## Intuition
 
 Most languages make concurrency hard. Threads share memory, so you need locks;
 locks can deadlock; and the bugs are intermittent, unreproducible, and
-catastrophic. Go's concurrency model — **Communicating Sequential Processes**
-(CSP) — avoids shared memory by design: goroutines communicate by sending
+catastrophic. Go's concurrency model; **Communicating Sequential Processes**
+(CSP); avoids shared memory by design: goroutines communicate by sending
 values over channels, and channels synchronise the send and receive.
 
 The intuition: instead of two workers fighting over one whiteboard (shared
@@ -182,7 +182,7 @@ stack that grows and shrinks as needed; an OS thread starts with ~1MB and has
 a context-switch cost of microseconds. You can run millions of goroutines on a
 laptop.
 
-**The main goroutine.** When `main` returns, the program exits — all running
+**The main goroutine.** When `main` returns, the program exits; all running
 goroutines are killed. The `time.Sleep` above prevents this, but Sleeping is
 not synchronisation: it is a hope. The correct synchronisation primitive is
 the channel.
@@ -232,7 +232,7 @@ of accidentally sending on a receive-only channel.
 ## 3. Interfaces without inheritance
 
 **Definition.** An **interface** is a set of method signatures. A type
-implements an interface implicitly — no `implements` keyword, no inheritance
+implements an interface implicitly; no `implements` keyword, no inheritance
 hierarchy. If a type has the methods the interface requires, it satisfies the
 interface.
 
@@ -249,7 +249,7 @@ func (r Rectangle) Area() float64 { return r.W * r.H }
 ```
 
 `Circle` and `Rectangle` both satisfy `Shape` because they both have an `Area()
-float64` method — no declaration needed. A function that takes a `Shape`
+float64` method; no declaration needed. A function that takes a `Shape`
 accepts both:
 
 ```go
@@ -262,7 +262,7 @@ func totalArea(shapes []Shape) float64 {
 }
 ```
 
-**Contrast with Java.** Java requires `class Circle implements Shape` — the
+**Contrast with Java.** Java requires `class Circle implements Shape`; the
 relationship is declared by the class. Go's implicit satisfaction means a type
 written for one purpose can satisfy an interface written later, without
 modification. This is the reason Go codebases don't have the deep inheritance
@@ -296,13 +296,13 @@ fmt.Println("Result:", result)
 function signature doesn't tell you what errors it can produce, and an
 exception can propagate to a caller that doesn't expect it. Go's error values
 make the error path visible: the `(result, error)` return signature tells you
-the function can fail, and the `if err != nil` check is *required* — the
+the function can fail, and the `if err != nil` check is *required*; the
 compiler forces you to handle the error (or explicitly ignore it with `_`).
 
 **Why Go rejected exceptions.** Exceptions add an invisible control-flow path
 that makes reasoning about correctness harder: any function call might throw,
 so you need to reason about every possible exception at every call site. Go's
-error values make the error path visible and forces you to handle it — which
+error values make the error path visible and forces you to handle it; which
 is verbose but correct.
 
 ## 5. Self-test
@@ -316,10 +316,10 @@ is verbose but correct.
 5. What is a buffered channel, and when would you use one? (§2)
 
 **Answers.**
-(1) The program exits and all running goroutines are killed — the `main`
+(1) The program exits and all running goroutines are killed; the `main`
 goroutine's return is the program's exit. Use a channel or `sync.WaitGroup` to
 wait for goroutines to finish.
-(2) `func print(ch <-chan int) { for v := range ch { fmt.Println(v) } }` —
+(2) `func print(ch <-chan int) { for v := range ch { fmt.Println(v) } }` -
 the `range` on a channel receives until the channel is closed.
 (3) Go uses structural typing for interfaces: a type satisfies an interface
 if it has the required methods, regardless of whether the relationship is
@@ -327,20 +327,20 @@ declared. No `implements` keyword is needed because the compiler checks the
 method set.
 (4) `error` is an interface type; `nil` is the zero value meaning "no error."
 The `(result, error)` pattern works because the caller must unpack both values
-and check `err` before using `result` — the error path is visible in the
+and check `err` before using `result`; the error path is visible in the
 function signature.
 (5) A buffered channel has an internal queue: sends do not block until the
 buffer is full. Use one when the sender and receiver have known rate
-differences — e.g., a producer that generates items in bursts and a consumer
+differences; e.g., a producer that generates items in bursts and a consumer
 that processes them at a steady rate.
 
 ## Where to go next
 
-- [The Go Track](/) — the language in full: modules, testing, generics, and the standard library.
-- [Concurrency](https://go.wyattau.com/concurrency/) — the deeper treatment of goroutines, channels, the `sync` package, and the race detector.
-- [Linux](https://linux.wyattau.com/) — the operating system that Go programs run on and deploy to.
-- [Databases](https://databases.wyattau.com/) — the storage layer that Go services connect to.
-- [Computer Science Track](https://computer-science.wyattau.com/1-discrete-mathematics/) — the theoretical foundations of the concurrency model.
+- [The Go Track](/); the language in full: modules, testing, generics, and the standard library.
+- [Concurrency](https://go.wyattau.com/concurrency/); the deeper treatment of goroutines, channels, the `sync` package, and the race detector.
+- [Linux](https://linux.wyattau.com/); the operating system that Go programs run on and deploy to.
+- [Databases](https://databases.wyattau.com/); the storage layer that Go services connect to.
+- [Computer Science Track](https://computer-science.wyattau.com/1-discrete-mathematics/); the theoretical foundations of the concurrency model.
 
 ---
 

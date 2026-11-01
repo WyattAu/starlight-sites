@@ -19136,7 +19136,7 @@ MINIMIZE(DFA):
 
 **Why uniqueness holds (Myhill--Nerode argument).** Define the indistinguishability relation on
 states: $p \sim q$ iff for every string $z$, $\delta^*(p, z) \in F \iff \delta^*(q, z) \in F$.
-Distinguishable states *must* remain in different groups of any correct partition — some $z$
+Distinguishable states *must* remain in different groups of any correct partition; some $z$
 separates them, and the refinement loop splits exactly when such a $z$ exists (by induction on
 $|z|$: after $k$ rounds, states are grouped together iff they agree on all strings of length
 $\leq k$; the loop terminates when no string separates any pair). So the fixed point groups states
@@ -19144,7 +19144,7 @@ into exactly the $\sim$-classes. After removing unreachable states, every $\sim$
 nonempty (each class contains the state a distinct residual language is recognised from), and the
 quotient DFA accepts the same language by construction. Any two minimal DFAs therefore both have
 one state per $\sim$-class, start states corresponding to the class of $\epsilon$, transitions
-induced by the same class relation, and accepting states the class(es) in $F$ — a relabelling
+induced by the same class relation, and accepting states the class(es) in $F$; a relabelling
 isomorphism. $\blacksquare$
 
 ### 1.5 DFA vs NFA Equivalence
@@ -19161,17 +19161,17 @@ one direction and $\text{DFA} \subseteq \text{NFA}$ is trivial. The substance is
 construction preserves the language.
 
 *Correctness of subset construction.* Let $N$ be an NFA and $D$ its subset-constructed DFA. Claim:
-after $D$ reads $w$, its current state is exactly $E(w)$ — the $\epsilon$-closure of the set of
+after $D$ reads $w$, its current state is exactly $E(w)$; the $\epsilon$-closure of the set of
 states $N$ could occupy after reading $w$. Induction on $|w|$. Base: $E(\epsilon)$ equals
 $\epsilon\text{-closure}(\{q_0\})$, which is $D$'s start state by construction. Step: assume the
 claim for $w$; on reading $a$, $D$ transitions from $E(w)$ to the $\epsilon$-closure of the union
-of $\delta(q, a)$ over $q \in E(w)$ — which is precisely $E(wa)$, since $N$'s possible states
+of $\delta(q, a)$ over $q \in E(w)$; which is precisely $E(wa)$, since $N$'s possible states
 after $wa$ are the $\epsilon$-closures of the $a$-successors of its possible states after $w$.
 
 Acceptance follows: $D$ accepts $w$ iff $E(w) \cap F \neq \emptyset$ iff some accepting state of
 $N$ lies in $E(w)$ iff $N$ accepts $w$. So $L(D) = L(N)$, and the two models recognise the same
 languages. The regular-expression equivalence is completed by Thompson's construction
-($\text{RE} \to \text{NFA}$, by structural induction on the expression — each row of the table in
+($\text{RE} \to \text{NFA}$, by structural induction on the expression; each row of the table in
 §2.1 preserves the language, again by induction) and state elimination
 ($\text{DFA} \to \text{RE}$, whose elimination rule $R_{ik} \mathrel{R_{kk}}^* R_{kj} \cup R_{ij}$
 records exactly the paths through $q_k$, so by induction on the eliminated set the final label
@@ -19255,7 +19255,7 @@ If $L$ is a regular language, then there exists a constant $p$ (the **pumping le
 
 **Proof.** Let $M$ be a DFA for $L$ with $p$ states, and let $s \in L$ with $|s| \geq p$. As $M$
 reads $s$ it visits $|s| + 1 \geq p + 1$ states (counting the start state), but $M$ has only $p$
-distinct states — by the pigeonhole principle some state repeats among the first $p + 1$ visited,
+distinct states; by the pigeonhole principle some state repeats among the first $p + 1$ visited,
 say $q_i = q_j$ with $i < j \leq p$. Set
 
 $$
@@ -19263,13 +19263,13 @@ x = s_1 \cdots s_i, \qquad y = s_{i+1} \cdots s_j, \qquad z = s_{j+1} \cdots s_{
 $$
 
 Then $|y| = j - i \geq 1$ and $|xy| = j \leq p$. The segment $y$ drives $M$ from $q_i$ back to
-$q_i$ — a loop. Reading the loop any number of times $k \geq 0$ leaves $M$ at $q_i$ after $xy^k$,
-so $M$ ends on exactly the same state it would reading $s$ itself — an accepting state, since
+$q_i$; a loop. Reading the loop any number of times $k \geq 0$ leaves $M$ at $q_i$ after $xy^k$,
+so $M$ ends on exactly the same state it would reading $s$ itself; an accepting state, since
 $s \in L$. Hence $xy^kz \in L$ for all $k \geq 0$. Take $p$ to be $M$'s state count. $\blacksquare$
 
 The three conditions have mechanical roles: $|y| > 0$ ensures pumping *changes* the string;
 $|xy| \leq p$ pins the loop to the first $p$ symbols (this is where the pigeonhole applies); (3)
-says *every* pumping exponent stays in $L$ — so to use the lemma against a candidate language you
+says *every* pumping exponent stays in $L$; so to use the lemma against a candidate language you
 must refute all divisions, not just one.
 
 ### 3.2 Using the Pumping Lemma (Proof by Contradiction)
@@ -19417,8 +19417,8 @@ Q = {q0, q1, q2}, F = {q2}, Σ = {a,b}, Γ = {S, $}
 
 **Theorem:** CFGs and PDAs recognize the same class of languages: the **context-free languages**.
 
-**Proof.** *(CFG $\Rightarrow$ PDA.)* Given $G$, build a PDA $P$ with three states — start, loop,
-accept — that works purely on the stack: push $\$$ then $S$; in the loop, the top of stack is
+**Proof.** *(CFG $\Rightarrow$ PDA.)* Given $G$, build a PDA $P$ with three states; start, loop,
+accept; that works purely on the stack: push $\$$ then $S$; in the loop, the top of stack is
 either a variable $A$ (pop it, nondeterministically push the right-hand side of any production
 $A \to \alpha$) or a terminal $a$ (pop it, consume $a$ from the input); accept when $\$$ is
 exposed. By induction on derivation length, the stack contents after $k$ moves are exactly the
@@ -19430,7 +19430,7 @@ pops then pushes at most two symbols. Variables are triples $[q\,A\,q']$, read a
 state $q$ with $A$ on the stack, $P$ can consume some input and end in $q'$ having popped $A$ with
 net stack effect nil below it". For each transition producing net effect from state $q$ back to
 some $q''$, add productions $[q\,A\,q'] \to a\,[q''\,B_1\,q_m]\,[q_m\,B_2\,q']$ over all
-intermediate states $q_m$ (this is where nondeterminism is absorbed — the choice of $q_m$ encodes
+intermediate states $q_m$ (this is where nondeterminism is absorbed; the choice of $q_m$ encodes
 where the second symbol's net-nil segment begins), and the base case
 $[q\,A\,q] \to \epsilon$. By induction on computation length, $[q\,A\,q'] \Rightarrow^* w$ iff $P$
 can go from $q$ to $q'$ consuming $w$ while popping $A$ without disturbing the stack below it;
@@ -19482,7 +19482,7 @@ for $L$ and $b$ the maximum number of symbols on any right-hand side. Set $p = b
 $|V|$ is the number of variables.
 
 Take any $s \in L$ with $|s| \geq p$ and fix a **smallest** parse tree for $s$. A tree of height
-$h$ has at most $b^h$ leaves, so height $< |V|$ would give $|s| < b^{|V|} = p$ — contradiction.
+$h$ has at most $b^h$ leaves, so height $< |V|$ would give $|s| < b^{|V|} = p$; contradiction.
 So some root-to-leaf path contains at least $|V| + 1$ variables, and with only $|V|$ variables in
 total, two occurrences on that path carry the **same variable $A$**. Choose them so the lower
 occurrence is within the bottom $|V| + 1$ variables of the path.
@@ -19491,9 +19491,9 @@ Write the yield as $s = u\,v\,x\,y\,z$, where $v$ and $y$ are the yields of the 
 outer ring. Then:
 
 1. $|vy| \geq 1$: if both were empty, the two $A$-subtrees would be identical, and excising the
-   lower one would leave a *smaller* parse tree for $s$ — contradicting minimality.
+   lower one would leave a *smaller* parse tree for $s$; contradicting minimality.
 2. $|vxy| \leq p$: $vxy$ is confined to the subtree rooted at the upper $A$, whose height is at
-   most $|V| + 1$, bounding its yield by $b^{|V|+1} \le p \cdot b$ — with $b \geq 2$ the standard
+   most $|V| + 1$, bounding its yield by $b^{|V|+1} \le p \cdot b$; with $b \geq 2$ the standard
    bound is stated as $|vxy| \leq p$ by taking $p = b^{|V|+1}$.
 3. Pumping works by grafting: replacing the upper $A$-subtree with the lower one gives $uv^0xy^0z$;
    duplicating the lower inside the upper gives $uv^2xy^2z$; induction on $i$ gives
@@ -19565,7 +19565,7 @@ lost but computable language class is unchanged.
 configurations, so the computation unfolds into a finitely-branching tree. A three-tape
 deterministic TM explores it breadth-first: tape 1 holds the current frontier, tape 2 generates
 each frontier node's successors, tape 3 simulates one chosen node for its length. If any branch
-accepts, BFS reaches that accepting configuration in finite time — so the same language is
+accepts, BFS reaches that accepting configuration in finite time; so the same language is
 recognised. (It recognises, not decides: breadth-first search does not halt on infinite rejecting
 branches, matching the nondeterministic semantics.) $\blacksquare$
 
@@ -19625,7 +19625,7 @@ $$
 $D$ is a legitimate machine (it merely inverts $H$'s answer about a particular input). Now run
 $D$ on its own description: $D(\langle D \rangle)$ accepts iff $H$ says $D$ rejects
 $\langle D \rangle$, iff $D(\langle D \rangle)$ rejects. A machine accepts its input iff it
-rejects it — contradiction. So $H$ cannot exist, and $A_{\text{TM}}$ is undecidable. $\blacksquare$
+rejects it; contradiction. So $H$ cannot exist, and $A_{\text{TM}}$ is undecidable. $\blacksquare$
 
 ### 9.3 Reductions for Undecidability
 
@@ -19653,7 +19653,7 @@ A property is **non-trivial** if it holds for some TMs and not for others.
 
 **Proof.** Let $P$ be a decidable, non-trivial language property, and suppose $D$ decides it.
 Since $P$ is non-trivial, pick a machine $T$ with $P(L(T))$ true, and let $T_\emptyset$ be a
-machine recognising $\emptyset$ (which then satisfies $P$ falsely — if not, replace $P$ by its
+machine recognising $\emptyset$ (which then satisfies $P$ falsely; if not, replace $P$ by its
 complement, still non-trivial, still decidable). WLOG also ensure $\epsilon \notin L(T)$: if
 needed, build $T'$ from $T$ that rejects $\epsilon$ and behaves like $T$ otherwise, and argue with
 $T'$ and a $\epsilon$-free variant of $T_\emptyset$; the construction below is unchanged.
@@ -19666,7 +19666,7 @@ then simulate $T$ on $x$ and do whatever $T$ does; if $M$ rejects or loops, $M_w
   $P(L(M_w))$ fails.
 
 So $P(L(M_w)) \iff (M, w) \in A_{\text{TM}}$: a decider for $P$ yields a decider for the halting
-problem. But $A_{\text{TM}}$ is undecidable — contradiction. Hence no such $D$ exists. $\blacksquare$
+problem. But $A_{\text{TM}}$ is undecidable; contradiction. Hence no such $D$ exists. $\blacksquare$
 
 **Examples of undecidable properties (by Rice's theorem):**
 
@@ -31640,7 +31640,7 @@ $$
 \mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)
 $$
 
-$\mathrm{P}$ is the class of languages decidable in polynomial time by a deterministic TM. This
+$\mathrm{P$ is the class of languages decidable in polynomial time by a deterministic TM. This
 Captures the notion of "efficiently solvable."
 
 **Examples of problems in P:**
@@ -31675,43 +31675,43 @@ The string $c$ is called a **certificate** (or witness).
 - Graph 3-Colouring: certificate is the colouring.
 - Integer factorisation (decision version): certificate is a factor.
 
-**Theorem 6.2.** $\mathrm{P \subseteq \mathrm{NP}}$.
+**Theorem 6.2.** $\mathrm{P \subseteq \mathrm{NP$.
 
 *Proof.* Every deterministic polynomial-time algorithm is a special case of a nondeterministic one
 (with exactly one choice at each step). Alternatively, the certificate can be empty. $\blacksquare$
 
-**Theorem 6.2a.** If $A \leq_p B$ and $B \in \mathrm{NP}$ Then $A \in \mathrm{NP}$.
+**Theorem 6.2a.** If $A \leq_p B$ and $B \in \mathrm{NP$ Then $A \in \mathrm{NP$.
 
 *Proof.* Let $V_B$ be the polynomial-time verifier for $B$ and $f$ be the polynomial-time reduction.
 Then $V_A(w, c) = V_B(f(w), c)$ is a polynomial-time verifier for $A$. $\blacksquare$
 
-**Open question:** $\mathrm{P} = \mathrm{NP}$? This is the most important open problem in computer
-Science. Most researchers believe $\mathrm{P \neq \mathrm{NP}}$.
+**Open question:** $\mathrm{P = \mathrm{NP$? This is the most important open problem in computer
+Science. Most researchers believe $\mathrm{P \neq \mathrm{NP$.
 
-**Consequences of P = NP.** If $\mathrm{P} = \mathrm{NP}$ Then every problem in NP (including SAT,
+**Consequences of P = NP.** If $\mathrm{P = \mathrm{NP$ Then every problem in NP (including SAT,
 Travelling Salesman, graph colouring, protein folding, etc.) would have polynomial-time algorithms.
 This would revolutionise optimisation, cryptography (RSA and most public-key systems would be
 broken), And artificial intelligence. However, after decades of research, no polynomial-time
 algorithm has Been found for any NP-complete problem, providing strong empirical evidence for
-$\mathrm{P \neq \mathrm{NP}}$.
+$\mathrm{P \neq \mathrm{NP$.
 
 ### 6.4 NP-Completeness
 
 A language $B$ is **NP-complete** if:
 
-1. $B \in \mathrm{NP}$ And
-2. $A \leq_p B$ for every $A \in \mathrm{NP}$ (polynomial-time mapping reduction).
+1. $B \in \mathrm{NP$ And
+2. $A \leq_p B$ for every $A \in \mathrm{NP$ (polynomial-time mapping reduction).
 
 A language is **NP-hard** if condition (2) holds (it need not be in NP).
 
-**Theorem 6.3 (Cook-Levin, 1971).** $\mathrm{SAT}$ is NP-complete.
+**Theorem 6.3 (Cook-Levin, 1971).** $\mathrm{SAT$ is NP-complete.
 
 *Proof (detailed sketch).*
 
-1. $\mathrm{SAT \in \mathrm{NP}}$: a satisfying assignment is a polynomial-size certificate that can
+1. $\mathrm{SAT \in \mathrm{NP$: a satisfying assignment is a polynomial-size certificate that can
    be verified in polynomial time.
 
-2. For any $L \in \mathrm{NP}$ There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
+2. For any $L \in \mathrm{NP$ There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
    some $k$. Given input $w$ of length $n$ Construct a Boolean formula $\phi_{N,w}$ that is
    satisfiable iff $N$ accepts $w$.
 
@@ -31729,7 +31729,7 @@ contains $s$.
 - **Start configuration:** Row 0 encodes $q_0$ at position 0, $w_1$ at position 1, etc.
 - **Transition correctness:** For every $2 \times 3$ window of the tableau, the bottom row must be a
   valid successor of the top row according to $N$'s transition function.
-- **Acceptance:** Some cell in the last row contains $q_{\mathrm{accept}}$.
+- **Acceptance:** Some cell in the last row contains $q_{\mathrm{accept}$.
 
 Each constraint can be expressed as a polynomial-size CNF formula (using standard encodings of
 "exactly one" and "window" constraints). The total formula has size $O(n^{2k})$ Which is polynomial
@@ -31746,7 +31746,7 @@ position $(0,0)$ contains the start state. The constraints enforce:
 
 - Row 0: $q_0$ at position 0, `0` at position 1, `1` at position 2, $\sqcup$ at position 3.
 - Transition windows: each $2 \times 3$ block must be consistent with $\delta$.
-- Row 3: at least one cell contains $q_{\mathrm{accept}}$.
+- Row 3: at least one cell contains $q_{\mathrm{accept}$.
 
 If $N$ accepts $w$ Then the accepting computation path provides a satisfying assignment (the tableau
 records that path). If $\phi_{N,w}$ is satisfiable, the satisfying assignment Encodes a valid
@@ -31756,7 +31756,7 @@ accepting computation.
 
 **Corollary 6.4.** If any NP-complete problem is in P, then P = NP.
 
-**Theorem 6.5.** If $A \leq_p B$ and $B \in \mathrm{P}$ Then $A \in \mathrm{P}$.
+**Theorem 6.5.** If $A \leq_p B$ and $B \in \mathrm{P$ Then $A \in \mathrm{P$.
 
 *Proof.* To decide $A$ on input $w$: compute $f(w)$ in polynomial time (the reduction), then decide
 $B$ on $f(w)$ in polynomial time. Total: polynomial time. $\blacksquare$
@@ -31883,37 +31883,37 @@ assignment. $\blacksquare$
 
 ### 6.6 Space Complexity
 
-**Definition.** $\mathrm{SPACE(s(n))}$ is the class of languages decidable by a deterministic TM
-Using $O(s(n))$ tape cells. $\mathrm{NSPACE(s(n))}$ is the nondeterministic analogue.
+**Definition.** $\mathrm{SPACE(s(n))$ is the class of languages decidable by a deterministic TM
+Using $O(s(n))$ tape cells. $\mathrm{NSPACE(s(n))$ is the nondeterministic analogue.
 
 **Key classes:**
 
-- $\mathrm{L} = \mathrm{SPACE(\log n)}$, logarithmic space.
-- $\mathrm{NL} = \mathrm{NSPACE(\log n)}$, nondeterministic logarithmic space.
-- $\mathrm{PSPACE} = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)}$.
+- $\mathrm{L = \mathrm{SPACE(\log n)$, logarithmic space.
+- $\mathrm{NL = \mathrm{NSPACE(\log n)$, nondeterministic logarithmic space.
+- $\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$.
 
-**Theorem 6.6 (Savitch, 1970).** $\mathrm{NSPACE(s(n)) \subseteq \mathrm{SPACE(s(n)^2)}}$ For
+**Theorem 6.6 (Savitch, 1970).** $\mathrm{NSPACE(s(n)) \subseteq \mathrm{SPACE(s(n)^2)$ For
 $s(n) \geq \log n$.
 
 *Proof (sketch).* To decide whether an NTM using space $s(n)$ accepts, we check reachability in the
 Configuration graph. The graph has at most $N = |\Gamma|^{s(n)} \cdot s(n) \cdot |Q|$ nodes, where
 $|\Gamma|$ is the tape alphabet size and $|Q|$ the number of states. A deterministic TM can decide
-Reachability using the recursive algorithm $\mathrm{REACH(u, v, d)}$ (can $u$ reach $v$ in at most
+Reachability using the recursive algorithm $\mathrm{REACH(u, v, d)$ (can $u$ reach $v$ in at most
 $d$ steps?), which uses $O(\log N) = O(s(n))$ space and recurses to depth $O(\log N)$. Total space:
 $O(s(n) \cdot \log N) = O(s(n)^2)$. $\blacksquare$
 
-**Corollary 6.7.** $\mathrm{PSPACE} = \mathrm{NPSPACE}$.
+**Corollary 6.7.** $\mathrm{PSPACE = \mathrm{NPSPACE$.
 
 *Proof.*
-$\mathrm{NPSPACE \subseteq \bigcup_k \mathrm{NSPACE(n^k) \subseteq \bigcup_k \mathrm{SPACE(n^{2k})}}} = \mathrm{PSPACE}$
+$\mathrm{NPSPACE \subseteq \bigcup_k \mathrm{NSPACE(n^k) \subseteq \bigcup_k \mathrm{SPACE(n^{2k}) = \mathrm{PSPACE$
 by Savitch's theorem. $\blacksquare$
 
-**NL-completeness.** A language $B$ is **NL-complete** if $B \in \mathrm{NL}$ and every
-$A \in \mathrm{NL}$ is log-space reducible to $B$.
+**NL-completeness.** A language $B$ is **NL-complete** if $B \in \mathrm{NL$ and every
+$A \in \mathrm{NL$ is log-space reducible to $B$.
 
-**Theorem 6.8 (Immerman--Szelepcsényi, 1987).** $\mathrm{NL} = \mathrm{coNL}$.
+**Theorem 6.8 (Immerman--Szelepcsényi, 1987).** $\mathrm{NL = \mathrm{coNL$.
 
-This is surprising because it is not known whether $\mathrm{NP} = \mathrm{coNP}$. The
+This is surprising because it is not known whether $\mathrm{NP = \mathrm{coNP$. The
 .../1-number-and-algebra/3_proof-and-logic uses An inductive counting argument: given an NTM for
 $L$ Construct an NTM for $\overline{L}$ that Counts the number of reachable configurations.
 
@@ -31930,7 +31930,7 @@ Reduces to it. Key PSPACE-complete problems:
 $x_i$ and recurse. For $\forall x_i \phi$ Similarly. At depth $n$ Evaluate $\psi$. Each level Uses
 $O(n)$ space to store the current assignment, giving $O(n^2)$ total.
 
-*Proof (hardness).* Reduce from any $L \in \mathrm{PSPACE}$ using the configuration graph. A
+*Proof (hardness).* Reduce from any $L \in \mathrm{PSPACE$ using the configuration graph. A
 Computation of a PSPACE TM on input $w$ of length $n$ uses at most $p(n)$ cells for some Polynomial
 $p$. The number of distinct configurations is at most $N = |\Gamma|^{p(n)} \cdot p(n) \cdot |Q|$
 which is exponential. The statement "$M$ accepts $w$" can be expressed as: "there exists a Configuration $c_1$ reachable from the start configuration in $\leq N$ steps such that for all Configurations $c_2$ reachable from $c_1$ in one step, there exists a configuration $c_3$..." This
@@ -31942,9 +31942,9 @@ $\blacksquare$
 
 Evaluate $\phi = \forall x \exists y \, [(x \lor y) \land (\bar{x} \lor y)]$.
 
-- For $x = 0$: need $\exists y$ such that $(0 \lor y) \land (1 \lor y) = y \land \mathrm{true} = y$.
+- For $x = 0$: need $\exists y$ such that $(0 \lor y) \land (1 \lor y) = y \land \mathrm{true = y$.
   So we need $y = 1$ (which exists).
-- For $x = 1$: need $\exists y$ such that $(1 \lor y) \land (0 \lor y) = \mathrm{true \land y} = y$.
+- For $x = 1$: need $\exists y$ such that $(1 \lor y) \land (0 \lor y) = \mathrm{true \land y = y$.
   So we need $y = 1$ (which exists).
 
 Since both values of $x$ lead to a satisfying assignment for $y$, $\phi$ is true.
@@ -31982,8 +31982,8 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 **Relationships:**
 
 $$
-\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE}}}}
-$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+}}}}$$
 
 **Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
@@ -32013,8 +32013,8 @@ $\blacksquare$
 **PSPACE.** The class of languages decidable in polynomial space:
 
 $$
-\mathrm{PSPACE} = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)}
-$$
+\mathrm{PSPACE} = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)
+}$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE}$.
 - $\mathrm{P} \neq \mathrm{PSPACE}$ (space hierarchy theorem).
@@ -32024,8 +32024,8 @@ $$
 **EXPTIME.** The class of languages decidable in exponential time:
 
 $$
-\mathrm{EXPTIME} = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})}
-$$
+\mathrm{EXPTIME} = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})
+}$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$.
 - $\mathrm{P} \neq \mathrm{EXPTIME}$ (time hierarchy theorem).
@@ -32035,16 +32035,16 @@ $$
 **Hierarchy summary:**
 
 $$
-\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}}}}}
-$$
+\mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}
+}}}}$$
 
 $$
-\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME}}}}}}
-$$
+\mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME
+}}}}}}$$
 
 $$
-\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE}}}}
-$$
+\mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
+}}}}$$
 
 <div class="table-wrap">
 
@@ -32077,7 +32077,7 @@ undecidable).
 
 ### 6.9 Ladner's Theorem: NP-Intermediate Problems
 
-If P ≠ NP, are there languages *between* them — in NP but neither in P nor NP-complete? Or does
+If P ≠ NP, are there languages *between* them; in NP but neither in P nor NP-complete? Or does
 every problem in NP sit at one extreme? Ladner's theorem answers: **there are NP-intermediate
 problems, and they can be constructed explicitly.**
 
@@ -32086,15 +32086,15 @@ $L \in \mathrm{NP} \setminus \mathrm{P}$ that is not NP-complete.
 
 **Proof idea.** Construct $L$ by diagonalisation over the polynomial-time deciders. The
 construction "squashes" SAT: $L$ contains exactly the strings in SAT whose length is a perfect
-square — but with the length threshold adjusted so that $L$ is neither trivially easy nor
+square; but with the length threshold adjusted so that $L$ is neither trivially easy nor
 NP-complete. The construction alternates between two modes:
 
 - **Mode 1 (make it easy):** On inputs of length $\leq n$, decide $L$ with the $n$-th
   polynomial-time machine $M_n$. If $M_n$ decides $L$ correctly, $L \notin \mathrm{P}$ is
-  falsified — so switch to Mode 2.
+  falsified; so switch to Mode 2.
 - **Mode 2 (make it hard):** Ensure $L$ differs from the $n$-th NP-complete language on some
-  input, by padding SAT instances — so if $L$ were NP-complete, SAT would reduce to $L$, which
-  the padding prevents — so switch back to Mode 1.
+  input, by padding SAT instances; so if $L$ were NP-complete, SAT would reduce to $L$, which
+  the padding prevents; so switch back to Mode 1.
 
 The alternation is self-limiting: each switch happens later than the last, so $L$ is neither
 in P (Mode 1 always fails eventually) nor NP-complete (Mode 2 always blocks the reduction).
@@ -32102,8 +32102,8 @@ The formal proof requires the delay trick to ensure the diagonalisation doesn't 
 polynomial bounds. $\blacksquare$
 
 Ladner's theorem tells us that the P vs. NP question is maximally fine-grained: either P = NP,
-or there is a genuine hierarchy of intermediate difficulty. The natural candidates — integer
-factorisation, graph isomorphism — are believed to be NP-intermediate.
+or there is a genuine hierarchy of intermediate difficulty. The natural candidates; integer
+factorisation, graph isomorphism; are believed to be NP-intermediate.
 
 ### 6.10 Randomised Computation: The Class BPP
 
@@ -32111,7 +32111,7 @@ factorisation, graph isomorphism — are believed to be NP-intermediate.
 languages decidable by a probabilistic polynomial-time TM that, on every input, gives the correct
 answer with probability $\geq 2/3$.
 
-The constant $2/3$ is arbitrary — amplification (repeating the computation $k$ times and taking
+The constant $2/3$ is arbitrary; amplification (repeating the computation $k$ times and taking
 the majority) raises the success probability to $1 - 2^{-ck}$ for a constant $c$ by the Chernoff
 bound, at a multiplicative cost of $O(k)$ in running time.
 
@@ -32122,11 +32122,11 @@ $O(n)$ times. For each input $x$ of length $n$, the machine uses $m(n)$ random b
 random string $r \in \{0,1\}^{m(n)}$ **bad** if it causes a wrong answer on some input $x$ of
 length $n$. By the union bound, the number of bad strings is $\leq 2^n \cdot 2^{-2n} \cdot
 2^{m(n)} = 2^{m(n) - n}$. So if $m(n) \geq n + 2$, the bad strings are at most a $2^{-2}$
-fraction of $\{0,1\}^{m(n)}$ — most strings are good. Fix a good $r^*$: the deterministic
+fraction of $\{0,1\}^{m(n)}$; most strings are good. Fix a good $r^*$: the deterministic
 machine that runs the randomised machine with $r^*$ hardwired is correct on *every* input of
 length $n$. The circuit family hardwires $r^*$ for each length. $\blacksquare$
 
-This means BPP machines can be *derandomised* at the cost of non-uniform advice — and if
+This means BPP machines can be *derandomised* at the cost of non-uniform advice; and if
 $\mathrm{P} = \mathrm{BPP}$ (widely believed), the randomisation was never doing real work.
 
 ### 6.11 Oracle Separations: Why Relativisation Is Not Enough
@@ -32146,14 +32146,99 @@ answers queries to separate $\mathrm{P}^B$ from $\mathrm{NP}^B$. $\blacksquare$
 The Baker--Gill--Solovay theorem is a caution: the techniques available to complexity theorists
 (relativising arguments) cannot resolve P vs. NP, because those techniques would apply equally
 well in the oracle worlds where the answer goes both ways. This is why the resolution of P vs.
-NP requires *non-relativising* techniques — which the circuit-complexity approach (circuit lower
+NP requires *non-relativising* techniques; which the circuit-complexity approach (circuit lower
 bounds) and the algebraic approach (arithmetisation in IP = PSPACE) exemplify.
+
+### 6.12 The PCP Theorem: Proofs You Can Check by Glance
+
+Suppose a proof of a statement is written down, but you are allowed to **randomly inspect only a
+handful of its positions** — a constant number of characters — and, from that glance alone,
+accept correct proofs always and reject bogus ones with high probability. For most proof systems
+this is impossible: skip one step of a long calculation and you might miss the error. The
+**PCP theorem** says that for NP statements, such proofs exist — after rewriting the proof into
+a special redundant form.
+
+**Theorem 6.13 (Feige–Goldwasser–Lund–Safra–Szegedy 1991; Arora–Safra 1992;
+Arora–Lund–Motwani–Sudan–Szegedy 1992).**
+
+$$
+\mathrm{NP = PCP(O(\log n),\ O(1))}
+$$
+
+A language $L$ is in NP **if and only if** there is a verifier $V$ that, given an input $x$ of
+length $n$ and oracle access to a proof $\pi$:
+
+1. flips $O(\log n)$ random coins (so at most $\mathrm{poly}(n)$ possible inspection patterns),
+2. queries **constant** many positions of $\pi$,
+3. accepts or rejects — with **completeness** ≥ $\tfrac{2}{3}$ when $x \in L$ (some proof makes
+   $V$ accept with probability 1 in the standard formulation), and **soundness** ≤ $\tfrac{1}{3}$
+   when $x \notin L$ (every proof fools $V$ on at most a third of its random choices).
+
+The proof $\pi$ may be exponentially long in $n$ — the verifier never reads it all; it only
+probes.
+
+**Why "rewritten" matters.** A vanilla NP witness (a satisfying assignment) has no such robust
+property: changing one variable's value can be detected only by checking a constraint that
+mentions it. The PCP construction encodes the witness into a *locally testable* object where
+every error contaminates a constant fraction of the proof, so any inconsistent assignment
+corrupts enough positions that a constant-sample check catches it. Building such encodings is
+the entire difficulty of the theorem.
+
+**The engine: gap amplification.** Start from a constraint-satisfaction view of NP: SAT
+compiles to a system of constant-size constraints where a satisfying assignment satisfies all
+of them. The PCP construction repeatedly applies a transformation that:
+
+- keeps satisfiable systems perfectly satisfiable, and
+- drives unsatisfiable systems' maximum satisfiable fraction down by a constant factor,
+
+while increasing the proof size only polynomially. After $O(\log n)$ amplification rounds, an
+unsatisfiable instance has *no* assignment satisfying more than a constant fraction below 1 —
+and at that point a verifier can sample a single random constraint, check it with a constant
+number of proof probes, and get soundness $1 - \varepsilon$. That constant gap is what makes
+$O(1)$ queries possible.
+
+**Dinur's proof (2006).** The original proofs were long and algebraic. Irit Dinur's
+combinatorial proof reformulates the amplification as a *graph powering* step on constraint
+graphs: expand the constraint graph so that violations spread, then reduce alphabet size with
+a local test — repeat $O(\log n)$ times. This version is short enough to teach and is the
+standard reference for a first encounter.
+
+**The consequence that reshaped a field: hardness of approximation.** Because the PCP
+reduction preserves a *gap*, it maps optimisation problems to themselves with a gap: MAX-3SAT
+compiles so that satisfiable instances stay fully satisfiable while unsatisfiable ones have no
+assignment satisfying more than a $1 - \varepsilon$ fraction of clauses. Any polynomial-time
+algorithm guaranteeing better than $1 - \varepsilon$ would distinguish the two cases — solving
+NP-complete SAT exactly. This yields optimal inapproximability constants:
+
+| Problem | Best polynomial approximation | Hardness (via PCP) |
+|---|---|---|
+| MAX-3SAT | $\tfrac{7}{8}$ (random assignment) | better than $\tfrac{7}{8}$ is NP-hard |
+| Vertex cover | $2 - o(1)$ | better than $2 - \varepsilon$ is NP-hard (UG-hard at 2) |
+| Set cover | $\ln n$ | $(1 - o(1)) \ln n$ is NP-hard |
+| Chromatic number | $n^{1-\varepsilon}$ | $n^{1-\varepsilon}$ is NP-hard |
+
+Before the PCP theorem these gaps had no explanation; after it, "the best known approximation
+ratio equals random assignment" stopped being an embarrassment and became a theorem's
+fingerprint.
+
+**Connection to interactive proofs.** The PCP theorem is the compiled form of the
+**IP = PSPACE** result: an interactive proof protocol between a verifier and a (possibly
+untrusted) prover can be converted, by committing the prover to answers via Merkle-tree-style
+cryptographic hashing, into a non-interactive oracle proof inspectable in constant queries.
+This lineage — interactive proofs → probabilistically checkable proofs → delegation of
+computation — is the foundation of modern *proofs of proximity*, *SNARKs*, and verifiable
+delegation in blockchain systems.
+
+**In one sentence.** Every NP statement has proofs that certify themselves: if the claim is
+true, some proof survives arbitrary probing; if false, every proof is caught by a constant-size
+glance — and this impossible-sounding object is exactly what makes approximation hardness and
+modern verifiable computation possible.
 
 ### Where to go next
 
-- [Computability](/6-theory-of-computation/4_turing-machines/) — the undecidability results that
+- [Computability](/6-theory-of-computation/4_turing-machines/); the undecidability results that
   motivate the complexity classes.
-- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/) — the concrete
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/); the concrete
   algorithms whose running times populate the complexity classes.
 
 
@@ -36669,7 +36754,7 @@ URL: https://computer-science.wyattau.com/before-you-begin/
 </script>
 
 School computing teaches a language. University computer science teaches what
-the language *means* — what executes, what it costs, and how to reason about a
+the language *means*; what executes, what it costs, and how to reason about a
 program without running it. The transition fails when a student can write code
 that works but cannot say why it works, cannot predict how its cost grows, and
 cannot prove anything about it.
@@ -36682,7 +36767,7 @@ hand-tracing the code shown.
 
 ## Intuition
 
-A program is a precise description of a process — so precise that a machine can
+A program is a precise description of a process; so precise that a machine can
 follow it, and so precise that you can predict what it does without a machine.
 That second ability is the subject. The skill is not syntax; syntax is
 interchangeable. The skill is holding a small machine in your head: these
@@ -36710,19 +36795,19 @@ effect on anything else. `square` is pure. A function that prints, writes a
 file, or modifies a global variable is **impure**.
 
 **Why purity matters.** Pure functions can be reasoned about by substitution:
-`square(4) + square(3)` can be replaced by `16 + 9`. Impure functions cannot —
+`square(4) + square(3)` can be replaced by `16 + 9`. Impure functions cannot -
 each call may do something different. Tests, refactoring and optimisation all
 get easier as functions get purer, and the university course will assume you
 default to purity.
 
 **Scope.** A variable defined inside a function exists only inside it. Two
-functions can each have a variable called `total` without colliding — the names
+functions can each have a variable called `total` without colliding; the names
 live in separate scopes.
 
 ## 2. Boolean logic
 
 **Definition.** A **boolean** expression evaluates to true or false. The three
-operators: `and` (both), `or` (at least one — *inclusive*), `not` (negation).
+operators: `and` (both), `or` (at least one; *inclusive*), `not` (negation).
 
 <div class="table-wrap">
 
@@ -36742,7 +36827,7 @@ not (a and b)  ==  (not a) or (not b)
 not (a or b)   ==  (not a) and (not b)
 ```
 
-*Proof by truth table.* The two sides agree on all four rows of combinations —
+*Proof by truth table.* The two sides agree on all four rows of combinations -
 checking all four is the entire proof, and for a two-variable boolean expression
 checking all four rows is a *complete* proof, not a sample. $\blacksquare$
 
@@ -36753,15 +36838,15 @@ prevents `a[i]` from being evaluated when `i` is out of range. Reversing the
 order breaks the program.
 
 **The equivalence move.** "Not (it rained and it was cold)" equals "it did not
-rain, or it was not cold". Translating between English and boolean algebra — in
-both directions — is the skill every conditional statement you write depends on.
+rain, or it was not cold". Translating between English and boolean algebra; in
+both directions; is the skill every conditional statement you write depends on.
 
 ## 3. Execution: the machine you can trace
 
 **Definition.** A **variable** is a name bound to a value; **assignment** rebinds
 the name. A **loop** repeats a block while a condition holds.
 
-Tracing is the core skill. Take this — a loop computing the sum of the first $n$
+Tracing is the core skill. Take this; a loop computing the sum of the first $n$
 positive integers:
 
 ```
@@ -36786,16 +36871,16 @@ For `n = 4`, the trace is a table:
 
 </div>
 
-The loop exits when `i` is 5, and `total` is 10 — which is $\frac{n(n+1)}{2}$,
+The loop exits when `i` is 5, and `total` is 10; which is $\frac{n(n+1)}{2}$,
 as the closed form predicts. **Tracing converts "I think this works" into "I
-know what this does on this input."** The next step — proving it works on *all*
-inputs — is induction, and the loop's variable `i` is exactly the induction
+know what this does on this input."** The next step; proving it works on *all*
+inputs; is induction, and the loop's variable `i` is exactly the induction
 variable: `total` is $\frac{i(i-1)}{2}$ at the top of every iteration, which is
 the invariant the mathematics site proves.
 
 **What executes is not what you meant.** A common off-by-one: `while i < n`
 versus `while i <= n` differ by one iteration; a trace table exposes the
-difference immediately. Reading code is not enough — trace it.
+difference immediately. Reading code is not enough; trace it.
 
 ## 4. Growth of cost: the first idea of complexity
 
@@ -36811,11 +36896,11 @@ for i in 0 .. n-1:
 ```
 
 The comparison runs $n$ times; each iteration is a constant amount of work, so
-the total is $n$ operations — **linear** in $n$.
+the total is $n$ operations; **linear** in $n$.
 
 Compare binary search on a sorted list: each step halves the remaining range, so
 after $k$ steps $n/2^k$ remains, and the loop ends when $n/2^k < 1$, i.e.
-$k > \log_2 n$ — **logarithmic**.
+$k > \log_2 n$; **logarithmic**.
 
 **Definition (asymptotic notation, informally).** A program is $O(f(n))$ if its
 running time is at most a constant times $f(n)$ for large $n$. Linear search is
@@ -36826,10 +36911,10 @@ $O(n^2)$.
 $O(n \log n)$ algorithm beats an $O(n^2)$ one for large $n$ no matter how much
 slower its constant factor, because $n\log n / n^2 = \log n / n \to 0$. The
 difference between linear and quadratic search on a billion items is the
-difference between a step and a lifetime — roughly $10^9$ operations against
+difference between a step and a lifetime; roughly $10^9$ operations against
 $10^{18}$.
 
-The university course will define $O(\cdot)$ with quantifiers — $\exists c, n_0 : \forall n > n_0, T(n) \leq c\,f(n)$ — and prove the properties. What this page
+The university course will define $O(\cdot)$ with quantifiers; $\exists c, n_0 : \forall n > n_0, T(n) \leq c\,f(n)$; and prove the properties. What this page
 asks is that you can count the iterations of the loops you write and say what
 function of $n$ they are.
 
@@ -36848,20 +36933,20 @@ function of $n$ they are.
 **Answers.**
 (1) `x >= 1 and x <= 10`; negated by De Morgan:
 `x < 1 or x > 10`.
-(2) `total = 6` — the loop adds 1, then 2, then 3.
+(2) `total = 6`; the loop adds 1, then 2, then 3.
 (3) When `i == len(a)`, the index `a[i]` is out of range; with `i < len(a)`
 first, short-circuiting prevents the second test from running. Reversed, the
 second test runs on an invalid index.
-(4) $O(n^2)$ — the definition only requires *at most* a constant times $n^2$
+(4) $O(n^2)$; the definition only requires *at most* a constant times $n^2$
 eventually, and $n^2/2 + 3n \leq n^2$ for $n \geq 6$. It is also $O(n^3)$:
 big-O is an upper bound, not a tight one. The tight class here is $\Theta(n^2)$.
-(5) $1 + 2 + \dots + n = \frac{n(n+1)}{2}$ — the loop trace from §3, generalised.
+(5) $1 + 2 + \dots + n = \frac{n(n+1)}{2}$; the loop trace from §3, generalised.
 
 ## Where to go next
 
-- [Algorithms and Data Structures](/algorithms-and-data-structures/) — growth of cost, made a subject.
-- [Computer Networks](/computer-networks/) — the layered abstractions this page's "what executes" thinking generalises to.
-- [Discrete Mathematics](/1-discrete-mathematics/) — the logic of §2, with proofs.
+- [Algorithms and Data Structures](/algorithms-and-data-structures/); growth of cost, made a subject.
+- [Computer Networks](/computer-networks/); the layered abstractions this page's "what executes" thinking generalises to.
+- [Discrete Mathematics](/1-discrete-mathematics/); the logic of §2, with proofs.
 
 ---
 
