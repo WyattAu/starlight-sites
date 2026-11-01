@@ -77,7 +77,8 @@ Given the $Na_{2}CO_{3}$ result, $X$ must be propanoic acid.
 
 Name: **propanoic acid**
 
-(c) $$2CH_{3}CH_{2}COOH + Na_{2}CO_{3} \rightarrow 2CH_{3}CH_{2}COONa + H_{2}O + CO_{2}$$
+(c) $$2CH_{3}CH_{2}COOH + Na_{2}CO_{3} \rightarrow 2CH_{3}CH_{2}COONa + H_{2}O + CO_{2}
+$$
 
 ---
 
@@ -456,7 +457,8 @@ $$
 This is a **one-step** synthesis: direct addition of $Br_{2}$ across the double bond gives exactly
 the desired 1,2-dibromopropane.
 
-(b) $$CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}BrCHBrCH_{3}$$
+(b) $$CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}BrCHBrCH_{3}
+$$
 
 (1,2-dibromopropane)
 

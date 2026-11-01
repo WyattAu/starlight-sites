@@ -1102,11 +1102,13 @@ Mass spectrometry measures the mass-to-charge ratio ($m/z$) of ions. The general
 1. **Ionization**: Atoms or molecules are ionized ( by electron impact. High-energy electrons knock
    an electron off the sample, forming positive ions).
 2. **Acceleration**: Ions are accelerated by an electric field. All ions receive the same kinetic
-   energy: $$ \frac{1}{2}mv^2 = zV $$
+   energy: $$ \frac{1}{2}mv^2 = zV
+$$
  where $V$ is the accelerating voltage and $z$ is the charge on
    the ion.
 3. **Deflection**: Ions pass through a magnetic field and are deflected. Lighter ions (or more
-   highly charged ions) are deflected more: $$ r = \frac{\sqrt{2mV}}{zB} $$
+   highly charged ions) are deflected more: $$ r = \frac{\sqrt{2mV}}{zB}
+$$
  where $r$ is the radius
    of curvature and $B$ is the magnetic field strength.
 4. **Detection**: A detector records the abundance of ions at each $m/z$ value, producing a mass

@@ -727,16 +727,19 @@ $$
 
 The opportunity cost of 10 additional units of $K$ is 9 units of $C$.
 
-**Marginal opportunity cost at $K = 40$:** $$\frac{dC}{dK} = -0.02K = -0.02(40) = -0.8$$
+**Marginal opportunity cost at $K = 40$:** $$\frac{dC}{dK} = -0.02K = -0.02(40) = -0.8
+$$
 
 At $K = 40$ Each additional unit of $K$ costs 0.8 units of $C$.
 
-**At $K = 60$:** $$\frac{dC}{dK} = -0.02(60) = -1.2$$
+**At $K = 60$:** $$\frac{dC}{dK} = -0.02(60) = -1.2
+$$
 
 Each additional unit of $K$ now costs 1.2 units of $C$. The opportunity cost has increased,
 reflecting the concave shape of the PPF (increasing opportunity cost).
 
-**At $K = 80$:** $$\frac{dC}{dK} = -0.02(80) = -1.6$$
+**At $K = 80$:** $$\frac{dC}{dK} = -0.02(80) = -1.6
+$$
 
 The opportunity cost continues to rise. This is because resources are not perfectly adaptable: as
 more capital goods are produced, resources that are less suited to capital goods production must be
@@ -775,7 +778,8 @@ Where $a = 1.05$ (5% growth). New PPF: $C = 105 - 0.0105K^2$.
 - $C = 0$: $K = \sqrt{10500} = 102.47$ (was 100). Capital goods capacity has risen by 2.47%.
 
 **Asymmetric growth.** Suppose technological progress only affects capital goods production. The new
-PPF becomes: $$C = 100 - 0.01K^2 + 0.001K$$
+PPF becomes: $$C = 100 - 0.01K^2 + 0.001K
+$$
 
 This PPF has shifted outward more on the capital goods axis than the consumer goods axis. The
 economy can now produce more capital goods for any given level of consumer goods.
@@ -898,7 +902,8 @@ Portugal: 100 workers in wine. Cloth = 0, Wine = $100 \times 3 = 300$ L. Total: 
 - Total world output has increased by 150m cloth and 50L wine.
 
 **Terms of trade.** For trade to benefit both, the exchange rate must lie between the opportunity
-costs: $$0.33 < \frac{P_{cloth}}{P_{wine}} < 2$$
+costs: $$0.33 < \frac{P_{cloth}}{P_{wine}} < 2
+$$
 
 Suppose the terms of trade are 1m cloth = 1L wine.
 
@@ -1021,7 +1026,8 @@ If $K = 0$: $C = 200$. Maximum consumer goods = 200.
 If $C = 0$: $0 = 200 - 0.02K^2 \Rightarrow K^2 = 10000 \Rightarrow K = 100$. Maximum capital goods = 100.
 
 **(b) Opportunity cost of the 50th unit of $K$ (4 marks).** The marginal opportunity cost at
-$K = 50$ is given by the slope of the PPF: $$\frac{dC}{dK} = -0.04K = -0.04(50) = -2$$
+$K = 50$ is given by the slope of the PPF: $$\frac{dC}{dK} = -0.04K = -0.04(50) = -2
+$$
 
 The opportunity cost of the 50th unit of capital goods is 2 units of consumer goods.
 

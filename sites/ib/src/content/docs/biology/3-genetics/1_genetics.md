@@ -1802,7 +1802,8 @@ approximately Equal. For larger distances, recombination frequency plateaus at $
 multiple crossovers Between distant genes, which can restore the parental arrangement). Mapping
 functions (Haldane, Kosambi) correct for this:
 
-**Haldane's mapping function** (assumes crossovers are independent): $$d = -\frac{1}{2}\ln(1 - 2r)$$
+**Haldane's mapping function** (assumes crossovers are independent): $$d = -\frac{1}{2}\ln(1 - 2r)
+$$
 Where $d$ is map distance in Morgans and $r$ is recombination frequency.
 
 **Kosambi's mapping function** (accounts for crossover interference):

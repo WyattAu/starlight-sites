@@ -178,7 +178,8 @@ $$
 (3\sqrt{5} + 2\sqrt{3})\sqrt{15} = 3\sqrt{75} + 2\sqrt{45} = 3(5\sqrt{3}) + 2(3\sqrt{5}) = 15\sqrt{3} + 6\sqrt{5}
 $$
 
-Therefore: $$N' = 24 + \sqrt{15} - 15\sqrt{3} - 6\sqrt{5}$$
+Therefore: $$N' = 24 + \sqrt{15} - 15\sqrt{3} - 6\sqrt{5}
+$$
 
 **Step 4: Form the full fraction.**
 
@@ -435,7 +436,8 @@ f(1) + f^{-1}(1) = \frac{4}{-1} + \frac{3}{-2} = -4 - \frac{3}{2} = -\frac{11}{2
 $$
 $$f(1) - f^{-1}(1) = -4 + \frac{3}{2} = -\frac{5}{2}$$ Ratio $= 11/5$.
 
-For $x = 0$: $$f(0) + f^{-1}(0) = -\frac{1}{2} - \frac{1}{3} = -\frac{5}{6}$$
+For $x = 0$: $$f(0) + f^{-1}(0) = -\frac{1}{2} - \frac{1}{3} = -\frac{5}{6}
+$$
 $$f(0) - f^{-1}(0) = -\frac{1}{2} + \frac{1}{3} = -\frac{1}{6}$$ Ratio $= 5$.
 
 The ratio is not constant. Let me re-examine by a different approach. Note that

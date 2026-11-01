@@ -918,7 +918,8 @@ $$
 \mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6e^- \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O}
 $$
 
-Oxidation half-reaction: $$\mathrm{Fe}^{2+} \to \mathrm{Fe}^{3+} + e^-$$
+Oxidation half-reaction: $$\mathrm{Fe}^{2+} \to \mathrm{Fe}^{3+} + e^-
+$$
 
 Balancing electrons ($\times 6$ for the iron half-reaction):
 $$

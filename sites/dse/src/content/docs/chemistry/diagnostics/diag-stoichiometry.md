@@ -478,7 +478,8 @@ $$
 V_{\text{dry}} = \frac{520 \times 98.7}{101} = 508 \text{ cm}^{3} = 0.508 \text{ dm}^{3}
 $$
 
-(b) $$n(CO_{2}) = \frac{V}{24.0} = \frac{0.508}{24.0} = 0.0212 \text{ mol}$$
+(b) $$n(CO_{2}) = \frac{V}{24.0} = \frac{0.508}{24.0} = 0.0212 \text{ mol}
+$$
 
 From $CaCO_{3} + 2HCl \rightarrow CaCl_{2} + CO_{2} + H_{2}O$:
 
@@ -558,7 +559,8 @@ presence of a concentrated sulphuric acid catalyst to produce ethyl ethanoate
 
 (a) $CH_{3}COOH + C_{2}H_{5}OH \rightleftharpoons CH_{3}COOC_{2}H_{5} + H_{2}O$
 
-(b) $$M(CH_{3}COOH) = 2 \times 12.0 + 4 \times 1.0 + 2 \times 16.0 = 60.0 \text{ g/mol}$$
+(b) $$M(CH_{3}COOH) = 2 \times 12.0 + 4 \times 1.0 + 2 \times 16.0 = 60.0 \text{ g/mol}
+$$
 
 $$
 n(CH_{3}COOH) = \frac{15.0}{60.0} = 0.250 \text{ mol}

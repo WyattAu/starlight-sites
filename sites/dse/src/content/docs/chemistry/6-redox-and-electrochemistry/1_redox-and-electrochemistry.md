@@ -397,7 +397,8 @@ discharged. The product at each electrode depends on the relative reactivity of 
   2\mathrm{H_2O} + 2e^- \to \mathrm{H_2} + 2\mathrm{OH^-}
   $$
 - If the metal is less reactive than hydrogen ($\mathrm{Cu}$$\mathrm{Ag}$$\mathrm{Au}$): the metal
-  is produced. $$\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}$$
+  is produced. $$\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
+$$
 
 **At the anode (oxidation):**
 

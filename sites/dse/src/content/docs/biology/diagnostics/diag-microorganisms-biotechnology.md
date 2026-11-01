@@ -123,7 +123,8 @@ and describe two methods used to achieve this. [3 marks]
 
 **Worked Solution**
 
-(a) $$\text{Glucose} \to \text{Ethanol} + \text{Carbon dioxide}$$
+(a) $$\text{Glucose} \to \text{Ethanol} + \text{Carbon dioxide}
+$$
 
 (b) Conditions for optimal ethanol production in a bioreactor:
 

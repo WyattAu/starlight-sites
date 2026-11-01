@@ -1218,9 +1218,11 @@ $20\mathrm{ minutes}$?
 <details>
 <summary>Answer</summary>
 
-(a) $$t_{1/2} = \frac{0.693}{k} = \frac{0.693}{0.050} = 13.9\mathrm{ min}$$
+(a) $$t_{1/2} = \frac{0.693}{k} = \frac{0.693}{0.050} = 13.9\mathrm{ min}
+$$
 
-(b) $$\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt = \ln(0.80) - 0.050 \times 20$$
+(b) $$\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt = \ln(0.80) - 0.050 \times 20
+$$
 
 $$
 \ln[\mathrm{A}] = -0.223 - 1.000 = -1.223

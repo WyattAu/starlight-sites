@@ -1160,7 +1160,8 @@ $$
 PV_{defect} = 150 + \frac{50}{1+r} + \frac{50}{(1+r)^2} + \cdots = 150 + \frac{50}{r}
 $$
 
-**Cooperation is sustainable if:** $$\frac{100(1+r)}{r} \geq 150 + \frac{50}{r}$$
+**Cooperation is sustainable if:** $$\frac{100(1+r)}{r} \geq 150 + \frac{50}{r}
+$$
 $$\frac{100 + 100r}{r} \geq 150 + \frac{50}{r}$$ $$\frac{50 + 100r}{r} \geq 150$$
 $$50 + 100r \geq 150r$$ $$50 \geq 50r$$ $$r \leq 1$$
 

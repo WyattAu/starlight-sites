@@ -528,7 +528,8 @@ of the eddy currents and thus the power dissipated.
 right angles to a uniform magnetic field of flux density $0.4\ \mathrm{T}$. Calculate the force on
 the wire.
 
-**Solution.** $$F = BIl = 0.4 \times 5 \times 0.3 = 0.6\ \mathrm{N}$$
+**Solution.** $$F = BIl = 0.4 \times 5 \times 0.3 = 0.6\ \mathrm{N}
+$$
 
 Direction: by Fleming's left-hand rule, the force is perpendicular to both the field and current.
 

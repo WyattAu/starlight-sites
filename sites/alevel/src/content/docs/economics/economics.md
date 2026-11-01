@@ -139,7 +139,8 @@ $$
 YED = \frac{\% \Delta Q_D}{\% \Delta Y}
 $$
 
-**Welfare:** $$CS = \int_0^Q [P_D(Q) - P^*] \, dQ = \frac{1}{2}(P_{choke} - P^*) \times Q^*$$
+**Welfare:** $$CS = \int_0^Q [P_D(Q) - P^*] \, dQ = \frac{1}{2}(P_{choke} - P^*) \times Q^*
+$$
 $$
 PS = \int_0^Q [P^* - P_S(Q)] \, dQ = \frac{1}{2}(P^* - P_{choke\_supply}) \times Q^*
 $$
@@ -150,7 +151,8 @@ $$
 DWL_{externality} = \frac{1}{2} \times MEC \times (Q_{mkt} - Q^*)
 $$
 
-**Tax incidence:** $$\text{Consumer burden} = \frac{PES}{|PED| + PES} \times t$$
+**Tax incidence:** $$\text{Consumer burden} = \frac{PES}{|PED| + PES} \times t
+$$
 $$
 \text{Producer burden} = \frac{|PED|}{|PED| + PES} \times t
 $$
@@ -162,7 +164,8 @@ $$MC = \frac{dTC}{dQ}, \quad MR = \frac{dTR}{dQ}$$ Shut-down: $P < AVC_{min}$
 
 ### Macroeconomics
 
-**National income:** $$GDP = C + I + G + (X - M)$$
+**National income:** $$GDP = C + I + G + (X - M)
+$$
 $$
 \text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP Deflator}} \times 100
 $$
@@ -170,19 +173,26 @@ $$
 g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100
 $$
 
-**Inflation:** $$\pi_t = \frac{CPI_t - CPI_{t-1}}{CPI_{t-1}} \times 100$$
+**Inflation:** $$\pi_t = \frac{CPI_t - CPI_{t-1}}{CPI_{t-1}} \times 100
+$$
 
-**Unemployment:** $$u = \frac{U}{LF} \times 100 = \frac{U}{U + E} \times 100$$
+**Unemployment:** $$u = \frac{U}{LF} \times 100 = \frac{U}{U + E} \times 100
+$$
 
-**Multiplier:** $$k = \frac{1}{1 - MPC(1-t) + MPM}$$ $$k_T = \frac{-MPC}{1 - MPC(1-t) + MPM}$$
+**Multiplier:** $$k = \frac{1}{1 - MPC(1-t) + MPM}$$ $$k_T = \frac{-MPC}{1 - MPC(1-t) + MPM}
+$$
 
-**Phillips curve:** $$\pi = \pi^e - \beta(u - u^*)$$
+**Phillips curve:** $$\pi = \pi^e - \beta(u - u^*)
+$$
 
-**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
+**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)
+$$
 
-**Debt dynamics:** $$\Delta b = (r - g_{nominal})b - p$$
+**Debt dynamics:** $$\Delta b = (r - g_{nominal})b - p
+$$
 
-**Solow model:** $$y = k^\alpha$$
+**Solow model:** $$y = k^\alpha
+$$
 $$
 \dot{k} = sy - (n + \delta)k = 0 \Rightarrow k^* = \left(\frac{s}{n + \delta}\right)^{1/(1-\alpha)}
 $$
@@ -195,9 +205,11 @@ $$
 \text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}
 $$
 
-**Marshall-Lerner condition:** $$|PED_X| + |PED_M| > 1$$
+**Marshall-Lerner condition:** $$|PED_X| + |PED_M| > 1
+$$
 
-**Taylor Rule:** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(y - y^*)$$
+**Taylor Rule:** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(y - y^*)
+$$
 
 ---
 

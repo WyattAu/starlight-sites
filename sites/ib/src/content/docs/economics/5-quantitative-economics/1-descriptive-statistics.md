@@ -460,7 +460,8 @@ $$
 ### The Marginal Propensities
 
 - **Marginal propensity to consume (MPC)**: the fraction of additional income that is spent on
-  consumption: $$\mathrm{MPC} = \frac{\Delta C}{\Delta Y}$$
+  consumption: $$\mathrm{MPC} = \frac{\Delta C}{\Delta Y}
+$$
 - **Marginal propensity to save (MPS)**: the fraction of additional income that is saved:
   $$
   \mathrm{MPS} = \frac{\Delta S}{\Delta Y}

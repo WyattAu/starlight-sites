@@ -886,7 +886,8 @@ An economy has the following components (GBP billions):
 
 </div>
 
-**GDP calculation:** $$\text{GDP} = C + I + G + (X - M) = 1200 + 350 + 400 + (500 - 550) = 1900$$
+**GDP calculation:** $$\text{GDP} = C + I + G + (X - M) = 1200 + 350 + 400 + (500 - 550) = 1900
+$$
 
 Current account balance $= X - M = 500 - 550 = -50$ (deficit).
 
@@ -961,7 +962,8 @@ $$
 Suppose the economy is at full employment ($u^* = 5\%$). The government pursues expansionary policy
 that reduces unemployment to 3%.
 
-**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*) = -2(0.03 - 0.05) = -2(-0.02) = 0.04$$
+**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*) = -2(0.03 - 0.05) = -2(-0.02) = 0.04
+$$
 
 Output rises 4% above potential.
 

@@ -1668,7 +1668,8 @@ PDC is a multi-enzyme complex containing 3 enzymes and 5 cofactors (TPP, lipoami
 $\mathrm{NAD}^+$). It produces 1 NADH per pyruvate (2 per glucose).
 
 **Anaerobic conditions** (in animal cells): pyruvate is reduced to lactate by lactate dehydrogenase
-(LDH): $$\text{Pyruvate} + \mathrm{NADH} + \mathrm{H}^+ \to \text{lactate} + \mathrm{NAD}^+$$
+(LDH): $$\text{Pyruvate} + \mathrm{NADH} + \mathrm{H}^+ \to \text{lactate} + \mathrm{NAD}^+
+$$
 
 This regenerates $\mathrm{NAD}^+$ Allowing glycolysis to continue. The lactate is transported to the
 liver (Cori cycle), where it is converted back to glucose (gluconeogenesis, costing 6 ATP per

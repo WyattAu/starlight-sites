@@ -158,7 +158,8 @@ $$
 e = \frac{v_{\mathrm{after}}}{u_{\mathrm{before}}}
 $$
 
-For two bodies: $$e = \frac{v_2 - v_1}{u_1 - u_2}$$
+For two bodies: $$e = \frac{v_2 - v_1}{u_1 - u_2}
+$$
 
 ### 5.2 Range of $e$
 

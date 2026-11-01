@@ -242,7 +242,8 @@ enolates, thiols) favor 1,4-addition (Michael addition).
    \text{R}^\bullet + \text{H–C} \to \text{R–H} + \text{C}^\bullet
    $$
 
-3. **Termination:** Two radicals combine: $$\text{R}^\bullet + \text{R}^\bullet \to \text{R–R}$$
+3. **Termination:** Two radicals combine: $$\text{R}^\bullet + \text{R}^\bullet \to \text{R–R}
+$$
 
 ### 4.2 Radical Stability
 

@@ -799,7 +799,8 @@ $$
 p' = \frac{p^2 \cdot w_{BB} + pq \cdot w_{Bb}}{\bar{w}} = \frac{0.25(0.7) + 0.25(0.7)}{0.775} = \frac{0.175 + 0.175}{0.775} = \frac{0.35}{0.775} \approx 0.452
 $$
 
-New frequency of b: $$q' = 1 - p' = 1 - 0.452 = 0.548$$
+New frequency of b: $$q' = 1 - p' = 1 - 0.452 = 0.548
+$$
 
 After one generation, the recessive allele $b$ (green, favoured) has increased from 0.5 to 0.548,
 and the dominant allele $B$ (brown, selected against) has decreased from 0.5 to 0.452. This

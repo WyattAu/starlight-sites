@@ -1989,7 +1989,8 @@ _If you get this wrong, revise: Esterification (Section 3.2)_
 
 (a) **Methyl ethanoate**
 
-(b) $$\mathrm{CH_3COOH} + \mathrm{CH_3OH} \rightleftharpoons \mathrm{CH_3COOCH_3} + \mathrm{H_2O}$$
+(b) $$\mathrm{CH_3COOH} + \mathrm{CH_3OH} \rightleftharpoons \mathrm{CH_3COOCH_3} + \mathrm{H_2O}
+$$
 
 (c) Concentrated $\mathrm{H_2SO_4}$ acts as a **catalyst** and as a **dehydrating agent**, removing
 water and shifting the equilibrium towards the ester product.

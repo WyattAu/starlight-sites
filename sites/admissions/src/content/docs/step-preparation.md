@@ -414,7 +414,8 @@ $F(x, y, t) = 0$ and $\frac{\partial F}{\partial t} = 0$ simultaneously.
 
 > Prove that for all positive real numbers $a, b, c$:
 >
-> $$\frac{a}{b + c} + \frac{b}{c + a} + \frac{c}{a + b} \geq \frac{3}{2}$$
+> $$\frac{a}{b + c} + \frac{b}{c + a} + \frac{c}{a + b} \geq \frac{3}{2}
+$$
 
 **Solution.** We use the substitution $x = b + c$, $y = c + a$, $z = a + b$. Then
 $a = \frac{y + z - x}{2}$, $b = \frac{z + x - y}{2}$, $c = \frac{x + y - z}{2}$.
@@ -465,7 +466,8 @@ Summing these three inequalities gives the result. Equality holds when $x = y = 
 
 > Evaluate:
 >
-> $$I_n = \int_0^{\pi/2} \cos^{2n}\theta \, d\theta$$
+> $$I_n = \int_0^{\pi/2} \cos^{2n}\theta \, d\theta
+$$
 >
 > and deduce that $I_n = \frac{(2n)!}{4^n(n!)^2} \cdot \frac{\pi}{2}$.
 
@@ -529,7 +531,8 @@ $$
 
 > Solve the differential equation:
 >
-> $$x\frac{dy}{dx} + y = x^2 y^2$$
+> $$x\frac{dy}{dx} + y = x^2 y^2
+$$
 >
 > subject to $y(1) = 1$. Find the range of $x$ for which the solution is defined.
 

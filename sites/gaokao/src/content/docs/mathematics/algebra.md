@@ -334,7 +334,8 @@ $$\begin{cases}
 \Delta \geq 0 \\
 -\dfrac{b}{2a} > 1 \\
 f(1) > 0
-\end{cases}$$
+\end{cases}
+$$
 
 步骤2：计算各条件：
 - $\Delta = 4m^2 - 4(m + 2) = 4m^2 - 4m - 8 \geq 0$，即 $m^2 - m - 2 \geq 0$，$(m - 2)(m + 1) \geq 0$，得 $m \leq -1$ 或 $m \geq 2$

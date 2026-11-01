@@ -371,7 +371,8 @@ The proof is therefore Incomplete.
 
 > A random variable $X$ has probability density function:
 >
-> $$f(x) = \begin{cases} kx & 0 \leq x \leq 2 \\ 0 & \text{otherwise \end{cases}$$
+> $$f(x) = \begin{cases} kx & 0 \leq x \leq 2 \\ 0 & \text{otherwise \end{cases}
+$$
 >
 > What is the value of $k$ And what is $\mathbb{E}(X)$?
 

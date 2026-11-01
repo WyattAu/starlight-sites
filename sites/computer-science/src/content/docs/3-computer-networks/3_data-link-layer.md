@@ -186,7 +186,8 @@ Where $R$ is the data rate.
 A 100 Mbps Ethernet network uses a maximum cable length of 2 km. Signal propagation speed is
 $2 \times 10^8$ m/s. Calculate the minimum frame size.
 
-One-way propagation delay: $$\tau = \frac{d}{v} = \frac{2000}{2 \times 10^8} = 10\;\mu\mathrm{s}$$
+One-way propagation delay: $$\tau = \frac{d}{v} = \frac{2000}{2 \times 10^8} = 10\;\mu\mathrm{s}
+$$
 
 Worst case: collision occurs at the far end, signal must travel back. Total time is
 $2\tau = 20\;\mu\mathrm{s}$.

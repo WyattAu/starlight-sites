@@ -2252,7 +2252,8 @@ Cystic fibrosis is caused by a recessive allele (f). The incidence of cystic fib
 
 $$q^2 = \frac{1}{2500} = 0.0004$$ $$q = \sqrt{0.0004} = 0.02$$ $$p = 1 - 0.02 = 0.98$$
 
-Carrier frequency ($2pq$): $$2pq = 2 \times 0.98 \times 0.02 = 0.0392 \approx \frac{1}{25}$$
+Carrier frequency ($2pq$): $$2pq = 2 \times 0.98 \times 0.02 = 0.0392 \approx \frac{1}{25}
+$$
 
 So approximately 1 in 25 people is a carrier of cystic fibrosis.
 

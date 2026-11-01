@@ -299,7 +299,8 @@ theorem, and requires analysis of the sign of the force function.]
 
 **Solution:**
 
-**(a)** $$W = \int_0^3 F(x)\,dx = \int_0^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_0^3$$
+**(a)** $$W = \int_0^3 F(x)\,dx = \int_0^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_0^3
+$$
 
 $$
 = (27 + 9 - 15) - 0 = 21 \text{ J}
@@ -322,7 +323,8 @@ For $x \gt 1$: test $x = 2$$F = 12 + 4 - 5 = 11 \gt 0$ (force in positive $x$-di
 
 The force does positive work in $(-\infty, -5/3)$ and $(1, \infty)$ And negative work in $(-5/3, 1)$.
 
-**(d)** $$W = \int_{-2}^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_{-2}^3$$
+**(d)** $$W = \int_{-2}^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_{-2}^3
+$$
 
 $$
 = (27 + 9 - 15) - (-8 + 4 + 10) = 21 - 6 = 15 \text{ J}

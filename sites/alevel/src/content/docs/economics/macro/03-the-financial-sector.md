@@ -732,12 +732,14 @@ deposits).
 - Loans: $765 - 76.5 - 38.25 = 650.25$. Redeposited: $650.25 \times 0.9 = 585.23$.
 - Cash held: $650.25 \times 0.1 = 65.03$.
 
-**Total deposits created:** $$D = 1000 + 765 + 585.23 + \cdots$$
+**Total deposits created:** $$D = 1000 + 765 + 585.23 + \cdots
+$$
 $$
 D = \frac{1000}{1 - (1 - rr - re)(1 - c)} = \frac{1000}{1 - 0.85 \times 0.9} = \frac{1000}{1 - 0.765} = \frac{1000}{0.235} = \text{GBP } 4\,255
 $$
 
-**Effective money multiplier:** $$m = \frac{D}{R} = \frac{4255}{1000} = 4.26$$
+**Effective money multiplier:** $$m = \frac{D}{R} = \frac{4255}{1000} = 4.26
+$$
 
 Compared to the simple multiplier of $1/rr = 10$ Cash leakages and excess reserves reduce the
 multiplier by more than half.

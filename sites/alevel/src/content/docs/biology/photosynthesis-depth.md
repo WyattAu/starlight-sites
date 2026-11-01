@@ -1792,7 +1792,8 @@ suppresses photorespiration:
 
 1. **$\mathrm{CO_2}$ fixation**: $\mathrm{CO_2}$ is initially fixed by PEP carboxylase in mesophyll
    cells. PEP carboxylase has a much higher affinity for $\mathrm{CO_2}$ than Rubisco and does not
-   react with $\mathrm{O_2}$. $$\mathrm{PEP + CO_2 \to oxaloacetate\ (4C)}$$
+   react with $\mathrm{O_2}$. $$\mathrm{PEP + CO_2 \to oxaloacetate\ (4C)}
+$$
 2. **Conversion**: oxaloacetate is converted to malate (or aspartate) and transported to bundle
    sheath cells (which surround the vascular bundles).
 3. **Decarboxylation**: malate is decarboxylated in bundle sheath cells, releasing $\mathrm{CO_2}$

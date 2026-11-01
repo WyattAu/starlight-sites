@@ -120,7 +120,8 @@ $$
 $$
 
 $$V = \frac{2\pi \times 25 \times 10^{-6}}{850 \times 10^{-9}} \times 0.242
-      = \frac{2\pi \times 25}{0.85} \times 0.242 \approx 44.7$$
+      = \frac{2\pi \times 25}{0.85} \times 0.242 \approx 44.7
+$$
 
 Since $V \gg 2.405$, this fibre is multimode.
 

@@ -299,7 +299,8 @@ $$
 n_{^4\mathrm{He} = \frac{n_n}{2}}
 $$
 
-The remaining protons stay as hydrogen: $$n_H = n_p - 2n_{^4\mathrm{He} = n_p - n_n}$$
+The remaining protons stay as hydrogen: $$n_H = n_p - 2n_{^4\mathrm{He} = n_p - n_n}
+$$
 
 The baryon number density is $n_b = n_n + n_p$.
 

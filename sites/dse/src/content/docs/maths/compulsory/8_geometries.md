@@ -1144,7 +1144,8 @@ Since the line is tangent (not a secant), the area of the minor segment is $0$.
 
 **Problem.** Find the distance between $A(1, 2, 3)$ and $B(4, -1, 5)$.
 
-**Solution.** $$AB = \sqrt{(4-1)^2 + (-1-2)^2 + (5-3)^2} = \sqrt{9 + 9 + 4} = \sqrt{22}$$
+**Solution.** $$AB = \sqrt{(4-1)^2 + (-1-2)^2 + (5-3)^2} = \sqrt{9 + 9 + 4} = \sqrt{22}
+$$
 
 $\blacksquare$
 
@@ -1153,7 +1154,8 @@ $\blacksquare$
 **Problem.** The vertices of a triangle are $A(0, 0)$, $B(4, 0)$, $C(0, 3)$. Show that
 $\triangle ABC$ is right-angled.
 
-**Solution.** $$AB^2 = 16, \quad AC^2 = 9, \quad BC^2 = 16 + 9 = 25$$
+**Solution.** $$AB^2 = 16, \quad AC^2 = 9, \quad BC^2 = 16 + 9 = 25
+$$
 
 $AB^2 + AC^2 = 16 + 9 = 25 = BC^2$. By the converse of Pythagoras' theorem, $\triangle ABC$ is
 right-angled at $A$.

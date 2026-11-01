@@ -784,9 +784,11 @@ Suggests that fiscal devolution may be necessary but not sufficient.
 base $B(t) = 1000 - 8t$ (the tax base shrinks as the tax rate rises due to avoidance, reduced labour
 supply, and emigration).
 
-**Revenue function:** $$R(t) = t(1000 - 8t) = 1000t - 8t^2$$
+**Revenue function:** $$R(t) = t(1000 - 8t) = 1000t - 8t^2
+$$
 
-**Revenue-maximising tax rate:** $$\frac{dR}{dt} = 1000 - 16t = 0 \Rightarrow t^* = 62.5\%$$
+**Revenue-maximising tax rate:** $$\frac{dR}{dt} = 1000 - 16t = 0 \Rightarrow t^* = 62.5\%
+$$
 
 $$
 R(62.5\%) = 62.5(1000 - 8 \times 62.5) = 62.5 \times 500 = 31\,250
@@ -898,7 +900,8 @@ attractive.
 - SRAS: $Y = 3P - 200$
 - LRAS: $Y^* = 400$ (full employment output)
 
-**Initial equilibrium:** $$1000 - 2P = 3P - 200 \Rightarrow 1200 = 5P \Rightarrow P = 240, Y = 520$$
+**Initial equilibrium:** $$1000 - 2P = 3P - 200 \Rightarrow 1200 = 5P \Rightarrow P = 240, Y = 520
+$$
 
 The economy is in an inflationary gap: $520 - 400 = 120$.
 
@@ -927,7 +930,8 @@ and the new LRAS. But the adjustment process depends on expectations.
 New SRAS: $Y = 3P - 500$. $1000 - 2P = 3P - 500 \Rightarrow 1500 = 5P \Rightarrow P = 300$,
 $Y = 400$. This does not work either.
 
-Let me reconsider. The SRAS must intersect AD at $Y = 600$: $$600 = 1000 - 2P \Rightarrow P = 200$$
+Let me reconsider. The SRAS must intersect AD at $Y = 600$: $$600 = 1000 - 2P \Rightarrow P = 200
+$$
 
 New SRAS: $Y = 3P - b$. At $(200, 600)$: $600 = 600 - b \Rightarrow b = 0$. New SRAS: $Y = 3P$.
 
@@ -960,7 +964,8 @@ The project is NOT profitable without tax. The firm does not invest.
 
 **With a 40% investment tax credit:** The firm receives a tax credit of
 $0.40 \times 100\,000 = \text{GBP } 40\,000$. Net cost of machine:
-$100\,000 - 40\,000 = \text{GBP } 60\,000$. $$NPV = 94\,775 - 60\,000 = +\text{GBP } 34\,775$$
+$100\,000 - 40\,000 = \text{GBP } 60\,000$. $$NPV = 94\,775 - 60\,000 = +\text{GBP } 34\,775
+$$
 
 The project is now profitable. The investment tax credit has incentivised investment.
 

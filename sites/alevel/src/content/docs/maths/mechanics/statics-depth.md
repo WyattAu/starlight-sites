@@ -93,7 +93,8 @@ the line of action of the Force to the pivot point, not just the distance along 
 
 A rigid body is in equilibrium if and only if:
 
-1. **The resultant force is zero:** $$\sum \mathbf{F} = \mathbf{0}$$
+1. **The resultant force is zero:** $$\sum \mathbf{F} = \mathbf{0}
+$$
 
 2. **The resultant moment about any point is zero:**
    $$

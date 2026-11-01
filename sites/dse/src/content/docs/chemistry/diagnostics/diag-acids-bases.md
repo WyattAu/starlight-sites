@@ -75,7 +75,8 @@ $$
 pH = -\log(1.34 \times 10^{-3}) = 2.87
 $$
 
-(b) $$1.8 \times 10^{-5} = \frac{x^{2}}{0.010}$$
+(b) $$1.8 \times 10^{-5} = \frac{x^{2}}{0.010}
+$$
 
 $$
 x^{2} = 1.8 \times 10^{-7}
@@ -527,7 +528,8 @@ $[CH_{3}COO^{-}] = 1.82 \times 0.20 = 0.364$ mol/dm$^{3}$
 
 $n(CH_{3}COO^{-}) = 0.364 \times 0.250 = 0.0910$ mol
 
-(b) $$m(CH_{3}COONa) = 0.0910 \times 82.0 = 7.46 \text{ g}$$
+(b) $$m(CH_{3}COONa) = 0.0910 \times 82.0 = 7.46 \text{ g}
+$$
 
 Procedure: Dissolve 7.46 g of sodium ethanoate in approximately 150 cm$^{3}$ of distilled water. Add
 100 cm$^{3}$ of 0.50 mol/dm$^{3}$ ethanoic acid. Transfer to a 250 cm$^{3}$ volumetric flask and

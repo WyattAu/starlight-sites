@@ -543,7 +543,8 @@ edge. This is achieved by the complete bipartite graph $K_{\lfloor n/2 \rfloor, 
 
 > Prove that for all positive real numbers $a, b, c$:
 >
-> $$\frac{a^3}{b^2 - bc + c^2} + \frac{b^3}{c^2 - ca + a^2} + \frac{c^3}{a^2 - ab + b^2} \geq a + b + c$$
+> $$\frac{a^3}{b^2 - bc + c^2} + \frac{b^3}{c^2 - ca + a^2} + \frac{c^3}{a^2 - ab + b^2} \geq a + b + c
+$$
 
 **Solution.** By Titu's lemma (the Engel form of Cauchy-Schwarz):
 

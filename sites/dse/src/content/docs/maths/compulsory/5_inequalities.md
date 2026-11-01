@@ -905,7 +905,8 @@ Solution: $(2, 3]$.
 **Problem.** Find all values of $k$ for which $x^2 + 2kx + k + 8 > 0$ for all real $x$.
 
 **Solution.** For the quadratic to be always positive with leading coefficient $1 > 0$:
-$\Delta < 0$. $$(2k)^2 - 4(1)(k+8) < 0 \implies 4k^2 - 4k - 32 < 0 \implies k^2 - k - 8 < 0$$
+$\Delta < 0$. $$(2k)^2 - 4(1)(k+8) < 0 \implies 4k^2 - 4k - 32 < 0 \implies k^2 - k - 8 < 0
+$$
 
 Roots: $k = \frac{1 \pm \sqrt{1 + 32}}{2} = \frac{1 \pm \sqrt{33}}{2}$
 

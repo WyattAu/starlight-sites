@@ -50,13 +50,17 @@ $$
 q^2 = \frac{45}{500} = 0.09
 $$
 
-The frequency of the $b$ allele: $$q = \sqrt{q^2} = \sqrt{0.09} = 0.30$$
+The frequency of the $b$ allele: $$q = \sqrt{q^2} = \sqrt{0.09} = 0.30
+$$
 
-The frequency of the $B$ allele: $$p = 1 - q = 1 - 0.30 = 0.70$$
+The frequency of the $B$ allele: $$p = 1 - q = 1 - 0.30 = 0.70
+$$
 
-(b) The expected frequency of heterozygotes ($Bb$) is: $$2pq = 2 \times 0.70 \times 0.30 = 0.42$$
+(b) The expected frequency of heterozygotes ($Bb$) is: $$2pq = 2 \times 0.70 \times 0.30 = 0.42
+$$
 
-Expected number of heterozygous moths: $$0.42 \times 500 = 210$$
+Expected number of heterozygous moths: $$0.42 \times 500 = 210
+$$
 
 (c) The five conditions for Hardy-Weinberg equilibrium:
 

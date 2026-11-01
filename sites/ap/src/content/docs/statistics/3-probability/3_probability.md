@@ -53,7 +53,8 @@ $$
 P(A \cap B) = P(A) \cdot P(B | A)
 $$
 
-If $A$ and $B$ are **independent**: $$P(A \cap B) = P(A) \cdot P(B)$$
+If $A$ and $B$ are **independent**: $$P(A \cap B) = P(A) \cdot P(B)
+$$
 
 ### Conditional Probability
 

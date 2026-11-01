@@ -277,7 +277,8 @@ $T$. What is the limiting behaviour as $T \to 0$ and $T \to \infty$?
 (b) For $N$ distinguishable particles, $Z = Z_1^N$. The average energy is:
 
 $$\langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = -N\frac{\partial \ln Z_1}{\partial \beta}
-= N\frac{\varepsilon e^{-\beta\varepsilon} + 2\varepsilon e^{-2\beta\varepsilon}}{1 + e^{-\beta\varepsilon} + e^{-2\beta\varepsilon}}$$
+= N\frac{\varepsilon e^{-\beta\varepsilon} + 2\varepsilon e^{-2\beta\varepsilon}}{1 + e^{-\beta\varepsilon} + e^{-2\beta\varepsilon}}
+$$
 
 (c) $C_V = \frac{\partial \langle E \rangle}{\partial T} = \frac{1}{k_B T^2}\frac{\partial \langle E \rangle}{\partial \beta}$.
 

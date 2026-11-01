@@ -67,7 +67,7 @@ $$
 \mathrm{P} = \bigcup_{k \geq 1} \mathrm{TIME}(n^k)
 $$
 
-$\mathrm{P$ is the class of languages decidable in polynomial time by a deterministic TM. This
+$\mathrm{P}$ is the class of languages decidable in polynomial time by a deterministic TM. This
 Captures the notion of "efficiently solvable."
 
 **Examples of problems in P:**
@@ -102,43 +102,43 @@ The string $c$ is called a **certificate** (or witness).
 - Graph 3-Colouring: certificate is the colouring.
 - Integer factorisation (decision version): certificate is a factor.
 
-**Theorem 6.2.** $\mathrm{P \subseteq \mathrm{NP$.
+**Theorem 6.2.** $\mathrm{P \subseteq \mathrm{NP}}$.
 
 *Proof.* Every deterministic polynomial-time algorithm is a special case of a nondeterministic one
 (with exactly one choice at each step). Alternatively, the certificate can be empty. $\blacksquare$
 
-**Theorem 6.2a.** If $A \leq_p B$ and $B \in \mathrm{NP$ Then $A \in \mathrm{NP$.
+**Theorem 6.2a.** If $A \leq_p B$ and $B \in \mathrm{NP}$ Then $A \in \mathrm{NP}$.
 
 *Proof.* Let $V_B$ be the polynomial-time verifier for $B$ and $f$ be the polynomial-time reduction.
 Then $V_A(w, c) = V_B(f(w), c)$ is a polynomial-time verifier for $A$. $\blacksquare$
 
-**Open question:** $\mathrm{P = \mathrm{NP$? This is the most important open problem in computer
-Science. Most researchers believe $\mathrm{P \neq \mathrm{NP$.
+**Open question:** $\mathrm{P} = \mathrm{NP}$? This is the most important open problem in computer
+Science. Most researchers believe $\mathrm{P \neq \mathrm{NP}}$.
 
-**Consequences of P = NP.** If $\mathrm{P = \mathrm{NP$ Then every problem in NP (including SAT,
+**Consequences of P = NP.** If $\mathrm{P} = \mathrm{NP}$ Then every problem in NP (including SAT,
 Travelling Salesman, graph colouring, protein folding, etc.) would have polynomial-time algorithms.
 This would revolutionise optimisation, cryptography (RSA and most public-key systems would be
 broken), And artificial intelligence. However, after decades of research, no polynomial-time
 algorithm has Been found for any NP-complete problem, providing strong empirical evidence for
-$\mathrm{P \neq \mathrm{NP$.
+$\mathrm{P \neq \mathrm{NP}}$.
 
 ### 6.4 NP-Completeness
 
 A language $B$ is **NP-complete** if:
 
-1. $B \in \mathrm{NP$ And
-2. $A \leq_p B$ for every $A \in \mathrm{NP$ (polynomial-time mapping reduction).
+1. $B \in \mathrm{NP}$ And
+2. $A \leq_p B$ for every $A \in \mathrm{NP}$ (polynomial-time mapping reduction).
 
 A language is **NP-hard** if condition (2) holds (it need not be in NP).
 
-**Theorem 6.3 (Cook-Levin, 1971).** $\mathrm{SAT$ is NP-complete.
+**Theorem 6.3 (Cook-Levin, 1971).** $\mathrm{SAT}$ is NP-complete.
 
 *Proof (detailed sketch).*
 
-1. $\mathrm{SAT \in \mathrm{NP$: a satisfying assignment is a polynomial-size certificate that can
+1. $\mathrm{SAT \in \mathrm{NP}}$: a satisfying assignment is a polynomial-size certificate that can
    be verified in polynomial time.
 
-2. For any $L \in \mathrm{NP$ There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
+2. For any $L \in \mathrm{NP}$ There is a polynomial-time NTM $N$ that decides $L$ in time $n^k$ for
    some $k$. Given input $w$ of length $n$ Construct a Boolean formula $\phi_{N,w}$ that is
    satisfiable iff $N$ accepts $w$.
 
@@ -156,7 +156,7 @@ contains $s$.
 - **Start configuration:** Row 0 encodes $q_0$ at position 0, $w_1$ at position 1, etc.
 - **Transition correctness:** For every $2 \times 3$ window of the tableau, the bottom row must be a
   valid successor of the top row according to $N$'s transition function.
-- **Acceptance:** Some cell in the last row contains $q_{\mathrm{accept}$.
+- **Acceptance:** Some cell in the last row contains $q_{\mathrm{accept}}$.
 
 Each constraint can be expressed as a polynomial-size CNF formula (using standard encodings of
 "exactly one" and "window" constraints). The total formula has size $O(n^{2k})$ Which is polynomial
@@ -173,7 +173,7 @@ position $(0,0)$ contains the start state. The constraints enforce:
 
 - Row 0: $q_0$ at position 0, `0` at position 1, `1` at position 2, $\sqcup$ at position 3.
 - Transition windows: each $2 \times 3$ block must be consistent with $\delta$.
-- Row 3: at least one cell contains $q_{\mathrm{accept}$.
+- Row 3: at least one cell contains $q_{\mathrm{accept}}$.
 
 If $N$ accepts $w$ Then the accepting computation path provides a satisfying assignment (the tableau
 records that path). If $\phi_{N,w}$ is satisfiable, the satisfying assignment Encodes a valid
@@ -183,7 +183,7 @@ accepting computation.
 
 **Corollary 6.4.** If any NP-complete problem is in P, then P = NP.
 
-**Theorem 6.5.** If $A \leq_p B$ and $B \in \mathrm{P$ Then $A \in \mathrm{P$.
+**Theorem 6.5.** If $A \leq_p B$ and $B \in \mathrm{P}$ Then $A \in \mathrm{P}$.
 
 *Proof.* To decide $A$ on input $w$: compute $f(w)$ in polynomial time (the reduction), then decide
 $B$ on $f(w)$ in polynomial time. Total: polynomial time. $\blacksquare$
@@ -310,37 +310,37 @@ assignment. $\blacksquare$
 
 ### 6.6 Space Complexity
 
-**Definition.** $\mathrm{SPACE(s(n))$ is the class of languages decidable by a deterministic TM
-Using $O(s(n))$ tape cells. $\mathrm{NSPACE(s(n))$ is the nondeterministic analogue.
+**Definition.** $\mathrm{SPACE(s(n))}$ is the class of languages decidable by a deterministic TM
+Using $O(s(n))$ tape cells. $\mathrm{NSPACE(s(n))}$ is the nondeterministic analogue.
 
 **Key classes:**
 
-- $\mathrm{L = \mathrm{SPACE(\log n)$, logarithmic space.
-- $\mathrm{NL = \mathrm{NSPACE(\log n)$, nondeterministic logarithmic space.
-- $\mathrm{PSPACE = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)$.
+- $\mathrm{L} = \mathrm{SPACE(\log n)}$, logarithmic space.
+- $\mathrm{NL} = \mathrm{NSPACE(\log n)}$, nondeterministic logarithmic space.
+- $\mathrm{PSPACE} = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)}$.
 
-**Theorem 6.6 (Savitch, 1970).** $\mathrm{NSPACE(s(n)) \subseteq \mathrm{SPACE(s(n)^2)$ For
+**Theorem 6.6 (Savitch, 1970).** $\mathrm{NSPACE(s(n)) \subseteq \mathrm{SPACE(s(n)^2)}}$ For
 $s(n) \geq \log n$.
 
 *Proof (sketch).* To decide whether an NTM using space $s(n)$ accepts, we check reachability in the
 Configuration graph. The graph has at most $N = |\Gamma|^{s(n)} \cdot s(n) \cdot |Q|$ nodes, where
 $|\Gamma|$ is the tape alphabet size and $|Q|$ the number of states. A deterministic TM can decide
-Reachability using the recursive algorithm $\mathrm{REACH(u, v, d)$ (can $u$ reach $v$ in at most
+Reachability using the recursive algorithm $\mathrm{REACH(u, v, d)}$ (can $u$ reach $v$ in at most
 $d$ steps?), which uses $O(\log N) = O(s(n))$ space and recurses to depth $O(\log N)$. Total space:
 $O(s(n) \cdot \log N) = O(s(n)^2)$. $\blacksquare$
 
-**Corollary 6.7.** $\mathrm{PSPACE = \mathrm{NPSPACE$.
+**Corollary 6.7.** $\mathrm{PSPACE} = \mathrm{NPSPACE}$.
 
 *Proof.*
-$\mathrm{NPSPACE \subseteq \bigcup_k \mathrm{NSPACE(n^k) \subseteq \bigcup_k \mathrm{SPACE(n^{2k}) = \mathrm{PSPACE$
+$\mathrm{NPSPACE \subseteq \bigcup_k \mathrm{NSPACE(n^k) \subseteq \bigcup_k \mathrm{SPACE(n^{2k})}}} = \mathrm{PSPACE}$
 by Savitch's theorem. $\blacksquare$
 
-**NL-completeness.** A language $B$ is **NL-complete** if $B \in \mathrm{NL$ and every
-$A \in \mathrm{NL$ is log-space reducible to $B$.
+**NL-completeness.** A language $B$ is **NL-complete** if $B \in \mathrm{NL}$ and every
+$A \in \mathrm{NL}$ is log-space reducible to $B$.
 
-**Theorem 6.8 (Immerman--Szelepcsényi, 1987).** $\mathrm{NL = \mathrm{coNL$.
+**Theorem 6.8 (Immerman--Szelepcsényi, 1987).** $\mathrm{NL} = \mathrm{coNL}$.
 
-This is surprising because it is not known whether $\mathrm{NP = \mathrm{coNP$. The
+This is surprising because it is not known whether $\mathrm{NP} = \mathrm{coNP}$. The
 .../1-number-and-algebra/3_proof-and-logic uses An inductive counting argument: given an NTM for
 $L$ Construct an NTM for $\overline{L}$ that Counts the number of reachable configurations.
 
@@ -357,7 +357,7 @@ Reduces to it. Key PSPACE-complete problems:
 $x_i$ and recurse. For $\forall x_i \phi$ Similarly. At depth $n$ Evaluate $\psi$. Each level Uses
 $O(n)$ space to store the current assignment, giving $O(n^2)$ total.
 
-*Proof (hardness).* Reduce from any $L \in \mathrm{PSPACE$ using the configuration graph. A
+*Proof (hardness).* Reduce from any $L \in \mathrm{PSPACE}$ using the configuration graph. A
 Computation of a PSPACE TM on input $w$ of length $n$ uses at most $p(n)$ cells for some Polynomial
 $p$. The number of distinct configurations is at most $N = |\Gamma|^{p(n)} \cdot p(n) \cdot |Q|$
 which is exponential. The statement "$M$ accepts $w$" can be expressed as: "there exists a Configuration $c_1$ reachable from the start configuration in $\leq N$ steps such that for all Configurations $c_2$ reachable from $c_1$ in one step, there exists a configuration $c_3$..." This
@@ -369,9 +369,9 @@ $\blacksquare$
 
 Evaluate $\phi = \forall x \exists y \, [(x \lor y) \land (\bar{x} \lor y)]$.
 
-- For $x = 0$: need $\exists y$ such that $(0 \lor y) \land (1 \lor y) = y \land \mathrm{true = y$.
+- For $x = 0$: need $\exists y$ such that $(0 \lor y) \land (1 \lor y) = y \land \mathrm{true} = y$.
   So we need $y = 1$ (which exists).
-- For $x = 1$: need $\exists y$ such that $(1 \lor y) \land (0 \lor y) = \mathrm{true \land y = y$.
+- For $x = 1$: need $\exists y$ such that $(1 \lor y) \land (0 \lor y) = \mathrm{true \land y} = y$.
   So we need $y = 1$ (which exists).
 
 Since both values of $x$ lead to a satisfying assignment for $y$, $\phi$ is true.
@@ -410,7 +410,8 @@ Where each $|y_i| \leq p(|x|)$ and the quantifiers alternate, starting with $\ex
 
 $$
 \mathrm{P \subseteq \mathrm{NP \subseteq \Sigma_2^P \subseteq \Sigma_3^P \subseteq \cdots \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
-}}}}$$
+}}}}
+$$
 
 **Theorem 6.10.** If $\Sigma_k^P = \Sigma_{k+1}^P$ for some $k$ Then $\mathrm{PH} = \Sigma_k^P$ (the
 polynomial hierarchy collapses to level $k$).
@@ -441,7 +442,8 @@ $\blacksquare$
 
 $$
 \mathrm{PSPACE} = \bigcup_{k \geq 1} \mathrm{SPACE(n^k)
-}$$
+}
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE}$.
 - $\mathrm{P} \neq \mathrm{PSPACE}$ (space hierarchy theorem).
@@ -452,7 +454,8 @@ $$
 
 $$
 \mathrm{EXPTIME} = \bigcup_{k \geq 1} \mathrm{TIME(2^{n^k})
-}$$
+}
+$$
 
 - $\mathrm{P} \subseteq \mathrm{NP} \subseteq \mathrm{PSPACE} \subseteq \mathrm{EXPTIME}$.
 - $\mathrm{P} \neq \mathrm{EXPTIME}$ (time hierarchy theorem).
@@ -463,15 +466,18 @@ $$
 
 $$
 \mathrm{Regular \subsetneq \mathrm{CFL \subsetneq \mathrm{Decidable \subsetneq \mathrm{TM\mathrm{-recognisable}
-}}}}$$
+}}}}
+$$
 
 $$
 \mathrm{L \subseteq \mathrm{NL \subseteq \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PSPACE \subseteq \mathrm{EXPTIME
-}}}}}}$$
+}}}}}}
+$$
 
 $$
 \mathrm{P \subseteq \mathrm{NP \subseteq \mathrm{PH \subseteq \mathrm{PSPACE
-}}}}$$
+}}}}
+$$
 
 <div class="table-wrap">
 

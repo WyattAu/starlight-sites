@@ -531,7 +531,8 @@ C $= 263$ nC.
 of $2000\ \mathrm{V}$ across them. Find the electric field strength and the force on an electron
 between the plates.
 
-**Solution.** $$E = \frac{V}{d} = \frac{2000}{0.05} = 40000\ \mathrm{V\,m^{-1}}$$
+**Solution.** $$E = \frac{V}{d} = \frac{2000}{0.05} = 40000\ \mathrm{V\,m^{-1}}
+$$
 
 Force on the electron:
 

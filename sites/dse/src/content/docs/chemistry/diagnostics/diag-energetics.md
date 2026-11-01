@@ -507,7 +507,8 @@ $$
 \Delta H_{f}^{\circ}(CH_{3}OH) = -239.1 \text{ kJ/mol}
 $$
 
-(b) $$M(CH_{3}OH) = 12.0 + 4 \times 1.0 + 16.0 + 1.0 = 32.0 \text{ g/mol}$$
+(b) $$M(CH_{3}OH) = 12.0 + 4 \times 1.0 + 16.0 + 1.0 = 32.0 \text{ g/mol}
+$$
 
 $$
 n(CH_{3}OH) = \frac{10.0}{32.0} = 0.3125 \text{ mol}

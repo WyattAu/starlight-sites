@@ -79,7 +79,8 @@ $$\begin{array}{lccc}
 \text{起始 (mol/L)} & 2 & 6 & 0 \\
 \text{变化 (mol/L)} & -0.6 & -1.8 & +1.2 \\
 \text{平衡 (mol/L)} & 1.4 & 4.2 & 1.2
-\end{array}$$
+\end{array}
+$$
 
 步骤2：代入平衡常数表达式：
 $$
@@ -316,7 +317,8 @@ $$\begin{array}{lccc}
 \text{起始 (mol/L)} & 1 & 1 & 0 \\
 \text{变化 (mol/L)} & -x & -x & +2x \\
 \text{平衡 (mol/L)} & 1-x & 1-x & 2x
-\end{array}$$
+\end{array}
+$$
 
 步骤3：代入平衡常数表达式：$K = \dfrac{(2x)^2}{(1-x)^2} = 50$
 

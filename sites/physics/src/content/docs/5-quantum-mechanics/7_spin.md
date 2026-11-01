@@ -318,7 +318,8 @@ Where $C(j_1\,m_1\,j_2\,m_2|j\,m)$ are the **Clebsch-Gordan coefficients**.
 **Two spin-1/2 particles.** The composite system has $j_1 = j_2 = 1/2$. The possible total spins
 are:
 
-- **Triplet** ($j = 1$): three states with $m = 1, 0, -1$ $$|1,1\rangle = |\uparrow\uparrow\rangle$$
+- **Triplet** ($j = 1$): three states with $m = 1, 0, -1$ $$|1,1\rangle = |\uparrow\uparrow\rangle
+$$
   $$
   |1,0\rangle = \frac{1}{\sqrt{2}}(|\uparrow\downarrow\rangle + |\downarrow\uparrow\rangle)
   $$

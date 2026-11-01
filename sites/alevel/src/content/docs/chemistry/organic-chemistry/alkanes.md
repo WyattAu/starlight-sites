@@ -728,7 +728,8 @@ $$
 
 The mechanism proceeds through three stages. Using ethane and chlorine as an example:
 
-**Stage 1 -- Initiation:** $$\mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet$$
+**Stage 1 -- Initiation:** $$\mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet
+$$
 
 The Cl--Cl bond ($243\,\mathrm{kJ/mol}$) is homolytically cleaved by UV light. The bond dissociation
 energy must be supplied by a photon with energy $E \geq 243\,\mathrm{kJ/mol}$ Corresponding to
@@ -744,7 +745,8 @@ $$
 
 The chain carrier ($\mathrm{Cl}^\bullet$) is regenerated, allowing the chain to continue.
 
-**Stage 3 -- Termination:** $$2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2$$
+**Stage 3 -- Termination:** $$2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2
+$$
 $$
 2\mathrm{CH}_3\mathrm{CH}_2^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \quad \text{(butane)}
 $$
@@ -825,7 +827,8 @@ electron-deficient radical centre).
 Catalytic converters reduce the emissions from internal combustion engines:
 
 - **Reduction catalyst (platinum, palladium):** Converts $\mathrm{NO}_x$ to $\mathrm{N}_2$ and
-  $\mathrm{O}_2$: $$2\mathrm{NO} \to \mathrm{N}_2 + \mathrm{O}_2$$
+  $\mathrm{O}_2$: $$2\mathrm{NO} \to \mathrm{N}_2 + \mathrm{O}_2
+$$
   $$
   2\mathrm{NO}_2 \to \mathrm{N}_2 + 2\mathrm{O}_2
   $$

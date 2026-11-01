@@ -1979,7 +1979,8 @@ gravity:
    another electron. This electron replaces the electron that left PSI. The excited electron from
    PSI passes to ferredoxin, then to NADP$^+$ reductase
 6. **NADPH production:** NADP$^+$ reductase transfers two electrons and one H$^+$ to
-   NADP$^+$Reducing it to NADPH: $$\text{NADP}^+ + 2e^- + \mathrm{H^+} \rightarrow \text{NADPH}$$
+   NADP$^+$Reducing it to NADPH: $$\text{NADP}^+ + 2e^- + \mathrm{H^+} \rightarrow \text{NADPH}
+$$
 
 ### The Light-Independent Reactions (Calvin Cycle)
 

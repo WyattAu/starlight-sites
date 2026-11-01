@@ -257,7 +257,8 @@ Where $\mathbf{A}_i$ is $\mathbf{A}$ with column $i$ replaced by $\mathbf{b}$.
 <details>
 <summary>Worked Example: Solving a $3\times3$ system</summary>
 
-Solve: $$\begin{cases} x + 2y = 4 \\ y + 3z = 5 \\ x + z = 2 \end{cases}$$
+Solve: $$\begin{cases} x + 2y = 4 \\ y + 3z = 5 \\ x + z = 2 \end{cases}
+$$
 
 In matrix form:
 $\begin{pmatrix} 1 & 2 & 0 \\ 0 & 1 & 3 \\ 1 & 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 4 \\ 5 \\ 2 \end{pmatrix}$.

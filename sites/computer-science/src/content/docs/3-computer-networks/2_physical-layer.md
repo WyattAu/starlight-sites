@@ -79,7 +79,8 @@ $C = 3100 \times \log_2(3163) \approx 34860$ bps.
 A noiseless channel has a bandwidth of 4000 Hz. How many signal levels are needed to achieve a data
 Rate of 56000 bps?
 
-Using Nyquist's formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V$$
+Using Nyquist's formula: $$C = 2H \log_2 V$$ $$56000 = 2 \times 4000 \times \log_2 V
+$$
 $$\log_2 V = \frac{56000}{8000} = 7$$ $$V = 2^7 = 128$$
 
 **Answer:** 128 signal levels are required.
@@ -91,9 +92,11 @@ $$\log_2 V = \frac{56000}{8000} = 7$$ $$V = 2^7 = 128$$
 
 A satellite channel has a bandwidth of 36 MHz and an SNR of 30 dB. Find the maximum data rate.
 
-First convert SNR from dB to linear: $$\mathrm{SNR_}{\mathrm{linear} = 10^{30/10} = 1000}$$
+First convert SNR from dB to linear: $$\mathrm{SNR_}{\mathrm{linear} = 10^{30/10} = 1000}
+$$
 
-Apply Shannon's formula: $$C = H \log_2(1 + \mathrm{SNR}) = 36 \times 10^6 \times \log_2(1001)$$
+Apply Shannon's formula: $$C = H \log_2(1 + \mathrm{SNR}) = 36 \times 10^6 \times \log_2(1001)
+$$
 $$
 \log_2(1001) = \frac{\ln(1001)}{\ln(2)} \approx 9.967
 $$
@@ -111,7 +114,8 @@ rate will result in an unacceptable error rate regardless of the modulation sche
 
 A channel has $H = 6000$ Hz and $\mathrm{SNR} = 1023$ (30 dB).
 
-**Shannon limit:** $$C = 6000 \times \log_2(1024) = 6000 \times 10 = 60000\;\mathrm{bps}$$
+**Shannon limit:** $$C = 6000 \times \log_2(1024) = 6000 \times 10 = 60000\;\mathrm{bps}
+$$
 
 **Nyquist limit with $V = 8$:**
 $$
@@ -119,7 +123,8 @@ C = 2 \times 6000 \times \log_2(8) = 12000 \times 3 = 36000\;\mathrm{bps}
 $$
 
 The Nyquist limit (36 kbps) is below the Shannon limit (60 kbps), so 8 signal levels are Achievable.
-With $V = 64$: $$C = 12000 \times 6 = 72000\;\mathrm{bps}$$
+With $V = 64$: $$C = 12000 \times 6 = 72000\;\mathrm{bps}
+$$
 
 This exceeds Shannon's limit of 60 kbps, meaning 64 levels would produce errors. The maximum Number
 of levels consistent with Shannon:

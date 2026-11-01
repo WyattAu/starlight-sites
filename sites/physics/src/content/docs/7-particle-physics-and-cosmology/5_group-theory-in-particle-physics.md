@@ -145,7 +145,8 @@ $$
 L = \begin{pmatrix} \nu_e \\ e^- \end{pmatrix}_L, \quad Q = \begin{pmatrix} u \\ d \end{pmatrix}_L
 $$
 
-Right-handed fermions are singlets under SU(2): $$e_R, \quad u_R, \quad d_R$$
+Right-handed fermions are singlets under SU(2): $$e_R, \quad u_R, \quad d_R
+$$
 
 The electric charge is: $Q = T_3 + Y/2$.
 

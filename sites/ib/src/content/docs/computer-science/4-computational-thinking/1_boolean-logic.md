@@ -1075,7 +1075,8 @@ $$
 - 1 OR gate (3-input)
 - Total: **4 gates**
 
-Alternative implementation using XOR: $$F = A \cdot B + C \cdot (A \oplus B)$$
+Alternative implementation using XOR: $$F = A \cdot B + C \cdot (A \oplus B)
+$$
 
 This uses 1 XOR gate, 2 AND gates, 1 OR gate = **4 gates** (same count, but uses XOR which may be
 cheaper in some implementations).

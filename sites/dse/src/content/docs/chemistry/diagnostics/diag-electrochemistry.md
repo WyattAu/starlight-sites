@@ -189,7 +189,8 @@ a reason for any discrepancy. [2 marks]
 
 **Worked Solution**
 
-(a) $$Q = It = 0.500 \times 30.0 \times 60 = 900 \text{ C}$$
+(a) $$Q = It = 0.500 \times 30.0 \times 60 = 900 \text{ C}
+$$
 
 (b) At the cathode: $Cu^{2+} + 2e^{-} \rightarrow Cu$
 
@@ -354,7 +355,8 @@ current of 5.00 A for 2.00 hours.
 
 Anode (oxidation): $2O^{2-} \rightarrow O_{2} + 4e^{-}$
 
-(b) $$Q = It = 5.00 \times 2.00 \times 3600 = 36000 \text{ C}$$
+(b) $$Q = It = 5.00 \times 2.00 \times 3600 = 36000 \text{ C}
+$$
 
 Moles of electrons: $n(e^{-}) = \frac{36000}{96500} = 0.3731$ mol
 

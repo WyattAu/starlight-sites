@@ -1102,7 +1102,8 @@ $$
 <details>
 <summary>Answer</summary>
 
-(a) $$n(\mathrm{CaCO}_3) = \frac{8.0}{100.09} = 0.0800\mathrm{ mol}$$
+(a) $$n(\mathrm{CaCO}_3) = \frac{8.0}{100.09} = 0.0800\mathrm{ mol}
+$$
 
 $$n(\mathrm{CO}_2) = 0.0800\mathrm{ mol}$$ (1:1 ratio)
 
@@ -1110,7 +1111,8 @@ $$
 V_{\mathrm{theoretical}} = 0.0800 \times 24.8 = 1.98\mathrm{ L}
 $$
 
-(b) $$\%\mathrm{ yield} = \frac{1.60}{1.98} \times 100\% = 80.8\%$$
+(b) $$\%\mathrm{ yield} = \frac{1.60}{1.98} \times 100\% = 80.8\%
+$$
 
 </details>
 

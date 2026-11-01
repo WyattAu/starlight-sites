@@ -156,7 +156,8 @@ impurity scattering. At 300 K, the phonon contribution is $\rho_{\mathrm{ph}} = 
 **Solution.** By Matthiessen's rule:
 
 $$\rho(300\ \mathrm{K}) = \rho_0 + \rho_{\mathrm{ph}} = 2 \times 10^{-10} + 1.7 \times 10^{-8}
-= 1.72 \times 10^{-8}\ \Omega\cdot\text{m}$$
+= 1.72 \times 10^{-8}\ \Omega\cdot\text{m}
+$$
 
 The resistance ratio:
 

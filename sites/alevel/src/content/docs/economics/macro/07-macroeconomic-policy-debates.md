@@ -810,7 +810,8 @@ complete regime change.
 - Current output growth: $g = 1.0\%$
 - Equilibrium real interest rate: $r^* = 2\%$
 
-**Taylor Rule (standard version):** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(g - g^*)$$
+**Taylor Rule (standard version):** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(g - g^*)
+$$
 
 $$
 i = 2 + 2 + 0.5(6 - 2) + 0.5(1.0 - 2.5) = 4 + 2 - 0.75 = 5.25\%
@@ -993,7 +994,8 @@ unemployment falls below 7% (similar to the Fed's forward guidance in 2012-2013)
 - The policy works through the EXPECTATIONS CHANNEL rather than the conventional interest rate
   channel.
 
-**Quantitative impact.** Suppose the yield curve is: $$r_{10y} = E[r_{1y}] + \text{term premium}$$
+**Quantitative impact.** Suppose the yield curve is: $$r_{10y} = E[r_{1y}] + \text{term premium}
+$$
 
 Without forward guidance: $E[r_{1y}] = 2.5\%$ in 3 years. Term premium = 1%. $r_{10y} = 3.5\%$.
 
