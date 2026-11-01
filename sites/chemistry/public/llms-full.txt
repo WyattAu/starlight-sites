@@ -9082,6 +9082,10 @@ Physical chemistry applies physics to understand chemical systems through mathem
 
 Practise regularly and systematically. Work through textbook problems, past exams, and sample questions. When you get a problem wrong, analyse your error, was it a conceptual misunderstanding, a mathematical mistake, or a misreading of the question? Keep a log of recurring errors and review them before exams. Study with peers and explain your reasoning to others.
 
+## Start Here
+
+New to this site? Read the [Introduction](/intro/) first — it explains how the notes are organised and the fastest path through the material.
+
 ---
 
 ## Index

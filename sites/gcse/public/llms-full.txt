@@ -2981,6 +2981,10 @@ Absolutely. These notes are designed to complement classroom teaching, not repla
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Start Here
+
+New to this site? Read the [Introduction](/intro/) first — it explains how the notes are organised and the fastest path through the material.
+
 ---
 
 ## Index
@@ -33809,6 +33813,9 @@ Each page in this section includes:
 - **Elaboration**: Explain concepts in your own words
 
 ## Exam Preparation
+
+
+Practice interactively: [Interactive Maths Practice](/maths-practice-interactive/).
 
 ---
 

@@ -2555,6 +2555,10 @@ Calculus AB covers differential and integral calculus at a foundational level. C
 
 Start preparing early to reduce last-minute pressure. Break your study plan into manageable daily tasks. Practise under timed conditions to build confidence. Get adequate sleep before the exam. Remember that a single exam score does not define your academic potential. Use study groups, office hours, and online resources when you need support.
 
+## Start Here
+
+New to this site? Read the [Introduction](/intro/) first — it explains how the notes are organised and the fastest path through the material.
+
 ---
 
 ## Index
