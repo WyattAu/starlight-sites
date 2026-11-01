@@ -249,3 +249,7 @@ Very. The Desmos calculator is integrated into the test and can graph functions,
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Start Here
+
+New to this site? Read the [Introduction](/intro/) first — it explains how the notes are organised and the fastest path through the material.

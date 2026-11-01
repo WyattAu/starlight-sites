@@ -513,3 +513,7 @@ Consult the recommended textbooks and additional resources.
 
 ## Summary
 
+
+## Start Here
+
+New to this site? Read the [Introduction](/intro/) first — it explains how the notes are organised and the fastest path through the material.
