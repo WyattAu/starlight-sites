@@ -918,7 +918,7 @@ Fertiliser to agricultural land. In your answer, describe the effects on (a) the
 **Answer.** (a) Excess nitrogen fertiliser (as $\mathrm{NH_4NO_3}$ or $\mathrm{NH_4^+}$) increases
 the Concentration of ammonium and nitrate in the soil far above natural levels. This can inhibit
 Nitrogen-fixing bacteria (because they have no selective advantage when fixed nitrogen is abundant)
-and Stimulate denitrifying bacteria, increasing $\mathrm{N_2\mathrm{O}$ emissions (a potent
+and Stimulate denitrifying bacteria, increasing $\mathrm{N_2\mathrm{O}}$ emissions (a potent
 greenhouse gas). The natural balance between fixation, nitrification, and denitrification is
 disrupted.
 
@@ -1728,7 +1728,7 @@ lost as:
 
 **Example:**
 
-- If the producer level captures $100,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}$ of light energy.
+- If the producer level captures $100,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$ of light energy.
 - Primary consumers receive approximately $10,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$.
 - Secondary consumers receive approximately $1,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$.
 - Tertiary consumers receive approximately $100\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$.
@@ -1739,13 +1739,13 @@ To convert biomass to energy:
 
 1. Dry the sample to constant mass (remove all water).
 2. Weigh the dry biomass.
-3. Multiply by the energy content per unit dry mass (approximately $18\ \mathrm{kJ\ g^{-1}$ for
+3. Multiply by the energy content per unit dry mass (approximately $18\ \mathrm{kJ\ g^{-1}}$ for
    plant material).
 
-**Example:** A forest produces $2,500\ \mathrm{kg\ ha^{-1}\ yr^{-1}$ of dry biomass.
+**Example:** A forest produces $2,500\ \mathrm{kg\ ha^{-1}\ yr^{-1}}$ of dry biomass.
 
 $$
-\mathrm{NPP} = 2,500\ \times 18 = 45,000\ \mathrm{kJ\ ha^{-1}\ yr^{-1}
+\mathrm{NPP} = 2,500\ \times 18 = 45,000\ \mathrm{kJ\ ha^{-1}\ yr^{-1}}
 $$
 
 $$
@@ -1754,7 +1754,7 @@ $$
 
 Ecological efficiency (efficiency of energy transfer from producers to primary consumers):
 
-If primary consumers consume $5,000\ \mathrm{kg\ ha^{-1}\ yr^{-1}$ of plant biomass:
+If primary consumers consume $5,000\ \mathrm{kg\ ha^{-1}\ yr^{-1}}$ of plant biomass:
 
 $$
 \text{Efficiency} = \frac{5,000 \times 18}{63,000} \times 100 = 14.3\%

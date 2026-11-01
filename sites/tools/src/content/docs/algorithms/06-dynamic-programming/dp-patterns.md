@@ -45,7 +45,7 @@ Given $n$ items with weights $w_i$ and values $v_i$ And a knapsack of capacity $
 value of items selected. Each item can be taken at most once.
 
 $$
-dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i
+dp[i][c] = \max(dp[i-1][c], dp[i-1][c - w_i] + v_i) \quad \mathrm{if  c \ge w_i}
 $$
 
 ```python

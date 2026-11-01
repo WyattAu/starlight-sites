@@ -50,21 +50,21 @@ A red-black tree is a self-balancing binary search tree with the following prope
 
 **Theorem.** A red-black tree with $n$ internal nodes has height $h \leq 2 \log_2(n + 1)$.
 
-**Proof.** Define the **black-height** $\mathrm{bh(x)$ of a node $x$ as the number of black nodes On
+**Proof.** Define the **black-height** $\mathrm{bh(x)}$ of a node $x$ as the number of black nodes On
 any path from $x$ to a leaf (excluding $x$ itself). By property 5, this is well-defined.
 
-**Claim:** A subtree rooted at any node $x$ contains at least $2^{\mathrm{bh(x)} - 1$ internal
+**Claim:** A subtree rooted at any node $x$ contains at least $2^{\mathrm{bh(x)}} - 1$ internal
 Nodes.
 
 We prove this by induction on the height of $x$.
 
-_Base case:_ If $x$ is a leaf (height 0), then $\mathrm{bh(x) = 0$ and the subtree has 0 internal
+_Base case:_ If $x$ is a leaf (height 0), then $\mathrm{bh(x)} = 0$ and the subtree has 0 internal
 Nodes $= 2^0 - 1 = 1 - 1 = 0$. Holds.
 
 _Inductive step:_ Let $x$ have height $h \gt 0$ and children $a, b$. Each child has black-height
-either $\mathrm{bh(x)$ (if the child is red) or $\mathrm{bh(x) - 1$ (if the child is black). In
-either case, $\mathrm{bh(\mathrm{child) \geq \mathrm{bh(x) - 1$. By the inductive hypothesis, Each
-subtree has at least $2^{\mathrm{bh(x) - 1} - 1$ internal nodes. Therefore:
+either $\mathrm{bh(x)}$ (if the child is red) or $\mathrm{bh(x)} - 1$ (if the child is black). In
+either case, $\mathrm{bh(\mathrm{child) \geq \mathrm{bh(x)}}} - 1$. By the inductive hypothesis, Each
+subtree has at least $2^{\mathrm{bh(x) - 1}} - 1$ internal nodes. Therefore:
 
 $$
 \mathrm{size(x) \geq \left(2^{\mathrm{bh(x) - 1} - 1\right) + \left(2^{\mathrm{bh(x) - 1} - 1\right) + 1 = 2^{\mathrm{bh(x)} - 1
@@ -74,10 +74,10 @@ Now, at least half the nodes on any root-to-leaf path are black (by property 4: 
 Red nodes). Therefore, if the tree height is $h$:
 
 $$
-\mathrm{bh(\mathrm{root) \geq \frac{h}{2}
+\mathrm{bh(\mathrm{root) \geq \frac{h}{2}}}
 $$
 
-Combining with the claim ($n \geq 2^{\mathrm{bh(\mathrm{root)} - 1$):
+Combining with the claim ($n \geq 2^{\mathrm{bh(\mathrm{root)}}} - 1$):
 
 $$
 N \geq 2^{h/2} - 1 \implies 2^{h/2} \leq n + 1 \implies h \leq 2 \log_2(n + 1)
@@ -181,13 +181,13 @@ Contains a singly-linked list of all elements whose key hashes to that bucket in
 Produce the same bucket index (a **collision**), they are stored in the same linked list.
 
 $$
-\mathrm{bucket\_index = H(\mathrm{key) \mod \mathrm{bucket\_count
+\mathrm{bucket\_index} = H(\mathrm{key) \mod \mathrm{bucket\_count}}
 $$
 
 The average chain length equals the load factor:
 
 $$
-\mathrm{avg\_chain\_length = \frac{\mathrm{size()}{\mathrm{bucket\_count()} = \mathrm{load\_factor
+\mathrm{avg\_chain\_length} = \frac{\mathrm{size()}{\mathrm{bucket\_count()}}} = \mathrm{load\_factor}
 $$
 
 With default `max_load_factor = 1.0`. The average chain length is kept below 1.0, meaning most Lookups

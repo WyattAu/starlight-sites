@@ -1111,7 +1111,7 @@ $$
 $$
 
 Products: hydrogen gas (cathode) and oxygen gas (anode). The solution becomes increasingly alkaline
-due to $\mathrm{OH^-$ accumulation.
+due to $\mathrm{OH^-}$ accumulation.
 
 ### Worked Example: Choosing a Salt Preparation Method
 
@@ -1540,7 +1540,7 @@ _If you get this wrong, revise: Buffers_
 
 <summary>Solution</summary>
 
-The added $\mathrm{OH^-$ reacts with the weak acid component:
+The added $\mathrm{OH^-}$ reacts with the weak acid component:
 
 $$
 \mathrm{CH_3COOH} + \mathrm{OH^-} \to \mathrm{CH_3COO^-} + \mathrm{H_2O}

@@ -32,7 +32,7 @@ Concurrently, at least one of them performs a write, and there is no happens-bef
 between the accesses. Formally, a data race is present when all three conditions hold:
 
 $$
-\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens-before(t_1, t_2) \wedge \neg\mathrm{happens-before(t_2, t_1)
+\mathrm{Data Race \iff \exists\, m, t_1, t_2 : \mathrm{access(t_1, m, w) \wedge \mathrm{access(t_2, m, r/w) \wedge \neg\mathrm{happens}}}}-before(t_1, t_2) \wedge \neg\mathrm{happens}-before(t_2, t_1)
 $$
 
 Where $m$ is a scalar memory location, $w$ denotes a write, $r$ denotes a read, and happens-before

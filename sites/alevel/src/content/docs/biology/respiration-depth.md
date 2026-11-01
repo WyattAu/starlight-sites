@@ -498,7 +498,7 @@ Different respiratory substrates release different amounts of energy per unit ma
 
 Lipids contain approximately 2.5 times more energy per gram than carbohydrates because they have a
 higher proportion of $\mathrm{C{-}H}$ bonds (which release more energy when oxidised than
-$\mathrm{C{-}O$ bonds). This is why lipids are preferred for long-term energy storage.
+$\mathrm{C{-}O}$ bonds). This is why lipids are preferred for long-term energy storage.
 
 ### 7.2 Respiratory Quotient (RQ)
 
@@ -946,7 +946,7 @@ Energy value: $61 \times 30.5 = 1860.5\ \mathrm{kJ\ mol^{-1}}$.
 
 Compare with glucose: $32 \times 30.5 = 976\ \mathrm{kJ\ mol^{-1}}$.
 
-Palmitic acid (256 $\mathrm{g\ mol^{-1}}$) produces approximately $1860\ \mathrm{kJ\ mol^{-1}$ Or
+Palmitic acid (256 $\mathrm{g\ mol^{-1}}$) produces approximately $1860\ \mathrm{kJ\ mol^{-1}}$ Or
 $7.27\ \mathrm{kJ\ g^{-1}}$. Glucose (180 $\mathrm{g\ mol^{-1}}$) produces approximately
 $976\mathrm{kJ\ mol^{-1}}$ Or $5.42\ \mathrm{kJ\ g^{-1}}$.
 

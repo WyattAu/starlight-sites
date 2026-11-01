@@ -36,7 +36,7 @@ A new instance of the variable is created for each thread, and it is destroyed w
 Exits. The variable is initialized before its first use in each thread.
 
 $$
-\mathrm{thread\_local  T\, x \implies \forall\, t \in \mathrm{Threads: \exists!\, x_t
+\mathrm{thread\_local  T\, x \implies \forall\, t \in \mathrm{Threads: \exists!\, x_t}}
 $$
 
 Thread-local variables can be declared at namespace scope, at block scope, or as `static` class

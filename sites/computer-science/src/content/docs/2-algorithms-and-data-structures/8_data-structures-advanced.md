@@ -1284,14 +1284,14 @@ $2n - 1$ edges.
 
 ### 6.3 LCP Arrays
 
-The **LCP (Longest Common Prefix) array** stores $\mathrm{LCP[i] =$ the length of the longest common
-prefix of suffixes $\mathrm{SA[i]$ and $\mathrm{SA[i-1]$.
+The **LCP (Longest Common Prefix) array** stores $\mathrm{LCP[i] =}$ the length of the longest common
+prefix of suffixes $\mathrm{SA[i]}$ and $\mathrm{SA[i}-1]$.
 
 **Theorem 6.4 (Kasai).** The LCP array can be computed from the suffix array in $O(n)$ time.
 
-**Kasai's algorithm.** Uses the inverse suffix array $\mathrm{SA^{-1}[\mathrm{SA[i]] = i$ and
-processes suffixes in text order. When computing $\mathrm{LCP[\mathrm{SA^{-1}[j]]$ The result is at
-least $\mathrm{LCP[\mathrm{SA^{-1}[j-1]] - 1$.
+**Kasai's algorithm.** Uses the inverse suffix array $\mathrm{SA^{-1}[\mathrm{SA[i]]}} = i$ and
+processes suffixes in text order. When computing $\mathrm{LCP[\mathrm{SA^{-1}[j]]}}$ The result is at
+least $\mathrm{LCP[\mathrm{SA^{-1}[j}}-1]] - 1$.
 
 <details>
 <summary>Worked Example: Suffix Array and LCP Array</summary>

@@ -822,7 +822,7 @@ absorption.
 Aquatic plants face a unique challenge: $\mathrm{CO_2}$ dissolves in water and forms carbonic acid:
 
 $$
-\mathrm{CO_2 + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^- \rightleftharpoons 2H^+ + CO_3^{2-}
+\mathrm{CO_2} + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^- \rightleftharpoons 2H^+ + CO_3^{2-}
 $$
 
 This reduces the concentration of freely available $\mathrm{CO_2}$ (as dissolved $\mathrm{CO_2}$),
@@ -1285,7 +1285,7 @@ crops at 1000 ppm $\mathrm{CO_2}$).
 ### 22.3 Light and Plant Growth
 
 **Worked Example.** A greenhouse uses LED grow lights providing
-$200\ \mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}$ of PAR (photosynthetically active radiation, 400--700
+$200\ \mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$ of PAR (photosynthetically active radiation, 400--700
 nm). The greenhouse floor area is $200\ \mathrm{m^2}$. Electricity costs $\pounds 0.15$ per kWh.
 
 Daily light integral (DLI) for a 16-hour photoperiod:
@@ -2569,7 +2569,7 @@ $\mathrm{CO_2}$:
 
 | Method                       | Principle                                                                                   | Measurement                                                               |
 | ---------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Oxygen electrode             | Measures $\mathrm{O_2}$ concentration in solution using a Clark-type electrode              | Rate of $\mathrm{O_2}$ production ($\mu\mathrm{mol\ O_2\ m^{-2}\ s^{-1}$) |
+| Oxygen electrode             | Measures $\mathrm{O_2}$ concentration in solution using a Clark-type electrode              | Rate of $\mathrm{O_2}$ production ($\mu\mathrm{mol\ O_2\ m^{-2}\ s^{-1}}$) |
 | Audus microburette           | Collects $\mathrm{O_2}$ bubbles from an aquatic plant (e.g., _Elodea_) in a capillary tube  | Volume of $\mathrm{O_2}$ produced per unit time                           |
 | Mass spectrometry            | Measures uptake of $\mathrm{^{13}CO_2}$ and production of $\mathrm{^{13}C}$-labelled sugars | Rate of carbon fixation                                                   |
 | Chlorophyll fluorimeter      | Measures fluorescence emitted by chlorophyll when light is shone on a leaf                  | Efficiency of photosystem II ($F_v/F_m$ ratio)                            |

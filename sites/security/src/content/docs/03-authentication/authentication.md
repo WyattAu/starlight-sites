@@ -174,10 +174,10 @@ TOTP (RFC 6238) generates a 6-8 digit code based on a shared secret and the curr
 and client both compute:
 
 $$
-\mathrm{TOTP = \mathrm{Truncate\Big(\mathrm{HMAC-SHA-1(K, T)\Big)
+\mathrm{TOTP} = \mathrm{Truncate\Big(\mathrm{HMAC}}-SHA-1(K, T)\Big)
 $$
 
-Where $K$ is the shared secret and $T = \lfloor \mathrm{current\_time / 30 \rfloor$.
+Where $K$ is the shared secret and $T = \lfloor \mathrm{current\_time / 30 \rfloor}$.
 
 <div class="table-wrap">
 
@@ -614,7 +614,7 @@ ABAC evaluates access decisions based on attributes of the subject, resource, ac
 Environment:
 
 $$
-\mathrm{Allow = f(\mathrm{subject, \mathrm{resource, \mathrm{action, \mathrm{environment)
+\mathrm{Allow} = f(\mathrm{subject, \mathrm{resource, \mathrm{action, \mathrm{environment)}}}}
 $$
 
 Example policy (Cedar-like syntax):

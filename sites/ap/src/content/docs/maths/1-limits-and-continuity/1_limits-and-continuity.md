@@ -453,7 +453,7 @@ The general approach is:
 1. Start with $|f(x) - L|$ and try to bound it in terms of $|x - a|$.
 2. If $f$ involves products, use the "restrict delta" technique: bound each factor separately.
 3. If $f$ involves roots, rationalise and use the fact that $\sqrt{x} + \sqrt{a} \ge \sqrt{a}$.
-4. Choose $\delta = \min(\mathrm{bound, \epsilon / \mathrm{constant)$ to handle both the restriction
+4. Choose $\delta = \min(\mathrm{bound, \epsilon / \mathrm{constant)}}$ to handle both the restriction
    and the $\epsilon$ requirement.
 
 ## Continuity (CED Unit 1)

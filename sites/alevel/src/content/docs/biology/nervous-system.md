@@ -2070,7 +2070,7 @@ LTP is the cellular basis of learning and memory in the hippocampus:
 2. This causes a large, sustained depolarisation of the postsynaptic neuron (EPSPs summate).
 3. The depolarisation is sufficient to activate NMDA receptors, allowing $\mathrm{Ca^{2+}}$ to enter
    the postsynaptic neuron.
-4. $\mathrm{Ca^{2+}$ activates $\mathrm{Ca^{2+}}$/calmodulin-dependent protein kinase II (CaMKII).
+4. $\mathrm{Ca^{2+}}$ activates $\mathrm{Ca^{2+}}$/calmodulin-dependent protein kinase II (CaMKII).
 5. CaMKII phosphorylates AMPA receptors, causing them to be inserted into the postsynaptic membrane
    (more AMPA receptors $\to$ larger EPSPs to the same stimulus).
 6. The synapse is now "strengthened": the same presynaptic stimulus produces a larger postsynaptic

@@ -31,7 +31,7 @@ The compare-and-swap (CAS) loop is the fundamental building block of lock-free a
 Pattern is:
 
 $$
-\mathrm{loop:  \mathrm{old = \mathrm{load(x); \quad \mathrm{new = f(\mathrm{old); \quad \mathrm{if CAS(x, \mathrm{old, \mathrm{new) \mathrm{ then break
+\mathrm{loop:  \mathrm{old}} = \mathrm{load(x); \quad \mathrm{new}} = f(\mathrm{old); \quad \mathrm{if CAS(x, \mathrm{old, \mathrm{new) \mathrm{ then break}}}}}
 $$
 
 In C++, this translates to:
@@ -101,7 +101,7 @@ Take effect instantaneously at some point between its invocation and its respons
 Structures can achieve linearizability because CAS is itself a linearizable operation:
 
 $$
-\mathrm{CAS(x, \mathrm{old, \mathrm{new) \mathrm{ appears to execute atomically at the point where the store conditional succeeds
+\mathrm{CAS(x, \mathrm{old, \mathrm{new) \mathrm{ appears to execute atomically at the point where the store conditional succeeds}}}}
 $$
 
 This means that any data structure built entirely from CAS operations is linearizable, provided the

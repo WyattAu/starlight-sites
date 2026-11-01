@@ -108,16 +108,16 @@ embryonic stem cells and allows patient-specific therapies (using the patient's 
 - Nodes of Ranvier (gaps in myelin sheath where action potentials jump)
 - Synaptic terminals (release neurotransmitters)
 
-**Resting potential:** Approximately $-70 \mathrm{ mV$ inside the axon relative to outside.
-Maintained by the sodium-potassium pump ($3 \mathrm{ Na^+$ out, $2 \mathrm{ K^+$ in) and selective
+**Resting potential:** Approximately $-70 \mathrm{ mV}$ inside the axon relative to outside.
+Maintained by the sodium-potassium pump ($3 \mathrm{ Na^+}$ out, $2 \mathrm{ K^+}$ in) and selective
 Permeability of the membrane.
 
 **Action potential:**
 
-1. Stimulus causes voltage-gated $\mathrm{Na^+$ channels to open
-2. $\mathrm{Na^+$ rushes in, depolarising the membrane (to about $+40 \mathrm{ mV$)
-3. Voltage-gated $\mathrm{K^+$ channels open
-4. $\mathrm{K^+$ rushes out, repolarising the membrane
+1. Stimulus causes voltage-gated $\mathrm{Na^+}$ channels to open
+2. $\mathrm{Na^+}$ rushes in, depolarising the membrane (to about $+40 \mathrm{ mV}$)
+3. Voltage-gated $\mathrm{K^+}$ channels open
+4. $\mathrm{K^+}$ rushes out, repolarising the membrane
 5. The membrane briefly becomes hyperpolarised before the resting potential is restored
 
 **Refractory period:** A brief period after an action potential during which the neurone cannot be
@@ -142,7 +142,7 @@ A **synapse** is the junction between two neurones or between a neurone and an e
 **Process:**
 
 1. Action potential arrives at the presynaptic terminal
-2. Voltage-gated $\mathrm{Ca^{2+}$ channels open; calcium ions enter
+2. Voltage-gated $\mathrm{Ca^{2+}}$ channels open; calcium ions enter
 3. Synaptic vesicles fuse with the presynaptic membrane
 4. Neurotransmitter is released into the synaptic cleft
 5. Neurotransmitter binds to receptors on the postsynaptic membrane
@@ -196,7 +196,7 @@ bloodstream.
 
 ### Blood Glucose Regulation
 
-**Normal blood glucose:** Approximately $4-6 \mathrm{ mmol/L$.
+**Normal blood glucose:** Approximately $4-6 \mathrm{ mmol/L}$.
 
 **After a meal (blood glucose rises):**
 
@@ -258,13 +258,13 @@ bloodstream.
 **Cardiac output:**
 
 $$
-\mathrm{Cardiac output = \mathrm{stroke volume \times \mathrm{heart rate
+\mathrm{Cardiac output} = \mathrm{stroke volume \times \mathrm{heart rate}}
 $$
 
-**Example:** If stroke volume is $70 \mathrm{ mL$ and heart rate is $72 \mathrm{ bpm$:
+**Example:** If stroke volume is $70 \mathrm{ mL}$ and heart rate is $72 \mathrm{ bpm}$:
 
 $$
-\mathrm{Cardiac output = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \mathrm{ L/min
+\mathrm{Cardiac output} = 70 \times 72 = 5040 \mathrm{ mL/min \approx 5.0 \mathrm{ L/min}}
 $$
 
 ### The Respiratory System
@@ -318,8 +318,8 @@ lacteal (for fatty acids and glycerol).
 
 ## Common Pitfalls
 
-1. **Action potential direction:** Depolarisation is caused by $\mathrm{Na^+$ influx; repolarisation
-   by $\mathrm{K^+$ efflux.
+1. **Action potential direction:** Depolarisation is caused by $\mathrm{Na^+}$ influx; repolarisation
+   by $\mathrm{K^+}$ efflux.
 
 2. **Synapse transmission:** Neurotransmitters are released into the synaptic cleft, not directly
    into the next neurone.
@@ -358,7 +358,7 @@ lacteal (for fatty acids and glycerol).
 
 3. Compare the nervous and endocrine systems as communication systems.
 
-4. A person has a stroke volume of $80 \mathrm{ mL$ and a heart rate of $65 \mathrm{ bpm$. Calculate
+4. A person has a stroke volume of $80 \mathrm{ mL}$ and a heart rate of $65 \mathrm{ bpm}$. Calculate
    the cardiac output.
 
 5. Describe how insulin and glucagon work together to maintain blood glucose homeostasis.
@@ -517,7 +517,7 @@ and diffusion.
 
 **The loop of Henle:** Creates a concentration gradient in the medulla of the kidney. The descending
 Limb is permeable to water but not ions; water leaves by osmosis into the increasingly concentrated
-Medulla. The ascending limb is permeable to ions but not water; $\mathrm{Na^+$ and $\mathrm{Cl^-$
+Medulla. The ascending limb is permeable to ions but not water; $\mathrm{Na^+}$ and $\mathrm{Cl^-}$
 are Actively pumped out, making the medulla increasingly concentrated. This countercurrent
 multiplier Mechanism allows the kidney to produce concentrated urine.
 
@@ -639,7 +639,7 @@ The liquid component of blood, making up approximately 55% of blood volume. It c
 - Biconcave disc shape increases surface area to volume ratio for gas exchange.
 - No nucleus, allowing more space for haemoglobin.
 - Haemoglobin binds reversibly to oxygen:
-  $\mathrm{Hb + 4\mathrm{O_2 \rightleftharpoons \mathrm{HbO_8$.
+  $\mathrm{Hb} + 4\mathrm{O_2 \rightleftharpoons \mathrm{HbO_8}}$.
 - In tissues, oxygen dissociates from haemoglobin due to lower oxygen partial pressure and lower pH
   (Bohr effect).
 - Red blood cells have a lifespan of approximately 120 days and are destroyed in the spleen and
@@ -666,7 +666,7 @@ Accumulate at the site and release clotting factors. This triggers the clotting 
 
 **Worked Example: The importance of calcium ions in blood clotting.**
 
-Calcium ions ($\mathrm{Ca^{2+}$) are essential cofactors at multiple steps in the clotting cascade.
+Calcium ions ($\mathrm{Ca^{2+}}$) are essential cofactors at multiple steps in the clotting cascade.
 Without calcium ions, thromboplastin cannot convert prothrombin to thrombin, and thrombin cannot
 Convert fibrinogen to fibrin. This is why calcium chelators (substances that bind and remove calcium
 Ions) such as EDTA are used as anticoagulants in blood collection tubes. Similarly, the

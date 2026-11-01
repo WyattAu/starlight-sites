@@ -160,7 +160,7 @@ $A$ between a thread's load and its CAS. The CAS succeeds because the value is s
 Intermediate change may have invalidated invariants:
 
 $$
-\mathrm{Load(A) \to \mathrm{Other thread:  A \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds, incorrectly
+\mathrm{Load(A)} \to \mathrm{Other thread:  A} \to B \to A \to \mathrm{CAS(A, C) \mathrm{ succeeds, incorrectly}}
 $$
 
 `compare_exchange_weak` may fail spuriously (return `false` even when the expected value matches),

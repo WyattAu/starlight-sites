@@ -88,7 +88,7 @@ A student investigates the effect of temperature on amylase activity. The result
 
 <div class="table-wrap">
 
-| Temperature ($^{\circ}$ C) | Time for starch to disappear (s) | Rate ($1/\mathrm{time$) ($\times 10^{-3}$ s$^{-1}$) |
+| Temperature ($^{\circ}$ C) | Time for starch to disappear (s) | Rate ($1/\mathrm{time}$) ($\times 10^{-3}$ s$^{-1}$) |
 | ------------------------- | -------------------------------- | --------------------------------------------------- |
 | 10                        | 300                              | 3.3                                                 |
 | 20                        | 120                              | 8.3                                                 |
@@ -817,21 +817,21 @@ Is for slower, longer-lasting, widespread responses.
 <summary>Question 1: Enzyme experiment analysis</summary>
 
 A student tests the effect of temperature on the rate of catalase activity using hydrogen peroxide
-and potato tissue. The results show that the rate increases from $10^\circ\mathrm{C$ to
-$40^\circ\mathrm{C$ and then decreases rapidly. Explain the shape of the graph.
+and potato tissue. The results show that the rate increases from $10^\circ\mathrm{C}$ to
+$40^\circ\mathrm{C}$ and then decreases rapidly. Explain the shape of the graph.
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
-From $10^\circ\mathrm{C$ to $40^\circ\mathrm{C$: increasing temperature increases the kinetic energy
+From $10^\circ\mathrm{C}$ to $40^\circ\mathrm{C}$: increasing temperature increases the kinetic energy
 of enzyme and substrate molecules, leading to more frequent successful collisions and a higher rate
 of reaction.
 
-Above $40^\circ\mathrm{C$: the enzyme denatures because the high temperature breaks the bonds
+Above $40^\circ\mathrm{C}$: the enzyme denatures because the high temperature breaks the bonds
 maintaining its tertiary structure. The active site changes shape and can no longer bind the
-substrate, so the rate drops rapidly. The optimum temperature is approximately $40^\circ\mathrm{C$.
+substrate, so the rate drops rapidly. The optimum temperature is approximately $40^\circ\mathrm{C}$.
 
 </details>
 

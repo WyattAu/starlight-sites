@@ -1189,8 +1189,8 @@ Sulfuric acid ($\mathrm{H}_2\mathrm{SO}_4$) is a diprotic acid:
 
 **Worked Example:** Calculate the pH of $0.050\,\mathrm{mol\,dm^{-3}}$ $\mathrm{H}_2\mathrm{SO}_4$.
 
-The first dissociation gives $[\mathrm{H}^+] = 0.050\,\mathrm{mol\,dm^{-3}$ and
-$[\mathrm{HSO}_4^-] = 0.050\,\mathrm{mol\,dm^{-3}$.
+The first dissociation gives $[\mathrm{H}^+] = 0.050\,\mathrm{mol\,dm^{-3}}$ and
+$[\mathrm{HSO}_4^-] = 0.050\,\mathrm{mol\,dm^{-3}}$.
 
 For the second dissociation: let $x$ be the additional $[\mathrm{H}^+]$ from $\mathrm{HSO}_4^-$.
 

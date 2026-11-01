@@ -537,7 +537,7 @@ Identify the compound.
   $\delta\ 9$--$10$ So it is a ketone.
 - NMR: triplet + multiplet + triplet = propyl chain ($\mathrm{CH_3CH_2CH_2}$--). Singlet at
   $\delta\ 2.1$ ($3\mathrm{H}$) = $\mathrm{CH_3CO}$--.
-- Structure: $\mathrm{CH_3COCH_2CH_2CH_3$ (pentan-2-one).
+- Structure: $\mathrm{CH_3COCH_2CH_2CH_3}$ (pentan-2-one).
 
 Total protons: $3 + 2 + 3 + 2 = 10 = \mathrm{C}_5\mathrm{H}_{10}\mathrm{O}$. Confirmed.
 
@@ -632,7 +632,7 @@ Looking at the remaining three groups (Cl, ethyl, methyl) in order of decreasing
 $1 \to 2 \to 3$. If the sequence is clockwise, the configuration is R. If anticlockwise, it is S.
 
 For the standard representation where Cl is on a wedge and H is on a dash: the sequence
-$\mathrm{Cl} \to \mathrm{CH_2CH_3} \to \mathrm{CH_3$ goes anticlockwise, so the configuration is
+$\mathrm{Cl} \to \mathrm{CH_2CH_3} \to \mathrm{CH_3}$ goes anticlockwise, so the configuration is
 **S**.
 
 If H were on a wedge (pointing toward you), the apparent direction would be reversed, and the true

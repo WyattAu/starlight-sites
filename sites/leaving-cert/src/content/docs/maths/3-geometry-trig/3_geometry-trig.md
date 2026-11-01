@@ -522,7 +522,7 @@ $A = \frac{1}{2} \times b \times h = \frac{1}{2}ab\sin C$.
 **Example (HL):** In $\triangle ABC$$a = 8$$b = 6$ And $C = 50^\circ$. Find the area.
 
 $$
-A = \frac{1}{2}(8)(6)\sin 50° = 24 \times 0.766 = 18.39 \mathrm{ square units
+A = \frac{1}{2}(8)(6)\sin 50° = 24 \times 0.766 = 18.39 \mathrm{ square units}
 $$
 
 ### R-Addition Formula (HL)
@@ -631,7 +631,7 @@ Since the scalar triple product is $-16 \neq 0$ The vectors are not coplanar.
 The area of triangle $\triangle ABC$ with position vectors $\mathbf{a}$$\mathbf{b}$$\mathbf{c}$:
 
 $$
-\mathrm{Area = \frac{1}{2}|\overrightarrow{AB} \times \overrightarrow{AC}|
+\mathrm{Area} = \frac{1}{2}|\overrightarrow{AB} \times \overrightarrow{AC}|
 $$
 
 Where $\overrightarrow{AB} = \mathbf{b} - \mathbf{a}$ and

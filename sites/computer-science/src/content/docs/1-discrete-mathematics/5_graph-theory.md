@@ -282,7 +282,7 @@ $$
 |N(S)| \geq |S|
 $$
 
-Where $N(S) = \\{y \in Y : \exists\, x \in S\; \mathrm{with{}\; xy \in E\\}$ is the neighbourhood of
+Where $N(S) = \\{y \in Y : \exists\, x \in S\; \mathrm{with{}\; xy \in E\\}}$ is the neighbourhood of
 $S$.
 
 _Proof (necessity)._ If a matching covers $X$ Each $x \in S$ is matched to a distinct $y \in N(S)$ So
@@ -338,10 +338,10 @@ $f : E \to \mathbb{R}_{\geq 0}$ Satisfies:
 
 1. **Capacity constraint:** $0 \leq f(e) \leq c(e)$ for all $e \in E$.
 2. **Flow conservation:** for all $v \in V \setminus \\{s, t\\}$
-   $\sum_{e\; \mathrm{into{}\; v} f(e) = \sum_{e\; \mathrm{out\; of{}\; v} f(e)$.
+   $\sum_{e\; \mathrm{into{}\; v} f(e)} = \sum_{e\; \mathrm{out\; of{}\; v} f(e)}$.
 
 The **value** of a flow is
-$|f| = \sum_{e\; \mathrm{out\; of{}\; s} f(e) - \sum_{e\; \mathrm{into{}\; s} f(e)$.
+$|f| = \sum_{e\; \mathrm{out\; of{}\; s} f(e)} - \sum_{e\; \mathrm{into{}\; s} f(e)}$.
 
 An **s-t cut** $(S, T)$ partitions $V$ into $S$ (containing $s$) and $T$ (containing $t$). The
 **capacity** of the cut is $c(S, T) = \sum_{u \in S, v \in T} c(uv)$.

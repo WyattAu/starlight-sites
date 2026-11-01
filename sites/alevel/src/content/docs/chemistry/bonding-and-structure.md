@@ -924,7 +924,7 @@ interact only through weaker dipole-dipole forces and London forces (1 mark).
 <details>
 <summary>Q2 (6 marks)</summary>
 
-Draw the dot-and-cross diagram for the carbonate ion, $\mathrm{CO}_3^{2-$. Explain the bond lengths
+Draw the dot-and-cross diagram for the carbonate ion, $\mathrm{CO}_3^{2}-$. Explain the bond lengths
 observed in the ion.
 
 **Mark Scheme:**

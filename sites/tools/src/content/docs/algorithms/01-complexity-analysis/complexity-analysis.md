@@ -41,7 +41,7 @@ $O(g(n))$ is the set of all functions $f(n)$ for which there exist positive cons
 such that:
 
 $$
-0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0
+0 \le f(n) \le c \cdot g(n) \quad \mathrm{for all  n \ge n_0}
 $$
 
 Big-O provides an **upper bound** on the growth rate of a function. Saying $f(n) = O(n^2)$ means
@@ -62,7 +62,7 @@ $\Omega(g(n))$ is the set of all functions $f(n)$ for which there exist positive
 $n_0$ such that:
 
 $$
-0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0
+0 \le c \cdot g(n) \le f(n) \quad \mathrm{for all  n \ge n_0}
 $$
 
 Big-Omega provides a **lower bound**. If an algorithm is $\Omega(n \log n)$ It means no matter how
@@ -75,7 +75,7 @@ $f(n) \in \Omega(g(n))$. This is the **tight bound**, the function grows at exac
 as $g(n)$ Up to constant factors.
 
 $$
-0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0
+0 \le c_1 \cdot g(n) \le f(n) \le c_2 \cdot g(n) \quad \mathrm{for all  n \ge n_0}
 $$
 
 :::note
@@ -664,7 +664,7 @@ Analysis gives expected running time over a random input. Quicksort with random 
 Expected $O(n \log n)$ comparisons, but the expected number of comparisons can be computed exactly:
 
 $$
-E[\mathrm{comparisons] = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
+E[\mathrm{comparisons]} = 2(n+1)H_n - 4n \approx 1.386 n \log_2 n
 $$
 
 Where $H_n = \sum_{i=1}^{n} 1/i$ is the $n$-th harmonic number. The constant $1.386$ is about 39%
@@ -731,7 +731,7 @@ Amortised cost of each operation is $O(\log n)$ Proven using the potential metho
 The potential function for splay trees is:
 
 $$
-\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))
+\Phi(T) = \sum_{v \in T} \log_2(\mathrm{size(v))}
 $$
 
 Where `size(v)` is the number of nodes in the subtree rooted at `v`. The potential is always

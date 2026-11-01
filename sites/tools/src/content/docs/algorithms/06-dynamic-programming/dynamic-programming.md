@@ -116,7 +116,7 @@ Given coins of different denominations and a target amount, find the minimum num
 to make that amount. Return -1 if it is not possible.
 
 $$
-dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin
+dp[i] = \min(dp[i], dp[i - coin] + 1) \quad \mathrm{for each coin}
 $$
 
 ```python
@@ -268,7 +268,7 @@ Given items with weights and values, and a knapsack with capacity $W$ Maximise t
 without exceeding the capacity.
 
 $$
-dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w
+dp[i][w] = \max(dp[i-1][w], dp[i-1][w - weight_i] + value_i) \quad \mathrm{if  weight_i \le w}
 $$
 
 ```python

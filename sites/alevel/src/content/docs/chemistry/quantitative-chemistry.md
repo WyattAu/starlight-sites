@@ -898,7 +898,7 @@ $$
 
 **Worked Example:** $25.0\,\mathrm{cm}^3$ of potassium manganate(VII) solution was used to titrate
 $20.0\,\mathrm{cm}^3$ of an iron(II) sulphate solution. The mean titre was $19.6\,\mathrm{cm}^3$ and
-the $\mathrm{KMnO}_4$ concentration was $0.0200\,\mathrm{mol\,dm^{-3}$. Calculate the concentration
+the $\mathrm{KMnO}_4$ concentration was $0.0200\,\mathrm{mol\,dm^{-3}}$. Calculate the concentration
 of the iron(II) solution.
 
 $$

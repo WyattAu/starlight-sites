@@ -918,7 +918,7 @@ equilibrium.
 **Worked Example:** Calculate the temperature at which $\Delta G = 0$ for the reaction
 $\mathrm{N}_2\mathrm{O}_4(g) \rightleftharpoons 2\mathrm{NO}_2(g)$ Given
 $\Delta H^\circ = +57.2\,\mathrm{kJ/mol}$ and
-$\Delta S^\circ = +175.8\,\mathrm{J\,K^{-1}\,\mathrm{mol}^{-1}$.
+$\Delta S^\circ = +175.8\,\mathrm{J\,K^{-1}\,\mathrm{mol}^{-1}}$.
 
 At $\Delta G = 0$: $0 = \Delta H^\circ - T\Delta S^\circ$
 
@@ -983,7 +983,7 @@ $$
 $$
 
 $\Delta H^\circ = +877\,\mathrm{kJ/mol}$,
-$\Delta S^\circ = +193\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}$
+$\Delta S^\circ = +193\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}}$
 
 $$
 \Delta G^\circ = \Delta H^\circ - T\Delta S^\circ = 877000 - 1500 \times 193 = 877000 - 289500 = 587500\,\mathrm{J/mol} = +588\,\mathrm{kJ/mol}
@@ -1031,7 +1031,7 @@ different ions (1 mark).
 
 For the reaction $\mathrm{A}(g) + 2\mathrm{B}(g) \to \mathrm{C}(g) + \mathrm{D}(g)$:
 
-$\Delta H^\circ = -85\,\mathrm{kJ/mol}$, $\Delta S^\circ = -120\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}$
+$\Delta H^\circ = -85\,\mathrm{kJ/mol}$, $\Delta S^\circ = -120\,\mathrm{J\,K^{-1}\mathrm{mol}^{-1}}$
 
 (a) Calculate $\Delta G^\circ$ at $298\,\mathrm{K}$. (2 marks)
 

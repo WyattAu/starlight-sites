@@ -91,8 +91,8 @@ even Is an equivalence relation. How many equivalence classes are there?
 _Reflexive:_ $a - a = 0$ Which is even. ✓ _Symmetric:_ If $a - b$ is even, then $b - a = -(a - b)$ is
 even. ✓ _Transitive:_ If $a - b$ and $b - c$ are even, then $a - c = (a - b) + (b - c)$ is even. ✓
 
-The equivalence classes are $[0] = \\{\mathrm{even\; integers{}\\}$ and
-$[1] = \\{\mathrm{odd\; integers{}\\}$. There are exactly 2 equivalence classes.
+The equivalence classes are $[0] = \\{\mathrm{even\; integers{}\\}}$ and
+$[1] = \\{\mathrm{odd\; integers{}\\}}$. There are exactly 2 equivalence classes.
 
 If you get this wrong, revise: Section 2.2.
 
