@@ -32210,12 +32210,16 @@ assignment satisfying more than a $1 - \varepsilon$ fraction of clauses. Any pol
 algorithm guaranteeing better than $1 - \varepsilon$ would distinguish the two cases — solving
 NP-complete SAT exactly. This yields optimal inapproximability constants:
 
+<div class="table-wrap">
+
 | Problem | Best polynomial approximation | Hardness (via PCP) |
 |---|---|---|
 | MAX-3SAT | $\tfrac{7}{8}$ (random assignment) | better than $\tfrac{7}{8}$ is NP-hard |
 | Vertex cover | $2 - o(1)$ | better than $2 - \varepsilon$ is NP-hard (UG-hard at 2) |
 | Set cover | $\ln n$ | $(1 - o(1)) \ln n$ is NP-hard |
 | Chromatic number | $n^{1-\varepsilon}$ | $n^{1-\varepsilon}$ is NP-hard |
+
+</div>
 
 Before the PCP theorem these gaps had no explanation; after it, "the best known approximation
 ratio equals random assignment" stopped being an embarrassment and became a theorem's
