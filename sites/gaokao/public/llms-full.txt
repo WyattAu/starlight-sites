@@ -1255,7 +1255,8 @@ $$\begin{array}{lccc}
 \text{起始 (mol/L)} & 2 & 6 & 0 \\
 \text{变化 (mol/L)} & -0.6 & -1.8 & +1.2 \\
 \text{平衡 (mol/L)} & 1.4 & 4.2 & 1.2
-\end{array}$$
+\end{array}
+$$
 
 步骤2：代入平衡常数表达式：
 $$
@@ -1492,7 +1493,8 @@ $$\begin{array}{lccc}
 \text{起始 (mol/L)} & 1 & 1 & 0 \\
 \text{变化 (mol/L)} & -x & -x & +2x \\
 \text{平衡 (mol/L)} & 1-x & 1-x & 2x
-\end{array}$$
+\end{array}
+$$
 
 步骤3：代入平衡常数表达式：$K = \dfrac{(2x)^2}{(1-x)^2} = 50$
 
@@ -4306,7 +4308,8 @@ $$\begin{cases}
 \Delta \geq 0 \\
 -\dfrac{b}{2a} > 1 \\
 f(1) > 0
-\end{cases}$$
+\end{cases}
+$$
 
 步骤2：计算各条件：
 - $\Delta = 4m^2 - 4(m + 2) = 4m^2 - 4m - 8 \geq 0$，即 $m^2 - m - 2 \geq 0$，$(m - 2)(m + 1) \geq 0$，得 $m \leq -1$ 或 $m \geq 2$

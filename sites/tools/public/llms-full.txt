@@ -40689,7 +40689,8 @@ Given a set $A \subseteq S$ in a topological space:
 ### Lipschitz Continuity
 
 Given metric spaces $(X, d_X)$ and $(Y, d_Y)$ A function $f: X \to Y$ is $K$-Lipschitz (with
-$K \geq 0$) if: $$ d_Y(f(x_1), f(x_2)) \leq K \cdot d_X(x_1, x_2) \quad \forall x_1, x_2 \in X $$
+$K \geq 0$) if: $$ d_Y(f(x_1), f(x_2)) \leq K \cdot d_X(x_1, x_2) \quad \forall x_1, x_2 \in X
+$$
 
 The **Lipschitz constant** (or Lipschitz semi-norm) is defined as:
 $$
@@ -41796,7 +41797,8 @@ For a random variable $X$ taking values in an inner product space (
 $\mathbb{R}^d$ or a Hilbert space $\mathcal{H}$),
 the characteristic function is defined as: $$ \varphi_X(t) =
 \mathbb{E}\left[ e^{i \langle t, X \rangle} \right], \quad t \in
-\mathcal{H} $$
+\mathcal{H}
+$$
 where $\langle \cdot, \cdot \rangle$ denotes the inner product. For $\mathbb{R}^d$, this
 reduces to $\varphi_X(t) = \mathbb{E}\left[ e^{i t^\top X} \right]$ with
 $t \in \mathbb{R}^d$.
@@ -41993,7 +41995,8 @@ _Relevance:_ The foundational continuous-time martingale; essential for diffusio
 
 ### Stochastic Differential Equation (SDE)
 
-An SDE describes the evolution of a stochastic process: $$dX_t = f(X_t, t)dt + g(X_t, t)dW_t$$
+An SDE describes the evolution of a stochastic process: $$dX_t = f(X_t, t)dt + g(X_t, t)dW_t
+$$
 
 Where $f$ is the drift function, $g$ is the diffusion coefficient, and $W_t$ is a Wiener process.
 
@@ -42097,7 +42100,8 @@ such that:
    $\mathcal{G}$-measurable and is a version of the conditional expectation:
    $\kappa(\cdot, A) = \mathbb{E}[1_A | \mathcal{G}]$.
 3. **Disintegration Property:** For any $A \in \mathcal{F}$ and
-   $G \in \mathcal{G}$: $$ P(A \cap G) = \int_G \kappa(\omega, A) \, dP(\omega) $$
+   $G \in \mathcal{G}$: $$ P(A \cap G) = \int_G \kappa(\omega, A) \, dP(\omega)
+$$
 
 _Critical Note:_ An RCP evaluates events in the **source** $\sigma$-algebra $\mathcal{F}$.
 The existence of RCP is guaranteed when $(\Omega, \mathcal{F})$ is a Standard Borel space.

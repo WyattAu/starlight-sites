@@ -34177,7 +34177,8 @@ _If you get this wrong, revise:_ Section 6.2 (Cauchy's Integral Formula for Deri
 **Problem.** Evaluate $\oint_{|z|=2} \frac{e^z}{z - 1} \, dz$.
 
 **Solution.** The integrand has a simple pole at $z = 1$ with residue $e^1 = e$. By Cauchy's residue
-theorem: $$\oint_{|z|=2} \frac{e^z}{z - 1} \, dz = 2\pi i \cdot e = 2\pi e i.$$
+theorem: $$\oint_{|z|=2} \frac{e^z}{z - 1} \, dz = 2\pi i \cdot e = 2\pi e i.
+$$
 
 $\blacksquare$
 

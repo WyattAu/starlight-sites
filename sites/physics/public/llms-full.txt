@@ -7606,7 +7606,8 @@ $T$. What is the limiting behaviour as $T \to 0$ and $T \to \infty$?
 (b) For $N$ distinguishable particles, $Z = Z_1^N$. The average energy is:
 
 $$\langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = -N\frac{\partial \ln Z_1}{\partial \beta}
-= N\frac{\varepsilon e^{-\beta\varepsilon} + 2\varepsilon e^{-2\beta\varepsilon}}{1 + e^{-\beta\varepsilon} + e^{-2\beta\varepsilon}}$$
+= N\frac{\varepsilon e^{-\beta\varepsilon} + 2\varepsilon e^{-2\beta\varepsilon}}{1 + e^{-\beta\varepsilon} + e^{-2\beta\varepsilon}}
+$$
 
 (c) $C_V = \frac{\partial \langle E \rangle}{\partial T} = \frac{1}{k_B T^2}\frac{\partial \langle E \rangle}{\partial \beta}$.
 
@@ -21498,7 +21499,8 @@ $$
 $$
 
 $$V = \frac{2\pi \times 25 \times 10^{-6}}{850 \times 10^{-9}} \times 0.242
-      = \frac{2\pi \times 25}{0.85} \times 0.242 \approx 44.7$$
+      = \frac{2\pi \times 25}{0.85} \times 0.242 \approx 44.7
+$$
 
 Since $V \gg 2.405$, this fibre is multimode.
 
@@ -27707,7 +27709,8 @@ Where $C(j_1\,m_1\,j_2\,m_2|j\,m)$ are the **Clebsch-Gordan coefficients**.
 **Two spin-1/2 particles.** The composite system has $j_1 = j_2 = 1/2$. The possible total spins
 are:
 
-- **Triplet** ($j = 1$): three states with $m = 1, 0, -1$ $$|1,1\rangle = |\uparrow\uparrow\rangle$$
+- **Triplet** ($j = 1$): three states with $m = 1, 0, -1$ $$|1,1\rangle = |\uparrow\uparrow\rangle
+$$
   $$
   |1,0\rangle = \frac{1}{\sqrt{2}}(|\uparrow\downarrow\rangle + |\downarrow\uparrow\rangle)
   $$
@@ -33383,7 +33386,8 @@ impurity scattering. At 300 K, the phonon contribution is $\rho_{\mathrm{ph}} = 
 **Solution.** By Matthiessen's rule:
 
 $$\rho(300\ \mathrm{K}) = \rho_0 + \rho_{\mathrm{ph}} = 2 \times 10^{-10} + 1.7 \times 10^{-8}
-= 1.72 \times 10^{-8}\ \Omega\cdot\text{m}$$
+= 1.72 \times 10^{-8}\ \Omega\cdot\text{m}
+$$
 
 The resistance ratio:
 
@@ -34537,7 +34541,8 @@ $$
 n_{^4\mathrm{He} = \frac{n_n}{2}}
 $$
 
-The remaining protons stay as hydrogen: $$n_H = n_p - 2n_{^4\mathrm{He} = n_p - n_n}$$
+The remaining protons stay as hydrogen: $$n_H = n_p - 2n_{^4\mathrm{He} = n_p - n_n}
+$$
 
 The baryon number density is $n_b = n_n + n_p$.
 
@@ -35511,7 +35516,8 @@ $$
 L = \begin{pmatrix} \nu_e \\ e^- \end{pmatrix}_L, \quad Q = \begin{pmatrix} u \\ d \end{pmatrix}_L
 $$
 
-Right-handed fermions are singlets under SU(2): $$e_R, \quad u_R, \quad d_R$$
+Right-handed fermions are singlets under SU(2): $$e_R, \quad u_R, \quad d_R
+$$
 
 The electric charge is: $Q = T_3 + Y/2$.
 

@@ -9191,7 +9191,8 @@ $$
 
 The expected frequency of homozygote $p_i^2$ and heterozygote $2p_ip_j$ for all pairs.
 
-**Example**: ABO blood group with three alleles ($I^A$, $I^B$, $i$): $$p_{I^A} + p_{I^B} + p_i = 1$$
+**Example**: ABO blood group with three alleles ($I^A$, $I^B$, $i$): $$p_{I^A} + p_{I^B} + p_i = 1
+$$
 $$
 f(I^AI^A) = p_{I^A}^2, \quad f(I^AI^B) = 2p_{I^A}p_{I^B}, \quad f(I^Ai) = 2p_{I^A}p_i, \quad \ldots
 $$
@@ -12604,8 +12605,9 @@ approximately Equal. For larger distances, recombination frequency plateaus at $
 multiple crossovers Between distant genes, which can restore the parental arrangement). Mapping
 functions (Haldane, Kosambi) correct for this:
 
-**Haldane's mapping function** (assumes crossovers are independent): $$d = -\frac{1}{2}\ln(1 - 2r)$$
-Where $d$ is map distance in Morgans and $r$ is recombination frequency.
+**Haldane's mapping function** (assumes crossovers are independent): $$d = -\frac{1}{2}\ln(1 - 2r)
+$$
+where $d$ is map distance in Morgans and $r$ is recombination frequency.
 
 **Kosambi's mapping function** (accounts for crossover interference):
 $$
@@ -20968,7 +20970,8 @@ PDC is a multi-enzyme complex containing 3 enzymes and 5 cofactors (TPP, lipoami
 $\mathrm{NAD}^+$). It produces 1 NADH per pyruvate (2 per glucose).
 
 **Anaerobic conditions** (in animal cells): pyruvate is reduced to lactate by lactate dehydrogenase
-(LDH): $$\text{Pyruvate} + \mathrm{NADH} + \mathrm{H}^+ \to \text{lactate} + \mathrm{NAD}^+$$
+(LDH): $$\text{Pyruvate} + \mathrm{NADH} + \mathrm{H}^+ \to \text{lactate} + \mathrm{NAD}^+
+$$
 
 This regenerates $\mathrm{NAD}^+$ Allowing glycolysis to continue. The lactate is transported to the
 liver (Cori cycle), where it is converted back to glucose (gluconeogenesis, costing 6 ATP per
@@ -30291,11 +30294,13 @@ Mass spectrometry measures the mass-to-charge ratio ($m/z$) of ions. The general
 1. **Ionization**: Atoms or molecules are ionized ( by electron impact. High-energy electrons knock
    an electron off the sample, forming positive ions).
 2. **Acceleration**: Ions are accelerated by an electric field. All ions receive the same kinetic
-   energy: $$ \frac{1}{2}mv^2 = zV $$
+   energy: $$ \frac{1}{2}mv^2 = zV
+$$
  where $V$ is the accelerating voltage and $z$ is the charge on
    the ion.
 3. **Deflection**: Ions pass through a magnetic field and are deflected. Lighter ions (or more
-   highly charged ions) are deflected more: $$ r = \frac{\sqrt{2mV}}{zB} $$
+   highly charged ions) are deflected more: $$ r = \frac{\sqrt{2mV}}{zB}
+$$
  where $r$ is the radius
    of curvature and $B$ is the magnetic field strength.
 4. **Detection**: A detector records the abundance of ions at each $m/z$ value, producing a mass
@@ -35835,9 +35840,11 @@ $20\mathrm{ minutes}$?
 <details>
 <summary>Answer</summary>
 
-(a) $$t_{1/2} = \frac{0.693}{k} = \frac{0.693}{0.050} = 13.9\mathrm{ min}$$
+(a) $$t_{1/2} = \frac{0.693}{k} = \frac{0.693}{0.050} = 13.9\mathrm{ min}
+$$
 
-(b) $$\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt = \ln(0.80) - 0.050 \times 20$$
+(b) $$\ln[\mathrm{A}] = \ln[\mathrm{A}]_0 - kt = \ln(0.80) - 0.050 \times 20
+$$
 
 $$
 \ln[\mathrm{A}] = -0.223 - 1.000 = -1.223
@@ -46725,7 +46732,8 @@ $$
 \mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6e^- \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O}
 $$
 
-Oxidation half-reaction: $$\mathrm{Fe}^{2+} \to \mathrm{Fe}^{3+} + e^-$$
+Oxidation half-reaction: $$\mathrm{Fe}^{2+} \to \mathrm{Fe}^{3+} + e^-
+$$
 
 Balancing electrons ($\times 6$ for the iron half-reaction):
 $$
@@ -52272,7 +52280,8 @@ $$
 <details>
 <summary>Answer</summary>
 
-(a) $$n(\mathrm{CaCO}_3) = \frac{8.0}{100.09} = 0.0800\mathrm{ mol}$$
+(a) $$n(\mathrm{CaCO}_3) = \frac{8.0}{100.09} = 0.0800\mathrm{ mol}
+$$
 
 $$n(\mathrm{CO}_2) = 0.0800\mathrm{ mol}$$ (1:1 ratio)
 
@@ -52280,7 +52289,8 @@ $$
 V_{\mathrm{theoretical}} = 0.0800 \times 24.8 = 1.98\mathrm{ L}
 $$
 
-(b) $$\%\mathrm{ yield} = \frac{1.60}{1.98} \times 100\% = 80.8\%$$
+(b) $$\%\mathrm{ yield} = \frac{1.60}{1.98} \times 100\% = 80.8\%
+$$
 
 </details>
 
@@ -59840,7 +59850,8 @@ $$
 - 1 OR gate (3-input)
 - Total: **4 gates**
 
-Alternative implementation using XOR: $$F = A \cdot B + C \cdot (A \oplus B)$$
+Alternative implementation using XOR: $$F = A \cdot B + C \cdot (A \oplus B)
+$$
 
 This uses 1 XOR gate, 2 AND gates, 1 OR gate = **4 gates** (same count, but uses XOR which may be
 cheaper in some implementations).
@@ -73525,7 +73536,8 @@ $$
 ### The Marginal Propensities
 
 - **Marginal propensity to consume (MPC)**: the fraction of additional income that is spent on
-  consumption: $$\mathrm{MPC} = \frac{\Delta C}{\Delta Y}$$
+  consumption: $$\mathrm{MPC} = \frac{\Delta C}{\Delta Y}
+$$
 - **Marginal propensity to save (MPS)**: the fraction of additional income that is saved:
   $$
   \mathrm{MPS} = \frac{\Delta S}{\Delta Y}

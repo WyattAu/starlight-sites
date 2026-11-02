@@ -9635,7 +9635,8 @@ and describe two methods used to achieve this. [3 marks]
 
 **Worked Solution**
 
-(a) $$\text{Glucose} \to \text{Ethanol} + \text{Carbon dioxide}$$
+(a) $$\text{Glucose} \to \text{Ethanol} + \text{Carbon dioxide}
+$$
 
 (b) Conditions for optimal ethanol production in a bioreactor:
 
@@ -29436,7 +29437,8 @@ gravity:
    another electron. This electron replaces the electron that left PSI. The excited electron from
    PSI passes to ferredoxin, then to NADP$^+$ reductase
 6. **NADPH production:** NADP$^+$ reductase transfers two electrons and one H$^+$ to
-   NADP$^+$Reducing it to NADPH: $$\text{NADP}^+ + 2e^- + \mathrm{H^+} \rightarrow \text{NADPH}$$
+   NADP$^+$Reducing it to NADPH: $$\text{NADP}^+ + 2e^- + \mathrm{H^+} \rightarrow \text{NADPH}
+$$
 
 ### The Light-Independent Reactions (Calvin Cycle)
 
@@ -36881,7 +36883,8 @@ $$
 pH = -\log(1.34 \times 10^{-3}) = 2.87
 $$
 
-(b) $$1.8 \times 10^{-5} = \frac{x^{2}}{0.010}$$
+(b) $$1.8 \times 10^{-5} = \frac{x^{2}}{0.010}
+$$
 
 $$
 x^{2} = 1.8 \times 10^{-7}
@@ -37333,7 +37336,8 @@ $[CH_{3}COO^{-}] = 1.82 \times 0.20 = 0.364$ mol/dm$^{3}$
 
 $n(CH_{3}COO^{-}) = 0.364 \times 0.250 = 0.0910$ mol
 
-(b) $$m(CH_{3}COONa) = 0.0910 \times 82.0 = 7.46 \text{ g}$$
+(b) $$m(CH_{3}COONa) = 0.0910 \times 82.0 = 7.46 \text{ g}
+$$
 
 Procedure: Dissolve 7.46 g of sodium ethanoate in approximately 150 cm$^{3}$ of distilled water. Add
 100 cm$^{3}$ of 0.50 mol/dm$^{3}$ ethanoic acid. Transfer to a 250 cm$^{3}$ volumetric flask and
@@ -38838,7 +38842,8 @@ a reason for any discrepancy. [2 marks]
 
 **Worked Solution**
 
-(a) $$Q = It = 0.500 \times 30.0 \times 60 = 900 \text{ C}$$
+(a) $$Q = It = 0.500 \times 30.0 \times 60 = 900 \text{ C}
+$$
 
 (b) At the cathode: $Cu^{2+} + 2e^{-} \rightarrow Cu$
 
@@ -39003,7 +39008,8 @@ current of 5.00 A for 2.00 hours.
 
 Anode (oxidation): $2O^{2-} \rightarrow O_{2} + 4e^{-}$
 
-(b) $$Q = It = 5.00 \times 2.00 \times 3600 = 36000 \text{ C}$$
+(b) $$Q = It = 5.00 \times 2.00 \times 3600 = 36000 \text{ C}
+$$
 
 Moles of electrons: $n(e^{-}) = \frac{36000}{96500} = 0.3731$ mol
 
@@ -39635,7 +39641,8 @@ $$
 \Delta H_{f}^{\circ}(CH_{3}OH) = -239.1 \text{ kJ/mol}
 $$
 
-(b) $$M(CH_{3}OH) = 12.0 + 4 \times 1.0 + 16.0 + 1.0 = 32.0 \text{ g/mol}$$
+(b) $$M(CH_{3}OH) = 12.0 + 4 \times 1.0 + 16.0 + 1.0 = 32.0 \text{ g/mol}
+$$
 
 $$
 n(CH_{3}OH) = \frac{10.0}{32.0} = 0.3125 \text{ mol}
@@ -40825,7 +40832,8 @@ Given the $Na_{2}CO_{3}$ result, $X$ must be propanoic acid.
 
 Name: **propanoic acid**
 
-(c) $$2CH_{3}CH_{2}COOH + Na_{2}CO_{3} \rightarrow 2CH_{3}CH_{2}COONa + H_{2}O + CO_{2}$$
+(c) $$2CH_{3}CH_{2}COOH + Na_{2}CO_{3} \rightarrow 2CH_{3}CH_{2}COONa + H_{2}O + CO_{2}
+$$
 
 ---
 
@@ -41204,7 +41212,8 @@ $$
 This is a **one-step** synthesis: direct addition of $Br_{2}$ across the double bond gives exactly
 the desired 1,2-dibromopropane.
 
-(b) $$CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}BrCHBrCH_{3}$$
+(b) $$CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}BrCHBrCH_{3}
+$$
 
 (1,2-dibromopropane)
 
@@ -41725,7 +41734,8 @@ $$
 V_{\text{dry}} = \frac{520 \times 98.7}{101} = 508 \text{ cm}^{3} = 0.508 \text{ dm}^{3}
 $$
 
-(b) $$n(CO_{2}) = \frac{V}{24.0} = \frac{0.508}{24.0} = 0.0212 \text{ mol}$$
+(b) $$n(CO_{2}) = \frac{V}{24.0} = \frac{0.508}{24.0} = 0.0212 \text{ mol}
+$$
 
 From $CaCO_{3} + 2HCl \rightarrow CaCl_{2} + CO_{2} + H_{2}O$:
 
@@ -41805,7 +41815,8 @@ presence of a concentrated sulphuric acid catalyst to produce ethyl ethanoate
 
 (a) $CH_{3}COOH + C_{2}H_{5}OH \rightleftharpoons CH_{3}COOC_{2}H_{5} + H_{2}O$
 
-(b) $$M(CH_{3}COOH) = 2 \times 12.0 + 4 \times 1.0 + 2 \times 16.0 = 60.0 \text{ g/mol}$$
+(b) $$M(CH_{3}COOH) = 2 \times 12.0 + 4 \times 1.0 + 2 \times 16.0 = 60.0 \text{ g/mol}
+$$
 
 $$
 n(CH_{3}COOH) = \frac{15.0}{60.0} = 0.250 \text{ mol}
@@ -47543,7 +47554,8 @@ _If you get this wrong, revise: Esterification (Section 3.2)_
 
 (a) **Methyl ethanoate**
 
-(b) $$\mathrm{CH_3COOH} + \mathrm{CH_3OH} \rightleftharpoons \mathrm{CH_3COOCH_3} + \mathrm{H_2O}$$
+(b) $$\mathrm{CH_3COOH} + \mathrm{CH_3OH} \rightleftharpoons \mathrm{CH_3COOCH_3} + \mathrm{H_2O}
+$$
 
 (c) Concentrated $\mathrm{H_2SO_4}$ acts as a **catalyst** and as a **dehydrating agent**, removing
 water and shifting the equilibrium towards the ester product.
@@ -48366,7 +48378,8 @@ discharged. The product at each electrode depends on the relative reactivity of 
   2\mathrm{H_2O} + 2e^- \to \mathrm{H_2} + 2\mathrm{OH^-}
   $$
 - If the metal is less reactive than hydrogen ($\mathrm{Cu}$$\mathrm{Ag}$$\mathrm{Au}$): the metal
-  is produced. $$\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}$$
+  is produced. $$\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
+$$
 
 **At the anode (oxidation):**
 
@@ -105628,7 +105641,8 @@ Since the line is tangent (not a secant), the area of the minor segment is $0$.
 
 **Problem.** Find the distance between $A(1, 2, 3)$ and $B(4, -1, 5)$.
 
-**Solution.** $$AB = \sqrt{(4-1)^2 + (-1-2)^2 + (5-3)^2} = \sqrt{9 + 9 + 4} = \sqrt{22}$$
+**Solution.** $$AB = \sqrt{(4-1)^2 + (-1-2)^2 + (5-3)^2} = \sqrt{9 + 9 + 4} = \sqrt{22}
+$$
 
 $\blacksquare$
 
@@ -105637,7 +105651,8 @@ $\blacksquare$
 **Problem.** The vertices of a triangle are $A(0, 0)$, $B(4, 0)$, $C(0, 3)$. Show that
 $\triangle ABC$ is right-angled.
 
-**Solution.** $$AB^2 = 16, \quad AC^2 = 9, \quad BC^2 = 16 + 9 = 25$$
+**Solution.** $$AB^2 = 16, \quad AC^2 = 9, \quad BC^2 = 16 + 9 = 25
+$$
 
 $AB^2 + AC^2 = 16 + 9 = 25 = BC^2$. By the converse of Pythagoras' theorem, $\triangle ABC$ is
 right-angled at $A$.
@@ -106744,7 +106759,8 @@ Solution: $(2, 3]$.
 **Problem.** Find all values of $k$ for which $x^2 + 2kx + k + 8 > 0$ for all real $x$.
 
 **Solution.** For the quadratic to be always positive with leading coefficient $1 > 0$:
-$\Delta < 0$. $$(2k)^2 - 4(1)(k+8) < 0 \implies 4k^2 - 4k - 32 < 0 \implies k^2 - k - 8 < 0$$
+$\Delta < 0$. $$(2k)^2 - 4(1)(k+8) < 0 \implies 4k^2 - 4k - 32 < 0 \implies k^2 - k - 8 < 0
+$$
 
 Roots: $k = \frac{1 \pm \sqrt{1 + 32}}{2} = \frac{1 \pm \sqrt{33}}{2}$
 

@@ -9125,13 +9125,17 @@ $$
 q^2 = \frac{45}{500} = 0.09
 $$
 
-The frequency of the $b$ allele: $$q = \sqrt{q^2} = \sqrt{0.09} = 0.30$$
+The frequency of the $b$ allele: $$q = \sqrt{q^2} = \sqrt{0.09} = 0.30
+$$
 
-The frequency of the $B$ allele: $$p = 1 - q = 1 - 0.30 = 0.70$$
+The frequency of the $B$ allele: $$p = 1 - q = 1 - 0.30 = 0.70
+$$
 
-(b) The expected frequency of heterozygotes ($Bb$) is: $$2pq = 2 \times 0.70 \times 0.30 = 0.42$$
+(b) The expected frequency of heterozygotes ($Bb$) is: $$2pq = 2 \times 0.70 \times 0.30 = 0.42
+$$
 
-Expected number of heterozygous moths: $$0.42 \times 500 = 210$$
+Expected number of heterozygous moths: $$0.42 \times 500 = 210
+$$
 
 (c) The five conditions for Hardy-Weinberg equilibrium:
 
@@ -19518,7 +19522,8 @@ Cystic fibrosis is caused by a recessive allele (f). The incidence of cystic fib
 
 $$q^2 = \frac{1}{2500} = 0.0004$$ $$q = \sqrt{0.0004} = 0.02$$ $$p = 1 - 0.02 = 0.98$$
 
-Carrier frequency ($2pq$): $$2pq = 2 \times 0.98 \times 0.02 = 0.0392 \approx \frac{1}{25}$$
+Carrier frequency ($2pq$): $$2pq = 2 \times 0.98 \times 0.02 = 0.0392 \approx \frac{1}{25}
+$$
 
 So approximately 1 in 25 people is a carrier of cystic fibrosis.
 
@@ -32306,7 +32311,8 @@ suppresses photorespiration:
 
 1. **$\mathrm{CO_2}$ fixation**: $\mathrm{CO_2}$ is initially fixed by PEP carboxylase in mesophyll
    cells. PEP carboxylase has a much higher affinity for $\mathrm{CO_2}$ than Rubisco and does not
-   react with $\mathrm{O_2}$. $$\mathrm{PEP + CO_2 \to oxaloacetate\ (4C)}$$
+   react with $\mathrm{O_2}$. $$\mathrm{PEP + CO_2 \to oxaloacetate\ (4C)}
+$$
 2. **Conversion**: oxaloacetate is converted to malate (or aspartate) and transported to bundle
    sheath cells (which surround the vascular bundles).
 3. **Decarboxylation**: malate is decarboxylated in bundle sheath cells, releasing $\mathrm{CO_2}$
@@ -39159,7 +39165,8 @@ $$
 
 The mechanism proceeds through three stages. Using ethane and chlorine as an example:
 
-**Stage 1 -- Initiation:** $$\mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet$$
+**Stage 1 -- Initiation:** $$\mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet
+$$
 
 The Cl--Cl bond ($243\,\mathrm{kJ/mol}$) is homolytically cleaved by UV light. The bond dissociation
 energy must be supplied by a photon with energy $E \geq 243\,\mathrm{kJ/mol}$ Corresponding to
@@ -39175,7 +39182,8 @@ $$
 
 The chain carrier ($\mathrm{Cl}^\bullet$) is regenerated, allowing the chain to continue.
 
-**Stage 3 -- Termination:** $$2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2$$
+**Stage 3 -- Termination:** $$2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2
+$$
 $$
 2\mathrm{CH}_3\mathrm{CH}_2^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \quad \text{(butane)}
 $$
@@ -39256,7 +39264,8 @@ electron-deficient radical centre).
 Catalytic converters reduce the emissions from internal combustion engines:
 
 - **Reduction catalyst (platinum, palladium):** Converts $\mathrm{NO}_x$ to $\mathrm{N}_2$ and
-  $\mathrm{O}_2$: $$2\mathrm{NO} \to \mathrm{N}_2 + \mathrm{O}_2$$
+  $\mathrm{O}_2$: $$2\mathrm{NO} \to \mathrm{N}_2 + \mathrm{O}_2
+$$
   $$
   2\mathrm{NO}_2 \to \mathrm{N}_2 + 2\mathrm{O}_2
   $$
@@ -102260,7 +102269,8 @@ $$
 YED = \frac{\% \Delta Q_D}{\% \Delta Y}
 $$
 
-**Welfare:** $$CS = \int_0^Q [P_D(Q) - P^*] \, dQ = \frac{1}{2}(P_{choke} - P^*) \times Q^*$$
+**Welfare:** $$CS = \int_0^Q [P_D(Q) - P^*] \, dQ = \frac{1}{2}(P_{choke} - P^*) \times Q^*
+$$
 $$
 PS = \int_0^Q [P^* - P_S(Q)] \, dQ = \frac{1}{2}(P^* - P_{choke\_supply}) \times Q^*
 $$
@@ -102271,7 +102281,8 @@ $$
 DWL_{externality} = \frac{1}{2} \times MEC \times (Q_{mkt} - Q^*)
 $$
 
-**Tax incidence:** $$\text{Consumer burden} = \frac{PES}{|PED| + PES} \times t$$
+**Tax incidence:** $$\text{Consumer burden} = \frac{PES}{|PED| + PES} \times t
+$$
 $$
 \text{Producer burden} = \frac{|PED|}{|PED| + PES} \times t
 $$
@@ -102283,7 +102294,8 @@ $$MC = \frac{dTC}{dQ}, \quad MR = \frac{dTR}{dQ}$$ Shut-down: $P < AVC_{min}$
 
 ### Macroeconomics
 
-**National income:** $$GDP = C + I + G + (X - M)$$
+**National income:** $$GDP = C + I + G + (X - M)
+$$
 $$
 \text{Real GDP} = \frac{\text{Nominal GDP}}{\text{GDP Deflator}} \times 100
 $$
@@ -102291,19 +102303,26 @@ $$
 g = \frac{Y_t - Y_{t-1}}{Y_{t-1}} \times 100
 $$
 
-**Inflation:** $$\pi_t = \frac{CPI_t - CPI_{t-1}}{CPI_{t-1}} \times 100$$
+**Inflation:** $$\pi_t = \frac{CPI_t - CPI_{t-1}}{CPI_{t-1}} \times 100
+$$
 
-**Unemployment:** $$u = \frac{U}{LF} \times 100 = \frac{U}{U + E} \times 100$$
+**Unemployment:** $$u = \frac{U}{LF} \times 100 = \frac{U}{U + E} \times 100
+$$
 
-**Multiplier:** $$k = \frac{1}{1 - MPC(1-t) + MPM}$$ $$k_T = \frac{-MPC}{1 - MPC(1-t) + MPM}$$
+**Multiplier:** $$k = \frac{1}{1 - MPC(1-t) + MPM}$$ $$k_T = \frac{-MPC}{1 - MPC(1-t) + MPM}
+$$
 
-**Phillips curve:** $$\pi = \pi^e - \beta(u - u^*)$$
+**Phillips curve:** $$\pi = \pi^e - \beta(u - u^*)
+$$
 
-**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)$$
+**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*)
+$$
 
-**Debt dynamics:** $$\Delta b = (r - g_{nominal})b - p$$
+**Debt dynamics:** $$\Delta b = (r - g_{nominal})b - p
+$$
 
-**Solow model:** $$y = k^\alpha$$
+**Solow model:** $$y = k^\alpha
+$$
 $$
 \dot{k} = sy - (n + \delta)k = 0 \Rightarrow k^* = \left(\frac{s}{n + \delta}\right)^{1/(1-\alpha)}
 $$
@@ -102316,9 +102335,11 @@ $$
 \text{Real exchange rate} = \frac{e \times P_{domestic}}{P_{foreign}}
 $$
 
-**Marshall-Lerner condition:** $$|PED_X| + |PED_M| > 1$$
+**Marshall-Lerner condition:** $$|PED_X| + |PED_M| > 1
+$$
 
-**Taylor Rule:** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(y - y^*)$$
+**Taylor Rule:** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(y - y^*)
+$$
 
 ---
 
@@ -106487,7 +106508,8 @@ An economy has the following components (GBP billions):
 
 </div>
 
-**GDP calculation:** $$\text{GDP} = C + I + G + (X - M) = 1200 + 350 + 400 + (500 - 550) = 1900$$
+**GDP calculation:** $$\text{GDP} = C + I + G + (X - M) = 1200 + 350 + 400 + (500 - 550) = 1900
+$$
 
 Current account balance $= X - M = 500 - 550 = -50$ (deficit).
 
@@ -106562,7 +106584,8 @@ $$
 Suppose the economy is at full employment ($u^* = 5\%$). The government pursues expansionary policy
 that reduces unemployment to 3%.
 
-**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*) = -2(0.03 - 0.05) = -2(-0.02) = 0.04$$
+**Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*) = -2(0.03 - 0.05) = -2(-0.02) = 0.04
+$$
 
 Output rises 4% above potential.
 
@@ -107933,7 +107956,8 @@ complete regime change.
 - Current output growth: $g = 1.0\%$
 - Equilibrium real interest rate: $r^* = 2\%$
 
-**Taylor Rule (standard version):** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(g - g^*)$$
+**Taylor Rule (standard version):** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(g - g^*)
+$$
 
 $$
 i = 2 + 2 + 0.5(6 - 2) + 0.5(1.0 - 2.5) = 4 + 2 - 0.75 = 5.25\%
@@ -108116,7 +108140,8 @@ unemployment falls below 7% (similar to the Fed's forward guidance in 2012-2013)
 - The policy works through the EXPECTATIONS CHANNEL rather than the conventional interest rate
   channel.
 
-**Quantitative impact.** Suppose the yield curve is: $$r_{10y} = E[r_{1y}] + \text{term premium}$$
+**Quantitative impact.** Suppose the yield curve is: $$r_{10y} = E[r_{1y}] + \text{term premium}
+$$
 
 Without forward guidance: $E[r_{1y}] = 2.5\%$ in 3 years. Term premium = 1%. $r_{10y} = 3.5\%$.
 
@@ -109924,9 +109949,11 @@ Suggests that fiscal devolution may be necessary but not sufficient.
 base $B(t) = 1000 - 8t$ (the tax base shrinks as the tax rate rises due to avoidance, reduced labour
 supply, and emigration).
 
-**Revenue function:** $$R(t) = t(1000 - 8t) = 1000t - 8t^2$$
+**Revenue function:** $$R(t) = t(1000 - 8t) = 1000t - 8t^2
+$$
 
-**Revenue-maximising tax rate:** $$\frac{dR}{dt} = 1000 - 16t = 0 \Rightarrow t^* = 62.5\%$$
+**Revenue-maximising tax rate:** $$\frac{dR}{dt} = 1000 - 16t = 0 \Rightarrow t^* = 62.5\%
+$$
 
 $$
 R(62.5\%) = 62.5(1000 - 8 \times 62.5) = 62.5 \times 500 = 31\,250
@@ -110038,7 +110065,8 @@ attractive.
 - SRAS: $Y = 3P - 200$
 - LRAS: $Y^* = 400$ (full employment output)
 
-**Initial equilibrium:** $$1000 - 2P = 3P - 200 \Rightarrow 1200 = 5P \Rightarrow P = 240, Y = 520$$
+**Initial equilibrium:** $$1000 - 2P = 3P - 200 \Rightarrow 1200 = 5P \Rightarrow P = 240, Y = 520
+$$
 
 The economy is in an inflationary gap: $520 - 400 = 120$.
 
@@ -110067,7 +110095,8 @@ and the new LRAS. But the adjustment process depends on expectations.
 New SRAS: $Y = 3P - 500$. $1000 - 2P = 3P - 500 \Rightarrow 1500 = 5P \Rightarrow P = 300$,
 $Y = 400$. This does not work either.
 
-Let me reconsider. The SRAS must intersect AD at $Y = 600$: $$600 = 1000 - 2P \Rightarrow P = 200$$
+Let me reconsider. The SRAS must intersect AD at $Y = 600$: $$600 = 1000 - 2P \Rightarrow P = 200
+$$
 
 New SRAS: $Y = 3P - b$. At $(200, 600)$: $600 = 600 - b \Rightarrow b = 0$. New SRAS: $Y = 3P$.
 
@@ -110100,7 +110129,8 @@ The project is NOT profitable without tax. The firm does not invest.
 
 **With a 40% investment tax credit:** The firm receives a tax credit of
 $0.40 \times 100\,000 = \text{GBP } 40\,000$. Net cost of machine:
-$100\,000 - 40\,000 = \text{GBP } 60\,000$. $$NPV = 94\,775 - 60\,000 = +\text{GBP } 34\,775$$
+$100\,000 - 40\,000 = \text{GBP } 60\,000$. $$NPV = 94\,775 - 60\,000 = +\text{GBP } 34\,775
+$$
 
 The project is now profitable. The investment tax credit has incentivised investment.
 
@@ -111269,16 +111299,19 @@ $$
 
 The opportunity cost of 10 additional units of $K$ is 9 units of $C$.
 
-**Marginal opportunity cost at $K = 40$:** $$\frac{dC}{dK} = -0.02K = -0.02(40) = -0.8$$
+**Marginal opportunity cost at $K = 40$:** $$\frac{dC}{dK} = -0.02K = -0.02(40) = -0.8
+$$
 
 At $K = 40$ Each additional unit of $K$ costs 0.8 units of $C$.
 
-**At $K = 60$:** $$\frac{dC}{dK} = -0.02(60) = -1.2$$
+**At $K = 60$:** $$\frac{dC}{dK} = -0.02(60) = -1.2
+$$
 
 Each additional unit of $K$ now costs 1.2 units of $C$. The opportunity cost has increased,
 reflecting the concave shape of the PPF (increasing opportunity cost).
 
-**At $K = 80$:** $$\frac{dC}{dK} = -0.02(80) = -1.6$$
+**At $K = 80$:** $$\frac{dC}{dK} = -0.02(80) = -1.6
+$$
 
 The opportunity cost continues to rise. This is because resources are not perfectly adaptable: as
 more capital goods are produced, resources that are less suited to capital goods production must be
@@ -111317,7 +111350,8 @@ Where $a = 1.05$ (5% growth). New PPF: $C = 105 - 0.0105K^2$.
 - $C = 0$: $K = \sqrt{10500} = 102.47$ (was 100). Capital goods capacity has risen by 2.47%.
 
 **Asymmetric growth.** Suppose technological progress only affects capital goods production. The new
-PPF becomes: $$C = 100 - 0.01K^2 + 0.001K$$
+PPF becomes: $$C = 100 - 0.01K^2 + 0.001K
+$$
 
 This PPF has shifted outward more on the capital goods axis than the consumer goods axis. The
 economy can now produce more capital goods for any given level of consumer goods.
@@ -111440,7 +111474,8 @@ Portugal: 100 workers in wine. Cloth = 0, Wine = $100 \times 3 = 300$ L. Total: 
 - Total world output has increased by 150m cloth and 50L wine.
 
 **Terms of trade.** For trade to benefit both, the exchange rate must lie between the opportunity
-costs: $$0.33 < \frac{P_{cloth}}{P_{wine}} < 2$$
+costs: $$0.33 < \frac{P_{cloth}}{P_{wine}} < 2
+$$
 
 Suppose the terms of trade are 1m cloth = 1L wine.
 
@@ -111563,7 +111598,8 @@ If $K = 0$: $C = 200$. Maximum consumer goods = 200.
 If $C = 0$: $0 = 200 - 0.02K^2 \Rightarrow K^2 = 10000 \Rightarrow K = 100$. Maximum capital goods = 100.
 
 **(b) Opportunity cost of the 50th unit of $K$ (4 marks).** The marginal opportunity cost at
-$K = 50$ is given by the slope of the PPF: $$\frac{dC}{dK} = -0.04K = -0.04(50) = -2$$
+$K = 50$ is given by the slope of the PPF: $$\frac{dC}{dK} = -0.04K = -0.04(50) = -2
+$$
 
 The opportunity cost of the 50th unit of capital goods is 2 units of consumer goods.
 
@@ -112352,12 +112388,14 @@ deposits).
 - Loans: $765 - 76.5 - 38.25 = 650.25$. Redeposited: $650.25 \times 0.9 = 585.23$.
 - Cash held: $650.25 \times 0.1 = 65.03$.
 
-**Total deposits created:** $$D = 1000 + 765 + 585.23 + \cdots$$
+**Total deposits created:** $$D = 1000 + 765 + 585.23 + \cdots
+$$
 $$
 D = \frac{1000}{1 - (1 - rr - re)(1 - c)} = \frac{1000}{1 - 0.85 \times 0.9} = \frac{1000}{1 - 0.765} = \frac{1000}{0.235} = \text{GBP } 4\,255
 $$
 
-**Effective money multiplier:** $$m = \frac{D}{R} = \frac{4255}{1000} = 4.26$$
+**Effective money multiplier:** $$m = \frac{D}{R} = \frac{4255}{1000} = 4.26
+$$
 
 Compared to the simple multiplier of $1/rr = 10$ Cash leakages and excess reserves reduce the
 multiplier by more than half.
@@ -115328,7 +115366,8 @@ $$
 PV_{defect} = 150 + \frac{50}{1+r} + \frac{50}{(1+r)^2} + \cdots = 150 + \frac{50}{r}
 $$
 
-**Cooperation is sustainable if:** $$\frac{100(1+r)}{r} \geq 150 + \frac{50}{r}$$
+**Cooperation is sustainable if:** $$\frac{100(1+r)}{r} \geq 150 + \frac{50}{r}
+$$
 $$\frac{100 + 100r}{r} \geq 150 + \frac{50}{r}$$ $$\frac{50 + 100r}{r} \geq 150$$
 $$50 + 100r \geq 150r$$ $$50 \geq 50r$$ $$r \leq 1$$
 
@@ -139987,7 +140026,8 @@ Where $\mathbf{A}_i$ is $\mathbf{A}$ with column $i$ replaced by $\mathbf{b}$.
 <details>
 <summary>Worked Example: Solving a $3\times3$ system</summary>
 
-Solve: $$\begin{cases} x + 2y = 4 \\ y + 3z = 5 \\ x + z = 2 \end{cases}$$
+Solve: $$\begin{cases} x + 2y = 4 \\ y + 3z = 5 \\ x + z = 2 \end{cases}
+$$
 
 In matrix form:
 $\begin{pmatrix} 1 & 2 & 0 \\ 0 & 1 & 3 \\ 1 & 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 4 \\ 5 \\ 2 \end{pmatrix}$.
@@ -163007,7 +163047,8 @@ $$
 (3\sqrt{5} + 2\sqrt{3})\sqrt{15} = 3\sqrt{75} + 2\sqrt{45} = 3(5\sqrt{3}) + 2(3\sqrt{5}) = 15\sqrt{3} + 6\sqrt{5}
 $$
 
-Therefore: $$N' = 24 + \sqrt{15} - 15\sqrt{3} - 6\sqrt{5}$$
+Therefore: $$N' = 24 + \sqrt{15} - 15\sqrt{3} - 6\sqrt{5}
+$$
 
 **Step 4: Form the full fraction.**
 
@@ -163264,7 +163305,8 @@ f(1) + f^{-1}(1) = \frac{4}{-1} + \frac{3}{-2} = -4 - \frac{3}{2} = -\frac{11}{2
 $$
 $$f(1) - f^{-1}(1) = -4 + \frac{3}{2} = -\frac{5}{2}$$ Ratio $= 11/5$.
 
-For $x = 0$: $$f(0) + f^{-1}(0) = -\frac{1}{2} - \frac{1}{3} = -\frac{5}{6}$$
+For $x = 0$: $$f(0) + f^{-1}(0) = -\frac{1}{2} - \frac{1}{3} = -\frac{5}{6}
+$$
 $$f(0) - f^{-1}(0) = -\frac{1}{2} + \frac{1}{3} = -\frac{1}{6}$$ Ratio $= 5$.
 
 The ratio is not constant. Let me re-examine by a different approach. Note that
@@ -165372,7 +165414,8 @@ $$
 42,\; 45,\; 47,\; 48,\; 49,\; 50,\; 51,\; 52,\; 53,\; 54,\; 55,\; 58
 $$
 
-**Mean:** $$\bar{x} = \frac{704}{12} = 58.67 \text{ cm (2 d.p.)}$$
+**Mean:** $$\bar{x} = \frac{704}{12} = 58.67 \text{ cm (2 d.p.)}
+$$
 
 **Median:** Average of 6th and 7th values:
 
@@ -166822,7 +166865,8 @@ theorem, and requires analysis of the sign of the force function.]
 
 **Solution:**
 
-**(a)** $$W = \int_0^3 F(x)\,dx = \int_0^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_0^3$$
+**(a)** $$W = \int_0^3 F(x)\,dx = \int_0^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_0^3
+$$
 
 $$
 = (27 + 9 - 15) - 0 = 21 \text{ J}
@@ -166845,7 +166889,8 @@ For $x \gt 1$: test $x = 2$$F = 12 + 4 - 5 = 11 \gt 0$ (force in positive $x$-di
 
 The force does positive work in $(-\infty, -5/3)$ and $(1, \infty)$ And negative work in $(-5/3, 1)$.
 
-**(d)** $$W = \int_{-2}^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_{-2}^3$$
+**(d)** $$W = \int_{-2}^3 (3x^2 + 2x - 5)\,dx = \left[x^3 + x^2 - 5x\right]_{-2}^3
+$$
 
 $$
 = (27 + 9 - 15) - (-8 + 4 + 10) = 21 - 6 = 15 \text{ J}
@@ -191825,7 +191870,8 @@ $$
 e = \frac{v_{\mathrm{after}}}{u_{\mathrm{before}}}
 $$
 
-For two bodies: $$e = \frac{v_2 - v_1}{u_1 - u_2}$$
+For two bodies: $$e = \frac{v_2 - v_1}{u_1 - u_2}
+$$
 
 ### 5.2 Range of $e$
 
@@ -200456,7 +200502,8 @@ the line of action of the Force to the pivot point, not just the distance along 
 
 A rigid body is in equilibrium if and only if:
 
-1. **The resultant force is zero:** $$\sum \mathbf{F} = \mathbf{0}$$
+1. **The resultant force is zero:** $$\sum \mathbf{F} = \mathbf{0}
+$$
 
 2. **The resultant moment about any point is zero:**
    $$
@@ -220673,7 +220720,8 @@ C $= 263$ nC.
 of $2000\ \mathrm{V}$ across them. Find the electric field strength and the force on an electron
 between the plates.
 
-**Solution.** $$E = \frac{V}{d} = \frac{2000}{0.05} = 40000\ \mathrm{V\,m^{-1}}$$
+**Solution.** $$E = \frac{V}{d} = \frac{2000}{0.05} = 40000\ \mathrm{V\,m^{-1}}
+$$
 
 Force on the electron:
 
@@ -228078,7 +228126,8 @@ of the eddy currents and thus the power dissipated.
 right angles to a uniform magnetic field of flux density $0.4\ \mathrm{T}$. Calculate the force on
 the wire.
 
-**Solution.** $$F = BIl = 0.4 \times 5 \times 0.3 = 0.6\ \mathrm{N}$$
+**Solution.** $$F = BIl = 0.4 \times 5 \times 0.3 = 0.6\ \mathrm{N}
+$$
 
 Direction: by Fleming's left-hand rule, the force is perpendicular to both the field and current.
 
