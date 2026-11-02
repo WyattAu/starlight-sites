@@ -129,7 +129,7 @@ supply. One envelope argument, two duality pairs.
 ### 5. Duality: Production Function ↔ Cost Function
 
 **Theorem 5.1.** If $f$ is continuous, increasing, and quasi-concave, then $c(w, y)$ is
-continuously differentiable in $w$, increasing, homogeneous of degree one, concave in $w$, and: when $f$ is additionally **nondecreasing and unbounded** — the production function can be
+continuously differentiable in $w$, increasing, homogeneous of degree one, concave in $w$, and: when $f$ is additionally **nondecreasing and unbounded** – the production function can be
 recovered from $c$:
 
 $$

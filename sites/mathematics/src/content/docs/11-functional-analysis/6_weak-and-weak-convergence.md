@@ -117,7 +117,7 @@ $x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$.
 $\varphi \in X^*$, so $\sup_n |\varphi(x_n)| < \infty$ for each *fixed*
 $\varphi$. The family $\{x_n\} \subseteq X \subseteq X^{**}$ is therefore
 pointwise bounded as a family of functionals on $X^*$, and
-[the uniform boundedness principle](/11-functional-analysis/4_the-fundamental-theorems/): page 4's Theorem 4.11, with $X^*$ in the role of the complete space — gives
+[the uniform boundedness principle](/11-functional-analysis/4_the-fundamental-theorems/): page 4's Theorem 4.11, with $X^*$ in the role of the complete space – gives
 $\sup_n \|x_n\| = \sup_n \|(x_n)^{**}\| < \infty$. $\blacksquare$
 
 Note the proof's direction: weak convergence is convergence in the weak*

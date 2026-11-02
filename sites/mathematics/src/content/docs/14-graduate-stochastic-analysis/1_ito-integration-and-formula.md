@@ -290,7 +290,7 @@ and choosing the wrong one silently changes the drift.
 
 ## Where the research frontier is
 
-- **Rough paths.** Lyons' theory constructs the integral for *any* rough signal: not just Brownian motion — by treating the iterated integrals as extra data.
+- **Rough paths.** Lyons' theory constructs the integral for *any* rough signal: not just Brownian motion – by treating the iterated integrals as extra data.
   It removes the probabilistic structure entirely and gives pathwise meaning to
   what Itô defines in $L^2$. It also explains *why* Itô's correction exists: it
   is the Lévy area.
