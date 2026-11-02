@@ -117,6 +117,7 @@ export default defineConfig({
       ],
       customCss: [
         './src/styles/custom.css',
+        './src/styles/site-nav.css',
         './src/styles/design-system.css',
         './src/styles/themes.css',
         './src/styles/components.css',
