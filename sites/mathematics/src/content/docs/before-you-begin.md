@@ -497,17 +497,21 @@ Attempt these before track 1. Answers below; each links back to its section.
 8. Prove $\frac{d}{dx}\cos x = -\sin x$ using the fundamental limits. (§8)
 
 **Answers.**
-(1) $\exists\varepsilon > 0\ \forall N\ \exists n \geq N : |a_n| \geq \varepsilon$.
-(2) $f(a) = f(b) \Rightarrow a^3 = b^3 \Rightarrow (a - b)(a^2 + ab + b^2) = 0$;
-$a^2 + ab + b^2 = (a + b/2)^2 + \frac{3b^2}{4} \geq \frac{3b^2}{4} > 0$ unless
-$a = b = 0$, so $a = b$. (3) $n^3 - n = (n-1)n(n+1)$ is a product of three
-consecutive integers, so one is even and one is a multiple of 3. (4) $x^2 > x \iff x(x-1) > 0 \iff x > 1$ or $x < 0$; $x^2 < x \iff 0 < x < 1$. (5) Divide
-$\sin(\alpha+\beta)$ by $\cos(\alpha+\beta)$, then divide numerator and
-denominator by $\cos\alpha\cos\beta$; it fails when
-$\tan\alpha\tan\beta = 1$, i.e. when $\alpha + \beta = \pi/2$ and the tangent is
-undefined. (6) Gradients $2$ and $-1/2$: product $-1$. (7) $x^x = e^{x\ln x}$,
-so $\frac{d}{dx} = e^{x\ln x}(\ln x + 1) = x^x(\ln x + 1)$; chain rule with
-$f = \ln$ and $g = e^{(\cdot)}$. (8) $\frac{\cos(x+h) - \cos x}{h} = \cos x\,\frac{\cos h - 1}{h} - \sin x\,\frac{\sin h}{h} \to -\sin x$.
+
+1. $\exists\varepsilon > 0\;\forall N\;\exists n \geq N : |a_n| \geq \varepsilon$.
+2. $f(a) = f(b) \Rightarrow a^3 = b^3 \Rightarrow (a - b)(a^2 + ab + b^2) = 0$;
+   $a^2 + ab + b^2 = (a + b/2)^2 + \frac{3b^2}{4} \geq \frac{3b^2}{4} > 0$ unless
+   $a = b = 0$, so $a = b$.
+3. $n^3 - n = (n-1)n(n+1)$ is a product of three consecutive integers, so one is
+   even and one is a multiple of 3.
+4. $x^2 > x \iff x(x-1) > 0 \iff x > 1$ or $x < 0$; $x^2 < x \iff 0 < x < 1$.
+5. Divide $\sin(\alpha+\beta)$ by $\cos(\alpha+\beta)$, then divide numerator and
+   denominator by $\cos\alpha\cos\beta$; it fails when $\tan\alpha\tan\beta = 1$,
+   i.e. when $\alpha + \beta = \pi/2$ and the tangent is undefined.
+6. Gradients $2$ and $-1/2$: product $-1$.
+7. $x^x = e^{x\ln x}$, so $\frac{d}{dx} = e^{x\ln x}(\ln x + 1) = x^x(\ln x + 1)$;
+   chain rule with $f = \ln$ and $g = e^{(\cdot)}$.
+8. $\frac{\cos(x+h) - \cos x}{h} = \cos x\,\frac{\cos h - 1}{h} - \sin x\,\frac{\sin h}{h} \to -\sin x$.
 
 ## Where to go next
 

@@ -6,6 +6,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 ## Principles
 
+- [Bond Pricing](https://finance.wyattau.com/1-principles/2_bond-pricing/)
 - [Index](https://finance.wyattau.com/1-principles/)
 - [No Arbitrage](https://finance.wyattau.com/1-principles/1_no-arbitrage/)
 
