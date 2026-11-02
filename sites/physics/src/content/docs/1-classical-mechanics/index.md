@@ -8,7 +8,7 @@ title: "Classical Mechanics"
 tags:
   - Physics
   - University
-description: "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive educational content coverage with definitions, worked examples, and practice problems."
+description: "University-level classical mechanics: Newtonian mechanics, Lagrangian and Hamiltonian formulations, Noether's theorem, rigid body dynamics, and nonlinear dynamics - with every derivation shown."
 ---
 sources:
   - text: Halliday, Resnick, Walker - Fundamentals of Physics
@@ -28,7 +28,7 @@ sources:
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "Classical Mechanics",
-  "description": "1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. Comprehensive educational content coverage with definitions, worked examples, and practice problems.",
+  "description": "University-level classical mechanics: Newtonian mechanics, Lagrangian and Hamiltonian formulations, Noether's theorem, rigid body dynamics, and nonlinear dynamics.",
   "provider": {
     "@type": "Organization",
     "name": "Wyatt's Notes",
@@ -93,7 +93,6 @@ University-level classical mechanics notes covering Lagrangian, Hamiltonian, and
 
 Start with Lagrangian mechanics to build foundational knowledge, then progress to Hamiltonian mechanics and advanced topics. Each section includes worked examples and practice problems.
 
-## Navigation
 
 ## Additional Resources
 

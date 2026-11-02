@@ -32,9 +32,9 @@ The physical metaphor is a car journey. The odometer reading at each moment is t
 
 ### Intuition: Newton's Laws
 
-Newton's second law, F=ma, is the universe's accounting rule for motion. It states that the net force on an object equals its mass times its acceleration -- or more precisely, the net force equals the rate of change of momentum. The metaphor is a financial ledger: force is the "income" or "expense" applied to an object, mass is the "inertia" (resistance to change in its state of motion), and acceleration is the resulting "change in balance." Just as a large bank account responds slowly to small deposits, a massive object responds slowly to small forces.
+Newton's second law states that the net force on an object equals its mass times its acceleration: F = ma. More precisely, the net force equals the rate of change of momentum: F = dp/dt. Mass measures an object's resistance to acceleration -- a larger mass requires a larger force for the same result.
 
-The first law is the special case of zero net force: the ledger is balanced, and the object's state of motion does not change. The third law is the double-entry bookkeeping principle: every force has an equal and opposite counterpart, so the total "debt" in the universe is always zero. The conservation laws -- of momentum, energy, and angular momentum -- are the consequences of this accounting system applied to isolated systems. They are the reason we can predict the outcome of a collision without knowing every microscopic detail: the ledger must balance, regardless of the complexity of the transactions.
+The first law is the special case of zero net force: the object's state of motion does not change. The third law states that every force has an equal and opposite counterpart: when A pushes B, B pushes A with the same force in the opposite direction. The conservation laws -- of momentum, energy, and angular momentum -- follow from these principles applied to isolated systems. They are the reason we can predict the outcome of a collision without knowing every microscopic detail: the conserved quantities constrain the outcome regardless of complexity.
 
 ### 1.1 Newton's Laws
 

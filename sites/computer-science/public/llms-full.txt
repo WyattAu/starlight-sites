@@ -32164,10 +32164,10 @@ bounds) and the algebraic approach (arithmetisation in IP = PSPACE) exemplify.
 ### 6.12 The PCP Theorem: Proofs You Can Check by Glance
 
 Suppose a proof of a statement is written down, but you are allowed to **randomly inspect only a
-handful of its positions** — a constant number of characters — and, from that glance alone,
+handful of its positions** – a constant number of characters – and, from that glance alone,
 accept correct proofs always and reject bogus ones with high probability. For most proof systems
 this is impossible: skip one step of a long calculation and you might miss the error. The
-**PCP theorem** says that for NP statements, such proofs exist — after rewriting the proof into
+**PCP theorem** says that for NP statements, such proofs exist – after rewriting the proof into
 a special redundant form.
 
 **Theorem 6.13 (Feige–Goldwasser–Lund–Safra–Szegedy 1991; Arora–Safra 1992;
@@ -32182,11 +32182,11 @@ length $n$ and oracle access to a proof $\pi$:
 
 1. flips $O(\log n)$ random coins (so at most $\mathrm{poly}(n)$ possible inspection patterns),
 2. queries **constant** many positions of $\pi$,
-3. accepts or rejects — with **completeness** ≥ $\tfrac{2}{3}$ when $x \in L$ (some proof makes
+3. accepts or rejects – with **completeness** ≥ $\tfrac{2}{3}$ when $x \in L$ (some proof makes
    $V$ accept with probability 1 in the standard formulation), and **soundness** ≤ $\tfrac{1}{3}$
    when $x \notin L$ (every proof fools $V$ on at most a third of its random choices).
 
-The proof $\pi$ may be exponentially long in $n$ — the verifier never reads it all; it only
+The proof $\pi$ may be exponentially long in $n$ – the verifier never reads it all; it only
 probes.
 
 **Why "rewritten" matters.** A vanilla NP witness (a satisfying assignment) has no such robust
@@ -32204,7 +32204,7 @@ of them. The PCP construction repeatedly applies a transformation that:
 - drives unsatisfiable systems' maximum satisfiable fraction down by a constant factor,
 
 while increasing the proof size only polynomially. After $O(\log n)$ amplification rounds, an
-unsatisfiable instance has *no* assignment satisfying more than a constant fraction below 1 —
+unsatisfiable instance has *no* assignment satisfying more than a constant fraction below 1 –
 and at that point a verifier can sample a single random constraint, check it with a constant
 number of proof probes, and get soundness $1 - \varepsilon$. That constant gap is what makes
 $O(1)$ queries possible.
@@ -32212,14 +32212,14 @@ $O(1)$ queries possible.
 **Dinur's proof (2006).** The original proofs were long and algebraic. Irit Dinur's
 combinatorial proof reformulates the amplification as a *graph powering* step on constraint
 graphs: expand the constraint graph so that violations spread, then reduce alphabet size with
-a local test — repeat $O(\log n)$ times. This version is short enough to teach and is the
+a local test – repeat $O(\log n)$ times. This version is short enough to teach and is the
 standard reference for a first encounter.
 
 **The consequence that reshaped a field: hardness of approximation.** Because the PCP
 reduction preserves a *gap*, it maps optimisation problems to themselves with a gap: MAX-3SAT
 compiles so that satisfiable instances stay fully satisfiable while unsatisfiable ones have no
 assignment satisfying more than a $1 - \varepsilon$ fraction of clauses. Any polynomial-time
-algorithm guaranteeing better than $1 - \varepsilon$ would distinguish the two cases — solving
+algorithm guaranteeing better than $1 - \varepsilon$ would distinguish the two cases – solving
 NP-complete SAT exactly. This yields optimal inapproximability constants:
 
 | Problem | Best polynomial approximation | Hardness (via PCP) |
@@ -32237,13 +32237,13 @@ fingerprint.
 **IP = PSPACE** result: an interactive proof protocol between a verifier and a (possibly
 untrusted) prover can be converted, by committing the prover to answers via Merkle-tree-style
 cryptographic hashing, into a non-interactive oracle proof inspectable in constant queries.
-This lineage — interactive proofs → probabilistically checkable proofs → delegation of
-computation — is the foundation of modern *proofs of proximity*, *SNARKs*, and verifiable
+This lineage – interactive proofs → probabilistically checkable proofs → delegation of
+computation – is the foundation of modern *proofs of proximity*, *SNARKs*, and verifiable
 delegation in blockchain systems.
 
 **In one sentence.** Every NP statement has proofs that certify themselves: if the claim is
 true, some proof survives arbitrary probing; if false, every proof is caught by a constant-size
-glance — and this impossible-sounding object is exactly what makes approximation hardness and
+glance – and this impossible-sounding object is exactly what makes approximation hardness and
 modern verifiable computation possible.
 
 ### Where to go next

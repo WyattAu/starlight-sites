@@ -9828,7 +9828,7 @@ $x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$.
 $\varphi \in X^*$, so $\sup_n |\varphi(x_n)| < \infty$ for each *fixed*
 $\varphi$. The family $\{x_n\} \subseteq X \subseteq X^{**}$ is therefore
 pointwise bounded as a family of functionals on $X^*$, and
-[the uniform boundedness principle](/11-functional-analysis/4_the-fundamental-theorems/): page 4's Theorem 4.11, with $X^*$ in the role of the complete space — gives
+[the uniform boundedness principle](/11-functional-analysis/4_the-fundamental-theorems/): page 4's Theorem 4.11, with $X^*$ in the role of the complete space – gives
 $\sup_n \|x_n\| = \sup_n \|(x_n)^{**}\| < \infty$. $\blacksquare$
 
 Note the proof's direction: weak convergence is convergence in the weak*
@@ -14602,7 +14602,7 @@ in $n$. $\blacksquare$
 contraction theorem above replaces one move of this proof. The exponential
 testing condition is Schwartz's hypothesis verbatim; the sieve is what
 replaces the compact complement $\Theta_0^c$ when entropy is infinite; and the
-prior-mass condition is the Kullback–Leibler property. Each of the three moves: exponential testing, entropy control, prior mass — is a hypothesis in the
+prior-mass condition is the Kullback–Leibler property. Each of the three moves: exponential testing, entropy control, prior mass – is a hypothesis in the
 modern theorem, and each fails in a way the failure-mode section below
 documents.
 
@@ -15345,7 +15345,7 @@ and choosing the wrong one silently changes the drift.
 
 ## Where the research frontier is
 
-- **Rough paths.** Lyons' theory constructs the integral for *any* rough signal: not just Brownian motion — by treating the iterated integrals as extra data.
+- **Rough paths.** Lyons' theory constructs the integral for *any* rough signal: not just Brownian motion – by treating the iterated integrals as extra data.
   It removes the probabilistic structure entirely and gives pathwise meaning to
   what Itô defines in $L^2$. It also explains *why* Itô's correction exists: it
   is the Lévy area.

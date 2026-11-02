@@ -207259,7 +207259,7 @@ metals (cool enough for molecules to survive).
 The Balmer absorption lines (visible) are strongest in **A-class** stars. In O-type stars the
 hydrogen is ionised (no bound electron to absorb); in M-type stars the electron is in the $n = 2$
 level only rarely (too cold for thermal excitation). A-type stars have the right temperature for
-significant $n = 2$ population — the sweet spot for Balmer absorption.
+significant $n = 2$ population – the sweet spot for Balmer absorption.
 
 ## 2. The Hertzsprung–Russell Diagram
 
@@ -207296,7 +207296,7 @@ $$
 \frac{r}{r_\odot} = \sqrt{\frac{L}{L_\odot}} \cdot \left(\frac{T_\odot}{T}\right)^2 \approx \sqrt{10^5} \cdot 4 \approx 1260
 $$
 
-Betelgeuse is over 1000 solar radii — a supergiant that would engulf the orbit of Jupiter.
+Betelgeuse is over 1000 solar radii – a supergiant that would engulf the orbit of Jupiter.
 
 ## 3. Supernovae, Neutron Stars and Black Holes
 
@@ -207333,7 +207333,7 @@ For $M = 10 M_\odot$: $R_s \approx 30$ km.
 Type Ia supernovae occur when a white dwarf in a binary system accretes matter from its companion
 until it reaches the Chandrasekhar limit (~$1.4 M_\odot$) and carbon fusion ignites
 explosively. Because the mass at detonation is always the same, the peak luminosity is always
-approximately the same — Type Ia supernovae are **standard candles**.
+approximately the same – Type Ia supernovae are **standard candles**.
 
 The distance is found by comparing the known absolute magnitude ($M \approx -19.3$) to the
 apparent magnitude $m$ via the distance modulus:
@@ -207375,16 +207375,16 @@ billion years ago.
 
 Evidence:
 
-- **Hubble's law** — the universal recession of distant galaxies
-- **Cosmic Microwave Background (CMB)** — predicted by Gamow (1948), discovered by Penzias and
+- **Hubble's law** – the universal recession of distant galaxies
+- **Cosmic Microwave Background (CMB)** – predicted by Gamow (1948), discovered by Penzias and
   Wilson (1965), a uniform 2.7 K black-body radiation filling all space
-- **Abundance of light elements** — Big Bang nucleosynthesis correctly predicts the ~75% H, ~25%
+- **Abundance of light elements** – Big Bang nucleosynthesis correctly predicts the ~75% H, ~25%
   He ratio
 
 ## 7. Dark Matter and Dark Energy
 
 Rotation curves of galaxies remain flat at large radii instead of declining as
-$v \propto r^{-1/2}$ — visible mass alone cannot explain this. The missing mass is called
+$v \propto r^{-1/2}$ – visible mass alone cannot explain this. The missing mass is called
 **dark matter** (does not emit, absorb or reflect light; detected only gravitationally).
 
 Type Ia supernova data from 1998 onward shows that distant supernovae are *dimmer* than expected:
@@ -207398,7 +207398,7 @@ energy.
 
 - **Magnitude sign convention**: brighter stars have *more negative* magnitudes. The distance
   modulus $m - M = 5\log_{10}(d/10)$ gives positive $m - M$ for distant (dim-looking) objects.
-- **Temperature axis on H–R diagram** increases to the LEFT (cool right, hot left) — the
+- **Temperature axis on H–R diagram** increases to the LEFT (cool right, hot left) – the
   counterintuitive convention causes diagram-reading errors.
 - **Type Ia vs Type II**: Type Ia = white dwarf + accretion = standard candle. Type II = massive
   star core collapse = NOT a standard candle (varies too much).
@@ -207425,9 +207425,9 @@ energy.
 
 ## See Also
 
-- [Nuclear Physics](/physics/nuclear-and-particle/nuclear-physics/) — fusion and binding energy
-- [Particle Physics](/physics/nuclear-and-particle/particle-physics/) — the standard model
-- [Gravitational Fields](/physics/fields/) — gravitational potential and escape velocity
+- [Nuclear Physics](/physics/nuclear-and-particle/nuclear-physics/) – fusion and binding energy
+- [Particle Physics](/physics/nuclear-and-particle/particle-physics/) – the standard model
+- [Gravitational Fields](/physics/fields/) – gravitational potential and escape velocity
 
 ---
 
