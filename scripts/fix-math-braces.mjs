@@ -130,7 +130,7 @@ function renders(body, display) {
 }
 
 const dry = process.argv.includes('--dry')
-const files = process.argv.slice(2).filter((a) => a !== '--dry')
+const files = process.argv.slice(2).filter(a => a !== '--dry')
 let spansSeen = 0
 let spansFixed = 0
 let spansSkippedOk = 0
