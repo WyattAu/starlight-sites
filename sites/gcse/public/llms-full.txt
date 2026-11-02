@@ -14512,8 +14512,8 @@ the ionic compound together.
 
 $$\mathrm{Na} \to \mathrm{Na^+} + e^-$$ $$\mathrm{Cl} + e^- \to \mathrm{Cl^-}$$
 $$
-\mathrm{Na^+} + \mathrm{Cl^-} \to \mathrm{NaCl}
-$$
+\mathrm{Na^+} + \mathrm{Cl^-} \to \mathrm{NaCl
+}$$
 
 Sodium (Group 1) loses one electron to achieve a full outer shell (like neon). Chlorine (Group 7)
 Gains one electron to achieve a full outer shell (like argon).
@@ -14600,8 +14600,54 @@ Magnesium ($2, 8, 2$) loses 2 electrons to form Mg$^{2+}$. Oxygen ($2, 6$) gains
 O$^{2-}$.
 
 $$
-\mathrm{Mg} + \mathrm{O} \to \mathrm{Mg^{2+}} + \mathrm{O^{2-}}
-$$
+\mathrm{Mg} + \mathrm{O} \to \mathrm{Mg^{2+}} + \mathrm{O^{2-}
+}$$
+
+**Example: Sodium chloride (NaCl)**
+
+<svg viewBox="0 0 420 180" xmlns="http://www.w3.org/2000/svg" font-family="system-ui, sans-serif">
+  <!-- Na⁺ ion on the left -->
+  <path d="M 48,40 L 40,40 L 40,140 L 48,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <circle cx="90" cy="90" r="28" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+  <text x="90" y="90" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">Na</text>
+  <circle cx="90" cy="90" r="14" stroke="#d1d5db" fill="none" stroke-width="1"/>
+  <circle cx="83" cy="90" r="2.5" fill="#6b7280"/>
+  <circle cx="97" cy="90" r="2.5" fill="#6b7280"/>
+  <path d="M 132,40 L 140,40 L 140,140 L 132,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <text x="146" y="55" font-size="16" fill="#dc2626" font-weight="bold">+</text>
+  <text x="90" y="160" text-anchor="middle" font-size="12" fill="#6b7280">Na⁺</text>
+  <!-- Cl⁻ ion on the right -->
+  <path d="M 218,40 L 210,40 L 210,140 L 218,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <circle cx="260" cy="90" r="28" stroke="#9ca3af" fill="none" stroke-width="1.5"/>
+  <text x="260" y="90" text-anchor="middle" font-size="14" fill="#1f2937" font-weight="bold" dominant-baseline="central">Cl</text>
+  <!-- 8 outer electrons: 1 dot (from Na) + 7 crosses (Cl's own) -->
+  <circle cx="260" cy="62" r="4" fill="#2563eb" stroke="#1f2937" stroke-width="0.8"/>
+  <line x1="277" y1="65" x2="287" y2="75" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="287" y1="65" x2="277" y2="75" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="296" y1="76" x2="306" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="306" y1="76" x2="296" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="294" y1="90" x2="304" y2="90" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="304" y1="90" x2="294" y2="90" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="286" y1="106" x2="294" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="294" y1="106" x2="286" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="262" y1="118" x2="270" y2="126" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="270" y1="118" x2="262" y2="126" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="238" y1="106" x2="244" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="244" y1="106" x2="238" y2="114" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="216" y1="76" x2="224" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <line x1="224" y1="76" x2="216" y2="86" stroke="#dc2626" stroke-width="2.2"/>
+  <path d="M 302,40 L 310,40 L 310,140 L 302,140" stroke="#374151" fill="none" stroke-width="2"/>
+  <text x="316" y="55" font-size="16" fill="#2563eb" font-weight="bold">−</text>
+  <text x="260" y="160" text-anchor="middle" font-size="12" fill="#6b7280">Cl⁻</text>
+  <!-- Arrow -->
+  <text x="170" y="90" text-anchor="middle" font-size="14" fill="#9ca3af">⟶</text>
+  <text x="170" y="108" text-anchor="middle" font-size="10" fill="#9ca3af">1 e⁻ transfer</text>
+</svg>
+<p style="text-align:center;font-size:12px;color:#6b7280;margin:4px 0">Sodium chloride (NaCl): sodium transfers one electron to chlorine. ● = sodium&#39;s electron, ✕ = chlorine&#39;s electrons</p>
+
+Sodium ($2, 8, 1$) loses its one outer electron to form Na$^{+}$ (its outer shell is now empty).
+Chlorine ($2, 8, 7$) gains that electron to form Cl$^{-}$, completing its outer shell with eight
+electrons (one from sodium, seven of its own).
 
 **Example: Calcium chloride (CaCl$_2$)**
 
@@ -14609,8 +14655,8 @@ Calcium ($2, 8, 8, 2$) loses 2 electrons. Each chlorine ($2, 8, 7$) gains 1 elec
 Atoms are needed.
 
 $$
-\mathrm{Ca} + 2\mathrm{Cl} \to \mathrm{Ca^{2+}} + 2\mathrm{Cl^-}
-$$
+\mathrm{Ca} + 2\mathrm{Cl} \to \mathrm{Ca^{2+}} + 2\mathrm{Cl^-
+}$$
 
 **Example: Sodium oxide (Na$_2$O)**
 
@@ -14618,8 +14664,8 @@ Each sodium ($2, 8, 1$) loses 1 electron. Oxygen ($2, 6$) gains 2 electrons. Two
 needed.
 
 $$
-2\mathrm{Na} + \mathrm{O} \to 2\mathrm{Na^+} + \mathrm{O^{2-}}
-$$
+2\mathrm{Na} + \mathrm{O} \to 2\mathrm{Na^+} + \mathrm{O^{2-}
+}$$
 
 **Example: Aluminium oxide (Al$_2$O$_3$)**
 
@@ -14628,8 +14674,8 @@ form O$^{2-}$. The lowest common multiple of 3 and 2 is 6, so we need two alumin
 oxygen atoms.
 
 $$
-2\mathrm{Al} + 3\mathrm{O} \to 2\mathrm{Al^{3+}} + 3\mathrm{O^{2-}}
-$$
+2\mathrm{Al} + 3\mathrm{O} \to 2\mathrm{Al^{3+}} + 3\mathrm{O^{2-}
+}$$
 
 **Worked Example.** Draw the dot and cross diagram for calcium fluoride (CaF$_2$).
 
@@ -14813,13 +14859,13 @@ $$
 Where $q_1$ and $q_2$ are the ion charges and $r$ is the distance between ion centres. For compounds
 with higher charges (e.g. MgO with $2+$ and $2-$) and smaller ions (shorter $r$), the forces are
 much stronger and the melting point is much higher. This explains why MgO melts at
-$2852^{\circ}\mathrm{C}$ while NaCl melts at only $801^{\circ}\mathrm{C}$.
+$2852^{\circ}\mathrm{C$ while NaCl melts at only $801^{\circ}\mathrm{C$.
 
 ### 1.7 Comparison of Ionic Compound Properties
 
 <div class="table-wrap">
 
-| Compound    | Ion Charges | Melting Point ($^{\circ}\mathrm{C}$) | Solubility in Water |
+| Compound    | Ion Charges | Melting Point ($^{\circ}\mathrm{C$) | Solubility in Water |
 | ----------- | ----------- | ----------------------------------- | ------------------- |
 | NaCl        | $+1, -1$    | 801                                 | Soluble             |
 | MgO         | $+2, -2$    | 2852                                | Slightly soluble    |
@@ -14860,8 +14906,8 @@ Together.
 </svg>
 
 $$
-\mathrm{H \cdot} + \cdot \mathrm{H} \to \mathrm{H} - \mathrm{H}
-$$
+\mathrm{H \cdot} + \cdot \mathrm{H} \to \mathrm{H} - \mathrm{H
+}$$
 
 **Water (H$_2$O):** Oxygen has 6 outer electrons and needs 2 more. Each hydrogen has 1 electron.
 
@@ -14921,8 +14967,10 @@ of electrons.
 <line x1="132.5" y1="125.0" x2="142.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
   <line x1="142.5" y1="125.0" x2="132.5" y2="135.0" stroke="#dc2626" stroke-width="2.2"/>
 <text x="160" y="245" text-anchor="middle" font-size="12" fill="#6b7280">Four shared pairs (single covalent bonds)</text>
-</svg> Carbon achieves a
-Full outer shell of 8 electrons, and each hydrogen achieves a full outer shell of 2 electrons.
+</svg>
+
+Carbon achieves a full outer shell of 8 electrons, and each hydrogen achieves a
+full outer shell of 2 electrons.
 
 **Ammonia (NH$_3$):** Nitrogen has 5 outer electrons and needs 3 more. Each hydrogen has 1 electron.
 Nitrogen forms three single bonds and retains one lone pair.
@@ -14991,7 +15039,7 @@ The distinction between intramolecular bonds (within molecules) and intermolecul
 molecules) is one of the most important ideas in chemistry. The covalent bonds inside a water
 Molecule are strong (about 464 kJ/mol for O-H), but the hydrogen bonds between water molecules are
 much weaker (about 20 kJ/mol). It is these weaker forces that are overcome when water boils at
-$100^{\circ}\mathrm{C}$.
+$100^{\circ}\mathrm{C$.
 
 ### 2.4 Bonding in Giant Covalent Structures
 
@@ -14999,7 +15047,7 @@ $100^{\circ}\mathrm{C}$.
 Tetrahedral arrangement. This creates a very rigid, three-dimensional lattice.
 
 - Very hard (hardest natural substance)
-- Very high melting point ($\gt 3500^{\circ}\mathrm{C}$)
+- Very high melting point ($\gt 3500^{\circ}\mathrm{C$)
 - Does not conduct electricity (no free electrons)
 - Insoluble in all solvents
 
@@ -15044,7 +15092,7 @@ Properties. They are used in composite materials and electronics.
 | Structure               | Tetrahedral, 3D giant lattice           | Layers of hexagonal rings        |
 | Hardness                | Extremely hard                          | Soft and slippery                |
 | Electrical conductivity | Does not conduct                        | Conducts (delocalised electrons) |
-| Melting point           | Very high ($\gt 3500^{\circ}\mathrm{C}$) | Very high                        |
+| Melting point           | Very high ($\gt 3500^{\circ}\mathrm{C$) | Very high                        |
 | Uses                    | Cutting tools, jewellery                | Pencils, lubricants, electrodes  |
 
 </div>
@@ -15308,7 +15356,7 @@ substance has changed state.
 During boiling, the energy supplied is used to break the hydrogen bonds and other intermolecular
 Forces between water molecules, converting liquid water to water vapour. This energy does not
 increase the kinetic energy of the molecules, so the temperature remains constant at
-$100^{\circ}\mathrm{C}$ until all the water has boiled.
+$100^{\circ}\mathrm{C$ until all the water has boiled.
 
 **Worked Example.** Explain the shape of a cooling curve for a pure substance.
 
@@ -15393,8 +15441,8 @@ F$_2$ &lt; Cl$_2$ &lt; Br$_2$. All three have only London dispersion forces. As 
 electrons increases (F$_2$: 18, Cl$_2$: 34, Br$_2$: 70), London forces become stronger, requiring
 more energy to overcome. Hence the boiling point increases.
 
-**Worked Example.** Explain why ethanol (C$_2$H$_5$OH, boiling point $78^{\circ}\mathrm{C}$) has a
-Much higher boiling point than dimethyl ether (CH$_3$OCH$_3$Boiling point $-24^{\circ}\mathrm{C}$)
+**Worked Example.** Explain why ethanol (C$_2$H$_5$OH, boiling point $78^{\circ}\mathrm{C$) has a
+Much higher boiling point than dimethyl ether (CH$_3$OCH$_3$Boiling point $-24^{\circ}\mathrm{C$)
 Despite both having the molecular formula C$_2$H$_6$O.
 
 Both molecules have the same number of electrons, so London forces are similar. However, ethanol can
@@ -15442,7 +15490,7 @@ Proportion of atoms are on the surface, available for catalysis or other reactio
 
 <div class="table-wrap">
 
-| Substance | Molar Mass (g/mol) | IMF Type               | Boiling Point ($^{\circ}\mathrm{C}$) |
+| Substance | Molar Mass (g/mol) | IMF Type               | Boiling Point ($^{\circ}\mathrm{C$) |
 | --------- | ------------------ | ---------------------- | ----------------------------------- |
 | CH$_4$    | 16                 | London only            | -161                                |
 | NH$_3$    | 17                 | Hydrogen bonding       | -33                                 |
@@ -15504,8 +15552,8 @@ Points compared to London forces, and London forces increase with molar mass.
 
 6. State the type of bonding in each of the following: (a) NaBr, (b) H$_2$O, (c) SiO$_2$(d) Cu.
 
-7. Explain why ice melts at $0^{\circ}\mathrm{C}$ but water does not boil until
-   $100^{\circ}\mathrm{C}$ in terms of the energy required to overcome forces.
+7. Explain why ice melts at $0^{\circ}\mathrm{C$ but water does not boil until
+   $100^{\circ}\mathrm{C$ in terms of the energy required to overcome forces.
 
 8. Draw a dot and cross diagram for ammonia (NH$_3$).
 
@@ -15527,8 +15575,8 @@ Points compared to London forces, and London forces increase with molar mass.
 
 16. Draw a dot and cross diagram for nitrogen (N$_2$), showing all outer electrons .
 
-17. Explain why the boiling point of ethanol ($78^{\circ}\mathrm{C}$) is much higher than that of
-    dimethyl ether ($-24^{\circ}\mathrm{C}$) despite both having the same molecular formula
+17. Explain why the boiling point of ethanol ($78^{\circ}\mathrm{C$) is much higher than that of
+    dimethyl ether ($-24^{\circ}\mathrm{C$) despite both having the same molecular formula
     (C$_2$H$_6$O).
 
 18. Compare and contrast the structure and bonding in diamond and silicon dioxide.
@@ -15565,10 +15613,10 @@ examples.
 
 Ionic bonding involves the transfer of electrons from a metal to a non-metal, forming positive and
 negative ions held together by electrostatic attraction. In NaCl, sodium transfers one electron to
-chlorine, forming $\mathrm{Na^+}$ and $\mathrm{Cl^-}$.
+chlorine, forming $\mathrm{Na^+$ and $\mathrm{Cl^-$.
 
 Covalent bonding involves the sharing of electron pairs between non-metal atoms. In water
-($\mathrm{H_2\mathrm{O}}$), oxygen shares electrons with two hydrogen atoms, forming two covalent
+($\mathrm{H_2\mathrm{O$), oxygen shares electrons with two hydrogen atoms, forming two covalent
 bonds.
 
 </details>
@@ -15576,19 +15624,19 @@ bonds.
 <details>
 <summary>Question 2: Dot-cross diagrams</summary>
 
-Draw dot-cross diagrams for (a) magnesium oxide ($\mathrm{MgO}$) and (b) carbon dioxide
-($\mathrm{CO_2}$).
+Draw dot-cross diagrams for (a) magnesium oxide ($\mathrm{MgO$) and (b) carbon dioxide
+($\mathrm{CO_2$).
 
 </details>
 
 <details>
 <summary>Answer</summary>
 
-(a) $\mathrm{MgO}$: $\mathrm{Mg}$ donates 2 electrons (shown as x) to $\mathrm{O}$ Forming
-$\mathrm{Mg^{2+}}$ and $\mathrm{O^{2-}}$. The diagram shows the oxide ion with 8 electrons (6 of its
+(a) $\mathrm{MgO$: $\mathrm{Mg$ donates 2 electrons (shown as x) to $\mathrm{O$ Forming
+$\mathrm{Mg^{2+}$ and $\mathrm{O^{2-}$. The diagram shows the oxide ion with 8 electrons (6 of its
 own + 2 from Mg) and the magnesium ion with none in its outer shell.
 
-(b) $\mathrm{CO_2}$: $\mathrm{O}=\mathrm{C}=\mathrm{O}$. Each oxygen shares 2 electron pairs with carbon
+(b) $\mathrm{CO_2$: $\mathrm{O=\mathrm{C=\mathrm{O$. Each oxygen shares 2 electron pairs with carbon
 (double bonds). Carbon shares 4 electrons total (2 with each oxygen), achieving a full outer shell
 of 8.
 
@@ -15605,14 +15653,14 @@ dissolves in water. Explain these properties in terms of its structure and bondi
 <details>
 <summary>Answer</summary>
 
-High melting point: the ionic bonds between $\mathrm{Na^+}$ and $\mathrm{Cl^-}$ in the giant ionic
+High melting point: the ionic bonds between $\mathrm{Na^+$ and $\mathrm{Cl^-$ in the giant ionic
 lattice are strong and require a lot of energy to break.
 
 Conducts when molten but not solid: in the solid state, ions are fixed in position and cannot move.
 When molten, the lattice breaks down and ions are free to move, carrying charge.
 
 Dissolves in water: water molecules are polar. The $\delta^+$ hydrogen atoms are attracted to
-$\mathrm{Cl^-}$ ions and the $\delta^-$ oxygen atoms to $\mathrm{Na^+}$ ions, pulling ions away from
+$\mathrm{Cl^-$ ions and the $\delta^-$ oxygen atoms to $\mathrm{Na^+$ ions, pulling ions away from
 the lattice.
 
 </details>
@@ -15620,7 +15668,7 @@ the lattice.
 <details>
 <summary>Question 4: Simple covalent molecules vs giant covalent structures</summary>
 
-Compare the structure and properties of methane ($\mathrm{CH_4}$) and diamond. Explain why diamond is
+Compare the structure and properties of methane ($\mathrm{CH_4$) and diamond. Explain why diamond is
 much harder and has a much higher melting point.
 
 </details>

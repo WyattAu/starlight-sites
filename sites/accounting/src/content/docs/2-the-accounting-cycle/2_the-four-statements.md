@@ -107,7 +107,9 @@ statement moved from its opening state to its closing one.
 
 ### The articulation, in one pass
 
-$$\text{Income statement} \to \text{net income} \to \text{equity} \to \text{balance sheet}, \qquad \text{cash account} \to \text{cash flow} \to \text{balance sheet cash}$$
+$$
+\text{Income statement} \to \text{net income} \to \text{equity} \to \text{balance sheet}, \qquad \text{cash account} \to \text{cash flow} \to \text{balance sheet cash}
+$$
 
 Read the assembly left to right: sort the trial balance; close the temporary accounts into net
 income; carry net income through equity onto the balance sheet; re-cut cash by activity and tie
