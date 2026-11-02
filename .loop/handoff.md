@@ -1,8 +1,13 @@
 # Handoff — estate math repair, SEO fixes, search SLO, deploy gate unblocked (2026-11-01)
 
 ## Deployed state
-- Deploy All Sites: SUCCESS (run 41326255011) — first green deploy since the
-  estate repairs; wyattsnotes.wyattau.com BACK UP (200)
+- Deploy All Sites: SUCCESS (run 41385771451, 2026-11-02) — includes the
+  mid-line flow-math closing repair (62 files) + 33-span oracle pass, the
+  .mdx list-item restoration, ib genetics prose repair, and sidebar
+  Introduction entries. wyattsnotes.wyattau.com UP (200).
+- Live-verified: bonding NaCl + math (errors 41 -> 9; remainder is the
+  known-issue class), tools definitions page 0 errors, four-statements page
+  200, /intro/ 200, search bot filter deployed (7-day window accumulating).
 - Verified live: GCSE bonding NaCl diagram + repaired math, accounting
   four-statements page, ap /intro/, robots.txt on the 3 new sites
 
