@@ -14525,11 +14525,16 @@ the ionic compound together.
 
 **Example: Sodium chloride (NaCl)**
 
-$$\mathrm{Na} \to \mathrm{Na^+} + e^-$$ $$\mathrm{Cl} + e^- \to \mathrm{Cl^-}
 $$
+\mathrm{Na} \to \mathrm{Na^+} + e^-
 $$
-\mathrm{Na^+} + \mathrm{Cl^-} \to \mathrm{NaCl
-}
+
+$$
+\mathrm{Cl} + e^- \to \mathrm{Cl^-}
+$$
+
+$$
+\mathrm{Na^+} + \mathrm{Cl^-} \to \mathrm{NaCl}
 $$
 
 Sodium (Group 1) loses one electron to achieve a full outer shell (like neon). Chlorine (Group 7)
