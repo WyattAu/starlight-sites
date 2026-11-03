@@ -187,9 +187,7 @@ value), Mode (most frequent value). The mean is sensitive to outliers; the media
 
 **Measures of spread.** Variance:
 
-$$
 s^2 = \frac{1}{n}\sum_{i=1}^{n}(x_i - \bar{x})^2 = \frac{1}{n}\sum_{i=1}^{n}x_i^2 - \bar{x}^2
-$$
 
 Standard deviation $s = \sqrt{s^2}$. Interquartile range: $Q_3 - Q_1$.
 
@@ -344,9 +342,7 @@ The proof is correct and complete E: The formula being proved is wrong
 
 **Solution.** The algebraic manipulation in the inductive step is correct:
 
-$$
 \sum_{k=1}^{n+1} k = \sum_{k=1}^{n} k + (n+1) = \frac{n(n+1)}{2} + (n+1) = \frac{(n+1)(n+2)}{2}
-$$
 
 The formula being proved is correct.
 
@@ -372,7 +368,6 @@ The proof is therefore Incomplete.
 > A random variable $X$ has probability density function:
 >
 > $$f(x) = \begin{cases} kx & 0 \leq x \leq 2 \\ 0 & \text{otherwise \end{cases}
-$$
 >
 > What is the value of $k$ And what is $\mathbb{E}(X)$?
 
@@ -381,17 +376,13 @@ D: $k = 1/4$, $\mathbb{E}(X) = 1$ E: $k = 1$, $\mathbb{E}(X) = 2$
 
 **Solution.** Since $f$ is a probability density function, $\int_{-\infty}^{\infty} f(x)\,dx = 1$:
 
-$$
 \int_0^2 kx\,dx = k\left[\frac{x^2}{2}\right]_0^2 = k \cdot \frac{4}{2} = 2k = 1
-$$
 
 So $k = 1/2$.
 
 For the expected value:
 
-$$
 \mathbb{E}(X) = \int_0^2 x \cdot \frac{x}{2}\,dx = \frac{1}{2}\int_0^2 x^2\,dx = \frac{1}{2}\left[\frac{x^3}{3}\right]_0^2 = \frac{1}{2} \cdot \frac{8}{3} = \frac{4}{3}
-$$
 
 **Answer: B.**
 
@@ -417,11 +408,8 @@ A: $\ln 2$ hours B: $5$ hours C: $0.2 \ln 2$ hours D: $\frac{1}{0.2\ln 2}$ hours
 
 **Solution.** The population doubles when $P(t) = 2P_0$:
 
-$$
 P_0 e^{0.2t} = 2P_0
-$$
 
-$$
 e^{0.2t} = 2
 $$
 

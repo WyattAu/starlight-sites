@@ -26,9 +26,7 @@ categories: [Physics]
 **Definition.** The magnetic flux density $B$ (also called the magnetic field strength in the
 context Of force calculations) is defined by the force on a current-carrying conductor:
 
-$$
 \boxed{B = \frac{F}{IL\sin\theta}}
-$$
 
 Where $F$ is the force on a wire of length $L$ carrying current $I$ at angle $\theta$ to the field.
 
@@ -47,17 +45,13 @@ The force is zero when the wire is parallel ($\theta = 0^\circ$).
 
 A charge $q$ moving with velocity $v$ at angle $\theta$ to a magnetic field experiences:
 
-$$
 \boxed{F = Bqv\sin\theta}
-$$
 
 **Derivation from the wire force.** Current in a wire: $I = nqvA$ where $n$ is the number density of
 Charge carriers, $q$ is the charge per carrier, $v$ is the drift velocity, and $A$ is the
 cross-sectional area. The number of carriers in length $L$ is $nAL$. The force is:
 
-$$
 F = BIL\sin\theta = B(nqvA)L\sin\theta = (nAL) \cdot Bqv\sin\theta
-$$
 
 For a single charge ($nAL = 1$): $F = Bqv\sin\theta$. $\square$
 
@@ -65,7 +59,6 @@ For a charge moving perpendicular to the field ($\theta = 90^\circ$):
 
 $$
 \boxed{F = Bqv}
-$$
 
 :::caution
 $\mathbf{B}$. It does no work ($\mathbf{F} \cdot \mathbf{v} = 0$), so a magnetic field alone cannot
@@ -77,30 +70,22 @@ Change the speed of a charged particle, only its direction.
 When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides
 the centripetal acceleration:
 
-$$
 Bqv = \frac{mv^2}{r}
-$$
 
 Solving for the radius:
 
-$$
 \boxed{r = \frac{mv}{Bq}}
-$$
 
 ### Proof of Frequency Independence
 
 The period of revolution:
 
-$$
 T = \frac{2\pi r}{v} = \frac{2\pi m}{Bq}
-$$
 
 This is **independent of $v$ and $r$**. A faster particle traces a proportionally larger circle in
 the Same time. The cyclotron frequency is:
 
-$$
 f = \frac{Bq}{2\pi m}
-$$
 
 **Physical reason.** The magnetic force is $F = Bqv = mv^2/r$ Giving $r = mv/(Bq)$. Both $r$ and $v$
 Increase proportionally, so $T = 2\pi r/v = 2\pi m/(Bq)$ is constant. This is the operating
@@ -108,9 +93,7 @@ principle Of the cyclotron accelerator.
 
 ### Kinetic Energy in Terms of Radius
 
-$$
 E_k = \frac{1}{2}mv^2 = \frac{B^2 q^2 r^2}{2m}
-$$
 
 <details>
 <summary>Worked Example: Proton and Alpha Particle</summary>
@@ -130,9 +113,7 @@ reduces The ratio to 2:1.
 
 When a particle enters a uniform $\mathbf{B}$ field at angle $\theta$ to the field lines:
 
-$$
 v_\perp = v\sin\theta, \qquad v_\parallel = v\cos\theta
-$$
 
 The perpendicular component produces circular motion (radius $r = mv_\perp/(Bq)$ Period
 $T = 2\pi m/(Bq)$), while the parallel component is unaffected by the magnetic force (since
@@ -140,9 +121,7 @@ $\mathbf{F} \perp \mathbf{B}$ There is no force component along $\mathbf{B}$).
 
 The particle traces a **helix** with pitch:
 
-$$
 \boxed{\mathrm{pitch} = v_\parallel\, T = \frac{2\pi m v\cos\theta}{Bq}}
-$$
 
 ## 5. Velocity Selector
 
@@ -154,9 +133,7 @@ force $F_B = Bqv$ acts in the opposite direction.
 
 For undeflected passage:
 
-$$
 \boxed{qE = Bqv \implies v = \frac{E}{B}}
-$$
 
 Only particles with this exact velocity pass through. Faster particles are deflected by the dominant
 Magnetic force; slower particles by the electric force.
@@ -165,9 +142,7 @@ Magnetic force; slower particles by the electric force.
 
 ### Magnetic Flux
 
-$$
 \boxed{\Phi = BA\cos\theta}
-$$
 
 Where $A$ is the area and $\theta$ is the angle between the field and the normal to the area.
 
@@ -177,9 +152,7 @@ SI unit: weber (Wb). $1\ \mathrm{Wb} = 1\ \mathrm{T\,m^2}$.
 
 **Statement.** The magnitude of the induced e.m.f. Equals the rate of change of flux linkage:
 
-$$
 \boxed{|\varepsilon| = N\left|\frac{d\Phi}{dt}\right|}
-$$
 
 Where $N$ is the number of turns and $N\Phi$ is the flux linkage.
 
@@ -190,9 +163,7 @@ magnetic Flux that produced it.
 
 Lenz's law is the physical content of the minus sign in the full Faraday equation:
 
-$$
 \varepsilon = -N\frac{d\Phi}{dt}
-$$
 
 **Energy conservation argument.** If the induced current reinforced the flux change rather than
 Opposing it, a self-amplifying cycle would create energy from nothing. The opposition ensures that
@@ -206,9 +177,7 @@ rule to find The induced current direction.
 
 A conducting rod of length $l$ moving at velocity $v$ perpendicular to a uniform field $B$:
 
-$$
 \boxed{\varepsilon = Blv}
-$$
 
 **Proof.** In time $dt$ The rod sweeps area $l \cdot v\,dt$. Flux swept: $d\Phi = Blv\,dt$. By
 Faraday's law: $\varepsilon = d\Phi/dt = Blv$. $\square$
@@ -221,17 +190,11 @@ $\varepsilon = Bvl$.
 
 A coil of $N$ turns, area $A$ Rotating at angular frequency $\omega$ in uniform field $B$:
 
-$$
 \Phi = NBA\cos(\omega t)
-$$
 
-$$
 \varepsilon = -\frac{d\Phi}{dt} = NBA\omega\sin(\omega t)
-$$
 
-$$
 \boxed{\varepsilon = \varepsilon_0\sin(\omega t)}
-$$
 
 Where the peak e.m.f. Is $\varepsilon_0 = NBA\omega$.
 
@@ -244,22 +207,16 @@ A transformer consists of a primary coil and a secondary coil wound on a shared 
 
 ### Ideal Transformer Equations
 
-$$
 \boxed{\frac{V_s}{V_p} = \frac{N_s}{N_p}}
-$$
 
 **Proof.** The same changing flux $\Phi$ threads both coils. By Faraday's law: $V_p = N_p|d\Phi/dt|$
 and $V_s = N_s|d\Phi/dt|$. Dividing gives the result. $\square$
 
 For an ideal transformer (no energy losses), power is conserved:
 
-$$
 V_p I_p = V_s I_s
-$$
 
-$$
 \frac{I_s}{I_p} = \frac{N_p}{N_s}
-$$
 
 A step-up transformer ($N_s \gt N_p$) increases voltage but decreases current. A step-down
 transformer ($N_s \lt N_p$) decreases voltage but increases current.
@@ -279,9 +236,7 @@ transformer ($N_s \lt N_p$) decreases voltage but increases current.
 
 ### Transformer Efficiency
 
-$$
 \eta = \frac{V_s I_s}{V_p I_p} \times 100\%
-$$
 
 Modern transformers achieve efficiencies exceeding 95% for power distribution applications.
 
@@ -303,28 +258,20 @@ Check: $V_p I_p = 240 \times 0.40 = 96$ W. $V_s I_s = 12 \times 8.0 = 96$ W. $\c
 
 When the current in a coil changes, the changing flux through the coil itself induces an e.m.f.:
 
-$$
 \boxed{\varepsilon = -L\frac{dI}{dt}}
-$$
 
 Where $L$ is the self-inductance in henry (H).
 $1\ \mathrm{H} = 1\ \mathrm{Wb\,A^{-1}} = 1\ \mathrm{V\,s\,A^{-1}}$.
 
 ### Energy Stored in an Inductor
 
-$$
 \boxed{E = \frac{1}{2}LI^2}
-$$
 
 **Proof.** Power delivered to inductor while current grows from 0 to $I$:
 
-$$
 P = -\varepsilon I = LI\frac{dI}{dt}
-$$
 
-$$
 E = \int_0^t P\,dt' = \int_0^I LI'\,dI' = \frac{1}{2}LI^2
-$$
 
 $\square$
 
@@ -339,13 +286,9 @@ Wire 1 (current $I_1$) creates field at distance $d$: $B_1 = \mu_0 I_1/(2\pi d)$
 
 Wire 2 (current $I_2$ Length $L$) in this field experiences force:
 
-$$
 F = B_1 I_2 L = \frac{\mu_0 I_1 I_2 L}{2\pi d}
-$$
 
-$$
 \boxed{\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}}
-$$
 
 ### Direction
 
@@ -529,7 +472,6 @@ right angles to a uniform magnetic field of flux density $0.4\ \mathrm{T}$. Calc
 the wire.
 
 **Solution.** $$F = BIl = 0.4 \times 5 \times 0.3 = 0.6\ \mathrm{N}
-$$
 
 Direction: by Fleming's left-hand rule, the force is perpendicular to both the field and current.
 
@@ -543,13 +485,9 @@ path. ($m_e = 9.11 \times 10^{-31}\ \mathrm{kg}$, $e = 1.6 \times 10^{-19}\ \mat
 
 **Solution.** The magnetic force provides the centripetal force:
 
-$$
 Bev = \frac{mv^2}{r} \implies r = \frac{mv}{Be}
-$$
 
-$$
 r = \frac{9.11 \times 10^{-31} \times 2 \times 10^6}{0.05 \times 1.6 \times 10^{-19}} = \frac{1.822 \times 10^{-24}}{8 \times 10^{-21}} = 2.28 \times 10^{-4}\ \mathrm{m} = 0.228\ \mathrm{mm}
-$$
 
 $\blacksquare$
 

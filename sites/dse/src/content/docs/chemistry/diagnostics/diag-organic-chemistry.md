@@ -78,7 +78,6 @@ Given the $Na_{2}CO_{3}$ result, $X$ must be propanoic acid.
 Name: **propanoic acid**
 
 (c) $$2CH_{3}CH_{2}COOH + Na_{2}CO_{3} \rightarrow 2CH_{3}CH_{2}COONa + H_{2}O + CO_{2}
-$$
 
 ---
 
@@ -97,9 +96,7 @@ $$
 
 Consider the reaction of 2-bromo-2-methylpropane with aqueous sodium hydroxide:
 
-$$
 (CH_{3})_{3}CBr + NaOH(aq) \rightarrow (CH_{3})_{3}COH + NaBr
-$$
 
 (a) State the type of mechanism for this reaction and explain why this mechanism is favoured for
 tertiary halogenoalkanes. [3 marks]
@@ -138,9 +135,7 @@ Tertiary halogenoalkanes favour $S_{N}1$ because:
 The $C-Br$ bond breaks, with both electrons going to the bromine atom. A tertiary carbocation
 intermediate is formed.
 
-$$
 (CH_{3})_{3}C-Br \rightarrow (CH_{3})_{3}C^{+} + Br^{-}
-$$
 
 (Curly arrow from the $C-Br$ bond to the $Br$ atom.)
 
@@ -148,18 +143,14 @@ $$
 
 The hydroxide ion ($OH^{-}$) attacks the carbocation, forming the alcohol.
 
-$$
 (CH_{3})_{3}C^{+} + OH^{-} \rightarrow (CH_{3})_{3}COH
-$$
 
 (Curly arrow from the lone pair on $O$ of $OH^{-}$ to the carbocation carbon.)
 
 (c) The rate-determining step (step 1) involves **only the halogenoalkane** molecule. The $OH^{-}$
 is not involved until the fast second step. Therefore:
 
-$$
 \text{Rate} = k[(CH_{3})_{3}CBr]
-$$
 
 The reaction is **first order** with respect to the halogenoalkane and **zero order** with respect
 to NaOH (or $OH^{-}$).
@@ -259,17 +250,11 @@ cis-trans isomerism to occur, but-1-ene fails this requirement.
 
 Complete the following reaction scheme by identifying compounds $A$ to $E$:
 
-$$
 CH_{3}CH_{2}OH \xrightarrow[\text{excess}]{K_{2}Cr_{2}O_{7}/H^{+}} A \xrightarrow[\text{heat}]{\text{alkaline } I_{2}} B + CHI_{3} \downarrow
-$$
 
-$$
 B \xrightarrow{LiAlH_{4}} C \xrightarrow{HBr} D \xrightarrow{NaOH(aq)} C
-$$
 
-$$
 A \xrightarrow{CH_{3}CH_{2}OH / H^{+}} E
-$$
 
 (a) Identify compounds $A$ to $E$ and name each. [5 marks]
 
@@ -450,31 +435,24 @@ Reagent: Bromine ($Br_{2}$) in an inert organic solvent (e.g., $CCl_{4}$ or cycl
 
 Conditions: Room temperature, in the dark (or with light excluded)
 
-$$
 CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}Br-CHBr-CH_{3}
-$$
 
 This is a **one-step** synthesis: direct addition of $Br_{2}$ across the double bond gives exactly
 the desired 1,2-dibromopropane.
 
 (b) $$CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}BrCHBrCH_{3}
-$$
 
 (1,2-dibromopropane)
 
 (c) If $HBr$ is added first:
 
-$$
 CH_{2}=CHCH_{3} + HBr \rightarrow CH_{3}-CHBr-CH_{3}
-$$
 
 (2-bromopropane -- Markovnikov addition places $Br$ on the more substituted carbon)
 
 Then adding $Br_{2}$ to 2-bromopropane would give:
 
-$$
 CH_{3}-CHBr-CH_{3} + Br_{2} \rightarrow CH_{3}-CBr_{2}-CH_{3} + HBr
-$$
 
 This is a **substitution** reaction (not addition, since there is no $C=C$), giving
 2,2-dibromopropane, NOT 1,2-dibromopropane.

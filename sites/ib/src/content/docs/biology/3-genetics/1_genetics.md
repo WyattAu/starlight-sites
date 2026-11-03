@@ -926,9 +926,7 @@ student could modify the experiment to increase confidence in their conclusion.
 When a recessive allele is lethal (homozygous individuals die before reproduction), the population
 Deviates from Hardy-Weinberg expectations:
 
-$$
 q' = \frac{q(1 - sq)}{1 - sq^2}
-$$
 
 Where $s$ is the selection coefficient against homozygotes ($s = 1$ for lethal). Each generation,
 the Frequency of the deleterious allele decreases, but the rate of decrease slows as $q$ becomes
@@ -938,9 +936,7 @@ small (because most copies of the allele are "hidden" in heterozygotes).
 
 For a recessive lethal allele with mutation rate $\mu$:
 
-$$
 \hat{q} = \sqrt{\frac{\mu}{s}}
-$$
 
 This is the balance between new mutations introducing the allele and selection removing it.
 
@@ -949,9 +945,7 @@ This is the balance between new mutations introducing the allele and selection r
 Genetic drift causes random fluctuations in allele frequencies that are more pronounced in small
 Populations:
 
-$$
 \sigma^2_{\Delta q} = \frac{p(1-p)}{2N_e}
-$$
 
 Where $N_e$ is the effective population size.
 
@@ -967,9 +961,7 @@ Where $N_e$ is the effective population size.
 
 Migration between populations introduces new alleles:
 
-$$
 \Delta p = m(p_m - p_r)
-$$
 
 Where $m$ is the migration rate, $p_m$ is the allele frequency in migrants, and $p_r$ is the Allele
 frequency in residents. Gene flow tends to homogenise populations and counteract the effects Of
@@ -994,9 +986,7 @@ A cross involving three genes, each with two alleles, on different chromosomes.
 
 For a trihybrid cross $AaBbCc \times AaBbCc$:
 
-$$
 \text{Expected phenotypic ratio} = 27:9:9:9:3:3:3:1
-$$
 
 This ratio arises from $2^3 = 8$ phenotype classes based on the presence or absence of the dominant
 Allele at each of three loci.
@@ -1793,9 +1783,7 @@ genetic predisposition To non-disjunction.
 When two genes are on the same chromosome (linked), their recombination frequency reflects their
 physical distance apart. This is the basis for genetic mapping:
 
-$$
 \text{Map distance (cM)} = \text{Recombination frequency (\%)}
-$$
 
 For small distances ($< 10\;\mathrm{cM}$), map distance and recombination frequency are
 approximately Equal. For larger distances, recombination frequency plateaus at $50\%$ (due to
@@ -1803,11 +1791,9 @@ multiple crossovers Between distant genes, which can restore the parental arrang
 functions (Haldane, Kosambi) correct for this:
 
 **Haldane's mapping function** (assumes crossovers are independent): $$d = -\frac{1}{2}\ln(1 - 2r)
-$$
 where $d$ is map distance in Morgans and $r$ is recombination frequency.
 
 **Kosambi's mapping function** (accounts for crossover interference):
-$$
 d = \frac{1}{4}\ln\frac{1 + 2r}{1 - 2r}
 $$
 

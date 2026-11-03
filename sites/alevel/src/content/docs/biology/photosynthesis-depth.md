@@ -33,11 +33,8 @@ stored in organic molecules. The overall equation for photosynthesis:
 
 $$
 6\mathrm{CO_2} + 6\mathrm{H_2O} \xrightarrow{\text{light}} \mathrm{C_6H_{12}O_6} + 6\mathrm{O_2}
-$$
 
-$$
 \Delta G = +2870\ \mathrm{kJ\ mol^{-1}}
-$$
 
 Photosynthesis is endergonic -- energy is required. This energy is supplied by light, captured by
 photosynthetic pigments and converted to chemical energy in the form of ATP and reduced NADP
@@ -158,9 +155,7 @@ lowest, least soluble).
 
 The **$R_f$ value** (retention factor) can be calculated:
 
-$$
 R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by solvent front}}
-$$
 
 ## 4. Light-Dependent Reactions
 
@@ -200,9 +195,7 @@ very strong oxidising agent.
 **Step 2: Photolysis of water.** The strong oxidising power of $\mathrm{P680^+}$ is used to split
 water molecules in a process called **photolysis**:
 
-$$
 \mathrm{2H_2O \to 4H^+ + 4e^- + O_2}
-$$
 
 The electrons replace those lost by P680. The $\mathrm{O_2}$ is released as a by-product (all
 atmospheric $\mathrm{O_2}$ comes from photosynthesis). The $\mathrm{H^+}$ ions contribute to the
@@ -223,9 +216,7 @@ re-exciting P700. P700 donates the electron to ferredoxin (Fd) via ferredoxin-NA
 **Step 5: $\mathrm{NADPH}$ production.** The enzyme ferredoxin-NADP reductase (FNR) transfers
 electrons from ferredoxin to $\mathrm{NADP^+}$ Reducing it to $\mathrm{NADPH}$:
 
-$$
 \mathrm{NADP^+ + 2e^- + H^+ \to NADPH}
-$$
 
 **Step 6: ATP synthesis by chemiosmosis.** The proton gradient across the thylakoid membrane (high
 $\mathrm{H^+}$ in the lumen, low in the stroma) drives ATP synthesis by ATP synthase. Protons flow
@@ -273,9 +264,7 @@ $\mathrm{CO_2}$ with ribulose-1,5-bisphosphate (RuBP, 5-carbon) to produce an un
 intermediate. This immediately splits into two molecules of **glycerate-3-phosphate (GP, also called
 3-phosphoglycerate, 3-PGA)**, each with 3 carbons:
 
-$$
 \mathrm{CO_2 + RuBP\ (5C) \to 2\ GP\ (3C)}
-$$
 
 Rubisco is the most abundant protein on Earth. It is also a relatively slow enzyme (turnover number
 $\approx 3\ \mathrm{s^{-1}}$), which limits the rate of photosynthesis.
@@ -283,13 +272,9 @@ $\approx 3\ \mathrm{s^{-1}}$), which limits the rate of photosynthesis.
 **Step 2: Reduction of GP to triose phosphate (TP).** GP is phosphorylated by ATP (from the
 light-dependent reactions) and then reduced by $\mathrm{NADPH}$:
 
-$$
 \mathrm{GP + ATP \to 1,3\text{-}bisphosphoglycerate + ADP}
-$$
 
-$$
 \mathrm{1,3\text{-}BPG + NADPH + H^+ \to triose\ phosphate\ (TP,\ G3P) + NADP^+ + P_i}
-$$
 
 This step requires 1 ATP and 1 $\mathrm{NADPH}$ per molecule of GP (2 ATP and 2 $\mathrm{NADPH}$ per
 $\mathrm{CO_2}$ fixed).
@@ -319,9 +304,7 @@ For every 3 turns (fixing 3 $\mathrm{CO_2}$):
 
 The net equation for the Calvin cycle (per glucose):
 
-$$
 6\mathrm{CO_2} + 18\ ATP + 12\ NADPH + 12\ H_2O \to C_6H_{12}O_6 + 18\ ADP + 18\ P_i + 12\ NADP^+
-$$
 
 ### 5.4 Fate of Triose Phosphate (G3P)
 
@@ -467,9 +450,7 @@ maximising photosynthetic efficiency at high temperatures.
    affinity for $\mathrm{CO_2}$ than Rubisco and does not react with $\mathrm{O_2}$) by combining
    with phosphoenolpyruvate (PEP, 3-carbon) to form oxaloacetate (4-carbon, hence "$\mathrm{C_4}$").
 
-$$
 \mathrm{PEP + CO_2 \to oxaloacetate}
-$$
 
 1. Oxaloacetate is converted to malate (or aspartate, another 4-carbon acid).
 
@@ -558,9 +539,7 @@ lamp:
 
 Light intensity is inversely proportional to the square of the distance (inverse square law):
 
-$$
 I \propto \frac{1}{d^2}
-$$
 
 Relative light intensities: $d = 5 \Rightarrow I = 400$; $d = 10 \Rightarrow I = 100$;
 $d = 20 \Rightarrow I = 25$; $d = 30 \Rightarrow I = 11.1$; $d = 50 \Rightarrow I = 4$.
@@ -767,9 +746,7 @@ released by respiration.
 **Net photosynthesis** is the rate of $\mathrm{CO_2}$ uptake minus the rate of $\mathrm{CO_2}$
 release from respiration:
 
-$$
 \text{Net photosynthesis} = \text{Gross photosynthesis} - \text{Respiration}
-$$
 
 **Worked Example.** A plant's leaves fix $\mathrm{CO_2}$ at a rate of
 $12.0\ \mu\mathrm{mol\ m^{-2}\ s^{-1}}$ (gross photosynthesis) and release $\mathrm{CO_2}$ at a rate
@@ -821,9 +798,7 @@ absorption.
 
 Aquatic plants face a unique challenge: $\mathrm{CO_2}$ dissolves in water and forms carbonic acid:
 
-$$
 \mathrm{CO_2} + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^- \rightleftharpoons 2H^+ + CO_3^{2-}
-$$
 
 This reduces the concentration of freely available $\mathrm{CO_2}$ (as dissolved $\mathrm{CO_2}$),
 potentially limiting photosynthesis. Aquatic plants have adaptations:
@@ -932,9 +907,7 @@ warming.
 
 For a stable atmospheric $\mathrm{CO_2}$ concentration:
 
-$$
 \text{Photosynthetic fixation} = \text{Respiration} + \text{Combustion} + \text{Decomposition}
-$$
 
 Currently, anthropogenic $\mathrm{CO_2}$ emissions exceed the capacity of natural sinks
 (photosynthesis and ocean absorption), leading to accumulation. Deforestation reduces photosynthetic
@@ -1083,9 +1056,7 @@ Chromatography separates mixtures based on differential partitioning between a *
 
 1. Calculate the **retention factor ($R_f$)** for each pigment:
 
-$$
 R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by solvent front}}
-$$
 
 ### 16.2 Expected Results
 
@@ -1201,9 +1172,7 @@ which are held constant.
 
 Light intensity follows the **inverse square law**:
 
-$$
 I \propto \frac{1}{d^2}
-$$
 
 If the light intensity at 10 cm is $400\ \mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$ Then at 40 cm:
 
@@ -1350,9 +1319,7 @@ engulfed by a eukaryotic cell (primary endosymbiosis). Evidence:
 The relationship between light intensity and photosynthetic rate can be described by a rectangular
 hyperbola:
 
-$$
 P = \frac{P_{\max} \times I}{K_m + I}
-$$
 
 Where $P$ = photosynthetic rate, $P_{\max}$ = maximum rate (at saturation), $I$ = light intensity,
 $K_m$ = light intensity at which the rate is half of $P_{\max}$.
@@ -1407,16 +1374,12 @@ rate even when light intensity is at its peak.
 **Step 1 (mesophyll cells):** $\mathrm{CO_2}$ is fixed by PEP carboxylase to form oxaloacetate (4C),
 which is converted to malate.
 
-$$
 \mathrm{PEP + CO_2 \xrightarrow{PEP\ carboxylase} oxaloacetate \to malate}
-$$
 
 **Step 2 (bundle sheath cells):** malate diffuses into the bundle sheath cells (through
 plasmodesmata) and is decarboxylated, releasing $\mathrm{CO_2}$.
 
-$$
 \mathrm{Malate \to pyruvate + CO_2}
-$$
 
 The released $\mathrm{CO_2}$ has a high concentration in the bundle sheath cells (up to 60 times
 atmospheric), which suppresses the oxygenase activity of Rubisco and minimises photorespiration.
@@ -1494,9 +1457,7 @@ oxygen when illuminated in the presence of an artificial electron acceptor (e.g.
 This proved that oxygen production (photolysis of water) is separate from carbon fixation (the
 Calvin cycle), which requires $\mathrm{CO_2}$.
 
-$$
 2\mathrm{H_2O + 2\ \text{ferricyanide (oxidised)} \xrightarrow{\text{light, chloroplasts}} O_2 + 2\ \text{ferrocyanide (reduced)} + 4H^+}
-$$
 
 ### 21.5 Calvin, Benson, and Bassham (1950s)
 
@@ -1599,9 +1560,7 @@ RuBP.
 
 ### 23.3 Calculating Net Primary Productivity (NPP)
 
-$$
 \mathrm{NPP} = \mathrm{GPP} - R
-$$
 
 Where:
 
@@ -1612,9 +1571,7 @@ Where:
 **Example:** A forest has a GPP of $20,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$ and respiratory losses of
 $12,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$.
 
-$$
 \mathrm{NPP} = 20,000 - 12,000 = 8,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}
-$$
 
 The NPP represents the energy available to the next trophic level (herbivores). Only approximately
 10--20% of NPP is transferred to herbivores (the rest is lost as heat, uneaten material, or
@@ -1793,7 +1750,6 @@ suppresses photorespiration:
 1. **$\mathrm{CO_2}$ fixation**: $\mathrm{CO_2}$ is initially fixed by PEP carboxylase in mesophyll
    cells. PEP carboxylase has a much higher affinity for $\mathrm{CO_2}$ than Rubisco and does not
    react with $\mathrm{O_2}$. $$\mathrm{PEP + CO_2 \to oxaloacetate\ (4C)}
-$$
 2. **Conversion**: oxaloacetate is converted to malate (or aspartate) and transported to bundle
    sheath cells (which surround the vascular bundles).
 3. **Decarboxylation**: malate is decarboxylated in bundle sheath cells, releasing $\mathrm{CO_2}$
@@ -1858,9 +1814,7 @@ initial $\mathrm{CO_2}$ fixation and the Calvin cycle in time rather than in spa
    (pheophytin).
 3. P680+ is a very strong oxidising agent. It extracts electrons from water by photolysis:
 
-$$
 2\mathrm{H_2O \to 4H^+ + 4e^- + O_2}
-$$
 
 1. The electron passes through the PSII electron transport chain: pheophytin $\to$ plastoquinone
    (PQ) $\to$ cytochrome $b_6f$ complex.
@@ -1877,9 +1831,7 @@ $$
 4. Ferredoxin-NADP$^+$ reductase (FNR) transfers electrons from reduced ferredoxin to
    $\mathrm{NADP^+}$:
 
-$$
 \mathrm{NADP^+ + 2H^+ + 2e^- \to NADPH}
-$$
 
 The $\mathrm{H^+}$ ions come from the stroma (not the lumen).
 
@@ -1965,9 +1917,7 @@ PSI can operate in cyclic mode:
 When $\mathrm{O_2}$ concentration is high (or $\mathrm{CO_2}$ is low), Rubisco catalyses the
 oxygenation of RuBP:
 
-$$
 \text{RuBP} + \mathrm{O_2} \to \text{1 GP (3C)} + \text{glycolate (2C)}
-$$
 
 Glycolate is transported to peroxisomes, where it is converted to glycine (2C). Two glycines are
 converted to serine (3C) + $\mathrm{CO_2}$ + $\mathrm{NH_3}$ (in mitochondria). Serine is converted
@@ -2708,9 +2658,7 @@ For 6 $\mathrm{CO_2}$: ATP $= 6 \times 3 = 18$. NADPH $= 6 \times 2 = 12$.
 Net product: 2 molecules of triose phosphate (G3P), which combine to form 1 molecule of glucose
 ($\mathrm{C_6H_{12}O_6}$).
 
-$$
 6\mathrm{CO_2} + 18\ \mathrm{ATP} + 12\ \mathrm{NADPH} + 12\ \mathrm{H_2O} \to \mathrm{C_6H_{12}O_6} + 18\ \mathrm{ADP} + 18\ P_i + 12\ \mathrm{NADP^+}
-$$
 
 $\blacksquare$
 
@@ -2735,7 +2683,6 @@ $\blacksquare$
 
 **Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
 
-```mermaid
 flowchart LR
     A[Sunlight] --> B[Photosystem II]
     B --> C[Electron Transport Chain]
@@ -2748,7 +2695,6 @@ flowchart LR
     H --> I[CO2 Fixation: RuBisCO]
     I --> J[G3P -> Glucose]
     J --> K[Starch / Sucrose]
-```
 
 ## Summary
 

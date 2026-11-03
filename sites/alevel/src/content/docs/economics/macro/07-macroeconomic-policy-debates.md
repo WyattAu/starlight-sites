@@ -37,9 +37,7 @@ Mechanism ensuring full employment.
 5. **Liquidity preference** determines the interest rate: the demand for money is a stable function
    of income and the interest rate
 
-$$
 IS-LM: \quad Y = C(Y - T) + I(r) + G, \quad \frac{M}{P} = L(Y, r)
-$$
 
 ### 1.2 The Monetarist Counter-Revolution
 
@@ -48,9 +46,7 @@ Friedman (1968, _The Role of Monetary Policy_) and the monetarists argued:
 1. **"Inflation is always and everywhere a monetary phenomenon"**: sustained inflation is caused by
    excessive growth of the money supply
 
-$$
 \pi = \Delta M - \Delta V + \Delta Y \approx \Delta M - \Delta Y
-$$
 
 (from the quantity theory: $MV = PY$)
 
@@ -117,17 +113,13 @@ Believe the announcement. The equilibrium has high inflation with no output gain
 
 Formally, the central bank's loss function:
 
-$$
 L = (\pi - \pi^*)^2 + \beta(u - u^*)^2
-$$
 
 Minimising subject to the Phillips curve $\pi = \pi^e - \alpha(u - u^*)$:
 
 Under **discretion** (after expectations are formed): the optimal policy creates inflation bias:
 
-$$
 \pi_{discretion} = \pi^* + \frac{\beta \alpha}{1 + \beta \alpha^2} > \pi^*
-$$
 
 Under a **rule** (commitment to $\pi = \pi^*$): $\pi = \pi^*$ with no bias.
 
@@ -139,9 +131,7 @@ The **Taylor Rule** (Taylor, 1993) is a specific monetary policy rule that presc
 central bank should set the interest rate in response to deviations of inflation from target and
 output from potential:
 
-$$
 i = r^* + \pi + 0.5(\pi - \pi^*) + 0.5(y - y^*)
-$$
 
 Where:
 
@@ -164,9 +154,7 @@ Inflation exceeds target, and by 0.5% for every 1% that output exceeds potential
 <summary>Worked Example</summary>
 Suppose $r^* = 2\%$, $\pi^* = 2\%$ Current $\pi = 5\%$ Output gap = $-3\%$ (recession).
 
-$$
 i = 2 + 5 + 0.5(5 - 2) + 0.5(-3) = 2 + 5 + 1.5 - 1.5 = 7\%
-$$
 
 The Taylor Rule prescribes a 7% policy rate: above neutral (4%) to fight inflation, but moderated by
 the recessionary output gap.
@@ -226,9 +214,7 @@ Most modern central banks use **inflation targeting with discretion**:
 - **Flexibility** to respond to shocks (the target is symmetric, deviations above and below are
   equally undesirable)
 
-$$
 \mathrm{UK (1992–present), NZ (1990–present), Canada (1991–present), Eurozone (2003–present)}
-$$
 
 :::note
 (Paper 3) often Asks about the role of central bank independence in achieving macroeconomic
@@ -267,9 +253,7 @@ Regime.
 3. **Rational expectations**: agents use all available information, including understanding of the
    policy regime, when forming expectations
 
-$$
 \mathrm{Policy change} \Rightarrow \mathrm{Expectations change} \Rightarrow \mathrm{Behaviour changes} \Rightarrow \mathrm{Old model parameters invalid}
-$$
 
 ## 4. Post-2008 Policy Debates
 
@@ -278,17 +262,13 @@ $$
 The **zero lower bound** is the constraint that nominal interest rates cannot fall significantly
 below zero (since holding cash pays zero nominal interest).
 
-$$
 i \geq 0 \mathrm{ (approximately)}
-$$
 
 When the equilibrium real interest rate is negative (as during a severe recession), the central bank
 cannot cut rates far enough to stimulate the economy. The economy is caught in a **liquidity trap**
 (Keynes, 1936):
 
-$$
 r^* < 0 \Rightarrow i = 0 \Rightarrow r = i - \pi^e = -\pi^e
-$$
 
 Even with zero nominal rates, the real interest rate may be positive if expected inflation is
 negative (deflation). In this case, monetary policy is impotent, conventional tools have been
@@ -302,21 +282,13 @@ Long-term interest rates when the policy rate is at the ZLB.
 
 **Mechanism:**
 
-$$
 \mathrm{Central bank buys bonds} \Rightarrow \mathrm{bond prices rise} \Rightarrow \mathrm{bond yields fall} \Rightarrow \mathrm{long-term interest rates fall}
-$$
 
-$$
 \Rightarrow \mathrm{cheaper borrowing for firms and households} \Rightarrow \mathrm{investment and consumption increase}
-$$
 
-$$
 \Rightarrow \mathrm{asset prices rise (portfolio rebalancing)} \Rightarrow \mathrm{wealth effect} \Rightarrow \mathrm{consumption increases}
-$$
 
-$$
 \Rightarrow \mathrm{exchange rate may depreciate} \Rightarrow \mathrm{exports increase}
-$$
 
 **UK QE programme**: The Bank of England purchased £875 billion of assets between 2009 and 2021,
 Expanding the monetary base from ~£100bn to ~£800bn.
@@ -462,9 +434,7 @@ Mitchell, argues:
    can always meet obligations denominated in that currency by creating money. The constraint is not
    solvency but inflation.
 
-$$
 \mathrm{Government can always pay} \iff \mathrm{debt denominated in own currency}
-$$
 
 1. **Functional finance** (Lerner, 1943): fiscal policy should be used to achieve full employment
    and price stability, regardless of the deficit. The deficit is not a target, real outcomes are.
@@ -475,9 +445,7 @@ $$
 
 3. **Sectoral balances**: the government deficit equals the non-government sector surplus:
 
-$$
 (G - T) = (S - I) + (M - X)
-$$
 
 If the government runs a balanced budget, the private sector cannot net-save (unless there is a
 current account surplus). A government deficit is necessary for private sector net saving.
@@ -589,9 +557,7 @@ Macroeconomic objectives simultaneously.
 
 Instead of targeting inflation, the central bank could target the **growth rate of nominal GDP**:
 
-$$
 \mathrm{Target: } \Delta(NGDP) = \Delta(Real\ GDP) + \pi = \mathrm{constant (e.g., 5\%)}
-$$
 
 ### 7.2 Advantages over Inflation Targeting
 
@@ -811,11 +777,8 @@ complete regime change.
 - Equilibrium real interest rate: $r^* = 2\%$
 
 **Taylor Rule (standard version):** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(g - g^*)
-$$
 
-$$
 i = 2 + 2 + 0.5(6 - 2) + 0.5(1.0 - 2.5) = 4 + 2 - 0.75 = 5.25\%
-$$
 
 **Interpretation:** The Taylor Rule recommends an interest rate of 5.25%. The inflation gap (4
 percentage points above target) pushes rates up by 2 percentage points. The output gap (1.5
@@ -845,9 +808,7 @@ but 1.0 on the level since $i$ includes $\pi^*$) satisfies this principle.
 2021 and August 2023. Inflation peaked at 11.1% in October 2022.
 
 Taylor Rule recommendation at peak inflation ($\pi = 11.1\%$$g = 0.2\%$):
-$$
 i = 2 + 2 + 0.5(11.1 - 2) + 0.5(0.2 - 2.5) = 4 + 4.55 - 1.15 = 7.4\%
-$$
 
 The actual Bank Rate (5.25%) was BELOW the Taylor Rule recommendation, suggesting monetary policy
 was still accommodative relative to the inflation outlook. This gap partly reflected the cost-push
@@ -872,9 +833,7 @@ $u = u^*$. Loss $= 0 + 0 = 0$. First-best outcome.
 
 **If the government reneges (discretion):** After wages are set at $\pi^e = 2\%$ The government
 minimises:
-$$
 L = (\pi - 2)^2 + \beta(u^* - \alpha(\pi - 2) - u^*)^2 = (\pi - 2)^2 + \beta\alpha^2(\pi - 2)^2 = (\pi - 2)^2(1 + \beta\alpha^2)
-$$
 
 Minimising: $\pi^* = 2$ (optimal to stick to the promise). Loss is still zero.
 
@@ -886,24 +845,18 @@ than $\pi^e$ because the government tries to exploit the short-run Phillips curv
 shock.
 
 **Rational expectations:** Workers anticipate the government's incentive to inflate. In equilibrium:
-$$
 \pi^e = \pi^* + \frac{\beta\alpha}{1 + \beta\alpha^2}(u^* - u^*) = \pi^*
-$$
 
 Wait -- let me redo this properly. Under rational expectations with discretion:
 
-$$
 \pi = \pi^* + \frac{\beta\alpha}{1 + \beta\alpha^2}\epsilon
-$$
 
-$$
 \pi^e = \pi^* + \frac{\beta\alpha}{1 + \beta\alpha^2}\epsilon
 $$
 
 Workers correctly anticipate the inflationary bias. The unemployment rate is:
 $$
 u = u^* + \epsilon - \alpha\left(\frac{\beta\alpha}{1 + \beta\alpha^2}\epsilon\right) = u^* + \frac{\epsilon}{1 + \beta\alpha^2}
-$$
 
 The output gain from surprise inflation is zero (since workers anticipate it), but inflation is
 higher. This is the **inflationary bias** of discretionary policy.
@@ -995,7 +948,6 @@ unemployment falls below 7% (similar to the Fed's forward guidance in 2012-2013)
   channel.
 
 **Quantitative impact.** Suppose the yield curve is: $$r_{10y} = E[r_{1y}] + \text{term premium}
-$$
 
 Without forward guidance: $E[r_{1y}] = 2.5\%$ in 3 years. Term premium = 1%. $r_{10y} = 3.5\%$.
 

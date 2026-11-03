@@ -113,11 +113,8 @@ $r = 3$).
 
 $$
 M(x) = x^5 + x^4 + x^2, \quad G(x) = x^3 + x + 1
-$$
 
-$$
 M_{\mathrm{aug}(x) = x^8 + x^7 + x^5}
-$$
 
 Division steps:
 
@@ -174,9 +171,7 @@ returns From the farthest point on the network. The worst-case round-trip propag
 $2\tau$ Where $\tau = d/v$ ($d$ is the maximum cable length, $v$ is the signal propagation speed,
 $2 \times 10^8$ m/s in copper). The minimum frame size is therefore:
 
-$$
 L_{\min} = R \times 2\tau = \frac{2Rd}{v}
-$$
 
 Where $R$ is the data rate.
 
@@ -187,15 +182,12 @@ A 100 Mbps Ethernet network uses a maximum cable length of 2 km. Signal propagat
 $2 \times 10^8$ m/s. Calculate the minimum frame size.
 
 One-way propagation delay: $$\tau = \frac{d}{v} = \frac{2000}{2 \times 10^8} = 10\;\mu\mathrm{s}
-$$
 
 Worst case: collision occurs at the far end, signal must travel back. Total time is
 $2\tau = 20\;\mu\mathrm{s}$.
 
 The sender must still be transmitting after $2\tau$:
-$$
 L_{\min} = R \times 2\tau = 100 \times 10^6 \times 20 \times 10^{-6} = 2000\;\mathrm{bits} = 250\;\mathrm{bytes}
-$$
 
 **Answer:** The minimum frame size is 250 bytes (2000 bits). Any frame shorter than this risks an
 Undetected collision.
@@ -228,7 +220,6 @@ Transmitting (half-duplex radio). Uses RTS/CTS handshake and inter-frame spacing
   terminal problem.
 - **RTS/CTS pseudocode:**
 
-```c
 void wifi_send(frame *f) {
     while (channel_busy()) wait(DIFS);
     send_RTS();
@@ -248,7 +239,6 @@ void wifi_send(frame *f) {
         wait(backoff);
     }
 }
-```
 
 - **MIMO:** Multiple-Input Multiple-Output. Uses multiple antennas for spatial multiplexing
   (simultaneous streams) and diversity (reliability). 802.11n supports up to 4x4 MIMO.
@@ -298,9 +288,7 @@ is 1.
 
 **Theorem 3.3 (CSMA/CD efficiency).** The maximum efficiency of CSMA/CD is:
 
-$$
 \eta = \frac{1}{1 + 5a}
-$$
 
 Where $a = \tau / T_f$ is the ratio of propagation delay to frame transmission time.
 
@@ -373,13 +361,9 @@ Link rate, and $d_{\mathrm{prop}}$ is the propagation delay.
 
 For a path through $n$ switches:
 
-$$
 \mathrm{Store}\mathrm{-and\mathrm}{-forward\;latency} = n \cdot \frac{L}{R} + d_{\mathrm{total}}
-$$
 
-$$
 \mathrm{Cut}\mathrm{-through}\;latency} = \frac{L}{R} + (n-1) \cdot \frac{L_h}{R} + d_{\mathrm{total}
-$$
 
 <details>
 <summary>Worked Example: Switching Latency Comparison</summary>
@@ -389,15 +373,11 @@ Propagation delay.
 
 **Store-and-forward:**
 
-$$
 \mathrm{Latency} = 3 \times \frac{1500 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 36\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 51\;\mu\mathrm{s}
-$$
 
 **Cut-through:**
 
-$$
 \mathrm{Latency} = \frac{1500 \times 8}{10^9} + 2 \times \frac{14 \times 8}{10^9} + 3 \times 5 \times 10^{-6} = 12\;\mu\mathrm{s} + 0.224\;\mu\mathrm{s} + 15\;\mu\mathrm{s} = 27.2\;\mu\mathrm{s}
-$$
 
 **Answer:** Cut-through saves approximately 23.8 $\mu$ S (47% reduction) for this scenario, but it
 Cannot detect corrupted frames before forwarding them.

@@ -145,19 +145,13 @@ enthalpy of formation data? Explain. [2 marks]
 (a) Bonds broken:
 
 $$H-H: 436 \text{ kJ/mol}$$ $$Cl-Cl: 242 \text{ kJ/mol}$$
-$$
 \text{Total} = 436 + 242 = 678 \text{ kJ/mol}
-$$
 
 Bonds formed:
 
-$$
 2 \times H-Cl = 2 \times 431 = 862 \text{ kJ/mol}
-$$
 
-$$
 \Delta H = 678 - 862 = -184 \text{ kJ/mol}
-$$
 
 (b) The calculated value ($-184$) is very close to the actual value ($-184.6$), but the small
 difference arises because:
@@ -221,30 +215,18 @@ Mass of solution = $100.0$ g
 
 Temperature change = $26.7 - 20.0 = 6.7$ K
 
-$$
 q = mc\Delta T = 100.0 \times 4.18 \times 6.7 = 2800.6 \text{ J} = 2.80 \text{ kJ}
-$$
 
 Moles of water formed:
 
-$$
 n(HCl) = 1.00 \times 0.0500 = 0.0500 \text{ mol}
-$$
-$$
 n(NaOH) = 1.00 \times 0.0500 = 0.0500 \text{ mol}
-$$
-$$
 n(H_{2}O) = 0.0500 \text{ mol} \text{ (limiting reagent = both, equimolar)}
-$$
 
-$$
 \Delta H = \frac{-q}{n} = \frac{-2.80}{0.0500} = -56.0 \text{ kJ/mol}
-$$
 
 (b)
-$$
 \%\text{ error} = \frac{|-56.0 - (-57.1)|}{57.1} \times 100\% = \frac{1.1}{57.1} \times 100\% = 1.9\%
-$$
 
 The discrepancy is due to **heat loss to the surroundings** (the polystyrene cup is not a perfect
 insulator) and the heat absorbed by the cup itself (which was not accounted for in the calculation).
@@ -285,9 +267,7 @@ Given:
 (a) Calculate the enthalpy change for the hydrogenation of ethene using standard enthalpy of
 formation data:
 
-$$
 C_{2}H_{4}(g) + H_{2}(g) \rightarrow C_{2}H_{6}(g)
-$$
 
 [2 marks]
 
@@ -309,13 +289,9 @@ $$
 **Worked Solution**
 
 (a)
-$$
 \Delta H_{\text{rxn}} = \Delta H_{f}^{\circ}(C_{2}H_{6}) - \Delta H_{f}^{\circ}(C_{2}H_{4}) - \Delta H_{f}^{\circ}(H_{2})
-$$
 
-$$
 = -84.7 - 52.2 - 0 = -136.9 \text{ kJ/mol}
-$$
 
 (b) Bonds broken:
 
@@ -328,9 +304,7 @@ Bonds broken: $C=C + H-H + 4 \times C-H = 612 + 436 + 1648 = 2696$ kJ/mol
 Bonds formed (in $C_{2}H_{6}$$H_{3}C-CH_{3}$):
 $1 \times C-C + 6 \times C-H = 348 + 6 \times 412 = 348 + 2472 = 2820$ kJ/mol
 
-$$
 \Delta H = 2696 - 2820 = -124 \text{ kJ/mol}
-$$
 
 (c) The value from formation data ($-136.9$ kJ/mol) differs from the bond enthalpy value ($-124$
 kJ/mol) by 12.9 kJ/mol.
@@ -391,7 +365,6 @@ Given:
 
 (a) Born-Haber cycle:
 
-```
 Mg(s) + 1/2 O2(g) --[ΔHf°]--> MgO(s)
      |                              |
      | +147.1                       | [ΔHlattice]
@@ -405,31 +378,20 @@ Mg2+(g) + 1/2 O2(g)                 |
      | +249 (1/2 x 498)             |
      v                              |
 Mg2+(g) + O(g) ---------------------+
-```
 
 (b) Hess's law:
 
-$$
 \Delta H_{f}^{\circ} = \Delta H_{\text{atom}}(Mg) + IE_{1} + IE_{2} + \frac{1}{2}\Delta H_{\text{diss}}(O_{2}) + EA_{1} + EA_{2} + \Delta H_{\text{lattice}}
-$$
 
-$$
 -601.6 = 147.1 + 738 + 1451 + 249 + (-141) + 798 + \Delta H_{\text{lattice}}
-$$
 
-$$
 -601.6 = 147.1 + 738 + 1451 + 249 - 141 + 798 + \Delta H_{\text{lattice}}
-$$
 
 Sum of all terms except lattice: $147.1 + 738 + 1451 + 249 - 141 + 798 = 3242.1$
 
-$$
 -601.6 = 3242.1 + \Delta H_{\text{lattice}}
-$$
 
-$$
 \Delta H_{\text{lattice}} = -601.6 - 3242.1 = -3843.7 \text{ kJ/mol}
-$$
 
 (c) The second electron affinity of oxygen is endothermic because the $O^{-}$ ion already carries a
 negative charge. Adding a second electron to $O^{-}$ requires overcoming **electrostatic repulsion**
@@ -453,9 +415,7 @@ second electron onto the negatively charged ion.
 
 Methanol ($CH_{3}OH$) can be used as a fuel. The complete combustion of methanol is:
 
-$$
 2CH_{3}OH(l) + 3O_{2}(g) \rightarrow 2CO_{2}(g) + 4H_{2}O(l) \quad \Delta H = -1452 \text{ kJ/mol (for the equation as written)}
-$$
 
 The standard enthalpy of formation of $CO_{2}(g)$ is $-393.5$ kJ/mol and of $H_{2}O(l)$ is $-285.8$
 kJ/mol.
@@ -483,17 +443,11 @@ percentage efficiency of the experiment. [4 marks]
 
 (a) For 2 mol of methanol:
 
-$$
 \Delta H_{\text{rxn}} = 2\Delta H_{f}^{\circ}(CO_{2}) + 4\Delta H_{f}^{\circ}(H_{2}O) - 2\Delta H_{f}^{\circ}(CH_{3}OH) - 3\Delta H_{f}^{\circ}(O_{2})
-$$
 
-$$
 -1452 = 2(-393.5) + 4(-285.8) - 2\Delta H_{f}^{\circ}(CH_{3}OH) - 0
-$$
 
-$$
 -1452 = -787.0 - 1143.2 - 2\Delta H_{f}^{\circ}(CH_{3}OH)
-$$
 
 $$
 -1452 = -1930.2 - 2\Delta H_{f}^{\circ}(CH_{3}OH)

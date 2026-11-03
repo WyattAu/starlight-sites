@@ -31,32 +31,24 @@ Let $a$, $b$ And $c$ be real numbers. The following properties hold for inequali
 
 **Addition property:**
 
-$$
 A > b \implies a + c > b + c
-$$
 
 Adding the same quantity to both sides preserves the inequality.
 
 **Multiplication by a positive number:**
 
-$$
 A > b,\; c > 0 \implies ac > bc
-$$
 
 **Multiplication by a negative number (reversal):**
 
-$$
 A > b,\; c < 0 \implies ac < bc
-$$
 
 This is the most important rule to remember: multiplying or dividing both sides by a **negative**
 Number **reverses** the inequality sign.
 
 ### Transitivity
 
-$$
 A > b \mathrm{ and } b > c \implies a > c
-$$
 
 ### Other Properties
 
@@ -98,33 +90,25 @@ number line:
 <summary>Examples</summary>
 - Solve $3x - 7 > 5$:
 
-$$
 3x > 12 \implies x > 4
-$$
 
 The solution set is $(4, \infty)$.
 
 - Solve $2x + 3 \leq x - 4$:
 
-$$
 2x - x \leq -4 - 3 \implies x \leq -7
-$$
 
 The solution set is $(-\infty, -7]$.
 
 - Solve $-2x + 6 < 10$:
 
-$$
 -2x < 4 \implies x > -2
-$$
 
 Note the reversal of the inequality sign when dividing by $-2$. The solution set is $(-2, \infty)$.
 
 - Solve $5(x - 2) \geq 3x + 4$:
 
-$$
 5x - 10 \geq 3x + 4 \implies 2x \geq 14 \implies x \geq 7
-$$
 
 The solution set is $7, \infty)$.
 
@@ -178,7 +162,6 @@ Roots are $x = 2$ and $x = 3$. Since $a = 1 > 0$ The parabola opens upward.
 
 Sign diagram:
 
-$$
 \begin{array}{c|ccc}
 X & (-\infty, 2) & (2, 3) & (3, \infty) \\
 \hline
@@ -187,7 +170,6 @@ X & (-\infty, 2) & (2, 3) & (3, \infty) \\
 \hline
 (x-2)(x-3) & + & - & +
 \end{array}
-$$
 
 Solution: $x < 2$ or $x > 3$ I.e., $(-\infty, 2) \cup (3, \infty)$.
 
@@ -217,7 +199,6 @@ Roots: $x = -\dfrac{1}{2}$ and $x = 2$.
 
 Sign diagram:
 
-$$
 \begin{array}{c|ccc}
 X & \left(-\infty, -\tfrac{1}{2}\right) & \left(-\tfrac{1}{2}, 2\right) & (2, \infty) \\
 \hline
@@ -226,7 +207,6 @@ X & \left(-\infty, -\tfrac{1}{2}\right) & \left(-\tfrac{1}{2}, 2\right) & (2, \i
 \hline
 (2x+1)(x-2) & + & - & +
 \end{array}
-$$
 
 Solution: $x < -\dfrac{1}{2}$ or $x > 2$ I.e.,
 $\left(-\infty, -\dfrac{1}{2}\right) \cup (2, \infty)$.
@@ -242,33 +222,25 @@ line. This geometric interpretation is the key to solving absolute value inequal
 
 Geometrically, $x$ is within distance $a$ from zero.
 
-$$
 |x| < a \iff -a < x < a
-$$
 
 **$|x| > a$** (where $a > 0$):
 
 Geometrically, $x$ is more than distance $a$ from zero.
 
-$$
 |x| > a \iff x < -a \;\mathrm{ or }\; x > a
-$$
 
 ### General Forms
 
 **$|ax + b| < c$** (where $c > 0$):
 
-$$
 |ax + b| < c \iff -c < ax + b < c
-$$
 
 This is equivalent to a system of two linear inequalities, which can be solved simultaneously.
 
 **$|ax + b| > c$** (where $c > 0$):
 
-$$
 |ax + b| > c \iff ax + b < -c \;\mathrm{ or }\; ax + b > c
-$$
 
 This gives two separate linear inequalities, each solved independently.
 
@@ -282,41 +254,30 @@ This gives two separate linear inequalities, each solved independently.
 <summary>Examples</summary>
 - Solve $|x - 3| < 5$:
 
-$$
 -5 < x - 3 < 5 \implies -2 < x < 8
-$$
 
 Solution: $(-2, 8)$.
 
 - Solve $|2x + 1| \geq 7$:
 
-$$
 2x + 1 \leq -7 \;\mathrm{ or }\; 2x + 1 \geq 7
-$$
 
 $$
 2x \leq -8 \;\mathrm{ or }\; 2x \geq 6
-$$
 
-$$
 X \leq -4 \;\mathrm{ or }\; x \geq 3
-$$
 
 Solution: $(-\infty, -4] \cup [3, \infty)$.
 
 - Solve $|3x - 6| > 0$:
 
-$$
 3x - 6 \neq 0 \implies x \neq 2
-$$
 
 Solution: $\mathbb{R} \setminus \{2\}$.
 
 - Solve $|x^2 - 4| < 5$:
 
-$$
 -5 < x^2 - 4 < 5 \implies -1 < x^2 < 9
-$$
 
 Since $x^2 \geq 0$ for all real $x$ The left inequality $-1 < x^2$ is always satisfied.
 
@@ -402,17 +363,11 @@ Intersection: $(-\infty, 3)$.
 <summary>Answer</summary>
 Multiply through by $12$ (the LCM of $3$ and $4$ Which is positive so the inequality sign is preserved):
 
-$$
 4(2x - 1) \leq 3(x + 2) + 12
-$$
 
-$$
 8x - 4 \leq 3x + 6 + 12
-$$
 
-$$
 5x \leq 22 \implies x \leq \frac{22}{5}
-$$
 
 Solution: $\left(-\infty, \dfrac{22}{5}\right]$.
 
@@ -441,17 +396,11 @@ Intersection: $-\dfrac{1}{2} < x < 5$ I.e., $\left(-\dfrac{1}{2}, 5\right)$.
 
 <details>
 <summary>Answer</summary>
-$$
 -7 < 3x - 5 < 7
-$$
 
-$$
 -2 < 3x < 12
-$$
 
-$$
 -\frac{2}{3} < x < 4
-$$
 
 Solution: $\left(-\dfrac{2}{3}, 4\right)$.
 
@@ -463,9 +412,7 @@ This inequality combines absolute value and quadratic expressions. Consider two 
 
 **Case 1:** $2x + 3 \geq 0$ (i.e., $x \geq -\dfrac{3}{2}$), so $|2x + 3| = 2x + 3$:
 
-$$
 2x + 3 \geq x^2 + 2 \implies x^2 - 2x - 1 \leq 0
-$$
 
 Roots: $x = \dfrac{2 \pm \sqrt{4 + 4}}{2} = 1 \pm \sqrt{2}$.
 
@@ -479,9 +426,7 @@ $1 - \sqrt{2} \leq x \leq 1 + \sqrt{2}$.
 
 **Case 2:** $2x + 3 < 0$ (i.e., $x < -\dfrac{3}{2}$), so $|2x + 3| = -(2x + 3)$:
 
-$$
 -2x - 3 \geq x^2 + 2 \implies x^2 + 2x + 5 \leq 0
-$$
 
 Discriminant: $\Delta = 4 - 20 = -16 < 0$. Since $a = 1 > 0$ The expression is always positive. No
 solution in this case.
@@ -495,13 +440,9 @@ distinct real roots?
 <summary>Answer</summary>
 For two distinct real roots, the discriminant must satisfy $\Delta > 0$:
 
-$$
 \Delta = (2k)^2 - 4(1)(k + 6) = 4k^2 - 4k - 24 > 0
-$$
 
-$$
 K^2 - k - 6 > 0
-$$
 
 Factorize: $(k - 3)(k + 2) > 0$.
 
@@ -538,19 +479,13 @@ Time interval is the ball at a height greater than $17$ m?
 <summary>Answer</summary>
 We need $h(t) > 17$:
 
-$$
 -5t^2 + 20t + 2 > 17
-$$
 
-$$
 -5t^2 + 20t - 15 > 0
-$$
 
 Divide by $-5$ (reverse inequality):
 
-$$
 T^2 - 4t + 3 < 0
-$$
 
 Factorize: $(t - 1)(t - 3) < 0 \implies 1 < t < 3$.
 
@@ -568,7 +503,6 @@ Critical points: $x = -2$, $x = 1$, $x = 2$.
 
 Sign diagram:
 
-$$
 \begin{array}{c|cccc}
 X & (-\infty, -2) & (-2, 1) & (1, 2) & (2, \infty) \\
 \hline
@@ -578,7 +512,6 @@ X & (-\infty, -2) & (-2, 1) & (1, 2) & (2, \infty) \\
 \hline
 \dfrac{(x-2)(x+2)}{x-1} & - & + & - & +
 \end{array}
-$$
 
 The expression is $\geq 0$ when $-2 \leq x < 1$ or $x \geq 2$.
 
@@ -736,13 +669,9 @@ Reject.
 
 Case 2: $m \neq 0$. For $mx^2 + (m-1)x + m > 0$ for all real $x$ We need $m > 0$ and $\Delta < 0$:
 
-$$
 \Delta = (m - 1)^2 - 4m^2 = m^2 - 2m + 1 - 4m^2 = -3m^2 - 2m + 1 < 0
-$$
 
-$$
 3m^2 + 2m - 1 > 0 \implies (3m - 1)(m + 1) > 0 \implies m < -1 \;\text{or}\; m > \dfrac{1}{3}
-$$
 
 Combined with $m > 0$: $m > \dfrac{1}{3}$.
 
@@ -783,9 +712,7 @@ Intersection: $(0, 5]$.
 <details>
 <summary>Solution</summary>
 
-$$
 \frac{2x - 1}{x + 3} - 1 \geq 0 \implies \frac{2x - 1 - x - 3}{x + 3} \geq 0 \implies \frac{x - 4}{x + 3} \geq 0
-$$
 
 Critical points: $x = -3$ (excluded) and $x = 4$ (included).
 
@@ -810,9 +737,7 @@ Case $k = 0$: $3 > 0$ for all real $x$. So $k = 0$ works.
 
 Case $k \neq 0$: Need $k > 0$ and $\Delta < 0$:
 
-$$
 \Delta = 4k^2 - 12k = 4k(k - 3) < 0 \implies 0 < k < 3
-$$
 
 Combined with $k = 0$: the answer is $0 \leq k < 3$.
 
@@ -825,13 +750,9 @@ Combined with $k = 0$: the answer is $0 \leq k < 3$.
 
 Square both sides (both sides non-negative):
 
-$$
 (2x - 3)^2 > (x + 1)^2 \implies 4x^2 - 12x + 9 > x^2 + 2x + 1
-$$
 
-$$
 3x^2 - 14x + 8 > 0 \implies (3x - 2)(x - 4) > 0
-$$
 
 Solution: $x < \dfrac{2}{3}$ or $x > 4$.
 
@@ -863,9 +784,7 @@ $4(k + 1)^2 - 36 < 0 \implies (k + 1)^2 < 9 \implies -3 < k + 1 < 3 \implies -4 
 <details>
 <summary>Solution</summary>
 
-$$
 \frac{x^2 - x - 6}{x^2 - 4} = \frac{(x - 3)(x + 2)}{(x - 2)(x + 2)} = \frac{x - 3}{x - 2}
-$$
 
 For $x \neq -2$.
 
@@ -906,7 +825,6 @@ Solution: $(2, 3]$.
 
 **Solution.** For the quadratic to be always positive with leading coefficient $1 > 0$:
 $\Delta < 0$. $$(2k)^2 - 4(1)(k+8) < 0 \implies 4k^2 - 4k - 32 < 0 \implies k^2 - k - 8 < 0
-$$
 
 Roots: $k = \frac{1 \pm \sqrt{1 + 32}}{2} = \frac{1 \pm \sqrt{33}}{2}$
 
@@ -959,9 +877,7 @@ requires using previous work.
 
 ## Summary
 
-$$
 
-$$
 
 ## Intuition
 

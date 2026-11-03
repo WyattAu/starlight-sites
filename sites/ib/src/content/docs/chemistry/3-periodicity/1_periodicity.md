@@ -28,9 +28,7 @@ tags:
 
 ### Effective Nuclear Charge
 
-$$
 Z_{\mathrm{eff}} = Z - S
-$$
 
 $Z_{\mathrm{eff}}$ increases across a period (shielding increases slowly, $Z$ increases by 1 per
 Element) and changes only slightly down a group (new shells increase shielding proportionally).
@@ -89,9 +87,7 @@ All have outer configuration $ns^1$. They lose one electron to form $\mathrm{M}^
 
 #### Reaction with Water
 
-$$
 2\mathrm{M}(s) + 2\mathrm{H}_2\mathrm{O}(l) \to 2\mathrm{MOH}(aq) + \mathrm{H}_2(g)
-$$
 
 Reactivity increases down the group as $IE_1$ decreases.
 
@@ -173,23 +169,17 @@ Outer configuration: $ns^2$. They lose two electrons to form $\mathrm{M}^{2+}$ i
 Reactivity increases down the group. Beryllium does not react with water. Magnesium reacts slowly
 with steam. Calcium, strontium, and barium react with cold water.
 
-$$
 \mathrm{M}(s) + 2\mathrm{H}_2\mathrm{O}(l) \to \mathrm{M(OH)}_2(aq) + \mathrm{H}_2(g)
-$$
 
 #### Thermal Decomposition of Nitrates and Carbonates
 
 Group 2 carbonates decompose on heating:
 
-$$
 \mathrm{MCO}_3(s) \to \mathrm{MO}(s) + \mathrm{CO}_2(g)
-$$
 
 Group 2 nitrates decompose differently:
 
-$$
 2\mathrm{M(NO}_3)_2(s) \to 2\mathrm{MO}(s) + 4\mathrm{NO}_2(g) + \mathrm{O}_2(g)
-$$
 
 Thermal stability increases down the group. This is because the larger $\mathrm{M}^{2+}$ ion has
 lower polarising power, distorting the carbonate/nitrate ion less and making it harder to decompose.
@@ -216,9 +206,7 @@ lower polarising power, distorting the carbonate/nitrate ion less and making it 
 
 </div>
 
-$$
 \mathrm{BaSO}_4 \mathrm{ is very insoluble, used in barium meals (X-ray contrast).}
-$$
 
 ### Uses
 
@@ -268,13 +256,9 @@ Increases and electron affinity becomes less favourable.
 
 A more reactive halogen displaces a less reactive halogen from its halide:
 
-$$
 \mathrm{Cl}_2(aq) + 2\mathrm{KBr}(aq) \to 2\mathrm{KCl}(aq) + \mathrm{Br}_2(aq)
-$$
 
-$$
 \mathrm{Br}_2(aq) + 2\mathrm{KI}(aq) \to 2\mathrm{KBr}(aq) + \mathrm{I}_2(aq)
-$$
 
 $\mathrm{Br}_2$ cannot displace $\mathrm{Cl}^-$; $\mathrm{I}_2$ cannot displace $\mathrm{Br}^-$ or
 $\mathrm{Cl}^-$.
@@ -343,13 +327,9 @@ Molecular).
 
 Aluminium oxide dissolves in both acids and bases:
 
-$$
 \mathrm{Al}_2\mathrm{O}_3(s) + 6\mathrm{HCl}(aq) \to 2\mathrm{AlCl}_3(aq) + 3\mathrm{H}_2\mathrm{O}(l)
-$$
 
-$$
 \mathrm{Al}_2\mathrm{O}_3(s) + 2\mathrm{NaOH}(aq) + 3\mathrm{H}_2\mathrm{O}(l) \to 2\mathrm{NaAl(OH)}_4(aq)
-$$
 
 ### Highest Oxidation States of Period 3
 
@@ -429,9 +409,7 @@ The maximum oxidation state increases across the period to $\mathrm{Mn}$ ($+7$),
 
 A complex ion consists of a central metal ion surrounded by ligands:
 
-$$
 [\mathrm{Cu}(\mathrm{H}_2\mathrm{O})_6]^{2+}, \quad [\mathrm{Ag}(\mathrm{NH}_3)_2]^+, \quad [\mathrm{Fe}(\mathrm{CN})_6]^{3-}
-$$
 
 <div class="table-wrap">
 
@@ -448,15 +426,11 @@ $$
 Transition metal complexes are coloured due to $d$-$d$ transitions. The energy gap between split
 $d$-orbitals corresponds to visible light:
 
-$$
 \Delta E = \frac`\{hc}`{\lambda}
-$$
 
 **Spectrochemical series** (increasing $\Delta$):
 
-$$
 \mathrm{I}^- \lt \mathrm{Br}^- \lt \mathrm{Cl}^- \lt \mathrm{F}^- \lt \mathrm{H}_2\mathrm{O} \lt \mathrm{NH}_3 \lt \mathrm{en} \lt \mathrm{CN}^- \lt \mathrm{CO}
-$$
 
 ### Catalytic Properties
 
@@ -595,23 +569,15 @@ Deduce what happens, and write the overall ionic equations.
 Chlorine is more reactive than both bromine and iodine (higher position in Group 17), so it
 displaces both halide ions:
 
-$$
 \mathrm{Cl}_2(aq) + 2\mathrm{KBr}(aq) \to 2\mathrm{KCl}(aq) + \mathrm{Br}_2(aq)
-$$
 
-$$
 \mathrm{Cl}_2(aq) + 2\mathrm{KI}(aq) \to 2\mathrm{KCl}(aq) + \mathrm{I}_2(aq)
-$$
 
 In ionic form:
 
-$$
 \mathrm{Cl}_2(aq) + 2\mathrm{Br}^-(aq) \to 2\mathrm{Cl}^-(aq) + \mathrm{Br}_2(aq)
-$$
 
-$$
 \mathrm{Cl}_2(aq) + 2\mathrm{I}^-(aq) \to 2\mathrm{Cl}^-(aq) + \mathrm{I}_2(aq)
-$$
 
 Observations: the solution turns orange-brown due to dissolved $\mathrm{Br}_2$ and violet due to
 $\mathrm{I}_2$. If cyclohexane is added and shaken, $\mathrm{Br}_2$ appears orange in the organic
@@ -629,9 +595,7 @@ the equation for the reaction. Compare this with $\mathrm{P}_4\mathrm{O}_{10}$ d
 
 $\mathrm{Na}_2\mathrm{O}$ is an ionic, basic oxide. It reacts with water to form sodium hydroxide:
 
-$$
 \mathrm{Na}_2\mathrm{O}(s) + \mathrm{H}_2\mathrm{O}(l) \to 2\mathrm{NaOH}(aq)
-$$
 
 Since $\mathrm{NaOH}$ is a strong base, the solution pH is well above 7 ( 12--14 depending on
 concentration).
@@ -639,9 +603,7 @@ concentration).
 $\mathrm{P}_4\mathrm{O}_{10}$ is a covalent, acidic oxide. It reacts with water to form phosphoric
 acid:
 
-$$
 \mathrm{P}_4\mathrm{O}_{10}(s) + 6\mathrm{H}_2\mathrm{O}(l) \to 4\mathrm{H}_3\mathrm{PO}_4(aq)
-$$
 
 Phosphoric acid is a weak acid, giving a pH in the range 1--2 for a moderately concentrated
 solution. The trend from strongly basic ($\mathrm{Na}_2\mathrm{O}$) to acidic
@@ -811,19 +773,13 @@ Calculate the lattice energy of sodium chloride using the Born-Haber cycle.
 
 The Born-Haber cycle relates the enthalpy of formation to the individual energy steps:
 
-$$
 \Delta H_f^\circ = \Delta H_\mathrm{atom}(\mathrm{Na}) + \Delta H_\mathrm{atom}(\mathrm{Cl}) + IE_1(\mathrm{Na}) + EA_1(\mathrm{Cl}) + U
-$$
 
 Solving for the lattice energy $U$:
 
-$$
 U = \Delta H_f^\circ - \Delta H_\mathrm{atom}(\mathrm{Na}) - \Delta H_\mathrm{atom}(\mathrm{Cl}) - IE_1(\mathrm{Na}) - EA_1(\mathrm{Cl})
-$$
 
-$$
 U = -411 - 108 - 122 - 496 - (-349) = -788\;\mathrm{kJ/mol}
-$$
 
 The lattice energy of $\mathrm{NaCl}$ is $-788\;\mathrm{kJ/mol}$. The large negative value reflects
 the strong electrostatic attraction between $\mathrm{Na}^+$ and $\mathrm{Cl}^-$ in the ionic
@@ -867,32 +823,21 @@ $-363\;\mathrm{kJ/mol}$ Determine the hydration enthalpy of $\mathrm{Ca}^{2+}$.
 The enthalpy of solution is the sum of the endothermic lattice-breaking step and the exothermic
 hydration step:
 
-$$
 \Delta H_\mathrm{sol} = \Delta H_\mathrm{lattice} + \Delta H_\mathrm{hydration}
-$$
 
-$$
 -82.8 = +2258 + \Delta H_\mathrm{hydration}
-$$
 
-$$
 \Delta H_\mathrm{hydration} = -82.8 - 2258 = -2341\;\mathrm{kJ/mol}
-$$
 
 The total hydration enthalpy is $-2341\;\mathrm{kJ/mol}$ Which is the sum of the hydration enthalpies
 of all ions:
 
 $$
 \Delta H_\mathrm{hydration} = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2 \times \Delta H_\mathrm{hyd}(\mathrm{Cl}^-)
-$$
 
-$$
 -2341 = \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) + 2(-363)
-$$
 
-$$
 \Delta H_\mathrm{hyd}(\mathrm{Ca}^{2+}) = -2341 + 726 = -1615\;\mathrm{kJ/mol}
-$$
 
 The hydration enthalpy of $\mathrm{Ca}^{2+}$ is $-1615\;\mathrm{kJ/mol}$. This large magnitude
 reflects the high charge density of the small, doubly charged cation and its strong interaction with
@@ -914,38 +859,25 @@ $25.0\;\mathrm{mL}$ of $0.100\;\mathrm{M}$ $\mathrm{FeSO}_4$ solution.
 **(a) Balancing the equation:**
 
 Reduction half-reaction:
-$$
 \mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6e^- \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O}
-$$
 
 Oxidation half-reaction: $$\mathrm{Fe}^{2+} \to \mathrm{Fe}^{3+} + e^-
-$$
 
 Balancing electrons ($\times 6$ for the iron half-reaction):
-$$
 6\mathrm{Fe}^{2+} \to 6\mathrm{Fe}^{3+} + 6e^-
-$$
 
 Overall:
-$$
 \mathrm{Cr}_2\mathrm{O}_7^{2-} + 14\mathrm{H}^+ + 6\mathrm{Fe}^{2+} \to 2\mathrm{Cr}^{3+} + 7\mathrm{H}_2\mathrm{O} + 6\mathrm{Fe}^{3+}
-$$
 
 **(b) Stoichiometric calculation:**
 
-$$
 n(\mathrm{Fe}^{2+}) = 0.100 \times 0.0250 = 0.00250\;\mathrm{mol}
-$$
 
 From the equation, $6\;\mathrm{mol\;Fe}^{2+}$ react with $1\;\mathrm{mol\;Cr}_2\mathrm{O}_7^{2-}$:
 
-$$
 n(\mathrm{Cr}_2\mathrm{O}_7^{2-}) = \frac{0.00250}{6} = 4.17 \times 10^{-4}\;\mathrm{mol}
-$$
 
-$$
 V(\mathrm{K}_2\mathrm{Cr}_2\mathrm{O}_7) = \frac{n}{c} = \frac{4.17 \times 10^{-4}}{0.0200} = 0.0208\;\mathrm{L} = 20.8\;\mathrm{mL}
-$$
 
 </details>
 
@@ -1109,5 +1041,3 @@ theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
-$$
-$$

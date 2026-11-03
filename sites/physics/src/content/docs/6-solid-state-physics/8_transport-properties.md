@@ -24,9 +24,7 @@ Free time $\tau$.
 
 Under an electric field $\mathbf{E}$ The equation of motion:
 
-$$
 m_e\frac{d\mathbf{v}}{dt} = -e\mathbf{E} - \frac{m_e\mathbf{v}}{\tau}
-$$
 
 In steady state ($d\mathbf{v}/dt = 0$): $\mathbf{v}_d = -\frac{e\tau}{m_e}\mathbf{E}$.
 
@@ -34,9 +32,7 @@ The current density: $\mathbf{J} = -ne\mathbf{v}_d = \frac{ne^2\tau}{m_e}\mathbf
 
 The **Drude conductivity:**
 
-$$
 \sigma = \frac{ne^2\tau}{m_e}
-$$
 
 The **mean free path:** $\ell = v_F\tau$.
 
@@ -52,29 +48,21 @@ $\gamma_{\mathrm{electron} = \frac{\pi^2}{2}nk_B(T/T_F)}$ (much smaller).
 
 The semiclassical distribution function $f(\mathbf{r}, \mathbf{k}, t)$ satisfies:
 
-$$
 \frac{\partial f}{\partial t} + \mathbf{v}_{\mathbf{k}} \cdot \nabla_{\mathbf{r}} f - \frac{e\mathbf{E}}{\hbar}\cdot\nabla_{\mathbf{k}} f = \left(\frac{\partial f}{\partial t}\right)_{\mathrm{coll}}
-$$
 
 In the **relaxation time approximation:**
 
-$$
 \left(\frac{\partial f}{\partial t}\right)_{\mathrm{coll} = -\frac{f - f_0}{\tau}}
-$$
 
 Where $f_0$ is the equilibrium distribution.
 
 **Solution for conductivity.** In a uniform electric field with $f = f_0 + f_1$:
 
-$$
 f_1 = e\tau\mathbf{E}\cdot\mathbf{v}_{\mathbf{k}}\frac{\partial f_0}{\partial\varepsilon}
-$$
 
 The conductivity becomes:
 
-$$
 \sigma = \frac{e^2}{3}\int \tau(\varepsilon)\,v^2(\varepsilon)\,g(\varepsilon)\left(-\frac{\partial f_0}{\partial\varepsilon}\right) d\varepsilon
-$$
 
 At low $T$, $-\partial f_0/\partial\varepsilon \approx \delta(\varepsilon - \varepsilon_F)$ So only
 states Near $E_F$ contribute to transport. This explains why impurity scattering dominates at low
@@ -83,9 +71,7 @@ $T$ (even a small concentration of impurities affects states near $E_F$).
 **Matthiessen's rule.** When multiple scattering mechanisms act independently, the total resistivity
 Is approximately additive:
 
-$$
 \rho(T) = \rho_0 + \rho_{\mathrm{ph}(T)}
-$$
 
 Where $\rho_0$ is the residual resistivity (temperature-independent, from impurities and defects)
 And $\rho_{\mathrm{ph}(T)}$ is the phonon contribution (proportional to $T$ at high $T$ and to $T^5$
@@ -94,9 +80,7 @@ $RRR = \rho(300\ \mathrm{K})/\rho_0$ Is a measure of sample purity.
 
 **Bloch--Grüneisen formula.** For electron--phonon scattering in a free electron metal:
 
-$$
 \rho_{\mathrm{ph}(T) \propto \left(\frac{T}{\Theta_D}\right)^5 \int_0^{\Theta_D/T} \frac{x^5}{(e^x - 1)(1 - e^{-x})}\,dx}
-$$
 
 At high $T$ ($T \gt \Theta_D$): $\rho_{\mathrm{ph} \propto T}$ (linear, agreeing with the Drude
 model). At low $T$ ($T \ll \Theta_D$): $\rho_{\mathrm{ph} \propto T^5}$ Consistent with experiment.
@@ -105,15 +89,11 @@ model). At low $T$ ($T \ll \Theta_D$): $\rho_{\mathrm{ph} \propto T^5}$ Consiste
 
 The thermal conductivity of electrons:
 
-$$
 \kappa_e = \frac{1}{3}c_e v_F \ell_e
-$$
 
 Where $c_e = \frac{\pi^2}{2}nk_B(T/T_F)$ is the electronic specific heat. The phonon contribution:
 
-$$
 \kappa_{\mathrm{ph} = \frac{1}{3}C_V v_s \ell_{\mathrm{ph}}}
-$$
 
 The total thermal conductivity: $\kappa = \kappa_e + \kappa_{\mathrm{ph}}$.
 
@@ -122,9 +102,7 @@ The total thermal conductivity: $\kappa = \kappa_e + \kappa_{\mathrm{ph}}$.
 When a magnetic field $\mathbf{B} = B\hat{\mathbf{z}}$ is applied perpendicular to a current
 $\mathbf{J} = J_x\hat{\mathbf{x}}$ A transverse electric field develops:
 
-$$
 E_y = R_H J_x B
-$$
 
 The **Hall coefficient:** $R_H = -1/(ne)$ for a single carrier type.
 
@@ -135,9 +113,7 @@ Cyclotron frequency.
 
 Near a band extremum, the energy can be expanded:
 
-$$
 \varepsilon(\mathbf{k}) = \varepsilon_0 + \frac{\hbar^2}{2}\sum_{ij}(m^{-1})_{ij}k_i k_j
-$$
 
 The **effective mass tensor**
 $(m^{-1})_{ij} = \frac{1}{\hbar^2}\frac{\partial^2 \varepsilon}{\partial k_i \partial k_j}$
@@ -157,11 +133,9 @@ impurity scattering. At 300 K, the phonon contribution is $\rho_{\mathrm{ph}} = 
 
 $$\rho(300\ \mathrm{K}) = \rho_0 + \rho_{\mathrm{ph}} = 2 \times 10^{-10} + 1.7 \times 10^{-8}
 = 1.72 \times 10^{-8}\ \Omega\cdot\text{m}
-$$
 
 The resistance ratio:
 
-$$
 RRR = \frac{\rho(300\ \mathrm{K})}{\rho_0} = \frac{1.72 \times 10^{-8}}{2 \times 10^{-10}} = 86
 $$
 

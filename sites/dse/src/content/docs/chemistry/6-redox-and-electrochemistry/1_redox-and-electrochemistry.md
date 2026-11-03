@@ -43,9 +43,7 @@ A useful mnemonic for remembering the definitions:
 
 Identify the species oxidised, reduced, oxidising agent, and reducing agent in:
 
-$$
 \mathrm{Zn} + \mathrm{Cu^{2+}} \to \mathrm{Zn^{2+}} + \mathrm{Cu}
-$$
 
 - $\mathrm{Zn} \to \mathrm{Zn^{2+}} + 2e^-$ (oxidation; $\mathrm{Zn}$ is the reducing agent)
 - $\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}$ (reduction; $\mathrm{Cu^{2+}}$ is the oxidising agent)
@@ -77,21 +75,14 @@ Oxidation numbers are assigned to atoms using the following rules:
 
 Determine the oxidation numbers of all elements in $\mathrm{KMnO_4}$.
 
-$$
 \mathrm{K}: +1, \quad \mathrm{O}: -2, \quad \mathrm{Mn}: x
-$$
 
 $$
 +1 + x + 4(-2) = 0
-$$
 
-$$
 x + 1 - 8 = 0
-$$
 
-$$
 x = +7
-$$
 
 The oxidation number of manganese in $\mathrm{KMnO_4}$ is $+7$.
 
@@ -99,21 +90,13 @@ The oxidation number of manganese in $\mathrm{KMnO_4}$ is $+7$.
 
 Determine the oxidation numbers in $\mathrm{Cr_2O_7^{2-}}$.
 
-$$
 2x + 7(-2) = -2
-$$
 
-$$
 2x - 14 = -2
-$$
 
-$$
 2x = 12
-$$
 
-$$
 x = +6
-$$
 
 The oxidation number of chromium in $\mathrm{Cr_2O_7^{2-}}$ is $+6$.
 
@@ -146,27 +129,19 @@ Balance the reaction between $\mathrm{MnO_4^-}$ and $\mathrm{Fe^{2+}}$ in acidic
 
 Reduction half-equation:
 
-$$
 \mathrm{MnO_4^-} + 8\mathrm{H^+} + 5e^- \to \mathrm{Mn^{2+}} + 4\mathrm{H_2O}
-$$
 
 Oxidation half-equation:
 
-$$
 \mathrm{Fe^{2+}} \to \mathrm{Fe^{3+}} + e^-
-$$
 
 Multiply the oxidation half-equation by 5:
 
-$$
 5\mathrm{Fe^{2+}} \to 5\mathrm{Fe^{3+}} + 5e^-
-$$
 
 Add both half-equations:
 
-$$
 \mathrm{MnO_4^-} + 8\mathrm{H^+} + 5\mathrm{Fe^{2+}} \to \mathrm{Mn^{2+}} + 4\mathrm{H_2O} + 5\mathrm{Fe^{3+}}
-$$
 
 ---
 
@@ -188,19 +163,13 @@ compound.
 
 The reactivity series ranks metals in order of their tendency to lose electrons:
 
-$$
 \mathrm{K} \gt \mathrm{Na} \gt \mathrm{Ca} \gt \mathrm{Mg} \gt \mathrm{Al} \gt \mathrm{Zn} \gt \mathrm{Fe} \gt \mathrm{Sn} \gt \mathrm{Pb} \gt (\mathrm{H}) \gt \mathrm{Cu} \gt \mathrm{Ag} \gt \mathrm{Au}
-$$
 
 ### Examples
 
-$$
 \mathrm{Zn} + \mathrm{CuSO_4} \to \mathrm{ZnSO_4} + \mathrm{Cu}
-$$
 
-$$
 \mathrm{Fe} + \mathrm{CuSO_4} \to \mathrm{FeSO_4} + \mathrm{Cu}
-$$
 
 Copper cannot displace iron or zinc because copper is less reactive.
 
@@ -210,9 +179,7 @@ Will magnesium displace copper from copper(II) sulphate solution? Write the equa
 
 Yes, because magnesium is above copper in the reactivity series.
 
-$$
 \mathrm{Mg} + \mathrm{CuSO_4} \to \mathrm{MgSO_4} + \mathrm{Cu}
-$$
 
 Magnesium is oxidised ($\mathrm{Mg} \to \mathrm{Mg^{2+}} + 2e^-$) and copper(II) ions are reduced
 ($\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}$).
@@ -251,9 +218,7 @@ $\mathrm{Cu}$) are extracted by **reduction with carbon** in a blast furnace.
 
 **Example: Extraction of iron from $\mathrm{Fe_2O_3}$**
 
-$$
 \mathrm{Fe_2O_3} + 3\mathrm{CO} \to 2\mathrm{Fe} + 3\mathrm{CO_2}
-$$
 
 Carbon monoxide (from the partial combustion of coke) is the reducing agent.
 
@@ -338,9 +303,7 @@ external wire.
 The cell potential (voltage) is determined by the difference between the standard electrode
 Potentials of the two half-cells:
 
-$$
 E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}}
-$$
 
 A positive $E^\circ_{\mathrm{cell}}$ indicates that the reaction is spontaneous.
 
@@ -393,19 +356,14 @@ discharged. The product at each electrode depends on the relative reactivity of 
 
 - If the metal is more reactive than hydrogen ($\mathrm{K}$$\mathrm{Na}$$\mathrm{Ca}$
   $\mathrm{Mg}$$\mathrm{Al}$$\mathrm{Zn}$): hydrogen gas is produced.
-  $$
   2\mathrm{H_2O} + 2e^- \to \mathrm{H_2} + 2\mathrm{OH^-}
-  $$
 - If the metal is less reactive than hydrogen ($\mathrm{Cu}$$\mathrm{Ag}$$\mathrm{Au}$): the metal
   is produced. $$\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
-$$
 
 **At the anode (oxidation):**
 
 - If the anion is a halide ($\mathrm{Cl^-}$$\mathrm{Br^-}$$\mathrm{I^-}$): the halogen is produced.
-  $$
   2\mathrm{Cl^-} \to \mathrm{Cl_2} + 2e^-
-  $$
 - If the anion is anything else ($\mathrm{SO_4^{2-}}$, $\mathrm{NO_3^-}$): oxygen gas is produced.
   $$4\mathrm{OH^-} \to \mathrm{O_2} + 2\mathrm{H_2O} + 4e^-$$ (or equivalently:
   $2\mathrm{H_2O} \to \mathrm{O_2} + 4\mathrm{H^+} + 4e^-$)
@@ -415,25 +373,17 @@ $$
 Predict the products of the electrolysis of aqueous copper(II) sulphate with inert electrodes.
 
 - Cathode: Copper is less reactive than hydrogen, so copper is deposited.
-  $$
   \mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
-  $$
 - Anode: $\mathrm{SO_4^{2-}}$ is not a halide, so oxygen is produced.
-  $$
   4\mathrm{OH^-} \to \mathrm{O_2} + 2\mathrm{H_2O} + 4e^-
-  $$
 
 ### Quantitative Electrolysis
 
 The amount of substance produced or consumed during electrolysis is related to the charge passed:
 
-$$
 Q = It
-$$
 
-$$
 n = \frac{Q}{F} = \frac{It}{F}
-$$
 
 Where:
 
@@ -445,9 +395,7 @@ Where:
 
 The mass of substance produced:
 
-$$
 m = \frac{It \times M}{z \times F}
-$$
 
 Where $z$ is the number of electrons transferred per ion and $M$ is the molar mass.
 
@@ -456,21 +404,13 @@ Where $z$ is the number of electrons transferred per ion and $M$ is the molar ma
 Calculate the mass of copper deposited when a current of $2.50 \mathrm{ A}$ is passed through
 copper(II) sulphate solution for $30.0 \mathrm{ minutes}$.
 
-$$
 \mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu} \quad (z = 2)
-$$
 
-$$
 Q = It = 2.50 \times 30.0 \times 60 = 4500 \mathrm{ C}
-$$
 
-$$
 n(\mathrm{Cu}) = \frac{Q}{zF} = \frac{4500}{2 \times 96500} = 0.02332 \mathrm{ mol}
-$$
 
-$$
 m = n \times M = 0.02332 \times 63.5 = 1.48 \mathrm{ g}
-$$
 
 ---
 
@@ -588,17 +528,11 @@ Determine the oxidation number of nitrogen in the ammonium ion, $\mathrm{NH_4^+}
 <details>
 <summary>Solution</summary>
 
-$$
 x + 4(+1) = +1
-$$
 
-$$
 x + 4 = +1
-$$
 
-$$
 x = -3
-$$
 
 The oxidation number of nitrogen in $\mathrm{NH_4^+}$ is $-3$.
 
@@ -616,9 +550,7 @@ whether the reaction is spontaneous.
 
 Iron has the more positive $E^\circ$ So it undergoes reduction (cathode).
 
-$$
 E^\circ_{\mathrm{cell}} = -0.44 - (-2.37) = 1.93 \mathrm{ V}
-$$
 
 Cathode (reduction): $\mathrm{Fe}^{2+} + 2e^- \to \mathrm{Fe}$
 
@@ -640,16 +572,12 @@ Predict the products when aqueous $\mathrm{CuSO_4}$ is electrolysed using **copp
 
 At the cathode: Copper is less reactive than hydrogen, so copper is deposited.
 
-$$
 \mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}
-$$
 
 At the anode: Since the anode is made of copper (not inert), the copper anode itself dissolves
 rather than $\mathrm{SO_4^{2-}}$ or $\mathrm{OH^-}$ being discharged.
 
-$$
 \mathrm{Cu} \to \mathrm{Cu}^{2+} + 2e^-
-$$
 
 The concentration of $\mathrm{CuSO_4}$ remains constant because copper dissolves from the anode at
 the same rate it deposits at the cathode. This is the principle of **electrolytic refining** of
@@ -673,17 +601,11 @@ copper.
 
 **Question 1:** Determine the oxidation number of sulfur in $\mathrm{H_2SO_4}$.
 
-$$
 2(+1) + x + 4(-2) = 0
-$$
 
-$$
 2 + x - 8 = 0
-$$
 
-$$
 x = +6
-$$
 
 **Question 2:** Balance the following redox equation:
 
@@ -696,9 +618,7 @@ Oxidation: $\mathrm{SO_3^{2-}} + \mathrm{H_2O} \to \mathrm{SO_4^{2-}} + 2\mathrm
 
 Multiply reduction by 2 and oxidation by 5:
 
-$$
 2\mathrm{MnO_4^-} + 16\mathrm{H^+} + 5\mathrm{SO_3^{2-}} + 5\mathrm{H_2O} \to 2\mathrm{Mn^{2+}} + 8\mathrm{H_2O} + 5\mathrm{SO_4^{2-}} + 10\mathrm{H^+}
-$$
 
 Simplify:
 $2\mathrm{MnO_4^-} + 6\mathrm{H^+} + 5\mathrm{SO_3^{2-}} \to 2\mathrm{Mn^{2+}} + 3\mathrm{H_2O} + 5\mathrm{SO_4^{2-}}$
@@ -722,21 +642,13 @@ $\mathrm{Cl_2}$ is produced: $2\mathrm{Cl^-} \to \mathrm{Cl_2} + 2e^-$
 **Question 5:** A current of $0.500 \mathrm{ A}$ is passed through molten lead(II) bromide for
 $965 \mathrm{ s}$. Calculate the mass of lead produced.
 
-$$
 \mathrm{Pb^{2+}} + 2e^- \to \mathrm{Pb} \quad (z = 2)
-$$
 
-$$
 Q = 0.500 \times 965 = 482.5 \mathrm{ C}
-$$
 
-$$
 n(\mathrm{Pb}) = \frac{482.5}{2 \times 96500} = 2.50 \times 10^{-3} \mathrm{ mol}
-$$
 
-$$
 m = 2.50 \times 10^{-3} \times 207 = 0.518 \mathrm{ g}
-$$
 
 **Question 6:** Explain why a block of magnesium attached to an underground iron pipeline prevents
 The pipeline from rusting.
@@ -794,9 +706,7 @@ $\mathrm{Fe_2O_3}$ is the oxidising agent.
 
 **Problem 3:** Balance the following redox equation in acidic solution:
 
-$$
 \mathrm{Cr_2O_7^{2-}} + \mathrm{I^-} \to \mathrm{Cr^{3+}} + \mathrm{I_2}
-$$
 
 _If you get this wrong, revise: Balancing Redox Equations_
 
@@ -824,15 +734,11 @@ _If you get this wrong, revise: Electrolysis of Aqueous Solutions_
 
 Cathode: $\mathrm{Cu}$ is below $\mathrm{H}$ in the reactivity series, so copper is deposited.
 
-$$
 \mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
-$$
 
 Anode: $\mathrm{SO_4^{2-}}$ is not a halide, so oxygen is produced.
 
-$$
 4\mathrm{OH^-} \to \mathrm{O_2} + 2\mathrm{H_2O} + 4e^-
-$$
 
 </details>
 
@@ -844,21 +750,13 @@ _If you get this wrong, revise: Quantitative Electrolysis_
 <details>
 <summary>Solution</summary>
 
-$$
 \mathrm{Pb^{2+}} + 2e^- \to \mathrm{Pb} \quad (z = 2)
-$$
 
-$$
 Q = 0.500 \times 965 = 482.5 \mathrm{ C}
-$$
 
-$$
 n(\mathrm{Pb}) = \frac{Q}{zF} = \frac{482.5}{2 \times 96500} = 2.50 \times 10^{-3} \mathrm{ mol}
-$$
 
-$$
 m = 2.50 \times 10^{-3} \times 207 = 0.518 \mathrm{ g}
-$$
 
 </details>
 
@@ -873,9 +771,7 @@ _If you get this wrong, revise: Cell Voltage_
 
 Silver has the more positive $E^\circ$ (cathode, reduction):
 
-$$
 E^\circ_{\mathrm{cell}} = 0.80 - (-0.76) = 1.56 \mathrm{ V}
-$$
 
 Cathode: $2\mathrm{Ag^+} + 2e^- \to 2\mathrm{Ag}$
 
@@ -921,19 +817,13 @@ _If you get this wrong, revise: Quantitative Electrolysis_
 <details>
 <summary>Solution</summary>
 
-$$
 Q = 3.00 \times 10.0 \times 60 = 1800 \mathrm{ C}
-$$
 
 Cathode: $2\mathrm{H^+} + 2e^- \to \mathrm{H_2} \quad (z = 2)$
 
-$$
 n(\mathrm{H_2}) = \frac{Q}{zF} = \frac{1800}{2 \times 96500} = 9.33 \times 10^{-3} \mathrm{ mol}
-$$
 
-$$
 V = 9.33 \times 10^{-3} \times 24.0 = 0.224 \mathrm{ dm^3} = 224 \mathrm{ cm^3}
-$$
 
 </details>
 
@@ -994,9 +884,7 @@ $\blacksquare$
 
 </div>
 
-$$
 
-$$
 | [Redox Reactions]  | DSE     | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
 
 ## See Also

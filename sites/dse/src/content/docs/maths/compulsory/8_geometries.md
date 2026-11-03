@@ -35,11 +35,9 @@ The distance between two points $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ is derived f
 [Pythagorean identity](https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry/#pythagorean-identity) applied to the right triangle formed By
 the horizontal and vertical differences:
 
-$$
 \begin{aligned}
  d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 \end{aligned}
-$$
 
 <details>
 <summary>Examples</summary>
@@ -51,11 +49,9 @@ $$
 
 The midpoint $M$ of the line segment joining $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ is:
 
-$$
 \begin{aligned}
  M = \left( \frac{x_1 + x_2}{2},\; \frac{y_1 + y_2}{2} \right)
 \end{aligned}
-$$
 
 The midpoint is the average of the respective coordinates of the two endpoints.
 
@@ -69,11 +65,9 @@ The midpoint is the average of the respective coordinates of the two endpoints.
 The gradient $m$ of the line passing through $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ Where
 $x_1 \neq x_2$ Measures the rate of change of $y$ with respect to $x$:
 
-$$
 \begin{aligned}
  m = \frac{y_2 - y_1}{x_2 - x_1} = \tan\theta
 \end{aligned}
-$$
 
 Where $\theta$ is the angle the line makes with the positive $x$-axis. A vertical line (where
 $x_1 = x_2$) has an undefined gradient. Key gradient values include:
@@ -99,11 +93,9 @@ $x_1 = x_2$) has an undefined gradient. Key gradient values include:
 If point $P(x, y)$ divides the line segment joining $A(x_1, y_1)$ and $B(x_2, y_2)$ in the ratio
 $m : n$ (internally), then:
 
-$$
 \begin{aligned}
  x = \frac{mx_2 + nx_1}{m + n}, \qquad y = \frac{my_2 + ny_1}{m + n}
 \end{aligned}
-$$
 
 The midpoint formula is the special case where $m = n = 1$.
 
@@ -113,11 +105,9 @@ A straight line in the Cartesian plane can be expressed in several equivalent fo
 
 ### Slope-Intercept Form
 
-$$
 \begin{aligned}
  y = mx + c
 \end{aligned}
-$$
 
 Where $m$ is the gradient and $c$ is the $y$-intercept. This form is most useful when the gradient
 and $y$-intercept are known or can be determined.
@@ -126,11 +116,9 @@ and $y$-intercept are known or can be determined.
 
 Given a point $(x_1, y_1)$ on the line and the gradient $m$:
 
-$$
 \begin{aligned}
  y - y_1 = m(x - x_1)
 \end{aligned}
-$$
 
 This is the most versatile form for deriving the equation of a line from partial information.
 
@@ -138,31 +126,25 @@ This is the most versatile form for deriving the equation of a line from partial
 
 Given two distinct points $(x_1, y_1)$ and $(x_2, y_2)$ on the line:
 
-$$
 \begin{aligned}
  \frac{y - y_1}{x - x_1} = \frac{y_2 - y_1}{x_2 - x_1}
 \end{aligned}
-$$
 
 ### Intercept Form
 
 If the line has $x$-intercept $a$ and $y$-intercept $b$ (both non-zero):
 
-$$
 \begin{aligned}
  \frac{x}{a} + \frac{y}{b} = 1
 \end{aligned}
-$$
 
 ### General Form
 
 Every straight line can be written in the general form:
 
-$$
 \begin{aligned}
  Ax + By + C = 0
 \end{aligned}
-$$
 
 Where $A$$B$$C$ are constants and $A$ and $B$ are not both zero. The gradient is $m = -\frac{A}{B}$
 and the $y$-intercept is $c = -\frac{C}{B}$ (when $B \neq 0$).
@@ -180,20 +162,16 @@ and the $y$-intercept is $c = -\frac{C}{B}$ (when $B \neq 0$).
 Two non-vertical lines with gradients $m_1$ and $m_2$ are parallel if and only if their gradients
 are equal:
 
-$$
 \begin{aligned}
  m_1 = m_2
 \end{aligned}
-$$
 
 In the general form $Ax + By + C = 0$ Two lines $A_1x + B_1y + C_1 = 0$ and $A_2x + B_2y + C_2 = 0$
 are parallel if and only if:
 
-$$
 \begin{aligned}
  \frac{A_1}{A_2} = \frac{B_1}{B_2} \neq \frac{C_1}{C_2}
 \end{aligned}
-$$
 
 If all three ratios are equal, the lines are coincident (the same line).
 
@@ -202,19 +180,15 @@ If all three ratios are equal, the lines are coincident (the same line).
 Two non-vertical lines with gradients $m_1$ and $m_2$ are perpendicular if and only if the product
 of their gradients equals $-1$:
 
-$$
 \begin{aligned}
  m_1 \cdot m_2 = -1
 \end{aligned}
-$$
 
 In the general form, two lines are perpendicular if and only if:
 
-$$
 \begin{aligned}
  A_1 A_2 + B_1 B_2 = 0
 \end{aligned}
-$$
 
 <details>
 <summary>Examples</summary>
@@ -238,35 +212,27 @@ the intersection satisfy both equations.
 
 A circle with centre $C(a, b)$ and radius $r$ has equation:
 
-$$
 \begin{aligned}
  (x - a)^2 + (y - b)^2 = r^2
 \end{aligned}
-$$
 
 Expanding this yields the general form:
 
-$$
 \begin{aligned}
  x^2 + y^2 - 2ax - 2by + (a^2 + b^2 - r^2) = 0
 \end{aligned}
-$$
 
 ### General Form of the Equation of a Circle
 
-$$
 \begin{aligned}
  x^2 + y^2 + Dx + Ey + F = 0
 \end{aligned}
-$$
 
 Where the centre is $\left(-\frac{D}{2}, -\frac{E}{2}\right)$ and the radius is:
 
-$$
 \begin{aligned}
  r = \sqrt{\left(\frac{D}{2}\right)^2 + \left(\frac{E}{2}\right)^2 - F}
 \end{aligned}
-$$
 
 For a real circle to exist, we require
 $\left(\frac{D}{2}\right)^2 + \left(\frac{E}{2}\right)^2 - F > 0$.
@@ -307,11 +273,9 @@ in $x$ (or $y$). The discriminant $\Delta = b^2 - 4ac$ determines the nature of 
 A tangent to a circle at a point $P(x_1, y_1)$ on the circle $(x-a)^2 + (y-b)^2 = r^2$ is
 perpendicular to the radius at $P$. The gradient of the radius $CP$ (where $C$ is the centre) is:
 
-$$
 \begin{aligned}
  m_{\mathrm{radius}} = \frac{y_1 - b}{x_1 - a}
 \end{aligned}
-$$
 
 Therefore the gradient of the tangent is:
 
@@ -324,19 +288,15 @@ $$
 The equation of the tangent at $P(x_1, y_1)$ on the circle $x^2 + y^2 + Dx + Ey + F = 0$ can be
 obtained by replacing:
 
-$$
 \begin{aligned}
  x^2 \to xx_1, \quad y^2 \to yy_1, \quad x \to \frac{x + x_1}{2}, \quad y \to \frac{y + y_1}{2}
 \end{aligned}
-$$
 
 This gives:
 
-$$
 \begin{aligned}
  xx_1 + yy_1 + \frac{D(x + x_1)}{2} + \frac{E(y + y_1)}{2} + F = 0
 \end{aligned}
-$$
 
 </details>
 <summary>Examples</summary>
@@ -349,28 +309,22 @@ $$
 
 For a triangle with base $b$ and height $h$:
 
-$$
 \begin{aligned}
  \mathrm{Area} &= \frac{1}{2}bh
 \end{aligned}
-$$
 
 Using the [Heron's formula](https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry/)) for a triangle with side lengths $a$$b$$c$ and
 Semi-perimeter $s = \frac{a+b+c}{2}$:
 
-$$
 \begin{aligned}
  \mathrm{Area} = \sqrt{s(s-a)(s-b)(s-c)}
 \end{aligned}
-$$
 
 The area of a triangle with vertices $(x_1, y_1)$$(x_2, y_2)$$(x_3, y_3)$ is given by:
 
-$$
 \begin{aligned}
  \mathrm{Area} = \frac{1}{2}\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right|
 \end{aligned}
-$$
 
 ### Quadrilaterals
 
@@ -388,12 +342,10 @@ $$
 
 ### Circles
 
-$$
 \begin{aligned}
  \mathrm{Circumference} &= 2\pi r = \pi d \\
  \mathrm{Area} &= \pi r^2
 \end{aligned}
-$$
 
 Where $r$ is the radius and $d = 2r$ is the diameter.
 
@@ -401,23 +353,19 @@ Where $r$ is the radius and $d = 2r$ is the diameter.
 
 For an arc subtending an angle $\theta$ (in radians) at the centre of a circle of radius $r$:
 
-$$
 \begin{aligned}
  \mathrm{Arc length} &= l = r\theta \\
  \mathrm{Area of sector} &= A = \frac{1}{2}r^2\theta
 \end{aligned}
-$$
 
 When the angle is given in degrees ($\theta^\circ$), first convert to radians:
 $\theta = \theta^\circ \times \frac{\pi}{180}$.
 
 The area of a segment (the region between a chord and the corresponding arc) is:
 
-$$
 \begin{aligned}
  \mathrm{Area of segment} = \frac{1}{2}r^2(\theta - \sin\theta)
 \end{aligned}
-$$
 
 <details>
 <summary>Examples</summary>
@@ -437,19 +385,15 @@ into eight octants.
 
 The distance between two points $P_1(x_1, y_1, z_1)$ and $P_2(x_2, y_2, z_2)$ in 3D space is:
 
-$$
 \begin{aligned}
  d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}
 \end{aligned}
-$$
 
 The midpoint of the segment $P_1P_2$ is:
 
-$$
 \begin{aligned}
  M = \left( \frac{x_1 + x_2}{2},\; \frac{y_1 + y_2}{2},\; \frac{z_1 + z_2}{2} \right)
 \end{aligned}
-$$
 
 </details>
 <summary>Examples</summary>
@@ -460,11 +404,9 @@ $$
 
 The general equation of a plane in 3D is:
 
-$$
 \begin{aligned}
  Ax + By + Cz + D = 0
 \end{aligned}
-$$
 
 Where the vector $\mathbf{n} = (A, B, C)$ is a normal vector to the plane. The plane can also be
 described in several forms:
@@ -472,20 +414,16 @@ described in several forms:
 - **Point-normal form**: Given a point $P_0(x_0, y_0, z_0)$ on the plane and normal
   $\mathbf{n} = (A, B, C)$:
 
-$$
 \begin{aligned}
  A(x - x_0) + B(y - y_0) + C(z - z_0) = 0
 \end{aligned}
-$$
 
 - **Intercept form**: If the plane has $x$-intercept $a$$y$-intercept $b$ And $z$-intercept $c$ (all
   non-zero):
 
-$$
 \begin{aligned}
  \frac{x}{a} + \frac{y}{b} + \frac{z}{c} = 1
 \end{aligned}
-$$
 
 ### Angles Between Lines and Planes
 
@@ -495,43 +433,35 @@ The angle $\phi$ between a line with direction vector $\mathbf{d} = (l, m, n)$ a
 normal $\mathbf{n} = (A, B, C)$ is defined as the complement of the angle between $\mathbf{d}$ and
 $\mathbf{n}$:
 
-$$
 \begin{aligned}
  \sin\phi = \frac{|Al + Bm + Cn|}{\sqrt{A^2 + B^2 + C^2}\sqrt{l^2 + m^2 + n^2}}
 \end{aligned}
-$$
 
 #### Angle Between Two Planes
 
 The angle $\theta$ between two planes with normals $\mathbf{n_1} = (A_1, B_1, C_1)$ and
 $\mathbf{n_2} = (A_2, B_2, C_2)$ is:
 
-$$
 \begin{aligned}
  \cos\theta = \frac{|A_1 A_2 + B_1 B_2 + C_1 C_2|}{\sqrt{A_1^2 + B_1^2 + C_1^2}\sqrt{A_2^2 + B_2^2 + C_2^2}}
 \end{aligned}
-$$
 
 #### Angle Between Two Lines in 3D
 
 For two lines with direction vectors $\mathbf{d_1} = (l_1, m_1, n_1)$ and
 $\mathbf{d_2} = (l_2, m_2, n_2)$:
 
-$$
 \begin{aligned}
  \cos\theta = \frac{|l_1 l_2 + m_1 m_2 + n_1 n_2|}{\sqrt{l_1^2 + m_1^2 + n_1^2}\sqrt{l_2^2 + m_2^2 + n_2^2}}
 \end{aligned}
-$$
 
 #### Distance from a Point to a Plane
 
 The perpendicular distance from point $P(x_0, y_0, z_0)$ to the plane $Ax + By + Cz + D = 0$ is:
 
-$$
 \begin{aligned}
  d = \frac{|Ax_0 + By_0 + Cz_0 + D|}{\sqrt{A^2 + B^2 + C^2}}
 \end{aligned}
-$$
 
 <details>
 <summary>Examples</summary>
@@ -815,13 +745,9 @@ $C_1$ and $C_2$ touch externally, find $r$.
 
 For external tangency, the distance between centres equals the sum of the radii:
 
-$$
 d = \sqrt{(7 - 1)^2 + (2 - 2)^2} = 6
-$$
 
-$$
 3 + r = 6 \implies r = 3
-$$
 
 </details>
 
@@ -873,23 +799,15 @@ Find the volume of the tetrahedron with vertices $A(0, 0, 0)$$B(2, 0, 0)$$C(0, 3
 
 The volume of a tetrahedron with vertices at the origin and on the coordinate axes is:
 
-$$
 V = \frac{1}{6}|x_B \cdot y_C \cdot z_D| = \frac{1}{6}(2)(3)(4) = 4
-$$
 
 Alternatively, using the scalar triple product:
 
-$$
 V = \frac{1}{6}|\overrightarrow{AB} \cdot (\overrightarrow{AC} \times \overrightarrow{AD})| = \frac{1}{6}|(2, 0, 0) \cdot ((0, 3, 0) \times (0, 0, 4))|
-$$
 
-$$
 (0, 3, 0) \times (0, 0, 4) = (12, 0, 0)
-$$
 
-$$
 V = \frac{1}{6}|(2)(12)| = \frac{1}{6}(24) = 4
-$$
 
 </details>
 
@@ -902,13 +820,9 @@ Find the angle between the lines joining $A(1, 0, 0)$ to $B(0, 1, 0)$ and $A$ to
 
 $\overrightarrow{AB} = (-1, 1, 0)$$\overrightarrow{AC} = (-1, 0, 1)$.
 
-$$
 \cos\theta = \frac{|(-1)(-1) + (1)(0) + (0)(1)|}{\sqrt{1 + 1 + 0} \cdot \sqrt{1 + 0 + 1}} = \frac{1}{\sqrt{2}\sqrt{2}} = \frac{1}{2}
-$$
 
-$$
 \theta = 60^\circ
-$$
 
 </details>
 
@@ -925,17 +839,11 @@ Using the tangent formula for the general circle equation $x^2 + y^2 + Dx + Ey +
 
 Replace $x^2 \to x \cdot 5$$y^2 \to y \cdot 1$$x \to \dfrac{x + 5}{2}$$y \to \dfrac{y + 1}{2}$:
 
-$$
 5x + y - 4\cdot\frac{x + 5}{2} + 6\cdot\frac{y + 1}{2} - 12 = 0
-$$
 
-$$
 5x + y - 2x - 10 + 3y + 3 - 12 = 0
-$$
 
-$$
 3x + 4y - 19 = 0
-$$
 
 </details>
 
@@ -962,9 +870,7 @@ Let the centre be $C(h, k)$. Since $C$ lies on $x - y + 2 = 0$: $h - k + 2 = 0 \
 
 $CA^2 = CB^2$ where $A = (0, 0)$ and $B = (0, 4)$:
 
-$$
 h^2 + k^2 = h^2 + (k - 4)^2 \implies k^2 = k^2 - 8k + 16 \implies 8k = 16 \implies k = 2
-$$
 
 $h = k - 2 = 0$.
 
@@ -1006,9 +912,7 @@ Perimeter of sector $= 2r + r\theta = 20 + 10\theta = 30$.
 
 $10\theta = 10 \implies \theta = 1$ rad.
 
-$$
 \mathrm{Area} = \frac{1}{2}r^2\theta = \frac{1}{2}(100)(1) = 50\mathrm{ cm}^2
-$$
 
 </details>
 
@@ -1050,13 +954,9 @@ $AB = 6$.
 Normal to first plane: $\mathbf{n_1} = (2, -1, 2)$. Normal to second plane:
 $\mathbf{n_2} = (1, 2, -2)$.
 
-$$
 \cos\theta = \frac{|2(1) + (-1)(2) + 2(-2)|}{\sqrt{4 + 1 + 4} \cdot \sqrt{1 + 4 + 4}} = \frac{|2 - 2 - 4|}{3 \cdot 3} = \frac{4}{9}
-$$
 
-$$
 \theta = \arccos\!\left(\frac{4}{9}\right) \approx 63.6^\circ
-$$
 
 </details>
 
@@ -1081,13 +981,9 @@ $VM = \sqrt{VO^2 + OM^2} = \sqrt{75 + 9} = \sqrt{84} = 2\sqrt{21}$.
 
 The angle between face $VAB$ and the base is the angle between $VM$ and $OM$:
 
-$$
 \cos\phi = \frac{OM}{VM} = \frac{3}{2\sqrt{21}} = \frac{\sqrt{21}}{14}
-$$
 
-$$
 \phi = \arccos\!\left(\frac{\sqrt{21}}{14}\right) \approx 69.2^\circ
-$$
 
 </details>
 
@@ -1099,9 +995,7 @@ $B$. Find the area of the minor segment cut off by the chord $AB$.
 
 Distance from the centre $(0, 0)$ to the line:
 
-$$
 d = \frac{|25|}{5} = 5
-$$
 
 Since $d = r = 5$ The line is tangent to the circle (not a chord). There is no minor segment -- the
 line touches the circle at exactly one point.
@@ -1145,7 +1039,6 @@ Since the line is tangent (not a secant), the area of the minor segment is $0$.
 **Problem.** Find the distance between $A(1, 2, 3)$ and $B(4, -1, 5)$.
 
 **Solution.** $$AB = \sqrt{(4-1)^2 + (-1-2)^2 + (5-3)^2} = \sqrt{9 + 9 + 4} = \sqrt{22}
-$$
 
 $\blacksquare$
 
@@ -1155,7 +1048,6 @@ $\blacksquare$
 $\triangle ABC$ is right-angled.
 
 **Solution.** $$AB^2 = 16, \quad AC^2 = 9, \quad BC^2 = 16 + 9 = 25
-$$
 
 $AB^2 + AC^2 = 16 + 9 = 25 = BC^2$. By the converse of Pythagoras' theorem, $\triangle ABC$ is
 right-angled at $A$.

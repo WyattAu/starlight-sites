@@ -27,9 +27,7 @@ for nearly all life on Earth.
 
 **Overall equation:**
 
-$$
 6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{light, chlorophyll}} \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2
-$$
 
 This is a redox process: $\mathrm{CO}_2$ is reduced to glucose (gain of electrons), and
 $\mathrm{H}_2\mathrm{O}$ is oxidised to $\mathrm{O}_2$ (loss of electrons).
@@ -81,9 +79,7 @@ Phosphate ($\mathrm{P}_i$).
 2. **Photolysis of water:** The excited electron leaves P680, creating a positive charge. Water
    molecules are split by the enzyme water-splitting complex to replace the electron:
 
-$$
 2\mathrm{H}_2\mathrm{O} \to 4\mathrm{H}^+ + 4e^- + \mathrm{O}_2
-$$
 
 The $\mathrm{O}_2$ is released as a by-product. This is the source of atmospheric oxygen.
 
@@ -105,9 +101,7 @@ The $\mathrm{O}_2$ is released as a by-product. This is the source of atmospheri
 
 **Summary equation for light-dependent reactions:**
 
-$$
 2\mathrm{H}_2\mathrm{O} + 2\mathrm{NADP}^+ + 3\mathrm{ADP} + 3\mathrm{P}_i \xrightarrow{\mathrm{light}} 2\mathrm{NADPH} + 3\mathrm{ATP} + \mathrm{O}_2
-$$
 
 ### Light-Independent Reactions (Calvin Cycle)
 
@@ -125,37 +119,27 @@ Organic compounds.
    catalyses the reaction between $\mathrm{CO}_2$ and ribulose-1,5-bisphosphate (RuBP, a 5-carbon
    compound):
 
-$$
 \mathrm{CO}_2 + \mathrm{RuBP (5C)} \to \mathrm{Unstable 6C intermediate} \to 2 \times \mathrm{GP (glycerate-3-phosphate, 3C)}
-$$
 
 1. **Reduction:** GP is reduced to triose phosphate (TP, also called G3P) using ATP and NADPH from
    the light-dependent reactions:
 
-$$
 \mathrm{GP} + \mathrm{ATP} + \mathrm{NADPH} \to \mathrm{TP} + \mathrm{NADP}^+ + \mathrm{ADP} + \mathrm{P}_i
-$$
 
 1. **Regeneration of RuBP:** For every 6 $\mathrm{CO}_2$ molecules fixed, 12 molecules of TP are
    produced. Of these, 10 molecules of TP (total 30 carbons) are used to regenerate 6 molecules of
    RuBP (total 30 carbons), consuming 6 ATP. The remaining 2 molecules of TP (total 6 carbons) are
    the net product and can be used to make one molecule of glucose (6C):
 
-$$
 2 \times \mathrm{TP (3C each)} \to \mathrm{Glucose (6C)}
-$$
 
 **Net equation for the Calvin cycle (per 3 turns):**
 
-$$
 3\mathrm{CO}_2 + 9\mathrm{ATP} + 6\mathrm{NADPH} \to \mathrm{TP} + 9\mathrm{ADP} + 8\mathrm{P}_i + 6\mathrm{NADP}^+
-$$
 
 **Per glucose (6 turns):**
 
-$$
 6\mathrm{CO}_2 + 18\mathrm{ATP} + 12\mathrm{NADPH} \to \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 18\mathrm{ADP} + 18\mathrm{P}_i + 12\mathrm{NADP}^+
-$$
 
 ### Limiting Factors of Photosynthesis
 
@@ -254,13 +238,9 @@ of $\mathrm{CO}_2$ inside the leaf is lower than in the atmosphere, so $\mathrm{
 through the stomata. $\mathrm{O}_2$ Produced as a by-product of photolysis, diffuses out through The
 stomata.
 
-$$
 \mathrm{CO}_2 \mathrm{ (atmosphere)} \to \mathrm{stomata} \to \mathrm{air spaces} \to \mathrm{mesophyll cells} \to \mathrm{chloroplasts}
-$$
 
-$$
 \mathrm{O}_2 \mathrm{ (chloroplasts)} \to \mathrm{mesophyll cells} \to \mathrm{air spaces} \to \mathrm{stomata} \to \mathrm{atmosphere}
-$$
 
 At night, when photosynthesis stops but respiration continues, the direction of gas exchange
 Reverses: the plant takes in $\mathrm{O}_2$ and releases $\mathrm{CO}_2$.
@@ -602,13 +582,9 @@ fuses with the egg cell to form the diploid zygote (2n). This will develop into 
 to form the triploid endosperm (3n). The endosperm is a nutritive tissue that provides food for the
 developing embryo.
 
-$$
 \mathrm{Male gamete (n)} + \mathrm{Egg cell (n)} \to \mathrm{Zygote (2n)}
-$$
 
-$$
 \mathrm{Male gamete (n)} + 2 \times \mathrm{Polar nuclei (n + n)} \to \mathrm{Endosperm (3n)}
-$$
 
 #### Seed and Fruit Formation
 
@@ -1396,13 +1372,9 @@ interconvertible forms:
 
 **Conversion:**
 
-$$
 \mathrm{Pr} \xrightarrow{\text{red light (660 nm)}} \mathrm{Pfr}
-$$
 
-$$
 \mathrm{Pfr} \xrightarrow{\text{far-red light (730 nm) or darkness}} \mathrm{Pr}
-$$
 
 During daylight, $\mathrm{Pr}$ is converted to $\mathrm{Pfr}$. In darkness, $\mathrm{Pfr}$ slowly
 reverts to $\mathrm{Pr}$.
@@ -1980,7 +1952,6 @@ gravity:
    PSI passes to ferredoxin, then to NADP$^+$ reductase
 6. **NADPH production:** NADP$^+$ reductase transfers two electrons and one H$^+$ to
    NADP$^+$Reducing it to NADPH: $$\text{NADP}^+ + 2e^- + \mathrm{H^+} \rightarrow \text{NADPH}
-$$
 
 ### The Light-Independent Reactions (Calvin Cycle)
 
@@ -2008,7 +1979,6 @@ $$
 
 **Overall equation for the Calvin cycle:**
 
-$$
 3\text{CO}_2 + 6\text{NADPH} + 9\text{ATP} \rightarrow \text{triose phosphate (GALP)} + 6\text{NADP}^+ + 9\text{ADP} + 8\text{P}_i
 $$
 

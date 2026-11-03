@@ -146,13 +146,9 @@ Notation: $\overline{A \oplus B}$, $A \odot B$
 
 XOR and XNOR can be expressed entirely in terms of AND, OR, and NOT:
 
-$$
 A \oplus B = A \cdot \overline{B} + \overline{A} \cdot B
-$$
 
-$$
 A \odot B = A \cdot B + \overline{A} \cdot \overline{B}
-$$
 
 These identities are essential when simplifying expressions that contain XOR/XNOR into standard
 Forms suitable for implementation with basic gates or Karnaugh maps.
@@ -293,23 +289,15 @@ by constructing truth tables for both sides and confirming they are identical.
 De Morgan's Laws are the most frequently applied identities in Boolean simplification. They allow
 the distribution of a NOT over an AND or OR:
 
-$$
 \overline{A \cdot B} = \overline{A} + \overline{B}
-$$
 
-$$
 \overline{A + B} = \overline{A} \cdot \overline{B}
-$$
 
 For three variables, De Morgan's Laws extend as:
 
-$$
 \overline{A \cdot B \cdot C} = \overline{A} + \overline{B} + \overline{C}
-$$
 
-$$
 \overline{A + B + C} = \overline{A} \cdot \overline{B} \cdot \overline{C}
-$$
 
 The general rule: invert each variable, and swap AND with OR (or vice versa).
 
@@ -323,41 +311,29 @@ Simplify $F = \overline{A \cdot B + A \cdot C}$ using De Morgan's Laws.
 **Step 1:** Apply De Morgan's to the outer NOT (treating $A \cdot B + A \cdot C$ as the inner
 Expression):
 
-$$
 F = \overline{A \cdot B} \cdot \overline{A \cdot C}
-$$
 
 **Step 2:** Apply De Morgan's to each remaining term:
 
-$$
 F = (\overline{A} + \overline{B}) \cdot (\overline{A} + \overline{C})
-$$
 
 **Step 3:** Apply the distributive law:
 
-$$
 F = \overline{A} \cdot \overline{A} + \overline{A} \cdot \overline{C} + \overline{B} \cdot \overline{A} + \overline{B} \cdot \overline{C}
-$$
 
 **Step 4:** Simplify using idempotent law ($\overline{A} \cdot \overline{A} = \overline{A}$) and
 Commutative:
 
-$$
 F = \overline{A} + \overline{A} \cdot \overline{C} + \overline{A} \cdot \overline{B} + \overline{B} \cdot \overline{C}
-$$
 
 **Step 5:** Apply absorption ($\overline{A} + \overline{A} \cdot \overline{C} = \overline{A}$):
 
-$$
 F = \overline{A} + \overline{A} \cdot \overline{B} + \overline{B} \cdot \overline{C}
-$$
 
 **Step 6:** Apply absorption again
 ($\overline{A} + \overline{A} \cdot \overline{B} = \overline{A}$):
 
-$$
 F = \overline{A} + \overline{B} \cdot \overline{C}
-$$
 
 The simplified expression requires 1 NOT, 1 AND, and 1 OR gate (3 gates total), compared to the
 original which requires 2 AND, 1 OR, and 1 NOT (4 gates total) -- or more if not shared.
@@ -366,9 +342,7 @@ original which requires 2 AND, 1 OR, and 1 NOT (4 gates total) -- or more if not
 
 ### Consensus Theorem
 
-$$
 A \cdot B + \overline{A} \cdot C + B \cdot C = A \cdot B + \overline{A} \cdot C
-$$
 
 The term $B \cdot C$ is redundant because it is the "consensus" of the other two terms. The variable
 $B$ appears in the first term and $\overline{B}$ does not; $C$ appears in the second term and
@@ -376,9 +350,7 @@ $\overline{C}$ does not. The consensus term is $B \cdot C$.
 
 The dual form is:
 
-$$
 (A + B) \cdot (\overline{A} + C) \cdot (B + C) = (A + B) \cdot (\overline{A} + C)
-$$
 
 ## Simplifying Boolean Expressions
 
@@ -392,27 +364,19 @@ Simplify: $F = A \cdot B + A \cdot \overline{B} + \overline{A} \cdot B$
 
 **Step 1:** Factor $A$ from the first two terms (distributive law, reverse):
 
-$$
 F = A \cdot (B + \overline{B}) + \overline{A} \cdot B
-$$
 
 **Step 2:** Apply complement law: $B + \overline{B} = 1$
 
-$$
 F = A \cdot 1 + \overline{A} \cdot B
-$$
 
 **Step 3:** Apply identity law: $A \cdot 1 = A$
 
-$$
 F = A + \overline{A} \cdot B
-$$
 
 **Step 4:** Apply absorption: $A + \overline{A} \cdot B = A + B$
 
-$$
 F = A + B
-$$
 
 ### Worked Example 2
 
@@ -421,22 +385,16 @@ $F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \
 
 **Step 1:** Group terms containing $\overline{A}$:
 
-$$
 F = \overline{A} \cdot (\overline{B} \cdot \overline{C} + B \cdot C) + A \cdot \overline{C}
-$$
 
 **Step 2:** Recognize that $\overline{B} \cdot \overline{C} + B \cdot C = B \odot C$ (XNOR):
 
-$$
 F = \overline{A} \cdot (B \odot C) + A \cdot \overline{C}
-$$
 
 This is a valid simplification but not in sum-of-products form. For circuit implementation, we can
 expand:
 
-$$
 F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \cdot C + A \cdot \overline{C}
-$$
 
 Using absorption, the term $A \cdot \overline{C}$ absorbs both
 $A \cdot \overline{B} \cdot \overline{C}$ and $A \cdot B \cdot \overline{C}$. We already have
@@ -445,13 +403,10 @@ generated when we expand $A \cdot \overline{C}$:
 
 $$
 A \cdot \overline{C} = A \cdot \overline{B} \cdot \overline{C} + A \cdot B \cdot \overline{C}
-$$
 
 So the full SOP is:
 
-$$
 F = \overline{A} \cdot \overline{B} \cdot \overline{C} + \overline{A} \cdot B \cdot C + A \cdot \overline{B} \cdot \overline{C} + A \cdot B \cdot \overline{C}
-$$
 
 This simplifies to $F = \overline{C} + \overline{A} \cdot B \cdot C$ Which requires only 4 gate
 Inputs instead of the original 8.
@@ -462,15 +417,11 @@ Simplify: $F = \overline{(A + B) \cdot (\overline{A} + \overline{B})}$
 
 **Step 1:** Apply De Morgan's Law to the outer NOT:
 
-$$
 F = \overline{A + B} + \overline{\overline{A} + \overline{B}}
-$$
 
 **Step 2:** Apply De Morgan's Law to each term:
 
-$$
 F = \overline{A} \cdot \overline{B} + A \cdot B
-$$
 
 This is $A \odot B$ (XNOR). The expression is now in minimal SOP form.
 
@@ -521,9 +472,7 @@ where $X$ and $Y$ are themselves NAND expressions.
 
 The SOP form is $F = A \cdot B + C$. Apply De Morgan's in reverse:
 
-$$
 F = \overline{\overline{A \cdot B} \cdot \overline{C}}
-$$
 
 **Step 2:** Verify:
 $\overline{\overline{A \cdot B} \cdot \overline{C}} = \overline{\overline{A \cdot B}} + \overline{\overline{C}} = A \cdot B + C$.
@@ -647,9 +596,7 @@ But $m_0$ is only covered by $\overline{A}\overline{B}$ So that group is essenti
 covered by $B\overline{C}$ So that is essential. $m_5$ is only covered by $\overline{B}C$ So that Is
 essential. $m_7$ is only covered by $AB$ So that is essential.
 
-$$
 F = \overline{A}\overline{B} + B\overline{C} + \overline{B}C + AB
-$$
 
 ### 4-Variable K-Map
 
@@ -707,9 +654,7 @@ $m_9 = A\overline{B}\overline{C}D$. We need to cover it. Options:
 
 So we add $A\overline{B}\overline{C}$.
 
-$$
 F = \overline{B}\overline{D} + \overline{A}\overline{C}D + A\overline{B}\overline{C}
-$$
 
 This requires three AND gates and one OR gate, for a total of 4 gates with 9 gate inputs.
 
@@ -979,13 +924,9 @@ The 1s appear at $(0,01)$$(0,10)$$(1,00)$$(1,11)$. No two adjacent 1s share a co
 standard sense. Each 1 is isolated (adjacent cells are 0). Therefore, no simplification is Possible,
 and the SOP form is the sum of minterms:
 
-$$
 \mathrm{Sum} = \overline{A} \cdot \overline{B} \cdot C_{in} + \overline{A} \cdot B \cdot \overline{C_{in}} + A \cdot \overline{B} \cdot \overline{C_{in}} + A \cdot B \cdot C_{in}
-$$
 
-$$
 \mathrm{Sum} = A \oplus B \oplus C_{in}
-$$
 
 **Carry-out derivation via K-map:**
 
@@ -1005,15 +946,11 @@ Groups:
   $A \cdot C_{in}$ And the $2 \times 2$ group spanning $(1,11)$ and $(1,10)$ gives $A \cdot B$.
 - $(0,11), (1,11)$: column 11, both rows. This is $B \cdot C_{in}$.
 
-$$
 C_{out} = A \cdot B + A \cdot C_{in} + B \cdot C_{in}
-$$
 
 **Alternative carry expression:**
 
-$$
 C_{out} = (A \cdot B) + C_{in} \cdot (A \oplus B)
-$$
 
 This form has significance: it shows that a full adder can be constructed from two half adders. The
 first half adder computes $A \oplus B$ (partial sum) and $A \cdot B$ (partial carry). The second
@@ -1065,9 +1002,7 @@ majority votes yes (2 or 3 yes votes). Derive the Boolean expression and count t
 Essential prime implicants: $BC$, $AC$, $AB$ (each covers a minterm that no other group covers:
 $m_3$ only by $BC$$m_5$ only by $AC$$m_6$ only by $AB$).
 
-$$
 F = A \cdot B + A \cdot C + B \cdot C
-$$
 
 **Step 4: Gate count**
 
@@ -1076,7 +1011,6 @@ $$
 - Total: **4 gates**
 
 Alternative implementation using XOR: $$F = A \cdot B + C \cdot (A \oplus B)
-$$
 
 This uses 1 XOR gate, 2 AND gates, 1 OR gate = **4 gates** (same count, but uses XOR which may be
 cheaper in some implementations).
@@ -1099,15 +1033,11 @@ single full adder.
 The most common error is distributing the NOT incorrectly. De Morgan's Laws invert each variable AND
 swap the operator. A typical mistake:
 
-$$
 \overline{A \cdot B + C} \neq \overline{A} \cdot \overline{B} + \overline{C}
-$$
 
 The correct application is:
 
-$$
 \overline{A \cdot B + C} = \overline{A \cdot B} \cdot \overline{C} = (\overline{A} + \overline{B}) \cdot \overline{C}
-$$
 
 ### Incomplete K-Map Grouping
 
@@ -1189,15 +1119,11 @@ If you get this wrong, revise: [Basic Operators](#basic-operators)
 
 **Step 1:** Apply De Morgan's to the outer NOT:
 
-$$
 \overline{A \cdot (B + C)} = \overline{A} + \overline{B + C}
-$$
 
 **Step 2:** Apply De Morgan's to $\overline{B + C}$:
 
-$$
 = \overline{A} + \overline{B} \cdot \overline{C}
-$$
 
 Result: $\overline{A} + \overline{B} \cdot \overline{C}$
 
@@ -1230,21 +1156,15 @@ Boolean algebra identities.
 
 **Step 1:** Apply absorption repeatedly. $A + A \cdot B = A$ (absorption):
 
-$$
 F = A + A \cdot B \cdot C + A \cdot B \cdot C \cdot D
-$$
 
 **Step 2:** Apply absorption again:
 
-$$
 F = A + A \cdot B \cdot C \cdot D
-$$
 
 **Step 3:** Apply absorption one more time:
 
-$$
 F = A
-$$
 
 Every term contains $A$ as a factor, so $A$ absorbs all of them. The entire expression simplifies to
 just $A$.
@@ -1294,9 +1214,7 @@ $\overline{B}C$.
 
 Best option: $\overline{B}C$ covers $m_5$ and also covers $m_1$ (which is 0, so no harm).
 
-$$
 F = C + \overline{B}C = C
-$$
 
 Wait -- check: does $F = C$ match all minterms? $m_2$ ($\overline{A}B\overline{C}$): $C = 0$. But
 $m_2$ should be 1! So $F \neq C$.
@@ -1313,9 +1231,7 @@ So the $2 \times 2$ group gives $B$ Not $C$.
 
 Remaining: $m_5 = A\overline{B}C$. Group with $(0,01)$: $\overline{B}C$.
 
-$$
 F = B + \overline{B}C
-$$
 
 By absorption: $B + \overline{B}C = B + C$.
 
@@ -1358,9 +1274,7 @@ If you get this wrong, revise: [3-Variable K-Maps](#3-variable-k-map)
 
 **SOP form** (from the 1s -- rows 00 and 11):
 
-$$
 F = \overline{A} \cdot \overline{B} + A \cdot B
-$$
 
 This is XNOR: $F = A \odot B$.
 
@@ -1369,9 +1283,7 @@ This is XNOR: $F = A \odot B$.
 Maxterm for row 01 ($A=0, B=1$): $A + \overline{B}$ Maxterm for row 10 ($A=1, B=0$):
 $\overline{A} + B$
 
-$$
 F = (A + \overline{B}) \cdot (\overline{A} + B)
-$$
 
 **Verification:** Expand the POS:
 $(A + \overline{B})(\overline{A} + B) = A\overline{A} + AB + \overline{B}\overline{A} + \overline{B}B = 0 + AB + \overline{A}\overline{B} + 0 = AB + \overline{A}\overline{B}$.
@@ -1415,9 +1327,7 @@ valid $2 \times 2$ group because K-maps wrap around both edges.
 
 The four corners have: A varies (0 and 1), C varies (0 and 1), but B=0 and D=0 in all four.
 
-$$
 F = \overline{B} \cdot \overline{D}
-$$
 
 This is the classic "four corners" grouping. The expression requires only 2 NOT gates and 1 AND gate
 = **3 gates**.
@@ -1520,9 +1430,7 @@ Expression.
 
 **Correct application:**
 
-$$
 \overline{A + B \cdot C} = \overline{A} \cdot \overline{B \cdot C} = \overline{A} \cdot (\overline{B} + \overline{C})
-$$
 
 Verify with $A=0, B=1, C=1$:
 
@@ -1663,9 +1571,7 @@ Expression.
 Check coverage: $m_0$ ($\overline{C}$), $m_2$ ($\overline{C}$), $m_4$ ($\overline{C}$), $m_6$
 ($\overline{C}$ And $AB$), $m_7$ ($AB$). All covered.
 
-$$
 F = \overline{C} + AB
-$$
 
 Gates: 1 NOT + 1 AND + 1 OR = **3 gates** (or using NAND-NAND: 3 NAND gates).
 

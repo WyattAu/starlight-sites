@@ -26,15 +26,11 @@ categories:
 **Definition 1 (S$\_\text{N}$2):** Bimolecular nucleophilic substitution, a single concerted step
 with backside attack.
 
-$$
 \text{Nu}^- + \text{R–LG} \to [\text{Nu}\cdots\text{R}\cdots\text{LG}]^{\ddagger} \to \text{Nu–R} + \text{LG}^-
-$$
 
 **Theorem 1 (SN2 Rate Law):**
 
-$$
 v = k[\text{Nu}^-][\text{R–LG}]
-$$
 
 **Features:**
 
@@ -49,18 +45,12 @@ $$
 **Definition 2 (S$\_\text{N}$1):** Unimolecular nucleophilic substitution, two steps via a
 carbocation intermediate.
 
-$$
 \text{R–LG} \xrightarrow{k_1} \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}
-$$
-$$
 \text{R}^+ + \text{Nu}^- \xrightarrow{k_2} \text{R–Nu}
-$$
 
 **Theorem 2 (SN1 Rate Law):**
 
-$$
 v = k[\text{R–LG}]
-$$
 
 **Features:**
 
@@ -73,9 +63,7 @@ $$
 
 **Theorem 3 (Carbocation Stability Order):**
 
-$$
 \text{3°} > \text{2°} > \text{1°} > \text{CH}_3^+
-$$
 
 Stabilized by:
 
@@ -103,9 +91,7 @@ the conjugate acid.
 
 **Theorem 5 (Leaving Group Ability):** The weaker the base, the better the leaving group:
 
-$$
 \text{I}^- > \text{Br}^- > \text{Cl}^- > \text{F}^- > \text{OH}^- \gg \text{NH}_2^-
-$$
 
 Weak bases make good leaving groups because they can stabilize the negative charge after departure.
 $\text{H}_2\text{O}$ is a better leaving group than $\text{HO}^-$; protonating $\text{HO}^-$ makes
@@ -125,9 +111,7 @@ it $\text{H}_2\text{O}$.
 
 **Definition 5 (E2):** Bimolecular elimination, concerted removal of HX.
 
-$$
 \text{Base} + \text{H–C–C–LG} \to \text{alkene} + \text{Base-H}^+ + \text{LG}^-
-$$
 
 **Features:**
 
@@ -140,12 +124,8 @@ $$
 
 **Definition 6 (E1):** Unimolecular elimination, carbocation intermediate, then deprotonation.
 
-$$
 \text{R–LG} \to \text{R}^+ + \text{LG}^- \quad \text{(rate-determining)}
-$$
-$$
 \text{R}^+ \to \text{alkene} + \text{H}^+
-$$
 
 **Features:**
 
@@ -158,9 +138,7 @@ $$
 **Definition 7 (E1cB):** Elimination, unimolecular, conjugate base, deprotonation first, then
 leaving group departs.
 
-$$
 \text{Base} + \text{H–C–C–LG} \to \text{C}^--\text{C–LG} \to \text{alkene} + \text{LG}^-
-$$
 
 Favored when the leaving group is poor but the $\alpha$-H is acidic (e.g., carbonyl compounds).
 
@@ -184,9 +162,7 @@ Favored when the leaving group is poor but the $\alpha$-H is acidic (e.g., carbo
 **Theorem 6 (Markovnikov's Rule):** In electrophilic addition to an unsymmetrical alkene, the
 electrophile adds to the carbon with more hydrogen atoms (the less substituted carbon).
 
-$$
 \text{HBr} + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHBrCH}_3 \quad (\text{major})
-$$
 
 Mechanism: $\pi$ bond attacks electrophile $\to$ carbocation $\to$ nucleophile attack.
 
@@ -196,21 +172,15 @@ Mechanism: $\pi$ bond attacks electrophile $\to$ carbocation $\to$ nucleophile a
 
 With HBr and peroxides (radical mechanism):
 
-$$
 \text{HBr} + \text{ROOR} \to \text{radical chain} \to \text{anti-Markovnikov product}
-$$
 
-$$
 \text{Br}^\bullet + \text{CH}_3\text{CH}=\text{CH}_2 \to \text{CH}_3\text{CHCH}_2\text{Br} \quad (\text{anti-Markovnikov})
-$$
 
 ### 3.3 Addition to Carbonyl Compounds
 
 **Nucleophilic addition to C=O:**
 
-$$
 \text{Nu}^- + \text{R}_2\text{C}=O \to \text{R}_2\text{C(O}^-\text{)Nu} \xrightarrow{\text{H}^+} \text{R}_2\text{CH(OH)Nu}
-$$
 
 - The carbonyl carbon is electrophilic due to the polarized $\text{C}^\delta+=\text{O}^\delta-$
   bond.
@@ -221,9 +191,7 @@ $$
 
 For $\alpha,\beta$-unsaturated carbonyls:
 
-$$
 \text{Nu}^- + \text{CH}_2=\text{CH}-\text{C}=O \to \begin{cases} \text{1,2-addition (direct)} \\ \text{1,4-addition (conjugate/Michael)} \end{cases}
-$$
 
 **Theorem 7:** Hard nucleophiles (e.g., $^-$ OH, $^-$ CN) favor 1,2-addition. Soft nucleophiles (e.g.,
 enolates, thiols) favor 1,4-addition (Michael addition).
@@ -233,31 +201,22 @@ enolates, thiols) favor 1,4-addition (Michael addition).
 ### 4.1 Initiation, Propagation, Termination
 
 1. **Initiation:** Homolytic cleavage (heat, light, or initiator):
-   $$
    \text{R–R} \xrightarrow{\Delta \text{ or } h\nu} 2\,\text{R}^\bullet
-   $$
 
 2. **Propagation:** Radical reacts with stable molecule to generate a new radical:
-   $$
    \text{R}^\bullet + \text{H–C} \to \text{R–H} + \text{C}^\bullet
-   $$
 
 3. **Termination:** Two radicals combine: $$\text{R}^\bullet + \text{R}^\bullet \to \text{R–R}
-$$
 
 ### 4.2 Radical Stability
 
-$$
 \text{3°} > \text{2°} > \text{1°} > \text{CH}_3^\bullet > \text{H}^\bullet
-$$
 
 Allylic and benzylic radicals are especially stable due to resonance.
 
 ### 4.3 Halogenation of Alkanes
 
-$$
 \text{RH} + \text{X}_2 \xrightarrow{h\nu} \text{RX} + \text{HX}
-$$
 
 **Selectivity:**
 
@@ -298,9 +257,7 @@ pathway. The rule depends on:
 
 **Theorem 9 (Diels-Alder Reaction):** A $[4 + 2]$ cycloaddition between a diene and a dienophile:
 
-$$
 \text{diene} + \text{dienophile} \to \text{cyclohexene}
-$$
 
 **Requirements:**
 
@@ -327,16 +284,12 @@ across a conjugated system of $i$ and $j$ atoms.
 
 **Theorem 10 (Cope Rearrangement):** A $[3,3]$ sigmatropic rearrangement of 1,5-dienes:
 
-$$
 \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2 \rightleftharpoons \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CH}=\text{CH}_2
-$$
 
 Thermally allowed via a chair-like transition state.
 
 **Claisen rearrangement:** $[3,3]$ sigmatropic rearrangement of allyl vinyl ethers:
-$$
 \text{CH}_2=\text{CH}-\text{CH}_2-\text{O}-\text{CH}=\text{CH}_2 \to \text{CH}_2=\text{CH}-\text{CH}_2-\text{CH}_2-\text{CHO}
-$$
 
 ### 5.5 Electrocyclic Reactions
 
@@ -351,9 +304,7 @@ $$
    arenium ion (sigma complex).
 2. **Deprotonation:** Loss of H$^+$ restores aromaticity.
 
-$$
 \text{ArH} + \text{E}^+ \to [\text{ArHE}]^+ \xrightarrow{-\text{H}^+} \text{ArE}
-$$
 
 ### 6.2 Activating and Deactivating Groups
 
@@ -387,9 +338,7 @@ and/or para to the leaving group:
 1. Nucleophilic addition to the aromatic ring (forming a Meisenheimer complex).
 2. Elimination of the leaving group, restoring aromaticity.
 
-$$
 \text{Ar-X} + \text{Nu}^- \to [\text{Ar(X)(Nu)}]^- \to \text{Ar-Nu} + \text{X}^-
-$$
 
 Favored by strong EWGs and good leaving groups.
 
@@ -397,7 +346,6 @@ Favored by strong EWGs and good leaving groups.
 
 Under extreme conditions (strong base, very high $T$), elimination via benzyne intermediate:
 
-$$
 \text{Ar-X} + \text{NH}_2^- \to \text{benzyne} \to \text{Ar-NH}_2
 $$
 

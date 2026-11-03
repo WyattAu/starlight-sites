@@ -40,9 +40,7 @@ production function is $Q = f(L, \bar{K})$.
 **Law of diminishing marginal returns**: as more of a variable factor (labour) is added to a fixed
 Factor (capital), the marginal product of labour eventually diminishes.
 
-$$
 MP_L = \frac{dQ}{dL}, \quad \frac{d^2 Q}{dL^2} < 0 \mathrm{ for } L > L^*
-$$
 
 Since $MC = \frac{dw}{dQ} = \frac{w}{MP_L}$ (where $w$ is the wage rate), diminishing marginal
 Returns ($MP_L$ falling) implies $MC$ is eventually rising.
@@ -50,12 +48,10 @@ Returns ($MP_L$ falling) implies $MC$ is eventually rising.
 In the **long run**, all factors are variable. The firm chooses the cost-minimising combination of
 inputs:
 
-$$
 \begin{aligned}
 \min_{L,K} \quad & wL + rK \\
 \mathrm{s.t.} \quad & Q = f(L, K)
 \end{aligned}
-$$
 
 The first-order condition gives the **expansion path**: $\frac{MP_L}{w} = \frac{MP_K}{r}$ (equating
 the marginal product per pound spent on each input).
@@ -65,9 +61,7 @@ the marginal product per pound spent on each input).
 We define **economies of scale** as the condition where long-run average cost (LRAC) falls as output
 Increases:
 
-$$
 \frac{d(LRAC)}{dQ} < 0
-$$
 
 **Internal economies of scale:**
 
@@ -97,9 +91,7 @@ Communication problems, and alienation in very large organisations.
 
 The **long-run average cost curve** is the envelope of all short-run average cost curves:
 
-$$
 LRAC(Q) = \min_{K} SRAC(Q; K)
-$$
 
 At each output level, the firm chooses the plant size (capital stock) that minimises average cost.
 The LRAC is U-shaped, reflecting economies of scale at low output and diseconomies at high Output.
@@ -116,13 +108,9 @@ The LRAC is U-shaped, reflecting economies of scale at low output and diseconomi
 
 If demand is $P = a - bQ$ Then:
 
-$$
 TR = P \times Q = aQ - bQ^2
-$$
 
-$$
 MR = \frac{dTR}{dQ} = a - 2bQ
-$$
 
 **Proposition: For a downward-sloping demand curve, $MR < AR$ (i.e., $MR < P$).**
 
@@ -140,21 +128,16 @@ $MR = AR = P$.
 
 The firm chooses output $Q$ to maximise economic profit:
 
-$$
 \pi(Q) = TR(Q) - TC(Q)
-$$
 
 First-order condition:
 
 $$
 \frac{d\pi}{dQ} = MR - MC = 0 \implies MR = MC
-$$
 
 Second-order condition (for maximum):
 
-$$
 \frac{d^2\pi}{dQ^2} = \frac{d(MR)}{dQ} - \frac{d(MC)}{dQ} < 0 \implies MC \mathrm{ cuts MR from below}
-$$
 
 **Normal profit** is the minimum profit necessary to keep a firm in the industry (included in total
 Cost as _opportunity cost_ of capital). **Economic profit** (supernormal profit) is profit above
@@ -176,9 +159,7 @@ normal profit.
 
 The firm is a price taker: $P = MR = AR$. Profit maximisation: $MR = MC$.
 
-$$
 P = MC(Q_{SR})
-$$
 
 - If $P > ATC$: the firm earns supernormal profit ($\pi > 0$)
 - If $P = ATC$: the firm earns normal profit ($\pi = 0$)
@@ -194,9 +175,7 @@ If firms earn supernormal profit, new firms enter. This shifts the market supply
 Reducing price until $P = ATC_{min}$. Conversely, if firms make losses, firms exit, supply shifts
 Left, price rises.
 
-$$
 P = MC = ATC_{min}
-$$
 
 **Proposition: In long-run perfect competition, firms earn zero economic profit.**
 
@@ -231,9 +210,7 @@ $\pi = TR - TC = P \cdot Q - ATC \cdot Q = 0$. $\blacksquare$
 
 The monopolist faces the market demand curve $P = a - bQ$.
 
-$$
 MR = a - 2bQ
-$$
 
 Profit maximisation: $MR = MC$.
 
@@ -241,9 +218,7 @@ $$Q_m : a - 2bQ_m = MC(Q_m)$$ $$P_m = a - bQ_m$$
 
 **Deadweight loss**: The monopolist produces less and charges more than a competitive market.
 
-$$
 \mathrm{DWL} = \int_{Q_m}^{Q_c} [P(Q) - MC(Q)] \, dQ > 0
-$$
 
 Where $Q_c$ is the competitive output ($P = MC$).
 
@@ -266,9 +241,7 @@ producer.
 **Third-degree price discrimination**: the firm divides consumers into groups with different PEDs
 And charges a higher price to the less elastic group.
 
-$$
 \frac{P_1}{P_2} = \frac{1 - \frac{1}{|\mathrm{PED}_2|}}{1 - \frac{1}{|\mathrm{PED}_1|}}
-$$
 
 Group with lower $|\mathrm{PED}|$ pays higher price.
 
@@ -326,9 +299,7 @@ Discrimination to be feasible.
 A natural monopoly exists where LRAC falls continuously over the relevant output range (strong
 Economies of scale). One firm can supply the entire market at lower cost than two or more firms.
 
-$$
 LRAC(Q_{total}) < \sum_{i} LRAC(Q_i) \quad \mathrm{for any partition } Q_{total} = \sum Q_i
-$$
 
 Examples: water supply, electricity distribution, railway networks.
 
@@ -385,9 +356,7 @@ $$\pi = 0 \implies P = AC$$ $$MR = MC \implies P > MC \mathrm{ (since } MR < P\m
 Between actual output and the minimum efficient scale output is excess capacity, a measure of
 inefficiency.
 
-$$
 Q_{MC} < Q_{MES} \quad \mathrm{where } Q_{MES} \mathrm{ minimises AC}
-$$
 
 **Evaluation of monopolistic competition**: While the model predicts excess capacity and allocative
 Inefficiency ($P > MC$), it has important strengths that are often underemphasised in exam answers.
@@ -448,9 +417,7 @@ Consider the discount factor $\delta \in (0, 1)$ Which represents how much firms
 relative to current profits. If both firms play **tit-for-tat** (cooperate in the first Round, then
 copy the opponent's previous action), collusion is sustainable if:
 
-$$
 (\mathrm{Gain from cheating today}) \lt (\mathrm{Loss from future punishment})
-$$
 
 More : if firms are sufficiently patient ($\delta$ is close to 1), the long-run gains From
 cooperation outweigh the short-run temptation to cheat. This explains why OPEC has maintained
@@ -1150,18 +1117,13 @@ payoffs (50, 50).
 cooperated last period; if the other ever defects, defect forever."
 
 **Firm's incentive to cooperate:** The present value of cooperation:
-$$
 PV_{coop} = 100 + \frac{100}{1+r} + \frac{100}{(1+r)^2} + \cdots = \frac{100(1+r)}{r}
-$$
 
 **Firm's incentive to defect:** Defect this period (150), then the other firm triggers permanent
 punishment (50 forever):
-$$
 PV_{defect} = 150 + \frac{50}{1+r} + \frac{50}{(1+r)^2} + \cdots = 150 + \frac{50}{r}
-$$
 
 **Cooperation is sustainable if:** $$\frac{100(1+r)}{r} \geq 150 + \frac{50}{r}
-$$
 $$\frac{100 + 100r}{r} \geq 150 + \frac{50}{r}$$ $$\frac{50 + 100r}{r} \geq 150$$
 $$50 + 100r \geq 150r$$ $$50 \geq 50r$$ $$r \leq 1$$
 
@@ -1171,9 +1133,7 @@ sustained.
 
 **With higher gains from defection:** If the defection payoff rises to 200:
 $$PV_{defect} = 200 + 50/r$$ $$100(1+r)/r \geq 200 + 50/r$$ $$50 + 100r \geq 200r$$
-$$
 50 \geq 100r \Rightarrow r \leq 0.5
-$$
 
 Now cooperation requires $r \leq 50\%$ A stricter condition. The higher the temptation to defect, the
 more patient firms must be to sustain cooperation.

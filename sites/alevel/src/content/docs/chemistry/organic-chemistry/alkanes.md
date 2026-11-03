@@ -71,25 +71,19 @@ Mechanism.
 
 The reaction between methane and chlorine under UV light is the canonical example.
 
-$$
 \mathrm{CH}_4 + \mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} \mathrm{CH}_3\mathrm{Cl} + \mathrm{HCl}
-$$
 
 ### Mechanism: Step-by-Step
 
 **Initiation:** Homolytic fission of the $\mathrm{Cl-Cl}$ bond, requiring UV light to supply the
 Bond dissociation energy ($\mathrm{BDE} = 242\,\mathrm{kJ/mol}$):
 
-$$
 \mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet
-$$
 
 **Propagation -- Step 1:** A chlorine radical abstracts a hydrogen atom from methane, forming
 Hydrogen chloride and a methyl radical:
 
-$$
 \mathrm{Cl}^\bullet + \mathrm{CH}_4 \to \mathrm{HCl} + \mathrm{CH}_3^\bullet
-$$
 
 This step has $\Delta H \approx +4\,\mathrm{kJ/mol}$ (slightly endothermic). The H--Cl bond formed
 ($431\,\mathrm{kJ/mol}$) nearly compensates the C--H bond broken ($435\,\mathrm{kJ/mol}$).
@@ -97,9 +91,7 @@ This step has $\Delta H \approx +4\,\mathrm{kJ/mol}$ (slightly endothermic). The
 **Propagation -- Step 2:** The methyl radical reacts with a chlorine molecule, forming chloromethane
 And regenerating the chlorine radical:
 
-$$
 \mathrm{CH}_3^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{Cl} + \mathrm{Cl}^\bullet
-$$
 
 This step has $\Delta H \approx -108\,\mathrm{kJ/mol}$ (exothermic). The C--Cl bond formed
 ($349\,\mathrm{kJ/mol}$) and the $\mathrm{Cl-Cl}$ bond broken ($242\,\mathrm{kJ/mol}$) give a net
@@ -110,17 +102,11 @@ Initiation event can produce thousands of product molecules before termination.
 
 **Termination:** Radical-radical combination reactions that remove reactive species from the chain:
 
-$$
 2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2
-$$
 
-$$
 \mathrm{Cl}^\bullet + \mathrm{CH}_3^\bullet \to \mathrm{CH}_3\mathrm{Cl}
-$$
 
-$$
 2\mathrm{CH}_3^\bullet \to \mathrm{C}_2\mathrm{H}_6
-$$
 
 Termination becomes significant only when radical concentrations are high enough to make bimolecular
 Encounters probable.
@@ -141,9 +127,7 @@ selective, which limits the synthetic utility of radical chlorination.
 
 The relative rates of substitution at different hydrogen positions follow the order:
 
-$$
 3^\circ\,\mathrm{H} \gt 2^\circ\,\mathrm{H} \gt 1^\circ\,\mathrm{H}
-$$
 
 This is because the stability of the radical intermediate increases with substitution: tertiary
 Radicals are stabilised by hyperconjugation and inductive effects from neighbouring alkyl groups.
@@ -154,9 +138,7 @@ Radicals are stabilised by hyperconjugation and inductive effects from neighbour
 There are six primary hydrogens and two secondary hydrogens. The relative reactivity of $2^\circ$ vs
 $1^\circ$ hydrogens is approximately 4:1.
 
-$$
 \frac{[2\mathrm{-chloropropane}]}{[1\mathrm{-chloropropane}]} = \frac{2 \times 4}{6 \times 1} = \frac{8}{6} = \frac{4}{3}
-$$
 
 The product ratio is 4:3 in favour of 2-chloropropane.
 
@@ -177,27 +159,19 @@ $3^\circ\,\mathrm{H} : 2^\circ\,\mathrm{H} : 1^\circ\,\mathrm{H} \approx 1600 : 
 
 In excess oxygen, alkanes burn to produce carbon dioxide and water:
 
-$$
 \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}
-$$
 
 All combustion reactions are highly exothermic. For methane:
 
-$$
 \mathrm{CH}_4 + 2\mathrm{O}_2 \to \mathrm{CO}_2 + 2\mathrm{H}_2\mathrm{O} \quad \Delta H_c^\circ = -890\,\mathrm{kJ/mol}
-$$
 
 ### Incomplete Combustion
 
 When oxygen is limited, carbon monoxide and/or carbon (soot) are produced:
 
-$$
 2\mathrm{C}_n\mathrm{H}_{2n+2} + (2n+1)\mathrm{O}_2 \to 2n\mathrm{CO} + (2n+2)\mathrm{H}_2\mathrm{O}
-$$
 
-$$
 \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{n+1}{2}\mathrm{O}_2 \to n\mathrm{C} + (n+1)\mathrm{H}_2\mathrm{O}
-$$
 
 Carbon monoxide is a toxic, colourless, odourless gas that binds irreversibly to haemoglobin
 ($K \approx 200\times$ that of $\mathrm{O}_2$), reducing the blood"s oxygen-carrying capacity.
@@ -205,9 +179,7 @@ Incomplete combustion of alkanes in poorly ventilated spaces is a major cause of
 
 ### Calculating Enthalpy of Combustion from Bond Enthalpies
 
-$$
 \Delta H_c = \sum \mathrm{BE}(\mathrm{reactants}) - \sum \mathrm{BE}(\mathrm{products})
-$$
 
 This uses mean bond enthalpies and introduces systematic error because the actual bond enthalpies in
 the specific molecules differ from the mean values. For precise work, experimental enthalpies (from
@@ -221,9 +193,7 @@ Bonds broken: $4 \times 413 + 2 \times 498 = 1652 + 996 = 2648\,\mathrm{kJ/mol}$
 
 Bonds formed: $2 \times (2 \times 805) + 4 \times 464 = 3220 + 1856 = 5076\,\mathrm{kJ/mol}$.
 
-$$
 \Delta H_c = 2648 - 5076 = -2428\,\mathrm{kJ/mol}
-$$
 
 This overestimates the experimental value ($-890\,\mathrm{kJ/mol}$ per mole of methane, which is
 $-890\,\mathrm{kJ/mol}$ for the balanced equation as written with 1 mol methane). The discrepancy
@@ -265,9 +235,7 @@ Molecules. Two types:
 **Thermal cracking:** High temperature ($400$--$900^\circ\mathrm{C}$) and pressure. Produces a
 Mixture of alkenes and smaller alkanes. Free radical mechanism. Example:
 
-$$
 \mathrm{C}_{10}\mathrm{H}_{22} \to \mathrm{C}_5\mathrm{H}_{10} + \mathrm{C}_5\mathrm{H}_{12}
-$$
 
 **Catalytic cracking:** Lower temperature ($450^\circ\mathrm{C}$) and moderate pressure, using a
 Zeolite catalyst. Produces branched alkanes, cycloalkanes, and aromatic compounds. The catalyst
@@ -421,16 +389,12 @@ $\mathrm{Br}_2 \xrightarrow{h\nu} 2\mathrm{Br}^\bullet \quad \Delta H = +193\,\m
 Propagation step 1:
 $\mathrm{Br}^\bullet + \mathrm{CH}_3\mathrm{CH}_3 \to \mathrm{HBr} + \mathrm{CH}_3\mathrm{CH}_2^\bullet$
 
-$$
 \Delta H_1 = \mathrm{BE}(\mathrm{C{-}H}) - \mathrm{BE}(\mathrm{H{-}Br}) = 420 - 366 = +54\,\mathrm{kJ/mol}
-$$
 
 Propagation step 2:
 $\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Br}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{Br}^\bullet$
 
-$$
 \Delta H_2 = \mathrm{BE}(\mathrm{Br{-}Br}) - \mathrm{BE}(\mathrm{C{-}Br}) = 193 - 285 = -92\,\mathrm{kJ/mol}
-$$
 
 Overall: $\Delta H = +54 + (-92) = -38\,\mathrm{kJ/mol}$ (exothermic).
 
@@ -451,9 +415,7 @@ Hydrogen.
 Although the ratio of primary to tertiary hydrogens is 9:1, the relative reactivity of tertiary vs
 Primary hydrogens toward $\mathrm{Cl}^\bullet$ is approximately 5:1. The expected ratio is:
 
-$$
 \frac{[2\mathrm{-chloro-2-methylpropane}]}{[1\mathrm{-chloro-2-methylpropane}]} = \frac{1 \times 5}{9 \times 1} = \frac{5}{9}
-$$
 
 In practice, the tertiary product predominates even more than this ratio predicts because the
 statistical calculation assumes all primary positions are equivalent, but in 2-methylpropane there
@@ -476,21 +438,15 @@ enthalpies, and explain why incomplete combustion occurs in limited oxygen.
 
 Complete combustion:
 
-$$
 2\mathrm{C}_4\mathrm{H}_{10}(g) + 13\mathrm{O}_2(g) \to 8\mathrm{CO}_2(g) + 10\mathrm{H}_2\mathrm{O}(l)
-$$
 
 Incomplete combustion (producing CO):
 
-$$
 2\mathrm{C}_4\mathrm{H}_{10}(g) + 9\mathrm{O}_2(g) \to 8\mathrm{CO}(g) + 10\mathrm{H}_2\mathrm{O}(l)
-$$
 
 Further incomplete combustion (producing C):
 
-$$
 2\mathrm{C}_4\mathrm{H}_{10}(g) + 5\mathrm{O}_2(g) \to 8\mathrm{C}(s) + 10\mathrm{H}_2\mathrm{O}(l)
-$$
 
 Incomplete combustion occurs when the supply of oxygen is insufficient for all carbon to be fully
 oxidised to $\mathrm{CO}_2$. The products are a mixture of $\mathrm{CO}_2$$\mathrm{CO}$$\mathrm{C}$
@@ -506,9 +462,7 @@ $8408\,\mathrm{kJ/mol}$
 Bonds formed: $4 \times 2 \times \mathrm{C=O}$ ($8 \times 805 = 6440$) +
 $5 \times 2 \times \mathrm{O-H}$ ($10 \times 464 = 4640$) = $11080\,\mathrm{kJ/mol}$
 
-$$
 \Delta H_c = 8408 - 11080 = -2672\,\mathrm{kJ/mol}
-$$
 
 The literature value is $-2877\,\mathrm{kJ/mol}$. The discrepancy arises from using mean bond
 enthalpies rather than specific values for butane and its products.
@@ -570,9 +524,7 @@ breaks large molecules into smaller, more useful ones:
 **Thermal cracking:** High temperature ($400$--$900^\circ\mathrm{C}$) and pressure. Produces a
 mixture of alkanes and alkenes. Free radical mechanism. Used to produce ethene.
 
-$$
 \mathrm{C}_{10}\mathrm{H}_{22} \xrightarrow{\Delta} \mathrm{C}_8\mathrm{H}_{18} + \mathrm{C}_2\mathrm{H}_4
-$$
 
 **Catalytic cracking:** Lower temperature ($450^\circ\mathrm{C}$) with a zeolite catalyst. Produces
 branched alkanes and cycloalkanes (better for petrol, higher octane rating).
@@ -603,43 +555,27 @@ major product.
 
 **Initiation:**
 
-$$
 \mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} 2\mathrm{Cl}\cdot
-$$
 
 **Propagation (pathway to 1-chloropropane):**
 
-$$
 \mathrm{Cl}\cdot + \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_3 \to \mathrm{HCl} + \mathrm{CH}_2\cdot\mathrm{CH}_2\mathrm{CH}_3 \quad (\text{abstracts a primary H})
-$$
 
-$$
 \mathrm{CH}_2\cdot\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{Cl}_2 \to \mathrm{CH}_2\mathrm{ClCH}_2\mathrm{CH}_3 + \mathrm{Cl}\cdot
-$$
 
 **Propagation (pathway to 2-chloropropane):**
 
-$$
 \mathrm{Cl}\cdot + \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_3 \to \mathrm{HCl} + \mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_3 \quad (\text{abstracts a secondary H})
-$$
 
-$$
 \mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_3 + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{CHClCH}_3 + \mathrm{Cl}\cdot
-$$
 
 **Termination:**
 
-$$
 \mathrm{Cl}\cdot + \mathrm{Cl}\cdot \to \mathrm{Cl}_2
-$$
 
-$$
 \mathrm{Cl}\cdot + \mathrm{R}\cdot \to \mathrm{RCl}
-$$
 
-$$
 \mathrm{R}\cdot + \mathrm{R}'\cdot \to \mathrm{RR}'
-$$
 
 (where R and R' are any organic radicals formed)
 
@@ -666,16 +602,12 @@ the alkane.
 
 Mass of $\mathrm{CO}_2$ absorbed $= 30.8\,\mathrm{g}$.
 
-$$
 N(\mathrm{CO}_2) = \frac{30.8}{44.0} = 0.700\,\mathrm{mol}
-$$
 
 If the alkane has formula $\mathrm{C}_n\mathrm{H}_{2n+2}$ Combustion produces $n$ moles of
 $\mathrm{CO}_2$:
 
-$$
 N = 0.700
-$$
 
 Molar mass of alkane $= 10.0/0.700 \times (1/n)$... Wait:
 $n(\text{alkane}) = n(\mathrm{CO}_2)/n_\mathrm{C}$.
@@ -702,13 +634,9 @@ discrepancy is due to rounding).
 Incomplete combustion occurs when oxygen supply is limited, producing carbon monoxide and/or carbon
 (soot) in addition to (or instead of) carbon dioxide.
 
-$$
 \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(partial)}
-$$
 
-$$
 \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{n+1}{2}\mathrm{O}_2 \to n\mathrm{C} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(very limited)}
-$$
 
 **Environmental impact of combustion products:**
 
@@ -729,30 +657,20 @@ $$
 The mechanism proceeds through three stages. Using ethane and chlorine as an example:
 
 **Stage 1 -- Initiation:** $$\mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet
-$$
 
 The Cl--Cl bond ($243\,\mathrm{kJ/mol}$) is homolytically cleaved by UV light. The bond dissociation
 energy must be supplied by a photon with energy $E \geq 243\,\mathrm{kJ/mol}$ Corresponding to
 $\lambda \leq 493\,\mathrm{nm}$ (visible blue-green light).
 
 **Stage 2 -- Propagation:**
-$$
 \mathrm{Cl}^\bullet + \mathrm{CH}_3\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{HCl}
-$$
-$$
 \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{Cl}^\bullet
-$$
 
 The chain carrier ($\mathrm{Cl}^\bullet$) is regenerated, allowing the chain to continue.
 
 **Stage 3 -- Termination:** $$2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2
-$$
-$$
 2\mathrm{CH}_3\mathrm{CH}_2^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \quad \text{(butane)}
-$$
-$$
 \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl}
-$$
 
 Termination produces a mixture of products, which is why free radical substitution is not a useful
 synthetic method for preparing pure haloalkanes.
@@ -761,9 +679,7 @@ synthetic method for preparing pure haloalkanes.
 
 The reactivity of halogens in free radical substitution with alkanes follows the trend:
 
-$$
 \mathrm{F}_2 \gg \mathrm{Cl}_2 > \mathrm{Br}_2 \gg \mathrm{I}_2
-$$
 
 <div class="table-wrap">
 
@@ -828,17 +744,11 @@ Catalytic converters reduce the emissions from internal combustion engines:
 
 - **Reduction catalyst (platinum, palladium):** Converts $\mathrm{NO}_x$ to $\mathrm{N}_2$ and
   $\mathrm{O}_2$: $$2\mathrm{NO} \to \mathrm{N}_2 + \mathrm{O}_2
-$$
-  $$
   2\mathrm{NO}_2 \to \mathrm{N}_2 + 2\mathrm{O}_2
-  $$
 
 - **Oxidation catalyst (platinum, rhodium):** Converts $\mathrm{CO}$ to $\mathrm{CO}_2$ and unburnt
   hydrocarbons to $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$:
-  $$
   2\mathrm{CO} + \mathrm{O}_2 \to 2\mathrm{CO}_2
-  $$
-  $$
   \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}
   $$
 

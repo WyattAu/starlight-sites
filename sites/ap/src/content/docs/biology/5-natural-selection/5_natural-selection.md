@@ -60,13 +60,9 @@ generation.
 
 For a gene with two alleles ($A$ and $a$):
 
-$$
 P + q = 1
-$$
 
-$$
 P^2 + 2pq + q^2 = 1
-$$
 
 Where:
 
@@ -90,21 +86,13 @@ If any condition is violated, the population evolves (allele frequencies change)
 In a population of 1000 individuals, 160 have the recessive phenotype (aa). Find the frequencies of
 all genotypes and alleles.
 
-$$
 Q^2 = \frac{160}{1000} = 0.16 \implies q = 0.4
-$$
 
-$$
 P = 1 - 0.4 = 0.6
-$$
 
-$$
 P^2 = (0.6)^2 = 0.36 \implies 360 \mathrm{ individuals (AA)}
-$$
 
-$$
 2pq = 2(0.6)(0.4) = 0.48 \implies 480 \mathrm{ individuals (Aa)}
-$$
 
 Check: $360 + 480 + 160 = 1000$.
 :::
@@ -679,9 +667,7 @@ estimating divergence times that complements the fossil record.
 If gene X in species A and species B differs by 60 nucleotide substitutions, and the estimated
 Mutation rate for gene X is 2 substitutions per million years, then:
 
-$$
 \mathrm{Time since divergence} = \frac{60}{2 \times 2} = 15 \mathrm{ million years}
-$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
 divergence.
@@ -795,12 +781,9 @@ Initial genotype frequencies: $p^2 = 0.25$$2pq = 0.50$$q^2 = 0.25$.
 Mean fitness: $\bar{w} = (0.25)(0.7) + (0.50)(0.7) + (0.25)(1.0) = 0.175 + 0.35 + 0.25 = 0.775$.
 
 New frequency of B:
-$$
 p' = \frac{p^2 \cdot w_{BB} + pq \cdot w_{Bb}}{\bar{w}} = \frac{0.25(0.7) + 0.25(0.7)}{0.775} = \frac{0.175 + 0.175}{0.775} = \frac{0.35}{0.775} \approx 0.452
-$$
 
 New frequency of b: $$q' = 1 - p' = 1 - 0.452 = 0.548
-$$
 
 After one generation, the recessive allele $b$ (green, favoured) has increased from 0.5 to 0.548,
 and the dominant allele $B$ (brown, selected against) has decreased from 0.5 to 0.452. This
@@ -821,7 +804,6 @@ million years. Estimate the time since these two species diverged from their com
 <summary>Answer</summary>
 
 First, calculate the substitution rate per base pair per million years:
-$$
 \mathrm{Rate} = \frac{1 \mathrm{ substitution}{100 \mathrm{ base pairs \times 1 \mathrm{ million years}}}} = 0.01 \mathrm{ substitutions/bp/Myr}
 $$
 
@@ -831,9 +813,7 @@ $$
 $$
 
 Time since divergence (accounting for both lineages):
-$$
 \mathrm{Time} = \frac{0.0267}{2 \times 0.01} = \frac{0.0267}{0.02} = 1.33 \mathrm{ million years}
-$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
 divergence. The two species diverged approximately 1.33 million years ago.
@@ -918,9 +898,7 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-$$
 
-$$
 :::
 
 ## Intuition
