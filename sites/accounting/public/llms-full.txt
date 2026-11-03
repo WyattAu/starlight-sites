@@ -487,12 +487,16 @@ each claim here can be checked against a traced line there.
 The adjusted trial balance holds every account once. The statements are produced by a single
 sorting decision:
 
+<div class="table-wrap">
+
 | Account kind | Examples (Ledgerline) | Feeds |
 |---|---|---|
 | **Temporary** – reset to zero at period end | Service Revenue 12,000; Salaries 3,500; Supplies 400; Depreciation 100 | Income statement |
 | **Permanent** – carry forward | Cash 21,700; Receivable 4,000; Supplies 200; Prepaid Rent 400; Equipment 2,300; Payable 600; Capital | Balance sheet |
 | **The cash account, re-cut** | Cash 21,700 | Cash flow statement |
 | **The bridge** | Net income 8,000 | Equity statement, then balance sheet |
+
+</div>
 
 The income statement consumes the temporary accounts; the balance sheet displays the permanent
 ones; the equity statement carries net income into capital; the cash flow statement re-cuts one
@@ -505,12 +509,16 @@ The income statement closes: revenue 12,000 minus expenses 4,000 (salaries 3,500
 depreciation 100) leaves **net income 8,000**. That number is not filed away – it is the third
 line of the statement of changes in equity:
 
+<div class="table-wrap">
+
 | | |
 |---|---|
 | Capital, 1 March | 0 |
 | Owner investment | 20,000 |
 | Net income for March | 8,000 |
 | **Capital, 31 March** | **28,000** |
+
+</div>
 
 Closing entries (page 1, §5) are the mechanical version of the same link: revenue and expense
 balances are folded into capital, so the income statement's bottom line is *inside* the equity
@@ -520,6 +528,8 @@ statement's ending figure.
 
 Capital 28,000 is then a balance-sheet line, and the balance sheet's two sides must agree:
 
+<div class="table-wrap">
+
 | Assets | | Liabilities & Equity | |
 |---|---|---|---|
 | Cash | 21,700 | Accounts Payable | 600 |
@@ -528,6 +538,8 @@ Capital 28,000 is then a balance-sheet line, and the balance sheet's two sides m
 | Prepaid Rent | 400 | | |
 | Equipment, net | 2,300 | | |
 | **28,600** | | **28,600** | |
+
+</div>
 
 They agree at **28,600** – and this is a theorem, not luck. The balance sheet is a re-arrangement
 of the same adjusted balances that preserved the accounting equation at every entry (Foundations,
@@ -542,6 +554,8 @@ activity collected **4,100** more than it paid (8,000 collected − 3,500 salari
 rent). Both are correct, because accrual profit and cash movement measure different things. The
 cash flow statement is the reconciliation:
 
+<div class="table-wrap">
+
 | Net income | 8,000 |
 |---|---|
 | − Accounts receivable up (earned, not collected) | (4,000) |
@@ -549,6 +563,8 @@ cash flow statement is the reconciliation:
 | + Depreciation (expense with no cash) | 100 |
 | − Prepaid rent (cash paid, no expense yet) | (400) |
 | **Operating cash flow** | **4,100** |
+
+</div>
 
 Each bridge line is a working-capital or non-cash movement – never a cash collection or payment.
 Then investing (−2,400 laptop) and financing (+20,000 investment) complete the statement, and its
@@ -559,12 +575,16 @@ balance sheet's first asset line. The cash thread is a closed loop.
 
 Three statements cover a *period* (for March); one covers a *moment* (at 31 March):
 
+<div class="table-wrap">
+
 | Statement | Question | Shape |
 |---|---|---|
 | Income statement | How much profit was earned in March? | Flow (period) |
 | Equity statement | How did owners' stake move during March? | Flow (period) |
 | Cash flow statement | Where did the cash come from and go? | Flow (period) |
 | Balance sheet | What exists at 31 March? | Position (moment) |
+
+</div>
 
 The balance sheet's cash (21,700) is the cash flow statement's *ending* figure; its capital
 (28,000) is the equity statement's ending figure. The period statements explain how the position
