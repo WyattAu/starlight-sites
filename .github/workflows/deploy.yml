@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # mark-good job pushes the last-good-deploy tag
+  contents: write # mark-good job pushes the last-good-deploy tag
   issues: write
   pull-requests: write
-  actions: write    # failure path triggers rollback.yml
+  actions: write # failure path triggers rollback.yml
 
 concurrency:
   group: deploy-${{ github.ref }}
@@ -839,7 +839,6 @@ jobs:
             python3 ../../search-api/inspect-deployments.py /tmp/diag-deployments.json
           done
 
-
       - name: Upload index to KV
         if: steps.kvcheck.outputs.skip != 'true'
         working-directory: search-api
@@ -943,7 +942,15 @@ jobs:
           fi
 
   summary:
-    needs: [deploy-canary, deploy-rollout, deploy-landing, update-search-index, mark-good, rollback-on-failure]
+    needs:
+      [
+        deploy-canary,
+        deploy-rollout,
+        deploy-landing,
+        update-search-index,
+        mark-good,
+        rollback-on-failure,
+      ]
     runs-on: ubuntu-latest
     if: always()
     steps:

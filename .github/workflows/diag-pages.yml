@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - '.github/workflows/diag-pages.yml'
-      - 'TEMP-TRIGGER'
+      - ".github/workflows/diag-pages.yml"
+      - "TEMP-TRIGGER"
 
 permissions:
   contents: read

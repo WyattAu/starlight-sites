@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       ref:
-        description: 'Commit/tag to roll back to (default: last-good-deploy)'
+        description: "Commit/tag to roll back to (default: last-good-deploy)"
         required: false
-        default: 'last-good-deploy'
+        default: "last-good-deploy"
 
 permissions:
   contents: read
