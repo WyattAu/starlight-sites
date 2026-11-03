@@ -1,0 +1,67 @@
+name: Uptime Watchdog
+
+# Dead-man switch: if the 6-hourly Uptime Monitor has not completed
+# successfully in the trailing 26 hours (missed runs, runner backlog,
+# silently skipped schedules), this workflow fails and files an issue.
+# Complements — does not replace — the monitor itself.
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Assert a fresh uptime result exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh run list --workflow=uptime.yml --limit 1 \
+            --json createdAt,conclusion \
+            -q '.[0] | (.createdAt + " " + (.conclusion // "none"))')
+          echo "last uptime run: $last"
+          created=$(echo "$last" | cut -d' ' -f1)
+          conclusion=$(echo "$last" | cut -d' ' -f2)
+          age_h=$(( ( $(date -u +%s) - $(date -ud "$created" +%s) ) / 3600 ))
+          echo "age: ${age_h}h, conclusion: $conclusion"
+          if [ "$age_h" -gt 26 ]; then
+            echo "STALE: last uptime run is ${age_h}h old (threshold 26h)"
+            exit 1
+          fi
+          if [ "$conclusion" != "success" ]; then
+            echo "FAILED: last uptime run concluded '$conclusion'"
+            exit 1
+          fi
+          echo "uptime monitor fresh and green"
+
+      - name: File issue on watchdog failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = `Uptime Watchdog: monitor stale or failed (${new Date().toISOString().split('T')[0]})`;
+            const body = `The 6-hourly Uptime Monitor has not completed successfully within 26h.\n\nThis means scheduled runs are being skipped or failing silently — sites may be down without an Uptime Alert.\n\nSee workflow runs: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/workflows/uptime-watchdog.yml`;
+
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'alert,uptime'
+            });
+
+            if (issues.data.length === 0) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['alert', 'uptime']
+              });
+            }
