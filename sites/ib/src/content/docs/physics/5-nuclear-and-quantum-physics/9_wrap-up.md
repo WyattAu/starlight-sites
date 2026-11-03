@@ -487,7 +487,7 @@ Where $n = 1, 2, 3, ...$ is the principal quantum number.
 When an electron transitions between energy levels, a photon is emitted or absorbed:
 
 $$
-\Delta E = E_{\mathrm{higher}} - E_{\mathrm{lower}} = hf = \frac`\{hc}`{\lambda}
+\Delta E = E_{\mathrm{higher}} - E_{\mathrm{lower}} = hf = \frac{hc}{\lambda}
 $$
 
 - **Emission:** Electron drops from a higher level to a lower level; a photon is released.
@@ -522,7 +522,7 @@ $$
 Convert to joules: $\Delta E = 2.55 \times 1.60 \times 10^{-19} = 4.08 \times 10^{-19}$ J.
 
 $$
-\lambda = \frac`\{hc}`{\Delta E} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^8)}{4.08 \times 10^{-19}} = 4.87 \times 10^{-7} \mathrm{ m} = 487 \mathrm{ nm}
+\lambda = \frac{hc}{\Delta E} = \frac{(6.63 \times 10^{-34})(3.0 \times 10^8)}{4.08 \times 10^{-19}} = 4.87 \times 10^{-7} \mathrm{ m} = 487 \mathrm{ nm}
 $$
 
 This is in the visible (blue-green) region, it is the $H_\beta$ line of the Balmer series.
@@ -546,7 +546,7 @@ Louis de Broglie proposed that all matter exhibits wave-like properties. The de 
 is:
 
 $$
-\lambda = \frac{h}{p} = \frac{h}`\{mv}`
+\lambda = \frac{h}{p} = \frac{h}{mv}
 $$
 
 Where $p$ is the momentum of the particle.
@@ -556,7 +556,7 @@ An electron orbit is stable only when a whole number of wavelengths fits around 
 Wave condition):
 
 $$
-N\lambda = 2\pi r \quad \Rightarrow \quad n\frac{h}`\{mv}` = 2\pi r \quad \Rightarrow \quad mvr = \frac`\{nh}`{2\pi}
+N\lambda = 2\pi r \quad \Rightarrow \quad n\frac{h}{mv} = 2\pi r \quad \Rightarrow \quad mvr = \frac{nh}{2\pi}
 $$
 
 This is precisely Bohr's quantisation condition for angular momentum.

@@ -243,7 +243,8 @@ so the number of $^4$ He nuclei per unit volume is:
 
 n_{^4\mathrm{He} = \frac{n_n}{2}}
 
-The remaining protons stay as hydrogen: $$n_H = n_p - 2n_{^4\mathrm{He} = n_p - n_n}
+The remaining protons stay as hydrogen: $$
+n_H = n_p - 2n_{^4\mathrm{He}} = n_p - n_n
 $$
 
 The baryon number density is $n_b = n_n + n_p$.
@@ -251,7 +252,7 @@ The baryon number density is $n_b = n_n + n_p$.
 The helium mass fraction is:
 
 $$
-Y_p = \frac{4 \cdot n_{^4\mathrm{He}}{n_b} = \frac{4 \cdot n_n/2}{n_n + n_p} = \frac{2n_n}{n_n + n_p} = \frac{2(n_n/n_p)}{1 + n_n/n_p}}
+Y_p = \frac{4 n_{^4\mathrm{He}}}{n_b} = \frac{4 (n_n/2)}{n_n + n_p} = \frac{2n_n}{n_n + n_p} = \frac{2(n_n/n_p)}{1 + n_n/n_p}
 $$
 
 Substituting $n_n/n_p = 1/7$:
