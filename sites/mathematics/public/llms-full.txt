@@ -17241,8 +17241,8 @@ choice.
 
 ---
 
-## Hub
-URL: https://mathematics.wyattau.com/17-core-course/hub/
+## Index
+URL: https://mathematics.wyattau.com/17-core-course/
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
