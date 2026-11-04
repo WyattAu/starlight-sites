@@ -1237,10 +1237,10 @@ GNU coreutils is the package that provides the fundamental file, shell, and text
 Utilities on virtually every Linux distribution. These utilities implement the POSIX specifications
 and extend them with GNU-specific options. The package contains roughly 105 programs, grouped into:
 
-- **File utilities**: `ls`, `cp`, `mv`, `rm`, `ln`, `chmod`, `chown`, `touch`, `mkdir`, `rmdir` `stat`, `du`, `df`, `sync`
-- **Text utilities**: `cat`, `head`, `tail`, `sort`, `uniq`, `tr`, `cut`, `paste`, `join`, `wc` `nl`, `fmt`, `fold`, `pr`
-- **Shell utilities**: `echo`, `printf`, `date`, `tee`, `basename`, `dirname`, `sleep`, `true`
-  `false`, `test`, `expr`, `yes`, `timeout`
+- **File utilities**: ls, cp, mv, rm, ln, chmod, chown, touch, mkdir, rmdir stat, du, df, sync
+- **Text utilities**: cat, head, tail, sort, uniq, tr, cut, paste, join, wc nl, fmt, fold, pr
+- **Shell utilities**: echo, printf, date, tee, basename, dirname, sleep, true
+  false, test, expr, yes, timeout
 
 ## Text Processing Pipeline Patterns
 
@@ -1248,22 +1248,22 @@ The Unix philosophy of composing small, single-purpose tools into pipelines is t
 Linux systems administration. Understanding how to chain these tools effectively is a core
 Competency.
 
-### `grep`Pattern Matching
+### grepPattern Matching
 
-`grep` searches input lines for patterns matching a regular expression and prints matching lines.
+grep searches input lines for patterns matching a regular expression and prints matching lines.
 Three main variants exist:
 
 <div class="table-wrap">
 
 | Variant   | Regex Flavor | Description                         |
 | --------- | ------------ | ----------------------------------- |
-| `grep`    | BRE          | Basic Regular Expressions (default) |
-| `grep -E` | ERE          | Extended Regular Expressions        |
-| `grep -P` | PCRE         | Perl-Compatible Regular Expressions |
+| grep    | BRE          | Basic Regular Expressions (default) |
+| grep -E | ERE          | Extended Regular Expressions        |
+| grep -P | PCRE         | Perl-Compatible Regular Expressions |
 
 </div>
 
-```bash
+bash
 ## Basic pattern matching
 grep "error" /var/log/syslog
 
@@ -1299,7 +1299,7 @@ grep -F "file.name" search.log
 
 # Color output
 grep --color=always "pattern" file
-```
+
 
 #### BRE vs ERE vs PCRE
 
@@ -1307,20 +1307,20 @@ grep --color=always "pattern" file
 
 | Feature             | BRE      | ERE     | PCRE                     |
 | ------------------- | -------- | ------- | ------------------------ |
-| Literal match       | `abc`    | `abc`   | `abc`                    |
-| Any character       | `.`      | `.`     | `.`                      |
-| Zero or more        | `*`      | `*`     | `*`                      |
-| One or more         | `\{1,\}` | `+`     | `+`                      |
-| Zero or one         | `\?`     | `?`     | `?`                      |
-| Alternation         | `\|`     | `\|`    | `\|`                     |
-| Grouping            | `\(\)`   | `()`    | `()`                     |
-| Character class     | `[abc]`  | `[abc]` | `[abc]`                  |
-| Lookahead           | No       | No      | `(?=...)`                |
-| Lookbehind          | No       | No      | `(?&lt;=...)`            |
-| Non-capturing group | No       | No      | `(?:...)`                |
-| Named capture       | No       | No      | `(?P&lt;name&gt;...)`    |
-| Backreference       | `\1`     | `\1`    | `\1` or `\k&lt;name&gt;` |
-| Unicode properties  | No       | No      | `\p{L}`                  |
+| Literal match       | abc    | abc   | abc                    |
+| Any character       | .      | .     | .                      |
+| Zero or more        | *      | *     | *                      |
+| One or more         | {1,} | +     | +                      |
+| Zero or one         | \?     | ?     | ?                      |
+| Alternation         | \|     | \|    | \|                     |
+| Grouping            | \(\)   | ()    | ()                     |
+| Character class     | [abc]  | [abc] | [abc]                  |
+| Lookahead           | No       | No      | (?=...)                |
+| Lookbehind          | No       | No      | (?&lt;=...)            |
+| Non-capturing group | No       | No      | (?:...)                |
+| Named capture       | No       | No      | (?P&lt;name&gt;...)    |
+| Backreference       | \1     | \1    | \1 or \k&lt;name&gt; |
+| Unicode properties  | No       | No      | \p{L}                  |
 
 </div>
 
@@ -1328,12 +1328,12 @@ grep --color=always "pattern" file
 special meaning. In ERE, the reverse is true, they are special by default and must be escaped To be
 literal. This is a frequent source of confusion.
 
-### `sed`Stream Editor
+### sedStream Editor
 
-`sed` applies editing commands to input text line by line. It operates on a **pattern space**, a
+sed applies editing commands to input text line by line. It operates on a **pattern space**, a
 Buffer holding the current line, and supports hold space for multi-line operations.
 
-```bash
+bash
 # Substitute first occurrence per line
 sed "s/old/new/' file.txt
 
@@ -1362,11 +1362,11 @@ sed -e 's/foo/bar/g' -e 's/baz/qux/g' file.txt
 
 # Edit using a script file
 sed -f commands.sed file.txt
-```
 
-#### Advanced `sed` Patterns
 
-```bash
+#### Advanced sed Patterns
+
+bash
 # Add line after match
 sed '/pattern/a\new line' file.txt
 
@@ -1393,14 +1393,14 @@ sed 's/\(word1\) \(word2\)/\2 \1/' file.txt  # swap two words
 
 # Extended regex mode (cleaner syntax)
 sed -E 's/(https?):\/\/([^/]+)(.*)/\2/' urls.txt
-```
 
-### `awk`Pattern-Directed Scanning and Processing
 
-`awk` is a full programming language designed for text processing. It processes input line by line,
-Splitting each line into fields. The three main implementations are `awk` (often `mawk` or `gawk`).
+### awkPattern-Directed Scanning and Processing
 
-```bash
+awk is a full programming language designed for text processing. It processes input line by line,
+Splitting each line into fields. The three main implementations are awk (often mawk or gawk).
+
+bash
 # Print specific fields (default field separator: whitespace)
 awk '{print $1, $3}' file.txt
 
@@ -1432,11 +1432,11 @@ awk '{count[$1]++} END {for (word in count) print word, count[word]}' words.txt
 
 # Output formatting (printf)
 awk '{printf "%-15s %8.2f %5d\n", $1, $2, $3}' report.txt
-```
 
-#### `awk` Programming Constructs
 
-```awk
+#### awk Programming Constructs
+
+awk
 #!/usr/bin/awk -f
 # Log analyzer, count HTTP status codes
 
@@ -1458,9 +1458,9 @@ END {
     }
     printf "\nTotal requests: %d\n", total
 }
-```
 
-```bash
+
+bash
 # Process CSV-like data
 awk -F, 'NR > 1 {total += $3 * $4} END {printf "Revenue: USD %.2f\n", total}' sales.csv
 
@@ -1472,13 +1472,13 @@ awk 'FNR==1 {print "=== " FILENAME " ==="} {print}' *.log
 
 # System calls from within awk
 awk '{print | "sort -rn"}' unsorted.txt
-```
 
-### `sort`, `uniq`, `wc`, `cut`, `tr`
+
+### sort, uniq, wc, cut, tr
 
 These utilities form the backbone of text processing pipelines:
 
-```bash
+bash
 # sort, sort lines
 sort file.txt                    # alphabetical
 sort -n file.txt                 # numeric
@@ -1516,11 +1516,11 @@ echo "hello123" | tr -d '0-9'             # delete digits
 echo "Hello World" | tr '[:lower:]' '[:upper:]'  # POSIX character classes
 tr -cd '[:print:]' &lt; binary_file          # keep only printable characters
 echo "HELLO" | tr 'A-Z' 'a-z' | tr -d '\n' # chain transformations
-```
+
 
 ### Pipeline Combinations
 
-```bash
+bash
 # Find the 10 most common words in a file
 tr -cs '[:alpha:]' '\n' &lt; document.txt | sort | uniq -c | sort -rn | head -10
 
@@ -1538,16 +1538,16 @@ awk '{print $9}' access.log | sort | uniq -c | sort -rn | head -10
 
 # Replace all occurrences across multiple files
 find . -name "*.conf" -exec sed -i 's/oldhost.example.com/newhost.example.com/g' {} +
-```
+
 
 ## File Operations
 
-### `find`File System Traversal
+### findFile System Traversal
 
-`find` recursively traverses a directory tree and evaluates expressions against each file. It is one
+find recursively traverses a directory tree and evaluates expressions against each file. It is one
 of the most powerful tools available but also one of the most commonly misused.
 
-```bash
+bash
 # Basic search
 find /etc -name "*.conf"                    # by name
 find /etc -type f                           # regular files only
@@ -1589,11 +1589,11 @@ find . -name "*.bak" -delete                # delete matching files
 find . -type f -exec chmod 644 {} \;        # change permissions
 find . -type f -exec ls -lh {} +            # batch mode (efficient)
 find . -name "*.py" -exec grep -l "TODO" {} +  # find files containing TODO
-```
 
-### `find -exec` vs `find -exec ... +` vs `xargs`
 
-```bash
+### find -exec vs find -exec ... + vs xargs
+
+bash
 # -exec {} \;, runs command once per file (slow for many files)
 find . -name "*.log" -exec gzip {} \;
 
@@ -1608,27 +1608,27 @@ find . -name "*.log" -print0 | xargs -0 -P 4 gzip
 
 # xargs with replacement string
 find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
-```
+
 
 <div class="table-wrap">
 
 | Method            | Invocation Count | Safety             | Use Case                           |
 | ----------------- | ---------------- | ------------------ | ---------------------------------- |
-| `-exec {} \;`     | Once per file    | Safest             | Few files, complex commands        |
-| `-exec {} +`      | Batched          | Safe               | Many files, simple commands        |
-| `xargs` (default) | Batched          | Unsafe with spaces | Simple filenames                   |
-| `xargs -0`        | Batched          | Safe               | Any filenames (use with `-print0`) |
+| -exec {} \;     | Once per file    | Safest             | Few files, complex commands        |
+| -exec {} +      | Batched          | Safe               | Many files, simple commands        |
+| xargs (default) | Batched          | Unsafe with spaces | Simple filenames                   |
+| xargs -0        | Batched          | Safe               | Any filenames (use with -print0) |
 
 </div>
 :::
 
 :::caution
-Spaces, newlines, or special characters. The default `xargs` splits on whitespace and does not
+Spaces, newlines, or special characters. The default xargs splits on whitespace and does not
 Handle these cases correctly.
 
-### `xargs`Build and Execute Commands
+### xargsBuild and Execute Commands
 
-```bash
+bash
 # Basic usage, reads arguments from stdin
 echo "file1 file2 file3" | xargs rm
 
@@ -1649,11 +1649,11 @@ find . -name "*.bak" | xargs -p rm
 
 # Replace string
 find . -name "*.c" | xargs -I @ gcc @ -o @.o
-```
 
-### `ln`Symbolic and Hard Links
 
-```bash
+### lnSymbolic and Hard Links
+
+bash
 # Hard link (same inode, cannot cross filesystems)
 ln target linkname
 
@@ -1675,9 +1675,9 @@ readlink /path/to/symlink       # show immediate target
 
 # Find broken symlinks
 find / -type l ! -exec test -e {} \; -print
-```
 
-```mermaid
+
+mermaid
 graph LR
     A[Directory Entry 1<br/>name: file.txt] -->|points to| C[Inode 12345]
     B[Directory Entry 2<br/>name: hardlink.txt] -->|points to| C
@@ -1685,11 +1685,11 @@ graph LR
     E[Symlink Entry<br/>name: link.txt] -->|points to| F[Inode 67890]
     F -->|contains path string| G["path: /path/to/file.txt"]
     G -.->|resolved by VFS| C
-```
 
-### `stat`File Metadata
 
-```bash
+### statFile Metadata
+
+bash
 # Display all metadata
 stat /etc/passwd
 
@@ -1713,13 +1713,13 @@ stat -c '%i %U %G %a %s %y' /etc/passwd
 
 # Compare two files
 stat -c '%i' file1 file2   # same inode = hard links
-```
+
 
 ## Archiving and Compression
 
-### `tar`Tape Archiver
+### tarTape Archiver
 
-```bash
+bash
 # Create archive
 tar -cvf archive.tar /path/to/directory
 
@@ -1750,7 +1750,7 @@ tar -dvf archive.tar
 
 # Preserve permissions, ownership, timestamps
 tar --preserve-permissions --same-owner -xvf archive.tar
-```
+
 
 ### Compression Formats
 
@@ -1758,15 +1758,15 @@ tar --preserve-permissions --same-owner -xvf archive.tar
 
 | Format | Command           | Compression     | Speed     | Typical Ratio |
 | ------ | ----------------- | --------------- | --------- | ------------- |
-| gzip   | `gzip`/`gunzip`   | Deflate         | Fast      | 5:1 - 8:1     |
-| bzip2  | `bzip2`/`bunzip2` | Burrows-Wheeler | Slow      | 8:1 - 12:1    |
-| xz     | `xz`/`unxz`       | LZMA2           | Slower    | 10:1 - 15:1   |
-| zstd   | `zstd`/`unzstd`   | Zstandard       | Fastest   | 5:1 - 10:1    |
-| lz4    | `lz4`/`unlz4`     | LZ4             | Very fast | 3:1 - 5:1     |
+| gzip   | gzip/gunzip   | Deflate         | Fast      | 5:1 - 8:1     |
+| bzip2  | bzip2/bunzip2 | Burrows-Wheeler | Slow      | 8:1 - 12:1    |
+| xz     | xz/unxz       | LZMA2           | Slower    | 10:1 - 15:1   |
+| zstd   | zstd/unzstd   | Zstandard       | Fastest   | 5:1 - 10:1    |
+| lz4    | lz4/unlz4     | LZ4             | Very fast | 3:1 - 5:1     |
 
 </div>
 
-```bash
+bash
 # gzip
 gzip -k file.txt          # compress, keep original (-k)
 gzip -9 file.txt          # maximum compression (default: 6)
@@ -1789,11 +1789,11 @@ zstd -d file.txt.zst      # decompress
 # bzip2: ~60 MiB in 45s
 # xz:    ~45 MiB in 60s
 # zstd:  ~55 MiB in 3s
-```
 
-### `rsync`Incremental File Transfer
 
-```bash
+### rsyncIncremental File Transfer
+
+bash
 # Local copy
 rsync -av /source/ /destination/
 
@@ -1817,11 +1817,11 @@ rsync -av --partial --progress /source/large_file /dest/
 
 # Bandwidth limit (KB/s)
 rsync -av --bwlimit=1000 /source/ user@host:/dest/
-```
+
 :::
 
 :::tip
-`/source` means "source directory itself". The difference is whether the source directory name is
+/source means "source directory itself". The difference is whether the source directory name is
 Created in the destination.
 
 ## File Permissions
@@ -1830,11 +1830,11 @@ Created in the destination.
 
 Linux file permissions are a 12-bit mode stored in the inode:
 
-```text
+text
 Type   Owner    Group    Other
 ----   -----    -----    -----
 -       rwx      r-x      r--
-```
+
 
 <div class="table-wrap">
 
@@ -1864,7 +1864,7 @@ Each permission triplet:
 
 </div>
 
-```bash
+bash
 # Symbolic mode
 chmod u+x script.sh           # add execute for owner
 chmod g-w file.txt            # remove write for group
@@ -1883,7 +1883,7 @@ chmod -R 755 /var/www/html/
 
 # Reference mode
 chmod --reference=reference_file target_file
-```
+
 
 ### Special Permission Bits
 
@@ -1897,7 +1897,7 @@ chmod --reference=reference_file target_file
 
 </div>
 
-```bash
+bash
 # Set SUID (execute as owner)
 chmod u+s /usr/bin/passwd
 # Shows as: -rwsr-xr-x
@@ -1912,22 +1912,22 @@ chmod +t /tmp
 
 # Combined octal: 4755 = SUID + rwxr-xr-x
 chmod 4755 /usr/local/bin/custom_tool
-```
+
 :::
 
 :::caution
 Can be used for privilege escalation. Audit SUID files regularly:
 
-```bash
+bash
 find / -perm -4000 -type f -exec ls -la {} \; 2>/dev/null
-```
 
-### `umask`
 
-`umask` controls the default permissions for newly created files and directories. It is a **mask**,
+### umask
+
+umask controls the default permissions for newly created files and directories. It is a **mask**,
 It specifies which permission bits to **remove** from the default mode.
 
-```bash
+bash
 # View current umask
 umask          # symbolic: u=rwx,g=rx,o=rx  →  octal: 0022
 umask -S       # human-readable
@@ -1942,10 +1942,10 @@ umask 0077     # files: 600 (666 - 077), directories: 700 (777 - 077)
 # 0027, group-readable, not world-readable
 # 0077, private (only owner)
 # 0007, group-writable (for shared directories)
-```
 
-The math: `default_permissions & ~umask`. For files: `0666 & ~0022 = 0644`. For directories:
-`0777 & ~0022 = 0755`. Note that most programs do not create files with execute bits set by default,
+
+The math: default_permissions & ~umask. For files: 0666 & ~0022 = 0644. For directories:
+0777 & ~0022 = 0755. Note that most programs do not create files with execute bits set by default,
 Even if the umask would allow it.
 
 ### ACLs, Access Control Lists
@@ -1953,7 +1953,7 @@ Even if the umask would allow it.
 Standard Unix permissions provide only three permission classes (owner, group, other). ACLs extend
 this model with per-user and per-group rules.
 
-```bash
+bash
 # Check ACL support
 tune2fs -l /dev/sda1 | grep "Default mount options"
 # or
@@ -1981,7 +1981,7 @@ setfacl -m m::rwx /path/to/file
 # Backup and restore ACLs
 getfacl -R /path > acl_backup
 setfacl --restore=acl_backup
-```
+
 
 ACL evaluation order:
 
@@ -1990,9 +1990,9 @@ ACL evaluation order:
 3. If the process is in the owning group or a named group ACL matches, use it (subject to the mask).
 4. Otherwise, use other permissions.
 
-### `chown`Change Ownership
+### chownChange Ownership
 
-```bash
+bash
 # Change owner
 chown user file.txt
 
@@ -2008,15 +2008,15 @@ chown -R user:group /var/www/html/
 
 # Reference
 chown --reference=ref_file target_file
-```
+
 
 ## Common Pitfalls
 
-### Pitfall: `grep` Returning Non-Zero on No Matches
+### Pitfall: grep Returning Non-Zero on No Matches
 
-In scripts, `grep` returns exit code 1 when no lines match. With `set -e`. This terminates the Script:
+In scripts, grep returns exit code 1 when no lines match. With set -e. This terminates the Script:
 
-```bash
+bash
 # WRONG, exits script if no matches
 set -e
 grep "pattern" file.txt
@@ -2030,11 +2030,11 @@ if grep -q "pattern" file.txt; then
 fi
 
 # Fix 3: grep --fail-with-zero-context option (GNU grep 2.36+)
-```
 
-### Pitfall: `find -exec rm` with Filenames Containing Spaces
 
-```bash
+### Pitfall: find -exec rm with Filenames Containing Spaces
+
+bash
 # WRONG, word splitting on spaces
 find . -name "*.tmp" -exec rm {} \;
 
@@ -2046,41 +2046,41 @@ find . -name "*.tmp" | xargs rm
 find . -name "*.tmp" -print0 | xargs -0 rm
 # or
 find . -name "*.tmp" -delete
-```
 
-### Pitfall: `sort` Stability
 
-`sort` is **stable** only when using `-s` (`--stable`). Without it, equal-sorting lines may be
+### Pitfall: sort Stability
+
+sort is **stable** only when using -s (--stable). Without it, equal-sorting lines may be
 Reordered:
 
-```bash
+bash
 # Stable sort, preserves original order of equal elements
 sort -s -k2,2n data.txt
-```
 
-### Pitfall: `sed -i` on Symlinks
 
-`sed -i` (in-place editing) breaks symlinks by replacing the symlink with a regular file containing
-the edited content. Always use `sed --follow-symlinks -i` or avoid `-i` on symlinks.
+### Pitfall: sed -i on Symlinks
 
-### Pitfall: `awk` Floating-Point Precision
+sed -i (in-place editing) breaks symlinks by replacing the symlink with a regular file containing
+the edited content. Always use sed --follow-symlinks -i or avoid -i on symlinks.
 
-`awk` uses double-precision floating-point arithmetic. This can cause precision issues with monetary
+### Pitfall: awk Floating-Point Precision
+
+awk uses double-precision floating-point arithmetic. This can cause precision issues with monetary
 Calculations or exact comparisons:
 
-```bash
+bash
 # WRONG, floating-point comparison
 awk '$3 == 1.1' data.txt    # may miss matches
 
 # CORRECT, use a tolerance
 awk '$3 > 1.0999 && $3 < 1.1001' data.txt
-```
 
-### Pitfall: `tr` Does Not Read Files
 
-`tr` reads from stdin only. To process a file, redirect input:
+### Pitfall: tr Does Not Read Files
 
-```bash
+tr reads from stdin only. To process a file, redirect input:
+
+bash
 # WRONG
 tr 'a-z' 'A-Z' file.txt
 
@@ -2088,14 +2088,14 @@ tr 'a-z' 'A-Z' file.txt
 tr 'a-z' 'A-Z' &lt; file.txt
 # or
 cat file.txt | tr 'a-z' 'A-Z'
-```
 
-### Pitfall: `tar` and Absolute Paths
 
-By default, `tar` preserves absolute paths during extraction, which can overwrite system files.
+### Pitfall: tar and Absolute Paths
+
+By default, tar preserves absolute paths during extraction, which can overwrite system files.
 Always inspect archives before extracting:
 
-```bash
+bash
 # List contents first
 tar -tvf archive.tar
 
@@ -2104,35 +2104,35 @@ tar --strip-components=1 -xvf archive.tar
 
 # Extract to a specific directory
 tar --directory /tmp/extract -xvf archive.tar
-```
 
-### Pitfall: `chmod +x` on Files Without Read Permission
+
+### Pitfall: chmod +x on Files Without Read Permission
 
 A file can be executable but not readable. For scripts, this means the shell cannot read the file to
 Interpret it, so execution fails with "Permission denied" even though the execute bit is set.
 Regular compiled binaries can still be executed without read permission.
 
-```bash
+bash
 chmod 111 binary     # execute-only, works for compiled binaries
 chmod 111 script.sh  # fails, shell needs to read the script
-```
 
-### Pitfall: `xargs` with Empty Input
 
-By default, `xargs` runs the command once even with empty input:
+### Pitfall: xargs with Empty Input
 
-```bash
+By default, xargs runs the command once even with empty input:
+
+bash
 # WRONG, runs "echo" with no arguments
 true | xargs echo
 
 # CORRECT, use -r (or --no-run-if-empty)
 true | xargs -r echo
-```
 
-### Pitfall: `sort -h` Availability
 
-The `-h` flag (human-numeric sort, handling `K`, `M`, `G` suffixes) is a GNU extension. It is not
-Available on BSD/macOS `sort`. On those systems, convert sizes to bytes first or use `numfmt`.
+### Pitfall: sort -h Availability
+
+The -h flag (human-numeric sort, handling K, M, G suffixes) is a GNU extension. It is not
+Available on BSD/macOS sort. On those systems, convert sizes to bytes first or use numfmt.
 
 ## Summary
 

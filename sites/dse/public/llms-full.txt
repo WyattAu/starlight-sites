@@ -27485,9 +27485,7 @@ for nearly all life on Earth.
 
 **Overall equation:**
 
-$$
 6\mathrm{CO}_2 + 6\mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{light, chlorophyll}} \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 6\mathrm{O}_2
-$$
 
 This is a redox process: $\mathrm{CO}_2$ is reduced to glucose (gain of electrons), and
 $\mathrm{H}_2\mathrm{O}$ is oxidised to $\mathrm{O}_2$ (loss of electrons).
@@ -27539,9 +27537,7 @@ Phosphate ($\mathrm{P}_i$).
 2. **Photolysis of water:** The excited electron leaves P680, creating a positive charge. Water
    molecules are split by the enzyme water-splitting complex to replace the electron:
 
-$$
 2\mathrm{H}_2\mathrm{O} \to 4\mathrm{H}^+ + 4e^- + \mathrm{O}_2
-$$
 
 The $\mathrm{O}_2$ is released as a by-product. This is the source of atmospheric oxygen.
 
@@ -27563,9 +27559,7 @@ The $\mathrm{O}_2$ is released as a by-product. This is the source of atmospheri
 
 **Summary equation for light-dependent reactions:**
 
-$$
 2\mathrm{H}_2\mathrm{O} + 2\mathrm{NADP}^+ + 3\mathrm{ADP} + 3\mathrm{P}_i \xrightarrow{\mathrm{light}} 2\mathrm{NADPH} + 3\mathrm{ATP} + \mathrm{O}_2
-$$
 
 ### Light-Independent Reactions (Calvin Cycle)
 
@@ -27583,37 +27577,27 @@ Organic compounds.
    catalyses the reaction between $\mathrm{CO}_2$ and ribulose-1,5-bisphosphate (RuBP, a 5-carbon
    compound):
 
-$$
 \mathrm{CO}_2 + \mathrm{RuBP (5C)} \to \mathrm{Unstable 6C intermediate} \to 2 \times \mathrm{GP (glycerate-3-phosphate, 3C)}
-$$
 
 1. **Reduction:** GP is reduced to triose phosphate (TP, also called G3P) using ATP and NADPH from
    the light-dependent reactions:
 
-$$
 \mathrm{GP} + \mathrm{ATP} + \mathrm{NADPH} \to \mathrm{TP} + \mathrm{NADP}^+ + \mathrm{ADP} + \mathrm{P}_i
-$$
 
 1. **Regeneration of RuBP:** For every 6 $\mathrm{CO}_2$ molecules fixed, 12 molecules of TP are
    produced. Of these, 10 molecules of TP (total 30 carbons) are used to regenerate 6 molecules of
    RuBP (total 30 carbons), consuming 6 ATP. The remaining 2 molecules of TP (total 6 carbons) are
    the net product and can be used to make one molecule of glucose (6C):
 
-$$
 2 \times \mathrm{TP (3C each)} \to \mathrm{Glucose (6C)}
-$$
 
 **Net equation for the Calvin cycle (per 3 turns):**
 
-$$
 3\mathrm{CO}_2 + 9\mathrm{ATP} + 6\mathrm{NADPH} \to \mathrm{TP} + 9\mathrm{ADP} + 8\mathrm{P}_i + 6\mathrm{NADP}^+
-$$
 
 **Per glucose (6 turns):**
 
-$$
 6\mathrm{CO}_2 + 18\mathrm{ATP} + 12\mathrm{NADPH} \to \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6 + 18\mathrm{ADP} + 18\mathrm{P}_i + 12\mathrm{NADP}^+
-$$
 
 ### Limiting Factors of Photosynthesis
 
@@ -27712,13 +27696,9 @@ of $\mathrm{CO}_2$ inside the leaf is lower than in the atmosphere, so $\mathrm{
 through the stomata. $\mathrm{O}_2$ Produced as a by-product of photolysis, diffuses out through The
 stomata.
 
-$$
 \mathrm{CO}_2 \mathrm{ (atmosphere)} \to \mathrm{stomata} \to \mathrm{air spaces} \to \mathrm{mesophyll cells} \to \mathrm{chloroplasts}
-$$
 
-$$
 \mathrm{O}_2 \mathrm{ (chloroplasts)} \to \mathrm{mesophyll cells} \to \mathrm{air spaces} \to \mathrm{stomata} \to \mathrm{atmosphere}
-$$
 
 At night, when photosynthesis stops but respiration continues, the direction of gas exchange
 Reverses: the plant takes in $\mathrm{O}_2$ and releases $\mathrm{CO}_2$.
@@ -28060,13 +28040,9 @@ fuses with the egg cell to form the diploid zygote (2n). This will develop into 
 to form the triploid endosperm (3n). The endosperm is a nutritive tissue that provides food for the
 developing embryo.
 
-$$
 \mathrm{Male gamete (n)} + \mathrm{Egg cell (n)} \to \mathrm{Zygote (2n)}
-$$
 
-$$
 \mathrm{Male gamete (n)} + 2 \times \mathrm{Polar nuclei (n + n)} \to \mathrm{Endosperm (3n)}
-$$
 
 #### Seed and Fruit Formation
 
@@ -28854,13 +28830,9 @@ interconvertible forms:
 
 **Conversion:**
 
-$$
 \mathrm{Pr} \xrightarrow{\text{red light (660 nm)}} \mathrm{Pfr}
-$$
 
-$$
 \mathrm{Pfr} \xrightarrow{\text{far-red light (730 nm) or darkness}} \mathrm{Pr}
-$$
 
 During daylight, $\mathrm{Pr}$ is converted to $\mathrm{Pfr}$. In darkness, $\mathrm{Pfr}$ slowly
 reverts to $\mathrm{Pr}$.
@@ -29438,7 +29410,6 @@ gravity:
    PSI passes to ferredoxin, then to NADP$^+$ reductase
 6. **NADPH production:** NADP$^+$ reductase transfers two electrons and one H$^+$ to
    NADP$^+$Reducing it to NADPH: $$\text{NADP}^+ + 2e^- + \mathrm{H^+} \rightarrow \text{NADPH}
-$$
 
 ### The Light-Independent Reactions (Calvin Cycle)
 
@@ -29466,7 +29437,6 @@ $$
 
 **Overall equation for the Calvin cycle:**
 
-$$
 3\text{CO}_2 + 6\text{NADPH} + 9\text{ATP} \rightarrow \text{triose phosphate (GALP)} + 6\text{NADP}^+ + 9\text{ADP} + 8\text{P}_i
 $$
 
@@ -36873,30 +36843,19 @@ $$
 x^{2} = 1.8 \times 10^{-6}
 $$
 
-$$
 x = 1.34 \times 10^{-3} \text{ mol/dm}^{3}
-$$
 
 Check: $x/0.10 = 1.34\% \lt 5\%$ -- assumption valid.
 
-$$
 pH = -\log(1.34 \times 10^{-3}) = 2.87
-$$
 
 (b) $$1.8 \times 10^{-5} = \frac{x^{2}}{0.010}
-$$
 
-$$
 x^{2} = 1.8 \times 10^{-7}
-$$
 
-$$
 x = 4.24 \times 10^{-4} \text{ mol/dm}^{3}
-$$
 
-$$
 pH = -\log(4.24 \times 10^{-4}) = 3.37
-$$
 
 (c) The pH change: $3.37 - 2.87 = 0.50$.
 
@@ -36950,31 +36909,20 @@ marks]
 
 (a) After mixing, total volume = 200 cm$^{3}$.
 
-$$
 [CH_{3}COOH] = \frac{0.20 \times 100}{200} = 0.10 \text{ mol/dm}^{3}
-$$
 
-$$
 [CH_{3}COO^{-}] = \frac{0.10 \times 100}{200} = 0.050 \text{ mol/dm}^{3}
-$$
 
 Using the Henderson-Hasselbalch equation:
 
-$$
 pH = pK_{a} + \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]}
-$$
 
-$$
 pK_{a} = -\log(1.8 \times 10^{-5}) = 4.74
-$$
 
-$$
 pH = 4.74 + \log\frac{0.050}{0.10} = 4.74 + \log(0.5) = 4.74 - 0.30 = 4.44
-$$
 
 (b) In 50.0 cm$^{3}$ of buffer:
 
-$$
 n(CH_{3}COOH) = 0.10 \times 0.050 = 0.00500 \text{ mol}
 $$
 
@@ -36988,31 +36936,20 @@ The $H^{+}$ from HCl reacts with $CH_{3}COO^{-}$:
 
 $$
 CH_{3}COO^{-} + H^{+} \rightarrow CH_{3}COOH}
-$$
 
 New moles:
 
-$$
 n(CH_{3}COO^{-}) = 0.00250 - 0.000500 = 0.00200 \text{ mol}
-$$
 
-$$
 n(CH_{3}COOH) = 0.00500 + 0.000500 = 0.00550 \text{ mol}
-$$
 
 New total volume = $50.0 + 5.0 = 55.0$ cm$^{3}$:
 
-$$
 [CH_{3}COOH] = \frac{0.00550}{0.0550} = 0.100 \text{ mol/dm}^{3}
-$$
 
-$$
 [CH_{3}COO^{-}] = \frac{0.00200}{0.0550} = 0.0364 \text{ mol/dm}^{3}
-$$
 
-$$
 pH = 4.74 + \log\frac{0.0364}{0.100} = 4.74 + \log(0.364) = 4.74 - 0.439 = 4.30
-$$
 
 (c) The buffer contains a weak acid ($CH_{3}COOH$) and its conjugate base ($CH_{3}COO^{-}$). When a
 strong acid ($H^{+}$) is added, the $H^{+}$ ions react with $CH_{3}COO^{-}$ to form
@@ -37062,9 +36999,7 @@ $NH_{4}Cl$ dissociates completely in water: $NH_{4}Cl \rightarrow NH_{4}^{+} + C
 The ammonium ion ($NH_{4}^{+}$) is the conjugate acid of the weak base ammonia ($ NH_{3}$). It
 undergoes **hydrolysis**:
 
-$$
 NH_{4}^{+} + H_{2}O \rightleftharpoons NH_{3} + H_{3}O^{+}
-$$
 
 This reaction releases $H_{3}O^{+}$ ions, making the solution acidic. The chloride ion ($Cl^{-}$) is
 the conjugate base of a strong acid ($HCl$) and does not hydrolyse.
@@ -37076,9 +37011,7 @@ $CH_{3}COONa$ dissociates completely: $CH_{3}COONa \rightarrow CH_{3}COO^{-} + N
 The ethanoate ion ($CH_{3}COO^{-}$) is the conjugate base of the weak acid ethanoic acid
 ($CH_{3}COOH$). It undergoes hydrolysis:
 
-$$
 CH_{3}COO^{-} + H_{2}O \rightleftharpoons CH_{3}COOH + OH^{-}
-$$
 
 This reaction produces $OH^{-}$ ions, making the solution alkaline. The sodium ion ($Na^{+}$) does
 not hydrolyse.
@@ -37135,27 +37068,17 @@ titrated with 0.100 mol/dm$^{3}$ hydrochloric acid.
 
 (a) $NH_{3} + H_{2}O \rightleftharpoons NH_{4}^{+} + OH^{-}$
 
-$$
 K_{b} = \frac{[NH_{4}^{+}][OH^{-}]}{[NH_{3}]} = 1.8 \times 10^{-5}
-$$
 
 Let $[OH^{-}] = x$:
 
-$$
 1.8 \times 10^{-5} = \frac{x^{2}}{0.100}
-$$
 
-$$
 x = \sqrt{1.8 \times 10^{-6}} = 1.34 \times 10^{-3} \text{ mol/dm}^{3}
-$$
 
-$$
 pOH = -\log(1.34 \times 10^{-3}) = 2.87
-$$
 
-$$
 pH = 14 - 2.87 = 11.13
-$$
 
 (b) At the equivalence point, all $NH_{3}$ has been converted to $NH_{4}^{+}$.
 
@@ -37163,27 +37086,17 @@ Moles of $NH_{3}$ = $0.100 \times 0.0250 = 0.00250$ mol
 
 Volume of HCl needed = $25.0$ cm$^{3}$ (equimolar), total volume = $50.0$ cm$^{3}$.
 
-$$
 [NH_{4}^{+}] = \frac{0.00250}{0.0500} = 0.0500 \text{ mol/dm}^{3}
-$$
 
 $NH_{4}^{+}$ hydrolyses: $NH_{4}^{+} + H_{2}O \rightleftharpoons NH_{3} + H_{3}O^{+}$
 
-$$
 K_{a} = \frac{K_{w}}{K_{b}} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}} = 5.56 \times 10^{-10}
-$$
 
-$$
 5.56 \times 10^{-10} = \frac{x^{2}}{0.0500}
-$$
 
-$$
 x = \sqrt{2.78 \times 10^{-11}} = 5.27 \times 10^{-6}
-$$
 
-$$
 pH = -\log(5.27 \times 10^{-6}) = 5.28
-$$
 
 (c) The equivalence point pH is 5.28, which is **acidic**. The most suitable indicator is one whose
 colour change range includes pH 5.28. **Methyl orange** (pH range 3.1--4.4) is too low.
@@ -37236,13 +37149,9 @@ $HCl$ is in excess by: $0.00400 - 0.00100 = 0.00300$ mol
 
 Total volume = $40.0 + 10.0 = 50.0$ cm$^{3}$
 
-$$
 [H^{+}] = \frac{0.00300}{0.0500} = 0.0600 \text{ mol/dm}^{3}
-$$
 
-$$
 pH = -\log(0.0600) = 1.22
-$$
 
 (b) Moles of $HCl$: $0.00400$ mol
 
@@ -37252,13 +37161,9 @@ $HCl$ is in excess by: $0.00400 - 0.00300 = 0.00100$ mol
 
 Total volume = $40.0 + 30.0 = 70.0$ cm$^{3}$
 
-$$
 [H^{+}] = \frac{0.00100}{0.0700} = 0.01429 \text{ mol/dm}^{3}
-$$
 
-$$
 pH = -\log(0.01429) = 1.85
-$$
 
 (c) The pH changes from 1.22 to 1.85 (a change of 0.63) when NaOH added increases from 10.0 to 30.0
 cm$^{3}$. The change per 10 cm$^{3}$ is relatively small because the solution still contains a large
@@ -37308,21 +37213,13 @@ pH = 5.00, using 0.50 mol/dm$^{3}$ ethanoic acid and solid sodium ethanoate ($M 
 
 (a) Using the Henderson-Hasselbalch equation:
 
-$$
 pH = pK_{a} + \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]}
-$$
 
-$$
 5.00 = 4.74 + \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]}
-$$
 
-$$
 \log\frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]} = 0.26
-$$
 
-$$
 \frac{[CH_{3}COO^{-}]}{[CH_{3}COOH]} = 10^{0.26} = 1.82
-$$
 
 The buffer needs $[CH_{3}COO^{-}]/[CH_{3}COOH] = 1.82$.
 
@@ -37337,7 +37234,6 @@ $[CH_{3}COO^{-}] = 1.82 \times 0.20 = 0.364$ mol/dm$^{3}$
 $n(CH_{3}COO^{-}) = 0.364 \times 0.250 = 0.0910$ mol
 
 (b) $$m(CH_{3}COONa) = 0.0910 \times 82.0 = 7.46 \text{ g}
-$$
 
 Procedure: Dissolve 7.46 g of sodium ethanoate in approximately 150 cm$^{3}$ of distilled water. Add
 100 cm$^{3}$ of 0.50 mol/dm$^{3}$ ethanoic acid. Transfer to a 250 cm$^{3}$ volumetric flask and
@@ -38698,30 +38594,22 @@ marks]
 
 (a) Reduction (gain of electrons):
 
-$$
 MnO_{4}^{-} + 8H^{+} + 5e^{-} \rightarrow Mn^{2+} + 4H_{2}O
-$$
 
 Balancing check: Mn: 1, O: 4, H: 8, charge: $(-1) + 8(+1) + 5(-1) = +2$ on left; $+2 + 0 = +2$ on
 right. Balanced.
 
 (b) Oxidation (loss of electrons):
 
-$$
 Fe^{2+} \rightarrow Fe^{3+} + e^{-}
-$$
 
 (c) To balance electrons, multiply the oxidation half-equation by 5:
 
-$$
 5Fe^{2+} \rightarrow 5Fe^{3+} + 5e^{-}
-$$
 
 Add to the reduction half-equation and cancel electrons:
 
-$$
 MnO_{4}^{-} + 8H^{+} + 5Fe^{2+} \rightarrow Mn^{2+} + 5Fe^{3+} + 4H_{2}O
-$$
 
 ---
 
@@ -38764,9 +38652,7 @@ Explain. [3 marks]
 preference to $Na^{+}$ (since $Na$ is very reactive, below hydrogen in the reactivity series;
 $H^{+}$ from water is more reduced):
 
-$$
 2H_{2}O(l) + 2e^{-} \rightarrow H_{2}(g) + 2OH^{-}(aq)
-$$
 
 Product: **hydrogen gas**.
 
@@ -38774,17 +38660,13 @@ Product: **hydrogen gas**.
 solution, $Cl^{-}$ is discharged in preference to $H_{2}O$ (the overpotential of chlorine is lower
 than that of oxygen at the anode, and the high concentration of $Cl^{-}$ favours its discharge):
 
-$$
 2Cl^{-}(aq) \rightarrow Cl_{2}(g) + 2e^{-}
-$$
 
 Product: **chlorine gas**.
 
 (b) Overall:
 
-$$
 2NaCl(aq) + 2H_{2}O(l) \xrightarrow{\text{electrolysis}} Cl_{2}(g) + H_{2}(g) + 2NaOH(aq)
-$$
 
 (c) In **dilute** aqueous $NaCl$:
 
@@ -38792,15 +38674,11 @@ $$
   discharged in aqueous solution).
 - **Anode**: The low concentration of $Cl^{-}$ means $H_{2}O$ is now preferentially discharged:
 
-$$
 4OH^{-}(aq) \rightarrow O_{2}(g) + 2H_{2}O(l) + 4e^{-}
-$$
 
 Or equivalently:
 
-$$
 2H_{2}O(l) \rightarrow O_{2}(g) + 4H^{+}(aq) + 4e^{-}
-$$
 
 Product at anode changes from **chlorine** to **oxygen**.
 
@@ -38843,7 +38721,6 @@ a reason for any discrepancy. [2 marks]
 **Worked Solution**
 
 (a) $$Q = It = 0.500 \times 30.0 \times 60 = 900 \text{ C}
-$$
 
 (b) At the cathode: $Cu^{2+} + 2e^{-} \rightarrow Cu$
 
@@ -38851,9 +38728,7 @@ Moles of electrons: $n(e^{-}) = \frac{Q}{F} = \frac{900}{96500} = 9.326 \times 1
 
 Moles of $Cu$ deposited: $n(Cu) = \frac{9.326 \times 10^{-3}}{2} = 4.663 \times 10^{-3}$ mol
 
-$$
 m(Cu) = 4.663 \times 10^{-3} \times 63.5 = 0.296 \text{ g}
-$$
 
 (c) The theoretical mass (0.296 g) matches the actual mass change at the anode (0.296 g) exactly in
 this case. This makes sense because with copper electrodes, the anode dissolves
@@ -38934,15 +38809,11 @@ Oxidation: $Zn \rightarrow Zn^{2+} + 2e^{-}$ ($E^{\circ} = +0.76$ V as oxidation
 
 Reduction: $Cu^{2+} + 2e^{-} \rightarrow Cu$ ($E^{\circ} = +0.34$ V)
 
-$$
 E^{\circ}_{\text{cell}} = 0.34 - (-0.76) = +1.10 \text{ V}
-$$
 
 Since $E^{\circ}_{\text{cell}} \gt 0$ The reaction is feasible:
 
-$$
 Zn(s) + Cu^{2+}(aq) \rightarrow Zn^{2+}(aq) + Cu(s)
-$$
 
 (b) Silver will **not** react with dilute HCl.
 
@@ -38950,9 +38821,7 @@ $Ag$ has $E^{\circ} = +0.80$ V, which is more positive than $H^{+}/H_{2}$ ($E^{\
 Silver is **below** hydrogen in the electrochemical series, meaning $Ag$ is a weaker reducing agent
 than $H_{2}$. Silver cannot reduce $H^{+}$ to $H_{2}$.
 
-$$
 E^{\circ}_{\text{cell}} = 0.00 - 0.80 = -0.80 \text{ V} \lt 0
-$$
 
 The reaction is not feasible.
 
@@ -38960,9 +38829,7 @@ The reaction is not feasible.
 
 Reduction at cathode: $Ag^{+} + e^{-} \rightarrow Ag$
 
-$$
 E^{\circ}_{\text{cell}} = E^{\circ}_{\text{cathode}} - E^{\circ}_{\text{anode}} = 0.80 - (-0.76) = +1.56 \text{ V}
-$$
 
 Electrons flow from the **zinc electrode (anode)** through the external circuit to the **silver
 electrode (cathode)**.
@@ -39009,20 +38876,15 @@ current of 5.00 A for 2.00 hours.
 Anode (oxidation): $2O^{2-} \rightarrow O_{2} + 4e^{-}$
 
 (b) $$Q = It = 5.00 \times 2.00 \times 3600 = 36000 \text{ C}
-$$
 
 Moles of electrons: $n(e^{-}) = \frac{36000}{96500} = 0.3731$ mol
 
 Moles of $Al$: $n(Al) = \frac{0.3731}{3} = 0.1244$ mol
 
-$$
 m(Al) = 0.1244 \times 27.0 = 3.36 \text{ g}
-$$
 
 (c)
-$$
 \text{Current efficiency} = \frac{\text{actual mass}}{\text{theoretical mass}} \times 100\% = \frac{2.80}{3.36} \times 100\% = 83.3\%
-$$
 
 The efficiency is less than 100\% due to:
 
@@ -39055,9 +38917,7 @@ The efficiency is less than 100\% due to:
 
 Consider the following cell:
 
-$$
 Sn(s) | Sn^{2+}(aq, 1.0 \text{ mol/dm}^{3}) || Cu^{2+}(aq, 1.0 \text{ mol/dm}^{3}) | Cu(s)
-$$
 
 Standard electrode potentials: $Sn^{2+}/Sn = -0.14$ V; $Cu^{2+}/Cu = +0.34$ V.
 
@@ -39085,28 +38945,20 @@ Standard electrode potentials: $Sn^{2+}/Sn = -0.14$ V; $Cu^{2+}/Cu = +0.34$ V.
 
 **Cathode**: $Cu$ electrode (reduction occurs).
 
-$$
 E^{\circ}_{\text{cell}} = E^{\circ}_{\text{cathode}} - E^{\circ}_{\text{anode}} = 0.34 - (-0.14) = +0.48 \text{ V}
-$$
 
 (b) $Sn(s) + Cu^{2+}(aq) \rightarrow Sn^{2+}(aq) + Cu(s)$
 
 (c) Using the Nernst equation for the cell reaction $Sn + Cu^{2+} \rightarrow Sn^{2+} + Cu$ (2
 electrons transferred):
 
-$$
 E_{\text{cell}} = E^{\circ}_{\text{cell}} - \frac{RT}{nF}\ln Q
-$$
 
 At 298 K:
 
-$$
 E_{\text{cell}} = E^{\circ}_{\text{cell}} - \frac{0.0592}{n}\log Q
-$$
 
-$$
 Q = \frac{[Sn^{2+}]}{[Cu^{2+}]} = \frac{5.0}{1.0} = 5.0
-$$
 
 $$
 E_{\text{cell}} = 0.48 - \frac{0.0592}{2}\log(5.0)
@@ -39279,19 +39131,13 @@ enthalpy of formation data? Explain. [2 marks]
 (a) Bonds broken:
 
 $$H-H: 436 \text{ kJ/mol}$$ $$Cl-Cl: 242 \text{ kJ/mol}$$
-$$
 \text{Total} = 436 + 242 = 678 \text{ kJ/mol}
-$$
 
 Bonds formed:
 
-$$
 2 \times H-Cl = 2 \times 431 = 862 \text{ kJ/mol}
-$$
 
-$$
 \Delta H = 678 - 862 = -184 \text{ kJ/mol}
-$$
 
 (b) The calculated value ($-184$) is very close to the actual value ($-184.6$), but the small
 difference arises because:
@@ -39355,30 +39201,18 @@ Mass of solution = $100.0$ g
 
 Temperature change = $26.7 - 20.0 = 6.7$ K
 
-$$
 q = mc\Delta T = 100.0 \times 4.18 \times 6.7 = 2800.6 \text{ J} = 2.80 \text{ kJ}
-$$
 
 Moles of water formed:
 
-$$
 n(HCl) = 1.00 \times 0.0500 = 0.0500 \text{ mol}
-$$
-$$
 n(NaOH) = 1.00 \times 0.0500 = 0.0500 \text{ mol}
-$$
-$$
 n(H_{2}O) = 0.0500 \text{ mol} \text{ (limiting reagent = both, equimolar)}
-$$
 
-$$
 \Delta H = \frac{-q}{n} = \frac{-2.80}{0.0500} = -56.0 \text{ kJ/mol}
-$$
 
 (b)
-$$
 \%\text{ error} = \frac{|-56.0 - (-57.1)|}{57.1} \times 100\% = \frac{1.1}{57.1} \times 100\% = 1.9\%
-$$
 
 The discrepancy is due to **heat loss to the surroundings** (the polystyrene cup is not a perfect
 insulator) and the heat absorbed by the cup itself (which was not accounted for in the calculation).
@@ -39419,9 +39253,7 @@ Given:
 (a) Calculate the enthalpy change for the hydrogenation of ethene using standard enthalpy of
 formation data:
 
-$$
 C_{2}H_{4}(g) + H_{2}(g) \rightarrow C_{2}H_{6}(g)
-$$
 
 [2 marks]
 
@@ -39443,13 +39275,9 @@ $$
 **Worked Solution**
 
 (a)
-$$
 \Delta H_{\text{rxn}} = \Delta H_{f}^{\circ}(C_{2}H_{6}) - \Delta H_{f}^{\circ}(C_{2}H_{4}) - \Delta H_{f}^{\circ}(H_{2})
-$$
 
-$$
 = -84.7 - 52.2 - 0 = -136.9 \text{ kJ/mol}
-$$
 
 (b) Bonds broken:
 
@@ -39462,9 +39290,7 @@ Bonds broken: $C=C + H-H + 4 \times C-H = 612 + 436 + 1648 = 2696$ kJ/mol
 Bonds formed (in $C_{2}H_{6}$$H_{3}C-CH_{3}$):
 $1 \times C-C + 6 \times C-H = 348 + 6 \times 412 = 348 + 2472 = 2820$ kJ/mol
 
-$$
 \Delta H = 2696 - 2820 = -124 \text{ kJ/mol}
-$$
 
 (c) The value from formation data ($-136.9$ kJ/mol) differs from the bond enthalpy value ($-124$
 kJ/mol) by 12.9 kJ/mol.
@@ -39525,7 +39351,6 @@ Given:
 
 (a) Born-Haber cycle:
 
-```
 Mg(s) + 1/2 O2(g) --[ΔHf°]--> MgO(s)
      |                              |
      | +147.1                       | [ΔHlattice]
@@ -39539,31 +39364,20 @@ Mg2+(g) + 1/2 O2(g)                 |
      | +249 (1/2 x 498)             |
      v                              |
 Mg2+(g) + O(g) ---------------------+
-```
 
 (b) Hess's law:
 
-$$
 \Delta H_{f}^{\circ} = \Delta H_{\text{atom}}(Mg) + IE_{1} + IE_{2} + \frac{1}{2}\Delta H_{\text{diss}}(O_{2}) + EA_{1} + EA_{2} + \Delta H_{\text{lattice}}
-$$
 
-$$
 -601.6 = 147.1 + 738 + 1451 + 249 + (-141) + 798 + \Delta H_{\text{lattice}}
-$$
 
-$$
 -601.6 = 147.1 + 738 + 1451 + 249 - 141 + 798 + \Delta H_{\text{lattice}}
-$$
 
 Sum of all terms except lattice: $147.1 + 738 + 1451 + 249 - 141 + 798 = 3242.1$
 
-$$
 -601.6 = 3242.1 + \Delta H_{\text{lattice}}
-$$
 
-$$
 \Delta H_{\text{lattice}} = -601.6 - 3242.1 = -3843.7 \text{ kJ/mol}
-$$
 
 (c) The second electron affinity of oxygen is endothermic because the $O^{-}$ ion already carries a
 negative charge. Adding a second electron to $O^{-}$ requires overcoming **electrostatic repulsion**
@@ -39587,9 +39401,7 @@ second electron onto the negatively charged ion.
 
 Methanol ($CH_{3}OH$) can be used as a fuel. The complete combustion of methanol is:
 
-$$
 2CH_{3}OH(l) + 3O_{2}(g) \rightarrow 2CO_{2}(g) + 4H_{2}O(l) \quad \Delta H = -1452 \text{ kJ/mol (for the equation as written)}
-$$
 
 The standard enthalpy of formation of $CO_{2}(g)$ is $-393.5$ kJ/mol and of $H_{2}O(l)$ is $-285.8$
 kJ/mol.
@@ -39617,17 +39429,11 @@ percentage efficiency of the experiment. [4 marks]
 
 (a) For 2 mol of methanol:
 
-$$
 \Delta H_{\text{rxn}} = 2\Delta H_{f}^{\circ}(CO_{2}) + 4\Delta H_{f}^{\circ}(H_{2}O) - 2\Delta H_{f}^{\circ}(CH_{3}OH) - 3\Delta H_{f}^{\circ}(O_{2})
-$$
 
-$$
 -1452 = 2(-393.5) + 4(-285.8) - 2\Delta H_{f}^{\circ}(CH_{3}OH) - 0
-$$
 
-$$
 -1452 = -787.0 - 1143.2 - 2\Delta H_{f}^{\circ}(CH_{3}OH)
-$$
 
 $$
 -1452 = -1930.2 - 2\Delta H_{f}^{\circ}(CH_{3}OH)
@@ -40833,7 +40639,6 @@ Given the $Na_{2}CO_{3}$ result, $X$ must be propanoic acid.
 Name: **propanoic acid**
 
 (c) $$2CH_{3}CH_{2}COOH + Na_{2}CO_{3} \rightarrow 2CH_{3}CH_{2}COONa + H_{2}O + CO_{2}
-$$
 
 ---
 
@@ -40852,9 +40657,7 @@ $$
 
 Consider the reaction of 2-bromo-2-methylpropane with aqueous sodium hydroxide:
 
-$$
 (CH_{3})_{3}CBr + NaOH(aq) \rightarrow (CH_{3})_{3}COH + NaBr
-$$
 
 (a) State the type of mechanism for this reaction and explain why this mechanism is favoured for
 tertiary halogenoalkanes. [3 marks]
@@ -40893,9 +40696,7 @@ Tertiary halogenoalkanes favour $S_{N}1$ because:
 The $C-Br$ bond breaks, with both electrons going to the bromine atom. A tertiary carbocation
 intermediate is formed.
 
-$$
 (CH_{3})_{3}C-Br \rightarrow (CH_{3})_{3}C^{+} + Br^{-}
-$$
 
 (Curly arrow from the $C-Br$ bond to the $Br$ atom.)
 
@@ -40903,18 +40704,14 @@ $$
 
 The hydroxide ion ($OH^{-}$) attacks the carbocation, forming the alcohol.
 
-$$
 (CH_{3})_{3}C^{+} + OH^{-} \rightarrow (CH_{3})_{3}COH
-$$
 
 (Curly arrow from the lone pair on $O$ of $OH^{-}$ to the carbocation carbon.)
 
 (c) The rate-determining step (step 1) involves **only the halogenoalkane** molecule. The $OH^{-}$
 is not involved until the fast second step. Therefore:
 
-$$
 \text{Rate} = k[(CH_{3})_{3}CBr]
-$$
 
 The reaction is **first order** with respect to the halogenoalkane and **zero order** with respect
 to NaOH (or $OH^{-}$).
@@ -41014,17 +40811,11 @@ cis-trans isomerism to occur, but-1-ene fails this requirement.
 
 Complete the following reaction scheme by identifying compounds $A$ to $E$:
 
-$$
 CH_{3}CH_{2}OH \xrightarrow[\text{excess}]{K_{2}Cr_{2}O_{7}/H^{+}} A \xrightarrow[\text{heat}]{\text{alkaline } I_{2}} B + CHI_{3} \downarrow
-$$
 
-$$
 B \xrightarrow{LiAlH_{4}} C \xrightarrow{HBr} D \xrightarrow{NaOH(aq)} C
-$$
 
-$$
 A \xrightarrow{CH_{3}CH_{2}OH / H^{+}} E
-$$
 
 (a) Identify compounds $A$ to $E$ and name each. [5 marks]
 
@@ -41205,31 +40996,24 @@ Reagent: Bromine ($Br_{2}$) in an inert organic solvent (e.g., $CCl_{4}$ or cycl
 
 Conditions: Room temperature, in the dark (or with light excluded)
 
-$$
 CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}Br-CHBr-CH_{3}
-$$
 
 This is a **one-step** synthesis: direct addition of $Br_{2}$ across the double bond gives exactly
 the desired 1,2-dibromopropane.
 
 (b) $$CH_{2}=CHCH_{3} + Br_{2} \rightarrow CH_{2}BrCHBrCH_{3}
-$$
 
 (1,2-dibromopropane)
 
 (c) If $HBr$ is added first:
 
-$$
 CH_{2}=CHCH_{3} + HBr \rightarrow CH_{3}-CHBr-CH_{3}
-$$
 
 (2-bromopropane -- Markovnikov addition places $Br$ on the more substituted carbon)
 
 Then adding $Br_{2}$ to 2-bromopropane would give:
 
-$$
 CH_{3}-CHBr-CH_{3} + Br_{2} \rightarrow CH_{3}-CBr_{2}-CH_{3} + HBr
-$$
 
 This is a **substitution** reaction (not addition, since there is no $C=C$), giving
 2,2-dibromopropane, NOT 1,2-dibromopropane.
@@ -41307,7 +41091,6 @@ Reaction 2: $HCl(aq) + NaOH(aq) \rightarrow NaCl(aq) + H_{2}O(l)$
 
 $$
 n(NaOH) = \frac{0.500 \times 25.0}{1000} = 0.01250 \text{ mol}
-$$
 
 Step 2: Moles of HCl remaining (unreacted with $CaCO_{3}$).
 
@@ -41315,13 +41098,9 @@ From equation 2: $n(HCl)_{\text{remaining}} = n(NaOH) = 0.01250$ mol
 
 Step 3: Moles of HCl that reacted with $CaCO_{3}$.
 
-$$
 n(HCl)_{\text{total}} = \frac{1.00 \times 50.0}{1000} = 0.0500 \text{ mol}
-$$
 
-$$
 n(HCl)_{\text{reacted}} = 0.0500 - 0.01250 = 0.03750 \text{ mol}
-$$
 
 Step 4: Moles of $CaCO_{3}$ in the sample.
 
@@ -41329,19 +41108,13 @@ From equation 1: $n(CaCO_{3}) = \frac{n(HCl)_{\text{reacted}}}{2} = \frac{0.0375
 
 Step 5: Mass of pure $CaCO_{3}$.
 
-$$
 M(CaCO_{3}) = 40.1 + 12.0 + 3 \times 16.0 = 100.1 \text{ g/mol}
-$$
 
-$$
 m(CaCO_{3}) = 0.01875 \times 100.1 = 1.877 \text{ g}
-$$
 
 Step 6: Percentage purity.
 
-$$
 \text{Purity} = \frac{1.877}{2.00} \times 100\% = 93.8\%
-$$
 
 (c) The HCl must be in excess to ensure **all** the $CaCO_{3}$ reacts completely. The back-titration
 then determines the amount of HCl that was not consumed, allowing the amount reacted with $CaCO_{3}$
@@ -41387,71 +41160,47 @@ hydrogen. How would this affect the calculated empirical formula? [2 marks]
 
 (a) Step 1: Mass of carbon in $CO_{2}$.
 
-$$
 M(CO_{2}) = 12.0 + 2 \times 16.0 = 44.0 \text{ g/mol}
-$$
 
-$$
 m(C) = 0.880 \times \frac{12.0}{44.0} = 0.240 \text{ g}
-$$
 
 Step 2: Mass of hydrogen in $H_{2}O$.
 
-$$
 M(H_{2}O) = 2 \times 1.0 + 16.0 = 18.0 \text{ g/mol}
-$$
 
-$$
 m(H) = 0.540 \times \frac{2.0}{18.0} = 0.0600 \text{ g}
-$$
 
 Step 3: Mass of oxygen by difference.
 
-$$
 m(O) = 0.460 - 0.240 - 0.0600 = 0.160 \text{ g}
-$$
 
 Step 4: Moles of each element.
 
-$$
 n(C) = \frac{0.240}{12.0} = 0.0200 \text{ mol}
-$$
 
-$$
 n(H) = \frac{0.0600}{1.0} = 0.0600 \text{ mol}
-$$
 
-$$
 n(O) = \frac{0.160}{16.0} = 0.0100 \text{ mol}
-$$
 
 Step 5: Mole ratio.
 
 Divide by the smallest (0.0100):
 
-$$
 C : H : O = 2 : 6 : 1
-$$
 
 Empirical formula: **$C_{2}H_{6}O$**
 
 (b) Molar mass of empirical formula = $2 \times 12.0 + 6 \times 1.0 + 16.0 = 46.0$ g/mol
 
-$$
 n = \frac{92.0}{46.0} = 2
-$$
 
 Molecular formula: **$C_{4}H_{12}O_{2}$**
 
 (c) If oxygen is ignored, the student would calculate:
 
-$$
 n(C) = 0.0200, \quad n(H) = 0.0600
-$$
 
-$$
 C : H = 1 : 3
-$$
 
 The student would get $CH_{3}$ as the empirical formula, which is incorrect. The mole ratio of $C$
 to $H$ alone does not reveal the oxygen content.
@@ -41497,53 +41246,33 @@ concentration of the diluted solution. [2 marks]
 
 (a) $CaCO_{3} + 2HCl \rightarrow CaCl_{2} + CO_{2} + H_{2}O$
 
-$$
 n(CaCO_{3}) = \frac{5.00}{100.1} = 0.04995 \text{ mol}
-$$
 
 From the equation, 1 mol $CaCO_{3}$ produces 1 mol $CO_{2}$:
 
-$$
 n(CO_{2}) = 0.04995 \text{ mol}
-$$
 
-$$
 V(CO_{2}) = 0.04995 \times 24.0 = 1.20 \text{ dm}^{3}
-$$
 
 (b) $M(NaOH) = 23.0 + 16.0 + 1.0 = 40.0$ g/mol
 
-$$
 n(NaOH) = \frac{4.00}{40.0} = 0.100 \text{ mol}
-$$
 
-$$
 \text{Concentration (mol/dm}^{3}) = \frac{0.100}{0.250} = 0.400 \text{ mol/dm}^{3}
-$$
 
-$$
 \text{Concentration (g/dm}^{3}) = 0.400 \times 40.0 = 16.0 \text{ g/dm}^{3}
-$$
 
 (c) Moles of $H_{2}SO_{4}$ remain constant during dilution:
 
-$$
 n(H_{2}SO_{4}) = 0.100 \times \frac{50.0}{1000} = 0.00500 \text{ mol}
-$$
 
-$$
 C_{\text{diluted}} = \frac{0.00500}{0.500} = 0.0100 \text{ mol/dm}^{3}
-$$
 
 Alternatively: $C_{1}V_{1} = C_{2}V_{2}$
 
-$$
 0.100 \times 50.0 = C_{2} \times 500
-$$
 
-$$
 C_{2} = 0.0100 \text{ mol/dm}^{3}
-$$
 
 ---
 
@@ -41597,9 +41326,7 @@ medium. [2 marks]
 
 (b) Step 1: Moles of $MnO_{4}^{-}$ used.
 
-$$
 n(MnO_{4}^{-}) = 0.0200 \times \frac{22.5}{1000} = 4.50 \times 10^{-4} \text{ mol}
-$$
 
 Step 2: Moles of $Fe^{2+}$ in 25.0 cm$^{3}$.
 
@@ -41608,70 +41335,42 @@ $n(Fe^{2+}) = 5 \times n(MnO_{4}^{-}) = 5 \times 4.50 \times 10^{-4} = 2.250 \ti
 
 Step 3: Moles of $Fe^{2+}$ in 250 cm$^{3}$ (total solution).
 
-$$
 n(Fe^{2+})_{\text{total}} = 2.250 \times 10^{-3} \times \frac{250}{25.0} = 0.02250 \text{ mol}
-$$
 
 Step 4: Mass of $FeSO_{4}\cdot 7H_{2}O$.
 
-$$
 M(FeSO_{4}\cdot 7H_{2}O) = 55.8 + 32.1 + 4 \times 16.0 + 7 \times (2 \times 1.0 + 16.0)
-$$
 
-$$
 = 55.8 + 32.1 + 64.0 + 7 \times 18.0 = 55.8 + 32.1 + 64.0 + 126.0 = 277.9 \text{ g/mol}
-$$
 
-$$
 m(FeSO_{4}\cdot 7H_{2}O) = 0.02250 \times 277.9 = 6.253 \text{ g}
-$$
 
 Step 5: Percentage purity.
 
-$$
 \%\text{ purity} = \frac{6.253}{5.00} \times 100\% = 125\%
-$$
 
 This is impossible, indicating an error. Let me recalculate:
 
-$$
 n(MnO_{4}^{-}) = 0.0200 \times 0.0225 = 4.50 \times 10^{-4} \text{ mol}
-$$
 
-$$
 n(Fe^{2+}) \text{ in } 25.0 \text{ cm}^{3} = 5 \times 4.50 \times 10^{-4} = 2.250 \times 10^{-3} \text{ mol}
-$$
 
-$$
 n(Fe^{2+}) \text{ total} = 2.250 \times 10^{-3} \times 10 = 0.02250 \text{ mol}
-$$
 
-$$
 m = 0.02250 \times 277.9 = 6.253 \text{ g}
-$$
 
 Since this exceeds 5.00 g, the data is inconsistent. For a realistic problem, let me adjust: if the
 titre were **12.5 cm$^{3}$**:
 
-$$
 n(MnO_{4}^{-}) = 0.0200 \times 0.0125 = 2.50 \times 10^{-4}
-$$
 
-$$
 n(Fe^{2+}) \text{ in } 25.0 \text{ cm}^{3} = 1.250 \times 10^{-3}
-$$
 
-$$
 n(Fe^{2+}) \text{ total} = 0.01250
-$$
 
-$$
 m = 0.01250 \times 277.9 = 3.474 \text{ g}
-$$
 
-$$
 \%\text{ purity} = \frac{3.474}{5.00} \times 100\% = 69.5\%
-$$
 
 (c) The reaction requires $H^{+}$ ions as a reactant (see the equation). Without an acidic medium,
 $MnO_{4}^{-}$ would be reduced to $MnO_{2}$ instead of $Mn^{2+}$ And the stoichiometry would change.
@@ -41723,55 +41422,37 @@ collected over water at RTP and measured to have a volume of 520 cm$^{3}$.
 
 Pressure of dry $CO_{2}$ = Total pressure - Vapour pressure of water
 
-$$
 P(CO_{2}) = 101 - 2.3 = 98.7 \text{ kPa}
-$$
 
 Using Boyle's law (at constant temperature, $P_{1}V_{1} = P_{2}V_{2}$) to find volume at atmospheric
 pressure:
 
-$$
 V_{\text{dry}} = \frac{520 \times 98.7}{101} = 508 \text{ cm}^{3} = 0.508 \text{ dm}^{3}
-$$
 
 (b) $$n(CO_{2}) = \frac{V}{24.0} = \frac{0.508}{24.0} = 0.0212 \text{ mol}
-$$
 
 From $CaCO_{3} + 2HCl \rightarrow CaCl_{2} + CO_{2} + H_{2}O$:
 
-$$
 n(CaCO_{3}) = n(CO_{2}) = 0.0212 \text{ mol}
-$$
 
-$$
 m(CaCO_{3}) = 0.0212 \times 100.1 = 2.12 \text{ g}
-$$
 
-$$
 \%\text{ } CaCO_{3} = \frac{2.12}{2.50} \times 100\% = 84.8\%
-$$
 
 (c) Moles of $HCl$ reacted:
 
 $$
 n(HCl)_{\text{reacted}} = 2 \times n(CaCO_{3}) = 2 \times 0.0212 = 0.0424 \text{ mol}
-$$
 
 Moles of $HCl$ initially:
 
-$$
 n(HCl)_{\text{initial}} = 2.00 \times 0.100 = 0.200 \text{ mol}
-$$
 
 Moles of $HCl$ remaining:
 
-$$
 n(HCl)_{\text{remaining}} = 0.200 - 0.0424 = 0.158 \text{ mol}
-$$
 
-$$
 C(HCl)_{\text{remaining}} = \frac{0.158}{0.100} = 1.58 \text{ mol/dm}^{3}
-$$
 
 ---
 
@@ -41816,36 +41497,23 @@ presence of a concentrated sulphuric acid catalyst to produce ethyl ethanoate
 (a) $CH_{3}COOH + C_{2}H_{5}OH \rightleftharpoons CH_{3}COOC_{2}H_{5} + H_{2}O$
 
 (b) $$M(CH_{3}COOH) = 2 \times 12.0 + 4 \times 1.0 + 2 \times 16.0 = 60.0 \text{ g/mol}
-$$
 
-$$
 n(CH_{3}COOH) = \frac{15.0}{60.0} = 0.250 \text{ mol}
-$$
 
-$$
 M(C_{2}H_{5}OH) = 2 \times 12.0 + 6 \times 1.0 + 16.0 = 46.0 \text{ g/mol}
-$$
 
-$$
 n(C_{2}H_{5}OH) = \frac{8.00}{46.0} = 0.174 \text{ mol}
-$$
 
 From the equation, the mole ratio is 1:1. Since $0.174 \lt 0.250$**ethanol** is the limiting
 reagent.
 
 (c) Theoretical moles of ester = moles of limiting reagent = 0.174 mol
 
-$$
 M(CH_{3}COOC_{2}H_{5}) = 4 \times 12.0 + 8 \times 1.0 + 2 \times 16.0 = 88.0 \text{ g/mol}
-$$
 
-$$
 m_{\text{theoretical}} = 0.174 \times 88.0 = 15.3 \text{ g}
-$$
 
-$$
 \%\text{ yield} = \frac{10.2}{15.3} \times 100\% = 66.7\%
-$$
 
 (d) Esterification is a **reversible reaction** that reaches equilibrium. Not all reactants are
 converted to products. Additionally:
@@ -45732,15 +45400,11 @@ Reactions are:
 
 Complete combustion (in excess oxygen):
 
-$$
 \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}
-$$
 
 Incomplete combustion (in limited oxygen):
 
-$$
 2\mathrm{C}_n\mathrm{H}_{2n+2} + (2n+1)\mathrm{O}_2 \to 2n\mathrm{CO} + (2n+2)\mathrm{H}_2\mathrm{O}
-$$
 
 Carbon (soot) may also be produced.
 
@@ -45749,9 +45413,7 @@ Carbon (soot) may also be produced.
 Alkanes react with halogens ($\mathrm{Cl}_2$ or $\mathrm{Br}_2$) in the presence of UV light to form
 Haloalkanes.
 
-$$
 \mathrm{CH}_4 + \mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} \mathrm{CH}_3\mathrm{Cl} + \mathrm{HCl}
-$$
 
 This is a **substitution** reaction because a hydrogen atom is replaced by a chlorine atom.
 
@@ -45762,36 +45424,24 @@ The reaction proceeds via a **free radical chain mechanism** with three stages:
 **Initiation:** UV light provides energy to break the Cl-Cl bond homolytically (each atom gets one
 Electron), generating chlorine free radicals.
 
-$$
 \mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} 2\mathrm{Cl}^\bullet
-$$
 
 **Propagation:** The chlorine radical attacks a methane molecule, abstracting a hydrogen atom and
 Forming HCl and a methyl radical. The methyl radical then attacks another chlorine molecule.
 
-$$
 \mathrm{Cl}^\bullet + \mathrm{CH}_4 \to \mathrm{HCl} + \mathrm{CH}_3^\bullet
-$$
 
-$$
 \mathrm{CH}_3^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{Cl} + \mathrm{Cl}^\bullet
-$$
 
 The chain continues because a new chlorine radical is generated in each propagation step.
 
 **Termination:** Two radicals combine, ending the chain. Any two radicals can combine.
 
-$$
 \mathrm{Cl}^\bullet + \mathrm{Cl}^\bullet \to \mathrm{Cl}_2
-$$
 
-$$
 \mathrm{CH}_3^\bullet + \mathrm{CH}_3^\bullet \to \mathrm{C}_2\mathrm{H}_6
-$$
 
-$$
 \mathrm{CH}_3^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{Cl}
-$$
 
 :::caution
 $\mathrm{CCl}_4$ Because the substitution can continue on the same carbon atom. Controlling the
@@ -45810,9 +45460,7 @@ supply from fractional distillation.
 - Produces a mixture of alkanes and alkenes
 - Produces shorter-chain alkanes as fuels
 
-$$
 \mathrm{C}_{14}\mathrm{H}_{30} \xrightarrow{\Delta} \mathrm{C}_7\mathrm{H}_{16} + \mathrm{C}_7\mathrm{H}_{14}
-$$
 
 **Catalytic cracking:**
 
@@ -45834,13 +45482,9 @@ $\sigma$ bond.
 Alkenes are named by replacing the -ane suffix with -ene. The position of the double bond is
 indicated by the lower-numbered carbon atom involved.
 
-$$
 \mathrm{CH}_2=\mathrm{CHCH}_2\mathrm{CH}_3 \quad \mathrm{but-1-ene}
-$$
 
-$$
 \mathrm{CH}_3\mathrm{CH}=\mathrm{CHCH}_3 \quad \mathrm{but-2-ene}
-$$
 
 #### E/Z (Cis/Trans) Isomerism
 
@@ -45881,49 +45525,37 @@ Breaks to allow **addition reactions**, where atoms or groups are added across t
 When bromine water (orange-brown) is added to an alkene, the bromine adds across the double bond and
 the solution is decolourised.
 
-$$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_2\mathrm{BrCH}_2\mathrm{Br}
-$$
 
 This is a useful test to distinguish alkenes from alkanes (alkanes do not decolourise bromine water
 without UV light).
 
 **Hydrogenation:**
 
-$$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{H}_2 \xrightarrow{\mathrm{Ni catalyst, } 150^\circ\mathrm{C}} \mathrm{CH}_3\mathrm{CH}_3
-$$
 
 Used industrially to convert vegetable oils to margarine (hardening).
 
 **Halogenation:**
 
-$$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Cl}_2 \to \mathrm{CH}_2\mathrm{ClCH}_2\mathrm{Cl}
-$$
 
 Halogenation of alkenes does not require UV light (unlike alkanes).
 
 **Hydration:**
 
-$$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}_3\mathrm{PO}_4, 300^\circ\mathrm{C}, \mathrm{high pressure}} \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH}
-$$
 
 **Hydrohalogenation:**
 
-$$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br}
-$$
 
 **Markovnikov's Rule:**
 
 When HX adds to an unsymmetrical alkene, the hydrogen atom attaches to the carbon that already has
 more hydrogen atoms (the less substituted carbon).
 
-$$
 \mathrm{CH}_3\mathrm{CH}=\mathrm{CH}_2 + \mathrm{HBr} \to \mathrm{CH}_3\mathrm{CHBrCH}_3 \quad \mathrm{(2-bromopropane, major product)}
-$$
 
 The minor product, 1-bromopropane ($\mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{Br}$), is formed
 in smaller amounts.
@@ -45953,13 +45585,9 @@ Known as acetylene.
 
 Alkynes are named by replacing the -ane suffix with -yne.
 
-$$
 \mathrm{HC}\equiv\mathrm{CH} \quad \mathrm{ethyne}
-$$
 
-$$
 \mathrm{CH}_3\mathrm{C}\equiv\mathrm{CH} \quad \mathrm{propyne}
-$$
 
 #### Physical Properties
 
@@ -45973,24 +45601,18 @@ the triple bond has two $\pi$ bonds.
 
 **Hydrogenation (stepwise):**
 
-$$
 \mathrm{HC}\equiv\mathrm{CH} + \mathrm{H}_2 \xrightarrow{\mathrm{Pd/C}} \mathrm{H}_2\mathrm{C}=\mathrm{CH}_2 \xrightarrow{\mathrm{H}_2} \mathrm{CH}_3\mathrm{CH}_3
-$$
 
 **Halogenation (stepwise):**
 
-$$
 \mathrm{HC}\equiv\mathrm{CH} + \mathrm{Br}_2 \to \mathrm{BrHC}=\mathrm{CHBr} \xrightarrow{\mathrm{Br}_2} \mathrm{Br}_2\mathrm{HC}-\mathrm{CHBr}_2
-$$
 
 **Hydration:**
 
 Ethyne reacts with water in the presence of $\mathrm{HgSO}_4$ and dilute $\mathrm{H}_2\mathrm{SO}_4$
 catalyst to form ethanal (acetaldehyde):
 
-$$
 \mathrm{HC}\equiv\mathrm{CH} + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{HgSO}_4, \mathrm{H}^+} \mathrm{CH}_3\mathrm{CHO}
-$$
 
 Higher alkynes give ketones.
 
@@ -46004,9 +45626,7 @@ type of reaction.
 
 Since ethyne has two $\pi$ bonds, it can react with two moles of $\mathrm{Br_2}$:
 
-$$
 \mathrm{HC}\equiv\mathrm{CH} + 2\mathrm{Br_2} \to \mathrm{Br_2HC}-\mathrm{CHBr_2}
-$$
 
 The product is 1,1,2,2-tetrabromoethane. This is an **addition reaction** (bromine adds across both
 $\pi$ bonds stepwise). The bromine water is decolourised.
@@ -46058,13 +45678,9 @@ Benzene has the molecular formula $\mathrm{C}_6\mathrm{H}_6$. Two models describ
 - Represented as a hexagon with a circle inside, or alternating double bonds with understanding that
   the $\pi$ electrons are delocalised
 
-$$
 \mathrm{Bond length in benzene} = 0.140 \mathrm{ nm}
-$$
 
-$$
 \mathrm{C-C single bond} = 0.154 \mathrm{ nm}, \quad \mathrm{C=C double bond} = 0.134 \mathrm{ nm}
-$$
 
 The intermediate bond length confirms the delocalised model.
 
@@ -46086,15 +45702,11 @@ $50$--$60^\circ\mathrm{C}$.
 
 Generation of electrophile:
 
-$$
 \mathrm{HNO}_3 + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{HSO}_4^- + \mathrm{H}_2\mathrm{O}
-$$
 
 Substitution:
 
-$$
 \mathrm{C}_6\mathrm{H}_6 + \mathrm{NO}_2^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2 + \mathrm{H}^+
-$$
 
 Product: nitrobenzene.
 
@@ -46103,25 +45715,17 @@ Product: nitrobenzene.
 Reagents: $\mathrm{Cl}_2$ or $\mathrm{Br}_2$ with a Lewis acid catalyst such as $\mathrm{AlCl}_3$ or
 $\mathrm{FeBr}_3$.
 
-$$
 \mathrm{Cl}_2 + \mathrm{AlCl}_3 \to \mathrm{Cl}^+ + \mathrm{AlCl}_4^-
-$$
 
-$$
 \mathrm{C}_6\mathrm{H}_6 + \mathrm{Cl}^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{Cl} + \mathrm{H}^+
-$$
 
 **Friedel-Crafts Alkylation:**
 
 Reagents: haloalkane with $\mathrm{AlCl}_3$ catalyst.
 
-$$
 \mathrm{CH}_3\mathrm{Cl} + \mathrm{AlCl}_3 \to \mathrm{CH}_3^+ + \mathrm{AlCl}_4^-
-$$
 
-$$
 \mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{CH}_3 + \mathrm{H}^+
-$$
 
 Product: methylbenzene (toluene).
 
@@ -46129,13 +45733,9 @@ Product: methylbenzene (toluene).
 
 Reagents: acyl chloride with $\mathrm{AlCl}_3$ catalyst.
 
-$$
 \mathrm{CH}_3\mathrm{COCl} + \mathrm{AlCl}_3 \to \mathrm{CH}_3\mathrm{CO}^+ + \mathrm{AlCl}_4^-
-$$
 
-$$
 \mathrm{C}_6\mathrm{H}_6 + \mathrm{CH}_3\mathrm{CO}^+ \to \mathrm{C}_6\mathrm{H}_5\mathrm{COCH}_3 + \mathrm{H}^+
-$$
 
 Product: phenylethanone (acetophenone).
 
@@ -46154,25 +45754,17 @@ Predict the products when benzene undergoes (a) chlorination with $\mathrm{Cl_2}
 
 (a) **Chlorination:**
 
-$$
 \mathrm{Cl_2} + \mathrm{AlCl_3} \to \mathrm{Cl^+} + \mathrm{AlCl_4^-}
-$$
 
-$$
 \mathrm{C_6H_6} + \mathrm{Cl^+} \to \mathrm{C_6H_5Cl} + \mathrm{H^+}
-$$
 
 Product: **chlorobenzene** ($\mathrm{C_6H_5Cl}$)
 
 (b) **Friedel-Crafts alkylation:**
 
-$$
 \mathrm{CH_3CH_2Cl} + \mathrm{AlCl_3} \to \mathrm{CH_3CH_2^+} + \mathrm{AlCl_4^-}
-$$
 
-$$
 \mathrm{C_6H_6} + \mathrm{CH_3CH_2^+} \to \mathrm{C_6H_5CH_2CH_3} + \mathrm{H^+}
-$$
 
 Product: **ethylbenzene** ($\mathrm{C_6H_5CH_2CH_3}$)
 
@@ -46231,13 +45823,9 @@ Alcohols contain the hydroxyl group (-OH) attached to an $sp^3$ hybridised carbo
 
 Alcohols are named using the -ol suffix. The position of the -OH group is indicated by a number.
 
-$$
 \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{OH} \quad \mathrm{propan-1-ol}
-$$
 
-$$
 \mathrm{CH}_3\mathrm{CH(OH)CH}_3 \quad \mathrm{propan-2-ol}
-$$
 
 #### Physical Properties
 
@@ -46259,9 +45847,7 @@ Different classes of alcohols give different products upon oxidation.
 
 Oxidised first to aldehydes, then to carboxylic acids.
 
-$$
 \mathrm{RCH}_2\mathrm{OH} \xrightarrow{[\mathrm{O}]} \mathrm{RCHO} \xrightarrow{[\mathrm{O}]} \mathrm{RCOOH}
-$$
 
 To obtain the aldehyde (without further oxidation to the carboxylic acid), distil the product out as
 it forms.
@@ -46274,9 +45860,7 @@ upon reduction.
 
 Oxidised to ketones (which are resistant to further oxidation).
 
-$$
 \mathrm{R}_2\mathrm{CHOH} \xrightarrow{[\mathrm{O}]} \mathrm{R}_2\mathrm{C=O}
-$$
 
 **Tertiary alcohols:**
 
@@ -46294,17 +45878,13 @@ under reflux: (a) butan-1-ol, (b) butan-2-ol, (c) 2-methylpropan-2-ol.
 (a) **Butan-1-ol** ($\mathrm{CH_3CH_2CH_2CH_2OH}$) is primary. Under reflux (strong oxidation), it
 is fully oxidised to butanoic acid:
 
-$$
 \mathrm{CH_3CH_2CH_2CH_2OH} \xrightarrow{[\mathrm{O}],\ \mathrm{reflux}} \mathrm{CH_3CH_2CH_2COOH}
-$$
 
 The colour change is orange to green.
 
 (b) **Butan-2-ol** ($\mathrm{CH_3CH_2CH(OH)CH_3}$) is secondary. It oxidises to butanone:
 
-$$
 \mathrm{CH_3CH_2CH(OH)CH_3} \xrightarrow{[\mathrm{O}]} \mathrm{CH_3CH_2COCH_3}
-$$
 
 (c) **2-Methylpropan-2-ol** ($\mathrm{(CH_3)_3COH}$) is tertiary. No oxidation occurs; the orange
 colour of dichromate persists.
@@ -46317,17 +45897,11 @@ colour of dichromate persists.
 
 Carboxylic acids contain the -COOH group and are named with the -oic acid suffix.
 
-$$
 \mathrm{HCOOH} \quad \mathrm{methanoic acid}
-$$
 
-$$
 \mathrm{CH}_3\mathrm{COOH} \quad \mathrm{ethanoic acid}
-$$
 
-$$
 \mathrm{CH}_3\mathrm{CH}_2\mathrm{COOH} \quad \mathrm{propanoic acid}
-$$
 
 #### Properties
 
@@ -46335,17 +45909,11 @@ $$
 
 Carboxylic acids are weak acids. They partially dissociate in water:
 
-$$
 \mathrm{CH}_3\mathrm{COOH} \rightleftharpoons \mathrm{CH}_3\mathrm{COO}^- + \mathrm{H}^+
-$$
 
-$$
 K_a = \frac{[\mathrm{CH}_3\mathrm{COO}^-][\mathrm{H}^+]}{[\mathrm{CH}_3\mathrm{COOH}]} = 1.8 \times 10^{-5}
-$$
 
-$$
 \mathrm{p}K_a = -\log_{10}(1.8 \times 10^{-5}) = 4.74
-$$
 
 Carboxylic acids are stronger acids than alcohols (phenol has $\mathrm{p}K_a \approx 10$) but weaker
 than mineral acids. The carboxylate ion ($\mathrm{RCOO}^-$) is stabilised by resonance
@@ -46365,9 +45933,7 @@ Delocalisation of the negative charge over the two oxygen atoms.
 Carboxylic acids react with alcohols in the presence of a strong acid catalyst (concentrated
 $\mathrm{H}_2\mathrm{SO}_4$) to form esters:
 
-$$
 \mathrm{RCOOH} + \mathrm{R}'\mathrm{OH} \rightleftharpoons \mathrm{RCOOR}' + \mathrm{H}_2\mathrm{O}
-$$
 
 This is a reversible, **condensation reaction** (two molecules join with the elimination of a small
 Molecule, in this case water). The equilibrium can be shifted towards the ester by using an excess
@@ -46380,9 +45946,7 @@ of one reactant or by removing water.
 Esters are named with the alkyl group from the alcohol first, followed by the -oate from the
 carboxylic acid.
 
-$$
 \mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 \quad \mathrm{ethyl ethanoate}
-$$
 
 #### Properties
 
@@ -46395,16 +45959,12 @@ $$
 
 **Acid hydrolysis:** Reversible reaction; the ester is heated with dilute acid.
 
-$$
 \mathrm{RCOOR}' + \mathrm{H}_2\mathrm{O} \xrightarrow{\mathrm{H}^+} \mathrm{RCOOH} + \mathrm{R}'\mathrm{OH}
-$$
 
 **Alkaline hydrolysis (saponification):** Irreversible reaction; the ester is heated with aqueous
 NaOH or KOH.
 
-$$
 \mathrm{RCOOR}' + \mathrm{NaOH} \to \mathrm{RCOONa} + \mathrm{R}'\mathrm{OH}
-$$
 
 The carboxylate salt produced is the soap (if a long-chain ester is used). This is the basis of
 **soap making**:
@@ -46423,17 +45983,13 @@ Compare the products of acid hydrolysis and alkaline hydrolysis of methyl propan
 
 **Acid hydrolysis:**
 
-$$
 \mathrm{CH_3CH_2COOCH_3} + \mathrm{H_2O} \xrightarrow{\mathrm{H^+}} \mathrm{CH_3CH_2COOH} + \mathrm{CH_3OH}
-$$
 
 Products: propanoic acid and methanol. This is reversible.
 
 **Alkaline hydrolysis (saponification):**
 
-$$
 \mathrm{CH_3CH_2COOCH_3} + \mathrm{NaOH} \to \mathrm{CH_3CH_2COONa} + \mathrm{CH_3OH}
-$$
 
 Products: sodium propanoate and methanol. This is irreversible.
 
@@ -46451,27 +46007,19 @@ Both contain the carbonyl group (>C=O).
 
 **Aldehydes:** The carbonyl group is at the end of the carbon chain (bonded to at least one H).
 
-$$
 \mathrm{RCHO}
-$$
 
 Naming: -al suffix. The -al carbon is always carbon 1.
 
-$$
 \mathrm{CH}_3\mathrm{CHO} \quad \mathrm{ethanal}
-$$
 
 **Ketones:** The carbonyl group is within the carbon chain (bonded to two carbons).
 
-$$
 \mathrm{R}_2\mathrm{C=O}
-$$
 
 Naming: -one suffix. The position is indicated by a number.
 
-$$
 \mathrm{CH}_3\mathrm{COCH}_3 \quad \mathrm{propanone}
-$$
 
 #### Properties
 
@@ -46492,9 +46040,7 @@ Making it susceptible to attack by nucleophiles.
 
 **Reaction with HCN (cyanohydrin formation):**
 
-$$
 \mathrm{RCHO} + \mathrm{HCN} \to \mathrm{RCH(OH)CN}
-$$
 
 The mechanism:
 
@@ -46523,15 +46069,11 @@ to the nitrogen:
 
 Amines are weak bases. The lone pair on nitrogen can accept a proton:
 
-$$
 \mathrm{RNH}_2 + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{RNH}_3^+ + \mathrm{OH}^-
-$$
 
 Amines form salts with acids:
 
-$$
 \mathrm{CH}_3\mathrm{NH}_2 + \mathrm{HCl} \to \mathrm{CH}_3\mathrm{NH}_3^+\mathrm{Cl}^-
-$$
 
 The basicity of amines depends on the availability of the lone pair. Electron-donating groups
 Increase basicity; electron-withdrawing groups decrease it.
@@ -46561,9 +46103,7 @@ small molecule. The double bond opens to form single bonds linking monomers into
 
 **General reaction:**
 
-$$
 n\mathrm{CH}_2=\mathrm{CHX} \to \left[\mathrm{--CH}_2\mathrm{--CHX--}\right]_n
-$$
 
 <div class="table-wrap">
 
@@ -46590,23 +46130,17 @@ water or HCl). The monomers must have two functional groups each.
 
 Formed from a dicarboxylic acid and a diol.
 
-$$
 n\mathrm{HOOC}\mathrm{--R}\mathrm{--COOH} + n\mathrm{HO}\mathrm{--R}'\mathrm{--OH} \to \left[\mathrm{--OC}\mathrm{--R}\mathrm{--COO}\mathrm{--R}'\mathrm{--O--}\right]_n + 2n\mathrm{H}_2\mathrm{O}
-$$
 
 Example: Terylene (PET) from benzene-1,4-dicarboxylic acid and ethane-1,2-diol.
 
-$$
 \mathrm{HOOC}\mathrm{--C}_6\mathrm{H}_4\mathrm{--COOH} + \mathrm{HOCH}_2\mathrm{CH}_2\mathrm{OH} \to \left[\mathrm{--OC}\mathrm{--C}_6\mathrm{H}_4\mathrm{--COOCH}_2\mathrm{CH}_2\mathrm{O--}\right]_n + 2n\mathrm{H}_2\mathrm{O}
-$$
 
 **Polyamides (Nylons):**
 
 Formed from a dicarboxylic acid and a diamine.
 
-$$
 n\mathrm{HOOC}\mathrm{--R}\mathrm{--COOH} + n\mathrm{H}_2\mathrm{N}\mathrm{--R}'\mathrm{--NH}_2 \to \left[\mathrm{--OC}\mathrm{--R}\mathrm{--CONH}\mathrm{--R}'\mathrm{--NH--}\right]_n + 2n\mathrm{H}_2\mathrm{O}
-$$
 
 Example: Nylon-6,6 from hexanedioic acid and hexane-1,6-diamine.
 
@@ -46621,9 +46155,7 @@ What small molecule is eliminated?
 
 (a)
 
-$$
 n\mathrm{HOOC(CH_2)_4COOH} + n\mathrm{H_2N(CH_2)_6NH_2} \to \left[\mathrm{--OC(CH_2)_4CONH(CH_2)_6NH--}\right]_n + 2n\mathrm{H_2O}
-$$
 
 (b) Water ($\mathrm{H_2O}$) is eliminated at each amide bond formed. For each repeating unit, one
 molecule of water is eliminated (from the -COOH of the acid and one -NH$_2$ of the diamine).
@@ -46703,17 +46235,11 @@ Management.
 
 The oxidation pathway depends on the class of alcohol:
 
-$$
 \mathrm{Primary alcohol} \xrightarrow{[\mathrm{O}]} \mathrm{Aldehyde} \xrightarrow{[\mathrm{O}]} \mathrm{Carboxylic acid} \xrightarrow{[\mathrm{O}]} \mathrm{CO}_2 + \mathrm{H}_2\mathrm{O}
-$$
 
-$$
 \mathrm{Secondary alcohol} \xrightarrow{[\mathrm{O}]} \mathrm{Ketone} \quad \mathrm{(no further oxidation)}
-$$
 
-$$
 \mathrm{Tertiary alcohol} \quad \mathrm{(no oxidation with common reagents)}
-$$
 
 **Oxidising agents used:**
 
@@ -46846,9 +46372,7 @@ Calculate the volume of $\mathrm{CO}_2$ produced (at r.t.p.) when $5.8 \mathrm{ 
 
 **Solution:**
 
-$$
 \mathrm{C}_2\mathrm{H}_5\mathrm{OH} + 3\mathrm{O}_2 \to 2\mathrm{CO}_2 + 3\mathrm{H}_2\mathrm{O}
-$$
 
 Molar mass of $\mathrm{C}_2\mathrm{H}_5\mathrm{OH} = 2(12) + 6(1) + 16 = 46 \mathrm{ g/mol}$
 
@@ -46909,9 +46433,7 @@ Propene: $\mathrm{CH}_2=\mathrm{CHCH}_3$
 
 The double bond opens during addition polymerisation:
 
-$$
 n\mathrm{CH}_2=\mathrm{CHCH}_3 \to \left[\mathrm{--CH}_2\mathrm{--CH}(\mathrm{CH}_3)--\right]_n
-$$
 
 Repeating unit: $--\mathrm{CH}_2\mathrm{--CH}(\mathrm{CH}_3)--$
 
@@ -46925,9 +46447,7 @@ $6.5 \mathrm{ g}$ of ethyl ethanoate.
 
 **Solution:**
 
-$$
 \mathrm{CH}_3\mathrm{COOH} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \rightleftharpoons \mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}
-$$
 
 Molar mass of $\mathrm{CH}_3\mathrm{COOH} = 60 \mathrm{ g/mol}$
 
@@ -46939,9 +46459,7 @@ Molar mass of $\mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 = 88 \mathrm{ g/mol}$
 
 Theoretical mass of ester $= 0.10 \times 88 = 8.8 \mathrm{ g}$
 
-$$
 \mathrm{Percentage yield} = \frac{6.5}{8.8} \times 100\% = 73.9\%
-$$
 
 ### Worked Example 8
 
@@ -46950,17 +46468,13 @@ $\mathrm{H}_2\mathrm{SO}_4$ in the reaction.
 
 **Solution:**
 
-$$
 \mathrm{C}_6\mathrm{H}_6 + \mathrm{HNO}_3 \xrightarrow{\mathrm{conc. } \mathrm{H}_2\mathrm{SO}_4, 50\mathrm{--}60^\circ\mathrm{C}} \mathrm{C}_6\mathrm{H}_5\mathrm{NO}_2 + \mathrm{H}_2\mathrm{O}
-$$
 
 Concentrated $\mathrm{H}_2\mathrm{SO}_4$ acts as a catalyst and as a dehydrating agent. It
 protonates $\mathrm{HNO}_3$ to generate the nitronium ion ($\mathrm{NO}_2^+$), which is the
 electrophile that attacks the benzene ring:
 
-$$
 \mathrm{HNO}_3 + \mathrm{H}_2\mathrm{SO}_4 \to \mathrm{NO}_2^+ + \mathrm{HSO}_4^- + \mathrm{H}_2\mathrm{O}
-$$
 
 ### Worked Example 9
 
@@ -47014,17 +46528,13 @@ $2.0 \mathrm{ dm^3}$ of butane gas ($\mathrm{C_4H_{10}}$).
 <details>
 <summary>Solution</summary>
 
-$$
 2\mathrm{C_4H_{10}} + 13\mathrm{O_2} \to 8\mathrm{CO_2} + 10\mathrm{H_2O}
-$$
 
 From the equation: 2 moles of butane react with 13 moles of $\mathrm{O_2}$.
 
 Since volumes of gases at the same temperature and pressure are proportional to moles:
 
-$$
 V(\mathrm{O_2}) = \frac{13}{2} \times V(\mathrm{C_4H_{10}}) = \frac{13}{2} \times 2.0 = 13.0 \mathrm{ dm^3}
-$$
 
 </details>
 
@@ -47043,15 +46553,11 @@ The electron-rich double bond polarises $\mathrm{HBr}$.
 The H adds to C-1 (the less substituted carbon, following Markovnikov's rule), and a secondary
 carbocation intermediate forms at C-2:
 
-$$
 \mathrm{CH_2}=\mathrm{CHCH_3} + \mathrm{HBr} \to \mathrm{CH_3}-\mathrm{C^+HCH_3} + \mathrm{Br^-}
-$$
 
 **Step 3:** The bromide ion attacks the carbocation:
 
-$$
 \mathrm{CH_3}-\mathrm{C^+HCH_3} + \mathrm{Br^-} \to \mathrm{CH_3CHBrCH_3}
-$$
 
 The major product is 2-bromopropane because the secondary carbocation intermediate is more stable
 than the primary carbocation that would form if H added to C-2.
@@ -47089,9 +46595,7 @@ why the ester is immiscible with water.
 (propanoate): **ethyl propanoate**.
 
 (b)
-$$
 \mathrm{CH_3CH_2COOH} + \mathrm{CH_3CH_2OH} \rightleftharpoons \mathrm{CH_3CH_2COOCH_2CH_3} + \mathrm{H_2O}
-$$
 
 Conditions: concentrated $\mathrm{H_2SO_4}$ catalyst, heat under reflux.
 
@@ -47174,16 +46678,12 @@ Step 2: The $\pi$ bond breaks and a new $\sigma$ bond forms between one carbon a
 Bromine atom. The $\mathrm{Br}$-$\mathrm{Br}$ bond breaks heterolytically, producing a bromide ion
 ($\mathrm{Br}^-$). A **carbocation intermediate** is formed:
 
-$$
 \mathrm{CH}_2=\mathrm{CH}_2 + \mathrm{Br}_2 \to \mathrm{CH}_2\mathrm{Br}-\mathrm{CH}_2^+ + \mathrm{Br}^-
-$$
 
 Step 3: The bromide ion attacks the carbocation from the opposite side, forming the product
 1,2-dibromoethane:
 
-$$
 \mathrm{CH}_2\mathrm{Br}-\mathrm{CH}_2^+ + \mathrm{Br}^- \to \mathrm{CH}_2\mathrm{BrCH}_2\mathrm{Br}
-$$
 
 **Question 4:** Explain why benzene undergoes substitution reactions rather than addition reactions
 With bromine, despite having a high electron density.
@@ -47217,9 +46717,7 @@ $\mathrm{Y}$ = ethyl ethanoate: $\mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3$
 
 Formation equation:
 
-$$
 \mathrm{CH}_3\mathrm{COOH} + \mathrm{CH}_3\mathrm{CH}_2\mathrm{OH} \rightleftharpoons \mathrm{CH}_3\mathrm{COOCH}_2\mathrm{CH}_3 + \mathrm{H}_2\mathrm{O}
-$$
 
 Conditions: concentrated $\mathrm{H}_2\mathrm{SO}_4$ catalyst, heat under reflux.
 
@@ -47254,9 +46752,7 @@ Hexane-1,6-diamine: $\mathrm{H}_2\mathrm{N}(\mathrm{CH}_2)_6\mathrm{NH}_2$
 
 Repeating unit of Nylon-6,6:
 
-$$
 \left[\mathrm{--OC}(\mathrm{CH}_2)_4\mathrm{CONH}(\mathrm{CH}_2)_6\mathrm{NH--}\right]_n
-$$
 
 The condensation polymerisation eliminates water molecules at each amide bond formed.
 
@@ -47479,9 +46975,7 @@ pressure.
 
 Type: **hydration** (addition reaction).
 
-$$
 \mathrm{CH_3CH=CH_2} + \mathrm{H_2O} \xrightarrow{\mathrm{H_3PO_4}} \mathrm{CH_3CH_2CH_2OH}
-$$
 
 Note: The major product follows Markovnikov's rule, giving propan-2-ol. To obtain propan-1-ol
 specifically, an indirect route via hydroboration-oxidation would be needed (beyond DSE scope).
@@ -47517,9 +47011,7 @@ _If you get this wrong, revise: Electrophilic Aromatic Substitution (Section 2.4
 Conditions: concentrated $\mathrm{HNO_3}$ with concentrated $\mathrm{H_2SO_4}$ (catalyst) at
 $50$--$60^\circ\mathrm{C}$.
 
-$$
 \mathrm{C_6H_5CH_3} + \mathrm{HNO_3} \xrightarrow{\mathrm{conc.\ H_2SO_4}} \mathrm{C_6H_4(CH_3)(NO_2)} + \mathrm{H_2O}
-$$
 
 The product is a mixture of 2-nitrotoluene (minor) and 4-nitrotoluene (major), because the
 $-\mathrm{CH_3}$ group directs substitution to the ortho and para positions.
@@ -47555,7 +47047,6 @@ _If you get this wrong, revise: Esterification (Section 3.2)_
 (a) **Methyl ethanoate**
 
 (b) $$\mathrm{CH_3COOH} + \mathrm{CH_3OH} \rightleftharpoons \mathrm{CH_3COOCH_3} + \mathrm{H_2O}
-$$
 
 (c) Concentrated $\mathrm{H_2SO_4}$ acts as a **catalyst** and as a **dehydrating agent**, removing
 water and shifting the equilibrium towards the ester product.
@@ -47570,9 +47061,7 @@ _If you get this wrong, revise: Addition Polymerisation (Section 4.1)_
 <details>
 <summary>Solution</summary>
 
-$$
 n\mathrm{CH_2=CHCl} \to \left[\mathrm{--CH_2--CHCl--}\right]_n
-$$
 
 Repeating unit: $--\mathrm{CH_2--CHCl}--$
 
@@ -47614,9 +47103,7 @@ Reagent: acidified $\mathrm{K_2Cr_2O_7}$
 
 Conditions: heat, distil the product out as it forms (to prevent further oxidation)
 
-$$
 \mathrm{CH_3CH_2OH} \xrightarrow{[\mathrm{O}],\ \mathrm{distil}} \mathrm{CH_3CHO}
-$$
 
 **Step 2:** Ethanal to ethanoic acid (strong oxidation)
 
@@ -47624,9 +47111,7 @@ Reagent: acidified $\mathrm{K_2Cr_2O_7}$
 
 Conditions: heat under reflux (ensures complete oxidation)
 
-$$
 \mathrm{CH_3CHO} \xrightarrow{[\mathrm{O}],\ \mathrm{reflux}} \mathrm{CH_3COOH}
-$$
 
 Alternatively, a single step of oxidation under reflux converts ethanol directly to ethanoic acid.
 
@@ -47641,25 +47126,16 @@ _If you get this wrong, revise: Combustion and Stoichiometry (Section 2.1)_
 <details>
 <summary>Solution</summary>
 
-$$
 \mathrm{CaCO_3} + 2\mathrm{HCl} \to \mathrm{CaCl_2} + \mathrm{H_2O} + \mathrm{CO_2}
-$$
 
-$$
 n(\mathrm{CO_2}) = \frac{1.15}{24.0} = 0.0479 \mathrm{ mol}
 $$
 
-$$
 n(\mathrm{CaCO_3}) = 0.0479 \mathrm{ mol}
-$$
 
-$$
 m(\mathrm{pure\ CaCO_3}) = 0.0479 \times 100 = 4.79 \mathrm{ g}
-$$
 
-$$
 \mathrm{Percentage\ purity} = \frac{4.79}{6.0} \times 100\% = 79.8\%
-$$
 
 </details>
 
@@ -47673,15 +47149,11 @@ _If you get this wrong, revise: Chemical Properties of Alkanes (Section 2.1)_
 
 Complete combustion (excess $\mathrm{O_2}$):
 
-$$
 \mathrm{CH_4} + 2\mathrm{O_2} \to \mathrm{CO_2} + 2\mathrm{H_2O}
-$$
 
 Incomplete combustion (limited $\mathrm{O_2}$):
 
-$$
 2\mathrm{CH_4} + 3\mathrm{O_2} \to 2\mathrm{CO} + 4\mathrm{H_2O}
-$$
 
 With even less oxygen, carbon (soot) may also be produced:
 $\mathrm{CH_4} + \mathrm{O_2} \to \mathrm{C} + 2\mathrm{H_2O}$
@@ -47735,9 +47207,7 @@ Type: **condensation polymerisation** (water is eliminated).
 
 Repeating unit:
 
-$$
 \left[\mathrm{--OC\mathrm{-}C_6H_4\mathrm{-}COOCH_2CH_2O--}\right]_n
-$$
 
 The benzene-1,4-dicarboxylic acid provides the $-\mathrm{COO-}$ linkage and the ethane-1,2-diol
 provides the $-\mathrm{OCH_2CH_2O-}$ linkage.
@@ -47760,9 +47230,7 @@ $\mathrm{P}$ = **ethyl propanoate**: $\mathrm{CH_3CH_2COOCH_2CH_3}$
 
 (b) Formation (esterification):
 
-$$
 \mathrm{CH_3CH_2COOH} + \mathrm{CH_3CH_2OH} \rightleftharpoons \mathrm{CH_3CH_2COOCH_2CH_3} + \mathrm{H_2O}
-$$
 
 Conditions: concentrated $\mathrm{H_2SO_4}$ catalyst, heat under reflux.
 
@@ -47795,9 +47263,7 @@ _If you get this wrong, revise: Cracking of Hydrocarbons (Section 2.1)_
 <details>
 <summary>Solution</summary>
 
-$$
 \mathrm{C_{14}H_{30}} \to \mathrm{C_2H_4} + \mathrm{C_{12}H_{26}}
-$$
 
 Type: **thermal cracking** (produces a mixture of alkanes and alkenes).
 
@@ -47839,19 +47305,13 @@ _If you get this wrong, revise: Esterification (Section 3.2)_
 <details>
 <summary>Solution</summary>
 
-$$
 n(\mathrm{propanoic\ acid}) = \frac{5.0}{74.0} = 0.0676 \mathrm{ mol}
-$$
 
 Theoretical moles of ester $= 0.0676 \mathrm{ mol}$ (1:1 ratio)
 
-$$
 \mathrm{Theoretical\ mass} = 0.0676 \times 102 = 6.90 \mathrm{ g}
-$$
 
-$$
 \mathrm{Percentage\ yield} = \frac{4.8}{6.90} \times 100\% = 69.6\%
-$$
 
 </details>
 
@@ -48024,9 +47484,7 @@ A useful mnemonic for remembering the definitions:
 
 Identify the species oxidised, reduced, oxidising agent, and reducing agent in:
 
-$$
 \mathrm{Zn} + \mathrm{Cu^{2+}} \to \mathrm{Zn^{2+}} + \mathrm{Cu}
-$$
 
 - $\mathrm{Zn} \to \mathrm{Zn^{2+}} + 2e^-$ (oxidation; $\mathrm{Zn}$ is the reducing agent)
 - $\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}$ (reduction; $\mathrm{Cu^{2+}}$ is the oxidising agent)
@@ -48058,21 +47516,14 @@ Oxidation numbers are assigned to atoms using the following rules:
 
 Determine the oxidation numbers of all elements in $\mathrm{KMnO_4}$.
 
-$$
 \mathrm{K}: +1, \quad \mathrm{O}: -2, \quad \mathrm{Mn}: x
-$$
 
 $$
 +1 + x + 4(-2) = 0
-$$
 
-$$
 x + 1 - 8 = 0
-$$
 
-$$
 x = +7
-$$
 
 The oxidation number of manganese in $\mathrm{KMnO_4}$ is $+7$.
 
@@ -48080,21 +47531,13 @@ The oxidation number of manganese in $\mathrm{KMnO_4}$ is $+7$.
 
 Determine the oxidation numbers in $\mathrm{Cr_2O_7^{2-}}$.
 
-$$
 2x + 7(-2) = -2
-$$
 
-$$
 2x - 14 = -2
-$$
 
-$$
 2x = 12
-$$
 
-$$
 x = +6
-$$
 
 The oxidation number of chromium in $\mathrm{Cr_2O_7^{2-}}$ is $+6$.
 
@@ -48127,27 +47570,19 @@ Balance the reaction between $\mathrm{MnO_4^-}$ and $\mathrm{Fe^{2+}}$ in acidic
 
 Reduction half-equation:
 
-$$
 \mathrm{MnO_4^-} + 8\mathrm{H^+} + 5e^- \to \mathrm{Mn^{2+}} + 4\mathrm{H_2O}
-$$
 
 Oxidation half-equation:
 
-$$
 \mathrm{Fe^{2+}} \to \mathrm{Fe^{3+}} + e^-
-$$
 
 Multiply the oxidation half-equation by 5:
 
-$$
 5\mathrm{Fe^{2+}} \to 5\mathrm{Fe^{3+}} + 5e^-
-$$
 
 Add both half-equations:
 
-$$
 \mathrm{MnO_4^-} + 8\mathrm{H^+} + 5\mathrm{Fe^{2+}} \to \mathrm{Mn^{2+}} + 4\mathrm{H_2O} + 5\mathrm{Fe^{3+}}
-$$
 
 ---
 
@@ -48169,19 +47604,13 @@ compound.
 
 The reactivity series ranks metals in order of their tendency to lose electrons:
 
-$$
 \mathrm{K} \gt \mathrm{Na} \gt \mathrm{Ca} \gt \mathrm{Mg} \gt \mathrm{Al} \gt \mathrm{Zn} \gt \mathrm{Fe} \gt \mathrm{Sn} \gt \mathrm{Pb} \gt (\mathrm{H}) \gt \mathrm{Cu} \gt \mathrm{Ag} \gt \mathrm{Au}
-$$
 
 ### Examples
 
-$$
 \mathrm{Zn} + \mathrm{CuSO_4} \to \mathrm{ZnSO_4} + \mathrm{Cu}
-$$
 
-$$
 \mathrm{Fe} + \mathrm{CuSO_4} \to \mathrm{FeSO_4} + \mathrm{Cu}
-$$
 
 Copper cannot displace iron or zinc because copper is less reactive.
 
@@ -48191,9 +47620,7 @@ Will magnesium displace copper from copper(II) sulphate solution? Write the equa
 
 Yes, because magnesium is above copper in the reactivity series.
 
-$$
 \mathrm{Mg} + \mathrm{CuSO_4} \to \mathrm{MgSO_4} + \mathrm{Cu}
-$$
 
 Magnesium is oxidised ($\mathrm{Mg} \to \mathrm{Mg^{2+}} + 2e^-$) and copper(II) ions are reduced
 ($\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}$).
@@ -48232,9 +47659,7 @@ $\mathrm{Cu}$) are extracted by **reduction with carbon** in a blast furnace.
 
 **Example: Extraction of iron from $\mathrm{Fe_2O_3}$**
 
-$$
 \mathrm{Fe_2O_3} + 3\mathrm{CO} \to 2\mathrm{Fe} + 3\mathrm{CO_2}
-$$
 
 Carbon monoxide (from the partial combustion of coke) is the reducing agent.
 
@@ -48319,9 +47744,7 @@ external wire.
 The cell potential (voltage) is determined by the difference between the standard electrode
 Potentials of the two half-cells:
 
-$$
 E^\circ_{\mathrm{cell}} = E^\circ_{\mathrm{cathode}} - E^\circ_{\mathrm{anode}}
-$$
 
 A positive $E^\circ_{\mathrm{cell}}$ indicates that the reaction is spontaneous.
 
@@ -48374,19 +47797,14 @@ discharged. The product at each electrode depends on the relative reactivity of 
 
 - If the metal is more reactive than hydrogen ($\mathrm{K}$$\mathrm{Na}$$\mathrm{Ca}$
   $\mathrm{Mg}$$\mathrm{Al}$$\mathrm{Zn}$): hydrogen gas is produced.
-  $$
   2\mathrm{H_2O} + 2e^- \to \mathrm{H_2} + 2\mathrm{OH^-}
-  $$
 - If the metal is less reactive than hydrogen ($\mathrm{Cu}$$\mathrm{Ag}$$\mathrm{Au}$): the metal
   is produced. $$\mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
-$$
 
 **At the anode (oxidation):**
 
 - If the anion is a halide ($\mathrm{Cl^-}$$\mathrm{Br^-}$$\mathrm{I^-}$): the halogen is produced.
-  $$
   2\mathrm{Cl^-} \to \mathrm{Cl_2} + 2e^-
-  $$
 - If the anion is anything else ($\mathrm{SO_4^{2-}}$, $\mathrm{NO_3^-}$): oxygen gas is produced.
   $$4\mathrm{OH^-} \to \mathrm{O_2} + 2\mathrm{H_2O} + 4e^-$$ (or equivalently:
   $2\mathrm{H_2O} \to \mathrm{O_2} + 4\mathrm{H^+} + 4e^-$)
@@ -48396,25 +47814,17 @@ $$
 Predict the products of the electrolysis of aqueous copper(II) sulphate with inert electrodes.
 
 - Cathode: Copper is less reactive than hydrogen, so copper is deposited.
-  $$
   \mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
-  $$
 - Anode: $\mathrm{SO_4^{2-}}$ is not a halide, so oxygen is produced.
-  $$
   4\mathrm{OH^-} \to \mathrm{O_2} + 2\mathrm{H_2O} + 4e^-
-  $$
 
 ### Quantitative Electrolysis
 
 The amount of substance produced or consumed during electrolysis is related to the charge passed:
 
-$$
 Q = It
-$$
 
-$$
 n = \frac{Q}{F} = \frac{It}{F}
-$$
 
 Where:
 
@@ -48426,9 +47836,7 @@ Where:
 
 The mass of substance produced:
 
-$$
 m = \frac{It \times M}{z \times F}
-$$
 
 Where $z$ is the number of electrons transferred per ion and $M$ is the molar mass.
 
@@ -48437,21 +47845,13 @@ Where $z$ is the number of electrons transferred per ion and $M$ is the molar ma
 Calculate the mass of copper deposited when a current of $2.50 \mathrm{ A}$ is passed through
 copper(II) sulphate solution for $30.0 \mathrm{ minutes}$.
 
-$$
 \mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu} \quad (z = 2)
-$$
 
-$$
 Q = It = 2.50 \times 30.0 \times 60 = 4500 \mathrm{ C}
-$$
 
-$$
 n(\mathrm{Cu}) = \frac{Q}{zF} = \frac{4500}{2 \times 96500} = 0.02332 \mathrm{ mol}
-$$
 
-$$
 m = n \times M = 0.02332 \times 63.5 = 1.48 \mathrm{ g}
-$$
 
 ---
 
@@ -48569,17 +47969,11 @@ Determine the oxidation number of nitrogen in the ammonium ion, $\mathrm{NH_4^+}
 <details>
 <summary>Solution</summary>
 
-$$
 x + 4(+1) = +1
-$$
 
-$$
 x + 4 = +1
-$$
 
-$$
 x = -3
-$$
 
 The oxidation number of nitrogen in $\mathrm{NH_4^+}$ is $-3$.
 
@@ -48597,9 +47991,7 @@ whether the reaction is spontaneous.
 
 Iron has the more positive $E^\circ$ So it undergoes reduction (cathode).
 
-$$
 E^\circ_{\mathrm{cell}} = -0.44 - (-2.37) = 1.93 \mathrm{ V}
-$$
 
 Cathode (reduction): $\mathrm{Fe}^{2+} + 2e^- \to \mathrm{Fe}$
 
@@ -48621,16 +48013,12 @@ Predict the products when aqueous $\mathrm{CuSO_4}$ is electrolysed using **copp
 
 At the cathode: Copper is less reactive than hydrogen, so copper is deposited.
 
-$$
 \mathrm{Cu}^{2+} + 2e^- \to \mathrm{Cu}
-$$
 
 At the anode: Since the anode is made of copper (not inert), the copper anode itself dissolves
 rather than $\mathrm{SO_4^{2-}}$ or $\mathrm{OH^-}$ being discharged.
 
-$$
 \mathrm{Cu} \to \mathrm{Cu}^{2+} + 2e^-
-$$
 
 The concentration of $\mathrm{CuSO_4}$ remains constant because copper dissolves from the anode at
 the same rate it deposits at the cathode. This is the principle of **electrolytic refining** of
@@ -48654,17 +48042,11 @@ copper.
 
 **Question 1:** Determine the oxidation number of sulfur in $\mathrm{H_2SO_4}$.
 
-$$
 2(+1) + x + 4(-2) = 0
-$$
 
-$$
 2 + x - 8 = 0
-$$
 
-$$
 x = +6
-$$
 
 **Question 2:** Balance the following redox equation:
 
@@ -48677,9 +48059,7 @@ Oxidation: $\mathrm{SO_3^{2-}} + \mathrm{H_2O} \to \mathrm{SO_4^{2-}} + 2\mathrm
 
 Multiply reduction by 2 and oxidation by 5:
 
-$$
 2\mathrm{MnO_4^-} + 16\mathrm{H^+} + 5\mathrm{SO_3^{2-}} + 5\mathrm{H_2O} \to 2\mathrm{Mn^{2+}} + 8\mathrm{H_2O} + 5\mathrm{SO_4^{2-}} + 10\mathrm{H^+}
-$$
 
 Simplify:
 $2\mathrm{MnO_4^-} + 6\mathrm{H^+} + 5\mathrm{SO_3^{2-}} \to 2\mathrm{Mn^{2+}} + 3\mathrm{H_2O} + 5\mathrm{SO_4^{2-}}$
@@ -48703,21 +48083,13 @@ $\mathrm{Cl_2}$ is produced: $2\mathrm{Cl^-} \to \mathrm{Cl_2} + 2e^-$
 **Question 5:** A current of $0.500 \mathrm{ A}$ is passed through molten lead(II) bromide for
 $965 \mathrm{ s}$. Calculate the mass of lead produced.
 
-$$
 \mathrm{Pb^{2+}} + 2e^- \to \mathrm{Pb} \quad (z = 2)
-$$
 
-$$
 Q = 0.500 \times 965 = 482.5 \mathrm{ C}
-$$
 
-$$
 n(\mathrm{Pb}) = \frac{482.5}{2 \times 96500} = 2.50 \times 10^{-3} \mathrm{ mol}
-$$
 
-$$
 m = 2.50 \times 10^{-3} \times 207 = 0.518 \mathrm{ g}
-$$
 
 **Question 6:** Explain why a block of magnesium attached to an underground iron pipeline prevents
 The pipeline from rusting.
@@ -48775,9 +48147,7 @@ $\mathrm{Fe_2O_3}$ is the oxidising agent.
 
 **Problem 3:** Balance the following redox equation in acidic solution:
 
-$$
 \mathrm{Cr_2O_7^{2-}} + \mathrm{I^-} \to \mathrm{Cr^{3+}} + \mathrm{I_2}
-$$
 
 _If you get this wrong, revise: Balancing Redox Equations_
 
@@ -48805,15 +48175,11 @@ _If you get this wrong, revise: Electrolysis of Aqueous Solutions_
 
 Cathode: $\mathrm{Cu}$ is below $\mathrm{H}$ in the reactivity series, so copper is deposited.
 
-$$
 \mathrm{Cu^{2+}} + 2e^- \to \mathrm{Cu}
-$$
 
 Anode: $\mathrm{SO_4^{2-}}$ is not a halide, so oxygen is produced.
 
-$$
 4\mathrm{OH^-} \to \mathrm{O_2} + 2\mathrm{H_2O} + 4e^-
-$$
 
 </details>
 
@@ -48825,21 +48191,13 @@ _If you get this wrong, revise: Quantitative Electrolysis_
 <details>
 <summary>Solution</summary>
 
-$$
 \mathrm{Pb^{2+}} + 2e^- \to \mathrm{Pb} \quad (z = 2)
-$$
 
-$$
 Q = 0.500 \times 965 = 482.5 \mathrm{ C}
-$$
 
-$$
 n(\mathrm{Pb}) = \frac{Q}{zF} = \frac{482.5}{2 \times 96500} = 2.50 \times 10^{-3} \mathrm{ mol}
-$$
 
-$$
 m = 2.50 \times 10^{-3} \times 207 = 0.518 \mathrm{ g}
-$$
 
 </details>
 
@@ -48854,9 +48212,7 @@ _If you get this wrong, revise: Cell Voltage_
 
 Silver has the more positive $E^\circ$ (cathode, reduction):
 
-$$
 E^\circ_{\mathrm{cell}} = 0.80 - (-0.76) = 1.56 \mathrm{ V}
-$$
 
 Cathode: $2\mathrm{Ag^+} + 2e^- \to 2\mathrm{Ag}$
 
@@ -48902,19 +48258,13 @@ _If you get this wrong, revise: Quantitative Electrolysis_
 <details>
 <summary>Solution</summary>
 
-$$
 Q = 3.00 \times 10.0 \times 60 = 1800 \mathrm{ C}
-$$
 
 Cathode: $2\mathrm{H^+} + 2e^- \to \mathrm{H_2} \quad (z = 2)$
 
-$$
 n(\mathrm{H_2}) = \frac{Q}{zF} = \frac{1800}{2 \times 96500} = 9.33 \times 10^{-3} \mathrm{ mol}
-$$
 
-$$
 V = 9.33 \times 10^{-3} \times 24.0 = 0.224 \mathrm{ dm^3} = 224 \mathrm{ cm^3}
-$$
 
 </details>
 
@@ -48975,9 +48325,7 @@ $\blacksquare$
 
 </div>
 
-$$
 
-$$
 | [Redox Reactions]  | DSE     | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
 
 ## See Also
@@ -104532,11 +103880,9 @@ The distance between two points $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ is derived f
 [Pythagorean identity](https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry/#pythagorean-identity) applied to the right triangle formed By
 the horizontal and vertical differences:
 
-$$
 \begin{aligned}
  d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 \end{aligned}
-$$
 
 <details>
 <summary>Examples</summary>
@@ -104548,11 +103894,9 @@ $$
 
 The midpoint $M$ of the line segment joining $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ is:
 
-$$
 \begin{aligned}
  M = \left( \frac{x_1 + x_2}{2},\; \frac{y_1 + y_2}{2} \right)
 \end{aligned}
-$$
 
 The midpoint is the average of the respective coordinates of the two endpoints.
 
@@ -104566,11 +103910,9 @@ The midpoint is the average of the respective coordinates of the two endpoints.
 The gradient $m$ of the line passing through $P_1(x_1, y_1)$ and $P_2(x_2, y_2)$ Where
 $x_1 \neq x_2$ Measures the rate of change of $y$ with respect to $x$:
 
-$$
 \begin{aligned}
  m = \frac{y_2 - y_1}{x_2 - x_1} = \tan\theta
 \end{aligned}
-$$
 
 Where $\theta$ is the angle the line makes with the positive $x$-axis. A vertical line (where
 $x_1 = x_2$) has an undefined gradient. Key gradient values include:
@@ -104596,11 +103938,9 @@ $x_1 = x_2$) has an undefined gradient. Key gradient values include:
 If point $P(x, y)$ divides the line segment joining $A(x_1, y_1)$ and $B(x_2, y_2)$ in the ratio
 $m : n$ (internally), then:
 
-$$
 \begin{aligned}
  x = \frac{mx_2 + nx_1}{m + n}, \qquad y = \frac{my_2 + ny_1}{m + n}
 \end{aligned}
-$$
 
 The midpoint formula is the special case where $m = n = 1$.
 
@@ -104610,11 +103950,9 @@ A straight line in the Cartesian plane can be expressed in several equivalent fo
 
 ### Slope-Intercept Form
 
-$$
 \begin{aligned}
  y = mx + c
 \end{aligned}
-$$
 
 Where $m$ is the gradient and $c$ is the $y$-intercept. This form is most useful when the gradient
 and $y$-intercept are known or can be determined.
@@ -104623,11 +103961,9 @@ and $y$-intercept are known or can be determined.
 
 Given a point $(x_1, y_1)$ on the line and the gradient $m$:
 
-$$
 \begin{aligned}
  y - y_1 = m(x - x_1)
 \end{aligned}
-$$
 
 This is the most versatile form for deriving the equation of a line from partial information.
 
@@ -104635,31 +103971,25 @@ This is the most versatile form for deriving the equation of a line from partial
 
 Given two distinct points $(x_1, y_1)$ and $(x_2, y_2)$ on the line:
 
-$$
 \begin{aligned}
  \frac{y - y_1}{x - x_1} = \frac{y_2 - y_1}{x_2 - x_1}
 \end{aligned}
-$$
 
 ### Intercept Form
 
 If the line has $x$-intercept $a$ and $y$-intercept $b$ (both non-zero):
 
-$$
 \begin{aligned}
  \frac{x}{a} + \frac{y}{b} = 1
 \end{aligned}
-$$
 
 ### General Form
 
 Every straight line can be written in the general form:
 
-$$
 \begin{aligned}
  Ax + By + C = 0
 \end{aligned}
-$$
 
 Where $A$$B$$C$ are constants and $A$ and $B$ are not both zero. The gradient is $m = -\frac{A}{B}$
 and the $y$-intercept is $c = -\frac{C}{B}$ (when $B \neq 0$).
@@ -104677,20 +104007,16 @@ and the $y$-intercept is $c = -\frac{C}{B}$ (when $B \neq 0$).
 Two non-vertical lines with gradients $m_1$ and $m_2$ are parallel if and only if their gradients
 are equal:
 
-$$
 \begin{aligned}
  m_1 = m_2
 \end{aligned}
-$$
 
 In the general form $Ax + By + C = 0$ Two lines $A_1x + B_1y + C_1 = 0$ and $A_2x + B_2y + C_2 = 0$
 are parallel if and only if:
 
-$$
 \begin{aligned}
  \frac{A_1}{A_2} = \frac{B_1}{B_2} \neq \frac{C_1}{C_2}
 \end{aligned}
-$$
 
 If all three ratios are equal, the lines are coincident (the same line).
 
@@ -104699,19 +104025,15 @@ If all three ratios are equal, the lines are coincident (the same line).
 Two non-vertical lines with gradients $m_1$ and $m_2$ are perpendicular if and only if the product
 of their gradients equals $-1$:
 
-$$
 \begin{aligned}
  m_1 \cdot m_2 = -1
 \end{aligned}
-$$
 
 In the general form, two lines are perpendicular if and only if:
 
-$$
 \begin{aligned}
  A_1 A_2 + B_1 B_2 = 0
 \end{aligned}
-$$
 
 <details>
 <summary>Examples</summary>
@@ -104735,35 +104057,27 @@ the intersection satisfy both equations.
 
 A circle with centre $C(a, b)$ and radius $r$ has equation:
 
-$$
 \begin{aligned}
  (x - a)^2 + (y - b)^2 = r^2
 \end{aligned}
-$$
 
 Expanding this yields the general form:
 
-$$
 \begin{aligned}
  x^2 + y^2 - 2ax - 2by + (a^2 + b^2 - r^2) = 0
 \end{aligned}
-$$
 
 ### General Form of the Equation of a Circle
 
-$$
 \begin{aligned}
  x^2 + y^2 + Dx + Ey + F = 0
 \end{aligned}
-$$
 
 Where the centre is $\left(-\frac{D}{2}, -\frac{E}{2}\right)$ and the radius is:
 
-$$
 \begin{aligned}
  r = \sqrt{\left(\frac{D}{2}\right)^2 + \left(\frac{E}{2}\right)^2 - F}
 \end{aligned}
-$$
 
 For a real circle to exist, we require
 $\left(\frac{D}{2}\right)^2 + \left(\frac{E}{2}\right)^2 - F > 0$.
@@ -104804,11 +104118,9 @@ in $x$ (or $y$). The discriminant $\Delta = b^2 - 4ac$ determines the nature of 
 A tangent to a circle at a point $P(x_1, y_1)$ on the circle $(x-a)^2 + (y-b)^2 = r^2$ is
 perpendicular to the radius at $P$. The gradient of the radius $CP$ (where $C$ is the centre) is:
 
-$$
 \begin{aligned}
  m_{\mathrm{radius}} = \frac{y_1 - b}{x_1 - a}
 \end{aligned}
-$$
 
 Therefore the gradient of the tangent is:
 
@@ -104821,19 +104133,15 @@ $$
 The equation of the tangent at $P(x_1, y_1)$ on the circle $x^2 + y^2 + Dx + Ey + F = 0$ can be
 obtained by replacing:
 
-$$
 \begin{aligned}
  x^2 \to xx_1, \quad y^2 \to yy_1, \quad x \to \frac{x + x_1}{2}, \quad y \to \frac{y + y_1}{2}
 \end{aligned}
-$$
 
 This gives:
 
-$$
 \begin{aligned}
  xx_1 + yy_1 + \frac{D(x + x_1)}{2} + \frac{E(y + y_1)}{2} + F = 0
 \end{aligned}
-$$
 
 </details>
 <summary>Examples</summary>
@@ -104846,28 +104154,22 @@ $$
 
 For a triangle with base $b$ and height $h$:
 
-$$
 \begin{aligned}
  \mathrm{Area} &= \frac{1}{2}bh
 \end{aligned}
-$$
 
 Using the [Heron's formula](https://highers.wyattau.com/maths/2-trigonometry/2_trigonometry/)) for a triangle with side lengths $a$$b$$c$ and
 Semi-perimeter $s = \frac{a+b+c}{2}$:
 
-$$
 \begin{aligned}
  \mathrm{Area} = \sqrt{s(s-a)(s-b)(s-c)}
 \end{aligned}
-$$
 
 The area of a triangle with vertices $(x_1, y_1)$$(x_2, y_2)$$(x_3, y_3)$ is given by:
 
-$$
 \begin{aligned}
  \mathrm{Area} = \frac{1}{2}\left| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) \right|
 \end{aligned}
-$$
 
 ### Quadrilaterals
 
@@ -104885,12 +104187,10 @@ $$
 
 ### Circles
 
-$$
 \begin{aligned}
  \mathrm{Circumference} &= 2\pi r = \pi d \\
  \mathrm{Area} &= \pi r^2
 \end{aligned}
-$$
 
 Where $r$ is the radius and $d = 2r$ is the diameter.
 
@@ -104898,23 +104198,19 @@ Where $r$ is the radius and $d = 2r$ is the diameter.
 
 For an arc subtending an angle $\theta$ (in radians) at the centre of a circle of radius $r$:
 
-$$
 \begin{aligned}
  \mathrm{Arc length} &= l = r\theta \\
  \mathrm{Area of sector} &= A = \frac{1}{2}r^2\theta
 \end{aligned}
-$$
 
 When the angle is given in degrees ($\theta^\circ$), first convert to radians:
 $\theta = \theta^\circ \times \frac{\pi}{180}$.
 
 The area of a segment (the region between a chord and the corresponding arc) is:
 
-$$
 \begin{aligned}
  \mathrm{Area of segment} = \frac{1}{2}r^2(\theta - \sin\theta)
 \end{aligned}
-$$
 
 <details>
 <summary>Examples</summary>
@@ -104934,19 +104230,15 @@ into eight octants.
 
 The distance between two points $P_1(x_1, y_1, z_1)$ and $P_2(x_2, y_2, z_2)$ in 3D space is:
 
-$$
 \begin{aligned}
  d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}
 \end{aligned}
-$$
 
 The midpoint of the segment $P_1P_2$ is:
 
-$$
 \begin{aligned}
  M = \left( \frac{x_1 + x_2}{2},\; \frac{y_1 + y_2}{2},\; \frac{z_1 + z_2}{2} \right)
 \end{aligned}
-$$
 
 </details>
 <summary>Examples</summary>
@@ -104957,11 +104249,9 @@ $$
 
 The general equation of a plane in 3D is:
 
-$$
 \begin{aligned}
  Ax + By + Cz + D = 0
 \end{aligned}
-$$
 
 Where the vector $\mathbf{n} = (A, B, C)$ is a normal vector to the plane. The plane can also be
 described in several forms:
@@ -104969,20 +104259,16 @@ described in several forms:
 - **Point-normal form**: Given a point $P_0(x_0, y_0, z_0)$ on the plane and normal
   $\mathbf{n} = (A, B, C)$:
 
-$$
 \begin{aligned}
  A(x - x_0) + B(y - y_0) + C(z - z_0) = 0
 \end{aligned}
-$$
 
 - **Intercept form**: If the plane has $x$-intercept $a$$y$-intercept $b$ And $z$-intercept $c$ (all
   non-zero):
 
-$$
 \begin{aligned}
  \frac{x}{a} + \frac{y}{b} + \frac{z}{c} = 1
 \end{aligned}
-$$
 
 ### Angles Between Lines and Planes
 
@@ -104992,43 +104278,35 @@ The angle $\phi$ between a line with direction vector $\mathbf{d} = (l, m, n)$ a
 normal $\mathbf{n} = (A, B, C)$ is defined as the complement of the angle between $\mathbf{d}$ and
 $\mathbf{n}$:
 
-$$
 \begin{aligned}
  \sin\phi = \frac{|Al + Bm + Cn|}{\sqrt{A^2 + B^2 + C^2}\sqrt{l^2 + m^2 + n^2}}
 \end{aligned}
-$$
 
 #### Angle Between Two Planes
 
 The angle $\theta$ between two planes with normals $\mathbf{n_1} = (A_1, B_1, C_1)$ and
 $\mathbf{n_2} = (A_2, B_2, C_2)$ is:
 
-$$
 \begin{aligned}
  \cos\theta = \frac{|A_1 A_2 + B_1 B_2 + C_1 C_2|}{\sqrt{A_1^2 + B_1^2 + C_1^2}\sqrt{A_2^2 + B_2^2 + C_2^2}}
 \end{aligned}
-$$
 
 #### Angle Between Two Lines in 3D
 
 For two lines with direction vectors $\mathbf{d_1} = (l_1, m_1, n_1)$ and
 $\mathbf{d_2} = (l_2, m_2, n_2)$:
 
-$$
 \begin{aligned}
  \cos\theta = \frac{|l_1 l_2 + m_1 m_2 + n_1 n_2|}{\sqrt{l_1^2 + m_1^2 + n_1^2}\sqrt{l_2^2 + m_2^2 + n_2^2}}
 \end{aligned}
-$$
 
 #### Distance from a Point to a Plane
 
 The perpendicular distance from point $P(x_0, y_0, z_0)$ to the plane $Ax + By + Cz + D = 0$ is:
 
-$$
 \begin{aligned}
  d = \frac{|Ax_0 + By_0 + Cz_0 + D|}{\sqrt{A^2 + B^2 + C^2}}
 \end{aligned}
-$$
 
 <details>
 <summary>Examples</summary>
@@ -105312,13 +104590,9 @@ $C_1$ and $C_2$ touch externally, find $r$.
 
 For external tangency, the distance between centres equals the sum of the radii:
 
-$$
 d = \sqrt{(7 - 1)^2 + (2 - 2)^2} = 6
-$$
 
-$$
 3 + r = 6 \implies r = 3
-$$
 
 </details>
 
@@ -105370,23 +104644,15 @@ Find the volume of the tetrahedron with vertices $A(0, 0, 0)$$B(2, 0, 0)$$C(0, 3
 
 The volume of a tetrahedron with vertices at the origin and on the coordinate axes is:
 
-$$
 V = \frac{1}{6}|x_B \cdot y_C \cdot z_D| = \frac{1}{6}(2)(3)(4) = 4
-$$
 
 Alternatively, using the scalar triple product:
 
-$$
 V = \frac{1}{6}|\overrightarrow{AB} \cdot (\overrightarrow{AC} \times \overrightarrow{AD})| = \frac{1}{6}|(2, 0, 0) \cdot ((0, 3, 0) \times (0, 0, 4))|
-$$
 
-$$
 (0, 3, 0) \times (0, 0, 4) = (12, 0, 0)
-$$
 
-$$
 V = \frac{1}{6}|(2)(12)| = \frac{1}{6}(24) = 4
-$$
 
 </details>
 
@@ -105399,13 +104665,9 @@ Find the angle between the lines joining $A(1, 0, 0)$ to $B(0, 1, 0)$ and $A$ to
 
 $\overrightarrow{AB} = (-1, 1, 0)$$\overrightarrow{AC} = (-1, 0, 1)$.
 
-$$
 \cos\theta = \frac{|(-1)(-1) + (1)(0) + (0)(1)|}{\sqrt{1 + 1 + 0} \cdot \sqrt{1 + 0 + 1}} = \frac{1}{\sqrt{2}\sqrt{2}} = \frac{1}{2}
-$$
 
-$$
 \theta = 60^\circ
-$$
 
 </details>
 
@@ -105422,17 +104684,11 @@ Using the tangent formula for the general circle equation $x^2 + y^2 + Dx + Ey +
 
 Replace $x^2 \to x \cdot 5$$y^2 \to y \cdot 1$$x \to \dfrac{x + 5}{2}$$y \to \dfrac{y + 1}{2}$:
 
-$$
 5x + y - 4\cdot\frac{x + 5}{2} + 6\cdot\frac{y + 1}{2} - 12 = 0
-$$
 
-$$
 5x + y - 2x - 10 + 3y + 3 - 12 = 0
-$$
 
-$$
 3x + 4y - 19 = 0
-$$
 
 </details>
 
@@ -105459,9 +104715,7 @@ Let the centre be $C(h, k)$. Since $C$ lies on $x - y + 2 = 0$: $h - k + 2 = 0 \
 
 $CA^2 = CB^2$ where $A = (0, 0)$ and $B = (0, 4)$:
 
-$$
 h^2 + k^2 = h^2 + (k - 4)^2 \implies k^2 = k^2 - 8k + 16 \implies 8k = 16 \implies k = 2
-$$
 
 $h = k - 2 = 0$.
 
@@ -105503,9 +104757,7 @@ Perimeter of sector $= 2r + r\theta = 20 + 10\theta = 30$.
 
 $10\theta = 10 \implies \theta = 1$ rad.
 
-$$
 \mathrm{Area} = \frac{1}{2}r^2\theta = \frac{1}{2}(100)(1) = 50\mathrm{ cm}^2
-$$
 
 </details>
 
@@ -105547,13 +104799,9 @@ $AB = 6$.
 Normal to first plane: $\mathbf{n_1} = (2, -1, 2)$. Normal to second plane:
 $\mathbf{n_2} = (1, 2, -2)$.
 
-$$
 \cos\theta = \frac{|2(1) + (-1)(2) + 2(-2)|}{\sqrt{4 + 1 + 4} \cdot \sqrt{1 + 4 + 4}} = \frac{|2 - 2 - 4|}{3 \cdot 3} = \frac{4}{9}
-$$
 
-$$
 \theta = \arccos\!\left(\frac{4}{9}\right) \approx 63.6^\circ
-$$
 
 </details>
 
@@ -105578,13 +104826,9 @@ $VM = \sqrt{VO^2 + OM^2} = \sqrt{75 + 9} = \sqrt{84} = 2\sqrt{21}$.
 
 The angle between face $VAB$ and the base is the angle between $VM$ and $OM$:
 
-$$
 \cos\phi = \frac{OM}{VM} = \frac{3}{2\sqrt{21}} = \frac{\sqrt{21}}{14}
-$$
 
-$$
 \phi = \arccos\!\left(\frac{\sqrt{21}}{14}\right) \approx 69.2^\circ
-$$
 
 </details>
 
@@ -105596,9 +104840,7 @@ $B$. Find the area of the minor segment cut off by the chord $AB$.
 
 Distance from the centre $(0, 0)$ to the line:
 
-$$
 d = \frac{|25|}{5} = 5
-$$
 
 Since $d = r = 5$ The line is tangent to the circle (not a chord). There is no minor segment -- the
 line touches the circle at exactly one point.
@@ -105642,7 +104884,6 @@ Since the line is tangent (not a secant), the area of the minor segment is $0$.
 **Problem.** Find the distance between $A(1, 2, 3)$ and $B(4, -1, 5)$.
 
 **Solution.** $$AB = \sqrt{(4-1)^2 + (-1-2)^2 + (5-3)^2} = \sqrt{9 + 9 + 4} = \sqrt{22}
-$$
 
 $\blacksquare$
 
@@ -105652,7 +104893,6 @@ $\blacksquare$
 $\triangle ABC$ is right-angled.
 
 **Solution.** $$AB^2 = 16, \quad AC^2 = 9, \quad BC^2 = 16 + 9 = 25
-$$
 
 $AB^2 + AC^2 = 16 + 9 = 25 = BC^2$. By the converse of Pythagoras' theorem, $\triangle ABC$ is
 right-angled at $A$.
@@ -105885,32 +105125,24 @@ Let $a$, $b$ And $c$ be real numbers. The following properties hold for inequali
 
 **Addition property:**
 
-$$
 A > b \implies a + c > b + c
-$$
 
 Adding the same quantity to both sides preserves the inequality.
 
 **Multiplication by a positive number:**
 
-$$
 A > b,\; c > 0 \implies ac > bc
-$$
 
 **Multiplication by a negative number (reversal):**
 
-$$
 A > b,\; c < 0 \implies ac < bc
-$$
 
 This is the most important rule to remember: multiplying or dividing both sides by a **negative**
 Number **reverses** the inequality sign.
 
 ### Transitivity
 
-$$
 A > b \mathrm{ and } b > c \implies a > c
-$$
 
 ### Other Properties
 
@@ -105952,33 +105184,25 @@ number line:
 <summary>Examples</summary>
 - Solve $3x - 7 > 5$:
 
-$$
 3x > 12 \implies x > 4
-$$
 
 The solution set is $(4, \infty)$.
 
 - Solve $2x + 3 \leq x - 4$:
 
-$$
 2x - x \leq -4 - 3 \implies x \leq -7
-$$
 
 The solution set is $(-\infty, -7]$.
 
 - Solve $-2x + 6 < 10$:
 
-$$
 -2x < 4 \implies x > -2
-$$
 
 Note the reversal of the inequality sign when dividing by $-2$. The solution set is $(-2, \infty)$.
 
 - Solve $5(x - 2) \geq 3x + 4$:
 
-$$
 5x - 10 \geq 3x + 4 \implies 2x \geq 14 \implies x \geq 7
-$$
 
 The solution set is $7, \infty)$.
 
@@ -106032,7 +105256,6 @@ Roots are $x = 2$ and $x = 3$. Since $a = 1 > 0$ The parabola opens upward.
 
 Sign diagram:
 
-$$
 \begin{array}{c|ccc}
 X & (-\infty, 2) & (2, 3) & (3, \infty) \\
 \hline
@@ -106041,7 +105264,6 @@ X & (-\infty, 2) & (2, 3) & (3, \infty) \\
 \hline
 (x-2)(x-3) & + & - & +
 \end{array}
-$$
 
 Solution: $x < 2$ or $x > 3$ I.e., $(-\infty, 2) \cup (3, \infty)$.
 
@@ -106071,7 +105293,6 @@ Roots: $x = -\dfrac{1}{2}$ and $x = 2$.
 
 Sign diagram:
 
-$$
 \begin{array}{c|ccc}
 X & \left(-\infty, -\tfrac{1}{2}\right) & \left(-\tfrac{1}{2}, 2\right) & (2, \infty) \\
 \hline
@@ -106080,7 +105301,6 @@ X & \left(-\infty, -\tfrac{1}{2}\right) & \left(-\tfrac{1}{2}, 2\right) & (2, \i
 \hline
 (2x+1)(x-2) & + & - & +
 \end{array}
-$$
 
 Solution: $x < -\dfrac{1}{2}$ or $x > 2$ I.e.,
 $\left(-\infty, -\dfrac{1}{2}\right) \cup (2, \infty)$.
@@ -106096,33 +105316,25 @@ line. This geometric interpretation is the key to solving absolute value inequal
 
 Geometrically, $x$ is within distance $a$ from zero.
 
-$$
 |x| < a \iff -a < x < a
-$$
 
 **$|x| > a$** (where $a > 0$):
 
 Geometrically, $x$ is more than distance $a$ from zero.
 
-$$
 |x| > a \iff x < -a \;\mathrm{ or }\; x > a
-$$
 
 ### General Forms
 
 **$|ax + b| < c$** (where $c > 0$):
 
-$$
 |ax + b| < c \iff -c < ax + b < c
-$$
 
 This is equivalent to a system of two linear inequalities, which can be solved simultaneously.
 
 **$|ax + b| > c$** (where $c > 0$):
 
-$$
 |ax + b| > c \iff ax + b < -c \;\mathrm{ or }\; ax + b > c
-$$
 
 This gives two separate linear inequalities, each solved independently.
 
@@ -106136,41 +105348,30 @@ This gives two separate linear inequalities, each solved independently.
 <summary>Examples</summary>
 - Solve $|x - 3| < 5$:
 
-$$
 -5 < x - 3 < 5 \implies -2 < x < 8
-$$
 
 Solution: $(-2, 8)$.
 
 - Solve $|2x + 1| \geq 7$:
 
-$$
 2x + 1 \leq -7 \;\mathrm{ or }\; 2x + 1 \geq 7
-$$
 
 $$
 2x \leq -8 \;\mathrm{ or }\; 2x \geq 6
-$$
 
-$$
 X \leq -4 \;\mathrm{ or }\; x \geq 3
-$$
 
 Solution: $(-\infty, -4] \cup [3, \infty)$.
 
 - Solve $|3x - 6| > 0$:
 
-$$
 3x - 6 \neq 0 \implies x \neq 2
-$$
 
 Solution: $\mathbb{R} \setminus \{2\}$.
 
 - Solve $|x^2 - 4| < 5$:
 
-$$
 -5 < x^2 - 4 < 5 \implies -1 < x^2 < 9
-$$
 
 Since $x^2 \geq 0$ for all real $x$ The left inequality $-1 < x^2$ is always satisfied.
 
@@ -106256,17 +105457,11 @@ Intersection: $(-\infty, 3)$.
 <summary>Answer</summary>
 Multiply through by $12$ (the LCM of $3$ and $4$ Which is positive so the inequality sign is preserved):
 
-$$
 4(2x - 1) \leq 3(x + 2) + 12
-$$
 
-$$
 8x - 4 \leq 3x + 6 + 12
-$$
 
-$$
 5x \leq 22 \implies x \leq \frac{22}{5}
-$$
 
 Solution: $\left(-\infty, \dfrac{22}{5}\right]$.
 
@@ -106295,17 +105490,11 @@ Intersection: $-\dfrac{1}{2} < x < 5$ I.e., $\left(-\dfrac{1}{2}, 5\right)$.
 
 <details>
 <summary>Answer</summary>
-$$
 -7 < 3x - 5 < 7
-$$
 
-$$
 -2 < 3x < 12
-$$
 
-$$
 -\frac{2}{3} < x < 4
-$$
 
 Solution: $\left(-\dfrac{2}{3}, 4\right)$.
 
@@ -106317,9 +105506,7 @@ This inequality combines absolute value and quadratic expressions. Consider two 
 
 **Case 1:** $2x + 3 \geq 0$ (i.e., $x \geq -\dfrac{3}{2}$), so $|2x + 3| = 2x + 3$:
 
-$$
 2x + 3 \geq x^2 + 2 \implies x^2 - 2x - 1 \leq 0
-$$
 
 Roots: $x = \dfrac{2 \pm \sqrt{4 + 4}}{2} = 1 \pm \sqrt{2}$.
 
@@ -106333,9 +105520,7 @@ $1 - \sqrt{2} \leq x \leq 1 + \sqrt{2}$.
 
 **Case 2:** $2x + 3 < 0$ (i.e., $x < -\dfrac{3}{2}$), so $|2x + 3| = -(2x + 3)$:
 
-$$
 -2x - 3 \geq x^2 + 2 \implies x^2 + 2x + 5 \leq 0
-$$
 
 Discriminant: $\Delta = 4 - 20 = -16 < 0$. Since $a = 1 > 0$ The expression is always positive. No
 solution in this case.
@@ -106349,13 +105534,9 @@ distinct real roots?
 <summary>Answer</summary>
 For two distinct real roots, the discriminant must satisfy $\Delta > 0$:
 
-$$
 \Delta = (2k)^2 - 4(1)(k + 6) = 4k^2 - 4k - 24 > 0
-$$
 
-$$
 K^2 - k - 6 > 0
-$$
 
 Factorize: $(k - 3)(k + 2) > 0$.
 
@@ -106392,19 +105573,13 @@ Time interval is the ball at a height greater than $17$ m?
 <summary>Answer</summary>
 We need $h(t) > 17$:
 
-$$
 -5t^2 + 20t + 2 > 17
-$$
 
-$$
 -5t^2 + 20t - 15 > 0
-$$
 
 Divide by $-5$ (reverse inequality):
 
-$$
 T^2 - 4t + 3 < 0
-$$
 
 Factorize: $(t - 1)(t - 3) < 0 \implies 1 < t < 3$.
 
@@ -106422,7 +105597,6 @@ Critical points: $x = -2$, $x = 1$, $x = 2$.
 
 Sign diagram:
 
-$$
 \begin{array}{c|cccc}
 X & (-\infty, -2) & (-2, 1) & (1, 2) & (2, \infty) \\
 \hline
@@ -106432,7 +105606,6 @@ X & (-\infty, -2) & (-2, 1) & (1, 2) & (2, \infty) \\
 \hline
 \dfrac{(x-2)(x+2)}{x-1} & - & + & - & +
 \end{array}
-$$
 
 The expression is $\geq 0$ when $-2 \leq x < 1$ or $x \geq 2$.
 
@@ -106590,13 +105763,9 @@ Reject.
 
 Case 2: $m \neq 0$. For $mx^2 + (m-1)x + m > 0$ for all real $x$ We need $m > 0$ and $\Delta < 0$:
 
-$$
 \Delta = (m - 1)^2 - 4m^2 = m^2 - 2m + 1 - 4m^2 = -3m^2 - 2m + 1 < 0
-$$
 
-$$
 3m^2 + 2m - 1 > 0 \implies (3m - 1)(m + 1) > 0 \implies m < -1 \;\text{or}\; m > \dfrac{1}{3}
-$$
 
 Combined with $m > 0$: $m > \dfrac{1}{3}$.
 
@@ -106637,9 +105806,7 @@ Intersection: $(0, 5]$.
 <details>
 <summary>Solution</summary>
 
-$$
 \frac{2x - 1}{x + 3} - 1 \geq 0 \implies \frac{2x - 1 - x - 3}{x + 3} \geq 0 \implies \frac{x - 4}{x + 3} \geq 0
-$$
 
 Critical points: $x = -3$ (excluded) and $x = 4$ (included).
 
@@ -106664,9 +105831,7 @@ Case $k = 0$: $3 > 0$ for all real $x$. So $k = 0$ works.
 
 Case $k \neq 0$: Need $k > 0$ and $\Delta < 0$:
 
-$$
 \Delta = 4k^2 - 12k = 4k(k - 3) < 0 \implies 0 < k < 3
-$$
 
 Combined with $k = 0$: the answer is $0 \leq k < 3$.
 
@@ -106679,13 +105844,9 @@ Combined with $k = 0$: the answer is $0 \leq k < 3$.
 
 Square both sides (both sides non-negative):
 
-$$
 (2x - 3)^2 > (x + 1)^2 \implies 4x^2 - 12x + 9 > x^2 + 2x + 1
-$$
 
-$$
 3x^2 - 14x + 8 > 0 \implies (3x - 2)(x - 4) > 0
-$$
 
 Solution: $x < \dfrac{2}{3}$ or $x > 4$.
 
@@ -106717,9 +105878,7 @@ $4(k + 1)^2 - 36 < 0 \implies (k + 1)^2 < 9 \implies -3 < k + 1 < 3 \implies -4 
 <details>
 <summary>Solution</summary>
 
-$$
 \frac{x^2 - x - 6}{x^2 - 4} = \frac{(x - 3)(x + 2)}{(x - 2)(x + 2)} = \frac{x - 3}{x - 2}
-$$
 
 For $x \neq -2$.
 
@@ -106760,7 +105919,6 @@ Solution: $(2, 3]$.
 
 **Solution.** For the quadratic to be always positive with leading coefficient $1 > 0$:
 $\Delta < 0$. $$(2k)^2 - 4(1)(k+8) < 0 \implies 4k^2 - 4k - 32 < 0 \implies k^2 - k - 8 < 0
-$$
 
 Roots: $k = \frac{1 \pm \sqrt{1 + 32}}{2} = \frac{1 \pm \sqrt{33}}{2}$
 
@@ -106813,9 +105971,7 @@ requires using previous work.
 
 ## Summary
 
-$$
 
-$$
 
 ## Intuition
 

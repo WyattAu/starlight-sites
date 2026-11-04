@@ -7353,13 +7353,9 @@ $n \approx 2.65 \times 10^{28}\,\mathrm{m}^{-3}$, $m_e = 9.109 \times 10^{-31}$ 
 <details>
 <summary>Solution</summary>
 
-$$
 \varepsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 n)^{2/3}
-$$
 
-$$
 = \frac{(1.055 \times 10^{-34})^2}{2 \times 9.109 \times 10^{-31}}(3\pi^2 \times 2.65 \times 10^{28})^{2/3}
-$$
 
 $(3\pi^2 \times 2.65 \times 10^{28})^{1/3} = (7.85 \times 10^{29})^{1/3} \approx 9.23 \times 10^9$
 
@@ -7385,15 +7381,11 @@ Below $T_c$: $C_V = \frac{15}{4}Nk_B\,\zeta(5/2)/\zeta(3/2) \cdot (T/T_c)^{3/2}$
 
 At $T = T_c^-$:
 
-$$
 C_V(T_c^-) = \frac{15}{4}Nk_B \cdot \frac{\zeta(5/2)}{\zeta(3/2)}
-$$
 
 $\zeta(5/2) \approx 1.341$, $\zeta(3/2) \approx 2.612$:
 
-$$
 C_V(T_c^-) = \frac{15}{4} \times \frac{1.341}{2.612}\,Nk_B \approx 1.926\,Nk_B
-$$
 
 At $T = T_c^+$: $C_V = \frac{3}{2}Nk_B = 1.5\,Nk_B$.
 
@@ -7415,19 +7407,13 @@ $PV/(Nk_BT) = 1 + B_2(T)\,(N/V) + B_3(T)\,(N/V)^2 + \cdots$.
 
 For a classical gas with pairwise interaction $V(r_{12})$:
 
-$$
 B_2(T) = -\frac{1}{2V}\int d^3\mathbf{r}_1\,d^3\mathbf{r}_2\,\left[e^{-\beta V(r_{12})} - 1\right]
-$$
 
-$$
 = -2\pi \int_0^\infty \left[e^{-\beta V(r)} - 1\right] r^2\, dr
-$$
 
 For a hard-sphere gas ($V(r) = \infty$ for $r < d$, $V(r) = 0$ for $r > d$):
 
-$$
 B_2 = -2\pi\int_0^d (-1)\,r^2\,dr = \frac{2\pi d^3}{3} = \frac{2\pi}{3}\left(\frac{d}{2}\right)^3 \cdot 8 = 4v_0
-$$
 
 Where $v_0 = \pi d^3/6$ is the volume of one sphere. The van der Waals excluded volume parameter is
 $b = 4Nv_0 = N B_2$.
@@ -7444,25 +7430,17 @@ distribution, and derive the condition for the classical limit in terms of the d
 
 The Fermi-Dirac distribution is:
 
-$$
 f_{\mathrm{FD}(\varepsilon) = \frac{1}{e^{\beta(\varepsilon - \mu)} + 1}}
-$$
 
 The total number of particles is:
 
-$$
 N = \int_0^\infty \frac{g(\varepsilon)}{e^{\beta(\varepsilon - \mu)} + 1}\, d\varepsilon
-$$
 
 In the classical limit $e^{\beta(\varepsilon - \mu)} \gg 1$ The $+1$ is negligible:
 
-$$
 N \approx \int_0^\infty g(\varepsilon)\, e^{-\beta(\varepsilon - \mu)}\, d\varepsilon = e^{\beta\mu} \int_0^\infty g(\varepsilon)\, e^{-\beta\varepsilon}\, d\varepsilon
-$$
 
-$$
 e^{\beta\mu} = \frac{N}{\int_0^\infty g(\varepsilon)\, e^{-\beta\varepsilon}\, d\varepsilon} = \frac{N\lambda_{\mathrm{th}^3}{V}}
-$$
 
 The classical limit requires $e^{\beta\mu} \ll 1$ I.e., $N\lambda_{\mathrm{th}^3/V \ll 1}$ Or
 equivalently, the average inter-particle spacing $(V/N)^{1/3}$ must be much larger than
@@ -7478,13 +7456,9 @@ energy is $\langle E \rangle = \hbar\omega(n_B + 1/2)$ where $n_B = 1/(e^{\beta\
 <details>
 <summary>Solution</summary>
 
-$$
 Z_{\mathrm{HO} = \sum_{n=0}^{\infty} e^{-\beta\hbar\omega(n+1/2)} = e^{-\beta\hbar\omega/2}\sum_{n=0}^{\infty}\left(e^{-\beta\hbar\omega}\right)^n = \frac{e^{-\beta\hbar\omega/2}}{1 - e^{-\beta\hbar\omega}}}
-$$
 
-$$
 \langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = \frac{\hbar\omega}{2} + \frac{\hbar\omega\,e^{-\beta\hbar\omega}}{1 - e^{-\beta\hbar\omega}} = \frac{\hbar\omega}{2} + \frac{\hbar\omega}{e^{\beta\hbar\omega} - 1} = \hbar\omega\left(\frac{1}{2} + n_B\right)
-$$
 
 At high $T$ ($\beta \to 0$): $\langle E \rangle \to k_BT$ (equipartition). At low $T$:
 $\langle E \rangle \to \hbar\omega/2$ (zero-point energy).
@@ -7503,23 +7477,17 @@ $M$ and the magnetic susceptibility $\chi = (\partial M/\partial B)_T$.
 For a single spin-1/2 particle, the energy levels are $E_\uparrow = -\mu B$ and
 $E_\downarrow = +\mu B$. The single-particle partition function is:
 
-$$
 Z_1 = e^{\beta\mu B} + e^{-\beta\mu B} = 2\cosh(\beta\mu B)
-$$
 
 For $N$ non-interacting spins, $Z = Z_1^N = [2\cosh(\beta\mu B)]^N$.
 
 The magnetisation is:
 
-$$
 M = \frac{1}{\beta}\frac{\partial \ln Z}{\partial B} = N\mu\tanh(\beta\mu B)
-$$
 
 The susceptibility at small $B$ (or high $T$, where $\beta\mu B \ll 1$):
 
-$$
 \chi = N\mu^2\beta\,\mathrm{sech}^2(\beta\mu B) \approx \frac{N\mu^2}{k_B T}
-$$
 
 This is the Curie law $\chi = C/T$ with $C = N\mu^2/k_B$, showing that paramagnetic susceptibility
 obeys a $1/T$ dependence at high temperatures. $\blacksquare$
@@ -7536,15 +7504,11 @@ photon number density and the average energy per photon at temperature $T$.
 
 The Planck distribution gives the spectral energy density:
 
-$$
 u(\omega, T) = \frac{\hbar\omega^3}{\pi^2 c^3}\frac{1}{e^{\beta\hbar\omega} - 1}
-$$
 
 Integrating over all frequencies:
 
-$$
 U(T) = \int_0^\infty u(\omega, T)\,d\omega = \frac{\hbar}{\pi^2 c^3}\int_0^\infty \frac{\omega^3}{e^{\beta\hbar\omega} - 1}\,d\omega
-$$
 
 Let $x = \beta\hbar\omega$:
 
@@ -7558,7 +7522,6 @@ The photon number density is:
 
 $$
 n = \int_0^\infty \frac{\omega^2}{\pi^2 c^3}\frac{1}{e^{\beta\hbar\omega} - 1}\,d\omega = \frac{2\zeta(3)}{\pi^2}\left(\frac{k_B T}{\hbar c}\right)^3
-$$
 
 The average energy per photon is $\langle E \rangle = U/n = (\pi^4/30\zeta(3))k_B T \approx 2.701\,k_B T$.
 
@@ -7606,7 +7569,6 @@ $T$. What is the limiting behaviour as $T \to 0$ and $T \to \infty$?
 
 $$\langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = -N\frac{\partial \ln Z_1}{\partial \beta}
 = N\frac{\varepsilon e^{-\beta\varepsilon} + 2\varepsilon e^{-2\beta\varepsilon}}{1 + e^{-\beta\varepsilon} + e^{-2\beta\varepsilon}}
-$$
 
 (c) $C_V = \frac{\partial \langle E \rangle}{\partial T} = \frac{1}{k_B T^2}\frac{\partial \langle E \rangle}{\partial \beta}$.
 
@@ -21402,9 +21364,7 @@ An optical fibre consists of a core (refractive index $n_1$) surrounded by a cla
 
 The **numerical aperture:**
 
-$$
 \mathrm{NA} = \sin\theta_{\mathrm{max}} = \sqrt{n_1^2 - n_2^2}
-$$
 
 Where $\theta_{\mathrm{max}}$ is the maximum acceptance angle for light entering the fibre.
 
@@ -21412,9 +21372,7 @@ Where $\theta_{\mathrm{max}}$ is the maximum acceptance angle for light entering
 
 The number of modes supported depends on the **V-number:**
 
-$$
 V = \frac{2\pi a}{\lambda}\mathrm{NA}
-$$
 
 Where $a$ is the core radius.
 
@@ -21489,9 +21447,7 @@ surgery, where high-power laser light is delivered through thin fibres.
 A step-index fibre has $n_1 = 1.48$, $n_2 = 1.46$, and core radius $a = 25\ \mu$m.
 Calculate the NA, acceptance angle, and V-number at $\lambda = 850$ nm.
 
-$$
 \mathrm{NA} = \sqrt{1.48^2 - 1.46^2} = \sqrt{2.1904 - 2.1316} = \sqrt{0.0588} \approx 0.242
-$$
 
 $$
 \theta_{\mathrm{max}} = \arcsin(0.242) \approx 14.0^\circ
@@ -27449,10 +27405,8 @@ classical quantity squares to one while failing to commute with the others.
 
 **The Bloch sphere.** A general spin-1/2 state is
 
-$$
 \lvert\psi\rangle = \cos\frac{\theta}{2}\lvert\uparrow\rangle +
 e^{i\phi}\sin\frac{\theta}{2}\lvert\downarrow\rangle ,
-$$
 
 which is two angles -- a point on a sphere. The global phase has already been
 divided out, so the *relative* phase $\phi$ is the only phase left, and it is
@@ -27463,25 +27417,17 @@ half the story of what a qubit is.
 Spin is an **intrinsic** form of angular momentum with no classical analogue. For spin-$1/2$
 particles (e.g., electrons):
 
-$$
 \hat{S}_x = \frac{\hbar}{2}\sigma_x, \quad \hat{S}_y = \frac{\hbar}{2}\sigma_y, \quad \hat{S}_z = \frac{\hbar}{2}\sigma_z
-$$
 
 Where $\sigma_x, \sigma_y, \sigma_z$ are the **Pauli matrices**:
 
-$$
 \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
-$$
 
 ### 7.2 Properties of Pauli Matrices
 
-$$
 \sigma_i^2 = I, \quad \sigma_i \sigma_j = i\epsilon_{ijk}\sigma_k \quad (i \neq j)
-$$
 
-$$
 [\sigma_i, \sigma_j] = 2i\epsilon_{ijk}\sigma_k, \quad \{\sigma_i, \sigma_j\} = 2\delta_{ij}I
-$$
 
 Spin states: $|\uparrow\rangle = \begin{pmatrix} 1 \\ 0 \end{pmatrix}$ (spin up, $m_s = +1/2$) and
 $|\downarrow\rangle = \begin{pmatrix} 0 \\ 1 \end{pmatrix}$ (spin down, $m_s = -1/2$).
@@ -27500,40 +27446,30 @@ algebra For $j = 1/2$.
 
 **Step 1: Fix $\sigma_z$.** A traceless Hermitian matrix with eigenvalues $\pm 1$ is:
 
-$$
 \sigma_z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}
-$$
 
 (up to an overall unitary transformation, which corresponds to choosing the quantisation axis).
 
 **Step 2: Determine $\sigma_x$.** A general traceless Hermitian matrix is:
 
-$$
 \sigma_x = \begin{pmatrix} a & b \\ b^* & -a \end{pmatrix}
-$$
 
 Where $a \in \mathbb{R}$ and $b \in \mathbb{C}$. From $\sigma_x^2 = I$: $a^2 + |b|^2 = 1$ and
 $2ab = 0$. Since $|b| \neq 0$ (otherwise $\sigma_x$ is diagonal and commutes with
 $\sigma_z$ Violating $[\sigma_x, \sigma_z] \neq 0$), we have $a = 0$ and $|b| = 1$. Choosing $b = 1$
 (by convention):
 
-$$
 \sigma_x = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}
-$$
 
 **Step 3: Determine $\sigma_y$.** From $[\sigma_x, \sigma_y] = 2i\sigma_z$:
 
-$$
 \sigma_x\sigma_y - \sigma_y\sigma_x = 2i\sigma_z
-$$
 
 Writing $\sigma_y = \begin{pmatrix} c & d \\ d^* & -c \end{pmatrix}$ and imposing $\sigma_y^2 = I$,
 $\sigma_y^\dagger = \sigma_y$ And the commutation relation, we find $c = 0$, $|d| = 1$ And the
 commutator gives $d - d^* = 2i$ So $d = i$:
 
-$$
 \sigma_y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}
-$$
 
 $\blacksquare$
 
@@ -27542,9 +27478,7 @@ $\blacksquare$
 A particle with magnetic moment $\boldsymbol{\mu} = \gamma\mathbf{S}$ (where $\gamma$ is the
 Gyromagnetic ratio) in a magnetic field $\mathbf{B} = B_0\hat{z}$ has Hamiltonian:
 
-$$
 \hat{H} = -\boldsymbol{\mu}\cdot\mathbf{B} = -\gamma B_0\hat{S}_z = -\frac{\hbar\gamma B_0}{2}\sigma_z
-$$
 
 The eigenstates are $|\uparrow\rangle$ and $|\downarrow\rangle$ with energies
 $E_\uparrow = -\hbar\gamma B_0/2$ And $E_\downarrow = +\hbar\gamma B_0/2$. The energy splitting is
@@ -27552,29 +27486,20 @@ $\Delta E = \hbar\gamma B_0$.
 
 **Time evolution.** For an arbitrary initial state:
 
-$$
 |\psi(0)\rangle = \alpha|\uparrow\rangle + \beta|\downarrow\rangle
-$$
 
 The state at time $t$ is:
 
-$$
 |\psi(t)\rangle = \alpha e^{i\gamma B_0 t/2}|\uparrow\rangle + \beta e^{-i\gamma B_0 t/2}|\downarrow\rangle
-$$
 
 **Larmor precession.** The expectation values precess around the $z$-axis:
 
-$$
 \langle S_x \rangle(t) = \frac{\hbar}{2}(\alpha^*\beta\,e^{-i\gamma B_0 t} + \alpha\beta^*\,e^{i\gamma B_0 t})
-$$
 
 $$
 \langle S_y \rangle(t) = \frac{\hbar}{2i}(\alpha^*\beta\,e^{-i\gamma B_0 t} - \alpha\beta^*\,e^{i\gamma B_0 t})
-$$
 
-$$
 \langle S_z \rangle(t) = \frac{\hbar}{2}(|\alpha|^2 - |\beta|^2) = \mathrm{const}.
-$$
 
 The spin precesses at the **Larmor frequency** $\omega_L = \gamma B_0$.
 
@@ -27582,9 +27507,7 @@ For an electron, $\gamma = -e/(m_e)$ (negative charge), giving $\omega_L = eB_0/
 
 **The Larmor frequency.** For a typical laboratory field $B_0 = 1$ T:
 
-$$
 \omega_L = \frac{(1.602 \times 10^{-19})(1)}{9.109 \times 10^{-31}} = 1.76 \times 10^{11}\;\mathrm{rad}/s
-$$
 
 Corresponding to a frequency $\nu_L = \omega_L/(2\pi) = 28$ GHz (microwave range). This is the basis
 of Electron Spin Resonance (ESR) and Nuclear Magnetic Resonance (NMR) spectroscopy, where
@@ -27600,21 +27523,15 @@ With $\mathbf{B} = B_0\hat{x}$ The Hamiltonian is
 $\hat{H} = -\gamma B_0\hat{S}_x = \omega_L\hat{S}_x$ Where $\omega_L = \gamma B_0$. The eigenstates
 of $\hat{S}_x$ are:
 
-$$
 |+\rangle_x = \frac{1}{\sqrt{2}}(|\uparrow\rangle + |\downarrow\rangle), \quad |-\rangle_x = \frac{1}{\sqrt{2}}(|\uparrow\rangle - |\downarrow\rangle)
-$$
 
 With eigenvalues $\pm\hbar\omega_L/2$.
 
 Expanding $|\uparrow\rangle = (|+\rangle_x + |-\rangle_x)/\sqrt{2}$ and evolving:
 
-$$
 |\psi(t)\rangle = \frac{1}{\sqrt{2}}\!\left(e^{-i\omega_L t/2}|+\rangle_x + e^{i\omega_L t/2}|-\rangle_x\right)
-$$
 
-$$
 = \cos\!\left(\frac{\omega_L t}{2}\right)|\uparrow\rangle - i\sin\!\left(\frac{\omega_L t}{2}\right)|\downarrow\rangle
-$$
 
 The probability of measuring spin-up along $z$ oscillates as $\cos^2(\omega_L t/2)$ With period
 $T = 2\pi/\omega_L$.
@@ -27628,17 +27545,13 @@ Confirming the quantisation of angular momentum (spin-1/2 for the outer electron
 
 **Detailed analysis.** The force on a magnetic moment in an inhomogeneous field is:
 
-$$
 \mathbf{F} = \nabla(\boldsymbol{\mu}\cdot\mathbf{B})
-$$
 
 For a field $\mathbf{B} = B(z)\hat{z}$ with $\partial B_z/\partial z \neq 0$, the $z$-component of
 force is $F_z = \mu_z\,\partial B_z/\partial z$. Since $\mu_z = \gamma m_s\hbar$ and
 $m_s = \pm 1/2$:
 
-$$
 F_z = \pm\frac{\gamma\hbar}{2}\frac{\partial B_z}{\partial z}
-$$
 
 The beam splits into two, corresponding to $m_s = +1/2$ (deflected up) and $m_s = -1/2$ (deflected
 down).
@@ -27664,15 +27577,11 @@ second Apparatus.
 The eigenstate of $\hat{S}_n = \hat{S}_z\cos\theta + \hat{S}_x\sin\theta$ with eigenvalue $+\hbar/2$
 is:
 
-$$
 |+\rangle_n = \cos\frac{\theta}{2}|\uparrow\rangle + \sin\frac{\theta}{2}|\downarrow\rangle
-$$
 
 The probability is:
 
-$$
 P = |\langle+_n|\uparrow\rangle|^2 = \cos^2\frac{\theta}{2}
-$$
 
 For $\theta = 90°$ (i.e., measuring $S_x$): $P = 1/2$.
 
@@ -27691,17 +27600,13 @@ label Simultaneous eigenstates as $|j_1, j_2; j, m\rangle$.
 
 **Clebsch-Gordan decomposition.** The total angular momentum quantum numbers range over:
 
-$$
 j = |j_1 - j_2|, |j_1 - j_2| + 1, \ldots, j_1 + j_2
-$$
 
 In integer steps. For each $j$ The magnetic quantum number $m$ ranges from $-j$ to $j$.
 
 The transformation between the product basis and the total-$j$ basis is:
 
-$$
 |j_1, j_2; j, m\rangle = \sum_{m_1, m_2} C(j_1\,m_1\,j_2\,m_2|j\,m)\,|j_1, m_1\rangle|j_2, m_2\rangle
-$$
 
 Where $C(j_1\,m_1\,j_2\,m_2|j\,m)$ are the **Clebsch-Gordan coefficients**.
 
@@ -27709,27 +27614,18 @@ Where $C(j_1\,m_1\,j_2\,m_2|j\,m)$ are the **Clebsch-Gordan coefficients**.
 are:
 
 - **Triplet** ($j = 1$): three states with $m = 1, 0, -1$ $$|1,1\rangle = |\uparrow\uparrow\rangle
-$$
-  $$
   |1,0\rangle = \frac{1}{\sqrt{2}}(|\uparrow\downarrow\rangle + |\downarrow\uparrow\rangle)
-  $$
-  $$
   |1,-1\rangle = |\downarrow\downarrow\rangle
-  $$
 
 - **Singlet** ($j = 0$): one state with $m = 0$
-  $$
   |0,0\rangle = \frac{1}{\sqrt{2}}(|\uparrow\downarrow\rangle - |\downarrow\uparrow\rangle)
-  $$
 
 The triplet states are symmetric under particle exchange; the singlet is antisymmetric.
 
 **Total spin operator.**
 $\hat{S}^2 = \hat{S}_1^2 + \hat{S}_2^2 + 2\hat{\mathbf{S}}_1\cdot\hat{\mathbf{S}}_2$ So:
 
-$$
 \hat{\mathbf{S}}_1\cdot\hat{\mathbf{S}}_2 = \frac{1}{2}(\hat{S}^2 - \hat{S}_1^2 - \hat{S}_2^2)
-$$
 
 For the triplet: $\hat{\mathbf{S}}_1\cdot\hat{\mathbf{S}}_2 = \hbar^2/4$. For the singlet:
 $\hat{\mathbf{S}}_1\cdot\hat{\mathbf{S}}_2 = -3\hbar^2/4$.
@@ -27768,9 +27664,7 @@ After measuring $S_1^z = +\hbar/2$ The state collapses to $|\uparrow_1\downarrow
 
 The probability of measuring $S_2^x = +\hbar/2$ is:
 
-$$
 P = |\langle+_x|\downarrow\rangle|^2 = \left|\frac{1}{\sqrt{2}}\langle\uparrow| + \frac{1}{\sqrt{2}}\langle\downarrow|\;\downarrow\rangle\right|^2 = \frac{1}{2}
-$$
 
 </details>
 
@@ -33253,9 +33147,7 @@ Free time $\tau$.
 
 Under an electric field $\mathbf{E}$ The equation of motion:
 
-$$
 m_e\frac{d\mathbf{v}}{dt} = -e\mathbf{E} - \frac{m_e\mathbf{v}}{\tau}
-$$
 
 In steady state ($d\mathbf{v}/dt = 0$): $\mathbf{v}_d = -\frac{e\tau}{m_e}\mathbf{E}$.
 
@@ -33263,9 +33155,7 @@ The current density: $\mathbf{J} = -ne\mathbf{v}_d = \frac{ne^2\tau}{m_e}\mathbf
 
 The **Drude conductivity:**
 
-$$
 \sigma = \frac{ne^2\tau}{m_e}
-$$
 
 The **mean free path:** $\ell = v_F\tau$.
 
@@ -33281,29 +33171,21 @@ $\gamma_{\mathrm{electron} = \frac{\pi^2}{2}nk_B(T/T_F)}$ (much smaller).
 
 The semiclassical distribution function $f(\mathbf{r}, \mathbf{k}, t)$ satisfies:
 
-$$
 \frac{\partial f}{\partial t} + \mathbf{v}_{\mathbf{k}} \cdot \nabla_{\mathbf{r}} f - \frac{e\mathbf{E}}{\hbar}\cdot\nabla_{\mathbf{k}} f = \left(\frac{\partial f}{\partial t}\right)_{\mathrm{coll}}
-$$
 
 In the **relaxation time approximation:**
 
-$$
 \left(\frac{\partial f}{\partial t}\right)_{\mathrm{coll} = -\frac{f - f_0}{\tau}}
-$$
 
 Where $f_0$ is the equilibrium distribution.
 
 **Solution for conductivity.** In a uniform electric field with $f = f_0 + f_1$:
 
-$$
 f_1 = e\tau\mathbf{E}\cdot\mathbf{v}_{\mathbf{k}}\frac{\partial f_0}{\partial\varepsilon}
-$$
 
 The conductivity becomes:
 
-$$
 \sigma = \frac{e^2}{3}\int \tau(\varepsilon)\,v^2(\varepsilon)\,g(\varepsilon)\left(-\frac{\partial f_0}{\partial\varepsilon}\right) d\varepsilon
-$$
 
 At low $T$, $-\partial f_0/\partial\varepsilon \approx \delta(\varepsilon - \varepsilon_F)$ So only
 states Near $E_F$ contribute to transport. This explains why impurity scattering dominates at low
@@ -33312,9 +33194,7 @@ $T$ (even a small concentration of impurities affects states near $E_F$).
 **Matthiessen's rule.** When multiple scattering mechanisms act independently, the total resistivity
 Is approximately additive:
 
-$$
 \rho(T) = \rho_0 + \rho_{\mathrm{ph}(T)}
-$$
 
 Where $\rho_0$ is the residual resistivity (temperature-independent, from impurities and defects)
 And $\rho_{\mathrm{ph}(T)}$ is the phonon contribution (proportional to $T$ at high $T$ and to $T^5$
@@ -33323,9 +33203,7 @@ $RRR = \rho(300\ \mathrm{K})/\rho_0$ Is a measure of sample purity.
 
 **Bloch--Grüneisen formula.** For electron--phonon scattering in a free electron metal:
 
-$$
 \rho_{\mathrm{ph}(T) \propto \left(\frac{T}{\Theta_D}\right)^5 \int_0^{\Theta_D/T} \frac{x^5}{(e^x - 1)(1 - e^{-x})}\,dx}
-$$
 
 At high $T$ ($T \gt \Theta_D$): $\rho_{\mathrm{ph} \propto T}$ (linear, agreeing with the Drude
 model). At low $T$ ($T \ll \Theta_D$): $\rho_{\mathrm{ph} \propto T^5}$ Consistent with experiment.
@@ -33334,15 +33212,11 @@ model). At low $T$ ($T \ll \Theta_D$): $\rho_{\mathrm{ph} \propto T^5}$ Consiste
 
 The thermal conductivity of electrons:
 
-$$
 \kappa_e = \frac{1}{3}c_e v_F \ell_e
-$$
 
 Where $c_e = \frac{\pi^2}{2}nk_B(T/T_F)$ is the electronic specific heat. The phonon contribution:
 
-$$
 \kappa_{\mathrm{ph} = \frac{1}{3}C_V v_s \ell_{\mathrm{ph}}}
-$$
 
 The total thermal conductivity: $\kappa = \kappa_e + \kappa_{\mathrm{ph}}$.
 
@@ -33351,9 +33225,7 @@ The total thermal conductivity: $\kappa = \kappa_e + \kappa_{\mathrm{ph}}$.
 When a magnetic field $\mathbf{B} = B\hat{\mathbf{z}}$ is applied perpendicular to a current
 $\mathbf{J} = J_x\hat{\mathbf{x}}$ A transverse electric field develops:
 
-$$
 E_y = R_H J_x B
-$$
 
 The **Hall coefficient:** $R_H = -1/(ne)$ for a single carrier type.
 
@@ -33364,9 +33236,7 @@ Cyclotron frequency.
 
 Near a band extremum, the energy can be expanded:
 
-$$
 \varepsilon(\mathbf{k}) = \varepsilon_0 + \frac{\hbar^2}{2}\sum_{ij}(m^{-1})_{ij}k_i k_j
-$$
 
 The **effective mass tensor**
 $(m^{-1})_{ij} = \frac{1}{\hbar^2}\frac{\partial^2 \varepsilon}{\partial k_i \partial k_j}$
@@ -33386,11 +33256,9 @@ impurity scattering. At 300 K, the phonon contribution is $\rho_{\mathrm{ph}} = 
 
 $$\rho(300\ \mathrm{K}) = \rho_0 + \rho_{\mathrm{ph}} = 2 \times 10^{-10} + 1.7 \times 10^{-8}
 = 1.72 \times 10^{-8}\ \Omega\cdot\text{m}
-$$
 
 The resistance ratio:
 
-$$
 RRR = \frac{\rho(300\ \mathrm{K})}{\rho_0} = \frac{1.72 \times 10^{-8}}{2 \times 10^{-10}} = 86
 $$
 
@@ -34263,57 +34131,41 @@ URL: https://physics.wyattau.com/7-particle-physics-and-cosmology/7_big-bang-cos
 The dynamics of a homogeneous, isotropic universe are described by the
 **Friedmann-Lemaitre-Robertson-Walker (FLRW) metric**:
 
-$$
 ds^2 = -c^2 dt^2 + a(t)^2\left[\frac{dr^2}{1 - kr^2} + r^2(d\theta^2 + \sin^2\theta\,d\phi^2)\right]
-$$
 
 Where $a(t)$ is the scale factor and $k \in \{-1, 0, +1\}$ is the curvature parameter.
 
 The **Friedmann equation** (from Einstein's equations with the FLRW metric):
 
-$$
 H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}
-$$
 
 Where $H = \dot{a}/a$ is the Hubble parameter and $\Lambda$ is the cosmological constant.
 
 **Derivation of the Friedmann equation.** Starting from the Einstein field equations:
 
-$$
 G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}
-$$
 
 The FLRW metric gives the Einstein tensor components $G_{00} = 3(\dot{a}^2 + kc^2)/(c^2 a^2)$ and
 $G_{ij} = -(2a\ddot{a} + \dot{a}^2 + kc^2)g_{ij}/a^2$. For a perfect fluid with
 $T_{\mu\nu} = \mathrm{diag}(\rho c^2, P, P, P)$ The $00$ component yields:
 
-$$
 \frac{3(\dot{a}^2 + kc^2)}{c^2 a^2} + \Lambda = \frac{8\pi G}{c^4}\rho c^2
-$$
 
 Multiplying through by $c^2 a^2/3$:
 
-$$
 \dot{a}^2 + kc^2 = \frac{8\pi G}{3}\rho a^2 + \frac{\Lambda c^2 a^2}{3}
-$$
 
 Dividing by $a^2$:
 
-$$
 H^2 = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3} \quad \blacksquare
-$$
 
 The **acceleration equation:**
 
-$$
 \frac{\ddot{a}}{a} = -\frac{4\pi G}{3}\left(\rho + \frac{3P}{c^2}\right) + \frac{\Lambda c^2}{3}
-$$
 
 The **fluid equation** (from energy conservation):
 
-$$
 \dot{\rho} + 3\frac{\dot{a}}{a}\left(\rho + \frac{P}{c^2}\right) = 0
-$$
 
 ### 7.2 Critical Density and Cosmological Parameters
 
@@ -34337,9 +34189,7 @@ The universe is very close to flat ($\Omega_{\mathrm{total} \approx 1.0007}$).
 
 For an equation of state $P = w\rho c^2$:
 
-$$
 \rho \propto a^{-3(1+w)}
-$$
 
 <div class="table-wrap">
 
@@ -34353,13 +34203,9 @@ $$
 
 **Derivation.** From the fluid equation with $P = w\rho c^2$:
 
-$$
 \dot{\rho} + 3\frac{\dot{a}}{a}\rho(1 + w) = 0
-$$
 
-$$
 \frac{\dot{\rho}}{\rho} = -3(1+w)\frac{\dot{a}}{a}
-$$
 
 Integrating: $\ln\rho = -3(1+w)\ln a + \mathrm{const}$ Giving $\rho \propto a^{-3(1+w)}$.
 $\blacksquare$
@@ -34374,33 +34220,21 @@ $\blacksquare$
 For a flat ($k = 0$), matter-dominated ($P = 0$) universe with $\Lambda = 0$ The Friedmann equation
 becomes:
 
-$$
 \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\rho_0\left(\frac{a_0}{a}\right)^3
-$$
 
 Where $\rho_0$ is the density at $a = a_0$. Setting $a_0 = 1$:
 
-$$
 \dot{a}^2 = \frac{8\pi G\rho_0}{3}\,a^{-1}
-$$
 
-$$
 \dot{a} = \sqrt{\frac{8\pi G\rho_0}{3}}\,a^{-1/2}
-$$
 
 Integrating: $\int a^{1/2}\,da = \sqrt{\frac{8\pi G\rho_0}{3}}\int dt$
 
-$$
 \frac{2}{3}a^{3/2} = \sqrt{\frac{8\pi G\rho_0}{3}}\,t
-$$
 
-$$
 a(t) = \left(\frac{3}{2}\sqrt{\frac{8\pi G\rho_0}{3}}\right)^{2/3} t^{2/3}
-$$
 
-$$
 a(t) \propto t^{2/3} \quad \blacksquare
-$$
 
 The Hubble parameter: $H = \dot{a}/a = (2/3)t^{-1}$ So the age of a matter-dominated Universe is
 $t_0 = 2/(3H_0)$. For $H_0 = 70$ km/s/Mpc, this gives $t_0 \approx 9.3$ Gyr, which is less than the
@@ -34422,9 +34256,7 @@ $\lambda_{\mathrm{peak} \approx 1.9}$ mm (microwave).
 
 **Temperature-redshift relation.** The CMB temperature at redshift $z$ is:
 
-$$
 T(z) = T_0(1 + z)
-$$
 
 This follows from the adiabatic expansion of a photon gas: $\rho_\gamma \propto a^{-4}$ and
 $\rho_\gamma \propto T^4$ So $T \propto a^{-1} \propto (1+z)$.
@@ -34451,21 +34283,15 @@ Detection of primordial B-mode polarisation would provide evidence for inflation
 
 The CMB temperature today is $T_0 = 2.725$ K. At recombination ($z_{\mathrm{rec} \approx 1100}$):
 
-$$
 T_{\mathrm{rec} = T_0(1 + z_{\mathrm{rec}) = 2.725 \times 1101 \approx 3000\;\mathrm{K}}}
-$$
 
 The peak wavelength of the CMB blackbody spectrum today is:
 
-$$
 \lambda_{\mathrm{peak} = \frac{b}{T_0} = \frac{2.898 \times 10^{-3}\;\mathrm{m}\cdot K}{2.725\;\mathrm{K} \approx 1.06\;\mathrm{mm}}}
-$$
 
 Where $b$ is Wien's displacement constant. At recombination:
 
-$$
 \lambda_{\mathrm{peak}^{\mathrm{rec} = \frac{b}{T_{\mathrm{rec}} = \frac{2.898 \times 10^{-3}}{3000} \approx 966\;\mathrm{nm}}}}
-$$
 
 This is in the **near-infrared** range. The photons have been redshifted by a factor of
 $(1 + z_{\mathrm{rec}) \approx 1100}$ from near-infrared to microwave wavelengths over 13.8 billion
@@ -34491,25 +34317,17 @@ Reactions to occur. The main products were:
 
 The nuclear reaction chain starts at $T \sim 0.1$ MeV ($t \sim 1$ s):
 
-$$
 p + n \to d + \gamma
-$$
 
-$$
 d + p \to {^3\mathrm{He} + \gamma, \quad d + d \to {^3\mathrm{He} + n, \quad d + d \to t + p}}
-$$
 
-$$
 t + d \to {^4\mathrm{He} + \gamma, \quad {^3\mathrm{He} + d \to {^4\mathrm{He} + p}}}
-$$
 
 The process stops at $^4$ He because there are no stable nuclei with $A = 5$.
 
 At $T \gg 1$ MeV, weak interactions maintain $n/p$ in thermal equilibrium:
 
-$$
 \frac{n}{p} = e^{-\Delta m c^2/(k_B T)}
-$$
 
 Where $\Delta m = m_n - m_p \approx 1.293$ MeV/$c^2$.
 
@@ -34519,9 +34337,7 @@ Nucleosynthesis begins ($t \sim 200$ s), neutron decay has reduced this to $n/p 
 
 The predicted helium mass fraction:
 
-$$
 Y_p = \frac{2(n/p)}{1 + n/p} \approx 0.25
-$$
 
 <details>
 <summary>Derivation of the helium mass fraction</summary>
@@ -34529,18 +34345,15 @@ $$
 Let $n_n$ and $n_p$ be the number densities of neutrons and protons. The neutron-to-proton Ratio at
 freeze-out is:
 
-$$
 \frac{n_n}{n_p} = \frac{1}{7}
-$$
 
 Almost all neutrons end up in $^4$ He nuclei. Each $^4$ He nucleus contains 2 neutrons and 2 protons,
 so the number of $^4$ He nuclei per unit volume is:
 
-$$
 n_{^4\mathrm{He} = \frac{n_n}{2}}
-$$
 
-The remaining protons stay as hydrogen: $$n_H = n_p - 2n_{^4\mathrm{He} = n_p - n_n}
+The remaining protons stay as hydrogen: $$
+n_H = n_p - 2n_{^4\mathrm{He}} = n_p - n_n
 $$
 
 The baryon number density is $n_b = n_n + n_p$.
@@ -34548,7 +34361,7 @@ The baryon number density is $n_b = n_n + n_p$.
 The helium mass fraction is:
 
 $$
-Y_p = \frac{4 \cdot n_{^4\mathrm{He}}{n_b} = \frac{4 \cdot n_n/2}{n_n + n_p} = \frac{2n_n}{n_n + n_p} = \frac{2(n_n/n_p)}{1 + n_n/n_p}}
+Y_p = \frac{4 n_{^4\mathrm{He}}}{n_b} = \frac{4 (n_n/2)}{n_n + n_p} = \frac{2n_n}{n_n + n_p} = \frac{2(n_n/n_p)}{1 + n_n/n_p}
 $$
 
 Substituting $n_n/n_p = 1/7$:
@@ -34567,9 +34380,7 @@ effects.
 BBN predictions agree with observations of primordial abundances. The deuterium abundance is
 Particularly sensitive to the baryon-to-photon ratio $\eta = n_b/n_\gamma$:
 
-$$
 \eta \approx 6.1 \times 10^{-10}
-$$
 
 This value is consistent with that derived from the CMB, providing strong support for the Big Bang
 Model.
@@ -34580,9 +34391,7 @@ Model.
 The primordial deuterium abundance depends sensitively on the baryon-to-photon ratio $\eta$. For
 $\eta \approx 6.1 \times 10^{-10}$:
 
-$$
 \mathrm{D}/H \approx 2.5 \times 10^{-5}
-$$
 
 If the baryon density were significantly higher ($\eta \sim 10^{-9}$), deuterium would Be much more
 efficiently processed into $^4$ He, and the deuterium abundance would drop by Orders of magnitude.
@@ -34591,9 +34400,7 @@ Conversely, a lower baryon density would leave more deuterium unburned.
 This strong dependence makes deuterium the best "baryometer" from BBN. Observations of Deuterium
 absorption in high-redshift quasar spectra give:
 
-$$
 \mathrm{D}/H = (2.527 \pm 0.030) \times 10^{-5}
-$$
 
 This constrains $\eta = (6.10 \pm 0.04) \times 10^{-10}$ In excellent agreement with The CMB value of
 $\eta = (6.13 \pm 0.04) \times 10^{-10}$. The concordance between two Completely independent
@@ -34642,42 +34449,30 @@ Consider a spiral galaxy with a flat rotation curve: $v(r) = v_0 \approx 200$ km
 **Without dark matter:** For a galaxy with luminous mass $M_{\mathrm{lum}}$ concentrated Within
 $r_0$ Keplerian dynamics gives:
 
-$$
 v(r) = \sqrt{\frac{GM_{\mathrm{lum}}{r}}}
-$$
 
 This predicts $v \propto r^{-1/2}$ at large $r$ In conflict with the observed flat Rotation curve.
 
 **With a dark matter halo:** Assume a singular isothermal sphere profile with density:
 
-$$
 \rho(r) = \frac{v_0^2}{4\pi G r^2}
-$$
 
 The enclosed mass is:
 
-$$
 M(r) = \int_0^r 4\pi r'^2 \rho(r')\,dr' = \int_0^r \frac{v_0^2}{G}\,dr' = \frac{v_0^2 r}{G}
-$$
 
 The circular velocity is:
 
-$$
 v(r) = \sqrt{\frac{GM(r)}{r}} = \sqrt{\frac{G \cdot v_0^2 r/G}{r}} = v_0
-$$
 
 The velocity is constant, matching the flat rotation curve. The total mass within radius $r$ is
 $M(r) = v_0^2 r / G$.
 
 **Numerical example.** For $v_0 = 200$ km/s and $r = 50$ kpc:
 
-$$
 M(50\;\mathrm{kpc}) = \frac{(200 \times 10^3\;\mathrm{m}/s)^2 \times 50 \times 3.086 \times 10^{19}\;\mathrm{m}{6.674 \times 10^{-11}\;\mathrm{m}^3\,kg^{-1}\,s^{-2}}}
-$$
 
-$$
 = \frac{4 \times 10^{10} \times 1.543 \times 10^{21}}{6.674 \times 10^{-11}} = \frac{6.17 \times 10^{31}}{6.674 \times 10^{-11}} \approx 9.25 \times 10^{41}\;\mathrm{kg}
-$$
 
 This is roughly $4.6 \times 10^{11}$ solar masses, far exceeding the visible mass of a Typical
 spiral galaxy ($\sim 10^{11}$ solar masses), demonstrating that dark matter Dominates the mass
@@ -34697,9 +34492,7 @@ with $w \lt -1/3$.
 The simplest explanation is **Einstein's cosmological constant** $\Lambda$ With equation of state
 $w = -1$:
 
-$$
 \rho_\Lambda = \frac{\Lambda c^2}{8\pi G}, \quad P_\Lambda = -\rho_\Lambda c^2
-$$
 
 **The cosmological constant problem:** Quantum field theory predicts a vacuum energy of order
 $M_{\mathrm{Pl}^4}$ ($\sim 10^{120}$ times larger than the observed value). The origin of the tiny
@@ -34717,9 +34510,7 @@ of their light curve, allowing intrinsic variations to be calibrated.
 
 For a flat universe, the luminosity distance is:
 
-$$
 d_L = c(1+z)\int_0^z \frac{dz'}{H(z')}
-$$
 
 Where $H(z) = H_0\sqrt{\Omega_m(1+z)^3 + \Omega_\Lambda}$ for a $\Lambda$ CDM universe.
 
@@ -34733,9 +34524,7 @@ fainter. This required $\Omega_\Lambda \gt 0$.
 
 The deceleration parameter at $z = 0$ is:
 
-$$
 q_0 = -\frac{\ddot{a}a}{\dot{a}^2}\bigg\rvert_{t_0} = \frac{\Omega_m}{2} - \Omega_\Lambda
-$$
 
 For $\Omega_m = 0.3$ and $\Omega_\Lambda = 0.7$: $q_0 = 0.15 - 0.7 = -0.55 \lt 0$ Confirming
 Acceleration.
@@ -34759,41 +34548,29 @@ The standard Big Bang model has several unresolved issues:
 
 Define the deviation from critical density:
 
-$$
 \lvert\Omega(t) - 1\rvert = \frac{\lvert\rho - \rho_c\rvert}{\rho_c}
-$$
 
 The Friedmann equation with $k \neq 0$ gives:
 
-$$
 \rho_c - \rho = \frac{3kc^2}{8\pi G a^2}
-$$
 
 So $\rho_c - \rho \propto a^{-2}$ While $\rho_c \propto H^2 \propto \rho$ (in a Radiation- or
 matter-dominated era).
 
 Therefore:
 
-$$
 \lvert\Omega - 1\rvert = \frac{\lvert\rho_c - \rho\rvert}{\rho_c} \propto \frac{a^{-2}}{a^{-3}} = a \quad \mathrm{(matter\mathrm{-dominated)}}
-$$
 
-$$
 \lvert\Omega - 1\rvert \propto \frac{a^{-2}}{a^{-4}} = a^2 \quad \mathrm{(radiation\mathrm{-dominated)}}
-$$
 
 **In a matter-dominated universe:** $\lvert\Omega - 1\rvert$ grows linearly with $a$. Going From
 $a_{\mathrm{now} = 1}$ back to the Planck time ($a \sim 10^{-32}$):
 
-$$
 \lvert\Omega - 1\rvert_{\mathrm{Planck} \sim 10^{-32} \times \lvert\Omega - 1\rvert_{\mathrm{now}}}
-$$
 
 Since $\lvert\Omega_{\mathrm{now} - 1\rvert \sim 0.007}$ This gives:
 
-$$
 \lvert\Omega - 1\rvert_{\mathrm{Planck} \sim 7 \times 10^{-35}}
-$$
 
 This is an extraordinarily fine-tuned initial condition. Inflation solves this by Exponentially
 expanding $a$ by a factor of $e^{N}$ ($N \sim 60$), driving $\lvert\Omega - 1\rvert$ to
@@ -34803,9 +34580,7 @@ $e^{-2N} \sim 10^{-52}$ after inflation, which then Grows to the observed value 
 
 **Inflation** (Guth, 1981) proposes a period of exponential expansion in the early universe:
 
-$$
 a(t) \propto e^{Ht}, \quad H \approx \mathrm{const}
-$$
 
 Lasting from $t \sim 10^{-36}$ s to $t \sim 10^{-33}$ s, during which the universe expanded by a
 Factor of $\sim e^{60} \sim 10^{26}$.
@@ -34822,9 +34597,7 @@ Factor of $\sim e^{60} \sim 10^{26}$.
 Inflation is driven by a scalar field $\phi$ (the **inflaton**) with potential $V(\phi)$. The
 Slow-roll parameters are:
 
-$$
 \epsilon = \frac{M_{\mathrm{Pl}^2}{2}\left(\frac{V'}{V}\right)^2 \ll 1, \quad \eta = M_{\mathrm{Pl}^2 \frac{V''}{V} \ll 1}}
-$$
 
 The number of e-folds: $N = \int_{t_i}^{t_f} H\,dt$.
 
@@ -35410,33 +35183,23 @@ The completely antisymmetric singlet is the colour-neutral baryon.
 The eight Gell-Mann matrices $\lambda^a$ are the generators of SU(3) in the fundamental
 Representation. They satisfy:
 
-$$
 [\lambda^a, \lambda^b] = 2if^{abc}\lambda^c, \quad \mathrm{Tr}(\lambda^a\lambda^b) = 2\delta^{ab}
-$$
 
 Where $f^{abc}$ are the totally antisymmetric **structure constants** of SU(3).
 
 Explicitly:
 
-$$
 \lambda^1 = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}, \quad
 \lambda^2 = \begin{pmatrix} 0 & -i & 0 \\ i & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}, \quad
 \lambda^3 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 0 \end{pmatrix}
-$$
 
-$$
 \lambda^4 = \begin{pmatrix} 0 & 0 & 1 \\ 0 & 0 & 0 \\ 1 & 0 & 0 \end{pmatrix}, \quad
 \lambda^5 = \begin{pmatrix} 0 & 0 & -i \\ 0 & 0 & 0 \\ i & 0 & 0 \end{pmatrix}
-$$
 
-$$
 \lambda^6 = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, \quad
 \lambda^7 = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & -i \\ 0 & i & 0 \end{pmatrix}
-$$
 
-$$
 \lambda^8 = \frac{1}{\sqrt{3}}\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -2 \end{pmatrix}
-$$
 
 The normalised generators used in the QCD Lagrangian are $T^a = \lambda^a/2$ Satisfying
 $[T^a, T^b] = if^{abc}T^c$ and $\mathrm{Tr}(T^a T^b) = \delta^{ab}/2$.
@@ -35449,15 +35212,11 @@ $[T^a, T^b] = if^{abc}T^c$ and $\mathrm{Tr}(T^a T^b) = \delta^{ab}/2$.
 The tensor product $\mathbf{3} \otimes \bar{\mathbf{3}}$ can be decomposed using the Clebsch--Gordan
 series for SU(3):
 
-$$
 \mathbf{3} \otimes \bar{\mathbf{3}} = \mathbf{8} \oplus \mathbf{1}
-$$
 
 The singlet $\mathbf{1}$ corresponds to the colour-neutral state:
 
-$$
 \frac{1}{\sqrt{3}}(r\bar{r} + g\bar{g} + b\bar{b})
-$$
 
 This is the unique SU(3)-invariant combination, analogous to the trace of a $3 \times 3$ Matrix. The
 remaining eight independent components form the adjoint representation $\mathbf{8}$.
@@ -35472,29 +35231,19 @@ and spin wavefunctions are independent of this colour structure.
 
 First decompose two triplets:
 
-$$
 \mathbf{3} \otimes \mathbf{3} = \mathbf{6}_S \oplus \mathbf{3}_A
-$$
 
 Where the subscript denotes symmetry ($S$) or antisymmetry ($A$) under exchange of the Two quarks.
 
 Then:
 
-$$
 \mathbf{3} \otimes \mathbf{3} \otimes \mathbf{3} = (\mathbf{6}_S \oplus \mathbf{3}_A) \otimes \mathbf{3}
-$$
 
-$$
 = \mathbf{6}_S \otimes \mathbf{3} \oplus \mathbf{3}_A \otimes \mathbf{3}
-$$
 
-$$
 = (\mathbf{10}_S \oplus \mathbf{8}_M) \oplus (\mathbf{8}_M \oplus \mathbf{1}_A)
-$$
 
-$$
 = \mathbf{10} \oplus \mathbf{8} \oplus \mathbf{8} \oplus \mathbf{1}
-$$
 
 The completely antisymmetric singlet $\mathbf{1}_A$ is the colour wavefunction of all Baryons. In
 the full baryon wavefunction, the colour part is antisymmetric, so the Combined flavour $\otimes$
@@ -35511,25 +35260,18 @@ The electroweak interaction is governed by SU(2)$_L \times$ U(1)$_Y$:
 - U(1)$_Y$: weak hypercharge, acts on all particles.
 
 Left-handed fermions form SU(2) doublets:
-$$
 L = \begin{pmatrix} \nu_e \\ e^- \end{pmatrix}_L, \quad Q = \begin{pmatrix} u \\ d \end{pmatrix}_L
-$$
 
 Right-handed fermions are singlets under SU(2): $$e_R, \quad u_R, \quad d_R
-$$
 
 The electric charge is: $Q = T_3 + Y/2$.
 
 After electroweak symmetry breaking, the $W^\pm$ and $Z^0$ bosons and the photon emerge as linear
 Combinations of the SU(2) and U(1) gauge fields:
 
-$$
 W^\pm = \frac{1}{\sqrt{2}}(W^1 \mp iW^2)
-$$
 
-$$
 \begin{pmatrix} Z^0 \\ A \end{pmatrix} = \begin{pmatrix} \cos\theta_W & \sin\theta_W \\ -\sin\theta_W & \cos\theta_W \end{pmatrix} \begin{pmatrix} W^3 \\ B \end{pmatrix}
-$$
 
 ### 5.5 Flavour Symmetries and the Eightfold Way
 
@@ -35547,43 +35289,28 @@ in 1964 was a triumph of the quark model.
 
 The Gell-Mann--Okubo mass formula for the baryon octet is:
 
-$$
 \frac{1}{2}(N + \Xi) + \frac{3}{2}\Lambda = 2\Sigma
-$$
 
 Where $N$, $\Xi$, $\Lambda$, $\Sigma$ denote the average masses of the respective isospin
 Multiplets. Substituting the experimental values:
 
-$$
 N = \frac{m_p + m_n}{2} = \frac{938.3 + 939.6}{2} = 938.9\;\mathrm{MeV}
-$$
-$$
 \Xi = \frac{m_{\Xi^0} + m_{\Xi^-}}{2} = \frac{1314.9 + 1321.7}{2} = 1318.3\;\mathrm{MeV}
-$$
-$$
 \Lambda = 1115.7\;\mathrm{MeV}
 $$
-$$
 \Sigma = \frac{m_{\Sigma^+} + m_{\Sigma^0} + m_{\Sigma^-}}{3} = \frac{1189.4 + 1192.6 + 1197.4}{3} = 1193.1\;\mathrm{MeV}
-$$
 
 **Left-hand side:**
 
-$$
 \frac{1}{2}(938.9 + 1318.3) + \frac{3}{2}(1115.7) = 1128.6 + 1673.6 = 2802.2\;\mathrm{MeV}
-$$
 
 **Right-hand side:**
 
-$$
 2 \times 1193.1 = 2386.2\;\mathrm{MeV}
-$$
 
 Wait --- these do not match. This is because the GMO formula for the octet is correctly:
 
-$$
 \frac{m_N + m_\Xi}{2} = \frac{3m_\Lambda + m_\Sigma}{4}
-$$
 
 **Left-hand side:** $(938.9 + 1318.3)/2 = 1128.6$ MeV. **Right-hand side:**
 $(3 \times 1115.7 + 1193.1)/4 = (3347.1 + 1193.1)/4 = 4540.2/4 = 1135.1$ MeV.
@@ -35598,9 +35325,7 @@ small deviation is due to SU(3) breaking by the strange quark mass.
 
 The baryon decuplet states have masses that follow an equal-spacing rule in strangeness:
 
-$$
 m_{\Omega^-} - m_{\Xi^*} = m_{\Xi^*} - m_{\Sigma^*} = m_{\Sigma^*} - m_\Delta
-$$
 
 Checking with experimental values:
 
@@ -35622,9 +35347,7 @@ prediction for the decuplet. The deviations reflect higher-order SU(3)-breaking 
 
 For the pseudoscalar meson octet, the Gell-Mann--Okubo formula gives:
 
-$$
 4m_K^2 = m_\pi^2 + 3m_\eta^2
-$$
 
 Using experimental masses:
 

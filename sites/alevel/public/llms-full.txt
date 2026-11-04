@@ -17418,9 +17418,7 @@ to be separated by crossing over during meiosis.
 
 The recombination frequency (RF) between two linked genes is calculated from a test cross:
 
-$$
 \mathrm{RF} = \frac{\text{Number of recombinant offspring}}{\text{Total number of offspring}} \times 100\%
-$$
 
 The recombination frequency is approximately equal to the **map distance** between the genes in
 **centiMorgans (cM)**. One centiMorgan corresponds to a 1% probability of crossing over between the
@@ -17470,9 +17468,7 @@ expected ratios in crosses.
 **Worked Example.** A male with haemophilia (X-linked recessive, $X^hY$) has a daughter who is a
 carrier ($X^HX^h$). She marries a normal male ($X^HY$).
 
-$$
 X^HX^h \times X^HY
-$$
 
 <div class="table-wrap">
 
@@ -17528,9 +17524,7 @@ $11\ \mathrm{cM}$.
 When the expected frequency in any category is less than 5, the standard chi-squared test is
 unreliable. Yates' correction for continuity is applied:
 
-$$
 \chi^2_{\mathrm{Yates}} = \sum \frac{(|O - E| - 0.5)^2}{E}
-$$
 
 This correction reduces the chi-squared value, making the test more conservative (less likely to
 reject the null hypothesis).
@@ -17554,9 +17548,7 @@ Mean fitness: $\bar{w} = p^2 \cdot 1 + 2pq \cdot 1 + q^2 \cdot 0.5 = 0.64 + 0.32
 
 After selection, the new frequency of $a$:
 
-$$
 q' = \frac{q^2 \cdot w_{aa} + pq \cdot w_{Aa}}{\bar{w}} = \frac{0.04 \times 0.5 + 0.16 \times 1}{0.98} = \frac{0.02 + 0.16}{0.98} = \frac{0.18}{0.98} = 0.1837
-$$
 
 The frequency of $a$ has decreased from 0.2 to 0.1837 in one generation due to selection against
 $aa$.
@@ -17568,24 +17560,18 @@ populations. Its effect is inversely proportional to population size ($N$).
 
 The rate of allele frequency change due to drift can be approximated by the standard deviation:
 
-$$
 \sigma_q = \sqrt{\frac{pq}{2N}}
-$$
 
 Where $N$ is the effective population size.
 
 **Worked Example.** In a population of $N = 100$ with $p = 0.5$, $q = 0.5$:
 
-$$
 \sigma_q = \sqrt{\frac{0.5 \times 0.5}{2 \times 100}} = \sqrt{\frac{0.25}{200}} = \sqrt{0.00125} = 0.0354
-$$
 
 The allele frequency is expected to fluctuate by approximately $\pm 0.035$ per generation due to
 drift. In a population of $N = 10000$:
 
-$$
 \sigma_q = \sqrt{\frac{0.25}{20000}} = 0.00354
-$$
 
 The fluctuation is 10 times smaller. This demonstrates that drift is significant only in small
 populations.
@@ -17600,9 +17586,7 @@ alleles from the source population.
 
 Gene flow (migration) changes allele frequencies when individuals move between populations:
 
-$$
 \Delta p = m(p_m - p)
-$$
 
 Where $m$ is the migration rate (proportion of the population that are migrants), $p_m$ is the
 allele frequency in the migrant population, and $p$ is the allele frequency in the resident
@@ -17611,13 +17595,9 @@ population.
 **Worked Example.** A resident population has $p = 0.9$ for allele $A$. Migrants arrive with
 $p_m = 0.3$. The migration rate is $m = 0.1$ (10% migrants).
 
-$$
 \Delta p = 0.1(0.3 - 0.9) = 0.1(-0.6) = -0.06
-$$
 
-$$
 p' = 0.9 - 0.06 = 0.84
-$$
 
 The frequency of $A$ decreases from 0.9 to 0.84 in one generation due to gene flow from the migrant
 population.
@@ -17722,13 +17702,9 @@ decreases by approximately $sq^2$ per generation (for small $q$).
 **Worked Example: Selection against a lethal recessive.** A population has $q = 0.1$ for a lethal
 recessive allele ($s = 1$).
 
-$$
 \Delta q = -sq^2 \cdot p = -1 \times 0.01 \times 0.9 = -0.009
-$$
 
-$$
 q' = 0.1 - 0.009 = 0.091
-$$
 
 The frequency decreases very slowly because most copies of the recessive allele are "hidden" in
 heterozygotes, where they are not exposed to selection.
@@ -17741,9 +17717,7 @@ The molecular clock hypothesis states that mutations accumulate in DNA at a roug
 so the number of sequence differences between two species is proportional to the time since their
 divergence.
 
-$$
 \text{Divergence time} = \frac{d}{2\mu}
-$$
 
 Where $d$ is the proportion of nucleotide sites that differ between two species, and $\mu$ is the
 mutation rate per site per year. The factor of 2 accounts for independent accumulation of mutations
@@ -17753,9 +17727,7 @@ in both lineages.
 region. The mutation rate is estimated at $\mu = 2.5 \times 10^{-9}$ substitutions per site per
 year.
 
-$$
 \text{Time} = \frac{0.036}{2 \times 2.5 \times 10^{-9}} = \frac{0.036}{5 \times 10^{-9}} = 7.2 \times 10^6\ \text{years}
-$$
 
 The two species diverged approximately 7.2 million years ago.
 
@@ -18031,9 +18003,7 @@ the likely explanation, not dominance.
 When two genes are linked on the same chromosome, they do not assort independently. The frequency of
 recombinant offspring reflects the distance between the genes.
 
-$$
 \text{Recombination frequency (RF)} = \frac{\text{Number of recombinant offspring}}{\text{Total offspring}} \times 100\%
-$$
 
 $1\%$ recombination frequency $= 1$ centimorgan (cM) $= 1$ map unit.
 
@@ -18060,17 +18030,11 @@ The genes $A$ and $B$ are 20 cM apart.
 In a three-point cross, double crossovers (DCOs) may occur less frequently than expected because one
 crossover event can physically interfere with a second nearby crossover.
 
-$$
 \text{Coincidence (c.o.c.)} = \frac{\text{Observed DCO frequency}}{\text{Expected DCO frequency}}
-$$
 
-$$
 \text{Expected DCO frequency} = \text{RF}_{AB} \times \text{RF}_{BC}
-$$
 
-$$
 \text{Interference} = 1 - \text{Coincidence}
-$$
 
 **Worked Example.** Three genes ($A$, $B$, $C$) are mapped. $\text{RF}_{AB} = 15\%$,
 $\text{RF}_{BC} = 10\%$. Observed DCO frequency $= 0.5\%$.
@@ -18380,9 +18344,7 @@ distribution becomes smoother and more bell-shaped.
 **Heritability** ($h^2$) is the proportion of the total phenotypic variation in a population that is
 due to genetic variation:
 
-$$
 h^2 = \frac{V_G}{V_P} = \frac{V_G}{V_G + V_E}
-$$
 
 Where $V_G$ = genetic variance, $V_E$ = environmental variance, $V_P$ = total phenotypic variance.
 
@@ -18579,9 +18541,7 @@ developmental biology (evo-devo).
 The **selection coefficient** ($s$) measures the reduction in fitness of a genotype relative to the
 fittest genotype. If the fittest genotype has fitness $w = 1.0$ Then:
 
-$$
 s = 1 - w
-$$
 
 **Worked Example.** Three genotypes at a locus have the following survival rates:
 
@@ -18602,9 +18562,7 @@ The $aa$ genotype has the highest fitness. The $AA$ genotype has $s = 0.10$.
 The change in allele frequency per generation due to selection against a recessive allele is
 approximately:
 
-$$
 \Delta q \approx \frac{-spq^2}{1 - sq^2}
-$$
 
 **Worked Example.** $p = 0.60$$q = 0.40$$s = 0.10$.
 
@@ -18814,36 +18772,23 @@ correct term is "non-coding DNA."
 ($f$) is 0.02. Calculate the expected number of homozygous dominant, heterozygous, and homozygous
 recessive individuals.
 
-$$
 p = 1 - q = 1 - 0.02 = 0.98
-$$
 
-$$
 p^2 = (0.98)^2 = 0.9604 \quad \Rightarrow \quad 9604 \text{ individuals}
-$$
 
 $$
 2pq = 2 \times 0.98 \times 0.02 = 0.0392 \quad \Rightarrow \quad 392 \text{ individuals}
-$$
 
-$$
 q^2 = (0.02)^2 = 0.0004 \quad \Rightarrow \quad 4 \text{ individuals}
-$$
 
 **Problem:** Sickle cell anaemia has an incidence of 1 in 2,500 in a West African population. What
 proportion of the population are carriers?
 
-$$
 q^2 = \frac{1}{2500} = 0.0004 \quad \Rightarrow \quad q = 0.02
-$$
 
-$$
 p = 1 - 0.02 = 0.98
-$$
 
-$$
 2pq = 2 \times 0.98 \times 0.02 = 0.0392 \quad \Rightarrow \quad \text{approximately } 3.9\% \text{ of the population are carriers}
-$$
 
 ### 19.2 Selection Coefficients and Fitness
 
@@ -18863,18 +18808,14 @@ fittest genotype.
 **Selection against a recessive allele:** when $s$ is small, the change in allele frequency per
 generation ($\Delta q$) is approximately:
 
-$$
 \Delta q \approx -sq^2(1-q)
-$$
 
 This means selection against a recessive allele is very slow when the allele is rare (because most
 copies of the allele are "hidden" in heterozygotes, where they have no effect on fitness).
 
 **Example:** if $s = 0.1$ (10% fitness reduction) and $q = 0.5$:
 
-$$
 \Delta q \approx -0.1 \times 0.25 \times 0.5 = -0.0125
-$$
 
 The frequency of the recessive allele decreases by approximately 0.0125 per generation.
 
@@ -18890,15 +18831,11 @@ bottleneck some alleles may be lost entirely (especially rare alleles like $r$).
 **Probability of allele loss in a bottleneck:** the probability that an allele with frequency $q$ is
 lost in a population of $N$ individuals after a bottleneck is approximately:
 
-$$
 P(\text{loss}) \approx (1-q)^{2N}
-$$
 
 For allele $r$ ($q = 0.1$) with $N = 10$:
 
-$$
 P(\text{loss}) \approx (0.9)^{20} \approx 0.122
-$$
 
 There is approximately a 12% chance that allele $r$ is lost after this bottleneck.
 
@@ -18908,9 +18845,7 @@ The effective population size is smaller than the actual (census) population siz
 
 1. Unequal sex ratio: if there are 100 males and 900 females, $N_e$ is much less than 1000.
 
-$$
 N_e = \frac{4N_m N_f}{N_m + N_f} = \frac{4 \times 100 \times 900}{1000} = 360
-$$
 
 1. Variation in reproductive success: if some individuals produce many offspring and others produce
    none, $N_e$ is reduced.
@@ -18918,9 +18853,7 @@ $$
 2. Fluctuating population size: $N_e$ is closer to the harmonic mean of population sizes over time,
    which is dominated by the smallest population size.
 
-$$
 \frac{1}{N_e} = \frac{1}{t}\left(\frac{1}{N_1} + \frac{1}{N_2} + \cdots + \frac{1}{N_t}\right)
-$$
 
 ## 20. Chromosome Mutations and Karyotyping
 
@@ -19233,9 +19166,7 @@ This produces a normal distribution (bell curve) when plotted as a histogram.
 Heritability ($h^2$) is the proportion of phenotypic variation that is due to genetic variation (as
 opposed to environmental variation):
 
-$$
 h^2 = \frac{V_G}{V_P} = \frac{V_G}{V_G + V_E}
-$$
 
 Where $V_G$ = genetic variance; $V_E$ = environmental variance; $V_P = V_G + V_E$ = total phenotypic
 variance.
@@ -19452,18 +19383,14 @@ independently):
 
 ### 29.2 Calculating Recombination Frequency
 
-$$
 \text{Recombination frequency} = \frac{\text{Number of recombinant offspring}}{\text{Total number of offspring}} \times 100
-$$
 
 **Example:** A test cross of a double heterozygote produces 400 offspring:
 
 - Parental types: 180 AB/ab + 170 Ab/aB = 350
 - Recombinant types: 15 Ab/aB + 35 aB/Ab = 50
 
-$$
 \text{Recombination frequency} = \frac{50}{400} \times 100 = 12.5\%
-$$
 
 The genes are 12.5 map units (centimorgans, cM) apart.
 
@@ -19523,7 +19450,6 @@ Cystic fibrosis is caused by a recessive allele (f). The incidence of cystic fib
 $$q^2 = \frac{1}{2500} = 0.0004$$ $$q = \sqrt{0.0004} = 0.02$$ $$p = 1 - 0.02 = 0.98$$
 
 Carrier frequency ($2pq$): $$2pq = 2 \times 0.98 \times 0.02 = 0.0392 \approx \frac{1}{25}
-$$
 
 So approximately 1 in 25 people is a carrier of cystic fibrosis.
 
@@ -19533,9 +19459,7 @@ So approximately 1 in 25 people is a carrier of cystic fibrosis.
 
 The chi-squared test determines whether observed data deviates significantly from expected ratios:
 
-$$
 \chi^2 = \sum \frac{(O - E)^2}{E}
-$$
 
 Where $O$ = observed value, $E$ = expected value.
 
@@ -19829,13 +19753,9 @@ time.
 
 ### 53.2 Allele Frequency
 
-$$
 p = \frac{\text{Number of copies of the dominant allele}}{\text{Total number of alleles in the population}}
-$$
 
-$$
 q = \frac{\text{Number of copies of the recessive allele}}{\text{Total number of alleles in the population}}
-$$
 
 Where $p + q = 1$.
 
@@ -19874,9 +19794,7 @@ of a cross differ significantly from the expected (predicted) results based on a
 
 ### 54.2 Formula
 
-$$
 \chi^2 = \sum \frac{(O - E)^2}{E}
-$$
 
 Where:
 
@@ -19943,9 +19861,7 @@ Mean fitness: $\bar{w} = 0.49 + 0.42 + 0.09 \times 0.4 = 0.49 + 0.42 + 0.036 = 0
 
 New frequency of $a$:
 
-$$
 q' = \frac{q^2 \cdot w_{aa} + pq \cdot w_{Aa}}{\bar{w}} = \frac{0.09 \times 0.4 + 0.21}{0.946} = \frac{0.036 + 0.21}{0.946} = \frac{0.246}{0.946} = 0.260
-$$
 
 The frequency decreased from 0.3 to 0.260. $\blacksquare$
 
@@ -30552,11 +30468,8 @@ stored in organic molecules. The overall equation for photosynthesis:
 
 $$
 6\mathrm{CO_2} + 6\mathrm{H_2O} \xrightarrow{\text{light}} \mathrm{C_6H_{12}O_6} + 6\mathrm{O_2}
-$$
 
-$$
 \Delta G = +2870\ \mathrm{kJ\ mol^{-1}}
-$$
 
 Photosynthesis is endergonic -- energy is required. This energy is supplied by light, captured by
 photosynthetic pigments and converted to chemical energy in the form of ATP and reduced NADP
@@ -30677,9 +30590,7 @@ lowest, least soluble).
 
 The **$R_f$ value** (retention factor) can be calculated:
 
-$$
 R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by solvent front}}
-$$
 
 ## 4. Light-Dependent Reactions
 
@@ -30719,9 +30630,7 @@ very strong oxidising agent.
 **Step 2: Photolysis of water.** The strong oxidising power of $\mathrm{P680^+}$ is used to split
 water molecules in a process called **photolysis**:
 
-$$
 \mathrm{2H_2O \to 4H^+ + 4e^- + O_2}
-$$
 
 The electrons replace those lost by P680. The $\mathrm{O_2}$ is released as a by-product (all
 atmospheric $\mathrm{O_2}$ comes from photosynthesis). The $\mathrm{H^+}$ ions contribute to the
@@ -30742,9 +30651,7 @@ re-exciting P700. P700 donates the electron to ferredoxin (Fd) via ferredoxin-NA
 **Step 5: $\mathrm{NADPH}$ production.** The enzyme ferredoxin-NADP reductase (FNR) transfers
 electrons from ferredoxin to $\mathrm{NADP^+}$ Reducing it to $\mathrm{NADPH}$:
 
-$$
 \mathrm{NADP^+ + 2e^- + H^+ \to NADPH}
-$$
 
 **Step 6: ATP synthesis by chemiosmosis.** The proton gradient across the thylakoid membrane (high
 $\mathrm{H^+}$ in the lumen, low in the stroma) drives ATP synthesis by ATP synthase. Protons flow
@@ -30792,9 +30699,7 @@ $\mathrm{CO_2}$ with ribulose-1,5-bisphosphate (RuBP, 5-carbon) to produce an un
 intermediate. This immediately splits into two molecules of **glycerate-3-phosphate (GP, also called
 3-phosphoglycerate, 3-PGA)**, each with 3 carbons:
 
-$$
 \mathrm{CO_2 + RuBP\ (5C) \to 2\ GP\ (3C)}
-$$
 
 Rubisco is the most abundant protein on Earth. It is also a relatively slow enzyme (turnover number
 $\approx 3\ \mathrm{s^{-1}}$), which limits the rate of photosynthesis.
@@ -30802,13 +30707,9 @@ $\approx 3\ \mathrm{s^{-1}}$), which limits the rate of photosynthesis.
 **Step 2: Reduction of GP to triose phosphate (TP).** GP is phosphorylated by ATP (from the
 light-dependent reactions) and then reduced by $\mathrm{NADPH}$:
 
-$$
 \mathrm{GP + ATP \to 1,3\text{-}bisphosphoglycerate + ADP}
-$$
 
-$$
 \mathrm{1,3\text{-}BPG + NADPH + H^+ \to triose\ phosphate\ (TP,\ G3P) + NADP^+ + P_i}
-$$
 
 This step requires 1 ATP and 1 $\mathrm{NADPH}$ per molecule of GP (2 ATP and 2 $\mathrm{NADPH}$ per
 $\mathrm{CO_2}$ fixed).
@@ -30838,9 +30739,7 @@ For every 3 turns (fixing 3 $\mathrm{CO_2}$):
 
 The net equation for the Calvin cycle (per glucose):
 
-$$
 6\mathrm{CO_2} + 18\ ATP + 12\ NADPH + 12\ H_2O \to C_6H_{12}O_6 + 18\ ADP + 18\ P_i + 12\ NADP^+
-$$
 
 ### 5.4 Fate of Triose Phosphate (G3P)
 
@@ -30986,9 +30885,7 @@ maximising photosynthetic efficiency at high temperatures.
    affinity for $\mathrm{CO_2}$ than Rubisco and does not react with $\mathrm{O_2}$) by combining
    with phosphoenolpyruvate (PEP, 3-carbon) to form oxaloacetate (4-carbon, hence "$\mathrm{C_4}$").
 
-$$
 \mathrm{PEP + CO_2 \to oxaloacetate}
-$$
 
 1. Oxaloacetate is converted to malate (or aspartate, another 4-carbon acid).
 
@@ -31077,9 +30974,7 @@ lamp:
 
 Light intensity is inversely proportional to the square of the distance (inverse square law):
 
-$$
 I \propto \frac{1}{d^2}
-$$
 
 Relative light intensities: $d = 5 \Rightarrow I = 400$; $d = 10 \Rightarrow I = 100$;
 $d = 20 \Rightarrow I = 25$; $d = 30 \Rightarrow I = 11.1$; $d = 50 \Rightarrow I = 4$.
@@ -31286,9 +31181,7 @@ released by respiration.
 **Net photosynthesis** is the rate of $\mathrm{CO_2}$ uptake minus the rate of $\mathrm{CO_2}$
 release from respiration:
 
-$$
 \text{Net photosynthesis} = \text{Gross photosynthesis} - \text{Respiration}
-$$
 
 **Worked Example.** A plant's leaves fix $\mathrm{CO_2}$ at a rate of
 $12.0\ \mu\mathrm{mol\ m^{-2}\ s^{-1}}$ (gross photosynthesis) and release $\mathrm{CO_2}$ at a rate
@@ -31340,9 +31233,7 @@ absorption.
 
 Aquatic plants face a unique challenge: $\mathrm{CO_2}$ dissolves in water and forms carbonic acid:
 
-$$
 \mathrm{CO_2} + H_2O \rightleftharpoons H_2CO_3 \rightleftharpoons H^+ + HCO_3^- \rightleftharpoons 2H^+ + CO_3^{2-}
-$$
 
 This reduces the concentration of freely available $\mathrm{CO_2}$ (as dissolved $\mathrm{CO_2}$),
 potentially limiting photosynthesis. Aquatic plants have adaptations:
@@ -31451,9 +31342,7 @@ warming.
 
 For a stable atmospheric $\mathrm{CO_2}$ concentration:
 
-$$
 \text{Photosynthetic fixation} = \text{Respiration} + \text{Combustion} + \text{Decomposition}
-$$
 
 Currently, anthropogenic $\mathrm{CO_2}$ emissions exceed the capacity of natural sinks
 (photosynthesis and ocean absorption), leading to accumulation. Deforestation reduces photosynthetic
@@ -31602,9 +31491,7 @@ Chromatography separates mixtures based on differential partitioning between a *
 
 1. Calculate the **retention factor ($R_f$)** for each pigment:
 
-$$
 R_f = \frac{\text{Distance travelled by pigment}}{\text{Distance travelled by solvent front}}
-$$
 
 ### 16.2 Expected Results
 
@@ -31720,9 +31607,7 @@ which are held constant.
 
 Light intensity follows the **inverse square law**:
 
-$$
 I \propto \frac{1}{d^2}
-$$
 
 If the light intensity at 10 cm is $400\ \mu\mathrm{mol\ photons\ m^{-2}\ s^{-1}}$ Then at 40 cm:
 
@@ -31869,9 +31754,7 @@ engulfed by a eukaryotic cell (primary endosymbiosis). Evidence:
 The relationship between light intensity and photosynthetic rate can be described by a rectangular
 hyperbola:
 
-$$
 P = \frac{P_{\max} \times I}{K_m + I}
-$$
 
 Where $P$ = photosynthetic rate, $P_{\max}$ = maximum rate (at saturation), $I$ = light intensity,
 $K_m$ = light intensity at which the rate is half of $P_{\max}$.
@@ -31926,16 +31809,12 @@ rate even when light intensity is at its peak.
 **Step 1 (mesophyll cells):** $\mathrm{CO_2}$ is fixed by PEP carboxylase to form oxaloacetate (4C),
 which is converted to malate.
 
-$$
 \mathrm{PEP + CO_2 \xrightarrow{PEP\ carboxylase} oxaloacetate \to malate}
-$$
 
 **Step 2 (bundle sheath cells):** malate diffuses into the bundle sheath cells (through
 plasmodesmata) and is decarboxylated, releasing $\mathrm{CO_2}$.
 
-$$
 \mathrm{Malate \to pyruvate + CO_2}
-$$
 
 The released $\mathrm{CO_2}$ has a high concentration in the bundle sheath cells (up to 60 times
 atmospheric), which suppresses the oxygenase activity of Rubisco and minimises photorespiration.
@@ -32013,9 +31892,7 @@ oxygen when illuminated in the presence of an artificial electron acceptor (e.g.
 This proved that oxygen production (photolysis of water) is separate from carbon fixation (the
 Calvin cycle), which requires $\mathrm{CO_2}$.
 
-$$
 2\mathrm{H_2O + 2\ \text{ferricyanide (oxidised)} \xrightarrow{\text{light, chloroplasts}} O_2 + 2\ \text{ferrocyanide (reduced)} + 4H^+}
-$$
 
 ### 21.5 Calvin, Benson, and Bassham (1950s)
 
@@ -32118,9 +31995,7 @@ RuBP.
 
 ### 23.3 Calculating Net Primary Productivity (NPP)
 
-$$
 \mathrm{NPP} = \mathrm{GPP} - R
-$$
 
 Where:
 
@@ -32131,9 +32006,7 @@ Where:
 **Example:** A forest has a GPP of $20,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$ and respiratory losses of
 $12,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}$.
 
-$$
 \mathrm{NPP} = 20,000 - 12,000 = 8,000\ \mathrm{kJ\ m^{-2}\ yr^{-1}}
-$$
 
 The NPP represents the energy available to the next trophic level (herbivores). Only approximately
 10--20% of NPP is transferred to herbivores (the rest is lost as heat, uneaten material, or
@@ -32312,7 +32185,6 @@ suppresses photorespiration:
 1. **$\mathrm{CO_2}$ fixation**: $\mathrm{CO_2}$ is initially fixed by PEP carboxylase in mesophyll
    cells. PEP carboxylase has a much higher affinity for $\mathrm{CO_2}$ than Rubisco and does not
    react with $\mathrm{O_2}$. $$\mathrm{PEP + CO_2 \to oxaloacetate\ (4C)}
-$$
 2. **Conversion**: oxaloacetate is converted to malate (or aspartate) and transported to bundle
    sheath cells (which surround the vascular bundles).
 3. **Decarboxylation**: malate is decarboxylated in bundle sheath cells, releasing $\mathrm{CO_2}$
@@ -32377,9 +32249,7 @@ initial $\mathrm{CO_2}$ fixation and the Calvin cycle in time rather than in spa
    (pheophytin).
 3. P680+ is a very strong oxidising agent. It extracts electrons from water by photolysis:
 
-$$
 2\mathrm{H_2O \to 4H^+ + 4e^- + O_2}
-$$
 
 1. The electron passes through the PSII electron transport chain: pheophytin $\to$ plastoquinone
    (PQ) $\to$ cytochrome $b_6f$ complex.
@@ -32396,9 +32266,7 @@ $$
 4. Ferredoxin-NADP$^+$ reductase (FNR) transfers electrons from reduced ferredoxin to
    $\mathrm{NADP^+}$:
 
-$$
 \mathrm{NADP^+ + 2H^+ + 2e^- \to NADPH}
-$$
 
 The $\mathrm{H^+}$ ions come from the stroma (not the lumen).
 
@@ -32484,9 +32352,7 @@ PSI can operate in cyclic mode:
 When $\mathrm{O_2}$ concentration is high (or $\mathrm{CO_2}$ is low), Rubisco catalyses the
 oxygenation of RuBP:
 
-$$
 \text{RuBP} + \mathrm{O_2} \to \text{1 GP (3C)} + \text{glycolate (2C)}
-$$
 
 Glycolate is transported to peroxisomes, where it is converted to glycine (2C). Two glycines are
 converted to serine (3C) + $\mathrm{CO_2}$ + $\mathrm{NH_3}$ (in mitochondria). Serine is converted
@@ -33227,9 +33093,7 @@ For 6 $\mathrm{CO_2}$: ATP $= 6 \times 3 = 18$. NADPH $= 6 \times 2 = 12$.
 Net product: 2 molecules of triose phosphate (G3P), which combine to form 1 molecule of glucose
 ($\mathrm{C_6H_{12}O_6}$).
 
-$$
 6\mathrm{CO_2} + 18\ \mathrm{ATP} + 12\ \mathrm{NADPH} + 12\ \mathrm{H_2O} \to \mathrm{C_6H_{12}O_6} + 18\ \mathrm{ADP} + 18\ P_i + 12\ \mathrm{NADP^+}
-$$
 
 $\blacksquare$
 
@@ -33254,7 +33118,6 @@ $\blacksquare$
 
 **Biology studies life in all its forms, from microscopic cells to entire ecosystems.**
 
-```mermaid
 flowchart LR
     A[Sunlight] --> B[Photosystem II]
     B --> C[Electron Transport Chain]
@@ -33267,7 +33130,6 @@ flowchart LR
     H --> I[CO2 Fixation: RuBisCO]
     I --> J[G3P -> Glucose]
     J --> K[Starch / Sucrose]
-```
 
 ## Summary
 
@@ -38508,25 +38370,19 @@ Mechanism.
 
 The reaction between methane and chlorine under UV light is the canonical example.
 
-$$
 \mathrm{CH}_4 + \mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} \mathrm{CH}_3\mathrm{Cl} + \mathrm{HCl}
-$$
 
 ### Mechanism: Step-by-Step
 
 **Initiation:** Homolytic fission of the $\mathrm{Cl-Cl}$ bond, requiring UV light to supply the
 Bond dissociation energy ($\mathrm{BDE} = 242\,\mathrm{kJ/mol}$):
 
-$$
 \mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet
-$$
 
 **Propagation -- Step 1:** A chlorine radical abstracts a hydrogen atom from methane, forming
 Hydrogen chloride and a methyl radical:
 
-$$
 \mathrm{Cl}^\bullet + \mathrm{CH}_4 \to \mathrm{HCl} + \mathrm{CH}_3^\bullet
-$$
 
 This step has $\Delta H \approx +4\,\mathrm{kJ/mol}$ (slightly endothermic). The H--Cl bond formed
 ($431\,\mathrm{kJ/mol}$) nearly compensates the C--H bond broken ($435\,\mathrm{kJ/mol}$).
@@ -38534,9 +38390,7 @@ This step has $\Delta H \approx +4\,\mathrm{kJ/mol}$ (slightly endothermic). The
 **Propagation -- Step 2:** The methyl radical reacts with a chlorine molecule, forming chloromethane
 And regenerating the chlorine radical:
 
-$$
 \mathrm{CH}_3^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{Cl} + \mathrm{Cl}^\bullet
-$$
 
 This step has $\Delta H \approx -108\,\mathrm{kJ/mol}$ (exothermic). The C--Cl bond formed
 ($349\,\mathrm{kJ/mol}$) and the $\mathrm{Cl-Cl}$ bond broken ($242\,\mathrm{kJ/mol}$) give a net
@@ -38547,17 +38401,11 @@ Initiation event can produce thousands of product molecules before termination.
 
 **Termination:** Radical-radical combination reactions that remove reactive species from the chain:
 
-$$
 2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2
-$$
 
-$$
 \mathrm{Cl}^\bullet + \mathrm{CH}_3^\bullet \to \mathrm{CH}_3\mathrm{Cl}
-$$
 
-$$
 2\mathrm{CH}_3^\bullet \to \mathrm{C}_2\mathrm{H}_6
-$$
 
 Termination becomes significant only when radical concentrations are high enough to make bimolecular
 Encounters probable.
@@ -38578,9 +38426,7 @@ selective, which limits the synthetic utility of radical chlorination.
 
 The relative rates of substitution at different hydrogen positions follow the order:
 
-$$
 3^\circ\,\mathrm{H} \gt 2^\circ\,\mathrm{H} \gt 1^\circ\,\mathrm{H}
-$$
 
 This is because the stability of the radical intermediate increases with substitution: tertiary
 Radicals are stabilised by hyperconjugation and inductive effects from neighbouring alkyl groups.
@@ -38591,9 +38437,7 @@ Radicals are stabilised by hyperconjugation and inductive effects from neighbour
 There are six primary hydrogens and two secondary hydrogens. The relative reactivity of $2^\circ$ vs
 $1^\circ$ hydrogens is approximately 4:1.
 
-$$
 \frac{[2\mathrm{-chloropropane}]}{[1\mathrm{-chloropropane}]} = \frac{2 \times 4}{6 \times 1} = \frac{8}{6} = \frac{4}{3}
-$$
 
 The product ratio is 4:3 in favour of 2-chloropropane.
 
@@ -38614,27 +38458,19 @@ $3^\circ\,\mathrm{H} : 2^\circ\,\mathrm{H} : 1^\circ\,\mathrm{H} \approx 1600 : 
 
 In excess oxygen, alkanes burn to produce carbon dioxide and water:
 
-$$
 \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}
-$$
 
 All combustion reactions are highly exothermic. For methane:
 
-$$
 \mathrm{CH}_4 + 2\mathrm{O}_2 \to \mathrm{CO}_2 + 2\mathrm{H}_2\mathrm{O} \quad \Delta H_c^\circ = -890\,\mathrm{kJ/mol}
-$$
 
 ### Incomplete Combustion
 
 When oxygen is limited, carbon monoxide and/or carbon (soot) are produced:
 
-$$
 2\mathrm{C}_n\mathrm{H}_{2n+2} + (2n+1)\mathrm{O}_2 \to 2n\mathrm{CO} + (2n+2)\mathrm{H}_2\mathrm{O}
-$$
 
-$$
 \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{n+1}{2}\mathrm{O}_2 \to n\mathrm{C} + (n+1)\mathrm{H}_2\mathrm{O}
-$$
 
 Carbon monoxide is a toxic, colourless, odourless gas that binds irreversibly to haemoglobin
 ($K \approx 200\times$ that of $\mathrm{O}_2$), reducing the blood"s oxygen-carrying capacity.
@@ -38642,9 +38478,7 @@ Incomplete combustion of alkanes in poorly ventilated spaces is a major cause of
 
 ### Calculating Enthalpy of Combustion from Bond Enthalpies
 
-$$
 \Delta H_c = \sum \mathrm{BE}(\mathrm{reactants}) - \sum \mathrm{BE}(\mathrm{products})
-$$
 
 This uses mean bond enthalpies and introduces systematic error because the actual bond enthalpies in
 the specific molecules differ from the mean values. For precise work, experimental enthalpies (from
@@ -38658,9 +38492,7 @@ Bonds broken: $4 \times 413 + 2 \times 498 = 1652 + 996 = 2648\,\mathrm{kJ/mol}$
 
 Bonds formed: $2 \times (2 \times 805) + 4 \times 464 = 3220 + 1856 = 5076\,\mathrm{kJ/mol}$.
 
-$$
 \Delta H_c = 2648 - 5076 = -2428\,\mathrm{kJ/mol}
-$$
 
 This overestimates the experimental value ($-890\,\mathrm{kJ/mol}$ per mole of methane, which is
 $-890\,\mathrm{kJ/mol}$ for the balanced equation as written with 1 mol methane). The discrepancy
@@ -38702,9 +38534,7 @@ Molecules. Two types:
 **Thermal cracking:** High temperature ($400$--$900^\circ\mathrm{C}$) and pressure. Produces a
 Mixture of alkenes and smaller alkanes. Free radical mechanism. Example:
 
-$$
 \mathrm{C}_{10}\mathrm{H}_{22} \to \mathrm{C}_5\mathrm{H}_{10} + \mathrm{C}_5\mathrm{H}_{12}
-$$
 
 **Catalytic cracking:** Lower temperature ($450^\circ\mathrm{C}$) and moderate pressure, using a
 Zeolite catalyst. Produces branched alkanes, cycloalkanes, and aromatic compounds. The catalyst
@@ -38858,16 +38688,12 @@ $\mathrm{Br}_2 \xrightarrow{h\nu} 2\mathrm{Br}^\bullet \quad \Delta H = +193\,\m
 Propagation step 1:
 $\mathrm{Br}^\bullet + \mathrm{CH}_3\mathrm{CH}_3 \to \mathrm{HBr} + \mathrm{CH}_3\mathrm{CH}_2^\bullet$
 
-$$
 \Delta H_1 = \mathrm{BE}(\mathrm{C{-}H}) - \mathrm{BE}(\mathrm{H{-}Br}) = 420 - 366 = +54\,\mathrm{kJ/mol}
-$$
 
 Propagation step 2:
 $\mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Br}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Br} + \mathrm{Br}^\bullet$
 
-$$
 \Delta H_2 = \mathrm{BE}(\mathrm{Br{-}Br}) - \mathrm{BE}(\mathrm{C{-}Br}) = 193 - 285 = -92\,\mathrm{kJ/mol}
-$$
 
 Overall: $\Delta H = +54 + (-92) = -38\,\mathrm{kJ/mol}$ (exothermic).
 
@@ -38888,9 +38714,7 @@ Hydrogen.
 Although the ratio of primary to tertiary hydrogens is 9:1, the relative reactivity of tertiary vs
 Primary hydrogens toward $\mathrm{Cl}^\bullet$ is approximately 5:1. The expected ratio is:
 
-$$
 \frac{[2\mathrm{-chloro-2-methylpropane}]}{[1\mathrm{-chloro-2-methylpropane}]} = \frac{1 \times 5}{9 \times 1} = \frac{5}{9}
-$$
 
 In practice, the tertiary product predominates even more than this ratio predicts because the
 statistical calculation assumes all primary positions are equivalent, but in 2-methylpropane there
@@ -38913,21 +38737,15 @@ enthalpies, and explain why incomplete combustion occurs in limited oxygen.
 
 Complete combustion:
 
-$$
 2\mathrm{C}_4\mathrm{H}_{10}(g) + 13\mathrm{O}_2(g) \to 8\mathrm{CO}_2(g) + 10\mathrm{H}_2\mathrm{O}(l)
-$$
 
 Incomplete combustion (producing CO):
 
-$$
 2\mathrm{C}_4\mathrm{H}_{10}(g) + 9\mathrm{O}_2(g) \to 8\mathrm{CO}(g) + 10\mathrm{H}_2\mathrm{O}(l)
-$$
 
 Further incomplete combustion (producing C):
 
-$$
 2\mathrm{C}_4\mathrm{H}_{10}(g) + 5\mathrm{O}_2(g) \to 8\mathrm{C}(s) + 10\mathrm{H}_2\mathrm{O}(l)
-$$
 
 Incomplete combustion occurs when the supply of oxygen is insufficient for all carbon to be fully
 oxidised to $\mathrm{CO}_2$. The products are a mixture of $\mathrm{CO}_2$$\mathrm{CO}$$\mathrm{C}$
@@ -38943,9 +38761,7 @@ $8408\,\mathrm{kJ/mol}$
 Bonds formed: $4 \times 2 \times \mathrm{C=O}$ ($8 \times 805 = 6440$) +
 $5 \times 2 \times \mathrm{O-H}$ ($10 \times 464 = 4640$) = $11080\,\mathrm{kJ/mol}$
 
-$$
 \Delta H_c = 8408 - 11080 = -2672\,\mathrm{kJ/mol}
-$$
 
 The literature value is $-2877\,\mathrm{kJ/mol}$. The discrepancy arises from using mean bond
 enthalpies rather than specific values for butane and its products.
@@ -39007,9 +38823,7 @@ breaks large molecules into smaller, more useful ones:
 **Thermal cracking:** High temperature ($400$--$900^\circ\mathrm{C}$) and pressure. Produces a
 mixture of alkanes and alkenes. Free radical mechanism. Used to produce ethene.
 
-$$
 \mathrm{C}_{10}\mathrm{H}_{22} \xrightarrow{\Delta} \mathrm{C}_8\mathrm{H}_{18} + \mathrm{C}_2\mathrm{H}_4
-$$
 
 **Catalytic cracking:** Lower temperature ($450^\circ\mathrm{C}$) with a zeolite catalyst. Produces
 branched alkanes and cycloalkanes (better for petrol, higher octane rating).
@@ -39040,43 +38854,27 @@ major product.
 
 **Initiation:**
 
-$$
 \mathrm{Cl}_2 \xrightarrow{\mathrm{UV}} 2\mathrm{Cl}\cdot
-$$
 
 **Propagation (pathway to 1-chloropropane):**
 
-$$
 \mathrm{Cl}\cdot + \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_3 \to \mathrm{HCl} + \mathrm{CH}_2\cdot\mathrm{CH}_2\mathrm{CH}_3 \quad (\text{abstracts a primary H})
-$$
 
-$$
 \mathrm{CH}_2\cdot\mathrm{CH}_2\mathrm{CH}_3 + \mathrm{Cl}_2 \to \mathrm{CH}_2\mathrm{ClCH}_2\mathrm{CH}_3 + \mathrm{Cl}\cdot
-$$
 
 **Propagation (pathway to 2-chloropropane):**
 
-$$
 \mathrm{Cl}\cdot + \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_3 \to \mathrm{HCl} + \mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_3 \quad (\text{abstracts a secondary H})
-$$
 
-$$
 \mathrm{CH}_3\mathrm{CH}\cdot\mathrm{CH}_3 + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{CHClCH}_3 + \mathrm{Cl}\cdot
-$$
 
 **Termination:**
 
-$$
 \mathrm{Cl}\cdot + \mathrm{Cl}\cdot \to \mathrm{Cl}_2
-$$
 
-$$
 \mathrm{Cl}\cdot + \mathrm{R}\cdot \to \mathrm{RCl}
-$$
 
-$$
 \mathrm{R}\cdot + \mathrm{R}'\cdot \to \mathrm{RR}'
-$$
 
 (where R and R' are any organic radicals formed)
 
@@ -39103,16 +38901,12 @@ the alkane.
 
 Mass of $\mathrm{CO}_2$ absorbed $= 30.8\,\mathrm{g}$.
 
-$$
 N(\mathrm{CO}_2) = \frac{30.8}{44.0} = 0.700\,\mathrm{mol}
-$$
 
 If the alkane has formula $\mathrm{C}_n\mathrm{H}_{2n+2}$ Combustion produces $n$ moles of
 $\mathrm{CO}_2$:
 
-$$
 N = 0.700
-$$
 
 Molar mass of alkane $= 10.0/0.700 \times (1/n)$... Wait:
 $n(\text{alkane}) = n(\mathrm{CO}_2)/n_\mathrm{C}$.
@@ -39139,13 +38933,9 @@ discrepancy is due to rounding).
 Incomplete combustion occurs when oxygen supply is limited, producing carbon monoxide and/or carbon
 (soot) in addition to (or instead of) carbon dioxide.
 
-$$
 \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(partial)}
-$$
 
-$$
 \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{n+1}{2}\mathrm{O}_2 \to n\mathrm{C} + (n+1)\mathrm{H}_2\mathrm{O} \quad \text{(very limited)}
-$$
 
 **Environmental impact of combustion products:**
 
@@ -39166,30 +38956,20 @@ $$
 The mechanism proceeds through three stages. Using ethane and chlorine as an example:
 
 **Stage 1 -- Initiation:** $$\mathrm{Cl}_2 \xrightarrow{h\nu} 2\mathrm{Cl}^\bullet
-$$
 
 The Cl--Cl bond ($243\,\mathrm{kJ/mol}$) is homolytically cleaved by UV light. The bond dissociation
 energy must be supplied by a photon with energy $E \geq 243\,\mathrm{kJ/mol}$ Corresponding to
 $\lambda \leq 493\,\mathrm{nm}$ (visible blue-green light).
 
 **Stage 2 -- Propagation:**
-$$
 \mathrm{Cl}^\bullet + \mathrm{CH}_3\mathrm{CH}_3 \to \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{HCl}
-$$
-$$
 \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}_2 \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl} + \mathrm{Cl}^\bullet
-$$
 
 The chain carrier ($\mathrm{Cl}^\bullet$) is regenerated, allowing the chain to continue.
 
 **Stage 3 -- Termination:** $$2\mathrm{Cl}^\bullet \to \mathrm{Cl}_2
-$$
-$$
 2\mathrm{CH}_3\mathrm{CH}_2^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{CH}_2\mathrm{CH}_3 \quad \text{(butane)}
-$$
-$$
 \mathrm{CH}_3\mathrm{CH}_2^\bullet + \mathrm{Cl}^\bullet \to \mathrm{CH}_3\mathrm{CH}_2\mathrm{Cl}
-$$
 
 Termination produces a mixture of products, which is why free radical substitution is not a useful
 synthetic method for preparing pure haloalkanes.
@@ -39198,9 +38978,7 @@ synthetic method for preparing pure haloalkanes.
 
 The reactivity of halogens in free radical substitution with alkanes follows the trend:
 
-$$
 \mathrm{F}_2 \gg \mathrm{Cl}_2 > \mathrm{Br}_2 \gg \mathrm{I}_2
-$$
 
 <div class="table-wrap">
 
@@ -39265,17 +39043,11 @@ Catalytic converters reduce the emissions from internal combustion engines:
 
 - **Reduction catalyst (platinum, palladium):** Converts $\mathrm{NO}_x$ to $\mathrm{N}_2$ and
   $\mathrm{O}_2$: $$2\mathrm{NO} \to \mathrm{N}_2 + \mathrm{O}_2
-$$
-  $$
   2\mathrm{NO}_2 \to \mathrm{N}_2 + 2\mathrm{O}_2
-  $$
 
 - **Oxidation catalyst (platinum, rhodium):** Converts $\mathrm{CO}$ to $\mathrm{CO}_2$ and unburnt
   hydrocarbons to $\mathrm{CO}_2$ and $\mathrm{H}_2\mathrm{O}$:
-  $$
   2\mathrm{CO} + \mathrm{O}_2 \to 2\mathrm{CO}_2
-  $$
-  $$
   \mathrm{C}_n\mathrm{H}_{2n+2} + \frac{3n+1}{2}\mathrm{O}_2 \to n\mathrm{CO}_2 + (n+1)\mathrm{H}_2\mathrm{O}
   $$
 
@@ -105658,24 +105430,18 @@ Goods are excluded to avoid double counting.
 
 **1. Output (production) approach:**
 
-$$
 \mathrm{GDP} = \sum \mathrm{Gross Value Added} = \sum (Q_i \times P_i) - \sum \mathrm{intermediate consumption}
-$$
 
 **2. Income approach:**
 
-$$
 \mathrm{GDP} = W + R + i + \pi + D + T_{ind} - S
-$$
 
 Where $W$ = wages, $R$ = rent, $i$ = interest, $\pi$ = profit, $D$ = depreciation, $T_{ind}$ =
 Indirect taxes minus subsidies.
 
 **3. Expenditure approach:**
 
-$$
 \mathrm{GDP} = C + I + G + (X - M)
-$$
 
 Where $C$ = consumption, $I$ = investment, $G$ = government spending, $X$ = exports, $M$ = imports.
 
@@ -105696,25 +105462,17 @@ particularly in Countries with large informal sectors.
 **Nominal GDP** is measured at current prices. **Real GDP** adjusts for price changes using a price
 Index (GDP deflator):
 
-$$
 \mathrm{Real GDP} = \frac{\mathrm{Nominal GDP}}{\mathrm{GDP Deflator}} \times 100
-$$
 
-$$
 \mathrm{GDP Deflator} = \frac{\mathrm{Nominal GDP}}{\mathrm{Real GDP}} \times 100
-$$
 
 **GDP growth rate:**
 
-$$
 g = \frac{\mathrm{GDP}_t - \mathrm{GDP}_{t-1}}{\mathrm{GDP}_{t-1}} \times 100\%
-$$
 
 ### 1.4 GDP Per Capita
 
-$$
 \mathrm{GDP per capita} = \frac{\mathrm{GDP}}{\mathrm{Population}}
-$$
 
 GDP per capita is a better (though imperfect) measure of average living standards than total GDP.
 
@@ -105783,9 +105541,7 @@ Outcomes.
 
 We define **inflation** as a sustained increase in the general price level over time.
 
-$$
 \mathrm{Inflation rate} = \frac{P_t - P_{t-1}}{P_{t-1}} \times 100\%
-$$
 
 **Deflation**: a sustained _decrease_ in the general price level ($\pi \lt 0$). **Disinflation**: A
 _reduction_ in the rate of inflation (prices still rising, but more slowly).
@@ -105795,9 +105551,7 @@ _reduction_ in the rate of inflation (prices still rising, but more slowly).
 **Consumer Price Index (CPI)**: measures the change in the cost of a basket of goods and services
 Representative of household consumption.
 
-$$
 \mathrm{CPI}_t = \frac{\sum_{i} P_{i,t} \cdot Q_{i,0}}{\sum_{i} P_{i,0} \cdot Q_{i,0}} \times 100
-$$
 
 Where $Q_{i,0}$ are base-period quantities (Laspeyres index).
 
@@ -105852,18 +105606,14 @@ receive higher Payments, increasing government debt costs.
 
 **Demand-pull inflation**: caused by excess aggregate demand.
 
-$$
 AD > \mathrm{full employment output} \Rightarrow P \uparrow
-$$
 
 When the economy is at or near full capacity, any further increase in AD cannot increase output
 (resources are fully employed) and instead bids up prices.
 
 **Cost-push inflation**: caused by increases in costs of production.
 
-$$
 \mathrm{Costs } \uparrow \Rightarrow SRAS \mathrm{ shifts left} \Rightarrow P \uparrow, Y \downarrow
-$$
 
 Causes: rising wages (wage-price spiral), rising commodity prices (oil shocks), exchange rate
 Depreciation (imported inflation), higher taxes.
@@ -105947,9 +105697,7 @@ Rapidly, making it much harder and more painful to bring inflation back down.
 
 The **unemployment rate** is:
 
-$$
 u = \frac{\mathrm{Number unemployed}}{\mathrm{Labour force}} \times 100\% = \frac{U}{U + E} \times 100\%
-$$
 
 Where the **labour force** = employed + unemployed. The unemployed are those without work, actively
 Seeking work, and available to start work.
@@ -105974,9 +105722,7 @@ Discouraged workers, homemakers).
 **Natural rate of unemployment (NAIRU)**: the rate of unemployment consistent with stable inflation
 - the sum of frictional and structural unemployment.
 
-$$
 u^* = u_{frictional} + u_{structural}
-$$
 
 When $u = u^*$ The economy is at full employment (no cyclical unemployment).
 
@@ -106028,9 +105774,7 @@ regional Policy in the UK.
 **Okun's Law**: for every 1% increase in the unemployment rate above the natural rate, GDP falls by
 Approximately 2% below potential:
 
-$$
 \frac{Y - Y^*}{Y^*} = -\beta(u - u^*)
-$$
 
 Where $\beta \approx 2$.
 
@@ -106089,9 +105833,7 @@ measures of underemployment and job quality.
 The **balance of payments (BoP)** records all transactions between residents of a country and the
 rest of the world.
 
-$$
 \mathrm{Current Account} + \mathrm{Capital Account} + \mathrm{Financial Account} = 0
-$$
 
 **Current Account:**
 
@@ -106176,9 +105918,7 @@ Capital inflows.
 The **Phillips curve** (Phillips, 1958) shows an inverse relationship between inflation and
 unemployment:
 
-$$
 \pi = \pi^e - \beta(u - u^*) + \varepsilon
-$$
 
 In the short run, lower unemployment is associated with higher inflation. The mechanism: tight
 Labour markets $\Rightarrow$ wages rise (workers have bargaining power) $\Rightarrow$ costs rise
@@ -106200,9 +105940,7 @@ Wages return to their original level, and employment falls back to $u^*$. The ec
 the short-run Phillips curve to a point with higher inflation but the same unemployment rate.
 $\blacksquare$
 
-$$
 \mathrm{Long-run Phillips curve: } u = u^* \mathrm{ (vertical)}
-$$
 
 ### 5.3 Expectations and the Phillips Curve
 
@@ -106509,27 +106247,18 @@ An economy has the following components (GBP billions):
 </div>
 
 **GDP calculation:** $$\text{GDP} = C + I + G + (X - M) = 1200 + 350 + 400 + (500 - 550) = 1900
-$$
 
 Current account balance $= X - M = 500 - 550 = -50$ (deficit).
 
 **Real GDP adjustment:** If the GDP deflator is 110 (base year = 100):
-$$
 \text{Real GDP} = \frac{1900}{110} \times 100 = 1727.27
-$$
 
 GDP growth rate from previous year (Real GDP was 1650):
-$$
 g = \frac{1727.27 - 1650}{1650} \times 100 = 4.68\%
-$$
 
 **Per capita adjustment:** If population = 68 million:
-$$
 \text{GDP per capita} = \frac{1900}{68} = \pounds 27\,941
-$$
-$$
 \text{Real GDP per capita} = \frac{1727.27}{68} = \pounds 25\,395
-$$
 
 ### 8.2 Inflation Calculations with Weighted Index
 
@@ -106552,10 +106281,7 @@ $$
 **Laspeyres CPI calculation:**
 
 Cost of base basket at current prices:
-$$
 \text{Basket cost}_{2024} = 10(1.30) + 100(1.55) + 1(1150) + 5(35) + 20(12) + 50(5) + \text{Other}(1.04 \times \text{Other}_{2019})
-$$
-$$
 = 13 + 155 + 1150 + 175 + 240 + 250 + \text{Other}
 $$
 
@@ -106571,11 +106297,8 @@ $$
 
 $$
 \text{CPI}_{2024} = \frac{2503}{2230} \times 100 = 112.24
-$$
 
-$$
 \text{Inflation rate} = \frac{112.24 - 100}{100} \times 100 = 12.24\%
-$$
 
 ### 8.3 Unemployment and Okun's Law: Detailed Application
 
@@ -106585,14 +106308,11 @@ Suppose the economy is at full employment ($u^* = 5\%$). The government pursues 
 that reduces unemployment to 3%.
 
 **Okun's Law:** $$\frac{Y - Y^*}{Y^*} = -\beta(u - u^*) = -2(0.03 - 0.05) = -2(-0.02) = 0.04
-$$
 
 Output rises 4% above potential.
 
 **Phillips curve (short-run):**
-$$
 \pi = \pi^e - \beta(u - u^*) = 3 - 2(0.03 - 0.05) = 3 + 0.04 = 7\%
-$$
 
 **Dynamic adjustment:**
 
@@ -106632,9 +106352,7 @@ trade-off was self-defeating.
 - **Current account: $-120 + 100 - 40 - 25 = -\text{GBP } 85\text{bn}$ (deficit)**
 
 **As a percentage of GDP:** If GDP = GBP 2,200bn:
-$$
 \text{CA deficit} = \frac{85}{2200} \times 100 = 3.86\%
-$$
 
 **Interpretation:** The UK has a persistent current account deficit of approximately 4% of GDP,
 reflecting the structural trade deficit in goods partly offset by the surplus in services. The
@@ -107183,9 +106901,7 @@ Mechanism ensuring full employment.
 5. **Liquidity preference** determines the interest rate: the demand for money is a stable function
    of income and the interest rate
 
-$$
 IS-LM: \quad Y = C(Y - T) + I(r) + G, \quad \frac{M}{P} = L(Y, r)
-$$
 
 ### 1.2 The Monetarist Counter-Revolution
 
@@ -107194,9 +106910,7 @@ Friedman (1968, _The Role of Monetary Policy_) and the monetarists argued:
 1. **"Inflation is always and everywhere a monetary phenomenon"**: sustained inflation is caused by
    excessive growth of the money supply
 
-$$
 \pi = \Delta M - \Delta V + \Delta Y \approx \Delta M - \Delta Y
-$$
 
 (from the quantity theory: $MV = PY$)
 
@@ -107263,17 +106977,13 @@ Believe the announcement. The equilibrium has high inflation with no output gain
 
 Formally, the central bank's loss function:
 
-$$
 L = (\pi - \pi^*)^2 + \beta(u - u^*)^2
-$$
 
 Minimising subject to the Phillips curve $\pi = \pi^e - \alpha(u - u^*)$:
 
 Under **discretion** (after expectations are formed): the optimal policy creates inflation bias:
 
-$$
 \pi_{discretion} = \pi^* + \frac{\beta \alpha}{1 + \beta \alpha^2} > \pi^*
-$$
 
 Under a **rule** (commitment to $\pi = \pi^*$): $\pi = \pi^*$ with no bias.
 
@@ -107285,9 +106995,7 @@ The **Taylor Rule** (Taylor, 1993) is a specific monetary policy rule that presc
 central bank should set the interest rate in response to deviations of inflation from target and
 output from potential:
 
-$$
 i = r^* + \pi + 0.5(\pi - \pi^*) + 0.5(y - y^*)
-$$
 
 Where:
 
@@ -107310,9 +107018,7 @@ Inflation exceeds target, and by 0.5% for every 1% that output exceeds potential
 <summary>Worked Example</summary>
 Suppose $r^* = 2\%$, $\pi^* = 2\%$ Current $\pi = 5\%$ Output gap = $-3\%$ (recession).
 
-$$
 i = 2 + 5 + 0.5(5 - 2) + 0.5(-3) = 2 + 5 + 1.5 - 1.5 = 7\%
-$$
 
 The Taylor Rule prescribes a 7% policy rate: above neutral (4%) to fight inflation, but moderated by
 the recessionary output gap.
@@ -107372,9 +107078,7 @@ Most modern central banks use **inflation targeting with discretion**:
 - **Flexibility** to respond to shocks (the target is symmetric, deviations above and below are
   equally undesirable)
 
-$$
 \mathrm{UK (1992–present), NZ (1990–present), Canada (1991–present), Eurozone (2003–present)}
-$$
 
 :::note
 (Paper 3) often Asks about the role of central bank independence in achieving macroeconomic
@@ -107413,9 +107117,7 @@ Regime.
 3. **Rational expectations**: agents use all available information, including understanding of the
    policy regime, when forming expectations
 
-$$
 \mathrm{Policy change} \Rightarrow \mathrm{Expectations change} \Rightarrow \mathrm{Behaviour changes} \Rightarrow \mathrm{Old model parameters invalid}
-$$
 
 ## 4. Post-2008 Policy Debates
 
@@ -107424,17 +107126,13 @@ $$
 The **zero lower bound** is the constraint that nominal interest rates cannot fall significantly
 below zero (since holding cash pays zero nominal interest).
 
-$$
 i \geq 0 \mathrm{ (approximately)}
-$$
 
 When the equilibrium real interest rate is negative (as during a severe recession), the central bank
 cannot cut rates far enough to stimulate the economy. The economy is caught in a **liquidity trap**
 (Keynes, 1936):
 
-$$
 r^* < 0 \Rightarrow i = 0 \Rightarrow r = i - \pi^e = -\pi^e
-$$
 
 Even with zero nominal rates, the real interest rate may be positive if expected inflation is
 negative (deflation). In this case, monetary policy is impotent, conventional tools have been
@@ -107448,21 +107146,13 @@ Long-term interest rates when the policy rate is at the ZLB.
 
 **Mechanism:**
 
-$$
 \mathrm{Central bank buys bonds} \Rightarrow \mathrm{bond prices rise} \Rightarrow \mathrm{bond yields fall} \Rightarrow \mathrm{long-term interest rates fall}
-$$
 
-$$
 \Rightarrow \mathrm{cheaper borrowing for firms and households} \Rightarrow \mathrm{investment and consumption increase}
-$$
 
-$$
 \Rightarrow \mathrm{asset prices rise (portfolio rebalancing)} \Rightarrow \mathrm{wealth effect} \Rightarrow \mathrm{consumption increases}
-$$
 
-$$
 \Rightarrow \mathrm{exchange rate may depreciate} \Rightarrow \mathrm{exports increase}
-$$
 
 **UK QE programme**: The Bank of England purchased £875 billion of assets between 2009 and 2021,
 Expanding the monetary base from ~£100bn to ~£800bn.
@@ -107608,9 +107298,7 @@ Mitchell, argues:
    can always meet obligations denominated in that currency by creating money. The constraint is not
    solvency but inflation.
 
-$$
 \mathrm{Government can always pay} \iff \mathrm{debt denominated in own currency}
-$$
 
 1. **Functional finance** (Lerner, 1943): fiscal policy should be used to achieve full employment
    and price stability, regardless of the deficit. The deficit is not a target, real outcomes are.
@@ -107621,9 +107309,7 @@ $$
 
 3. **Sectoral balances**: the government deficit equals the non-government sector surplus:
 
-$$
 (G - T) = (S - I) + (M - X)
-$$
 
 If the government runs a balanced budget, the private sector cannot net-save (unless there is a
 current account surplus). A government deficit is necessary for private sector net saving.
@@ -107735,9 +107421,7 @@ Macroeconomic objectives simultaneously.
 
 Instead of targeting inflation, the central bank could target the **growth rate of nominal GDP**:
 
-$$
 \mathrm{Target: } \Delta(NGDP) = \Delta(Real\ GDP) + \pi = \mathrm{constant (e.g., 5\%)}
-$$
 
 ### 7.2 Advantages over Inflation Targeting
 
@@ -107957,11 +107641,8 @@ complete regime change.
 - Equilibrium real interest rate: $r^* = 2\%$
 
 **Taylor Rule (standard version):** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(g - g^*)
-$$
 
-$$
 i = 2 + 2 + 0.5(6 - 2) + 0.5(1.0 - 2.5) = 4 + 2 - 0.75 = 5.25\%
-$$
 
 **Interpretation:** The Taylor Rule recommends an interest rate of 5.25%. The inflation gap (4
 percentage points above target) pushes rates up by 2 percentage points. The output gap (1.5
@@ -107991,9 +107672,7 @@ but 1.0 on the level since $i$ includes $\pi^*$) satisfies this principle.
 2021 and August 2023. Inflation peaked at 11.1% in October 2022.
 
 Taylor Rule recommendation at peak inflation ($\pi = 11.1\%$$g = 0.2\%$):
-$$
 i = 2 + 2 + 0.5(11.1 - 2) + 0.5(0.2 - 2.5) = 4 + 4.55 - 1.15 = 7.4\%
-$$
 
 The actual Bank Rate (5.25%) was BELOW the Taylor Rule recommendation, suggesting monetary policy
 was still accommodative relative to the inflation outlook. This gap partly reflected the cost-push
@@ -108018,9 +107697,7 @@ $u = u^*$. Loss $= 0 + 0 = 0$. First-best outcome.
 
 **If the government reneges (discretion):** After wages are set at $\pi^e = 2\%$ The government
 minimises:
-$$
 L = (\pi - 2)^2 + \beta(u^* - \alpha(\pi - 2) - u^*)^2 = (\pi - 2)^2 + \beta\alpha^2(\pi - 2)^2 = (\pi - 2)^2(1 + \beta\alpha^2)
-$$
 
 Minimising: $\pi^* = 2$ (optimal to stick to the promise). Loss is still zero.
 
@@ -108032,24 +107709,18 @@ than $\pi^e$ because the government tries to exploit the short-run Phillips curv
 shock.
 
 **Rational expectations:** Workers anticipate the government's incentive to inflate. In equilibrium:
-$$
 \pi^e = \pi^* + \frac{\beta\alpha}{1 + \beta\alpha^2}(u^* - u^*) = \pi^*
-$$
 
 Wait -- let me redo this properly. Under rational expectations with discretion:
 
-$$
 \pi = \pi^* + \frac{\beta\alpha}{1 + \beta\alpha^2}\epsilon
-$$
 
-$$
 \pi^e = \pi^* + \frac{\beta\alpha}{1 + \beta\alpha^2}\epsilon
 $$
 
 Workers correctly anticipate the inflationary bias. The unemployment rate is:
 $$
 u = u^* + \epsilon - \alpha\left(\frac{\beta\alpha}{1 + \beta\alpha^2}\epsilon\right) = u^* + \frac{\epsilon}{1 + \beta\alpha^2}
-$$
 
 The output gain from surprise inflation is zero (since workers anticipate it), but inflation is
 higher. This is the **inflationary bias** of discretionary policy.
@@ -108141,7 +107812,6 @@ unemployment falls below 7% (similar to the Fed's forward guidance in 2012-2013)
   channel.
 
 **Quantitative impact.** Suppose the yield curve is: $$r_{10y} = E[r_{1y}] + \text{term premium}
-$$
 
 Without forward guidance: $E[r_{1y}] = 2.5\%$ in 3 years. Term premium = 1%. $r_{10y} = 3.5\%$.
 
@@ -109192,9 +108862,7 @@ URL: https://alevel.wyattau.com/economics/macro/05-supply-side-policy/
 We define **supply-side policies** as government policies designed to increase the productive
 Capacity of the economy by shifting the long-run aggregate supply (LRAS) curve to the right.
 
-$$
 \mathrm{LRAS shifts right: } Y^* \uparrow \Rightarrow P \downarrow, Y \uparrow
-$$
 
 Unlike demand-side policies (fiscal and monetary policy), which aim to manage AD to smooth the
 business cycle, supply-side policies aim to raise the economy"s **potential output**, improving the
@@ -109210,9 +108878,7 @@ Raise output above potential in the long run (LRAS is vertical). Only by increas
 Itself, through better technology, more capital, a more skilled workforce, or more efficient
 Markets, can the economy produce more goods and services sustainably. $\blacksquare$
 
-$$
 \mathrm{Long-run growth} = f(\Delta K, \Delta L, \Delta A)
-$$
 
 Where $K$ = capital, $L$ = labour, $A$ = total factor productivity (technology and efficiency).
 
@@ -109248,9 +108914,7 @@ all, not how many hours).
 
 **Reduction in corporation tax** to incentivise investment:
 
-$$
 I = I(r, \tau_c) \quad \mathrm{where } \frac{\partial I}{\partial \tau_c} < 0
-$$
 
 A lower corporation tax rate $\tau_c$ increases the after-tax return on investment, encouraging
 Firms to invest in capital. The UK reduced corporation tax from 28% (2010) to 19% (2017), partially
@@ -109261,15 +108925,11 @@ Rate of 0%, revenue is zero. As the rate rises, revenue initially increases. Bey
 $t^*$ Further increases reduce revenue because the tax base shrinks (people work less, evade more, Or
 relocate).
 
-$$
 R = t \cdot B(t) \quad \mathrm{where } \frac{dB}{dt} \lt 0 \mathrm{ for } t \gt t^*
-$$
 
 Where $R$ is tax revenue, $t$ is the tax rate, and $B(t)$ is the tax base.
 
-$$
 \frac{dR}{dt} = B(t) + t \cdot \frac{dB}{dt} = 0 \quad \mathrm{at the revenue-maximising rate } t^*
-$$
 
 The key debate is where the UK sits relative to $t^*$. Most empirical estimates (including the IFS
 and OBR) suggest that for income tax, the UK is to the **left** of $t^*$, meaning tax cuts would
@@ -109297,9 +108957,7 @@ Demand and a stable regulatory environment before committing to investment, rega
 Unemployment (real-wage unemployment). Reducing union power (e.g., secret ballots, restrictions on
 strikes) allows wages to adjust to market-clearing levels.
 
-$$
 w > w^* \Rightarrow \mathrm{labour demand } < \mathrm{labour supply} \Rightarrow \mathrm{unemployment}
-$$
 
 **Reducing employment protection legislation**: Making it easier to hire and fire workers reduces
 Firms' perceived risk of taking on new employees, potentially increasing employment. However, it may
@@ -109332,9 +108990,7 @@ Arguments against:
 
 **Deregulation**: removing barriers to entry, reducing red tape, and simplifying regulations.
 
-$$
 \mathrm{Fewer barriers} \Rightarrow \mathrm{more firms enter} \Rightarrow \mathrm{more competition} \Rightarrow \mathrm{lower prices, higher quality, more innovation}
-$$
 
 Example: The Big Bang (1986) deregulated London's financial markets, contributing to the growth of
 the City as a global financial centre.
@@ -109383,9 +109039,7 @@ Anti-competitive practices include:
 - **Predatory pricing**: setting prices below cost to drive out competitors
 - **Abuse of market power**: exclusionary practices by dominant firms
 
-$$
 \mathrm{More competition} \Rightarrow P \downarrow, Q \uparrow, \mathrm{consumer surplus } \uparrow, \mathrm{deadweight loss } \downarrow
-$$
 
 ## 3. Interventionist Supply-Side Policies
 
@@ -109397,9 +109051,7 @@ production.
 **Human capital theory** (Becker, 1964): education and training increase the productivity of labour,
 Shifting the production function upward.
 
-$$
 Y = A \cdot F(K, hL)
-$$
 
 Where $h$ is human capital per worker (education, skills, health).
 
@@ -109448,9 +109100,7 @@ well-explained Real-world examples. OCR (H460) links education policy to labour 
 
 Public investment in transport, broadband, energy, and communications:
 
-$$
 \mathrm{Better infrastructure} \Rightarrow \mathrm{lower transport/communication costs} \Rightarrow \mathrm{higher productivity}
-$$
 
 The UK's Northern Powerhouse Rail, HS2 (now partially cancelled), and gigabit broadband rollout are
 examples.
@@ -109464,9 +109114,7 @@ While also improving long-run productivity.
 Government funding for basic research (which private firms underprovide due to positive
 Externalities):
 
-$$
 \mathrm{Social return to R\&D} > \mathrm{private return to R\&D}
-$$
 
 Policies: R&D tax credits, direct funding for universities, patent protection, research councils.
 
@@ -109517,9 +109165,7 @@ Market vs intervention dichotomy.
 Innovation, and human development indices, while maintaining lower inequality than the UK and US.
 Unemployment rates are comparable to or lower than the UK average.
 
-$$
 \mathrm{Nordic model}: \mathrm{flexibility} + \mathrm{security} + \mathrm{investment} \Rightarrow \mathrm{high } h, \mathrm{ high } A, \mathrm{ low inequality}
-$$
 
 **Evaluation.** The Nordic model suggests that market-oriented and interventionist policies are not
 Mutually exclusive, they can be **complementary**. High taxes fund the education and infrastructure
@@ -109559,9 +109205,7 @@ Market-oriented policies tend to be most effective when:
 - Externalities are minimal (private and social costs/benefits are aligned)
 - Institutions are strong (property rights, rule of law, contract enforcement)
 
-$$
 \mathrm{Market efficiency} \propto \frac{\mathrm{Competition} \times \mathrm{Information} \times \mathrm{Institutions}}{\mathrm{Externalities} \times \mathrm{Market power}}
-$$
 
 Interventionist policies tend to be most effective when:
 
@@ -109572,9 +109216,7 @@ Interventionist policies tend to be most effective when:
 - Equity objectives require redistribution (regional policy, progressive education funding)
 - The government has a strong track record of effective implementation
 
-$$
 \mathrm{Intervention effectiveness} \propto \frac{\mathrm{Market failure severity} \times \mathrm{State capacity}}{\mathrm{Government failure risk} \times \mathrm{Implementation cost}}
-$$
 
 The crucial insight is that **the optimal policy mix varies by sector and context**. Financial
 Services may benefit most from deregulation and competition, while education and infrastructure
@@ -109616,9 +109258,7 @@ Supply-side reforms. But sustained growth requires both. Always reference the ti
 Supply-side policies that reduce the natural rate of unemployment ($u^*$) or increase productivity
 Shift the short-run Phillips curve to the left:
 
-$$
 \pi = \pi^e - \beta(u - u^*) + \varepsilon
-$$
 
 If supply-side policy reduces $u^*$ from 6% to 4%, the Phillips curve shifts left. At any given
 Inflation rate, unemployment is now lower. Alternatively, at any given unemployment rate, inflation
@@ -109627,13 +109267,9 @@ is now lower.
 **Productivity growth** (a key supply-side objective) also shifts the Phillips curve left by
 Reducing cost-push inflation:
 
-$$
 \mathrm{Productivity } \uparrow \Rightarrow \mathrm{unit labour costs } \downarrow \Rightarrow \mathrm{SRAS shifts right} \Rightarrow P \downarrow
-$$
 
-$$
 \pi_{\mathrm{new}} = \pi_{\mathrm{old}} - \Delta(\mathrm{productivity})
-$$
 
 ### 4.4 General Evaluation of Supply-Side Policies
 
@@ -109675,9 +109311,7 @@ Politically motivated "picking winners" (subsidising declining industries for el
 Regulatory capture (industries influencing the regulators meant to control them), and implementation
 Failure (ambitious infrastructure projects that go over budget and under-deliver, such as HS2).
 
-$$
 \mathrm{Net benefit of supply-side policy} = \mathrm{Efficiency gain} - \mathrm{Cost} - \mathrm{Distributional loss} - \mathrm{Government failure risk}
-$$
 
 :::tip
 [policy] may [benefit] because [reason]. On the other hand, [counter-argument] because [reason].
@@ -109691,20 +109325,14 @@ Therefore" structure is what examiners look for in Level 4 (AQA) or Band A (CIE)
 
 The key metric for evaluating supply-side policies is **productivity growth**:
 
-$$
 \mathrm{Labour productivity} = \frac{Y}{L} = \frac{\mathrm{Output}}{\mathrm{Hours worked}}
-$$
 
-$$
 \mathrm{Total factor productivity (TFP)} = \frac{Y}{K^\alpha L^{1-\alpha}}
-$$
 
 TFP captures the efficiency with which capital and labour are combined, it reflects technology,
 Institutions, and know-how. Long-run growth in living standards depends primarily on TFP growth.
 
-$$
 g_Y = g_A + \alpha g_K + (1-\alpha) g_L
-$$
 
 Where $g_A$ is TFP growth. In most advanced economies, $g_A$ accounts for 50–70% of long-run per
 capita growth (Solow residual).
@@ -109950,14 +109578,10 @@ base $B(t) = 1000 - 8t$ (the tax base shrinks as the tax rate rises due to avoid
 supply, and emigration).
 
 **Revenue function:** $$R(t) = t(1000 - 8t) = 1000t - 8t^2
-$$
 
 **Revenue-maximising tax rate:** $$\frac{dR}{dt} = 1000 - 16t = 0 \Rightarrow t^* = 62.5\%
-$$
 
-$$
 R(62.5\%) = 62.5(1000 - 8 \times 62.5) = 62.5 \times 500 = 31\,250
-$$
 
 **Revenue at different tax rates:**
 
@@ -109985,9 +109609,7 @@ $$
   the current rate. This means income tax cuts would reduce revenue.
 
 **Elasticity condition for the Laffer effect:**
-$$
 \frac{\Delta R}{R} = \frac{\Delta t}{t} + \frac{\Delta B}{B} = \frac{\Delta t}{t}(1 + \varepsilon_B)
-$$
 
 For a tax cut to increase revenue, we need $1 + \varepsilon_B < 0$ I.e., $\varepsilon_B < -1$. The
 tax base must be elastic (absolute value greater than 1). Empirical evidence suggests income tax
@@ -109997,9 +109619,7 @@ elasticity in the UK is approximately -0.3 to -0.5 -- well below the threshold f
 
 **Example.** The Mincer earnings function estimates the return to education:
 
-$$
 \ln(w) = \alpha + \beta S + \gamma E - \delta E^2
-$$
 
 Where $w$ is the wage, $S$ is years of schooling, and $E$ is years of work experience.
 
@@ -110012,17 +109632,11 @@ Where $w$ is the wage, $S$ is years of schooling, and $E$ is years of work exper
 **Calculation.** Compare a worker with A-levels ($S = 13$) and 10 years of experience to a worker
 with a degree ($S = 16$) and 7 years of experience (same age):
 
-$$
 \ln(w_A) = \alpha + 0.10(13) + 0.04(10) - 0.0006(100) = \alpha + 1.30 + 0.40 - 0.06 = \alpha + 1.64
-$$
 
-$$
 \ln(w_D) = \alpha + 0.10(16) + 0.04(7) - 0.0006(49) = \alpha + 1.60 + 0.28 - 0.029 = \alpha + 1.851
-$$
 
-$$
 \frac{w_D}{w_A} = e^{1.851 - 1.64} = e^{0.211} = 1.235
-$$
 
 The degree holder earns approximately 23.5% more than the A-level holder.
 
@@ -110037,21 +109651,13 @@ The degree holder earns approximately 23.5% more than the A-level holder.
 - Payback period: $111\,750 / 6\,580 = 17$ years (ignoring discounting).
 
 **Present value calculation (discount rate 5%):**
-$$
 PV = \sum_{t=4}^{43} \frac{6580}{1.05^t} = 6580 \times \frac{1 - 1.05^{-40}}{0.05 \times 1.05^3} = 6580 \times 15.046 = \text{GBP } 99\,003
-$$
 
-$$
 NPV = 99\,003 - 111\,750 = -\text{GBP } 12\,747
-$$
 
 At a 5% discount rate, the NPV is negative. At 3%:
-$$
 PV = 6580 \times \frac{1 - 1.03^{-40}}{0.03 \times 1.03^3} = 6580 \times 21.35 = \text{GBP } 140\,483
-$$
-$$
 NPV = 140\,483 - 111\,750 = +\text{GBP } 28\,733
-$$
 
 The investment is sensitive to the discount rate. Lower discount rates (reflecting social rather
 than private returns, including positive externalities of education) make the investment more
@@ -110066,7 +109672,6 @@ attractive.
 - LRAS: $Y^* = 400$ (full employment output)
 
 **Initial equilibrium:** $$1000 - 2P = 3P - 200 \Rightarrow 1200 = 5P \Rightarrow P = 240, Y = 520
-$$
 
 The economy is in an inflationary gap: $520 - 400 = 120$.
 
@@ -110080,9 +109685,7 @@ firms expect lower future prices, reducing wage demands. SRAS shifts right.
 
 New SRAS: $Y = 3P - 320$ (shift right by 120).
 
-$$
 1000 - 2P = 3P - 320 \Rightarrow 1320 = 5P \Rightarrow P = 264, Y = 472
-$$
 
 Wait -- the price level has risen, not fallen. This is because the SRAS shift was insufficient. Let
 me reconsider.
@@ -110096,7 +109699,6 @@ New SRAS: $Y = 3P - 500$. $1000 - 2P = 3P - 500 \Rightarrow 1500 = 5P \Rightarro
 $Y = 400$. This does not work either.
 
 Let me reconsider. The SRAS must intersect AD at $Y = 600$: $$600 = 1000 - 2P \Rightarrow P = 200
-$$
 
 New SRAS: $Y = 3P - b$. At $(200, 600)$: $600 = 600 - b \Rightarrow b = 0$. New SRAS: $Y = 3P$.
 
@@ -110121,16 +109723,13 @@ advantage of supply-side policy: it simultaneously addresses inflation and growt
 generates annual revenue of GBP 25,000 for 5 years, after which it has zero scrap value.
 
 **Without tax:**
-$$
 NPV = \sum_{t=1}^{5} \frac{25\,000}{1.10^t} - 100\,000 = 25\,000 \times 3.791 - 100\,000 = 94\,775 - 100\,000 = -\text{GBP } 5\,225
-$$
 
 The project is NOT profitable without tax. The firm does not invest.
 
 **With a 40% investment tax credit:** The firm receives a tax credit of
 $0.40 \times 100\,000 = \text{GBP } 40\,000$. Net cost of machine:
 $100\,000 - 40\,000 = \text{GBP } 60\,000$. $$NPV = 94\,775 - 60\,000 = +\text{GBP } 34\,775
-$$
 
 The project is now profitable. The investment tax credit has incentivised investment.
 
@@ -110144,17 +109743,12 @@ Year 3: Allowance = $67\,240 \times 0.18 = 12\,103$. Tax saved = $12\,103 \times
 Year 4: Allowance = $55\,137 \times 0.18 = 9\,925$. Tax saved = $9\,925 \times 0.19 = 1\,886$. Year
 5: Allowance = $45\,212 \times 0.18 = 8\,138$. Tax saved = $8\,138 \times 0.19 = 1\,546$.
 
-$$
 NPV = \sum_{t=1}^{5} \frac{20\,250}{1.10^t} + \sum_{t=1}^{5} \frac{\text{Tax saved}_t}{1.10^t} - 100\,000
-$$
 
-$$
 = 20\,250 \times 3.791 + \frac{3\,420}{1.10} + \frac{2\,804}{1.10^2} + \frac{2\,300}{1.10^3} + \frac{1\,886}{1.10^4} + \frac{1\,546}{1.10^5} - 100\,000
 $$
 
-$$
 = 76\,767 + 3\,109 + 2\,318 + 1\,728 + 1\,288 + 960 - 100\,000 = -\text{GBP } 13\,830
-$$
 
 Even with capital allowances, the project is not profitable under a 19% corporate tax. This
 illustrates that corporate tax creates a tax wedge on investment, reducing the capital stock below
@@ -110168,9 +109762,7 @@ lower corporate tax rates) can close this gap.
 The Solow model predicts that long-run growth is determined by exogenous technological progress. The
 AK model (Rebelo, 1991) assumes output is proportional to capital, with no diminishing returns:
 
-$$
 Y = AK
-$$
 
 Where $A$ represents technology AND human capital. If education spending increases $A$:
 
@@ -110623,9 +110215,7 @@ Maximises an objective function subject to constraints.
 We define the **opportunity cost** of a decision as the value of the next-best alternative forgone
 as a result of that decision.
 
-$$
 \mathrm{Opportunity cost of } A = \max_{B \neq A} \{U(B)\}
-$$
 
 Where $U(B)$ is the utility (or value) of alternative $B$. This is not the sum of all alternatives,
 Only the single best one that was rejected.
@@ -110683,13 +110273,11 @@ A **rational economic agent** seeks to maximise utility (for consumers) or profi
 Subject to constraints. For a consumer choosing between goods $x$ and $y$ at prices $P_x$ and $P_y$
 with income $M$:
 
-$$
 \begin{aligned}
 \max_{x,y} \quad & U(x, y) \\
 \mathrm{s.t.} \quad & P_x \cdot x + P_y \cdot y \leq M \\
 & x \geq 0, \quad y \geq 0
 \end{aligned}
-$$
 
 This constrained optimisation problem is the foundation of consumer theory. The solution, the
 consumer's optimal bundle, depends on the shape of the utility function and the budget constraint.
@@ -110713,9 +110301,7 @@ Consider an economy that produces two goods, $X$ and $Y$ Using a fixed quantity 
 define the **production possibility frontier (PPF)** as the set of all maximum combinations of $X$
 and $Y$ that the economy can produce when all resources are fully and efficiently employed.
 
-$$
 \mathrm{PPF} = \{(x, y) : x = f_X(L_X), \; y = f_Y(L_Y), \; L_X + L_Y = \bar{L}, \; f'_X, f'_Y > 0\}
-$$
 
 Where $L_X$ and $L_Y$ are the quantities of labour allocated to goods $X$ and $Y$ respectively, and
 $\bar{L}$ is total labour available.
@@ -110734,9 +110320,7 @@ Giving up _more_ $Y$.
 Formally, if the marginal product of labour in $X$ is diminishing ($f''_X < 0$) and the marginal
 Product in $Y$ is also diminishing, then:
 
-$$
 \frac{dy}{dx} = -\frac{f'_Y(L_Y)}{f'_X(L_X)}
-$$
 
 As $L_X$ increases, $f'_X(L_X)$ decreases (diminishing returns). As $L_Y$ decreases, $f'_Y(L_Y)$
 Increases. Therefore $\left|\frac{dy}{dx}\right|$ increases, the slope becomes steeper, producing
@@ -110772,17 +110356,13 @@ We define two types of efficiency:
 **Productive efficiency**: achieved when the economy is producing on the PPF (not inside it). All
 Resources are fully employed and used in their most productive applications.
 
-$$
 \mathrm{Productive efficiency} \iff (x, y) \in \mathrm{PPF}
-$$
 
 **Allocative efficiency**: achieved when the economy is producing the combination of goods that
 _society values most_. This requires that the marginal rate of transformation equals the marginal
 Rate of substitution:
 
-$$
 \mathrm{MRT}_{XY} = \mathrm{MRS}_{XY}
-$$
 
 Where $\mathrm{MRT}_{XY} = \left|\frac{dy}{dx}\right|$ is the slope of the PPF and
 $\mathrm{MRS}_{XY} = \frac{MU_X}{MU_Y}$ is the ratio of marginal utilities.
@@ -110794,9 +110374,7 @@ outside the PPF is unattainable given current resources and technology.
 <summary>Example: PPF Analysis</summary>
 An economy can produce either guns or butter. Its PPF is given by:
 
-$$
 y = 100 - x^2
-$$
 
 Where $x$ = guns, $y$ = butter (both in thousands of units).
 
@@ -110919,16 +110497,12 @@ Essay questions frequently ask students to assess the relative merits of differe
 A **positive statement** is a claim about what _is_, it can be tested against evidence and is
 either true or false.
 
-$$
 \mathrm{Example: "A 10\% increase in the minimum wage reduces employment by 2\%."}
-$$
 
 A **normative statement** is a claim about what _ought to be_, it involves value judgements and
 cannot be tested.
 
-$$
 \mathrm{Example: "The government should increase the minimum wage."}
-$$
 
 ### 3.2 The Distinction Matters
 
@@ -111286,32 +110860,25 @@ This question requires evaluating the assumptions of rational choice theory agai
 **Example.** An economy produces two goods: capital goods ($K$) and consumer goods ($C$). The PPF is
 given by:
 
-$$
 C = 100 - 0.01K^2
-$$
 
 **Current production:** $K = 40$, $C = 100 - 0.01(1600) = 84$.
 
 **Opportunity cost of increasing $K$ from 40 to 50:**
-$$
 \Delta C = C(50) - C(40) = (100 - 0.01(2500)) - (100 - 0.01(1600)) = 75 - 84 = -9
-$$
 
 The opportunity cost of 10 additional units of $K$ is 9 units of $C$.
 
 **Marginal opportunity cost at $K = 40$:** $$\frac{dC}{dK} = -0.02K = -0.02(40) = -0.8
-$$
 
 At $K = 40$ Each additional unit of $K$ costs 0.8 units of $C$.
 
 **At $K = 60$:** $$\frac{dC}{dK} = -0.02(60) = -1.2
-$$
 
 Each additional unit of $K$ now costs 1.2 units of $C$. The opportunity cost has increased,
 reflecting the concave shape of the PPF (increasing opportunity cost).
 
 **At $K = 80$:** $$\frac{dC}{dK} = -0.02(80) = -1.6
-$$
 
 The opportunity cost continues to rise. This is because resources are not perfectly adaptable: as
 more capital goods are produced, resources that are less suited to capital goods production must be
@@ -111329,18 +110896,14 @@ used, requiring larger sacrifices of consumer goods.
 **Capital accumulation.** If the economy produces at $K = 60$, $C = 64$ And the capital stock grows
 at 5% per year:
 
-$$
 K_{t+1} = K_t + 0.05K_t = 1.05K_t
-$$
 
 The new PPF (next period): $C = 100(1.05)^2 - 0.01K^2 \approx 110.25 - 0.01K^2$.
 
 Wait -- this is not quite right. Capital accumulation shifts the PPF outward because it increases
 the economy's productive capacity. If the PPF shifts proportionally:
 
-$$
 C = a(100 - 0.01K^2)
-$$
 
 Where $a = 1.05$ (5% growth). New PPF: $C = 105 - 0.0105K^2$.
 
@@ -111351,7 +110914,6 @@ Where $a = 1.05$ (5% growth). New PPF: $C = 105 - 0.0105K^2$.
 
 **Asymmetric growth.** Suppose technological progress only affects capital goods production. The new
 PPF becomes: $$C = 100 - 0.01K^2 + 0.001K
-$$
 
 This PPF has shifted outward more on the capital goods axis than the consumer goods axis. The
 economy can now produce more capital goods for any given level of consumer goods.
@@ -111475,7 +111037,6 @@ Portugal: 100 workers in wine. Cloth = 0, Wine = $100 \times 3 = 300$ L. Total: 
 
 **Terms of trade.** For trade to benefit both, the exchange rate must lie between the opportunity
 costs: $$0.33 < \frac{P_{cloth}}{P_{wine}} < 2
-$$
 
 Suppose the terms of trade are 1m cloth = 1L wine.
 
@@ -111506,16 +111067,12 @@ to the terms of trade gains less.
 
 **Example.** A small open economy can produce food ($F$) and clothing ($C$). Its PPF is:
 
-$$
 F = 500 - 0.005C^2
-$$
 
 **Autarky equilibrium (no trade):** The domestic price ratio is $P_F/P_C = 0.01C$ (the slope of the
 PPF). If consumer preferences give an MRS of 2 (consumers value food at twice clothing):
 
-$$
 0.01C = 2 \Rightarrow C = 200, F = 500 - 0.005(40000) = 300
-$$
 
 **With trade at world price ratio $P_F/P_C = 1$:** The economy specialises according to comparative
 advantage. The world price of 1 is BELOW the autarky price of 2, meaning food is relatively cheaper
@@ -111599,7 +111156,6 @@ If $C = 0$: $0 = 200 - 0.02K^2 \Rightarrow K^2 = 10000 \Rightarrow K = 100$. Max
 
 **(b) Opportunity cost of the 50th unit of $K$ (4 marks).** The marginal opportunity cost at
 $K = 50$ is given by the slope of the PPF: $$\frac{dC}{dK} = -0.04K = -0.04(50) = -2
-$$
 
 The opportunity cost of the 50th unit of capital goods is 2 units of consumer goods.
 
@@ -111608,9 +111164,7 @@ $C(49) = 200 - 0.02(2401) = 151.98$. Opportunity cost $= 151.98 - 150 = 1.98 \ap
 
 **(c) PPF shift from 5% capital growth (5 marks).** A 5% increase in the capital stock means the
 productive capacity of the economy grows by 5%. If the PPF shifts proportionally:
-$$
 C = 1.05(200 - 0.02K^2) = 210 - 0.021K^2
-$$
 
 New maximum consumer goods: $C = 210$ (was 200). Increase of 10 units (5%). New maximum capital
 goods: $K = \sqrt{210/0.021} = \sqrt{10000} = 100$. No change in maximum $K$ because the
@@ -114246,9 +113800,7 @@ production function is $Q = f(L, \bar{K})$.
 **Law of diminishing marginal returns**: as more of a variable factor (labour) is added to a fixed
 Factor (capital), the marginal product of labour eventually diminishes.
 
-$$
 MP_L = \frac{dQ}{dL}, \quad \frac{d^2 Q}{dL^2} < 0 \mathrm{ for } L > L^*
-$$
 
 Since $MC = \frac{dw}{dQ} = \frac{w}{MP_L}$ (where $w$ is the wage rate), diminishing marginal
 Returns ($MP_L$ falling) implies $MC$ is eventually rising.
@@ -114256,12 +113808,10 @@ Returns ($MP_L$ falling) implies $MC$ is eventually rising.
 In the **long run**, all factors are variable. The firm chooses the cost-minimising combination of
 inputs:
 
-$$
 \begin{aligned}
 \min_{L,K} \quad & wL + rK \\
 \mathrm{s.t.} \quad & Q = f(L, K)
 \end{aligned}
-$$
 
 The first-order condition gives the **expansion path**: $\frac{MP_L}{w} = \frac{MP_K}{r}$ (equating
 the marginal product per pound spent on each input).
@@ -114271,9 +113821,7 @@ the marginal product per pound spent on each input).
 We define **economies of scale** as the condition where long-run average cost (LRAC) falls as output
 Increases:
 
-$$
 \frac{d(LRAC)}{dQ} < 0
-$$
 
 **Internal economies of scale:**
 
@@ -114303,9 +113851,7 @@ Communication problems, and alienation in very large organisations.
 
 The **long-run average cost curve** is the envelope of all short-run average cost curves:
 
-$$
 LRAC(Q) = \min_{K} SRAC(Q; K)
-$$
 
 At each output level, the firm chooses the plant size (capital stock) that minimises average cost.
 The LRAC is U-shaped, reflecting economies of scale at low output and diseconomies at high Output.
@@ -114322,13 +113868,9 @@ The LRAC is U-shaped, reflecting economies of scale at low output and diseconomi
 
 If demand is $P = a - bQ$ Then:
 
-$$
 TR = P \times Q = aQ - bQ^2
-$$
 
-$$
 MR = \frac{dTR}{dQ} = a - 2bQ
-$$
 
 **Proposition: For a downward-sloping demand curve, $MR < AR$ (i.e., $MR < P$).**
 
@@ -114346,21 +113888,16 @@ $MR = AR = P$.
 
 The firm chooses output $Q$ to maximise economic profit:
 
-$$
 \pi(Q) = TR(Q) - TC(Q)
-$$
 
 First-order condition:
 
 $$
 \frac{d\pi}{dQ} = MR - MC = 0 \implies MR = MC
-$$
 
 Second-order condition (for maximum):
 
-$$
 \frac{d^2\pi}{dQ^2} = \frac{d(MR)}{dQ} - \frac{d(MC)}{dQ} < 0 \implies MC \mathrm{ cuts MR from below}
-$$
 
 **Normal profit** is the minimum profit necessary to keep a firm in the industry (included in total
 Cost as _opportunity cost_ of capital). **Economic profit** (supernormal profit) is profit above
@@ -114382,9 +113919,7 @@ normal profit.
 
 The firm is a price taker: $P = MR = AR$. Profit maximisation: $MR = MC$.
 
-$$
 P = MC(Q_{SR})
-$$
 
 - If $P > ATC$: the firm earns supernormal profit ($\pi > 0$)
 - If $P = ATC$: the firm earns normal profit ($\pi = 0$)
@@ -114400,9 +113935,7 @@ If firms earn supernormal profit, new firms enter. This shifts the market supply
 Reducing price until $P = ATC_{min}$. Conversely, if firms make losses, firms exit, supply shifts
 Left, price rises.
 
-$$
 P = MC = ATC_{min}
-$$
 
 **Proposition: In long-run perfect competition, firms earn zero economic profit.**
 
@@ -114437,9 +113970,7 @@ $\pi = TR - TC = P \cdot Q - ATC \cdot Q = 0$. $\blacksquare$
 
 The monopolist faces the market demand curve $P = a - bQ$.
 
-$$
 MR = a - 2bQ
-$$
 
 Profit maximisation: $MR = MC$.
 
@@ -114447,9 +113978,7 @@ $$Q_m : a - 2bQ_m = MC(Q_m)$$ $$P_m = a - bQ_m$$
 
 **Deadweight loss**: The monopolist produces less and charges more than a competitive market.
 
-$$
 \mathrm{DWL} = \int_{Q_m}^{Q_c} [P(Q) - MC(Q)] \, dQ > 0
-$$
 
 Where $Q_c$ is the competitive output ($P = MC$).
 
@@ -114472,9 +114001,7 @@ producer.
 **Third-degree price discrimination**: the firm divides consumers into groups with different PEDs
 And charges a higher price to the less elastic group.
 
-$$
 \frac{P_1}{P_2} = \frac{1 - \frac{1}{|\mathrm{PED}_2|}}{1 - \frac{1}{|\mathrm{PED}_1|}}
-$$
 
 Group with lower $|\mathrm{PED}|$ pays higher price.
 
@@ -114532,9 +114059,7 @@ Discrimination to be feasible.
 A natural monopoly exists where LRAC falls continuously over the relevant output range (strong
 Economies of scale). One firm can supply the entire market at lower cost than two or more firms.
 
-$$
 LRAC(Q_{total}) < \sum_{i} LRAC(Q_i) \quad \mathrm{for any partition } Q_{total} = \sum Q_i
-$$
 
 Examples: water supply, electricity distribution, railway networks.
 
@@ -114591,9 +114116,7 @@ $$\pi = 0 \implies P = AC$$ $$MR = MC \implies P > MC \mathrm{ (since } MR < P\m
 Between actual output and the minimum efficient scale output is excess capacity, a measure of
 inefficiency.
 
-$$
 Q_{MC} < Q_{MES} \quad \mathrm{where } Q_{MES} \mathrm{ minimises AC}
-$$
 
 **Evaluation of monopolistic competition**: While the model predicts excess capacity and allocative
 Inefficiency ($P > MC$), it has important strengths that are often underemphasised in exam answers.
@@ -114654,9 +114177,7 @@ Consider the discount factor $\delta \in (0, 1)$ Which represents how much firms
 relative to current profits. If both firms play **tit-for-tat** (cooperate in the first Round, then
 copy the opponent's previous action), collusion is sustainable if:
 
-$$
 (\mathrm{Gain from cheating today}) \lt (\mathrm{Loss from future punishment})
-$$
 
 More : if firms are sufficiently patient ($\delta$ is close to 1), the long-run gains From
 cooperation outweigh the short-run temptation to cheat. This explains why OPEC has maintained
@@ -115356,18 +114877,13 @@ payoffs (50, 50).
 cooperated last period; if the other ever defects, defect forever."
 
 **Firm's incentive to cooperate:** The present value of cooperation:
-$$
 PV_{coop} = 100 + \frac{100}{1+r} + \frac{100}{(1+r)^2} + \cdots = \frac{100(1+r)}{r}
-$$
 
 **Firm's incentive to defect:** Defect this period (150), then the other firm triggers permanent
 punishment (50 forever):
-$$
 PV_{defect} = 150 + \frac{50}{1+r} + \frac{50}{(1+r)^2} + \cdots = 150 + \frac{50}{r}
-$$
 
 **Cooperation is sustainable if:** $$\frac{100(1+r)}{r} \geq 150 + \frac{50}{r}
-$$
 $$\frac{100 + 100r}{r} \geq 150 + \frac{50}{r}$$ $$\frac{50 + 100r}{r} \geq 150$$
 $$50 + 100r \geq 150r$$ $$50 \geq 50r$$ $$r \leq 1$$
 
@@ -115377,9 +114893,7 @@ sustained.
 
 **With higher gains from defection:** If the defection payoff rises to 200:
 $$PV_{defect} = 200 + 50/r$$ $$100(1+r)/r \geq 200 + 50/r$$ $$50 + 100r \geq 200r$$
-$$
 50 \geq 100r \Rightarrow r \leq 0.5
-$$
 
 Now cooperation requires $r \leq 50\%$ A stricter condition. The higher the temptation to defect, the
 more patient firms must be to sustain cooperation.
@@ -139824,12 +139338,10 @@ Vector_.
 
 For matrices $\mathbf{A}, \mathbf{B} \in M_{m \times n}(\mathbb{R})$ and scalar $k \in \mathbb{R}$:
 
-$$
 \begin{aligned}
 (\mathbf{A} + \mathbf{B})_{ij} &= a_{ij} + b_{ij} \\
 (k\mathbf{A})_{ij} &= k \cdot a_{ij}
 \end{aligned}
-$$
 
 Matrix addition is commutative ($\mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}$) and
 associative.
@@ -139840,9 +139352,7 @@ associative.
 $\mathbf{B} \in M_{p \times n}(\mathbb{R})$ The product $\mathbf{AB} \in M_{m \times n}(\mathbb{R})$
 is defined by:
 
-$$
 \boxed{(\mathbf{AB})_{ij} = \sum_{k=1}^{p} a_{ik}\, b_{kj}}
-$$
 
 Matrix multiplication is associative but **not commutative** : $\mathbf{AB} \neq \mathbf{BA}$.
 
@@ -139862,9 +139372,7 @@ The rightmost matrix is applied first.
 
 **Definition.** For $\mathbf{A} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$:
 
-$$
 \boxed{\det(\mathbf{A}) = ad - bc}
-$$
 
 ### 2.2 The $3 \times 3$ Determinant
 
@@ -139872,9 +139380,7 @@ $$
 $\mathbf{A} = \begin{pmatrix} a_{11} & a_{12} & a_{13} \\ a_{21} & a_{22} & a_{23} \\ a_{31} & a_{32} & a_{33} \end{pmatrix}$
 the determinant is computed by _cofactor expansion_ along any row or column:
 
-$$
 \boxed{\det(\mathbf{A}) = a_{11}\begin{vmatrix} a_{22} & a_{23} \\ a_{32} & a_{33} \end{vmatrix} - a_{12}\begin{vmatrix} a_{21} & a_{23} \\ a_{31} & a_{33} \end{vmatrix} + a_{13}\begin{vmatrix} a_{21} & a_{22} \\ a_{31} & a_{32} \end{vmatrix}}
-$$
 
 The signs alternate $+$, $-$, $+$ along the first row (following the checkerboard pattern).
 
@@ -139894,11 +139400,8 @@ For $n \times n$ matrices $\mathbf{A}, \mathbf{B}$ and scalar $k$:
 Let $\mathbf{A} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ and
 $\mathbf{B} = \begin{pmatrix} e & f \\ g & h \end{pmatrix}$.
 
-$$
 \mathbf{AB} = \begin{pmatrix} ae + bg & af + bh \\ ce + dg & cf + dh \end{pmatrix}
-$$
 
-$$
 \begin{aligned}
 \det(\mathbf{AB}) &= (ae + bg)(cf + dh) - (af + bh)(ce + dg) \\
 &= acef + adeh + bcfg + bdgh - acef - adfg - bceh - bdgh \\
@@ -139907,7 +139410,6 @@ $$
 &= (ad - bc)(eh - fg) \\
 &= \det(\mathbf{A}) \cdot \det(\mathbf{B}) \quad \square
 \end{aligned}
-$$
 
 **Intuition.** The determinant measures how a matrix scales area (in 2D) or volume (in 3D).
 Composing two transformations multiplies their area/volume scaling factors, which is why
@@ -139920,9 +139422,7 @@ Determinants multiply.
 **Definition.** The _inverse_ of a square matrix $\mathbf{A}$ Written $\mathbf{A}^{-1}$ Is the Unique
 matrix satisfying:
 
-$$
 \mathbf{A}\mathbf{A}^{-1} = \mathbf{A}^{-1}\mathbf{A} = \mathbf{I}
-$$
 
 An inverse exists if and only if $\det(\mathbf{A}) \neq 0$. Such a matrix is called _non-singular_.
 
@@ -139931,17 +139431,13 @@ An inverse exists if and only if $\det(\mathbf{A}) \neq 0$. Such a matrix is cal
 For $\mathbf{A} = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$ with
 $\det(\mathbf{A}) = ad - bc \neq 0$:
 
-$$
 \boxed{\mathbf{A}^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}}
-$$
 
 ### 3.2 The Adjugate Method ($3 \times 3$)
 
 For a $3 \times 3$ matrix $\mathbf{A}$:
 
-$$
 \boxed{\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})}\operatorname{adj}(\mathbf{A})}
-$$
 
 Where the _adjugate_ (or _adjoint_) matrix $\operatorname{adj}(\mathbf{A})$ is the transpose of the
 _cofactor matrix_.
@@ -139954,9 +139450,7 @@ $C_{ij}$ And $\operatorname{adj}(\mathbf{A}) = (C_{ij})^T$.
 
 Suppose $\mathbf{B}$ and $\mathbf{C}$ are both inverses of $\mathbf{A}$. Then:
 
-$$
 \mathbf{B} = \mathbf{B}\mathbf{I} = \mathbf{B}(\mathbf{AC}) = (\mathbf{BA})\mathbf{C} = \mathbf{IC} = \mathbf{C} \quad \square
-$$
 
 :::tip
 Catches sign errors and arithmetic mistakes immediately.
@@ -139978,15 +139472,10 @@ C_{11} &= +\begin{vmatrix} 1 & 3 \\ 0 & 1 \end{vmatrix} = 1, \quad C_{12} &= -\b
 C_{21} &= -\begin{vmatrix} 2 & 0 \\ 0 & 1 \end{vmatrix} = -2, \quad C_{22} &= +\begin{vmatrix} 1 & 0 \\ 1 & 1 \end{vmatrix} = 1, \quad C_{23} &= -\begin{vmatrix} 1 & 2 \\ 1 & 0 \end{vmatrix} = 2 \\
 C_{31} &= +\begin{vmatrix} 2 & 0 \\ 1 & 3 \end{vmatrix} = 6, \quad C_{32} &= -\begin{vmatrix} 1 & 0 \\ 0 & 3 \end{vmatrix} = -3, \quad C_{33} &= +\begin{vmatrix} 1 & 2 \\ 0 & 1 \end{vmatrix} = 1
 \end{aligned}
-$$
 
-$$
 \operatorname{adj}(\mathbf{A}) = \begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}
-$$
 
-$$
 \mathbf{A}^{-1} = \frac{1}{7}\begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}
-$$
 
 </details>
 
@@ -140000,9 +139489,7 @@ the column vector of unknowns, and $\mathbf{b}$ is the column vector of constant
 
 If $\mathbf{A}$ is non-singular, the unique solution is:
 
-$$
 \boxed{\mathbf{x} = \mathbf{A}^{-1}\mathbf{b}}
-$$
 
 ### 4.1 Geometric Interpretation (2D)
 
@@ -140017,9 +139504,7 @@ For a $2 \times 2$ system:
 
 For a system $\mathbf{A}\mathbf{x} = \mathbf{b}$ where $\det(\mathbf{A}) \neq 0$:
 
-$$
 x_i = \frac{\det(\mathbf{A}_i)}{\det(\mathbf{A})}
-$$
 
 Where $\mathbf{A}_i$ is $\mathbf{A}$ with column $i$ replaced by $\mathbf{b}$.
 
@@ -140027,16 +139512,13 @@ Where $\mathbf{A}_i$ is $\mathbf{A}$ with column $i$ replaced by $\mathbf{b}$.
 <summary>Worked Example: Solving a $3\times3$ system</summary>
 
 Solve: $$\begin{cases} x + 2y = 4 \\ y + 3z = 5 \\ x + z = 2 \end{cases}
-$$
 
 In matrix form:
 $\begin{pmatrix} 1 & 2 & 0 \\ 0 & 1 & 3 \\ 1 & 0 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} 4 \\ 5 \\ 2 \end{pmatrix}$.
 
 Using the inverse from the previous example:
 
-$$
 \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \frac{1}{7}\begin{pmatrix} 1 & -2 & 6 \\ 3 & 1 & -3 \\ -1 & 2 & 1 \end{pmatrix}\begin{pmatrix} 4 \\ 5 \\ 2 \end{pmatrix} = \frac{1}{7}\begin{pmatrix} 4 - 10 + 12 \\ 12 + 5 - 6 \\ -4 + 10 + 2 \end{pmatrix} = \frac{1}{7}\begin{pmatrix} 6 \\ 11 \\ 8 \end{pmatrix} = \begin{pmatrix} 6/7 \\ 11/7 \\ 8/7 \end{pmatrix}
-$$
 
 </details>
 
@@ -140058,9 +139540,7 @@ $\begin{pmatrix} x' \\ y' \end{pmatrix} = \mathbf{T}\begin{pmatrix} x \\ y \end{
 
 **Reflection in the line $y = \tan\theta\, x$:**
 
-$$
 \boxed{\mathbf{R} = \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}}
-$$
 
 ### Proof of the reflection matrix
 
@@ -140068,25 +139548,17 @@ The reflection of a vector in a line through the origin making angle $\theta$ wi
 be decomposed: first rotate by $-\theta$ to align the mirror with the $x$-axis, reflect in the
 $x$-axis, then rotate back by $\theta$.
 
-$$
 \mathbf{R} = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}\begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix}
-$$
 
-$$
 = \begin{pmatrix} \cos\theta & \sin\theta \\ \sin\theta & -\cos\theta \end{pmatrix}\begin{pmatrix} \cos\theta & \sin\theta \\ -\sin\theta & \cos\theta \end{pmatrix}
-$$
 
-$$
 = \begin{pmatrix} \cos^2\theta - \sin^2\theta & \cos\theta\sin\theta + \sin\theta\cos\theta \\ \sin\theta\cos\theta + \cos\theta\sin\theta & \sin^2\theta - \cos^2\theta \end{pmatrix} = \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix} \quad \square
-$$
 
 ### 5.2 Rotation
 
 **Rotation anticlockwise by angle $\theta$ about the origin:**
 
-$$
 \boxed{\mathbf{R}_\theta = \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}}
-$$
 
 Note: $\det(\mathbf{R}_\theta) = \cos^2\theta + \sin^2\theta = 1$.
 
@@ -140149,21 +139621,15 @@ On 2D but may include basic $3\times3$ determinant and inverse calculations.
 
 **Rotation about the $x$-axis by angle $\theta$:**
 
-$$
 \mathbf{R}_x = \begin{pmatrix} 1 & 0 & 0 \\ 0 & \cos\theta & -\sin\theta \\ 0 & \sin\theta & \cos\theta \end{pmatrix}
-$$
 
 **Rotation about the $y$-axis by angle $\theta$:**
 
-$$
 \mathbf{R}_y = \begin{pmatrix} \cos\theta & 0 & \sin\theta \\ 0 & 1 & 0 \\ -\sin\theta & 0 & \cos\theta \end{pmatrix}
-$$
 
 **Rotation about the $z$-axis by angle $\theta$:**
 
-$$
 \mathbf{R}_z = \begin{pmatrix} \cos\theta & -\sin\theta & 0 \\ \sin\theta & \cos\theta & 0 \\ 0 & 0 & 1 \end{pmatrix}
-$$
 
 Each has $\det = 1$ and represents a rigid motion preserving distances and orientation.
 
@@ -140188,9 +139654,7 @@ Each has $\det = -1$ Confirming orientation reversal.
 **Definition.** Let $\mathbf{A}$ be an $n \times n$ matrix. A scalar $\lambda$ is an _eigenvalue_ of
 $\mathbf{A}$ if there exists a non-zero vector $\mathbf{v}$ such that:
 
-$$
 \boxed{\mathbf{A}\mathbf{v} = \lambda\mathbf{v}}
-$$
 
 The vector $\mathbf{v}$ is called an _eigenvector_ corresponding to $\lambda$.
 
@@ -140201,9 +139665,7 @@ $\mathbf{A}\mathbf{v} = \lambda\mathbf{v} \iff (\mathbf{A} - \lambda\mathbf{I})\
 For a non-trivial solution ($\mathbf{v} \neq \mathbf{0}$), we require
 $\det(\mathbf{A} - \lambda\mathbf{I}) = 0$.
 
-$$
 \boxed{\det(\mathbf{A} - \lambda\mathbf{I}) = 0}
-$$
 
 This is the _characteristic equation_ of $\mathbf{A}$. Its roots are the eigenvalues.
 
@@ -140217,9 +139679,7 @@ reduction.
 **Definition.** A matrix $\mathbf{A}$ is _diagonalisable_ if there exists an invertible matrix
 $\mathbf{P}$ and a diagonal matrix $\mathbf{D}$ such that:
 
-$$
 \boxed{\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}}
-$$
 
 The columns of $\mathbf{P}$ are the eigenvectors of $\mathbf{A}$ And the diagonal entries of
 $\mathbf{D}$ are the corresponding eigenvalues.
@@ -140240,9 +139700,7 @@ $\mathbf{A} = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$.
 Characteristic equation:
 $\det\!\begin{pmatrix} 4 - \lambda & 1 \\ 2 & 3 - \lambda \end{pmatrix} = 0$
 
-$$
 (4 - \lambda)(3 - \lambda) - 2 = \lambda^2 - 7\lambda + 10 = (\lambda - 5)(\lambda - 2) = 0
-$$
 
 Eigenvalues: $\lambda_1 = 5$, $\lambda_2 = 2$.
 
@@ -140267,25 +139725,15 @@ $\mathbf{A} = \mathbf{P}\mathbf{D}\mathbf{P}^{-1}$.
 
 ## 8. Summary of Key Results
 
-$$
 \boxed{\det(\mathbf{AB}) = \det(\mathbf{A})\det(\mathbf{B})}
-$$
 
-$$
 \boxed{\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})}\operatorname{adj}(\mathbf{A}) \quad \mathrm{when } \det(\mathbf{A}) \neq 0}
-$$
 
-$$
 \boxed{\mathrm{Rotation by } \theta: \begin{pmatrix} \cos\theta & -\sin\theta \\ \sin\theta & \cos\theta \end{pmatrix}}
-$$
 
-$$
 \boxed{\mathrm{Reflection in } y = (\tan\theta)x: \begin{pmatrix} \cos 2\theta & \sin 2\theta \\ \sin 2\theta & -\cos 2\theta \end{pmatrix}}
-$$
 
-$$
 \boxed{\det(\mathbf{A} - \lambda\mathbf{I}) = 0 \implies \mathrm{eigenvalues of } \mathbf{A}}
-$$
 
 <hr />
 
@@ -140304,17 +139752,11 @@ Compute both products separately and subtract. They will not be equal.
 <details>
 <summary>Answer</summary>
 
-$$
 \mathbf{AB} = \begin{pmatrix} 3 & -1 \\ 2 & 4 \end{pmatrix}\begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix} = \begin{pmatrix} 5 & 15 \\ -6 & 10 \end{pmatrix}
-$$
 
-$$
 \mathbf{BA} = \begin{pmatrix} 1 & 5 \\ -2 & 0 \end{pmatrix}\begin{pmatrix} 3 & -1 \\ 2 & 4 \end{pmatrix} = \begin{pmatrix} 13 & 19 \\ -6 & 2 \end{pmatrix}
-$$
 
-$$
 \mathbf{AB} - \mathbf{BA} = \begin{pmatrix} 5 & 15 \\ -6 & 10 \end{pmatrix} - \begin{pmatrix} 13 & 19 \\ -6 & 2 \end{pmatrix} = \begin{pmatrix} -8 & -4 \\ 0 & 8 \end{pmatrix}
-$$
 
 This confirms $\mathbf{AB} \neq \mathbf{BA}$.
 
@@ -140341,21 +139783,15 @@ $= 2(-1) - 1(-2) + 3(1) = -2 + 2 + 3 = 3$
 
 Cofactors:
 
-$$
 \begin{aligned}
 C_{11} = +(-1) = -1, \quad C_{12} = -(0 \cdot 1 - 2 \cdot 1) = 2, \quad C_{13} = +(0 \cdot 0 - (-1) \cdot 1) = 1 \\
 C_{21} = -(1 \cdot 1 - 3 \cdot 0) = -1, \quad C_{22} = +(2 \cdot 1 - 3 \cdot 1) = -1, \quad C_{23} = -(2 \cdot 0 - 1 \cdot 1) = 1 \\
 C_{31} = +(2 + 2) = 4, \quad C_{32} = -(4 - 0) = -4, \quad C_{33} = +(-2 - 0) = -2
 \end{aligned}
-$$
 
-$$
 \operatorname{adj}(\mathbf{A}) = \begin{pmatrix} -1 & -1 & 4 \\ 2 & -1 & -4 \\ 1 & 1 & -2 \end{pmatrix}
-$$
 
-$$
 \mathbf{A}^{-1} = \frac{1}{3}\begin{pmatrix} -1 & -1 & 4 \\ 2 & -1 & -4 \\ 1 & 1 & -2 \end{pmatrix}
-$$
 
 </details>
 
@@ -140377,14 +139813,10 @@ Twice is the identity.
 
 $\tan\theta = \sqrt{3} \implies \theta = \dfrac{\pi}{3}$.
 
-$$
 \mathbf{M} = \begin{pmatrix} \cos\frac{2\pi}{3} & \sin\frac{2\pi}{3} \\ \sin\frac{2\pi}{3} & -\cos\frac{2\pi}{3} \end{pmatrix} = \begin{pmatrix} -\frac{1}{2} & \frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}
-$$
 
 Verification:
-$$
 \mathbf{M}^2 = \begin{pmatrix} -\frac{1}{2} & \frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix}\begin{pmatrix} -\frac{1}{2} & \frac{\sqrt{3}}{2} \\ \frac{\sqrt{3}}{2} & \frac{1}{2} \end{pmatrix} = \begin{pmatrix} \frac{1}{4} + \frac{3}{4} & -\frac{\sqrt{3}}{4} + \frac{\sqrt{3}}{4} \\ -\frac{\sqrt{3}}{4} + \frac{\sqrt{3}}{4} & \frac{3}{4} + \frac{1}{4} \end{pmatrix} = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = \mathbf{I} \quad \square
-$$
 
 </details>
 
@@ -140421,9 +139853,7 @@ $\det(\mathbf{T}) = 6$ And $|\det(\mathbf{T})| \times \mathrm{original area} = 6
 
 **Problem 5.** Solve the system of equations using matrices:
 
-$$
 \begin{cases} 2x + y - z = 3 \\ x - y + 2z = 1 \\ 3x + 2y + z = 10 \end{cases}
-$$
 
 <details>
 <summary>Hint</summary>
@@ -140445,13 +139875,9 @@ $= 2(-5) - 1(-5) - 1(5) = -10 + 5 - 5 = -10$
 Cofactors: $C_{11} = -5$$C_{12} = 5$$C_{13} = 5$$C_{21} = -3$$C_{22} = 5$$C_{23} = -1$
 $C_{31} = 1$$C_{32} = -5$$C_{33} = -3$.
 
-$$
 \mathbf{A}^{-1} = -\frac{1}{10}\begin{pmatrix} -5 & -3 & 1 \\ 5 & 5 & -5 \\ 5 & -1 & -3 \end{pmatrix}
-$$
 
-$$
 \mathbf{x} = -\frac{1}{10}\begin{pmatrix} -5 & -3 & 1 \\ 5 & 5 & -5 \\ 5 & -1 & -3 \end{pmatrix}\begin{pmatrix} 3 \\ 1 \\ 10 \end{pmatrix} = -\frac{1}{10}\begin{pmatrix} -15 - 3 + 10 \\ 15 + 5 - 50 \\ 15 - 1 - 30 \end{pmatrix} = -\frac{1}{10}\begin{pmatrix} -8 \\ -30 \\ -16 \end{pmatrix} = \begin{pmatrix} 4/5 \\ 3 \\ 8/5 \end{pmatrix}
-$$
 
 So $x = \dfrac{4}{5}$$y = 3$$z = \dfrac{8}{5}$.
 
@@ -140523,9 +139949,7 @@ $\begin{pmatrix} 4 & 4 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} x \\ y \end{pmatrix
 
 Eigenvector: $\mathbf{v}_2 = \begin{pmatrix} 1 \\ -1 \end{pmatrix}$.
 
-$$
 \mathbf{P} = \begin{pmatrix} 4 & 1 \\ 1 & -1 \end{pmatrix}, \quad \mathbf{D} = \begin{pmatrix} 6 & 0 \\ 0 & 1 \end{pmatrix}
-$$
 
 </details>
 
@@ -140561,9 +139985,7 @@ $\mathbf{P}^{-1} = \begin{pmatrix} -1 & 2 \\ 1 & -1 \end{pmatrix}$.
 
 $\mathbf{D}^5 = \begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}$.
 
-$$
 \mathbf{A}^5 = \mathbf{P}\mathbf{D}^5\mathbf{P}^{-1} = \begin{pmatrix} 1 & 2 \\ 1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 1 & -1 \end{pmatrix} = \begin{pmatrix} 1 & 64 \\ 1 & 32 \end{pmatrix}\begin{pmatrix} -1 & 2 \\ 1 & -1 \end{pmatrix} = \begin{pmatrix} 63 & -62 \\ 31 & -30 \end{pmatrix}
-$$
 
 </details>
 
@@ -140583,15 +140005,11 @@ Use the standard formula for $\mathbf{R}_z$ with $\theta = \pi/2$.
 <details>
 <summary>Answer</summary>
 
-$$
 \mathbf{R}_z = \begin{pmatrix} \cos\frac{\pi}{2} & -\sin\frac{\pi}{2} & 0 \\ \sin\frac{\pi}{2} & \cos\frac{\pi}{2} & 0 \\ 0 & 0 & 1 \end{pmatrix} = \begin{pmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}
-$$
 
 $\det(\mathbf{R}_z) = 0 \cdot (0 - 0) - (-1)(1 - 0) + 0 = 1$. ✓
 
-$$
 \mathbf{R}_z\begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 1 \\ 0 \end{pmatrix} \quad \checkmark
-$$
 
 The $x$-axis is correctly rotated to the $y$-axis by a $90^\circ$ anticlockwise rotation about $z$.
 
@@ -140616,13 +140034,9 @@ and invoke uniqueness.
 We need to show that $(\mathbf{AB})(\mathbf{B}^{-1}\mathbf{A}^{-1}) = \mathbf{I}$ and
 $(\mathbf{B}^{-1}\mathbf{A}^{-1})(\mathbf{AB}) = \mathbf{I}$.
 
-$$
 (\mathbf{AB})(\mathbf{B}^{-1}\mathbf{A}^{-1}) = \mathbf{A}(\mathbf{B}\mathbf{B}^{-1})\mathbf{A}^{-1} = \mathbf{A}\mathbf{I}\mathbf{A}^{-1} = \mathbf{A}\mathbf{A}^{-1} = \mathbf{I}
-$$
 
-$$
 (\mathbf{B}^{-1}\mathbf{A}^{-1})(\mathbf{AB}) = \mathbf{B}^{-1}(\mathbf{A}^{-1}\mathbf{A})\mathbf{B} = \mathbf{B}^{-1}\mathbf{I}\mathbf{B} = \mathbf{B}^{-1}\mathbf{B} = \mathbf{I}
-$$
 
 Since the inverse is unique, $(\mathbf{AB})^{-1} = \mathbf{B}^{-1}\mathbf{A}^{-1}$. $\square$
 
@@ -140650,9 +140064,7 @@ Then B," you must undo B first, then undo A.
 
 **Solution.** Find eigenvalues: $\det(\mathbf{A}-\lambda\mathbf{I}) = 0$.
 
-$$
 \det\begin{pmatrix}2-\lambda&1&0\\0&2-\lambda&0\\0&1&3-\lambda\end{pmatrix} = (2-\lambda)^2(3-\lambda) = 0
-$$
 
 $\lambda_1 = 2$ (repeated), $\lambda_2 = 3$.
 
@@ -140684,9 +140096,7 @@ Invariant lines of the transformation $\mathbf{x} \mapsto \mathbf{Ax}$.
 **Solution.** **Invariant points:**
 $\mathbf{Ax} = \mathbf{x} \implies (\mathbf{A}-\mathbf{I})\mathbf{x} = \mathbf{0}$.
 
-$$
 \begin{pmatrix}2&1\\0&1\end{pmatrix}\mathbf{x} = \mathbf{0} \implies x_2 = 0, \; 2x_1 = 0
-$$
 
 Only the origin $(0,0)$ is an invariant point.
 
@@ -140977,9 +140387,7 @@ Matrix $\mathbf{D}$ may have 1s on the superdiagonal (Jordan blocks).
 
 For example, if $\mathbf{A}$ has a repeated eigenvalue $\lambda$ with only one eigenvector:
 
-$$
 \mathbf{P}^{-1}\mathbf{AP} = \begin{pmatrix}\lambda&1\\0&\lambda\end{pmatrix}
-$$
 
 ### 14.3 Orthogonal diagonalisation
 
@@ -141138,9 +140546,7 @@ Therefore $\text{tr}\,\mathbf{A} = \lambda_1 + \lambda_2 + \cdots + \lambda_n$. 
 
 </details>
 
-$$
 
-$$
 
 ## Cross-References
 
@@ -162900,9 +162306,7 @@ URL: https://alevel.wyattau.com/maths/diagnostics/diag-algebraic-expressions/
 
 Simplify the following expression completely:
 
-$$
 \frac{\frac{1}{x+1} + \frac{1}{x-1}}{\frac{1}{(x+1)^2} - \frac{1}{(x-1)^2}}
-$$
 
 State any restrictions on $x$.
 
@@ -162921,42 +162325,30 @@ simplification.
 
 **Step 1: Simplify the numerator of the overall fraction.**
 
-$$
 \frac{1}{x+1} + \frac{1}{x-1} = \frac{(x-1) + (x+1)}{(x+1)(x-1)} = \frac{2x}{x^2 - 1}
-$$
 
 **Step 2: Simplify the denominator of the overall fraction.**
 
-$$
 \frac{1}{(x+1)^2} - \frac{1}{(x-1)^2} = \frac{(x-1)^2 - (x+1)^2}{(x+1)^2(x-1)^2}
-$$
 
 Expand the numerators using the difference of two squares, since $(x-1)^2 - (x+1)^2$ is of the form
 $a^2 - b^2$:
 
-$$
 (x-1)^2 - (x+1)^2 = [(x-1) - (x+1)][(x-1) + (x+1)] = (-2)(2x) = -4x
-$$
 
 So:
 
-$$
 \frac{1}{(x+1)^2} - \frac{1}{(x-1)^2} = \frac{-4x}{(x+1)^2(x-1)^2} = \frac{-4x}{(x^2 - 1)^2}
-$$
 
 **Step 3: Form the overall fraction.**
 
-$$
 \frac{\frac{2x}{x^2-1}}{\frac{-4x}{(x^2-1)^2}} = \frac{2x}{x^2-1} \times \frac{(x^2-1)^2}{-4x}
-$$
 
 **Step 4: Cancel common factors.** We can cancel $2x$ with $-4x$ (noting $x \neq 0$ would cause the
 original numerator and denominator to both be zero, so $x \neq 0$ is an additional restriction), and
 $(x^2-1)$ with $(x^2-1)^2$:
 
-$$
 = \frac{2x \cdot (x^2-1)^2}{-4x \cdot (x^2-1)} = \frac{(x^2-1)}{-2} = -\frac{x^2-1}{2}
-$$
 
 **Final restrictions:** $x \neq -1, 1, 0$.
 
@@ -162981,9 +162373,7 @@ our result gives $-\frac{4-1}{2} = -\frac{3}{2}$. Consistent.
 
 Rationalise the denominator of:
 
-$$
 \frac{3\sqrt{5} + 2\sqrt{3}}{2\sqrt{5} - \sqrt{3} + \sqrt{15}}
-$$
 
 Express your answer in the form $a\sqrt{b} + c\sqrt{d} + e\sqrt{f}$ where $a, c, e$ are rational
 numbers and $b, d, f$ are square-free positive integers.
@@ -162998,63 +162388,42 @@ of $\sqrt{15}$).
 
 **Step 1: Compute $D \cdot D'$.**
 
-$$
 D \cdot D' = (2\sqrt{5} - \sqrt{3})^2 - (\sqrt{15})^2
-$$
 
 This uses the identity $(a + b)(a - b) = a^2 - b^2$ where $a = 2\sqrt{5} - \sqrt{3}$ and
 $b = \sqrt{15}$.
 
-$$
 (2\sqrt{5} - \sqrt{3})^2 = 4(5) - 4\sqrt{15} + 3 = 20 + 3 - 4\sqrt{15} = 23 - 4\sqrt{15}
-$$
 
-$$
 (\sqrt{15})^2 = 15
-$$
 
 Therefore:
 
-$$
 D \cdot D' = 23 - 4\sqrt{15} - 15 = 8 - 4\sqrt{15}
-$$
 
 **Step 2: Factor the result.**
 
-$$
 8 - 4\sqrt{15} = 4(2 - \sqrt{15})
-$$
 
 **Step 3: Multiply the numerator by $D'$.**
 
-$$
 N' = (3\sqrt{5} + 2\sqrt{3})(2\sqrt{5} - \sqrt{3} - \sqrt{15})
-$$
 
 Let us expand this term by term. Write
 $N' = (3\sqrt{5} + 2\sqrt{3})(2\sqrt{5} - \sqrt{3}) - (3\sqrt{5} + 2\sqrt{3})\sqrt{15}$.
 
 First part:
-$$
 (3\sqrt{5} + 2\sqrt{3})(2\sqrt{5} - \sqrt{3}) = 3\sqrt{5} \cdot 2\sqrt{5} - 3\sqrt{5}\cdot\sqrt{3} + 2\sqrt{3}\cdot 2\sqrt{5} - 2\sqrt{3}\cdot\sqrt{3}
-$$
-$$
 = 30 - 3\sqrt{15} + 4\sqrt{15} - 6 = 24 + \sqrt{15}
-$$
 
 Second part:
-$$
 (3\sqrt{5} + 2\sqrt{3})\sqrt{15} = 3\sqrt{75} + 2\sqrt{45} = 3(5\sqrt{3}) + 2(3\sqrt{5}) = 15\sqrt{3} + 6\sqrt{5}
-$$
 
 Therefore: $$N' = 24 + \sqrt{15} - 15\sqrt{3} - 6\sqrt{5}
-$$
 
 **Step 4: Form the full fraction.**
 
-$$
 \frac{N'}{D \cdot D'} = \frac{24 + \sqrt{15} - 15\sqrt{3} - 6\sqrt{5}}{4(2 - \sqrt{15})}
-$$
 
 **Step 5: Rationalise the remaining surd in the denominator.** Multiply numerator and denominator by
 $(2 + \sqrt{15})$:
@@ -163083,13 +162452,9 @@ Collecting like terms:
 
 **Step 6: Final result.**
 
-$$
 \frac{63 + 26\sqrt{15} - 60\sqrt{3} - 57\sqrt{5}}{-44}
-$$
 
-$$
 = -\frac{63}{44} - \frac{13}{22}\sqrt{15} + \frac{15}{11}\sqrt{3} + \frac{57}{44}\sqrt{5}
-$$
 
 ---
 
@@ -163108,9 +162473,7 @@ $$
 
 Given that $a^{\frac{1}{2}} + a^{-\frac{1}{2}} = 5$ Find the exact value of:
 
-$$
 \frac{a^{\frac{3}{2}} - a^{-\frac{3}{2}}}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}}
-$$
 
 [Difficulty: hard. Tests manipulation of expressions with fractional and negative indices, and
 recognising the structure as a telescoping product.]
@@ -163120,15 +162483,11 @@ recognising the structure as a telescoping product.]
 **Key observation:** The numerator $a^{3/2} - a^{-3/2}$ can be factorised using the difference of
 cubes identity $x^3 - y^3 = (x - y)(x^2 + xy + y^2)$ with $x = a^{1/2}$ and $y = a^{-1/2}$:
 
-$$
 a^{\frac{3}{2}} - a^{-\frac{3}{2}} = \left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)
-$$
 
 Therefore the expression simplifies to:
 
-$$
 \frac{\left(a^{\frac{1}{2}} - a^{-\frac{1}{2}}\right)\left(a + 1 + a^{-1}\right)}{a^{\frac{1}{2}} - a^{-\frac{1}{2}}} = a + 1 + a^{-1}
-$$
 
 Provided $a^{1/2} - a^{-1/2} \neq 0$ I.e. $a \neq 1$. (If $a = 1$ The given condition would give
 $2 = 5$ A contradiction, so $a \neq 1$ is guaranteed.)
@@ -163137,19 +162496,13 @@ $2 = 5$ A contradiction, so $a \neq 1$ is guaranteed.)
 
 We are given $a^{1/2} + a^{-1/2} = 5$. Squaring both sides:
 
-$$
 a + 2 + a^{-1} = 25
-$$
 
-$$
 a + a^{-1} = 23
-$$
 
 **Step 3: Compute the final answer.**
 
-$$
 a + 1 + a^{-1} = (a + a^{-1}) + 1 = 23 + 1 = 24
-$$
 
 ---
 
@@ -163173,15 +162526,11 @@ $$
 
 The binomial expansion of $(1 + 2x)^{-1}$ up to and including the term in $x^3$ is:
 
-$$
 (1 + 2x)^{-1} = 1 - 2x + 4x^2 - 8x^3 + \cdots
-$$
 
 By writing $x = \frac{1}{y}$ for $y \geq 5$ Find the exact rational expression for:
 
-$$
 \frac{y^4}{y + 2} - \frac{y^4}{y^2 + 2y}
-$$
 
 In the form $A y^3 + B y^2 + C y + D + \frac{E}{y + 2}$ And hence verify that your result is
 consistent with the binomial expansion above.
@@ -163193,9 +162542,7 @@ and substitution.]
 
 **Step 1: Simplify the algebraic expression.**
 
-$$
 \frac{y^4}{y+2} - \frac{y^4}{y(y+2)} = \frac{y^4}{y+2} - \frac{y^3}{y+2} = \frac{y^4 - y^3}{y+2} = \frac{y^3(y - 1)}{y+2}
-$$
 
 **Step 2: Perform polynomial division.** Divide $y^4 - y^3$ by $y + 2$.
 
@@ -163209,22 +162556,16 @@ Using algebraic long division:
 
 Therefore:
 
-$$
 \frac{y^4 - y^3}{y+2} = y^3 - 3y^2 + 6y - 12 + \frac{24}{y+2}
-$$
 
 So $A = 1$$B = -3$$C = 6$$D = -12$$E = 24$.
 
 **Step 3: Verify with the binomial expansion.** Write $\frac{y^3}{1 + 2/y}$ and substitute
 $x = 1/y$:
 
-$$
 \frac{y^3}{1 + 2/y} = y^3 \left(1 + \frac{2}{y}\right)^{-1} = y^3\left(1 - \frac{2}{y} + \frac{4}{y^2} - \frac{8}{y^3} + \cdots\right)
-$$
 
-$$
 = y^3 - 2y^2 + 4y - 8 + \cdots
-$$
 
 But our expression also has the term $-\frac{y^3}{y+2} = -y^3(1 + 2/y)^{-1}$ So we get
 $-(y^3 - 2y^2 + 4y - 8) = -y^3 + 2y^2 - 4y + 8$ plus the remainder terms. Adding $y^4/(y+2)$ back
@@ -163265,29 +162606,22 @@ solving.]
 **(a)** Let $y = f(x) = \frac{3x+1}{x-2}$. Solving for $x$:
 
 $$y(x-2) = 3x+1$$ $$yx - 2y = 3x + 1$$ $$yx - 3x = 2y + 1$$ $$x(y - 3) = 2y + 1$$
-$$
 x = \frac{2y + 1}{y - 3}
-$$
 
 Therefore $f^{-1}(x) = \frac{2x+1}{x-3}$ with domain $x \neq 3$.
 
 **(b)** Compute $f(x) + f^{-1}(x)$ and $f(x) - f^{-1}(x)$:
 
-$$
 f(x) + f^{-1}(x) = \frac{3x+1}{x-2} + \frac{2x+1}{x-3} = \frac{(3x+1)(x-3) + (2x+1)(x-2)}{(x-2)(x-3)}
-$$
 
 Numerator: $(3x+1)(x-3) + (2x+1)(x-2) = 3x^2 - 9x + x - 3 + 2x^2 - 4x + x - 2 = 5x^2 - 11x - 5$.
 
-$$
 f(x) - f^{-1}(x) = \frac{(3x+1)(x-3) - (2x+1)(x-2)}{(x-2)(x-3)}
-$$
 
 Numerator: $(3x^2 - 8x - 3) - (2x^2 - 3x - 2) = x^2 - 5x - 1$.
 
 Therefore:
 
-$$
 \frac{f(x) + f^{-1}(x)}{f(x) - f^{-1}(x)} = \frac{5x^2 - 11x - 5}{x^2 - 5x - 1}
 $$
 
@@ -163306,7 +162640,6 @@ $$
 $$f(1) - f^{-1}(1) = -4 + \frac{3}{2} = -\frac{5}{2}$$ Ratio $= 11/5$.
 
 For $x = 0$: $$f(0) + f^{-1}(0) = -\frac{1}{2} - \frac{1}{3} = -\frac{5}{6}
-$$
 $$f(0) - f^{-1}(0) = -\frac{1}{2} + \frac{1}{3} = -\frac{1}{6}$$ Ratio $= 5$.
 
 The ratio is not constant. Let me re-examine by a different approach. Note that
@@ -163323,34 +162656,22 @@ $f^{-1}(x) = \frac{-dx+b}{cx-a} = \frac{2x+1}{x-3}$.
 
 The question asks us to simplify. Let us instead compute:
 
-$$
 f(x) + f^{-1}(x) = \frac{3x+1}{x-2} + \frac{2x+1}{x-3}
-$$
 
-$$
 = \frac{(3x+1)(x-3)+(2x+1)(x-2)}{(x-2)(x-3)}
-$$
 
-$$
 = \frac{3x^2-8x-3+2x^2-3x-2}{(x-2)(x-3)} = \frac{5x^2-11x-5}{(x-2)(x-3)}
-$$
 
-$$
 f(x) - f^{-1}(x) = \frac{3x^2-8x-3-(2x^2-3x-2)}{(x-2)(x-3)} = \frac{x^2-5x-1}{(x-2)(x-3)}
-$$
 
-$$
 \frac{f(x)+f^{-1}(x)}{f(x)-f^{-1}(x)} = \frac{5x^2-11x-5}{x^2-5x-1}
-$$
 
 This is not a constant. The correct result of the simplification is
 $\frac{5x^2 - 11x - 5}{x^2 - 5x - 1}$.
 
 **(c)** $g(x) = \frac{x}{x+1}$ for $x \neq -1$.
 
-$$
 f(g(x)) = \frac{3\cdot\frac{x}{x+1} + 1}{\frac{x}{x+1} - 2} = \frac{\frac{3x + x + 1}{x+1}}{\frac{x - 2(x+1)}{x+1}} = \frac{\frac{4x+1}{x+1}}{\frac{-x-2}{x+1}} = \frac{4x+1}{-x-2} = -\frac{4x+1}{x+2}
-$$
 
 Setting $f(g(x)) = x$:
 
@@ -163358,9 +162679,7 @@ $$-\frac{4x+1}{x+2} = x$$ $$-(4x+1) = x(x+2)$$ $$-4x - 1 = x^2 + 2x$$ $$x^2 + 6x
 
 By the quadratic formula:
 
-$$
 x = \frac{-6 \pm \sqrt{36-4}}{2} = \frac{-6 \pm 4\sqrt{2}}{2} = -3 \pm 2\sqrt{2}
-$$
 
 Checking restrictions: $x \neq -1$ (domain of $g$) and $x \neq 2$ (domain of $f$). Neither
 $-3+2\sqrt{2}$ nor $-3-2\sqrt{2}$ equals $-1$ or $2$ So both solutions are valid.
@@ -163385,9 +162704,7 @@ $2a + 2\sqrt{a^2 - b}$.
 
 Given that $a$ and $b$ are positive integers with $a^2 > b$ And that:
 
-$$
 \sqrt{7 + 4\sqrt{3}} = \sqrt{m} + \sqrt{n}
-$$
 
 Where $m > n$ are positive integers:
 
@@ -163408,9 +162725,7 @@ coefficients.]
 
 Squaring both sides:
 
-$$
 7 + 4\sqrt{3} = m + n + 2\sqrt{mn}
-$$
 
 Equating rational and irrational parts:
 
@@ -163429,33 +162744,22 @@ Verification: $(2-\sqrt{3})^2 = 4 - 4\sqrt{3} + 3 = 7 - 4\sqrt{3}$. Confirmed.
 
 **(c)** The equation is:
 
-$$
 (\sqrt{m} + \sqrt{n})x^2 - (m+n)x + (\sqrt{m} - \sqrt{n}) = 0
-$$
 
 Substituting $m = 4$, $n = 3$:
 
-$$
 (2+\sqrt{3})x^2 - 7x + (2-\sqrt{3}) = 0
-$$
 
 By the quadratic formula:
 
-$$
 x = \frac{7 \pm \sqrt{49 - 4(2+\sqrt{3})(2-\sqrt{3})}}{2(2+\sqrt{3})}
-$$
 
-$$
 = \frac{7 \pm \sqrt{49 - 4(4-3)}}{2(2+\sqrt{3})}
-$$
 
-$$
 = \frac{7 \pm \sqrt{45}}{2(2+\sqrt{3})} = \frac{7 \pm 3\sqrt{5}}{2(2+\sqrt{3})}
-$$
 
 Rationalise the denominator by multiplying by $\frac{2-\sqrt{3}}{2-\sqrt{3}}$:
 
-$$
 x = \frac{(7 \pm 3\sqrt{5})(2-\sqrt{3})}{2(4-3)} = \frac{(7 \pm 3\sqrt{5})(2-\sqrt{3})}{2}
 $$
 
@@ -165370,9 +164674,7 @@ URL: https://alevel.wyattau.com/maths/diagnostics/diag-data-representation/
 
 A botanist records the heights (in cm) of 12 sunflower plants from a controlled growth experiment:
 
-$$
 42,\; 45,\; 47,\; 48,\; 49,\; 50,\; 51,\; 52,\; 53,\; 54,\; 55,\; 180
-$$
 
 **(a)** Calculate the mean, median, and mode of the full dataset.
 
@@ -165395,42 +164697,31 @@ counterexample.]
 **(a)** There are 12 data values, so $n = 12$.
 
 **Mean:**
-$$
 \bar{x} = \frac{42 + 45 + 47 + 48 + 49 + 50 + 51 + 52 + 53 + 54 + 55 + 180}{12} = \frac{826}{12} = 68.83 \text{ cm (2 d.p.)}
-$$
 
 **Median:** Since $n = 12$ is even, the median is the average of the 6th and 7th values. The ordered
 data is already given in ascending order.
 
-$$
 \text{Median} = \frac{50 + 51}{2} = 50.5 \text{ cm}
-$$
 
 **Mode:** Every value appears exactly once, so there is no mode.
 
 **(b)** Replacing 180 with 58 gives the dataset:
 
-$$
 42,\; 45,\; 47,\; 48,\; 49,\; 50,\; 51,\; 52,\; 53,\; 54,\; 55,\; 58
-$$
 
 **Mean:** $$\bar{x} = \frac{704}{12} = 58.67 \text{ cm (2 d.p.)}
-$$
 
 **Median:** Average of 6th and 7th values:
 
-$$
 \text{Median} = \frac{50 + 51}{2} = 50.5 \text{ cm}
-$$
 
 **Mode:** Still no mode.
 
 **(c)** The standard deviation is more affected by the outlier. This is because the standard
 deviation involves squaring the deviations from the mean:
 
-$$
 s = \sqrt{\frac{\sum(x_i - \bar{x})^2}{n-1}}
-$$
 
 The outlier 180 is very far from the mean (about 111 cm away), so $(180 - 68.83)^2 \approx 12370$
 contributes enormously to the sum of squared deviations. The interquartile range (IQR), by contrast,
@@ -165510,9 +164801,7 @@ classes and under-represents wide classes.
 
 The correct quantity for the vertical axis is the **frequency density**, defined as:
 
-$$
 \text{Frequency density} = \frac{\text{Frequency}}{\text{Class width}}
-$$
 
 **(b)** Frequency densities:
 
@@ -165542,13 +164831,9 @@ To estimate the mean, we use the midpoint of each class:
 
 </div>
 
-$$
 \sum f = 200, \quad \sum fx = 7432.5
-$$
 
-$$
 \bar{x} = \frac{7432.5}{200} = 37.2 \text{ minutes}
-$$
 
 **(c)** The class $35 \lt t \leq 60$ has the highest **frequency** (65), so more employees fall in
 this class than any other. However, the class with the highest **frequency density** is
@@ -165571,9 +164856,7 @@ Estimated frequency for $35 \lt t \leq 60$ with $t > 50$: $65 \times 0.4 = 26$.
 
 Total estimated frequency with $t > 50$: $26 + 29 = 55$.
 
-$$
 \text{Proportion} = \frac{55}{200} = 0.275
-$$
 
 So approximately 27.5% of employees commute for more than 50 minutes.
 
@@ -165595,9 +164878,7 @@ So approximately 27.5% of employees commute for more than 50 minutes.
 The temperatures (in degrees Celsius) at a weather station at noon on 15 consecutive days are
 recorded. The summary statistics for the raw data are:
 
-$$
 \sum x = 285, \quad \sum x^2 = 5785
-$$
 
 The data is coded using the formula $y = \frac{x - 10}{5}$.
 
@@ -165620,55 +164901,37 @@ $b$.]
 
 **(a)** For the raw data:
 
-$$
 \bar{x} = \frac{\sum x}{n} = \frac{285}{15} = 19
-$$
 
-$$
 S_{xx} = \sum x^2 - \frac{(\sum x)^2}{n} = 5785 - \frac{285^2}{15} = 5785 - \frac{81225}{15} = 5785 - 5415 = 370
-$$
 
-$$
 \text{Variance of } x = \frac{S_{xx}}{n-1} = \frac{370}{14} = \frac{185}{7}
-$$
 
-$$
 \text{SD of } x = \sqrt{\frac{185}{7}}
-$$
 
 For the coded data $y = \frac{x - 10}{5} = \frac{1}{5}x - 2$:
 
-$$
 \bar{y} = \frac{1}{5}\bar{x} - 2 = \frac{19}{5} - 2 = 3.8 - 2 = 1.8
-$$
 
 For the standard deviation: if $y = \frac{x - a}{b}$ Then
 $\text{SD}(y) = \frac{\text{SD}(x)}{|b|}$.
 
-$$
 \text{SD}(y) = \frac{1}{|5|} \times \sqrt{\frac{185}{7}} = \frac{1}{5}\sqrt{\frac{185}{7}} = \sqrt{\frac{185}{175}} = \sqrt{\frac{37}{35}}
-$$
 
 Alternatively:
 
-$$
 \text{Variance of } y = \frac{1}{5^2} \times \text{Variance of } x = \frac{1}{25} \times \frac{185}{7} = \frac{185}{175} = \frac{37}{35}
-$$
 
 **(b)** The key fact is:
 
-$$
 \text{Var}(aX + b) = a^2 \text{Var}(X)
-$$
 
 The constant $b$ (the additive shift) has **no effect** on the variance. The multiplicative factor
 $a$ affects the variance by $a^2$.
 
 For $y = \frac{x - 10}{5} = \frac{1}{5}x + \left(\frac{-10}{5}\right) = \frac{1}{5}x - 2$:
 
-$$
 \text{Var}(y) = \left(\frac{1}{5}\right)^2 \text{Var}(x) = \frac{1}{25}\text{Var}(x)
-$$
 
 So $\text{SD}(y) = \frac{1}{5}\text{SD}(x)$.
 
@@ -165682,23 +164945,15 @@ the question, and the answer is: it does not matter because variance depends on 
 
 **(c)** For $z = 3 - 2x = -2x + 3$:
 
-$$
 \bar{z} = -2\bar{x} + 3 = -2(19) + 3 = -38 + 3 = -35
-$$
 
-$$
 \text{Var}(z) = (-2)^2 \text{Var}(x) = 4 \times \frac{185}{7} = \frac{740}{7}
-$$
 
 For $w = 2x - 3$:
 
-$$
 \bar{w} = 2(19) - 3 = 38 - 3 = 35
-$$
 
-$$
 \text{Var}(w) = 2^2 \text{Var}(x) = 4 \times \frac{185}{7} = \frac{740}{7}
-$$
 
 The variances are equal: $\text{Var}(z) = \text{Var}(w)$.
 
@@ -165760,21 +165015,15 @@ means is approximately normal. [The standard deviation of bolt lengths is estima
 
 **(a)** Defective bolts are those in the classes $24.0 \leq x \lt 24.5$ and $26.5 \leq x \lt 27.0$.
 
-$$
 P(\text{defective}) = \frac{20 + 15}{500} = \frac{35}{500} = 0.07
-$$
 
 **(b)** Let $D$ be the number of defective bolts in a box of 10. Then $D \sim B(10, 0.07)$.
 
 Using the complement:
 
-$$
 P(D \geq 1) = 1 - P(D = 0) = 1 - (0.93)^{10}
-$$
 
-$$
 1 - (0.93)^{10} = 1 - 0.4839... = 0.516 \text{ (3 s.f.)}
-$$
 
 There is approximately a 51.6% chance that a box contains at least one defective bolt.
 
@@ -165795,15 +165044,11 @@ Estimate the sample mean using class midpoints:
 
 </div>
 
-$$
 \bar{x} = \frac{12732.5}{500} = 25.465 \text{ mm}
-$$
 
 The test statistic under $H_0$:
 
-$$
 z = \frac{\bar{x} - \mu}{\sigma / \sqrt{n}} = \frac{25.465 - 25.5}{0.60 / \sqrt{500}} = \frac{-0.035}{0.02683} = -1.305
-$$
 
 For a two-tailed test at the 5% level, the critical values are $z = \pm 1.96$.
 
@@ -165877,12 +165122,10 @@ Rounded to 2 d.p.: 0.97, $-0.37$, $-1.02$, $-0.77$, $-1.22$, $-1.06$, $-0.41$0.4
 
 Stem-and-leaf (key: $1 \mid -2 = -1.2$):
 
-```
 -1 | 2 1 0
 -0 | 8 4 1
  0 | 4
  1 | 0
-```
 
 **(b)** Ordered residuals: $-1.22$, $-1.06$, $-1.02$, $-0.77$, $-0.41$, $-0.37$0.44, 0.97. ($n = 8$)
 
@@ -165940,9 +165183,7 @@ in the middle, so the slope becomes slightly less negative (i.e., less steep in 
 
 A continuous random variable $X$ has probability density function:
 
-$$
 f(x) = \begin{cases} \frac{3}{64}x^2 & \quad 0 \leq x \leq 4 \\ 0 & \quad \text{otherwise} \end{cases}
-$$
 
 **(a)** Verify that $f(x)$ is a valid probability density function.
 
@@ -165966,53 +165207,33 @@ $\int_{-\infty}^{\infty} f(x)\,dx = 1$.
 
 Since $x^2 \geq 0$ and $\frac{3}{64} > 0$ We have $f(x) \geq 0$ on $[0, 4]$ and $f(x) = 0$ elsewhere.
 
-$$
 \int_{0}^{4} \frac{3}{64}x^2\,dx = \frac{3}{64}\left[\frac{x^3}{3}\right]_0^4 = \frac{3}{64} \cdot \frac{64}{3} = 1 \checkmark
-$$
 
 **(b)** The median $m$ satisfies $\int_{0}^{m} f(x)\,dx = 0.5$:
 
-$$
 \int_{0}^{m} \frac{3}{64}x^2\,dx = \frac{3}{64} \cdot \frac{m^3}{3} = \frac{m^3}{64} = 0.5
-$$
 
-$$
 m^3 = 32
-$$
 
-$$
 m = 32^{1/3} = 3.1748... \approx 3.17 \text{ (3 s.f.)}
-$$
 
 **(c)** $Q_1$ satisfies $\int_{0}^{Q_1} f(x)\,dx = 0.25$:
 
-$$
 \frac{Q_1^3}{64} = 0.25 \implies Q_1^3 = 16 \implies Q_1 = 16^{1/3} = 2.520 \text{ (3 s.f.)}
-$$
 
 $Q_3$ satisfies $\int_{0}^{Q_3} f(x)\,dx = 0.75$:
 
-$$
 \frac{Q_3^3}{64} = 0.75 \implies Q_3^3 = 48 \implies Q_3 = 48^{1/3} = 3.634 \text{ (3 s.f.)}
-$$
 
-$$
 \text{IQR} = Q_3 - Q_1 = 3.634 - 2.520 = 1.114 \approx 1.11 \text{ (3 s.f.)}
-$$
 
 **(d)** First, the true expected value:
 
-$$
 \mathrm{E}(X) = \int_{0}^{4} x \cdot \frac{3}{64}x^2\,dx = \frac{3}{64}\int_{0}^{4} x^3\,dx = \frac{3}{64}\left[\frac{x^4}{4}\right]_0^4 = \frac{3}{64} \cdot 64 = 3
-$$
 
-$$
 \mathrm{E}(X^2) = \int_{0}^{4} x^2 \cdot \frac{3}{64}x^2\,dx = \frac{3}{64}\int_{0}^{4} x^4\,dx = \frac{3}{64}\left[\frac{x^5}{5}\right]_0^4 = \frac{3}{64} \cdot \frac{1024}{5} = \frac{3072}{320} = \frac{48}{5} = 9.6
-$$
 
-$$
 \mathrm{Var}(X) = 9.6 - 9 = 0.6, \quad \mathrm{SD}(X) = \sqrt{0.6} = \frac{3}{\sqrt{5}} \approx 0.7746
-$$
 
 Now the grouped estimates. We need the class frequencies. Since we are modelling from the PDF, the
 expected frequency in each class (out of a large sample) is proportional to the class probability:
@@ -166036,11 +165257,8 @@ PDF is increasing, so the midpoint systematically underestimates the class mean 
 
 Estimated variance:
 
-$$
 \mathrm{E}(X^2) \approx 0.00391 + 0.24609 + 1.85547 + 7.08203 = 9.1875
-$$
 
-$$
 \text{Estimated Var} \approx 9.1875 - 2.9375^2 = 9.1875 - 8.6289 = 0.5586
 $$
 
@@ -191758,9 +190976,7 @@ Signs.
 
 **Definition.** The momentum of a body of mass $m$ moving with velocity $\mathbf{v}$ is
 
-$$
 \mathbf{p} = m\mathbf{v}
-$$
 
 Momentum is a vector with SI units kg m/s.
 
@@ -191772,24 +190988,18 @@ Momentum is a vector with SI units kg m/s.
 
 **Theorem.** In a closed system (no external forces), the total momentum is conserved:
 
-$$
 \sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}
-$$
 
 ### 2.2 Derivation from Newton's Laws
 
 **Proof.** Newton's Third Law states that for any two interacting bodies $A$ and $B$:
 
-$$
 \mathbf{F}_{AB} = -\mathbf{F}_{BA}
-$$
 
 By Newton's Second Law: $\mathbf{F}_{AB} = \dfrac{d\mathbf{p}_A}{dt}$ and
 $\mathbf{F}_{BA} = \dfrac{d\mathbf{p}_B}{dt}$.
 
-$$
 \frac{d\mathbf{p}_A}{dt} + \frac{d\mathbf{p}_B}{dt} = 0 \implies \frac{d}{dt}(\mathbf{p}_A + \mathbf{p}_B) = 0
-$$
 
 So $\mathbf{p}_A + \mathbf{p}_B = \mathrm{constant}$. $\blacksquare$
 
@@ -191805,23 +191015,17 @@ momentum lost by the other.
 
 **Definition.** The impulse $J$ of a force $F$ acting over a time interval $\Delta t$ is
 
-$$
 \mathbf{J} = \mathbf{F}\,\Delta t = \Delta\mathbf{p} = m\mathbf{v} - m\mathbf{u}
-$$
 
 ### 3.2 Derivation
 
 **Proof.** From Newton's Second Law:
 
-$$
 \mathbf{F} = \frac{d\mathbf{p}}{dt} \implies \mathbf{F}\,dt = d\mathbf{p}
-$$
 
 Integrating over $[t_1, t_2]$:
 
-$$
 \int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1
-$$
 
 For constant force: $\mathbf{J} = \mathbf{F}(t_2 - t_1) = \mathbf{F}\,\Delta t$. $\blacksquare$
 
@@ -191831,9 +191035,7 @@ The SI unit of impulse is the newton-second (Ns) = kg m/s.
 
 The impulse equals the area under a force-time graph. For a variable force:
 
-$$
 J = \int_{t_1}^{t_2}F(t)\,dt
-$$
 
 <hr />
 
@@ -191844,9 +191046,7 @@ $$
 For a one-dimensional collision between masses $m_1$ and $m_2$ with velocities $u_1$, $u_2$ before
 and $v_1$, $v_2$ after:
 
-$$
 m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2
-$$
 
 ### 4.2 Oblique (2D) collisions
 
@@ -191861,17 +191061,12 @@ Independently.
 
 **Definition.** The coefficient of restitution $e$ between two colliding bodies is
 
-$$
 e = \frac{\mathrm{relative speed of separation}}{\mathrm{relative speed of approach}}
-$$
 
 For a collision between a body and a wall:
-$$
 e = \frac{v_{\mathrm{after}}}{u_{\mathrm{before}}}
-$$
 
 For two bodies: $$e = \frac{v_2 - v_1}{u_1 - u_2}
-$$
 
 ### 5.2 Range of $e$
 
@@ -191885,27 +191080,19 @@ $0 \leq e \leq 1$.
 
 The kinetic energy lost in a collision is:
 
-$$
 \Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)
-$$
 
 **Proof.** From conservation of momentum and the restitution equation:
 
-$$
 v_1 = \frac{m_1u_1 + m_2u_2 - m_2e(u_1-u_2)}{m_1+m_2}
-$$
 
-$$
 v_2 = \frac{m_1u_1 + m_2u_2 + m_1e(u_1-u_2)}{m_1+m_2}
-$$
 
 $\Delta\mathrm{KE} = \tfrac{1}{2}m_1u_1^2 + \tfrac{1}{2}m_2u_2^2 - \tfrac{1}{2}m_1v_1^2 - \tfrac{1}{2}m_2v_2^2$
 
 After substitution and simplification:
 
-$$
 \Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \quad \blacksquare
-$$
 
 **Intuition.** When $e = 1$: $\Delta\mathrm{KE} = 0$ (no energy lost). When $e = 0$: maximum energy
 Loss. The energy lost increases as $(1-e^2)$, a small decrease in $e$ causes a relatively small
@@ -191921,24 +191108,18 @@ Each other). If $u_1 \gt u_2$ (body 1 approaches body 2), then after collision w
 $v_2 \geq v_1$ (body 2 moves away from body 1). Therefore $v_2 - v_1 \geq 0$ and
 $u_1 - u_2 \gt 0$ So:
 
-$$
 e = \frac{v_2 - v_1}{u_1 - u_2} \geq 0
-$$
 
 **Proof of $e \leq 1$.** Kinetic energy cannot be created in a collision, so
 $\mathrm{KE}_{\mathrm{after}} \leq \mathrm{KE}_{\mathrm{before}}$ Which means
 $\Delta\mathrm{KE} \geq 0$. From the energy loss formula in Section 5.3:
 
-$$
 \Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2) \geq 0
-$$
 
 Since $\frac{1}{2} \gt 0$, $\frac{m_1m_2}{m_1+m_2} \gt 0$ (for positive masses), and
 $(u_1-u_2)^2 \geq 0$ We must have:
 
-$$
 1 - e^2 \geq 0 \implies e^2 \leq 1 \implies e \leq 1
-$$
 
 Combining both results: $0 \leq e \leq 1$. $\blacksquare$
 
@@ -191951,9 +191132,7 @@ Combining both results: $0 \leq e \leq 1$. $\blacksquare$
 
 **Theorem.** The impulse exerted on a body equals the change in its momentum:
 
-$$
 \mathbf{J} = \int_{t_1}^{t_2}\mathbf{F}\,dt = \Delta\mathbf{p} = m\mathbf{v}_{\mathrm{final}} - m\mathbf{v}_{\mathrm{initial}}
-$$
 
 This holds for both constant and variable forces.
 
@@ -191961,24 +191140,18 @@ This holds for both constant and variable forces.
 
 Newton's Second Law in its most general form expresses force as the rate of change of momentum:
 
-$$
 \mathbf{F} = \frac{d\mathbf{p}}{dt}
-$$
 
 This is more fundamental than $\mathbf{F} = m\mathbf{a}$ because it remains valid even when mass
 Changes (e.g. Rocket propulsion). Rearranging and integrating:
 
-$$
 \mathbf{F}\,dt = d\mathbf{p} \implies \int_{t_1}^{t_2}\mathbf{F}\,dt = \int_{\mathbf{p}_1}^{\mathbf{p}_2}d\mathbf{p} = \mathbf{p}_2 - \mathbf{p}_1 \quad \blacksquare
-$$
 
 ### 6.3 Constant force simplification
 
 When $\mathbf{F}$ is constant over $[t_1, t_2]$:
 
-$$
 \mathbf{J} = \mathbf{F}\int_{t_1}^{t_2}dt = \mathbf{F}(t_2 - t_1) = \mathbf{F}\,\Delta t
-$$
 
 This is the form most commonly used in A-level problems.
 
@@ -191986,13 +191159,9 @@ This is the form most commonly used in A-level problems.
 
 Since impulse and momentum are both vectors, the impulse-momentum theorem applies component-wise:
 
-$$
 J_x = \int_{t_1}^{t_2}F_x\,dt = \Delta p_x = m v_{x,\mathrm{final}} - m v_{x,\mathrm{initial}}
-$$
 
-$$
 J_y = \int_{t_1}^{t_2}F_y\,dt = \Delta p_y = m v_{y,\mathrm{final}} - m v_{y,\mathrm{initial}}
-$$
 
 This is particularly useful for oblique impacts where the impulse acts in a specific direction.
 
@@ -192008,9 +191177,7 @@ how much Momentum a force transfers over a given time interval.
 
 For a closed system with no external forces, the vector equation
 
-$$
 \sum \mathbf{p}_{\mathrm{before}} = \sum \mathbf{p}_{\mathrm{after}}
-$$
 
 Is equivalent to two independent scalar equations obtained by resolving into perpendicular
 Components.
@@ -192019,13 +191186,9 @@ Components.
 
 Choosing $x$- and $y$-axes, momentum is conserved in each direction independently:
 
-$$
 \sum m_i u_{x,i} = \sum m_i v_{x,i} \qquad \mathrm{(x-momentum conserved)}
-$$
 
-$$
 \sum m_i u_{y,i} = \sum m_i v_{y,i} \qquad \mathrm{(y-momentum conserved)}
-$$
 
 **Justification.** If $\mathbf{F}_{\mathrm{net}} = \mathbf{0}$ Then $F_x = 0$ and $F_y = 0$
 Independently. Since $F_x = \dfrac{dp_x}{dt} = 0$ It follows that $p_x$ is constant. Similarly for
@@ -192115,9 +191278,7 @@ direction of each sphere after collision.
 Momentum:
 $3 \cdot \frac{5\sqrt{3}}{2} + 2 \cdot 0 = 3\,v_{A,\parallel} + 2\,v_{B,\parallel}$
 
-$$
 \frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\,v_{B,\parallel}
-$$
 
 Restitution:
 $v_{B,\parallel} - v_{A,\parallel} = 0.6 \cdot \frac{5\sqrt{3}}{2} = \frac{3\sqrt{3}}{2}$
@@ -192125,7 +191286,6 @@ $v_{B,\parallel} - v_{A,\parallel} = 0.6 \cdot \frac{5\sqrt{3}}{2} = \frac{3\sqr
 So $v_{B,\parallel} = v_{A,\parallel} + \frac{3\sqrt{3}}{2}$. Substituting into the
 momentum Equation:
 
-$$
 \frac{15\sqrt{3}}{2} = 3\,v_{A,\parallel} + 2\!\left(v_{A,\parallel} + \frac{3\sqrt{3}}{2}\right) = 5\,v_{A,\parallel} + 3\sqrt{3}
 $$
 
@@ -192133,13 +191293,9 @@ $$
 5\,v_{A,\parallel} = \frac{15\sqrt{3}}{2} - 3\sqrt{3} = \frac{15\sqrt{3} - 6\sqrt{3}}{2} = \frac{9\sqrt{3}}{2}
 $$
 
-$$
 v_{A,\parallel} = \frac{9\sqrt{3}}{10} \approx 1.559\,\mathrm{m/s}
-$$
 
-$$
 v_{B,\parallel} = \frac{9\sqrt{3}}{10} + \frac{3\sqrt{3}}{2} = \frac{9\sqrt{3} + 15\sqrt{3}}{10} = \frac{24\sqrt{3}}{10} = \frac{12\sqrt{3}}{5} \approx 4.157\,\mathrm{m/s}
-$$
 
 **Speed of $A$:**
 $|v_A| = \sqrt{v_{A,\parallel}^2 + v_{A,\perp}^2} = \sqrt{\left(\frac{9\sqrt{3}}{10}\right)^2 + 2.5^2} = \sqrt{2.43 + 6.25} = \sqrt{8.68} \approx 2.95\,\mathrm{m/s}$
@@ -192176,15 +191332,11 @@ Let the particle approach with speed $u$ at angle $\alpha$ to the normal of the 
 
 The speed after collision is:
 
-$$
 v = \sqrt{v_n^2 + v_t^2} = u\sqrt{e^2\cos^2\alpha + \sin^2\alpha}
-$$
 
 The angle of rebound $\beta$ to the normal satisfies:
 
-$$
 \tan\beta = \frac{v_t}{|v_n|} = \frac{u\sin\alpha}{e\,u\cos\alpha} = \frac{\tan\alpha}{e}
-$$
 
 ### 9.3 Angle relationships
 
@@ -192217,9 +191369,7 @@ Covered tends to a finite limit as $n \to \infty$.
 The impulse exerted by the surface on the particle is directed along the normal (since the surface
 is smooth):
 
-$$
 J = m(v_n - u_n) = m(-e\,u\cos\alpha - u\cos\alpha) = -m(1+e)\,u\cos\alpha
-$$
 
 The magnitude of the impulse is $m(1+e)\,u\cos\alpha$.
 
@@ -192568,9 +191718,7 @@ Prove that the coefficient of restitution satisfies $e \leq 1$ by showing that $
 <summary>Solution 14</summary>
 Suppose $e \gt 1$. From the energy loss formula:
 
-$$
 \Delta\mathrm{KE} = \frac{1}{2}\frac{m_1m_2}{m_1+m_2}(u_1-u_2)^2(1-e^2)
-$$
 
 If $e \gt 1$ Then $e^2 \gt 1$ and $1 - e^2 \lt 0$.
 
@@ -192661,13 +191809,9 @@ $2v_{A,\parallel} = (1-e)\,u\cos\theta \implies v_{A,\parallel} = \frac{(1-e)}{2
 
 The angle between $\mathbf{v}_A$ and $\mathbf{v}_B$ is found by computing their dot product:
 
-$$
 \mathbf{v}_A \cdot \mathbf{v}_B = v_{A,\parallel}\,v_{B,\parallel} + v_{A,\perp}\,v_{B,\perp} = \frac{(1-e)}{2}\,u\cos\theta \cdot \frac{(1+e)}{2}\,u\cos\theta + u\sin\theta \cdot 0
-$$
 
-$$
 = \frac{(1-e^2)}{4}\,u^2\cos^2\theta
-$$
 
 Wait, this is not zero unless $e = 1$. Let me reconsider.
 
@@ -200444,9 +199588,7 @@ intuition.
 
 The **moment** of a force $\mathbf{F}$ about a point $O$ is:
 
-$$
 M_O = F \times d
-$$
 
 Where $d$ is the **perpendicular distance** from the line of action of the force to the point $O$.
 
@@ -200476,19 +199618,13 @@ Taking moments about $A$ (anticlockwise positive):
 
 Weight of beam: $20g\;\mathrm{N}$ acting at the midpoint, $2\;\mathrm{m}$ from $A$.
 
-$$
 R_C \times 3 - 20g \times 2 - 50 \times 0.5 = 0
-$$
 
-$$
 R_C = \frac{40g + 25}{3} = \frac{392 + 25}{3} = \frac{417}{3} = 139\;\mathrm{N}
-$$
 
 Resolving vertically: $R_A + R_C = 20g + 50$
 
-$$
 R_A = 20g + 50 - 139 = 196 + 50 - 139 = 107\;\mathrm{N}
-$$
 
 :::caution
 the line of action of the Force to the pivot point, not just the distance along the beam.
@@ -200503,21 +199639,16 @@ the line of action of the Force to the pivot point, not just the distance along 
 A rigid body is in equilibrium if and only if:
 
 1. **The resultant force is zero:** $$\sum \mathbf{F} = \mathbf{0}
-$$
 
 2. **The resultant moment about any point is zero:**
-   $$
    \sum M_O = 0 \quad \mathrm{for\ any\ point}\ O
-   $$
 
 **Theorem.** If the resultant force on a body is zero and the resultant moment about **one** point
 Is zero, then the resultant moment about **every** point is zero.
 
 **Proof.** Suppose $\sum \mathbf{F} = \mathbf{0}$ and $\sum M_A = 0$. For any other point $B$:
 
-$$
 M_B = M_A + \mathbf{r}_{BA} \times \sum \mathbf{F} = 0 + \mathbf{r}_{BA} \times \mathbf{0} = 0
-$$
 
 Where $\mathbf{r}_{BA}$ is the position vector from $B$ to $A$. $\blacksquare$
 
@@ -200528,9 +199659,7 @@ simplify the calculation.
 
 For equilibrium in 2D, we resolve horizontally and vertically:
 
-$$
 \sum F_x = 0, \qquad \sum F_y = 0, \qquad \sum M = 0
-$$
 
 This gives three equations, which can determine up to three unknowns.
 
@@ -200547,11 +199676,8 @@ The beam"s weight $30g$ acts downward at distance $x$ from $A$ Which is $(6 - x)
 $200\;\mathrm{N}$ load acts at distance $4\;\mathrm{m}$ from $B$. The reaction at $A$
 ($350\;\mathrm{N}$) acts at distance $6\;\mathrm{m}$ from $B$.
 
-$$
 350 \times 6 + 200 \times 4 - 30g(6 - x) = 0
-$$
 
-$$
 2100 + 800 - 294(6 - x) = 0
 $$
 
@@ -200559,9 +199685,7 @@ $$
 2900 = 1764 - 294x
 $$
 
-$$
 294x = 1764 - 2900 = -1136
-$$
 
 Wait -- this gives a negative result, which suggests an error in sign convention. Let me reconsider.
 
@@ -200576,17 +199700,11 @@ $= -200 \times 4 = -800$.
 
 $30g\;\mathrm{N}$ acts downward at distance $(6-x)$ from $B$: moment $= -30g(6-x)$.
 
-$$
 2100 - 800 - 30g(6-x) = 0
-$$
 
-$$
 1300 = 294(6-x) = 1764 - 294x
-$$
 
-$$
 294x = 464 \implies x = \frac{464}{294} \approx 1.58\;\mathrm{m}
-$$
 
 The centre of mass is approximately $1.58\;\mathrm{m}$ from $A$.
 
@@ -200599,9 +199717,7 @@ The centre of mass is approximately $1.58\;\mathrm{m}$ from $A$.
 For particles of masses $m_1, m_2, \ldots, m_n$ at positions
 $(x_1, y_1), (x_2, y_2), \ldots, (x_n, y_n)$:
 
-$$
 \bar{x} = \frac{\sum m_i x_i}{\sum m_i}, \qquad \bar{y} = \frac{\sum m_i y_i}{\sum m_i}
-$$
 
 ### 3.2 Centre of mass of uniform laminas
 
@@ -200616,9 +199732,7 @@ $\dfrac{2}{3}$ of the median length from each vertex.
 parallel to the base at height $y$ has width $a\!\left(1 - \dfrac{y}{b}\right)$ and mass
 Proportional to this width.
 
-$$
 \bar{y} = \frac{\int_0^b y \cdot a\!\left(1 - \frac{y}{b}\right)dy}{\int_0^b a\!\left(1 - \frac{y}{b}\right)dy} = \frac{\left[\frac{y^2}{2} - \frac{y^3}{3b}\right]_0^b}{\left[y - \frac{y^2}{2b}\right]_0^b} = \frac{\frac{b^2}{2} - \frac{b^2}{3}}{b - \frac{b}{2}} = \frac{\frac{b^2}{6}}{\frac{b}{2}} = \frac{b}{3}
-$$
 
 The centre of mass is at height $\dfrac{b}{3}$ Which is $\dfrac{1}{3}$ of the way from the base And
 $\dfrac{2}{3}$ from the apex. $\blacksquare$
@@ -200642,19 +199756,13 @@ from the Diameter, i.e. At $(4, 6 - \dfrac{16}{3\pi})$.
 
 Treating the removed semicircle as a negative mass:
 
-$$
 \bar{x} = \frac{48 \times 4 - 8\pi \times 4}{48 - 8\pi} = \frac{4(48 - 8\pi)}{48 - 8\pi} = 4\;\mathrm{cm}
-$$
 
 This is expected by symmetry.
 
-$$
 \bar{y} = \frac{48 \times 3 - 8\pi\!\left(6 - \frac{16}{3\pi}\right)}{48 - 8\pi} = \frac{144 - 48\pi + \frac{128}{3}}{48 - 8\pi}
-$$
 
-$$
 \bar{y} = \frac{144 + 42.67 - 150.80}{48 - 25.13} = \frac{35.87}{22.87} \approx 1.57\;\mathrm{cm}
-$$
 
 :::caution
 method: treat the removed Section as having negative area. The formula remains the same but with
@@ -200689,21 +199797,13 @@ Resolving vertically: $R_g = 20g = 196\;\mathrm{N}$.
 
 Taking moments about the foot of the ladder (anticlockwise positive):
 
-$$
 R_w \times 5\sin 65^\circ - 20g \times 2.5\cos 65^\circ = 0
-$$
 
-$$
 R_w = \frac{20g \times 2.5\cos 65^\circ}{5\sin 65^\circ} = \frac{49\cos 65^\circ}{\sin 65^\circ} = 49\cot 65^\circ
-$$
 
-$$
 R_w = 49 \times 0.4663 = 22.85\;\mathrm{N}
-$$
 
-$$
 F_g = R_w = 22.85\;\mathrm{N}
-$$
 
 Maximum available friction: $F_{\max} = \mu R_g = 0.4 \times 196 = 78.4\;\mathrm{N}$.
 
@@ -200715,27 +199815,17 @@ Since $F_g = 22.85 \lt 78.4 = F_{\max}$ The ladder does **not** slip.
 
 At the limiting position, $F_g = \mu R_g$:
 
-$$
 R_w = F_g = \mu R_g = 0.4 \times 196 = 78.4\;\mathrm{N}
-$$
 
 Taking moments about the foot:
 
-$$
 R_w \times 5\sin\alpha = 20g \times 2.5\cos\alpha
-$$
 
-$$
 78.4 \times 5\sin\alpha = 490\cos\alpha
-$$
 
-$$
 \tan\alpha = \frac{490}{392} = 1.25
-$$
 
-$$
 \alpha = \arctan(1.25) \approx 51.3^\circ
-$$
 
 The minimum angle is approximately $51.3^\circ$.
 
@@ -200772,17 +199862,13 @@ $C$ on smooth horizontal surfaces. Find the forces in all rods.
 
 By symmetry, the vertical reactions at $B$ and $C$ are equal:
 
-$$
 R_B = R_C = 50\;\mathrm{N}
-$$
 
 **Joint $A$:** Vertical equilibrium: $T_{AD}\sin 60^\circ + T_{AE}\sin 60^\circ = 100$.
 
 By symmetry, $T_{AD} = T_{AE}$:
 
-$$
 2T_{AD}\sin 60^\circ = 100 \implies T_{AD} = \frac{100}{2\sin 60^\circ} = \frac{100}{\sqrt{3}} \approx 57.7\;\mathrm{N}
-$$
 
 Both $AD$ and $AE$ are in **tension** (pulling away from $A$).
 
@@ -200813,13 +199899,9 @@ the wire and the reaction at the hinge.
 
 Taking moments about $A$:
 
-$$
 T \times 5\sin 30^\circ - 200 \times 2.5 = 0
-$$
 
-$$
 T = \frac{500}{2.5} = 200\;\mathrm{N}
-$$
 
 Resolving at $A$: horizontal reaction $H = T\cos 30^\circ = 200\cos 30^\circ = 173.2\;\mathrm{N}$.
 
@@ -200839,13 +199921,9 @@ the composite lamina.
 Square: area $= 100$ Centre at $(5, 5)$. Triangle: area $= 30$ Centre at
 $\left(\dfrac{10}{3}, 3\right)$ (one-third from the base).
 
-$$
 \bar{x} = \frac{100 \times 5 + 30 \times \frac{10}{3}}{130} = \frac{500 + 100}{130} = \frac{600}{130} \approx 4.62\;\mathrm{cm}
-$$
 
-$$
 \bar{y} = \frac{100 \times 5 + 30 \times 3}{130} = \frac{500 + 90}{130} = \frac{590}{130} \approx 4.54\;\mathrm{cm}
-$$
 
 </details>
 
@@ -200939,9 +200017,7 @@ Resolving horizontally: $F_g = R_w$.
 Taking moments about the foot:
 $R_w \times 6\sin 60^\circ + F_w \times 6\cos 60^\circ = 18g \times 3\cos 60^\circ$.
 
-$$
 5.196 R_w + 3 F_w = 264.6
-$$
 
 At limiting equilibrium: $F_g = 0.35 R_g$ and $F_w = 0.25 R_w$.
 
@@ -200970,9 +200046,7 @@ Circle: area $= 9\pi \approx 28.27$, centre at $(4, 4)$.
 
 Using negative mass for the hole:
 
-$$
 \bar{x} = \frac{96 \times 6 - 9\pi \times 4}{96 - 9\pi} = \frac{576 - 113.1}{67.73} = \frac{462.9}{67.73} \approx 6.83\ \mathrm{cm}
-$$
 
 By symmetry of the cut, $\bar{y} = 4\ \mathrm{cm}$.
 
@@ -220215,9 +219289,7 @@ URL: https://alevel.wyattau.com/physics/fields/electric-fields-depth/
 **Coulomb's Law.** The electrostatic force between two point charges $q_1$ and $q_2$ separated by
 Distance $r$ in vacuum is:
 
-$$
 \boxed{F = \frac{q_1 q_2}{4\pi\varepsilon_0 r^2}}
-$$
 
 Where $\varepsilon_0 = 8.85 \times 10^{-12}$ F m$^{-1}$ is the permittivity of free space and
 $k = 1/(4\pi\varepsilon_0) = 8.99 \times 10^9$ N m$^2$ C$^{-2}$ is Coulomb's constant.
@@ -220230,9 +219302,7 @@ the Line joining them.
 The net force on a charge due to multiple other charges is the **vector sum** of the individual
 Coulomb forces:
 
-$$
 \mathbf{F}_{\mathrm{net}} = \sum_i \frac{q\,q_i}{4\pi\varepsilon_0 r_i^2}\,\hat{\mathbf{r}}_i
-$$
 
 This linearity is fundamental: each pair of charges interacts independently of all others.
 
@@ -220259,17 +219329,13 @@ by Electromagnetic forces.
 **Definition.** The electric field strength $\mathbf{E}$ at a point is the force per unit positive
 Charge:
 
-$$
 \boxed{\mathbf{E} = \frac{\mathbf{F}}{q}}
-$$
 
 SI units: N C$^{-1}$Equivalent to V m$^{-1}$.
 
 ### Field of a Point Charge
 
-$$
 \boxed{E = \frac{Q}{4\pi\varepsilon_0 r^2}}
-$$
 
 **Proof.** Place test charge $q$ at distance $r$ from $Q$. By Coulomb's law:
 $F = Qq/(4\pi\varepsilon_0 r^2)$. Therefore $E = F/q = Q/(4\pi\varepsilon_0 r^2)$. $\square$
@@ -220279,9 +219345,7 @@ charge.
 
 ### Uniform Electric Field Between Parallel Plates
 
-$$
 \boxed{E = \frac{V}{d}}
-$$
 
 Where $V$ is the potential difference and $d$ is the plate separation.
 
@@ -220307,17 +219371,13 @@ Field lines provide a visual representation of the electric field:
 **Definition.** The electric potential $V$ at a point is the work done per unit positive charge in
 Bringing a small test charge from infinity to that point:
 
-$$
 \boxed{V = \frac{Q}{4\pi\varepsilon_0 r}}
-$$
 
 SI units: volts (V), where 1 V = 1 J C$^{-1}$.
 
 ### Derivation from Coulomb's Law
 
-$$
 V = \frac{W}{q} = \frac{1}{q}\int_{\infty}^{r}\frac{Qq}{4\pi\varepsilon_0 r'^2}\,dr' = \frac{Q}{4\pi\varepsilon_0}\left[-\frac{1}{r'}\right]_{\infty}^{r} = \frac{Q}{4\pi\varepsilon_0 r}
-$$
 
 $\square$
 
@@ -220327,9 +219387,7 @@ distance, Approaching zero at infinity.
 
 ### Field--Potential Relationship
 
-$$
 \boxed{E = -\frac{dV}{dr}}
-$$
 
 **Proof.** Consider a test charge $q$ moved by $dr$ in the direction of the field. Work done by the
 Field: $dW = qE\,dr$. This equals the loss in potential energy: $dW = -q\,dV$. Therefore
@@ -220343,9 +219401,7 @@ $-\frac{dV}{dr} = -\frac{Q}{4\pi\varepsilon_0}\left(-\frac{1}{r^2}\right) = \fra
 
 ### Electric Potential Energy
 
-$$
 \boxed{U = \frac{q_1 q_2}{4\pi\varepsilon_0 r}}
-$$
 
 This is the work required to bring two charges from infinite separation to distance $r$.
 
@@ -220386,19 +219442,13 @@ Perpendicular to the field, between plates of length $L$.
 
 **Horizontal** (perpendicular to field): uniform motion.
 
-$$
 x = vt, \qquad t = \frac{L}{v}
-$$
 
 **Vertical** (parallel to field): uniformly accelerated.
 
-$$
 F = qE, \qquad a = \frac{qE}{m}
-$$
 
-$$
 y = \frac{1}{2}at^2 = \frac{qEL^2}{2mv^2}
-$$
 
 Eliminating $t$: $y = \frac{qE}{2mv^2}\,x^2$. This is a parabola.
 
@@ -220411,9 +219461,7 @@ Eliminating $t$: $y = \frac{qE}{2mv^2}\,x^2$. This is a parabola.
 An alternative approach uses energy conservation. The kinetic energy gained by the particle equals
 the Work done by the field:
 
-$$
 \Delta E_k = qV = qEd
-$$
 
 Where $d$ is the vertical displacement. This is often quicker than the kinematic approach.
 
@@ -220454,13 +219502,9 @@ A CRT uses electric fields to control and deflect a beam of electrons:
 
 From energy conservation:
 
-$$
 \frac{1}{2}m_e v^2 = eV_{\mathrm{acc}}
-$$
 
-$$
 \boxed{v = \sqrt{\frac{2eV_{\mathrm{acc}}}{m_e}}}
-$$
 
 For $V_{\mathrm{acc}} = 2000$ V:
 $v = \sqrt{2 \times 1.60 \times 10^{-19} \times 2000 / 9.11 \times 10^{-31}} = 2.65 \times 10^7$
@@ -220470,9 +219514,7 @@ m s$^{-1}$.
 
 The deflection sensitivity $S$ is the deflection per unit deflection voltage:
 
-$$
 S = \frac{y}{V_d} = \frac{eL^2}{2m_e v^2 d} = \frac{L^2}{4V_{\mathrm{acc}}\,d}
-$$
 
 Where $L$ is the plate length and $d$ is the plate separation. Higher sensitivity requires longer
 Plates, closer spacing, and lower acceleration voltage.
@@ -220489,17 +219531,13 @@ deflection is proportional to $V_d$ and inversely proportional to $V_{\mathrm{ac
 A ring of radius $a$ carrying total charge $Q$. The field at distance $x$ from the centre along the
 axis:
 
-$$
 \boxed{E = \frac{Qx}{4\pi\varepsilon_0(x^2 + a^2)^{3/2}}}
-$$
 
 **Proof.** By symmetry, the transverse components cancel. Each element $dq$ contributes
 $dE = dq/(4\pi\varepsilon_0(x^2 + a^2))$. The axial component is
 $dE_x = dE \cdot x/\sqrt{x^2 + a^2}$. Integrating over the ring:
 
-$$
 E_x = \frac{Q}{4\pi\varepsilon_0}\cdot\frac{x}{(x^2 + a^2)^{3/2}}
-$$
 
 $\square$
 
@@ -220510,9 +219548,7 @@ $\square$
 
 For a line of charge with linear charge density $\lambda$ (C m$^{-1}$):
 
-$$
 \boxed{E = \frac{\lambda}{2\pi\varepsilon_0 r}}
-$$
 
 Where $r$ is the perpendicular distance from the line. Note: the field falls off as $1/r$ Not $1/r^2$
 because a line charge is an extended source in one dimension.
@@ -220527,13 +219563,9 @@ in a uniform electric field.
 **Method:** An oil drop of mass $m$ carries charge $q$. In a uniform upward field $E$ The drop is
 Suspended when the electric force balances gravity:
 
-$$
 qE = mg
-$$
 
-$$
 \boxed{q = \frac{mg}{E}}
-$$
 
 The mass is found from the terminal velocity (using Stokes' law for the drag force in air). Millikan
 Found that all measured charges were integer multiples of $e = 1.60 \times 10^{-19}$ C.
@@ -220545,30 +219577,22 @@ Size $e$.
 
 For a parallel-plate capacitor with plate area $A$ and separation $d$:
 
-$$
 C = \frac{\varepsilon_0 A}{d}
-$$
 
 The energy stored when the capacitor carries charge $Q$ at potential difference $V$:
 
-$$
 \boxed{U = \frac{1}{2}QV = \frac{1}{2}CV^2 = \frac{Q^2}{2C}}
-$$
 
 **Proof.** During charging, the p.d. At any instant is $v = q/C$. Work to transfer charge $dq$:
 $dW = v\,dq = q\,dq/C$.
 
-$$
 W = \int_0^Q \frac{q}{C}\,dq = \frac{Q^2}{2C}
-$$
 
 $\square$
 
 The energy is stored in the electric field between the plates. The energy density is:
 
-$$
 u = \frac{1}{2}\varepsilon_0 E^2
-$$
 
 ## Problem Set
 
@@ -220721,13 +219745,10 @@ of $2000\ \mathrm{V}$ across them. Find the electric field strength and the forc
 between the plates.
 
 **Solution.** $$E = \frac{V}{d} = \frac{2000}{0.05} = 40000\ \mathrm{V\,m^{-1}}
-$$
 
 Force on the electron:
 
-$$
 F = eE = 1.6 \times 10^{-19} \times 40000 = 6.4 \times 10^{-15}\ \mathrm{N}
-$$
 
 $\blacksquare$
 
@@ -220737,7 +219758,6 @@ $\blacksquare$
 $10\ \mathrm{cm}$ in vacuum. Calculate the electrostatic force between them.
 
 **Solution.**
-$$
 F = \frac{1}{4\pi\varepsilon_0} \frac{|q_1 q_2|}{r^2} = \frac{8.99 \times 10^9 \times 3 \times 10^{-9} \times 5 \times 10^{-9}}{(0.1)^2}
 $$
 
@@ -227624,9 +226644,7 @@ URL: https://alevel.wyattau.com/physics/fields/magnetic-fields-depth/
 **Definition.** The magnetic flux density $B$ (also called the magnetic field strength in the
 context Of force calculations) is defined by the force on a current-carrying conductor:
 
-$$
 \boxed{B = \frac{F}{IL\sin\theta}}
-$$
 
 Where $F$ is the force on a wire of length $L$ carrying current $I$ at angle $\theta$ to the field.
 
@@ -227645,17 +226663,13 @@ The force is zero when the wire is parallel ($\theta = 0^\circ$).
 
 A charge $q$ moving with velocity $v$ at angle $\theta$ to a magnetic field experiences:
 
-$$
 \boxed{F = Bqv\sin\theta}
-$$
 
 **Derivation from the wire force.** Current in a wire: $I = nqvA$ where $n$ is the number density of
 Charge carriers, $q$ is the charge per carrier, $v$ is the drift velocity, and $A$ is the
 cross-sectional area. The number of carriers in length $L$ is $nAL$. The force is:
 
-$$
 F = BIL\sin\theta = B(nqvA)L\sin\theta = (nAL) \cdot Bqv\sin\theta
-$$
 
 For a single charge ($nAL = 1$): $F = Bqv\sin\theta$. $\square$
 
@@ -227663,7 +226677,6 @@ For a charge moving perpendicular to the field ($\theta = 90^\circ$):
 
 $$
 \boxed{F = Bqv}
-$$
 
 :::caution
 $\mathbf{B}$. It does no work ($\mathbf{F} \cdot \mathbf{v} = 0$), so a magnetic field alone cannot
@@ -227675,30 +226688,22 @@ Change the speed of a charged particle, only its direction.
 When a charged particle moves perpendicular to a uniform magnetic field, the magnetic force provides
 the centripetal acceleration:
 
-$$
 Bqv = \frac{mv^2}{r}
-$$
 
 Solving for the radius:
 
-$$
 \boxed{r = \frac{mv}{Bq}}
-$$
 
 ### Proof of Frequency Independence
 
 The period of revolution:
 
-$$
 T = \frac{2\pi r}{v} = \frac{2\pi m}{Bq}
-$$
 
 This is **independent of $v$ and $r$**. A faster particle traces a proportionally larger circle in
 the Same time. The cyclotron frequency is:
 
-$$
 f = \frac{Bq}{2\pi m}
-$$
 
 **Physical reason.** The magnetic force is $F = Bqv = mv^2/r$ Giving $r = mv/(Bq)$. Both $r$ and $v$
 Increase proportionally, so $T = 2\pi r/v = 2\pi m/(Bq)$ is constant. This is the operating
@@ -227706,9 +226711,7 @@ principle Of the cyclotron accelerator.
 
 ### Kinetic Energy in Terms of Radius
 
-$$
 E_k = \frac{1}{2}mv^2 = \frac{B^2 q^2 r^2}{2m}
-$$
 
 <details>
 <summary>Worked Example: Proton and Alpha Particle</summary>
@@ -227728,9 +226731,7 @@ reduces The ratio to 2:1.
 
 When a particle enters a uniform $\mathbf{B}$ field at angle $\theta$ to the field lines:
 
-$$
 v_\perp = v\sin\theta, \qquad v_\parallel = v\cos\theta
-$$
 
 The perpendicular component produces circular motion (radius $r = mv_\perp/(Bq)$ Period
 $T = 2\pi m/(Bq)$), while the parallel component is unaffected by the magnetic force (since
@@ -227738,9 +226739,7 @@ $\mathbf{F} \perp \mathbf{B}$ There is no force component along $\mathbf{B}$).
 
 The particle traces a **helix** with pitch:
 
-$$
 \boxed{\mathrm{pitch} = v_\parallel\, T = \frac{2\pi m v\cos\theta}{Bq}}
-$$
 
 ## 5. Velocity Selector
 
@@ -227752,9 +226751,7 @@ force $F_B = Bqv$ acts in the opposite direction.
 
 For undeflected passage:
 
-$$
 \boxed{qE = Bqv \implies v = \frac{E}{B}}
-$$
 
 Only particles with this exact velocity pass through. Faster particles are deflected by the dominant
 Magnetic force; slower particles by the electric force.
@@ -227763,9 +226760,7 @@ Magnetic force; slower particles by the electric force.
 
 ### Magnetic Flux
 
-$$
 \boxed{\Phi = BA\cos\theta}
-$$
 
 Where $A$ is the area and $\theta$ is the angle between the field and the normal to the area.
 
@@ -227775,9 +226770,7 @@ SI unit: weber (Wb). $1\ \mathrm{Wb} = 1\ \mathrm{T\,m^2}$.
 
 **Statement.** The magnitude of the induced e.m.f. Equals the rate of change of flux linkage:
 
-$$
 \boxed{|\varepsilon| = N\left|\frac{d\Phi}{dt}\right|}
-$$
 
 Where $N$ is the number of turns and $N\Phi$ is the flux linkage.
 
@@ -227788,9 +226781,7 @@ magnetic Flux that produced it.
 
 Lenz's law is the physical content of the minus sign in the full Faraday equation:
 
-$$
 \varepsilon = -N\frac{d\Phi}{dt}
-$$
 
 **Energy conservation argument.** If the induced current reinforced the flux change rather than
 Opposing it, a self-amplifying cycle would create energy from nothing. The opposition ensures that
@@ -227804,9 +226795,7 @@ rule to find The induced current direction.
 
 A conducting rod of length $l$ moving at velocity $v$ perpendicular to a uniform field $B$:
 
-$$
 \boxed{\varepsilon = Blv}
-$$
 
 **Proof.** In time $dt$ The rod sweeps area $l \cdot v\,dt$. Flux swept: $d\Phi = Blv\,dt$. By
 Faraday's law: $\varepsilon = d\Phi/dt = Blv$. $\square$
@@ -227819,17 +226808,11 @@ $\varepsilon = Bvl$.
 
 A coil of $N$ turns, area $A$ Rotating at angular frequency $\omega$ in uniform field $B$:
 
-$$
 \Phi = NBA\cos(\omega t)
-$$
 
-$$
 \varepsilon = -\frac{d\Phi}{dt} = NBA\omega\sin(\omega t)
-$$
 
-$$
 \boxed{\varepsilon = \varepsilon_0\sin(\omega t)}
-$$
 
 Where the peak e.m.f. Is $\varepsilon_0 = NBA\omega$.
 
@@ -227842,22 +226825,16 @@ A transformer consists of a primary coil and a secondary coil wound on a shared 
 
 ### Ideal Transformer Equations
 
-$$
 \boxed{\frac{V_s}{V_p} = \frac{N_s}{N_p}}
-$$
 
 **Proof.** The same changing flux $\Phi$ threads both coils. By Faraday's law: $V_p = N_p|d\Phi/dt|$
 and $V_s = N_s|d\Phi/dt|$. Dividing gives the result. $\square$
 
 For an ideal transformer (no energy losses), power is conserved:
 
-$$
 V_p I_p = V_s I_s
-$$
 
-$$
 \frac{I_s}{I_p} = \frac{N_p}{N_s}
-$$
 
 A step-up transformer ($N_s \gt N_p$) increases voltage but decreases current. A step-down
 transformer ($N_s \lt N_p$) decreases voltage but increases current.
@@ -227877,9 +226854,7 @@ transformer ($N_s \lt N_p$) decreases voltage but increases current.
 
 ### Transformer Efficiency
 
-$$
 \eta = \frac{V_s I_s}{V_p I_p} \times 100\%
-$$
 
 Modern transformers achieve efficiencies exceeding 95% for power distribution applications.
 
@@ -227901,28 +226876,20 @@ Check: $V_p I_p = 240 \times 0.40 = 96$ W. $V_s I_s = 12 \times 8.0 = 96$ W. $\c
 
 When the current in a coil changes, the changing flux through the coil itself induces an e.m.f.:
 
-$$
 \boxed{\varepsilon = -L\frac{dI}{dt}}
-$$
 
 Where $L$ is the self-inductance in henry (H).
 $1\ \mathrm{H} = 1\ \mathrm{Wb\,A^{-1}} = 1\ \mathrm{V\,s\,A^{-1}}$.
 
 ### Energy Stored in an Inductor
 
-$$
 \boxed{E = \frac{1}{2}LI^2}
-$$
 
 **Proof.** Power delivered to inductor while current grows from 0 to $I$:
 
-$$
 P = -\varepsilon I = LI\frac{dI}{dt}
-$$
 
-$$
 E = \int_0^t P\,dt' = \int_0^I LI'\,dI' = \frac{1}{2}LI^2
-$$
 
 $\square$
 
@@ -227937,13 +226904,9 @@ Wire 1 (current $I_1$) creates field at distance $d$: $B_1 = \mu_0 I_1/(2\pi d)$
 
 Wire 2 (current $I_2$ Length $L$) in this field experiences force:
 
-$$
 F = B_1 I_2 L = \frac{\mu_0 I_1 I_2 L}{2\pi d}
-$$
 
-$$
 \boxed{\frac{F}{L} = \frac{\mu_0 I_1 I_2}{2\pi d}}
-$$
 
 ### Direction
 
@@ -228127,7 +227090,6 @@ right angles to a uniform magnetic field of flux density $0.4\ \mathrm{T}$. Calc
 the wire.
 
 **Solution.** $$F = BIl = 0.4 \times 5 \times 0.3 = 0.6\ \mathrm{N}
-$$
 
 Direction: by Fleming's left-hand rule, the force is perpendicular to both the field and current.
 
@@ -228141,13 +227103,9 @@ path. ($m_e = 9.11 \times 10^{-31}\ \mathrm{kg}$, $e = 1.6 \times 10^{-19}\ \mat
 
 **Solution.** The magnetic force provides the centripetal force:
 
-$$
 Bev = \frac{mv^2}{r} \implies r = \frac{mv}{Be}
-$$
 
-$$
 r = \frac{9.11 \times 10^{-31} \times 2 \times 10^6}{0.05 \times 1.6 \times 10^{-19}} = \frac{1.822 \times 10^{-24}}{8 \times 10^{-21}} = 2.28 \times 10^{-4}\ \mathrm{m} = 0.228\ \mathrm{mm}
-$$
 
 $\blacksquare$
 
