@@ -102,6 +102,11 @@ export default defineConfig({
           items: [{ autogenerate: { directory: '9-topology' } }],
           collapsed: true,
         },
+        {
+          label: 'The Core Course',
+          items: [{ autogenerate: { directory: '17-core-course' } }],
+          collapsed: false,
+        },
         { label: 'Demos', items: [{ autogenerate: { directory: 'demos' } }], collapsed: true },
         { label: 'About', slug: 'about' },
         { label: 'Glossary', slug: 'glossary' },
