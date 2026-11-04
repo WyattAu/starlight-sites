@@ -69,9 +69,8 @@
     "wrangler": "^4.156.2"
   },
   "overrides": {
-    "astro": "^6.1.10",
+    "astro": "^7.2.10",
     "devalue": "^5.9.2",
-    "vite": "^6.4.4",
     "katex": "^0.18.2",
     "mermaid": "^11.16.1",
     "dompurify": "^3.4.11",
