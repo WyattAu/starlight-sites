@@ -64,7 +64,7 @@ approximately $3\%$.
 
 \text{Real wage}_t = \frac{\text{Nominal wage}_t}{\text{CPI}_t} \times 100
 
-A worker whose nominal wage rises from `USD 40000` to `USD 42000` while the CPI rises from 200 to
+A worker whose nominal wage rises from USD 40000 to USD 42000 while the CPI rises from 200 to
 220 Has experienced a decrease in real wages:
 
 \text{Real wage}_{\text{old}} = \frac{40000}{200} \times 100 = 200
@@ -408,7 +408,7 @@ k = \frac{1}{\mathrm{MPS}} = \frac{1}{1 - \mathrm{MPC}}
 
 **Derivation:** an initial injection $\Delta I$ generates income $\Delta Y_1 = \Delta I$. Recipients
 Spend $\mathrm{MPC} \times \Delta Y_1$ of this, generating income
-$\Delta Y_2 = \mathrm`\`\{MPC}``^2 \times
+$\Delta Y_2 = \mathrm\{MPC}^2 \times
 \Delta I$, and so on:
 
 \Delta Y = \Delta I \times (1 + \mathrm{MPC} + \mathrm{MPC}^2 + \mathrm{MPC}^3 + \cdots)
@@ -439,7 +439,7 @@ If government spending and taxes increase by the same amount ($\Delta G = \Delta
 
 Where $k_G = \frac{1}{1 - \mathrm{MPC}}$ (government spending multiplier) and
 $k_T =
-\frac{-\mathrm`\`\{MPC}``}{1 - \mathrm``, ``\``, ``\{MPC}``}$ (tax multiplier, which is negative because
+\frac{-\mathrm\{MPC}}{1 - \mathrm, \, {MPC}}$ (tax multiplier, which is negative because
 higher taxes Reduce disposable income and consumption).
 
 \Delta Y = \frac{\Delta G}{1 - \mathrm{MPC}} + \frac{-\mathrm{MPC} \times \Delta T}{1 - \mathrm{MPC}}
@@ -740,7 +740,7 @@ $+200$ Year 5: $+250$.
 
 \text{NPV} = -500 + 568.26 = \$68.26 \text{ million}
 
-(b) Since NPV $> 0$ (`USD 68.26` million), the project should be undertaken.
+(b) Since NPV $> 0$ (USD 68.26 million), the project should be undertaken.
 
 (c) At $r = 12\%$:
 
@@ -778,7 +778,7 @@ A country's income distribution is as follows:
 
 (b) Calculate the Gini coefficient.
 
-(c) A policy redistributes `USD 10` billion from the top quintile to the bottom quintile.
+(c) A policy redistributes USD 10 billion from the top quintile to the bottom quintile.
 Recalculate The Gini coefficient and comment.
 
 (a) Cumulative population and income shares:
@@ -824,17 +824,17 @@ demonstrates the powerful redistributive potential of targeted transfers.
 
 An economy has the following characteristics:
 
-- Autonomous consumption: `USD 200` billion
+- Autonomous consumption: USD 200 billion
 - MPC: $0.8$
-- Investment: `USD 300` billion
-- Government spending: `USD 250` billion
-- Taxes: `USD 200` billion (lump sum)
-- Exports: `USD 150` billion
+- Investment: USD 300 billion
+- Government spending: USD 250 billion
+- Taxes: USD 200 billion (lump sum)
+- Exports: USD 150 billion
 - Imports: $M = 50 + 0.1Y$
 
 (a) Find the equilibrium level of output.
 
-(b) If the government increases spending by `USD 50` billion, what is the new equilibrium output?
+(b) If the government increases spending by USD 50 billion, what is the new equilibrium output?
 
 (c) What is the budget balance at the original equilibrium?
 
@@ -861,7 +861,7 @@ $\Delta Y = 3.33 \times 50 = \$166.7$ billion
 
 New $Y^* = 2300 + 166.7 = \$2466.7$ billion
 
-(c) Budget balance $= T - G = 200 - 250 = -\$50$ billion (a deficit of `USD 50` billion).
+(c) Budget balance $= T - G = 200 - 250 = -\$50$ billion (a deficit of USD 50 billion).
 
 </details>
 
@@ -869,10 +869,10 @@ New $Y^* = 2300 + 166.7 = \$2466.7$ billion
 <summary>Problem 5: HDI Calculation</summary>
 
 Country P has a life expectancy of 68 years, mean years of schooling of 8.5 years, expected years of
-schooling of 13 years, and GNI per capita (PPP) of `USD 8000`.
+schooling of 13 years, and GNI per capita (PPP) of USD 8000.
 
 Country Q has a life expectancy of 80 years, mean years of schooling of 12 years, expected years of
-schooling of 16 years, and GNI per capita (PPP) of `USD 40000`.
+schooling of 16 years, and GNI per capita (PPP) of USD 40000.
 
 (a) Calculate the HDI for both countries.
 
@@ -910,7 +910,7 @@ $= \frac{\ln(40000) - \ln(100)}{\ln(75000) - \ln(100)} = \frac{10.596 - 4.605}{6
 $\text{HDI}_Q = (0.923 \times 0.844 \times 0.905)^{1/3} = (0.705)^{1/3} = 0.889$
 
 (b) The HDI uses the logarithm of GNI per capita, which compresses income differences. Going from
-`USD 8000` to `USD 40000` (a 5-fold increase) translates into a much smaller difference in the GNI
+USD 8000 to USD 40000 (a 5-fold increase) translates into a much smaller difference in the GNI
 Index (0.662 vs. 0.905). This reflects the principle of diminishing marginal utility of income:
 Additional income contributes less to human development at higher income levels. The non-income
 Dimensions (health, education) carry substantial weight, which can narrow the gap between countries
@@ -1034,7 +1034,7 @@ The fixed periodic payment $A$ for a loan of principal $PV$ at interest rate $r$
 
 A = PV \times \frac{r(1 + r)^n}{(1 + r)^n - 1}
 
-**Worked example:** A mortgage of `USD 300,000` at 4% annual interest over 25 years (300 monthly
+**Worked example:** A mortgage of USD 300,000 at 4% annual interest over 25 years (300 monthly
 Payments at monthly rate $r = 0.04/12 = 0.00333$):
 
 A = 300\,000 \times \frac{0.00333(1.00333)^{300}}{(1.00333)^{300} - 1}
@@ -1050,8 +1050,8 @@ $= \$174\,300$.
 
 PV = \sum_{t=0}^{T} \frac{CF_t}{(1 + r)^t}
 
-**Worked example:** A project requires an initial investment of `USD 10,000` and generates the
-following Cash flows: Year 1: `USD 2,000`Year 2: `USD 4,000`Year 3: `USD 5,000`Year 4: `USD 3,000`.
+**Worked example:** A project requires an initial investment of USD 10,000 and generates the
+following Cash flows: Year 1: USD 2,000Year 2: USD 4,000Year 3: USD 5,000Year 4: USD 3,000.
 Discount rate $= 8\%$.
 
 PV = -10\,000 + \frac{2\,000}{1.08} + \frac{4\,000}{1.08^2} + \frac{5\,000}{1.08^3} + \frac{3\,000}{1.08^4}
@@ -1146,7 +1146,7 @@ Sensitivity analysis tests how the NPV changes when key assumptions are varied:
 3. **Monte Carlo simulation:** assign probability distributions to uncertain parameters and simulate
    thousands of outcomes, producing a distribution of NPV values
 
-**Worked example:** A project has base-case NPV of `USD 50` million. Sensitivity to the discount
+**Worked example:** A project has base-case NPV of USD 50 million. Sensitivity to the discount
 rate:
 
 <div class="table-wrap">
@@ -1495,9 +1495,9 @@ Costs).
 
 A firm produces gadgets with the following cost structure:
 
-- Fixed costs: `USD 50,000` per month
-- Variable cost per unit: `USD 30`
-- Selling price per unit: `USD 50`
+- Fixed costs: USD 50,000 per month
+- Variable cost per unit: USD 30
+- Selling price per unit: USD 50
 
 Q_{\text{BE}} = \frac{50\,000}{50 - 30} = \frac{50\,000}{20} = 2500 \text{ units}
 
@@ -1510,7 +1510,7 @@ of Revenue contributes to covering fixed costs).
 
 Q_{\text{target}} = \frac{\text{TFC} + \pi}{P - \text{AVC}}
 
-To earn `USD 20,000` profit: $Q = (50\,000 + 20\,000)/20 = 3500$ units.
+To earn USD 20,000 profit: $Q = (50\,000 + 20\,000)/20 = 3500$ units.
 
 **Margin of safety:** the percentage by which actual output exceeds the break-even output:
 
@@ -1700,7 +1700,7 @@ The project remains viable but with a significantly reduced NPV.
 
 (d) Break-even: $-800 + B \times 11.470 = 0 \implies B = 800/11.470 = 69.7$
 
-The net annual benefit must be at least `USD 69.7` million, meaning annual benefits must be at least
+The net annual benefit must be at least USD 69.7 million, meaning annual benefits must be at least
 $69.7 + 30 = 99.7$ million. This is only 17% below the base-case estimate of 120, indicating the
 Project has limited tolerance for benefit overestimation.
 
@@ -1770,16 +1770,16 @@ Investment.
 
 A manufacturing firm has the following cost and revenue data:
 
-- Total fixed costs: `USD 120,000` per month
-- Variable cost per unit: `USD 15`
-- Selling price per unit: `USD 35`
+- Total fixed costs: USD 120,000 per month
+- Variable cost per unit: USD 15
+- Selling price per unit: USD 35
 - Maximum capacity: 15,000 units per month
 
 (a) Calculate the break-even point in units and in revenue.
 
 (b) Calculate the profit or loss at 80% capacity.
 
-(c) The firm is considering a price cut to `USD 30` per unit, which is expected to increase Demand
+(c) The firm is considering a price cut to USD 30 per unit, which is expected to increase Demand
 by 30%. Should the firm proceed?
 
 (d) Calculate the margin of safety at the current price and output of 10,000 units.
@@ -1792,13 +1792,13 @@ Break-even revenue $= 35 \times 6000 = \$210\,000$
 
 $\pi = (35 - 15) \times 12\,000 - 120\,000 = 20 \times 12\,000 - 120\,000 = 240\,000 - 120\,000 = \$120\,000$
 
-(c) At `USD 30` price, expected demand $= 10\,000 \times 1.3 = 13\,000$ units.
+(c) At USD 30 price, expected demand $= 10\,000 \times 1.3 = 13\,000$ units.
 
 $\pi_{\text{new}} = (30 - 15) \times 13\,000 - 120\,000 = 15 \times 13\,000 - 120\,000 = 195\,000 - 120\,000 = \$75\,000$
 
 New break-even: $Q_{\text{BE}} = 120\,000/(30 - 15) = 8000$ units
 
-Profit falls from `USD 120,000` to `USD 75,000`. The firm should NOT proceed with the price cut.
+Profit falls from USD 120,000 to USD 75,000. The firm should NOT proceed with the price cut.
 Although revenue increases ($30 \times 13\,000 = \$390\,000$ vs. $35 \times 10\,000 = \$350\,000$),
 The contribution margin per unit falls from $20$ to $15$ And the profit decline outweighs the Volume
 gain.
@@ -1954,7 +1954,7 @@ A consumer buys three goods. The data are:
 
 (c) Which index provides a better measure of inflation? Explain the substitution bias.
 
-(d) If a worker's nominal wage was `USD 500` in the base period, what real wage does each index
+(d) If a worker's nominal wage was USD 500 in the base period, what real wage does each index
 Imply in period 1?
 
 (a) **Laspeyres:**
@@ -1999,14 +1999,14 @@ A government is evaluating two mutually exclusive projects:
 
 **Project A:** certain costs and benefits.
 
-- Cost: `USD 200` million (Year 0)
-- Annual benefit: `USD 40` million (Years 1--10)
+- Cost: USD 200 million (Year 0)
+- Annual benefit: USD 40 million (Years 1--10)
 - Discount rate: 8%
 
 **Project B:** uncertain benefits.
 
-- Cost: `USD 200` million (Year 0)
-- Annual benefit: `USD 30` million with probability 0.4, `USD 60` million with probability 0.6
+- Cost: USD 200 million (Year 0)
+- Annual benefit: USD 30 million with probability 0.4, USD 60 million with probability 0.6
   (Years 1--10)
 - Discount rate: 8%
 

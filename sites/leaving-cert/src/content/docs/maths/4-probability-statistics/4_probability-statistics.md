@@ -609,7 +609,7 @@ $$
 
 The least squares line minimises $\sum(y_i - (a + bx_i))^2$.
 
-**Example (HL):** For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$ Find the correlation
+**Example (HL):** For the data set ${(1,3), (2,5), (3,4), (4,7), (5,6)}$ Find the correlation
 Coefficient and regression line.
 
 $n = 5$$\sum x = 15$$\sum y = 25$$\sum xy = 1(3)+2(5)+3(4)+4(7)+5(6) = 3+10+12+28+30 = 83$
@@ -641,7 +641,7 @@ See the examples integrated throughout the sections above.
 ## Common Pitfalls
 
 1. **Confusing permutations and combinations** -- order matters for permutations, not for
-   combinations. Ask: "Is `\{A,B,C\}` the same as `\{C,B,A\}`?"
+   combinations. Ask: "Is {A,B,C} the same as {C,B,A}?"
 2. **Forgetting independence** in the multiplication rule -- always check whether events are
    independent before using $P(A \cap B) = P(A)P(B)$.
 3. **Normal distribution** -- always standardise before using tables. $Z = \frac{X - \mu}{\sigma}$.
@@ -680,7 +680,7 @@ See the examples integrated throughout the sections above.
    the probability a randomly selected person is between 160 cm and 180 cm tall.
 3. A sample of 8 measurements has $\bar{x} = 23.4$ and $s = 2.1$. Test at the 5% level whether the
    population mean is 25.
-4. For the data set $\{(1,3), (2,5), (3,4), (4,7), (5,6)\}$ Find the correlation coefficient $r$ and
+4. For the data set ${(1,3), (2,5), (3,4), (4,7), (5,6)}$ Find the correlation coefficient $r$ and
    the equation of the regression line of $y$ on $x$.
 5. Prove that $\binom{n}{r} = \binom{n}{n-r}$.
 6. A test for a disease has 99% sensitivity and 1% false positive rate. If 0.5% of the population

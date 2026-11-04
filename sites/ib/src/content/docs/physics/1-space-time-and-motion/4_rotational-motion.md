@@ -185,7 +185,7 @@ A $0.5\mathrm{ kg}$ mass on a string of length $1\mathrm{ m}$ moves in a horizon
 $3\mathrm{ m/s}$. Find the angle the string makes with the vertical and the tension.
 
 $$
-\tan\theta = \frac{v^2}`\{rg}` = \frac{9}{r \times 9.81}
+\tan\theta = \frac{v^2}{rg} = \frac{9}{r \times 9.81}
 $$
 
 Also $r = L\sin\theta = \sin\theta$ So:
@@ -215,7 +215,7 @@ $$
 $\theta = \arccos(0.642) = 50.1\degree$.
 
 $$
-T = \frac`\{mg}`{\cos\theta} = \frac{0.5 \times 9.81}{0.642} = 7.64\mathrm{ N}
+T = \frac{mg}{\cos\theta} = \frac{0.5 \times 9.81}{0.642} = 7.64\mathrm{ N}
 $$
 
 ---
@@ -251,7 +251,7 @@ $$
 For the object to complete the full circle, $T \ge 0$ at the top:
 
 $$
-\frac{mv_{\mathrm{top}}^2}{r} \ge mg \implies v_{\mathrm{top}} \ge \sqrt`\{gr}`
+\frac{mv_{\mathrm{top}}^2}{r} \ge mg \implies v_{\mathrm{top}} \ge \sqrt{gr}
 $$
 
 ### Energy Conservation in Vertical Circles
@@ -626,7 +626,7 @@ $$
 $$
 
 $$
-\mu_s \ge \frac{v^2}`\{rg}` = \frac{225}{50 \times 9.81} = \frac{225}{490.5} = 0.459
+\mu_s \ge \frac{v^2}{rg} = \frac{225}{50 \times 9.81} = \frac{225}{490.5} = 0.459
 $$
 
 ### Question 2 (Paper 2 style)
@@ -642,7 +642,7 @@ R = 6.77 \times 10^6\mathrm{ m}
 $$
 
 $$
-\frac`\{GMm}`{r^2} = \frac{mv^2}{r} \implies v = \sqrt{\frac`\{GM}`{r}} = \sqrt{\frac{3.98 \times 10^{14}}{6.77 \times 10^6}} = 7669\mathrm{ m/s}
+\frac{GMm}{r^2} = \frac{mv^2}{r} \implies v = \sqrt{\frac{GM}{r}} = \sqrt{\frac{3.98 \times 10^{14}}{6.77 \times 10^6}} = 7669\mathrm{ m/s}
 $$
 
 $$
@@ -663,7 +663,7 @@ vertical circle.
 **(a)** Find the minimum speed at the top of the circle for the ball to maintain contact.
 
 $$
-V_{\mathrm{min}} = \sqrt`\{gr}` = \sqrt{9.81 \times 0.8} = \sqrt{7.85} = 2.80\mathrm{ m/s}
+V_{\mathrm{min}} = \sqrt{gr} = \sqrt{9.81 \times 0.8} = \sqrt{7.85} = 2.80\mathrm{ m/s}
 $$
 
 **(b)** If the speed at the bottom is $8\mathrm{ m/s}$ Find the tension in the string at the Bottom.
@@ -847,27 +847,27 @@ $$
 For a satellite of mass $m$ in circular orbit of radius $r$ around a planet of mass $M$:
 
 $$
-E_{\mathrm{total}} = -\frac`\{GMm}`{2r}
+E_{\mathrm{total}} = -\frac{GMm}{2r}
 $$
 
 $$
-E_k = \frac`\{GMm}`{2r}
+E_k = \frac{GMm}{2r}
 $$
 
 $$
-E_p = -\frac`\{GMm}`{r}
+E_p = -\frac{GMm}{r}
 $$
 
 ### Orbital Speed
 
 $$
-V = \sqrt{\frac`\{GM}`{r}}
+V = \sqrt{\frac{GM}{r}}
 $$
 
 ### Orbital Period (Kepler's Third Law)
 
 $$
-T^2 = \frac{4\pi^2}`\{GM}`R^3
+T^2 = \frac{4\pi^2}{GM}R^3
 $$
 
 $T^2$ is proportional to $r^3$ for all satellites orbiting the same body.

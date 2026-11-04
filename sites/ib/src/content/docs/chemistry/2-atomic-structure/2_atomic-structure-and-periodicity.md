@@ -254,11 +254,11 @@ Represent $m_s = +\frac{1}{2}$ and $m_s = -\frac{1}{2}$.
 For nitrogen ($1s^2\, 2s^2\, 2p^3$):
 
 $$
-\begin`\{array}`{c}
+\begin{array}{c}
 1s\quad \boxed{\uparrow\downarrow} \\
 2s\quad \boxed{\uparrow\downarrow} \\
 2p\quad \boxed{\uparrow}\quad\boxed{\uparrow}\quad\boxed{\uparrow}
-\end`\{array}`
+\end{array}
 $$
 
 All three $2p$ electrons are unpaired with parallel spins, following Hund's rule.
@@ -914,7 +914,7 @@ Transition metal complexes are coloured because of $d$-$d$ electron transitions:
 4. The remaining light is transmitted, giving the complex its complementary colour.
 
 $$
-\Delta E = hf = \frac`\{hc}`{\lambda}
+\Delta E = hf = \frac{hc}{\lambda}
 $$
 
 **Spectrochemical series** (increasing $\Delta$):
@@ -1014,7 +1014,7 @@ Levels. When they fall back to lower levels, they emit photons with energies cor
 energy differences:
 
 $$
-\Delta E = E_{\mathrm{higher}} - E_{\mathrm{lower}} = h\nu = \frac`\{hc}`{\lambda}
+\Delta E = E_{\mathrm{higher}} - E_{\mathrm{lower}} = h\nu = \frac{hc}{\lambda}
 $$
 
 Where:
@@ -1338,7 +1338,7 @@ This corresponds to the red line in the Balmer series (H$\alpha$).
 #### Energy of a Photon
 
 $$
-E = h\nu = \frac`\{hc}`{\lambda}
+E = h\nu = \frac{hc}{\lambda}
 $$
 
 For the $n = 3 \to n = 2$ transition:

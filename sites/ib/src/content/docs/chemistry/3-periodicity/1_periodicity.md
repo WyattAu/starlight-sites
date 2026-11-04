@@ -426,7 +426,7 @@ A complex ion consists of a central metal ion surrounded by ligands:
 Transition metal complexes are coloured due to $d$-$d$ transitions. The energy gap between split
 $d$-orbitals corresponds to visible light:
 
-\Delta E = \frac`\{hc}`{\lambda}
+\Delta E = \frac{hc}{\lambda}
 
 **Spectrochemical series** (increasing $\Delta$):
 

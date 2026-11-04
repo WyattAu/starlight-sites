@@ -64,7 +64,7 @@ Recovery.
 ### Worked Example: Choosing Between a Flat File and a Database
 
 A small bakery tracks daily sales in a spreadsheet. They have one sheet with columns:
-`date, product, quantity, price, total`. They now want to: (1) track customer loyalty points, (2)
+date, product, quantity, price, total. They now want to: (1) track customer loyalty points, (2)
 Generate monthly revenue reports by product category, (3) allow two cashiers to enter data
 Simultaneously. Should they switch to a relational database?
 
@@ -226,12 +226,12 @@ Attributes (borrowDate, returnDate) that belong to the relationship itself, not 
 
 | Key Type      | Definition                                                                   | Example                                       |
 | ------------- | ---------------------------------------------------------------------------- | --------------------------------------------- |
-| Superkey      | A set of attributes that uniquely identifies each tuple (may include extras) | `{studentID, name}`                           |
-| Candidate key | A minimal superkey (no proper subset is also a superkey)                     | `\{studentID}`, `\{email}`                    |
-| Primary key   | The candidate key chosen by the database designer to be the main identifier  | `\{studentID}`                                |
+| Superkey      | A set of attributes that uniquely identifies each tuple (may include extras) | {studentID, name}                           |
+| Candidate key | A minimal superkey (no proper subset is also a superkey)                     | {studentID}, {email}                    |
+| Primary key   | The candidate key chosen by the database designer to be the main identifier  | {studentID}                                |
 | Foreign key   | An attribute that references the primary key of another table                | course.teacherID references Teacher.teacherID |
-| Composite key | A primary key consisting of two or more attributes                           | `{studentID, courseID}` in Enrollment         |
-| Alternate key | A candidate key not chosen as the primary key                                | `\{email}` (if studentID is the primary key)  |
+| Composite key | A primary key consisting of two or more attributes                           | {studentID, courseID} in Enrollment         |
+| Alternate key | A candidate key not chosen as the primary key                                | {email} (if studentID is the primary key)  |
 
 </div>
 
@@ -263,32 +263,32 @@ Assume: bookID is unique, ISBN is unique, no two books share the same title and 
 
 **Superkeys** (all attribute sets that uniquely identify each row):
 
-- `\{bookID}`
-- `\{ISBN}`
-- `{bookID, ISBN}`
-- `{bookID, title}`
-- `{bookID, author}`
-- `{ISBN, title}`
-- `{bookID, ISBN, title}`
-- `{bookID, ISBN, author}`
-- `{bookID, ISBN, title, author}`
-- `{title, author}`
-- `{bookID, title, author}`
-- `{ISBN, title, author}`
+- {bookID}
+- {ISBN}
+- {bookID, ISBN}
+- {bookID, title}
+- {bookID, author}
+- {ISBN, title}
+- {bookID, ISBN, title}
+- {bookID, ISBN, author}
+- {bookID, ISBN, title, author}
+- {title, author}
+- {bookID, title, author}
+- {ISBN, title, author}
 - ...and more (any set containing a candidate key is a superkey)
 
 **Candidate keys** (minimal superkeys -- no proper subset is also a superkey):
 
-- `\{bookID}` -- minimal, uniquely identifies each row
-- `\{ISBN}` -- minimal, uniquely identifies each row
-- `{title, author}` -- minimal (title alone is not unique; author alone is not unique)
+- {bookID} -- minimal, uniquely identifies each row
+- {ISBN} -- minimal, uniquely identifies each row
+- {title, author} -- minimal (title alone is not unique; author alone is not unique)
 
-**Primary key:** `\{bookID}` -- chosen by the designer (surrogate key, simplest)
+**Primary key:** {bookID} -- chosen by the designer (surrogate key, simplest)
 
-**Alternate keys:** `\{ISBN}` and `{title, author}` -- candidate keys not chosen as primary key
+**Alternate keys:** {ISBN} and {title, author} -- candidate keys not chosen as primary key
 
-Note: `{bookID, title}` is a superkey but NOT a candidate key because its proper subset `\{bookID}`
-Is also a superkey.
+Note: {bookID, title} is a superkey but NOT a candidate key because its proper subset {bookID}
+is also a superkey.
 
 </details>
 
@@ -301,7 +301,7 @@ Is also a superkey.
   if a user changes their email, every foreign key reference must be updated. Surrogate keys (auto-
   incremented integers) avoid this problem.
 - **Forgetting that composite keys require all attributes:** A composite primary key
-  `{studentID, courseID}` means that BOTH attributes together are needed to uniquely identify a row.
+  {studentID, courseID} means that BOTH attributes together are needed to uniquely identify a row.
   Neither alone is sufficient.
 
 ## Normalization
@@ -316,7 +316,7 @@ A functional dependency $X \rightarrow Y$ means that the value of attribute $Y$ 
 Determined by the value of attribute $X$. If two rows have the same value for $X$ They must have The
 same value for $Y$.
 
-**Example:** In a table with `{studentID, name, dateOfBirth}`. The dependency studentID $\rightarrow$
+**Example:** In a table with {studentID, name, dateOfBirth}. The dependency studentID $\rightarrow$
 name holds because each student has exactly one name.
 
 **Partial dependency:** $X \rightarrow Y$ where $X$ is a proper subset of a candidate key. This
@@ -359,7 +359,7 @@ The Items column contains multiple values, violating the atomicity rule.
 
 </div>
 
-Primary key: `{OrderID, Item}`
+Primary key: {OrderID, Item}
 
 ### Second Normal Form (2NF)
 
@@ -379,7 +379,7 @@ composite.
 
 </div>
 
-Primary key: `{studentID, courseID}`
+Primary key: {studentID, courseID}
 
 Partial dependencies:
 
@@ -414,7 +414,7 @@ Key (studentID alone).
 
 </div>
 
-**Enrollment** (PK: `{studentID, courseID}`):
+**Enrollment** (PK: {studentID, courseID}):
 
 <div class="table-wrap">
 
@@ -504,9 +504,9 @@ Starting table: HospitalRecord
 </div>
 
 **Step 1: 1NF.** Values are already atomic. But there are repeating groups (same patient appears
-Multiple times). The primary key must be `{patientID, appointmentDate}`.
+Multiple times). The primary key must be {patientID, appointmentDate}.
 
-Actually, `{patientID, appointmentDate}` uniquely identifies each row. But patientName depends only
+Actually, {patientID, appointmentDate} uniquely identifies each row. But patientName depends only
 on patientID, and doctorName depends only on doctorID.
 
 **Step 2: 2NF.** Remove partial dependencies.
@@ -523,7 +523,7 @@ on patientID, and doctorName depends only on doctorID.
 
 </div>
 
-**Appointment** (PK: `{patientID, appointmentDate}`FK: patientID, doctorID):
+**Appointment** (PK: {patientID, appointmentDate}FK: patientID, doctorID):
 
 <div class="table-wrap">
 
@@ -570,17 +570,17 @@ Normalize the following unnormalized table to 3NF:
 <details>
 <summary>Solution</summary>
 
-**Step 1: Identify 1NF violations.** All values are atomic. The primary key candidate is `rentalID`.
+**Step 1: Identify 1NF violations.** All values are atomic. The primary key candidate is rentalID.
 The table is already in 1NF.
 
-**Step 2: Identify 2NF violations (partial dependencies).** Since the primary key is `rentalID` (a
+**Step 2: Identify 2NF violations (partial dependencies).** Since the primary key is rentalID (a
 Single attribute, not composite), there cannot be partial dependencies. The table is already in 2NF.
 
 **Step 3: Identify 3NF violations (transitive dependencies).**
 
-- `rentalID` $\rightarrow$ `customerName` $\rightarrow$ `customerEmail`: customerEmail depends on
+- rentalID $\rightarrow$ customerName $\rightarrow$ customerEmail: customerEmail depends on
   customerName (transitive)
-- `rentalID` $\rightarrow$ `movieTitle` $\rightarrow$ `genre`, `dailyRate`: genre and dailyRate depend
+- rentalID $\rightarrow$ movieTitle $\rightarrow$ genre, dailyRate: genre and dailyRate depend
   on movieTitle (transitive)
 
 **Decompose into 4 tables:**
@@ -646,7 +646,7 @@ DDL defines and modifies the structure of database objects (tables, views, index
 
 **CREATE TABLE:**
 
-```sql
+sql
 CREATE TABLE Student (
     studentID INTEGER PRIMARY KEY,
     firstName VARCHAR(50) NOT NULL,
@@ -656,7 +656,7 @@ CREATE TABLE Student (
     enrollmentDate DATE DEFAULT CURRENT_DATE,
     gpa FLOAT CHECK (gpa >= 0.0 AND gpa <= 4.0)
 );
-```
+
 
 **Constraints:**
 
@@ -675,47 +675,47 @@ CREATE TABLE Student (
 
 **ALTER TABLE:**
 
-```sql
+sql
 ALTER TABLE Student ADD COLUMN phone VARCHAR(20);
 ALTER TABLE Student DROP COLUMN phone;
 ALTER TABLE Student MODIFY COLUMN email VARCHAR(200);
-```
+
 
 **DROP TABLE:**
 
-```sql
+sql
 DROP TABLE Student;
-```
+
 
 ### Data Manipulation Language (DML)
 
 **INSERT:**
 
-```sql
+sql
 INSERT INTO Student (studentID, firstName, lastName, email, dateOfBirth)
 VALUES (1, 'Alice', 'Smith', 'alice@school.edu', '2005-06-15');
 
 INSERT INTO Student (studentID, firstName, lastName)
 VALUES (2, 'Bob', 'Jones');
-```
+
 
 **UPDATE:**
 
-````sql
+sql
 UPDATE Student SET gpa = 3.8 WHERE studentID = 1;
 
-```sql
+sql
 UPDATE Student SET email = 'newemail@school.edu'
 WHERE lastName = 'Jones' AND firstName = 'Bob';
-````
 
-````
+
+
 
 **DELETE:**
 
-```sql
+sql
 DELETE FROM Student WHERE studentID = 2;
-````
+
 
 :::caution
 TABLE Student deletes both the data and the table structure. Be certain which one you intend.
@@ -727,44 +727,44 @@ The SELECT statement retrieves data from one or more tables.
 
 **Basic SELECT:**
 
-```sql
+sql
 SELECT firstName, lastName, gpa FROM Student;
 SELECT * FROM Student;
-```
+
 
 **WHERE clause:**
 
-```sql
+sql
 SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa >= 3.5 AND enrollmentYear = 2023;
-```
 
-**Comparison operators in WHERE:** `=`, `<>`, `<`, `>`, `$\le$`, `$\ge$`, `BETWEEN`, `LIKE`, `IN`
-`IS NULL`, `IS NOT NULL`.
+
+**Comparison operators in WHERE:** =, <>, <, >, $\le$, $\ge$, BETWEEN, LIKE, IN
+IS NULL, IS NOT NULL.
 
 **ORDER BY:**
 
-```sql
+sql
 SELECT firstName, lastName, gpa
 FROM Student
 ORDER BY gpa DESC, lastName ASC;
-```
+
 
 **DISTINCT:**
 
-```sql
+sql
 SELECT DISTINCT department FROM Teacher;
-```
+
 
 **LIMIT:**
 
-```sql
+sql
 SELECT firstName, lastName, gpa
 FROM Student
 ORDER BY gpa DESC
 LIMIT 10;
-```
+
 
 ### Worked Example: Writing SQL Queries
 
@@ -795,23 +795,23 @@ Write SQL queries for each task:
 
 **Query 1: Grade 11 students with GPA &gt; 3.5, ordered by GPA descending**
 
-```sql
+sql
 SELECT firstName, lastName, gpa
 FROM Student
 WHERE gradeLevel = 11 AND gpa > 3.5
 ORDER BY gpa DESC;
-```
+
 
 Result: Carol Williams (3.9), Alice Smith (3.8)
 
 **Query 2: Count of students per grade level**
 
-```sql
+sql
 SELECT gradeLevel, COUNT(*) AS numStudents
 FROM Student
 GROUP BY gradeLevel
 ORDER BY gradeLevel;
-```
+
 
 Result:
 
@@ -827,21 +827,21 @@ Result:
 
 **Query 3: Student(s) with the highest GPA**
 
-```sql
+sql
 SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa = (SELECT MAX(gpa) FROM Student);
-```
+
 
 Result: Carol Williams (3.9)
 
 Alternative using subquery comparison:
 
-```sql
+sql
 SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa >= ALL (SELECT gpa FROM Student);
-```
+
 
 </details>
 
@@ -853,32 +853,32 @@ WHERE gpa >= ALL (SELECT gpa FROM Student);
 
 | Function | Description           | Example                  |
 | -------- | --------------------- | ------------------------ |
-| COUNT    | Number of rows        | `COUNT(*)``COUNT(email)` |
-| SUM      | Sum of numeric values | `SUM(gpa)`               |
-| AVG      | Arithmetic mean       | `AVG(gpa)`               |
-| MIN      | Minimum value         | `MIN(gpa)`               |
-| MAX      | Maximum value         | `MAX(gpa)`               |
+| COUNT    | Number of rows        | COUNT(*)COUNT(email) |
+| SUM      | Sum of numeric values | SUM(gpa)               |
+| AVG      | Arithmetic mean       | AVG(gpa)               |
+| MIN      | Minimum value         | MIN(gpa)               |
+| MAX      | Maximum value         | MAX(gpa)               |
 
 </div>
 
 **GROUP BY:** Groups rows that have the same values in specified columns. Aggregate functions are
 Applied to each group.
 
-```sql
+sql
 SELECT department, COUNT(*) AS numTeachers, AVG(salary) AS avgSalary
 FROM Teacher
 GROUP BY department;
-```
+
 
 **HAVING:** Filters groups after GROUP BY. HAVING operates on aggregated values; WHERE operates on
 Individual rows before grouping.
 
-```sql
+sql
 SELECT department, COUNT(*) AS numTeachers
 FROM Teacher
 GROUP BY department
 HAVING COUNT(*) >= 3;
-```
+
 
 ### Joins
 
@@ -886,22 +886,22 @@ Joins combine rows from two or more tables based on a related column.
 
 **INNER JOIN:** Returns only rows where there is a match in both tables.
 
-```sql
+sql
 SELECT Student.firstName, Student.lastName, Course.courseName, Enrollment.grade
 FROM Student
 INNER JOIN Enrollment ON Student.studentID = Enrollment.studentID
 INNER JOIN Course ON Enrollment.courseID = Course.courseID;
-```
+
 
 **LEFT JOIN (LEFT OUTER JOIN):** Returns all rows from the left table, and matched rows from the
 Right table. Unmatched rows from the right table are filled with NULL.
 
-```sql
+sql
 SELECT Student.firstName, Student.lastName, Course.courseName
 FROM Student
 LEFT JOIN Enrollment ON Student.studentID = Enrollment.studentID
 LEFT JOIN Course ON Enrollment.courseID = Course.courseID;
-```
+
 
 This returns all students, including those who are not enrolled in any course (their courseName will
 be NULL).
@@ -911,21 +911,21 @@ Left table.
 
 **FULL OUTER JOIN:** Returns all rows from both tables. Unmatched rows are filled with NULL.
 
-```sql
+sql
 SELECT Student.firstName, Course.courseName
 FROM Student
 FULL OUTER JOIN Enrollment ON Student.studentID = Enrollment.studentID
 FULL OUTER JOIN Course ON Enrollment.courseID = Course.courseID;
-```
+
 
 **Self-join:** A table joined with itself. Useful for hierarchical data or finding relationships
 Within the same entity.
 
-```sql
+sql
 SELECT e1.firstName AS employee, e2.firstName AS manager
 FROM Employee e1
 INNER JOIN Employee e2 ON e1.managerID = e2.employeeID;
-```
+
 
 ### Comparison of Join Types
 
@@ -970,12 +970,12 @@ Given these tables:
 
 What is the output of the following query?
 
-```sql
+sql
 SELECT Student.firstName, Enrollment.courseID, Enrollment.grade
 FROM Student
 LEFT JOIN Enrollment ON Student.studentID = Enrollment.studentID
 ORDER BY Student.firstName, Enrollment.courseID;
-```
+
 
 <details>
 <summary>Solution</summary>
@@ -1037,12 +1037,12 @@ of courses.
 <details>
 <summary>Solution</summary>
 
-```sql
+sql
 SELECT studentID, COUNT(*) AS numCourses
 FROM Enrollment
 GROUP BY studentID
 HAVING COUNT(*) > 1;
-```
+
 
 **Result:**
 
@@ -1056,7 +1056,7 @@ HAVING COUNT(*) > 1;
 </div>
 
 Student 2 is excluded because they are enrolled in only 1 course. HAVING filters after grouping;
-WHERE cannot be used here because `COUNT(*)` is an aggregate function.
+WHERE cannot be used here because COUNT(*) is an aggregate function.
 
 </details>
 
@@ -1067,32 +1067,32 @@ Clauses.
 
 **Subquery in WHERE (comparison):**
 
-```sql
+sql
 SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa > (SELECT AVG(gpa) FROM Student);
-```
+
 
 **Subquery with IN:**
 
-```sql
+sql
 SELECT firstName, lastName
 FROM Student
 WHERE studentID IN (
     SELECT studentID FROM Enrollment WHERE courseID = 101
 );
-```
+
 
 **Subquery with EXISTS:**
 
-```sql
+sql
 SELECT firstName, lastName
 FROM Student s
 WHERE EXISTS (
     SELECT 1 FROM Enrollment e
     WHERE e.studentID = s.studentID AND e.grade = 'F'
 );
-```
+
 
 EXISTS returns TRUE if the subquery returns at least one row. It is efficient because it stops
 Searching as soon as a match is found.
@@ -1100,14 +1100,14 @@ Searching as soon as a match is found.
 **Correlated subquery:** The inner query references a column from the outer query. It is evaluated
 Once for each row of the outer query.
 
-```sql
+sql
 SELECT firstName, lastName, gpa
 FROM Student s
 WHERE gpa > (
     SELECT AVG(gpa) FROM Student
     WHERE department = s.department
 );
-```
+
 
 This finds students whose GPA exceeds the average GPA of their own department.
 
@@ -1127,24 +1127,24 @@ Given:
 
 **(a) Subquery with IN:**
 
-```sql
+sql
 SELECT firstName, lastName
 FROM Student
 WHERE studentID IN (
     SELECT studentID FROM Enrollment WHERE grade = 'A'
 );
-```
 
-The subquery returns `{1, 3}`. The outer query finds Alice and Carol.
+
+The subquery returns {1, 3}. The outer query finds Alice and Carol.
 
 **(b) INNER JOIN with DISTINCT:**
 
-```sql
+sql
 SELECT DISTINCT Student.firstName, Student.lastName
 FROM Student
 INNER JOIN Enrollment ON Student.studentID = Enrollment.studentID
 WHERE Enrollment.grade = 'A';
-```
+
 
 DISTINCT is needed because a student could have multiple A grades, which would produce duplicate
 Rows without it.
@@ -1159,13 +1159,13 @@ it avoids executing the subquery separately.
 A view is a virtual table based on the result of a SELECT query. It does not store data itself; it
 presents data from underlying tables.
 
-```sql
+sql
 CREATE VIEW HonorRoll AS
 SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa >= 3.5
 ORDER BY gpa DESC;
-```
+
 
 **Updatable views:** A view is updatable if it meets certain conditions: it is based on a single
 Table, it does not contain DISTINCT, GROUP BY, HAVING, or aggregate functions, and it includes the
@@ -1206,27 +1206,27 @@ Concurrency.
 
 ### Transaction Control
 
-```sql
+sql
 BEGIN TRANSACTION;
 
 UPDATE Account SET balance = balance - 100 WHERE accountID = 'A';
 UPDATE Account SET balance = balance + 100 WHERE accountID = 'B';
 
 COMMIT;
-```
+
 
 If an error occurs before COMMIT:
 
-```sql
+sql
 ROLLBACK;
-```
+
 
 ### Worked Example: Transaction with ROLLBACK
 
 A bank transfer deducts $100 from account A and adds $100 to account B. Trace what happens if the
 second UPDATE fails.
 
-```sql
+sql
 BEGIN TRANSACTION;
 
 UPDATE Account SET balance = balance - 100 WHERE accountID = 'A';
@@ -1236,16 +1236,16 @@ UPDATE Account SET balance = balance + 100 WHERE accountID = 'B';
 -- ERROR: account B does not exist!
 
 -- What happens now?
-```
+
 
 <details>
 <summary>Solution</summary>
 
 Because the second UPDATE fails, the transaction must be rolled back:
 
-```sql
+sql
 ROLLBACK;
-```
+
 
 After ROLLBACK:
 
@@ -1264,9 +1264,9 @@ disappear.
 
 If both statements had succeeded:
 
-```sql
+sql
 COMMIT;
-```
+
 
 The changes would be permanent (**Durability**).
 
@@ -1300,7 +1300,7 @@ related rows:
 
 </div>
 
-```sql
+sql
 CREATE TABLE Enrollment (
     studentID INTEGER NOT NULL,
     courseID INTEGER NOT NULL,
@@ -1311,7 +1311,7 @@ CREATE TABLE Enrollment (
     FOREIGN KEY (courseID) REFERENCES Course(courseID)
         ON DELETE RESTRICT
 );
-```
+
 
 Deleting a student cascades to delete their enrollment records. Deleting a course that has
 enrollments is restricted (blocked).
@@ -1323,28 +1323,28 @@ Given the following tables with the Enrollment table defined as above:
 **Student**: studentID 1 (Alice), 2 (Bob) **Course**: courseID 101 (Math), 102 (Physics)
 **Enrollment**: (1, 101), (1, 102), (2, 101)
 
-What happens when you execute `DELETE FROM Student WHERE studentID = 1`? What happens if you then
-try `DELETE FROM Course WHERE courseID = 101`?
+What happens when you execute DELETE FROM Student WHERE studentID = 1? What happens if you then
+try DELETE FROM Course WHERE courseID = 101?
 
 <details>
 <summary>Solution</summary>
 
-**`DELETE FROM Student WHERE studentID = 1`:** Due to `ON DELETE CASCADE` on the studentID foreign
+**DELETE FROM Student WHERE studentID = 1:** Due to ON DELETE CASCADE on the studentID foreign
 Key, deleting Alice also deletes all her enrollment records. After this operation:
 
 **Student**: studentID 2 (Bob) **Course**: courseID 101 (Math), 102 (Physics) **Enrollment**:
 (2, 101) -- Alice's two enrollment rows are deleted
 
-**`DELETE FROM Course WHERE courseID = 101`:** This is **blocked** due to `ON DELETE RESTRICT` on
+**DELETE FROM Course WHERE courseID = 101:** This is **blocked** due to ON DELETE RESTRICT on
 the courseID foreign key. Bob still has an enrollment in course 101, so the database refuses to
 delete the course. The DELETE statement fails with a referential integrity error.
 
 To delete the course, you must first delete (or reassign) all enrollments that reference it:
 
-```sql
+sql
 DELETE FROM Enrollment WHERE courseID = 101;
 DELETE FROM Course WHERE courseID = 101;
-```
+
 
 </details>
 
@@ -1367,14 +1367,14 @@ Automatically.
 - Integrity constraints
 
 The data dictionary is queried using system-specific SQL commands. For example, in SQLite:
-`PRAGMA table_info(Student)`; in PostgreSQL:
-`SELECT * FROM information_schema.columns WHERE table_name = 'Student'`.
+PRAGMA table_info(Student); in PostgreSQL:
+SELECT * FROM information_schema.columns WHERE table_name = 'Student'.
 
 ### Worked Example: Creating a Data Dictionary Entry
 
 For the following CREATE TABLE statement, produce a data dictionary entry for each column:
 
-```sql
+sql
 CREATE TABLE Employee (
     empID INTEGER PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -1383,7 +1383,7 @@ CREATE TABLE Employee (
     deptID INTEGER,
     FOREIGN KEY (deptID) REFERENCES Department(deptID)
 );
-```
+
 
 <details>
 <summary>Solution</summary>
@@ -1472,21 +1472,21 @@ Preferred for stability.
 **SELECT \*** in production:\*\* Retrieving all columns when only a few are needed wastes bandwidth
 And memory. Always specify the columns you need.
 
-**Missing WHERE clause in UPDATE/DELETE:** `UPDATE Student SET gpa = 4.0` without a WHERE clause
+**Missing WHERE clause in UPDATE/DELETE:** UPDATE Student SET gpa = 4.0 without a WHERE clause
 Sets every student's GPA to 4.0. Always verify the WHERE clause before executing UPDATE or DELETE.
 
 **Confusing WHERE and HAVING:** WHERE filters rows before grouping; HAVING filters groups after
 Grouping. Using WHERE with an aggregate function causes a syntax error.
 
-**NULL comparisons:** `WHERE column = NULL` does not work. NULL is not a value; it represents the
-Absence of a value. Use `WHERE column IS NULL` or `WHERE column IS NOT NULL`.
+**NULL comparisons:** WHERE column = NULL does not work. NULL is not a value; it represents the
+Absence of a value. Use WHERE column IS NULL or WHERE column IS NOT NULL.
 
 **Cartesian product:** A join without an ON clause (or with incorrect join conditions) produces a
 Cartesian product: every row from one table combined with every row from the other table. For tables
 with 1000 rows each, this produces 1,000,000 rows.
 
 **String comparison issues:** SQL string comparisons are case-sensitive in many RDBMS.
-`WHERE name = 'alice'` will not match 'Alice'. Use functions like `LOWER()` for case-insensitive
+WHERE name = 'alice' will not match 'Alice'. Use functions like LOWER() for case-insensitive
 Comparisons, or set the column collation appropriately.
 
 ## Problem Set
@@ -1537,20 +1537,20 @@ _If you get this wrong, revise: [Entity-Relationship Diagrams](#entity-relations
 ### Problem 2: Partial vs Transitive Dependencies
 
 Given a table with columns
-`{orderID, productID, productName, customerID, customerName, quantity, UnitPrice}`, and the primary
-key is `{orderID, productID}`:
+{orderID, productID, productName, customerID, customerName, quantity, UnitPrice}, and the primary
+key is {orderID, productID}:
 
-- Is `productName` a partial dependency? If so, on what?
-- Is `customerName` a partial dependency? If so, on what?
+- Is productName a partial dependency? If so, on what?
+- Is customerName a partial dependency? If so, on what?
 
 <details>
 <summary>Solution</summary>
 
-- `productName` depends only on `productID` (a proper subset of the PK `{orderID, productID}`). Yes,
-  `productName` is a partial dependency.
-- `customerName` depends only on `customerID`. But `customerID` is NOT part of the primary key, so
-  this is not a partial dependency -- it is a **transitive dependency**: `orderID` $\rightarrow$
-  `customerID` $\rightarrow$ `customerName`.
+- productName depends only on productID (a proper subset of the PK {orderID, productID}). Yes,
+  productName is a partial dependency.
+- customerName depends only on customerID. But customerID is NOT part of the primary key, so
+  this is not a partial dependency -- it is a **transitive dependency**: orderID $\rightarrow$
+  customerID $\rightarrow$ customerName.
 
 Partial dependencies are specifically about non-key attributes depending on a **proper subset of the
 primary key**.
@@ -1588,13 +1588,13 @@ Normalize the following table to 3NF. Show each step.
 <details>
 <summary>Solution</summary>
 
-**1NF:** Already atomic values. PK: `{empID, projID}`.
+**1NF:** Already atomic values. PK: {empID, projID}.
 
 **2NF:** Partial dependencies exist:
 
-- `empName` depends only on `empID`
-- `deptID` and `deptName` depend only on `empID`
-- `projName` depends only on `projID`
+- empName depends only on empID
+- deptID and deptName depend only on empID
+- projName depends only on projID
 
 Decompose:
 
@@ -1620,7 +1620,7 @@ Decompose:
 
 </div>
 
-**Assignment** (PK: `{empID, projID}`FK: empID, projID):
+**Assignment** (PK: {empID, projID}FK: empID, projID):
 
 <div class="table-wrap">
 
@@ -1632,7 +1632,7 @@ Decompose:
 
 </div>
 
-**3NF:** Check Employee: `empID` $\rightarrow$ `deptID` $\rightarrow$ `deptName` is a transitive
+**3NF:** Check Employee: empID $\rightarrow$ deptID $\rightarrow$ deptName is a transitive
 Dependency. Decompose:
 
 **Employee** (PK: empID, FK: deptID):
@@ -1681,7 +1681,7 @@ Write a CREATE TABLE statement for the Enrollment table with appropriate constra
 <details>
 <summary>Solution</summary>
 
-```sql
+sql
 CREATE TABLE Enrollment (
     studentID INTEGER NOT NULL,
     courseID INTEGER NOT NULL,
@@ -1693,11 +1693,11 @@ CREATE TABLE Enrollment (
     FOREIGN KEY (courseID) REFERENCES Course(courseID)
         ON DELETE RESTRICT
 );
-```
+
 
 Key decisions:
 
-- Composite primary key `{studentID, courseID}` -- a student can enroll in a course only once
+- Composite primary key {studentID, courseID} -- a student can enroll in a course only once
 - CHECK constraint on grade to limit values to valid letter grades
 - ON DELETE CASCADE for student -- deleting a student removes their enrollments
 - ON DELETE RESTRICT for course -- cannot delete a course that has enrollments
@@ -1726,12 +1726,12 @@ of the top 3 students overall.
 <details>
 <summary>Solution</summary>
 
-```sql
+sql
 SELECT firstName, lastName, gpa
 FROM Student
 ORDER BY gpa DESC
 LIMIT 3;
-```
+
 
 Result:
 
@@ -1774,23 +1774,23 @@ Function would cause an error.
 
 Incorrect (causes syntax error):
 
-```sql
+sql
 SELECT gradeLevel, COUNT(*) AS numStudents
 FROM Student
 WHERE COUNT(*) > 1
 GROUP BY gradeLevel;
-```
+
 
 Correct:
 
-```sql
+sql
 SELECT gradeLevel, COUNT(*) AS numStudents
 FROM Student
 GROUP BY gradeLevel
 HAVING COUNT(*) > 1;
-```
 
-The WHERE clause is evaluated before rows are grouped, so aggregate functions like `COUNT(*)` are
+
+The WHERE clause is evaluated before rows are grouped, so aggregate functions like COUNT(*) are
 not Yet defined. HAVING is evaluated after grouping, when aggregates are available.
 
 </details>
@@ -1815,33 +1815,33 @@ Write a query to find all students who are NOT enrolled in any course.
 <details>
 <summary>Solution</summary>
 
-```sql
+sql
 SELECT firstName, lastName
 FROM Student
 WHERE studentID NOT IN (
     SELECT studentID FROM Enrollment
 );
-```
+
 
 Alternative using LEFT JOIN:
 
-```sql
+sql
 SELECT Student.firstName, Student.lastName
 FROM Student
 LEFT JOIN Enrollment ON Student.studentID = Enrollment.studentID
 WHERE Enrollment.studentID IS NULL;
-```
+
 
 Alternative using NOT EXISTS:
 
-```sql
+sql
 SELECT firstName, lastName
 FROM Student s
 WHERE NOT EXISTS (
     SELECT 1 FROM Enrollment e
     WHERE e.studentID = s.studentID
 );
-```
+
 
 All three approaches return the same result. NOT EXISTS is the most efficient for large Datasets
 because it stops searching as soon as a match is found.
@@ -1865,9 +1865,9 @@ _If you get this wrong, revise: [Subqueries](#subqueries) and [Joins](#joins)_
 
 What does the following SQL statement do? Is it dangerous?
 
-```sql
+sql
 UPDATE Student SET gpa = 4.0;
-```
+
 
 <details>
 <summary>Solution</summary>
@@ -1877,9 +1877,9 @@ is No WHERE clause to restrict which rows are updated.
 
 The safe version:
 
-```sql
+sql
 UPDATE Student SET gpa = 4.0 WHERE studentID = 3;
-```
+
 
 Always double-check UPDATE and DELETE statements for a WHERE clause before executing them. In
 production systems, you can wrap destructive operations in a transaction and use SELECT first to
@@ -1903,24 +1903,24 @@ _If you get this wrong, revise: [DML](#data-manipulation-language-dml) and
 
 ### Problem 9: NULL Comparison
 
-Explain why `WHERE column = NULL` does not work and provide the correct syntax.
+Explain why WHERE column = NULL does not work and provide the correct syntax.
 
 <details>
 <summary>Solution</summary>
 
-NULL represents the **absence of a value**, not a value itself. The expression `column = NULL`
+NULL represents the **absence of a value**, not a value itself. The expression column = NULL
 Evaluates to NULL (not TRUE or FALSE), so no rows are ever matched. NULL is not equal to anything,
-Not even itself: `NULL = NULL` is NULL.
+Not even itself: NULL = NULL is NULL.
 
 Correct syntax:
 
-```sql
+sql
 -- Find rows where column IS NULL
 SELECT * FROM Student WHERE email IS NULL;
 
 -- Find rows where column has a value
 SELECT * FROM Student WHERE email IS NOT NULL;
-```
+
 
 </details>
 
@@ -1979,11 +1979,11 @@ _If you get this wrong, revise: [ACID Properties](#acid-properties)_
 
 What is the result of the following join without an ON clause?
 
-```sql
+sql
 SELECT Student.firstName, Course.courseName
 FROM Student
 CROSS JOIN Course;
-```
+
 
 If Student has 5 rows and Course has 3 rows, how many rows are in the result?
 
@@ -2051,14 +2051,14 @@ _If you get this wrong, revise: [Big Data](#big-data)_
 
 ### Problem 13: Correlated Subquery
 
-A company has an Employee table with columns `empID`, `name`, `salary` and `departmentID`. Write a Query
+A company has an Employee table with columns empID, name, salary and departmentID. Write a Query
 that finds employees who earn more than the average salary in their own department. Explain why This
 requires a correlated subquery.
 
 <details>
 <summary>Solution</summary>
 
-```sql
+sql
 SELECT e1.name, e1.salary, e1.departmentID
 FROM Employee e1
 WHERE e1.salary > (
@@ -2066,10 +2066,10 @@ WHERE e1.salary > (
     FROM Employee e2
     WHERE e2.departmentID = e1.departmentID
 );
-```
+
 
 This requires a **correlated subquery** because the average must be computed **per department**, and
-the Department changes for each row in the outer query. The inner query references `e1.departmentID`
+the Department changes for each row in the outer query. The inner query references e1.departmentID
 from The outer query, so it is re-evaluated for each employee.
 
 This cannot be written as a simple subquery because a non-correlated subquery returns a single value
@@ -2098,13 +2098,13 @@ Write The CREATE VIEW statement and explain one advantage and one limitation of 
 <details>
 <summary>Solution</summary>
 
-```sql
+sql
 CREATE VIEW Course101Students AS
 SELECT Student.firstName, Student.lastName, Enrollment.grade
 FROM Student
 INNER JOIN Enrollment ON Student.studentID = Enrollment.studentID
 WHERE Enrollment.courseID = 101;
-```
+
 
 **Advantage:** Security -- teachers of other courses cannot see the full Student table. They only
 see The subset of data relevant to course 101 through this view.
@@ -2132,7 +2132,7 @@ _If you get this wrong, revise: [Views](#views)_
 
 A school uses the following database schema:
 
-```sql
+sql
 CREATE TABLE Teacher (
     teacherID INTEGER PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
@@ -2160,11 +2160,11 @@ CREATE TABLE Membership (
     FOREIGN KEY (studentID) REFERENCES Student(studentID) ON DELETE CASCADE,
     FOREIGN KEY (clubID) REFERENCES Club(clubID) ON DELETE CASCADE
 );
-```
+
 
 Answer all parts:
 
-(a) Explain the effect of `ON DELETE SET NULL` on the Club table's teacherID foreign key. (b) Write
+(a) Explain the effect of ON DELETE SET NULL on the Club table's teacherID foreign key. (b) Write
 a query to find the names of all students who are in at least 2 clubs. (c) Write a query to find the
 name of each club and the number of members it has, showing only clubs with more than 5 members. (d)
 If teacherID 3 is deleted from the Teacher table, what happens to any clubs where teacherID = 3?
@@ -2172,32 +2172,32 @@ If teacherID 3 is deleted from the Teacher table, what happens to any clubs wher
 <details>
 <summary>Solution</summary>
 
-**(a)** If a teacher is deleted, the `teacherID` column in any Club that referenced that teacher is
+**(a)** If a teacher is deleted, the teacherID column in any Club that referenced that teacher is
 set To NULL. The club itself is NOT deleted; it no longer has a supervising teacher. This allows a
 club to continue existing after its teacher leaves.
 
 **(b)**
 
-```sql
+sql
 SELECT Student.name
 FROM Student
 INNER JOIN Membership ON Student.studentID = Membership.studentID
 GROUP BY Student.studentID, Student.name
 HAVING COUNT(*) >= 2;
-```
+
 
 **(c)**
 
-```sql
+sql
 SELECT Club.clubName, COUNT(*) AS numMembers
 FROM Club
 INNER JOIN Membership ON Club.clubID = Membership.clubID
 GROUP BY Club.clubID, Club.clubName
 HAVING COUNT(*) > 5;
-```
 
-**(d)** The `teacherID` column in any Club row where `teacherID = 3` is set to NULL. The club record
-is preserved; only the reference to the teacher is cleared. If `ON DELETE CASCADE` had been used
+
+**(d)** The teacherID column in any Club row where teacherID = 3 is set to NULL. The club record
+is preserved; only the reference to the teacher is cleared. If ON DELETE CASCADE had been used
 instead, the clubs themselves would have been deleted.
 
 </details>

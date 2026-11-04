@@ -370,7 +370,7 @@ T = 298\mathrm{ K}
 $$
 
 $$
-V = \frac`\{nRT}`{P} = \frac{2.5 \times 8.314 \times 298}{121590} = \frac{6194.2}{121590} = 0.0509\mathrm{ m}^3 = 50.9\mathrm{ L}
+V = \frac{nRT}{P} = \frac{2.5 \times 8.314 \times 298}{121590} = \frac{6194.2}{121590} = 0.0509\mathrm{ m}^3 = 50.9\mathrm{ L}
 $$
 
 ### Real Gas Deviations
@@ -683,13 +683,13 @@ Helium diffuses about 2.83 times faster than oxygen.
 #### Molar Mass of a Gas
 
 $$
-M = \frac`\{mRT}`, `\{PV}`
+M = \frac{mRT}, {PV}
 $$
 
 #### Density of a Gas
 
 $$
-\rho = \frac`\{PM}`, `\{RT}`
+\rho = \frac{PM}, {RT}
 $$
 :::
 
@@ -860,7 +860,7 @@ $$
 **(b)** Calculate the volume of NH$_3$ at these conditions.
 
 $$
-V = \frac`\{nRT}`{P} = \frac{4.00 \times 8.314 \times 673}{200 \times 101325} = \frac{22390}{20265000} = 1.105 \times 10^{-3}\mathrm{ m}^3 = 1.105\mathrm{ L}
+V = \frac{nRT}{P} = \frac{4.00 \times 8.314 \times 673}{200 \times 101325} = \frac{22390}{20265000} = 1.105 \times 10^{-3}\mathrm{ m}^3 = 1.105\mathrm{ L}
 $$
 
 **(c)** If the actual yield is $3.20\mathrm{ mol}$ Calculate the percentage yield.

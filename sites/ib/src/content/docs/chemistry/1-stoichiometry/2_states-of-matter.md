@@ -203,7 +203,7 @@ Molecules) deviate more from ideal behaviour.
 ### Compressibility Factor
 
 $$
-Z = \frac`\{PV}`, `\{nRT}`
+Z = \frac{PV}, {nRT}
 $$
 
 - $Z = 1$: ideal gas
@@ -342,7 +342,7 @@ Key features:
 
 The six phase changes form three opposing pairs; each change has a reverse:
 
-```mermaid
+mermaid
 stateDiagram-v2
     s1 : Solid
     l1 : Liquid
@@ -353,7 +353,7 @@ stateDiagram-v2
     g1 --> l1 : Condensation (heat out)
     s1 --> g1 : Sublimation (heat in)
     g1 --> s1 : Deposition (heat out)
-```
+
 
 Energy flows **in** for solid → liquid → gas and flows **out** for the reverse; the direction of
 each arrow's heat label is examinable.
@@ -484,7 +484,7 @@ $b = 0.043\mathrm{ L/mol}$.
 Ideal gas law:
 
 $$
-P_{\mathrm{ideal}} = \frac`\{nRT}`{V} = \frac{1.00 \times 0.0821 \times 300}{5.00} = \frac{24.63}{5.00} = 4.93\mathrm{ atm}
+P_{\mathrm{ideal}} = \frac{nRT}{V} = \frac{1.00 \times 0.0821 \times 300}{5.00} = \frac{24.63}{5.00} = 4.93\mathrm{ atm}
 $$
 
 Van der Waals:
@@ -544,7 +544,7 @@ Convert all quantities to SI units:
 Using $R = 8.314\mathrm{ J/(mol \cdot K)}$ (SI units):
 
 $$
-N = \frac`\{PV}`, `\{RT}` = \frac{98\,500 \times 2.500 \times 10^{-4}}{8.314 \times 298} = \frac{24.63}{2477.6} = 0.00994\mathrm{ mol}
+N = \frac{PV}, {RT} = \frac{98\,500 \times 2.500 \times 10^{-4}}{8.314 \times 298} = \frac{24.63}{2477.6} = 0.00994\mathrm{ mol}
 $$
 
 Alternatively, using $R = 8.314 \times 10^{-2}\mathrm{ L \cdot kPa/(mol \cdot K)}$ and keeping $V$

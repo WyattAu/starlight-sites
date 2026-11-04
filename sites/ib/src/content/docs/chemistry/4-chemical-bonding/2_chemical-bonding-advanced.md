@@ -462,7 +462,7 @@ excite an electron from the valence band to the conduction band.
 **Solution:**
 
 $$
-E = \frac`\{hc}`{\lambda} \implies \lambda = \frac`\{hc}`{E}
+E = \frac{hc}{\lambda} \implies \lambda = \frac{hc}{E}
 $$
 
 $$

@@ -24,7 +24,7 @@ categories:
 
 A **discrete random variable** $X$ is a function that assigns a numerical value to each outcome in a
 countable sample space. The set of possible values is finite or countably infinite: for example,
-$\{0, 1, 2, \ldots, n\}$ or $\{0, 1, 2, \ldots\}$.
+${0, 1, 2, \ldots, n}$ or ${0, 1, 2, \ldots}$.
 
 ### Probability Mass Function (PMF)
 
@@ -611,7 +611,7 @@ $\mathrm{Var}(X) = \dfrac{a^2+ab+b^2}{3} - \dfrac{(a+b)^2}{4} = \dfrac{4(a^2+ab+
 ### CDF
 
 $$
-F(x) = \begin`\{cases}` 0 & x \lt a \\ \dfrac{x - a}{b - a} & a \le x \le b \\ 1 & x \gt b \end`\{cases}`
+F(x) = \begin{cases} 0 & x \lt a \\ \dfrac{x - a}{b - a} & a \le x \le b \\ 1 & x \gt b \end{cases}
 $$
 
 For any $[c, d] \subseteq [a, b]$: $P(c \le X \le d) = \dfrac{d - c}{b - a}$.

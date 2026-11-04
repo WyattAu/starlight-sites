@@ -79,19 +79,19 @@ $\pi_{\text{course}(\sigma_{\text{dept}=\text{"CS'}(\text{Course}))}}$.
 $R \div S$ gives the students enrolled in every CS course.
 
 Example:
-$R = \{(\text{Alice}, \text{CS101}), (\text{Alice}, \text{CS201}), (\text{Bob}, \text{CS101}), (\text{Carol}, \text{CS101}), (\text{Carol}, \text{CS201})\}$
+$R = {(\text{Alice}, \text{CS101}), (\text{Alice}, \text{CS201}), (\text{Bob}, \text{CS101}), (\text{Carol}, \text{CS101}), (\text{Carol}, \text{CS201})}$
 
-$S = \{\text{CS101}, \text{CS201}\}$
+$S = {\text{CS101}, \text{CS201}}$
 
-$\pi_A(R) = \{\text{Alice}, \text{Bob}, \text{Carol}\}$
+$\pi_A(R) = {\text{Alice}, \text{Bob}, \text{Carol}}$
 
-$\pi_A(R) \times S = \{(\text{Alice}, \text{CS101}), (\text{Alice}, \text{CS201}), (\text{Bob}, \text{CS101}), (\text{Bob}, \text{CS201}), (\text{Carol}, \text{CS101}), (\text{Carol}, \text{CS201})\}$
+$\pi_A(R) \times S = {(\text{Alice}, \text{CS101}), (\text{Alice}, \text{CS201}), (\text{Bob}, \text{CS101}), (\text{Bob}, \text{CS201}), (\text{Carol}, \text{CS101}), (\text{Carol}, \text{CS201})}$
 
-$\pi_A(R) \times S - R = \{(\text{Bob}, \text{CS201})\}$
+$\pi_A(R) \times S - R = {(\text{Bob}, \text{CS201})}$
 
-$\pi_A(\pi_A(R) \times S - R) = \{\text{Bob}\}$
+$\pi_A(\pi_A(R) \times S - R) = {\text{Bob}}$
 
-$R \div S = \{\text{Alice}, \text{Carol}\} - \{\text{Bob}\} = \{\text{Alice}, \text{Carol}\}$
+$R \div S = {\text{Alice}, \text{Carol}} - {\text{Bob}} = {\text{Alice}, \text{Carol}}$
 
 Alice and Carol have taken all CS courses. Bob has not taken CS201.
 
@@ -122,10 +122,10 @@ is always less.
 
 ### 1.3 Tuple Relational Calculus
 
-**Syntax:** $\{t \mid \exists u (R(u) \wedge t.A = u.A \wedge \ldots)\}$
+**Syntax:** ${t \mid \exists u (R(u) \wedge t.A = u.A \wedge \ldots)}$
 
 **Safety.** A calculus expression is safe if its result is finite. Unsafe expressions can produce
-infinite relations (e.g., $\{t \mid \neg R(t)\}$ is the complement of $R$ Which is infinite if the
+infinite relations (e.g., ${t \mid \neg R(t)}$ is the complement of $R$ Which is infinite if the
 domain is infinite).
 
 **Theorem 1.3 (Codd).** Every safe relational calculus query can be expressed in relational algebra,
@@ -141,13 +141,13 @@ collapsing rows (unlike GROUP BY).
 
 **Syntax:**
 
-```sql
+sql
 FUNCTION(args) OVER (
     [PARTITION BY col1, col2, ...]
     [ORDER BY col3, col4, ...]
     [frame_clause]
 )
-```
+
 
 **Frame specification:**
 
@@ -159,18 +159,18 @@ $$
 
 | Frame unit            | Meaning                                                  |
 | --------------------- | -------------------------------------------------------- |
-| `ROWS`                | Physical offset from current row                         |
-| `RANGE`               | Logical offset (based on ORDER BY value)                 |
-| `UNBOUNDED PRECEDING` | From the first row of the partition                      |
-| `UNBOUNDED FOLLOWING` | To the last row of the partition                         |
-| `CURRENT ROW`         | Current row (ROWS: just this row; RANGE: peers included) |
-| `n PRECEDING`         | $n$ rows/range values before current                     |
-| `n FOLLOWING`         | $n$ rows/range values after current                      |
+| ROWS                | Physical offset from current row                         |
+| RANGE               | Logical offset (based on ORDER BY value)                 |
+| UNBOUNDED PRECEDING | From the first row of the partition                      |
+| UNBOUNDED FOLLOWING | To the last row of the partition                         |
+| CURRENT ROW         | Current row (ROWS: just this row; RANGE: peers included) |
+| n PRECEDING         | $n$ rows/range values before current                     |
+| n FOLLOWING         | $n$ rows/range values after current                      |
 
 </div>
 
-**Default frame:** `RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW` (when ORDER BY is present),
-or `ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING` (when no ORDER BY).
+**Default frame:** RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW (when ORDER BY is present),
+or ROWS BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING (when no ORDER BY).
 
 <details>
 <summary>Worked Example: Running Totals and Rankings</summary>
@@ -192,7 +192,7 @@ Table: Sales(salesperson, month, amount)
 
 **Running total per salesperson:**
 
-```sql
+sql
 SELECT salesperson, month, amount,
        SUM(amount) OVER (
            PARTITION BY salesperson
@@ -200,7 +200,7 @@ SELECT salesperson, month, amount,
            ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
        ) AS running_total
 FROM Sales;
-```
+
 
 Result: | salesperson | month | amount | running_total |
 
@@ -215,13 +215,13 @@ Bob | Mar | 5000 | 12000 |
 
 **Ranking (RANK vs DENSE_RANK vs ROW_NUMBER):**
 
-```sql
+sql
 SELECT salesperson, month, amount,
        RANK() OVER (PARTITION BY salesperson ORDER BY amount DESC) AS rnk,
        DENSE_RANK() OVER (PARTITION BY salesperson ORDER BY amount DESC) AS drnk,
        ROW_NUMBER() OVER (PARTITION BY salesperson ORDER BY amount DESC) AS rn
 FROM Sales;
-```
+
 
 If Alice had amounts 7000, 7000, 5000: RANK = (1, 1, 3), DENSE_RANK = (1, 1, 2), ROW_NUMBER = (1, 2,
 3).
@@ -232,26 +232,26 @@ If Alice had amounts 7000, 7000, 5000: RANK = (1, 1, 3), DENSE_RANK = (1, 1, 2),
 
 **Pivoting (rows to columns):**
 
-```sql
+sql
 SELECT salesperson,
        SUM(CASE WHEN month = 'Jan' THEN amount ELSE 0 END) AS jan_total,
        SUM(CASE WHEN month = 'Feb' THEN amount ELSE 0 END) AS feb_total,
        SUM(CASE WHEN month = 'Mar' THEN amount ELSE 0 END) AS mar_total
 FROM Sales
 GROUP BY salesperson;
-```
+
 
 **Unpivoting (columns to rows):**
 
-```sql
+sql
 SELECT salesperson, month, amount
 FROM MonthlySales
 UNPIVOT (amount FOR month IN (jan_total, feb_total, mar_total));
-```
+
 
 **Gaps and Islands.** Identifying consecutive sequences (e.g., consecutive login days):
 
-```sql
+sql
 WITH numbered AS (
     SELECT user_id, login_date,
            login_date - ROW_NUMBER() OVER (
@@ -262,11 +262,11 @@ WITH numbered AS (
 SELECT user_id, MIN(login_date) AS streak_start, MAX(login_date) AS streak_end, COUNT(*) AS streak_length
 FROM numbered
 GROUP BY user_id, grp;
-```
+
 
 ### 2.3 Recursive CTEs for Graph Traversal
 
-```sql
+sql
 WITH RECURSIVE reachable(node, depth, path) AS (
     SELECT start_node, 0, ARRAY[start_node]
     FROM Edges WHERE start_node = 'A'
@@ -276,22 +276,22 @@ WITH RECURSIVE reachable(node, depth, path) AS (
     WHERE NOT (e.end_node = ANY(r.path))  -- prevent cycles
 )
 SELECT * FROM reachable WHERE depth <= 5;
-```
+
 
 :::caution
 Always include a cycle check (e.g., tracking the path or visited nodes) or a depth limit. PostgreSQL
-supports the `CYCLE` clause for automatic cycle detection.
+supports the CYCLE clause for automatic cycle detection.
 :::
 
 ## 3. Advanced Normalisation
 
 ### 3.1 Join Dependencies and Fifth Normal Form (5NF)
 
-A **join dependency (JD)** $\bowtie\{R_1, R_2, \ldots, R_k\}$ holds over $R$ if
+A **join dependency (JD)** $\bowtie{R_1, R_2, \ldots, R_k}$ holds over $R$ if
 $R = R_1 \bowtie R_2 \bowtie \cdots \bowtie R_k$.
 
 **Definition.** A relation $R$ is in **5NF (Project-Join Normal Form)** if for every non-trivial
-join dependency $\bowtie\{R_1, \ldots, R_k\}$ that holds over $R$ Each $R_i$ is a superkey of $R$.
+join dependency $\bowtie{R_1, \ldots, R_k}$ that holds over $R$ Each $R_i$ is a superkey of $R$.
 
 5NF generalises 4NF: every 4NF violation is also a 5NF violation, but not vice versa.
 
@@ -316,7 +316,7 @@ combination is independent (any teacher can use any textbook for a course they t
 
 This satisfies 4NF (no multi-valued dependencies beyond those implied by the key).
 
-But the JD $\bowtie\{(course, teacher), (course, textbook)\}$ holds: the relation is the join of its
+But the JD $\bowtie{(course, teacher), (course, textbook)}$ holds: the relation is the join of its
 projections on (course, teacher) and (course, textbook).
 
 Neither (course, teacher) nor (course, textbook) is a superkey. Therefore, the relation violates
@@ -324,8 +324,8 @@ Neither (course, teacher) nor (course, textbook) is a superkey. Therefore, the r
 
 **Decomposition:**
 
-- $R_1$(course, teacher): $\{(\text{CS101}, \text{Smith}), (\text{CS101}, \text{Jones})\}$
-- $R_2$(course, textbook): $\{(\text{CS101}, \text{Knuth}), (\text{CS101}, \text{Cormen})\}$
+- $R_1$(course, teacher): ${(\text{CS101}, \text{Smith}), (\text{CS101}, \text{Jones})}$
+- $R_2$(course, textbook): ${(\text{CS101}, \text{Knuth}), (\text{CS101}, \text{Cormen})}$
 
 This avoids the redundancy: adding a new teacher only requires adding one row to $R_1$ Not $n$ rows
 (one per textbook).
@@ -573,10 +573,10 @@ new versions.
 
 **PostgreSQL MVCC:**
 
-- Each row has system columns: `xmin` (transaction ID that created the row), `xmax` (transaction ID
-  that deleted or updated the row), `ctid` (physical location).
-- A transaction can see a row if `xmin` is committed and `xmax` is either uncommitted or not set.
-- UPDATE creates a new row version (with the old version's `xmax` set).
+- Each row has system columns: xmin (transaction ID that created the row), xmax (transaction ID
+  that deleted or updated the row), ctid (physical location).
+- A transaction can see a row if xmin is committed and xmax is either uncommitted or not set.
+- UPDATE creates a new row version (with the old version's xmax set).
 
 **MVCC vs locking:**
 
@@ -689,7 +689,7 @@ eventually agree on the same log entries.
 A **bitmap index** stores bitmaps for each distinct value of an attribute. For a column with $V$
 distinct values and $n$ rows, the index consists of $V$ bitmaps, each of $n$ bits.
 
-**Example.** Column "colour" with values `\{Red, Green, Blue\}` and 8 rows:
+**Example.** Column "colour" with values {Red, Green, Blue} and 8 rows:
 
 <div class="table-wrap">
 
@@ -770,30 +770,30 @@ Insert rectangles into an R-tree with maximum 3 entries per node:
 
 R1 = (1, 1, 3, 3), R2 = (2, 2, 4, 4), R3 = (5, 5, 7, 7), R4 = (6, 1, 8, 3), R5 = (1, 5, 3, 7).
 
-_Insert R1:_ Root = leaf `{R1}`. MBR = (1, 1, 3, 3). _Insert R2:_ Leaf `{R1, R2}`. MBR = (1, 1, 4,
-4). _Insert R3:_ Leaf `{R1, R2, R3}`. MBR = (1, 1, 7, 7). Full (3 entries). _Insert R4:_ Leaf is
+_Insert R1:_ Root = leaf {R1}. MBR = (1, 1, 3, 3). _Insert R2:_ Leaf {R1, R2}. MBR = (1, 1, 4,
+4). _Insert R3:_ Leaf {R1, R2, R3}. MBR = (1, 1, 7, 7). Full (3 entries). _Insert R4:_ Leaf is
 full. Split.
 
-- R1, R2 are close together. R3 is far. Best split: `{R1, R2}` and `{R3, R4}`.
+- R1, R2 are close together. R3 is far. Best split: {R1, R2} and {R3, R4}.
 - Split 1 MBR: (1, 1, 4, 4). Split 2 MBR: (5, 1, 8, 7).
 - Create internal node with two children. _Insert R5:_ Which leaf to insert into? R5 = (1, 5, 3, 7).
 - Enlargement for split 1 (1,1,4,4): new MBR = (1, 1, 4, 7), enlargement = 4*3 - 3*3 = 3.
 - Enlargement for split 2 (5,1,8,7): no overlap, no enlargement needed... Wait, R5 (1,5,3,7) does
   overlap with (5,1,8,7)? No, R5's x-range [1,3] and split 2's x-range [5,8] don't overlap. So R5
   goes into split 1.
-- Split 1: `{R1, R2, R5}`. MBR = (1, 1, 4, 7). Full again!
-- Split split 1: `{R1, R2}` and `{R5}`. Or `{R1, R5}` and `{R2}`.
-- Choose `{R1, R2}` (MBR 1,1,4,4) and `{R5}` (MBR 1,5,3,7). Minimum total enlargement.
+- Split 1: {R1, R2, R5}. MBR = (1, 1, 4, 7). Full again!
+- Split split 1: {R1, R2} and {R5}. Or {R1, R5} and {R2}.
+- Choose {R1, R2} (MBR 1,1,4,4) and {R5} (MBR 1,5,3,7). Minimum total enlargement.
 
 Final R-tree:
 
-```
+
          Root (MBR: 1,1,8,7)
         /                   \
   [R1,R2] (1,1,4,4)    [R3,R4] (5,1,8,7)
                           |        \
                       [R3]      [R4]   [R5] (1,5,3,7)
-```
+
 
 Wait, this structure doesn't work cleanly. R-trees require careful split algorithms. The key
 takeaway is that R-trees group nearby spatial objects together and split when nodes overflow.
@@ -812,9 +812,9 @@ B-trees and R-trees are special cases of GiST.
 - A **penalty** method: cost of inserting an entry into a subtree.
 - A **pick-split** method: how to split an overflowing node.
 
-**Theorem 10.3.** GiST is correct (never misses results) if the user-supplied `consistent` predicate
-is sound: if `consistent(entry, query)` returns false, then no item in `entry`'s subtree matches
-`query`.
+**Theorem 10.3.** GiST is correct (never misses results) if the user-supplied consistent predicate
+is sound: if consistent(entry, query) returns false, then no item in entry's subtree matches
+query.
 
 ## 11. Advanced SQL Patterns
 
@@ -822,7 +822,7 @@ is sound: if `consistent(entry, query)` returns false, then no item in `entry`'s
 
 **Employee-manager hierarchy:**
 
-```sql
+sql
 WITH RECURSIVE hierarchy AS (
     SELECT emp_id, name, manager_id, 1 AS level
     FROM Employee
@@ -833,13 +833,13 @@ WITH RECURSIVE hierarchy AS (
     JOIN hierarchy h ON e.manager_id = h.emp_id
 )
 SELECT * FROM hierarchy ORDER BY level, name;
-```
+
 
 ### 11.2 Window Functions for Time Series
 
 **Moving average:**
 
-```sql
+sql
 SELECT date, value,
        AVG(value) OVER (
            ORDER BY date
@@ -847,18 +847,18 @@ SELECT date, value,
        ) AS moving_avg_7day
 FROM StockPrices
 WHERE symbol = 'AAPL';
-```
+
 
 **Year-over-year growth:**
 
-```sql
+sql
 SELECT year, quarter, revenue,
        revenue - LAG(revenue, 4) OVER (PARTITION BY symbol ORDER BY year, quarter) AS yoy_change,
        (revenue - LAG(revenue, 4) OVER (PARTITION BY symbol ORDER BY year, quarter))
            / LAG(revenue, 4) OVER (PARTITION BY symbol ORDER BY year, quarter) * 100 AS yoy_pct
 FROM Financials
 WHERE symbol = 'ACME';
-```
+
 
 ### 11.3 Materialised Views
 
@@ -892,7 +892,7 @@ The overhead is proportional to the number of rows affected and the complexity o
 
 **Savepoints** allow partial rollback within a transaction:
 
-```sql
+sql
 BEGIN;
 UPDATE Accounts SET balance = balance - 100 WHERE id = 1;
 SAVEPOINT sp1;
@@ -901,7 +901,7 @@ UPDATE Accounts SET balance = balance - 200 WHERE id = 2;
 ROLLBACK TO sp1;
 UPDATE Accounts SET balance = balance - 50 WHERE id = 2;
 COMMIT;
-```
+
 
 ### 12.2 Isolation Level Anomalies
 
@@ -1126,21 +1126,21 @@ Ranking: Hash join (45K) < Sort-merge (75K) < Block nested-loop (510K) < Index n
 
 ### 17.1 Percentile and Distribution Functions
 
-```sql
+sql
 -- Median salary per department
 SELECT department_id,
        PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY salary) AS median_salary,
        PERCENTILE_DISC(0.5) WITHIN GROUP (ORDER BY salary) AS median_discrete
 FROM Employee
 GROUP BY department_id;
-```
+
 
 **PERCENTILE_CONT** interpolates (continuous); **PERCENTILE_DISC** returns an actual value from the
 data set (discrete).
 
 ### 17.2 Pattern Matching with MATCH_RECOGNIZE (SQL:2016)
 
-```sql
+sql
 SELECT *
 FROM StockTicks
 MATCH_RECOGNIZE (
@@ -1152,7 +1152,7 @@ MATCH_RECOGNIZE (
     DEFINE A AS A.price < PREV(A.price),
            B AS B.price > PREV(B.price)
 ) AS v_shaped;
-```
+
 
 This finds "V-shaped" price patterns (consecutive decreases followed by consecutive increases).
 
@@ -1161,7 +1161,7 @@ This finds "V-shaped" price patterns (consecutive decreases followed by consecut
 SQL:2011 introduced **system-versioned temporal tables**, which automatically maintain historical
 data:
 
-```sql
+sql
 CREATE TABLE Employee (
     emp_id INT PRIMARY KEY,
     name VARCHAR(100),
@@ -1176,13 +1176,13 @@ SELECT * FROM Employee FOR SYSTEM_TIME AS OF '2025-01-01 00:00:00';
 
 -- Query all historical changes
 SELECT * FROM Employee FOR SYSTEM_TIME FROM '2025-01-01' TO '2025-12-31';
-```
+
 
 ### 17.4 JSON and XML Support
 
 **JSON functions (PostgreSQL):**
 
-```sql
+sql
 -- Create table with JSONB column
 CREATE TABLE events (
     id SERIAL PRIMARY KEY,
@@ -1199,7 +1199,7 @@ WHERE data->>'type' = 'click';
 
 -- Index on JSONB
 CREATE INDEX idx_events_type ON events USING gin ((data->>'type'));
-```
+
 
 **Theorem 17.1.** JSONB in PostgreSQL stores data in a decomposed binary format, enabling efficient
 indexing and querying. JSON (without the B) stores the exact text, which is faster to insert but
@@ -1209,7 +1209,7 @@ slower to query.
 
 ### 18.1 2PC Message Flow
 
-```
+
 Coordinator          Participant 1        Participant 2
     |                      |                    |
     |--- PREPARE --------->|                    |
@@ -1222,7 +1222,7 @@ Coordinator          Participant 1        Participant 2
     |--- COMMIT ----------------------------->|
     |<-- ACK -------------|                    |
     |<-- ACK ----------------------------------|
-```
+
 
 **Failure scenarios:**
 
@@ -1288,7 +1288,7 @@ bank accounts where the invariant "total balance >= 0" is violated.
 
 **Problem 10.** A database uses ARIES recovery. The log contains (at the time of crash):
 
-```
+
 [LSN 001] BEGIN T1
 [LSN 002] UPDATE T1 A: old=5, new=10
 [LSN 003] BEGIN T2
@@ -1296,7 +1296,7 @@ bank accounts where the invariant "total balance >= 0" is violated.
 [LSN 005] COMMIT T1
 [LSN 006] UPDATE T2 C: old=1, new=4
 [LSN 007] CHECKPOINT (dirty: A, B, C; active: T2)
-```
+
 
 Describe the analysis, redo, and undo phases.
 
@@ -1325,29 +1325,29 @@ FDs: $AB \to C$, $C \to D$, $D \to E$, $E \to A$.
 
 **Closure computation:**
 
-$AB^+ = \{A, B\}$ $ABC^+ = \{A, B, C, D, E\}$ (via $C \to D$, $D \to E$, $E \to A$)
+$AB^+ = {A, B}$ $ABC^+ = {A, B, C, D, E}$ (via $C \to D$, $D \to E$, $E \to A$)
 
 So $AB$ is a candidate key. Similarly:
 
-$BC^+ = \{B, C, D, E, A\}$ (via $C \to D$, $D \to E$, $E \to A$). So $BC$ is a candidate key.
+$BC^+ = {B, C, D, E, A}$ (via $C \to D$, $D \to E$, $E \to A$). So $BC$ is a candidate key.
 
-$CD^+ = \{C, D, E, A\}$ (no $B$ So not a candidate key).
+$CD^+ = {C, D, E, A}$ (no $B$ So not a candidate key).
 
-$DE^+ = \{D, E, A\}$ (no $B$ Not a key).
+$DE^+ = {D, E, A}$ (no $B$ Not a key).
 
-$CE^+ = \{C, E, A, D\}$ (no $B$ Not a key).
+$CE^+ = {C, E, A, D}$ (no $B$ Not a key).
 
-$BD^+ = \{B, D, E, A\}$ (no $C$ Not a key).
+$BD^+ = {B, D, E, A}$ (no $C$ Not a key).
 
-$BE^+ = \{B, E, A\}$ (no $C$ Not a key).
+$BE^+ = {B, E, A}$ (no $C$ Not a key).
 
-$AE^+ = \{A, E\}$ (not a key).
+$AE^+ = {A, E}$ (not a key).
 
-$AC^+ = \{A, C, D, E\}$ (no $B$ Not a key).
+$AC^+ = {A, C, D, E}$ (no $B$ Not a key).
 
-$AD^+ = \{A, D, E\}$ (no $B$ Not a key).
+$AD^+ = {A, D, E}$ (no $B$ Not a key).
 
-Candidate keys: $\{AB, BC\}$.
+Candidate keys: ${AB, BC}$.
 
 **BCNF decomposition:**
 
@@ -1356,36 +1356,36 @@ $C \to D$ violates BCNF (LHS $C$ is not a superkey). Decompose $R$ into:
 - $R_1(C, D)$ with $C \to D$ (BCNF, key = $C$)
 - $R_2(A, B, C, E)$ with $AB \to CE$, $E \to A$, $CE \to AB$... Wait, let me recompute.
 
-Actually, $R_2$ has attributes $\{A, B, C, E\}$ and the restricted FDs are $AB \to C$, $E \to A$.
+Actually, $R_2$ has attributes ${A, B, C, E}$ and the restricted FDs are $AB \to C$, $E \to A$.
 
 $E \to A$ violates BCNF (LHS $E$ is not a superkey of $R_2$). Superkeys of $R_2$ include $AB$, $BC$
 (since $BC \to D$ is lost but $BC$ in $R_2$: $BC \to C$ Not useful). Actually, $BC$ is not a key in
 $R_2$ because we lost $D$.
 
 Keys of $R_2$: $AB$ is a key ($AB \to C$ And with $C$ we need... $ABC \to ?$ in $R_2$: $C$ doesn't
-give us $E$ in $R_2$. So $AB$ gives $\{A, B, C\}$ Not $\{A, B, C, E\}$. So $AB$ is NOT a key in
+give us $E$ in $R_2$. So $AB$ gives ${A, B, C}$ Not ${A, B, C, E}$. So $AB$ is NOT a key in
 $R_2$!
 
 Hmm, let me recompute. In the original relation, $AB$ is a key. But after removing $D$ The remaining
 FDs are $AB \to C$ and $E \to A$.
 
-$AB^+ = \{A, B, C\}$ in $R_2$. Not a superkey (missing $E$).
+$AB^+ = {A, B, C}$ in $R_2$. Not a superkey (missing $E$).
 
-$BE^+ = \{B, E, A, C\} = \{A, B, C, E\}$ (via $E \to A$, $AB \to C$). So $BE$ is a key!
+$BE^+ = {B, E, A, C} = {A, B, C, E}$ (via $E \to A$, $AB \to C$). So $BE$ is a key!
 
-$CE^+ = \{C, E, A, B\} = \{A, B, C, E\}$ (via $E \to A$, $AB \to C$). So $CE$ is a key!
+$CE^+ = {C, E, A, B} = {A, B, C, E}$ (via $E \to A$, $AB \to C$). So $CE$ is a key!
 
-$BC^+ = \{B, C\}$ (no applicable FD). Not a key.
+$BC^+ = {B, C}$ (no applicable FD). Not a key.
 
-$AE^+ = \{A, E\}$. Not a key.
+$AE^+ = {A, E}$. Not a key.
 
-Keys of $R_2$: $\{BE, CE\}$.
+Keys of $R_2$: ${BE, CE}$.
 
 $E \to A$ violates BCNF. Decompose $R_2$ into:
 
 - $R_{2a}(E, A)$ with $E \to A$ (BCNF, key = $E$)
 - $R_{2b}(B, C, E)$ with restricted FDs: $BE \to C$, $CE \to B$... Wait, $BE \to C$ comes from
-  $AB \to C$ restricted to $\{B, C, E\}$: we lose the dependency since $A$ is not in $R_{2b}$.
+  $AB \to C$ restricted to ${B, C, E}$: we lose the dependency since $A$ is not in $R_{2b}$.
 
 Actually, $AB \to C$ restricted to $R_{2b}(B, C, E)$: the LHS is $AB$ but $A \notin R_{2b}$ So this
 FD is lost. The only remaining FDs in $R_{2b}$ are trivial. So $R_{2b}$ is in BCNF with key $BE$ (or
@@ -1459,11 +1459,11 @@ $\blacksquare$
 students with their department names.
 
 **Solution.**
-`SELECT s.Name, d.DeptName FROM Students s INNER JOIN Departments d ON s.DeptID = d.DeptID;`
+SELECT s.Name, d.DeptName FROM Students s INNER JOIN Departments d ON s.DeptID = d.DeptID;
 
 $\blacksquare$
 
-```mermaid
+mermaid
 flowchart TD
     A[Advanced Databases] --> B[Distributed Systems]
     A --> C[Query Optimisation]
@@ -1482,7 +1482,7 @@ flowchart TD
     E --> P[Data Vault]
     E --> Q[Slowly Changing Dimensions]
     F --> R[CP vs AP Systems]
-```
+
 
 ## Summary
 

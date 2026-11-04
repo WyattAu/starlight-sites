@@ -50,7 +50,7 @@ tangent to the curve).
 For the reaction $a\mathrm{A} + b\mathrm{B} \to c\mathrm{C} + d\mathrm{D}$:
 
 $$
-\mathrm{Rate} = -\frac{1}{a}\frac{d[\mathrm{A}]}`\{dt}` = -\frac{1}{b}\frac{d[\mathrm{B}]}`\{dt}` = \frac{1}{c}\frac{d[\mathrm{C}]}`\{dt}` = \frac{1}{d}\frac{d[\mathrm{D}]}`\{dt}`
+\mathrm{Rate} = -\frac{1}{a}\frac{d[\mathrm{A}]}{dt} = -\frac{1}{b}\frac{d[\mathrm{B}]}{dt} = \frac{1}{c}\frac{d[\mathrm{C}]}{dt} = \frac{1}{d}\frac{d[\mathrm{D}]}{dt}
 $$
 
 ### Experimental Determination
@@ -340,7 +340,7 @@ Where:
 ### Logarithmic Form
 
 $$
-\ln k = \ln A - \frac{E_a}`\{RT}`
+\ln k = \ln A - \frac{E_a}{RT}
 $$
 
 ### Graphical Determination of $E_a$
