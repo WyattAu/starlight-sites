@@ -21,11 +21,11 @@ tags: [glossary]
 
 **Direct Application**: Applying directly to a university through its own portal rather than a shared platform.
 
-**Early Decision (ED)**: A binding early application, if accepted, you must attend. Typically due November 1.
+**Early Decision (ED)**: A binding early application - if accepted, you must attend. The deadline is November 1 at most institutions (a few public flagship ED programmes run to November 15).
 
 **Early Action (EA)**: A non-binding early application, you receive a decision early without commitment.
 
-**Regular Decision (RD)**: The standard application deadline, typically January 1–15.
+**Regular Decision (RD)**: The standard application deadline. Most private institutions set January 1–15; public university RD deadlines run later, into February and March.
 
 **Rolling Admissions**: Universities review applications as they arrive until all places are filled.
 

@@ -50,7 +50,7 @@ Use the cross-references to link related concepts across subjects where applicab
 
 **During the diagnostic:**
 - Attempt every question, even if you are unsure, partial knowledge is still knowledge
-- Show your working clearly, this helps you (and your teacher) identify where errors occur
+- Show your working line by line, so you (and your teacher) can trace the step where an error entered
 - Do not spend too long on any single question, mark it and move on
 
 **After the diagnostic:**

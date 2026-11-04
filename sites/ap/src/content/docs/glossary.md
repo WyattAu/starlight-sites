@@ -39,7 +39,7 @@ tags: [glossary]
 
 **Translation**: The process of synthesizing a protein from the information encoded in mRNA at the ribosome.
 
-**Enzyme**: A biological catalyst, typically a protein, that speeds up chemical reactions without being consumed in the process.
+**Enzyme**: A biological catalyst that speeds up chemical reactions without being consumed in the process. Nearly all enzymes are proteins; a small class of catalytic RNAs (ribozymes) also qualifies.
 
 **Feedback Mechanism**: A regulatory process where the output of a system influences the system's operation, either positively or negatively.
 
@@ -151,7 +151,7 @@ tags: [glossary]
 
 **Argument**: A reasoned statement supported by evidence, structured with a claim, reasoning, and evidence in AP essays.
 
-**Thesis Statement**: The central claim or main argument of an essay, typically stated in the introduction.
+**Thesis Statement**: The central claim or main argument of an essay. In short essays it closes the introduction; in longer essays it may close a background paragraph placed before the introduction's final sentence.
 
 **Evidence**: Factual information, examples, or data used to support a claim in an argument.
 

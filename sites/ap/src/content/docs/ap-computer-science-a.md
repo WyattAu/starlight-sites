@@ -16,7 +16,7 @@ AP Computer Science A is a college-level course that introduces students to comp
 - **Sections**:
   - Section I: 40 multiple-choice questions (1 hour 30 minutes)
   - Section II: 4 free-response questions (1 hour 30 minutes)
-- **Score**: 1-5 (3+ typically earns college credit)
+- **Score**: 1-5 (credit policy is per-institution: most state universities grant credit for 3+; selective colleges commonly require 4-5 or award placement instead)
 
 ### Topics Covered
 

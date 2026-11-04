@@ -262,7 +262,7 @@ Which of the following elements has the highest electronegativity?
 
 **Correct: D** (index 3)
 
-Electronegativity generally increases across a period and decreases down a group. Chlorine has the highest electronegativity of the listed elements (3.0 on the Pauling scale). Argon, being a noble gas, does not typically form bonds.
+Electronegativity generally increases across a period and decreases down a group. Chlorine has the highest electronegativity of the listed elements (3.0 on the Pauling scale). Argon is a noble gas: its valence shell is complete, so under standard conditions it forms no chemical bonds at all - unlike Cl, S and P, which all form covalent bonds.
 
 `easy`1 mark
 
@@ -928,7 +928,7 @@ Which sampling method is most likely to produce a biased sample of students at a
 
 **Correct: C** (index 2)
 
-A convenience sample uses the most easily accessible individuals, which introduces selection bias. For example, surveying only students in the library excludes those who study elsewhere. Random sampling methods (A, B, D, E) reduce bias.
+A convenience sample uses whichever individuals are nearest to hand, which introduces selection bias. For example, surveying only students in the library excludes those who study elsewhere. Random sampling methods (A, B, D, E) reduce bias.
 
 `easy`1 mark
 
@@ -1048,7 +1048,7 @@ In hypothesis testing, a Type II error occurs when:
 
 **Correct: B** (index 1)
 
-A Type I error is rejecting a true null hypothesis (false positive). A Type II error is failing to reject a false null hypothesis (false negative). Reducing one type of error typically increases the other, holding sample size constant.
+A Type I error is rejecting a true null hypothesis (false positive). A Type II error is failing to reject a false null hypothesis (false negative). For a fixed sample size, reducing one type of error strictly increases the other; only more data (or a better test statistic) reduces both at once.
 
 `medium`1 mark
 

@@ -80,7 +80,7 @@ Key platforms:
 
 ### UK Admissions (UCAS)
 
-UK admissions is more specialised and academically focused. You apply through UCAS (Universities and Colleges Admissions Service) and typically choose five universities. Your application centres on your predicted grades, personal statement, and academic reference. For Oxford, Cambridge, and competitive courses, you will also sit admissions tests and attend interviews.
+UK admissions is more specialised and academically focused. You apply through UCAS (Universities and Colleges Admissions Service) and may list up to five universities (Oxford and Cambridge accept only one of the two, and exclude each other). Your application centres on your predicted grades, personal statement, and academic reference. For Oxford, Cambridge, and competitive courses, you will also sit admissions tests and attend interviews.
 
 ### International Systems
 
@@ -137,9 +137,9 @@ Most selective universities require additional essays. Common types include:
 | ------- | -------- |
 | Summer before senior year | Draft personal essay, build activities list, research universities |
 | September–October | Finalise personal essay, complete supplements, request recommendation letters |
-| November | Early Decision/Early Action deadlines (typically November 1–15) |
+| November | Early Decision/Early Action deadlines - November 1 for most private institutions, November 15 for several public flagships |
 | December | Early decisions released; continue Regular Decision essays |
-| January | Regular Decision deadlines (typically January 1–15) |
+| January | Regular Decision deadlines - January 1 for most private institutions, January 15 as the common public-university date |
 | March–April | Decisions released |
 | May 1 | National Decision Day, confirm your enrolment |
 
@@ -225,7 +225,7 @@ A strong personal statement follows a clear arc:
 
 - **Clichés**, "I've always been passionate about..." or "The moment that changed my life was..."
 - **Resume repetition**, the essay should add dimension, not repeat your activities list
-- **Thesaurus abuse**, write naturally; sophisticated vocabulary should emerge from ideas, not word choice
+- **Thesaurus abuse**: write in your own register - sophisticated vocabulary should emerge from the ideas, not from word substitution
 - **Lack of self-reflection**, describing what happened is not enough; explain what it means to you
 - **Generic statements**, "I want to make a difference" without explaining how or why
 
@@ -329,7 +329,7 @@ Letters of recommendation provide external validation of your character, abiliti
 
 ### For UK Applications
 
-UCAS requires one academic reference, typically from your school. The reference is structured and focuses on your academic performance, predicted grades, and suitability for your chosen course.
+UCAS requires one academic reference, written by your school (almost always a subject teacher). The reference is structured and focuses on your academic performance, predicted grades, and suitability for your chosen course.
 
 ---
 
@@ -375,7 +375,7 @@ If you are waitlisted, you can:
 
 1. Notify the university of your continued interest
 2. Submit any new achievements or grades
-3. Be patient, waitlist movement typically happens in April and May
+3. Be patient - waitlist movement concentrates after May 1 (the national commitment deadline), when accepted students' deposits reveal open seats
 4. Have a backup plan, commit to a university by May 1 and remain on the waitlist
 
 ---

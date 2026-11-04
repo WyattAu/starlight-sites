@@ -125,7 +125,7 @@ AP Computer Science A is a college-level course that introduces students to comp
 - **Sections**:
   - Section I: 40 multiple-choice questions (1 hour 30 minutes)
   - Section II: 4 free-response questions (1 hour 30 minutes)
-- **Score**: 1-5 (3+ typically earns college credit)
+- **Score**: 1-5 (credit policy is per-institution: most state universities grant credit for 3+; selective colleges commonly require 4-5 or award placement instead)
 
 ### Topics Covered
 
@@ -638,7 +638,7 @@ AP Computer Science Principles introduces students to the foundational concepts 
 - **Sections**:
   - Section I: 74 multiple-choice questions (1 hour 30 minutes)
   - Section II: Performance task (submitted separately)
-- **Score**: 1-5 (3+ typically earns college credit)
+- **Score**: 1-5 (credit policy is per-institution: most state universities grant credit for 3+; selective colleges commonly require 4-5 or award placement instead)
 
 ### Big Ideas
 
@@ -2174,7 +2174,7 @@ URL: https://ap.wyattau.com/glossary/
 
 **Translation**: The process of synthesizing a protein from the information encoded in mRNA at the ribosome.
 
-**Enzyme**: A biological catalyst, typically a protein, that speeds up chemical reactions without being consumed in the process.
+**Enzyme**: A biological catalyst that speeds up chemical reactions without being consumed in the process. Nearly all enzymes are proteins; a small class of catalytic RNAs (ribozymes) also qualifies.
 
 **Feedback Mechanism**: A regulatory process where the output of a system influences the system's operation, either positively or negatively.
 
@@ -2286,7 +2286,7 @@ URL: https://ap.wyattau.com/glossary/
 
 **Argument**: A reasoned statement supported by evidence, structured with a claim, reasoning, and evidence in AP essays.
 
-**Thesis Statement**: The central claim or main argument of an essay, typically stated in the introduction.
+**Thesis Statement**: The central claim or main argument of an essay. In short essays it closes the introduction; in longer essays it may close a background paragraph placed before the introduction's final sentence.
 
 **Evidence**: Factual information, examples, or data used to support a claim in an argument.
 
@@ -2501,13 +2501,13 @@ Success on AP exams requires more than content knowledge. Here are proven strate
 1. **Read every question carefully.** Many mistakes come from misreading what the question is asking. Underline key terms and identify the specific skill being tested.
 2. **Manage your time.** Allocate time proportionally to the number of points each question is worth. If you get stuck, move on and return later.
 3. **Show your work.** On free-response questions, partial credit is awarded for correct reasoning even if the final answer is wrong. Write down every step.
-4. **Use process of elimination.** On multiple-choice questions, eliminate obviously wrong answers before guessing. This increases your probability of selecting the correct option.
+4. **Use process of elimination.** On multiple-choice questions, strike the answers you can rule out directly - any option contradicting the passage, or falling outside the plausible numeric range, is wrong no matter how the remaining options compare. This raises your probability of selecting the correct option.
 5. **Answer every question.** There is no penalty for wrong answers on AP exams. Never leave a question blank.
 
 ### After the Exam
 
 1. **Review your performance.** If you have access to your score report, identify weak areas and use them to guide future study.
-2. **Consider score reports for universities.** Send your AP scores to universities that grant credit. A score of 4 or 5 typically earns credit, though policies vary.
+2. **Consider score reports for universities.** Send your AP scores to universities that grant credit. Most state universities award credit for a 4 or 5; selective and out-of-state institutions frequently require a 5 or award placement only - check each institution's published AP policy before sending.
 3. **Build on your AP foundation.** AP courses prepare you for university-level work. Continue building on the skills and knowledge you have developed.
 
 ## Cross-Curricular Connections
@@ -3967,7 +3967,7 @@ Which of the following elements has the highest electronegativity?
 
 **Correct: D** (index 3)
 
-Electronegativity generally increases across a period and decreases down a group. Chlorine has the highest electronegativity of the listed elements (3.0 on the Pauling scale). Argon, being a noble gas, does not typically form bonds.
+Electronegativity generally increases across a period and decreases down a group. Chlorine has the highest electronegativity of the listed elements (3.0 on the Pauling scale). Argon is a noble gas: its valence shell is complete, so under standard conditions it forms no chemical bonds at all - unlike Cl, S and P, which all form covalent bonds.
 
 `easy`1 mark
 
@@ -4633,7 +4633,7 @@ Which sampling method is most likely to produce a biased sample of students at a
 
 **Correct: C** (index 2)
 
-A convenience sample uses the most easily accessible individuals, which introduces selection bias. For example, surveying only students in the library excludes those who study elsewhere. Random sampling methods (A, B, D, E) reduce bias.
+A convenience sample uses whichever individuals are nearest to hand, which introduces selection bias. For example, surveying only students in the library excludes those who study elsewhere. Random sampling methods (A, B, D, E) reduce bias.
 
 `easy`1 mark
 
@@ -4753,7 +4753,7 @@ In hypothesis testing, a Type II error occurs when:
 
 **Correct: B** (index 1)
 
-A Type I error is rejecting a true null hypothesis (false positive). A Type II error is failing to reject a false null hypothesis (false negative). Reducing one type of error typically increases the other, holding sample size constant.
+A Type I error is rejecting a true null hypothesis (false positive). A Type II error is failing to reject a false null hypothesis (false negative). For a fixed sample size, reducing one type of error strictly increases the other; only more data (or a better test statistic) reduces both at once.
 
 `medium`1 mark
 
@@ -9167,13 +9167,9 @@ generation.
 
 For a gene with two alleles ($A$ and $a$):
 
-$$
 P + q = 1
-$$
 
-$$
 P^2 + 2pq + q^2 = 1
-$$
 
 Where:
 
@@ -9197,21 +9193,13 @@ If any condition is violated, the population evolves (allele frequencies change)
 In a population of 1000 individuals, 160 have the recessive phenotype (aa). Find the frequencies of
 all genotypes and alleles.
 
-$$
 Q^2 = \frac{160}{1000} = 0.16 \implies q = 0.4
-$$
 
-$$
 P = 1 - 0.4 = 0.6
-$$
 
-$$
 P^2 = (0.6)^2 = 0.36 \implies 360 \mathrm{ individuals (AA)}
-$$
 
-$$
 2pq = 2(0.6)(0.4) = 0.48 \implies 480 \mathrm{ individuals (Aa)}
-$$
 
 Check: $360 + 480 + 160 = 1000$.
 :::
@@ -9786,9 +9774,7 @@ estimating divergence times that complements the fossil record.
 If gene X in species A and species B differs by 60 nucleotide substitutions, and the estimated
 Mutation rate for gene X is 2 substitutions per million years, then:
 
-$$
 \mathrm{Time since divergence} = \frac{60}{2 \times 2} = 15 \mathrm{ million years}
-$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
 divergence.
@@ -9902,12 +9888,9 @@ Initial genotype frequencies: $p^2 = 0.25$$2pq = 0.50$$q^2 = 0.25$.
 Mean fitness: $\bar{w} = (0.25)(0.7) + (0.50)(0.7) + (0.25)(1.0) = 0.175 + 0.35 + 0.25 = 0.775$.
 
 New frequency of B:
-$$
 p' = \frac{p^2 \cdot w_{BB} + pq \cdot w_{Bb}}{\bar{w}} = \frac{0.25(0.7) + 0.25(0.7)}{0.775} = \frac{0.175 + 0.175}{0.775} = \frac{0.35}{0.775} \approx 0.452
-$$
 
 New frequency of b: $$q' = 1 - p' = 1 - 0.452 = 0.548
-$$
 
 After one generation, the recessive allele $b$ (green, favoured) has increased from 0.5 to 0.548,
 and the dominant allele $B$ (brown, selected against) has decreased from 0.5 to 0.452. This
@@ -9928,7 +9911,6 @@ million years. Estimate the time since these two species diverged from their com
 <summary>Answer</summary>
 
 First, calculate the substitution rate per base pair per million years:
-$$
 \mathrm{Rate} = \frac{1 \mathrm{ substitution}{100 \mathrm{ base pairs \times 1 \mathrm{ million years}}}} = 0.01 \mathrm{ substitutions/bp/Myr}
 $$
 
@@ -9938,9 +9920,7 @@ $$
 $$
 
 Time since divergence (accounting for both lineages):
-$$
 \mathrm{Time} = \frac{0.0267}{2 \times 0.01} = \frac{0.0267}{0.02} = 1.33 \mathrm{ million years}
-$$
 
 The factor of 2 accounts for the fact that substitutions have accumulated along both lineages since
 divergence. The two species diverged approximately 1.33 million years ago.
@@ -10025,9 +10005,7 @@ and evaluate experimental evidence critically.
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-$$
 
-$$
 :::
 
 ## Intuition
@@ -28362,7 +28340,7 @@ Use the cross-references to link related concepts across subjects where applicab
 
 **During the diagnostic:**
 - Attempt every question, even if you are unsure, partial knowledge is still knowledge
-- Show your working clearly, this helps you (and your teacher) identify where errors occur
+- Show your working line by line, so you (and your teacher) can trace the step where an error entered
 - Do not spend too long on any single question, mark it and move on
 
 **After the diagnostic:**
@@ -38468,7 +38446,7 @@ Mass.
 
 Work, energy, and power provide a **scalar alternative to vector-based force analysis**. Instead of tracking forces and accelerations, you track energy, a single number that captures the state of the system. The work-energy theorem is the bridge: net work done on an object equals its change in kinetic energy.
 
-**Conservation of energy intuition:** Energy cannot be created or destroyed, only transformed. In an isolated system, the total energy is constant. This is more powerful than Newton's laws in many situations because it's a scalar equation (no components to track) and works even when forces are variable or unknown.
+**Conservation of energy intuition:** Energy cannot be created or destroyed, only transformed. In an isolated system, the total energy is constant. This is more powerful than Newton's second law whenever forces change direction or magnitude during the motion: energy is a scalar (no components to track), and the work-energy theorem integrates the varying force for you - no component-wise integration required.ble or unknown.
 
 **Power intuition:** Power is the _rate_ of energy transfer, how fast you do work. Two cars can deliver the same work (same KE change), but the sports car does it in less time (higher power). On the AP exam, problems often ask "how long does it take?" which is a power question, not an energy question.
 
@@ -39677,29 +39655,20 @@ URL: https://ap.wyattau.com/statistics/3-probability/3_probability/
 
 For any two events $A$ and $B$:
 
-$$
 P(A \cup B) = P(A) + P(B) - P(A \cap B)
-$$
 
 If $A$ and $B$ are **mutually exclusive** (disjoint, cannot both occur):
-$$
 P(A \cup B) = P(A) + P(B)
-$$
 
 ### Multiplication Rule
 
-$$
 P(A \cap B) = P(A) \cdot P(B | A)
-$$
 
 If $A$ and $B$ are **independent**: $$P(A \cap B) = P(A) \cdot P(B)
-$$
 
 ### Conditional Probability
 
-$$
 P(B | A) = \frac{P(A \cap B)}{P(A)}
-$$
 
 The probability of $B$ **given** that $A$ has occurred. Note that $P(A)$ must be greater than 0.
 
@@ -39708,9 +39677,7 @@ The probability of $B$ **given** that $A$ has occurred. Note that $P(A)$ must be
 Events $A$ and $B$ are **independent** if the occurrence of one does not affect the probability of
 the other:
 
-$$
 P(B | A) = P(B) \quad \text{and} \quad P(A | B) = P(A)
-$$
 
 Equivalently: $P(A \cap B) = P(A) \cdot P(B)$
 
@@ -39741,9 +39708,7 @@ Alternatively, check whether $P(B | A) = P(B)$.
 
 ## Bayes" Theorem
 
-$$
 P(A | B) = \frac{P(B | A) \cdot P(A)}{P(B | A) \cdot P(A) + P(B | A^c) \cdot P(A^c)}
-$$
 
 Used to find the probability of a "cause" given an observed "effect." Useful for medical testing
 problems.
@@ -39774,21 +39739,16 @@ Requirements:
 
 ### Mean (Expected Value)
 
-$$
 \mu_X = E(X) = \sum x_i \cdot p_i
-$$
 
 The mean of a random variable is the long-run average of its values over many repetitions.
 
 ### Variance and Standard Deviation
 
-$$
 \sigma_X^2 = \sum (x_i - \mu_X)^2 \cdot p_i = \sum x_i^2 \cdot p_i - \mu_X^2
 $$
 
-$$
 \sigma_X = \sqrt{\sigma_X^2}
-$$
 
 ### Rules for Means and Variances
 
@@ -39812,15 +39772,11 @@ A binomial setting has four conditions:
 
 ### Binomial Probability
 
-$$
 P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
-$$
 
 ### Mean and Standard Deviation
 
-$$
 \mu = np, \quad \sigma = \sqrt{np(1-p)}
-$$
 
 ## Geometric Distributions
 
@@ -39834,15 +39790,11 @@ The random variable $X$ counts the **number of trials until the first success**.
 
 ### Geometric Probability
 
-$$
 P(X = k) = (1-p)^{k-1} \cdot p
-$$
 
 ### Mean
 
-$$
 \mu = \frac{1}{p}
-$$
 
 ## Normal Distributions and the Central Limit Theorem
 
@@ -39851,9 +39803,7 @@ $$
 For a sufficiently large sample size $n$ ($n \geq 30$ is the standard threshold), the sampling distribution of
 $\bar{x}$ is approximately normal, regardless of the shape of the population distribution.
 
-$$
 \mu_{\bar{x}} = \mu, \quad \sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}
-$$
 
 The CLT allows us to use normal probability calculations for sample means even when the population
 is not normally distributed.
@@ -39862,9 +39812,7 @@ is not normally distributed.
 
 For a sample proportion $\hat{p}$ with population proportion $p$ and sample size $n$:
 
-$$
 \mu_{\hat{p}} = p, \quad \sigma_{\hat{p}} = \sqrt{\frac{p(1-p)}{n}}
-$$
 
 Approximately normal when $np \geq 10$ and $n(1-p) \geq 10$.
 

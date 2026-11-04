@@ -16,7 +16,7 @@ AP Computer Science Principles introduces students to the foundational concepts 
 - **Sections**:
   - Section I: 74 multiple-choice questions (1 hour 30 minutes)
   - Section II: Performance task (submitted separately)
-- **Score**: 1-5 (3+ typically earns college credit)
+- **Score**: 1-5 (credit policy is per-institution: most state universities grant credit for 3+; selective colleges commonly require 4-5 or award placement instead)
 
 ### Big Ideas
 
