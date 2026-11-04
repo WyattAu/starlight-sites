@@ -105,6 +105,12 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 
 - [Ricci Flow And Geometrisation](https://mathematics.wyattau.com/16-graduate-geometry/1_ricci-flow-and-geometrisation/)
 
+## Core-Course
+
+- [1a Categories](https://mathematics.wyattau.com/17-core-course/1a-categories/)
+- [1b Linear Algebra](https://mathematics.wyattau.com/17-core-course/1b-linear-algebra/)
+- [Hub](https://mathematics.wyattau.com/17-core-course/hub/)
+
 ## Linear-Algebra
 
 - [Eigenvalues And Eigenvectors](https://mathematics.wyattau.com/2-linear-algebra/5_eigenvalues-and-eigenvectors/)

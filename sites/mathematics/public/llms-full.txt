@@ -16702,6 +16702,659 @@ Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/) and
 - [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/): the PDE theory the flow needs
 - [How to Use These Notes](/how-to-use/); the method
 
+## Core-Course
+
+---
+
+## 1a Categories
+URL: https://mathematics.wyattau.com/17-core-course/1a-categories/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "17 Core Course", "url": "https://mathematics.wyattau.com/17-core-course"}, {"name": "Level 1A: Categories", "url": "https://mathematics.wyattau.com/17-core-course/1a-categories"}]
+}
+</script>
+
+**The Defect.** Set-theoretic mathematics defines every object by its elements.
+A group is a set with operations; a topological space is a set with open subsets.
+This works for elementary mathematics but breaks down for objects whose essential
+structure is *relational* rather than *elemental* — a topological space is not
+its underlying set (many different topologies on the same set), and a group is
+not its underlying set (many different group structures). Category theory shifts
+the primitive from elements to **arrows**: what matters about an object is not
+what it contains but how it relates to other objects.
+
+**The One-Line Reveal.** Read the definition of a category below. Close the page.
+Try to verify the axioms in **Set** (objects = sets, morphisms = functions). The
+axioms hold because function composition is associative and identity functions
+exist — and that verification *is* the proof that Set is a category.
+
+## 1. Categories and Morphisms
+
+**Definition.** A **category** $\mathcal{C}$ consists of:
+
+- A collection of **objects** $A, B, C, \dots$
+- For each pair of objects $A, B$, a collection $\operatorname{Hom}_{\mathcal{C}}(A, B)$
+  of **morphisms** (arrows) from $A$ to $B$, written $f: A \to B$
+- For each triple $A, B, C$, a **composition** function
+  $\operatorname{Hom}(B, C) \times \operatorname{Hom}(A, B) \to \operatorname{Hom}(A, C)$,
+  written $(g, f) \mapsto g \circ f$
+
+satisfying:
+
+1. **Associativity**: $h \circ (g \circ f) = (h \circ g) \circ f$ whenever the
+   compositions are defined.
+2. **Identity**: for every object $A$, there exists $\operatorname{id}_A \in
+   \operatorname{Hom}(A, A)$ such that $\operatorname{id}_A \circ f = f$ and
+   $g \circ \operatorname{id}_A = g$ for all composable $f, g$.
+
+**Theorem 1.1.** Identity morphisms are unique.
+
+**Proof.** Let $\operatorname{id}_A$ and $\operatorname{id}'_A$ both be identity
+morphisms on $A$. Then $\operatorname{id}_A = \operatorname{id}_A \circ
+\operatorname{id}'_A$ (since $\operatorname{id}'_A$ is an identity) $=
+\operatorname{id}'_A$ (since $\operatorname{id}_A$ is an identity). $\blacksquare$
+
+**The One-Line Reveal.** The proof above is two applications of the identity
+axiom — once for each identity morphism. The pattern (use one axiom, then the
+other) recurs in every uniqueness proof in category theory.
+
+### Examples
+
+<div class="table-wrap">
+
+| Category | Objects | Morphisms | Composition |
+|---|---|---|---|
+| $\mathbf{Set}$ | sets | functions | function composition |
+| $\mathbf{Grp}$ | groups | group homomorphisms | function composition |
+| $\mathbf{Top}$ | topological spaces | continuous maps | function composition |
+| $\mathbf{Vect}_k$ | vector spaces over $k$ | linear maps | function composition |
+| $\mathbf{Mat}_k$ | natural numbers | $n \times m$ matrices | matrix multiplication |
+
+</div>
+
+The last example ($\mathbf{Mat}_k$) shows that objects need not be sets: the
+object $n$ is a natural number (a "dimension"), and the morphisms from $m$ to
+$n$ are $n \times m$ matrices. Composition is matrix multiplication, which is
+associative, and the identity matrix is the identity morphism. This category is
+**equivalent** to $\mathbf{Vect}_k^{\mathrm{fd}}$ (finite-dimensional vector
+spaces) — an equivalence that captures the fact that every finite-dimensional
+vector space is isomorphic to $k^n$.
+
+### 2. Monomorphisms, Epimorphisms, and Isomorphisms
+
+**Definition.** A morphism $f: A \to B$ is a **monomorphism** (mono) if for all
+$g_1, g_2: C \to A$, $f \circ g_1 = f \circ g_2$ implies $g_1 = g_2$.
+
+**Definition.** A morphism $f: A \to B$ is an **epimorphism** (epi) if for all
+$h_1, h_2: B \to C$, $h_1 \circ f = h_2 \circ f$ implies $h_1 = h_2$.
+
+**Definition.** A morphism $f: A \to B$ is an **isomorphism** if there exists
+$g: B \to A$ with $g \circ f = \operatorname{id}_A$ and $f \circ g =
+\operatorname{id}_B$. We write $f: A \cong B$.
+
+**Theorem 2.1.** Every isomorphism is both a monomorphism and an epimorphism.
+
+**Proof.** Let $f: A \to B$ be an isomorphism with inverse $g: B \to A$. To show
+$f$ is mono: suppose $f \circ g_1 = f \circ g_2$ for $g_1, g_2: C \to A$. Compose
+both sides with $g$ on the left:
+
+$$
+g \circ f \circ g_1 = g \circ f \circ g_2
+\implies (g \circ f) \circ g_1 = (g \circ f) \circ g_2
+\implies \operatorname{id}_A \circ g_1 = \operatorname{id}_A \circ g_2
+\implies g_1 = g_2.
+$$
+
+The proof for epi is dual (compose on the other side). $\blacksquare$
+
+**The One-Line Reveal.** The proof's pivot is composing with the inverse $g$ —
+canceling $f$ using its inverse. The same cancellation works for any
+isomorphism in any category.
+
+**Caution.** The converse fails: a morphism that is both mono and epi need not
+be an isomorphism. In $\mathbf{Top}$, the inclusion $[0, 1) \hookrightarrow
+[0, 1]$ is both mono and epi (because continuous maps into Hausdorff spaces are
+determined by dense subsets) but is not a homeomorphism.
+
+### 3. Universal Properties
+
+**Definition.** An object $T$ in $\mathcal{C}$ is **terminal** if for every object
+$A$, there exists a unique morphism $A \to T$. An object $I$ is **initial** if for
+every object $A$, there exists a unique morphism $I \to A$.
+
+**Theorem 3.1.** Terminal objects are unique up to unique isomorphism.
+
+**Proof.** Let $T$ and $T'$ be terminal. Since $T'$ is terminal, there exists
+$f: T \to T'$. Since $T$ is terminal, there exists $g: T' \to T$. Now $f \circ g:
+T' \to T'$ is a morphism from $T'$ to itself. Since $T'$ is terminal, there is
+exactly one morphism $T' \to T'$ — namely $\operatorname{id}_{T'}$. So
+$f \circ g = \operatorname{id}_{T'}$. Symmetrically, $g \circ f =
+\operatorname{id}_T$. So $f: T \cong T'$, and $g = f^{-1}$ is the unique such
+isomorphism (any other $g'$ with $f \circ g' = \operatorname{id}_{T'}$ would
+satisfy $g' = g$ by the same uniqueness argument). $\blacksquare$
+
+**The One-Line Reveal.** The proof uses the *definition* of terminal twice: once
+to get $f$, once to get $g$, then the uniqueness of morphisms from a terminal
+object forces the compositions to be identities.
+
+**Examples of universal properties as terminal/initial objects:**
+
+- The **product** $A \times B$ is characterized by a universal property: for every
+  $C$ with maps $f: C \to A$ and $g: C \to B$, there exists a unique $h: C \to
+  A \times B$ making the diagram commute. This is not "terminal in
+  $\mathcal{C}$" but "terminal in a comma category" — the pattern generalises.
+- The **kernel** of a group homomorphism $\varphi: G \to H$ is characterized by
+  a universal property in the category of groups over $H$.
+- The **disjoint union** $A \sqcup B$ is characterized as the initial object in
+  the category of diagrams $A \to C \leftarrow B$.
+
+Every universal property says: *this object is the unique (up to unique
+isomorphism) solution to a certain optimisation problem.* The problem is always
+"be the target of exactly one arrow from every object in a certain configuration."
+
+### 4. Functors
+
+**Definition.** A **functor** $F: \mathcal{C} \to \mathcal{D}$ between categories
+consists of:
+
+- A map on objects: $A \mapsto F(A)$
+- A map on morphisms: $f: A \to B \mapsto F(f): F(A) \to F(B)$
+
+satisfying:
+
+1. $F(\operatorname{id}_A) = \operatorname{id}_{F(A)}$
+2. $F(g \circ f) = F(g) \circ F(f)$ (composition preserved)
+
+**Theorem 4.1.** Functors preserve isomorphisms: if $f: A \cong B$ then
+$F(f): F(A) \cong F(B)$.
+
+**Proof.** Let $g: B \to A$ be the inverse of $f$. Then $F(g) \circ F(f) =
+F(g \circ f) = F(\operatorname{id}_A) = \operatorname{id}_{F(A)}$, and
+symmetrically $F(f) \circ F(g) = \operatorname{id}_{F(B)}$. So $F(f)$ is an
+isomorphism with inverse $F(g)$. $\blacksquare$
+
+**The One-Line Reveal.** The proof is "apply the functor to both sides of
+$g \circ f = \operatorname{id}$" — the functorial axioms do the rest.
+
+**Examples:**
+
+- The **forgetful functor** $U: \mathbf{Grp} \to \mathbf{Set}$ sends each group
+  to its underlying set and each homomorphism to its underlying function. It
+  "forgets" the group structure.
+- The **free functor** $F: \mathbf{Set} \to \mathbf{Grp}$ sends each set $S$ to
+  the free group on $S$. This is left adjoint to $U$ (see below).
+- The **fundamental group** $\pi_1: \mathbf{Top}_* \to \mathbf{Grp}$ sends each
+  pointed space to its fundamental group. This is a functor: continuous maps
+  induce group homomorphisms, and composition of maps induces composition of
+  homomorphisms.
+
+### 5. Natural Transformations and Adjunctions
+
+**Definition.** Given functors $F, G: \mathcal{C} \to \mathcal{D}$, a **natural
+transformation** $\eta: F \Rightarrow G$ assigns to each object $A$ a morphism
+$\eta_A: F(A) \to G(A)$ such that for every morphism $f: A \to B$, the square
+
+$$
+\begin{CD}
+F(A) @>{\eta_A}>> G(A) \\
+@V{F(f)}VV @VV{G(f)}V \\
+F(B) @>>{\eta_B}> G(B)
+\end{CD}
+$$
+
+commutes: $G(f) \circ \eta_A = \eta_B \circ F(f)$.
+
+**Definition.** An **adjunction** between functors $F: \mathcal{C} \to
+\mathcal{D}$ and $G: \mathcal{D} \to \mathcal{C}$ is a natural isomorphism
+
+$$
+\operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong \operatorname{Hom}_{\mathcal{C}}(A, G(B))
+$$
+
+for all objects $A$ of $\mathcal{C}$ and $B$ of $\mathcal{D}$. We write $F
+\dashv G$ ($F$ is left adjoint, $G$ is right adjoint).
+
+**Example: Free ⊣ Forgetful.** The free group functor $F: \mathbf{Set} \to
+\mathbf{Grp}$ is left adjoint to the forgetful functor $U: \mathbf{Grp} \to
+\mathbf{Set}$:
+
+$$
+\operatorname{Hom}_{\mathbf{Grp}}(F(S), G) \cong \operatorname{Hom}_{\mathbf{Set}}(S, U(G)).
+$$
+
+This says: a group homomorphism from the free group on $S$ to $G$ is exactly a
+function from $S$ to $G$ — the images of the generators freely determine the
+homomorphism. This bijection is natural in both $S$ and $G$.
+
+**Why adjunctions matter.** An adjunction captures the concept of "the most
+efficient solution to a universal problem." The free group is the *most
+efficient* way to turn a set into a group — no extra relations, no wasted
+structure. Adjunctions formalise this efficiency, and they appear throughout
+mathematics: the tensor-hom adjunction in algebra, the product-hom adjunction
+in topology, the base-change adjunction in geometry.
+
+### 6. Self-test
+
+1. Verify that $\mathbf{Mat}_k$ satisfies the category axioms. Which axiom of
+   matrix algebra guarantees associativity? (§1 — associativity of matrix
+   multiplication.)
+2. Prove that the empty set $\emptyset$ is an initial object in $\mathbf{Set}$.
+   (§3 — for every set $A$, there exists a unique function $\emptyset \to A$
+   because there are no elements to map.)
+3. Prove that if $f: A \to B$ is both mono and split epi (there exists $g: B
+   \to A$ with $f \circ g = \operatorname{id}_B$), then $f$ is an isomorphism.
+   (§2 — $g \circ f \circ g = f \circ \operatorname{id}_B \circ g = g$, cancel
+   the mono $g$ on the left.)
+4. Show that the forgetful functor $U: \mathbf{Grp} \to \mathbf{Set}$ is
+   faithful but not full. (§4 — faithful: distinct homomorphisms are distinct
+   functions ✓; not full: not every function between underlying sets is a
+   homomorphism.)
+5. Prove that adjoints are unique up to natural isomorphism. (§5 — if $F
+   \dashv G$ and $F' \dashv G$, then $\operatorname{Hom}(F(A), B) \cong
+   \operatorname{Hom}(F'(A), B)$ naturally in $A$ and $B$, which by Yoneda
+   gives $F \cong F'$.)
+
+### The One-Line Reveal (for this page)
+
+The entire page follows from one shift: *stop asking what objects contain and
+start asking how they relate.* Every definition (mono, epi, terminal, functor,
+adjunction) is stated in terms of arrows and commutative diagrams — never in
+terms of elements. This is why category theory applies to objects that have no
+elements (the category $\mathbf{Mat}_k$), and why it unifies seemingly unrelated
+areas (the same universal property describes products in $\mathbf{Set}$,
+free groups in $\mathbf{Grp}$, and pullbacks in $\mathbf{Top}$).
+
+### Where to go next
+
+- [Linear Algebra Done Wrong](/17-core-course/1b-linear-algebra/) — the next
+  page: coordinate-free linear algebra with determinants as alternating forms.
+- [Conceptual Mathematics](https://archive.org/details/conceptualmathema0000lawv) —
+  Lawvere & Schanuel's book, which develops this material at a gentler pace.
+- [Algebra: Chapter 0](https://papervine.wordpress.com/wp-content/uploads/2010/06/aluffi-algebra-chapter-0.pdf) —
+  Aluffi's book, which treats all of algebra through the categorical lens you
+  have just learned.
+
+---
+
+## 1b Linear Algebra
+URL: https://mathematics.wyattau.com/17-core-course/1b-linear-algebra/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "17 Core Course", "url": "https://mathematics.wyattau.com/17-core-course"}, {"name": "Level 1B: Linear Algebra Done Wrong", "url": "https://mathematics.wyattau.com/17-core-course/1b-linear-algebra"}]
+}
+</script>
+
+**The Defect.** The standard linear algebra course starts with matrices and row
+reduction — a computational approach that treats vectors as column arrays and
+linear maps as grids of numbers. This works for computation but obscures the
+geometry: a vector is not a column of numbers; a linear map is not a grid. The
+coordinate-free approach of Sergei Treil's *Linear Algebra Done Wrong* treats
+vectors as abstract elements of a vector space and linear maps as
+structure-preserving functions, introducing coordinates only at the very end as
+a computational convenience. This page follows that approach.
+
+**The One-Line Reveal.** The entire page follows from one definition: a vector
+space is a set with addition and scalar multiplication satisfying eight axioms.
+Everything else — dual spaces, quotient spaces, exterior algebra, determinants —
+is constructed from this single definition by universal properties and
+dimension counting.
+
+## 1. Vector Spaces and Linear Maps
+
+**Definition.** A **vector space** $V$ over a field $k$ is a set with addition
+$+: V \times V \to V$ and scalar multiplication $\cdot: k \times V \to V$
+satisfying eight axioms (associativity, commutativity, additive identity,
+additive inverse, scalar identity, distributivity over vector addition,
+distributivity over scalar addition, compatibility of scalar multiplication).
+
+**Definition.** A function $T: V \to W$ between vector spaces is a **linear
+map** if $T(\alpha u + \beta v) = \alpha T(u) + \beta T(v)$ for all $u, v \in V$
+and $\alpha, \beta \in k$. The set of all linear maps from $V$ to $W$ is
+denoted $\operatorname{Hom}(V, W)$ or $L(V, W)$.
+
+**Theorem 1.1.** $\operatorname{Hom}(V, W)$ is itself a vector space under
+pointwise addition and scalar multiplication.
+
+**Proof.** Each axiom is inherited from $W$. For example, the zero map
+$0(v) = 0_W$ is the additive identity; for $T_1, T_2 \in \operatorname{Hom}(V,
+W)$, the pointwise sum $(T_1 + T_2)(v) = T_1(v) + T_2(v)$ is linear (each
+$T_i$ is linear, and $W$'s addition distributes); scalar multiplication
+$(\alpha T)(v) = \alpha T(v)$ is linear (distributivity in $W$). The
+distributivity axioms follow from the same calculation. $\blacksquare$
+
+### Bases and Dimension
+
+**Definition.** A **basis** of $V$ is a set $\{e_1, \dots, e_n\}$ that is linearly
+independent (no nontrivial finite linear combination equals zero) and spans $V$
+(every $v \in V$ is a finite linear combination of basis vectors).
+
+**Theorem 1.2.** Every vector space has a basis (requires Zorn's lemma). All
+bases of $V$ have the same cardinality (the **dimension** $\dim V$).
+
+**Proof sketch.** Existence: Zorn's lemma applied to the poset of linearly
+independent subsets (ordered by inclusion) gives a maximal independent set; a
+maximal independent set spans (if some $v$ is not in the span, adding $v$
+preserves independence, contradicting maximality). Uniqueness of dimension: two
+bases $B$ and $B'$ have $|B| \leq |B'|$ by the Steinitz exchange lemma applied
+symmetrically, giving $|B| = |B'|$. $\blacksquare$
+
+**Theorem 1.3 (Rank–nullity).** For a linear map $T: V \to W$ with $V$
+finite-dimensional:
+
+$$
+\dim V = \dim \ker T + \dim \operatorname{im} T.
+$$
+
+**Proof.** Let $\{u_1, \dots, u_r\}$ be a basis of $\ker T$ (dimension $r =
+\dim \ker T$) and extend it to a basis $\{u_1, \dots, u_r, v_1, \dots, v_s\}$
+of $V$ (so $s = \dim \operatorname{im} T$, as we now show). The vectors
+$T(v_1), \dots, T(v_s)$ span $\operatorname{im} T$ (since $T(u_i) = 0$ for the
+kernel vectors). They are linearly independent: suppose $\sum a_j T(v_j) = 0$;
+then $T(\sum a_j v_j) = 0$, so $\sum a_j v_j \in \ker T$, so $\sum a_j v_j =
+\sum b_i u_i$ for some $b_i$; but the $\{u_i, v_j\}$ together form a basis of
+$V$, so all $a_j = 0$ and all $b_i = 0$. Hence $\{T(v_1), \dots, T(v_s)\}$ is a
+basis of $\operatorname{im} T$, so $\dim \operatorname{im} T = s$. Therefore
+$\dim V = r + s = \dim \ker T + \dim \operatorname{im} T$. $\blacksquare$
+
+**The One-Line Reveal.** The proof splits $V$ into two pieces — the part that
+maps to zero (kernel) and the part that maps injectively (the extension) — and
+counts. The splitting is possible because a basis of the kernel can be extended
+to a basis of $V$.
+
+## 2. Dual Spaces
+
+**Definition.** The **dual space** $V^* = \operatorname{Hom}(V, k)$ is the space
+of all linear functionals on $V$. Elements of $V^*$ are linear maps $V \to k$.
+
+**Theorem 2.1.** $\dim V^* = \dim V$ when $V$ is finite-dimensional.
+
+**Proof.** Let $\{e_1, \dots, e_n\}$ be a basis of $V$. Define $e^j_i \in V^*$
+(the **dual basis**) by $e^j(e_i) = \delta_{ij}$ (Kronecker delta). These are
+linearly independent: if $\sum a_j e^j = 0$, evaluate on $e_i$ to get $a_i = 0$.
+They span: for any $\varphi \in V^*$ and any $v = \sum v_i e_i$,
+$\varphi(v) = \varphi(\sum v_i e_i) = \sum v_i \varphi(e_i) = \sum
+\varphi(e_i) e^j(e_i) = \sum \varphi(e_i) e^j(e_i)$, so $\varphi = \sum
+\varphi(e_i) e^j$. Hence $\{e^1, \dots, e^n\}$ is a basis of $V^*$, and $\dim
+V^* = n = \dim V$. $\blacksquare$
+
+**The One-Line Reveal.** The dual basis is defined by where it *sends* the basis
+vectors — and the delta function $\delta_{ij}$ ensures it picks out exactly one
+coordinate. This is the coordinate-free version of "the transpose."
+
+**Theorem 2.2.** $V \cong V^{**}$ (the natural isomorphism).
+
+**Proof.** Define $\operatorname{ev}: V \to V^{**}$ by
+$(\operatorname{ev}(v))(\varphi) = \varphi(v)$ — "evaluate the functional at
+$v$." This is linear in $v$ (evaluate at $\alpha v_1 + \beta v_2$: the result is
+$\alpha$ times the evaluation at $v_1$ plus $\beta$ times at $v_2$). It is
+injective: if $\operatorname{ev}(v) = 0$, then $\varphi(v) = 0$ for all
+$\varphi \in V^*$; in particular, taking $\varphi = e^j$ gives $e^j(v) = v_j =
+0$ for all $j$, so $v = 0$. Since $\dim V^{**} = \dim V^* = \dim V$ (Theorem
+2.1 applied twice), injective + equal dimensions = surjective. $\blacksquare$
+
+**Why this is "natural."** The isomorphism $V \to V^{**}$ is **canonical** — it
+does not require choosing a basis. In contrast, the isomorphism $V \to V^*$
+(represented by the map $v \mapsto \sum \langle v, e_i \rangle e^i$) *does*
+require a basis (or an inner product). This is why the double dual is "better"
+than the dual: the isomorphism is natural, not an artefact of coordinates. In
+the language of [category theory](/17-core-course/1a-categories/), the map
+$\operatorname{ev}: \operatorname{Id} \to **$ is a natural transformation
+between the identity functor and the double-dual functor.
+
+### 3. Quotient Spaces
+
+**Definition.** Let $U \subseteq V$ be a subspace. The **quotient space** $V/U$
+is the set of equivalence classes $v + U$ under the relation $v \sim v'$ iff
+$v - v' \in U$.
+
+**Theorem 3.1.** $V/U$ is a vector space with $\dim(V/U) = \dim V - \dim U$
+(when $V$ is finite-dimensional).
+
+**Proof.** Addition and scalar multiplication are well-defined: if $v_1 + U =
+v_1' + U$ and $v_2 + U = v_2' + U$, then $(v_1 + v_2 + U) = (v_1' + v_2' + U)$
+because $(v_1 - v_1') + (v_2 - v_2') \in U$ (subspace closed under addition).
+The zero vector is $0 + U = U$. The dimension formula follows from the
+rank–nullity theorem applied to the **quotient map** $\pi: V \to V/U$,
+$\pi(v) = v + U$: $\ker \pi = U$ (by definition of the equivalence classes) and
+$\operatorname{im} \pi = V/U$ (surjective by construction), so $\dim V = \dim
+U + \dim(V/U)$. $\blacksquare$
+
+**The One-Line Reveal.** The quotient space "sets $U$ to zero" — every vector
+in $U$ becomes the zero vector in $V/U$, and every coset is measured by how far
+it is from $U$. The rank–nullity theorem then *counts* the dimensions: what you
+collapse ($\dim U$) plus what remains ($\dim V/U$) equals what you started with.
+
+### 4. Exterior Algebra
+
+**Definition.** Let $V$ be a vector space. The **exterior algebra**
+$\bigwedge V = \bigoplus_{k=0}^{n} \bigwedge^k V$ (where $n = \dim V$) is the
+free associative algebra generated by $V$ subject to the relation $v \wedge v =
+0$ for all $v \in V$.
+
+**Definition.** The $k$-th **exterior power** $\bigwedge^k V$ consists of
+$k$-vectors: formal expressions $v_1 \wedge v_2 \wedge \cdots \wedge v_k$
+subject to:
+- $v \wedge v = 0$ (alternating)
+- $(v_1 + v_2) \wedge w = v_1 \wedge w + v_2 \wedge w$ (distributive)
+- $(cv) \wedge w = c(v \wedge w)$ (bilinear over $k$)
+
+**Theorem 4.1.** $v_1 \wedge v_2 = -v_2 \wedge v_1$ (anticommutativity).
+
+**Proof.** From $v = (v_1 + v_2)$, we have $0 = (v_1 + v_2) \wedge (v_1 + v_2)
+= v_1 \wedge v_1 + v_1 \wedge v_2 + v_2 \wedge v_1 + v_2 \wedge v_2 = v_1
+\wedge v_2 + v_2 \wedge v_1$ (since $v_i \wedge v_i = 0$ by definition). So
+$v_1 \wedge v_2 = -v_2 \wedge v_1$. $\blacksquare$
+
+**Corollary 4.2.** If $v_1, \dots, v_k$ are linearly dependent, then $v_1
+\wedge \cdots \wedge v_k = 0$.
+
+**Proof.** If one $v_i$ is a linear combination of the others, say $v_i =
+\sum c_j v_j$, then $v_i \wedge v_j = (\sum c_j v_j) \wedge v_j = \sum c_j
+(v_j \wedge v_j) = 0$ for each term. So the wedge product collapses to zero.
+$\blacksquare$
+
+**Theorem 4.3.** $\dim \bigwedge^k V = \binom{n}{k}$ where $n = \dim V$.
+
+**Proof.** If $\{e_1, \dots, e_n\}$ is a basis of $V$, then the set
+$\{e_{i_1} \wedge \cdots \wedge e_{i_k} : i_1 < i_2 < \cdots < i_k\}$ of
+$k$-wedges of *ordered* basis vectors forms a basis of $\bigwedge^k V$. The
+number of such ordered $k$-tuples is $\binom{n}{k}$ (choosing $k$ from $n$).
+These $k$-vectors span (any wedge of basis vectors can be sorted using the
+anticommutativity rule, and repeats give zero). They are linearly independent
+(standard argument). $\blacksquare$
+
+**Why $\binom{n}{k}$ matters.** For $k > n$, $\binom{n}{k} = 0$, so $\bigwedge^k
+V = 0$ — you cannot wedge more than $n$ linearly independent vectors in an
+$n$-dimensional space. The top exterior power $\bigwedge^n V$ is one-dimensional
+(spanned by $e_1 \wedge \cdots \wedge e_n$), and every $n$-vector is a scalar
+multiple of $e_1 \wedge \cdots \wedge e_n$. This scalar is (up to the choice of
+basis) the **determinant**.
+
+### 5. Determinants as Alternating Multilinear Forms
+
+**Definition.** An **alternating $k$-form** on $V$ is a $k$-linear map
+$\omega: V^k \to k$ that is alternating: $\omega(v_1, \dots, v_i, \dots, v_i,
+\dots, v_k) = 0$ whenever any two arguments coincide.
+
+**Theorem 5.1.** $\bigwedge^n V^*$ (the top exterior power of the dual space)
+is one-dimensional, and every element is a scalar multiple of the
+**determinant**.
+
+**Proof.** An element $\omega \in \bigwedge^n V^*$ assigns to each $n$-tuple
+$(v_1, \dots, v_n)$ a scalar $\omega(v_1, \dots, v_n)$ that is multilinear and
+alternating. Let $\{e_1, \dots, e_n\}$ be a basis. Any $n$-tuple of vectors can
+be written as $v_i = \sum_j a_{ij} e_j$. By multilinearity and alternation,
+$\omega(v_1, \dots, v_n) = \det(a_{ij}) \cdot \omega(e_1, \dots, e_n)$ — this
+is the defining property of the determinant as the unique alternating
+$n$-linear form sending $(e_1, \dots, e_n)$ to $1$. So $\omega$ is entirely
+determined by the scalar $\omega(e_1, \dots, e_n)$, and the space of such forms
+is one-dimensional. $\blacksquare$
+
+**The One-Line Reveal.** The determinant is not a formula involving row
+reduction or cofactor expansion — it is the *unique alternating $n$-linear form
+normalised to send the identity basis to 1*. Every property of determinants
+follows from this definition: multiplicativity, invariance under basis change,
+the Laplace expansion.
+
+### 6. Self-test
+
+1. Prove that $\{e^1, \dots, e^n\}$ (the dual basis) spans $V^*$. (§2 — any
+   $\varphi$ equals $\sum \varphi(e_i) e^i$ by evaluating on basis vectors.)
+2. Prove that the quotient map $\pi: V \to V/U$ is surjective and linear.
+   (§3 — surjective by definition of cosets; linear because coset addition is
+   well-defined.)
+3. Compute $\dim \bigwedge^2 V$ for $\dim V = 4$. (§4 — $\binom{4}{2} = 6$.)
+4. Prove that $v \wedge w = -w \wedge v$ using only the alternating axiom.
+   (§4 — set $v = v_1 + v_2$ in the wedge relation.)
+5. Show that $\det(AB) = \det(A) \cdot \det(B)$ using the alternating-form
+   definition of the determinant. (§5 — the product $AB$ induces the wedge map
+   that is the composition of the wedge maps for $A$ and $B$; the determinant
+   is the normalisation factor.)
+
+### The One-Line Reveal (for this page)
+
+The entire page follows from one shift: *treat vectors as geometric objects,
+not as coordinate arrays.* The dual space $V^*$ is the space of measurements on
+$V$; the quotient $V/U$ is $V$ with a subspace collapsed to zero; the exterior
+power $\bigwedge^k V$ is the space of $k$-dimensional volume measurements; and
+the determinant is the unique volume scale. Coordinates are introduced only
+when you choose a basis — and every geometric statement is invariant under that
+choice.
+
+### Where to go next
+
+- [Level 2: Topology](/17-core-course/2a-topology/) — continuity, compactness,
+  and connectedness as pure qualitative geometry, building on the linear
+  algebra from this page.
+- [Real Analysis](/3-real-analysis/) — the rigorous $\varepsilon$–$\delta$
+  foundations that underpin the measure theory of Level 4.
+- [Linear Algebra Done Wrong](https://www.math.brown.edu/~treil/ladw/) —
+  Treil's free book, which develops this material at full depth.
+
+---
+
+## Hub
+URL: https://mathematics.wyattau.com/17-core-course/hub/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Course",
+  "name": "The Core Course",
+  "description": "A linear mathematics course in five levels: categories, multilinear algebra, topology, manifolds, measure theory, and the syntheses.",
+  "provider": {"@type": "Organization", "name": "Wyatt's Notes", "url": "https://mathematics.wyattau.com"},
+  "url": "https://mathematics.wyattau.com/17-core-course/"
+}
+</script>
+
+This course is separate from the reference tracks on this site. The reference
+tracks are an encyclopaedia: alphabetical, cross-linked, no required order.
+This course is the opposite — a linear sequence where page N assumes page N−1,
+designed so that no concept you meet depends on a concept you have not yet
+learned.
+
+## The Five Levels
+
+<div class="table-wrap">
+
+| Level | Theme | Key texts | What you gain |
+|---|---|---|---|
+| **1** | Language & the Multilinear Engine | Lawvere & Schanuel (Categories); Treil (Linear Algebra Done Wrong) | Arrows, universal properties, coordinate-free linear algebra, exterior forms |
+| **2** | The Canvas | Bradley, Bryson, Terilla (Topology); Jänich (companion) | Continuity, compactness, connectedness as pure qualitative geometry |
+| **3** | Calculus as Linearization | Loring Tu (An Introduction to Manifolds) | Smooth manifolds, differential forms, the Generalised Stokes' Theorem |
+| **4** | Global Analysis | Schilling (Measures, Integrals and Martingales); Körner (companion) | Measure spaces, the Lebesgue integral, $L^p$ spaces, functional duality |
+| **5** | The Syntheses | Ullrich (Complex Made Simple); Bott & Tu (Differential Forms in Algebraic Topology); Aluffi (Algebra: Chapter 0) | Complex analysis re-seen through forms; de Rham cohomology; homological algebra |
+
+</div>
+
+## The Dependency Graph
+
+```mermaid
+graph TD
+    L1A["Level 1A: Categories"] --> L1B["Level 1B: Linear Algebra"]
+    L1B --> L2["Level 2: Topology"]
+    L1B --> L3["Level 3: Manifolds"]
+    L2 --> L3
+    L3 --> L4["Level 4: Measure Theory"]
+    L1B --> L4
+    L4 --> L5A["Level 5A: Complex Made Simple"]
+    L3 --> L5B["Level 5B: Bott & Tu"]
+    L1A --> L5C["Level 5C: Aluffi Chapter 0"]
+    L2 --> L5B
+    L4 --> L5A
+```
+
+## The Mastery Methodology
+
+This course integrates five learning protocols designed for self-directed study
+without the artificial forcing function of exams.
+
+### The One-Line Reveal
+
+Never read a proof straight through. Read the theorem statement. Close the
+book. Spend fifteen minutes attempting the proof or identifying the exact
+technical roadblock. If stuck, open the book and read *only the first sentence*
+of the author's proof — that sentence almost always introduces the trick or
+auxiliary object. Close the book again and finish the proof yourself. This turns
+passive consumption into active discovery.
+
+### The Living Monograph
+
+Write your own unified exposition targeting an intelligent version of yourself
+from six months ago. For every core concept, include:
+
+1. **The Defect**: what broke that made this definition necessary?
+2. **The Universal Property or Diagram**: the commutative diagram or the precise
+   statement.
+3. **The Extremes**: the trivial example, the canonical workhorse, and the
+   counterexample that breaks when you drop one axiom.
+4. **The Pivot**: the single line in any long proof where the crucial conceptual
+   shift happens.
+
+### The 80/20 Problem Filter
+
+Skip computational drills. Do classification problems ("classify all groups of
+order 8"), counterexample challenges ("show the theorem fails if axiom X is
+omitted"), and omitted lemmas (when an author writes "the reader can easily
+verify," treat that as mandatory).
+
+### The 3-Month Retrospective
+
+Every week, spend forty-five minutes on a blank-page retrieval drill from two
+levels back. Write the definition, the theorem hypotheses, the mental picture,
+and the proof architecture from memory. If you cannot, you have found a crack
+before it causes structural collapse.
+
+### Managing Cognitive Stalling
+
+When stuck: drop one dimension (solve on a 2-sphere or in **Set** instead), or
+apply the 48-hour incubation rule — write the obstacle in one plain English
+question, close the book, and walk away. Subconscious processing in mathematics
+is a documented reality.
+
+## The Pages
+
+<div class="table-wrap">
+
+| Page | Level | Content |
+|---|---|---|
+| [Categories: The Language of Mathematics](/17-core-course/1a-categories/) | 1A | Objects, morphisms, universal properties, functors, natural transformations |
+| [Linear Algebra Done Wrong](/17-core-course/1b-linear-algebra/) | 1B | Coordinate-free vector spaces, dual spaces, quotient spaces, exterior algebra, determinants as alternating forms |
+
+</div>
+
+Levels 2–5 are under construction. The dependency graph above shows the
+planned structure.
+
 ## Linear-Algebra
 
 ---
