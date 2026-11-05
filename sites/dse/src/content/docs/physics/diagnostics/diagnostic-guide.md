@@ -221,3 +221,10 @@ Sum all 10 topic scores (max 240):
 - **[Mechanics](/physics/diagnostics/diag-mechanics/):** Diagnostics test mechanics
 - **[Waves](/physics/diagnostics/diag-waves-sound/):** Waves are assessed
 - **[Electricity](/physics/diagnostics/diag-electrical-circuits/):** Circuits are tested
+
+## Related in this track
+
+- [Electrical Circuits -- Diagnostic Tests](/physics/diagnostics/diag-electrical-circuits/)
+- [Electricity and Magnetism -- Diagnostic Tests](/physics/diagnostics/diag-electricity-magnetism/)
+- [Energy and Work -- Diagnostic Tests](/physics/diagnostics/diag-energy-work/)
+- [Forces and Motion -- Diagnostic Tests](/physics/diagnostics/diag-forces-motion/)

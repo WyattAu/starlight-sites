@@ -1377,3 +1377,10 @@ practical implementation, and key applications.
 - [List Comprehensions and Comprehension Expressions](https://computer-science.wyattau.com/1-algorithms/data-structures/) -- List comprehensions create lists eagerly, while generator expressions produce values lazily.
 - [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/) -- Generic iterators and generator return types are expressible using `Iterator[T]` and `Generator[T]`.
 - [Context Managers](/python/08-advanced-topics/03-context-managers/) -- The iterator protocol is the foundation for `with` statement resource management.
+
+## Related in this track
+
+- [Control Flow](/python/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/python/02-fundamentals/05-python-internals/)

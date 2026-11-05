@@ -354,3 +354,10 @@ scores = cross_val_score(model, X, y, cv=5)
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 - See [Mathematics Glossary](/glossary/) for statistical foundations
 - See [Databases Glossary](/glossary/) for data storage concepts
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Machine Learning](/intro/)
+- [Machine Learning Deep Dive](/machine-learning-deep-dive/)
+- [Machine Learning Fundamentals Study Guide](/hub/)

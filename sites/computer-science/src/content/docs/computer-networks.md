@@ -2033,3 +2033,10 @@ The genius of packet switching over circuit switching is that it makes efficient
 
 The internet works because of a carefully negotiated balance between decentralisation and coordination. BGP lets autonomous systems (ISPs, universities, companies) independently choose their routing policies while collectively maintaining global reachability. DNS provides a distributed, hierarchical naming system that scales to billions of devices. NAT extends the IPv4 address space by allowing many private devices to share a single public address. Every protocol is a negotiation between competing interests, performance vs reliability, security vs convenience, local control vs global interoperability, and understanding these trade-offs is the essence of networking.
 :::
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Algorithms and Data Structures](/algorithms-and-data-structures/)
+- [Before You Begin: The Abstractions CS Assumes You Already Have](/before-you-begin/)
+- [Complete Computer Science Study Guide](/hub/)

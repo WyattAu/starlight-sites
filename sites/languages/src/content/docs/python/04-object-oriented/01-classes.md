@@ -1067,3 +1067,8 @@ linked above.
 - [Descriptors](/python/04-object-oriented/03-descriptors/): Explains the underlying mechanism that makes properties, class methods, and static methods work.
 - [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Provides deeper coverage of the dunder methods that enable Python's data model integration.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Shows how to use dataclasses and validators to ensure data integrity in object-oriented designs.
+
+## Related in this track
+
+- [Descriptors and Properties](/python/04-object-oriented/03-descriptors/)
+- [Metaclasses and Class Creation](/python/04-object-oriented/02-metaclasses/)

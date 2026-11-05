@@ -465,3 +465,10 @@ client := &http.Client{
 - **[net/http](/go/standard-library/net-http/):** HTTP server and client patterns that build on networking fundamentals.
 - **[I/O](/go/standard-library/io/):** Reader/Writer interfaces used in network stream processing.
 - **[Interfaces](/go/intermediate/interfaces/):** Interface-based abstraction patterns for network protocol handlers.
+
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Reflection](/go/advanced/reflection/)
+- [Testing](/go/advanced/testing/)

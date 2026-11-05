@@ -123,3 +123,10 @@ So $48 - 13 = 35$ values of $b$, giving $\gcd(a, 720) = 5$ for exactly 35 intege
 - [Primitive Roots](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
 - [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
 A final sanity check: $\varphi(1) = 1$, $\tau(1) = \sigma(1) = 1$, and $\mu(1) = 1$; the empty product conventions that keep every formula valid at $n = 1$.
+
+## Related in this track
+
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)

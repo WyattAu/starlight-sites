@@ -3769,6 +3769,11 @@ TCP and UDP are the two main transport protocols. TCP is the reliable courier: i
 - [UDP Deep Dive](/03-tcp-udp/udp-deep-dive/)
 - [HTTP](/05-http-https/http/)
 
+## Related in this track
+
+- [TCP State Machine](/03-tcp-udp/tcp-state-machine/)
+- [UDP Deep Dive](/03-tcp-udp/udp-deep-dive/)
+
 ---
 
 ## Tcp State Machine
@@ -4609,6 +4614,11 @@ The TCP state machine is the lifecycle of a TCP connection. Think of it as a pho
 - [TCP and UDP](/03-tcp-udp/tcp-and-udp/)
 - [UDP Deep Dive](/03-tcp-udp/udp-deep-dive/)
 - [Network Tools](/07-network-tools/network-tools/)
+
+## Related in this track
+
+- [TCP and UDP](/03-tcp-udp/tcp-and-udp/)
+- [UDP Deep Dive](/03-tcp-udp/udp-deep-dive/)
 
 ---
 
@@ -5476,6 +5486,11 @@ UDP is like sending a postcard without tracking - you write the address, drop it
 - [TCP State Machine](/03-tcp-udp/tcp-state-machine/) - TCP connection states that UDP deliberately avoids for lower overhead
 - [DNS](/04-dns/dns/) - Primary protocol using UDP for fast, stateless name resolution queries
 :::
+
+## Related in this track
+
+- [TCP State Machine](/03-tcp-udp/tcp-state-machine/)
+- [TCP and UDP](/03-tcp-udp/tcp-and-udp/)
 
 ## Dns
 
@@ -8273,6 +8288,11 @@ HTTP is the request-response protocol that powers the web. A client sends a requ
 - [TLS](/06-tls/tls/) - How HTTPS adds transport-layer encryption to HTTP
 - [WebSockets](/05-http-https/websockets/) - How WebSockets upgrade from HTTP for full-duplex communication
 
+## Related in this track
+
+- [HTTP/2 and HTTP/3](/05-http-https/http-2-and-3/)
+- [WebSockets](/05-http-https/websockets/)
+
 ---
 
 ## Http 2 And 3
@@ -9234,6 +9254,11 @@ HTTP/2 is like upgrading from a single-lane road to a multi-lane highway. HTTP/1
 - [TLS](/06-tls/tls/) - How TLS 1.3 is required for HTTP/2 and integral to HTTP/3's QUIC transport
 - [WebSockets](/05-http-https/websockets/) - How persistent connections differ between HTTP/2 streams and WebSocket frames
 
+## Related in this track
+
+- [HTTP | Networking - Wyatt's Notes](/05-http-https/http/)
+- [WebSockets](/05-http-https/websockets/)
+
 ---
 
 ## Index
@@ -10140,6 +10165,11 @@ WebSockets are like a phone call versus sending letters. HTTP is like sending le
 - [HTTP](/05-http-https/http/) - How the WebSocket handshake upgrades from an HTTP connection
 - [HTTP/2 and HTTP/3](/05-http-https/http-2-and-3/) - How HTTP/2 Server Push and streams relate to WebSocket real-time patterns
 - [TLS](/06-tls/tls/) - How WSS (WebSocket Secure) wraps WebSocket connections in TLS
+
+## Related in this track
+
+- [HTTP | Networking - Wyatt's Notes](/05-http-https/http/)
+- [HTTP/2 and HTTP/3](/05-http-https/http-2-and-3/)
 
 ## Tls
 
@@ -17927,6 +17957,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [BGP and Routing Protocols](/bgp-and-routing-protocols/)
+- [Before You Begin: How the Layers Fit](/before-you-begin/)
+- [Complete Computer Networking Study Guide](/hub/)
+- [Computer Networking Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Before You Begin
@@ -18083,6 +18120,13 @@ transport layer.
   layer it belongs to.
 - [Networks and Graph Theory](https://computer-science.wyattau.com/docs/graph-theory/) -
   the mathematics of the graph the routing algorithms run on.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [BGP and Routing Protocols](/bgp-and-routing-protocols/)
+- [Complete Computer Networking Study Guide](/hub/)
+- [Computer Networking Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -19457,6 +19501,13 @@ Routing is like a GPS navigation system for internet packets. Static routes are 
 - [TCP and UDP](/03-tcp-udp/tcp-and-udp/) - Transport protocols that routing decisions affect end-to-end
 :::
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: How the Layers Fit](/before-you-begin/)
+- [Complete Computer Networking Study Guide](/hub/)
+- [Computer Networking Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Glossary
@@ -19668,6 +19719,13 @@ URL: https://networking.wyattau.com/glossary/
 - [TCP/IP Deep Dive](/01-osi-model/osi-and-tcp-ip/)
 - [Network Security Overview](https://alevel.wyattau.com/computer-science/networks/02-network-security/)
 - Troubleshooting Guide
+
+## Related in this track
+
+- [About This Site](/about/)
+- [BGP and Routing Protocols](/bgp-and-routing-protocols/)
+- [Before You Begin: How the Layers Fit](/before-you-begin/)
+- [Complete Computer Networking Study Guide](/hub/)
 
 ---
 
@@ -20019,6 +20077,13 @@ Start with ping, traceroute, and tcpdump. These three tools can diagnose the vas
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [BGP and Routing Protocols](/bgp-and-routing-protocols/)
+- [Before You Begin: How the Layers Fit](/before-you-begin/)
+- [Computer Networking Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Index
@@ -20254,6 +20319,13 @@ Networking is the postal system of the digital world. Data is broken into packet
 - [OSI and TCP/IP Models](/01-osi-model/osi-and-tcp-ip/)
 - [IP Addressing](/02-ip-addressing/ip-addressing/)
 - [TCP and UDP](/03-tcp-udp/tcp-and-udp/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [BGP and Routing Protocols](/bgp-and-routing-protocols/)
+- [Before You Begin: How the Layers Fit](/before-you-begin/)
+- [Complete Computer Networking Study Guide](/hub/)
 
 ---
 
@@ -21122,4 +21194,11 @@ An Intrusion Detection System (IDS) monitors traffic and alerts on suspicious ac
 
 - [Networking: Practice Problems](/practice-networking/)
 - [Computer Networking Glossary, Key Terms and Definitions](/glossary/)
+- [Complete Computer Networking Study Guide](/hub/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [BGP and Routing Protocols](/bgp-and-routing-protocols/)
+- [Before You Begin: How the Layers Fit](/before-you-begin/)
 - [Complete Computer Networking Study Guide](/hub/)

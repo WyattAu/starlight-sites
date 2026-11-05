@@ -696,3 +696,9 @@ This topic covers the essential concepts and techniques related to unique owners
 
 ## Worked Examples
 
+## Related in this track
+
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)

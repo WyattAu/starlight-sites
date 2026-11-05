@@ -1858,3 +1858,9 @@ success in this subject.
 - [International Trade](/economics/3-international-economics/1-trade/) -- Supply-side reforms affect a country's comparative advantage and trade competitiveness.
 - [Game Theory and Behavioural Economics](/economics/6-game-theory/1_game-theory-and-behavioural/) -- Behavioural insights inform the design of supply-side policies like nudge interventions.
 - [Theory of the Firm](/economics/1-microeconomics/4-theory-of-the-firm/) -- Labour market regulation and deregulation directly affect firm costs and market structure.
+
+## Related in this track
+
+- [Fiscal Policy](/economics/2-macroeconomics/2-fiscal-policy/)
+- [Monetary Policy](/economics/2-macroeconomics/3-monetary-policy/)
+- [National Income](/economics/2-macroeconomics/1-national-income/)

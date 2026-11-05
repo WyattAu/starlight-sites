@@ -982,3 +982,10 @@ theory, practical implementation, and key applications.
 - **[Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/):** Core remote commands like push, pull, and fetch that use these protocols.
 - **[Workflows](/git/04-remotes-and-workflows/02-workflows/):** Team collaboration workflows that rely on remote access and authentication.
 - **[Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/):** Code review process that uses remote repositories and access controls.
+
+## Related in this track
+
+- [Branching Strategies](/git/04-remotes-and-workflows/02-workflows/)
+- [GitHub Actions CI/CD Patterns](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/)
+- [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/)
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/)

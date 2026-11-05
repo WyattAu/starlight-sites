@@ -854,3 +854,9 @@ std::expected, including key theorems, methods, and problem-solving approaches.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Algebraic Error Handling, std::optional and std::variant](/function_architecture/2_error_handling/4_optional_variant/)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)

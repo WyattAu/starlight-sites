@@ -133,3 +133,10 @@ $4^{340} \equiv 4^{10} = 1048576$. Then $1048576 = 33824 \cdot 31 + 12$, so $4^{
 - [Congruences](/7-number-theory/3_congruences/)
 - [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
 - [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/)
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)

@@ -458,3 +458,10 @@ Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
 - **[Linear Transformations](/2-linear-algebra/6_linear-transformations/)**: Linear transformations are maps between vector spaces that preserve linear structure.
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)

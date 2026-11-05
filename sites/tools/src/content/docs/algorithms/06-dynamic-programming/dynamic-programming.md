@@ -990,3 +990,8 @@ linked above.
 - **[DP Patterns](/algorithms/06-dynamic-programming/dp-patterns/):** Decision framework for identifying which DP pattern applies to a given problem.
 - **[Sorting Algorithms](/algorithms/05-sorting/sorting/):** Sorting techniques that can be combined with DP for optimisation problems.
 - **[Hashing and Hash Tables](/algorithms/02-arrays-strings/hashing-and-hash-tables/):** Hash-based data structures used for memoisation in top-down DP implementations.
+
+## Related in this track
+
+- [Dynamic Programming Patterns](/algorithms/06-dynamic-programming/dp-patterns/)
+- [Greedy Algorithms](/algorithms/06-dynamic-programming/greedy-algorithms/)

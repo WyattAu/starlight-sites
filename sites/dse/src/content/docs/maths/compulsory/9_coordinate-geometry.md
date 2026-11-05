@@ -1326,3 +1326,10 @@ $\blacksquare$
 ## Intuition
 
 Mathematics provides the language for describing patterns, relationships, and change. Functions transform inputs to outputs like machines, calculus measures how things change and accumulate, and probability quantifies uncertainty. The power of mathematics lies in its ability to model real-world situations abstractly, allowing us to solve problems and make predictions across science, engineering, and everyday life.
+
+## Related in this track
+
+- [Dispersion](/maths/compulsory/12_dispersion/)
+- [Functions (Advanced)](/maths/compulsory/2_functions-advanced/)
+- [Geometries](/maths/compulsory/8_geometries/)
+- [Inequalities](/maths/compulsory/5_inequalities/)

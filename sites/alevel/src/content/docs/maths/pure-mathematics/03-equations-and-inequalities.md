@@ -1052,3 +1052,10 @@ building a personal test matrix.
 - [Quadratics](/maths/pure-mathematics/02-quadratics/), Quadratic inequalities and the discriminant extend the quadratic equations covered there.
 - [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/), Graphical inequalities and intersection of lines and circles apply coordinate geometry techniques.
 - [Proof](/maths/pure-mathematics/13-proof/), The rigorous proofs of inequality properties connect to the proof methods developed in the proof topic.
+
+## Related in this track
+
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/)
+- [Binomial Expansion](/maths/pure-mathematics/07-binomial-expansion/)
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/)
+- [Functions](/maths/pure-mathematics/05-functions/)

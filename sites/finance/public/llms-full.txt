@@ -797,6 +797,12 @@ unchanged.
 Proved not cited, hypotheses named, assumptions honest, corrections recorded. Four sentences of
 standard; the site is their execution.
 
+## Related in this track
+
+- [Before You Begin: What Finance Assumes](/before-you-begin/)
+- [Finance Study Hub](/hub/)
+- [Glossary](/glossary/)
+
 ---
 
 ## Before You Begin
@@ -914,6 +920,12 @@ Every number in the tracks is either given, derived, or cited; never decorative.
 self-test's role is to move that standard from the pages into your working habits: derive it,
 check it, then trust it.
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Finance Study Hub](/hub/)
+- [Glossary](/glossary/)
+
 ---
 
 ## Glossary
@@ -1013,6 +1025,12 @@ glossary's headings in order is reading the dependency chain.
   optimisation rather than a wish.
 - **Yield**; return expressed as a rate; the yield curve plots it against maturity, and the
   principles track derives forward yields from it by the law of one price.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Finance Assumes](/before-you-begin/)
+- [Finance Study Hub](/hub/)
 
 ---
 
@@ -1131,6 +1149,12 @@ judgment; the order matters, and the hub exists to keep it visible.
 One track at a time, self-tests before the next page, and the replication check after every
 price. The site is short by design; the discipline is what makes the shortness complete rather
 than thin.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Finance Assumes](/before-you-begin/)
+- [Glossary](/glossary/)
 
 ---
 

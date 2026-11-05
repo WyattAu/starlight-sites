@@ -816,3 +816,9 @@ underlying theory, practical implementation, and key applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [Dependent Names and Two-Phase Lookup](/templates_and_metaprogramming/1_generic_programming/4_dependent_names/)
+- [Explicit and Partial Specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)
+- [Template Instantiation, Monomorphization, and Code Bloat](/templates_and_metaprogramming/1_generic_programming/1_instantiation/)

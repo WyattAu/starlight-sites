@@ -369,3 +369,10 @@ distribution: power loss scales as $I^2R$ And $I = P/V$ So $P_{\text{loss}} = P^
 - **[Mechanics](/physics/flashcards-mechanics-waves/):** Mechanics covers motion, forces, and energy
 - **[Waves](/physics/flashcards-mechanics-waves/):** Waves transfer energy through oscillations
 - **[Electricity](/physics/flashcards-electricity-fields/):** Electricity covers circuits and fields
+
+## Related in this track
+
+- [A-Level Physics Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
+- [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
+- [Circular Motion -- Diagnostic Tests](/physics/diagnostics/diag-circular-motion/)
+- [DC Circuits -- Diagnostic Tests](/physics/diagnostics/diag-dc-circuits/)

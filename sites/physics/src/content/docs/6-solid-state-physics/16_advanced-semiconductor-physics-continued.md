@@ -213,3 +213,10 @@ provides the crystal structure context.
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+- [Defects in Crystals](/6-solid-state-physics/9_defects-in-crystals/)

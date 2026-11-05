@@ -483,3 +483,9 @@ Coordination chemistry is the study of how metal ions bind to surrounding molecu
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Atomic Structure and Periodicity](/3-inorganic-chemistry/atomic-structure-and-periodicity/)
+- [Main-Group Chemistry](/3-inorganic-chemistry/main-group-chemistry/)
+- [Solid-State Chemistry](/3-inorganic-chemistry/solid-state-chemistry/)

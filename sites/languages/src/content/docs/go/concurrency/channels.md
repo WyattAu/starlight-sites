@@ -400,3 +400,8 @@ theory, practical implementation, and key applications.
 - **[Race Conditions](/go/concurrency/race-conditions/):** Mutex-based synchronization as an alternative to channel communication.
 - **[Networking](/go/advanced/networking/):** Goroutine-based network servers using channel patterns.
 - **[I/O](/go/standard-library/io/):** Stream processing with io.Reader/Writer in concurrent pipelines.
+
+## Related in this track
+
+- [Goroutines and Synchronization](/go/concurrency/goroutines/)
+- [race conditions](/go/concurrency/race-conditions/)

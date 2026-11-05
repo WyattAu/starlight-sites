@@ -292,3 +292,8 @@ A drainage basin is a complete water machine: precipitation enters, water is sto
 - **[Climate Change](/geography/climate-change/):** Climate affects water systems
 - **[Population](/geography/population-distribution/):** Water affects population distribution
 - **[Economic Development](/geography/economic-development/):** Water is essential for development
+
+## Related in this track
+
+- [Flood Management](/geography/freshwater/flood-management/)
+- [Water Scarcity and Management](/geography/freshwater/water-scarcity-and-management/)

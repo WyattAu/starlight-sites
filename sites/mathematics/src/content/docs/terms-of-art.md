@@ -360,3 +360,10 @@ uncountable (the Cantor set).
   defined on the measure-theoretic foundation.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)** -
   where "uniformly" and "dense" appear in their functional-analytic context.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)

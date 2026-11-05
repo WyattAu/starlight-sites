@@ -415,3 +415,9 @@ implementation, and key applications.
 - [Basics](./)
 - [Types and Variables](/kotlin/basics/types-and-variables/)
 - [Control Flow](/kotlin/basics/control-flow/)
+
+## Related in this track
+
+- [Control Flow](/kotlin/basics/control-flow/)
+- [Functions](/kotlin/basics/functions/)
+- [Types and Variables](/kotlin/basics/types-and-variables/)

@@ -262,3 +262,10 @@ Define interfaces for your API responses: `interface ApiResponse<T> { data: T; s
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Advanced Patterns](/advanced-patterns/)
+- [Classes](/classes/)
+- [Error Handling](/error-handling/)

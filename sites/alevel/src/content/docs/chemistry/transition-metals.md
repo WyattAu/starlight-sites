@@ -1247,3 +1247,10 @@ $$
 - [Bonding and Structure](/chemistry/bonding-and-structure/) -- Coordinate bonding in complex ions extends the general theory of chemical bonding.
 - [Organic Chemistry](/chemistry/organic-chemistry/) -- Transition metal catalysts are essential in many organic reactions, linking inorganic and organic chemistry.
 - [Kinetics](/chemistry/kinetics/) -- The role of transition metals as catalysts connects directly to activation energy and reaction rate theory.
+
+## Related in this track
+
+- [A-Level Chemistry](/chemistry/chemistry/)
+- [Acids, Bases & Buffers](/chemistry/acids-bases/)
+- [Atomic Structure & Periodicity](/chemistry/atomic-structure/)
+- [Bonding & Structure](/chemistry/bonding-and-structure/)

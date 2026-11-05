@@ -286,3 +286,10 @@ The application layer is the interface between your code and the network, like t
 - **[Transport Layer](/3-computer-networks/5_transport-layer/):** TCP and UDP protocols.
 - **[Network Security](/3-computer-networks/7_network-security/):** HTTPS and TLS encryption.
 - **[Data Link Layer](/3-computer-networks/3_data-link-layer/):** MAC addressing and Ethernet.
+
+## Related in this track
+
+- [Computer Networks (Advanced)](/3-computer-networks/9_computer-networks-advanced/)
+- [Data Link Layer](/3-computer-networks/3_data-link-layer/)
+- [Network Layer](/3-computer-networks/4_network-layer/)
+- [Network Models](/3-computer-networks/1_network-models/)

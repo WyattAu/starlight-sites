@@ -947,3 +947,8 @@ The Java type system reflects a series of deliberate tradeoffs:
 - **[Concurrency Deep Dive](https://java.wyattau.com/06-concurrency/02-concurrency-deep-dive/):** Thread-safe variable access and synchronization patterns.
 - **[Generics](https://kotlin.wyattau.com/intermediate/generics/):** Type parameterization extending the basic type system.
 :::
+
+## Related in this track
+
+- [Control Flow](/java/02-fundamentals/02-control-flow/)
+- [Strings and Text Processing](/java/02-fundamentals/03-strings/)

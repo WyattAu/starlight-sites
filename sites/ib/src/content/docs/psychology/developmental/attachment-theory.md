@@ -286,3 +286,9 @@ Our minds are prediction machines, constantly building models of the world to gu
 - [Research Methods](/psychology/research-methods/)
 - [Approaches in Psychology](/psychology/approaches/)
 - [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
+
+## Related in this track
+
+- [Adolescent Development](/psychology/developmental/adolescent-development/)
+- [Cognitive Development](/psychology/developmental/cognitive-development/)
+- [Developmental Psychology](/psychology/developmental/_index/)

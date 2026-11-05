@@ -153,3 +153,9 @@ Modern Hong Kong is a story of transformation under pressure. The handover was l
 
 **Assuming the Basic Law was universally accepted:** The drafting process was contentious, with debates over democratic reform, the pace of elections, and the relationship between the NPCSC and Hong Kong courts. Many provisions were contested.
 
+## Related in this track
+
+- [DSE History](/history/intro/)
+- [Decolonisation and the Path to 1997](/history/decolonisation/)
+- [European Imperialism in Asia](/history/imperialism/)
+- [The Chinese Revolution](/history/chinese-revolution/)

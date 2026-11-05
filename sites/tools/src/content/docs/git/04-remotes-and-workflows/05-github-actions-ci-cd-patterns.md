@@ -1578,3 +1578,10 @@ practical implementation, and key applications.
 - [Branching and Merging](/git/03-branching-and-merging/01-branching/) -- Branch protection rules in CI/CD depend on understanding branching strategies and merge workflows.
 - [Pre-commit Framework](/git/05-advanced-topics/09-pre-commit-framework/) -- Pre-commit hooks complement CI/CD by catching issues locally before they reach the pipeline.
 - Code Review Practices -- Pull request workflows and review processes integrate with CI checks in GitHub Actions.
+
+## Related in this track
+
+- [Branching Strategies](/git/04-remotes-and-workflows/02-workflows/)
+- [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/)
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/)
+- [Transfer Protocols and Authentication](/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)

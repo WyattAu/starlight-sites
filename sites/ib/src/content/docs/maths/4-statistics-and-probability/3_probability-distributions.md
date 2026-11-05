@@ -1633,3 +1633,8 @@ $$
 - [Statistics And Probability](./)
 - [Probability](/maths/4-statistics-and-probability/1_probability/)
 - [Statistics](/maths/4-statistics-and-probability/2_statistics/)
+
+## Related in this track
+
+- [Probability](/maths/4-statistics-and-probability/1_probability/)
+- [Statistics](/maths/4-statistics-and-probability/2_statistics/)

@@ -547,3 +547,10 @@ reserves.
 - [Diagnostics](./)
 - [Market Failure and Government Intervention -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)
 - [Market Structure and Theory of the Firm -- Diagnostic Tests](/economics/diagnostics/diag-market-structure/)
+
+## Related in this track
+
+- [Basic Economic Concepts -- Diagnostic Tests](/economics/diagnostics/diag-basic-economic-concepts/)
+- [DSE Economics -- Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
+- [Demand, Supply, and Markets -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply-markets/)
+- [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)

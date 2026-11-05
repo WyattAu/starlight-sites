@@ -254,3 +254,10 @@ Synchronisation is the art of preventing chaos when multiple threads share resou
 
 - **[Site Home](../../):** Main landing page for computer-science notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [Deadlocks](/5-operating-systems/4_deadlocks/)
+- [File Systems](/5-operating-systems/6_file-systems/)
+- [I/O Systems](/5-operating-systems/7_i-o-systems/)
+- [Introduction to Operating Systems](/5-operating-systems/1_introduction-to-operating-systems/)

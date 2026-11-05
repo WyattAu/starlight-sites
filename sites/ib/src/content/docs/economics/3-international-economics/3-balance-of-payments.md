@@ -599,3 +599,8 @@ Empirical estimates of $\beta$ are mixed:
 - [International Economics](./)
 - [International Trade](/economics/3-international-economics/1-trade/)
 - [Exchange Rates](/economics/3-international-economics/2-exchange-rates/)
+
+## Related in this track
+
+- [Exchange Rates](/economics/3-international-economics/2-exchange-rates/)
+- [International Trade](/economics/3-international-economics/1-trade/)

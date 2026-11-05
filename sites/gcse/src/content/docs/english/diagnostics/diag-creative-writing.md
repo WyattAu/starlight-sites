@@ -420,3 +420,8 @@ shows the complexity of the issue and still arrives at a clear conclusion.
 - [Diagnostics](./)
 - [Reading Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-fiction/)
 - [Reading Non-Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-nonfiction/)
+
+## Related in this track
+
+- [Reading Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-fiction/)
+- [Reading Non-Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-nonfiction/)

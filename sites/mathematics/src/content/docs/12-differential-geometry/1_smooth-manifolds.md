@@ -200,3 +200,10 @@ Local objects like Riemannian metrics or differential forms can be defined on ea
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)

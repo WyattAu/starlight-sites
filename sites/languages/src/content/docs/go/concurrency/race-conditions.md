@@ -452,3 +452,8 @@ theory, practical implementation, and key applications.
 - **[Channels](/go/concurrency/channels/):** Channel-based concurrency as an alternative to shared-memory synchronization.
 - **[Pointers and Memory](/go/advanced/pointers-and-memory/):** Memory layout and escape analysis relevant to concurrent access.
 - **[Testing](/go/advanced/testing/):** Race detector and concurrency testing patterns.
+
+## Related in this track
+
+- [Channels and Concurrency Patterns](/go/concurrency/channels/)
+- [Goroutines and Synchronization](/go/concurrency/goroutines/)

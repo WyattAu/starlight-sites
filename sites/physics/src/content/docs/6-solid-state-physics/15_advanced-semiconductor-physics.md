@@ -331,3 +331,10 @@ Advanced semiconductor physics goes beyond the simple pn junction to describe ho
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+- [Defects in Crystals](/6-solid-state-physics/9_defects-in-crystals/)

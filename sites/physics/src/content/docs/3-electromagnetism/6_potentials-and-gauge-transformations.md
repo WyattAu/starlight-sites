@@ -229,3 +229,9 @@ Gauge symmetry is the idea that potentials are not unique but the fields they pr
 - **Assuming gauge transformations change physical fields:** Gauge transformations change the potentials $(\Phi, \mathbf{A})$ but leave the electric and magnetic fields $(\mathbf{E}, \mathbf{B})$ unchanged. If your calculation gives different fields after a gauge transformation, you have made an error.
 - **Neglecting the radiation field when computing force on a charge:** The $1/R$ radiation field falls off more slowly than the $1/R^2$ velocity field. At large distances, only the radiation field matters, but at short distances the velocity field dominates.
 
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)

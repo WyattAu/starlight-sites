@@ -221,3 +221,10 @@ functions add functionality to classes you don't own.
   the probabilistic foundations behind coroutines' structured concurrency.
 - [Computer Science Track](https://computer-science.wyattau.com/1-discrete-mathematics/) -
   the discrete mathematics behind the type system.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Kotlin Programming Study Guide](/hub/)
+- [Introduction to Kotlin](/intro/)
+- [Kotlin Glossary, Key Terms and Definitions](/glossary/)

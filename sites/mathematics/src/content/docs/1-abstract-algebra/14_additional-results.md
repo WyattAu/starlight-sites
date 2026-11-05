@@ -153,3 +153,9 @@ Cauchy's theorem tells us that primes leave fingerprints in group structure: if 
 - Assuming the classification of finite simple groups applies to infinite groups.
 - Mixing up the partitions of exponents when applying the Structure Theorem (e.g., $\mathbb{Z}/8\mathbb{Z}$ vs $\mathbb{Z}/4\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ are both order 8 but non-isomorphic).
 
+## Related in this track
+
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+- [Field Theory](/1-abstract-algebra/12_field-theory/)

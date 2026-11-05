@@ -204,3 +204,9 @@ The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is neglig
 
 Radiation is how accelerating charges shed energy. The Larmor formula shows that power radiated is proportional to the square of acceleration, so rapidly changing charges radiate intensely. The toroidal radiation pattern means antennas radiate maximally perpendicular to their axis, like a doughnut of energy. Synchrotron radiation becomes directional at relativistic speeds because the radiation cone narrows, like a lighthouse beam. Bremsstrahlung produces a continuous X-ray spectrum because the deceleration is随机. The radiation reaction force is the charge feeling its own field, a subtle effect that becomes important in extreme environments.
 
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)

@@ -1270,3 +1270,7 @@ Programming fundamentals are the grammar of a conversation with a computer. Vari
 
 ## Worked Examples
 
+## Related in this track
+
+- [Data Management](/ict/3-programming-and-databases/3_data-management/)
+- [ICT - Programming and Databases](/ict/3-programming-and-databases/2_programming-and-databases/)

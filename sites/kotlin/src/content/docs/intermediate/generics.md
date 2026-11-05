@@ -324,3 +324,10 @@ implementation, and key applications.
 
 - **[Site Home](../../):** Main landing page for kotlin notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Coroutines](/intermediate/coroutines/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)
+- [delegation and result](/intermediate/delegation-and-result/)

@@ -272,3 +272,10 @@ Maximum volume of HCl: $4.97\ \text{cm}^3$.
 - **[Atomic Structure](/chemistry/flashcards-atomic-structure/):** Atomic structure determines bonding
 - **[Energetics](/chemistry/flashcards-energetics/):** Energy changes are fundamental
 - **[Equilibrium](/chemistry/flashcards-kinetics-equilibrium/):** Equilibrium is a core topic
+
+## Related in this track
+
+- [Atomic Structure and Atomic Theory -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
+- [Chemical Bonding -- Diagnostic Tests](/chemistry/diagnostics/diag-chemical-bonding/)
+- [IB Chemistry -- Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)
+- [Measurement and Data Processing -- Diagnostic Tests](/chemistry/diagnostics/diag-measurement/)

@@ -973,3 +973,10 @@ Template instantiation is the compiler generating code for each concrete type us
 - [Argument Deduction](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
 - [Specialization](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/3_specialization/)
 - [Defining Concepts](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
+
+## Related in this track
+
+- [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [Dependent Names and Two-Phase Lookup](/templates_and_metaprogramming/1_generic_programming/4_dependent_names/)
+- [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
+- [Explicit and Partial Specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)

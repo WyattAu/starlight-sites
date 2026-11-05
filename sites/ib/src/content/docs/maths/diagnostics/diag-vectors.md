@@ -342,3 +342,10 @@ Confirmed.
 - **[Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/):** Algebra is foundational
 - **[Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/):** Functions are central
 - **[Calculus](https://hsc.wyattau.com/mathematics/calculus/):** Calculus is a major topic
+
+## Related in this track
+
+- [Complex Numbers -- Diagnostic Tests](/maths/diagnostics/diag-complex-numbers/)
+- [Diagnostic Test Guide](/maths/diagnostics/diagnostic-guide/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)

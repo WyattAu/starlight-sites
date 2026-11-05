@@ -222,3 +222,10 @@ The Ricci tensor is a trace of the Riemann tensor and loses information. Two man
 
 **Mistake 3: Confusing scalar curvature with Gaussian curvature**
 Scalar curvature is the trace of the Ricci tensor and is a single number at each point, while Gaussian curvature is the product of principal curvatures for a surface. On a 2-dimensional manifold, $S = 2K$ where $K$ is the Gaussian curvature. In higher dimensions, scalar curvature is a coarser invariant than sectional curvature.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+- [Elliptic Regularity](/12-differential-geometry/16_elliptic-regularity/)

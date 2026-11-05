@@ -753,3 +753,10 @@ Both inputs are negative and the result is negative, so no overflow.
 - **[Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/):** Binary connects to logic gates
 - **[Programming](/computer-science/programming/03-data-representation-in-programming/):** Number systems determine data representation
 - **[Operating Systems](/computer-science/fundamentals/05-operating-systems/):** OS handles binary data
+
+## Related in this track
+
+- [Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/)
+- [Computer Architecture](/computer-science/fundamentals/04-computer-architecture/)
+- [Floating Point Representation](/computer-science/fundamentals/02-floating-point/)
+- [Legal, Ethical, and Moral Issues](/computer-science/fundamentals/06-legal-ethical-moral/)

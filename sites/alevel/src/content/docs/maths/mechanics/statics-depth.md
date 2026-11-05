@@ -514,3 +514,10 @@ $
 - **[Momentum](/maths/mechanics/05-momentum/):** Statics applies Newton's laws
 - **[Energy and Work](/maths/mechanics/energy-and-work-depth/):** Equilibrium involves force balance
 - **[Kinematics](/maths/mechanics/kinematics-depth/):** Statics deals with bodies at rest
+
+## Related in this track
+
+- [Dynamics (Extended)](/maths/mechanics/dynamics-depth/)
+- [Energy and Work](/maths/mechanics/04-energy-and-work/)
+- [Energy and Work (Extended)](/maths/mechanics/energy-and-work-depth/)
+- [Forces and Newton's Laws](/maths/mechanics/02-forces-and-newtons-laws/)

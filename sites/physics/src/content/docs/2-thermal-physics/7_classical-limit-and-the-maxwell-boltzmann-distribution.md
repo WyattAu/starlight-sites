@@ -245,3 +245,10 @@ The Maxwell-Boltzmann distribution is what quantum statistics looks like when pa
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+- [Fluctuation-Dissipation Theorem](/2-thermal-physics/13_fluctuation-dissipation-theorem/)

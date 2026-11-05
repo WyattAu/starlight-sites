@@ -1217,6 +1217,12 @@ Bash scripting is like writing a recipe for a computer chef -- variables are the
 - [Cron and Scheduling](/03-process-management/cron-and-scheduling/) -- Scheduled tasks often execute bash scripts at specified intervals.
 :::
 
+## Related in this track
+
+- [Core Utilities](/01-cli-fundamentals/core-utilities/)
+- [Shell Basics](/01-cli-fundamentals/shell-basics/)
+- [Text Processing](/01-cli-fundamentals/text-processing/)
+
 ---
 
 ## Core Utilities
@@ -2161,6 +2167,12 @@ Core utilities are the Swiss Army knife of Linux -- ls lists files like a direct
 - [File Permissions](/02-file-systems/file-permissions/) -- Commands like chmod and chown are core utilities for managing file access.
 :::
 
+## Related in this track
+
+- [Bash Scripting](/01-cli-fundamentals/bash-scripting/)
+- [Shell Basics](/01-cli-fundamentals/shell-basics/)
+- [Text Processing](/01-cli-fundamentals/text-processing/)
+
 ---
 
 ## Shell Basics
@@ -3070,6 +3082,12 @@ The shell is like a translator between you and the operating system -- you speak
 - [Core Utilities](/01-cli-fundamentals/core-utilities/) -- Shell commands invoke core utilities; understanding the shell enhances command-line efficiency.
 - [Processes and Signals](/03-process-management/processes-and-signals/) -- The shell creates and manages processes; background jobs and signals are shell-level concepts.
 :::
+
+## Related in this track
+
+- [Bash Scripting](/01-cli-fundamentals/bash-scripting/)
+- [Core Utilities](/01-cli-fundamentals/core-utilities/)
+- [Text Processing](/01-cli-fundamentals/text-processing/)
 
 ---
 
@@ -4141,6 +4159,12 @@ Text processing in Linux is like having a team of specialised editors -- grep fi
 - [Bash Scripting](/01-cli-fundamentals/bash-scripting/) -- Regular expressions and text processing are frequently used in bash scripts for data manipulation.
 - [File Permissions](/02-file-systems/file-permissions/) -- Log file analysis requires understanding file ownership and access permissions.
 :::
+
+## Related in this track
+
+- [Bash Scripting](/01-cli-fundamentals/bash-scripting/)
+- [Core Utilities](/01-cli-fundamentals/core-utilities/)
+- [Shell Basics](/01-cli-fundamentals/shell-basics/)
 
 ## File-Systems
 
@@ -6834,6 +6858,11 @@ Cron is like having a tireless personal assistant who checks your to-do list eve
 - [File Permissions](/02-file-systems/file-permissions/) -- Crontab files and scripts require appropriate permissions for execution.
 :::
 
+## Related in this track
+
+- [I/O Redirection and Pipes](/03-process-management/io-redirection/)
+- [Processes and Signals](/03-process-management/processes-and-signals/)
+
 ---
 
 ## Io Redirection
@@ -7717,6 +7746,11 @@ I/O redirection is like rerouting pipes in a plumbing system -- stdout is the ma
 - [Cron and Scheduling](/03-process-management/cron-and-scheduling/) -- Scheduled tasks use redirection to log output to files.
 :::
 
+## Related in this track
+
+- [Cron and Task Scheduling](/03-process-management/cron-and-scheduling/)
+- [Processes and Signals](/03-process-management/processes-and-signals/)
+
 ---
 
 ## Processes And Signals
@@ -8551,6 +8585,11 @@ Processes are like workers in a factory -- each has a task (program), a workspac
 - [Shell Basics](/01-cli-fundamentals/shell-basics/) -- The shell is a process that creates and manages child processes.
 - [File Permissions](/02-file-systems/file-permissions/) -- Process credentials determine which file permissions apply during execution.
 :::
+
+## Related in this track
+
+- [Cron and Task Scheduling](/03-process-management/cron-and-scheduling/)
+- [I/O Redirection and Pipes](/03-process-management/io-redirection/)
 
 ## Networking
 
@@ -9411,6 +9450,11 @@ Processes are programs in execution, each with its own memory space and priority
 
 - [Package Management](/07-package-management/package-management/)
 - [Linux Security](/06-security/linux-security/)
+
+## Related in this track
+
+- [Linux Firewalls](/04-networking/firewalls/)
+- [Linux Networking](/04-networking/linux-networking/)
 
 ---
 
@@ -10412,6 +10456,11 @@ Processes are programs in execution, each with its own memory space and priority
 - [Package Management](/07-package-management/package-management/)
 - [Linux Security](/06-security/linux-security/)
 
+## Related in this track
+
+- [DNS and DHCP on Linux](/04-networking/dns-and-dhcp/)
+- [Linux Networking](/04-networking/linux-networking/)
+
 ---
 
 ## Index
@@ -11381,6 +11430,11 @@ Processes are programs in execution, each with its own memory space and priority
 
 - [Package Management](/07-package-management/package-management/)
 - [Linux Security](/06-security/linux-security/)
+
+## Related in this track
+
+- [DNS and DHCP on Linux](/04-networking/dns-and-dhcp/)
+- [Linux Firewalls](/04-networking/firewalls/)
 
 ## Systemd
 
@@ -16114,6 +16168,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Introduction to Linux](/intro/)
+- [LVM and Disk Partitioning](/lvm-and-disk-partitioning/)
+- [Linux Administration Study Guide](/hub/)
+- [Linux Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Glossary
@@ -16719,6 +16780,13 @@ services:
 - See [Database Glossary](/glossary/) for Linux database administration
 - See [Networking Glossary](/glossary/) for network concepts
 - See [Security Glossary](/glossary/) for security concepts
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Introduction to Linux](/intro/)
+- [LVM and Disk Partitioning](/lvm-and-disk-partitioning/)
+- [Linux Administration Study Guide](/hub/)
 
 ---
 
@@ -17397,6 +17465,13 @@ Keep it updated. Minimise installed packages. Use firewall rules. Enable SELinux
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Introduction to Linux](/intro/)
+- [LVM and Disk Partitioning](/lvm-and-disk-partitioning/)
+- [Linux Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Index
@@ -17626,6 +17701,13 @@ Run.
 
 - **[Site Home](../../):** Main landing page for linux notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [LVM and Disk Partitioning](/lvm-and-disk-partitioning/)
+- [Linux Administration Study Guide](/hub/)
+- [Linux Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -19596,6 +19678,13 @@ LVM is like having a storage system with rubber walls -- you can resize, move, a
 - [Bash Scripting](/01-cli-fundamentals/bash-scripting/) -- Automating LVM operations like snapshots and resizing is done through bash scripts.
 - [Core Utilities](/01-cli-fundamentals/core-utilities/) -- Commands like fdisk, mkfs, and pvcreate are essential utilities for disk management.
 :::
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Introduction to Linux](/intro/)
+- [Linux Administration Study Guide](/hub/)
+- [Linux Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 

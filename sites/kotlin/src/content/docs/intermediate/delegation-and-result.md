@@ -440,3 +440,10 @@ build fluency.
 
 - **[Site Home](../../):** Main landing page for kotlin notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Coroutines](/intermediate/coroutines/)
+- [Generics](/intermediate/generics/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)

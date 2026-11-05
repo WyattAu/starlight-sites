@@ -844,3 +844,8 @@ The TCP state machine is the lifecycle of a TCP connection. Think of it as a pho
 - [TCP and UDP](/03-tcp-udp/tcp-and-udp/)
 - [UDP Deep Dive](/03-tcp-udp/udp-deep-dive/)
 - [Network Tools](/07-network-tools/network-tools/)
+
+## Related in this track
+
+- [TCP and UDP](/03-tcp-udp/tcp-and-udp/)
+- [UDP Deep Dive](/03-tcp-udp/udp-deep-dive/)

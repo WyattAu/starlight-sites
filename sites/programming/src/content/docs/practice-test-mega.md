@@ -830,3 +830,9 @@ What does `std::function` provide?
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete C++ Programming Study Guide](/hub/)
+- [Programming Concepts Glossary, Key Terms](/glossary/)

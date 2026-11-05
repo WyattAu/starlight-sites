@@ -235,3 +235,10 @@ operators (Spectral).
 - **Confusing the dual of $\ell^1$ with $\ell^1$:** The dual of $\ell^1$ is $\ell^\infty$, not $\ell^1$. This asymmetry is a common source of errors when computing dual norms or applying the Hahn-Banach theorem.
 - **Forgetting that compact operators have at most countable spectrum:** Non-compact operators can have continuous spectrum. The spectral theorem for compact self-adjoint operators guarantees a discrete eigenvalue expansion, which does not generalise to all bounded operators.
 - **Assuming all bounded linear operators are compact:** The identity operator on an infinite-dimensional space is bounded but not compact. Compactness is a strong condition that fails for most operators on infinite-dimensional spaces.
+
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)

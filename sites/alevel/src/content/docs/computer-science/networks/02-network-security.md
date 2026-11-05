@@ -750,3 +750,7 @@ implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
+## Related in this track
+
+- [Network Fundamentals](/computer-science/networks/01-network-fundamentals/)
+- [Web Technologies](/computer-science/networks/05-web-technologies/)

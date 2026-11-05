@@ -206,3 +206,10 @@ $V_0/R$.
 - **[Differential Equations](/further-maths/pure-mathematics/07-differential-equations/):** Differential equations require calculus techniques
 - **[Further Calculus](/further-maths/pure-mathematics/04-further-calculus/):** Calculus underpins further mathematics
 - **[Pure Mathematics](/further-maths/further-maths/):** Further maths extends A-level mathematics
+
+## Related in this track
+
+- [A-Level Further Maths -- Diagnostic Guide](/further-maths/diagnostics/diagnostic-guide/)
+- [Complex Numbers -- Diagnostic Tests](/further-maths/diagnostics/diag-complex-numbers/)
+- [Further Algebra -- Diagnostic Tests](/further-maths/diagnostics/diag-further-algebra/)
+- [Further Calculus -- Diagnostic Tests](/further-maths/diagnostics/diag-further-calculus/)

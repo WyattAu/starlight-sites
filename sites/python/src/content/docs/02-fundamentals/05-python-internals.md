@@ -891,3 +891,10 @@ Python internals are the machinery beneath the syntax. CPython compiles source t
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Concurrency Primitives](https://languages.wyattau.com/python/05-standard-library/05-concurrency-primitives/)
 - [Modules and Packages](https://go.wyattau.com/advanced/modules-and-packages/)
+
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/02-fundamentals/03-functions/)
+- [Generators and Iterators](/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/02-fundamentals/06-modules-and-packages/)

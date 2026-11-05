@@ -1061,3 +1061,8 @@ key theorems, methods, and problem-solving approaches.
 - Dynamic Programming -- Shortest path problems can be solved with DP; Bellman-Ford is essentially a DP algorithm.
 - [Deques and Priority Queues](/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues/) -- Priority queues are the key data structure for efficient Dijkstra and Prim implementations.
 :::
+
+## Related in this track
+
+- [Advanced Data Structures](/algorithms/07-graph-algorithms/advanced-data-structures/)
+- [Advanced Graph Algorithms](/algorithms/07-graph-algorithms/advanced-graph-algorithms/)

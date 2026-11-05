@@ -437,6 +437,13 @@ Classical field theory extends mechanics from particles to continuous media. A f
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+- [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)
+
 ---
 
 ## Flashcards Classical Mechanics
@@ -697,6 +704,13 @@ D'Alembert's principle requires that constraint forces do no virtual work. This 
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+- [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)
 
 ---
 
@@ -1167,6 +1181,13 @@ Canonical momentum $p_j = \partial L/\partial \dot{q}_j$ is not always equal to 
 **Mistake 3: Misapplying Poisson brackets**
 The Poisson bracket $\{f, g\}$ is antisymmetric: $\{f, g\} = -\{g, f\}$. A common error is forgetting this sign when computing brackets of position and momentum. The fundamental brackets are $\{q_j, p_k\} = \delta_{jk}$, $\{q_j, q_k\} = 0$, and $\{p_j, p_k\} = 0$. Mixing up the order changes the sign.
 
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+- [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)
+
 ---
 
 ## Hamiltonian Mechanics Advanced Topics
@@ -1407,6 +1428,13 @@ Hamiltonian mechanics reformulates Newton's laws in terms of energy rather than 
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)
 
 ---
 
@@ -2101,6 +2129,13 @@ The Lagrangian $L = T - V$ is valid when the potential $V$ is velocity-independe
 **Mistake 3: Forgetting that the action is stationary, not necessarily minimised**
 Hamilton's principle states the action is stationary ($\delta S = 0$), not necessarily minimised. The actual path can be a saddle point or even a local maximum of the action. The stationarity condition is what yields the Euler-Lagrange equations, and the second variation determines whether the path is a minimum.
 
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
 ---
 
 ## Newtonian Mechanics Review
@@ -2552,6 +2587,13 @@ The action-reaction pair in Newton's third law always acts on different objects.
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
 ---
 
 ## Noether S Theorem And Conservation Laws
@@ -2870,6 +2912,13 @@ the symplectic structure page.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
 ---
 
 ## Nonlinear Dynamics And Chaos
@@ -3101,6 +3150,13 @@ Nonlinear dynamics reveals that deterministic systems can produce unpredictable 
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
 
 ---
 
@@ -3930,6 +3986,13 @@ Classical mechanics is the foundation of physics: it describes how objects move 
 
 **Neglecting sign conventions in potential energy:** The gravitational potential V = mgh assumes a reference at h = 0. Choosing the wrong reference point or sign flips the energy conservation equation.
 
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
 ---
 
 ## Rigid Body Dynamics
@@ -4246,6 +4309,13 @@ The parallel axis theorem for the inertia tensor is $I_{jk}' = I_{jk}^{(\mathrm{
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
 ---
 
 ## Rigid Body Dynamics Advanced Topics
@@ -4498,6 +4568,13 @@ coupled or driven systems, numerical integration of the full Euler equations is 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
 ---
 
 ## Small Oscillations And Normal Modes
@@ -4697,6 +4774,13 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
 
 ---
 
@@ -4990,6 +5074,13 @@ ergodic; common in statistical mechanics reasoning; is unjustified.
 - [Nonlinear Dynamics and Chaos](/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/): the dissipative counterpart
 - [How to Use These Notes](https://mathematics.wyattau.com/how-to-use/); the method
 
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
 ## Thermal-Physics
 
 ---
@@ -5192,6 +5283,13 @@ Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic at
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+- [Fluctuation-Dissipation Theorem](/2-thermal-physics/13_fluctuation-dissipation-theorem/)
 
 ---
 
@@ -5436,6 +5534,13 @@ The Maxwell-Boltzmann distribution is what quantum statistics looks like when pa
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+- [Fluctuation-Dissipation Theorem](/2-thermal-physics/13_fluctuation-dissipation-theorem/)
+
 ---
 
 ## Common Pitfalls
@@ -5613,6 +5718,13 @@ Thermodynamic pitfalls arise from confusing mathematical formalism with physical
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+- [Fluctuation-Dissipation Theorem](/2-thermal-physics/13_fluctuation-dissipation-theorem/)
 
 ---
 
@@ -5826,6 +5938,13 @@ A Fermi gas at finite temperature is like a theatre filling up with picky patron
 }
 </script>
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fluctuation-Dissipation Theorem](/2-thermal-physics/13_fluctuation-dissipation-theorem/)
+
 ---
 
 ## Fluctuation Dissipation Theorem
@@ -6024,6 +6143,13 @@ The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
 
 ---
 
@@ -6357,6 +6483,13 @@ $\blacksquare$
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+
 ---
 
 ## Ising Model And Mean Field Theory
@@ -6598,6 +6731,13 @@ Critical exponents are universal: they depend only on the dimensionality of the 
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+
 ---
 
 ## Landau Theory Of Phase Transitions
@@ -6794,6 +6934,13 @@ Landau theory is a mathematical framework for understanding how systems choose b
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
 
 ---
 
@@ -7046,6 +7193,13 @@ For indistinguishable particles, the phase space volume must be divided by $N!$ 
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+
 ---
 
 ## Phase Transitions
@@ -7252,6 +7406,13 @@ Phase transitions are sudden rearrangements of matter's structure. First-order t
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
 
 ---
 
@@ -7606,6 +7767,13 @@ Thermal physics connects the microscopic world of individual particles to the ma
 
 **Forgetting the density of states in Fermi energy calculations:** The Fermi energy depends on the number density n through E_F = (ℏ²/2m)(3π²n)^(2/3). Omitting the density of states factor gives incorrect degeneracy temperatures.
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+
 ---
 
 ## Quantum Statistical Mechanics Advanced Topics
@@ -7896,6 +8064,13 @@ $C/A = (2\pi^2 k_B^4)/(15\hbar^3 c^2)\,T^3 \propto T^3$ (Debye $T^3$ in 2D).
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+
 ---
 
 ## Quantum Statistics In Detail
@@ -8101,6 +8276,13 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
 
 ---
 
@@ -8395,6 +8577,13 @@ Statistical mechanics bridges the microscopic world of individual atoms to the m
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+
 ---
 
 ## The Debye Model Of Solids
@@ -8606,6 +8795,13 @@ The average sound speed $v_s$ used in the Debye model must account for both long
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+
 ---
 
 ## The Grand Canonical Ensemble
@@ -8808,6 +9004,13 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 ## Intuition
 
 The grand canonical ensemble is the most flexible statistical framework because it allows both energy and particle number to fluctuate. The chemical potential acts like a price for adding particles: if it is low, particles flow in; if high, they flow out. The fugacity is the exponential of this price, weighting different particle numbers. For quantum gases, the grand partition function logically produces Fermi-Dirac and Bose-Einstein statistics from the same formalism, with the only difference being whether states can be occupied once or many times.
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
 
 ---
 
@@ -9017,6 +9220,13 @@ The Ising model is the simplest system showing how local interactions create glo
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+
 ---
 
 ## The Laws Of Thermodynamics
@@ -9217,6 +9427,13 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
 
 ---
 
@@ -9600,6 +9817,13 @@ Thermodynamic response functions measure how a system reacts to small changes in
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
 
 ---
 
@@ -12907,6 +13131,13 @@ Theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-o
 - [Irreversible Thermodynamics and Fluctuations](/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations/)
 - [Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
+
 ---
 
 ## Thermodynamics Of Information Processing
@@ -13089,6 +13320,13 @@ Landauer's principle reveals that information is physical: erasing a bit must di
 - [Thermal Physics](./)
 - [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/)
 - [Phase Transitions](/2-thermal-physics/10_phase-transitions/)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)
 
 ## Electromagnetism
 
@@ -13378,6 +13616,13 @@ Antenna theory describes how oscillating currents generate electromagnetic radia
 
 </aside>
 
+## Related in this track
+
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
+- [Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)
+
 ---
 
 ## Electrodynamics
@@ -13599,6 +13844,13 @@ Faraday's law $\nabla \times \mathbf{E} = -\partial\mathbf{B}/\partial t$ applie
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
+- [Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)
 
 ---
 
@@ -13959,6 +14211,13 @@ The Poynting vector $\mathbf{S} = \mathbf{E} \times \mathbf{B}/\mu_0$ gives the 
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
+- [Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)
 
 ---
 
@@ -14855,6 +15114,13 @@ In linear magnetic materials, $\mathbf{B} = \mu \mathbf{H}$, so they are paralle
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Maxwell's Equations](/3-electromagnetism/1_maxwell-s-equations/)
+
 ---
 
 ## Maxwell S Equations
@@ -15196,6 +15462,13 @@ The integral form of Gauss's law $\oint \mathbf{E} \cdot d\mathbf{A} = Q_{\text{
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
+
 ---
 
 ## Plasma Physics Brief Overview
@@ -15369,6 +15642,13 @@ $\blacksquare$
 - [Electromagnetism](./)
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/)
 - [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
 
 ---
 
@@ -15595,6 +15875,13 @@ Gauge symmetry is the idea that potentials are not unique but the fields they pr
 - **Confusing retarded time with actual time:** The Liénard-Wiechert potentials depend on the charge's position at the retarded time $t_r = t - R/c$, not at the present time. Using the current position gives incorrect fields for moving charges.
 - **Assuming gauge transformations change physical fields:** Gauge transformations change the potentials $(\Phi, \mathbf{A})$ but leave the electric and magnetic fields $(\mathbf{E}, \mathbf{B})$ unchanged. If your calculation gives different fields after a gauge transformation, you have made an error.
 - **Neglecting the radiation field when computing force on a charge:** The $1/R$ radiation field falls off more slowly than the $1/R^2$ velocity field. At large distances, only the radiation field matters, but at short distances the velocity field dominates.
+
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
 
 ---
 
@@ -16495,6 +16782,13 @@ Maxwell's equations are the four laws that govern all classical electromagnetic 
 
 **Sign errors in Faraday's law:** The minus sign in curl E = -∂B/∂t is Lenz's law, the induced EMF opposes the change in flux. Dropping the minus sign gives the wrong direction of induced current.
 
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
+
 ---
 
 ## Radiation From Accelerating Charges
@@ -16695,6 +16989,13 @@ The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is neglig
 ## Intuition
 
 Radiation is how accelerating charges shed energy. The Larmor formula shows that power radiated is proportional to the square of acceleration, so rapidly changing charges radiate intensely. The toroidal radiation pattern means antennas radiate maximally perpendicular to their axis, like a doughnut of energy. Synchrotron radiation becomes directional at relativistic speeds because the radiation cone narrows, like a lighthouse beam. Bremsstrahlung produces a continuous X-ray spectrum because the deceleration is随机. The radiation reaction force is the charge feeling its own field, a subtle effect that becomes important in extreme environments.
+
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
 
 ---
 
@@ -16904,6 +17205,13 @@ Special relativity and electromagnetism are two aspects of the same theory. Elec
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
+
 ---
 
 ## Special Relativity And Electromagnetism 12
@@ -17077,6 +17385,13 @@ width $\sim 1/\gamma$ around the plane perpendicular to the motion. This is the 
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
 
 ---
 
@@ -17284,6 +17599,13 @@ TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inser
 ## Intuition
 
 A waveguide is a metallic pipe that channels electromagnetic waves like a flute channels sound. The cutoff frequency acts like a minimum note: waves below this frequency cannot propagate and decay exponentially. Phase velocity exceeding c is not a paradox because it carries no information; the group velocity, which does, stays below c. Cavities are like organ pipes for microwaves, resonating at specific frequencies determined by their dimensions. The quality factor measures how long a cavity rings, like how long a bell sustains its tone after being struck.
+
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)
 
 ## Optics-And-Waves
 
@@ -17501,6 +17823,13 @@ The coherence time $\tau_c \approx 1/\Delta\nu$ characterises how long the field
 The van Cittert-Zernike theorem shows that even an extended incoherent source produces spatially coherent light over a finite area $A_c \approx \lambda^2/\Omega$. The coherence area increases as the source becomes more compact. Students sometimes think only lasers or point sources produce spatially coherent light, when in fact any source produces some degree of spatial coherence over sufficiently small transverse distances.
 
 Coherence is the predictability of a wave's phase over time and space. A laser maintains phase relationships for microseconds, allowing interference over meters. A light bulb's atoms emit independently, so phases randomize in femtoseconds, limiting coherence to micrometers. The coherence length is the maximum path difference where interference fringes remain visible, like the distance over which two runners stay in step. Spatial coherence depends on source size: a point source is perfectly coherent across space, while an extended source like the sun has limited spatial coherence. The van Cittert-Zernike theorem connects source angular size to coherence area.
+
+## Related in this track
+
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+- [Computational Imaging and Adaptive Optics](/4-optics-and-waves/23_computational-imaging-and-adaptive-optics/)
 
 ---
 
@@ -17728,6 +18057,13 @@ Coherence measures how predictable the phase relationship is between different p
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+- [Computational Imaging and Adaptive Optics](/4-optics-and-waves/23_computational-imaging-and-adaptive-optics/)
+
 ---
 
 ## Coherence Theory 16
@@ -17906,6 +18242,13 @@ Coherence theory bridges the gap between perfectly monochromatic waves and reali
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+- [Computational Imaging and Adaptive Optics](/4-optics-and-waves/23_computational-imaging-and-adaptive-optics/)
+
 ---
 
 ## Common Pitfalls
@@ -18074,6 +18417,13 @@ Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and F
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Computational Imaging and Adaptive Optics](/4-optics-and-waves/23_computational-imaging-and-adaptive-optics/)
+
 ---
 
 ## Computational Imaging And Adaptive Optics
@@ -18241,6 +18591,13 @@ $\blacksquare$
 - [Optics and Wave Physics](./)
 - [The Wave Equation](/4-optics-and-waves/1_the-wave-equation/)
 - [Fresnel Equations](/4-optics-and-waves/10_fresnel-equations/)
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -18461,6 +18818,13 @@ Fresnel diffraction is the transition zone between near-field and far-field beha
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -18784,6 +19148,13 @@ The Rayleigh criterion gives $\theta_{\min} = 1.22\lambda/D$ for circular apertu
 Diffraction is the bending of waves around obstacles and through openings, arising because a wavefront passing through a slit becomes a source of secondary wavelets in every direction. The narrower the slit relative to the wavelength, the more the wave spreads out. Double-slit diffraction combines two effects: the interference pattern from two point sources, modulated by the single-slit diffraction envelope. Missing orders appear when the interference maximum coincides with a diffraction minimum, effectively canceling that bright fringe. The Fourier transform of the aperture function gives the far-field pattern directly, linking the shape of the opening to the shape of the light distribution.
 :::
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+
 ---
 
 ## Dispersion
@@ -18987,6 +19358,13 @@ The Abbe number $V_d = (n_d - 1)/(n_F - n_C)$ measures how much a material dispe
 ## Intuition
 
 Dispersion occurs when different frequencies of light travel at different speeds through a medium. This is why prisms split white light into colors and why glass fibers spread out short pulses. The refractive index depends on frequency because the medium's electrons respond differently to different driving frequencies. Normal dispersion means higher frequencies see a higher refractive index and travel slower. Near absorption resonances, anomalous dispersion occurs. Group velocity describes how fast a pulse envelope travels, while phase velocity describes individual wave crests. In dispersive media, these can differ dramatically, even exceeding the speed of light without violating causality.
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -19312,6 +19690,13 @@ The Fresnel coefficients $r$ and $t$ are amplitude ratios, while $R = |r|^2$ and
 **Mistake 3: Assuming $|\mathbf{E}| = c|\mathbf{B}|$ implies $\mathbf{E}$ and $\mathbf{B}$ have the same units**
 The relation $E = cB$ is in SI units, where $E$ is in V/m and $B$ is in tesla. The numerical values differ by a factor of $c \approx 3 \times 10^8$. In Gaussian units, $E = B$ numerically. Students sometimes forget this distinction when comparing results from different unit systems.
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+
 ---
 
 ## Fourier Optics
@@ -19515,6 +19900,13 @@ A thin lens adds a quadratic phase factor $\exp(-ik(x^2+y^2)/(2f))$. The Fourier
 The second lens in a 4f system performs another Fourier transform, which introduces a coordinate inversion: $U_{\text{out}}(x,y) \propto U_{\text{in}}(-x,-y)$ when no filter is present. Students sometimes forget this inversion when designing spatial filtering experiments, leading to unexpectedly mirrored output images.
 
 Fourier optics treats lenses as analog computers that perform Fourier transforms at the speed of light. A lens converts spatial patterns into their frequency components at its focal plane. The convolution theorem explains why complex apertures produce predictable patterns: multiplying apertures convolves their spectra. This is why a grating produces discrete spots while a single slit produces a continuous spread. The optical transfer function describes how well an imaging system preserves different spatial frequencies, like an equalizer for images.
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -19739,6 +20131,13 @@ The pattern is a product of two sinc$^2$ functions. The first zero along $u$ occ
 
 Fourier optics reveals that diffraction is fundamentally a frequency decomposition. When light passes through an aperture, the far-field pattern is the spatial frequency content of that aperture shape. A narrow slit has broad frequency content, producing a wide diffraction pattern. The convolution theorem explains why grating patterns combine: multiplying apertures convolves their patterns. This is why a double-slit produces interference fringes modulated by the single-slit envelope. The lens performs a physical Fourier transform, converting spatial information into angular information at its focal plane.
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+
 ---
 
 ## Fourier Optics 15
@@ -19903,6 +20302,13 @@ Fourier optics reveals that every lens is a frequency analyser. When light passe
 - [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/) -- The wave equation and diffraction theory provide the physical foundation for the Fourier transform interpretation of lens systems.
 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -20141,6 +20547,13 @@ Fresnel equations describe how light splits at an interface between two media. A
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+
 ---
 
 ## Geometric Optics
@@ -20348,6 +20761,13 @@ A real image is formed by converging rays and can be projected onto a screen. A 
 
 **Mistake 3: Misidentifying the direction of total internal reflection**
 Total internal reflection occurs only when light travels from a denser medium to a rarer medium ($n_1 > n_2$) at an angle greater than the critical angle. It does not occur in the opposite direction. Students sometimes apply the critical angle formula regardless of the direction of propagation, which gives incorrect results.
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -20775,6 +21195,13 @@ Interference can occur with a single source split and recombined (as in Young's 
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+
 ---
 
 ## Lasers
@@ -20980,6 +21407,13 @@ The spontaneous emission factor $\beta$ distributes a small fraction of spontane
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+
 ---
 
 ## Lasers 17
@@ -21178,6 +21612,13 @@ $\mathcal{R} = \lambda/\delta\lambda = 500/0.0089 \approx 56\,000$.
 
 </details>
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+
 ---
 
 ## Nonlinear Optics
@@ -21342,6 +21783,13 @@ Linear optics assumes the medium's response is proportional to the applied field
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -21512,6 +21960,13 @@ The value $2.405$ is the first zero of $J_0$, which determines the cutoff of the
 ## Intuition
 
 Optical fibers guide light through total internal reflection, trapping it in a core surrounded by cladding with a lower refractive index. The critical angle determines the cone of acceptance: light entering within this cone is guided, while light at steeper angles escapes. Multimode fibers allow many paths, causing pulse spreading as different modes travel different distances. Single-mode fibers restrict light to one path, eliminating this dispersion and enabling long-distance communication. The cladding is not just protective but essential for guiding, and the fiber's bending radius determines how much light leaks out.
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -21707,6 +22162,13 @@ The Poincare sphere uses the normalised Stokes parameters $(S_1/S_0, S_2/S_0, S_
 ## Intuition
 
 Polarisation describes the direction in which light's electric field oscillates. Unpolarised light has random orientations, but passing it through a polariser selects one direction. Malus's law gives the intensity after a second polariser as proportional to the cosine squared of the angle between them. Birefringent materials split light into two polarisation components that travel at different speeds, creating phase shifts. Circular polarisation occurs when two orthogonal linear components have a quarter-cycle phase difference. Polarisation is used in LCD screens, 3D cinema, and stress analysis, where birefringent patterns reveal mechanical strain.
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -21963,6 +22425,13 @@ After passing through one ideal polariser, unpolarised light of intensity $I_0$ 
 
 Polarization describes the orientation of a light wave's electric field oscillation. Unpolarised light has field vectors pointing in random directions, while linearly polarised light oscillates in a single plane. Malus's law states that when polarised light passes through a polariser, intensity drops as the cosine squared of the angle between them because only the component along the polariser's axis gets through. Brewster's angle is the angle at which reflected light becomes completely polarised because the reflected and refracted rays are perpendicular, eliminating one polarisation component. Scattering at 90 degrees also produces polarisation through the same dipole radiation pattern.
 :::
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -22283,6 +22752,13 @@ Optics problems revolve around a central theme: light behaves as a wave when the
 **Confusing path difference with optical path difference:** Optical path difference includes refractive index: Δ = n·d. Using geometric path length instead of optical path gives wrong interference patterns in layered media.
 
 **Using the small-angle approximation when it doesn't apply:** sin θ ≈ θ works for small angles, but fails for wide slits or large diffraction orders. Always check the angle range before approximating.
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ---
 
@@ -22643,6 +23119,13 @@ The superposition principle applies only to linear media. In non-linear optics (
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
 
 ## Quantum-Mechanics
 
@@ -23118,6 +23601,13 @@ The $z$-component of angular momentum satisfies $|L_z| \leq \hbar l < \hbar\sqrt
 **Mistake 3: Forgetting that $l$ is restricted to integers for orbital angular momentum**
 For orbital angular momentum (defined as $\hat{\mathbf{L}} = \hat{\mathbf{r}} \times \hat{\mathbf{p}}$), $l$ must be a non-negative integer because the wave function must be single-valued under a full rotation. Half-integer $l$ values are allowed for spin angular momentum but not for orbital angular momentum. Never assign $l = 1/2$ to an orbital state.
 
+## Related in this track
+
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+- [Identical Particles and Exchange Symmetry](/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)
+
 ---
 
 ## Approximation Methods
@@ -23532,6 +24022,13 @@ Analysis](https://mathematics.wyattau.com/3-real-analysis/3_series/) and
 - **Neglecting degenerate perturbation theory when eigenvalues are degenerate:** Non-degenerate perturbation theory gives infinite corrections when two unperturbed states have the same energy. You must diagonalise the perturbation matrix in the degenerate subspace first.
 - **Applying WKB near classical turning points:** The WKB approximation breaks down where $p(x) = 0$ (turning points) because the semiclassical wavefunction diverges. Use connection formulas to match WKB solutions across turning points.
 
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+- [Identical Particles and Exchange Symmetry](/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)
+
 ---
 
 ## Density Functional Theory Conceptual Overview
@@ -23691,6 +24188,13 @@ Density functional theory replaces the complicated many-body wavefunction with t
 
 - **Hohenberg--Kohn mapping.** The external potential $V_{\text{ext}}(\mathbf{r})$ is a unique functional of the ground-state density $n(\mathbf{r})$ (up to a constant), so all ground-state properties are functionals of $n$ alone.
 - **Kohn--Sham self-consistency.** The effective potential $V_{\text{eff}}[n]$ depends on $n(\mathbf{r})$, which is built from the Kohn--Sham orbitals that are themselves solutions of the equations with $V_{\text{eff}}[n]$. This requires iterative self-consistent solution.
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+- [Identical Particles and Exchange Symmetry](/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)
 
 ---
 
@@ -24024,6 +24528,13 @@ Quantum mechanics emerged because classical physics kept hitting walls. Imagine 
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Identical Particles and Exchange Symmetry](/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)
+
 ---
 
 ## Identical Particles And Exchange Symmetry
@@ -24344,6 +24855,13 @@ Calculus](https://mathematics.wyattau.com/14-graduate-stochastic-analysis/1_ito-
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
 
 ---
 
@@ -25073,6 +25591,13 @@ The ground state energy of a quantum system is never zero for a confining potent
 **Mistake 3: Misunderstanding quantum tunnelling**
 Tunnelling does not require the particle to "have" energy greater than the barrier height inside the barrier. The wave function extends into the classically forbidden region with exponentially decreasing amplitude. The particle's energy is $E < V_0$ throughout, and the tunnelling probability decreases exponentially with barrier width and height.
 
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+
 ---
 
 ## Operators And Observables
@@ -25470,6 +25995,13 @@ Theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-o
 - [Hilbert Spaces](https://mathematics.wyattau.com/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)
 - [Bounded Linear Operators](https://mathematics.wyattau.com/11-functional-analysis/3_bounded-linear-operators/)
 
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+
 ---
 
 ## Postulates Of Quantum Mechanics
@@ -25755,6 +26287,13 @@ Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/).
    dimension at least three -- the two-dimensional case has an explicit
    noncontextual model, and the difference is instructive.
 
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+
 ---
 
 ## Practice Quantum Mechanics
@@ -25995,6 +26534,13 @@ Working through quantum mechanics problems builds physical intuition about the c
 **Confusing the time-independent and time-dependent Schrödinger equations:** The time-independent form gives energy eigenstates; the time-dependent form describes evolution. Using the wrong one gives stationary vs evolving solutions.
 
 **Neglecting boundary conditions at potential steps:** At a potential discontinuity, ψ and dψ/dx must be continuous. Forgetting continuity of the derivative gives wrong transmission/reflection coefficients.
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
 
 ---
 
@@ -26942,6 +27488,13 @@ Perturbation theory is like adding small corrections to a solution you already k
 
 </div>
 
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+
 ---
 
 ## Scattering Theory
@@ -27348,6 +27901,13 @@ Equations](https://mathematics.wyattau.com/5-ordinary-differential-equations/1_i
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
 
 ---
 
@@ -27773,6 +28333,13 @@ Theory](/1-classical-mechanics/16_symplectic-structure-and-kam-theory/).
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+
 ---
 
 ## Time Dependent Perturbation Theory
@@ -28085,6 +28652,13 @@ Mechanics](/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/).
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+
 ---
 
 ## Variational Methods
@@ -28259,6 +28833,13 @@ The variational principle states that any trial wavefunction gives an energy est
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
 
 ---
 
@@ -28829,6 +29410,13 @@ For the infinite square well, $\psi = 0$ at the walls because the potential is i
 **Mistake 3: Assuming all wave functions are normalisable**
 Plane waves $e^{ikx}$ are not normalisable over all space and cannot represent physical states by themselves. Physical states are wave packets constructed by superposing plane waves. The energy spectrum for free particles is continuous, and the eigenfunctions form a continuum rather than a discrete set.
 
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+
 ---
 
 ## Wkb Approximation
@@ -29031,6 +29619,13 @@ WKB is the semiclassical bridge between classical and quantum mechanics. When th
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
 
 ## Solid-State-Physics
 
@@ -29363,6 +29958,13 @@ Advanced semiconductor physics goes beyond the simple pn junction to describe ho
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+- [Defects in Crystals](/6-solid-state-physics/9_defects-in-crystals/)
+
 ---
 
 ## Advanced Semiconductor Physics Continued
@@ -29573,6 +30175,13 @@ provides the crystal structure context.
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+- [Defects in Crystals](/6-solid-state-physics/9_defects-in-crystals/)
 
 ---
 
@@ -29822,6 +30431,13 @@ Superconductivity is the complete disappearance of electrical resistance below a
 | AC Josephson | $\nu = 2eV/h$ | Frequency-voltage relation |
 
 </div>
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+- [Defects in Crystals](/6-solid-state-physics/9_defects-in-crystals/)
 
 ---
 
@@ -30108,6 +30724,13 @@ Real crystals contain defects (point defects, dislocations, grain boundaries) th
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Defects in Crystals](/6-solid-state-physics/9_defects-in-crystals/)
+
 ---
 
 ## Defects In Crystals
@@ -30314,6 +30937,13 @@ Dislocations can be pinned by impurities, other dislocations, or grain boundarie
 
 **Mistake 5: Confusing the Burgers vector with the lattice vector.**
 The Burgers vector $\mathbf{b}$ describes the magnitude and direction of the lattice distortion caused by a dislocation. It is not necessarily equal to a lattice vector; it can be a fraction of a lattice vector (partial dislocations). Do not assume that the Burgers vector is always a lattice vector.
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
 
 ---
 
@@ -30526,6 +31156,13 @@ Diffraction occurs when waves encounter obstacles or periodic structures compara
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: X-ray diffraction characterises the crystal quality and composition of semiconductor materials.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
 
 ---
 
@@ -30975,6 +31612,13 @@ DFT with LDA or GGA functionals underestimates band gaps by 30--50%. Hybrid func
 **Mistake 5: Confusing the effective mass with the rest mass.**
 The effective mass $m^*$ describes how an electron responds to external fields in a periodic potential. It can be larger or smaller than the rest mass $m_e$, and can even be negative. Do not assume that the effective mass equals the rest mass.
 
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+
 ---
 
 ## Index
@@ -31415,6 +32059,13 @@ Phonons are confined to the Brillouin zone and have frequencies bounded by the m
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+
 ---
 
 ## Magnetism In Solids
@@ -31688,6 +32339,13 @@ Most materials are not ferromagnetic; they are diamagnetic, paramagnetic, antife
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+
 ---
 
 ## Many Body Physics In Solids
@@ -31860,6 +32518,13 @@ Many-body physics studies how enormous numbers of interacting particles produce 
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
 
 ---
 
@@ -32101,6 +32766,13 @@ Solid-state physics studies how atoms arranged in crystals give rise to electron
 **Forgetting that phonon dispersion has two branches:** Acoustic and optical branches exist in crystals with more than one atom per unit cell. Using only one branch misses half the vibrational modes.
 
 **Confusing metals, insulators, and semiconductors by band filling:** Metals have partially filled bands; insulators have filled bands with large gaps; semiconductors have small gaps. The distinction depends on both gap size and temperature.
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
 
 ---
 
@@ -32345,6 +33017,13 @@ Bragg diffraction peaks occur when the scattering vector $\mathbf{G}$ is a recip
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
 
 ---
 
@@ -32608,6 +33287,13 @@ Doping increases conductivity only if the doping concentration is high enough to
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
 
 ---
 
@@ -32960,6 +33646,13 @@ no consensus has formed.
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/) -- the coherent order parameter and phase, which is what the Josephson effects measure.
 - [Statistical Mechanics](https://physics.wyattau.com/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/) -- the free-energy argument behind $B_c(T)$.
 
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
+
 ---
 
 ## Topological Insulators And Semimetals
@@ -33125,6 +33818,13 @@ of the $2m$-th Kramers pair at TRIM point $\Lambda_i$. A product of $-1$ indicat
 ## Intuition
 
 Topological insulators are materials that are insulating in the bulk but conducting on the surface, with guaranteed edge states that cannot be removed by disorder. The topology is a mathematical property of the electronic wavefunctions, analogous to the shape of a doughnut being different from a sphere. These surface states are protected by time-reversal symmetry and carry spin-polarized currents. Topological semimetals extend this idea, featuring band crossings that form points or lines in momentum space. These materials are platforms for exotic physics, including Majorana fermions that could serve as qubits for topological quantum computing.
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
 
 ---
 
@@ -33312,6 +34012,13 @@ The electronic specific heat $\gamma_{\mathrm{electron}}$ is only one contributi
 ## Intuition
 
 Electrical conductivity is like traffic flow: electrons are cars, the electric field is the slope of the road, and scattering events are red lights. The Drude model treats electrons as a classical gas bouncing off ions, which explains Ohm's law but fails at low temperatures where quantum effects matter. The mean free path is how far an electron travels between collisions. Matthiessen's rule says different scattering mechanisms add independently, like different types of road obstacles. The Hall coefficient reveals whether charge carriers are positive or negative, which the simple model cannot predict.
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)
 
 ## Particle-Physics-And-Cosmology
 
@@ -33657,6 +34364,13 @@ The Sachs-Wolfe effect is gravitational redshift in action: photons climbing out
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+- [Conservation Laws and Symmetries](/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)
+
 ---
 
 ## Advanced Topics In Particle Physics
@@ -33906,6 +34620,13 @@ Advanced particle physics explores the frontier where the Standard Model meets u
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+- [Conservation Laws and Symmetries](/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)
+
 ---
 
 ## Beyond The Standard Model
@@ -34111,6 +34832,13 @@ String theory is one approach to quantum gravity, but there are other approaches
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+- [Conservation Laws and Symmetries](/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)
 
 ---
 
@@ -34679,6 +35407,13 @@ A universe with no boundary can be finite or infinite. For example, a closed uni
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Conservation Laws and Symmetries](/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)
+
 ---
 
 ## Conservation Laws And Symmetries
@@ -34892,6 +35627,13 @@ Noether's theorem relates continuous symmetries to conserved quantities. Discret
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
 
 ---
 
@@ -35146,6 +35888,13 @@ Feynman diagrams are like sheet music for particle interactions. Each note repre
 
 **Neglecting the symmetry factor:** Identical particles in final states require a 1/n! symmetry factor. Forgetting it overcounts identical configurations and gives wrong decay rates.
 
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+
 ---
 
 ## Group Theory In Particle Physics
@@ -35399,6 +36148,13 @@ All observable hadrons are colour singlets (colour-neutral). This is a consequen
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
 
 ---
 
@@ -35701,6 +36457,13 @@ Neutrinos are the most mysterious particles in the Standard Model: nearly massle
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+
 ---
 
 ## Practice Particle Physics Cosmology
@@ -35964,6 +36727,13 @@ Precision tests of the Standard Model are like checking a clock against atomic t
 - [The Standard Model](/7-particle-physics-and-cosmology/1_the-standard-model/)
 - [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
 
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+
 ---
 
 ## Problem Set
@@ -36130,6 +36900,13 @@ Particle physics seeks the fundamental building blocks of matter and the forces 
 **Forgetting that neutrinos have mass:** The original Standard Model assumed massless neutrinos. Oscillation experiments prove they have mass, but the mechanism is unknown. Using massless neutrino assumptions in cosmology gives wrong relic density.
 
 **Confusing baryon number with quark number:** Baryon number B = 1/3 for each quark; protons have B = 1. Using quark number instead of baryon number in conservation equations gives wrong results.
+
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
 
 ---
 
@@ -36313,6 +37090,13 @@ Coupling constants are not truly constant: they change with energy scale through
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
 
 ---
 
@@ -36535,6 +37319,13 @@ The Higgs mechanism in particle physics is a relativistic generalisation of the 
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
 
 ---
 
@@ -36814,6 +37605,13 @@ Some particles are their own antiparticles (such as the photon, $Z^0$, and $\pi^
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+
 ## Overview
 
 ---
@@ -36919,6 +37717,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)
+- [Complete University Physics Study Guide](/hub/)
+- [Physics](/intro/)
+- [Physics Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -37128,6 +37933,13 @@ maximised at $\theta = 45°$.
 - [Postulates of Quantum Mechanics](/5-quantum-mechanics/2_postulates-of-quantum-mechanics/); vectors again, but in Hilbert space.
 - [Newtonian Mechanics Review](/1-classical-mechanics/1_newtonian-mechanics-review/); track 1, which begins where this page ends.
 - [The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/); the scalars-only track, for contrast.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete University Physics Study Guide](/hub/)
+- [Physics](/intro/)
+- [Physics Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -37419,6 +38231,13 @@ URL: https://physics.wyattau.com/glossary/
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)
+- [Complete University Physics Study Guide](/hub/)
+- [Physics](/intro/)
 
 ---
 
@@ -37863,6 +38682,13 @@ You can, but you will miss the mathematical tools (Hamiltonian mechanics, Lagran
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)
+- [Physics](/intro/)
+- [Physics Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Index
@@ -38059,6 +38885,13 @@ Physics describes the fundamental laws governing the universe, from the motion o
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)
+- [Complete University Physics Study Guide](/hub/)
+- [Physics Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -39207,6 +40040,13 @@ mol^-1. The entropy increases because the solid (ordered) becomes liquid (more d
 | Kinetic Theory       | View       |
 
 </div>
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)
+- [Complete University Physics Study Guide](/hub/)
+- [Physics](/intro/)
 
 ---
 
@@ -40648,6 +41488,13 @@ This is four times the geometric cross section (pi*a^2). The factor of 4 arises 
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)
+- [Complete University Physics Study Guide](/hub/)
+- [Physics](/intro/)
 
 ## Diagnostics
 

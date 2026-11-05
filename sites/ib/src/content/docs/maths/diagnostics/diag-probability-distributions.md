@@ -266,3 +266,10 @@ $50\%$ only at the mean ($730\,\mathrm{g}$), not at $750\,\mathrm{g}$.
 - [Diagnostics](./)
 - [Probability -- Diagnostic Tests](/maths/diagnostics/diag-probability/)
 - [Complex Numbers -- Diagnostic Tests](/maths/diagnostics/diag-complex-numbers/)
+
+## Related in this track
+
+- [Complex Numbers -- Diagnostic Tests](/maths/diagnostics/diag-complex-numbers/)
+- [Diagnostic Test Guide](/maths/diagnostics/diagnostic-guide/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)

@@ -205,3 +205,10 @@ voltage, the more sensitive and accurate the temperature sensor.
 
 - **[Energy](/physics/diagnostics/diag-energy/):** Energy transfers and conservation.
 - **[Forces](/physics/diagnostics/diag-forces/):** Forces and motion.
+
+## Related in this track
+
+- [Energy -- Diagnostic Tests](/physics/diagnostics/diag-energy/)
+- [Forces -- Diagnostic Tests](/physics/diagnostics/diag-forces/)
+- [GCSE Physics -- Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
+- [Magnetism and Electromagnetism -- Diagnostic Tests](/physics/diagnostics/diag-magnetism/)

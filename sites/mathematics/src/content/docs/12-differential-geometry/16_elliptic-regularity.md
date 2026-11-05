@@ -256,3 +256,10 @@ the smoothing surviving the degeneracy.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)**; Lax–Milgram, which produces the weak solution regularity then promotes.
 - **[Ricci Flow and Geometrisation](/16-graduate-geometry/1_ricci-flow-and-geometrisation/)**; the maximum principle, the parabolic sibling of the elliptic theory.
 - **[Spectral Theory of Self-Adjoint Operators](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/)**; eigenfunctions of the Laplacian, smooth by this page.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)

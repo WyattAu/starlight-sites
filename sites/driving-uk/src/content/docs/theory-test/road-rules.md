@@ -92,3 +92,8 @@ When must you give way to traffic on the right?
 - [Hazard Perception](/theory-test/hazard-perception/)
 - [Multiple Choice Questions](/theory-test/multiple-choice/)
 
+## Related in this track
+
+- [Hazard Perception | driving-uk](/theory-test/hazard-perception/)
+- [Multiple Choice Questions | driving-uk](/theory-test/multiple-choice/)
+- [Traffic Signs](/theory-test/traffic-signs/)

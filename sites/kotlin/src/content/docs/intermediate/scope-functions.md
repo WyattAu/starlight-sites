@@ -391,3 +391,10 @@ code. Practice each function with realistic examples to build fluency.
 - [Intermediate](./)
 - [Collections](/intermediate/collections/)
 - [coroutines advanced](/intermediate/coroutines-advanced/)
+
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Coroutines](/intermediate/coroutines/)
+- [Generics](/intermediate/generics/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)

@@ -155,3 +155,10 @@ This page includes:
 - [Diagnostics](./)
 - [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)
 - [Cell Biology and Biochemistry -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology-biochemistry/)
+
+## Related in this track
+
+- [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)
+- [Cell Biology and Biochemistry -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology-biochemistry/)
+- [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)
+- [Genetics -- Diagnostic Tests](/biology/diagnostics/diag-genetics/)

@@ -822,3 +822,8 @@ assert_eq!(counter.get(), 2);
 
 - [Lifetimes](/02-ownership-borrowing/lifetimes/)
 - [Ownership and Borrowing](/02-ownership-borrowing/ownership/)
+
+## Related in this track
+
+- [Lifetimes](/02-ownership-borrowing/lifetimes/)
+- [Ownership and Borrowing](/02-ownership-borrowing/ownership/)

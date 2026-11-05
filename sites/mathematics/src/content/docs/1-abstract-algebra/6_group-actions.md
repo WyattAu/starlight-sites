@@ -161,3 +161,9 @@ Group actions describe how symmetry groups interact with sets. A group acts on a
 - [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/) -- Group actions on conjugacy classes and Sylow subgroups drive the classification of small-order groups.
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- Several worked examples apply orbit-stabilizer and Burnside's lemma to concrete counting problems.
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)

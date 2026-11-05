@@ -264,3 +264,10 @@ $\max_n |\lambda_n| = \|T\|$ by the spectral radius formula for self-adjoint ope
   Sturm-Liouville theory.
 - **Signal processing:** The Karhunen-Loeve transform uses the spectral decomposition of compact
   covariance operators to find optimal bases for signal representation and compression (PCA).
+
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
+- [Inner Product Spaces and Hilbert Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)

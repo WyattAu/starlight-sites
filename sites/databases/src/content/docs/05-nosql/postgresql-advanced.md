@@ -1102,3 +1102,8 @@ $\blacksquare$
 - JSONB operators (`->>`, `#>>`, `@>`, `?`) and GIN indexing enable semi-structured queries without
   a fixed schema.
 :::
+
+## Related in this track
+
+- [NoSQL Databases](/05-nosql/nosql/)
+- [Redis Deep Dive](/05-nosql/redis/)

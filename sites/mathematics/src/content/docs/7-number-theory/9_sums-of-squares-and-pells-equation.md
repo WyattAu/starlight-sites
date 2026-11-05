@@ -120,3 +120,10 @@ Check every Pell solution by substitution before quoting it: $x^2 - Dy^2$ must e
 ### 9.x A Second Pell Cascade
 
 For $D = 5$: $\sqrt5 = [2; \overline{4}]$, period 1 (odd), so $(9, 4)$ solves $x^2 - 5y^2 = 1$ from the convergent $9/4$, and $(2, 1)$ solves $x^2 - 5y^2 = -1$.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)

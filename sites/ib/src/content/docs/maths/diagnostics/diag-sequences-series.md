@@ -243,3 +243,10 @@ This page includes:
 - [Diagnostics](./)
 - [Complex Numbers -- Diagnostic Tests](/maths/diagnostics/diag-complex-numbers/)
 - [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+
+## Related in this track
+
+- [Complex Numbers -- Diagnostic Tests](/maths/diagnostics/diag-complex-numbers/)
+- [Diagnostic Test Guide](/maths/diagnostics/diagnostic-guide/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)

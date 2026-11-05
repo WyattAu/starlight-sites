@@ -605,3 +605,9 @@ across 835 pages -- so the quality complaint reduces to (a) visible
 mechanical defects like the capitals, (b) missing visuals, and (c)
 prose that reads like unedited generation. (a) is now mostly fixed and
 gated; (b) is the SVG pass above; (c) has no shortcut except reading.
+
+## Related in this track
+
+- [About Wyatt Au](/about/)
+- [Cross-Site Topic Connections | main](/cross-references/)
+- [Wyatt's Notes, Complete Study Resource Network](/hub/)

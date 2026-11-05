@@ -498,3 +498,10 @@ Total lost: $3.32 + 1.71 = 5.03\,\text{J}$. Consistent.
 - [Diagnostics](./)
 - [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
 - [DC Circuits -- Diagnostic Tests](/physics/diagnostics/diag-dc-circuits/)
+
+## Related in this track
+
+- [A-Level Physics Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
+- [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
+- [Circular Motion -- Diagnostic Tests](/physics/diagnostics/diag-circular-motion/)
+- [Current and Resistance -- Diagnostic Tests](/physics/diagnostics/diag-current-resistance/)

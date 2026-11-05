@@ -783,3 +783,9 @@ Compilers translate source code to machine code through phases: lexical analysis
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Automata and Formal Languages](/3-theory/automata-and-formal-languages/)
+- [Cryptography](/3-theory/cryptography/)
+- [Machine Learning Fundamentals](/3-theory/machine-learning-fundamentals/)

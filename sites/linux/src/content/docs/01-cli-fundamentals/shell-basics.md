@@ -910,3 +910,9 @@ The shell is like a translator between you and the operating system -- you speak
 - [Core Utilities](/01-cli-fundamentals/core-utilities/) -- Shell commands invoke core utilities; understanding the shell enhances command-line efficiency.
 - [Processes and Signals](/03-process-management/processes-and-signals/) -- The shell creates and manages processes; background jobs and signals are shell-level concepts.
 :::
+
+## Related in this track
+
+- [Bash Scripting](/01-cli-fundamentals/bash-scripting/)
+- [Core Utilities](/01-cli-fundamentals/core-utilities/)
+- [Text Processing](/01-cli-fundamentals/text-processing/)

@@ -883,3 +883,8 @@ I/O redirection is like rerouting pipes in a plumbing system -- stdout is the ma
 - [Processes and Signals](/03-process-management/processes-and-signals/) -- File descriptors are per-process resources managed by the kernel.
 - [Cron and Scheduling](/03-process-management/cron-and-scheduling/) -- Scheduled tasks use redirection to log output to files.
 :::
+
+## Related in this track
+
+- [Cron and Task Scheduling](/03-process-management/cron-and-scheduling/)
+- [Processes and Signals](/03-process-management/processes-and-signals/)

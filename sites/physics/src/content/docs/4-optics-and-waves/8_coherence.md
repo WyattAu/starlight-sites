@@ -218,3 +218,9 @@ The van Cittert-Zernike theorem shows that even an extended incoherent source pr
 
 Coherence is the predictability of a wave's phase over time and space. A laser maintains phase relationships for microseconds, allowing interference over meters. A light bulb's atoms emit independently, so phases randomize in femtoseconds, limiting coherence to micrometers. The coherence length is the maximum path difference where interference fringes remain visible, like the distance over which two runners stay in step. Spatial coherence depends on source size: a point source is perfectly coherent across space, while an extended source like the sun has limited spatial coherence. The van Cittert-Zernike theorem connects source angular size to coherence area.
 
+## Related in this track
+
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)
+- [Computational Imaging and Adaptive Optics](/4-optics-and-waves/23_computational-imaging-and-adaptive-optics/)

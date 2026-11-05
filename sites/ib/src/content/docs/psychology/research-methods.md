@@ -514,3 +514,10 @@ Think of experimental design as a recipe. The independent variable is the ingred
 4. **Assuming correlation implies causation.** A correlation between two variables does not establish that one causes the other. Confounding variables, reverse causation, and coincidence can all produce spurious correlations. Only controlled experiments with random assignment can support causal claims.
 
 5. **Failing to discuss ethical considerations.** Evaluations of psychological studies must address informed consent, deception, debriefing, and the right to withdraw. Even well-designed studies can be ethically problematic if participants are not adequately protected. Ethical evaluation is a core component of IB psychology assessments.
+
+## Related in this track
+
+- [Abnormal Psychology](/psychology/abnormal-psychology/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biological Level of Analysis](/psychology/biological-level-of-analysis/)
+- [Cognitive Level of Analysis](/psychology/cognitive-level-of-analysis/)

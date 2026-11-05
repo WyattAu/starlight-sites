@@ -682,3 +682,10 @@ With 8-bit opcode: $2^8 = 256$ possible opcodes.
 - [Fundamentals](./)
 - [Number Systems](/computer-science/fundamentals/01-number-systems/)
 - [Floating Point Representation](/computer-science/fundamentals/02-floating-point/)
+
+## Related in this track
+
+- [Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/)
+- [Floating Point Representation](/computer-science/fundamentals/02-floating-point/)
+- [Legal, Ethical, and Moral Issues](/computer-science/fundamentals/06-legal-ethical-moral/)
+- [Number Systems](/computer-science/fundamentals/01-number-systems/)

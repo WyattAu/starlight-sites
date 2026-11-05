@@ -368,3 +368,9 @@ linked above.
 - **[Merging](/git/03-branching-and-merging/02-merging/):** Integration strategy that can produce conflicts requiring resolution.
 - **[Rebasing](/git/03-branching-and-merging/03-rebasing/):** Alternative integration strategy that avoids merge commits but replays commits.
 - **[Branching](/git/03-branching-and-merging/01-branching/):** Branch creation and management fundamentals that lead to parallel development.
+
+## Related in this track
+
+- [Branching](/git/03-branching-and-merging/01-branching/)
+- [Merging](/git/03-branching-and-merging/02-merging/)
+- [Rebasing](/git/03-branching-and-merging/03-rebasing/)

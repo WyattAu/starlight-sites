@@ -1404,3 +1404,10 @@ Therefore $F$ is increasing and bounded above by $\pi/2$. $\blacksquare$
 - **[Pure Mathematics](/further-maths/further-maths/):** Further calculus is a core pure topic
 - **[Hyperbolic Functions](/further-maths/pure/hyperbolic-functions/):** Integration covers hyperbolic functions
 - **[Differential Equations](/further-maths/diagnostics/diag-differential-equations/):** Calculus solves differential equations
+
+## Related in this track
+
+- [Complex Numbers](/further-maths/pure-mathematics/01-complex-numbers/)
+- [Further Algebra](/further-maths/pure-mathematics/03-further-algebra/)
+- [Matrices](/further-maths/pure-mathematics/02-matrices/)
+- [Vectors in 3D](/further-maths/pure-mathematics/09-vectors-in-3d/)

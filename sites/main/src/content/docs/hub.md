@@ -250,3 +250,9 @@ All content is written by Wyatt. The site is a personal project dedicated to mak
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About Wyatt Au](/about/)
+- [Cross-Site Topic Connections | main](/cross-references/)
+- [Editorial Backlog](/editorial-backlog/)

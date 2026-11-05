@@ -1446,3 +1446,10 @@ This is four times the geometric cross section (pi*a^2). The factor of 4 arises 
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Mathematics Physics Assumes](/before-you-begin/)
+- [Complete University Physics Study Guide](/hub/)
+- [Physics](/intro/)

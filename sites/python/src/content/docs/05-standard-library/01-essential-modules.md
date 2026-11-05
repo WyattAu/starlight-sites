@@ -1179,3 +1179,10 @@ Python's standard library is "batteries included": it ships with modules for alm
 - [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)
 - [CLI Tools](https://languages.wyattau.com/python/05-standard-library/03-cli-tools/)
 - [Modules and Packages](https://go.wyattau.com/advanced/modules-and-packages/)
+
+## Related in this track
+
+- [CLI Tools](/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives/)
+- [File I/O](/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/05-standard-library/04-serialization/)

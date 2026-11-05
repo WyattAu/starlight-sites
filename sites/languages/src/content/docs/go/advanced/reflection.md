@@ -305,3 +305,10 @@ implementation, and key applications.
 - **[Interfaces](/go/intermediate/interfaces/):** Interface satisfaction and type assertions underlying reflection.
 - **[Generics](/go/intermediate/generics/):** Compile-time type parameters as an alternative to runtime reflection.
 - **[Types and Variables](/go/basics/types-and-variables/):** Go's type system fundamentals that reflection inspects at runtime.
+
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Testing](/go/advanced/testing/)

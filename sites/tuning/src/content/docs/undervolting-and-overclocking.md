@@ -767,3 +767,10 @@ including key principles and practical applications.
 - [CPU Fundamentals](/01-cpu-tuning/cpu-fundamentals/) - How CPU architecture determines voltage-frequency curves
 - [Cooling](/05-cooling-systems/cooling/) - How thermal headroom limits the voltage and frequency ceiling
 - [Stress Testing](/06-stress-testing/stress-testing/) - How to validate stability after voltage and clock adjustments
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Hardware Tuning Glossary, Key Terms](/glossary/)
+- [Introduction to Hardware Tuning](/intro/)
+- [PSU Selection and BIOS Configuration](/psu-and-bios-guide/)

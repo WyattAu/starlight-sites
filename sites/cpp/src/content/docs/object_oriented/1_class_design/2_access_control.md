@@ -835,3 +835,10 @@ including key principles and practical applications.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Custom Formatting with std::formatter](/object_oriented/1_class_design/6_std_formatter/)
+- [Object Layout, vptr, and the this Pointer](/object_oriented/1_class_design/1_object_layout_vptr/)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
+- [Special Member Function Generation Rules](/object_oriented/1_class_design/3_special_member_functions/)

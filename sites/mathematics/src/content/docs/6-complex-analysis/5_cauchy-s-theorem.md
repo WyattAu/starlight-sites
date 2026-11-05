@@ -189,3 +189,9 @@ Cauchy's theorem says the integral of an analytic function around a closed conto
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)

@@ -1018,3 +1018,10 @@ C++. Don't avoid returning objects because you're worried about copies, the comp
 in standard practice elide them entirely. But do ensure your move constructors are correct, because NRVO is
 not guaranteed and the compiler may fall back to moving. Write simple, single-return-point
 functions to maximize the compiler's ability to apply NRVO.
+
+## Related in this track
+
+- [Move Constructors, Assignment, Swap Idiom](/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
+- [Value Taxonomy](/resource_management/2_value_categories_and_move/1_value_taxonomy/)

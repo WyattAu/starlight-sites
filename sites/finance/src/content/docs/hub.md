@@ -116,3 +116,9 @@ judgment; the order matters, and the hub exists to keep it visible.
 One track at a time, self-tests before the next page, and the replication check after every
 price. The site is short by design; the discipline is what makes the shortness complete rather
 than thin.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Finance Assumes](/before-you-begin/)
+- [Glossary](/glossary/)

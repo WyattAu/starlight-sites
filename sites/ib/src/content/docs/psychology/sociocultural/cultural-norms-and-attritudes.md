@@ -282,3 +282,9 @@ The mind works like an information processing system. Perception filters raw sen
 - [Research Methods](/psychology/research-methods/)
 - [Approaches in Psychology](/psychology/approaches/)
 - [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
+
+## Related in this track
+
+- [Prejudice and Discrimination](/psychology/sociocultural/prejudice-and-discrimination/)
+- [Social Identity Theory](/psychology/sociocultural/social-identity-theory/)
+- [Sociocultural Level of Analysis](/psychology/sociocultural/_index/)

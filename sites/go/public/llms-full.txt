@@ -109,6 +109,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)
+- [Complete Go Programming Study Guide](/hub/)
+- [Go Glossary, Key Terms and Definitions](/glossary/)
+- [Introduction to Go](/intro/)
+
 ---
 
 ## Before You Begin
@@ -341,6 +348,13 @@ that processes them at a steady rate.
 - [Linux](https://linux.wyattau.com/); the operating system that Go programs run on and deploy to.
 - [Databases](https://databases.wyattau.com/); the storage layer that Go services connect to.
 - [Computer Science Track](https://computer-science.wyattau.com/1-discrete-mathematics/); the theoretical foundations of the concurrency model.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Go Programming Study Guide](/hub/)
+- [Go Glossary, Key Terms and Definitions](/glossary/)
+- [Introduction to Go](/intro/)
 
 ---
 
@@ -608,6 +622,13 @@ value := <-ch
 - See [Linux Glossary](/glossary/) for Go on Linux
 - See [Databases Glossary](/glossary/) for Go database access
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)
+- [Complete Go Programming Study Guide](/hub/)
+- [Introduction to Go](/intro/)
+
 ---
 
 ## Hub
@@ -871,6 +892,13 @@ Yes. Go was designed for large codebases with many contributors. Its simplicity,
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)
+- [Go Glossary, Key Terms and Definitions](/glossary/)
+- [Introduction to Go](/intro/)
 
 ---
 
@@ -1252,6 +1280,13 @@ Version control and never edited manually.
 - **Basics:** Fundamental Go concepts including types, functions, and control flow.
 - **Intermediate:** Error handling, interfaces, and generics.
 - **Concurrency:** Goroutines, channels, and race conditions.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)
+- [Complete Go Programming Study Guide](/hub/)
+- [Go Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -2582,6 +2617,13 @@ Go project architecture is about organizing code so it stays maintainable as it 
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class functions and closures
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- lightweight concurrency primitives
 
+## Related in this track
+
+- [Modules and Packages](/advanced/modules-and-packages/)
+- [Networking](/advanced/networking/)
+- [Pointers and Memory](/advanced/pointers-and-memory/)
+- [Reflection](/advanced/reflection/)
+
 ---
 
 ## Index
@@ -2942,6 +2984,13 @@ Go modules are dependency management made simple. The go.mod file is a manifest 
 - [Project Architecture](/advanced/architecture/) -- directory layout and patterns
 - [Arrays, Slices, and Maps](/basics/arrays-slices-maps/) -- core data structures
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- Go's type system
+
+## Related in this track
+
+- [Networking](/advanced/networking/)
+- [Pointers and Memory](/advanced/pointers-and-memory/)
+- [Reflection](/advanced/reflection/)
+- [Testing](/advanced/testing/)
 
 ---
 
@@ -3401,6 +3450,13 @@ Networking in Go is built on the net package which provides low-level TCP and UD
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- lightweight threads for handling connections
 - [Channels and Concurrency Patterns](/concurrency/channels/) -- fan-out, fan-in, and pipelines
 
+## Related in this track
+
+- [Modules and Packages](/advanced/modules-and-packages/)
+- [Pointers and Memory](/advanced/pointers-and-memory/)
+- [Reflection](/advanced/reflection/)
+- [Testing](/advanced/testing/)
+
 ---
 
 ## Pointers And Memory
@@ -3697,6 +3753,13 @@ Pointers in Go hold memory addresses instead of values. When you pass a pointer 
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- zero values and type conversions
 - [Arrays, Slices, and Maps](/basics/arrays-slices-maps/) -- value vs reference semantics
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- value vs pointer receivers
+
+## Related in this track
+
+- [Modules and Packages](/advanced/modules-and-packages/)
+- [Networking](/advanced/networking/)
+- [Reflection](/advanced/reflection/)
+- [Testing](/advanced/testing/)
 
 ---
 
@@ -3995,6 +4058,13 @@ Reflection lets you inspect and manipulate types at runtime when static typing i
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- type system and conversions
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class values and closures
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- concurrency primitives
+
+## Related in this track
+
+- [Modules and Packages](/advanced/modules-and-packages/)
+- [Networking](/advanced/networking/)
+- [Pointers and Memory](/advanced/pointers-and-memory/)
+- [Testing](/advanced/testing/)
 
 ---
 
@@ -4397,6 +4467,13 @@ Go's testing framework is built into the toolchain -- test files are just regula
 - [Modules and Packages](/advanced/modules-and-packages/) -- dependency management
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- testing concurrent code
 
+## Related in this track
+
+- [Modules and Packages](/advanced/modules-and-packages/)
+- [Networking](/advanced/networking/)
+- [Pointers and Memory](/advanced/pointers-and-memory/)
+- [Reflection](/advanced/reflection/)
+
 ## Basics
 
 ---
@@ -4766,6 +4843,12 @@ Arrays, slices, and maps are Go's collection types. Arrays are fixed-size and va
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- zero values and type system
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- closures and variable capture
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- concurrent map access
+
+## Related in this track
+
+- [Control Flow](/basics/control-flow/)
+- [Functions](/basics/functions/)
+- [Types and Variables](/basics/types-and-variables/)
 
 ---
 
@@ -5184,6 +5267,12 @@ Go's control flow is deliberately simple. There is only one loop construct (for)
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- zero values and scope
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- concurrent execution
 
+## Related in this track
+
+- [Arrays, Slices, and Maps](/basics/arrays-slices-maps/)
+- [Functions](/basics/functions/)
+- [Types and Variables](/basics/types-and-variables/)
+
 ---
 
 ## Functions
@@ -5537,6 +5626,12 @@ Functions in Go are first-class values -- you can assign them to variables, pass
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/) -- for loops, switch, and defer
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- type system and closures
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- goroutines as lightweight threads
+
+## Related in this track
+
+- [Arrays, Slices, and Maps](/basics/arrays-slices-maps/)
+- [Control Flow](/basics/control-flow/)
+- [Types and Variables](/basics/types-and-variables/)
 
 ---
 
@@ -5895,6 +5990,12 @@ Go's type system is strict about explicit conversions -- you cannot accidentally
 - [Arrays, Slices, and Maps](/basics/arrays-slices-maps/) -- collection types and zero values
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- closures and type conversions
 - [Pointers and Memory](/advanced/pointers-and-memory/) -- escape analysis and heap allocation
+
+## Related in this track
+
+- [Arrays, Slices, and Maps](/basics/arrays-slices-maps/)
+- [Control Flow](/basics/control-flow/)
+- [Functions](/basics/functions/)
 
 ## Concurrency
 
@@ -6291,6 +6392,11 @@ Channels are typed message pipes that connect goroutines. An unbuffered channel 
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class functions used in goroutines
 - [Networking](https://computer-science.wyattau.com/2-systems/networking/) -- context propagation in HTTP handlers
 
+## Related in this track
+
+- [Goroutines and Synchronization](/concurrency/goroutines/)
+- [race conditions](/concurrency/race-conditions/)
+
 ---
 
 ## Goroutines
@@ -6627,6 +6733,11 @@ Goroutines are lightweight threads managed by the Go runtime, not the operating 
 - [Channels and Concurrency Patterns](/concurrency/channels/) -- select, pipelines, and fan-out
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- goroutines as anonymous function launches
 - [Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/) -- testing concurrent code
+
+## Related in this track
+
+- [Channels and Concurrency Patterns](/concurrency/channels/)
+- [race conditions](/concurrency/race-conditions/)
 
 ---
 
@@ -7077,6 +7188,11 @@ theory, practical implementation, and key applications.
 - **[Channels](/concurrency/channels/):** Communication mechanism that helps prevent race conditions through message passing.
 - **[Interfaces](/intermediate/interfaces/):** Interface design patterns that affect concurrency safety.
 
+## Related in this track
+
+- [Channels and Concurrency Patterns](/concurrency/channels/)
+- [Goroutines and Synchronization](/concurrency/goroutines/)
+
 ## Intermediate
 
 ---
@@ -7400,6 +7516,11 @@ implementation, and key applications.
 - **[Interfaces](/intermediate/interfaces/):** Interface patterns that complement error handling design.
 - **[Generics](/intermediate/generics/):** Generic functions that can work with error types.
 - **[Practice Error Handling](/practice-interfaces/):** Practice problems that include error handling scenarios.
+
+## Related in this track
+
+- [Generics](/intermediate/generics/)
+- [Interfaces](/intermediate/interfaces/)
 
 ---
 
@@ -7746,6 +7867,11 @@ implementation, and key applications.
 - **[Error Handling](/intermediate/error-handling/):** Error handling patterns that work with generic functions.
 - **[Practice Generics](/practice-interfaces/):** Practice problems covering generic programming.
 
+## Related in this track
+
+- [Error Handling](/intermediate/error-handling/)
+- [Interfaces](/intermediate/interfaces/)
+
 ---
 
 ## Interfaces
@@ -8059,6 +8185,11 @@ implementation, and key applications.
 - **[Generics](/intermediate/generics/):** Generic programming as an alternative to interface-based abstraction.
 - **[Error Handling](/intermediate/error-handling/):** Error handling patterns using the error interface.
 - **[Practice Interfaces](/practice-interfaces/):** Practice problems covering interface design and implementation.
+
+## Related in this track
+
+- [Error Handling](/intermediate/error-handling/)
+- [Generics](/intermediate/generics/)
 
 ## Standard-Library
 
@@ -8488,6 +8619,12 @@ implementation, and key applications.
 - **[Net/HTTP](/standard-library/net-http/):** HTTP client and server that use I/O operations.
 - **[Strings and Time](/standard-library/strings-and-time/):** String and time utilities used with I/O operations.
 - **[Flashcards: Standard Library](/flashcards-standard-library/):** Interactive flashcards for standard library concepts.
+
+## Related in this track
+
+- [math, sort, and log/slog](/standard-library/math-sort-log/)
+- [net/http](/standard-library/net-http/)
+- [strings and time](/standard-library/strings-and-time/)
 
 ---
 
@@ -8945,6 +9082,12 @@ theory, practical implementation, and key applications.
 - [Standard Library](./)
 - [Standard Library I/O](/standard-library/io/)
 - [net/http](/standard-library/net-http/)
+
+## Related in this track
+
+- [Standard Library I/O](/standard-library/io/)
+- [net/http](/standard-library/net-http/)
+- [strings and time](/standard-library/strings-and-time/)
 
 ---
 
@@ -9560,6 +9703,12 @@ implementation, and key applications.
 - **[Strings and Time](/standard-library/strings-and-time/):** String and time utilities used in HTTP processing.
 - **Concurrency:** Goroutines and channels for handling concurrent HTTP requests.
 
+## Related in this track
+
+- [Standard Library I/O](/standard-library/io/)
+- [math, sort, and log/slog](/standard-library/math-sort-log/)
+- [strings and time](/standard-library/strings-and-time/)
+
 ---
 
 ## Strings And Time
@@ -9902,3 +10051,9 @@ practical implementation, and key applications.
 - **[I/O](/standard-library/io/):** File and stream operations that work with string data.
 - **[Net/HTTP](/standard-library/net-http/):** HTTP client and server that use string and time utilities.
 - **Basics:** Fundamental Go concepts including string and time types.
+
+## Related in this track
+
+- [Standard Library I/O](/standard-library/io/)
+- [math, sort, and log/slog](/standard-library/math-sort-log/)
+- [net/http](/standard-library/net-http/)

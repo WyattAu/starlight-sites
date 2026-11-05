@@ -124,3 +124,10 @@ Euler's criterion also solves $x$: when $a^{(p+1)/4} \equiv \pm x$ for $p \equiv
 ### 8.x A QR Table Worth Memorising
 
 Mod 11 the QRs are $\{1, 3, 4, 5, 9\}$ and mod 13 they are $\{1, 3, 4, 9, 10, 12\}$; five and six classes respectively, each exactly half of the nonzero residues as Euler's criterion predicts.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)

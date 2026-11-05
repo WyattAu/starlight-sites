@@ -658,3 +658,7 @@ void stream_state_demo() {
 
 ## Worked Examples
 
+## Related in this track
+
+- [Type-Safe Formatting (std::format, std::print)](/standard_library/3_input_output_formatting/2_type_safe_formatting/)
+- [Unicode Support](/standard_library/3_input_output_formatting/3_unicode_support/)

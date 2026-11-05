@@ -321,3 +321,9 @@ Think of a set as a region of space with fuzzy edges. The interior is the core w
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
+- [Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)

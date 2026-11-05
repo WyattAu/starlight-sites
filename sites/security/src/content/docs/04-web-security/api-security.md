@@ -681,3 +681,8 @@ Network security operates like a medieval castle with multiple defensive layers.
 
 - [Malware Analysis](/09-malware-analysis/malware-analysis/)
 - [Os Security](/08-os-security/os-security/)
+
+## Related in this track
+
+- [OWASP Top 10 (2021) Detailed](/04-web-security/owasp-top-10/)
+- [Web Security](/04-web-security/web-security/)

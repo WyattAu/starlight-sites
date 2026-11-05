@@ -213,3 +213,10 @@ the question does not specify, assuming same material, the weight ratio equals t
 
 - **[Algebra](/maths/diagnostics/diag-algebra/):** Equations and expressions.
 - **[Number](/maths/diagnostics/diag-number/):** Number operations and calculations.
+
+## Related in this track
+
+- [Algebra -- Diagnostic Tests](/maths/diagnostics/diag-algebra/)
+- [GCSE Maths -- Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Number -- Diagnostic Tests](/maths/diagnostics/diag-number/)
+- [Ratio, Proportion, and Rates of Change -- Diagnostic Tests](/maths/diagnostics/diag-ratio-proportion/)

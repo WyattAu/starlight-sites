@@ -448,3 +448,10 @@ Differential equation diagnostics test whether you can **identify the type of DE
 
 - **[Differential Equations](/maths/4-differential-equations/4_differential-equations/):** The full topic page covering separation of variables, exponential models, and Euler's method.
 - **[Integrals](/maths/3-integrals/3_integrals/):** Integration is the essential tool for solving differential equations.
+
+## Related in this track
+
+- [AP Calculus Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Derivatives -- Diagnostic Tests](/maths/diagnostics/diag-derivatives/)
+- [Integrals -- Diagnostic Tests](/maths/diagnostics/diag-integrals/)
+- [Limits and Continuity -- Diagnostic Tests](/maths/diagnostics/diag-limits-continuity/)

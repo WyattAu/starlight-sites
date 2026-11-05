@@ -122,3 +122,10 @@ first welfare theorem's "in principle" clause teaches about design vs hope).
    collapses to the classical formula when $\Omega = \sigma^2 Q$.)
 4. A coefficient has p = 0.001 with magnitude 0.01 on a scale where 10 matters. What does the
    p-value tell you, and what does it not? (§5; distinguishable from zero; not that it matters.)
+
+## Related in this track
+
+- [Consistency and the Failure Modes](/3-econometrics/3_consistency-and-failure-modes/)
+- [Instrumental Variables and 2SLS](/3-econometrics/4_instrumental-variables/)
+- [The Gauss--Markov Theorem](/3-econometrics/2_gauss-markov/)
+- [The OLS Estimator](/3-econometrics/1_ols-estimator/)

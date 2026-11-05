@@ -207,3 +207,9 @@ Instant noodles are an inferior good ($YED < 0$).
 - [Microeconomics](./)
 - [Supply and Demand](/economics/1-microeconomics/1_supply-and-demand/)
 - [Market Failure](/economics/1-microeconomics/3-market-failure/)
+
+## Related in this track
+
+- [Market Failure](/economics/1-microeconomics/3-market-failure/)
+- [Supply and Demand](/economics/1-microeconomics/1_supply-and-demand/)
+- [Theory of the Firm](/economics/1-microeconomics/4-theory-of-the-firm/)

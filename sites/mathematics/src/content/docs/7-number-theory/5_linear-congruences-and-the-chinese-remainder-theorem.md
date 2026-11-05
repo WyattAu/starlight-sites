@@ -123,3 +123,10 @@ Always finish with the residue class statement: solutions are classes modulo the
 ### 5.x A Second Reconstruction
 
 Alternatively solve by substitution: from $x = 2 + 3k$ into $x \equiv 3 \pmod 5$ gives $3k \equiv 1 \pmod 5$, $k \equiv 2$, so $x = 8 + 15t$; substituting into $x \equiv 2 \pmod 7$ gives $t \equiv 4 \pmod 7$ and $x = 68 + 105t$; the same class as the CRT formula.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)

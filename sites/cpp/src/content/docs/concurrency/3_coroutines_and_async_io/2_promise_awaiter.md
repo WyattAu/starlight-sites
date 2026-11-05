@@ -450,3 +450,10 @@ int main() {
     // ~ScopedTask checks handle, but the handle is already done.
 }
 ```
+
+## Related in this track
+
+- [Futures, Promises, and Async Flows](/concurrency/3_coroutines_and_async_io/5_futures_promises/)
+- [Generators (std::generator)](/concurrency/3_coroutines_and_async_io/3_generators/)
+- [Stackless Coroutine Frames and Heap Allocation](/concurrency/3_coroutines_and_async_io/1_coroutine_frames/)
+- [Task Scheduling and Executors](/concurrency/3_coroutines_and_async_io/4_task_scheduling/)

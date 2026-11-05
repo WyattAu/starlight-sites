@@ -977,3 +977,8 @@ implementation, and key applications.
 - **[Error Handling](/dart/08-error-handling/):** Sealed class hierarchies for exhaustive exception handling patterns.
 - **[Variables](/dart/03-basics/02-variables/):** Type specifiers and null safety concepts underlying modifier design.
 - **[Best Practices](/dart/04-best-practices/):** API boundary best practices that motivate modifier usage.
+
+## Related in this track
+
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching/)
+- [Sealed Classes](/dart/07-dart3-features/02-sealed-classes/)

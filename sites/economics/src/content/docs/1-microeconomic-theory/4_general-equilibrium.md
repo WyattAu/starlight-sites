@@ -172,3 +172,10 @@ falsifiable footprint; and the theorems say exactly which results each choice pu
   applied to strategies.
 - [The OLS estimator](/3-econometrics/1_ols-estimator/); the empirical question: do real
   prices behave as if the equilibrium exists?
+
+## Related in this track
+
+- [Preferences and Utility](/1-microeconomic-theory/1_preferences-and-utility/)
+- [Production, Cost, and the Firm](/1-microeconomic-theory/5_production-and-firm/)
+- [The Welfare Theorems](/1-microeconomic-theory/3_welfare-theorems/)
+- [Utility Maximisation, Expenditure Functions, and Slutsky](/1-microeconomic-theory/2_utility-maximisation/)

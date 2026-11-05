@@ -200,3 +200,9 @@ Landau theory is a mathematical framework for understanding how systems choose b
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)

@@ -1366,3 +1366,10 @@ _Streetcar_ is a domestic tragedy that resolves through the failure of action.
 - [Cell Biology](/biology/1-cell-biology/1_cell-biology/) -- Understanding the biological basis of mental health adds depth to Blanche's psychological deterioration.
 - [Genetics](/biology/3-genetics/1_genetics/) -- Hereditary mental illness and family trauma explored in the play connect to genetic predisposition concepts.
 :::
+
+## Related in this track
+
+- [A Streetcar Named Desire](/english/a-street-car-named-desire/)
+- [Chronicle of a Death Foretold](/english/chronicle-of-a-death-foretold/)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)
+- [English](/english/english/)

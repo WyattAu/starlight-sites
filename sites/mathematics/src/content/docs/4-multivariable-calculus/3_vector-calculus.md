@@ -536,3 +536,10 @@ $$
 Where $\Omega$ is a $k$-dimensional manifold with boundary $\partial \Omega$, $\omega$ is a
 $(k-1)$-form, And $d\omega$ is its exterior derivative.
 :::
+
+## Related in this track
+
+- [Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)
+- [Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)
+- [Optimization](/4-multivariable-calculus/4_optimization/)
+- [Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)

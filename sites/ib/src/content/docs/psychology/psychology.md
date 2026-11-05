@@ -159,3 +159,10 @@ Our minds are prediction machines, constantly building models of the world to gu
 - [Research Methods](/psychology/research-methods/)
 - [Approaches in Psychology](/psychology/approaches/)
 - [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
+
+## Related in this track
+
+- [Abnormal Psychology](/psychology/abnormal-psychology/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biological Level of Analysis](/psychology/biological-level-of-analysis/)
+- [Cognitive Level of Analysis](/psychology/cognitive-level-of-analysis/)

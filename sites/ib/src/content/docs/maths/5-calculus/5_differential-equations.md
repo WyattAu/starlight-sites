@@ -901,3 +901,8 @@ applying these mathematical techniques. | [Differential Equations] | A-Level |
 Equations] | University |
 [View](https://mathematics.wyattau.com/)
 |
+
+## Related in this track
+
+- [Integration Techniques](/maths/5-calculus/3_integration-techniques/)
+- [Sequences and Series](/maths/5-calculus/6_sequences-and-series/)

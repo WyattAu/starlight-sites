@@ -271,3 +271,10 @@ If you want to learn pure functional programming concepts, Haskell is the best c
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)
+- [Haskell](/intro/)
+- [Haskell Glossary, Key Terms and Definitions](/glossary/)

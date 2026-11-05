@@ -228,3 +228,10 @@ verifies one pair. If any pair mismatches, the string is not of the form $w\#w^R
 4. **Confusing decidable languages with recursively enumerable languages.** A language is decidable if there exists a TM that halts on every input. A language is recursively enumerable if there exists a TM that halts and accepts every string in the language, but may loop on strings not in the language. The latter is strictly larger.
 
 5. **Misunderstanding the Church-Turing thesis.** The thesis states that any function computable by an intuitive "effective method" is computable by a Turing machine. It is a thesis about the limits of computation, not a theorem that can be proved. It has not been refuted, but it cannot be formally proven because "effective method" is an informal concept.
+
+## Related in this track
+
+- [Complexity Theory](/6-theory-of-computation/6_complexity-theory/)
+- [Context-Free Languages](/6-theory-of-computation/3_context-free-languages/)
+- [Decidability](/6-theory-of-computation/5_decidability/)
+- [Introduction](/6-theory-of-computation/1_introduction/)

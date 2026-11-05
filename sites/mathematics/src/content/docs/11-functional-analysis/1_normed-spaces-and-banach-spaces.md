@@ -598,3 +598,10 @@ In the context of linear operators, boundedness and continuity are equivalent fo
 
 **Mistake 3: Forgetting that $(C[a,b], \|\cdot\|_1)$ is not complete**
 The space of continuous functions with the $L^1$-norm is not a Banach space because Cauchy sequences can converge to discontinuous functions. Only $(C[a,b], \|\cdot\|_\infty)$ is complete. When completeness is required, always verify the norm, not just the underlying set.
+
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)

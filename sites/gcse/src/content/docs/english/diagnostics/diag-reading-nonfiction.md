@@ -385,3 +385,8 @@ conclusion rather than a simplistic verdict.
 - [Diagnostics](./)
 - [Reading Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-fiction/)
 - [Creative Writing -- Diagnostic Tests](/english/diagnostics/diag-creative-writing/)
+
+## Related in this track
+
+- [Creative Writing -- Diagnostic Tests](/english/diagnostics/diag-creative-writing/)
+- [Reading Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-fiction/)

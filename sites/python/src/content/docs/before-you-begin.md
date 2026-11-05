@@ -192,3 +192,10 @@ checked once stays checked and a bug can be reproduced exactly.
   the theory whose Monte Carlo checks this page's NumPy idioms implement.
 - [Probabilistic Machine Learning](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/) -
   the course whose examples assume exactly the idioms built here.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Introduction to Python](/intro/)
+- [Python Glossary, Key Terms and Definitions](/glossary/)

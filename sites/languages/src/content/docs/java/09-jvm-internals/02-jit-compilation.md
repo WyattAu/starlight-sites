@@ -641,3 +641,8 @@ The JIT compiler is the JVM's secret weapon for making Java fast despite being a
 The tiered compilation system (C1 for quick, light compilation; C2 for deep optimization) is the JVM's way of balancing startup speed with peak performance. C1 gets code running reasonably fast early on, and once the profiler has gathered enough data, C2 produces highly optimized native code. Escape analysis is particularly clever: if the JIT can prove an object never leaves the current method, it can eliminate the allocation entirely, storing fields as local variables on the stack. This turns heap allocations into register operations, an enormous win.
 
 Deoptimization is what makes this whole scheme safe. The JIT makes optimistic assumptions based on what it has observed, but if reality changes (a new subclass is loaded, a field type changes), the JVM discards the compiled code and falls back to the interpreter. This "bail out" mechanism means the JIT can be aggressive with optimizations because it always has a safe fallback. The result is a system that starts interpreted, identifies hotspots, optimizes aggressively, and gracefully handles change, all transparently to the developer.
+
+## Related in this track
+
+- [Class Loading and Memory Model](/java/09-jvm-internals/01-class-loading-memory/)
+- [Garbage Collection](/java/09-jvm-internals/03-garbage-collection/)

@@ -258,3 +258,10 @@ After passing through one ideal polariser, unpolarised light of intensity $I_0$ 
 
 Polarization describes the orientation of a light wave's electric field oscillation. Unpolarised light has field vectors pointing in random directions, while linearly polarised light oscillates in a single plane. Malus's law states that when polarised light passes through a polariser, intensity drops as the cosine squared of the angle between them because only the component along the polariser's axis gets through. Brewster's angle is the angle at which reflected light becomes completely polarised because the reflected and refracted rays are perpendicular, eliminating one polarisation component. Scattering at 90 degrees also produces polarisation through the same dipole radiation pattern.
 :::
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)

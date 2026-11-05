@@ -1147,3 +1147,8 @@ The IB course is structured around this thinking process. You start with the fun
 - [IB Computer Science](./)
 - [IB Computer Science Practice (Interactive)](/computer-science/practice-computer-science/)
 - [Assessment](/computer-science/assessment/)
+
+## Related in this track
+
+- [Assessment](/computer-science/assessment/)
+- [Syllabus](/computer-science/syllabus/)

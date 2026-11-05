@@ -1271,3 +1271,10 @@ Therefore $\text{tr}\,\mathbf{A} = \lambda_1 + \lambda_2 + \cdots + \lambda_n$. 
 - [Further Algebra](/further-maths/pure-mathematics/03-further-algebra/) -- The Cayley-Hamilton theorem links matrices to polynomial algebra through the characteristic equation.
 - [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/) -- Matrix methods underpin systems of differential equations solved using eigenvalues and eigenvectors.
 - [Vectors in 3D](/further-maths/pure-mathematics/09-vectors-in-3d/) -- The cross product can be written as a matrix multiplication, connecting vector algebra to linear transformations.
+
+## Related in this track
+
+- [Complex Numbers](/further-maths/pure-mathematics/01-complex-numbers/)
+- [Further Algebra](/further-maths/pure-mathematics/03-further-algebra/)
+- [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/)
+- [Vectors in 3D](/further-maths/pure-mathematics/09-vectors-in-3d/)

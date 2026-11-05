@@ -794,3 +794,9 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
+## Related in this track
+
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
+- [Lambda Expressions, Capture Layouts and Closure Types](/function_architecture/1_function_mechanics/3_lambdas/)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)
+- [Type Erasure, Function Pointers, std::function, std::move_only_function](/function_architecture/1_function_mechanics/4_type_erasure/)

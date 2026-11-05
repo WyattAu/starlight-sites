@@ -239,3 +239,10 @@ Population is the heartbeat of a society, it tells you how young or old a place 
 - **[Population](/geography/population/):** Population studies are central
 - **[Urbanization](/geography/urbanization/):** Urbanisation is a key topic
 - **[Climate](/geography/diagnostics/diag-climate/):** Climate affects geography
+
+## Related in this track
+
+- [Agricultural Systems and Food Security](/geography/agriculture/)
+- [DSE Geography](/geography/intro/)
+- [Industrial Location and Economic Development](/geography/economic-development/)
+- [Resources and Sustainability](/geography/resources/)

@@ -211,3 +211,10 @@ Sets are unordered collections of distinct elements. Relations connect elements 
 - [Discrete Mathematics](./)
 - [Propositional and Predicate Logic](/1-discrete-mathematics/1_propositional-and-predicate-logic/)
 - [Proof Techniques](/1-discrete-mathematics/3_proof-techniques/)
+
+## Related in this track
+
+- [Combinatorics](/1-discrete-mathematics/4_combinatorics/)
+- [Graph Theory](/1-discrete-mathematics/5_graph-theory/)
+- [Problem Set](/1-discrete-mathematics/7_problem-set/)
+- [Proof Techniques](/1-discrete-mathematics/3_proof-techniques/)

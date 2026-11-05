@@ -226,3 +226,9 @@ The pattern is a product of two sinc$^2$ functions. The first zero along $u$ occ
 
 Fourier optics reveals that diffraction is fundamentally a frequency decomposition. When light passes through an aperture, the far-field pattern is the spatial frequency content of that aperture shape. A narrow slit has broad frequency content, producing a wide diffraction pattern. The convolution theorem explains why grating patterns combine: multiplying apertures convolves their patterns. This is why a double-slit produces interference fringes modulated by the single-slit envelope. The lens performs a physical Fourier transform, converting spatial information into angular information at its focal plane.
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)

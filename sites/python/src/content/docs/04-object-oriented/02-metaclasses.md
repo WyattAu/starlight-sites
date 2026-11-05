@@ -924,3 +924,8 @@ Metaclasses are classes of classes: just as a class defines how instances behave
 
 - [Classes and Inheritance](/04-object-oriented/01-classes/)
 - [Descriptors and Properties](/04-object-oriented/03-descriptors/)
+
+## Related in this track
+
+- [Classes and Inheritance](/04-object-oriented/01-classes/)
+- [Descriptors and Properties](/04-object-oriented/03-descriptors/)

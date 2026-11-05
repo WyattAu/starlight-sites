@@ -161,3 +161,10 @@ Remedies chosen before step 3 are decoration.
    this pattern suggest, and why does the movement *not* contradict consistency? (§5 -
    attenuation: the plim itself is shrunken; more data converges to the shrunken value more
    precisely, not to the truth.)
+
+## Related in this track
+
+- [Inference: Standard Errors, t-Tests, and Robust Variance](/3-econometrics/5_inference/)
+- [Instrumental Variables and 2SLS](/3-econometrics/4_instrumental-variables/)
+- [The Gauss--Markov Theorem](/3-econometrics/2_gauss-markov/)
+- [The OLS Estimator](/3-econometrics/1_ols-estimator/)

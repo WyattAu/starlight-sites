@@ -1283,3 +1283,8 @@ This is the CDF of $\mathrm{Exp}(\lambda)$. $\blacksquare$
 - **[Pure Mathematics](/further-maths/pure-mathematics/04-further-calculus/):** Continuous distributions use calculus
 - **[Further Mechanics](/further-maths/further-maths/):** Exponential distributions model time between events
 - **[Pure](/further-maths/further-maths/):** Further stats builds on pure maths foundations
+
+## Related in this track
+
+- [Chi-Squared Tests](/further-maths/further-statistics/03-chi-squared-tests/)
+- [Poisson and Geometric Distributions](/further-maths/further-statistics/01-poisson-and-geometric-distributions/)

@@ -92,3 +92,8 @@ for safe parallel execution. Start with Xcode (Mac) or Swift.org toolchain
 
 ### Further Reading
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Swift Programming Study Guide](/hub/)
+- [Swift Glossary, Key Terms and Definitions](/glossary/)

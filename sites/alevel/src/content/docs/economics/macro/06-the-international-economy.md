@@ -1287,3 +1287,10 @@ The key principles covered in this topic are linked in the sub-pages above. Focu
 the definitions, applying the formulas or frameworks, and evaluating strengths and limitations of
 each approach.
 :::
+
+## Related in this track
+
+- [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)
+- [Development Economics](/economics/macro/08-development-economics/)
+- [Fiscal Policy](/economics/macro/04-fiscal-policy/)
+- [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/)

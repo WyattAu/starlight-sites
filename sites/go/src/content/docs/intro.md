@@ -295,3 +295,10 @@ Version control and never edited manually.
 - **Basics:** Fundamental Go concepts including types, functions, and control flow.
 - **Intermediate:** Error handling, interfaces, and generics.
 - **Concurrency:** Goroutines, channels, and race conditions.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Concurrency and Simplicity in Go](/before-you-begin/)
+- [Complete Go Programming Study Guide](/hub/)
+- [Go Glossary, Key Terms and Definitions](/glossary/)

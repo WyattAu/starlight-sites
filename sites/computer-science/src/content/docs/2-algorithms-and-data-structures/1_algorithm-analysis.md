@@ -325,3 +325,10 @@ bounded by a constant.
 - **Systems:** Hardware and software systems that impose real-world performance constraints.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Advanced Topics](/2-algorithms-and-data-structures/6_advanced-topics/)
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm_analysis/)
+- [Algorithms (Advanced)](/2-algorithms-and-data-structures/9_algorithms-advanced/)
+- [Data Structures (Advanced)](/2-algorithms-and-data-structures/8_data-structures-advanced/)

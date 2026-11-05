@@ -185,3 +185,10 @@ This page includes:
 - [Relational Theory](/01-relational-theory/relational-theory/) - The formal foundations of the relational model used throughout this course
 - [SQL Fundamentals](/02-sql-fundamentals/sql/) - Core SQL syntax and query construction techniques
 - [Indexing](/03-indexing-optimization/indexing/) - How indexes improve query performance on relational databases
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Databases Assume](/before-you-begin/)
+- [Complete Database Design Study Guide](/hub/)
+- [Database Glossary, Key Terms and Definitions](/glossary/)

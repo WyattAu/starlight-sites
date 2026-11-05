@@ -844,3 +844,8 @@ Garbage collection is the JVM's automatic memory manager. It traces from GC root
 - **[Java Basics](/flashcards-java-basics/):** Fundamental Java concepts including types and control flow.
 - **[Concurrency](/06-concurrency/01-concurrency/):** Multithreading and concurrent programming.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [Class Loading and Memory Model](/09-jvm-internals/01-class-loading-memory/)
+- [JIT Compilation and Deoptimization](/09-jvm-internals/02-jit-compilation/)

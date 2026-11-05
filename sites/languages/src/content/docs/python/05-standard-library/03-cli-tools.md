@@ -1192,3 +1192,10 @@ Command-line tools are the workhorses of automation: they take inputs, process t
 - [Essential Modules](/python/05-standard-library/01-essential-modules/) -- argparse and sys modules provide the core functionality for command-line argument parsing.
 - [Context Managers](/python/08-advanced-topics/03-context-managers/) -- CLI tools often use context managers for resource management of files and connections.
 - [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- Lazy evaluation patterns in CLI tools process input streams efficiently.
+
+## Related in this track
+
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/python/05-standard-library/01-essential-modules/)
+- [File I/O](/python/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/python/05-standard-library/04-serialization/)

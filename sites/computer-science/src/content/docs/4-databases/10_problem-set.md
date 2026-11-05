@@ -181,3 +181,10 @@ Database problems teach you to think about data as a structured resource that mu
 - **[Databases Practice](/4-databases/14_practice-databases/):** Auto-graded database problems.
 - **[Normalisation](/4-databases/4_normalisation/):** Schema design and functional dependencies.
 - **[Query Optimisation](/4-databases/7_query-optimisation/):** Query planning and execution.
+
+## Related in this track
+
+- [Database Systems (Advanced)](/4-databases/12_databases-advanced/)
+- [Distributed Databases](/4-databases/9_distributed-databases/)
+- [Further Reading](/4-databases/11_further-reading/)
+- [Indexing](/4-databases/5_indexing/)

@@ -881,3 +881,10 @@ TypeScript's type system is your compile-time documentation. Primitives like str
 - [Typescript](./)
 - [advanced types](/typescript/advanced-types/)
 - [Enums and Modules](/typescript/enums-and-modules/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)

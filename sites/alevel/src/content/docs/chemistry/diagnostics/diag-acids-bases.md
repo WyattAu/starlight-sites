@@ -570,3 +570,10 @@ character predominates and the solution is **slightly basic**, pH $\approx 8.3$ 
 - **[Organic Chemistry](/chemistry/organic-chemistry/introduction/):** Organic chemistry covers carbon-based compounds and their reactions
 - **[Physical Chemistry](/chemistry/flashcards-physical-chemistry/):** Physical chemistry underpins reaction rates, energetics, and equilibrium
 - **[Atomic Structure](/chemistry/flashcards-atomic-structure/):** Atomic structure determines chemical bonding and reactivity
+
+## Related in this track
+
+- [A-Level Chemistry Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)
+- [Alkanes and Alkenes -- Diagnostic Tests](/chemistry/diagnostics/diag-alkanes-alkenes/)
+- [Atomic Structure and Periodicity -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
+- [Bonding and Structure -- Diagnostic Tests](/chemistry/diagnostics/diag-bonding-structure/)

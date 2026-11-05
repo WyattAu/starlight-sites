@@ -131,3 +131,9 @@ Describe your symptoms to a doctor:
 - [A1 Beginner](/cefr-levels/a1-beginner/)
 - [B1 Intermediate Level](/cefr-levels/b1-intermediate/)
 
+## Related in this track
+
+- [B1 Intermediate Level | language-tests](/cefr-levels/b1-intermediate/)
+- [B2 Upper Intermediate Level | language-tests](/cefr-levels/b2-upper-intermediate/)
+- [C1 Advanced Level | language-tests](/cefr-levels/c1-advanced/)
+- [C2 Proficiency Level | language-tests](/cefr-levels/c2-proficiency/)

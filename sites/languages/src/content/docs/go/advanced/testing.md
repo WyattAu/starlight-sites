@@ -408,3 +408,10 @@ fi
 - **[Interfaces](/go/intermediate/interfaces/):** Interface-based mock design for test doubles.
 - **[Error Handling](/go/intermediate/error-handling/):** Error wrapping and inspection patterns used in test assertions.
 - **[net/http](/go/standard-library/net-http/):** HTTP handler testing with httptest and middleware chains.
+
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Reflection](/go/advanced/reflection/)

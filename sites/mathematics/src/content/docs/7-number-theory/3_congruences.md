@@ -126,3 +126,10 @@ For multi-step reductions, tabulate powers as you go: the table of $a$, $a^2$, $
 
 Reduce $11^{21} \pmod{13}$: Fermat gives $11^{12} \equiv 1$, so $11^{21} \equiv 11^9$.
 Now $11^2 = 121 \equiv 4$, $11^4 \equiv 16 \equiv 3$, $11^8 \equiv 9$, and $11^9 \equiv 9 \cdot 11 = 99 \equiv 8 \pmod{13}$.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)

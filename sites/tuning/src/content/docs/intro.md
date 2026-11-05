@@ -293,3 +293,10 @@ Benchmarking is like taking a fitness test. Before you start training, you need 
 - [CPU Fundamentals](/01-cpu-tuning/cpu-fundamentals/) - Core concepts of CPU architecture and performance tuning
 - [Undervolting and Overclocking](/undervolting-and-overclocking/) - Techniques for optimizing voltage and frequency
 - [PSU and BIOS Guide](/psu-and-bios-guide/) - Foundational knowledge for BIOS configuration and power management
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Hardware Tuning Glossary, Key Terms](/glossary/)
+- [PSU Selection and BIOS Configuration](/psu-and-bios-guide/)
+- [Performance Tuning and Optimization Guide](/hub/)

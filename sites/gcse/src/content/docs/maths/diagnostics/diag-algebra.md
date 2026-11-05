@@ -207,3 +207,10 @@ The first company is cheaper for journeys longer than 16 km.
 
 - **[Geometry](/maths/diagnostics/diag-geometry/):** Shapes, angles, and trigonometry.
 - **[Number](/maths/diagnostics/diag-number/):** Number operations and calculations.
+
+## Related in this track
+
+- [GCSE Maths -- Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Geometry -- Diagnostic Tests](/maths/diagnostics/diag-geometry/)
+- [Number -- Diagnostic Tests](/maths/diagnostics/diag-number/)
+- [Ratio, Proportion, and Rates of Change -- Diagnostic Tests](/maths/diagnostics/diag-ratio-proportion/)

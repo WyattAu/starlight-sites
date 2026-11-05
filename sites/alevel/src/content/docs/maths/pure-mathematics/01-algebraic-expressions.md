@@ -713,3 +713,10 @@ building a personal test matrix.
 - [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/), The factor theorem and polynomial division are applied to solving simultaneous equations.
 - [Sequences and Series](/maths/pure-mathematics/06-sequences-and-series/), Summation notation and algebraic manipulation are essential for working with series.
 :::
+
+## Related in this track
+
+- [Binomial Expansion](/maths/pure-mathematics/07-binomial-expansion/)
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/)
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/)
+- [Functions](/maths/pure-mathematics/05-functions/)

@@ -1215,3 +1215,10 @@ Building command-line tools in Python is straightforward with `argparse` for arg
 - [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
 - [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)
 - [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
+
+## Related in this track
+
+- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/05-standard-library/01-essential-modules/)
+- [File I/O](/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/05-standard-library/04-serialization/)

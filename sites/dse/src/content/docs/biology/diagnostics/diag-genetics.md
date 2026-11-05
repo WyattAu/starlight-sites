@@ -596,3 +596,10 @@ $\frac{1}{2}$. If it asks for the probability among all children, the answer is 
 - [Diagnostics](./)
 - [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)
 - [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)
+
+## Related in this track
+
+- [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)
+- [Cell Biology and Biochemistry -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology-biochemistry/)
+- [DSE Biology Diagnostic Tests -- Guide](/biology/diagnostics/diagnostic-guide/)
+- [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)

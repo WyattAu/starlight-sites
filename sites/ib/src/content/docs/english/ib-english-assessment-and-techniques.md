@@ -943,3 +943,10 @@ When analysing texts for ib english assessment and analytical techniques, follow
 3. Analyse the effect of the technique on the reader
 4. Link the analysis to the text's broader themes or concerns
 :::
+
+## Related in this track
+
+- [A Streetcar Named Desire](/english/a-street-car-named-desire/)
+- [A Streetcar Named Desire, Close Reading and Analysis](/english/streetcar-named-desire-analysis/)
+- [Chronicle of a Death Foretold](/english/chronicle-of-a-death-foretold/)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)

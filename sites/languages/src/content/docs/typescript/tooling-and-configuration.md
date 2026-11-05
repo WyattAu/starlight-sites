@@ -647,3 +647,10 @@ The TypeScript toolchain revolves around tsconfig.json, which controls compilati
 - [Typescript](./)
 - [Enums and Modules](/typescript/enums-and-modules/)
 - [Types and Annotations](/typescript/types-and-annotations/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)

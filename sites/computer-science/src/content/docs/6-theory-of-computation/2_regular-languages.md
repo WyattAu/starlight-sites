@@ -442,3 +442,10 @@ Regular. Closure properties do not apply when one operand is non-regular.
 4. **Forgetting that regular expressions and finite automata are equivalent.** Regular expressions, DFAs, NFAs, and regular grammars all describe exactly the regular languages. A common mistake is assuming regular expressions are "weaker" because they lack features like backreferences, which actually push beyond regular languages into context-free territory.
 
 5. **Confusing the language of a DFA with its state graph.** A DFA accepts a language, a set of strings. The state graph is a representation, not the language itself. Two different DFA state graphs can accept the same language. When proving properties, reason about the language, not the specific graph structure.
+
+## Related in this track
+
+- [Complexity Theory](/6-theory-of-computation/6_complexity-theory/)
+- [Context-Free Languages](/6-theory-of-computation/3_context-free-languages/)
+- [Decidability](/6-theory-of-computation/5_decidability/)
+- [Introduction](/6-theory-of-computation/1_introduction/)

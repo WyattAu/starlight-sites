@@ -600,3 +600,9 @@ Thermodynamics tells us which processes can happen and how much energy they invo
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Chemical Kinetics](/1-physical-chemistry/chemical-kinetics/)
+- [Quantum Chemistry](/1-physical-chemistry/quantum-chemistry/)
+- [Statistical Mechanics](/1-physical-chemistry/statistical-mechanics/)

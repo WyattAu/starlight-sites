@@ -461,3 +461,10 @@ molecules (1 mark).
 - [Diagnostics](./)
 - [Atomic Structure and Periodicity -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
 - [Acids, Bases and Buffers -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+
+## Related in this track
+
+- [A-Level Chemistry Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)
+- [Acids, Bases and Buffers -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Alkanes and Alkenes -- Diagnostic Tests](/chemistry/diagnostics/diag-alkanes-alkenes/)
+- [Atomic Structure and Periodicity -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)

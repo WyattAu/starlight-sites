@@ -155,6 +155,13 @@ Cauchy's theorem tells us that primes leave fingerprints in group structure: if 
 - Assuming the classification of finite simple groups applies to infinite groups.
 - Mixing up the partitions of exponents when applying the Structure Theorem (e.g., $\mathbb{Z}/8\mathbb{Z}$ vs $\mathbb{Z}/4\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$ are both order 8 but non-isomorphic).
 
+## Related in this track
+
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+- [Field Theory](/1-abstract-algebra/12_field-theory/)
+
 ---
 
 ## Classification Of Groups Of Small Order
@@ -299,6 +306,13 @@ Beyond order 12, the classification continues to grow in complexity:
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+- [Field Theory](/1-abstract-algebra/12_field-theory/)
 
 ---
 
@@ -462,6 +476,13 @@ The pitfalls in abstract algebra arise from treating algebraic structures as if 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+- [Field Theory](/1-abstract-algebra/12_field-theory/)
+
 ---
 
 ## Euclidean Domains Pids And Ufds
@@ -623,6 +644,13 @@ only polynomials with even constant term, so $1 \notin I$. Thus $I$ is not princ
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Field Theory](/1-abstract-algebra/12_field-theory/)
 
 ---
 
@@ -808,6 +836,13 @@ Every finite field has order $p^n$ for some prime $p$ and integer $n \geq 1$. St
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
 
 ---
 
@@ -1010,6 +1045,13 @@ Galois theory reveals the deep connection between field extensions and group the
 
 - **Splitting field degree vs.\ polynomial degree.** The degree $[E:\mathbb{Q}]$ of a splitting field is not always equal to the degree of the polynomial; it equals the order of the Galois group, which can be larger (e.g.\ $x^3-2$ has degree 3 but $[E:\mathbb{Q}]=6$).
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+
 ---
 
 ## Group Actions
@@ -1167,6 +1209,13 @@ Group actions describe how symmetry groups interact with sets. A group acts on a
 - [Lagrange's Theorem](/1-abstract-algebra/3_lagrange-s-theorem/) -- The orbit-stabilizer theorem is a generalisation of Lagrange's theorem applied to group actions.
 - [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/) -- Group actions on conjugacy classes and Sylow subgroups drive the classification of small-order groups.
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- Several worked examples apply orbit-stabilizer and Burnside's lemma to concrete counting problems.
+
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
 
 ---
 
@@ -1424,6 +1473,13 @@ $n$ And for each divisor There is exactly one such subgroup.
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
 
 ---
 
@@ -1746,6 +1802,13 @@ The first isomorphism theorem requires $\ker(\phi) \trianglelefteq G$, which is 
 - **[Normal Subgroups and Quotient Groups](/1-abstract-algebra/4_normal-subgroups-and-quotient-groups/)**: The kernel of every homomorphism is a normal subgroup, enabling quotient constructions.
 - **[Rings](/1-abstract-algebra/8_rings/)**: Ring homomorphisms extend the concept of structure-preserving maps to rings.
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+
 ---
 
 ## Ideals And Quotient Rings
@@ -1908,6 +1971,13 @@ Prime ideals are the ring-theoretic analogue of prime numbers: $I$ is prime if $
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
 
 ---
 
@@ -2252,6 +2322,13 @@ center is $Z(D_4) = \{e, r^2\}$, which is one of the order-2 subgroups. $\blacks
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+
 ---
 
 ## Normal Subgroups And Quotient Groups
@@ -2413,6 +2490,13 @@ The quotient group $G/N$ collapses all elements of $N$ to the identity, creating
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+
 ---
 
 ## Polynomial Rings
@@ -2568,6 +2652,13 @@ By Eisenstein with $p = 2$: $2 \mid 0, 4, 2$ but $2 \nmid 1$ (leading coefficien
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
 
 ---
 
@@ -3187,6 +3278,13 @@ Groups of order $p^2$ (for prime $p$) are always abelian, but groups of order $p
 
 ### Challenge Problems
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+
 ---
 
 ## Rings
@@ -3381,6 +3479,13 @@ The definition of a ring does not require a multiplicative identity $1$. Some au
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+
 ---
 
 ## Subgroups
@@ -3556,6 +3661,13 @@ A coset $gH$ is a set of elements, not a group (unless $H$ is normal). The quoti
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
 
 ---
 
@@ -3739,6 +3851,13 @@ $\blacksquare$
 
 </div>
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+
 ---
 
 ## The Sylow Theorems
@@ -3910,6 +4029,13 @@ the Sylow Conditions. Always verify that $n_p \equiv 1 \pmod{p}$ and $n_p$ divid
 - [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/) -- Sylow's theorems are the main tool for determining which groups of a given order can exist.
 - [Worked Examples](/1-abstract-algebra/15_worked-examples/) -- The worked examples apply Sylow counting arguments to classify groups of specific orders.
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+
 ---
 
 ## Worked Examples
@@ -4063,6 +4189,13 @@ These are the only two possibilities, so there are exactly two groups of order $
 - [The Sylow Theorems](/1-abstract-algebra/7_the-sylow-theorems/) -- Sylow theory is the primary tool for the group classification arguments in several worked examples.
 - [Polynomial Rings](/1-abstract-algebra/10_polynomial-rings/) -- The ring-theoretic examples rely on irreducibility criteria and Euclidean division developed in this chapter.
 - [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/) -- The chain of implications between ring types underpins the factorisation arguments in the worked examples.
+
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
 
 ## Measure-Theory
 
@@ -4315,6 +4448,13 @@ The Fubini and Tonelli theorems justify the interchange of the order of integrat
 
 3. **Non-measurable sections.** If $f$ is not product-measurable, the sections $f(x, \cdot)$ may
    fail to be measurable, making iterated integrals ill-defined.
+
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)
+- [Lebesgue Outer Measure and Caratheodory Extension](/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension/)
 
 ---
 
@@ -4646,6 +4786,13 @@ $\blacksquare$
 
 </details>
 
+## Related in this track
+
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)
+- [Lebesgue Outer Measure and Caratheodory Extension](/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension/)
+
 ---
 
 ## Lebesgue Integration
@@ -4843,6 +4990,13 @@ $$
 We can verify directly: $\int_0^\pi \sin(nx)\, dx = [-\cos(nx)/n]_0^\pi = (1 - (-1)^n)/n$, so the integral is $0$ for even $n$ and $2/n^2$ for odd $n$, both vanishing as $n\to\infty$.
 
 $\blacksquare$
+
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)
+- [Lebesgue Outer Measure and Caratheodory Extension](/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension/)
 
 ---
 
@@ -5170,6 +5324,13 @@ Every Borel set is Lebesgue measurable, but not vice versa. The Cantor set is Bo
 
 **Mistake 3: Assuming outer measure is additive**
 Outer measure $m^*$ is subadditive ($m^*(\bigcup A_n) \leq \sum m^*(A_n)$) but not additive. For disjoint non-measurable sets, outer measure can fail to be additive. Additivity holds only for measurable sets. The Vitali construction exploits this failure: the outer measure of the union of translates of $V$ is bounded, but the sum of outer measures is not.
+
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Outer Measure and Caratheodory Extension](/10-measure-theory/3_lebesgue-outer-measure-and-caratheodory-extension/)
 
 ---
 
@@ -5520,6 +5681,13 @@ The Lebesgue outer measure and Caratheodory extension theorem provide the founda
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)
+
 ---
 
 ## Measurable Functions
@@ -5704,6 +5872,13 @@ Egorov's theorem states that pointwise a.e.\ convergence implies uniform converg
 
 **Mistake 3: Assuming that measurable functions are continuous or have nice properties**
 Measurable functions can be highly discontinuous -- in fact, a function is measurable if and only if it is a pointwise limit of simple functions. Students sometimes assume measurability implies continuity or boundedness, which is false. The indicator function of the rationals is measurable but discontinuous everywhere.
+
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)
 
 ---
 
@@ -5895,6 +6070,13 @@ A collection of sets closed under finite unions and complements is an algebra, n
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)
 
 ---
 
@@ -6213,6 +6395,13 @@ Absolute continuity ($\nu \ll \mu$) and mutual singularity ($\nu \perp \mu$) are
 **Mistake 3: Forgetting that the Radon-Nikodym derivative is unique only up to $\mu$-null sets**
 The function $f = d\nu/d\mu$ is determined $\mu$-almost everywhere, not pointwise. Two functions that differ on a $\mu$-null set both serve as Radon-Nikodym derivatives. Students sometimes treat the derivative as a pointwise-defined function, which matters when evaluating it at specific points or when composing with other functions.
 
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)
+
 ---
 
 ## Sigma Algebras And Measurable Spaces
@@ -6371,6 +6560,13 @@ The Borel sigma-algebra is foundational for modern probability theory. Kolmogoro
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)
 
 ---
 
@@ -6577,6 +6773,13 @@ the Radon-Nikodym theorem connects measures via densities.
 - **Applying the Dominated Convergence Theorem without a dominating function:** The theorem requires an integrable majorant $|f_n| \leq g$ with $\int g < \infty$. Without this condition, the conclusion can fail (e.g., $f_n = n \cdot \mathbf{1}_{[0,1/n]}$).
 - **Forgetting that sets of measure zero do not affect integrals:** Two functions that are equal almost everywhere have the same integral. Do not confuse "equal a.e." with "equal everywhere", the distinction matters for pointwise properties but not for $L^p$ membership.
 
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)
+
 ## Functional-Analysis
 
 ---
@@ -6776,6 +6979,13 @@ A weak solution satisfies the PDE in a distributional sense, while a strong solu
 
 **Mistake 3: Forgetting that compactness is essential for extracting convergent subsequences**
 In the direct method of calculus of variations, one needs a minimizing sequence, weak lower semicontinuity of the functional, and weak compactness of the domain. Students frequently try to extract a strongly convergent subsequence from a bounded sequence, which fails in infinite dimensions. Weak compactness (via reflexivity) and then using the compactness of certain operators is the correct approach.
+
+## Related in this track
+
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
+- [Inner Product Spaces and Hilbert Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)
 
 ---
 
@@ -7079,6 +7289,13 @@ Since $\|Tf_n\|/\|f_n\| = n \to \infty$ as $n \to \infty$, the operator $T$ is u
 
 </details>
 
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
+- [Inner Product Spaces and Hilbert Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)
+
 ---
 
 ## Compact Operators
@@ -7341,6 +7558,13 @@ $\max_n |\lambda_n| = \|T\|$ by the spectral radius formula for self-adjoint ope
 - **Signal processing:** The Karhunen-Loeve transform uses the spectral decomposition of compact
   covariance operators to find optimal bases for signal representation and compression (PCA).
 
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
+- [Inner Product Spaces and Hilbert Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)
+
 ---
 
 ## Flashcards Functional Analysis
@@ -7564,6 +7788,13 @@ Functional analysis developed from concrete problems in integral equations, quan
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Inner Product Spaces and Hilbert Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)
 
 ---
 
@@ -8034,6 +8265,13 @@ The constant function $h(x) = c$ satisfies $\langle f, h\rangle = c\int_0^1 f = 
 Conversely, if $g \in M^\perp$, write $g = \bar{g} + c$ where $\bar{g} \in M$ and $c = \int_0^1 g$.
 Then $0 = \langle \bar{g}, g\rangle = \|\bar{g}\|^2 + c\int \bar{g} = \|\bar{g}\|^2$, so $\bar{g}=0$
 and $g$ is constant. Hence $M^\perp$ is the 1-dimensional space of constant functions. $\blacksquare$
+
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
 
 ---
 
@@ -8631,6 +8869,13 @@ In the context of linear operators, boundedness and continuity are equivalent fo
 **Mistake 3: Forgetting that $(C[a,b], \|\cdot\|_1)$ is not complete**
 The space of continuous functions with the $L^1$-norm is not a Banach space because Cauchy sequences can converge to discontinuous functions. Only $(C[a,b], \|\cdot\|_\infty)$ is complete. When completeness is required, always verify the norm, not just the underlying set.
 
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
+
 ---
 
 ## Practice Functional Analysis
@@ -8956,6 +9201,13 @@ again, with $n$ the dimension.
 - **[Stochastic PDEs and Regularity Structures](/14-graduate-stochastic-analysis/2_stochastic-pdes-and-regularity-structures/)**; the critical dimension where the $H^1 \to L^\infty$ embedding fails.
 - **[Applications of Differential Geometry](/12-differential-geometry/9_applications/)**; where Sobolev spaces enter geometric PDE.
 
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
+
 ---
 
 ## Summary Of Key Theorems
@@ -9190,6 +9442,13 @@ operators (Spectral).
 - **Confusing the dual of $\ell^1$ with $\ell^1$:** The dual of $\ell^1$ is $\ell^\infty$, not $\ell^1$. This asymmetry is a common source of errors when computing dual norms or applying the Hahn-Banach theorem.
 - **Forgetting that compact operators have at most countable spectrum:** Non-compact operators can have continuous spectrum. The spectral theorem for compact self-adjoint operators guarantees a discrete eigenvalue expansion, which does not generalise to all bounded operators.
 - **Assuming all bounded linear operators are compact:** The identity operator on an infinite-dimensional space is bounded but not compact. Compactness is a strong condition that fails for most operators on infinite-dimensional spaces.
+
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
 
 ---
 
@@ -9714,6 +9973,13 @@ complement at all.
 - **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)** -- quotients, which is what $X/M$ in Problem 8 is.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
+
 ---
 
 ## Weak And Weak Convergence
@@ -10007,6 +10273,13 @@ If $x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$ (uniform boundedness 
    convergent subsequence.
 5. Let $T : X \to Y$ be compact. Prove that if $x_n \rightharpoonup 0$, then $T x_n \to 0$.
 
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)
+
 ## Differential-Geometry
 
 ---
@@ -10189,6 +10462,13 @@ A minimal surface has zero mean curvature $H = 0$, not zero Gaussian curvature $
 
 **Mistake 3: Misapplying the Gauss-Bonnet theorem to non-compact or open surfaces**
 The theorem $\int_M K\, dA = 2\pi\chi(M)$ requires $M$ to be compact. Students sometimes attempt to apply it to open surfaces like the plane or hyperbolic space, where the integral diverges and the formula does not hold. The theorem is fundamentally a statement about compact topology.
+
+## Related in this track
+
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+- [Elliptic Regularity](/12-differential-geometry/16_elliptic-regularity/)
 
 ---
 
@@ -10409,6 +10689,13 @@ The Ricci tensor is a trace of the Riemann tensor and loses information. Two man
 
 **Mistake 3: Confusing scalar curvature with Gaussian curvature**
 Scalar curvature is the trace of the Ricci tensor and is a single number at each point, while Gaussian curvature is the product of principal curvatures for a surface. On a 2-dimensional manifold, $S = 2K$ where $K$ is the Gaussian curvature. In higher dimensions, scalar curvature is a coarser invariant than sectional curvature.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+- [Elliptic Regularity](/12-differential-geometry/16_elliptic-regularity/)
 
 ---
 
@@ -10676,6 +10963,13 @@ in the language of differential forms.
 - **[Hodge Theory](/12-differential-geometry/14_hodge-theory/)**; every de Rham class has a unique harmonic representative; the dimension of the harmonic forms is the Betti number.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)**; the self-adjoint operator theory that the Hodge Laplacian rests on.
 - **[Applications of Differential Geometry](/12-differential-geometry/9_applications/)**; Maxwell's equations in the language of $d$, where $dF = 0$ and $d{*F} = J$ are the closed-form conditions.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+- [Elliptic Regularity](/12-differential-geometry/16_elliptic-regularity/)
 
 ---
 
@@ -11019,6 +11313,13 @@ The identity $d^2 = 0$ becomes $\nabla \times (\nabla f) = 0$ and $\nabla \cdot 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Elliptic Regularity](/12-differential-geometry/16_elliptic-regularity/)
+
 ---
 
 ## Elliptic Regularity
@@ -11274,6 +11575,13 @@ the smoothing surviving the degeneracy.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)**; Lax–Milgram, which produces the weak solution regularity then promotes.
 - **[Ricci Flow and Geometrisation](/16-graduate-geometry/1_ricci-flow-and-geometrisation/)**; the maximum principle, the parabolic sibling of the elliptic theory.
 - **[Spectral Theory of Self-Adjoint Operators](/12-graduate-analysis/1_spectral-theory-of-self-adjoint-operators/)**; eigenfunctions of the Laplacian, smooth by this page.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
 
 ---
 
@@ -11759,6 +12067,13 @@ Geodesics are the straightest possible paths on a curved surface. On a flat plan
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+
 ---
 
 ## Hodge Theory
@@ -12007,6 +12322,13 @@ theory is the repair, and it is a genuinely different subject.
 - **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)**; $b_k$, Poincaré duality, and the Mayer–Vietoris computation of $H^*(S^2)$ recovered analytically in §4.
 - **[The Gauss–Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/)**; $\chi = \sum(-1)^k \dim\mathcal{H}^k$, the alternating sum of kernel dimensions.
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/); the same self-adjoint operator theory, with the harmonic oscillator as the model example.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
 
 ---
 
@@ -12412,6 +12734,13 @@ $h^{p,q}(M) = h^{n-p,q}(M^\vee)$; exchanges them.
 - **[Hodge Theory Applications in the Summary](/12-differential-geometry/10_summary/)**; where Calabi–Yau moduli enter the track's summary table.
 - [Beyond the Standard Model](https://physics.wyattau.com/7-particle-physics-and-cosmology/9_beyond-the-standard-model/); string compactification, the applied reason for the subject.
 
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+
 ---
 
 ## Practice Differential Geometry
@@ -12666,6 +12995,13 @@ The formula $\Gamma^k_{ij} = \frac{1}{2}g^{k\ell}(\partial_i g_{j\ell} + \partia
 **Mistake 3: Assuming vanishing Riemann curvature implies flatness in coordinates**
 A manifold with zero Riemann curvature is *locally* isometric to Euclidean space, but the coordinate expressions for the metric may still look complicated. The vanishing of curvature is a coordinate-independent statement. In non-normal coordinates, the Christoffel symbols need not vanish even when $R = 0$.
 
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+
 ---
 
 ## Smooth Manifolds
@@ -12863,6 +13199,13 @@ Local objects like Riemannian metrics or differential forms can be defined on ea
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
 
 ---
 
@@ -13072,6 +13415,13 @@ Differential geometry studies curved spaces by doing calculus on them. A manifol
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+
 ---
 
 ## Tangent Spaces And Tangent Bundles
@@ -13266,6 +13616,13 @@ The tangent space at a point on a manifold is the collection of all possible vel
 4. Prove that $T(S^1)$ is diffeomorphic to $S^1 \times \mathbb{R}$.
 5. Show that if $M$ is an $n$-dimensional manifold, then $TM$ is a $2n$-dimensional manifold.
 
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+
 ---
 
 ## The Gauss Bonnet Theorem
@@ -13458,6 +13815,13 @@ The Euler characteristic $\chi = V - E + F$ is well-defined for all surfaces, bu
 4. Use Gauss-Bonnet with boundary to find the area of a spherical lune (region between two
    great circles) with angle $\theta$.
 5. Show that $\chi(M)$ is even for every compact oriented 2-manifold.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
 
 ---
 
@@ -13774,6 +14138,13 @@ The coordinate formula $[X, Y]^i = X^j \partial_j Y^i - Y^j \partial_j X^i$ requ
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
 
 ## Graduate-Analysis
 
@@ -17912,6 +18283,13 @@ Operators](https://physics.wyattau.com/5-quantum-mechanics/4_operators-and-obser
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
+## Related in this track
+
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)
+- [Problem Set](/2-linear-algebra/9_problem-set/)
+
 ---
 
 ## Flashcards Linear Algebra
@@ -18516,6 +18894,13 @@ Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/) and
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)
+- [Problem Set](/2-linear-algebra/9_problem-set/)
+
 ---
 
 ## Linear Independence Span Basis And Dimension
@@ -18982,6 +19367,13 @@ Theory](/15-graduate-representation-theory/1_representation-theory-of-finite-gro
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Matrices](/2-linear-algebra/3_matrices/)
+- [Problem Set](/2-linear-algebra/9_problem-set/)
 
 ---
 
@@ -19723,6 +20115,13 @@ Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/).
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Problem Set](/2-linear-algebra/9_problem-set/)
+
 ---
 
 ## Practice Linear Algebra
@@ -20336,6 +20735,13 @@ $\blacksquare$
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)
+
 ---
 
 ## Singular Value Decomposition
@@ -20804,6 +21210,13 @@ Equations](/2-linear-algebra/4_systems-of-linear-equations/), [Real Analysis](ht
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)
 
 ---
 
@@ -21308,6 +21721,13 @@ Value Decomposition](/2-linear-algebra/8_singular-value-decomposition/) and
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)
+
 ---
 
 ## Vectors And Vector Spaces
@@ -21764,6 +22184,13 @@ Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/).
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)
+
 ## Real-Analysis
 
 ---
@@ -22189,6 +22616,13 @@ Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) and
 - **[Sigma-Algebras and Measurable Spaces](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/)**: Continuity is defined in terms of open sets, which generate the Borel sigma-algebra used in measure theory.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Differentiability](/3-real-analysis/5_differentiability/)
+- [Problem Set](/3-real-analysis/8_problem-set/)
+- [Riemann Integration](/3-real-analysis/6_riemann-integration/)
+- [Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)
 
 ---
 
@@ -22654,6 +23088,13 @@ $\blacksquare$
 - **[Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)**: Lebesgue integration generalises the Riemann integral and handles a broader class of functions with discontinuities.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Continuity](/3-real-analysis/4_continuity/)
+- [Problem Set](/3-real-analysis/8_problem-set/)
+- [Riemann Integration](/3-real-analysis/6_riemann-integration/)
+- [Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)
 
 ---
 
@@ -23445,6 +23886,13 @@ $\blacksquare$
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Continuity](/3-real-analysis/4_continuity/)
+- [Differentiability](/3-real-analysis/5_differentiability/)
+- [Riemann Integration](/3-real-analysis/6_riemann-integration/)
+- [Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)
+
 ---
 
 ## Riemann Integration
@@ -23910,6 +24358,13 @@ can change its value.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Continuity](/3-real-analysis/4_continuity/)
+- [Differentiability](/3-real-analysis/5_differentiability/)
+- [Problem Set](/3-real-analysis/8_problem-set/)
+- [Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)
+
 ---
 
 ## Sequences And Limits
@@ -24197,6 +24652,13 @@ System](/3-real-analysis/1_the-real-number-system/) and [Series](/3-real-analysi
 - [Measure Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/): where convergence gets harder and more useful
 - [How to Use These Notes](/how-to-use/); the method, and why recall prompts
   come first
+
+## Related in this track
+
+- [Continuity](/3-real-analysis/4_continuity/)
+- [Differentiability](/3-real-analysis/5_differentiability/)
+- [Problem Set](/3-real-analysis/8_problem-set/)
+- [Riemann Integration](/3-real-analysis/6_riemann-integration/)
 
 ---
 
@@ -24603,6 +25065,13 @@ When applying the ratio or root test, students find $R$ but assume the series co
 
 A sequence of functions converges pointwise if each point eventually stabilises, but this is too weak to preserve analytical properties, the limit of continuous functions can be discontinuous. Uniform convergence demands that all points stabilise simultaneously: given any tolerance, there is a single $N$ beyond which every point in the domain is within that tolerance. Think of it as the difference between each person eventually sitting down (pointwise) versus everyone sitting down at the same command (uniform). Power series are the paradigmatic example: within their radius of convergence, they converge uniformly on compact sets, which justifies term-by-term differentiation and integration.
 
+## Related in this track
+
+- [Continuity](/3-real-analysis/4_continuity/)
+- [Differentiability](/3-real-analysis/5_differentiability/)
+- [Problem Set](/3-real-analysis/8_problem-set/)
+- [Riemann Integration](/3-real-analysis/6_riemann-integration/)
+
 ---
 
 ## Series
@@ -24942,6 +25411,13 @@ The Riemann rearrangement theorem states that any conditionally convergent serie
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Continuity](/3-real-analysis/4_continuity/)
+- [Differentiability](/3-real-analysis/5_differentiability/)
+- [Problem Set](/3-real-analysis/8_problem-set/)
+- [Riemann Integration](/3-real-analysis/6_riemann-integration/)
 
 ---
 
@@ -25306,6 +25782,13 @@ and [Continuity](/3-real-analysis/4_continuity/).
 - **Assuming every bounded set has a supremum in $\mathbb{Q}$:** The completeness axiom holds only in $\mathbb{R}$. In $\mathbb{Q}$, sets like $\{x \in \mathbb{Q} : x^2 < 2\}$ are bounded above but have no supremum in $\mathbb{Q}$ because $\sqrt{2} \notin \mathbb{Q}$.
 - **Omitting "non-empty" when stating completeness:** The completeness axiom requires the set to be non-empty and bounded above. An empty set is bounded above but has no supremum (or, by convention, $\sup \varnothing = -\infty$, which is not a real number).
 - **Treating density and completeness as the same property:** The rationals are dense in $\mathbb{R}$ (between any two reals there is a rational), but they are not complete. Density means no gaps between elements; completeness means no missing limit points.
+
+## Related in this track
+
+- [Continuity](/3-real-analysis/4_continuity/)
+- [Differentiability](/3-real-analysis/5_differentiability/)
+- [Problem Set](/3-real-analysis/8_problem-set/)
+- [Riemann Integration](/3-real-analysis/6_riemann-integration/)
 
 ## Multivariable-Calculus
 
@@ -25679,6 +26162,13 @@ $\blacksquare$
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)
+- [Optimization](/4-multivariable-calculus/4_optimization/)
+- [Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)
+- [Problem Set](/4-multivariable-calculus/6_problem-set/)
 
 ---
 
@@ -26276,6 +26766,13 @@ The key to setting up multiple integrals is describing the region correctly. Typ
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)
+- [Optimization](/4-multivariable-calculus/4_optimization/)
+- [Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)
+- [Problem Set](/4-multivariable-calculus/6_problem-set/)
+
 ---
 
 ## Optimization
@@ -26561,6 +27058,13 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)
+- [Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)
+- [Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)
+- [Problem Set](/4-multivariable-calculus/6_problem-set/)
 
 ---
 
@@ -26983,6 +27487,13 @@ The key subtlety in multivariable calculus is that knowing all partial derivativ
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)
+- [Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)
+- [Optimization](/4-multivariable-calculus/4_optimization/)
+- [Problem Set](/4-multivariable-calculus/6_problem-set/)
 
 ---
 
@@ -27712,6 +28223,13 @@ $\blacksquare$
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)
+- [Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)
+- [Optimization](/4-multivariable-calculus/4_optimization/)
+- [Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)
+
 ---
 
 ## Vector Calculus
@@ -28246,6 +28764,13 @@ Where $\Omega$ is a $k$-dimensional manifold with boundary $\partial \Omega$, $\
 $(k-1)$-form, And $d\omega$ is its exterior derivative.
 :::
 
+## Related in this track
+
+- [Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)
+- [Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)
+- [Optimization](/4-multivariable-calculus/4_optimization/)
+- [Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)
+
 ## Ordinary-Differential-Equations
 
 ---
@@ -28427,6 +28952,13 @@ Differential equations are the language of change. Every pitfall in this file re
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
+- [Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)
 
 ---
 
@@ -28820,6 +29352,13 @@ $K$. The inflection point occurs at $P = K/2$, where the growth rate is maximal.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
+- [Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)
+
 ---
 
 ## Flashcards Odes
@@ -29061,6 +29600,13 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
+- [Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)
 
 ---
 
@@ -29331,6 +29877,13 @@ Differential equations describe how things change. An ODE relates a function to 
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)
 
 ---
 
@@ -29666,6 +30219,13 @@ Partial differential equations extend ODEs to functions of multiple variables, d
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
 
 ---
 
@@ -30065,6 +30625,13 @@ follows From the **Gronwall inequality** applied to the difference of two soluti
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
 
 ---
 
@@ -30642,6 +31209,13 @@ Ordinary differential equations describe how quantities evolve, and each method 
 - [Differential Equations](./)
 - [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
 - [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
 
 ---
 
@@ -31411,6 +31985,13 @@ Bessel functions of the first kind $J_\nu(x)$ are analytic at $x = 0$, while Bes
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
+
 ---
 
 ## Stability And Phase Plane Analysis
@@ -31607,6 +32188,13 @@ The phase plane is the coordinate space $(x, y)$, while the phase portrait is th
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
 
 ---
 
@@ -32095,6 +32683,13 @@ When analytically continuing a function to a larger domain, new singularities ma
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+## Related in this track
+
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+- [Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)
+
 ---
 
 ## Applications Of Contour Integration
@@ -32287,6 +32882,13 @@ Contour integration exploits the fact that analytic functions have path-independ
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+- [Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)
+
 ---
 
 ## Argument Principle And Rouch S Theorem
@@ -32471,6 +33073,13 @@ The argument principle counts zeros and poles of a function by tracking how much
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+- [Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)
+
 ---
 
 ## Cauchy S Integral Formula
@@ -32637,6 +33246,13 @@ Cauchy's integral formula says the value of an analytic function inside a contou
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)
 
 ---
 
@@ -32824,6 +33440,13 @@ Cauchy's theorem says the integral of an analytic function around a closed conto
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+
 ---
 
 ## Common Pitfalls
@@ -32987,6 +33610,13 @@ The pitfalls in complex analysis stem from the deceptive similarity between real
 - **[Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: The residue theorem computes contour integrals by summing contributions from singularities.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
 
 ---
 
@@ -33175,6 +33805,13 @@ A complex function maps the plane to the plane, but requiring differentiability 
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
 
 ---
 
@@ -33378,6 +34015,13 @@ The value of the contour integral does not depend on the parameterization of the
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
 
 ---
 
@@ -33648,6 +34292,13 @@ The argument $\arg(z)$ is multi-valued: if $\theta$ is an argument, then so is $
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
 
 ---
 
@@ -33972,6 +34623,13 @@ The cross-ratio $(z_1, z_2, z_3, z_4)$ is invariant under Möbius transformation
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
 
 ---
 
@@ -34331,6 +34989,13 @@ Liouville's theorem states that bounded entire functions must be constant, which
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
 
 ---
 
@@ -34887,6 +35552,13 @@ Complex analysis is the study of functions that respect the geometry of the comp
 - [Complex Numbers Review](/6-complex-analysis/1_complex-numbers-review/)
 - [Conformal Mappings](/6-complex-analysis/10_conformal-mappings/)
 
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+
 ---
 
 ## Singularities And Residue Theory
@@ -35084,6 +35756,13 @@ The residue at a pole of order $m$ is given by $\mathrm{Res}(f, z_0) = \frac{1}{
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+
 ---
 
 ## Taylor And Laurent Series
@@ -35278,6 +35957,13 @@ Every analytic function can be expanded as a power series, like a polynomial of 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+
 ---
 
 ## The Cauchy Riemann Equations
@@ -35469,6 +36155,13 @@ The Cauchy-Riemann equations are the complex analogue of requiring a function to
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+
 ## Number-Theory
 
 ---
@@ -35590,6 +36283,13 @@ So $48 - 13 = 35$ values of $b$, giving $\gcd(a, 720) = 5$ for exactly 35 intege
 - [Primitive Roots](/7-number-theory/7_primitive-roots-and-discrete-logarithms/)
 - [The Distribution of Primes](/7-number-theory/10_distribution-of-primes/)
 A final sanity check: $\varphi(1) = 1$, $\tau(1) = \sigma(1) = 1$, and $\mu(1) = 1$; the empty product conventions that keep every formula valid at $n = 1$.
+
+## Related in this track
+
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)
 
 ---
 
@@ -35714,6 +36414,13 @@ For multi-step reductions, tabulate powers as you go: the table of $a$, $a^2$, $
 Reduce $11^{21} \pmod{13}$: Fermat gives $11^{12} \equiv 1$, so $11^{21} \equiv 11^9$.
 Now $11^2 = 121 \equiv 4$, $11^4 \equiv 16 \equiv 3$, $11^8 \equiv 9$, and $11^9 \equiv 9 \cdot 11 = 99 \equiv 8 \pmod{13}$.
 
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)
+
 ---
 
 ## Continued Fractions
@@ -35834,6 +36541,13 @@ For periodic expansions, quote the structure: $\sqrt{D}$ has partial quotients g
 recurrence on $m_k, d_k, a_k$, the period begins at $a_1$, and the last term of the period is
 always $2a_0$. Citing these facts precisely earns the method marks even when the arithmetic is
 long.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)
 
 ---
 
@@ -36034,6 +36748,13 @@ $(n, 2n)$.
 
 A closing remark for exams: quote $\pi(2^{20})$-style data accurately if the question supplies it, and never round intermediate logarithms; the marker scheme penalises premature rounding far more than the final answer.
 A useful sanity check for estimates: $\pi(x)$ increases by exactly 1 at each prime, so any approximation must stay constant between primes; quote this when explaining why pointwise error is unavoidable.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
 
 ---
 
@@ -36322,6 +37043,13 @@ the skyscraper. The next page builds the tower.
 - [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/); where
   the extended Euclidean algorithm meets RSA key generation
 
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)
+
 ---
 
 ## Fermat Euler And Wilson Theorems
@@ -36451,6 +37179,13 @@ $4^{340} \equiv 4^{10} = 1048576$. Then $1048576 = 33824 \cdot 31 + 12$, so $4^{
 - [Congruences](/7-number-theory/3_congruences/)
 - [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
 - [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/)
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
 
 ---
 
@@ -36694,6 +37429,13 @@ Always finish with the residue class statement: solutions are classes modulo the
 
 Alternatively solve by substitution: from $x = 2 + 3k$ into $x \equiv 3 \pmod 5$ gives $3k \equiv 1 \pmod 5$, $k \equiv 2$, so $x = 8 + 15t$; substituting into $x \equiv 2 \pmod 7$ gives $t \equiv 4 \pmod 7$ and $x = 68 + 105t$; the same class as the CRT formula.
 
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+
 ---
 
 ## Number Theory And Cryptography
@@ -36816,6 +37558,13 @@ The standard criticism list: deterministic encryption leaks equality of plaintex
 decryption exponents fall to Wiener's continued-fraction attack (the continued-fraction page is
 the natural companion); shared factors between two public moduli break both keys; the factoring
 is a single gcd.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
 
 ---
 
@@ -36985,6 +37734,13 @@ $\leq \sqrt{N}$, so the survivors are exactly the primes. Cost: $O(N \log \log N
 For exam proofs, write factorisations in canonical ascending-prime form before comparing; order-free multisets earn no method marks unless the canonical form is stated first.
 Every exam answer should conclude with the canonical form restated: the uniqueness statement is about the multiset of prime factors, not the written order of the product.
 
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+
 ---
 
 ## Primitive Roots And Discrete Logarithms
@@ -37105,6 +37861,13 @@ $$
 Index arithmetic converts multiplication problems into linear congruences. To compute
 $3^{17} \pmod 7$ when 3 has order 6: reduce the exponent 17 modulo 6 to 5, and read off
 $3^5 \equiv 5 \pmod 7$ from the power table. State the order reduction step explicitly.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
 
 ---
 
@@ -37227,6 +37990,13 @@ Euler's criterion also solves $x$: when $a^{(p+1)/4} \equiv \pm x$ for $p \equiv
 
 Mod 11 the QRs are $\{1, 3, 4, 5, 9\}$ and mod 13 they are $\{1, 3, 4, 9, 10, 12\}$; five and six classes respectively, each exactly half of the nonzero residues as Euler's criterion predicts.
 
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+
 ---
 
 ## Sums Of Squares And Pells Equation
@@ -37343,6 +38113,13 @@ Check every Pell solution by substitution before quoting it: $x^2 - Dy^2$ must e
 ### 9.x A Second Pell Cascade
 
 For $D = 5$: $\sqrt5 = [2; \overline{4}]$, period 1 (odd), so $(9, 4)$ solves $x^2 - 5y^2 = 1$ from the convergent $9/4$, and $(2, 1)$ solves $x^2 - 5y^2 = -1$.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
 
 ## Probability-And-Statistics
 
@@ -37956,6 +38733,13 @@ Convolutions](/8-probability-and-statistics/5_transformations-and-convolutions/)
 - [Bernstein-von Mises](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)
 - [How to Use These Notes](/how-to-use/)
 
+## Related in this track
+
+- [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+- [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/)
+
 ---
 
 ## Flashcards Probability Statistics
@@ -38435,6 +39219,13 @@ Joint distributions describe how two or more random variables vary together. Ind
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/)
+
 ---
 
 ## Limit Theorems
@@ -38751,6 +39542,13 @@ Theory](/10-measure-theory/2_measures/).
   behind expectation
 - [Posterior Asymptotics](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/): where these ideas go at research level
 - [How to Use These Notes](/how-to-use/); the method
+
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/)
 
 ---
 
@@ -41461,6 +42259,13 @@ flowchart TD
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+- [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+
 ---
 
 ## Probability Spaces
@@ -41705,6 +42510,13 @@ Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) and
   countable additivity pays off
 - [Sigma-Algebras and Measurable Spaces](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/): the measure-theoretic version of this page
 - [How to Use These Notes](/how-to-use/); the method
+
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+- [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
+- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/)
 
 ---
 
@@ -41983,6 +42795,13 @@ $\mathrm{Var}(aX + b) = a^2 \mathrm{Var}(X)$, not $a \mathrm{Var}(X) + b$. The v
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
 
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+- [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+
 ---
 
 ## Transformations And Convolutions
@@ -42189,6 +43008,13 @@ When you transform a random variable, its distribution changes according to how 
 
 - [Probability Theory](./)
 - [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+- [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
 - [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
 
 ## Topology
@@ -42512,6 +43338,13 @@ Think of a set as a region of space with fuzzy edges. The interior is the core w
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
+- [Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)
+
 ---
 
 ## Common Pitfalls
@@ -42686,6 +43519,13 @@ The pitfalls in topology arise from a single source: intuition from Euclidean sp
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
+- [Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)
 
 ---
 
@@ -42883,6 +43723,13 @@ A space is locally compact if every point has a compact neighbourhood, but this 
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Connectedness](/9-topology/6_connectedness/)
+- [Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)
 
 ---
 
@@ -43316,6 +44163,13 @@ A space is totally disconnected if its only connected subsets are singletons. A 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)
+
 ---
 
 ## Continuity And Homeomorphisms
@@ -43578,6 +44432,13 @@ The pasting lemma requires that the two pieces agree on their intersection and t
 - **[Topological Spaces](/9-topology/2_topological-spaces/)**: Topological spaces provide the foundation for defining continuity and homeomorphisms.
 - **[Compactness](/9-topology/5_compactness/)**: Compactness is preserved by continuous functions and characterizes spaces where extreme value theorem holds.
 - **[Connectedness](/9-topology/6_connectedness/)**: Connectedness is a topological invariant preserved by homeomorphisms and continuous images.
+
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
 
 ---
 
@@ -44202,6 +45063,13 @@ of surfaces is indexed by a single integer.
   is made of.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
+
 ---
 
 ## Introduction To Topology
@@ -44408,6 +45276,13 @@ Homeomorphism preserves topological properties but not geometric ones. A coffee 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
+
 ---
 
 ## Metric Spaces
@@ -44588,6 +45463,13 @@ The Banach fixed-point theorem requires $d(f(x), f(y)) \leq c \cdot d(x, y)$ for
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
 
 ---
 
@@ -45007,6 +45889,13 @@ A $T_1$ space need not be $T_2$. The cofinite topology on an infinite set is $T_
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
+
 ---
 
 ## Summary
@@ -45226,6 +46115,13 @@ Tychonoff's theorem guarantees that products of compact spaces are compact, and 
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
 
 ---
 
@@ -45523,6 +46419,13 @@ The beauty of topology is that it captures the properties of space that survive 
 
 The real power of topological spaces is that they let you define continuity without mentioning numbers or distances. A function is continuous if the preimage of every open set is open, that's it. This simple definition works in settings far beyond Euclidean space: function spaces, quantum state spaces, the space of shapes in computer vision, the space of probability distributions in machine learning. Whenever you need to talk about convergence, continuity, or "sameness" in an abstract setting, topology provides the language. It's the most general framework for understanding the structure of mathematical spaces.
 
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)
+
 ## Overview
 
 ---
@@ -45636,6 +46539,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)
+- [How to Use These Notes: What Learning Science Says](/how-to-use-learning-science/)
 
 ---
 
@@ -46160,6 +47070,13 @@ Attempt these before track 1. Answers below; each links back to its section.
 - [Measure-Theoretic Probability](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/1_measure-theoretic-probability/) -
   where §2's countability distinction decides which theorems hold.
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)
+- [How to Use These Notes: What Learning Science Says](/how-to-use-learning-science/)
+
 ---
 
 ## Glossary
@@ -46354,6 +47271,13 @@ graph TD
 - [Linear Algebra Course](/2-linear-algebra/)
 - [Probability Problems](/8-probability-and-statistics/)
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)
+
 ---
 
 ## How To Use
@@ -46520,6 +47444,13 @@ makes them possible.
 - [Measure Theory](/10-measure-theory/1_sigma-algebras-and-measurable-spaces/) -
   where the undergraduate treatment is rebuilt on better foundations
 - [Functional Analysis](/11-functional-analysis/1_normed-spaces-and-banach-spaces/): the advanced tier
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes: What Learning Science Says](/how-to-use-learning-science/)
 
 ---
 
@@ -46739,6 +47670,13 @@ worked examples at the right depth; but the effort must come from you.
 - Roediger & Karpicke (2006); Cepeda et al. (2006); Rohrer & Taylor (2007);
   Sweller & Cooper (1985); Dunlosky et al. (2013); the primary sources for
   the six techniques described here.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)
 
 ---
 
@@ -47229,6 +48167,13 @@ It depends on your goals. If you are studying physics, you need linear algebra, 
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [How to Use These Notes](/how-to-use/)
+- [How to Use These Notes: What Learning Science Says](/how-to-use-learning-science/)
+
 ---
 
 ## Index
@@ -47407,6 +48352,13 @@ The proof techniques themselves are not arbitrary logical exercises. Direct proo
 
 ### Further Reading
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)
+
 ---
 
 ## Overview
@@ -47531,6 +48483,13 @@ Mathematics is learned by doing, not by passive reading. Directly following a pr
 
 **Mistake 3: Treating definitions as suggestions rather than precise requirements**
 In proof-based mathematics, every word in a definition matters. For example, a "normal subgroup" requires both closure under conjugation and the subgroup property. Omitting any condition leads to incorrect results. Always verify that all parts of a definition are satisfied before applying a theorem.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)
 
 ---
 
@@ -48616,6 +49575,13 @@ To show $K$ is closed, suppose $x$ is a limit point of $K$ but $x \notin K$. For
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)
+
 ---
 
 ## Terms Of Art
@@ -48975,6 +49941,13 @@ uncountable (the Cantor set).
   defined on the measure-theoretic foundation.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)** -
   where "uniformly" and "dense" appear in their functional-analytic context.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)
 
 ## Demos
 

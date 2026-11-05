@@ -150,3 +150,10 @@ graph TD
     B --> C[Example]
     C --> D[Practice]
 ```
+
+## Related in this track
+
+- [Algorithms -- Diagnostic Tests](/computer-science/diagnostics/diag-algorithms/)
+- [Computer Networks -- Diagnostic Tests](/computer-science/diagnostics/diag-networks/)
+- [Data Structures -- Diagnostic Tests](/computer-science/diagnostics/diag-data-structures/)
+- [Fundamentals -- Diagnostic Tests](/computer-science/diagnostics/diag-fundamentals/)

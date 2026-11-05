@@ -494,3 +494,10 @@ It depends on your goals. If you are studying physics, you need linear algebra, 
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [How to Use These Notes](/how-to-use/)
+- [How to Use These Notes: What Learning Science Says](/how-to-use-learning-science/)

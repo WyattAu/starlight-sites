@@ -227,3 +227,10 @@ $\begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
 - **[Matrices](/further-maths/pure-mathematics/02-matrices/):** Matrix algebra is core to further maths
 - **[Further Calculus](/further-maths/pure-mathematics/04-further-calculus/):** Calculus underpins further mathematics
 - **[Pure Mathematics](/further-maths/further-maths/):** Further maths extends A-level mathematics
+
+## Related in this track
+
+- [A-Level Further Maths -- Diagnostic Guide](/further-maths/diagnostics/diagnostic-guide/)
+- [Complex Numbers -- Diagnostic Tests](/further-maths/diagnostics/diag-complex-numbers/)
+- [Differential Equations -- Diagnostic Tests](/further-maths/diagnostics/diag-differential-equations/)
+- [Further Algebra -- Diagnostic Tests](/further-maths/diagnostics/diag-further-algebra/)

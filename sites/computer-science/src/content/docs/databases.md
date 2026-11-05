@@ -2059,3 +2059,10 @@ Normalisation is the process of designing tables so that each fact is stored in 
 
 Transactions are the mechanism that makes concurrent access safe. ACID properties guarantee that even with thousands of simultaneous users, the database always appears consistent. Isolation levels (Read Committed through Serializable) let you trade strictness for performance, lower isolation levels allow more concurrency but risk anomalies like dirty reads and phantom reads. Concurrency control (2PL, MVCC) ensures that concurrent transactions produce the same result as some serial execution. The beauty of this system is that application developers don't need to think about concurrency at all, they just write correct SQL, and the DBMS handles the rest.
 :::
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Algorithms and Data Structures](/algorithms-and-data-structures/)
+- [Before You Begin: The Abstractions CS Assumes You Already Have](/before-you-begin/)
+- [Complete Computer Science Study Guide](/hub/)

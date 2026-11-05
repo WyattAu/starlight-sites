@@ -1541,3 +1541,10 @@ linked above.
 - [Undervolting and Overclocking](/undervolting-and-overclocking/) - How BIOS settings control voltage regulation and power delivery
 - [Cooling](/05-cooling-systems/cooling/) - How fan headers and power connectors support cooling infrastructure
 - [CPU Fundamentals](/01-cpu-tuning/cpu-fundamentals/) - How BIOS overclocking settings affect CPU power consumption
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Hardware Tuning Glossary, Key Terms](/glossary/)
+- [Introduction to Hardware Tuning](/intro/)
+- [Performance Tuning and Optimization Guide](/hub/)

@@ -225,3 +225,10 @@ rather than eliminate impact.
 
 - **[Forces](/physics/diagnostics/diag-forces/):** Forces and motion.
 - **[Electricity](/physics/diagnostics/diag-electricity/):** Electric circuits and currents.
+
+## Related in this track
+
+- [Electricity -- Diagnostic Tests](/physics/diagnostics/diag-electricity/)
+- [Forces -- Diagnostic Tests](/physics/diagnostics/diag-forces/)
+- [GCSE Physics -- Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
+- [Magnetism and Electromagnetism -- Diagnostic Tests](/physics/diagnostics/diag-magnetism/)

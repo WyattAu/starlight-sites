@@ -450,3 +450,10 @@ just that page.
 4. **Ignoring the cost of page faults.** A single page fault requires a disk access (milliseconds), which is orders of magnitude slower than a memory access (nanoseconds). Code that triggers frequent page faults, e.g., iterating over a large array with poor locality, will be dramatically slower than code with good spatial and temporal locality.
 
 5. **Assuming `fork()` is expensive without COW.** Without copy-on-write, `fork()` would need to copy every page of the parent's address space, making it O(n) in the number of pages. With COW, only modified pages are copied, making `fork()` followed by `exec()` extremely cheap since the child's pages are never actually copied.
+
+## Related in this track
+
+- [Deadlocks](/5-operating-systems/4_deadlocks/)
+- [File Systems](/5-operating-systems/6_file-systems/)
+- [I/O Systems](/5-operating-systems/7_i-o-systems/)
+- [Introduction to Operating Systems](/5-operating-systems/1_introduction-to-operating-systems/)

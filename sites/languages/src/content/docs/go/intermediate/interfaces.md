@@ -317,3 +317,8 @@ implementation, and key applications.
 - **[Error Handling](/go/intermediate/error-handling/):** The error interface and custom error type patterns.
 - **[Testing](/go/advanced/testing/):** Interface-based mock design for unit testing.
 - **[Reflection](/go/advanced/reflection/):** Runtime type inspection as an alternative to interface-based polymorphism.
+
+## Related in this track
+
+- [Error Handling](/go/intermediate/error-handling/)
+- [Generics](/go/intermediate/generics/)

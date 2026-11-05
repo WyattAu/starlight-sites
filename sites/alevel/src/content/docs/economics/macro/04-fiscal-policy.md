@@ -1145,3 +1145,10 @@ Fiscal policy is the government's most direct lever on the economy, it's the abi
 But the thermostat isn't perfect. It takes time to recognise when the economy needs heating or cooling, time to agree on what to do, and time for the policy to actually work. By the time you've fitted a new radiator, the weather may have changed. This is the lag problem, and it means fiscal policy can sometimes end up making things worse, stimulating an economy that's already recovering, or tightening when a recession is just beginning. There's also the crowding out problem: when the government borrows to fund its spending, it competes with private firms for loans, pushing up interest rates and potentially cancelling out some of the stimulus. The size of this problem depends on how much spare capacity the economy has, in a deep recession with idle workers and factories, crowding out is minimal, but at full employment it can be severe.
 
 The deepest question in fiscal policy is about debt. Borrowing today means someone has to pay tomorrow. The key relationship is between the interest rate on government debt and the economy's growth rate. If the economy grows faster than the interest on the debt, the debt burden shrinks over time even without running a surplus, like a company whose profits grow faster than its loan interest. But if interest rates exceed growth, the debt snowball can become unsustainable. This is why the composition of spending matters enormously: borrowing to build roads and schools that boost future growth is very different from borrowing to fund day-to-day consumption. The first makes future repayment easier; the second just pushes the problem forward.
+
+## Related in this track
+
+- [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)
+- [Development Economics](/economics/macro/08-development-economics/)
+- [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/)
+- [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/)

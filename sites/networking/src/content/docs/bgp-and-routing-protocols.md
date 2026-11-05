@@ -1377,3 +1377,10 @@ Routing is like a GPS navigation system for internet packets. Static routes are 
 - [OSI and TCP/IP](/01-osi-model/osi-and-tcp-ip/) - Reference models that place routing at the network layer
 - [TCP and UDP](/03-tcp-udp/tcp-and-udp/) - Transport protocols that routing decisions affect end-to-end
 :::
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: How the Layers Fit](/before-you-begin/)
+- [Complete Computer Networking Study Guide](/hub/)
+- [Computer Networking Glossary, Key Terms and Definitions](/glossary/)

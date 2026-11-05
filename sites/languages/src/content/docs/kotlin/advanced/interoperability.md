@@ -353,3 +353,9 @@ Java-Kotlin interoperability is like two countries sharing a border -- most traf
 - [Advanced](./)
 - [Metaprogramming](/kotlin/advanced/metaprogramming/)
 - [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)
+
+## Related in this track
+
+- [Metaprogramming](/kotlin/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)
+- [Testing](/kotlin/advanced/testing/)

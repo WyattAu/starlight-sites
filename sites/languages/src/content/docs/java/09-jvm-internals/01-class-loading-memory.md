@@ -706,3 +706,7 @@ Native memory that is not part of the heap. Virtual threads eliminate this probl
 
 ## Worked Examples
 
+## Related in this track
+
+- [Garbage Collection](/java/09-jvm-internals/03-garbage-collection/)
+- [JIT Compilation and Deoptimization](/java/09-jvm-internals/02-jit-compilation/)

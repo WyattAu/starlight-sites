@@ -206,3 +206,10 @@ A thin lens adds a quadratic phase factor $\exp(-ik(x^2+y^2)/(2f))$. The Fourier
 The second lens in a 4f system performs another Fourier transform, which introduces a coordinate inversion: $U_{\text{out}}(x,y) \propto U_{\text{in}}(-x,-y)$ when no filter is present. Students sometimes forget this inversion when designing spatial filtering experiments, leading to unexpectedly mirrored output images.
 
 Fourier optics treats lenses as analog computers that perform Fourier transforms at the speed of light. A lens converts spatial patterns into their frequency components at its focal plane. The convolution theorem explains why complex apertures produce predictable patterns: multiplying apertures convolves their spectra. This is why a grating produces discrete spots while a single slit produces a continuous spread. The optical transfer function describes how well an imaging system preserves different spatial frequencies, like an equalizer for images.
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)

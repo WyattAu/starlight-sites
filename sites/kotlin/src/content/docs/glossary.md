@@ -197,3 +197,10 @@ fun greet(name: String, greeting: String = "Hello") = "$greeting, $name!"
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 - See [TypeScript Glossary](/glossary/) for another statically-typed language
 - See [Swift Glossary](/glossary/) for mobile development comparison
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Kotlin Assumes You Know](/before-you-begin/)
+- [Complete Kotlin Programming Study Guide](/hub/)
+- [Introduction to Kotlin](/intro/)

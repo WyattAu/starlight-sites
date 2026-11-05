@@ -101,3 +101,9 @@ $ git clone --recurse-submodules https://github.com/user/project.git
 $ git submodule update --init --recursive
 ```
 
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)

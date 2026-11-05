@@ -234,3 +234,10 @@ appropriate frequencies ( 1--15 MHz depending on the application).
 - [Diagnostics](./)
 - [Electricity -- Diagnostic Tests](/physics/diagnostics/diag-electricity/)
 - [Energy -- Diagnostic Tests](/physics/diagnostics/diag-energy/)
+
+## Related in this track
+
+- [Electricity -- Diagnostic Tests](/physics/diagnostics/diag-electricity/)
+- [Energy -- Diagnostic Tests](/physics/diagnostics/diag-energy/)
+- [Forces -- Diagnostic Tests](/physics/diagnostics/diag-forces/)
+- [GCSE Physics -- Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)

@@ -1116,3 +1116,10 @@ implementation, and key applications.
 - **[Class Modifiers](/dart/07-dart3-features/03-class-modifiers/):** Sealed class hierarchies for exhaustive pattern matching on error types.
 - **[Classes and Inheritance](/dart/04-object-oriented/01-classes-and-inheritance/):** Custom exception class design using inheritance and abstract classes.
 - **[Best Practices](/dart/04-best-practices/):** Error handling best practices including specific exception catching.
+
+## Related in this track
+
+- [Best Practices](/dart/04-best-practices/)
+- [Code Generation](/dart/13-code-generation/)
+- [Dependency Injection](/dart/12-dependency-injection/)
+- [FFI and Advanced Topics](/dart/09-ffi-and-advanced/)

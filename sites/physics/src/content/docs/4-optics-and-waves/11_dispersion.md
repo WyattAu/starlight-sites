@@ -207,3 +207,9 @@ The Abbe number $V_d = (n_d - 1)/(n_F - n_C)$ measures how much a material dispe
 
 Dispersion occurs when different frequencies of light travel at different speeds through a medium. This is why prisms split white light into colors and why glass fibers spread out short pulses. The refractive index depends on frequency because the medium's electrons respond differently to different driving frequencies. Normal dispersion means higher frequencies see a higher refractive index and travel slower. Near absorption resonances, anomalous dispersion occurs. Group velocity describes how fast a pulse envelope travels, while phase velocity describes individual wave crests. In dispersive media, these can differ dramatically, even exceeding the speed of light without violating causality.
 
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)

@@ -575,3 +575,10 @@ Fundamental data structures include arrays, linked lists, stacks, queues, hash t
 - [Algorithms and Data Structures](./)
 - [Algorithms and Data Structures -- Practice Problems](/2-algorithms-and-data-structures/12_practice-algorithms-data-structures/)
 - [Data Structures (Advanced)](/2-algorithms-and-data-structures/8_data-structures-advanced/)
+
+## Related in this track
+
+- [Advanced Topics](/2-algorithms-and-data-structures/6_advanced-topics/)
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/)
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm_analysis/)
+- [Algorithms (Advanced)](/2-algorithms-and-data-structures/9_algorithms-advanced/)

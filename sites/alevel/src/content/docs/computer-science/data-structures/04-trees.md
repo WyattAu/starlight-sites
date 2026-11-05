@@ -1060,3 +1060,9 @@ Height of the tree = **3**.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Arrays and Records](/computer-science/data-structures/01-arrays-and-records/)
+- [Graphs | A-Level - Wyatt's Notes](/computer-science/data-structures/05-graphs/)
+- [Hash Tables](/computer-science/data-structures/06-hash-tables/)
+- [Linked Lists](/computer-science/data-structures/02-linked-lists/)

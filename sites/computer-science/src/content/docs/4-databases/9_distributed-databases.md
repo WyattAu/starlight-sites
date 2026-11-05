@@ -193,3 +193,10 @@ A distributed database is like a library with multiple branches, each branch has
 - [Database Systems](./)
 - [Database Systems (Advanced)](/4-databases/12_databases-advanced/)
 - [University Computing Flashcards: Databases](/4-databases/13_flashcards-databases/)
+
+## Related in this track
+
+- [Database Systems (Advanced)](/4-databases/12_databases-advanced/)
+- [Further Reading](/4-databases/11_further-reading/)
+- [Indexing](/4-databases/5_indexing/)
+- [Introduction to Database Systems](/4-databases/1_introduction-to-database-systems/)

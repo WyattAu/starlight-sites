@@ -402,3 +402,10 @@ SELECT id, name, email FROM users WHERE active = true;
 - See [Java Glossary](https://typescript.wyattau.com/glossary/) for Java database connectivity
 - See [Machine Learning Glossary](https://typescript.wyattau.com/glossary/) for data in ML pipelines
 - See [Computer Science Glossary](https://typescript.wyattau.com/glossary/) for CS fundamentals
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Databases Assume](/before-you-begin/)
+- [Complete Database Design Study Guide](/hub/)
+- [Introduction to Databases](/intro/)

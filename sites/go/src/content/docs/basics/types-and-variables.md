@@ -361,3 +361,9 @@ Go's type system is strict about explicit conversions -- you cannot accidentally
 - [Arrays, Slices, and Maps](/basics/arrays-slices-maps/) -- collection types and zero values
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- closures and type conversions
 - [Pointers and Memory](/advanced/pointers-and-memory/) -- escape analysis and heap allocation
+
+## Related in this track
+
+- [Arrays, Slices, and Maps](/basics/arrays-slices-maps/)
+- [Control Flow](/basics/control-flow/)
+- [Functions](/basics/functions/)

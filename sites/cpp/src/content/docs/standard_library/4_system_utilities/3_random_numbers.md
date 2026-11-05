@@ -627,3 +627,8 @@ PRNG.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Chrono Library](/standard_library/4_system_utilities/2_chrono/)
+- [Filesystem Library](/standard_library/4_system_utilities/1_filesystem/)
+- [Regular Expressions](/standard_library/4_system_utilities/4_regular_expressions/)

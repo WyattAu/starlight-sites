@@ -1634,3 +1634,8 @@ Unfair.
 - [Biodiversity, Classification and Evolution](/biology/biodiversity-classification-evolution/) -- Statistical analysis of species diversity and distribution data uses chi-squared tests.
 - [Data Analysis](/maths/diagnostics/diag-correlation-and-regression/) -- Regression analysis and correlation complement the categorical data analysis provided by chi-squared tests.
 - [Further Probability](/maths/statistics/03-probability/) -- Probability distributions underpin the expected frequencies used in chi-squared calculations.
+
+## Related in this track
+
+- [Exponential Distribution and Continuous Random Variables](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/)
+- [Poisson and Geometric Distributions](/further-maths/further-statistics/01-poisson-and-geometric-distributions/)

@@ -631,3 +631,8 @@ The relationship between `char`, `char8_t` and the execution encoding is subtle 
 - **[Stream Buffers](https://programming.wyattau.com/standard_library/3_input_output_formatting/1_stream_buffers/):** Low-level stream buffer concepts used in Unicode I/O.
 - **[Type-Safe Formatting](https://programming.wyattau.com/standard_library/3_input_output_formatting/2_type_safe_formatting/):** Modern formatting utilities that handle Unicode strings.
 - **Types:** Type system concepts including character types and string representations.
+
+## Related in this track
+
+- [Stream Buffers and Locale Facets](/standard_library/3_input_output_formatting/1_stream_buffers/)
+- [Type-Safe Formatting (std::format, std::print)](/standard_library/3_input_output_formatting/2_type_safe_formatting/)

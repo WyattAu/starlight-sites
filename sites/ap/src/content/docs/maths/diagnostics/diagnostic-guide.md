@@ -247,3 +247,10 @@ Diagnostics are **stress tests** for your understanding. Unlike practice exams t
 - **[Integrals](/maths/3-integrals/3_integrals/):** FTC, Riemann sums, and integration technique diagnostics.
 - **[Differential Equations](/maths/4-differential-equations/4_differential-equations/):** Separation of variables, logistic growth, and Euler's method diagnostics.
 - **[Sequences and Series](/maths/5-sequences-and-series/5_sequences-and-series/):** Convergence tests and Taylor series diagnostics (BC only).
+
+## Related in this track
+
+- [Derivatives -- Diagnostic Tests](/maths/diagnostics/diag-derivatives/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Integrals -- Diagnostic Tests](/maths/diagnostics/diag-integrals/)
+- [Limits and Continuity -- Diagnostic Tests](/maths/diagnostics/diag-limits-continuity/)

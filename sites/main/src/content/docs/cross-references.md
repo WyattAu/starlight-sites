@@ -129,3 +129,9 @@ description: "Cross-references create connections between related content: They 
 **Ignoring cross-disciplinary connections:** Studying physics without its mathematical foundations, or programming without its algorithmic roots, leads to shallow understanding. The most powerful learning happens when you see how the same concept (e.g., eigenvalues, recursion, differential equations) appears across multiple domains.
 
 **Assuming linear progression:** Learning is not strictly sequential. You may need to revisit calculus while studying differential equations, or review linear algebra while learning machine science. This is normal and expected, the chains above are guides, not rigid prerequisites.
+
+## Related in this track
+
+- [About Wyatt Au](/about/)
+- [Editorial Backlog](/editorial-backlog/)
+- [Wyatt's Notes, Complete Study Resource Network](/hub/)

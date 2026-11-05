@@ -149,3 +149,9 @@ Galois theory reveals the deep connection between field extensions and group the
 
 - **Splitting field degree vs.\ polynomial degree.** The degree $[E:\mathbb{Q}]$ of a splitting field is not always equal to the degree of the polynomial; it equals the order of the Galois group, which can be larger (e.g.\ $x^3-2$ has degree 3 but $[E:\mathbb{Q}]=6$).
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)

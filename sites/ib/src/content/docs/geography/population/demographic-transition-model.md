@@ -276,3 +276,7 @@ The demographic transition is a society's journey from high birth and death rate
 
 ## Worked Examples
 
+## Related in this track
+
+- [Migration Theories and Patterns](/geography/population/migration-theories-and-patterns/)
+- [Population Policies](/geography/population/population-policies/)

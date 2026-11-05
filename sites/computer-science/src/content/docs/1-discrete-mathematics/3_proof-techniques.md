@@ -215,3 +215,10 @@ Proof techniques establish mathematical truth. Direct proof assumes premises and
 - [Discrete Mathematics](./)
 - [Propositional and Predicate Logic](/1-discrete-mathematics/1_propositional-and-predicate-logic/)
 - [Sets, Relations, and Functions](/1-discrete-mathematics/2_sets-relations-and-functions/)
+
+## Related in this track
+
+- [Combinatorics](/1-discrete-mathematics/4_combinatorics/)
+- [Graph Theory](/1-discrete-mathematics/5_graph-theory/)
+- [Problem Set](/1-discrete-mathematics/7_problem-set/)
+- [Propositional and Predicate Logic](/1-discrete-mathematics/1_propositional-and-predicate-logic/)

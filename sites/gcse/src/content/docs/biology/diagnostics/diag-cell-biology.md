@@ -245,3 +245,10 @@ have a large SA:V ratio, ensuring efficient exchange. This is why large organism
 
 - **[Bioenergetics](/biology/diagnostics/diag-bioenergetics/):** Energy processes within cells.
 - **[Organisation](/biology/diagnostics/diag-organisation/):** Cell organisation and body systems.
+
+## Related in this track
+
+- [Bioenergetics -- Diagnostic Tests](/biology/diagnostics/diag-bioenergetics/)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)
+- [GCSE Biology -- Diagnostic Guide](/biology/diagnostics/diagnostic-guide/)
+- [Inheritance, Variation and Evolution -- Diagnostic Tests](/biology/diagnostics/diag-inheritance-variation-evolution/)

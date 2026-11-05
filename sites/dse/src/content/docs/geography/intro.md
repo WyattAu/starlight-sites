@@ -192,3 +192,10 @@ DSE Geography is the study of why the world looks the way it does and how it is 
 - [Biology](https://gcse.wyattau.com/biology/)
 - [Chemistry](https://alevel.wyattau.com/chemistry/chemistry/)
 - [Economics](https://alevel.wyattau.com/economics/economics/)
+
+## Related in this track
+
+- [Agricultural Systems and Food Security](/geography/agriculture/)
+- [Industrial Location and Economic Development](/geography/economic-development/)
+- [Population and Migration](/geography/population/)
+- [Resources and Sustainability](/geography/resources/)

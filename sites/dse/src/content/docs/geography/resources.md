@@ -238,3 +238,10 @@ Resources are not just things in the ground, they are relationships between natu
 - **[Population](/geography/population/):** Population studies are central
 - **[Urbanization](/geography/urbanization/):** Urbanisation is a key topic
 - **[Climate](/geography/diagnostics/diag-climate/):** Climate affects geography
+
+## Related in this track
+
+- [Agricultural Systems and Food Security](/geography/agriculture/)
+- [DSE Geography](/geography/intro/)
+- [Industrial Location and Economic Development](/geography/economic-development/)
+- [Population and Migration](/geography/population/)

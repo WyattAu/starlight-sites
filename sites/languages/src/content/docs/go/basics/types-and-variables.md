@@ -365,3 +365,9 @@ implementation, and key applications.
 - **[Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/):** Collection types that build on scalar type foundations.
 - **[Interfaces](/go/intermediate/interfaces/):** Structural typing and interface satisfaction for custom types.
 - **[Pointers and Memory](/go/advanced/pointers-and-memory/):** Pointer semantics and escape analysis for variable storage.
+
+## Related in this track
+
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
+- [Control Flow](/go/basics/control-flow/)
+- [Functions](/go/basics/functions/)

@@ -157,3 +157,9 @@ These are the only two possibilities, so there are exactly two groups of order $
 - [Polynomial Rings](/1-abstract-algebra/10_polynomial-rings/) -- The ring-theoretic examples rely on irreducibility criteria and Euclidean division developed in this chapter.
 - [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/) -- The chain of implications between ring types underpins the factorisation arguments in the worked examples.
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Classification of Groups of Small Order](/1-abstract-algebra/16_classification-of-groups-of-small-order/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)

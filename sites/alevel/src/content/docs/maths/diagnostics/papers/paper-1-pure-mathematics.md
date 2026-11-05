@@ -955,3 +955,8 @@ in a 2-cycle between $x = 0$ and $x = 1$.
 - [Papers](./)
 - [Paper 2 -- Statistics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-2-statistics/)
 - [Paper 3 -- Mechanics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-3-mechanics/)
+
+## Related in this track
+
+- [Paper 2 -- Statistics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-2-statistics/)
+- [Paper 3 -- Mechanics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-3-mechanics/)

@@ -946,3 +946,8 @@ False sense of security.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Data Modeling Patterns](/06-database-design/data-modeling/)
+- [Schema Migrations](/06-database-design/migrations/)

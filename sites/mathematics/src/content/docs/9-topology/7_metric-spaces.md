@@ -182,3 +182,10 @@ The Banach fixed-point theorem requires $d(f(x), f(y)) \leq c \cdot d(x, y)$ for
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)

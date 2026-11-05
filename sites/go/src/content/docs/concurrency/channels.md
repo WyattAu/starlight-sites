@@ -396,3 +396,8 @@ Channels are typed message pipes that connect goroutines. An unbuffered channel 
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- lightweight threads and mutexes
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class functions used in goroutines
 - [Networking](https://computer-science.wyattau.com/2-systems/networking/) -- context propagation in HTTP handlers
+
+## Related in this track
+
+- [Goroutines and Synchronization](/concurrency/goroutines/)
+- [race conditions](/concurrency/race-conditions/)

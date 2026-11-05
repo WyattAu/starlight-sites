@@ -296,3 +296,9 @@ If $x_n \rightharpoonup x$, then $\sup_n \|x_n\| < \infty$ (uniform boundedness 
    convergent subsequence.
 5. Let $T : X \to Y$ be compact. Prove that if $x_n \rightharpoonup 0$, then $T x_n \to 0$.
 
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)

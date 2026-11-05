@@ -990,3 +990,10 @@ acknowledges the extract's complexity and explores multiple possible interpretat
 - [English](./)
 - [A Streetcar Named Desire](/english/a-street-car-named-desire/)
 - [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)
+
+## Related in this track
+
+- [A Streetcar Named Desire](/english/a-street-car-named-desire/)
+- [A Streetcar Named Desire, Close Reading and Analysis](/english/streetcar-named-desire-analysis/)
+- [Chronicle of a Death Foretold](/english/chronicle-of-a-death-foretold/)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)

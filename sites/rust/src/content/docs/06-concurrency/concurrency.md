@@ -983,3 +983,8 @@ Rust's concurrency model is like a traffic system with strict rules. Each thread
 - [Channels and Message Passing](https://languages.wyattau.com/rust/06-concurrency/channels-and-message-passing/)
 - [Async Deep Dive](https://languages.wyattau.com/rust/06-concurrency/async-deep-dive/)
 - [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/)
+
+## Related in this track
+
+- [Async Deep Dive](/06-concurrency/async-deep-dive/)
+- [Channels and Message Passing](/06-concurrency/channels-and-message-passing/)

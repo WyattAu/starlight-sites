@@ -1081,3 +1081,8 @@ convenience -- they do not introduce a new type.
 - **[Types and Variables](/java/02-fundamentals/01-types-and-variables/):** Primitive and reference types used in control flow expressions.
 - **[Garbage Collection](https://java.wyattau.com/09-jvm-internals/03-garbage-collection/):** JVM memory management affecting loop and object lifecycle.
 - **[Generics](https://kotlin.wyattau.com/intermediate/generics/):** Type-safe iteration and switch expressions with sealed classes.
+
+## Related in this track
+
+- [Strings and Text Processing](/java/02-fundamentals/03-strings/)
+- [Types and Variables](/java/02-fundamentals/01-types-and-variables/)

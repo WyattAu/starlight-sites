@@ -1082,6 +1082,11 @@ Control flow in Java is deliberately strict to prevent bugs. The if statement re
 - [Strings and Text Processing](/02-fundamentals/03-strings/) -- string manipulation
 - [Records, Sealed Classes, and Pattern Matching](/08-modern-java/01-records-sealed-patterns/) -- modern switch patterns
 
+## Related in this track
+
+- [Strings and Text Processing](/02-fundamentals/03-strings/)
+- [Types and Variables](/02-fundamentals/01-types-and-variables/)
+
 ---
 
 ## Strings
@@ -2101,6 +2106,11 @@ Strings in Java are immutable sequences of UTF-16 code units. Every operation th
 - [Streams API](/05-streams/01-streams-api/) -- string processing with streams
 :::
 
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Types and Variables](/02-fundamentals/01-types-and-variables/)
+
 ---
 
 ## Types And Variables
@@ -3043,6 +3053,11 @@ Java's type system is built on two pillars: primitives for speed and objects for
 - [Classes and Inheritance](/03-object-oriented/01-classes/) -- object-oriented foundations
 - [Collections Framework](/04-collections/01-collections-framework/) -- generics and type safety
 :::
+
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Strings and Text Processing](/02-fundamentals/03-strings/)
 
 ## Object-Oriented
 
@@ -14821,6 +14836,11 @@ The JVM class loading system works like a chain of trust. When your code needs a
 
 ## Worked Examples
 
+## Related in this track
+
+- [Garbage Collection](/09-jvm-internals/03-garbage-collection/)
+- [JIT Compilation and Deoptimization](/09-jvm-internals/02-jit-compilation/)
+
 ---
 
 ## Garbage Collection
@@ -15665,6 +15685,11 @@ Garbage collection is the JVM's automatic memory manager. It traces from GC root
 - **[Concurrency](/06-concurrency/01-concurrency/):** Multithreading and concurrent programming.
 - **Practice:** Practice problems for revision.
 
+## Related in this track
+
+- [Class Loading and Memory Model](/09-jvm-internals/01-class-loading-memory/)
+- [JIT Compilation and Deoptimization](/09-jvm-internals/02-jit-compilation/)
+
 ---
 
 ## Jit Compilation
@@ -16301,6 +16326,11 @@ Compiled (use `-XX:+PrintCompilation`).
 The JIT compiler is like a chef who starts by following a recipe exactly (interpretation) but then starts improvising shortcuts after making the dish many times (compilation). The JVM watches which methods are called frequently and optimizes those hot paths into native machine code. Deoptimization is the safety net: if the JIT's assumptions prove wrong, it bails back to interpretation. This adaptive approach combines fast startup with peak performance.
 
 ## Worked Examples
+
+## Related in this track
+
+- [Class Loading and Memory Model](/09-jvm-internals/01-class-loading-memory/)
+- [Garbage Collection](/09-jvm-internals/03-garbage-collection/)
 
 ## Io-Nio
 
@@ -23430,6 +23460,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Java Programming Study Guide](/hub/)
+- [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
+- [Introduction to Java](/intro/)
+- [Java Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Flashcards Java Basics
@@ -24133,6 +24170,13 @@ String json = """
 - See [Python Glossary](/glossary/) for interpreted language comparison
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 - See [Databases Glossary](/glossary/) for Java database interactions
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Java Programming Study Guide](/hub/)
+- [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
+- [Introduction to Java](/intro/)
 
 ---
 
@@ -25675,6 +25719,13 @@ linked above.
 - **[Concurrency](/06-concurrency/01-concurrency/):** Multithreading and concurrent programming.
 - **Practice:** Practice problems for revision.
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Java Programming Study Guide](/hub/)
+- [Introduction to Java](/intro/)
+- [Java Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Hub
@@ -25913,6 +25964,13 @@ Use Maven or Gradle for dependency management and build automation. Maven uses a
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
+- [Introduction to Java](/intro/)
+- [Java Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Index
@@ -26148,6 +26206,13 @@ This page includes:
 - [Java](./)
 - [About This Site](/about/)
 - [Java Fundamentals Flashcards](/flashcards-java-basics/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Java Programming Study Guide](/hub/)
+- [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
+- [Java Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -28107,3 +28172,10 @@ The inner try throws an `IOException`. The catch block wraps it in an `AppExcept
 
 - [Complete Java Programming Study Guide](/hub/)
 - [Java Fundamentals Practice (Interactive)](/practice-java-basics/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Java Programming Study Guide](/hub/)
+- [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
+- [Introduction to Java](/intro/)

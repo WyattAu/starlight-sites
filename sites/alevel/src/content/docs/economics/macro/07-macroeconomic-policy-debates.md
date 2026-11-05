@@ -1465,3 +1465,10 @@ The time-inconsistency problem is one of the most elegant ideas in economics, an
 
 Quantitative easing and the zero lower bound reveal the limits of conventional economics. When interest rates hit zero, the central bank's main tool is broken, you can't cut rates below zero (or at least, not far). QE is the emergency response: the central bank creates new money and uses it to buy government bonds, pushing down long-term interest rates and encouraging banks to lend. Think of it as the central bank flooding the plumbing of the financial system with oil to get the gears turning again. But QE has a dirty secret, it mainly benefits people who own assets (houses, shares, bonds), which tend to be wealthier. It's like watering a garden by flooding the top of the hill: the rich plants get plenty, but the poor ones at the bottom may not see a drop. This is why the post-2008 recovery felt so uneven, and why debates about QE's fairness are just as important as debates about its effectiveness.
 :::
+
+## Related in this track
+
+- [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)
+- [Development Economics](/economics/macro/08-development-economics/)
+- [Fiscal Policy](/economics/macro/04-fiscal-policy/)
+- [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/)

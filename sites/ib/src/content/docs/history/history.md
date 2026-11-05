@@ -649,3 +649,9 @@ Studying history is like assembling a jigsaw puzzle where the picture on the box
 
 ## Worked Examples
 
+## Related in this track
+
+- [20th Century China](/history/20th-century-china/)
+- [Authoritarian States](/history/authoritarian-states/)
+- [Causes and Effects of Wars](/history/causes-and-effects-of-wars/)
+- [Cold War Superpower Relations](/history/superpower-relations/)

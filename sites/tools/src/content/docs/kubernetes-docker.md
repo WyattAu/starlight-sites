@@ -142,3 +142,9 @@ containers. Kubernetes orchestrates containers at scale with automated
 scheduling, scaling, and self-healing. Together they form the foundation
 of modern cloud-native architecture. Docker handles the build/package
 stage; Kubernetes handles the deploy/run stage.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Developer Tools Glossary, Key Terms and Definitions](/glossary/)
+- [Developer Tools Guide, Testing, Debugging, CI/CD](/hub/)

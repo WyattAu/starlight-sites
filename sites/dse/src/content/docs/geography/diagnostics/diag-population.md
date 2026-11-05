@@ -459,3 +459,8 @@ climate change to meaningfully resolve the tension between population growth and
 - **[Population](/geography/population/):** Population dynamics are studied
 - **[Urbanization](/geography/urbanization/):** Urbanisation is a major topic
 - **[Agriculture](/geography/agriculture/):** Agriculture is linked to population
+
+## Related in this track
+
+- [Diagnostic Test: Climate](/geography/diagnostics/diag-climate/)
+- [Diagnostic Test: Urbanization](/geography/diagnostics/diag-urbanization/)

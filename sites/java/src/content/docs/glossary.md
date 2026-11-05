@@ -637,3 +637,10 @@ String json = """
 - See [Python Glossary](/glossary/) for interpreted language comparison
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 - See [Databases Glossary](/glossary/) for Java database interactions
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Java Programming Study Guide](/hub/)
+- [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
+- [Introduction to Java](/intro/)

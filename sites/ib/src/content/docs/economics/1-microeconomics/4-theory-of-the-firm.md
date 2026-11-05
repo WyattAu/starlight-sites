@@ -1969,3 +1969,9 @@ success in this subject.
 - [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/) -- Deregulation and competition policy are supply-side measures that affect market structures.
 - [International Trade](/economics/3-international-economics/1-trade/) -- Firms in international markets face trade barriers that affect their competitive strategies.
 - [Descriptive Statistics](/economics/5-quantitative-economics/1-descriptive-statistics/) -- Cost and revenue data require the quantitative analysis techniques covered in this topic.
+
+## Related in this track
+
+- [Elasticity](/economics/1-microeconomics/2_elasticity/)
+- [Market Failure](/economics/1-microeconomics/3-market-failure/)
+- [Supply and Demand](/economics/1-microeconomics/1_supply-and-demand/)

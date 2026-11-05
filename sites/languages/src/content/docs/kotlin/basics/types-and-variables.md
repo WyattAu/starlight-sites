@@ -308,3 +308,9 @@ implementation, and key applications.
 - **[Control Flow](/kotlin/basics/control-flow/):** If-expressions, when, and loops that use the types defined here.
 - **[Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/):** Nullable type specifiers and safe-call operators.
 - **[Kotlin Practice](/kotlin/practice-kotlin-basics/):** Auto-graded problems testing type system fundamentals.
+
+## Related in this track
+
+- [Classes and Objects](/kotlin/basics/classes-and-objects/)
+- [Control Flow](/kotlin/basics/control-flow/)
+- [Functions](/kotlin/basics/functions/)

@@ -443,3 +443,10 @@ Delegation is the principle of forwarding a responsibility to another object rat
 - [Collections](/kotlin/intermediate/collections/)
 - [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
 - [Coroutines](/kotlin/intermediate/coroutines/)
+
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [Generics](/kotlin/intermediate/generics/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)

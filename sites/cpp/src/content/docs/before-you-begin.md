@@ -190,3 +190,9 @@ ten.
   to read.
 - [Gaussian Processes](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/9_gaussian-processes/) -
   the kernel-trick timing, where the memory-layout claim is a C++ claim.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [C++ Glossary, Key Terms and Definitions](/glossary/)
+- [Complete C++ Programming Study Guide](/hub/)

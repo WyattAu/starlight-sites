@@ -616,3 +616,9 @@ Cryptography is the science of keeping secrets. Symmetric encryption (AES) is li
 | Distributed Systems | [View](/2-systems/distributed-systems/) |
 
 </div>
+
+## Related in this track
+
+- [Automata and Formal Languages](/3-theory/automata-and-formal-languages/)
+- [Compilers](/3-theory/compilers/)
+- [Machine Learning Fundamentals](/3-theory/machine-learning-fundamentals/)

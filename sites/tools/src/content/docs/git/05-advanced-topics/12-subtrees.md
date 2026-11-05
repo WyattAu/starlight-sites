@@ -630,3 +630,10 @@ implementation, and key applications.
 - **[Submodules](/git/05-advanced-topics/04-submodules/):** Alternative approach to managing external dependencies within a Git repository.
 - **[Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/):** Selective commit application technique that complements subtree operations.
 - **[Worktrees](/git/05-advanced-topics/05-worktrees/):** Multiple working directories for parallel development alongside subtree management.
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)

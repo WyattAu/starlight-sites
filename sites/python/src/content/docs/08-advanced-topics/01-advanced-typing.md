@@ -1282,3 +1282,9 @@ Advanced typing in Python adds compile-time safety to a dynamically typed langua
 - [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/)
 - [Data Validation](https://languages.wyattau.com/python/08-advanced-topics/02-data-validation/)
 - [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
+
+## Related in this track
+
+- [Context Managers and the with Statement](/08-advanced-topics/03-context-managers/)
+- [Data Validation](/08-advanced-topics/02-data-validation/)
+- [Protocols and Dunder Methods](/08-advanced-topics/04-protocols-dunder-methods/)

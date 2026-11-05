@@ -1334,3 +1334,10 @@ imbalances were addressed.
 
 $
 :::
+
+## Related in this track
+
+- [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)
+- [Development Economics](/economics/macro/08-development-economics/)
+- [Fiscal Policy](/economics/macro/04-fiscal-policy/)
+- [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/)

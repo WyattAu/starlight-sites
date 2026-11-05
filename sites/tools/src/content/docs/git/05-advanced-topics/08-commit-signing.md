@@ -897,3 +897,10 @@ implementation, and key applications.
 - [Hooks](/git/05-advanced-topics/07-hooks/) can be configured to enforce commit signing policies automatically before accepting commits.
 - [Branching](/git/03-branching-and-merging/01-branching/) shows how signed commits maintain integrity across branch operations and merges.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) explains how signed commits are verified during push and pull operations with remote repositories.
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+- [Git Hooks](/git/05-advanced-topics/07-hooks/)

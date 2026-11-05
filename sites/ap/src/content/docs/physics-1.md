@@ -615,3 +615,10 @@ AP Physics 1 is the **algebra-based introduction to mechanics**, it describes ho
 
 - **[Site Home](../../):** Main landing page for ap notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [AP Biology Study Guide](/biology/)
+- [AP Calculus AB Study Guide](/calculus-ab/)
+- [AP Computer Science A](/ap-computer-science-a/)
+- [AP Computer Science Principles](/ap-computer-science-principles/)

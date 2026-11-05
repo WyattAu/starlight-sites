@@ -285,3 +285,9 @@ Psychology bridges the gap between biological processes and human experience. Th
 - [Research Methods](/psychology/research-methods/)
 - [Approaches in Psychology](/psychology/approaches/)
 - [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
+
+## Related in this track
+
+- [Abnormal Psychology](/psychology/abnormal/_index/)
+- [Depression](/psychology/abnormal/depression/)
+- [Treatment Evaluation](/psychology/abnormal/treatment-evaluation/)

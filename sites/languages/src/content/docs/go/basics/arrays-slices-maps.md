@@ -375,3 +375,9 @@ practical implementation, and key applications.
 - **[Types and Variables](/go/basics/types-and-variables/):** Scalar types that compose into slices, maps, and arrays.
 - **[I/O](/go/standard-library/io/):** Buffer and stream operations on byte slices and strings.
 - **[Interfaces](/go/intermediate/interfaces/):** How slices and maps implement standard library interfaces.
+
+## Related in this track
+
+- [Control Flow](/go/basics/control-flow/)
+- [Functions](/go/basics/functions/)
+- [Types and Variables](/go/basics/types-and-variables/)

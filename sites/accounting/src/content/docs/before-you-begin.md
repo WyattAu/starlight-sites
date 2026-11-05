@@ -116,3 +116,9 @@ calculus prerequisites; accounting requires none, and that is honest rather than
 the subject's rigour is structural (does it balance, does it trace, is it classified right), not
 mathematical. Where an accounting standard embeds a calculation (present value in lease
 accounting, for instance), the pages teach the calculation at the point of use.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Accounting Study Hub](/hub/)
+- [Glossary](/glossary/)

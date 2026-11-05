@@ -221,3 +221,10 @@ This page includes:
 - [Diagnostics](./)
 - [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)
 - [Integration -- Diagnostic Tests](/maths/diagnostics/diag-integration/)
+
+## Related in this track
+
+- [Complex Numbers -- Diagnostic Tests](/maths/diagnostics/diag-complex-numbers/)
+- [Diagnostic Test Guide](/maths/diagnostics/diagnostic-guide/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)

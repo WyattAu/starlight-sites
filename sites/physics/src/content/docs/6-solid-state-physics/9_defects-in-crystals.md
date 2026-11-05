@@ -209,3 +209,10 @@ Dislocations can be pinned by impurities, other dislocations, or grain boundarie
 
 **Mistake 5: Confusing the Burgers vector with the lattice vector.**
 The Burgers vector $\mathbf{b}$ describes the magnitude and direction of the lattice distortion caused by a dislocation. It is not necessarily equal to a lattice vector; it can be a fraction of a lattice vector (partial dislocations). Do not assume that the Burgers vector is always a lattice vector.
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)

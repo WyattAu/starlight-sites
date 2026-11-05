@@ -354,3 +354,9 @@ Conversely, if $g \in M^\perp$, write $g = \bar{g} + c$ where $\bar{g} \in M$ an
 Then $0 = \langle \bar{g}, g\rangle = \|\bar{g}\|^2 + c\int \bar{g} = \|\bar{g}\|^2$, so $\bar{g}=0$
 and $g$ is constant. Hence $M^\perp$ is the 1-dimensional space of constant functions. $\blacksquare$
 
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)

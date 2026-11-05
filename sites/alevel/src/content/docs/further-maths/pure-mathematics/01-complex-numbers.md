@@ -1540,3 +1540,10 @@ four sides. $\blacksquare$
 - [Matrices](/further-maths/pure-mathematics/02-matrices/) -- Linear transformations in the complex plane can be represented using matrix multiplication.
 - [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/) -- Integration of complex-valued functions and residue theory build on the algebraic foundations here.
 - [Mechanics](/physics/mechanics/) -- Oscillations and wave motion in physics are logically described using complex exponentials.
+
+## Related in this track
+
+- [Further Algebra](/further-maths/pure-mathematics/03-further-algebra/)
+- [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/)
+- [Matrices](/further-maths/pure-mathematics/02-matrices/)
+- [Vectors in 3D](/further-maths/pure-mathematics/09-vectors-in-3d/)

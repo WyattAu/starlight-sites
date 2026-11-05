@@ -109,3 +109,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Before You Begin: Reading the C++ in These Courses](/before-you-begin/)
+- [C++ Glossary, Key Terms and Definitions](/glossary/)
+- [Complete C++ Programming Study Guide](/hub/)

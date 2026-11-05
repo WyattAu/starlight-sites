@@ -1134,3 +1134,10 @@ graph TD
     B --> C[Example]
     C --> D[Practice]
 ```
+
+## Related in this track
+
+- [Alcohols](/chemistry/organic-chemistry/alcohols/)
+- [Alkanes](/chemistry/organic-chemistry/alkanes/)
+- [Alkenes](/chemistry/organic-chemistry/alkenes/)
+- [Amines | A-Level - Wyatt's Notes](/chemistry/organic-chemistry/amines/)

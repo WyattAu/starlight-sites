@@ -178,3 +178,10 @@ Solid-state physics studies how atoms arranged in crystals give rise to electron
 **Forgetting that phonon dispersion has two branches:** Acoustic and optical branches exist in crystals with more than one atom per unit cell. Using only one branch misses half the vibrational modes.
 
 **Confusing metals, insulators, and semiconductors by band filling:** Metals have partially filled bands; insulators have filled bands with large gaps; semiconductors have small gaps. The distinction depends on both gap size and temperature.
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)

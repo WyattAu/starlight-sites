@@ -613,3 +613,10 @@ $= 0 + 0 + 2 \cdot 6 + 6 \cdot 4 + 12 \cdot 1 = 12 + 24 + 12 = 48$. Confirmed.
 - [Diagnostics](./)
 - [Algebraic Expressions -- Diagnostic Tests](/maths/diagnostics/diag-algebraic-expressions/)
 - [Data Representation -- Diagnostic Tests](/maths/diagnostics/diag-data-representation/)
+
+## Related in this track
+
+- [Algebraic Expressions -- Diagnostic Tests](/maths/diagnostics/diag-algebraic-expressions/)
+- [Coordinates and Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinates-and-geometry/)
+- [Correlation and Regression -- Diagnostic Tests](/maths/diagnostics/diag-correlation-and-regression/)
+- [Data Representation -- Diagnostic Tests](/maths/diagnostics/diag-data-representation/)

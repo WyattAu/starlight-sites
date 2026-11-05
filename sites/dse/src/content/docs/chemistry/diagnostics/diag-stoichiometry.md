@@ -495,3 +495,10 @@ converted to products. Additionally:
 - **[Atomic Structure](/chemistry/atomic-structure-and-bonding/):** Atomic structure is foundational
 - **[Equilibrium](https://alevel.wyattau.com/chemistry/equilibrium/):** Equilibrium connects topics
 - **[Organic Chemistry](https://alevel.wyattau.com/chemistry/organic-chemistry/):** Organic chemistry is a major area
+
+## Related in this track
+
+- [Acids, Bases and Salts -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Atomic Structure -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
+- [Bonding -- Diagnostic Tests](/chemistry/diagnostics/diag-bonding/)
+- [Carbon Chemistry -- Diagnostic Tests](/chemistry/diagnostics/diag-carbon-chemistry/)

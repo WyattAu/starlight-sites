@@ -1012,3 +1012,10 @@ practical implementation, and key applications.
 - [Branching and Merging](/git/03-branching-and-merging/01-branching/) -- Pre-commit hooks run automatically on each commit, complementing branch protection rules.
 - [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/) -- Git hooks are a core Git feature; pre-commit provides a declarative wrapper around them.
 - Code Review -- Automated linting via pre-commit reduces review burden by catching style issues before submission.
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)

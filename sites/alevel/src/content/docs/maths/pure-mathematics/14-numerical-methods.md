@@ -977,3 +977,9 @@ building a personal test matrix.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/)
+- [Binomial Expansion](/maths/pure-mathematics/07-binomial-expansion/)
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/)
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/)

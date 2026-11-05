@@ -662,3 +662,8 @@ CMake generates build files from a declarative configuration. Targets represent 
 - [2_build_system](./)
 - [Ninja Build System and Parrallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
 - [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
+
+## Related in this track
+
+- [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
+- [Ninja Build System and Parrallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)

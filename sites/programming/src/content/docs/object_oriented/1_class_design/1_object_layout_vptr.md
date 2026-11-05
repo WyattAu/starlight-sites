@@ -677,3 +677,9 @@ pointer, including key principles and practical applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
+- [Custom Formatting with std::formatter](/object_oriented/1_class_design/6_std_formatter/)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
+- [Special Member Function Generation Rules](/object_oriented/1_class_design/3_special_member_functions/)

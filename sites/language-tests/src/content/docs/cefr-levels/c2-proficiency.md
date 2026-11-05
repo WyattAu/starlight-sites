@@ -107,3 +107,9 @@ Prepare and deliver a 20-minute presentation on an academic topic.
 - [A1 Beginner](/cefr-levels/a1-beginner/)
 - [A2 Elementary Level](/cefr-levels/a2-elementary/)
 
+## Related in this track
+
+- [A2 Elementary Level | language-tests](/cefr-levels/a2-elementary/)
+- [B1 Intermediate Level | language-tests](/cefr-levels/b1-intermediate/)
+- [B2 Upper Intermediate Level | language-tests](/cefr-levels/b2-upper-intermediate/)
+- [C1 Advanced Level | language-tests](/cefr-levels/c1-advanced/)

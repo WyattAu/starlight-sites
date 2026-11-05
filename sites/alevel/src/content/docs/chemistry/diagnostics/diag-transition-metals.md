@@ -472,3 +472,10 @@ $\text{O}_2$ without these protective factors.
 - **[Organic Chemistry](/chemistry/organic-chemistry/introduction/):** Organic chemistry covers carbon-based compounds and their reactions
 - **[Physical Chemistry](/chemistry/flashcards-physical-chemistry/):** Physical chemistry underpins reaction rates, energetics, and equilibrium
 - **[Atomic Structure](/chemistry/flashcards-atomic-structure/):** Atomic structure determines chemical bonding and reactivity
+
+## Related in this track
+
+- [A-Level Chemistry Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)
+- [Acids, Bases and Buffers -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Alkanes and Alkenes -- Diagnostic Tests](/chemistry/diagnostics/diag-alkanes-alkenes/)
+- [Atomic Structure and Periodicity -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)

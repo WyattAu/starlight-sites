@@ -203,3 +203,10 @@ $(n, 2n)$.
 
 A closing remark for exams: quote $\pi(2^{20})$-style data accurately if the question supplies it, and never round intermediate logarithms; the marker scheme penalises premature rounding far more than the final answer.
 A useful sanity check for estimates: $\pi(x)$ increases by exactly 1 at each prime, so any approximation must stay constant between primes; quote this when explaining why pointwise error is unavoidable.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)

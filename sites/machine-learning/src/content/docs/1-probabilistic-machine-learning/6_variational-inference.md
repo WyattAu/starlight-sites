@@ -248,3 +248,10 @@ the failure is systematic.
 - **[The Fundamental Theorems](https://mathematics.wyattau.com/11-functional-analysis/4_the-fundamental-theorems/)**; Gibbs' inequality and convexity, the two facts doing the work.
 - **[Exponential Families](/1-probabilistic-machine-learning/2_statistical-decision-theory/)**; $\nabla^2 A$ as covariance, the convexity behind well-posed coordinate ascent.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; generalisation, the question VI's posterior is supposed to answer.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)

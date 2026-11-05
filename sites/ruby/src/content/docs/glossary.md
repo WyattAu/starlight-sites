@@ -189,3 +189,9 @@ end
 - See [Programming Glossary](/glossary/) for general programming concepts
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 - See [Databases Glossary](/glossary/) for Rails database interactions
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Ruby Programming Study Guide](/hub/)
+- [Ruby - Wyatt's Notes](/intro/)

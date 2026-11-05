@@ -109,6 +109,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Programming Language Comparison Guide](/hub/)
+- [Programming Languages Glossary, Key Terms](/glossary/)
+
 ---
 
 ## Glossary
@@ -278,6 +283,11 @@ Each language site in the network covers these concepts in depth with worked exa
 | Dart | pub build | pub | dart format | built-in (dart test) |
 
 </div>
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Programming Language Comparison Guide](/hub/)
 
 ---
 
@@ -767,6 +777,11 @@ Knowing multiple languages makes you a more versatile engineer. You can choose t
 - [Programming Languages](./)
 - [About This Site](/about/)
 - [Setup](/dart/02-setup/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Programming Languages Glossary, Key Terms](/glossary/)
 
 ---
 
@@ -2066,6 +2081,13 @@ URL: https://languages.wyattau.com/dart/04-best-practices/
 - **[Async and Futures](https://dart.wyattau.com/05-async/01-async-and-futures/):** Concurrency best practices including async/await and isolate usage.
 - **[Class Modifiers](https://dart.wyattau.com/07-dart3-features/03-class-modifiers/):** Dart 3 modifier patterns for API boundary enforcement.
 
+## Related in this track
+
+- [Code Generation](/dart/13-code-generation/)
+- [Dependency Injection](/dart/12-dependency-injection/)
+- [Error Handling](/dart/08-error-handling/)
+- [FFI and Advanced Topics](/dart/09-ffi-and-advanced/)
+
 ---
 
 ## Class Modifiers
@@ -3038,6 +3060,11 @@ implementation, and key applications.
 - **[Error Handling](/dart/08-error-handling/):** Sealed class hierarchies for exhaustive exception handling patterns.
 - **[Variables](/dart/03-basics/02-variables/):** Type specifiers and null safety concepts underlying modifier design.
 - **[Best Practices](/dart/04-best-practices/):** API boundary best practices that motivate modifier usage.
+
+## Related in this track
+
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching/)
+- [Sealed Classes](/dart/07-dart3-features/02-sealed-classes/)
 
 ---
 
@@ -4595,6 +4622,13 @@ implementation, and key applications.
 - [Dart](./)
 - [Introduction to Dart & Flutter](/dart/01-intro/)
 - [Best Practices](/dart/04-best-practices/)
+
+## Related in this track
+
+- [Best Practices](/dart/04-best-practices/)
+- [Dependency Injection](/dart/12-dependency-injection/)
+- [Error Handling](/dart/08-error-handling/)
+- [FFI and Advanced Topics](/dart/09-ffi-and-advanced/)
 
 ---
 
@@ -6942,6 +6976,13 @@ implementation, and key applications.
 - [Testing Fundamentals](https://dart.wyattau.com/14-testing/01-testing-fundamentals/) -- DI makes unit testing easier by allowing mock dependencies to be injected during testing.
 - [Code Generation](https://dart.wyattau.com/13-code-generation/) -- Code generation tools like injectable automate the creation of dependency injection wiring.
 
+## Related in this track
+
+- [Best Practices](/dart/04-best-practices/)
+- [Code Generation](/dart/13-code-generation/)
+- [Error Handling](/dart/08-error-handling/)
+- [FFI and Advanced Topics](/dart/09-ffi-and-advanced/)
+
 ---
 
 ## Dev Enviroment
@@ -8913,6 +8954,13 @@ implementation, and key applications.
 - **[Classes and Inheritance](/dart/04-object-oriented/01-classes-and-inheritance/):** Custom exception class design using inheritance and abstract classes.
 - **[Best Practices](/dart/04-best-practices/):** Error handling best practices including specific exception catching.
 
+## Related in this track
+
+- [Best Practices](/dart/04-best-practices/)
+- [Code Generation](/dart/13-code-generation/)
+- [Dependency Injection](/dart/12-dependency-injection/)
+- [FFI and Advanced Topics](/dart/09-ffi-and-advanced/)
+
 ---
 
 ## Ffi And Advanced
@@ -10722,6 +10770,13 @@ $\blacksquare$
 - [Rust Ownership](/rust/02-ownership-borrowing/ownership/) -- Rust's ownership model provides memory safety without garbage collection, contrasting with Dart's approach.
 - [Java GraalVM](https://java.wyattau.com/graalvm-and-modern-jvm/) -- Both GraalVM native images and Dart FFI address native code interoperability.
 
+## Related in this track
+
+- [Best Practices](/dart/04-best-practices/)
+- [Code Generation](/dart/13-code-generation/)
+- [Dependency Injection](/dart/12-dependency-injection/)
+- [Error Handling](/dart/08-error-handling/)
+
 ---
 
 ## Flashcards Dart Basics
@@ -12044,6 +12099,13 @@ development.
 - [Variables and Types](https://dart.wyattau.com/03-basics/02-variables/) - Type system deep dive
 - [Functions](https://dart.wyattau.com/03-basics/03-functions/) - Function syntax and closures
 - [Flutter Fundamentals](https://dart.wyattau.com/09-flutter-fundamentals/01-widgets/) - UI development with Flutter
+
+## Related in this track
+
+- [Best Practices](/dart/04-best-practices/)
+- [Code Generation](/dart/13-code-generation/)
+- [Dependency Injection](/dart/12-dependency-injection/)
+- [Error Handling](/dart/08-error-handling/)
 
 ---
 
@@ -14644,6 +14706,11 @@ implementation, and key applications.
 - [Sealed Classes](/dart/07-dart3-features/02-sealed-classes/) -- Sealed classes are designed to be used with pattern matching for exhaustive switch expressions.
 - [Object-Oriented Programming](/dart/04-object-oriented/01-classes-and-inheritance/) -- Pattern matching on objects uses destructuring to extract fields from class instances.
 - [Error Handling](/dart/08-error-handling/) -- Pattern matching provides type-safe error handling through exhaustive case analysis.
+
+## Related in this track
+
+- [Class Modifiers](/dart/07-dart3-features/03-class-modifiers/)
+- [Sealed Classes](/dart/07-dart3-features/02-sealed-classes/)
 
 ---
 
@@ -17326,6 +17393,11 @@ implementation, and key applications.
 - [Pattern Matching](/dart/07-dart3-features/01-pattern-matching/)
 - [Class Modifiers](/dart/07-dart3-features/03-class-modifiers/)
 
+## Related in this track
+
+- [Class Modifiers](/dart/07-dart3-features/03-class-modifiers/)
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching/)
+
 ---
 
 ## State Management
@@ -19427,6 +19499,13 @@ than no test at all.
 - [Dart](./)
 - [Introduction to Dart & Flutter](/dart/01-intro/)
 - [Best Practices](/dart/04-best-practices/)
+
+## Related in this track
+
+- [Best Practices](/dart/04-best-practices/)
+- [Code Generation](/dart/13-code-generation/)
+- [Dependency Injection](/dart/12-dependency-injection/)
+- [Error Handling](/dart/08-error-handling/)
 
 ---
 
@@ -28833,6 +28912,13 @@ practical implementation, and key applications.
 - [Modules and Packages](/go/advanced/modules-and-packages/)
 - [Networking](/go/advanced/networking/)
 
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Reflection](/go/advanced/reflection/)
+
 ---
 
 ## Arrays Slices Maps
@@ -29204,6 +29290,12 @@ practical implementation, and key applications.
 - **[Types and Variables](/go/basics/types-and-variables/):** Scalar types that compose into slices, maps, and arrays.
 - **[I/O](/go/standard-library/io/):** Buffer and stream operations on byte slices and strings.
 - **[Interfaces](/go/intermediate/interfaces/):** How slices and maps implement standard library interfaces.
+
+## Related in this track
+
+- [Control Flow](/go/basics/control-flow/)
+- [Functions](/go/basics/functions/)
+- [Types and Variables](/go/basics/types-and-variables/)
 
 ---
 
@@ -29601,6 +29693,11 @@ theory, practical implementation, and key applications.
 - **[Race Conditions](/go/concurrency/race-conditions/):** Mutex-based synchronization as an alternative to channel communication.
 - **[Networking](/go/advanced/networking/):** Goroutine-based network servers using channel patterns.
 - **[I/O](/go/standard-library/io/):** Stream processing with io.Reader/Writer in concurrent pipelines.
+
+## Related in this track
+
+- [Goroutines and Synchronization](/go/concurrency/goroutines/)
+- [race conditions](/go/concurrency/race-conditions/)
 
 ---
 
@@ -30023,6 +30120,12 @@ implementation, and key applications.
 - [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
 - [Functions](/go/basics/functions/)
 
+## Related in this track
+
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
+- [Functions](/go/basics/functions/)
+- [Types and Variables](/go/basics/types-and-variables/)
+
 ---
 
 ## Error Handling
@@ -30344,6 +30447,11 @@ implementation, and key applications.
 - **[Interfaces](/go/intermediate/interfaces/):** The error interface and custom error type design patterns.
 - **[Testing](/go/advanced/testing/):** Error assertion and inspection patterns in test suites.
 - **[net/http](/go/standard-library/net-http/):** HTTP error handling and middleware error propagation.
+
+## Related in this track
+
+- [Generics](/go/intermediate/generics/)
+- [Interfaces](/go/intermediate/interfaces/)
 
 ---
 
@@ -30755,6 +30863,12 @@ theorems, methods, and problem-solving approaches.
 - [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
 - [Control Flow](/go/basics/control-flow/)
 
+## Related in this track
+
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
+- [Control Flow](/go/basics/control-flow/)
+- [Types and Variables](/go/basics/types-and-variables/)
+
 ---
 
 ## Generics
@@ -31100,6 +31214,11 @@ implementation, and key applications.
 - **[Error Handling](/go/intermediate/error-handling/):** Generic error handling patterns with type parameters.
 - **[Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/):** Generic collection operations replacing type-specific implementations.
 
+## Related in this track
+
+- [Error Handling](/go/intermediate/error-handling/)
+- [Interfaces](/go/intermediate/interfaces/)
+
 ---
 
 ## Goroutines
@@ -31438,6 +31557,11 @@ practical implementation, and key applications.
 ## See Also
 
 - [Concurrency](./)
+- [Channels and Concurrency Patterns](/go/concurrency/channels/)
+- [race conditions](/go/concurrency/race-conditions/)
+
+## Related in this track
+
 - [Channels and Concurrency Patterns](/go/concurrency/channels/)
 - [race conditions](/go/concurrency/race-conditions/)
 
@@ -31999,6 +32123,11 @@ implementation, and key applications.
 - **[Error Handling](/go/intermediate/error-handling/):** The error interface and custom error type patterns.
 - **[Testing](/go/advanced/testing/):** Interface-based mock design for unit testing.
 - **[Reflection](/go/advanced/reflection/):** Runtime type inspection as an alternative to interface-based polymorphism.
+
+## Related in this track
+
+- [Error Handling](/go/intermediate/error-handling/)
+- [Generics](/go/intermediate/generics/)
 
 ---
 
@@ -32705,6 +32834,12 @@ implementation, and key applications.
 - **[Strings and Time](/go/standard-library/strings-and-time/):** String manipulation and time parsing used with I/O streams.
 - **[Channels](/go/concurrency/channels/):** Concurrent pipeline patterns using io.Reader/Writer with goroutines.
 
+## Related in this track
+
+- [math, sort, and log/slog](/go/standard-library/math-sort-log/)
+- [net/http](/go/standard-library/net-http/)
+- [strings and time](/go/standard-library/strings-and-time/)
+
 ---
 
 ## Math Sort Log
@@ -33162,6 +33297,12 @@ theory, practical implementation, and key applications.
 - [Standard Library I/O](/go/standard-library/io/)
 - [net/http](/go/standard-library/net-http/)
 
+## Related in this track
+
+- [Standard Library I/O](/go/standard-library/io/)
+- [net/http](/go/standard-library/net-http/)
+- [strings and time](/go/standard-library/strings-and-time/)
+
 ---
 
 ## Modules And Packages
@@ -33469,6 +33610,13 @@ implementation, and key applications.
 - [Advanced](./)
 - [Pointers and Memory](/go/advanced/pointers-and-memory/)
 - [go project architecture](/go/advanced/architecture/)
+
+## Related in this track
+
+- [Networking](/go/advanced/networking/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Reflection](/go/advanced/reflection/)
+- [Testing](/go/advanced/testing/)
 
 ---
 
@@ -34084,6 +34232,12 @@ implementation, and key applications.
 - **[Testing](/go/advanced/testing/):** HTTP handler testing with httptest and middleware verification.
 - **[Channels](/go/concurrency/channels/):** Goroutine-based concurrent request handling patterns.
 
+## Related in this track
+
+- [Standard Library I/O](/go/standard-library/io/)
+- [math, sort, and log/slog](/go/standard-library/math-sort-log/)
+- [strings and time](/go/standard-library/strings-and-time/)
+
 ---
 
 ## Networking
@@ -34546,6 +34700,13 @@ client := &http.Client{
 - **[I/O](/go/standard-library/io/):** Reader/Writer interfaces used in network stream processing.
 - **[Interfaces](/go/intermediate/interfaces/):** Interface-based abstraction patterns for network protocol handlers.
 
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Reflection](/go/advanced/reflection/)
+- [Testing](/go/advanced/testing/)
+
 ---
 
 ## Pointers And Memory
@@ -34846,6 +35007,13 @@ implementation, and key applications.
 - **[Types and Variables](/go/basics/types-and-variables/):** Value types and variable declarations that interact with pointer semantics.
 - **[Networking](/go/advanced/networking/):** Network buffer management using pointer-based I/O patterns.
 - **[Race Conditions](/go/concurrency/race-conditions/):** Synchronization primitives for safe concurrent memory access.
+
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)
+- [Reflection](/go/advanced/reflection/)
+- [Testing](/go/advanced/testing/)
 
 ---
 
@@ -35352,6 +35520,11 @@ theory, practical implementation, and key applications.
 - **[Pointers and Memory](/go/advanced/pointers-and-memory/):** Memory layout and escape analysis relevant to concurrent access.
 - **[Testing](/go/advanced/testing/):** Race detector and concurrency testing patterns.
 
+## Related in this track
+
+- [Channels and Concurrency Patterns](/go/concurrency/channels/)
+- [Goroutines and Synchronization](/go/concurrency/goroutines/)
+
 ---
 
 ## Reflection
@@ -35653,6 +35826,13 @@ implementation, and key applications.
 - **[Interfaces](/go/intermediate/interfaces/):** Interface satisfaction and type assertions underlying reflection.
 - **[Generics](/go/intermediate/generics/):** Compile-time type parameters as an alternative to runtime reflection.
 - **[Types and Variables](/go/basics/types-and-variables/):** Go's type system fundamentals that reflection inspects at runtime.
+
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Testing](/go/advanced/testing/)
 
 ---
 
@@ -35996,6 +36176,12 @@ practical implementation, and key applications.
 - **[I/O](/go/standard-library/io/):** Buffered I/O and stream processing for string manipulation.
 - **[net/http](/go/standard-library/net-http/):** HTTP header parsing and time-based cache headers.
 - **[Types and Variables](/go/basics/types-and-variables/):** String and time type fundamentals.
+
+## Related in this track
+
+- [Standard Library I/O](/go/standard-library/io/)
+- [math, sort, and log/slog](/go/standard-library/math-sort-log/)
+- [net/http](/go/standard-library/net-http/)
 
 ---
 
@@ -36402,6 +36588,13 @@ fi
 - **[Error Handling](/go/intermediate/error-handling/):** Error wrapping and inspection patterns used in test assertions.
 - **[net/http](/go/standard-library/net-http/):** HTTP handler testing with httptest and middleware chains.
 
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Reflection](/go/advanced/reflection/)
+
 ---
 
 ## Types And Variables
@@ -36763,6 +36956,12 @@ implementation, and key applications.
 - **[Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/):** Collection types that build on scalar type foundations.
 - **[Interfaces](/go/intermediate/interfaces/):** Structural typing and interface satisfaction for custom types.
 - **[Pointers and Memory](/go/advanced/pointers-and-memory/):** Pointer semantics and escape analysis for variable storage.
+
+## Related in this track
+
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
+- [Control Flow](/go/basics/control-flow/)
+- [Functions](/go/basics/functions/)
 
 ## Haskell
 
@@ -45172,6 +45371,11 @@ Native memory that is not part of the heap. Virtual threads eliminate this probl
 
 ## Worked Examples
 
+## Related in this track
+
+- [Garbage Collection](/java/09-jvm-internals/03-garbage-collection/)
+- [JIT Compilation and Deoptimization](/java/09-jvm-internals/02-jit-compilation/)
+
 ---
 
 ## Classes
@@ -51181,6 +51385,11 @@ convenience -- they do not introduce a new type.
 - **[Garbage Collection](https://java.wyattau.com/09-jvm-internals/03-garbage-collection/):** JVM memory management affecting loop and object lifecycle.
 - **[Generics](https://kotlin.wyattau.com/intermediate/generics/):** Type-safe iteration and switch expressions with sealed classes.
 
+## Related in this track
+
+- [Strings and Text Processing](/java/02-fundamentals/03-strings/)
+- [Types and Variables](/java/02-fundamentals/01-types-and-variables/)
+
 ---
 
 ## Exceptions
@@ -53004,6 +53213,11 @@ Garbage collection frees you from manually managing memory, but understanding ho
 The evolution from Serial to G1 to ZGC shows a clear trajectory: minimize pause times by doing more work concurrently with your application. Serial and Parallel collectors stop the world for the entire collection. G1 divides the heap into regions and only collects the dirtiest ones, keeping pauses bounded. ZGC goes further by doing almost all work concurrently, marking, relocating, and compacting while your application keeps running. Load barriers in ZGC transparently fix stale references as your code reads them, making concurrent relocation invisible to the application.
 
 The practical takeaway is to match your GC choice to your latency requirements. Throughput-bound batch jobs can tolerate longer pauses, so Parallel GC is fine. Latency-sensitive web services need G1 or ZGC. And in containers, always set `-Xms == -Xmx` and use `MaxRAMPercentage` so the JVM knows its memory limits from the start. GC logging should be enabled from day one, you cannot tune what you cannot measure.
+
+## Related in this track
+
+- [Class Loading and Memory Model](/java/09-jvm-internals/01-class-loading-memory/)
+- [JIT Compilation and Deoptimization](/java/09-jvm-internals/02-jit-compilation/)
 
 ---
 
@@ -59056,6 +59270,11 @@ The tiered compilation system (C1 for quick, light compilation; C2 for deep opti
 
 Deoptimization is what makes this whole scheme safe. The JIT makes optimistic assumptions based on what it has observed, but if reality changes (a new subclass is loaded, a field type changes), the JVM discards the compiled code and falls back to the interpreter. This "bail out" mechanism means the JIT can be aggressive with optimizations because it always has a safe fallback. The result is a system that starts interpreted, identifies hotspots, optimizes aggressively, and gracefully handles change, all transparently to the developer.
 
+## Related in this track
+
+- [Class Loading and Memory Model](/java/09-jvm-internals/01-class-loading-memory/)
+- [Garbage Collection](/java/09-jvm-internals/03-garbage-collection/)
+
 ---
 
 ## Maps And Sets
@@ -64124,6 +64343,11 @@ linked above.
 - [Types and Variables](/java/02-fundamentals/01-types-and-variables/)
 - [Control Flow](/java/02-fundamentals/02-control-flow/)
 
+## Related in this track
+
+- [Control Flow](/java/02-fundamentals/02-control-flow/)
+- [Types and Variables](/java/02-fundamentals/01-types-and-variables/)
+
 ---
 
 ## Style And Patterns
@@ -67419,6 +67643,11 @@ The Java type system reflects a series of deliberate tradeoffs:
 - **[Generics](https://kotlin.wyattau.com/intermediate/generics/):** Type parameterization extending the basic type system.
 :::
 
+## Related in this track
+
+- [Control Flow](/java/02-fundamentals/02-control-flow/)
+- [Strings and Text Processing](/java/02-fundamentals/03-strings/)
+
 ---
 
 ## Virtual Threads Structured Concurrency
@@ -68705,6 +68934,12 @@ implementation, and key applications.
 - [Types and Variables](/kotlin/basics/types-and-variables/)
 - [Control Flow](/kotlin/basics/control-flow/)
 
+## Related in this track
+
+- [Control Flow](/kotlin/basics/control-flow/)
+- [Functions](/kotlin/basics/functions/)
+- [Types and Variables](/kotlin/basics/types-and-variables/)
+
 ---
 
 ## Collections
@@ -69036,6 +69271,13 @@ implementation, and key applications.
 - [Generics](https://kotlin.wyattau.com/intermediate/generics/), Collection type parameters and variance annotations (in/out) are governed by the generic type system.
 - [Delegation and Result](https://kotlin.wyattau.com/intermediate/delegation-and-result/), Property delegation can be used to lazily initialise collections or wrap them with observable behaviour.
 - [Coroutines Advanced](https://kotlin.wyattau.com/intermediate/coroutines-advanced/), StateFlow and SharedFlow build on collection concepts to provide reactive state management.
+
+## Related in this track
+
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [Generics](/kotlin/intermediate/generics/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)
 
 ---
 
@@ -69371,6 +69613,12 @@ implementation, and key applications.
 - **[Types and Variables](/kotlin/basics/types-and-variables/):** Type system fundamentals used in control flow expressions.
 - **[Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/):** Null-safe branching and safe-call operators in control flow.
 - **[Kotlin Practice](/kotlin/practice-kotlin-basics/):** Auto-graded problems testing control flow patterns.
+
+## Related in this track
+
+- [Classes and Objects](/kotlin/basics/classes-and-objects/)
+- [Functions](/kotlin/basics/functions/)
+- [Types and Variables](/kotlin/basics/types-and-variables/)
 
 ---
 
@@ -69741,6 +69989,13 @@ implementation, and key applications.
 
 - [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
 - [Collections](/kotlin/intermediate/collections/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)
+
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Generics](/kotlin/intermediate/generics/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
 - [delegation and result](/kotlin/intermediate/delegation-and-result/)
 
 ---
@@ -70333,6 +70588,13 @@ asynchronous systems with Kotlin coroutines.
 - [Generics](https://kotlin.wyattau.com/intermediate/generics/), Flow<T>, StateFlow<T>, and SharedFlow<T> use generic type parameters and variance annotations.
 - [Delegation and Result](https://kotlin.wyattau.com/intermediate/delegation-and-result/), StateFlow integrates with property delegation patterns for reactive state management in ViewModels.
 
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [Generics](/kotlin/intermediate/generics/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)
+
 ---
 
 ## Delegation And Result
@@ -70773,6 +71035,13 @@ Delegation is the principle of forwarding a responsibility to another object rat
 - [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
 - [Coroutines](/kotlin/intermediate/coroutines/)
 
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [Generics](/kotlin/intermediate/generics/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+
 ---
 
 ## Flashcards Kotlin Basics
@@ -71177,6 +71446,12 @@ Functions in Kotlin are like recipes -- they take ingredients (parameters), foll
 - [Classes and Objects](/kotlin/basics/classes-and-objects/)
 - [Control Flow](/kotlin/basics/control-flow/)
 
+## Related in this track
+
+- [Classes and Objects](/kotlin/basics/classes-and-objects/)
+- [Control Flow](/kotlin/basics/control-flow/)
+- [Types and Variables](/kotlin/basics/types-and-variables/)
+
 ---
 
 ## Generics
@@ -71500,6 +71775,13 @@ implementation, and key applications.
 - [Generics](/go/intermediate/generics/)
 - [Collections](/kotlin/intermediate/collections/)
 - [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)
 
 ---
 
@@ -72054,6 +72336,12 @@ Java-Kotlin interoperability is like two countries sharing a border -- most traf
 - [Advanced](./)
 - [Metaprogramming](/kotlin/advanced/metaprogramming/)
 - [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)
+
+## Related in this track
+
+- [Metaprogramming](/kotlin/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)
+- [Testing](/kotlin/advanced/testing/)
 
 ---
 
@@ -72669,6 +72957,12 @@ Reflection is like having X-ray vision for your code -- it lets you inspect the 
 - **[Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/):** Contracts and safe-call operators used in reflective null handling.
 - **[Control Flow](/kotlin/basics/control-flow/):** When expressions and sealed class patterns that reflection can enumerate.
 
+## Related in this track
+
+- [Java Interoperability](/kotlin/advanced/interoperability/)
+- [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)
+- [Testing](/kotlin/advanced/testing/)
+
 ---
 
 ## Null Safety Deep Dive
@@ -73025,6 +73319,12 @@ Kotlin's null safety is like a building's fire code -- it prevents disasters by 
 - **[Types and Variables](/kotlin/basics/types-and-variables/):** Nullable type declarations and type inference fundamentals.
 - **[Control Flow](/kotlin/basics/control-flow/):** When expressions and null-safe branching patterns.
 - **[Metaprogramming](/kotlin/advanced/metaprogramming/):** Reflection-based null handling and contract annotations.
+
+## Related in this track
+
+- [Java Interoperability](/kotlin/advanced/interoperability/)
+- [Metaprogramming](/kotlin/advanced/metaprogramming/)
+- [Testing](/kotlin/advanced/testing/)
 
 ---
 
@@ -73569,6 +73869,13 @@ Scope functions let you execute a block of code within the context of an object,
 - [Collections](/kotlin/intermediate/collections/)
 - [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
 
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [Generics](/kotlin/intermediate/generics/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+
 ---
 
 ## Testing
@@ -74059,6 +74366,12 @@ Testing is like proof-reading a book -- unit tests check individual sentences, w
 - [Java Interoperability](/kotlin/advanced/interoperability/)
 - [Metaprogramming](/kotlin/advanced/metaprogramming/)
 
+## Related in this track
+
+- [Java Interoperability](/kotlin/advanced/interoperability/)
+- [Metaprogramming](/kotlin/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)
+
 ---
 
 ## Types And Variables
@@ -74363,6 +74676,12 @@ implementation, and key applications.
 - **[Control Flow](/kotlin/basics/control-flow/):** If-expressions, when, and loops that use the types defined here.
 - **[Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/):** Nullable type specifiers and safe-call operators.
 - **[Kotlin Practice](/kotlin/practice-kotlin-basics/):** Auto-graded problems testing type system fundamentals.
+
+## Related in this track
+
+- [Classes and Objects](/kotlin/basics/classes-and-objects/)
+- [Control Flow](/kotlin/basics/control-flow/)
+- [Functions](/kotlin/basics/functions/)
 
 ## Python
 
@@ -75622,6 +75941,12 @@ $\blacksquare$
 - [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- Iterator and generator types are expressible using `Iterator[T]` and `Generator[T]` generics.
 - [Protocols and Abstract Base Classes](/python/08-advanced-topics/04-protocols-dunder-methods/) -- Structural subtyping via Protocol extends the type system beyond nominal inheritance.
 - [Dataclasses and Attrs](https://java.wyattau.com/03-object-oriented/01-classes/) -- `dataclass_transform` bridges type hints and dataclass-style class creation.
+
+## Related in this track
+
+- [Context Managers and the with Statement](/python/08-advanced-topics/03-context-managers/)
+- [Data Validation](/python/08-advanced-topics/02-data-validation/)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/)
 
 ---
 
@@ -77727,6 +78052,11 @@ linked above.
 - [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Provides deeper coverage of the dunder methods that enable Python's data model integration.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Shows how to use dataclasses and validators to ensure data integrity in object-oriented designs.
 
+## Related in this track
+
+- [Descriptors and Properties](/python/04-object-oriented/03-descriptors/)
+- [Metaclasses and Class Creation](/python/04-object-oriented/02-metaclasses/)
+
 ---
 
 ## Cli Tools
@@ -78914,6 +79244,13 @@ Command-line tools are the workhorses of automation: they take inputs, process t
 - [Essential Modules](/python/05-standard-library/01-essential-modules/) -- argparse and sys modules provide the core functionality for command-line argument parsing.
 - [Context Managers](/python/08-advanced-topics/03-context-managers/) -- CLI tools often use context managers for resource management of files and connections.
 - [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- Lazy evaluation patterns in CLI tools process input streams efficiently.
+
+## Related in this track
+
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/python/05-standard-library/01-essential-modules/)
+- [File I/O](/python/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/python/05-standard-library/04-serialization/)
 
 ---
 
@@ -80945,6 +81282,13 @@ linked above.
 - [File I/O](/python/05-standard-library/02-file-io/): Demonstrates thread-safe file operations and how concurrency primitives protect shared file resources.
 - [Error Handling](https://dart.wyattau.com/08-error-handling/): Explains how to handle exceptions in concurrent code, including thread-safe error logging and recovery.
 
+## Related in this track
+
+- [CLI Tools](/python/05-standard-library/03-cli-tools/)
+- [Essential Modules](/python/05-standard-library/01-essential-modules/)
+- [File I/O](/python/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/python/05-standard-library/04-serialization/)
+
 ---
 
 ## Context Managers
@@ -81827,6 +82171,12 @@ linked above.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Shows how to validate data within context managers, ensuring resources receive properly validated input.
 - [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Explains the **enter** and **exit** dunder methods that define context manager protocol.
 - [Async Context Managers](https://dart.wyattau.com/05-async/01-async-and-futures/): Builds on context managers for asynchronous resource management with async with and async generators.
+
+## Related in this track
+
+- [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/)
+- [Data Validation](/python/08-advanced-topics/02-data-validation/)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/)
 
 ---
 
@@ -82880,6 +83230,13 @@ Control flow is the road system of your program. `if`/`elif`/`else` are intersec
 - [Python Internals](/python/02-fundamentals/05-python-internals/), The bytecode instructions generated by if/else and for loops are visible in the dis module output.
 - [Dicts, Sets, and Collections Deep Dive](/python/03-data-structures/02-dicts-sets-counter/), Pattern matching and dictionary dispatch relate to the dict-based dispatch patterns in collections.
 :::
+
+## Related in this track
+
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/python/02-fundamentals/05-python-internals/)
 
 ---
 
@@ -84047,6 +84404,12 @@ Data validation is the bouncer at the door of your application, checking every p
 - [Essential Modules](/python/05-standard-library/01-essential-modules/) provides the standard library tools like  and  used in data validation pipelines.
 - [File I/O](/python/05-standard-library/02-file-io/) covers reading and writing validated data to persistent storage formats.
 - [CLI Tools](/python/05-standard-library/03-cli-tools/) shows how to build command-line interfaces that accept and validate user input.
+
+## Related in this track
+
+- [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/)
+- [Context Managers and the with Statement](/python/08-advanced-topics/03-context-managers/)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/)
 
 ---
 
@@ -85353,6 +85716,12 @@ practical implementation, and key applications.
 - [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
 - [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
 
+## Related in this track
+
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
+- [Packaging and Distribution](/python/07-best-practices/04-packaging-distribution/)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
+
 ---
 
 ## Descriptors
@@ -86279,6 +86648,11 @@ practical implementation, and key applications.
 - [Metaclasses](/python/04-object-oriented/02-metaclasses/): Explores how metaclasses can manipulate descriptors during class creation.
 - [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Explains the **get**, **set**, and **delete** dunder methods that define the descriptor protocol.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Demonstrates how to use descriptors to enforce validation rules on object attributes.
+
+## Related in this track
+
+- [Classes and Inheritance](/python/04-object-oriented/01-classes/)
+- [Metaclasses and Class Creation](/python/04-object-oriented/02-metaclasses/)
 
 ---
 
@@ -88071,6 +88445,12 @@ linked above.
 - [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
 - [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
 
+## Related in this track
+
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
+- [Packaging and Distribution](/python/07-best-practices/04-packaging-distribution/)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
+
 ---
 
 ## Essential Modules
@@ -89223,6 +89603,13 @@ linked above.
 - [Types and Variables](/python/02-fundamentals/01-types-and-variables/) -- Standard library modules work with Python's built-in types including lists, dicts, and strings.
 - [File I/O](/python/05-standard-library/02-file-io/) -- The os and pathlib modules provide file system interaction beyond basic file reading and writing.
 - [Context Managers](/python/08-advanced-topics/03-context-managers/) -- Many standard library resources support the context manager protocol for safe resource management.
+
+## Related in this track
+
+- [CLI Tools](/python/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives/)
+- [File I/O](/python/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/python/05-standard-library/04-serialization/)
 
 ---
 
@@ -90483,6 +90870,13 @@ File I/O is the bridge between your program's temporary memory and the permanent
 - [Essential Modules](/python/05-standard-library/01-essential-modules/) -- The io module builds on os.path and built-in functions for comprehensive file system interaction.
 - [Context Managers](/python/08-advanced-topics/03-context-managers/) -- File objects support the context manager protocol for safe resource management with with statements.
 - [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- File objects are iterators that yield lines lazily, connecting file I/O to the iterator protocol.
+
+## Related in this track
+
+- [CLI Tools](/python/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/python/05-standard-library/01-essential-modules/)
+- [Serialization and Data Formats](/python/05-standard-library/04-serialization/)
 
 ---
 
@@ -92043,6 +92437,13 @@ The key mental model is that decorators are transparent wrappers. When you write
 
 Closures solve the problem of carrying state between function calls without using global variables or classes. A closure captures variables by reference, not by value, which is powerful but can be surprising in loops where all closures share the same variable. The `nonlocal` keyword lets an inner function write to a captured variable rather than just reading it. Together, closures and decorators enable elegant patterns for caching, validation, retry logic, and access control, all composed declaratively with `@` syntax.
 
+## Related in this track
+
+- [Control Flow](/python/02-fundamentals/02-control-flow/)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/python/02-fundamentals/05-python-internals/)
+
 ---
 
 ## Generators And Iterators
@@ -93415,6 +93816,13 @@ practical implementation, and key applications.
 - [List Comprehensions and Comprehension Expressions](https://computer-science.wyattau.com/1-algorithms/data-structures/) -- List comprehensions create lists eagerly, while generator expressions produce values lazily.
 - [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/) -- Generic iterators and generator return types are expressible using `Iterator[T]` and `Generator[T]`.
 - [Context Managers](/python/08-advanced-topics/03-context-managers/) -- The iterator protocol is the foundation for `with` statement resource management.
+
+## Related in this track
+
+- [Control Flow](/python/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/python/02-fundamentals/05-python-internals/)
 
 ---
 
@@ -94870,6 +95278,11 @@ practical implementation, and key applications.
 - [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Shows how dunder methods enable Python's data model, which metaclasses can customise at the class level.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Demonstrates how metaclasses can enforce validation rules during class creation.
 
+## Related in this track
+
+- [Classes and Inheritance](/python/04-object-oriented/01-classes/)
+- [Descriptors and Properties](/python/04-object-oriented/03-descriptors/)
+
 ---
 
 ## Modules And Packages
@@ -96003,6 +96416,13 @@ implementation, and key applications.
 - [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- Modules can define generator functions and iterator classes that other modules import.
 - [Object-Oriented Programming](/python/04-object-oriented/01-classes/) -- Packages organise classes into namespaces, connecting module structure to OOP design.
 
+## Related in this track
+
+- [Control Flow](/python/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/)
+- [Python Internals](/python/02-fundamentals/05-python-internals/)
+
 ---
 
 ## Packaging Distribution
@@ -97014,6 +97434,12 @@ practical implementation, and key applications.
 - **[Python Practice](/python/practice-python-basics/):** Auto-graded problems testing packaging and module patterns.
 - **[Python Interactive Practice](/python/practice-interactive/):** Advanced practice problems including async and functional patterns.
 :::
+
+## Related in this track
+
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
 
 ---
 
@@ -98636,6 +99062,12 @@ Dunder methods are the hooks where Python's built-in operations call your custom
 - [Context Managers](/python/08-advanced-topics/03-context-managers/): Explores the **enter** and **exit** dunder methods that define the context manager protocol.
 - [Object-Oriented Programming](https://alevel.wyattau.com/computer-science/programming/02-object-oriented-programming/): Builds on these dunder methods to create more expressive and Pythonic classes.
 
+## Related in this track
+
+- [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/)
+- [Context Managers and the with Statement](/python/08-advanced-topics/03-context-managers/)
+- [Data Validation](/python/08-advanced-topics/02-data-validation/)
+
 ---
 
 ## Python Internals
@@ -99523,6 +99955,13 @@ Signal processing), an unexpected GC pause can cause deadline misses. Profile yo
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/), List growth strategy, dict hash tables, and set internals are concrete applications of the memory model described here.
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), Bytecode instructions for loops, conditionals, and exception handling are generated from the syntax constructs in control flow.
 - [Dicts, Sets, and Collections Deep Dive](/python/03-data-structures/02-dicts-sets-counter/), Compact dict design, hash randomisation, and the **slots** mechanism are implementation details of the object model.
+
+## Related in this track
+
+- [Control Flow](/python/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages/)
 
 ---
 
@@ -100487,6 +100926,13 @@ linked above.
 - [File I/O](/python/05-standard-library/02-file-io/): Shows how to read and write files, which is essential for saving and loading serialized data.
 - [CLI Tools](/python/05-standard-library/03-cli-tools/): Demonstrates how to use command-line interfaces to process and transform serialized data.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Explains how to validate serialized data using Pydantic models and other validation techniques.
+
+## Related in this track
+
+- [CLI Tools](/python/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/python/05-standard-library/01-essential-modules/)
+- [File I/O](/python/05-standard-library/02-file-io/)
 
 ---
 
@@ -101835,6 +102281,12 @@ Fixed immediately, not discovered weeks later during code review.
 - [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
 - [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
 
+## Related in this track
+
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
+- [Packaging and Distribution](/python/07-best-practices/04-packaging-distribution/)
+
 ---
 
 ## Types And Variables
@@ -102822,6 +103274,13 @@ Python variables are not boxes that contain values, they are labels stuck on obj
 - [Python Internals](/python/02-fundamentals/05-python-internals/), Integer caching, string interning, and the PyObject header explain the runtime behaviour of types introduced here.
 - [Dicts, Sets, and Collections Deep Dive](/python/03-data-structures/02-dicts-sets-counter/), The type hierarchy and immutability concepts are prerequisites for understanding dict key and set membership requirements.
 :::
+
+## Related in this track
+
+- [Control Flow](/python/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages/)
 
 ## Ruby
 
@@ -111956,6 +112415,11 @@ Async Rust compiles to state machines that yield control at await points. The Fu
 - [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing/)
 - [Concurrency](/rust/06-concurrency/concurrency/)
 
+## Related in this track
+
+- [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing/)
+- [Concurrency](/rust/06-concurrency/concurrency/)
+
 ---
 
 ## Cargo And Ecosystem
@@ -113967,6 +114431,11 @@ Channels are Rust's message-passing primitive, inspired by Go's CSP model. mpsc 
 - [Async Deep Dive](/rust/06-concurrency/async-deep-dive/)
 - [Concurrency](/rust/06-concurrency/concurrency/)
 
+## Related in this track
+
+- [Async Deep Dive](/rust/06-concurrency/async-deep-dive/)
+- [Concurrency](/rust/06-concurrency/concurrency/)
+
 ---
 
 ## Concurrency
@@ -114925,6 +115394,11 @@ Rust's concurrency safety comes from its ownership system extended to threads. T
 ## See Also
 
 - [Concurrency](./)
+- [Async Deep Dive](/rust/06-concurrency/async-deep-dive/)
+- [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing/)
+
+## Related in this track
+
 - [Async Deep Dive](/rust/06-concurrency/async-deep-dive/)
 - [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing/)
 
@@ -119432,6 +119906,11 @@ Interior mutability lets you modify data through a shared reference, bypassing t
 - [Lifetimes](/rust/02-ownership-borrowing/lifetimes/)
 - [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership/)
 
+## Related in this track
+
+- [Lifetimes](/rust/02-ownership-borrowing/lifetimes/)
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership/)
+
 ---
 
 ## Intro
@@ -120613,6 +121092,11 @@ Lifetimes are Rust's way of tracking how long references remain valid. Every ref
 ## See Also
 
 - [Ownership Borrowing](./)
+- [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability/)
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership/)
+
+## Related in this track
+
 - [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability/)
 - [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership/)
 
@@ -123309,6 +123793,11 @@ Rust's ownership system enforces three rules at compile time: each value has exa
 ## See Also
 
 - [Ownership Borrowing](./)
+- [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability/)
+- [Lifetimes](/rust/02-ownership-borrowing/lifetimes/)
+
+## Related in this track
+
 - [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability/)
 - [Lifetimes](/rust/02-ownership-borrowing/lifetimes/)
 
@@ -132875,6 +133364,13 @@ Advanced patterns combine TypeScript's type-level features to create sophisticat
 - [advanced types](/typescript/advanced-types/)
 - [Classes](/typescript/classes/)
 
+## Related in this track
+
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)
+- [Generics](/typescript/generics/)
+
 ---
 
 ## Advanced Types
@@ -133934,6 +134430,13 @@ Advanced types unlock TypeScript's type-level programming capabilities. Conditio
 - [Advanced Patterns](/typescript/advanced-patterns/)
 - [Types and Annotations](/typescript/types-and-annotations/)
 
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)
+
 ---
 
 ## Classes
@@ -134741,6 +135244,13 @@ TypeScript classes combine JavaScript's class syntax with compile-time type chec
 - [Typescript](./)
 - [Advanced Patterns](/typescript/advanced-patterns/)
 - [advanced types](/typescript/advanced-types/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)
+- [Generics](/typescript/generics/)
 
 ---
 
@@ -136225,6 +136735,13 @@ Error handling in TypeScript centers on the never type (the bottom type with no 
 - [Advanced Patterns](/typescript/advanced-patterns/)
 - [advanced types](/typescript/advanced-types/)
 
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Functions](/typescript/functions/)
+- [Generics](/typescript/generics/)
+
 ---
 
 ## Flashcards Typescript Basics
@@ -136903,6 +137420,13 @@ Functions in TypeScript are first-class values with precise type signatures. Par
 - [Typescript](./)
 - [Advanced Patterns](/typescript/advanced-patterns/)
 - [advanced types](/typescript/advanced-types/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Generics](/typescript/generics/)
 
 ---
 
@@ -137658,6 +138182,13 @@ Generics are TypeScript's way of writing code that works with any type while pre
 - [Typescript](./)
 - [Advanced Patterns](/typescript/advanced-patterns/)
 - [advanced types](/typescript/advanced-types/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)
 
 ---
 
@@ -138713,6 +139244,13 @@ The TypeScript toolchain revolves around tsconfig.json, which controls compilati
 - [Enums and Modules](/typescript/enums-and-modules/)
 - [Types and Annotations](/typescript/types-and-annotations/)
 
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)
+
 ---
 
 ## Types And Annotations
@@ -139593,6 +140131,13 @@ TypeScript's type system is your compile-time documentation. Primitives like str
 - [advanced types](/typescript/advanced-types/)
 - [Enums and Modules](/typescript/enums-and-modules/)
 
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)
+
 ---
 
 ## Typescript
@@ -139748,6 +140293,13 @@ TypeScript is like giving JavaScript a safety net. Think of types as labels that
 - [Typescript](./)
 - [TypeScript Fundamentals Flashcards](/typescript/flashcards-typescript-basics/)
 - [TypeScript Fundamentals Practice (Interactive)](/typescript/practice-typescript-basics/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)
 
 ---
 
@@ -140614,3 +141166,10 @@ TypeScript and React form a powerful combination where types serve as live docum
 - [Typescript](./)
 - [TypeScript Fundamentals Flashcards](/typescript/flashcards-typescript-basics/)
 - [TypeScript Fundamentals Practice (Interactive)](/typescript/practice-typescript-basics/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)

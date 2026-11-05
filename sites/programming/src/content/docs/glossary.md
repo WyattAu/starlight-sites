@@ -378,3 +378,9 @@ graph TD
 - See [C++ Glossary](/glossary/) for C++ specific concepts
 - See [Java Glossary](/glossary/) for Java-specific concepts
 - See [Rust Glossary](/glossary/) for Rust-specific concepts
+
+## Related in this track
+
+- [About This Site](/about/)
+- [C++ Programming Practice Test, 30 Problems](/practice-test-mega/)
+- [Complete C++ Programming Study Guide](/hub/)

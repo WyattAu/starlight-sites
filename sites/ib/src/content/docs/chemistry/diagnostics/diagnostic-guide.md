@@ -132,3 +132,10 @@ Stoichiometry (foundational -- not a separate diagnostic)
 - [Diagnostics](./)
 - [Acids and Bases -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
 - [Atomic Structure and Atomic Theory -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
+
+## Related in this track
+
+- [Acids and Bases -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Atomic Structure and Atomic Theory -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
+- [Chemical Bonding -- Diagnostic Tests](/chemistry/diagnostics/diag-chemical-bonding/)
+- [Measurement and Data Processing -- Diagnostic Tests](/chemistry/diagnostics/diag-measurement/)

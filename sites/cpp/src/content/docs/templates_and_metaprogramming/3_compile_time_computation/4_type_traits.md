@@ -1016,3 +1016,8 @@ flowchart TD
 
 ## Worked Examples
 
+## Related in this track
+
+- [Compile-Time Branching and Constexpr Functions](/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [Fold Expressions and Pack Expansion](/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/)
+- [Parameter Packs and Variadic Templates](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)

@@ -325,3 +325,8 @@ implementation, and key applications.
 - **[Interfaces](/intermediate/interfaces/):** Interface patterns that complement error handling design.
 - **[Generics](/intermediate/generics/):** Generic functions that can work with error types.
 - **[Practice Error Handling](/practice-interfaces/):** Practice problems that include error handling scenarios.
+
+## Related in this track
+
+- [Generics](/intermediate/generics/)
+- [Interfaces](/intermediate/interfaces/)

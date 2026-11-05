@@ -964,3 +964,7 @@ Data management is the art of keeping information organized, accessible, and sec
 
 ## Worked Examples
 
+## Related in this track
+
+- [ICT - Programming and Databases](/ict/3-programming-and-databases/2_programming-and-databases/)
+- [Programming Fundamentals](/ict/3-programming-and-databases/1_programming-fundamentals/)

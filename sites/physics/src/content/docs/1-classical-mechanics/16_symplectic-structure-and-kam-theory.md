@@ -297,3 +297,10 @@ ergodic; common in statistical mechanics reasoning; is unjustified.
 - [Noether's Theorem and Conservation Laws](/1-classical-mechanics/5_noether-s-theorem-and-conservation-laws/): symmetries and integrals of motion
 - [Nonlinear Dynamics and Chaos](/1-classical-mechanics/12_nonlinear-dynamics-and-chaos/): the dissipative counterpart
 - [How to Use These Notes](https://mathematics.wyattau.com/how-to-use/); the method
+
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)

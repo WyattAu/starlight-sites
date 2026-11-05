@@ -158,3 +158,9 @@ Theory of computation asks: what can computers do, and how efficiently? The hier
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
+## Related in this track
+
+- [Complexity Theory](/6-theory-of-computation/6_complexity-theory/)
+- [Context-Free Languages](/6-theory-of-computation/3_context-free-languages/)
+- [Decidability](/6-theory-of-computation/5_decidability/)
+- [Problem Set](/6-theory-of-computation/7_problem-set/)

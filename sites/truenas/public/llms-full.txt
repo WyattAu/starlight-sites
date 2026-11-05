@@ -7009,6 +7009,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete TrueNAS Administration Guide](/hub/)
+- [Introduction to TrueNAS](/intro/)
+- [TrueNAS Glossary, Key Terms and Definitions](/glossary/)
+- [ZFS Encryption](/zfs-encryption/)
+
 ---
 
 ## Glossary
@@ -7253,6 +7260,13 @@ URL: https://truenas.wyattau.com/glossary/
 - See [Security Glossary](/glossary/) for security hardening
 - See [Databases Glossary](/glossary/) for database storage
 - See [Tools Glossary](/glossary/) for Docker and Kubernetes
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete TrueNAS Administration Guide](/hub/)
+- [Introduction to TrueNAS](/intro/)
+- [ZFS Encryption](/zfs-encryption/)
 
 ---
 
@@ -7750,6 +7764,13 @@ ZFS will automatically repair data during a resilver when you replace a failed d
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Introduction to TrueNAS](/intro/)
+- [TrueNAS Glossary, Key Terms and Definitions](/glossary/)
+- [ZFS Encryption](/zfs-encryption/)
+
 ---
 
 ## Index
@@ -7969,6 +7990,13 @@ This page includes:
 - [Home Server Setup](/setup/home-server-setup/) -- The installation guide walks through initial configuration after understanding TrueNAS concepts.
 - [ZFS Deep Dive](/01-zfs/zfs-deep-dive/) -- ZFS is the foundation storage technology underlying all TrueNAS data management.
 - [Sharing and Permissions](/02-sharing-and-permissions/sharing-and-permissions/) -- Setting up shares is the primary way to access files stored on TrueNAS.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete TrueNAS Administration Guide](/hub/)
+- [TrueNAS Glossary, Key Terms and Definitions](/glossary/)
+- [ZFS Encryption](/zfs-encryption/)
 
 ---
 
@@ -9650,6 +9678,13 @@ ZFS encryption protects your data at rest, ensuring that even if someone steals 
 - [Backup and Replication](/03-backup-and-replication/backup-and-replication/) -- Encrypted datasets can be replicated, but encryption keys must be managed separately from the data.
 - [Home Server Setup](/setup/home-server-setup/) -- Encryption is recommended for home servers to protect sensitive data at rest.
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete TrueNAS Administration Guide](/hub/)
+- [Introduction to TrueNAS](/intro/)
+- [TrueNAS Glossary, Key Terms and Definitions](/glossary/)
+
 ## Diagnostics
 
 ---
@@ -10463,6 +10498,11 @@ Setting up a home server is like building a small data center in your closet. Th
 - [Sharing and Permissions](/02-sharing-and-permissions/sharing-and-permissions/) -- Configuring SMB or NFS shares enables file access from client devices on the home network.
 - [Apps and Services](/04-apps-and-services/apps-and-services/) -- Installing applications like media servers or home automation extends the home server's functionality.
 
+## Related in this track
+
+- [Network Proxy](/setup/network-proxy/)
+- [Setup Traefik](/setup/traefik/)
+
 ---
 
 ## Network Proxy
@@ -10601,6 +10641,11 @@ A network proxy is the middleman between your server and the outside world. Reve
 - [Home Server Setup](/setup/home-server-setup/) -- Network proxy configuration is part of the initial server setup for internet-facing services.
 - [Apps and Services](/04-apps-and-services/apps-and-services/) -- Reverse proxy services like Traefik route external traffic to internal applications.
 - [Monitoring and Alerting](/05-monitoring-and-alerting/monitoring-and-alerting/) -- Proxy access logs can be monitored for security and performance insights.
+
+## Related in this track
+
+- [Setting Up Home Server](/setup/home-server-setup/)
+- [Setup Traefik](/setup/traefik/)
 
 ---
 
@@ -11194,3 +11239,8 @@ Traefik is a modern reverse proxy that automatically discovers services and conf
 - [Setup](./)
 - [Setting Up Home Server](/setup/home-server-setup/)
 - [Network Proxy](/setup/network-proxy/)
+
+## Related in this track
+
+- [Network Proxy](/setup/network-proxy/)
+- [Setting Up Home Server](/setup/home-server-setup/)

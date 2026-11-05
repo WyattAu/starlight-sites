@@ -237,3 +237,10 @@ conservation of energy: mechanical work $\to$ electrical energy $\to$ thermal en
 
 - **[Electricity](/physics/diagnostics/diag-electricity/):** Electric circuits and currents.
 - **[Forces](/physics/diagnostics/diag-forces/):** Forces and motion.
+
+## Related in this track
+
+- [Electricity -- Diagnostic Tests](/physics/diagnostics/diag-electricity/)
+- [Energy -- Diagnostic Tests](/physics/diagnostics/diag-energy/)
+- [Forces -- Diagnostic Tests](/physics/diagnostics/diag-forces/)
+- [GCSE Physics -- Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)

@@ -629,6 +629,12 @@ import { Citation } from "@components/Citations.astro"
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Quantum Chemistry](/1-physical-chemistry/quantum-chemistry/)
+- [Statistical Mechanics](/1-physical-chemistry/statistical-mechanics/)
+- [Thermodynamics](/1-physical-chemistry/thermodynamics/)
+
 ---
 
 ## Index
@@ -2095,6 +2101,12 @@ Quantum chemistry reveals that electrons do not orbit nuclei like planets around
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 
+## Related in this track
+
+- [Chemical Kinetics](/1-physical-chemistry/chemical-kinetics/)
+- [Statistical Mechanics](/1-physical-chemistry/statistical-mechanics/)
+- [Thermodynamics](/1-physical-chemistry/thermodynamics/)
+
 ---
 
 ## Statistical Mechanics
@@ -2687,6 +2699,12 @@ Statistical mechanics bridges the gap between individual atoms and the bulk prop
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Chemical Kinetics](/1-physical-chemistry/chemical-kinetics/)
+- [Quantum Chemistry](/1-physical-chemistry/quantum-chemistry/)
+- [Thermodynamics](/1-physical-chemistry/thermodynamics/)
 
 ---
 
@@ -3283,6 +3301,12 @@ Thermodynamics tells us which processes can happen and how much energy they invo
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Chemical Kinetics](/1-physical-chemistry/chemical-kinetics/)
+- [Quantum Chemistry](/1-physical-chemistry/quantum-chemistry/)
+- [Statistical Mechanics](/1-physical-chemistry/statistical-mechanics/)
 
 ## Organic-Chemistry
 
@@ -4268,6 +4292,12 @@ Organic reaction mechanisms are the step-by-step choreography of bond breaking a
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 
+## Related in this track
+
+- [Spectroscopy](/2-organic-chemistry/spectroscopy/)
+- [Structure and Bonding](/2-organic-chemistry/structure-and-bonding/)
+- [Synthesis](/2-organic-chemistry/synthesis/)
+
 ---
 
 ## Spectroscopy
@@ -4716,6 +4746,12 @@ Spectroscopy is like reading the barcode of a molecule. Each spectroscopic techn
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Reaction Mechanisms](/2-organic-chemistry/reaction-mechanisms/)
+- [Structure and Bonding](/2-organic-chemistry/structure-and-bonding/)
+- [Synthesis](/2-organic-chemistry/synthesis/)
 
 ---
 
@@ -5203,6 +5239,12 @@ Structure and bonding determine everything about how a molecule behaves. Hybridi
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Reaction Mechanisms](/2-organic-chemistry/reaction-mechanisms/)
+- [Spectroscopy](/2-organic-chemistry/spectroscopy/)
+- [Synthesis](/2-organic-chemistry/synthesis/)
 
 ---
 
@@ -5730,6 +5772,12 @@ Synthetic chemistry is like molecular LEGO: you start with simple, available bui
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 
+## Related in this track
+
+- [Reaction Mechanisms](/2-organic-chemistry/reaction-mechanisms/)
+- [Spectroscopy](/2-organic-chemistry/spectroscopy/)
+- [Structure and Bonding](/2-organic-chemistry/structure-and-bonding/)
+
 ## Inorganic-Chemistry
 
 ---
@@ -6147,6 +6195,12 @@ Atomic structure is the foundation of all chemistry. Electrons occupy orbitals t
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/)
+- [Main-Group Chemistry](/3-inorganic-chemistry/main-group-chemistry/)
+- [Solid-State Chemistry](/3-inorganic-chemistry/solid-state-chemistry/)
 
 ---
 
@@ -6626,6 +6680,12 @@ Coordination chemistry is the study of how metal ions bind to surrounding molecu
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Atomic Structure and Periodicity](/3-inorganic-chemistry/atomic-structure-and-periodicity/)
+- [Main-Group Chemistry](/3-inorganic-chemistry/main-group-chemistry/)
+- [Solid-State Chemistry](/3-inorganic-chemistry/solid-state-chemistry/)
 
 ---
 
@@ -7203,6 +7263,12 @@ Main-group chemistry encompasses the s-block and p-block elements, which togethe
 
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
+
+## Related in this track
+
+- [Atomic Structure and Periodicity](/3-inorganic-chemistry/atomic-structure-and-periodicity/)
+- [Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/)
+- [Solid-State Chemistry](/3-inorganic-chemistry/solid-state-chemistry/)
 
 ---
 
@@ -8343,6 +8409,12 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 
+## Related in this track
+
+- [Atomic Structure and Periodicity](/3-inorganic-chemistry/atomic-structure-and-periodicity/)
+- [Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/)
+- [Main-Group Chemistry](/3-inorganic-chemistry/main-group-chemistry/)
+
 ## Overview
 
 ---
@@ -8453,6 +8525,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)
+- [Chemistry](/intro/)
+- [Chemistry Glossary, Key Terms and Definitions](/glossary/)
+- [Complete University Chemistry Study Guide](/hub/)
 
 ---
 
@@ -8612,6 +8691,13 @@ so it is licensed.
 - [Atomic Structure and Periodicity](/3-inorganic-chemistry/atomic-structure-and-periodicity/); orbitals done properly.
 - [Chemical Kinetics](/1-physical-chemistry/chemical-kinetics/); rates, and the difference between equilibrium and speed.
 - [Thermodynamics](/1-physical-chemistry/thermodynamics/); the energy ledger, derived.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Chemistry](/intro/)
+- [Chemistry Glossary, Key Terms and Definitions](/glossary/)
+- [Complete University Chemistry Study Guide](/hub/)
 
 ---
 
@@ -8813,6 +8899,13 @@ graph TD
 - [Physical Chemistry Concepts](https://alevel.wyattau.com/chemistry/flashcards-physical-chemistry/)
 - [Inorganic Chemistry Overview](https://hsc.wyattau.com/chemistry/inorganic/)
 - [Biochemistry Introduction](https://dse.wyattau.com/biology/1-cell-biology/1_cell-biology-and-biochemistry/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)
+- [Chemistry](/intro/)
+- [Complete University Chemistry Study Guide](/hub/)
 
 ---
 
@@ -9030,6 +9123,13 @@ Physical chemistry applies physics to understand chemical systems through mathem
 ### How do I improve my problem-solving in chemistry?
 
 Practise regularly and systematically. Work through textbook problems, past exams, and sample questions. When you get a problem wrong, analyse your error, was it a conceptual misunderstanding, a mathematical mistake, or a misreading of the question? Keep a log of recurring errors and review them before exams. Study with peers and explain your reasoning to others.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)
+- [Chemistry](/intro/)
+- [Chemistry Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -9292,6 +9392,13 @@ The practical power of chemistry lies in prediction. If you understand that nucl
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)
+- [Chemistry Glossary, Key Terms and Definitions](/glossary/)
+- [Complete University Chemistry Study Guide](/hub/)
 
 ---
 
@@ -9999,6 +10106,13 @@ In $\text{AlCl}_3$, aluminium has only 6 electrons in its valence shell (electro
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)
+- [Chemistry](/intro/)
+- [Chemistry Glossary, Key Terms and Definitions](/glossary/)
 
 ## Zh
 

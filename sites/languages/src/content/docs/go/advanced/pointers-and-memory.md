@@ -304,3 +304,10 @@ implementation, and key applications.
 - **[Types and Variables](/go/basics/types-and-variables/):** Value types and variable declarations that interact with pointer semantics.
 - **[Networking](/go/advanced/networking/):** Network buffer management using pointer-based I/O patterns.
 - **[Race Conditions](/go/concurrency/race-conditions/):** Synchronization primitives for safe concurrent memory access.
+
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)
+- [Reflection](/go/advanced/reflection/)
+- [Testing](/go/advanced/testing/)

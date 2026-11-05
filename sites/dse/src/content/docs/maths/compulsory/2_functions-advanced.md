@@ -1114,3 +1114,10 @@ $\blacksquare$
 ## Intuition
 
 Behind every scientific discovery and technological innovation lies mathematics. Functions model relationships between variables, statistics reveals patterns in data, and logic ensures rigorous reasoning. Mathematics teaches us to think precisely, solve systematically, and communicate evidently - skills that are valuable far beyond the classroom.
+
+## Related in this track
+
+- [Coordinate Geometry](/maths/compulsory/9_coordinate-geometry/)
+- [Dispersion](/maths/compulsory/12_dispersion/)
+- [Geometries](/maths/compulsory/8_geometries/)
+- [Inequalities](/maths/compulsory/5_inequalities/)

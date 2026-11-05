@@ -154,3 +154,9 @@ I/O systems are the nervous system connecting the CPU to the outside world. Poll
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
 
+## Related in this track
+
+- [Deadlocks](/5-operating-systems/4_deadlocks/)
+- [File Systems](/5-operating-systems/6_file-systems/)
+- [Introduction to Operating Systems](/5-operating-systems/1_introduction-to-operating-systems/)
+- [Memory Management](/5-operating-systems/5_memory-management/)

@@ -597,3 +597,9 @@ theory, practical implementation, and key applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
+- [Range Adaptors, Views, and Composition](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+- [Range Materialization (std::ranges::to)](/standard_library/2_algorithms_and_ranges/4_range_materialization/)

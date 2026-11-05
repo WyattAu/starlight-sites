@@ -611,3 +611,8 @@ For revision on data structures used in sorting, see
 
 ## Worked Examples
 
+## Related in this track
+
+- [Complexity Analysis](/computer-science/algorithms/04-complexity-analysis/)
+- [Graph Algorithms](/computer-science/algorithms/03-graph-algorithms/)
+- [Searching Algorithms](/computer-science/algorithms/01-searching-algorithms/)

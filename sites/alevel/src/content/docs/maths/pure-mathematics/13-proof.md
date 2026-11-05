@@ -607,3 +607,10 @@ linked above.
 - [Binomial Expansion](/maths/pure-mathematics/07-binomial-expansion/) -- Induction proofs frequently rely on binomial coefficient identities and summation formulas.
 - [Functions](/maths/pure-mathematics/05-functions/) -- Understanding domain restrictions and logical quantifiers supports the rigorous setup of proof arguments.
 - [Differentiation](/maths/pure-mathematics/10-differentiation/) -- First principles proofs of derivative rules apply the same deductive structure covered in this topic.
+
+## Related in this track
+
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/)
+- [Binomial Expansion](/maths/pure-mathematics/07-binomial-expansion/)
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/)
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/)

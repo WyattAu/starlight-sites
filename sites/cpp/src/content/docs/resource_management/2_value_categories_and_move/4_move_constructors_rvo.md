@@ -1008,3 +1008,10 @@ underlying theory, practical implementation, and key applications.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Return Value Optimization (RVO) and NRVO](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
+- [Value Taxonomy](/resource_management/2_value_categories_and_move/1_value_taxonomy/)

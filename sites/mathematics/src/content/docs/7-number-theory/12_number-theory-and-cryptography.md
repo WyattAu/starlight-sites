@@ -126,3 +126,10 @@ The standard criticism list: deterministic encryption leaks equality of plaintex
 decryption exponents fall to Wiener's continued-fraction attack (the continued-fraction page is
 the natural companion); shared factors between two public moduli break both keys; the factoring
 is a single gcd.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)

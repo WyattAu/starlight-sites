@@ -430,3 +430,9 @@ implementation, and key applications.
 - **[net/http](/go/standard-library/net-http/):** HTTP handlers and clients built on io.Reader/Writer interfaces.
 - **[Strings and Time](/go/standard-library/strings-and-time/):** String manipulation and time parsing used with I/O streams.
 - **[Channels](/go/concurrency/channels/):** Concurrent pipeline patterns using io.Reader/Writer with goroutines.
+
+## Related in this track
+
+- [math, sort, and log/slog](/go/standard-library/math-sort-log/)
+- [net/http](/go/standard-library/net-http/)
+- [strings and time](/go/standard-library/strings-and-time/)

@@ -195,3 +195,9 @@ Classical field theory extends mechanics from particles to continuous media. A f
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
 
+## Related in this track
+
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+- [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)

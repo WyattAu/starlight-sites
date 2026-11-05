@@ -802,3 +802,10 @@ and past paper questions, is essential for success in examinations.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Lambda Expressions, Capture Layouts and Closure Types](/function_architecture/1_function_mechanics/3_lambdas/)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)
+- [Type Erasure, Function Pointers, std::function, std::move_only_function](/function_architecture/1_function_mechanics/4_type_erasure/)

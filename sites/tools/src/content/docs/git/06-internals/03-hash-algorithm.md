@@ -198,3 +198,8 @@ Hashing is like a fingerprint for data. Just as a fingerprint uniquely identifie
 
 - [Git Directory Structure](/git/06-internals/01-git-directory-structure/) - How hashed objects are stored in the .git directory
 - [Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/) - How Git manages object lifecycle using hashes
+
+## Related in this track
+
+- [Git Directory Structure](/git/06-internals/01-git-directory-structure/)
+- [Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/)

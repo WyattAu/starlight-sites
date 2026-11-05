@@ -346,3 +346,9 @@ practical implementation, and key applications.
 - **[I/O](/standard-library/io/):** File and stream operations that work with string data.
 - **[Net/HTTP](/standard-library/net-http/):** HTTP client and server that use string and time utilities.
 - **Basics:** Fundamental Go concepts including string and time types.
+
+## Related in this track
+
+- [Standard Library I/O](/standard-library/io/)
+- [math, sort, and log/slog](/standard-library/math-sort-log/)
+- [net/http](/standard-library/net-http/)

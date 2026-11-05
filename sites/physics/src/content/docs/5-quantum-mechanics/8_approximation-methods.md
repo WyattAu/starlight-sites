@@ -416,3 +416,10 @@ Analysis](https://mathematics.wyattau.com/3-real-analysis/3_series/) and
 - **Forgetting that the variational method gives an upper bound, not the exact energy:** The variational principle states $E_0 \leq \langle \psi | H | \psi \rangle$ for any trial state. A lower trial energy is always better, but you never know how close you are to the true ground state energy.
 - **Neglecting degenerate perturbation theory when eigenvalues are degenerate:** Non-degenerate perturbation theory gives infinite corrections when two unperturbed states have the same energy. You must diagonalise the perturbation matrix in the degenerate subspace first.
 - **Applying WKB near classical turning points:** The WKB approximation breaks down where $p(x) = 0$ (turning points) because the semiclassical wavefunction diverges. Use connection formulas to match WKB solutions across turning points.
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+- [Identical Particles and Exchange Symmetry](/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)

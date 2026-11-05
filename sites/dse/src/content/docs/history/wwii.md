@@ -102,3 +102,9 @@ The Pacific War was a collision between an industrialising Japan seeking resourc
 
 **Underestimating the significance of the Battle of Hong Kong:** It was one of the earliest Allied defeats, showing that Britain could not defend its Asian colonies. This influenced post-war decolonisation.
 
+## Related in this track
+
+- [DSE History](/history/intro/)
+- [Decolonisation and the Path to 1997](/history/decolonisation/)
+- [European Imperialism in Asia](/history/imperialism/)
+- [Hong Kong Since 1945](/history/modern-hk/)

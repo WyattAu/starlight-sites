@@ -358,3 +358,8 @@ Functions are like machines in a factory. You put raw materials in (input), the 
 **Confusing the sum and product of roots.** Vieta's formulas state x1 + x2 = -b/a and x1 * x2 = c/a. Students often forget the negative sign in the sum formula or swap the two formulas. The sum is -b/a (note the negative), while the product is c/a (no negative sign).
 
 **Forgetting to verify the endpoint in set operations.** When solving inequalities involving sets, always check whether endpoints should be included (closed interval) or excluded (open interval). Forgetting to test boundary values can lead to incorrect answers, especially when the inequality is non-strict (<= or >=).
+
+## Related in this track
+
+- [Functions](/mathematics/functions/)
+- [Geometry](/mathematics/geometry/)

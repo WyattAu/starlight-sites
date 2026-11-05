@@ -368,3 +368,10 @@ Coroutines are Kotlin's answer to asynchronous programming without the complexit
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- suspend functions and higher-order functions
 - [Classes and Objects](/basics/classes-and-objects/) -- sealed classes for flow state
 - [Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/) -- testing coroutines with runTest
+
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Generics](/intermediate/generics/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)
+- [delegation and result](/intermediate/delegation-and-result/)

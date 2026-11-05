@@ -1013,3 +1013,8 @@ Ownership is Rust's single most important concept. Imagine every value is a libr
 
 - [Interior Mutability](/02-ownership-borrowing/interior-mutability/)
 - [Lifetimes](/02-ownership-borrowing/lifetimes/)
+
+## Related in this track
+
+- [Interior Mutability](/02-ownership-borrowing/interior-mutability/)
+- [Lifetimes](/02-ownership-borrowing/lifetimes/)

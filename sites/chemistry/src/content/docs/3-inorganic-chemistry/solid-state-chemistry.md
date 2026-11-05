@@ -536,3 +536,9 @@ Solid-state chemistry explores how atoms pack together in crystalline materials 
 
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
+
+## Related in this track
+
+- [Atomic Structure and Periodicity](/3-inorganic-chemistry/atomic-structure-and-periodicity/)
+- [Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/)
+- [Main-Group Chemistry](/3-inorganic-chemistry/main-group-chemistry/)

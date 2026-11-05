@@ -290,3 +290,10 @@ linked above.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) provides the push and fetch mechanics that underpin pull request creation and merging.
 - [Workflows](/git/04-remotes-and-workflows/02-workflows/) defines the team conventions within which pull requests operate as the review mechanism.
 - [Merging](/git/03-branching-and-merging/02-merging/) covers the merge strategies used when integrating pull request branches.
+
+## Related in this track
+
+- [Branching Strategies](/git/04-remotes-and-workflows/02-workflows/)
+- [GitHub Actions CI/CD Patterns](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/)
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/)
+- [Transfer Protocols and Authentication](/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)

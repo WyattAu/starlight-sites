@@ -254,3 +254,10 @@ If you answered "no" to any of these questions, revise your response to address 
 - [English](./)
 - [Paper 1 Unseen Practice](/english/paper-1-unseen-practice/)
 - [Poetry Terms Flashcards](/english/flashcards-poetry/)
+
+## Related in this track
+
+- [A Streetcar Named Desire](/english/a-street-car-named-desire/)
+- [A Streetcar Named Desire, Close Reading and Analysis](/english/streetcar-named-desire-analysis/)
+- [Chronicle of a Death Foretold](/english/chronicle-of-a-death-foretold/)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)

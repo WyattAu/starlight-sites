@@ -202,3 +202,10 @@ perspectives.
 ## Intuition
 
 Our minds are prediction machines, constantly building models of the world to guide behaviour. Psychology studies how these mental models form, how they influence perception, and why they sometimes lead us astray. From memory biases to social stereotypes, understanding mental shortcuts explains both their efficiency and their limitations. This knowledge is essential for critical thinking and personal development.
+
+## Related in this track
+
+- [Abnormal Psychology](/psychology/abnormal-psychology/)
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biological Level of Analysis](/psychology/biological-level-of-analysis/)
+- [Cognitive Level of Analysis](/psychology/cognitive-level-of-analysis/)

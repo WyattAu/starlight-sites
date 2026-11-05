@@ -1090,3 +1090,8 @@ underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 :::
+
+## Related in this track
+
+- [Electrochemistry](/chemistry/9-redox/3_electrochemistry/)
+- [Redox Reactions](/chemistry/9-redox/1_redox-reactions/)

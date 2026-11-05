@@ -192,3 +192,10 @@ location.
 - **[Climate Change](/geography/climate-change/):** Climate change affects all geography
 - **[Population](/geography/population-distribution/):** Population distribution is studied
 - **[Economic Development](/geography/economic-development/):** Development is a core topic
+
+## Related in this track
+
+- [Economic Development](/geography/economic-development/)
+- [Freshwater Issues](/geography/freshwater-issues/)
+- [Geographic Skills](/geography/geographic-skills/)
+- [IB Geography](/geography/geography/)

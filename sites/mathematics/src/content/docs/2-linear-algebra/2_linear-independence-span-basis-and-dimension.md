@@ -469,3 +469,10 @@ Theory](/15-graduate-representation-theory/1_representation-theory-of-finite-gro
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Matrices](/2-linear-algebra/3_matrices/)
+- [Problem Set](/2-linear-algebra/9_problem-set/)

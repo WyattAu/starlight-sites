@@ -211,3 +211,10 @@ of 5 m/s.
 
 - **[Energy](/physics/diagnostics/diag-energy/):** Energy transfers and conservation.
 - **[Electricity](/physics/diagnostics/diag-electricity/):** Electric circuits and currents.
+
+## Related in this track
+
+- [Electricity -- Diagnostic Tests](/physics/diagnostics/diag-electricity/)
+- [Energy -- Diagnostic Tests](/physics/diagnostics/diag-energy/)
+- [GCSE Physics -- Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
+- [Magnetism and Electromagnetism -- Diagnostic Tests](/physics/diagnostics/diag-magnetism/)

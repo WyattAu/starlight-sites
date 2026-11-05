@@ -910,3 +910,10 @@ When working with value taxonomy, follow these steps:
 3. Implement the solution step by step
 4. Test with edge cases and verify correctness
 :::
+
+## Related in this track
+
+- [Move Constructors, Assignment, Swap Idiom](/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Return Value Optimization (RVO) and NRVO](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)

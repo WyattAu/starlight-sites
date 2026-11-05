@@ -384,3 +384,10 @@ and loses near the tails; no rule dominates, which is the non-comparability of
 - **[Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)**; the posterior mean as Bayes rule, computed when it cannot be integrated.
 - **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)**; where Bayes and classical answers meet, and where they stop.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; the same risk, but with $\theta$ replaced by a function.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)

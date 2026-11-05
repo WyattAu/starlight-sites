@@ -640,3 +640,8 @@ The relationship between `char`, `char8_t` and the execution encoding is subtle 
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+
+## Related in this track
+
+- [Stream Buffers and Locale Facets](/standard_library/3_input_output_formatting/1_stream_buffers/)
+- [Type-Safe Formatting (std::format, std::print)](/standard_library/3_input_output_formatting/2_type_safe_formatting/)

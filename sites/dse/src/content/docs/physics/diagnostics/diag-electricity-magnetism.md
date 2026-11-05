@@ -452,3 +452,10 @@ within a few time constants.
 - **[Mechanics](/physics/diagnostics/diag-mechanics/):** Mechanics covers forces and motion
 - **[Waves](/physics/diagnostics/diag-waves-sound/):** Waves transfer energy
 - **[Electricity](/physics/diagnostics/diag-electrical-circuits/):** Electricity covers circuits
+
+## Related in this track
+
+- [DSE Physics Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
+- [Electrical Circuits -- Diagnostic Tests](/physics/diagnostics/diag-electrical-circuits/)
+- [Energy and Work -- Diagnostic Tests](/physics/diagnostics/diag-energy-work/)
+- [Forces and Motion -- Diagnostic Tests](/physics/diagnostics/diag-forces-motion/)

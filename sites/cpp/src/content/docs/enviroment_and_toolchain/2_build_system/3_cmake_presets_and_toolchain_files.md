@@ -669,3 +669,8 @@ This overrides the toolchain for local development without modifying the shared 
 - [2_build_system](./)
 - [CMake Targets Properties and Generator Expressions](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/)
 - [Ninja Build System and Parrallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
+
+## Related in this track
+
+- [CMake Targets Properties and Generator Expressions](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/)
+- [Ninja Build System and Parrallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)

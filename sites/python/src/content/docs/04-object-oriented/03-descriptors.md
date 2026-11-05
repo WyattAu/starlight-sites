@@ -946,3 +946,8 @@ Descriptors are objects that define `__get__`, `__set__`, or `__delete__` method
 
 - [Classes and Inheritance](/04-object-oriented/01-classes/)
 - [Metaclasses and Class Creation](/04-object-oriented/02-metaclasses/)
+
+## Related in this track
+
+- [Classes and Inheritance](/04-object-oriented/01-classes/)
+- [Metaclasses and Class Creation](/04-object-oriented/02-metaclasses/)

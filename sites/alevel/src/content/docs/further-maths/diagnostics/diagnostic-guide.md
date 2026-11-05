@@ -170,3 +170,10 @@ Maclaurin Series
 - [Diagnostics](./)
 - [Complex Numbers -- Diagnostic Tests](/further-maths/diagnostics/diag-complex-numbers/)
 - [Differential Equations -- Diagnostic Tests](/further-maths/diagnostics/diag-differential-equations/)
+
+## Related in this track
+
+- [Complex Numbers -- Diagnostic Tests](/further-maths/diagnostics/diag-complex-numbers/)
+- [Differential Equations -- Diagnostic Tests](/further-maths/diagnostics/diag-differential-equations/)
+- [Further Algebra -- Diagnostic Tests](/further-maths/diagnostics/diag-further-algebra/)
+- [Further Calculus -- Diagnostic Tests](/further-maths/diagnostics/diag-further-calculus/)

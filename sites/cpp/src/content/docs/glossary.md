@@ -557,3 +557,9 @@ assert(x > 0 && "x must be positive");
 - See [Java Glossary](https://typescript.wyattau.com/glossary/) for Java-specific OOP concepts
 - See [Rust Glossary](https://typescript.wyattau.com/glossary/) for memory safety concepts
 - See [Python Glossary](https://typescript.wyattau.com/glossary/) for dynamic typing concepts
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Reading the C++ in These Courses](/before-you-begin/)
+- [Complete C++ Programming Study Guide](/hub/)

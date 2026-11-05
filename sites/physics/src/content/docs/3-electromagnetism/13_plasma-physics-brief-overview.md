@@ -177,3 +177,9 @@ $\blacksquare$
 - [Radiation from Accelerating Charges](/3-electromagnetism/10_radiation-from-accelerating-charges/)
 - [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
 
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)

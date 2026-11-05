@@ -312,3 +312,10 @@ cat(sprintf("permutation p = %.4f   t-test p = %.4f\n", p_perm, p_t))
 - **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)**; the MLE whose likelihood ratio Wilks' theorem asymptotics.
 - **[Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)**; the posterior, which answers the question the $p$-value cannot.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; generalisation bounds as multiple-testing corrections.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)

@@ -348,3 +348,8 @@ implementation, and key applications.
 - **[Interfaces](/go/intermediate/interfaces/):** Type constraints in generics build on interface satisfaction.
 - **[Error Handling](/go/intermediate/error-handling/):** Generic error handling patterns with type parameters.
 - **[Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/):** Generic collection operations replacing type-specific implementations.
+
+## Related in this track
+
+- [Error Handling](/go/intermediate/error-handling/)
+- [Interfaces](/go/intermediate/interfaces/)

@@ -5516,6 +5516,11 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Elixir Programming Study Guide](/hub/)
+- [Elixir Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Flashcards Elixir Basics
@@ -5762,6 +5767,11 @@ data |> fetch() |> parse() |> save()
 - See [Haskell Glossary](/glossary/) for functional programming comparison
 - See [Programming Glossary](/glossary/) for general programming concepts
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Elixir Programming Study Guide](/hub/)
 
 ---
 
@@ -6020,6 +6030,11 @@ Use Mix releases for deployment. `mix release` builds a self-contained release w
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Elixir Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 

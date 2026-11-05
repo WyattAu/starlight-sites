@@ -1077,3 +1077,8 @@ Control flow in Java is deliberately strict to prevent bugs. The if statement re
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- primitive and reference types
 - [Strings and Text Processing](/02-fundamentals/03-strings/) -- string manipulation
 - [Records, Sealed Classes, and Pattern Matching](/08-modern-java/01-records-sealed-patterns/) -- modern switch patterns
+
+## Related in this track
+
+- [Strings and Text Processing](/02-fundamentals/03-strings/)
+- [Types and Variables](/02-fundamentals/01-types-and-variables/)

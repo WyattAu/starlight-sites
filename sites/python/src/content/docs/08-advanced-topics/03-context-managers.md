@@ -911,3 +911,9 @@ Context managers are Python's way of ensuring cleanup happens. The `with` statem
 - [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)
 - [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/)
 - [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/)
+
+## Related in this track
+
+- [Advanced Type System](/08-advanced-topics/01-advanced-typing/)
+- [Data Validation](/08-advanced-topics/02-data-validation/)
+- [Protocols and Dunder Methods](/08-advanced-topics/04-protocols-dunder-methods/)

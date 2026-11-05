@@ -1421,3 +1421,8 @@ linked above.
 - [Human Physiology](./)
 - [Human Physiology](/biology/4-human-physiology/1_human-physiology/)
 - [Human Reproduction and Homeostasis](/biology/4-human-physiology/2_human-reproduction-and-homeostasis/)
+
+## Related in this track
+
+- [Human Physiology](/biology/4-human-physiology/1_human-physiology/)
+- [Human Reproduction and Homeostasis](/biology/4-human-physiology/2_human-reproduction-and-homeostasis/)

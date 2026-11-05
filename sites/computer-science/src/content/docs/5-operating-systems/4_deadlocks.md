@@ -251,3 +251,10 @@ is Overly restrictive.
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [File Systems](/5-operating-systems/6_file-systems/)
+- [I/O Systems](/5-operating-systems/7_i-o-systems/)
+- [Introduction to Operating Systems](/5-operating-systems/1_introduction-to-operating-systems/)
+- [Memory Management](/5-operating-systems/5_memory-management/)

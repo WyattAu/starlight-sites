@@ -452,3 +452,10 @@ The action-reaction pair in Newton's third law always acts on different objects.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)

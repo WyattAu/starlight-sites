@@ -651,3 +651,9 @@ std::optional and std::variant, including key theorems, methods, and problem-sol
 
 ## Worked Examples
 
+## Related in this track
+
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [Monadic Error Handling, std::expected](/function_architecture/2_error_handling/5_expected/)
+- [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)

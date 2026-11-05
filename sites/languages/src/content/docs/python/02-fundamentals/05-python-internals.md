@@ -892,3 +892,10 @@ Signal processing), an unexpected GC pause can cause deadline misses. Profile yo
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/), List growth strategy, dict hash tables, and set internals are concrete applications of the memory model described here.
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/), Bytecode instructions for loops, conditionals, and exception handling are generated from the syntax constructs in control flow.
 - [Dicts, Sets, and Collections Deep Dive](/python/03-data-structures/02-dicts-sets-counter/), Compact dict design, hash randomisation, and the **slots** mechanism are implementation details of the object model.
+
+## Related in this track
+
+- [Control Flow](/python/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages/)

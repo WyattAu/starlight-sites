@@ -356,3 +356,9 @@ Functions in Kotlin are like recipes -- they take ingredients (parameters), foll
 - [Basics](./)
 - [Classes and Objects](/kotlin/basics/classes-and-objects/)
 - [Control Flow](/kotlin/basics/control-flow/)
+
+## Related in this track
+
+- [Classes and Objects](/kotlin/basics/classes-and-objects/)
+- [Control Flow](/kotlin/basics/control-flow/)
+- [Types and Variables](/kotlin/basics/types-and-variables/)

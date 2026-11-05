@@ -462,3 +462,10 @@ No. RGB lighting has no measurable impact on performance. It does, however, add 
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Hardware Tuning Glossary, Key Terms](/glossary/)
+- [Introduction to Hardware Tuning](/intro/)
+- [PSU Selection and BIOS Configuration](/psu-and-bios-guide/)

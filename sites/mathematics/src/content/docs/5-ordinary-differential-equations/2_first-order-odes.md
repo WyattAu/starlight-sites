@@ -394,3 +394,10 @@ $K$. The inflection point occurs at $P = K/2$, where the growth rate is maximal.
 - **[Stability and Phase Plane Analysis](/5-ordinary-differential-equations/9_stability-and-phase-plane-analysis/)**: Equilibria and their stability for first-order autonomous ODEs form the foundation for phase plane analysis.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
+- [Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)

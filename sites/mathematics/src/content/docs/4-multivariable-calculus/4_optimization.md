@@ -288,3 +288,10 @@ Optimization asks: what is the best I can do under constraints? In unconstrained
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Curves and Surfaces](/4-multivariable-calculus/5_curves-and-surfaces/)
+- [Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)
+- [Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)
+- [Problem Set](/4-multivariable-calculus/6_problem-set/)

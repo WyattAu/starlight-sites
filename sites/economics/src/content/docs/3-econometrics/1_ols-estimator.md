@@ -154,3 +154,10 @@ hypotheses fail.
    $(X'X)^{-1}X'E[u\mid X]$ does not vanish with $n$.)
 4. State the role of $M$'s idempotence in Proposition 6.2. (Trace of an idempotent equals its
    rank.)
+
+## Related in this track
+
+- [Consistency and the Failure Modes](/3-econometrics/3_consistency-and-failure-modes/)
+- [Inference: Standard Errors, t-Tests, and Robust Variance](/3-econometrics/5_inference/)
+- [Instrumental Variables and 2SLS](/3-econometrics/4_instrumental-variables/)
+- [The Gauss--Markov Theorem](/3-econometrics/2_gauss-markov/)

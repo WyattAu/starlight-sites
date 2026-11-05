@@ -594,3 +594,9 @@ survive.
 - [Human Geography](./)
 - [Changing Places](/geography/2-human-geography/1_changing-places/)
 - [Global Systems and Governance](/geography/2-human-geography/2_global-systems/)
+
+## Related in this track
+
+- [Changing Places](/geography/2-human-geography/1_changing-places/)
+- [Contemporary Urban Environments](/geography/2-human-geography/3_contemporary-urban-environments/)
+- [Global Systems and Governance](/geography/2-human-geography/2_global-systems/)

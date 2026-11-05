@@ -906,3 +906,8 @@ The Harrod-Domar model captures this directly: growth equals savings divided by 
 4. **Assuming the resource curse is inevitable.** Natural resource wealth can be managed well (e.g., Norway's sovereign wealth fund) or poorly (e.g., Nigeria's oil wealth). The curse depends on institutions, governance, and policy, it is not a deterministic outcome. Avoiding it requires deliberate institutional design, not resource depletion.
 
 5. **Ignoring the role of human capital in growth models.** Both Harrod-Domar and Lewis models focus on physical capital and labour but neglect human capital (education, skills, health). In modern economies, human capital is a primary driver of productivity growth. Omitting it leads to incomplete policy recommendations that focus only on savings and investment.
+
+## Related in this track
+
+- [Measuring Development](/economics/4-development-economics/1-measuring-development/)
+- [Trade and Aid](/economics/4-development-economics/3-trade-and-aid/)

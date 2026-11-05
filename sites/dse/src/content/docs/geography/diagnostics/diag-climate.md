@@ -119,3 +119,8 @@ Answer each question. Check your answers against the key at the end.
 - **[Population](/geography/population/):** Population dynamics are studied
 - **[Urbanization](/geography/urbanization/):** Urbanisation is a major topic
 - **[Agriculture](/geography/agriculture/):** Agriculture is linked to population
+
+## Related in this track
+
+- [Diagnostic Test: Urbanization](/geography/diagnostics/diag-urbanization/)
+- [Population -- Diagnostic Tests](/geography/diagnostics/diag-population/)

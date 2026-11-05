@@ -299,3 +299,10 @@ Use a virtual environment for each project. Tools like `poetry`, `uv`or `pip-too
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Introduction to Python](/intro/)
+- [Python Glossary, Key Terms and Definitions](/glossary/)

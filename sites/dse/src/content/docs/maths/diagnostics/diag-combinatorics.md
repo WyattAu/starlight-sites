@@ -762,3 +762,10 @@ given. If we assume $n \geq 3$ (needed for $x^3$ term to exist), all four are va
 - **[Functions](/maths/diagnostics/diag-functions/):** Functions are central
 - **[Quadratics](/maths/diagnostics/diag-quadratics/):** Quadratics are a core topic
 - **[Trigonometry](/maths/diagnostics/diag-trigonometry/):** Trigonometry is fundamental
+
+## Related in this track
+
+- [Coordinate Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinate-geometry/)
+- [DSE Mathematics Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Dispersion -- Diagnostic Tests](/maths/diagnostics/diag-dispersion/)
+- [Functions -- Diagnostic Tests](/maths/diagnostics/diag-functions/)

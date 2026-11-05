@@ -1012,3 +1012,9 @@ practical implementation, and key applications.
 - **[Python Practice](/python/practice-python-basics/):** Auto-graded problems testing packaging and module patterns.
 - **[Python Interactive Practice](/python/practice-interactive/):** Advanced practice problems including async and functional patterns.
 :::
+
+## Related in this track
+
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)

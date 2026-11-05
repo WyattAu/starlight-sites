@@ -442,3 +442,10 @@ review, and test-day simulation builds the stamina and strategy needed for peak 
 | SAT Reading Strategies | [View](https://gaokao.wyattau.com/chinese/reading/) |
 
 </div>
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete SAT Study Guide, Math, Reading, Writing](/hub/)
+- [Introduction to SAT Notes](/intro/)
+- [Mathematics](/mathematics/)

@@ -770,3 +770,8 @@ Ninja is a small, fast build system that CMake can generate for. It excels at in
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
 - [Operating Systems](https://computer-science.wyattau.com/operating-systems/)
+
+## Related in this track
+
+- [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
+- [CMake Targets Properties and Generator Expressions](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/)

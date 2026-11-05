@@ -631,3 +631,10 @@ functional insulin.
 - [Diagnostics](./)
 - [Biological Molecules -- Diagnostic Tests](/biology/diagnostics/diag-biological-molecules/)
 - [Cells -- Diagnostic Tests](/biology/diagnostics/diag-cells/)
+
+## Related in this track
+
+- [A-Level Biology -- Diagnostic Test Guide](/biology/diagnostics/diagnostic-guide/)
+- [Biodiversity, Classification and Evolution -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-classification-evolution/)
+- [Biological Molecules -- Diagnostic Tests](/biology/diagnostics/diag-biological-molecules/)
+- [Cells -- Diagnostic Tests](/biology/diagnostics/diag-cells/)

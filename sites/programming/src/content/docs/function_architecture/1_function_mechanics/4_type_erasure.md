@@ -758,3 +758,10 @@ and past paper questions, is essential for success in examinations.
 - **[Templates](/templates_and_metaprogramming/):** Generic programming and metaprogramming.
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+
+## Related in this track
+
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Lambda Expressions, Capture Layouts and Closure Types](/function_architecture/1_function_mechanics/3_lambdas/)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)

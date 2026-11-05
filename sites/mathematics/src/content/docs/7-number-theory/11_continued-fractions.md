@@ -124,3 +124,10 @@ For periodic expansions, quote the structure: $\sqrt{D}$ has partial quotients g
 recurrence on $m_k, d_k, a_k$, the period begins at $a_1$, and the last term of the period is
 always $2a_0$. Citing these facts precisely earns the method marks even when the arithmetic is
 long.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)

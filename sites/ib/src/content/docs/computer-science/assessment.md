@@ -425,3 +425,8 @@ Use this checklist to track your preparation:
 - [IB Computer Science](./)
 - [Computer Science](/computer-science/computer-science/)
 - [IB CS Flashcards: Algorithms and Data Structures](/computer-science/flashcards-algorithms-data-structures/)
+
+## Related in this track
+
+- [Computer Science](/computer-science/computer-science/)
+- [Syllabus](/computer-science/syllabus/)

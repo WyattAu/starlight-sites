@@ -885,3 +885,9 @@ Dunder methods are the hooks where Python's built-in operations call your custom
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Demonstrates how to use dunder methods like **init** and **post_init** for data validation in dataclasses.
 - [Context Managers](/python/08-advanced-topics/03-context-managers/): Explores the **enter** and **exit** dunder methods that define the context manager protocol.
 - [Object-Oriented Programming](https://alevel.wyattau.com/computer-science/programming/02-object-oriented-programming/): Builds on these dunder methods to create more expressive and Pythonic classes.
+
+## Related in this track
+
+- [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/)
+- [Context Managers and the with Statement](/python/08-advanced-topics/03-context-managers/)
+- [Data Validation](/python/08-advanced-topics/02-data-validation/)

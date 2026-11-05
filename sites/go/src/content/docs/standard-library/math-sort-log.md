@@ -460,3 +460,9 @@ theory, practical implementation, and key applications.
 - [Standard Library](./)
 - [Standard Library I/O](/standard-library/io/)
 - [net/http](/standard-library/net-http/)
+
+## Related in this track
+
+- [Standard Library I/O](/standard-library/io/)
+- [net/http](/standard-library/net-http/)
+- [strings and time](/standard-library/strings-and-time/)

@@ -979,3 +979,10 @@ need to reference an object without owning it. The pattern is always the same: c
 if the resulting `shared_ptr` is valid, and then use the object within that scope. If the object
 was destroyed between your check and your use, the `shared_ptr` will be null, fail gracefully
 rather than dereferencing a dangling pointer.
+
+## Related in this track
+
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)

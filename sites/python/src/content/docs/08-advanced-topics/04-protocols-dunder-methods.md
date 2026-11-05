@@ -906,3 +906,9 @@ Protocols are Python's structural subtyping system: if an object has the right m
 - [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
 - [Descriptors](https://languages.wyattau.com/python/04-object-oriented/03-descriptors/)
 - [Advanced Typing](https://languages.wyattau.com/python/08-advanced-topics/01-advanced-typing/)
+
+## Related in this track
+
+- [Advanced Type System](/08-advanced-topics/01-advanced-typing/)
+- [Context Managers and the with Statement](/08-advanced-topics/03-context-managers/)
+- [Data Validation](/08-advanced-topics/02-data-validation/)

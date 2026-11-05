@@ -255,3 +255,10 @@ Feynman diagrams are like sheet music for particle interactions. Each note repre
 **Forgetting fermion flow direction:** Fermion lines have arrows indicating particle vs antiparticle flow. Reversing the arrow changes the particle to its antiparticle, altering the amplitude.
 
 **Neglecting the symmetry factor:** Identical particles in final states require a 1/n! symmetry factor. Forgetting it overcounts identical configurations and gives wrong decay rates.
+
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)

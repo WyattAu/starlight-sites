@@ -237,3 +237,10 @@ inducing values; an assumption the data can then confirm or refute.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; kernels, on the learning-theory side, as capacity control.
 - **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)**; the inducing-point sparse GP as a variational objective.
 - **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)**; marginal-likelihood maximisation as hyperparameter estimation.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+- [Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)

@@ -272,3 +272,7 @@ Population policies are instruments played on a timescale longer than political 
 
 ## Worked Examples
 
+## Related in this track
+
+- [Demographic Transition Model](/geography/population/demographic-transition-model/)
+- [Migration Theories and Patterns](/geography/population/migration-theories-and-patterns/)

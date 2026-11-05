@@ -828,3 +828,10 @@ Parallel algorithms split work across multiple threads the way a restaurant dist
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Projections and Callable Objects](/standard_library/2_algorithms_and_ranges/3_projections/)
+- [Range Adaptors, Views, and Composition](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+- [Range Materialization (std::ranges::to)](/standard_library/2_algorithms_and_ranges/4_range_materialization/)

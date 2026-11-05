@@ -215,3 +215,10 @@ weak acid and HCl is a strong acid.
 - [Diagnostics](./)
 - [Measurement and Data Processing -- Diagnostic Tests](/chemistry/diagnostics/diag-measurement/)
 - [Redox Reactions -- Diagnostic Tests](/chemistry/diagnostics/diag-redox/)
+
+## Related in this track
+
+- [Acids and Bases -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Atomic Structure and Atomic Theory -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
+- [Chemical Bonding -- Diagnostic Tests](/chemistry/diagnostics/diag-chemical-bonding/)
+- [IB Chemistry -- Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)

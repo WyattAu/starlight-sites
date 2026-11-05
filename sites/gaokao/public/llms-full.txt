@@ -107,6 +107,12 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Gaokao Study Guide, Math, Physics, Chemistry](/hub/)
+- [Gaokao Glossary, Key Terms and Definitions](/glossary/)
+- [Introduction to Gaokao Notes](/intro/)
+
 ---
 
 ## Flashcards Mathematics
@@ -354,6 +360,12 @@ URL: https://gaokao.wyattau.com/glossary/
 - See [University Chemistry Glossary](/glossary/) for deeper chemistry
 - See [University Admissions Glossary](/glossary/) for international university applications
 - See [SAT Glossary](/glossary/) for comparison with US admissions testing
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Gaokao Study Guide, Math, Physics, Chemistry](/hub/)
+- [Introduction to Gaokao Notes](/intro/)
 
 ---
 
@@ -698,6 +710,12 @@ Score thresholds vary by province, year, and university. Generally, 985 universi
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Gaokao Glossary, Key Terms and Definitions](/glossary/)
+- [Introduction to Gaokao Notes](/intro/)
 
 ---
 
@@ -1044,6 +1062,12 @@ Strategy is like a game plan in sports. You would not enter a basketball game wi
 - [Algebra](https://sat.wyattau.com/mathematics/algebra/) - Core algebraic concepts including sets, logic, and inequalities tested in gaokao
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) - Fundamental function types and transformations that underpin many exam problems
 - [Inorganic Chemistry](https://hsc.wyattau.com/chemistry/inorganic/) - Essential inorganic chemistry topics including equilibrium and electrochemistry
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Gaokao Study Guide, Math, Physics, Chemistry](/hub/)
+- [Gaokao Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -4303,6 +4327,11 @@ Functions are like machines in a factory. You put raw materials in (input), the 
 
 **Forgetting to verify the endpoint in set operations.** When solving inequalities involving sets, always check whether endpoints should be included (closed interval) or excluded (open interval). Forgetting to test boundary values can lead to incorrect answers, especially when the inequality is non-strict (<= or >=).
 
+## Related in this track
+
+- [Functions](/mathematics/functions/)
+- [Geometry](/mathematics/geometry/)
+
 ---
 
 ## Functions
@@ -4660,6 +4689,11 @@ The graph of a function is like a footprint. It shows you where the function has
 **Misapplying the composite function monotonicity rule.** The rule is "same direction = increasing, opposite direction = decreasing" for composite functions. If both inner and outer functions are increasing, the composite is increasing. If one increases and the other decreases, the composite is decreasing. Students often reverse this rule.
 
 **Forgetting to check the base of logarithms when comparing sizes.** When comparing log values, the base determines whether the function is increasing (base > 1) or decreasing (0 < base < 1). If the base is less than 1, larger arguments give smaller logarithm values, which reverses the inequality direction.
+
+## Related in this track
+
+- [Algebra](/mathematics/algebra/)
+- [Geometry](/mathematics/geometry/)
 
 ---
 
@@ -5031,6 +5065,11 @@ Coordinate geometry is like GPS navigation. The coordinate plane is your map, an
 **Forgetting that similarity requires corresponding angles to be equal and sides to be proportional.** Two triangles are similar if their angles match and their sides are in the same ratio. Students sometimes check only angles or only sides, missing that both conditions must hold.
 
 **Misapplying the area formula for triangles.** The area is (1/2) *base* height, where height is the perpendicular distance from the base to the opposite vertex. Students often use a side length as the height, which is incorrect unless the triangle is right-angled.
+
+## Related in this track
+
+- [Algebra](/mathematics/algebra/)
+- [Functions](/mathematics/functions/)
 
 ---
 
@@ -5476,6 +5515,11 @@ Circuits are like road networks. Series circuits are single-lane roads where tra
 - [Mechanics](https://hsc.wyattau.com/physics/mechanics/) - Force and energy principles that govern electromagnetic systems through work-energy relationships
 - [Optics](/physics/optics/) - Wave properties of electromagnetic radiation connecting to electric field theory
 - [Algebra](https://sat.wyattau.com/mathematics/algebra/) - Mathematical techniques for solving circuit equations and calculating equivalent resistance
+
+## Related in this track
+
+- [Mechanics](/physics/mechanics/)
+- [Optics | Gaokao - Wyatt's Notes](/physics/optics/)
 
 ---
 
@@ -5931,6 +5975,11 @@ Motion is like a story with chapters. Velocity tells you how fast the story is m
 - [Optics](/physics/optics/) - Wave optics and geometric optics that apply mechanical principles to light propagation
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) - Mathematical functions used to model motion, energy, and force relationships
 
+## Related in this track
+
+- [Electricity](/physics/electricity/)
+- [Optics | Gaokao - Wyatt's Notes](/physics/optics/)
+
 ---
 
 ## Optics
@@ -6356,3 +6405,8 @@ Refraction is like light changing lanes on a highway. When light moves from air 
 - [Mechanics](https://hsc.wyattau.com/physics/mechanics/) - Wave mechanics and oscillatory motion underlying the wave theory of light
 - [Electricity](/physics/electricity/) - Electromagnetic theory connecting electric and magnetic fields to light propagation
 - [Algebra](https://sat.wyattau.com/mathematics/algebra/) - Algebraic manipulation of lens and mirror formulas for image calculations
+
+## Related in this track
+
+- [Electricity](/physics/electricity/)
+- [Mechanics](/physics/mechanics/)

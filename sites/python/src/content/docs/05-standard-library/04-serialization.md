@@ -989,3 +989,10 @@ Serialization is converting objects to bytes or strings for storage or transmiss
 - [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
 - [Data Validation](https://languages.wyattau.com/python/08-advanced-topics/02-data-validation/)
 - [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)
+
+## Related in this track
+
+- [CLI Tools](/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/05-standard-library/01-essential-modules/)
+- [File I/O](/05-standard-library/02-file-io/)

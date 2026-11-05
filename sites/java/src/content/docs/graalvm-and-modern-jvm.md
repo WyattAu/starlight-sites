@@ -1545,3 +1545,10 @@ linked above.
 - **[Java Basics](/flashcards-java-basics/):** Fundamental Java concepts including types and control flow.
 - **[Concurrency](/06-concurrency/01-concurrency/):** Multithreading and concurrent programming.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Java Programming Study Guide](/hub/)
+- [Introduction to Java](/intro/)
+- [Java Glossary, Key Terms and Definitions](/glossary/)

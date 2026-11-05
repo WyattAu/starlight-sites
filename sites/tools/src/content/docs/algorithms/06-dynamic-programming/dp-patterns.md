@@ -880,3 +880,8 @@ The fundamental idea behind all DP patterns is the same: break a problem into ov
 The hardest part of DP is in most cases defining the right state, what information do you need to capture at each subproblem? A good rule of thumb is: the state should contain everything that affects future decisions but nothing redundant. For interval DP, the state is `(left, right)` because the optimal solution for a range depends only on that range. For tree DP, you process children before parents (post-order) because a node's optimal value depends on its subtree. For bitmask DP, the bitmask itself is the state, it tells you exactly which elements have been used.
 
 Once you have the right state, the transition is in most cases straightforward: try all possible "last moves" and take the best one. The key to efficiency is recognizing when you can reduce the state space: rolling arrays when you only need the previous row, coordinate compression when values are large but few, and sparse representations when most states are unreachable. And always, always check your base cases by hand before coding, a missing or wrong base case is the most common DP bug.
+
+## Related in this track
+
+- [Dynamic Programming](/algorithms/06-dynamic-programming/dynamic-programming/)
+- [Greedy Algorithms](/algorithms/06-dynamic-programming/greedy-algorithms/)

@@ -386,3 +386,10 @@ Logic is the foundation of mathematical reasoning and computer science. Proposit
 - [Discrete Mathematics](./)
 - [Sets, Relations, and Functions](/1-discrete-mathematics/2_sets-relations-and-functions/)
 - [Proof Techniques](/1-discrete-mathematics/3_proof-techniques/)
+
+## Related in this track
+
+- [Combinatorics](/1-discrete-mathematics/4_combinatorics/)
+- [Graph Theory](/1-discrete-mathematics/5_graph-theory/)
+- [Problem Set](/1-discrete-mathematics/7_problem-set/)
+- [Proof Techniques](/1-discrete-mathematics/3_proof-techniques/)

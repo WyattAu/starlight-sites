@@ -1010,3 +1010,10 @@ building a personal test matrix.
 - [Correlation and Regression](/maths/statistics/02-correlation-and-regression/), Conditional probability underpins the interpretation of regression and correlation analysis.
 - [Statistical Distributions](/maths/statistics/04-statistical-distributions/), The binomial and Poisson distributions extend probability theory to counting and rare events.
 - [Hypothesis Testing](/maths/statistics/05-hypothesis-testing/), Probability theory provides the p-values and significance levels used in hypothesis testing.
+
+## Related in this track
+
+- [Correlation and Regression](/maths/statistics/02-correlation-and-regression/)
+- [Correlation and Regression (Extended)](/maths/statistics/correlation-and-regression-depth/)
+- [Data Representation](/maths/statistics/01-data-representation/)
+- [Hypothesis Testing](/maths/statistics/05-hypothesis-testing/)

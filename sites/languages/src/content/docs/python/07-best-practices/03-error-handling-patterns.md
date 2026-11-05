@@ -892,3 +892,9 @@ linked above.
 - [Best Practices](./)
 - [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
 - [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
+
+## Related in this track
+
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
+- [Packaging and Distribution](/python/07-best-practices/04-packaging-distribution/)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)

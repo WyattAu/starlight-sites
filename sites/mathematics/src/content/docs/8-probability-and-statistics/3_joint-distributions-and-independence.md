@@ -312,3 +312,10 @@ Joint distributions describe how two or more random variables vary together. Ind
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/)

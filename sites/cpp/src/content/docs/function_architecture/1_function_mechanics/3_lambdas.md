@@ -712,3 +712,10 @@ and past paper questions, is essential for success in examinations.
 - **[Type Erasure](/function_architecture/1_function_mechanics/4_type_erasure/):** Technique that often uses lambdas to store callable objects.
 - **[Error Handling](/function_architecture/2_error_handling/):** Exception handling patterns used within lambda bodies.
 - **Object-Oriented Programming:** OOP concepts that lambdas complement as lightweight function objects.
+
+## Related in this track
+
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)
+- [Type Erasure, Function Pointers, std::function, std::move_only_function](/function_architecture/1_function_mechanics/4_type_erasure/)

@@ -119,3 +119,8 @@ Answer each question. Check your answers against the key at the end.
 - **[Cold War](/history/diagnostics/diag-cold-war/):** Cold War history is studied
 - **[Modern China](/history/diagnostics/diag-modern-china/):** Modern China is a key topic
 - **[WWII](/history/diagnostics/diag-wwii/):** WWII is a major topic
+
+## Related in this track
+
+- [Diagnostic Test: World War II](/history/diagnostics/diag-wwii/)
+- [Modern China -- Diagnostic Tests](/history/diagnostics/diag-modern-china/)

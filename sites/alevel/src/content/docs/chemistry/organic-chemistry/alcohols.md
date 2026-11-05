@@ -961,3 +961,10 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 - **[Alkanes](/chemistry/organic-chemistry/alkanes/):** Alcohols can be synthesised from alkanes via substitution
 - **[Alkenes](/chemistry/organic-chemistry/alkenes/):** Alcohols undergo dehydration to form alkenes
 - **[Organic Introduction](/chemistry/organic-chemistry/introduction/):** Alcohols are a key functional group in organic synthesis
+
+## Related in this track
+
+- [Alkanes](/chemistry/organic-chemistry/alkanes/)
+- [Alkenes](/chemistry/organic-chemistry/alkenes/)
+- [Amines | A-Level - Wyatt's Notes](/chemistry/organic-chemistry/amines/)
+- [Analytical Techniques](/chemistry/organic-chemistry/analytical-techniques/)

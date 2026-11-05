@@ -509,3 +509,8 @@ created new strategic tensions that shape the region today.
 - **[Cold War](/history/diagnostics/diag-cold-war/):** Cold War history is studied
 - **[Modern China](/history/diagnostics/diag-modern-china/):** Modern China is a key topic
 - **[WWII](/history/diagnostics/diag-wwii/):** WWII is a major topic
+
+## Related in this track
+
+- [Diagnostic Test: Cold War](/history/diagnostics/diag-cold-war/)
+- [Diagnostic Test: World War II](/history/diagnostics/diag-wwii/)

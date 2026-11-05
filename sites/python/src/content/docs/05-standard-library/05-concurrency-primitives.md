@@ -975,3 +975,10 @@ Python's concurrency primitives address the GIL limitation. `threading` works fo
 - [Async/Await](https://languages.wyattau.com/python/06-async/01-async-await/)
 - [Python Internals](https://languages.wyattau.com/python/02-fundamentals/05-python-internals/)
 - [Debugging and Profiling](https://languages.wyattau.com/python/07-best-practices/02-debugging-and-profiling/)
+
+## Related in this track
+
+- [CLI Tools](/05-standard-library/03-cli-tools/)
+- [Essential Modules](/05-standard-library/01-essential-modules/)
+- [File I/O](/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/05-standard-library/04-serialization/)

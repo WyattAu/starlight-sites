@@ -953,3 +953,10 @@ print(result)
 - [Complete Python Programming Study Guide](/hub/)
 - [Python Practice (Interactive)](/practice-interactive/)
 - [Practice](/practice-python-basics/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Introduction to Python](/intro/)

@@ -190,3 +190,10 @@ nuisance functions without contaminating the causal parameter).
 - **[Sobolev Spaces](https://mathematics.wyattau.com/11-functional-analysis/10_sobolev-spaces/)**; the smoothness scale in which contraction rates are stated.
 - **[Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)**; the permutation argument, of which conformal validity is a corollary.
 - **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)**; scalable approximate inference, the enabling technology for nonparametric Bayes.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)

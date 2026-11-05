@@ -148,3 +148,9 @@ Beyond order 12, the classification continues to grow in complexity:
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Additional Results](/1-abstract-algebra/14_additional-results/)
+- [Common Pitfalls](/1-abstract-algebra/17_common-pitfalls/)
+- [Euclidean Domains, PIDs, and UFDs](/1-abstract-algebra/11_euclidean-domains-pids-and-ufds/)
+- [Field Theory](/1-abstract-algebra/12_field-theory/)

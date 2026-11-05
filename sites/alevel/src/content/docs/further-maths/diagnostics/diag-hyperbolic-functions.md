@@ -174,3 +174,10 @@ the weight of the chain below each point.
 - **[Hyperbolic Functions](/further-maths/pure/hyperbolic-functions/):** Hyperbolic functions extend exponential concepts
 - **[Further Calculus](/further-maths/pure-mathematics/04-further-calculus/):** Calculus underpins further mathematics
 - **[Pure Mathematics](/further-maths/further-maths/):** Further maths extends A-level mathematics
+
+## Related in this track
+
+- [A-Level Further Maths -- Diagnostic Guide](/further-maths/diagnostics/diagnostic-guide/)
+- [Complex Numbers -- Diagnostic Tests](/further-maths/diagnostics/diag-complex-numbers/)
+- [Differential Equations -- Diagnostic Tests](/further-maths/diagnostics/diag-differential-equations/)
+- [Further Algebra -- Diagnostic Tests](/further-maths/diagnostics/diag-further-algebra/)

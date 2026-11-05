@@ -338,3 +338,9 @@ implementation, and key applications.
 - **[Types and Variables](/kotlin/basics/types-and-variables/):** Type system fundamentals used in control flow expressions.
 - **[Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/):** Null-safe branching and safe-call operators in control flow.
 - **[Kotlin Practice](/kotlin/practice-kotlin-basics/):** Auto-graded problems testing control flow patterns.
+
+## Related in this track
+
+- [Classes and Objects](/kotlin/basics/classes-and-objects/)
+- [Functions](/kotlin/basics/functions/)
+- [Types and Variables](/kotlin/basics/types-and-variables/)

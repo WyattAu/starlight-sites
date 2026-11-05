@@ -494,3 +494,10 @@ Democracy is like a house with many rooms -- economic stability, institutional t
 - **[Cold War](/history/cold-war/):** Cold War geopolitics shaped the 20th century
 - **[Authoritarian States](/history/authoritarian-states/):** Authoritarian regimes are key case studies
 - **[Causes and Effects](/history/causes-and-effects-of-wars/):** Wars have profound causes and effects
+
+## Related in this track
+
+- [20th Century China](/history/20th-century-china/)
+- [Authoritarian States](/history/authoritarian-states/)
+- [Causes and Effects of Wars](/history/causes-and-effects-of-wars/)
+- [Cold War Superpower Relations](/history/superpower-relations/)

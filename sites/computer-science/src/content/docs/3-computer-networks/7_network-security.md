@@ -267,3 +267,10 @@ Network security is a layered defense strategy: encryption hides the message, au
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Application Layer](/3-computer-networks/6_application-layer/)
+- [Computer Networks (Advanced)](/3-computer-networks/9_computer-networks-advanced/)
+- [Data Link Layer](/3-computer-networks/3_data-link-layer/)
+- [Network Layer](/3-computer-networks/4_network-layer/)

@@ -792,3 +792,8 @@ Creates unnecessary complexity. Use proper columns or JSONB instead.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Database Design](/06-database-design/database-design/)
+- [Schema Migrations](/06-database-design/migrations/)

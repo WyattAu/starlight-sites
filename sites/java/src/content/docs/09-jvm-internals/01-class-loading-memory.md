@@ -702,3 +702,7 @@ The JVM class loading system works like a chain of trust. When your code needs a
 
 ## Worked Examples
 
+## Related in this track
+
+- [Garbage Collection](/09-jvm-internals/03-garbage-collection/)
+- [JIT Compilation and Deoptimization](/09-jvm-internals/02-jit-compilation/)

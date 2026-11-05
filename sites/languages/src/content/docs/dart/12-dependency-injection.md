@@ -1262,3 +1262,10 @@ implementation, and key applications.
 - [Object-Oriented Programming](https://dart.wyattau.com/04-object-oriented/01-classes-and-inheritance/) -- Dependency injection relies on interfaces and abstract classes to decouple implementations.
 - [Testing Fundamentals](https://dart.wyattau.com/14-testing/01-testing-fundamentals/) -- DI makes unit testing easier by allowing mock dependencies to be injected during testing.
 - [Code Generation](https://dart.wyattau.com/13-code-generation/) -- Code generation tools like injectable automate the creation of dependency injection wiring.
+
+## Related in this track
+
+- [Best Practices](/dart/04-best-practices/)
+- [Code Generation](/dart/13-code-generation/)
+- [Error Handling](/dart/08-error-handling/)
+- [FFI and Advanced Topics](/dart/09-ffi-and-advanced/)

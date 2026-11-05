@@ -722,3 +722,10 @@ implementation, and key applications.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) shows how cherry-picked commits are pushed to shared branches after selective application.
 - [Branching](/git/03-branching-and-merging/01-branching/) provides the branch context in which cherry-pick operations target specific commits.
 - [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/) addresses the merge conflicts that can arise when cherry-picked commits overlap with other changes.
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+- [Git Hooks](/git/05-advanced-topics/07-hooks/)

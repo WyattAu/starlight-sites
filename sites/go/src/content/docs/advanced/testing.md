@@ -404,3 +404,10 @@ Go's testing framework is built into the toolchain -- test files are just regula
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class functions and closures
 - [Modules and Packages](/advanced/modules-and-packages/) -- dependency management
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- testing concurrent code
+
+## Related in this track
+
+- [Modules and Packages](/advanced/modules-and-packages/)
+- [Networking](/advanced/networking/)
+- [Pointers and Memory](/advanced/pointers-and-memory/)
+- [Reflection](/advanced/reflection/)

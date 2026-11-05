@@ -1351,3 +1351,9 @@ Fixed immediately, not discovered weeks later during code review.
 - [Best Practices](./)
 - [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
 - [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
+
+## Related in this track
+
+- [Debugging and Profiling](/python/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
+- [Packaging and Distribution](/python/07-best-practices/04-packaging-distribution/)

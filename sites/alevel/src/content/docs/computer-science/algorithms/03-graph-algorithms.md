@@ -1000,3 +1000,9 @@ which may differ from the MST. These are different optimisation problems with di
 - **[Data Structures: Graphs](/computer-science/data-structures/05-graphs/):** Graph algorithms operate on graph data structures
 - **[Big O Notation](/computer-science/fundamentals/01-number-systems/):** Algorithm analysis requires understanding complexity
 - **[Hash Tables](/computer-science/data-structures/06-hash-tables/):** Hash tables enable efficient graph lookups
+
+## Related in this track
+
+- [Complexity Analysis](/computer-science/algorithms/04-complexity-analysis/)
+- [Searching Algorithms](/computer-science/algorithms/01-searching-algorithms/)
+- [Sorting Algorithms](/computer-science/algorithms/02-sorting-algorithms/)

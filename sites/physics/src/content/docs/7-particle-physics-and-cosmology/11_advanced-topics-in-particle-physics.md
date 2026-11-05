@@ -251,3 +251,10 @@ Advanced particle physics explores the frontier where the Standard Model meets u
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)
+- [Conservation Laws and Symmetries](/7-particle-physics-and-cosmology/2_conservation-laws-and-symmetries/)

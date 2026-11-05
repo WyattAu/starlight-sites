@@ -1003,3 +1003,8 @@ linked above.
 - [Fundamentals](./)
 - [Types and Variables](/java/02-fundamentals/01-types-and-variables/)
 - [Control Flow](/java/02-fundamentals/02-control-flow/)
+
+## Related in this track
+
+- [Control Flow](/java/02-fundamentals/02-control-flow/)
+- [Types and Variables](/java/02-fundamentals/01-types-and-variables/)

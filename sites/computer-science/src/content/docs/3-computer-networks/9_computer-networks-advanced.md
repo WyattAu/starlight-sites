@@ -1510,3 +1510,10 @@ flowchart TD
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Application Layer](/3-computer-networks/6_application-layer/)
+- [Data Link Layer](/3-computer-networks/3_data-link-layer/)
+- [Network Layer](/3-computer-networks/4_network-layer/)
+- [Network Models](/3-computer-networks/1_network-models/)

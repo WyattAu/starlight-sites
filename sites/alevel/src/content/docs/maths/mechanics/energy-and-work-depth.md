@@ -695,3 +695,10 @@ Work and energy are two ways of describing the same thing: a force pushing an ob
 - **[Momentum](/maths/mechanics/05-momentum/):** Energy and momentum are conserved
 - **[Kinematics](/maths/mechanics/kinematics-depth/):** Energy methods complement kinematics
 - **[Forces](/maths/mechanics/statics-depth/):** Work relates force to displacement
+
+## Related in this track
+
+- [Dynamics (Extended)](/maths/mechanics/dynamics-depth/)
+- [Energy and Work](/maths/mechanics/04-energy-and-work/)
+- [Forces and Newton's Laws](/maths/mechanics/02-forces-and-newtons-laws/)
+- [Kinematics](/maths/mechanics/01-kinematics/)

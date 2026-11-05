@@ -930,3 +930,10 @@ linked above.
 - **[Alkenes](/chemistry/organic-chemistry/alkenes/):** Alkanes can be cracked to produce alkenes
 - **[Alcohols](/chemistry/organic-chemistry/alcohols/):** Alkanes undergo free radical substitution to form halogenoalkanes
 - **[Organic Introduction](/chemistry/organic-chemistry/introduction/):** Alkanes are the simplest organic compounds
+
+## Related in this track
+
+- [Alcohols](/chemistry/organic-chemistry/alcohols/)
+- [Alkenes](/chemistry/organic-chemistry/alkenes/)
+- [Amines | A-Level - Wyatt's Notes](/chemistry/organic-chemistry/amines/)
+- [Analytical Techniques](/chemistry/organic-chemistry/analytical-techniques/)

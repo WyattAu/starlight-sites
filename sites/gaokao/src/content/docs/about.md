@@ -106,3 +106,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Gaokao Study Guide, Math, Physics, Chemistry](/hub/)
+- [Gaokao Glossary, Key Terms and Definitions](/glossary/)
+- [Introduction to Gaokao Notes](/intro/)

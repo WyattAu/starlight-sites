@@ -208,3 +208,10 @@ Differential geometry studies curved spaces by doing calculus on them. A manifol
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)

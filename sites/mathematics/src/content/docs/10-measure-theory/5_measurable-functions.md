@@ -187,3 +187,10 @@ Egorov's theorem states that pointwise a.e.\ convergence implies uniform converg
 
 **Mistake 3: Assuming that measurable functions are continuous or have nice properties**
 Measurable functions can be highly discontinuous -- in fact, a function is measurable if and only if it is a pointwise limit of simple functions. Students sometimes assume measurability implies continuity or boundedness, which is false. The indicator function of the rationals is measurable but discontinuous everywhere.
+
+## Related in this track
+
+- [$L^p$ Spaces](/10-measure-theory/7_l-p-spaces/)
+- [Fubini and Tonelli Theorems](/10-measure-theory/8_fubini-and-tonelli-theorems/)
+- [Lebesgue Integration](/10-measure-theory/6_lebesgue-integration/)
+- [Lebesgue Measurable Sets and Non-Measurable Sets](/10-measure-theory/4_lebesgue-measurable-sets-and-non-measurable-sets/)

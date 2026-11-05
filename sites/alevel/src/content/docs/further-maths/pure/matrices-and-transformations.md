@@ -1318,3 +1318,8 @@ This topic covers the mathematical techniques and concepts related to matrices a
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 :::
+
+## Related in this track
+
+- [Complex Numbers (Extended)](/further-maths/pure/complex-numbers/)
+- [Hyperbolic Functions (Extended)](/further-maths/pure/hyperbolic-functions/)

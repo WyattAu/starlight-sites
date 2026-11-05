@@ -355,3 +355,10 @@ for depth in [1, 3, 6, None]:                # None = unlimited depth
 - **[Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)**; ridge and lasso, the capacity-control recipe instantiated.
 - **[Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)**; the Bayesian route to the same capacity control, through priors rather than penalties.
 - **[Sobolev Spaces](https://mathematics.wyattau.com/11-functional-analysis/10_sobolev-spaces/)**; the smoothness scale behind nonparametric rates.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)

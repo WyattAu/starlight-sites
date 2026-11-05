@@ -637,3 +637,7 @@ Occurred after the original migration. Always test the rollback path.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Data Modeling Patterns](/06-database-design/data-modeling/)
+- [Database Design](/06-database-design/database-design/)

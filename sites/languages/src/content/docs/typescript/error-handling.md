@@ -806,3 +806,10 @@ Error handling in TypeScript centers on the never type (the bottom type with no 
 - [Typescript](./)
 - [Advanced Patterns](/typescript/advanced-patterns/)
 - [advanced types](/typescript/advanced-types/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Functions](/typescript/functions/)
+- [Generics](/typescript/generics/)

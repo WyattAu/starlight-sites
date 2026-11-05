@@ -784,3 +784,10 @@ exclusive. The student has confused two fundamentally different concepts.
 - [Diagnostics](./)
 - [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)
 - [Functions -- Diagnostic Tests](/maths/diagnostics/diag-functions/)
+
+## Related in this track
+
+- [Algebraic Expressions -- Diagnostic Tests](/maths/diagnostics/diag-algebraic-expressions/)
+- [Binomial Expansion -- Diagnostic Tests](/maths/diagnostics/diag-binomial-expansion/)
+- [Coordinates and Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinates-and-geometry/)
+- [Correlation and Regression -- Diagnostic Tests](/maths/diagnostics/diag-correlation-and-regression/)

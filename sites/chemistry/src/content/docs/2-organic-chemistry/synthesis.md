@@ -530,3 +530,9 @@ Synthetic chemistry is like molecular LEGO: you start with simple, available bui
 
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
+
+## Related in this track
+
+- [Reaction Mechanisms](/2-organic-chemistry/reaction-mechanisms/)
+- [Spectroscopy](/2-organic-chemistry/spectroscopy/)
+- [Structure and Bonding](/2-organic-chemistry/structure-and-bonding/)

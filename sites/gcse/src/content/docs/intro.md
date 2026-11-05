@@ -138,3 +138,10 @@ This introduction provides comprehensive coverage of Gcse content for the Qualif
 - **Leaving revision until the last few weeks:** GCSE content accumulates over two years. Cramming in the final weeks produces surface-level recognition, not deep understanding. Start spaced revision early and increase frequency closer to exams.
 - **Ignoring examiner reports and mark schemes:** Examiner reports reveal exactly where students lose marks. Reading them tells you what examiners consider a "good" answer, which is often different from what students assume. Always check how marks are allocated.
 - **Practising only easy questions:** Students tend to revisit topics they already understand and avoid difficult ones. Focus on your weak areas, that is where the marks are gained. Use diagnostic tests to identify gaps rather than guessing.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete GCSE Study Guide, All Subjects](/hub/)
+- [GCSE Biology Study Guide](/biology/)
+- [GCSE Chemistry Study Guide](/chemistry/)

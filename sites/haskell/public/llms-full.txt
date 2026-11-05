@@ -5781,6 +5781,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)
+- [Complete Haskell Programming Study Guide](/hub/)
+- [Haskell](/intro/)
+- [Haskell Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Before You Begin
@@ -6013,6 +6020,13 @@ which is what referential transparency states. (6) `1 - (2 - (3 - 0))` =
   the mathematics the type signatures mirror: maps between structured spaces.
 - [Introduction to Algebraic Topology](https://mathematics.wyattau.com/9-topology/9_introduction-to-algebraic-topology/) -
   the algebraic structures (monoids, functors) that monads generalise.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Haskell Programming Study Guide](/hub/)
+- [Haskell](/intro/)
+- [Haskell Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -6315,6 +6329,13 @@ main = do
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 - See [Mathematics Glossary](/glossary/) for mathematical foundations
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)
+- [Complete Haskell Programming Study Guide](/hub/)
+- [Haskell](/intro/)
+
 ---
 
 ## Hub
@@ -6580,6 +6601,13 @@ If you want to learn pure functional programming concepts, Haskell is the best c
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)
+- [Haskell](/intro/)
+- [Haskell Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Index
@@ -6786,6 +6814,13 @@ main = do
 ## See also
 
 - [Introduction to Haskell](/00-intro/1_haskell-intro/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)
+- [Complete Haskell Programming Study Guide](/hub/)
+- [Haskell Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 

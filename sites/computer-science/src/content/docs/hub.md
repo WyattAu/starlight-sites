@@ -291,3 +291,10 @@ Python is often recommended for beginners due to its simple syntax and readabili
 ### How do CS theory topics connect to real-world software?
 
 Algorithms power search engines, routing systems, and recommendation engines. Data structures underpin databases, compilers, and operating systems. Automata theory drives regex engines and network protocol design. Complexity theory informs decisions about when to use approximation algorithms or heuristics. Networking principles enable the internet and distributed systems you build every day.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Algorithms and Data Structures](/algorithms-and-data-structures/)
+- [Before You Begin: The Abstractions CS Assumes You Already Have](/before-you-begin/)
+- [Computer Networks](/computer-networks/)

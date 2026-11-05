@@ -424,3 +424,9 @@ implementation, and key applications.
 - [Basics](./)
 - [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
 - [Functions](/go/basics/functions/)
+
+## Related in this track
+
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
+- [Functions](/go/basics/functions/)
+- [Types and Variables](/go/basics/types-and-variables/)

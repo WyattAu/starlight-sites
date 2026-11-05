@@ -474,3 +474,10 @@ The $z$-component of angular momentum satisfies $|L_z| \leq \hbar l < \hbar\sqrt
 
 **Mistake 3: Forgetting that $l$ is restricted to integers for orbital angular momentum**
 For orbital angular momentum (defined as $\hat{\mathbf{L}} = \hat{\mathbf{r}} \times \hat{\mathbf{p}}$), $l$ must be a non-negative integer because the wave function must be single-valued under a full rotation. Half-integer $l$ values are allowed for spin angular momentum but not for orbital angular momentum. Never assign $l = 1/2$ to an orbital state.
+
+## Related in this track
+
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)
+- [Identical Particles and Exchange Symmetry](/5-quantum-mechanics/10_identical-particles-and-exchange-symmetry/)

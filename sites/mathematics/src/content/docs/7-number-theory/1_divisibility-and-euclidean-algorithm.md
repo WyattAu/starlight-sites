@@ -290,3 +290,10 @@ the skyscraper. The next page builds the tower.
   Euclid's lemma is the key to unique factorisation
 - [Number Theory and Cryptography](/7-number-theory/12_number-theory-and-cryptography/); where
   the extended Euclidean algorithm meets RSA key generation
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Fermat, Euler and Wilson Theorems](/7-number-theory/4_fermat-euler-and-wilson-theorems/)

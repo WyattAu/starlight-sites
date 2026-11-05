@@ -315,3 +315,10 @@ graph TD
     B --> C[Example]
     C --> D[Practice]
 ```
+
+## Related in this track
+
+- [Acids, Bases and Buffers -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Alkanes and Alkenes -- Diagnostic Tests](/chemistry/diagnostics/diag-alkanes-alkenes/)
+- [Atomic Structure and Periodicity -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
+- [Bonding and Structure -- Diagnostic Tests](/chemistry/diagnostics/diag-bonding-structure/)

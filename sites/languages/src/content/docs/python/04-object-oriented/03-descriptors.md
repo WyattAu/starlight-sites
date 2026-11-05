@@ -927,3 +927,8 @@ practical implementation, and key applications.
 - [Metaclasses](/python/04-object-oriented/02-metaclasses/): Explores how metaclasses can manipulate descriptors during class creation.
 - [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Explains the **get**, **set**, and **delete** dunder methods that define the descriptor protocol.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Demonstrates how to use descriptors to enforce validation rules on object attributes.
+
+## Related in this track
+
+- [Classes and Inheritance](/python/04-object-oriented/01-classes/)
+- [Metaclasses and Class Creation](/python/04-object-oriented/02-metaclasses/)

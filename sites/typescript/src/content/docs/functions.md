@@ -625,3 +625,10 @@ theorems, methods, and problem-solving approaches.
 - [Types and Annotations](/types-and-annotations/) - How function signatures use type annotations for parameter and return types
 - [Generics](/generics/) - How generic functions enable type-safe reusable utilities
 - [Advanced Types](/advanced-types/) - How conditional types and infer extend function type manipulation
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Advanced Patterns](/advanced-patterns/)
+- [Classes](/classes/)
+- [Complete TypeScript Programming Study Guide](/hub/)

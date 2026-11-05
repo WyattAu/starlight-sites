@@ -141,3 +141,7 @@ $ git gc
 $ git gc --prune=now
 ```
 
+## Related in this track
+
+- [Git Directory Structure](/git/06-internals/01-git-directory-structure/)
+- [Hash Algorithm](/git/06-internals/03-hash-algorithm/)

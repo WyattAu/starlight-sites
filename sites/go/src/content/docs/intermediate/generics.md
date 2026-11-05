@@ -348,3 +348,8 @@ implementation, and key applications.
 - **[Interfaces](/intermediate/interfaces/):** Interface patterns that generics can complement or replace.
 - **[Error Handling](/intermediate/error-handling/):** Error handling patterns that work with generic functions.
 - **[Practice Generics](/practice-interfaces/):** Practice problems covering generic programming.
+
+## Related in this track
+
+- [Error Handling](/intermediate/error-handling/)
+- [Interfaces](/intermediate/interfaces/)

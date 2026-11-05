@@ -384,3 +384,10 @@ Practice problems consolidate theoretical understanding. Work through problems s
 | Discrete Mathematics, MIT OCW  | MIT         | [View](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/) |
 
 </div>
+
+## Related in this track
+
+- [Combinatorics](/1-discrete-mathematics/4_combinatorics/)
+- [Graph Theory](/1-discrete-mathematics/5_graph-theory/)
+- [Proof Techniques](/1-discrete-mathematics/3_proof-techniques/)
+- [Propositional and Predicate Logic](/1-discrete-mathematics/1_propositional-and-predicate-logic/)

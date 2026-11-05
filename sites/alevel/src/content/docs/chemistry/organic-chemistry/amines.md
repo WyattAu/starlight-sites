@@ -979,3 +979,10 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 - [Organic Chemistry](./)
 - [Alcohols](/chemistry/organic-chemistry/alcohols/)
 - [Alkanes](/chemistry/organic-chemistry/alkanes/)
+
+## Related in this track
+
+- [Alcohols](/chemistry/organic-chemistry/alcohols/)
+- [Alkanes](/chemistry/organic-chemistry/alkanes/)
+- [Alkenes](/chemistry/organic-chemistry/alkenes/)
+- [Analytical Techniques](/chemistry/organic-chemistry/analytical-techniques/)

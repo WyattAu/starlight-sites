@@ -827,3 +827,9 @@ the optimal choice.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Graphs | A-Level - Wyatt's Notes](/computer-science/data-structures/05-graphs/)
+- [Hash Tables](/computer-science/data-structures/06-hash-tables/)
+- [Linked Lists](/computer-science/data-structures/02-linked-lists/)
+- [Stacks and Queues](/computer-science/data-structures/03-stacks-and-queues/)

@@ -124,3 +124,10 @@ $\leq \sqrt{N}$, so the survivors are exactly the primes. Cost: $O(N \log \log N
 
 For exam proofs, write factorisations in canonical ascending-prime form before comparing; order-free multisets earn no method marks unless the canonical form is stated first.
 Every exam answer should conclude with the canonical form restated: the uniqueness statement is about the multiset of prime factors, not the written order of the product.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)

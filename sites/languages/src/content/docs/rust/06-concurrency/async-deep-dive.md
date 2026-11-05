@@ -961,3 +961,8 @@ Async Rust compiles to state machines that yield control at await points. The Fu
 - [Concurrency](./)
 - [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing/)
 - [Concurrency](/rust/06-concurrency/concurrency/)
+
+## Related in this track
+
+- [Channels and Message Passing](/rust/06-concurrency/channels-and-message-passing/)
+- [Concurrency](/rust/06-concurrency/concurrency/)

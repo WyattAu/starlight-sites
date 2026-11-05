@@ -618,3 +618,10 @@ The series estimate and $T_4$ are very close, both underestimating by approximat
 - [Diagnostics](./)
 - [Algebraic Expressions -- Diagnostic Tests](/maths/diagnostics/diag-algebraic-expressions/)
 - [Binomial Expansion -- Diagnostic Tests](/maths/diagnostics/diag-binomial-expansion/)
+
+## Related in this track
+
+- [Algebraic Expressions -- Diagnostic Tests](/maths/diagnostics/diag-algebraic-expressions/)
+- [Binomial Expansion -- Diagnostic Tests](/maths/diagnostics/diag-binomial-expansion/)
+- [Coordinates and Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinates-and-geometry/)
+- [Correlation and Regression -- Diagnostic Tests](/maths/diagnostics/diag-correlation-and-regression/)

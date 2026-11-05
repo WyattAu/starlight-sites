@@ -130,3 +130,10 @@ The `run` command will:
 - [Reflog](/git/05-advanced-topics/01-reflog/)
 - [Stash](/git/05-advanced-topics/02-stash/)
 - [Submodules](/git/05-advanced-topics/04-submodules/)
+
+## Related in this track
+
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+- [Git Hooks](/git/05-advanced-topics/07-hooks/)

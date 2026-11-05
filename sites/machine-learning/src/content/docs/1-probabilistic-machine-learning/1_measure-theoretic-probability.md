@@ -403,3 +403,10 @@ $2\operatorname{Cov}(e^U, e^{1-U}) = 6e - e^2 - 1 - 2(e-1)^2 < 0$.
 - **[Introduction to Algebraic Topology](https://mathematics.wyattau.com/9-topology/9_introduction-to-algebraic-topology/)**; Borel–Cantelli's "infinitely often", the same limsup sets.
 - **[Statistical Decision Theory](/1-probabilistic-machine-learning/2_statistical-decision-theory/)**; the next page: risks, rules, and sufficiency.
 - **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)**; the LAN machinery, of which the CLT is the special case.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)

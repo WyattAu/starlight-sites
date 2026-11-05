@@ -367,3 +367,9 @@ Branching in Git is like creating a parallel universe: you can experiment freely
 - [Introduction to Git](/zh/algorithms/intro/)
 - [Merging](/git/03-branching-and-merging/02-merging/)
 - [Git Workflows](/git/04-remotes-and-workflows/02-workflows/)
+
+## Related in this track
+
+- [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/)
+- [Merging](/git/03-branching-and-merging/02-merging/)
+- [Rebasing](/git/03-branching-and-merging/03-rebasing/)

@@ -187,3 +187,10 @@ strategies using quantitative data and qualitative case study evidence from cont
 - **[Climate Change](/geography/climate-change/):** Climate change affects all geography
 - **[Population](/geography/population-distribution/):** Population distribution is studied
 - **[Economic Development](/geography/economic-development/):** Development is a core topic
+
+## Related in this track
+
+- [Climate Change](/geography/climate-change/)
+- [Freshwater Issues](/geography/freshwater-issues/)
+- [Geographic Skills](/geography/geographic-skills/)
+- [IB Geography](/geography/geography/)

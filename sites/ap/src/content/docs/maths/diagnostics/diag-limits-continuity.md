@@ -418,3 +418,10 @@ Limit diagnostics test whether you understand the **rigorous foundations** of ca
 
 - **[Limits and Continuity](/maths/1-limits-and-continuity/1_limits-and-continuity/):** The full topic page covering epsilon-delta proofs, L'Hopital's rule, and continuity classification in detail.
 - **[Derivatives](/maths/2-derivatives/2_derivatives/):** Derivatives are defined as limits of difference quotients, mastering limits is the prerequisite for all differentiation.
+
+## Related in this track
+
+- [AP Calculus Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Derivatives -- Diagnostic Tests](/maths/diagnostics/diag-derivatives/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Integrals -- Diagnostic Tests](/maths/diagnostics/diag-integrals/)

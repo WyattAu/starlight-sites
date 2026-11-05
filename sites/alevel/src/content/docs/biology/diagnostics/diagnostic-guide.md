@@ -144,3 +144,10 @@ graph TD
     B --> C[Example]
     C --> D[Practice]
 ```
+
+## Related in this track
+
+- [Biodiversity, Classification and Evolution -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-classification-evolution/)
+- [Biological Molecules -- Diagnostic Tests](/biology/diagnostics/diag-biological-molecules/)
+- [Cells -- Diagnostic Tests](/biology/diagnostics/diag-cells/)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)

@@ -351,3 +351,10 @@ no consensus has formed.
 - **[Superconductivity in the BCS Frame](https://physics.wyattau.com/docs/superconductivity)** -- the companion overview page.
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/) -- the coherent order parameter and phase, which is what the Josephson effects measure.
 - [Statistical Mechanics](https://physics.wyattau.com/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/) -- the free-energy argument behind $B_c(T)$.
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)

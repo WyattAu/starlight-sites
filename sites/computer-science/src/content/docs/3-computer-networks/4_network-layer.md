@@ -431,3 +431,10 @@ single host route. The Formula $2^n - 2$ usable hosts applies only for prefixes 
 - **[Network Security](/3-computer-networks/7_network-security/):** IPsec and network security protocols.
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Application Layer](/3-computer-networks/6_application-layer/)
+- [Computer Networks (Advanced)](/3-computer-networks/9_computer-networks-advanced/)
+- [Data Link Layer](/3-computer-networks/3_data-link-layer/)
+- [Network Models](/3-computer-networks/1_network-models/)

@@ -370,3 +370,8 @@ Coordinate geometry is like GPS navigation. The coordinate plane is your map, an
 **Forgetting that similarity requires corresponding angles to be equal and sides to be proportional.** Two triangles are similar if their angles match and their sides are in the same ratio. Students sometimes check only angles or only sides, missing that both conditions must hold.
 
 **Misapplying the area formula for triangles.** The area is (1/2) *base* height, where height is the perpendicular distance from the base to the opposite vertex. Students often use a side length as the height, which is incorrect unless the triangle is right-angled.
+
+## Related in this track
+
+- [Algebra](/mathematics/algebra/)
+- [Functions](/mathematics/functions/)

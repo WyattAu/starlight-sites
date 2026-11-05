@@ -173,3 +173,8 @@ tags: [glossary]
 **Winter Tyre Mandate**: Country-specific seasonal requirements, Austria and Germany situation-based (bei winterlichen Verhaltnissen), Finland and the Baltics date-based.
 
 **Headlamp Requirement**: Dipped beams mandatory in tunnel, rain, and poor visibility almost everywhere; Poland, Sweden, and the Baltics require them 24/7 year-round.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete EU Driving Test Study Guide](/hub/)

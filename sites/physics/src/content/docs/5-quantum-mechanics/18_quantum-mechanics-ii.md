@@ -949,3 +949,10 @@ Perturbation theory is like adding small corrections to a solution you already k
 | Thermodynamics      | [View](https://alevel.wyattau.com/chemistry/thermodynamics/)    |
 
 </div>
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)

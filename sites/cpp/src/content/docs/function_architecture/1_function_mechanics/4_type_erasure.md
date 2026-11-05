@@ -755,3 +755,10 @@ and past paper questions, is essential for success in examinations.
 - **[Lambdas](/function_architecture/1_function_mechanics/3_lambdas/):** Lambda expressions used to implement type-erased callable wrappers.
 - **[Templates and Metaprogramming](/templates_and_metaprogramming/):** Template techniques that type erasure often replaces.
 - **Standard Library:** Standard library components like std::function that use type erasure.
+
+## Related in this track
+
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Lambda Expressions, Capture Layouts and Closure Types](/function_architecture/1_function_mechanics/3_lambdas/)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)

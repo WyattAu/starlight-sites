@@ -145,3 +145,7 @@ Algebra is the art of solving mysteries by letting unknowns represent clues. Whe
 - [Data Analysis](/mathematics/data-analysis/) -- Statistical formulas and linear models use algebraic manipulation to calculate means, slopes, and correlations.
 - [Reading Comprehension](/reading/comprehension/) -- Interpreting graphs and tables in reading passages requires algebraic reasoning.
 
+## Related in this track
+
+- [Data analysis](/mathematics/data-analysis/)
+- [Geometry](/mathematics/geometry/)

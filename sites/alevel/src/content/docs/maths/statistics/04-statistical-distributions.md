@@ -779,3 +779,10 @@ Mathematical thinking is about abstraction and pattern recognition. Numbers, sha
 - [Calculus](https://hsc.wyattau.com/mathematics/calculus/)
 - [Statistics](/further-maths/flashcards-further-statistics/)
 - [Trigonometry](/maths/pure-mathematics/08-trigonometry/)
+
+## Related in this track
+
+- [Correlation and Regression](/maths/statistics/02-correlation-and-regression/)
+- [Correlation and Regression (Extended)](/maths/statistics/correlation-and-regression-depth/)
+- [Data Representation](/maths/statistics/01-data-representation/)
+- [Hypothesis Testing](/maths/statistics/05-hypothesis-testing/)

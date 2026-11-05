@@ -445,3 +445,10 @@ correct integral accounts for the linear variation.
 - [Diagnostics](./)
 - [Wave Properties -- Diagnostic Tests](/physics/diagnostics/diag-wave-properties/)
 - [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
+
+## Related in this track
+
+- [A-Level Physics Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
+- [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
+- [Circular Motion -- Diagnostic Tests](/physics/diagnostics/diag-circular-motion/)
+- [Current and Resistance -- Diagnostic Tests](/physics/diagnostics/diag-current-resistance/)

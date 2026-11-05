@@ -718,3 +718,9 @@ opportunity cost reflects the concavity of the PPF.
 - [Microeconomics](./)
 - [Elasticity](/economics/1-microeconomics/2_elasticity/)
 - [Market Failure](/economics/1-microeconomics/3-market-failure/)
+
+## Related in this track
+
+- [Elasticity](/economics/1-microeconomics/2_elasticity/)
+- [Market Failure](/economics/1-microeconomics/3-market-failure/)
+- [Theory of the Firm](/economics/1-microeconomics/4-theory-of-the-firm/)

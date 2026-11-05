@@ -198,3 +198,10 @@ A space is locally compact if every point has a compact neighbourhood, but this 
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Connectedness](/9-topology/6_connectedness/)
+- [Continuity and Homeomorphisms](/9-topology/4_continuity-and-homeomorphisms/)

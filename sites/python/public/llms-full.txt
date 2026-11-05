@@ -1060,6 +1060,13 @@ Python's control flow is built on the idea that code should read like prose. `if
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
 - [Generators and Iterators](https://languages.wyattau.com/python/02-fundamentals/04-generators-and-iterators/)
 
+## Related in this track
+
+- [Functions, Closures, and Decorators](/02-fundamentals/03-functions/)
+- [Generators and Iterators](/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/02-fundamentals/05-python-internals/)
+
 ---
 
 ## Functions
@@ -2589,6 +2596,13 @@ import { Citation } from "@components/Citations.astro"
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/)
 - [Object-Oriented Programming](https://java.wyattau.com/03-object-oriented/01-classes/)
 
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Generators and Iterators](/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/02-fundamentals/05-python-internals/)
+
 ---
 
 ## Generators And Iterators
@@ -3981,6 +3995,13 @@ Generators are lazy factories: they produce values one at a time instead of buil
 - [Data Structures](https://kotlin.wyattau.com/intermediate/collections/)
 - [Async/Await](https://languages.wyattau.com/python/06-async/01-async-await/)
 
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/02-fundamentals/03-functions/)
+- [Modules and Packages](/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/02-fundamentals/05-python-internals/)
+
 ---
 
 ## Index
@@ -5192,6 +5213,13 @@ Modules are Python's way of organising code into reusable files. Think of a modu
 - [Packaging and Distribution](https://languages.wyattau.com/python/07-best-practices/04-packaging-distribution/)
 - [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
 
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/02-fundamentals/03-functions/)
+- [Generators and Iterators](/02-fundamentals/04-generators-and-iterators/)
+- [Python Internals](/02-fundamentals/05-python-internals/)
+
 ---
 
 ## Python Internals
@@ -6078,6 +6106,13 @@ Python internals are the machinery beneath the syntax. CPython compiles source t
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Concurrency Primitives](https://languages.wyattau.com/python/05-standard-library/05-concurrency-primitives/)
 - [Modules and Packages](https://go.wyattau.com/advanced/modules-and-packages/)
+
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/02-fundamentals/03-functions/)
+- [Generators and Iterators](/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/02-fundamentals/06-modules-and-packages/)
 
 ---
 
@@ -7068,6 +7103,13 @@ Python variables are like labelled boxes: the label (name) points to a box (obje
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/)
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
 - [Data Structures](https://kotlin.wyattau.com/intermediate/collections/)
+
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/02-fundamentals/03-functions/)
+- [Generators and Iterators](/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/02-fundamentals/06-modules-and-packages/)
 
 ## Data-Structures
 
@@ -10151,6 +10193,11 @@ Python's OOP is duck-typed: if a quacks like a duck, it is a duck. You do not ne
 - [Descriptors](https://languages.wyattau.com/python/04-object-oriented/03-descriptors/)
 - [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/)
 
+## Related in this track
+
+- [Descriptors and Properties](/04-object-oriented/03-descriptors/)
+- [Metaclasses and Class Creation](/04-object-oriented/02-metaclasses/)
+
 ---
 
 ## Descriptors
@@ -11097,6 +11144,11 @@ Descriptors are objects that define `__get__`, `__set__`, or `__delete__` method
 - [Classes and Inheritance](/04-object-oriented/01-classes/)
 - [Metaclasses and Class Creation](/04-object-oriented/02-metaclasses/)
 
+## Related in this track
+
+- [Classes and Inheritance](/04-object-oriented/01-classes/)
+- [Metaclasses and Class Creation](/04-object-oriented/02-metaclasses/)
+
 ---
 
 ## Metaclasses
@@ -12013,6 +12065,11 @@ Metaclasses are classes of classes: just as a class defines how instances behave
 - [Descriptors](https://languages.wyattau.com/python/04-object-oriented/03-descriptors/)
 - [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/)
 ## See also
+
+- [Classes and Inheritance](/04-object-oriented/01-classes/)
+- [Descriptors and Properties](/04-object-oriented/03-descriptors/)
+
+## Related in this track
 
 - [Classes and Inheritance](/04-object-oriented/01-classes/)
 - [Descriptors and Properties](/04-object-oriented/03-descriptors/)
@@ -13230,6 +13287,13 @@ Building command-line tools in Python is straightforward with `argparse` for arg
 - [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)
 - [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
 
+## Related in this track
+
+- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/05-standard-library/01-essential-modules/)
+- [File I/O](/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/05-standard-library/04-serialization/)
+
 ---
 
 ## Concurrency Primitives
@@ -14204,6 +14268,13 @@ Python's concurrency primitives address the GIL limitation. `threading` works fo
 - [Async/Await](https://languages.wyattau.com/python/06-async/01-async-await/)
 - [Python Internals](https://languages.wyattau.com/python/02-fundamentals/05-python-internals/)
 - [Debugging and Profiling](https://languages.wyattau.com/python/07-best-practices/02-debugging-and-profiling/)
+
+## Related in this track
+
+- [CLI Tools](/05-standard-library/03-cli-tools/)
+- [Essential Modules](/05-standard-library/01-essential-modules/)
+- [File I/O](/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/05-standard-library/04-serialization/)
 
 ---
 
@@ -15379,6 +15450,13 @@ Python's standard library is "batteries included": it ships with modules for alm
 - [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)
 - [CLI Tools](https://languages.wyattau.com/python/05-standard-library/03-cli-tools/)
 - [Modules and Packages](https://go.wyattau.com/advanced/modules-and-packages/)
+
+## Related in this track
+
+- [CLI Tools](/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives/)
+- [File I/O](/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/05-standard-library/04-serialization/)
 
 ---
 
@@ -16662,6 +16740,13 @@ File I/O in Python is about reading from and writing to the outside world. `open
 - [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/)
 - [CLI Tools](https://languages.wyattau.com/python/05-standard-library/03-cli-tools/)
 
+## Related in this track
+
+- [CLI Tools](/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/05-standard-library/01-essential-modules/)
+- [Serialization and Data Formats](/05-standard-library/04-serialization/)
+
 ---
 
 ## Index
@@ -17706,6 +17791,13 @@ Serialization is converting objects to bytes or strings for storage or transmiss
 - [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
 - [Data Validation](https://languages.wyattau.com/python/08-advanced-topics/02-data-validation/)
 - [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)
+
+## Related in this track
+
+- [CLI Tools](/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/05-standard-library/01-essential-modules/)
+- [File I/O](/05-standard-library/02-file-io/)
 
 ## Async
 
@@ -20060,6 +20152,12 @@ Debugging in Python is detective work: you gather clues (print statements, loggi
 - [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
 - [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
 
+## Related in this track
+
+- [Error Handling Patterns](/07-best-practices/03-error-handling-patterns/)
+- [Packaging and Distribution](/07-best-practices/04-packaging-distribution/)
+- [Style and Idioms](/07-best-practices/01-style-and-idioms/)
+
 ---
 
 ## Error Handling Patterns
@@ -20947,6 +21045,12 @@ Error handling in Python is about being specific and recoverable. `try`/`except`
 - [Debugging and Profiling](https://languages.wyattau.com/python/07-best-practices/02-debugging-and-profiling/)
 - [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
+
+## Related in this track
+
+- [Debugging and Profiling](/07-best-practices/02-debugging-and-profiling/)
+- [Packaging and Distribution](/07-best-practices/04-packaging-distribution/)
+- [Style and Idioms](/07-best-practices/01-style-and-idioms/)
 
 ---
 
@@ -22035,6 +22139,12 @@ Packaging turns your code into something others can install and use. `pyproject.
 - [Modules and Packages](https://go.wyattau.com/advanced/modules-and-packages/)
 - [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
 - [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
+
+## Related in this track
+
+- [Debugging and Profiling](/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/07-best-practices/03-error-handling-patterns/)
+- [Style and Idioms](/07-best-practices/01-style-and-idioms/)
 
 ---
 
@@ -23406,6 +23516,12 @@ Pythonic code is code that looks and feels like Python. PEP 8 is the style guide
 - [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/)
 - [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
 
+## Related in this track
+
+- [Debugging and Profiling](/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/07-best-practices/03-error-handling-patterns/)
+- [Packaging and Distribution](/07-best-practices/04-packaging-distribution/)
+
 ## Advanced-Topics
 
 ---
@@ -24686,6 +24802,12 @@ Advanced typing in Python adds compile-time safety to a dynamically typed langua
 - [Data Validation](https://languages.wyattau.com/python/08-advanced-topics/02-data-validation/)
 - [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
 
+## Related in this track
+
+- [Context Managers and the with Statement](/08-advanced-topics/03-context-managers/)
+- [Data Validation](/08-advanced-topics/02-data-validation/)
+- [Protocols and Dunder Methods](/08-advanced-topics/04-protocols-dunder-methods/)
+
 ---
 
 ## Context Managers
@@ -25597,6 +25719,12 @@ Context managers are Python's way of ensuring cleanup happens. The `with` statem
 - [File I/O](https://languages.wyattau.com/python/05-standard-library/02-file-io/)
 - [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/)
 - [Protocols and Dunder Methods](https://languages.wyattau.com/python/08-advanced-topics/04-protocols-dunder-methods/)
+
+## Related in this track
+
+- [Advanced Type System](/08-advanced-topics/01-advanced-typing/)
+- [Data Validation](/08-advanced-topics/02-data-validation/)
+- [Protocols and Dunder Methods](/08-advanced-topics/04-protocols-dunder-methods/)
 
 ---
 
@@ -26776,6 +26904,12 @@ Data validation ensures that input data conforms to expected shapes and types. P
 - [Advanced Typing](https://languages.wyattau.com/python/08-advanced-topics/01-advanced-typing/)
 - [Serialization](https://languages.wyattau.com/python/05-standard-library/04-serialization/)
 
+## Related in this track
+
+- [Advanced Type System](/08-advanced-topics/01-advanced-typing/)
+- [Context Managers and the with Statement](/08-advanced-topics/03-context-managers/)
+- [Protocols and Dunder Methods](/08-advanced-topics/04-protocols-dunder-methods/)
+
 ---
 
 ## Index
@@ -27737,6 +27871,12 @@ Protocols are Python's structural subtyping system: if an object has the right m
 - [Descriptors](https://languages.wyattau.com/python/04-object-oriented/03-descriptors/)
 - [Advanced Typing](https://languages.wyattau.com/python/08-advanced-topics/01-advanced-typing/)
 
+## Related in this track
+
+- [Advanced Type System](/08-advanced-topics/01-advanced-typing/)
+- [Context Managers and the with Statement](/08-advanced-topics/03-context-managers/)
+- [Data Validation](/08-advanced-topics/02-data-validation/)
+
 ## Overview
 
 ---
@@ -27843,6 +27983,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Introduction to Python](/intro/)
+- [Python Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -28035,6 +28182,13 @@ checked once stays checked and a bug can be reproduced exactly.
   the theory whose Monte Carlo checks this page's NumPy idioms implement.
 - [Probabilistic Machine Learning](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/) -
   the course whose examples assume exactly the idioms built here.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Introduction to Python](/intro/)
+- [Python Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -28659,6 +28813,13 @@ greeting = f"Hello, {name}! 2 + 2 = {2 + 2}"
 - See [Database Glossary](/glossary/) for Python database interactions
 - See [C++ Glossary](/glossary/) for compiled language comparison
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Introduction to Python](/intro/)
+
 ---
 
 ## Hub
@@ -28952,6 +29113,13 @@ Use a virtual environment for each project. Tools like `poetry`, `uv`or `pip-too
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Introduction to Python](/intro/)
+- [Python Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Index
@@ -29187,6 +29355,13 @@ Python is the language of readability: code that looks like English pseudocode a
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Data Structures](https://kotlin.wyattau.com/intermediate/collections/)
 - [Object-Oriented Programming](https://java.wyattau.com/03-object-oriented/01-classes/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Python Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -30847,3 +31022,10 @@ print(result)
 - [Complete Python Programming Study Guide](/hub/)
 - [Python Practice (Interactive)](/practice-interactive/)
 - [Practice](/practice-python-basics/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Introduction to Python](/intro/)

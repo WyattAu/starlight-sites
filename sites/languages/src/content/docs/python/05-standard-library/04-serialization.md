@@ -964,3 +964,10 @@ linked above.
 - [File I/O](/python/05-standard-library/02-file-io/): Shows how to read and write files, which is essential for saving and loading serialized data.
 - [CLI Tools](/python/05-standard-library/03-cli-tools/): Demonstrates how to use command-line interfaces to process and transform serialized data.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Explains how to validate serialized data using Pydantic models and other validation techniques.
+
+## Related in this track
+
+- [CLI Tools](/python/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/python/05-standard-library/01-essential-modules/)
+- [File I/O](/python/05-standard-library/02-file-io/)

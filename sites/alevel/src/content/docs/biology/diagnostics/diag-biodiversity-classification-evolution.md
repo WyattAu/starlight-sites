@@ -589,3 +589,10 @@ maintain genetic diversity and reduce inbreeding.
 - [Diagnostics](./)
 - [Biological Molecules -- Diagnostic Tests](/biology/diagnostics/diag-biological-molecules/)
 - [Cells -- Diagnostic Tests](/biology/diagnostics/diag-cells/)
+
+## Related in this track
+
+- [A-Level Biology -- Diagnostic Test Guide](/biology/diagnostics/diagnostic-guide/)
+- [Biological Molecules -- Diagnostic Tests](/biology/diagnostics/diag-biological-molecules/)
+- [Cells -- Diagnostic Tests](/biology/diagnostics/diag-cells/)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)

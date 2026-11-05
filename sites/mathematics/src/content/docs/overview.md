@@ -127,3 +127,10 @@ Mathematics is learned by doing, not by passive reading. Directly following a pr
 
 **Mistake 3: Treating definitions as suggestions rather than precise requirements**
 In proof-based mathematics, every word in a definition matters. For example, a "normal subgroup" requires both closure under conjugation and the subgroup property. Omitting any condition leads to incorrect results. Always verify that all parts of a definition are satisfied before applying a theorem.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)

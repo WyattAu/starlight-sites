@@ -992,3 +992,10 @@ Python variables are not boxes that contain values, they are labels stuck on obj
 - [Python Internals](/python/02-fundamentals/05-python-internals/), Integer caching, string interning, and the PyObject header explain the runtime behaviour of types introduced here.
 - [Dicts, Sets, and Collections Deep Dive](/python/03-data-structures/02-dicts-sets-counter/), The type hierarchy and immutability concepts are prerequisites for understanding dict key and set membership requirements.
 :::
+
+## Related in this track
+
+- [Control Flow](/python/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/python/02-fundamentals/06-modules-and-packages/)

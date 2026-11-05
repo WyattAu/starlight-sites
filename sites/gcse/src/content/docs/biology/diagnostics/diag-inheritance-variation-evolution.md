@@ -279,3 +279,10 @@ with genetic conditions.
 
 - **[Cell Biology](/biology/diagnostics/diag-cell-biology/):** Cell division and DNA structure.
 - **[Organisation](/biology/diagnostics/diag-organisation/):** Body systems and their functions.
+
+## Related in this track
+
+- [Bioenergetics -- Diagnostic Tests](/biology/diagnostics/diag-bioenergetics/)
+- [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)
+- [GCSE Biology -- Diagnostic Guide](/biology/diagnostics/diagnostic-guide/)

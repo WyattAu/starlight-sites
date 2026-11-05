@@ -465,3 +465,10 @@ positive normal force from the track.
 - **[Mechanics](/physics/diagnostics/diag-mechanics/):** Mechanics covers forces and motion
 - **[Waves](/physics/diagnostics/diag-waves-sound/):** Waves transfer energy
 - **[Electricity](/physics/diagnostics/diag-electrical-circuits/):** Electricity covers circuits
+
+## Related in this track
+
+- [DSE Physics Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
+- [Electrical Circuits -- Diagnostic Tests](/physics/diagnostics/diag-electrical-circuits/)
+- [Electricity and Magnetism -- Diagnostic Tests](/physics/diagnostics/diag-electricity-magnetism/)
+- [Forces and Motion -- Diagnostic Tests](/physics/diagnostics/diag-forces-motion/)

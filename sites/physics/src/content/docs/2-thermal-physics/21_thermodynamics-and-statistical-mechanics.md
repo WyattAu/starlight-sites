@@ -3310,3 +3310,10 @@ Theory](https://mathematics.wyattau.com/12-graduate-analysis/1_spectral-theory-o
 - [Thermal Physics](./)
 - [Irreversible Thermodynamics and Fluctuations](/2-thermal-physics/19_irreversible-thermodynamics-and-fluctuations/)
 - [Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)
+
+## Related in this track
+
+- [Bose-Einstein Condensation](/2-thermal-physics/5_bose-einstein-condensation/)
+- [Classical Limit and the Maxwell-Boltzmann Distribution](/2-thermal-physics/7_classical-limit-and-the-maxwell-boltzmann-distribution/)
+- [Common Pitfalls](/2-thermal-physics/8_common-pitfalls/)
+- [Fermi Gas at Finite Temperature](/2-thermal-physics/4_fermi-gas-at-finite-temperature/)

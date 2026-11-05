@@ -382,3 +382,10 @@ Where $P_s(Q)$ is the inverse supply function.
 - Representative agent assumption, ignores heterogeneity
 - Ceteris paribus is unrealistic, many variables change simultaneously
 - Doesn't account for behavioural biases (prospect theory, loss aversion)
+
+## Related in this track
+
+- [Distribution of Income](/economics/microeconomics/06-distribution-of-income/)
+- [Labour Markets](/economics/microeconomics/05-labour-markets/)
+- [Market Failure](/economics/microeconomics/03-market-failure/)
+- [The Economic Problem](/economics/microeconomics/01-the-economic-problem/)

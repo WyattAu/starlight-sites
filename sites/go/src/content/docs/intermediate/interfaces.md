@@ -317,3 +317,8 @@ implementation, and key applications.
 - **[Generics](/intermediate/generics/):** Generic programming as an alternative to interface-based abstraction.
 - **[Error Handling](/intermediate/error-handling/):** Error handling patterns using the error interface.
 - **[Practice Interfaces](/practice-interfaces/):** Practice problems covering interface design and implementation.
+
+## Related in this track
+
+- [Error Handling](/intermediate/error-handling/)
+- [Generics](/intermediate/generics/)

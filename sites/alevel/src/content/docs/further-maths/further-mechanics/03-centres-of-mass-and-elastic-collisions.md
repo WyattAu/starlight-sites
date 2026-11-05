@@ -1496,3 +1496,8 @@ The centroid travels a distance $2\pi\bar{x}$ So $V = 2\pi\bar{x}\cdot A$. $\bla
 - [Circular Motion](/further-maths/further-mechanics/02-circular-motion/) applies centripetal force analysis to particles on circular paths, complementing the linear collision analysis here.
 - [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/) provides the integration techniques used to find centres of mass of laminas and solids by continuous integration.
 - [Vectors in 3D](/further-maths/pure-mathematics/09-vectors-in-3d/) supplies the vector resolution methods needed to analyse oblique impacts where velocities have components in multiple directions.
+
+## Related in this track
+
+- [Circular Motion](/further-maths/further-mechanics/02-circular-motion/)
+- [Projectile Motion](/further-maths/further-mechanics/01-projectile-motion/)

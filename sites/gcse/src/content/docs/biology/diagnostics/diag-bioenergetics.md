@@ -249,3 +249,10 @@ sustain another trophic level.
 
 - **[Cell Biology](/biology/diagnostics/diag-cell-biology/):** Cell structures and organelles involved in energy processes.
 - **[Inheritance and Variation](/biology/diagnostics/diag-inheritance-variation-evolution/):** Genetics and evolution linked to energy metabolism.
+
+## Related in this track
+
+- [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)
+- [GCSE Biology -- Diagnostic Guide](/biology/diagnostics/diagnostic-guide/)
+- [Inheritance, Variation and Evolution -- Diagnostic Tests](/biology/diagnostics/diag-inheritance-variation-evolution/)

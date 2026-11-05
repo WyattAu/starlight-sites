@@ -942,3 +942,10 @@ Advanced patterns combine TypeScript's type-level features to create sophisticat
 - [Typescript](./)
 - [advanced types](/typescript/advanced-types/)
 - [Classes](/typescript/classes/)
+
+## Related in this track
+
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)
+- [Generics](/typescript/generics/)

@@ -1196,3 +1196,10 @@ The Cold War was like two chess grandmasters locked in a game where neither coul
 - [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/) -- Economic competition between superpowers involved supply-side policies and central planning.
 - [Game Theory and Behavioural Economics](/economics/6-game-theory/1_game-theory-and-behavioural/) -- Nuclear deterrence strategy is a real-world application of game-theoretic models.
 - [Descriptive Statistics](/economics/5-quantitative-economics/1-descriptive-statistics/) -- Comparing economic performance of the US and USSR requires the quantitative skills covered in this topic.
+
+## Related in this track
+
+- [20th Century China](/history/20th-century-china/)
+- [Authoritarian States](/history/authoritarian-states/)
+- [Causes and Effects of Wars](/history/causes-and-effects-of-wars/)
+- [Cold War Superpower Relations](/history/superpower-relations/)

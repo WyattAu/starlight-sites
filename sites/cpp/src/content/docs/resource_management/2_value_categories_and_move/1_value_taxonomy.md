@@ -912,3 +912,10 @@ C++ value categories determine how expressions are treated: lvalues have identit
 - [Move Constructors and RVO](https://programming.wyattau.com/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
 - [Reference Collapsing](https://programming.wyattau.com/resource_management/2_value_categories_and_move/2_reference_collapsing/)
 - [RAII Patterns](https://programming.wyattau.com/resource_management/1_ownership_and_raii/1_raii_patterns/)
+
+## Related in this track
+
+- [Move Constructors, Assignment, Swap Idiom](/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Return Value Optimization (RVO) and NRVO](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)

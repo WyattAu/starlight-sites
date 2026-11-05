@@ -695,3 +695,10 @@ do not change.
 - [Machine Learning](./)
 - [About This Site](/about/)
 - [Machine Learning](/intro/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Machine Learning](/intro/)
+- [Machine Learning Deep Dive](/machine-learning-deep-dive/)
+- [Machine Learning Fundamentals Study Guide](/hub/)

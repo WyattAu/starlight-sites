@@ -478,3 +478,9 @@ implementation, and key applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [Conan | C++ - Wyatt's Notes](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)
+- [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)

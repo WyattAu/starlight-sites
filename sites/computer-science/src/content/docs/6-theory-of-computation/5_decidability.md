@@ -289,3 +289,10 @@ about $B$.
 4. **Using Rice's theorem incorrectly.** Rice's theorem applies to non-trivial properties of the _language_ recognised by a TM, not properties of the TM itself. "Does this TM have 5 states?" is not a property of the language and is therefore decidable. "Does this TM accept a regular language?" is a property of the language and is undecidable by Rice's theorem.
 
 5. **Assuming oracles resolve undecidability.** An oracle for the halting problem lets a TM decide the halting problem, but it cannot decide the halting problem _relative to itself_ (the Turing jump). Oracles create a strict hierarchy, each level of oracle makes some problems decidable but introduces new undecidable problems at a higher level.
+
+## Related in this track
+
+- [Complexity Theory](/6-theory-of-computation/6_complexity-theory/)
+- [Context-Free Languages](/6-theory-of-computation/3_context-free-languages/)
+- [Introduction](/6-theory-of-computation/1_introduction/)
+- [Problem Set](/6-theory-of-computation/7_problem-set/)

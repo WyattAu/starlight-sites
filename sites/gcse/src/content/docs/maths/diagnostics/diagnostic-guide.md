@@ -174,3 +174,10 @@ This page includes:
 - [Diagnostics](./)
 - [Algebra -- Diagnostic Tests](/maths/diagnostics/diag-algebra/)
 - [Geometry -- Diagnostic Tests](/maths/diagnostics/diag-geometry/)
+
+## Related in this track
+
+- [Algebra -- Diagnostic Tests](/maths/diagnostics/diag-algebra/)
+- [Geometry -- Diagnostic Tests](/maths/diagnostics/diag-geometry/)
+- [Number -- Diagnostic Tests](/maths/diagnostics/diag-number/)
+- [Ratio, Proportion, and Rates of Change -- Diagnostic Tests](/maths/diagnostics/diag-ratio-proportion/)

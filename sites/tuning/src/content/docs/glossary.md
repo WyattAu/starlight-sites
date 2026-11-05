@@ -168,3 +168,10 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-
 | LLC level | Droop compensation strength (moderate beats maximum) |
 
 </div>
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Introduction to Hardware Tuning](/intro/)
+- [PSU Selection and BIOS Configuration](/psu-and-bios-guide/)
+- [Performance Tuning and Optimization Guide](/hub/)

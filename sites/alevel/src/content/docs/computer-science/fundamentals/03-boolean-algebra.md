@@ -907,3 +907,10 @@ Boolean algebra is the mathematics of yes-or-no decisions. Every statement is ei
 The power of Boolean algebra lies in its ability to simplify. Two expressions that look completely different on paper may produce identical outputs for every possible input, they are logically equivalent. Laws like De Morgan's theorem, distribution, and absorption let you rewrite expressions into simpler forms. This is not just an academic exercise: in hardware, fewer logic gates means cheaper, faster, and more energy-efficient circuits. In software, simplifying Boolean conditions makes code easier to read and less error-prone.
 
 Karnaugh maps turn simplification into a visual puzzle. By arranging truth table values in a grid where adjacent cells differ by exactly one bit, you can spot groups of 1s that correspond to simplified terms. The human eye is excellent at finding patterns in 2D layouts, and K-maps exploit this to make simplification almost mechanical. For expressions with more variables, the same principles underlie algorithms like Quine-McCluskey, which computers can apply systematically. The core idea remains the same: find the smallest set of terms that covers all the cases where the output is 1.
+
+## Related in this track
+
+- [Computer Architecture](/computer-science/fundamentals/04-computer-architecture/)
+- [Floating Point Representation](/computer-science/fundamentals/02-floating-point/)
+- [Legal, Ethical, and Moral Issues](/computer-science/fundamentals/06-legal-ethical-moral/)
+- [Number Systems](/computer-science/fundamentals/01-number-systems/)

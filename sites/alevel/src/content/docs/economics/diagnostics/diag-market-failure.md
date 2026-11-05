@@ -477,3 +477,10 @@ unintended consequences that make the original problem worse.
 - **[Demand and Supply](/economics/diagnostics/diag-demand-supply/):** Market failure occurs when allocation is inefficient
 - **[Theory of the Firm](/economics/diagnostics/diag-theory-of-the-firm/):** Firm behaviour relates to market structure
 - **[Fiscal Policy](/economics/macro/04-fiscal-policy/):** Government intervention corrects failures
+
+## Related in this track
+
+- [A-Level Economics -- Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
+- [Demand, Supply, and Equilibrium -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply/)
+- [Macroeconomic Policy -- Diagnostic Tests](/economics/diagnostics/diag-macroeconomic-policy/)
+- [Theory of the Firm -- Diagnostic Tests](/economics/diagnostics/diag-theory-of-the-firm/)

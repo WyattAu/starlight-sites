@@ -171,3 +171,10 @@ Functional analysis developed from concrete problems in integral equations, quan
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Inner Product Spaces and Hilbert Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/)

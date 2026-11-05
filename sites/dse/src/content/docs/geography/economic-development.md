@@ -248,3 +248,10 @@ Economic development is the process of climbing a ladder, each rung represents h
 - [Geography](./)
 - [Agricultural Systems and Food Security](/geography/agriculture/)
 - [Weather and Climate](/geography/climate/)
+
+## Related in this track
+
+- [Agricultural Systems and Food Security](/geography/agriculture/)
+- [DSE Geography](/geography/intro/)
+- [Population and Migration](/geography/population/)
+- [Resources and Sustainability](/geography/resources/)

@@ -835,3 +835,8 @@ Processes are like workers in a factory -- each has a task (program), a workspac
 - [Shell Basics](/01-cli-fundamentals/shell-basics/) -- The shell is a process that creates and manages child processes.
 - [File Permissions](/02-file-systems/file-permissions/) -- Process credentials determine which file permissions apply during execution.
 :::
+
+## Related in this track
+
+- [Cron and Task Scheduling](/03-process-management/cron-and-scheduling/)
+- [I/O Redirection and Pipes](/03-process-management/io-redirection/)

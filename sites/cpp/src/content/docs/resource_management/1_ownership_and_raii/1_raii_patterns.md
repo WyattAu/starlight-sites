@@ -572,3 +572,10 @@ RAII (Resource Acquisition Is Initialization) is C++'s most important idiom: tie
 - [Unique Ptr](https://programming.wyattau.com/resource_management/1_ownership_and_raii/2_unique_ptr/)
 - [Shared Ptr](https://programming.wyattau.com/resource_management/1_ownership_and_raii/3_shared_ptr/)
 - [Move Constructors and RVO](https://programming.wyattau.com/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+
+## Related in this track
+
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)

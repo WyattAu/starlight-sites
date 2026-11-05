@@ -853,3 +853,10 @@ To show $K$ is closed, suppose $x$ is a limit point of $K$ but $x \notin K$. For
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)

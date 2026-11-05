@@ -254,3 +254,7 @@ Migration is the calculus of human decision-making: individuals weigh gradients 
 
 ## Worked Examples
 
+## Related in this track
+
+- [Demographic Transition Model](/geography/population/demographic-transition-model/)
+- [Population Policies](/geography/population/population-policies/)

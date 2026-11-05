@@ -461,3 +461,9 @@ Main-group chemistry encompasses the s-block and p-block elements, which togethe
 
 - [Thermodynamics](https://physics.wyattau.com/thermodynamics/)
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
+
+## Related in this track
+
+- [Atomic Structure and Periodicity](/3-inorganic-chemistry/atomic-structure-and-periodicity/)
+- [Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/)
+- [Solid-State Chemistry](/3-inorganic-chemistry/solid-state-chemistry/)

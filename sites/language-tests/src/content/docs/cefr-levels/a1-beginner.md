@@ -122,3 +122,9 @@ See you soon, Marie"
 - [A2 Elementary](/cefr-levels/a2-elementary/) - Next level
 - Practice Tests - Test your knowledge
 
+## Related in this track
+
+- [A2 Elementary Level | language-tests](/cefr-levels/a2-elementary/)
+- [B1 Intermediate Level | language-tests](/cefr-levels/b1-intermediate/)
+- [B2 Upper Intermediate Level | language-tests](/cefr-levels/b2-upper-intermediate/)
+- [C1 Advanced Level | language-tests](/cefr-levels/c1-advanced/)

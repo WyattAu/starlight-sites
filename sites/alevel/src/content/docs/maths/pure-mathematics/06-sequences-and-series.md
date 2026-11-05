@@ -1022,3 +1022,10 @@ building a personal test matrix.
 - [Functions](/maths/pure-mathematics/05-functions/), Exponential and logarithmic functions arise in the analysis of geometric series convergence.
 - [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/), Solving equations for unknown parameters in sequences draws on the equation-solving methods developed here.
 :::
+
+## Related in this track
+
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/)
+- [Binomial Expansion](/maths/pure-mathematics/07-binomial-expansion/)
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/)
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/)

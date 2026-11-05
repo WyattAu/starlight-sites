@@ -712,3 +712,10 @@ In $\text{AlCl}_3$, aluminium has only 6 electrons in its valence shell (electro
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)
+- [Chemistry](/intro/)
+- [Chemistry Glossary, Key Terms and Definitions](/glossary/)

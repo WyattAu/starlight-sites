@@ -187,3 +187,8 @@ data |> fetch() |> parse() |> save()
 - See [Haskell Glossary](/glossary/) for functional programming comparison
 - See [Programming Glossary](/glossary/) for general programming concepts
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Elixir Programming Study Guide](/hub/)

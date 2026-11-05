@@ -128,6 +128,13 @@ graph TD
     C --> D[Practice]
 ```
 
+## Related in this track
+
+- [Admissions](/intro/)
+- [BMO Preparation](/bmo-preparation/)
+- [IMO Preparation](/imo-preparation/)
+- [MAT Preparation](/mat-preparation/)
+
 ---
 
 ## Bmo Preparation
@@ -793,6 +800,13 @@ When working with bmo preparation, follow a structured approach:
 
 </div>
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Admissions](/intro/)
+- [IMO Preparation](/imo-preparation/)
+- [MAT Preparation](/mat-preparation/)
+
 ---
 
 ## Flashcards Admissions
@@ -1065,6 +1079,13 @@ graph TD
     B --> C[Example]
     C --> D[Practice]
 ```
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Admissions](/intro/)
+- [BMO Preparation](/bmo-preparation/)
+- [IMO Preparation](/imo-preparation/)
 
 ---
 
@@ -1482,6 +1503,13 @@ Rejection is painful but common, even the most qualified applicants are rejected
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Admissions](/intro/)
+- [BMO Preparation](/bmo-preparation/)
+- [IMO Preparation](/imo-preparation/)
 
 ---
 
@@ -2348,6 +2376,13 @@ When working with imo preparation, follow a structured approach:
 
 </div>
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Admissions](/intro/)
+- [BMO Preparation](/bmo-preparation/)
+- [MAT Preparation](/mat-preparation/)
+
 ---
 
 ## Index
@@ -2541,6 +2576,13 @@ graph TD
     B --> C[Example]
     C --> D[Practice]
 ```
+
+## Related in this track
+
+- [About This Site](/about/)
+- [BMO Preparation](/bmo-preparation/)
+- [IMO Preparation](/imo-preparation/)
+- [MAT Preparation](/mat-preparation/)
 
 ---
 
@@ -3297,6 +3339,13 @@ When working with mat preparation, follow a structured approach:
 | Probability      | WyattsNotes  | [View](https://alevel.wyattau.com/maths/statistics/03-probability/)                                        |
 
 </div>
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Admissions](/intro/)
+- [BMO Preparation](/bmo-preparation/)
+- [IMO Preparation](/imo-preparation/)
 
 ---
 
@@ -4137,6 +4186,13 @@ When working with step preparation, follow a structured approach:
 
 </div>
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Admissions](/intro/)
+- [BMO Preparation](/bmo-preparation/)
+- [IMO Preparation](/imo-preparation/)
+
 ---
 
 ## Tmua Preparation
@@ -4725,3 +4781,10 @@ When working with tmua preparation, follow a structured approach:
 | Real Analysis        | WyattsNotes | [View](https://mathematics.wyattau.com/3-real-analysis/)   |
 
 </div>
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Admissions](/intro/)
+- [BMO Preparation](/bmo-preparation/)
+- [IMO Preparation](/imo-preparation/)

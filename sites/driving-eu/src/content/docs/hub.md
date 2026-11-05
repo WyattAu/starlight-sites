@@ -292,3 +292,8 @@ The process varies by country. Generally, you must be a resident of the country,
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [EU Driving Test Glossary, Key Terms](/glossary/)

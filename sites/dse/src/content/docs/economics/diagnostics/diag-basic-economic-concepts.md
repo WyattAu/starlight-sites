@@ -500,3 +500,10 @@ costs less there, even accounting for transport and coordination costs.
 - [Diagnostics](./)
 - [Demand, Supply, and Markets -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply-markets/)
 - [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)
+
+## Related in this track
+
+- [DSE Economics -- Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
+- [Demand, Supply, and Markets -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply-markets/)
+- [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)
+- [International Trade and Finance -- Diagnostic Tests](/economics/diagnostics/diag-international-trade/)

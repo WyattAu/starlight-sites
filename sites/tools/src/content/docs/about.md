@@ -109,3 +109,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Developer Tools Glossary, Key Terms and Definitions](/glossary/)
+- [Developer Tools Guide, Testing, Debugging, CI/CD](/hub/)
+- [Kubernetes and Docker](/kubernetes-docker/)

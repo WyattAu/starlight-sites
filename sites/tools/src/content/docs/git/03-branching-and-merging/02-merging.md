@@ -420,3 +420,9 @@ Merging combines two branches' histories into one. A fast-forward merge is a sim
 - [Branching](/git/03-branching-and-merging/01-branching/)
 - [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/)
 - [Rebasing](/git/03-branching-and-merging/03-rebasing/)
+
+## Related in this track
+
+- [Branching](/git/03-branching-and-merging/01-branching/)
+- [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/)
+- [Rebasing](/git/03-branching-and-merging/03-rebasing/)

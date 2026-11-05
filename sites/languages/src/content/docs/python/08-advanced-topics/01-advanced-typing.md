@@ -1261,3 +1261,9 @@ $\blacksquare$
 - [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- Iterator and generator types are expressible using `Iterator[T]` and `Generator[T]` generics.
 - [Protocols and Abstract Base Classes](/python/08-advanced-topics/04-protocols-dunder-methods/) -- Structural subtyping via Protocol extends the type system beyond nominal inheritance.
 - [Dataclasses and Attrs](https://java.wyattau.com/03-object-oriented/01-classes/) -- `dataclass_transform` bridges type hints and dataclass-style class creation.
+
+## Related in this track
+
+- [Context Managers and the with Statement](/python/08-advanced-topics/03-context-managers/)
+- [Data Validation](/python/08-advanced-topics/02-data-validation/)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/)

@@ -954,3 +954,8 @@ Async Rust is like a restaurant with a single waiter who can handle many tables.
 - [Concurrency](https://java.wyattau.com/06-concurrency/01-concurrency/)
 - [Channels and Message Passing](https://languages.wyattau.com/rust/06-concurrency/channels-and-message-passing/)
 - [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/)
+
+## Related in this track
+
+- [Channels and Message Passing](/06-concurrency/channels-and-message-passing/)
+- [Concurrency](/06-concurrency/concurrency/)

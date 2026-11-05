@@ -1155,3 +1155,8 @@ linked above.
 - [Differential Calculus](https://hsc.wyattau.com/mathematics/calculus/) covers differentiation techniques that integration reverses, forming the fundamental theorem of calculus.
 - [Integral Calculus](https://hsc.wyattau.com/mathematics/calculus/) applies these integration techniques to calculate areas, volumes, and accumulated quantities.
 - Series and Differential Equations connects integration methods to infinite series and solutions of differential equations.
+
+## Related in this track
+
+- [Differential Equations](/maths/5-calculus/5_differential-equations/)
+- [Sequences and Series](/maths/5-calculus/6_sequences-and-series/)

@@ -488,3 +488,10 @@ the project generates HK$1.72 of benefits for every HK$1 of cost. The government
 - **[Market Failure](/economics/diagnostics/diag-market-failure/):** Market failure analysis is key
 - **[Fiscal Policy](/economics/diagnostics/diag-fiscal-monetary-policy/):** Policy addresses economic issues
 - **[Macroeconomics](/economics/flashcards-macroeconomics/):** Macroeconomics covers indicators
+
+## Related in this track
+
+- [Basic Economic Concepts -- Diagnostic Tests](/economics/diagnostics/diag-basic-economic-concepts/)
+- [DSE Economics -- Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
+- [Demand, Supply, and Markets -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply-markets/)
+- [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)

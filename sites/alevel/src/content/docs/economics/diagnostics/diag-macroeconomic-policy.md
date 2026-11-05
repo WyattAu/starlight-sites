@@ -497,3 +497,10 @@ offset by other factors (e.g., falling inflation boosts real incomes).
 - **[Fiscal Policy](/economics/macro/04-fiscal-policy/):** Macroeconomic policy includes fiscal decisions
 - **[Demand and Supply](/economics/diagnostics/diag-demand-supply/):** Aggregate demand and supply are macro concepts
 - **[Market Failure](/economics/diagnostics/diag-market-failure/):** Policy addresses market failures
+
+## Related in this track
+
+- [A-Level Economics -- Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
+- [Demand, Supply, and Equilibrium -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply/)
+- [Market Failure -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)
+- [Theory of the Firm -- Diagnostic Tests](/economics/diagnostics/diag-theory-of-the-firm/)

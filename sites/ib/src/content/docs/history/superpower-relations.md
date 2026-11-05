@@ -295,3 +295,10 @@ Cold War superpower relations operated like two magnets held close together -- t
 - [History](./)
 - [20th Century China](/history/20th-century-china/)
 - [Authoritarian States](/history/authoritarian-states/)
+
+## Related in this track
+
+- [20th Century China](/history/20th-century-china/)
+- [Authoritarian States](/history/authoritarian-states/)
+- [Causes and Effects of Wars](/history/causes-and-effects-of-wars/)
+- [Democratic States](/history/democratic-states/)

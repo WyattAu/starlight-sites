@@ -177,3 +177,10 @@ Working through quantum mechanics problems builds physical intuition about the c
 **Confusing the time-independent and time-dependent Schrödinger equations:** The time-independent form gives energy eigenstates; the time-dependent form describes evolution. Using the wrong one gives stationary vs evolving solutions.
 
 **Neglecting boundary conditions at potential steps:** At a potential discontinuity, ψ and dψ/dx must be continuous. Forgetting continuity of the derivative gives wrong transmission/reflection coefficients.
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)

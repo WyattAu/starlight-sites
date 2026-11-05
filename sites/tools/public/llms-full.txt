@@ -110,6 +110,12 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Developer Tools Glossary, Key Terms and Definitions](/glossary/)
+- [Developer Tools Guide, Testing, Debugging, CI/CD](/hub/)
+- [Kubernetes and Docker](/kubernetes-docker/)
+
 ---
 
 ## Glossary
@@ -376,6 +382,12 @@ URL: https://tools.wyattau.com/glossary/
 - See [Networking Glossary](/glossary/) for network concepts
 - See [Security Glossary](/glossary/) for security practices
 - See [Databases Glossary](/glossary/) for database tools
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Developer Tools Guide, Testing, Debugging, CI/CD](/hub/)
+- [Kubernetes and Docker](/kubernetes-docker/)
 
 ---
 
@@ -873,6 +885,12 @@ Not necessarily. Docker adds complexity that is only justified when you need con
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Developer Tools Glossary, Key Terms and Definitions](/glossary/)
+- [Kubernetes and Docker](/kubernetes-docker/)
+
 ---
 
 ## Index
@@ -1215,6 +1233,12 @@ containers. Kubernetes orchestrates containers at scale with automated
 scheduling, scaling, and self-healing. Together they form the foundation
 of modern cloud-native architecture. Docker handles the build/package
 stage; Kubernetes handles the deploy/run stage.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Developer Tools Glossary, Key Terms and Definitions](/glossary/)
+- [Developer Tools Guide, Testing, Debugging, CI/CD](/hub/)
 
 ---
 
@@ -2557,6 +2581,11 @@ $\blacksquare$
 - Dynamic Programming -- Segment trees are often combined with DP for efficient range query solutions.
 - [Deques and Priority Queues](/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues/) -- Priority queues underpin Dijkstra's algorithm when combined with segment trees.
 
+## Related in this track
+
+- [Advanced Graph Algorithms](/algorithms/07-graph-algorithms/advanced-graph-algorithms/)
+- [Graph Algorithms](/algorithms/07-graph-algorithms/graph-algorithms/)
+
 ---
 
 ## Advanced Graph Algorithms
@@ -3559,6 +3588,11 @@ $\blacksquare$
 - Dynamic Programming -- Floyd-Warshall is a classic all-pairs shortest path algorithm using dynamic programming.
 - [Binary Search Trees](/algorithms/04-trees-graphs/binary-search-trees/) -- Priority queues used in Dijkstra's algorithm are implemented using heap-based trees.
 - [Deques and Priority Queues](/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues/) -- Priority queues are essential for efficient implementations of shortest path algorithms.
+
+## Related in this track
+
+- [Advanced Data Structures](/algorithms/07-graph-algorithms/advanced-data-structures/)
+- [Graph Algorithms](/algorithms/07-graph-algorithms/graph-algorithms/)
 
 ---
 
@@ -5653,6 +5687,11 @@ balanced trees, including key theorems, methods, and problem-solving approaches.
 - Dynamic Programming -- Tree DP and memoisation on tree structures are key techniques in dynamic programming.
 - [Advanced Data Structures](/algorithms/07-graph-algorithms/advanced-data-structures/) -- Segment trees and Fenwick trees extend BST principles to range query problems.
 :::
+
+## Related in this track
+
+- [Trees and Graphs](/algorithms/04-trees-graphs/trees-and-graphs/)
+- [Tries and String Algorithms](/algorithms/04-trees-graphs/trie-and-pattern-matching/)
 
 ---
 
@@ -8447,6 +8486,11 @@ The hardest part of DP is in most cases defining the right state, what informati
 
 Once you have the right state, the transition is in most cases straightforward: try all possible "last moves" and take the best one. The key to efficiency is recognizing when you can reduce the state space: rolling arrays when you only need the previous row, coordinate compression when values are large but few, and sparse representations when most states are unreachable. And always, always check your base cases by hand before coding, a missing or wrong base case is the most common DP bug.
 
+## Related in this track
+
+- [Dynamic Programming](/algorithms/06-dynamic-programming/dynamic-programming/)
+- [Greedy Algorithms](/algorithms/06-dynamic-programming/greedy-algorithms/)
+
 ---
 
 ## Dynamic Programming
@@ -9436,6 +9480,11 @@ linked above.
 - **[DP Patterns](/algorithms/06-dynamic-programming/dp-patterns/):** Decision framework for identifying which DP pattern applies to a given problem.
 - **[Sorting Algorithms](/algorithms/05-sorting/sorting/):** Sorting techniques that can be combined with DP for optimisation problems.
 - **[Hashing and Hash Tables](/algorithms/02-arrays-strings/hashing-and-hash-tables/):** Hash-based data structures used for memoisation in top-down DP implementations.
+
+## Related in this track
+
+- [Dynamic Programming Patterns](/algorithms/06-dynamic-programming/dp-patterns/)
+- [Greedy Algorithms](/algorithms/06-dynamic-programming/greedy-algorithms/)
 
 ---
 
@@ -10499,6 +10548,11 @@ key theorems, methods, and problem-solving approaches.
 - [Deques and Priority Queues](/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues/) -- Priority queues are the key data structure for efficient Dijkstra and Prim implementations.
 :::
 
+## Related in this track
+
+- [Advanced Data Structures](/algorithms/07-graph-algorithms/advanced-data-structures/)
+- [Advanced Graph Algorithms](/algorithms/07-graph-algorithms/advanced-graph-algorithms/)
+
 ---
 
 ## Greedy Algorithms
@@ -11093,6 +11147,11 @@ def greedy_set_cover(universe, subsets):
 
 - [Dynamic Programming Patterns](/algorithms/06-dynamic-programming/dp-patterns/)
 - [Dynamic Programming](/algorithms/06-dynamic-programming/dynamic-programming/)
+
+## Related in this track
+
+- [Dynamic Programming](/algorithms/06-dynamic-programming/dynamic-programming/)
+- [Dynamic Programming Patterns](/algorithms/06-dynamic-programming/dp-patterns/)
 
 ---
 
@@ -15088,6 +15147,11 @@ linked above.
 - [Binary Search Trees and Balanced Trees](/algorithms/04-trees-graphs/binary-search-trees/)
 - [Tries and String Algorithms](/algorithms/04-trees-graphs/trie-and-pattern-matching/)
 
+## Related in this track
+
+- [Binary Search Trees and Balanced Trees](/algorithms/04-trees-graphs/binary-search-trees/)
+- [Tries and String Algorithms](/algorithms/04-trees-graphs/trie-and-pattern-matching/)
+
 ---
 
 ## Trie And Pattern Matching
@@ -15889,6 +15953,11 @@ def boyer_moore_search(text, pattern):
     return matches
 ```
 :::
+
+## Related in this track
+
+- [Binary Search Trees and Balanced Trees](/algorithms/04-trees-graphs/binary-search-trees/)
+- [Trees and Graphs](/algorithms/04-trees-graphs/trees-and-graphs/)
 
 ## Diagnostics
 
@@ -24607,6 +24676,11 @@ $\blacksquare$
 - [Introduction to Git](/git/01-intro/)
 - [Best Practices](/git/07-best-practices/)
 
+## Related in this track
+
+- [Best Practices](/git/07-best-practices/)
+- [Introduction to Git](/git/01-intro/)
+
 ---
 
 ## Best Practices
@@ -24946,6 +25020,11 @@ git config --global alias.save "stash push -m"
 - [Introduction to Git](/git/01-intro/)
 - [Advanced Git Commands](/git/advanced-git-commands/)
 
+## Related in this track
+
+- [Advanced Git Commands](/git/advanced-git-commands/)
+- [Introduction to Git](/git/01-intro/)
+
 ---
 
 ## Bisect
@@ -25068,6 +25147,13 @@ The `run` command will:
 - [Reflog](/git/05-advanced-topics/01-reflog/)
 - [Stash](/git/05-advanced-topics/02-stash/)
 - [Submodules](/git/05-advanced-topics/04-submodules/)
+
+## Related in this track
+
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+- [Git Hooks](/git/05-advanced-topics/07-hooks/)
 
 ---
 
@@ -25430,6 +25516,12 @@ Branching in Git is like creating a parallel universe: you can experiment freely
 - [Introduction to Git](/zh/algorithms/intro/)
 - [Merging](/git/03-branching-and-merging/02-merging/)
 - [Git Workflows](/git/04-remotes-and-workflows/02-workflows/)
+
+## Related in this track
+
+- [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/)
+- [Merging](/git/03-branching-and-merging/02-merging/)
+- [Rebasing](/git/03-branching-and-merging/03-rebasing/)
 
 ---
 
@@ -26152,6 +26244,13 @@ implementation, and key applications.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) shows how cherry-picked commits are pushed to shared branches after selective application.
 - [Branching](/git/03-branching-and-merging/01-branching/) provides the branch context in which cherry-pick operations target specific commits.
 - [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/) addresses the merge conflicts that can arise when cherry-picked commits overlap with other changes.
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+- [Git Hooks](/git/05-advanced-topics/07-hooks/)
 
 ---
 
@@ -27050,6 +27149,13 @@ implementation, and key applications.
 - [Branching](/git/03-branching-and-merging/01-branching/) shows how signed commits maintain integrity across branch operations and merges.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) explains how signed commits are verified during push and pull operations with remote repositories.
 
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+- [Git Hooks](/git/05-advanced-topics/07-hooks/)
+
 ---
 
 ## Conflict Resolution
@@ -27411,6 +27517,12 @@ linked above.
 - **[Merging](/git/03-branching-and-merging/02-merging/):** Integration strategy that can produce conflicts requiring resolution.
 - **[Rebasing](/git/03-branching-and-merging/03-rebasing/):** Alternative integration strategy that avoids merge commits but replays commits.
 - **[Branching](/git/03-branching-and-merging/01-branching/):** Branch creation and management fundamentals that lead to parallel development.
+
+## Related in this track
+
+- [Branching](/git/03-branching-and-merging/01-branching/)
+- [Merging](/git/03-branching-and-merging/02-merging/)
+- [Rebasing](/git/03-branching-and-merging/03-rebasing/)
 
 ---
 
@@ -28236,6 +28348,13 @@ practical implementation, and key applications.
 - [Git Objects](/git/02-fundamentals/02-git-objects/) covers the object model that filter-repo rewrites when removing or modifying commits.
 - [Reflog](/git/05-advanced-topics/01-reflog/) provides a safety net for recovering references after history rewriting operations.
 
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Git Hooks](/git/05-advanced-topics/07-hooks/)
+
 ---
 
 ## Git Directory Structure
@@ -28489,6 +28608,11 @@ $ git reflog expire --expire=now --all
 $ git gc --prune=now
 ```
 :::
+
+## Related in this track
+
+- [Hash Algorithm](/git/06-internals/03-hash-algorithm/)
+- [Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/)
 
 ---
 
@@ -28926,6 +29050,11 @@ linked above.
 - **[References](/git/02-fundamentals/03-references/):** Covers Git refs including branches and tags that point to commit objects.
 - **[The Three Trees](/git/02-fundamentals/01-the-three-trees/):** Explains the working directory, staging area, and repository where objects are stored.
 - **[Branching](/git/03-branching-and-merging/01-branching/):** Branch creation and management that relies on the commit object model.
+
+## Related in this track
+
+- [References](/git/02-fundamentals/03-references/)
+- [The Three Trees](/git/02-fundamentals/01-the-three-trees/)
 
 ---
 
@@ -30656,6 +30785,13 @@ practical implementation, and key applications.
 - [Pre-commit Framework](/git/05-advanced-topics/09-pre-commit-framework/) -- Pre-commit hooks complement CI/CD by catching issues locally before they reach the pipeline.
 - Code Review Practices -- Pull request workflows and review processes integrate with CI checks in GitHub Actions.
 
+## Related in this track
+
+- [Branching Strategies](/git/04-remotes-and-workflows/02-workflows/)
+- [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/)
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/)
+- [Transfer Protocols and Authentication](/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)
+
 ---
 
 ## Hash Algorithm
@@ -30846,6 +30982,11 @@ Hashing is like a fingerprint for data. Just as a fingerprint uniquely identifie
 
 - [Git Directory Structure](/git/06-internals/01-git-directory-structure/) - How hashed objects are stored in the .git directory
 - [Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/) - How Git manages object lifecycle using hashes
+
+## Related in this track
+
+- [Git Directory Structure](/git/06-internals/01-git-directory-structure/)
+- [Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/)
 
 ---
 
@@ -31816,6 +31957,13 @@ implementation, and key applications.
 - [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/) selectively applies commits where hooks may trigger on the newly applied changes.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) shows how hooks interact with server-side workflows during push and receive operations.
 
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+
 ---
 
 ## Index
@@ -32170,6 +32318,11 @@ Git is a time machine for your code. Every commit is a snapshot you can return t
 - [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/)
 - [Branching and Merging](/git/03-branching-and-merging/01-branching/)
 - [Advanced Git Commands](/git/advanced-git-commands/)
+
+## Related in this track
+
+- [Advanced Git Commands](/git/advanced-git-commands/)
+- [Best Practices](/git/07-best-practices/)
 
 ---
 
@@ -32586,6 +32739,12 @@ Merging combines two branches' histories into one. A fast-forward merge is a sim
 - [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/)
 - [Rebasing](/git/03-branching-and-merging/03-rebasing/)
 
+## Related in this track
+
+- [Branching](/git/03-branching-and-merging/01-branching/)
+- [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/)
+- [Rebasing](/git/03-branching-and-merging/03-rebasing/)
+
 ---
 
 ## Packing And Garbage Collection
@@ -32719,6 +32878,11 @@ $ git gc
 # Prune ALL unreachable objects immediately
 $ git gc --prune=now
 ```
+
+## Related in this track
+
+- [Git Directory Structure](/git/06-internals/01-git-directory-structure/)
+- [Hash Algorithm](/git/06-internals/03-hash-algorithm/)
 
 ---
 
@@ -33732,6 +33896,13 @@ practical implementation, and key applications.
 - [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/) -- Git hooks are a core Git feature; pre-commit provides a declarative wrapper around them.
 - Code Review -- Automated linting via pre-commit reduces review burden by catching style issues before submission.
 
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+
 ---
 
 ## Pull Requests
@@ -34014,6 +34185,13 @@ linked above.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) provides the push and fetch mechanics that underpin pull request creation and merging.
 - [Workflows](/git/04-remotes-and-workflows/02-workflows/) defines the team conventions within which pull requests operate as the review mechanism.
 - [Merging](/git/03-branching-and-merging/02-merging/) covers the merge strategies used when integrating pull request branches.
+
+## Related in this track
+
+- [Branching Strategies](/git/04-remotes-and-workflows/02-workflows/)
+- [GitHub Actions CI/CD Patterns](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/)
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/)
+- [Transfer Protocols and Authentication](/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)
 
 ---
 
@@ -34454,6 +34632,12 @@ linked above.
 - **[Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/):** Handles merge conflicts that arise during both merging and rebasing.
 - **[Branching](/git/03-branching-and-merging/01-branching/):** Branch creation and management fundamentals that underpin rebasing workflows.
 
+## Related in this track
+
+- [Branching](/git/03-branching-and-merging/01-branching/)
+- [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/)
+- [Merging](/git/03-branching-and-merging/02-merging/)
+
 ---
 
 ## References
@@ -34831,6 +35015,11 @@ linked above.
 - **[The Three Trees](/git/02-fundamentals/01-the-three-trees/):** Explains the working directory, staging area, and repository lifecycle.
 - **[Branching](/git/03-branching-and-merging/01-branching/):** Branch creation and management that uses references to track commit history.
 
+## Related in this track
+
+- [Git Objects](/git/02-fundamentals/02-git-objects/)
+- [The Three Trees](/git/02-fundamentals/01-the-three-trees/)
+
 ---
 
 ## Reflog
@@ -35021,6 +35210,13 @@ $ git gc --prune=now
 
 # WARNING: This permanently deletes unreachable objects
 ```
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
 
 ---
 
@@ -35507,6 +35703,13 @@ linked above.
 - [Branching](/git/03-branching-and-merging/01-branching/) covers the local branching operations that determine what gets pushed to remotes.
 - [Workflows](/git/04-remotes-and-workflows/02-workflows/) defines the team conventions for how remote operations are structured and coordinated.
 - [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/) extends remote operations into code review and collaborative merge processes.
+
+## Related in this track
+
+- [Branching Strategies](/git/04-remotes-and-workflows/02-workflows/)
+- [GitHub Actions CI/CD Patterns](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/)
+- [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/)
+- [Transfer Protocols and Authentication](/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)
 
 ---
 
@@ -36548,6 +36751,13 @@ theory, practical implementation, and key applications.
 - [Git Objects](/git/02-fundamentals/02-git-objects/) explains the object storage model that partial clone selectively downloads.
 - [Branching](/git/03-branching-and-merging/01-branching/) shows how sparse checkout works with branch-specific directory filtering.
 
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+
 ---
 
 ## Stash
@@ -36639,6 +36849,13 @@ git stash pop
 
 - [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/) - Basic Git commands
 - [Git Branching](/git/03-branching-and-merging/01-branching/) - Branch management
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
 
 ---
 
@@ -36733,6 +36950,13 @@ $ git clone --recurse-submodules https://github.com/user/project.git
 # Initialize submodules after cloning
 $ git submodule update --init --recursive
 ```
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
 
 ---
 
@@ -37364,6 +37588,13 @@ implementation, and key applications.
 - **[Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/):** Selective commit application technique that complements subtree operations.
 - **[Worktrees](/git/05-advanced-topics/05-worktrees/):** Multiple working directories for parallel development alongside subtree management.
 
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
+
 ---
 
 ## The Three Trees
@@ -37695,6 +37926,11 @@ Git's three trees are the working directory (your desk), the staging area (your 
 
 - [Introduction to Git](/zh/algorithms/intro/)
 - [Branching](/git/03-branching-and-merging/01-branching/)
+- [References](/git/02-fundamentals/03-references/)
+
+## Related in this track
+
+- [Git Objects](/git/02-fundamentals/02-git-objects/)
 - [References](/git/02-fundamentals/03-references/)
 
 ---
@@ -38679,6 +38915,13 @@ theory, practical implementation, and key applications.
 - **[Workflows](/git/04-remotes-and-workflows/02-workflows/):** Team collaboration workflows that rely on remote access and authentication.
 - **[Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/):** Code review process that uses remote repositories and access controls.
 
+## Related in this track
+
+- [Branching Strategies](/git/04-remotes-and-workflows/02-workflows/)
+- [GitHub Actions CI/CD Patterns](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/)
+- [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/)
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/)
+
 ---
 
 ## Workflows
@@ -39083,6 +39326,13 @@ linked above.
 - [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/) implements the collaborative review process that many workflows centre around.
 - [Branching](/git/03-branching-and-merging/01-branching/) defines the branching strategies (Git flow, GitHub flow) that structure team workflows.
 
+## Related in this track
+
+- [GitHub Actions CI/CD Patterns](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/)
+- [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/)
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/)
+- [Transfer Protocols and Authentication](/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)
+
 ---
 
 ## Worktrees
@@ -39360,6 +39610,13 @@ Worktrees are like having multiple desks in the same office. Instead of clearing
 
 - [Stash](/git/05-advanced-topics/02-stash/) - The simpler alternative for brief interruptions
 - [Submodules](/git/05-advanced-topics/04-submodules/) - How submodules interact with worktrees
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)
 
 ## Licensing
 

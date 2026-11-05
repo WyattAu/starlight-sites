@@ -1046,3 +1046,10 @@ handled, unfair and violating the FIFO service guarantee.
 - **[Linked Lists](/computer-science/data-structures/02-linked-lists/):** Stacks can be implemented using linked lists
 - **[Graphs](/computer-science/data-structures/05-graphs/):** BFS and DFS use queue and stack structures
 - **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Stack frames use memory addresses
+
+## Related in this track
+
+- [Arrays and Records](/computer-science/data-structures/01-arrays-and-records/)
+- [Graphs | A-Level - Wyatt's Notes](/computer-science/data-structures/05-graphs/)
+- [Hash Tables](/computer-science/data-structures/06-hash-tables/)
+- [Linked Lists](/computer-science/data-structures/02-linked-lists/)

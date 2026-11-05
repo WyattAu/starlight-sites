@@ -586,3 +586,8 @@ For revision on number representation, see
 - **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Data representation uses binary
 - **[Programming Constructs](/computer-science/programming/01-programming-constructs/):** Data types determine operations
 - **[Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/):** Boolean types implement logical values
+
+## Related in this track
+
+- [Object-Oriented Programming](/computer-science/programming/02-object-oriented-programming/)
+- [Programming Constructs](/computer-science/programming/01-programming-constructs/)

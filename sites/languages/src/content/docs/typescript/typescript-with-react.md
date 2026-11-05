@@ -867,3 +867,10 @@ TypeScript and React form a powerful combination where types serve as live docum
 - [Typescript](./)
 - [TypeScript Fundamentals Flashcards](/typescript/flashcards-typescript-basics/)
 - [TypeScript Fundamentals Practice (Interactive)](/typescript/practice-typescript-basics/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)

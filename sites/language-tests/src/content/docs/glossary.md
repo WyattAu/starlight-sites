@@ -175,3 +175,8 @@ tags: [glossary]
 **Speaking Prompt Card**: The cue card (IELTS Part 2) with one minute of preparation and two minutes of monitored talk.
 
 **Word Count Penalty**: Writing tasks penalise under-length responses; IELTS Task 2 requires at least 250 words.
+
+## Related in this track
+
+- [About This Site | language-tests](/about/)
+- [Complete Language Proficiency Test Guide, IELTS, TOEFL, and More](/hub/)

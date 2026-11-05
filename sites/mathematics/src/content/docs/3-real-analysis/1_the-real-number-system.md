@@ -366,3 +366,10 @@ and [Continuity](/3-real-analysis/4_continuity/).
 - **Assuming every bounded set has a supremum in $\mathbb{Q}$:** The completeness axiom holds only in $\mathbb{R}$. In $\mathbb{Q}$, sets like $\{x \in \mathbb{Q} : x^2 < 2\}$ are bounded above but have no supremum in $\mathbb{Q}$ because $\sqrt{2} \notin \mathbb{Q}$.
 - **Omitting "non-empty" when stating completeness:** The completeness axiom requires the set to be non-empty and bounded above. An empty set is bounded above but has no supremum (or, by convention, $\sup \varnothing = -\infty$, which is not a real number).
 - **Treating density and completeness as the same property:** The rationals are dense in $\mathbb{R}$ (between any two reals there is a rational), but they are not complete. Density means no gaps between elements; completeness means no missing limit points.
+
+## Related in this track
+
+- [Continuity](/3-real-analysis/4_continuity/)
+- [Differentiability](/3-real-analysis/5_differentiability/)
+- [Problem Set](/3-real-analysis/8_problem-set/)
+- [Riemann Integration](/3-real-analysis/6_riemann-integration/)

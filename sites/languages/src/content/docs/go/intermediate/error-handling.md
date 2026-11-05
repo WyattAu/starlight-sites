@@ -325,3 +325,8 @@ implementation, and key applications.
 - **[Interfaces](/go/intermediate/interfaces/):** The error interface and custom error type design patterns.
 - **[Testing](/go/advanced/testing/):** Error assertion and inspection patterns in test suites.
 - **[net/http](/go/standard-library/net-http/):** HTTP error handling and middleware error propagation.
+
+## Related in this track
+
+- [Generics](/go/intermediate/generics/)
+- [Interfaces](/go/intermediate/interfaces/)

@@ -919,3 +919,10 @@ Moments measure the turning effect of a force about a point, like how pushing a 
 - [Dynamics (Extended)](/maths/mechanics/dynamics-depth/) -- Extended dynamics covers force resolution on inclined planes and connected particles, prerequisites for many moment problems.
 - [Kinematics](/maths/mechanics/01-kinematics/) -- Understanding displacement and acceleration provides context for the static equilibrium studied in moments.
 - [Vectors](/maths/pure-mathematics/12-vectors/) -- Vector resolution and the cross product are the mathematical tools behind calculating moments.
+
+## Related in this track
+
+- [Dynamics (Extended)](/maths/mechanics/dynamics-depth/)
+- [Energy and Work](/maths/mechanics/04-energy-and-work/)
+- [Energy and Work (Extended)](/maths/mechanics/energy-and-work-depth/)
+- [Forces and Newton's Laws](/maths/mechanics/02-forces-and-newtons-laws/)

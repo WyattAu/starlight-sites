@@ -409,3 +409,8 @@ The HL extension goes deeper into resource management (how CPUs and memory work)
 4. **Confusing related concepts across topics.** Abstraction in computational thinking is different from abstraction in object-oriented programming. Data structures in Topic 3 are different from data representation in Topic 1. Keep concepts separated by topic and understand the specific context in which each is used.
 
 5. **Neglecting practical programming skills.** The internal assessment requires a working program. Many students focus on written exams and leave programming practice until too late. Write code regularly throughout the course, not just before the IA deadline.
+
+## Related in this track
+
+- [Assessment](/computer-science/assessment/)
+- [Computer Science](/computer-science/computer-science/)

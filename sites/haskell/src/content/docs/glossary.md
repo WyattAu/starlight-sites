@@ -169,3 +169,10 @@ main = do
 - See [Rust Glossary](/glossary/) for language comparison
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 - See [Mathematics Glossary](/glossary/) for mathematical foundations
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)
+- [Complete Haskell Programming Study Guide](/hub/)
+- [Haskell](/intro/)

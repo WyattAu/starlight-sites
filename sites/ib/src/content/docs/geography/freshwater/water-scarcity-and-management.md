@@ -266,3 +266,7 @@ Water scarcity is not just about how much rain falls but about whether societies
 
 ## Worked Examples
 
+## Related in this track
+
+- [Drainage Basins and Hydrology](/geography/freshwater/drainage-basins-and-hydrology/)
+- [Flood Management](/geography/freshwater/flood-management/)

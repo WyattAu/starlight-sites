@@ -107,3 +107,9 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Before You Begin: The Ideas Haskell Assumes](/before-you-begin/)
+- [Complete Haskell Programming Study Guide](/hub/)
+- [Haskell](/intro/)
+- [Haskell Glossary, Key Terms and Definitions](/glossary/)

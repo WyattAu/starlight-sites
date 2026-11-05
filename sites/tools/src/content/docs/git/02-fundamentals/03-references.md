@@ -382,3 +382,8 @@ linked above.
 - **[Git Objects](/git/02-fundamentals/02-git-objects/):** Covers the underlying object model (commits, trees, blobs) that references point to.
 - **[The Three Trees](/git/02-fundamentals/01-the-three-trees/):** Explains the working directory, staging area, and repository lifecycle.
 - **[Branching](/git/03-branching-and-merging/01-branching/):** Branch creation and management that uses references to track commit history.
+
+## Related in this track
+
+- [Git Objects](/git/02-fundamentals/02-git-objects/)
+- [The Three Trees](/git/02-fundamentals/01-the-three-trees/)

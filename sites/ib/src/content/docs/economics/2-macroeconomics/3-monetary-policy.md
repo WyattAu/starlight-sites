@@ -894,3 +894,9 @@ Inflation is approximately 5%.
 - [Macroeconomics](./)
 - [Fiscal Policy](/economics/2-macroeconomics/2-fiscal-policy/)
 - [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/)
+
+## Related in this track
+
+- [Fiscal Policy](/economics/2-macroeconomics/2-fiscal-policy/)
+- [National Income](/economics/2-macroeconomics/1-national-income/)
+- [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/)

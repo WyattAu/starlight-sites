@@ -732,3 +732,8 @@ linked above.
 - [Computer Networks -- Diagnostic Tests](/computer-science/diagnostics/diag-networks/)
 - [A-Level CS Flashcards: Networks](/computer-science/flashcards-networks/)
 - [Network Fundamentals](/computer-science/networks/01-network-fundamentals/)
+
+## Related in this track
+
+- [Network Fundamentals](/computer-science/networks/01-network-fundamentals/)
+- [Network Security](/computer-science/networks/02-network-security/)

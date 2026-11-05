@@ -478,3 +478,10 @@ include descriptive writing (sensory detail, show-don't-tell), narrative writing
 character development), transactional writing (format, persuasive techniques), and the PETAL
 paragraph structure for analytical responses. The spoken language endorsement assesses presentation
 skills.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete GCSE Study Guide, All Subjects](/hub/)
+- [GCSE Biology Study Guide](/biology/)
+- [GCSE Chemistry Study Guide](/chemistry/)

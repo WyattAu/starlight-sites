@@ -4039,6 +4039,11 @@ Class modifiers are like traffic signs on a highway -- they tell other drivers (
 - [Sealed Classes](/07-dart3-features/02-sealed-classes/) -- The sealed modifier restricts which classes can extend a class, enabling exhaustive pattern matching.
 - [Error Handling](/08-error-handling/) -- Abstract classes define error hierarchies that concrete error types implement.
 
+## Related in this track
+
+- [Pattern Matching](/07-dart3-features/01-pattern-matching/)
+- [Sealed Classes](/07-dart3-features/02-sealed-classes/)
+
 ---
 
 ## Pattern Matching
@@ -5233,6 +5238,11 @@ Pattern matching in Dart 3 is a compile-time mechanism for decomposing and inspe
 - [Variables](/03-basics/02-variables/) -- records and destructuring
 - [Error Handling](/08-error-handling/) -- sealed exception hierarchies and pattern matching
 
+## Related in this track
+
+- [Class Modifiers](/07-dart3-features/03-class-modifiers/)
+- [Sealed Classes](/07-dart3-features/02-sealed-classes/)
+
 ---
 
 ## Sealed Classes
@@ -6348,6 +6358,11 @@ Sealed classes are like a locked menu at a restaurant -- you know exactly what d
 - [Pattern Matching](/07-dart3-features/01-pattern-matching/) -- Sealed classes are designed to be used with pattern matching for exhaustive switch expressions.
 - [Object-Oriented Programming](/04-object-oriented/01-classes-and-inheritance/) -- Sealed classes extend the class hierarchy with restricted inheritance for algebraic data types.
 - [Error Handling](/08-error-handling/) -- Sealed classes model error states as typed variants, improving on untyped exception handling.
+
+## Related in this track
+
+- [Class Modifiers](/07-dart3-features/03-class-modifiers/)
+- [Pattern Matching](/07-dart3-features/01-pattern-matching/)
 
 ## Flutter-Fundamentals
 
@@ -12979,6 +12994,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Best Practices](/04-best-practices/)
+- [Code Generation](/13-code-generation/)
+- [Complete Dart/Flutter Programming Study Guide](/hub/)
+- [Dart Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Best Practices
@@ -13130,6 +13152,13 @@ URL: https://dart.wyattau.com/04-best-practices/
 
 - **[Site Home](../../):** Main landing page for dart notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Code Generation](/13-code-generation/)
+- [Complete Dart/Flutter Programming Study Guide](/hub/)
+- [Dart Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -14277,6 +14306,13 @@ Code generation is like a photocopy machine for boilerplate -- you write the ori
 - [Object-Oriented Programming](/04-object-oriented/01-classes-and-inheritance/) -- Code generation produces boilerplate classes, extensions, and implementations from annotations.
 - [Dependency Injection](/12-dependency-injection/) -- Code generators like injectable automate dependency injection wiring from annotations.
 - [Pattern Matching](/07-dart3-features/01-pattern-matching/) -- Generated code may use pattern matching and sealed classes for type-safe dispatch.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Best Practices](/04-best-practices/)
+- [Complete Dart/Flutter Programming Study Guide](/hub/)
+- [Dart Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -15532,6 +15568,13 @@ Dependency injection is like ordering food delivery instead of cooking -- you sp
 - [Testing Fundamentals](/14-testing/01-testing-fundamentals/) -- DI makes unit testing easier by allowing mock dependencies to be injected during testing.
 - [Code Generation](/13-code-generation/) -- Code generation tools like injectable automate the creation of dependency injection wiring.
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Best Practices](/04-best-practices/)
+- [Code Generation](/13-code-generation/)
+- [Complete Dart/Flutter Programming Study Guide](/hub/)
+
 ---
 
 ## Error Handling
@@ -16639,6 +16682,13 @@ Dart distinguishes between Exception (recoverable runtime conditions) and Error 
 - [Async and Futures](/05-async/01-async-and-futures/) -- error handling in async code
 - [Pattern Matching](/07-dart3-features/01-pattern-matching/) -- sealed classes and exhaustive switch
 - [Classes and Inheritance](/04-object-oriented/01-classes-and-inheritance/) -- custom exception classes
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Best Practices](/04-best-practices/)
+- [Code Generation](/13-code-generation/)
+- [Complete Dart/Flutter Programming Study Guide](/hub/)
 
 ---
 
@@ -18444,6 +18494,13 @@ $\blacksquare$
 - [Error Handling](/08-error-handling/) -- FFI calls require careful error handling since native code failures may not propagate through Dart's exception system.
 - [Async and Futures](/05-async/01-async-and-futures/) -- Native FFI calls can be wrapped in isolates for asynchronous execution, connecting FFI to Dart's concurrency model.
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Best Practices](/04-best-practices/)
+- [Code Generation](/13-code-generation/)
+- [Complete Dart/Flutter Programming Study Guide](/hub/)
+
 ---
 
 ## Flashcards Dart Basics
@@ -18696,6 +18753,13 @@ Future<String> fetchData() async {
 - See [TypeScript Glossary](https://typescript.wyattau.com/glossary/) for web development comparison
 - See [Programming Glossary](https://typescript.wyattau.com/glossary/) for general programming concepts
 - See [Computer Science Glossary](https://typescript.wyattau.com/glossary/) for CS fundamentals
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Best Practices](/04-best-practices/)
+- [Code Generation](/13-code-generation/)
+- [Complete Dart/Flutter Programming Study Guide](/hub/)
 
 ---
 
@@ -18953,6 +19017,13 @@ Use `flutter build` to compile for your target platform. For mobile, use `flutte
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Best Practices](/04-best-practices/)
+- [Code Generation](/13-code-generation/)
+- [Dart Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -19472,6 +19543,13 @@ Dart is a language designed for building user interfaces, particularly with Flut
 - [Async and Futures](/05-async/01-async-and-futures/) -- Future, Stream, and async/await
 - [Pattern Matching](/07-dart3-features/01-pattern-matching/) -- Dart 3 pattern matching
 :::
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Best Practices](/04-best-practices/)
+- [Code Generation](/13-code-generation/)
+- [Complete Dart/Flutter Programming Study Guide](/hub/)
 
 ---
 
@@ -20964,3 +21042,10 @@ Dart testing follows the testing pyramid: many fast unit tests at the base, fewe
 - [Dart](./)
 - [Introduction to Dart & Flutter](/01-intro/)
 - [Best Practices](/04-best-practices/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Best Practices](/04-best-practices/)
+- [Code Generation](/13-code-generation/)
+- [Complete Dart/Flutter Programming Study Guide](/hub/)

@@ -444,3 +444,10 @@ Integral diagnostics test whether you can **set up integrals correctly** and dis
 
 - **[Integrals](/maths/3-integrals/3_integrals/):** The full topic page covering FTC, Riemann sums, and all integration techniques.
 - **[Differential Equations](/maths/4-differential-equations/4_differential-equations/):** Separable differential equations are solved by integrating both sides.
+
+## Related in this track
+
+- [AP Calculus Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Derivatives -- Diagnostic Tests](/maths/diagnostics/diag-derivatives/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Limits and Continuity -- Diagnostic Tests](/maths/diagnostics/diag-limits-continuity/)

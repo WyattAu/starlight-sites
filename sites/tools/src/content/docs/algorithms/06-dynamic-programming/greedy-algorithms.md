@@ -595,3 +595,8 @@ def greedy_set_cover(universe, subsets):
 
 - [Dynamic Programming Patterns](/algorithms/06-dynamic-programming/dp-patterns/)
 - [Dynamic Programming](/algorithms/06-dynamic-programming/dynamic-programming/)
+
+## Related in this track
+
+- [Dynamic Programming](/algorithms/06-dynamic-programming/dynamic-programming/)
+- [Dynamic Programming Patterns](/algorithms/06-dynamic-programming/dp-patterns/)

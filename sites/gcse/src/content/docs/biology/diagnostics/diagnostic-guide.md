@@ -168,3 +168,10 @@ This page includes:
 - [Diagnostics](./)
 - [Bioenergetics -- Diagnostic Tests](/biology/diagnostics/diag-bioenergetics/)
 - [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)
+
+## Related in this track
+
+- [Bioenergetics -- Diagnostic Tests](/biology/diagnostics/diag-bioenergetics/)
+- [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)
+- [Inheritance, Variation and Evolution -- Diagnostic Tests](/biology/diagnostics/diag-inheritance-variation-evolution/)

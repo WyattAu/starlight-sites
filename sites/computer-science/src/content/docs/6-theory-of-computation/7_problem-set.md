@@ -211,3 +211,10 @@ $\blacksquare$
 - [Theory of Computation](./)
 - [Introduction](/6-theory-of-computation/1_introduction/)
 - [Regular Languages](/6-theory-of-computation/2_regular-languages/)
+
+## Related in this track
+
+- [Complexity Theory](/6-theory-of-computation/6_complexity-theory/)
+- [Context-Free Languages](/6-theory-of-computation/3_context-free-languages/)
+- [Decidability](/6-theory-of-computation/5_decidability/)
+- [Introduction](/6-theory-of-computation/1_introduction/)

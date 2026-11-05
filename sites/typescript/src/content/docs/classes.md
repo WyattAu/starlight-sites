@@ -804,3 +804,10 @@ implementation, and key applications.
 - [Types and Annotations](/types-and-annotations/) - How TypeScript's structural typing affects class compatibility
 - [Generics](/generics/) - How generic classes and interfaces enable type-safe reusable components
 - [Error Handling](/error-handling/) - How class hierarchies structure custom error types
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Advanced Patterns](/advanced-patterns/)
+- [Complete TypeScript Programming Study Guide](/hub/)
+- [Error Handling](/error-handling/)

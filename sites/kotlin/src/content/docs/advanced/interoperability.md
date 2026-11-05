@@ -353,3 +353,9 @@ Kotlin and Java run on the same JVM, so interoperability is seamless at the byte
 - [Null Safety Deep Dive](/advanced/null-safety-deep-dive/) -- null safety and platform types
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- extension functions and lambda syntax
 - [Java Interoperability](/basics/types-and-variables/) -- Java's type system from the Kotlin perspective
+
+## Related in this track
+
+- [Metaprogramming](/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/advanced/null-safety-deep-dive/)
+- [Testing](/advanced/testing/)

@@ -659,3 +659,10 @@ Maxwell's equations are the four laws that govern all classical electromagnetic 
 **Forgetting the displacement current term:** Maxwell added ε₀∂E/∂t to Ampère's law. Without it, the equation is inconsistent with charge conservation and cannot predict electromagnetic waves.
 
 **Sign errors in Faraday's law:** The minus sign in curl E = -∂B/∂t is Lenz's law, the induced EMF opposes the change in flux. Dropping the minus sign gives the wrong direction of induced current.
+
+## Related in this track
+
+- [Advanced Electrodynamics](/3-electromagnetism/11_advanced-electrodynamics/)
+- [Electrodynamics](/3-electromagnetism/4_electrodynamics/)
+- [Electromagnetic Waves](/3-electromagnetism/5_electromagnetic-waves/)
+- [Magnetostatics](/3-electromagnetism/3_magnetostatics/)

@@ -847,3 +847,8 @@ Garbage collection frees you from manually managing memory, but understanding ho
 The evolution from Serial to G1 to ZGC shows a clear trajectory: minimize pause times by doing more work concurrently with your application. Serial and Parallel collectors stop the world for the entire collection. G1 divides the heap into regions and only collects the dirtiest ones, keeping pauses bounded. ZGC goes further by doing almost all work concurrently, marking, relocating, and compacting while your application keeps running. Load barriers in ZGC transparently fix stale references as your code reads them, making concurrent relocation invisible to the application.
 
 The practical takeaway is to match your GC choice to your latency requirements. Throughput-bound batch jobs can tolerate longer pauses, so Parallel GC is fine. Latency-sensitive web services need G1 or ZGC. And in containers, always set `-Xms == -Xmx` and use `MaxRAMPercentage` so the JVM knows its memory limits from the start. GC logging should be enabled from day one, you cannot tune what you cannot measure.
+
+## Related in this track
+
+- [Class Loading and Memory Model](/java/09-jvm-internals/01-class-loading-memory/)
+- [JIT Compilation and Deoptimization](/java/09-jvm-internals/02-jit-compilation/)

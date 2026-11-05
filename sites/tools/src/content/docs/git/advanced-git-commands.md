@@ -2496,3 +2496,8 @@ $\blacksquare$
 - [Git](./)
 - [Introduction to Git](/git/01-intro/)
 - [Best Practices](/git/07-best-practices/)
+
+## Related in this track
+
+- [Best Practices](/git/07-best-practices/)
+- [Introduction to Git](/git/01-intro/)

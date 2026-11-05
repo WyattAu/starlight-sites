@@ -646,3 +646,8 @@ From Newton's apple to quantum particles, physics explains how the world works t
 - [Physics](../../physics)
 - [Mechanics](/physics/mechanics/)
 - [Fields](/physics/fields/)
+
+## Related in this track
+
+- [Electric Fields](/physics/fields/electric-fields-depth/)
+- [Magnetic Fields](/physics/fields/magnetic-fields-depth/)

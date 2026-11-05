@@ -181,3 +181,10 @@ $\blacksquare$
   the firm's technology in the production side.
 - [Econometrics](/3-econometrics/1_ols-estimator/); the cost function's parametric forms are
   estimated from cost-share data using the Shephard derivatives.
+
+## Related in this track
+
+- [General Equilibrium](/1-microeconomic-theory/4_general-equilibrium/)
+- [Preferences and Utility](/1-microeconomic-theory/1_preferences-and-utility/)
+- [The Welfare Theorems](/1-microeconomic-theory/3_welfare-theorems/)
+- [Utility Maximisation, Expenditure Functions, and Slutsky](/1-microeconomic-theory/2_utility-maximisation/)

@@ -809,3 +809,10 @@ TypeScript classes combine JavaScript's class syntax with compile-time type chec
 - [Typescript](./)
 - [Advanced Patterns](/typescript/advanced-patterns/)
 - [advanced types](/typescript/advanced-types/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)
+- [Generics](/typescript/generics/)

@@ -463,3 +463,10 @@ fishing quotas.)
 - [Diagnostics](./)
 - [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)
 - [Genetics -- Diagnostic Tests](/biology/diagnostics/diag-genetics/)
+
+## Related in this track
+
+- [Cell Biology and Biochemistry -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology-biochemistry/)
+- [DSE Biology Diagnostic Tests -- Guide](/biology/diagnostics/diagnostic-guide/)
+- [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)
+- [Genetics -- Diagnostic Tests](/biology/diagnostics/diag-genetics/)

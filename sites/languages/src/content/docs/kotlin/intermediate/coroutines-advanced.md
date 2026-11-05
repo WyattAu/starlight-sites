@@ -593,3 +593,10 @@ asynchronous systems with Kotlin coroutines.
 - [Collections](https://kotlin.wyattau.com/intermediate/collections/), Flow transformations (map, filter, flatMap) mirror collection operations; sequences share the lazy evaluation model.
 - [Generics](https://kotlin.wyattau.com/intermediate/generics/), Flow<T>, StateFlow<T>, and SharedFlow<T> use generic type parameters and variance annotations.
 - [Delegation and Result](https://kotlin.wyattau.com/intermediate/delegation-and-result/), StateFlow integrates with property delegation patterns for reactive state management in ViewModels.
+
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [Generics](/kotlin/intermediate/generics/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)

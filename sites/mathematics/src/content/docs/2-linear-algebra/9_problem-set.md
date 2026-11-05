@@ -540,3 +540,10 @@ $\blacksquare$
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)

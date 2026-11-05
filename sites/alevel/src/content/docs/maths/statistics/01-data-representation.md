@@ -921,3 +921,10 @@ building a personal test matrix.
 - [Correlation and Regression](/maths/statistics/02-correlation-and-regression/), The mean and standard deviation are foundational for calculating PMCC and regression coefficients.
 - [Probability](/maths/statistics/03-probability/), Probability distributions provide the theoretical basis for understanding data variation.
 - [Hypothesis Testing](/maths/statistics/05-hypothesis-testing/), Summary statistics from this topic feed directly into significance tests and confidence intervals.
+
+## Related in this track
+
+- [Correlation and Regression](/maths/statistics/02-correlation-and-regression/)
+- [Correlation and Regression (Extended)](/maths/statistics/correlation-and-regression-depth/)
+- [Hypothesis Testing](/maths/statistics/05-hypothesis-testing/)
+- [Hypothesis Testing (Extended)](/maths/statistics/hypothesis-testing-depth/)

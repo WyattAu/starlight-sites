@@ -321,3 +321,10 @@ Theory](/10-measure-theory/2_measures/).
   behind expectation
 - [Posterior Asymptotics](/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/): where these ideas go at research level
 - [How to Use These Notes](/how-to-use/); the method
+
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+- [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/)

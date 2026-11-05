@@ -414,3 +414,9 @@ Reflection is like having X-ray vision for your code -- it lets you inspect the 
 - **[Types and Variables](/kotlin/basics/types-and-variables/):** Type system fundamentals that reflection inspects at runtime.
 - **[Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/):** Contracts and safe-call operators used in reflective null handling.
 - **[Control Flow](/kotlin/basics/control-flow/):** When expressions and sealed class patterns that reflection can enumerate.
+
+## Related in this track
+
+- [Java Interoperability](/kotlin/advanced/interoperability/)
+- [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)
+- [Testing](/kotlin/advanced/testing/)

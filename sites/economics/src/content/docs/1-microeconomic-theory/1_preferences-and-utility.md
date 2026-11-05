@@ -114,3 +114,10 @@ are the benchmark whose failures are informative.
 3. Construct the money-pump for cyclic preferences. (§2; with $a \prec b \prec c \prec a$, an
    agent pays a fee repeatedly to trade up the cycle.)
 4. Why do lexicographic preferences admit no representation? (§3; uncountably many jumps.)
+
+## Related in this track
+
+- [General Equilibrium](/1-microeconomic-theory/4_general-equilibrium/)
+- [Production, Cost, and the Firm](/1-microeconomic-theory/5_production-and-firm/)
+- [The Welfare Theorems](/1-microeconomic-theory/3_welfare-theorems/)
+- [Utility Maximisation, Expenditure Functions, and Slutsky](/1-microeconomic-theory/2_utility-maximisation/)

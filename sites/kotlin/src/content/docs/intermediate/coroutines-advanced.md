@@ -590,3 +590,10 @@ This document covers advanced coroutine patterns that build on the fundamentals.
 
 Understanding these advanced patterns is essential for building robust, maintainable, and testable
 asynchronous systems with Kotlin coroutines.
+
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Coroutines](/intermediate/coroutines/)
+- [Generics](/intermediate/generics/)
+- [delegation and result](/intermediate/delegation-and-result/)

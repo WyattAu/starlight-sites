@@ -260,3 +260,10 @@ $h^{p,q}(M) = h^{n-p,q}(M^\vee)$; exchanges them.
 - **[The Gauss–Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/)**; $\chi = \sum_{p,q}(-1)^{p+q}h^{p,q}$, the Hodge diamond's alternating sum.
 - **[Hodge Theory Applications in the Summary](/12-differential-geometry/10_summary/)**; where Calabi–Yau moduli enter the track's summary table.
 - [Beyond the Standard Model](https://physics.wyattau.com/7-particle-physics-and-cosmology/9_beyond-the-standard-model/); string compactification, the applied reason for the subject.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)

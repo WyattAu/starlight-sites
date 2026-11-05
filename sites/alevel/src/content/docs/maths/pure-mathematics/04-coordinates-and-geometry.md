@@ -1142,3 +1142,10 @@ building a personal test matrix.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/)
+- [Binomial Expansion](/maths/pure-mathematics/07-binomial-expansion/)
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/)
+- [Functions](/maths/pure-mathematics/05-functions/)

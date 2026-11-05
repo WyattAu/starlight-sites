@@ -952,3 +952,8 @@ theory, practical implementation, and key applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Compile-Time Branching and Constexpr Functions](/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [Parameter Packs and Variadic Templates](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
+- [Type Traits and Static Reflection Patterns](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)

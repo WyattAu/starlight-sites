@@ -401,3 +401,10 @@ follows From the **Gronwall inequality** applied to the difference of two soluti
 
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)

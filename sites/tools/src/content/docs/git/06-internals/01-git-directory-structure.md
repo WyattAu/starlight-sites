@@ -259,3 +259,8 @@ $ git reflog expire --expire=now --all
 $ git gc --prune=now
 ```
 :::
+
+## Related in this track
+
+- [Hash Algorithm](/git/06-internals/03-hash-algorithm/)
+- [Packing and Garbage Collection](/git/06-internals/02-packing-and-garbage-collection/)

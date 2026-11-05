@@ -182,3 +182,10 @@ Differential equations are the language of change. Every pitfall in this file re
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
+- [Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)

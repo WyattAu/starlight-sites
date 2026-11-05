@@ -1264,3 +1264,10 @@ File I/O is the bridge between your program's temporary memory and the permanent
 - [Essential Modules](/python/05-standard-library/01-essential-modules/) -- The io module builds on os.path and built-in functions for comprehensive file system interaction.
 - [Context Managers](/python/08-advanced-topics/03-context-managers/) -- File objects support the context manager protocol for safe resource management with with statements.
 - [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- File objects are iterators that yield lines lazily, connecting file I/O to the iterator protocol.
+
+## Related in this track
+
+- [CLI Tools](/python/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/python/05-standard-library/01-essential-modules/)
+- [Serialization and Data Formats](/python/05-standard-library/04-serialization/)

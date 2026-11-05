@@ -444,3 +444,10 @@ producing a string not in the language -- proving it is not regular.
 - **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Binary and hexadecimal are essential for computing
 - **[Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/):** Logic gates implement Boolean operations
 - **[Graph Algorithms](/computer-science/algorithms/03-graph-algorithms/):** Algorithm design is central to computer science
+
+## Related in this track
+
+- [A-Level Computer Science -- Diagnostic Guide](/computer-science/diagnostics/diagnostic-guide/)
+- [Algorithms -- Diagnostic Tests](/computer-science/diagnostics/diag-algorithms/)
+- [Computer Networks -- Diagnostic Tests](/computer-science/diagnostics/diag-networks/)
+- [Data Structures -- Diagnostic Tests](/computer-science/diagnostics/diag-data-structures/)

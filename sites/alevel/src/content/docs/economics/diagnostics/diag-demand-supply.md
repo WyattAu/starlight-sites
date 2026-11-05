@@ -468,3 +468,10 @@ market failure.
 - **[Theory of the Firm](/economics/diagnostics/diag-theory-of-the-firm/):** Demand and supply underpin firm behaviour
 - **[Market Failure](/economics/diagnostics/diag-market-failure/):** Market equilibrium may lead to failure
 - **[Fiscal Policy](/economics/macro/04-fiscal-policy/):** Government policy affects demand and supply
+
+## Related in this track
+
+- [A-Level Economics -- Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
+- [Macroeconomic Policy -- Diagnostic Tests](/economics/diagnostics/diag-macroeconomic-policy/)
+- [Market Failure -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)
+- [Theory of the Firm -- Diagnostic Tests](/economics/diagnostics/diag-theory-of-the-firm/)

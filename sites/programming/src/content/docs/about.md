@@ -114,3 +114,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [C++ Programming Practice Test, 30 Problems](/practice-test-mega/)
+- [Complete C++ Programming Study Guide](/hub/)
+- [Programming Concepts Glossary, Key Terms](/glossary/)

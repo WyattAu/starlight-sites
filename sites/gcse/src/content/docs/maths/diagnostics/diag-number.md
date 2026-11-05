@@ -207,3 +207,10 @@ people.
 
 - **[Algebra](/maths/diagnostics/diag-algebra/):** Equations and expressions.
 - **[Geometry](/maths/diagnostics/diag-geometry/):** Shapes and measurements.
+
+## Related in this track
+
+- [Algebra -- Diagnostic Tests](/maths/diagnostics/diag-algebra/)
+- [GCSE Maths -- Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Geometry -- Diagnostic Tests](/maths/diagnostics/diag-geometry/)
+- [Ratio, Proportion, and Rates of Change -- Diagnostic Tests](/maths/diagnostics/diag-ratio-proportion/)

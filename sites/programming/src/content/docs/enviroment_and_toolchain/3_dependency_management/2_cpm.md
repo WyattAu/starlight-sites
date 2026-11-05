@@ -752,3 +752,10 @@ CPM.cmake is a lightweight CMake package manager that fetches dependencies at co
 - [Complexity Theory](https://computer-science.wyattau.com/docs/complexity-theory)
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+
+## Related in this track
+
+- [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
+- [Conan | Programming - Wyatt's Notes](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)
+- [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)

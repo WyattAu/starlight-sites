@@ -374,3 +374,10 @@ implementation, and key applications.
 - [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
 - [Collections](/kotlin/intermediate/collections/)
 - [delegation and result](/kotlin/intermediate/delegation-and-result/)
+
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Generics](/kotlin/intermediate/generics/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)

@@ -334,3 +334,10 @@ Kotlin collections split into read-only and mutable interfaces, where read-only 
 - [Types and Variables](/basics/types-and-variables/) -- nullable collections vs collections of nullables
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- higher-order functions like map and filter
 - [Coroutines](/intermediate/coroutines/) -- Flow as a lazy asynchronous collection
+
+## Related in this track
+
+- [Coroutines](/intermediate/coroutines/)
+- [Generics](/intermediate/generics/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)
+- [delegation and result](/intermediate/delegation-and-result/)

@@ -108,3 +108,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Swift Programming Study Guide](/hub/)
+- [Swift - Wyatt's Notes](/intro/)
+- [Swift Glossary, Key Terms and Definitions](/glossary/)

@@ -227,3 +227,7 @@ Instantaneous power is $P = \vec{F} \cdot \vec{v}$ (force times velocity at that
 - [Rotational Motion](/physics/mechanics/03-rotational-motion/) -- Rotational kinetic energy and work done by torque extend energy concepts to rotational systems.
 - Electrostatics -- Electric potential energy applies the work-energy framework to charges in electric fields.
 
+## Related in this track
+
+- [Newton's Laws of Motion](/physics/mechanics/01-laws-of-motion/)
+- [Rotational motion](/physics/mechanics/03-rotational-motion/)

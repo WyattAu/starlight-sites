@@ -210,3 +210,10 @@ When you transform a random variable, its distribution changes according to how 
 - [Probability Theory](./)
 - [Probability and Statistics](/8-probability-and-statistics/6_probability-and-statistics/)
 - [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)
+
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+- [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)

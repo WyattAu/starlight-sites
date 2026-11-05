@@ -1321,3 +1321,10 @@ $\dfrac{1}{2}\!\left(\dfrac{1}{2} - \dfrac{1}{(n+1)(n+2)}\right) = \dfrac{(n+1)(
 $\blacksquare$
 
 </details>
+
+## Related in this track
+
+- [Complex Numbers](/further-maths/pure-mathematics/01-complex-numbers/)
+- [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/)
+- [Matrices](/further-maths/pure-mathematics/02-matrices/)
+- [Vectors in 3D](/further-maths/pure-mathematics/09-vectors-in-3d/)

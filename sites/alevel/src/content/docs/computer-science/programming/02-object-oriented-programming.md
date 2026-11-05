@@ -754,3 +754,8 @@ For revision on programming fundamentals, see
 - **[Programming Constructs](/computer-science/programming/01-programming-constructs/):** OOP builds on fundamental constructs
 - **[Data Structures](/computer-science/data-structures/05-graphs/):** OOP designs data structure implementations
 - **[Software Engineering](/computer-science/software-engineering/01-software-development-lifecycle/):** OOP supports software engineering
+
+## Related in this track
+
+- [Data Representation in Programming](/computer-science/programming/03-data-representation-in-programming/)
+- [Programming Constructs](/computer-science/programming/01-programming-constructs/)

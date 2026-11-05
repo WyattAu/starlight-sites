@@ -596,3 +596,8 @@ Traefik is a modern reverse proxy that automatically discovers services and conf
 - [Setup](./)
 - [Setting Up Home Server](/setup/home-server-setup/)
 - [Network Proxy](/setup/network-proxy/)
+
+## Related in this track
+
+- [Network Proxy](/setup/network-proxy/)
+- [Setting Up Home Server](/setup/home-server-setup/)

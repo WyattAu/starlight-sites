@@ -948,3 +948,10 @@ Kinematics describes motion without considering its causes. The SUVAT equations 
 - [Dynamics (Extended)](/maths/mechanics/dynamics-depth/) -- The extended dynamics treatment applies Newton's laws to connected particles, friction, and inclined planes.
 - [Energy and Work](/maths/mechanics/04-energy-and-work/) -- The work-energy theorem relates forces and displacement to changes in kinetic energy, linking dynamics to kinematics.
 - [Differentiation](/maths/pure-mathematics/10-differentiation/) -- Velocity is the derivative of displacement and acceleration is the derivative of velocity, connecting calculus to motion.
+
+## Related in this track
+
+- [Dynamics (Extended)](/maths/mechanics/dynamics-depth/)
+- [Energy and Work](/maths/mechanics/04-energy-and-work/)
+- [Energy and Work (Extended)](/maths/mechanics/energy-and-work-depth/)
+- [Forces and Newton's Laws](/maths/mechanics/02-forces-and-newtons-laws/)

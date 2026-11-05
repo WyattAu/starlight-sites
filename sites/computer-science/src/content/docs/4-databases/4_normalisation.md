@@ -300,3 +300,10 @@ Normalization is the process of breaking a large, messy table into smaller, well
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Database Systems (Advanced)](/4-databases/12_databases-advanced/)
+- [Distributed Databases](/4-databases/9_distributed-databases/)
+- [Further Reading](/4-databases/11_further-reading/)
+- [Indexing](/4-databases/5_indexing/)

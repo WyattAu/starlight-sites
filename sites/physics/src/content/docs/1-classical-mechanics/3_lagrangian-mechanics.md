@@ -560,3 +560,10 @@ The Lagrangian $L = T - V$ is valid when the potential $V$ is velocity-independe
 
 **Mistake 3: Forgetting that the action is stationary, not necessarily minimised**
 Hamilton's principle states the action is stationary ($\delta S = 0$), not necessarily minimised. The actual path can be a saddle point or even a local maximum of the action. The stationarity condition is what yields the Euler-Lagrange equations, and the second variation determines whether the path is a minimum.
+
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)

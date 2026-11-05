@@ -638,3 +638,7 @@ The JIT compiler is like a chef who starts by following a recipe exactly (interp
 
 ## Worked Examples
 
+## Related in this track
+
+- [Class Loading and Memory Model](/09-jvm-internals/01-class-loading-memory/)
+- [Garbage Collection](/09-jvm-internals/03-garbage-collection/)

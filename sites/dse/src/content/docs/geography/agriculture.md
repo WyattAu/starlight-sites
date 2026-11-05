@@ -232,3 +232,10 @@ Agriculture is the original human technology, the first time we stopped chasing 
 - **[Population](/geography/population/):** Population studies are central
 - **[Urbanization](/geography/urbanization/):** Urbanisation is a key topic
 - **[Climate](/geography/diagnostics/diag-climate/):** Climate affects geography
+
+## Related in this track
+
+- [DSE Geography](/geography/intro/)
+- [Industrial Location and Economic Development](/geography/economic-development/)
+- [Population and Migration](/geography/population/)
+- [Resources and Sustainability](/geography/resources/)

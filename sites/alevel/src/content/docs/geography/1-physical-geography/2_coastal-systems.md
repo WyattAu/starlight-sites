@@ -500,3 +500,9 @@ Holderness Coast is a well-known example, extending approximately 5.5 km across 
 - **[Physical Geography](/geography/flashcards-physical-geography/):** Physical geography studies natural Earth processes
 - **[Human Geography](/geography/flashcards-human-geography/):** Human geography studies people-environment interactions
 - **[Fieldwork](/geography/3-fieldwork/1_fieldwork-methodology/):** Fieldwork methods apply to geographic study
+
+## Related in this track
+
+- [Glacial Systems and Landscapes](/geography/1-physical-geography/3_glacial-systems/)
+- [Hazards](/geography/1-physical-geography/4_hazards/)
+- [Water and Carbon Cycles](/geography/1-physical-geography/1_water-and-carbon-cycles/)

@@ -107,3 +107,8 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Ruby Programming Study Guide](/hub/)
+- [Ruby - Wyatt's Notes](/intro/)
+- [Ruby Glossary, Key Terms and Definitions](/glossary/)

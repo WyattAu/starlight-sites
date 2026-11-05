@@ -361,3 +361,9 @@ theorems, methods, and problem-solving approaches.
 - [Basics](./)
 - [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
 - [Control Flow](/go/basics/control-flow/)
+
+## Related in this track
+
+- [Arrays, Slices, and Maps](/go/basics/arrays-slices-maps/)
+- [Control Flow](/go/basics/control-flow/)
+- [Types and Variables](/go/basics/types-and-variables/)

@@ -287,3 +287,10 @@ Real crystals contain defects (point defects, dislocations, grain boundaries) th
 - **[Semiconductors](/6-solid-state-physics/6_semiconductors/)**: The crystal structure determines the band structure and electronic properties of semiconductors.
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Defects in Crystals](/6-solid-state-physics/9_defects-in-crystals/)

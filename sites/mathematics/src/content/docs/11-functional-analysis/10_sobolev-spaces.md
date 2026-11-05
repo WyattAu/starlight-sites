@@ -270,3 +270,10 @@ again, with $n$ the dimension.
 - **[Hodge Theory](/12-differential-geometry/14_hodge-theory/)**; elliptic regularity as the black box, and harmonic forms as the kernel of $\Delta$.
 - **[Stochastic PDEs and Regularity Structures](/14-graduate-stochastic-analysis/2_stochastic-pdes-and-regularity-structures/)**; the critical dimension where the $H^1 \to L^\infty$ embedding fails.
 - **[Applications of Differential Geometry](/12-differential-geometry/9_applications/)**; where Sobolev spaces enter geometric PDE.
+
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)

@@ -904,3 +904,8 @@ linked above.
 - [OWASP Top 10](/04-web-security/owasp-top-10/) lists the most critical web application security risks that this broader overview contextualises.
 - [Cryptography](https://computer-science.wyattau.com/3-theory/cryptography/) provides the encryption and hashing mechanisms used to protect web communications and data.
 - [Network Security](https://alevel.wyattau.com/computer-science/networks/02-network-security/) covers the transport-layer protections (TLS, firewalls) that secure web traffic.
+
+## Related in this track
+
+- [API Security](/04-web-security/api-security/)
+- [OWASP Top 10 (2021) Detailed](/04-web-security/owasp-top-10/)

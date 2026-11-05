@@ -409,3 +409,10 @@ linked above.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) provides the fundamental fetch, pull, and push commands that workflows are built upon.
 - [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/) implements the collaborative review process that many workflows centre around.
 - [Branching](/git/03-branching-and-merging/01-branching/) defines the branching strategies (Git flow, GitHub flow) that structure team workflows.
+
+## Related in this track
+
+- [GitHub Actions CI/CD Patterns](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/)
+- [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/)
+- [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/)
+- [Transfer Protocols and Authentication](/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)

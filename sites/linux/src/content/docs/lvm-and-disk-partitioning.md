@@ -1974,3 +1974,10 @@ LVM is like having a storage system with rubber walls -- you can resize, move, a
 - [Bash Scripting](/01-cli-fundamentals/bash-scripting/) -- Automating LVM operations like snapshots and resizing is done through bash scripts.
 - [Core Utilities](/01-cli-fundamentals/core-utilities/) -- Commands like fdisk, mkfs, and pvcreate are essential utilities for disk management.
 :::
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Introduction to Linux](/intro/)
+- [Linux Administration Study Guide](/hub/)
+- [Linux Glossary, Key Terms and Definitions](/glossary/)

@@ -154,3 +154,8 @@ Psychology bridges the gap between biological processes and human experience. Th
 - [Approaches in Psychology](/psychology/approaches/)
 - [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
 
+## Related in this track
+
+- [Brain Imaging Techniques](/psychology/biological/brain-imaging-techniques/)
+- [Genetics and Behaviour](/psychology/biological/genetics-and-behaviour/)
+- [Neuroplasticity and Neurotransmission](/psychology/biological/neuroplasticity-and-neurotransmission/)

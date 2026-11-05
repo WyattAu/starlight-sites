@@ -839,3 +839,8 @@ including key theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 :::
+
+## Related in this track
+
+- [Differential Equations](/maths/5-calculus/5_differential-equations/)
+- [Integration Techniques](/maths/5-calculus/3_integration-techniques/)

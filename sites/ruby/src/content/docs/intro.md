@@ -113,3 +113,8 @@ end
 
 ### Further Reading
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Ruby Programming Study Guide](/hub/)
+- [Ruby Glossary, Key Terms and Definitions](/glossary/)

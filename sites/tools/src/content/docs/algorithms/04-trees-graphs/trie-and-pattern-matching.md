@@ -802,3 +802,8 @@ def boyer_moore_search(text, pattern):
     return matches
 ```
 :::
+
+## Related in this track
+
+- [Binary Search Trees and Balanced Trees](/algorithms/04-trees-graphs/binary-search-trees/)
+- [Trees and Graphs](/algorithms/04-trees-graphs/trees-and-graphs/)

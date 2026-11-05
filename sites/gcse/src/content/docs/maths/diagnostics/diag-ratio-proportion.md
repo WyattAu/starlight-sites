@@ -197,3 +197,10 @@ equalise costs.
 
 - **[Number](/maths/diagnostics/diag-number/):** Number operations and calculations.
 - **[Algebra](/maths/diagnostics/diag-algebra/):** Equations and expressions.
+
+## Related in this track
+
+- [Algebra -- Diagnostic Tests](/maths/diagnostics/diag-algebra/)
+- [GCSE Maths -- Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Geometry -- Diagnostic Tests](/maths/diagnostics/diag-geometry/)
+- [Number -- Diagnostic Tests](/maths/diagnostics/diag-number/)

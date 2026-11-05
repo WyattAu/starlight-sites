@@ -444,3 +444,9 @@ linked above.
 - **[Merging](/git/03-branching-and-merging/02-merging/):** Alternative integration strategy to rebasing, preserving full branch history.
 - **[Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/):** Handles merge conflicts that arise during both merging and rebasing.
 - **[Branching](/git/03-branching-and-merging/01-branching/):** Branch creation and management fundamentals that underpin rebasing workflows.
+
+## Related in this track
+
+- [Branching](/git/03-branching-and-merging/01-branching/)
+- [Conflict Resolution](/git/03-branching-and-merging/04-conflict-resolution/)
+- [Merging](/git/03-branching-and-merging/02-merging/)

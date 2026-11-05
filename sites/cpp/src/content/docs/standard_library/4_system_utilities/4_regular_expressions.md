@@ -594,3 +594,8 @@ key principles and practical applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Chrono Library](/standard_library/4_system_utilities/2_chrono/)
+- [Filesystem Library](/standard_library/4_system_utilities/1_filesystem/)
+- [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)

@@ -621,3 +621,9 @@ Databases organize data for efficient retrieval and modification. The relational
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Distributed Systems](/2-systems/distributed-systems/)
+- [Networking](/2-systems/networking/)
+- [Operating Systems](/2-systems/operating-systems/)

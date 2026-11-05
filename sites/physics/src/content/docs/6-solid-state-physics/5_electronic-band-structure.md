@@ -450,3 +450,10 @@ DFT with LDA or GGA functionals underestimates band gaps by 30--50%. Hybrid func
 
 **Mistake 5: Confusing the effective mass with the rest mass.**
 The effective mass $m^*$ describes how an electron responds to external fields in a periodic potential. It can be larger or smaller than the rest mass $m_e$, and can even be negative. Do not assume that the effective mass equals the rest mass.
+
+## Related in this track
+
+- [Advanced Semiconductor Physics](/6-solid-state-physics/15_advanced-semiconductor-physics/)
+- [Advanced Semiconductor Physics (Continued)](/6-solid-state-physics/16_advanced-semiconductor-physics-continued/)
+- [Advanced Topics in Superconductivity](/6-solid-state-physics/12_advanced-topics-in-superconductivity/)
+- [Crystal Structures](/6-solid-state-physics/1_crystal-structures/)

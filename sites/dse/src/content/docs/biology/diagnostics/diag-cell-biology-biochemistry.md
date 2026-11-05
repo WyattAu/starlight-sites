@@ -467,3 +467,10 @@ contamination of the product.)
 - [Diagnostics](./)
 - [Plant Biology -- Diagnostic Tests](/biology/diagnostics/diag-plant-biology/)
 - [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)
+
+## Related in this track
+
+- [Biodiversity and Conservation -- Diagnostic Tests](/biology/diagnostics/diag-biodiversity-conservation/)
+- [DSE Biology Diagnostic Tests -- Guide](/biology/diagnostics/diagnostic-guide/)
+- [Evolution and Ecology -- Diagnostic Tests](/biology/diagnostics/diag-evolution-ecology/)
+- [Genetics -- Diagnostic Tests](/biology/diagnostics/diag-genetics/)

@@ -166,3 +166,10 @@ The pitfalls in complex analysis stem from the deceptive similarity between real
 - **[Singularities and Residue Theory](/6-complex-analysis/8_singularities-and-residue-theory/)**: The residue theorem computes contour integrals by summing contributions from singularities.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Analytic Continuation](/6-complex-analysis/13_analytic-continuation/)
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)

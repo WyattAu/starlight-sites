@@ -226,3 +226,7 @@ On an inclined plane at angle $\theta$, the component of weight along the inclin
 - [Rotational Motion](/physics/mechanics/03-rotational-motion/) -- Newton's second law extends to rotational dynamics through torque and angular acceleration.
 - Gravitation -- Gravitational force is an application of Newton's law of universal gravitation combined with the second law.
 
+## Related in this track
+
+- [Rotational motion](/physics/mechanics/03-rotational-motion/)
+- [Work energy power](/physics/mechanics/02-work-energy-power/)

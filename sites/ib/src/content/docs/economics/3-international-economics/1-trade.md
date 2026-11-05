@@ -2403,3 +2403,8 @@ Think of trade as a positive-sum game, not zero-sum. When countries specialise a
 4. **Assuming tariffs always reduce welfare.** While tariffs generally create deadweight loss, the optimal tariff argument shows that a large country can improve its welfare by imposing a small tariff that improves its terms of trade. This does not apply to small countries (which are price takers) and ignores the risk of retaliation.
 
 5. **Miscalculating terms of trade.** The terms of trade index is $\frac{P_X}{P_M} \times 100$, where $P_X$ is the export price index and $P_M$ is the import price index. Students sometimes invert the ratio, which reverses the interpretation: an increase means improvement, not deterioration. Always check whether the index moved up (favourable) or down (unfavourable).
+
+## Related in this track
+
+- [Balance of Payments](/economics/3-international-economics/3-balance-of-payments/)
+- [Exchange Rates](/economics/3-international-economics/2-exchange-rates/)

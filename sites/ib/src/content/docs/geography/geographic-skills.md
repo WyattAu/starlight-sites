@@ -488,3 +488,10 @@ productivity, drought conditions, and deforestation.
 - **[Climate Change](/geography/climate-change/):** Climate change affects all geography
 - **[Population](/geography/population-distribution/):** Population distribution is studied
 - **[Economic Development](/geography/economic-development/):** Development is a core topic
+
+## Related in this track
+
+- [Climate Change](/geography/climate-change/)
+- [Economic Development](/geography/economic-development/)
+- [Freshwater Issues](/geography/freshwater-issues/)
+- [IB Geography](/geography/geography/)

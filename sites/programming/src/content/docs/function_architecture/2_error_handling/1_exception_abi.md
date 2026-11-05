@@ -744,3 +744,10 @@ including key theorems, methods, and problem-solving approaches.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Algebraic Error Handling, std::optional and std::variant](/function_architecture/2_error_handling/4_optional_variant/)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [Monadic Error Handling, std::expected](/function_architecture/2_error_handling/5_expected/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)

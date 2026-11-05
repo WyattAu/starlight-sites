@@ -414,3 +414,9 @@ Reflection lets you inspect and manipulate types at runtime when compile-time in
 - [Classes and Objects](/basics/classes-and-objects/) -- data classes and sealed classes
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- extension functions and higher-order functions
 - [Coroutines](/intermediate/coroutines/) -- suspend functions and structured concurrency
+
+## Related in this track
+
+- [Java Interoperability](/advanced/interoperability/)
+- [Null Safety Deep Dive](/advanced/null-safety-deep-dive/)
+- [Testing](/advanced/testing/)

@@ -1120,3 +1120,8 @@ Sealed classes are like a locked menu at a restaurant -- you know exactly what d
 - [Pattern Matching](/07-dart3-features/01-pattern-matching/) -- Sealed classes are designed to be used with pattern matching for exhaustive switch expressions.
 - [Object-Oriented Programming](/04-object-oriented/01-classes-and-inheritance/) -- Sealed classes extend the class hierarchy with restricted inheritance for algebraic data types.
 - [Error Handling](/08-error-handling/) -- Sealed classes model error states as typed variants, improving on untyped exception handling.
+
+## Related in this track
+
+- [Class Modifiers](/07-dart3-features/03-class-modifiers/)
+- [Pattern Matching](/07-dart3-features/01-pattern-matching/)

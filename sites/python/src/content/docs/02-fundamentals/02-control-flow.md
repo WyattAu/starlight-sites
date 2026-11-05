@@ -1059,3 +1059,10 @@ Python's control flow is built on the idea that code should read like prose. `if
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
 - [Generators and Iterators](https://languages.wyattau.com/python/02-fundamentals/04-generators-and-iterators/)
+
+## Related in this track
+
+- [Functions, Closures, and Decorators](/02-fundamentals/03-functions/)
+- [Generators and Iterators](/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/02-fundamentals/05-python-internals/)

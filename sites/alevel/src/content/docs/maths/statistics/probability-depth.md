@@ -347,3 +347,10 @@ $$
 - [Correlation and Regression (Extended)](/maths/statistics/correlation-and-regression-depth/)
 - [Hypothesis Testing (Extended)](/maths/statistics/hypothesis-testing-depth/)
 - [Statistical Distributions (Extended)](/maths/statistics/statistical-distributions-depth/)
+
+## Related in this track
+
+- [Correlation and Regression](/maths/statistics/02-correlation-and-regression/)
+- [Correlation and Regression (Extended)](/maths/statistics/correlation-and-regression-depth/)
+- [Data Representation](/maths/statistics/01-data-representation/)
+- [Hypothesis Testing](/maths/statistics/05-hypothesis-testing/)

@@ -342,3 +342,10 @@ Absolutely. These notes are designed to complement classroom teaching, not repla
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [GCSE Biology Study Guide](/biology/)
+- [GCSE Chemistry Study Guide](/chemistry/)
+- [GCSE English Study Guide](/english/)

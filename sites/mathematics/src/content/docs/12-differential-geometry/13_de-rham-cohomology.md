@@ -267,3 +267,10 @@ in the language of differential forms.
 - **[Hodge Theory](/12-differential-geometry/14_hodge-theory/)**; every de Rham class has a unique harmonic representative; the dimension of the harmonic forms is the Betti number.
 - **[The Fundamental Theorems](/11-functional-analysis/4_the-fundamental-theorems/)**; the self-adjoint operator theory that the Hodge Laplacian rests on.
 - **[Applications of Differential Geometry](/12-differential-geometry/9_applications/)**; Maxwell's equations in the language of $d$, where $dF = 0$ and $d{*F} = J$ are the closed-form conditions.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+- [Elliptic Regularity](/12-differential-geometry/16_elliptic-regularity/)

@@ -717,3 +717,9 @@ Automata theory studies abstract computing models. Finite automata recognize reg
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Compilers](/3-theory/compilers/)
+- [Cryptography](/3-theory/cryptography/)
+- [Machine Learning Fundamentals](/3-theory/machine-learning-fundamentals/)

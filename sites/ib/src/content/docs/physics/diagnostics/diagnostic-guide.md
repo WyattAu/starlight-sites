@@ -229,3 +229,10 @@ prioritise revision over extension work.
 - [Diagnostics](./)
 - [Atomic and Nuclear Physics -- Diagnostic Tests](/physics/diagnostics/diag-atomic-nuclear/)
 - [Current Electricity -- Diagnostic Tests](/physics/diagnostics/diag-current-electricity/)
+
+## Related in this track
+
+- [Atomic and Nuclear Physics -- Diagnostic Tests](/physics/diagnostics/diag-atomic-nuclear/)
+- [Current Electricity -- Diagnostic Tests](/physics/diagnostics/diag-current-electricity/)
+- [Dynamics -- Diagnostic Tests](/physics/diagnostics/diag-dynamics/)
+- [Electric and Magnetic Fields -- Diagnostic Tests](/physics/diagnostics/diag-electric-magnetic-fields/)

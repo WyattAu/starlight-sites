@@ -173,3 +173,10 @@ tags: [glossary]
 **EMF vs Terminal Voltage**: Cell EMF is the open-circuit potential difference; terminal voltage drops under current by the internal resistance loss.
 
 **Oxidation Number**: The formal charge assigned by electron-bookkeeping rules; changes identify redox couples in equations.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [CBSE Chemistry Study Guide](/chemistry/)
+- [CBSE Mathematics Study Guide](/maths/)
+- [CBSE Physics Study Guide](/physics/)

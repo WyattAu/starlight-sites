@@ -179,3 +179,10 @@ urban spatial models (Burgess, Hoyt, Harris and Ullman), urban environmental cha
 island, pollution, waste), and sustainable planning strategies (green infrastructure, BRT, mixed-use
 zoning, smart cities). Case studies from both developed and developing countries are essential for
 demonstrating contrasting urban processes and evaluating planning effectiveness.
+
+## Related in this track
+
+- [Climate Change](/geography/climate-change/)
+- [Economic Development](/geography/economic-development/)
+- [Freshwater Issues](/geography/freshwater-issues/)
+- [Geographic Skills](/geography/geographic-skills/)

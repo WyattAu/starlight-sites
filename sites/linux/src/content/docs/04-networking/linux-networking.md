@@ -916,3 +916,8 @@ Processes are programs in execution, each with its own memory space and priority
 
 - [Package Management](/07-package-management/package-management/)
 - [Linux Security](/06-security/linux-security/)
+
+## Related in this track
+
+- [DNS and DHCP on Linux](/04-networking/dns-and-dhcp/)
+- [Linux Firewalls](/04-networking/firewalls/)

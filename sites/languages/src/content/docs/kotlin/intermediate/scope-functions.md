@@ -387,3 +387,10 @@ Scope functions let you execute a block of code within the context of an object,
 - [Intermediate](./)
 - [Collections](/kotlin/intermediate/collections/)
 - [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [Generics](/kotlin/intermediate/generics/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)

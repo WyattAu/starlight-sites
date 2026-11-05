@@ -383,3 +383,10 @@ Derivative diagnostics test whether you can handle **compositions, implicit func
 
 - **[Derivatives](/maths/2-derivatives/2_derivatives/):** The full topic page covering chain rule, implicit differentiation, and all differentiation techniques.
 - **[Integrals](/maths/3-integrals/3_integrals/):** The FTC connects derivatives and integrals, the derivative of an integral returns the original function.
+
+## Related in this track
+
+- [AP Calculus Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Integrals -- Diagnostic Tests](/maths/diagnostics/diag-integrals/)
+- [Limits and Continuity -- Diagnostic Tests](/maths/diagnostics/diag-limits-continuity/)

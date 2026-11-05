@@ -617,3 +617,9 @@ implementation, and key applications.
 - **[I/O](/go/standard-library/io/):** Reader/Writer interfaces underlying HTTP request and response bodies.
 - **[Testing](/go/advanced/testing/):** HTTP handler testing with httptest and middleware verification.
 - **[Channels](/go/concurrency/channels/):** Goroutine-based concurrent request handling patterns.
+
+## Related in this track
+
+- [Standard Library I/O](/go/standard-library/io/)
+- [math, sort, and log/slog](/go/standard-library/math-sort-log/)
+- [strings and time](/go/standard-library/strings-and-time/)

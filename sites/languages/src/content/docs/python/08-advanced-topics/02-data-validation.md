@@ -1171,3 +1171,9 @@ Data validation is the bouncer at the door of your application, checking every p
 - [Essential Modules](/python/05-standard-library/01-essential-modules/) provides the standard library tools like  and  used in data validation pipelines.
 - [File I/O](/python/05-standard-library/02-file-io/) covers reading and writing validated data to persistent storage formats.
 - [CLI Tools](/python/05-standard-library/03-cli-tools/) shows how to build command-line interfaces that accept and validate user input.
+
+## Related in this track
+
+- [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/)
+- [Context Managers and the with Statement](/python/08-advanced-topics/03-context-managers/)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/)

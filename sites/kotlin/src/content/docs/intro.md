@@ -219,3 +219,10 @@ kotlin {
 
 - **[Site Home](../../):** Main landing page for kotlin notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Kotlin Assumes You Know](/before-you-begin/)
+- [Complete Kotlin Programming Study Guide](/hub/)
+- [Kotlin Glossary, Key Terms and Definitions](/glossary/)

@@ -548,3 +548,9 @@ affecting households and national accounts.
 - **[Physical Geography](/geography/flashcards-physical-geography/):** Physical geography studies natural Earth processes
 - **[Human Geography](/geography/flashcards-human-geography/):** Human geography studies people-environment interactions
 - **[Fieldwork](/geography/3-fieldwork/1_fieldwork-methodology/):** Fieldwork methods apply to geographic study
+
+## Related in this track
+
+- [Changing Places](/geography/2-human-geography/1_changing-places/)
+- [Contemporary Urban Environments](/geography/2-human-geography/3_contemporary-urban-environments/)
+- [Population and the Environment](/geography/2-human-geography/4_population-and-environment/)

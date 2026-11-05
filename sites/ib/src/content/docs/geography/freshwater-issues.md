@@ -175,3 +175,10 @@ Freshwater issues examines the hydrological cycle, drainage basin systems, flood
 scarcity (physical and economic), and flood management strategies. Students must evaluate hard and
 soft engineering approaches using specific case studies and understand the conflicts arising from
 competing demands for water resources between agriculture, industry, and domestic use.
+
+## Related in this track
+
+- [Climate Change](/geography/climate-change/)
+- [Economic Development](/geography/economic-development/)
+- [Geographic Skills](/geography/geographic-skills/)
+- [IB Geography](/geography/geography/)

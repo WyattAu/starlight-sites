@@ -425,3 +425,8 @@ Refraction is like light changing lanes on a highway. When light moves from air 
 - [Mechanics](https://hsc.wyattau.com/physics/mechanics/) - Wave mechanics and oscillatory motion underlying the wave theory of light
 - [Electricity](/physics/electricity/) - Electromagnetic theory connecting electric and magnetic fields to light propagation
 - [Algebra](https://sat.wyattau.com/mathematics/algebra/) - Algebraic manipulation of lens and mirror formulas for image calculations
+
+## Related in this track
+
+- [Electricity](/physics/electricity/)
+- [Mechanics](/physics/mechanics/)

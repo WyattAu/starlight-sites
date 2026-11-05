@@ -287,3 +287,10 @@ Indexes are the lookup tables that make database queries fast, like the index at
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Database Systems (Advanced)](/4-databases/12_databases-advanced/)
+- [Distributed Databases](/4-databases/9_distributed-databases/)
+- [Further Reading](/4-databases/11_further-reading/)
+- [Introduction to Database Systems](/4-databases/1_introduction-to-database-systems/)

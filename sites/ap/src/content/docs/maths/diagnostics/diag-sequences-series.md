@@ -387,3 +387,10 @@ Series diagnostics test whether you can **select the right convergence test** an
 
 - **[Sequences and Series](/maths/5-sequences-and-series/5_sequences-and-series/):** The full topic page covering convergence tests, Taylor series, and power series.
 - **[Limits and Continuity](/maths/1-limits-and-continuity/1_limits-and-continuity/):** Convergence of sequences and series is defined using limits.
+
+## Related in this track
+
+- [AP Calculus Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Derivatives -- Diagnostic Tests](/maths/diagnostics/diag-derivatives/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Integrals -- Diagnostic Tests](/maths/diagnostics/diag-integrals/)

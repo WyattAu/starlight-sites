@@ -195,3 +195,10 @@ The Euler characteristic $\chi = V - E + F$ is well-defined for all surfaces, bu
 4. Use Gauss-Bonnet with boundary to find the area of a spherical lune (region between two
    great circles) with angle $\theta$.
 5. Show that $\chi(M)$ is even for every compact oriented 2-manifold.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)

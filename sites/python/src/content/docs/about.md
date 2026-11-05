@@ -109,3 +109,9 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Introduction to Python](/intro/)
+- [Python Glossary, Key Terms and Definitions](/glossary/)

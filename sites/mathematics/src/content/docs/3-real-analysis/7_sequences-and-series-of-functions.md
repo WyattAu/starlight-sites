@@ -407,3 +407,10 @@ When applying the ratio or root test, students find $R$ but assume the series co
 ## Intuition
 
 A sequence of functions converges pointwise if each point eventually stabilises, but this is too weak to preserve analytical properties, the limit of continuous functions can be discontinuous. Uniform convergence demands that all points stabilise simultaneously: given any tolerance, there is a single $N$ beyond which every point in the domain is within that tolerance. Think of it as the difference between each person eventually sitting down (pointwise) versus everyone sitting down at the same command (uniform). Power series are the paradigmatic example: within their radius of convergence, they converge uniformly on compact sets, which justifies term-by-term differentiation and integration.
+
+## Related in this track
+
+- [Continuity](/3-real-analysis/4_continuity/)
+- [Differentiability](/3-real-analysis/5_differentiability/)
+- [Problem Set](/3-real-analysis/8_problem-set/)
+- [Riemann Integration](/3-real-analysis/6_riemann-integration/)

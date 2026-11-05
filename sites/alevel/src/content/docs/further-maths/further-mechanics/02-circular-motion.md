@@ -1511,3 +1511,8 @@ $T = \dfrac{2\pi}{\omega} = \boxed{2\pi\sqrt{l/g}}$. $\blacksquare$
 - [Centres of Mass and Elastic Collisions](/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions/) extends particle dynamics to systems of particles, using momentum conservation alongside force analysis.
 - [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/) provides the differentiation and integration methods required for angular velocity, angular acceleration, and energy derivations in circular motion.
 - [Vectors in 3D](/further-maths/pure-mathematics/09-vectors-in-3d/) supplies the vector notation and resolution techniques used to analyse forces in vertical and horizontal circles.
+
+## Related in this track
+
+- [Centres of Mass and Elastic Collisions](/further-maths/further-mechanics/03-centres-of-mass-and-elastic-collisions/)
+- [Projectile Motion](/further-maths/further-mechanics/01-projectile-motion/)

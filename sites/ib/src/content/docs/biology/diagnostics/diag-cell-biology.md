@@ -273,3 +273,10 @@ potential that is essential for action potential generation.
 - **[Cell Biology](/biology/flashcards-cell-biology/):** Cells are the basic units of life
 - **[Genetics](/biology/flashcards-genetics/):** Genetics studies heredity and variation
 - **[Ecology](/biology/diagnostics/diag-ecology/):** Ecology studies organism-environment interactions
+
+## Related in this track
+
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)
+- [Genetics -- Diagnostic Tests](/biology/diagnostics/diag-genetics/)
+- [Human Physiology -- Diagnostic Tests](/biology/diagnostics/diag-human-physiology/)
+- [IB Biology -- Diagnostic Guide](/biology/diagnostics/diagnostic-guide/)

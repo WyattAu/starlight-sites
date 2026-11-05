@@ -983,3 +983,10 @@ available for insertion.
 - **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Hash functions convert keys to array indices
 - **[Graphs](/computer-science/data-structures/05-graphs/):** Hash tables enable efficient graph vertex lookup
 - **[Linked Lists](/computer-science/data-structures/02-linked-lists/):** Hash collisions are resolved using linked lists
+
+## Related in this track
+
+- [Arrays and Records](/computer-science/data-structures/01-arrays-and-records/)
+- [Graphs | A-Level - Wyatt's Notes](/computer-science/data-structures/05-graphs/)
+- [Linked Lists](/computer-science/data-structures/02-linked-lists/)
+- [Stacks and Queues](/computer-science/data-structures/03-stacks-and-queues/)

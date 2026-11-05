@@ -854,3 +854,10 @@ $T = (3, 0)$.
 - **[Functions](/maths/diagnostics/diag-functions/):** Functions are central
 - **[Quadratics](/maths/diagnostics/diag-quadratics/):** Quadratics are a core topic
 - **[Trigonometry](/maths/diagnostics/diag-trigonometry/):** Trigonometry is fundamental
+
+## Related in this track
+
+- [Combinatorics -- Diagnostic Tests](/maths/diagnostics/diag-combinatorics/)
+- [Coordinate Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinate-geometry/)
+- [DSE Mathematics Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Dispersion -- Diagnostic Tests](/maths/diagnostics/diag-dispersion/)

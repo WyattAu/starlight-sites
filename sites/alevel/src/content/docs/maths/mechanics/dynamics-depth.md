@@ -711,3 +711,10 @@ $\blacksquare$
 - [Kinematics](/maths/mechanics/01-kinematics/) -- Dynamics applies forces to explain the accelerations and motions described kinematically.
 - [Moments](/maths/mechanics/03-moments/) -- The equilibrium conditions for rigid bodies extend Newton's laws to rotational dynamics.
 - [Energy and Work](/maths/mechanics/04-energy-and-work/) -- The work-energy principle provides an alternative to F=ma for solving dynamics problems involving displacement.
+
+## Related in this track
+
+- [Energy and Work](/maths/mechanics/04-energy-and-work/)
+- [Energy and Work (Extended)](/maths/mechanics/energy-and-work-depth/)
+- [Forces and Newton's Laws](/maths/mechanics/02-forces-and-newtons-laws/)
+- [Kinematics](/maths/mechanics/01-kinematics/)

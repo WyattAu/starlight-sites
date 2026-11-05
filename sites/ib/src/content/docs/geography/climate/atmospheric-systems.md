@@ -296,3 +296,7 @@ At [../climate-change](/geography/climate-change/).
 
 ## Worked Examples
 
+## Related in this track
+
+- [Carbon Cycle and Sequestration](/geography/climate/carbon-cycle-and-sequestration/)
+- [Climate Adaptation and Mitigation](/geography/climate/climate-adaptation-and-mitigation/)

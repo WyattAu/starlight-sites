@@ -159,3 +159,9 @@ The Irish Leaving Certificate is like the final exam of a two-year apprenticeshi
 - **[Maths](/maths/):** Algebra, calculus, geometry, trigonometry, probability, and statistics notes.
 - **[Physics](/physics/):** Mechanics, waves, electricity, heat, and modern physics notes.
 - **[Chemistry](/chemistry/):** Atomic structure, bonding, stoichiometry, and organic chemistry notes.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Irish Leaving Certificate Study Guide](/hub/)
+- [Irish Leaving Certificate Glossary, Key Terms](/glossary/)

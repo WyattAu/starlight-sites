@@ -641,3 +641,8 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Filesystem Library](/standard_library/4_system_utilities/1_filesystem/)
+- [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
+- [Regular Expressions](/standard_library/4_system_utilities/4_regular_expressions/)

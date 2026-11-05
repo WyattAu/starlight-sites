@@ -176,6 +176,13 @@ falsifiable footprint; and the theorems say exactly which results each choice pu
 - [The OLS estimator](/3-econometrics/1_ols-estimator/); the empirical question: do real
   prices behave as if the equilibrium exists?
 
+## Related in this track
+
+- [Preferences and Utility](/1-microeconomic-theory/1_preferences-and-utility/)
+- [Production, Cost, and the Firm](/1-microeconomic-theory/5_production-and-firm/)
+- [The Welfare Theorems](/1-microeconomic-theory/3_welfare-theorems/)
+- [Utility Maximisation, Expenditure Functions, and Slutsky](/1-microeconomic-theory/2_utility-maximisation/)
+
 ---
 
 ## Index
@@ -337,6 +344,13 @@ are the benchmark whose failures are informative.
 3. Construct the money-pump for cyclic preferences. (§2; with $a \prec b \prec c \prec a$, an
    agent pays a fee repeatedly to trade up the cycle.)
 4. Why do lexicographic preferences admit no representation? (§3; uncountably many jumps.)
+
+## Related in this track
+
+- [General Equilibrium](/1-microeconomic-theory/4_general-equilibrium/)
+- [Production, Cost, and the Firm](/1-microeconomic-theory/5_production-and-firm/)
+- [The Welfare Theorems](/1-microeconomic-theory/3_welfare-theorems/)
+- [Utility Maximisation, Expenditure Functions, and Slutsky](/1-microeconomic-theory/2_utility-maximisation/)
 
 ---
 
@@ -521,6 +535,13 @@ $\blacksquare$
 - [Econometrics](/3-econometrics/1_ols-estimator/); the cost function's parametric forms are
   estimated from cost-share data using the Shephard derivatives.
 
+## Related in this track
+
+- [General Equilibrium](/1-microeconomic-theory/4_general-equilibrium/)
+- [Preferences and Utility](/1-microeconomic-theory/1_preferences-and-utility/)
+- [The Welfare Theorems](/1-microeconomic-theory/3_welfare-theorems/)
+- [Utility Maximisation, Expenditure Functions, and Slutsky](/1-microeconomic-theory/2_utility-maximisation/)
+
 ---
 
 ## Utility Maximisation
@@ -675,6 +696,13 @@ of this theorem.
 4. Why is the Marshallian cross-partial matrix not symmetric? (§4; the income effect terms
    $-x_j \partial x_i/\partial w$ need not mirror.)
 
+## Related in this track
+
+- [General Equilibrium](/1-microeconomic-theory/4_general-equilibrium/)
+- [Preferences and Utility](/1-microeconomic-theory/1_preferences-and-utility/)
+- [Production, Cost, and the Firm](/1-microeconomic-theory/5_production-and-firm/)
+- [The Welfare Theorems](/1-microeconomic-theory/3_welfare-theorems/)
+
 ---
 
 ## Welfare Theorems
@@ -803,6 +831,13 @@ hyperplane need not exist, and efficient allocations can be unreachable by any p
   which theorem's hypotheses a real market violates.
 - Production and general equilibrium (next in track); the firm's profit maximisation joins the
   consumer's, and the fixed-point machinery from the game-theory track returns for existence.
+
+## Related in this track
+
+- [General Equilibrium](/1-microeconomic-theory/4_general-equilibrium/)
+- [Preferences and Utility](/1-microeconomic-theory/1_preferences-and-utility/)
+- [Production, Cost, and the Firm](/1-microeconomic-theory/5_production-and-firm/)
+- [Utility Maximisation, Expenditure Functions, and Slutsky](/1-microeconomic-theory/2_utility-maximisation/)
 
 ## Macroeconomics
 
@@ -1319,6 +1354,13 @@ Remedies chosen before step 3 are decoration.
    attenuation: the plim itself is shrunken; more data converges to the shrunken value more
    precisely, not to the truth.)
 
+## Related in this track
+
+- [Inference: Standard Errors, t-Tests, and Robust Variance](/3-econometrics/5_inference/)
+- [Instrumental Variables and 2SLS](/3-econometrics/4_instrumental-variables/)
+- [The Gauss--Markov Theorem](/3-econometrics/2_gauss-markov/)
+- [The OLS Estimator](/3-econometrics/1_ols-estimator/)
+
 ---
 
 ## Gauss Markov
@@ -1446,6 +1488,13 @@ default is OLS with robust errors rather than GLS.
 
 - [The OLS Estimator](/3-econometrics/1_ols-estimator/); the decomposition this proof builds on.
 - Consistency and asymptotics; the guarantees that survive weaker exogeneity (next in track).
+
+## Related in this track
+
+- [Consistency and the Failure Modes](/3-econometrics/3_consistency-and-failure-modes/)
+- [Inference: Standard Errors, t-Tests, and Robust Variance](/3-econometrics/5_inference/)
+- [Instrumental Variables and 2SLS](/3-econometrics/4_instrumental-variables/)
+- [The OLS Estimator](/3-econometrics/1_ols-estimator/)
 
 ---
 
@@ -1612,6 +1661,13 @@ first welfare theorem's "in principle" clause teaches about design vs hope).
 4. A coefficient has p = 0.001 with magnitude 0.01 on a scale where 10 matters. What does the
    p-value tell you, and what does it not? (§5; distinguishable from zero; not that it matters.)
 
+## Related in this track
+
+- [Consistency and the Failure Modes](/3-econometrics/3_consistency-and-failure-modes/)
+- [Instrumental Variables and 2SLS](/3-econometrics/4_instrumental-variables/)
+- [The Gauss--Markov Theorem](/3-econometrics/2_gauss-markov/)
+- [The OLS Estimator](/3-econometrics/1_ols-estimator/)
+
 ---
 
 ## Instrumental Variables
@@ -1746,6 +1802,13 @@ paper, and the algebra above is the frame it hangs on.
    contaminates the projection.)
 4. Why can't the same variable be a control and an instrument? (§5; a control correlates with
    $u$ by design; an instrument must not.)
+
+## Related in this track
+
+- [Consistency and the Failure Modes](/3-econometrics/3_consistency-and-failure-modes/)
+- [Inference: Standard Errors, t-Tests, and Robust Variance](/3-econometrics/5_inference/)
+- [The Gauss--Markov Theorem](/3-econometrics/2_gauss-markov/)
+- [The OLS Estimator](/3-econometrics/1_ols-estimator/)
 
 ---
 
@@ -1899,6 +1962,13 @@ hypotheses fail.
    $(X'X)^{-1}X'E[u\mid X]$ does not vanish with $n$.)
 4. State the role of $M$'s idempotence in Proposition 6.2. (Trace of an idempotent equals its
    rank.)
+
+## Related in this track
+
+- [Consistency and the Failure Modes](/3-econometrics/3_consistency-and-failure-modes/)
+- [Inference: Standard Errors, t-Tests, and Robust Variance](/3-econometrics/5_inference/)
+- [Instrumental Variables and 2SLS](/3-econometrics/4_instrumental-variables/)
+- [The Gauss--Markov Theorem](/3-econometrics/2_gauss-markov/)
 
 ## Game-Theory
 
@@ -2188,6 +2258,12 @@ University treatments are examined differently from school treatments: problem s
 proofs, not evaluations. The self-tests follow the problem-set convention, and the worked items
 show full arguments because partial arguments are exactly what the format penalises.
 
+## Related in this track
+
+- [Before You Begin: The Mathematics Economics Assumes](/before-you-begin/)
+- [Economics Study Hub](/hub/)
+- [Glossary](/glossary/)
+
 ---
 
 ## Before You Begin
@@ -2296,6 +2372,12 @@ covers all four. Nothing more exotic until the central limit theorem, proved the
 - [Econometrics](/3-econometrics/); the same relationships estimated from data, with
   Gauss--Markov proved.
 - The [study hub](/hub/); the track map and prerequisites.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Economics Study Hub](/hub/)
+- [Glossary](/glossary/)
 
 ---
 
@@ -2406,6 +2488,12 @@ Each entry says what the thing is and what it is for; a definition and a purpose
 Entries never cite a page as their definition; the pages' definitions are the primary source and
 the glossary is the index. If a glossary entry and a page disagree, the page is wrong and gets
 fixed.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Mathematics Economics Assumes](/before-you-begin/)
+- [Economics Study Hub](/hub/)
 
 ---
 
@@ -2523,6 +2611,12 @@ The macro track's growth pages land next, then general equilibrium with the welf
 proved, then the econometrics track's asymptotics and inference pages. The game-theory track
 continues into sequential games and subgame perfection. Each addition follows the site standard:
 proved, hypotheses named, defined before use.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Mathematics Economics Assumes](/before-you-begin/)
+- [Glossary](/glossary/)
 
 ---
 

@@ -159,3 +159,10 @@ so it is licensed.
 - [Atomic Structure and Periodicity](/3-inorganic-chemistry/atomic-structure-and-periodicity/); orbitals done properly.
 - [Chemical Kinetics](/1-physical-chemistry/chemical-kinetics/); rates, and the difference between equilibrium and speed.
 - [Thermodynamics](/1-physical-chemistry/thermodynamics/); the energy ledger, derived.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Chemistry](/intro/)
+- [Chemistry Glossary, Key Terms and Definitions](/glossary/)
+- [Complete University Chemistry Study Guide](/hub/)

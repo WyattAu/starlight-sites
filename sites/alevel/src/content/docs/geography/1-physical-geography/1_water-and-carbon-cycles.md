@@ -516,3 +516,9 @@ the ocean's buffering capacity, potentially weakening its future role as a carbo
 - **[Physical Geography](/geography/flashcards-physical-geography/):** Physical geography studies natural Earth processes
 - **[Human Geography](/geography/flashcards-human-geography/):** Human geography studies people-environment interactions
 - **[Fieldwork](/geography/3-fieldwork/1_fieldwork-methodology/):** Fieldwork methods apply to geographic study
+
+## Related in this track
+
+- [Coastal Systems and Landscapes](/geography/1-physical-geography/2_coastal-systems/)
+- [Glacial Systems and Landscapes](/geography/1-physical-geography/3_glacial-systems/)
+- [Hazards](/geography/1-physical-geography/4_hazards/)

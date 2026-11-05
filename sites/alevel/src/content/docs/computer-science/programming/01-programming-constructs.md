@@ -990,3 +990,8 @@ programming, and requires both theoretical knowledge and hands-on practice.
 - **[OOP](/computer-science/programming/02-object-oriented-programming/):** OOP extends procedural constructs
 - **[Data Structures](/computer-science/data-structures/05-graphs/):** Programming manipulates data structures
 - **[Algorithms](/computer-science/algorithms/03-graph-algorithms/):** Programming implements algorithms
+
+## Related in this track
+
+- [Data Representation in Programming](/computer-science/programming/03-data-representation-in-programming/)
+- [Object-Oriented Programming](/computer-science/programming/02-object-oriented-programming/)

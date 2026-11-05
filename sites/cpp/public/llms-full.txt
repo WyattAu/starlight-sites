@@ -110,6 +110,12 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Before You Begin: Reading the C++ in These Courses](/before-you-begin/)
+- [C++ Glossary, Key Terms and Definitions](/glossary/)
+- [Complete C++ Programming Study Guide](/hub/)
+
 ---
 
 ## Before You Begin
@@ -299,6 +305,12 @@ ten.
   to read.
 - [Gaussian Processes](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/9_gaussian-processes/) -
   the kernel-trick timing, where the memory-layout claim is a C++ claim.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [C++ Glossary, Key Terms and Definitions](/glossary/)
+- [Complete C++ Programming Study Guide](/hub/)
 
 ---
 
@@ -858,6 +870,12 @@ assert(x > 0 && "x must be positive");
 - See [Rust Glossary](https://typescript.wyattau.com/glossary/) for memory safety concepts
 - See [Python Glossary](https://typescript.wyattau.com/glossary/) for dynamic typing concepts
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Reading the C++ in These Courses](/before-you-begin/)
+- [Complete C++ Programming Study Guide](/hub/)
+
 ---
 
 ## Hub
@@ -1174,6 +1192,12 @@ Use smart pointers (`std::unique_ptr`, `std::shared_ptr`) for owning pointers. U
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Reading the C++ in These Courses](/before-you-begin/)
+- [C++ Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -8460,6 +8484,13 @@ Atomic operations are like using a public restroom with an "occupied" sign. When
 - [Cache Coherency](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/2_cache_coherency/) - How CPU caches affect atomic operation performance
 - [Memory Orderings](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/4_memory_orderings/) - How to control ordering guarantees for atomic operations
 
+## Related in this track
+
+- [Cache Coherency (MESI) and False Sharing](/concurrency/2_memory_model_and_atomics/2_cache_coherency/)
+- [Compare-and-Swap (CAS) Loops](/concurrency/2_memory_model_and_atomics/5_cas_loops/)
+- [Instruction Reordering and Happens-Before](/concurrency/2_memory_model_and_atomics/1_instruction_reordering/)
+- [Memory Orderings](/concurrency/2_memory_model_and_atomics/4_memory_orderings/)
+
 ---
 
 ## Cache Coherency
@@ -9366,6 +9397,13 @@ Cache coherency is like a shared document editing system. When one person edits 
 - [Instruction Reordering](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/1_instruction_reordering/) - How compiler and CPU reordering affect memory visibility
 - [Atomic Operations](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations/) - How atomic operations interact with cache coherency
 
+## Related in this track
+
+- [Atomic Operations and Lock-Free Programming](/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
+- [Compare-and-Swap (CAS) Loops](/concurrency/2_memory_model_and_atomics/5_cas_loops/)
+- [Instruction Reordering and Happens-Before](/concurrency/2_memory_model_and_atomics/1_instruction_reordering/)
+- [Memory Orderings](/concurrency/2_memory_model_and_atomics/4_memory_orderings/)
+
 ---
 
 ## Cas Loops
@@ -10122,6 +10160,13 @@ CAS loops are like trying to update a shared whiteboard. You read the current va
 - [Atomic Operations](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations/) - How atomic operations form the basis of CAS loops
 - [Memory Orderings](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/4_memory_orderings/) - How to choose the right memory ordering for CAS operations
 
+## Related in this track
+
+- [Atomic Operations and Lock-Free Programming](/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
+- [Cache Coherency (MESI) and False Sharing](/concurrency/2_memory_model_and_atomics/2_cache_coherency/)
+- [Instruction Reordering and Happens-Before](/concurrency/2_memory_model_and_atomics/1_instruction_reordering/)
+- [Memory Orderings](/concurrency/2_memory_model_and_atomics/4_memory_orderings/)
+
 ---
 
 ## Condition Variables
@@ -10808,6 +10853,13 @@ decision to proceed depends on shared data that can change in complex ways. Use 
 barriers when you directly need to coordinate timing, everyone waits until N threads have arrived,
 then they all proceed together.
 
+## Related in this track
+
+- [Data Races and Critical Sections](/concurrency/1_threading_and_synchronization/2_data_races/)
+- [Mutexes, Shared Locks, and Deadlock Prevention](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Thread Execution (std::jthread) and Hardware Mapping](/concurrency/1_threading_and_synchronization/1_threads_jthread/)
+- [Thread-Local Storage (TLS)](/concurrency/1_threading_and_synchronization/5_thread_local_storage/)
+
 ---
 
 ## Coroutine Frames
@@ -11350,6 +11402,13 @@ Calling `destroy()` on a handle triggers:
 
 After `destroy()`. The handle becomes **invalid**, using it is undefined behavior [N4950 §21.4.4]. If
 `destroy()` is never called and no other mechanism cleans up, the frame leaks.
+
+## Related in this track
+
+- [Coroutine Handle, Promise Type, and Awaiter](/concurrency/3_coroutines_and_async_io/2_promise_awaiter/)
+- [Futures, Promises, and Async Flows](/concurrency/3_coroutines_and_async_io/5_futures_promises/)
+- [Generators (std::generator)](/concurrency/3_coroutines_and_async_io/3_generators/)
+- [Task Scheduling and Executors](/concurrency/3_coroutines_and_async_io/4_task_scheduling/)
 
 ---
 
@@ -11895,6 +11954,13 @@ including key principles and practical applications.
 - evaluation and critical analysis
 
 ## Worked Examples
+
+## Related in this track
+
+- [Condition Variables, Latches, and Barriers](/concurrency/1_threading_and_synchronization/4_condition_variables/)
+- [Mutexes, Shared Locks, and Deadlock Prevention](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Thread Execution (std::jthread) and Hardware Mapping](/concurrency/1_threading_and_synchronization/1_threads_jthread/)
+- [Thread-Local Storage (TLS)](/concurrency/1_threading_and_synchronization/5_thread_local_storage/)
 
 ---
 
@@ -12508,6 +12574,13 @@ Futures and promises are like a restaurant order ticket system. When you place a
 - [Task Scheduling](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/4_task_scheduling/) - How executors schedule coroutine-based tasks
 - [Promise, Awaiter](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/2_promise_awaiter/) - How coroutine promise types differ from std::promise
 
+## Related in this track
+
+- [Coroutine Handle, Promise Type, and Awaiter](/concurrency/3_coroutines_and_async_io/2_promise_awaiter/)
+- [Generators (std::generator)](/concurrency/3_coroutines_and_async_io/3_generators/)
+- [Stackless Coroutine Frames and Heap Allocation](/concurrency/3_coroutines_and_async_io/1_coroutine_frames/)
+- [Task Scheduling and Executors](/concurrency/3_coroutines_and_async_io/4_task_scheduling/)
+
 ---
 
 ## Generators
@@ -13056,6 +13129,13 @@ Generators are like vending machines that dispense items one at a time. Instead 
 - [Stackless Coroutine Frames](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/1_coroutine_frames/) - How coroutine frames enable generator implementation
 - [Promise, Awaiter](https://programming.wyattau.com/concurrency/3_coroutines_and_async_io/2_promise_awaiter/) - How promise types control generator behavior
 
+## Related in this track
+
+- [Coroutine Handle, Promise Type, and Awaiter](/concurrency/3_coroutines_and_async_io/2_promise_awaiter/)
+- [Futures, Promises, and Async Flows](/concurrency/3_coroutines_and_async_io/5_futures_promises/)
+- [Stackless Coroutine Frames and Heap Allocation](/concurrency/3_coroutines_and_async_io/1_coroutine_frames/)
+- [Task Scheduling and Executors](/concurrency/3_coroutines_and_async_io/4_task_scheduling/)
+
 ---
 
 ## Index
@@ -13560,6 +13640,13 @@ int main() {
 }
 
 ```
+
+## Related in this track
+
+- [Atomic Operations and Lock-Free Programming](/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
+- [Cache Coherency (MESI) and False Sharing](/concurrency/2_memory_model_and_atomics/2_cache_coherency/)
+- [Compare-and-Swap (CAS) Loops](/concurrency/2_memory_model_and_atomics/5_cas_loops/)
+- [Memory Orderings](/concurrency/2_memory_model_and_atomics/4_memory_orderings/)
 
 ---
 
@@ -14118,6 +14205,13 @@ Memory orderings are like traffic rules for data. Relaxed ordering is like a cou
 
 - [Instruction Reordering](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/1_instruction_reordering/) - How compiler and CPU reordering motivate memory orderings
 - [Atomic Operations](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations/) - How atomic operations use memory orderings
+
+## Related in this track
+
+- [Atomic Operations and Lock-Free Programming](/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
+- [Cache Coherency (MESI) and False Sharing](/concurrency/2_memory_model_and_atomics/2_cache_coherency/)
+- [Compare-and-Swap (CAS) Loops](/concurrency/2_memory_model_and_atomics/5_cas_loops/)
+- [Instruction Reordering and Happens-Before](/concurrency/2_memory_model_and_atomics/1_instruction_reordering/)
 
 ---
 
@@ -14860,6 +14954,13 @@ deadlock prevention, including key principles and practical applications.
 - [Thread Execution (std::jthread) and Hardware Mapping](/concurrency/1_threading_and_synchronization/1_threads_jthread/)
 - [Data Races and Critical Sections](/concurrency/1_threading_and_synchronization/2_data_races/)
 
+## Related in this track
+
+- [Condition Variables, Latches, and Barriers](/concurrency/1_threading_and_synchronization/4_condition_variables/)
+- [Data Races and Critical Sections](/concurrency/1_threading_and_synchronization/2_data_races/)
+- [Thread Execution (std::jthread) and Hardware Mapping](/concurrency/1_threading_and_synchronization/1_threads_jthread/)
+- [Thread-Local Storage (TLS)](/concurrency/1_threading_and_synchronization/5_thread_local_storage/)
+
 ---
 
 ## Promise Awaiter
@@ -15305,6 +15406,13 @@ int main() {
     // ~ScopedTask checks handle, but the handle is already done.
 }
 ```
+
+## Related in this track
+
+- [Futures, Promises, and Async Flows](/concurrency/3_coroutines_and_async_io/5_futures_promises/)
+- [Generators (std::generator)](/concurrency/3_coroutines_and_async_io/3_generators/)
+- [Stackless Coroutine Frames and Heap Allocation](/concurrency/3_coroutines_and_async_io/1_coroutine_frames/)
+- [Task Scheduling and Executors](/concurrency/3_coroutines_and_async_io/4_task_scheduling/)
 
 ---
 
@@ -15949,6 +16057,13 @@ int main() {
     std::cout << "main: done\n";
 }
 ```
+
+## Related in this track
+
+- [Coroutine Handle, Promise Type, and Awaiter](/concurrency/3_coroutines_and_async_io/2_promise_awaiter/)
+- [Futures, Promises, and Async Flows](/concurrency/3_coroutines_and_async_io/5_futures_promises/)
+- [Generators (std::generator)](/concurrency/3_coroutines_and_async_io/3_generators/)
+- [Stackless Coroutine Frames and Heap Allocation](/concurrency/3_coroutines_and_async_io/1_coroutine_frames/)
 
 ---
 
@@ -16796,6 +16911,13 @@ When working with thread-local storage (tls), follow these steps:
 4. Test with edge cases and verify correctness
 :::
 
+## Related in this track
+
+- [Condition Variables, Latches, and Barriers](/concurrency/1_threading_and_synchronization/4_condition_variables/)
+- [Data Races and Critical Sections](/concurrency/1_threading_and_synchronization/2_data_races/)
+- [Mutexes, Shared Locks, and Deadlock Prevention](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Thread Execution (std::jthread) and Hardware Mapping](/concurrency/1_threading_and_synchronization/1_threads_jthread/)
+
 ---
 
 ## Threads Jthread
@@ -17392,6 +17514,13 @@ C++ threads are OS-level execution contexts. `std::thread` spawns a new thread, 
 - [Condition Variables](https://programming.wyattau.com/concurrency/1_threading_and_synchronization/4_condition_variables/)
 - [Atomic Operations](https://programming.wyattau.com/concurrency/2_memory_model_and_atomics/3_atomic_operations/)
 
+## Related in this track
+
+- [Condition Variables, Latches, and Barriers](/concurrency/1_threading_and_synchronization/4_condition_variables/)
+- [Data Races and Critical Sections](/concurrency/1_threading_and_synchronization/2_data_races/)
+- [Mutexes, Shared Locks, and Deadlock Prevention](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Thread-Local Storage (TLS)](/concurrency/1_threading_and_synchronization/5_thread_local_storage/)
+
 ## Enviroment_and_toolchain
 
 ---
@@ -17866,6 +17995,13 @@ implementation, and key applications.
 - interrupts and polling
 
 ## Worked Examples
+
+## Related in this track
+
+- [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [Conan | C++ - Wyatt's Notes](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)
+- [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)
 
 ---
 
@@ -19308,6 +19444,11 @@ This overrides the toolchain for local development without modifying the shared 
 - [CMake Targets Properties and Generator Expressions](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/)
 - [Ninja Build System and Parrallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
 
+## Related in this track
+
+- [CMake Targets Properties and Generator Expressions](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/)
+- [Ninja Build System and Parrallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
+
 ---
 
 ## Cmake Targets Properties Generator
@@ -19957,6 +20098,11 @@ generator expressions, including key principles and practical applications.
 - [2_build_system](./)
 - [Ninja Build System and Parrallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
 - [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
+
+## Related in this track
+
+- [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
+- [Ninja Build System and Parrallelism](/enviroment_and_toolchain/2_build_system/2_ninja_and_parallelism/)
 
 ---
 
@@ -21455,6 +21601,13 @@ and practical applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
+- [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)
+- [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)
+
 ---
 
 ## Cpm
@@ -22195,6 +22348,13 @@ principles and practical applications.
 - evaluation and critical analysis
 
 ## Worked Examples
+
+## Related in this track
+
+- [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
+- [Conan | C++ - Wyatt's Notes](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)
+- [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)
 
 ---
 
@@ -24373,6 +24533,13 @@ key principles and practical applications.
 - evaluation and critical analysis
 
 ## Worked Examples
+
+## Related in this track
+
+- [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
+- [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [Conan | C++ - Wyatt's Notes](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Property Propagation](/enviroment_and_toolchain/3_dependency_management/5_property_propagation/)
 
 ---
 
@@ -28638,6 +28805,11 @@ and copy step. Then `ninja` runs those steps in parallel, giving you the fastest
 times for your hardware. If you're not using Ninja already, switching to it is one of the easiest
 build performance wins available.
 
+## Related in this track
+
+- [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
+- [CMake Targets Properties and Generator Expressions](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/)
+
 ---
 
 ## Property Propagation
@@ -29384,6 +29556,13 @@ key principles and practical applications.
 - evaluation and critical analysis
 
 ## Worked Examples
+
+## Related in this track
+
+- [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
+- [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [Conan | C++ - Wyatt's Notes](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)
 
 ---
 
@@ -32938,6 +33117,13 @@ and practical applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
+- [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [Conan | C++ - Wyatt's Notes](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)
+
 ## Function_architecture
 
 ---
@@ -33738,6 +33924,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
+## Related in this track
+
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Lambda Expressions, Capture Layouts and Closure Types](/function_architecture/1_function_mechanics/3_lambdas/)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)
+- [Type Erasure, Function Pointers, std::function, std::move_only_function](/function_architecture/1_function_mechanics/4_type_erasure/)
+
 ---
 
 ## Calling Conventions
@@ -34527,6 +34720,13 @@ and past paper questions, is essential for success in examinations.
 
 ## Worked Examples
 
+## Related in this track
+
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
+- [Lambda Expressions, Capture Layouts and Closure Types](/function_architecture/1_function_mechanics/3_lambdas/)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)
+- [Type Erasure, Function Pointers, std::function, std::move_only_function](/function_architecture/1_function_mechanics/4_type_erasure/)
+
 ---
 
 ## Exception Abi
@@ -35260,6 +35460,13 @@ Exception ABI defines how exceptions propagate across library boundaries. The It
 - [Noexcept](https://programming.wyattau.com/function_architecture/2_error_handling/3_noexcept/)
 - [RAII Patterns](https://programming.wyattau.com/resource_management/1_ownership_and_raii/1_raii_patterns/)
 
+## Related in this track
+
+- [Algebraic Error Handling, std::optional and std::variant](/function_architecture/2_error_handling/4_optional_variant/)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [Monadic Error Handling, std::expected](/function_architecture/2_error_handling/5_expected/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)
+
 ---
 
 ## Exception Safety
@@ -35926,6 +36133,13 @@ including key theorems, methods, and problem-solving approaches.
 - applications and modelling
 
 ## Worked Examples
+
+## Related in this track
+
+- [Algebraic Error Handling, std::optional and std::variant](/function_architecture/2_error_handling/4_optional_variant/)
+- [Monadic Error Handling, std::expected](/function_architecture/2_error_handling/5_expected/)
+- [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)
 
 ---
 
@@ -36795,6 +37009,13 @@ std::expected, including key theorems, methods, and problem-solving approaches.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Algebraic Error Handling, std::optional and std::variant](/function_architecture/2_error_handling/4_optional_variant/)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)
+
 ---
 
 ## Flashcards Error Handling
@@ -37643,6 +37864,13 @@ and past paper questions, is essential for success in examinations.
 - **[Error Handling](/function_architecture/2_error_handling/):** Exception handling patterns used within lambda bodies.
 - **Object-Oriented Programming:** OOP concepts that lambdas complement as lightweight function objects.
 
+## Related in this track
+
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)
+- [Type Erasure, Function Pointers, std::function, std::move_only_function](/function_architecture/1_function_mechanics/4_type_erasure/)
+
 ---
 
 ## Noexcept
@@ -38219,6 +38447,13 @@ including key theorems, methods, and problem-solving approaches.
 - applications and modelling
 
 ## Worked Examples
+
+## Related in this track
+
+- [Algebraic Error Handling, std::optional and std::variant](/function_architecture/2_error_handling/4_optional_variant/)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [Monadic Error Handling, std::expected](/function_architecture/2_error_handling/5_expected/)
+- [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
 
 ---
 
@@ -38865,6 +39100,13 @@ std::optional and std::variant, including key theorems, methods, and problem-sol
 - binomial expansion
 
 ## Worked Examples
+
+## Related in this track
+
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [Monadic Error Handling, std::expected](/function_architecture/2_error_handling/5_expected/)
+- [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)
 
 ---
 
@@ -39810,6 +40052,13 @@ Overload resolution is the compiler's process of choosing which function to call
 - [Calling Conventions](https://programming.wyattau.com/function_architecture/1_function_mechanics/2_calling_conventions/)
 - [Lambdas](https://programming.wyattau.com/function_architecture/1_function_mechanics/3_lambdas/)
 - [Type Erasure](https://programming.wyattau.com/function_architecture/1_function_mechanics/4_type_erasure/)
+
+## Related in this track
+
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Lambda Expressions, Capture Layouts and Closure Types](/function_architecture/1_function_mechanics/3_lambdas/)
+- [Type Erasure, Function Pointers, std::function, std::move_only_function](/function_architecture/1_function_mechanics/4_type_erasure/)
 
 ---
 
@@ -40801,6 +41050,13 @@ and past paper questions, is essential for success in examinations.
 - **[Templates and Metaprogramming](/templates_and_metaprogramming/):** Template techniques that type erasure often replaces.
 - **Standard Library:** Standard library components like std::function that use type erasure.
 
+## Related in this track
+
+- [C-Interop and FFI](/function_architecture/1_function_mechanics/5_c_interop/)
+- [Calling Conventions and Stack Management](/function_architecture/1_function_mechanics/2_calling_conventions/)
+- [Lambda Expressions, Capture Layouts and Closure Types](/function_architecture/1_function_mechanics/3_lambdas/)
+- [Overload Resolution](/function_architecture/1_function_mechanics/1_overload_resolution/)
+
 ## Object_oriented
 
 ---
@@ -41634,6 +41890,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
+## Related in this track
+
+- [Custom Formatting with std::formatter](/object_oriented/1_class_design/6_std_formatter/)
+- [Object Layout, vptr, and the this Pointer](/object_oriented/1_class_design/1_object_layout_vptr/)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
+- [Special Member Function Generation Rules](/object_oriented/1_class_design/3_special_member_functions/)
+
 ---
 
 ## Deducing This Crtp
@@ -42379,6 +42642,13 @@ When working with deducing this and crtp, follow these steps:
 3. Implement the solution step by step
 4. Test with edge cases and verify correctness
 :::
+
+## Related in this track
+
+- [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [RTTI, dynamic_cast, and typeid](/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast/)
+- [Virtual Functions and vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)
 
 ---
 
@@ -43139,6 +43409,13 @@ theory, practical implementation, and key applications.
 - applications in the real world
 
 ## Worked Examples
+
+## Related in this track
+
+- [Deducing This and CRTP](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
+- [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [RTTI, dynamic_cast, and typeid](/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast/)
+- [Virtual Functions and vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)
 
 ---
 
@@ -44096,6 +44373,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
+## Related in this track
+
+- [Deducing This and CRTP](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
+- [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [RTTI, dynamic_cast, and typeid](/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast/)
+- [Virtual Functions and vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)
+
 ---
 
 ## Object Layout Vptr
@@ -44765,6 +45049,13 @@ Object layout determines how class members are arranged in memory. The compiler 
 - [Access Control](https://programming.wyattau.com/object_oriented/1_class_design/2_access_control/)
 - [Special Member Functions](https://programming.wyattau.com/object_oriented/1_class_design/3_special_member_functions/)
 - [VTables](https://programming.wyattau.com/object_oriented/2_runtime_polymorphism/1_vtables/)
+
+## Related in this track
+
+- [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
+- [Custom Formatting with std::formatter](/object_oriented/1_class_design/6_std_formatter/)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
+- [Special Member Function Generation Rules](/object_oriented/1_class_design/3_special_member_functions/)
 
 ---
 
@@ -45555,6 +45846,13 @@ key principles and practical applications.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
+- [Custom Formatting with std::formatter](/object_oriented/1_class_design/6_std_formatter/)
+- [Object Layout, vptr, and the this Pointer](/object_oriented/1_class_design/1_object_layout_vptr/)
+- [Special Member Function Generation Rules](/object_oriented/1_class_design/3_special_member_functions/)
 
 ---
 
@@ -46382,6 +46680,13 @@ including key principles and practical applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Deducing This and CRTP](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
+- [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [Virtual Functions and vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)
+
 ---
 
 ## Spaceship Operator
@@ -46940,6 +47245,13 @@ key principles and practical applications.
 - evaluation and critical analysis
 
 ## Worked Examples
+
+## Related in this track
+
+- [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
+- [Custom Formatting with std::formatter](/object_oriented/1_class_design/6_std_formatter/)
+- [Object Layout, vptr, and the this Pointer](/object_oriented/1_class_design/1_object_layout_vptr/)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
 
 ---
 
@@ -47626,6 +47938,13 @@ generation rules, including key theorems, methods, and problem-solving approache
 
 ## Worked Examples
 
+## Related in this track
+
+- [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
+- [Custom Formatting with std::formatter](/object_oriented/1_class_design/6_std_formatter/)
+- [Object Layout, vptr, and the this Pointer](/object_oriented/1_class_design/1_object_layout_vptr/)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
+
 ---
 
 ## Std Formatter
@@ -48195,6 +48514,13 @@ std::formatter, including key principles and practical applications.
 - evaluation and critical analysis
 
 ## Worked Examples
+
+## Related in this track
+
+- [Access Control and Friendship](/object_oriented/1_class_design/2_access_control/)
+- [Object Layout, vptr, and the this Pointer](/object_oriented/1_class_design/1_object_layout_vptr/)
+- [Operator Overloading](/object_oriented/1_class_design/4_operator_overloading/)
+- [Special Member Function Generation Rules](/object_oriented/1_class_design/3_special_member_functions/)
 
 ---
 
@@ -48953,6 +49279,13 @@ including key theorems, methods, and problem-solving approaches.
 - mathematical induction
 
 ## Worked Examples
+
+## Related in this track
+
+- [Deducing This and CRTP](/object_oriented/2_runtime_polymorphism/5_deducing_this_crtp/)
+- [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [RTTI, dynamic_cast, and typeid](/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast/)
 
 ## Resource_management
 
@@ -49798,6 +50131,13 @@ When working with common pitfalls, follow a structured approach:
 3. Support your answer with evidence, examples, or calculations
 4. Evaluate your answer critically, considering limitations and alternative perspectives
 :::
+
+## Related in this track
+
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)
 
 ---
 
@@ -51125,6 +51465,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
+## Related in this track
+
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Return Value Optimization (RVO) and NRVO](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
+- [Value Taxonomy](/resource_management/2_value_categories_and_move/1_value_taxonomy/)
+
 ---
 
 ## Practice Memory Management
@@ -51931,6 +52278,13 @@ RAII (Resource Acquisition Is Initialization) is C++'s most important idiom: tie
 - [Shared Ptr](https://programming.wyattau.com/resource_management/1_ownership_and_raii/3_shared_ptr/)
 - [Move Constructors and RVO](https://programming.wyattau.com/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
 
+## Related in this track
+
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)
+
 ---
 
 ## Reference Collapsing
@@ -52656,6 +53010,13 @@ deduction. Without it, perfect forwarding couldn't work, and you'd be forced to 
 overloads for lvalue and rvalue arguments everywhere. The rules are mechanical and deterministic,
 once you internalize them, forwarding references and `std::forward` become straightforward rather
 than magical.
+
+## Related in this track
+
+- [Move Constructors, Assignment, Swap Idiom](/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [Return Value Optimization (RVO) and NRVO](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
+- [Value Taxonomy](/resource_management/2_value_categories_and_move/1_value_taxonomy/)
 
 ---
 
@@ -53673,6 +54034,13 @@ in standard practice elide them entirely. But do ensure your move constructors a
 not guaranteed and the compiler may fall back to moving. Write simple, single-return-point
 functions to maximize the compiler's ability to apply NRVO.
 
+## Related in this track
+
+- [Move Constructors, Assignment, Swap Idiom](/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
+- [Value Taxonomy](/resource_management/2_value_categories_and_move/1_value_taxonomy/)
+
 ---
 
 ## Shared Ptr
@@ -54475,6 +54843,13 @@ This topic covers the essential concepts and techniques related to shared owners
 - evaluation and critical analysis
 
 ## Worked Examples
+
+## Related in this track
+
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+- [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)
 
 ---
 
@@ -55291,6 +55666,13 @@ practical implementation, and key applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Move Constructors, Assignment, Swap Idiom](/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Return Value Optimization (RVO) and NRVO](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
+- [Value Taxonomy](/resource_management/2_value_categories_and_move/1_value_taxonomy/)
+
 ---
 
 ## Unique Ptr
@@ -55981,6 +56363,13 @@ This topic covers the essential concepts and techniques related to unique owners
 - evaluation and critical analysis
 
 ## Worked Examples
+
+## Related in this track
+
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Weak Pointers and Cyclic Reference Breaking](/resource_management/1_ownership_and_raii/4_weak_ptr/)
 
 ---
 
@@ -56889,6 +57278,13 @@ C++ value categories determine how expressions are treated: lvalues have identit
 - [Move Constructors and RVO](https://programming.wyattau.com/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
 - [Reference Collapsing](https://programming.wyattau.com/resource_management/2_value_categories_and_move/2_reference_collapsing/)
 - [RAII Patterns](https://programming.wyattau.com/resource_management/1_ownership_and_raii/1_raii_patterns/)
+
+## Related in this track
+
+- [Move Constructors, Assignment, Swap Idiom](/resource_management/2_value_categories_and_move/4_move_constructors_rvo/)
+- [Reference Collapsing and Forwarding References](/resource_management/2_value_categories_and_move/2_reference_collapsing/)
+- [Return Value Optimization (RVO) and NRVO](/resource_management/2_value_categories_and_move/5_return_value_optimization/)
+- [Temporary Materialization](/resource_management/2_value_categories_and_move/3_temporary_materialization/)
 
 ---
 
@@ -57865,6 +58261,13 @@ if the resulting `shared_ptr` is valid, and then use the object within that scop
 was destroyed between your check and your use, the `shared_ptr` will be null, fail gracefully
 rather than dereferencing a dangling pointer.
 
+## Related in this track
+
+- [Common Pitfalls](/resource_management/1_ownership_and_raii/5_custom_deleters/)
+- [RAII Patterns](/resource_management/1_ownership_and_raii/1_raii_patterns/)
+- [Shared Ownership (std::shared_ptr) and Control Block](/resource_management/1_ownership_and_raii/3_shared_ptr/)
+- [Unique Ownership (std::unique_ptr) and EBO](/resource_management/1_ownership_and_raii/2_unique_ptr/)
+
 ## Standard_library
 
 ---
@@ -58636,6 +59039,12 @@ Associative containers are like dictionaries, but organized by content rather th
 
 ## Worked Examples
 
+## Related in this track
+
+- [Iterator Categories, Traversal, and Invalidation](/standard_library/1_containers_and_allocators/3_iterators/)
+- [Polymorphic Memory Resources (PMR)](/standard_library/1_containers_and_allocators/4_pmr/)
+- [Sequence Containers (Vector, Deque, List)](/standard_library/1_containers_and_allocators/1_sequence_containers/)
+
 ---
 
 ## Chrono
@@ -59266,6 +59675,12 @@ Busy-waiting with `std::chrono::steady_clock` or OS-specific spin loops.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Filesystem Library](/standard_library/4_system_utilities/1_filesystem/)
+- [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
+- [Regular Expressions](/standard_library/4_system_utilities/4_regular_expressions/)
+
 ---
 
 ## Filesystem
@@ -59894,6 +60309,12 @@ void atomic_write(const fs::path& target, std::string_view content) {
 ## Summary
 
 ## Worked Examples
+
+## Related in this track
+
+- [Chrono Library](/standard_library/4_system_utilities/2_chrono/)
+- [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
+- [Regular Expressions](/standard_library/4_system_utilities/4_regular_expressions/)
 
 ---
 
@@ -60620,6 +61041,13 @@ Iterators are the reading heads of a tape player: they point to one element at a
 
 ## Worked Examples
 
+## Related in this track
+
+- [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
+- [Projections and Callable Objects](/standard_library/2_algorithms_and_ranges/3_projections/)
+- [Range Adaptors, Views, and Composition](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+- [Range Materialization (std::ranges::to)](/standard_library/2_algorithms_and_ranges/4_range_materialization/)
+
 ---
 
 ## Iterators
@@ -61212,6 +61640,12 @@ underlying theory, practical implementation, and key applications.
 Iterators are the universal remote controls of the C++ standard library. Each container provides its own iterator type, but all iterators support the same basic operations: dereference, increment, and comparison. This abstraction lets you write one algorithm that works on any container, the way a universal remote can control any television. The five iterator categories (input, forward, bidirectional, random access, contiguous) describe what operations are available, like the difference between a tape player (forward only) and a CD player (random access).
 
 ## Worked Examples
+
+## Related in this track
+
+- [Associative and Unordered Containers](/standard_library/1_containers_and_allocators/2_associative_containers/)
+- [Polymorphic Memory Resources (PMR)](/standard_library/1_containers_and_allocators/4_pmr/)
+- [Sequence Containers (Vector, Deque, List)](/standard_library/1_containers_and_allocators/1_sequence_containers/)
 
 ---
 
@@ -62037,6 +62471,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
+## Related in this track
+
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Projections and Callable Objects](/standard_library/2_algorithms_and_ranges/3_projections/)
+- [Range Adaptors, Views, and Composition](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+- [Range Materialization (std::ranges::to)](/standard_library/2_algorithms_and_ranges/4_range_materialization/)
+
 ---
 
 ## Pmr
@@ -62561,6 +63002,12 @@ Allocation attempt. Use it in unit tests to verify stack-only or no-heap-allocat
 Polymorphic memory resources are like choosing between buying furniture (global allocator), renting (pool allocator), or borrowing from a friend (arena allocator). The key insight is that the allocator is invisible to the code using the container: you can swap the allocator without changing any of the data structure code, the way you can move furniture between rooms without changing how you use the rooms. Arena allocators are especially useful when you allocate many small objects that all die together, like parsing a JSON document where the entire parse tree can be freed at once.
 
 ## Worked Examples
+
+## Related in this track
+
+- [Associative and Unordered Containers](/standard_library/1_containers_and_allocators/2_associative_containers/)
+- [Iterator Categories, Traversal, and Invalidation](/standard_library/1_containers_and_allocators/3_iterators/)
+- [Sequence Containers (Vector, Deque, List)](/standard_library/1_containers_and_allocators/1_sequence_containers/)
 
 ---
 
@@ -63145,6 +63592,13 @@ theory, practical implementation, and key applications.
 Projections are the "key extractor" in sorting and searching algorithms, telling the algorithm which part of an object to compare. When you sort students by grade, the projection is the function that pulls the grade out of each student record. This separates the comparison logic from the data structure, so you can sort the same collection by different keys without modifying the objects themselves, like rearranging a deck of cards by suit or by number without marking the cards.
 
 ## Worked Examples
+
+## Related in this track
+
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
+- [Range Adaptors, Views, and Composition](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+- [Range Materialization (std::ranges::to)](/standard_library/2_algorithms_and_ranges/4_range_materialization/)
 
 ---
 
@@ -63767,6 +64221,12 @@ PRNG.
 ## Summary
 
 ## Worked Examples
+
+## Related in this track
+
+- [Chrono Library](/standard_library/4_system_utilities/2_chrono/)
+- [Filesystem Library](/standard_library/4_system_utilities/1_filesystem/)
+- [Regular Expressions](/standard_library/4_system_utilities/4_regular_expressions/)
 
 ---
 
@@ -64635,6 +65095,13 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
+## Related in this track
+
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
+- [Projections and Callable Objects](/standard_library/2_algorithms_and_ranges/3_projections/)
+- [Range Materialization (std::ranges::to)](/standard_library/2_algorithms_and_ranges/4_range_materialization/)
+
 ---
 
 ## Range Materialization
@@ -65462,6 +65929,13 @@ Range materialization is the moment when a lazy computation becomes a concrete c
 
 ## Worked Examples
 
+## Related in this track
+
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
+- [Projections and Callable Objects](/standard_library/2_algorithms_and_ranges/3_projections/)
+- [Range Adaptors, Views, and Composition](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)
+
 ---
 
 ## Regular Expressions
@@ -66050,6 +66524,12 @@ key principles and practical applications.
 - evaluation and critical analysis
 
 ## Worked Examples
+
+## Related in this track
+
+- [Chrono Library](/standard_library/4_system_utilities/2_chrono/)
+- [Filesystem Library](/standard_library/4_system_utilities/1_filesystem/)
+- [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
 
 ---
 
@@ -66880,6 +67360,12 @@ Sequence containers store elements in a linear order. `std::vector` is a dynamic
 - [Iterators](https://programming.wyattau.com/standard_library/1_containers_and_allocators/3_iterators/)
 - [Algorithms and Ranges](https://programming.wyattau.com/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
 
+## Related in this track
+
+- [Associative and Unordered Containers](/standard_library/1_containers_and_allocators/2_associative_containers/)
+- [Iterator Categories, Traversal, and Invalidation](/standard_library/1_containers_and_allocators/3_iterators/)
+- [Polymorphic Memory Resources (PMR)](/standard_library/1_containers_and_allocators/4_pmr/)
+
 ---
 
 ## Stream Buffers
@@ -67526,6 +68012,11 @@ void stream_state_demo() {
 ## Summary
 
 ## Worked Examples
+
+## Related in this track
+
+- [Type-Safe Formatting (std::format, std::print)](/standard_library/3_input_output_formatting/2_type_safe_formatting/)
+- [Unicode Support](/standard_library/3_input_output_formatting/3_unicode_support/)
 
 ---
 
@@ -68275,6 +68766,11 @@ int main() {
 
 ## Worked Examples
 
+## Related in this track
+
+- [Stream Buffers and Locale Facets](/standard_library/3_input_output_formatting/1_stream_buffers/)
+- [Unicode Support](/standard_library/3_input_output_formatting/3_unicode_support/)
+
 ---
 
 ## Unicode Support
@@ -68901,6 +69397,11 @@ The relationship between `char`, `char8_t` and the execution encoding is subtle 
 - **[Stream Buffers](https://programming.wyattau.com/standard_library/3_input_output_formatting/1_stream_buffers/):** Low-level stream buffer concepts used in Unicode I/O.
 - **[Type-Safe Formatting](https://programming.wyattau.com/standard_library/3_input_output_formatting/2_type_safe_formatting/):** Modern formatting utilities that handle Unicode strings.
 - **Types:** Type system concepts including character types and string representations.
+
+## Related in this track
+
+- [Stream Buffers and Locale Facets](/standard_library/3_input_output_formatting/1_stream_buffers/)
+- [Type-Safe Formatting (std::format, std::print)](/standard_library/3_input_output_formatting/2_type_safe_formatting/)
 
 ## Templates_and_metaprogramming
 
@@ -69809,6 +70310,13 @@ function), including key theorems, methods, and problem-solving approaches.
 - applications and modelling
 
 ## Worked Examples
+
+## Related in this track
+
+- [Dependent Names and Two-Phase Lookup](/templates_and_metaprogramming/1_generic_programming/4_dependent_names/)
+- [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
+- [Explicit and Partial Specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)
+- [Template Instantiation, Monomorphization, and Code Bloat](/templates_and_metaprogramming/1_generic_programming/1_instantiation/)
 
 ---
 
@@ -70810,6 +71318,12 @@ linked above.
 - [Defining Concepts and Requires Clauses](/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
 - [Standard Library Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)
 
+## Related in this track
+
+- [Defining Concepts and Requires Clauses](/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
+- [SFINAE vs Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/4_sfinae_vs_concepts/)
+- [Standard Library Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)
+
 ---
 
 ## Defining Concepts
@@ -71772,6 +72286,12 @@ Worked examples demonstrating the application of key concepts are covered in the
 linked above.
 :::
 
+## Related in this track
+
+- [Constraint Subsumption and Overload Resolution](/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption/)
+- [SFINAE vs Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/4_sfinae_vs_concepts/)
+- [Standard Library Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)
+
 ---
 
 ## Dependent Names
@@ -72628,6 +73148,13 @@ theory, practical implementation, and key applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
+- [Explicit and Partial Specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)
+- [Template Instantiation, Monomorphization, and Code Bloat](/templates_and_metaprogramming/1_generic_programming/1_instantiation/)
+
 ---
 
 ## Explicit Instantiation
@@ -73438,6 +73965,13 @@ underlying theory, practical implementation, and key applications.
 - applications in the real world
 
 ## Worked Examples
+
+## Related in this track
+
+- [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [Dependent Names and Two-Phase Lookup](/templates_and_metaprogramming/1_generic_programming/4_dependent_names/)
+- [Explicit and Partial Specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)
+- [Template Instantiation, Monomorphization, and Code Bloat](/templates_and_metaprogramming/1_generic_programming/1_instantiation/)
 
 ---
 
@@ -74438,6 +74972,12 @@ Fold expressions reduce a parameter pack using an operator, like folding a map t
 
 ## Worked Examples
 
+## Related in this track
+
+- [Compile-Time Branching and Constexpr Functions](/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [Parameter Packs and Variadic Templates](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
+- [Type Traits and Static Reflection Patterns](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
+
 ---
 
 ## If Constexpr
@@ -75073,6 +75613,12 @@ key: "key'', value: "value'
 `if constexpr` is a compile-time if statement that tells the compiler to discard the branch that does not apply, the way a choose-your-own-adventure book skips entire chapters based on your choice. At compile time, only the true branch is instantiated, preventing compilation errors in code that would never execute. This replaces the messy template specialization patterns that were previously needed, like having to write separate booklets for each adventure instead of one book with conditional pages.
 
 ## Worked Examples
+
+## Related in this track
+
+- [Fold Expressions and Pack Expansion](/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/)
+- [Parameter Packs and Variadic Templates](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
+- [Type Traits and Static Reflection Patterns](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
 
 ---
 
@@ -76257,6 +76803,13 @@ Template instantiation is the compiler generating code for each concrete type us
 - [Specialization](https://programming.wyattau.com/templates_and_metaprogramming/1_generic_programming/3_specialization/)
 - [Defining Concepts](https://programming.wyattau.com/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
 
+## Related in this track
+
+- [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [Dependent Names and Two-Phase Lookup](/templates_and_metaprogramming/1_generic_programming/4_dependent_names/)
+- [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
+- [Explicit and Partial Specialization](/templates_and_metaprogramming/1_generic_programming/3_specialization/)
+
 ---
 
 ## Parameter Packs
@@ -76855,6 +77408,12 @@ theory, practical implementation, and key applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Compile-Time Branching and Constexpr Functions](/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [Fold Expressions and Pack Expansion](/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/)
+- [Type Traits and Static Reflection Patterns](/templates_and_metaprogramming/3_compile_time_computation/4_type_traits/)
+
 ---
 
 ## Sfinae Vs Concepts
@@ -77452,6 +78011,12 @@ The practical takeaway: if you're writing new code, prefer concepts. They commun
 evidently, produce better error messages, and enable more precise overload resolution. SFINAE still
 exists in legacy codebases and occasionally in library internals, but it should no longer be your
 first choice for constraining templates.
+
+## Related in this track
+
+- [Constraint Subsumption and Overload Resolution](/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption/)
+- [Defining Concepts and Requires Clauses](/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
+- [Standard Library Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/3_standard_concepts/)
 
 ---
 
@@ -78346,6 +78911,13 @@ theory, practical implementation, and key applications.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Argument Deduction (Class and Function)](/templates_and_metaprogramming/1_generic_programming/2_argument_deduction/)
+- [Dependent Names and Two-Phase Lookup](/templates_and_metaprogramming/1_generic_programming/4_dependent_names/)
+- [Explicit Instantiation and Extern Templates](/templates_and_metaprogramming/1_generic_programming/5_explicit_instantiation/)
+- [Template Instantiation, Monomorphization, and Code Bloat](/templates_and_metaprogramming/1_generic_programming/1_instantiation/)
+
 ---
 
 ## Standard Concepts
@@ -78953,6 +79525,12 @@ practical implementation, and key applications.
 - dynamic programming
 
 ## Worked Examples
+
+## Related in this track
+
+- [Constraint Subsumption and Overload Resolution](/templates_and_metaprogramming/2_concepts_and_constraints/2_constraint_subsumption/)
+- [Defining Concepts and Requires Clauses](/templates_and_metaprogramming/2_concepts_and_constraints/1_defining_concepts/)
+- [SFINAE vs Concepts](/templates_and_metaprogramming/2_concepts_and_constraints/4_sfinae_vs_concepts/)
 
 ---
 
@@ -79964,6 +80542,12 @@ flowchart TD
 ## Summary
 
 ## Worked Examples
+
+## Related in this track
+
+- [Compile-Time Branching and Constexpr Functions](/templates_and_metaprogramming/3_compile_time_computation/3_if_constexpr/)
+- [Fold Expressions and Pack Expansion](/templates_and_metaprogramming/3_compile_time_computation/2_fold_expressions/)
+- [Parameter Packs and Variadic Templates](/templates_and_metaprogramming/3_compile_time_computation/1_parameter_packs/)
 
 ## Types
 

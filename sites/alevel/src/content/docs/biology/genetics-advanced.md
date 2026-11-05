@@ -2633,3 +2633,10 @@ Ratio: **90 purple : 70 white**. $\blacksquare$
 In real life, genes rarely act in isolation. Epistasis reveals that one gene can mask or modify the effect of another, which is why the classic 9:3:3:1 dihybrid ratio often appears distorted in practice. Think of epistasis like a set of light switches wired in series: both switches must be "on" for the light to work, and if either is off, the final outcome looks the same regardless of the other. This is why understanding gene interactions matters --- it explains why offspring ratios do not always match the simple Mendelian predictions.
 
 Hardy-Weinberg equilibrium provides the baseline for thinking about populations. If no evolution is occurring --- no selection, no mutation, no migration, no genetic drift --- then allele and genotype frequencies stay constant from generation to generation. It is a null model: deviations from it tell you that something evolutionary is happening. The chi-squared test then becomes your detective tool, letting you determine whether observed ratios are significantly different from what you would expect, or whether they are just due to random chance.
+
+## Related in this track
+
+- [Biodiversity, Classification and Evolution](/biology/biodiversity-classification-evolution/)
+- [Biological Molecules](/biology/biological-molecules/)
+- [Biotechnology](/biology/biotechnology/)
+- [Cells | A-Level - Wyatt's Notes](/biology/cells/)

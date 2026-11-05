@@ -1396,3 +1396,10 @@ Generators are lazy factories: they produce values one at a time instead of buil
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/)
 - [Data Structures](https://kotlin.wyattau.com/intermediate/collections/)
 - [Async/Await](https://languages.wyattau.com/python/06-async/01-async-await/)
+
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/02-fundamentals/03-functions/)
+- [Modules and Packages](/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/02-fundamentals/05-python-internals/)

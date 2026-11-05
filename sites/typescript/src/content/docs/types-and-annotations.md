@@ -876,3 +876,10 @@ implementation, and key applications.
 - [Functions](/functions/) - How type annotations apply to function parameters and return types
 - [Generics](/generics/) - How type parameters extend basic type annotations for reuse
 - [Classes](/classes/) - How class members use type annotations for property and method typing
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Advanced Patterns](/advanced-patterns/)
+- [Classes](/classes/)
+- [Complete TypeScript Programming Study Guide](/hub/)

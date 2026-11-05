@@ -596,3 +596,9 @@ nights.
 - [Human Geography](./)
 - [Changing Places](/geography/2-human-geography/1_changing-places/)
 - [Global Systems and Governance](/geography/2-human-geography/2_global-systems/)
+
+## Related in this track
+
+- [Changing Places](/geography/2-human-geography/1_changing-places/)
+- [Global Systems and Governance](/geography/2-human-geography/2_global-systems/)
+- [Population and the Environment](/geography/2-human-geography/4_population-and-environment/)

@@ -338,3 +338,8 @@ Git's three trees are the working directory (your desk), the staging area (your 
 - [Introduction to Git](/zh/algorithms/intro/)
 - [Branching](/git/03-branching-and-merging/01-branching/)
 - [References](/git/02-fundamentals/03-references/)
+
+## Related in this track
+
+- [Git Objects](/git/02-fundamentals/02-git-objects/)
+- [References](/git/02-fundamentals/03-references/)

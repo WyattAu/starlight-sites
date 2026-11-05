@@ -108,3 +108,9 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Advanced Patterns](/advanced-patterns/)
+- [Classes](/classes/)
+- [Complete TypeScript Programming Study Guide](/hub/)
+- [Error Handling](/error-handling/)

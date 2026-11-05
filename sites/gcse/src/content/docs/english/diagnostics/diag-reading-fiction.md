@@ -391,3 +391,8 @@ reader to imagine what it might contain.
 - [Diagnostics](./)
 - [Reading Non-Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-nonfiction/)
 - [Creative Writing -- Diagnostic Tests](/english/diagnostics/diag-creative-writing/)
+
+## Related in this track
+
+- [Creative Writing -- Diagnostic Tests](/english/diagnostics/diag-creative-writing/)
+- [Reading Non-Fiction -- Diagnostic Tests](/english/diagnostics/diag-reading-nonfiction/)

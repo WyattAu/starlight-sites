@@ -775,3 +775,8 @@ In practice, Ninja is the recommended backend for CMake projects on Linux and ma
 and copy step. Then `ninja` runs those steps in parallel, giving you the fastest possible build
 times for your hardware. If you're not using Ninja already, switching to it is one of the easiest
 build performance wins available.
+
+## Related in this track
+
+- [CMake Presets and Toolchain Files](/enviroment_and_toolchain/2_build_system/3_cmake_presets_and_toolchain_files/)
+- [CMake Targets Properties and Generator Expressions](/enviroment_and_toolchain/2_build_system/1_cmake_targets_properties_generator/)

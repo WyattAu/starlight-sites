@@ -1212,3 +1212,9 @@ Bash scripting is like writing a recipe for a computer chef -- variables are the
 - [Processes and Signals](/03-process-management/processes-and-signals/) -- Bash scripts create and manage child processes using fork, exec, and signal handling.
 - [Cron and Scheduling](/03-process-management/cron-and-scheduling/) -- Scheduled tasks often execute bash scripts at specified intervals.
 :::
+
+## Related in this track
+
+- [Core Utilities](/01-cli-fundamentals/core-utilities/)
+- [Shell Basics](/01-cli-fundamentals/shell-basics/)
+- [Text Processing](/01-cli-fundamentals/text-processing/)

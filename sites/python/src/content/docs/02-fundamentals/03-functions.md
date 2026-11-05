@@ -1532,3 +1532,10 @@ import { Citation } from "@components/Citations.astro"
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Control Flow](https://kotlin.wyattau.com/basics/control-flow/)
 - [Object-Oriented Programming](https://java.wyattau.com/03-object-oriented/01-classes/)
+
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Generators and Iterators](/02-fundamentals/04-generators-and-iterators/)
+- [Modules and Packages](/02-fundamentals/06-modules-and-packages/)
+- [Python Internals](/02-fundamentals/05-python-internals/)

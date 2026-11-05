@@ -769,3 +769,9 @@ from using the light (non-excludable). Government provision is necessary because
 - **[National Income](/economics/2-macroeconomics/1-national-income/):** Market failure affects national income
 - **[Fiscal Policy](/economics/2-macroeconomics/2-fiscal-policy/):** Government corrects failures
 - **[Exchange Rates](/economics/3-international-economics/2-exchange-rates/):** Trade failures affect exchange rates
+
+## Related in this track
+
+- [Elasticity](/economics/1-microeconomics/2_elasticity/)
+- [Supply and Demand](/economics/1-microeconomics/1_supply-and-demand/)
+- [Theory of the Firm](/economics/1-microeconomics/4-theory-of-the-firm/)

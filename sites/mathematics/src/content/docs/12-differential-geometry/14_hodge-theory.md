@@ -249,3 +249,10 @@ theory is the repair, and it is a genuinely different subject.
 - **[Introduction to Algebraic Topology](/9-topology/9_introduction-to-algebraic-topology/)**; $b_k$, Poincaré duality, and the Mayer–Vietoris computation of $H^*(S^2)$ recovered analytically in §4.
 - **[The Gauss–Bonnet Theorem](/12-differential-geometry/8_the-gauss-bonnet-theorem/)**; $\chi = \sum(-1)^k \dim\mathcal{H}^k$, the alternating sum of kernel dimensions.
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/); the same self-adjoint operator theory, with the harmonic oscillator as the model example.
+
+## Related in this track
+
+- [Applications](/12-differential-geometry/9_applications/)
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)

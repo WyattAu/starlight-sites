@@ -192,3 +192,9 @@ $\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$. $\blacksquare$
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
+- [Introduction to Partial Differential Equations](/5-ordinary-differential-equations/8_introduction-to-partial-differential-equations/)

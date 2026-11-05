@@ -108,3 +108,9 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Rust Programming Study Guide](/hub/)
+- [Introduction to Rust](/intro/)
+- [Macros | Rust - Wyatt's Notes](/08-macros/)
+- [Rust Glossary, Key Terms and Definitions](/glossary/)

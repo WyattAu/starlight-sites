@@ -747,3 +747,10 @@ linked above.
 - [Mechanics](./)
 - [Energy and Work (Extended)](/maths/mechanics/energy-and-work-depth/)
 - [Kinematics](/maths/mechanics/01-kinematics/)
+
+## Related in this track
+
+- [Dynamics (Extended)](/maths/mechanics/dynamics-depth/)
+- [Energy and Work (Extended)](/maths/mechanics/energy-and-work-depth/)
+- [Forces and Newton's Laws](/maths/mechanics/02-forces-and-newtons-laws/)
+- [Kinematics](/maths/mechanics/01-kinematics/)

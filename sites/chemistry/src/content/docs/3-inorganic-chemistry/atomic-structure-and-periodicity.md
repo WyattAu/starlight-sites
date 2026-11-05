@@ -420,3 +420,9 @@ Atomic structure is the foundation of all chemistry. Electrons occupy orbitals t
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Coordination Chemistry](/3-inorganic-chemistry/coordination-chemistry/)
+- [Main-Group Chemistry](/3-inorganic-chemistry/main-group-chemistry/)
+- [Solid-State Chemistry](/3-inorganic-chemistry/solid-state-chemistry/)

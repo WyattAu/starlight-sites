@@ -634,3 +634,8 @@ void atomic_write(const fs::path& target, std::string_view content) {
 
 ## Worked Examples
 
+## Related in this track
+
+- [Chrono Library](/standard_library/4_system_utilities/2_chrono/)
+- [Random Number Generation](/standard_library/4_system_utilities/3_random_numbers/)
+- [Regular Expressions](/standard_library/4_system_utilities/4_regular_expressions/)

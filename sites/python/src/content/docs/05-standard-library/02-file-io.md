@@ -1286,3 +1286,10 @@ File I/O in Python is about reading from and writing to the outside world. `open
 - [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
 - [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/)
 - [CLI Tools](https://languages.wyattau.com/python/05-standard-library/03-cli-tools/)
+
+## Related in this track
+
+- [CLI Tools](/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/05-standard-library/05-concurrency-primitives/)
+- [Essential Modules](/05-standard-library/01-essential-modules/)
+- [Serialization and Data Formats](/05-standard-library/04-serialization/)

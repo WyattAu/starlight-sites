@@ -1359,3 +1359,8 @@ including key theorems, methods, and problem-solving approaches.
 Regular practice with a variety of question types is essential to build fluency and confidence in
 applying these mathematical techniques.
 :::
+
+## Related in this track
+
+- [Hyperbolic Functions (Extended)](/further-maths/pure/hyperbolic-functions/)
+- [Matrices and Transformations (Extended)](/further-maths/pure/matrices-and-transformations/)

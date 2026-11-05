@@ -271,3 +271,10 @@ porosity.
 - **[Atomic Structure](/chemistry/flashcards-atomic-structure/):** Atomic structure determines bonding
 - **[Energetics](/chemistry/flashcards-energetics/):** Energy changes are fundamental
 - **[Equilibrium](/chemistry/flashcards-kinetics-equilibrium/):** Equilibrium is a core topic
+
+## Related in this track
+
+- [Acids and Bases -- Diagnostic Tests](/chemistry/diagnostics/diag-acids-bases/)
+- [Atomic Structure and Atomic Theory -- Diagnostic Tests](/chemistry/diagnostics/diag-atomic-structure/)
+- [Chemical Bonding -- Diagnostic Tests](/chemistry/diagnostics/diag-chemical-bonding/)
+- [IB Chemistry -- Diagnostic Guide](/chemistry/diagnostics/diagnostic-guide/)

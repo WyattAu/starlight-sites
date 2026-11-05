@@ -547,3 +547,10 @@ properties, parametric and Cartesian equations, tangents and normals).
 - [Vectors](/maths/pure-mathematics/12-vectors/) -- The 3D vector geometry in FP2 extends the 2D vector work covered in the core syllabus.
 - [Trigonometry](/maths/pure-mathematics/08-trigonometry/) -- Euler's relation and parametric equations of conics rely heavily on trigonometric identities.
 - [Integration](/maths/pure-mathematics/11-integration/) -- Reduction formulae and series solutions require advanced integration by parts and standard integral techniques.
+
+## Related in this track
+
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/)
+- [Binomial Expansion](/maths/pure-mathematics/07-binomial-expansion/)
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/)
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/)

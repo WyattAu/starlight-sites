@@ -553,3 +553,10 @@ When time is limited, focus on the highest-yield topics:
 - [Diagnostics](./)
 - [Demand, Supply, and Equilibrium -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply/)
 - [Macroeconomic Policy -- Diagnostic Tests](/economics/diagnostics/diag-macroeconomic-policy/)
+
+## Related in this track
+
+- [Demand, Supply, and Equilibrium -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply/)
+- [Macroeconomic Policy -- Diagnostic Tests](/economics/diagnostics/diag-macroeconomic-policy/)
+- [Market Failure -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)
+- [Theory of the Firm -- Diagnostic Tests](/economics/diagnostics/diag-theory-of-the-firm/)

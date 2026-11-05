@@ -610,3 +610,10 @@ GCSE Mathematics covers number (fractions, decimals, percentages, ratio, standar
 - **[Practice Maths](/maths/practice-maths/):** Interactive practice problems covering number, algebra, geometry, and statistics.
 - **[Maths Question Bank](/maths-question-bank/):** Additional practice questions organized by topic.
 - **[Chemistry](/chemistry/):** Chemistry notes that use mathematical skills for quantitative calculations.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete GCSE Study Guide, All Subjects](/hub/)
+- [GCSE Biology Study Guide](/biology/)
+- [GCSE Chemistry Study Guide](/chemistry/)

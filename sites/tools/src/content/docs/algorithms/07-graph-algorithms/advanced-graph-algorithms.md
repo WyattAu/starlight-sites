@@ -1003,3 +1003,8 @@ $\blacksquare$
 - Dynamic Programming -- Floyd-Warshall is a classic all-pairs shortest path algorithm using dynamic programming.
 - [Binary Search Trees](/algorithms/04-trees-graphs/binary-search-trees/) -- Priority queues used in Dijkstra's algorithm are implemented using heap-based trees.
 - [Deques and Priority Queues](/algorithms/03-linked-lists-stacks-queues/deques-and-priority-queues/) -- Priority queues are essential for efficient implementations of shortest path algorithms.
+
+## Related in this track
+
+- [Advanced Data Structures](/algorithms/07-graph-algorithms/advanced-data-structures/)
+- [Graph Algorithms](/algorithms/07-graph-algorithms/graph-algorithms/)

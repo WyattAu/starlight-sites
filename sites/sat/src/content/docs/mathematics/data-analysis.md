@@ -129,3 +129,7 @@ Data analysis is the art of finding signal in noise. A dataset is like a crowd o
 - [Geometry](/mathematics/geometry/) -- Probability and data interpretation questions may involve geometric representations such as scatterplots.
 - [Writing Language](/writing/language/) -- Interpreting data in evidence-based writing requires understanding of statistics and data presentation.
 
+## Related in this track
+
+- [Algebra](/mathematics/algebra/)
+- [Geometry](/mathematics/geometry/)

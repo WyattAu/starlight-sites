@@ -758,3 +758,10 @@ A more principled approach:
 - [Diagnostics](./)
 - [Coordinates and Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinates-and-geometry/)
 - [Energy and Work -- Diagnostic Tests](/maths/diagnostics/diag-energy-and-work/)
+
+## Related in this track
+
+- [Algebraic Expressions -- Diagnostic Tests](/maths/diagnostics/diag-algebraic-expressions/)
+- [Binomial Expansion -- Diagnostic Tests](/maths/diagnostics/diag-binomial-expansion/)
+- [Coordinates and Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinates-and-geometry/)
+- [Data Representation -- Diagnostic Tests](/maths/diagnostics/diag-data-representation/)

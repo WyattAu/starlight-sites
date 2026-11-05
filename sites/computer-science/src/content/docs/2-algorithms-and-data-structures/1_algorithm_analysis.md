@@ -79,3 +79,9 @@ operations. Space-time trade-offs allow choosing between memory and speed.
 Understanding these concepts is essential for selecting the right algorithm
 and data structure for a given problem.
 
+## Related in this track
+
+- [Advanced Topics](/2-algorithms-and-data-structures/6_advanced-topics/)
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/)
+- [Algorithms (Advanced)](/2-algorithms-and-data-structures/9_algorithms-advanced/)
+- [Data Structures (Advanced)](/2-algorithms-and-data-structures/8_data-structures-advanced/)

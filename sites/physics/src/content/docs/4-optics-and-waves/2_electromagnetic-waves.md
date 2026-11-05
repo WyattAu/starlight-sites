@@ -326,3 +326,10 @@ The Fresnel coefficients $r$ and $t$ are amplitude ratios, while $R = |r|^2$ and
 
 **Mistake 3: Assuming $|\mathbf{E}| = c|\mathbf{B}|$ implies $\mathbf{E}$ and $\mathbf{B}$ have the same units**
 The relation $E = cB$ is in SI units, where $E$ is in V/m and $B$ is in tesla. The numerical values differ by a factor of $c \approx 3 \times 10^8$. In Gaussian units, $E = B$ numerically. Students sometimes forget this distinction when comparing results from different unit systems.
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Common Pitfalls](/4-optics-and-waves/18_common-pitfalls/)

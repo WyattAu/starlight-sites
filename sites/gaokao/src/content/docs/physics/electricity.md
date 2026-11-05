@@ -388,3 +388,8 @@ Circuits are like road networks. Series circuits are single-lane roads where tra
 - [Mechanics](https://hsc.wyattau.com/physics/mechanics/) - Force and energy principles that govern electromagnetic systems through work-energy relationships
 - [Optics](/physics/optics/) - Wave properties of electromagnetic radiation connecting to electric field theory
 - [Algebra](https://sat.wyattau.com/mathematics/algebra/) - Mathematical techniques for solving circuit equations and calculating equivalent resistance
+
+## Related in this track
+
+- [Mechanics](/physics/mechanics/)
+- [Optics | Gaokao - Wyatt's Notes](/physics/optics/)

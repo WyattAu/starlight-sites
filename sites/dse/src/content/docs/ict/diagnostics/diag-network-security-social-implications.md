@@ -296,3 +296,10 @@ public awareness with the organisation's ability to protect its users.
 - [Diagnostics](./)
 - [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)
 - [Data Representation -- Diagnostic Tests](/ict/diagnostics/diag-data-representation/)
+
+## Related in this track
+
+- [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)
+- [DSE ICT -- Diagnostic Guide](/ict/diagnostics/diagnostic-guide/)
+- [Data Representation -- Diagnostic Tests](/ict/diagnostics/diag-data-representation/)
+- [Internet and Data Communications -- Diagnostic Tests](/ict/diagnostics/diag-internet-data-communications/)

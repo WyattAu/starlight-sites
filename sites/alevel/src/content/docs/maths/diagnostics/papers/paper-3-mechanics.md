@@ -473,3 +473,8 @@ $$
 - **[Momentum](/maths/mechanics/05-momentum/):** Momentum is a core mechanics topic
 - **[Energy and Work](/maths/mechanics/energy-and-work-depth/):** Work-energy is fundamental to mechanics
 - **[Kinematics](/maths/mechanics/kinematics-depth/):** Kinematics describes motion
+
+## Related in this track
+
+- [Paper 1 -- Pure Mathematics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-1-pure-mathematics/)
+- [Paper 2 -- Statistics -- Full Diagnostic Exam](/maths/diagnostics/papers/paper-2-statistics/)

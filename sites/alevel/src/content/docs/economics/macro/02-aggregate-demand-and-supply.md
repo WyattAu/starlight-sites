@@ -1274,3 +1274,10 @@ the financing method (tax-funded vs debt-funded).
 The AD/AS model is the macroeconomy's equivalent of supply and demand. Aggregate demand (AD) is the total spending in the economy, consumption, investment, government spending, and net exports. Aggregate supply (AS) is the total output. The short-run AS curve slopes upward because higher prices make production more profitable. The long-run AS curve is vertical at potential output, in the long run, the economy produces at its capacity regardless of the price level.
 
 The key insight is that the economy can be in three states: equilibrium at potential output (full employment), below potential (recession, unemployment), or above potential (overheating, inflation). Demand-side policies (fiscal and monetary) shift AD. Supply-side policies shift AS. The multiplier effect means an initial change in spending creates a larger final change in GDP, spending becomes income, which becomes more spending. But at full employment, more spending just raises prices, not output.
+
+## Related in this track
+
+- [Development Economics](/economics/macro/08-development-economics/)
+- [Fiscal Policy](/economics/macro/04-fiscal-policy/)
+- [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/)
+- [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/)

@@ -1137,3 +1137,10 @@ implementation, and key applications.
 - [Essential Modules](/python/05-standard-library/01-essential-modules/) -- Understanding modules is prerequisite to using the standard library effectively.
 - [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/) -- Modules can define generator functions and iterator classes that other modules import.
 - [Object-Oriented Programming](/python/04-object-oriented/01-classes/) -- Packages organise classes into namespaces, connecting module structure to OOP design.
+
+## Related in this track
+
+- [Control Flow](/python/02-fundamentals/02-control-flow/)
+- [Functions, Closures, and Decorators](/python/02-fundamentals/03-functions/)
+- [Generators and Iterators](/python/02-fundamentals/04-generators-and-iterators/)
+- [Python Internals](/python/02-fundamentals/05-python-internals/)

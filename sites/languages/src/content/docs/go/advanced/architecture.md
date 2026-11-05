@@ -584,3 +584,10 @@ practical implementation, and key applications.
 - [Advanced](./)
 - [Modules and Packages](/go/advanced/modules-and-packages/)
 - [Networking](/go/advanced/networking/)
+
+## Related in this track
+
+- [Modules and Packages](/go/advanced/modules-and-packages/)
+- [Networking](/go/advanced/networking/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Reflection](/go/advanced/reflection/)

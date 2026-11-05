@@ -484,3 +484,10 @@ So $a = 1$, $b = 0$, $c = 0$.
 - **[Pure Mathematics](/maths/flashcards-pure-mathematics/):** Pure maths covers algebra, calculus, and functions
 - **[Mechanics](/maths/practice-mechanics/):** Mechanics applies maths to physical problems
 - **[Statistics](/further-maths/flashcards-further-statistics/):** Statistics develops data analysis methods
+
+## Related in this track
+
+- [Algebraic Expressions -- Diagnostic Tests](/maths/diagnostics/diag-algebraic-expressions/)
+- [Binomial Expansion -- Diagnostic Tests](/maths/diagnostics/diag-binomial-expansion/)
+- [Correlation and Regression -- Diagnostic Tests](/maths/diagnostics/diag-correlation-and-regression/)
+- [Data Representation -- Diagnostic Tests](/maths/diagnostics/diag-data-representation/)

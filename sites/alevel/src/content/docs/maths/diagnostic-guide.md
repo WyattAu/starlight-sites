@@ -585,3 +585,8 @@ $\blacksquare$
 - **[Pure Mathematics](/maths/flashcards-pure-mathematics/):** Diagnostics assess pure maths skills
 - **[Mechanics](/maths/practice-mechanics/):** Mechanics diagnostics test physics applications
 - **[Statistics](/maths/statistics/):** Statistics diagnostics test data analysis
+
+## Related in this track
+
+- [A Level Mathematics Diagnostic Test](/maths/diagnostic-test/)
+- [Mathematics](/maths/maths/)

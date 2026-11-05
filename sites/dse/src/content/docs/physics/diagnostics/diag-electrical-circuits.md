@@ -486,3 +486,10 @@ constant voltage source, regardless of $R$ and $C$ values.
 - **[Mechanics](/physics/diagnostics/diag-mechanics/):** Mechanics covers forces and motion
 - **[Waves](/physics/diagnostics/diag-waves-sound/):** Waves transfer energy
 - **[Electricity](/physics/diagnostics/diag-electrical-circuits/):** Electricity covers circuits
+
+## Related in this track
+
+- [DSE Physics Diagnostic Guide](/physics/diagnostics/diagnostic-guide/)
+- [Electricity and Magnetism -- Diagnostic Tests](/physics/diagnostics/diag-electricity-magnetism/)
+- [Energy and Work -- Diagnostic Tests](/physics/diagnostics/diag-energy-work/)
+- [Forces and Motion -- Diagnostic Tests](/physics/diagnostics/diag-forces-motion/)

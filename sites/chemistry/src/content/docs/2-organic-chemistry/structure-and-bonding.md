@@ -491,3 +491,9 @@ Structure and bonding determine everything about how a molecule behaves. Hybridi
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Reaction Mechanisms](/2-organic-chemistry/reaction-mechanisms/)
+- [Spectroscopy](/2-organic-chemistry/spectroscopy/)
+- [Synthesis](/2-organic-chemistry/synthesis/)

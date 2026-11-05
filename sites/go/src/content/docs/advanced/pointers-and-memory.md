@@ -300,3 +300,10 @@ Pointers in Go hold memory addresses instead of values. When you pass a pointer 
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- zero values and type conversions
 - [Arrays, Slices, and Maps](/basics/arrays-slices-maps/) -- value vs reference semantics
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- value vs pointer receivers
+
+## Related in this track
+
+- [Modules and Packages](/advanced/modules-and-packages/)
+- [Networking](/advanced/networking/)
+- [Reflection](/advanced/reflection/)
+- [Testing](/advanced/testing/)

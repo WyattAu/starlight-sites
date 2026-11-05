@@ -493,3 +493,9 @@ Testing in Kotlin leverages JUnit 5 with Kotlin-specific enhancements. MockK han
 - [Coroutines](/intermediate/coroutines/) -- testing suspend functions with runTest
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- extension functions used in test utilities
 - [Null Safety Deep Dive](/advanced/null-safety-deep-dive/) -- null assertions in tests
+
+## Related in this track
+
+- [Java Interoperability](/advanced/interoperability/)
+- [Metaprogramming](/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/advanced/null-safety-deep-dive/)

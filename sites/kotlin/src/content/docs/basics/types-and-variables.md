@@ -314,3 +314,9 @@ Kotlin's type system is built on three pillars: immutability by default (val ove
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- extension functions and function types
 - [Classes and Objects](/basics/classes-and-objects/) -- data classes and sealed classes
 - [Null Safety Deep Dive](/advanced/null-safety-deep-dive/) -- advanced null handling patterns
+
+## Related in this track
+
+- [Classes and Objects](/basics/classes-and-objects/)
+- [Control Flow](/basics/control-flow/)
+- [Functions](/basics/functions/)

@@ -510,3 +510,10 @@ of surfaces is indexed by a single integer.
   symmetry groups, which is what the fundamental group of a configuration space
   is made of.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)

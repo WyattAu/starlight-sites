@@ -124,3 +124,9 @@ Write a report on a workplace issue, including:
 - [B1 Intermediate Level](/cefr-levels/b1-intermediate/)
 - [A1 Beginner](/cefr-levels/a1-beginner/)
 
+## Related in this track
+
+- [A2 Elementary Level | language-tests](/cefr-levels/a2-elementary/)
+- [B1 Intermediate Level | language-tests](/cefr-levels/b1-intermediate/)
+- [C1 Advanced Level | language-tests](/cefr-levels/c1-advanced/)
+- [C2 Proficiency Level | language-tests](/cefr-levels/c2-proficiency/)

@@ -5113,6 +5113,12 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Swift Programming Study Guide](/hub/)
+- [Swift - Wyatt's Notes](/intro/)
+- [Swift Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Flashcards Swift Basics
@@ -5387,6 +5393,12 @@ protocol Drawable {
 - See [Programming Glossary](/glossary/) for general programming concepts
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Swift Programming Study Guide](/hub/)
+- [Swift - Wyatt's Notes](/intro/)
+
 ---
 
 ## Hub
@@ -5644,6 +5656,12 @@ Use Swift Package Manager (SPM), Apple's built-in dependency manager. Add depend
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Swift - Wyatt's Notes](/intro/)
+- [Swift Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Index
@@ -5815,6 +5833,12 @@ for safe parallel execution. Start with Xcode (Mac) or Swift.org toolchain
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Swift Programming Study Guide](/hub/)
+- [Swift Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 

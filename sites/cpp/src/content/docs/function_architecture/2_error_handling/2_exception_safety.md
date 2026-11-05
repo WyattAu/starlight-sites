@@ -672,3 +672,9 @@ including key theorems, methods, and problem-solving approaches.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Algebraic Error Handling, std::optional and std::variant](/function_architecture/2_error_handling/4_optional_variant/)
+- [Monadic Error Handling, std::expected](/function_architecture/2_error_handling/5_expected/)
+- [The Itanium Exception ABI](/function_architecture/2_error_handling/1_exception_abi/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)

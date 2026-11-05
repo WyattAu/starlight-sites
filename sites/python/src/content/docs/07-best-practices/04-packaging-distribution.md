@@ -1033,3 +1033,9 @@ Packaging turns your code into something others can install and use. `pyproject.
 - [Modules and Packages](https://go.wyattau.com/advanced/modules-and-packages/)
 - [Standard Library Essentials](https://languages.wyattau.com/python/05-standard-library/01-essential-modules/)
 - [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
+
+## Related in this track
+
+- [Debugging and Profiling](/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/07-best-practices/03-error-handling-patterns/)
+- [Style and Idioms](/07-best-practices/01-style-and-idioms/)

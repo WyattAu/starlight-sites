@@ -1051,3 +1051,10 @@ The production possibility frontier (PPF) is the visual representation of scarci
 - [Microeconomics](./)
 - [Theory of the Firm](/economics/microeconomics/04-theory-of-the-firm/)
 - [Demand, Supply and Equilibrium](/economics/microeconomics/02-demand-supply-and-equilibrium/)
+
+## Related in this track
+
+- [Demand, Supply and Equilibrium](/economics/microeconomics/02-demand-supply-and-equilibrium/)
+- [Distribution of Income](/economics/microeconomics/06-distribution-of-income/)
+- [Labour Markets](/economics/microeconomics/05-labour-markets/)
+- [Market Failure](/economics/microeconomics/03-market-failure/)

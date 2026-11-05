@@ -245,3 +245,7 @@ For related topics, see [./measuring-development](/geography/development/measuri
 
 ## Worked Examples
 
+## Related in this track
+
+- [Measuring Development](/geography/development/measuring-development/)
+- [Sustainable Development Goals](/geography/development/sustainable-development-goals/)

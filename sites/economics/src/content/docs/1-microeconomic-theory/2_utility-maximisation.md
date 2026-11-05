@@ -155,3 +155,10 @@ of this theorem.
    target cannot slope upward.)
 4. Why is the Marshallian cross-partial matrix not symmetric? (§4; the income effect terms
    $-x_j \partial x_i/\partial w$ need not mirror.)
+
+## Related in this track
+
+- [General Equilibrium](/1-microeconomic-theory/4_general-equilibrium/)
+- [Preferences and Utility](/1-microeconomic-theory/1_preferences-and-utility/)
+- [Production, Cost, and the Firm](/1-microeconomic-theory/5_production-and-firm/)
+- [The Welfare Theorems](/1-microeconomic-theory/3_welfare-theorems/)

@@ -236,3 +236,10 @@ For each topic test (6 questions, max 24 marks):
 - [Diagnostics](./)
 - [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
 - [Circular Motion -- Diagnostic Tests](/physics/diagnostics/diag-circular-motion/)
+
+## Related in this track
+
+- [Capacitance -- Diagnostic Tests](/physics/diagnostics/diag-capacitance/)
+- [Circular Motion -- Diagnostic Tests](/physics/diagnostics/diag-circular-motion/)
+- [Current and Resistance -- Diagnostic Tests](/physics/diagnostics/diag-current-resistance/)
+- [DC Circuits -- Diagnostic Tests](/physics/diagnostics/diag-dc-circuits/)

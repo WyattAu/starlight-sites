@@ -1168,3 +1168,8 @@ balanced trees, including key theorems, methods, and problem-solving approaches.
 - Dynamic Programming -- Tree DP and memoisation on tree structures are key techniques in dynamic programming.
 - [Advanced Data Structures](/algorithms/07-graph-algorithms/advanced-data-structures/) -- Segment trees and Fenwick trees extend BST principles to range query problems.
 :::
+
+## Related in this track
+
+- [Trees and Graphs](/algorithms/04-trees-graphs/trees-and-graphs/)
+- [Tries and String Algorithms](/algorithms/04-trees-graphs/trie-and-pattern-matching/)

@@ -883,3 +883,9 @@ linked above.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Shows how to validate data within context managers, ensuring resources receive properly validated input.
 - [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Explains the **enter** and **exit** dunder methods that define context manager protocol.
 - [Async Context Managers](https://dart.wyattau.com/05-async/01-async-and-futures/): Builds on context managers for asynchronous resource management with async with and async generators.
+
+## Related in this track
+
+- [Advanced Type System](/python/08-advanced-topics/01-advanced-typing/)
+- [Data Validation](/python/08-advanced-topics/02-data-validation/)
+- [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/)

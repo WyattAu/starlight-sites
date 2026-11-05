@@ -563,3 +563,10 @@ greeting = f"Hello, {name}! 2 + 2 = {2 + 2}"
 - See [Machine Learning Glossary](/glossary/) for Python in ML
 - See [Database Glossary](/glossary/) for Python database interactions
 - See [C++ Glossary](/glossary/) for compiled language comparison
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Introduction to Python](/intro/)

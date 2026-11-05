@@ -62,3 +62,7 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Language Proficiency Test Guide, IELTS, TOEFL, and More](/hub/)
+- [Language Proficiency Test Glossary, IELTS, TOEFL Terms](/glossary/)

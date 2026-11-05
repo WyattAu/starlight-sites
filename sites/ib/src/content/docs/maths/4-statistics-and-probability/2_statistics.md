@@ -1125,3 +1125,8 @@ linked above.
 - [Statistics And Probability](./)
 - [Probability](/maths/4-statistics-and-probability/1_probability/)
 - [Probability Distributions](/maths/4-statistics-and-probability/3_probability-distributions/)
+
+## Related in this track
+
+- [Probability](/maths/4-statistics-and-probability/1_probability/)
+- [Probability Distributions](/maths/4-statistics-and-probability/3_probability-distributions/)

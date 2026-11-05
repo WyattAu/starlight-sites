@@ -318,3 +318,10 @@ executed.
 - **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)**; the same LAN machinery, in the Bayesian setting.
 - **[Hodge Theory](https://mathematics.wyattau.com/12-differential-geometry/14_hodge-theory/)**; the other consumer of elliptic regularity; the pattern "kernel of an operator" recurs.
 - **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)**; the ELBO bound of §4, made the objective.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+- [Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)

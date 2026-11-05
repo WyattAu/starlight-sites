@@ -559,3 +559,10 @@ programmes create switching costs.
 - **[Demand and Supply](/economics/diagnostics/diag-demand-supply/):** Firm behaviour is influenced by demand
 - **[Market Failure](/economics/diagnostics/diag-market-failure/):** Market structures affect efficiency
 - **[Macroeconomic Policy](/economics/diagnostics/diag-macroeconomic-policy/):** Firms operate within macroeconomic conditions
+
+## Related in this track
+
+- [A-Level Economics -- Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
+- [Demand, Supply, and Equilibrium -- Diagnostic Tests](/economics/diagnostics/diag-demand-supply/)
+- [Macroeconomic Policy -- Diagnostic Tests](/economics/diagnostics/diag-macroeconomic-policy/)
+- [Market Failure -- Diagnostic Tests](/economics/diagnostics/diag-market-failure/)

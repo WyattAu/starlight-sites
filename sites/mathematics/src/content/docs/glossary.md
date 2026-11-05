@@ -193,3 +193,10 @@ graph TD
 - [Calculus Guide](https://hsc.wyattau.com/mathematics/calculus/)
 - [Linear Algebra Course](/2-linear-algebra/)
 - [Probability Problems](/8-probability-and-statistics/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)

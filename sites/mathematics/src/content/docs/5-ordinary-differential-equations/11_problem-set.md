@@ -532,3 +532,10 @@ Ordinary differential equations describe how quantities evolve, and each method 
 - [Differential Equations](./)
 - [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)
 - [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+
+## Related in this track
+
+- [Common Pitfalls](/5-ordinary-differential-equations/10_common-pitfalls/)
+- [First-Order ODEs](/5-ordinary-differential-equations/2_first-order-odes/)
+- [Fourier Series](/5-ordinary-differential-equations/7_fourier-series/)
+- [Introduction and Classification](/5-ordinary-differential-equations/1_introduction-and-classification/)

@@ -195,3 +195,10 @@ The mind works like an information processing system. Perception filters raw sen
 - [Research Methods](/psychology/research-methods/)
 - [Approaches in Psychology](/psychology/approaches/)
 - [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
+
+## Related in this track
+
+- [Approaches in Psychology](/psychology/approaches/)
+- [Biological Level of Analysis](/psychology/biological-level-of-analysis/)
+- [Cognitive Level of Analysis](/psychology/cognitive-level-of-analysis/)
+- [Developmental Psychology](/psychology/developmental-psychology/)

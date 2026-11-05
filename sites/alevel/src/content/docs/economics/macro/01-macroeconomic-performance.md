@@ -1475,3 +1475,10 @@ better on liveability indicators.
 GDP is the economy's scoreboard, it measures the total value of everything produced in a country. The expenditure method ($C + I + G + NX$) is the most intuitive: it sums what households spend, what firms invest, what the government buys, and what foreigners buy from us (minus what we buy from them). All three methods (output, income, expenditure) give the same result because every pound spent becomes someone's income, which corresponds to output produced.
 
 The key distinction is between nominal and real GDP. Nominal GDP can rise just because prices went up, even if nothing more was produced. Real GDP strips out price changes to show actual output growth. The GDP deflator is the "inflation calculator" that converts nominal to real. CPI measures the cost of a fixed basket of goods, it overstates inflation because people substitute away from goods that become relatively more expensive. Unemployment rate tells you what fraction of the labour force wants to work but can't find a job. These three indicators, GDP growth, inflation, and unemployment, are the vital signs of the economy.
+
+## Related in this track
+
+- [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)
+- [Development Economics](/economics/macro/08-development-economics/)
+- [Fiscal Policy](/economics/macro/04-fiscal-policy/)
+- [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/)

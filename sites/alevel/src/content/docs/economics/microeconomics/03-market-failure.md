@@ -392,3 +392,10 @@ Education, healthcare, vaccinations.
 
 **Demerit goods**: goods that the government believes consumers _should_ consume less of. Examples:
 Alcohol, tobacco, illegal drugs.
+
+## Related in this track
+
+- [Demand, Supply and Equilibrium](/economics/microeconomics/02-demand-supply-and-equilibrium/)
+- [Distribution of Income](/economics/microeconomics/06-distribution-of-income/)
+- [Labour Markets](/economics/microeconomics/05-labour-markets/)
+- [The Economic Problem](/economics/microeconomics/01-the-economic-problem/)

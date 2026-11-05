@@ -875,3 +875,10 @@ proceed assuming the circles do intersect.
 - **[Functions](/maths/diagnostics/diag-functions/):** Functions are central
 - **[Quadratics](/maths/diagnostics/diag-quadratics/):** Quadratics are a core topic
 - **[Trigonometry](/maths/diagnostics/diag-trigonometry/):** Trigonometry is fundamental
+
+## Related in this track
+
+- [Combinatorics -- Diagnostic Tests](/maths/diagnostics/diag-combinatorics/)
+- [DSE Mathematics Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
+- [Dispersion -- Diagnostic Tests](/maths/diagnostics/diag-dispersion/)
+- [Functions -- Diagnostic Tests](/maths/diagnostics/diag-functions/)

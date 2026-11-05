@@ -207,3 +207,10 @@ Calculus AB covers differential and integral calculus at a foundational level. C
 ### How do I handle AP exam stress?
 
 Start preparing early to reduce last-minute pressure. Break your study plan into manageable daily tasks. Practise under timed conditions to build confidence. Get adequate sleep before the exam. Remember that a single exam score does not define your academic potential. Use study groups, office hours, and online resources when you need support.
+
+## Related in this track
+
+- [AP Biology Study Guide](/biology/)
+- [AP Calculus AB Study Guide](/calculus-ab/)
+- [AP Computer Science A](/ap-computer-science-a/)
+- [AP Computer Science Principles](/ap-computer-science-principles/)

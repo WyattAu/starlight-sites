@@ -491,3 +491,10 @@ linked above.
 - [Branching](/git/03-branching-and-merging/01-branching/) covers the local branching operations that determine what gets pushed to remotes.
 - [Workflows](/git/04-remotes-and-workflows/02-workflows/) defines the team conventions for how remote operations are structured and coordinated.
 - [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/) extends remote operations into code review and collaborative merge processes.
+
+## Related in this track
+
+- [Branching Strategies](/git/04-remotes-and-workflows/02-workflows/)
+- [GitHub Actions CI/CD Patterns](/git/04-remotes-and-workflows/05-github-actions-ci-cd-patterns/)
+- [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/)
+- [Transfer Protocols and Authentication](/git/04-remotes-and-workflows/04-transfer-protocols-and-auth/)

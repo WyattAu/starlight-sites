@@ -288,3 +288,10 @@ from any start.
 - **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)**; bias–variance, which §2's $\lambda$ trades.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; the capacity control that the penalties instantiate.
 - **[Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)**; the Bayesian version of the same linear model, with error bars.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)

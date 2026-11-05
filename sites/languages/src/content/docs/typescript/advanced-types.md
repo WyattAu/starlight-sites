@@ -1062,3 +1062,10 @@ Advanced types unlock TypeScript's type-level programming capabilities. Conditio
 - [Typescript](./)
 - [Advanced Patterns](/typescript/advanced-patterns/)
 - [Types and Annotations](/typescript/types-and-annotations/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)

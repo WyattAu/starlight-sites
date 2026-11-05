@@ -245,3 +245,10 @@ Hamiltonian mechanics reformulates Newton's laws in terms of energy rather than 
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
 - [Quantum Computing](https://computer-science.wyattau.com/docs/quantum-computing)
+
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)

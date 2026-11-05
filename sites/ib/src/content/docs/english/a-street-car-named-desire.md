@@ -517,3 +517,9 @@ Blanche can wash but she cannot wash away the past.
 
 ## Worked Examples
 
+## Related in this track
+
+- [A Streetcar Named Desire, Close Reading and Analysis](/english/streetcar-named-desire-analysis/)
+- [Chronicle of a Death Foretold](/english/chronicle-of-a-death-foretold/)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)
+- [English](/english/english/)

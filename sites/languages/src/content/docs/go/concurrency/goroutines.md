@@ -344,3 +344,8 @@ practical implementation, and key applications.
 - [Concurrency](./)
 - [Channels and Concurrency Patterns](/go/concurrency/channels/)
 - [race conditions](/go/concurrency/race-conditions/)
+
+## Related in this track
+
+- [Channels and Concurrency Patterns](/go/concurrency/channels/)
+- [race conditions](/go/concurrency/race-conditions/)

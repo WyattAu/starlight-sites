@@ -627,3 +627,9 @@ import { Citation } from "@components/Citations.astro"
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Quantum Chemistry](/1-physical-chemistry/quantum-chemistry/)
+- [Statistical Mechanics](/1-physical-chemistry/statistical-mechanics/)
+- [Thermodynamics](/1-physical-chemistry/thermodynamics/)

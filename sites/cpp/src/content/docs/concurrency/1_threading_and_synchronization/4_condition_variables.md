@@ -690,3 +690,10 @@ event), while latches and barriers are stateless counters. Use condition variabl
 decision to proceed depends on shared data that can change in complex ways. Use latches and
 barriers when you directly need to coordinate timing, everyone waits until N threads have arrived,
 then they all proceed together.
+
+## Related in this track
+
+- [Data Races and Critical Sections](/concurrency/1_threading_and_synchronization/2_data_races/)
+- [Mutexes, Shared Locks, and Deadlock Prevention](/concurrency/1_threading_and_synchronization/3_mutexes_deadlocks/)
+- [Thread Execution (std::jthread) and Hardware Mapping](/concurrency/1_threading_and_synchronization/1_threads_jthread/)
+- [Thread-Local Storage (TLS)](/concurrency/1_threading_and_synchronization/5_thread_local_storage/)

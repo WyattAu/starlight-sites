@@ -436,3 +436,10 @@ Absolutely. These notes are designed to complement resources like the Oxford IB 
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [IB Glossary, Key Terms and Definitions](/glossary/)
+- [IB Practice Test, 50 Questions Across All Subjects](/practice-test-mega/)
+- [IB Theory of Knowledge (TOK)](/ib-theory-of-knowledge/)

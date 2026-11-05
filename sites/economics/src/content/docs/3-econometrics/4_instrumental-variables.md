@@ -136,3 +136,10 @@ paper, and the algebra above is the frame it hangs on.
    contaminates the projection.)
 4. Why can't the same variable be a control and an instrument? (§5; a control correlates with
    $u$ by design; an instrument must not.)
+
+## Related in this track
+
+- [Consistency and the Failure Modes](/3-econometrics/3_consistency-and-failure-modes/)
+- [Inference: Standard Errors, t-Tests, and Robust Variance](/3-econometrics/5_inference/)
+- [The Gauss--Markov Theorem](/3-econometrics/2_gauss-markov/)
+- [The OLS Estimator](/3-econometrics/1_ols-estimator/)

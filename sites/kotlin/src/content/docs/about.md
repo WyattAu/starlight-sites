@@ -109,3 +109,9 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Before You Begin: What Kotlin Assumes You Know](/before-you-begin/)
+- [Complete Kotlin Programming Study Guide](/hub/)
+- [Introduction to Kotlin](/intro/)
+- [Kotlin Glossary, Key Terms and Definitions](/glossary/)

@@ -350,3 +350,9 @@ Score thresholds vary by province, year, and university. Generally, 985 universi
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Gaokao Glossary, Key Terms and Definitions](/glossary/)
+- [Introduction to Gaokao Notes](/intro/)

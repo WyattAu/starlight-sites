@@ -1071,3 +1071,9 @@ Text processing in Linux is like having a team of specialised editors -- grep fi
 - [Bash Scripting](/01-cli-fundamentals/bash-scripting/) -- Regular expressions and text processing are frequently used in bash scripts for data manipulation.
 - [File Permissions](/02-file-systems/file-permissions/) -- Log file analysis requires understanding file ownership and access permissions.
 :::
+
+## Related in this track
+
+- [Bash Scripting](/01-cli-fundamentals/bash-scripting/)
+- [Core Utilities](/01-cli-fundamentals/core-utilities/)
+- [Shell Basics](/01-cli-fundamentals/shell-basics/)

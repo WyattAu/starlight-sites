@@ -737,3 +737,10 @@ Exception ABI defines how exceptions propagate across library boundaries. The It
 - [Exception Safety](https://programming.wyattau.com/function_architecture/2_error_handling/2_exception_safety/)
 - [Noexcept](https://programming.wyattau.com/function_architecture/2_error_handling/3_noexcept/)
 - [RAII Patterns](https://programming.wyattau.com/resource_management/1_ownership_and_raii/1_raii_patterns/)
+
+## Related in this track
+
+- [Algebraic Error Handling, std::optional and std::variant](/function_architecture/2_error_handling/4_optional_variant/)
+- [Exception Safety Guarantees](/function_architecture/2_error_handling/2_exception_safety/)
+- [Monadic Error Handling, std::expected](/function_architecture/2_error_handling/5_expected/)
+- [The noexcept Specifier](/function_architecture/2_error_handling/3_noexcept/)

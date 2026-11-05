@@ -340,3 +340,8 @@ Goroutines are lightweight threads managed by the Go runtime, not the operating 
 - [Channels and Concurrency Patterns](/concurrency/channels/) -- select, pipelines, and fan-out
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- goroutines as anonymous function launches
 - [Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/) -- testing concurrent code
+
+## Related in this track
+
+- [Channels and Concurrency Patterns](/concurrency/channels/)
+- [race conditions](/concurrency/race-conditions/)

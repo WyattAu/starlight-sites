@@ -751,3 +751,10 @@ Classical mechanics is the foundation of physics: it describes how objects move 
 **Confusing centripetal and centrifugal forces:** Centripetal force is the real net force directed inward; centrifugal force is a fictitious force in the rotating frame. Using centrifugal in an inertial frame gives wrong equations of motion.
 
 **Neglecting sign conventions in potential energy:** The gravitational potential V = mgh assumes a reference at h = 0. Choosing the wrong reference point or sign flips the energy conservation equation.
+
+## Related in this track
+
+- [Classical Field Theory](/1-classical-mechanics/13_classical-field-theory/)
+- [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
+- [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
+- [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)

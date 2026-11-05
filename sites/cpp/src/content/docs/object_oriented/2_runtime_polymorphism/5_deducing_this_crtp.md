@@ -750,3 +750,10 @@ When working with deducing this and crtp, follow these steps:
 3. Implement the solution step by step
 4. Test with edge cases and verify correctness
 :::
+
+## Related in this track
+
+- [Devirtualization and Final Specifiers](/object_oriented/2_runtime_polymorphism/3_devirtualization/)
+- [Inheritance, Object Slicing, and Virtual Destructors](/object_oriented/2_runtime_polymorphism/2_inheritance_slicing/)
+- [RTTI, dynamic_cast, and typeid](/object_oriented/2_runtime_polymorphism/4_rtti_dynamic_cast/)
+- [Virtual Functions and vtables](/object_oriented/2_runtime_polymorphism/1_vtables/)

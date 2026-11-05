@@ -943,3 +943,8 @@ Java's type system is built on two pillars: primitives for speed and objects for
 - [Classes and Inheritance](/03-object-oriented/01-classes/) -- object-oriented foundations
 - [Collections Framework](/04-collections/01-collections-framework/) -- generics and type safety
 :::
+
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Strings and Text Processing](/02-fundamentals/03-strings/)

@@ -161,3 +161,9 @@ A database is a organised collection of data designed for efficient retrieval. T
 - [SQL](/4-databases/3_sql/)
 - [Normalisation](/4-databases/4_normalisation/)
 
+## Related in this track
+
+- [Database Systems (Advanced)](/4-databases/12_databases-advanced/)
+- [Distributed Databases](/4-databases/9_distributed-databases/)
+- [Further Reading](/4-databases/11_further-reading/)
+- [Indexing](/4-databases/5_indexing/)

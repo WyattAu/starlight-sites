@@ -1019,3 +1019,8 @@ Strings in Java are immutable sequences of UTF-16 code units. Every operation th
 - [Collections Framework](/04-collections/01-collections-framework/) -- using Strings as keys
 - [Streams API](/05-streams/01-streams-api/) -- string processing with streams
 :::
+
+## Related in this track
+
+- [Control Flow](/02-fundamentals/02-control-flow/)
+- [Types and Variables](/02-fundamentals/01-types-and-variables/)

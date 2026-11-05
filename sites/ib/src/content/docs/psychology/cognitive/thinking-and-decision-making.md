@@ -341,3 +341,9 @@ Prospect theory deepens this picture by showing that we do not evaluate outcomes
 4. **Confusing loss aversion with risk aversion.** Loss aversion means losses loom larger than equivalent gains (the value function is steeper for losses). Risk aversion means preferring a sure outcome to a gamble with equal expected value. They are related but distinct: a loss-averse person may still take risks if the potential gain is large enough relative to the potential loss.
 
 5. **Applying prospect theory to all decision contexts.** Prospect theory was developed for decisions under risk with known probabilities. Many real-world decisions involve ambiguity (unknown probabilities), social preferences, or long time horizons where other models (expected utility theory, hyperbolic discounting) may be more appropriate. Choose the framework that matches the decision context.
+
+## Related in this track
+
+- [Cognitive Level of Analysis](/psychology/cognitive/_index/)
+- [Language and Thought](/psychology/cognitive/language-and-thought/)
+- [Memory Models](/psychology/cognitive/memory-models/)

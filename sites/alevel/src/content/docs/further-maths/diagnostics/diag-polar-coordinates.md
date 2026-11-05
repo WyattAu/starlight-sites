@@ -251,3 +251,10 @@ cardioid, inside circle $= 9\pi/4 - \pi = 5\pi/4$.
 - **[Polar Coordinates](/further-maths/pure-mathematics/05-polar-coordinates/):** Polar coordinates extend coordinate geometry
 - **[Further Calculus](/further-maths/pure-mathematics/04-further-calculus/):** Calculus underpins further mathematics
 - **[Pure Mathematics](/further-maths/further-maths/):** Further maths extends A-level mathematics
+
+## Related in this track
+
+- [A-Level Further Maths -- Diagnostic Guide](/further-maths/diagnostics/diagnostic-guide/)
+- [Complex Numbers -- Diagnostic Tests](/further-maths/diagnostics/diag-complex-numbers/)
+- [Differential Equations -- Diagnostic Tests](/further-maths/diagnostics/diag-differential-equations/)
+- [Further Algebra -- Diagnostic Tests](/further-maths/diagnostics/diag-further-algebra/)

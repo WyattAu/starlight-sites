@@ -1124,3 +1124,8 @@ implementation, and key applications.
 - [Dart3 Features](./)
 - [Pattern Matching](/dart/07-dart3-features/01-pattern-matching/)
 - [Class Modifiers](/dart/07-dart3-features/03-class-modifiers/)
+
+## Related in this track
+
+- [Class Modifiers](/dart/07-dart3-features/03-class-modifiers/)
+- [Pattern Matching](/dart/07-dart3-features/01-pattern-matching/)

@@ -113,3 +113,9 @@ Write a formal letter of complaint or inquiry.
 - [A1 Beginner](/cefr-levels/a1-beginner/)
 - [A2 Elementary Level](/cefr-levels/a2-elementary/)
 
+## Related in this track
+
+- [A2 Elementary Level | language-tests](/cefr-levels/a2-elementary/)
+- [B1 Intermediate Level | language-tests](/cefr-levels/b1-intermediate/)
+- [B2 Upper Intermediate Level | language-tests](/cefr-levels/b2-upper-intermediate/)
+- [C2 Proficiency Level | language-tests](/cefr-levels/c2-proficiency/)

@@ -950,3 +950,10 @@ linked above.
 - [Async/Await](https://dart.wyattau.com/05-async/01-async-and-futures/): Explores the asyncio event loop and coroutines as an alternative concurrency model to threads and processes.
 - [File I/O](/python/05-standard-library/02-file-io/): Demonstrates thread-safe file operations and how concurrency primitives protect shared file resources.
 - [Error Handling](https://dart.wyattau.com/08-error-handling/): Explains how to handle exceptions in concurrent code, including thread-safe error logging and recovery.
+
+## Related in this track
+
+- [CLI Tools](/python/05-standard-library/03-cli-tools/)
+- [Essential Modules](/python/05-standard-library/01-essential-modules/)
+- [File I/O](/python/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/python/05-standard-library/04-serialization/)

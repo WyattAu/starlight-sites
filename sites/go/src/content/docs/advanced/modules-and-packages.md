@@ -307,3 +307,10 @@ Go modules are dependency management made simple. The go.mod file is a manifest 
 - [Project Architecture](/advanced/architecture/) -- directory layout and patterns
 - [Arrays, Slices, and Maps](/basics/arrays-slices-maps/) -- core data structures
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- Go's type system
+
+## Related in this track
+
+- [Networking](/advanced/networking/)
+- [Pointers and Memory](/advanced/pointers-and-memory/)
+- [Reflection](/advanced/reflection/)
+- [Testing](/advanced/testing/)

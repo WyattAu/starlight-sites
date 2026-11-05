@@ -1354,3 +1354,10 @@ The most effective approach to these problems is:
 - [SAT](./)
 - [Math Flashcards](/flashcards-math/)
 - [reading and writing practice](/practice-reading/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Advanced Strategies](/advanced-strategies/)
+- [Complete SAT Study Guide, Math, Reading, Writing](/hub/)
+- [Introduction to SAT Notes](/intro/)

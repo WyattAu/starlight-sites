@@ -113,3 +113,9 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)
+- [Chemistry](/intro/)
+- [Chemistry Glossary, Key Terms and Definitions](/glossary/)
+- [Complete University Chemistry Study Guide](/hub/)

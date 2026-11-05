@@ -1182,3 +1182,9 @@ Data validation ensures that input data conforms to expected shapes and types. P
 - [Classes](https://java.wyattau.com/03-object-oriented/01-classes/)
 - [Advanced Typing](https://languages.wyattau.com/python/08-advanced-topics/01-advanced-typing/)
 - [Serialization](https://languages.wyattau.com/python/05-standard-library/04-serialization/)
+
+## Related in this track
+
+- [Advanced Type System](/08-advanced-topics/01-advanced-typing/)
+- [Context Managers and the with Statement](/08-advanced-topics/03-context-managers/)
+- [Protocols and Dunder Methods](/08-advanced-topics/04-protocols-dunder-methods/)

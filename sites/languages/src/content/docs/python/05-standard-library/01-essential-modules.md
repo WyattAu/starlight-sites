@@ -1157,3 +1157,10 @@ linked above.
 - [Types and Variables](/python/02-fundamentals/01-types-and-variables/) -- Standard library modules work with Python's built-in types including lists, dicts, and strings.
 - [File I/O](/python/05-standard-library/02-file-io/) -- The os and pathlib modules provide file system interaction beyond basic file reading and writing.
 - [Context Managers](/python/08-advanced-topics/03-context-managers/) -- Many standard library resources support the context manager protocol for safe resource management.
+
+## Related in this track
+
+- [CLI Tools](/python/05-standard-library/03-cli-tools/)
+- [Concurrency Primitives](/python/05-standard-library/05-concurrency-primitives/)
+- [File I/O](/python/05-standard-library/02-file-io/)
+- [Serialization and Data Formats](/python/05-standard-library/04-serialization/)

@@ -452,3 +452,8 @@ theory, practical implementation, and key applications.
 - **[Goroutines](/concurrency/goroutines/):** Lightweight threads that can introduce race conditions when accessing shared state.
 - **[Channels](/concurrency/channels/):** Communication mechanism that helps prevent race conditions through message passing.
 - **[Interfaces](/intermediate/interfaces/):** Interface design patterns that affect concurrency safety.
+
+## Related in this track
+
+- [Channels and Concurrency Patterns](/concurrency/channels/)
+- [Goroutines and Synchronization](/concurrency/goroutines/)

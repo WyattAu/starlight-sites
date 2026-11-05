@@ -284,3 +284,10 @@ Worktrees are like having multiple desks in the same office. Instead of clearing
 
 - [Stash](/git/05-advanced-topics/02-stash/) - The simpler alternative for brief interruptions
 - [Submodules](/git/05-advanced-topics/04-submodules/) - How submodules interact with worktrees
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)

@@ -523,3 +523,10 @@ Attempt these before track 1. Answers below; each links back to its section.
   coordinate geometry of §7 becomes a theory.
 - [Measure-Theoretic Probability](https://machine-learning.wyattau.com/1-probabilistic-machine-learning/1_measure-theoretic-probability/) -
   where §2's countability distinction decides which theorems hold.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)
+- [How to Use These Notes: What Learning Science Says](/how-to-use-learning-science/)

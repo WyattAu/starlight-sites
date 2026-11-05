@@ -397,3 +397,10 @@ Cannot detect corrupted frames before forwarding them.
 - **[Network Layer](/3-computer-networks/4_network-layer/):** IP addressing and routing protocols.
 - **[Transport Layer](/3-computer-networks/5_transport-layer/):** TCP and UDP protocols.
 - **[Network Security](/3-computer-networks/7_network-security/):** Encryption and authentication at the data link layer.
+
+## Related in this track
+
+- [Application Layer](/3-computer-networks/6_application-layer/)
+- [Computer Networks (Advanced)](/3-computer-networks/9_computer-networks-advanced/)
+- [Network Layer](/3-computer-networks/4_network-layer/)
+- [Network Models](/3-computer-networks/1_network-models/)

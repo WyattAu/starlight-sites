@@ -279,3 +279,10 @@ $\mathrm{Var}(aX + b) = a^2 \mathrm{Var}(X)$, not $a \mathrm{Var}(X) + b$. The v
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+## Related in this track
+
+- [Estimation and Hypothesis Testing](/8-probability-and-statistics/7_estimation-and-hypothesis-testing/)
+- [Joint Distributions and Independence](/8-probability-and-statistics/3_joint-distributions-and-independence/)
+- [Limit Theorems](/8-probability-and-statistics/4_limit-theorems/)
+- [Probability Spaces](/8-probability-and-statistics/1_probability-spaces/)

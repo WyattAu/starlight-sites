@@ -866,3 +866,10 @@ theory, practical implementation, and key applications.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) covers the clone and fetch commands that sparse checkout and partial clone modify.
 - [Git Objects](/git/02-fundamentals/02-git-objects/) explains the object storage model that partial clone selectively downloads.
 - [Branching](/git/03-branching-and-merging/01-branching/) shows how sparse checkout works with branch-specific directory filtering.
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)

@@ -275,3 +275,7 @@ For related topics, see [./trade-and-aid](/geography/development/trade-and-aid/)
 
 ## Worked Examples
 
+## Related in this track
+
+- [Sustainable Development Goals](/geography/development/sustainable-development-goals/)
+- [Trade and Aid](/geography/development/trade-and-aid/)

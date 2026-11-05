@@ -2087,3 +2087,8 @@ and evaluate experimental evidence critically.
 - [Plant Biology](/biology/5-plant-biology/1_plant-biology/) -- Plant reproduction and tropisms parallel animal reproductive and homeostatic mechanisms.
 - [Money and Banking](/economics/8-money-and-banking/1_money-and-banking/) -- Population growth and demographic change affect economic demand and labour markets.
 :::
+
+## Related in this track
+
+- [Homeostasis](/biology/4-human-physiology/3_homeostasis/)
+- [Human Physiology](/biology/4-human-physiology/1_human-physiology/)

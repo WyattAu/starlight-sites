@@ -282,3 +282,9 @@ Strategy is like a game plan in sports. You would not enter a basketball game wi
 - [Algebra](https://sat.wyattau.com/mathematics/algebra/) - Core algebraic concepts including sets, logic, and inequalities tested in gaokao
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) - Fundamental function types and transformations that underpin many exam problems
 - [Inorganic Chemistry](https://hsc.wyattau.com/chemistry/inorganic/) - Essential inorganic chemistry topics including equilibrium and electrochemistry
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Gaokao Study Guide, Math, Physics, Chemistry](/hub/)
+- [Gaokao Glossary, Key Terms and Definitions](/glossary/)

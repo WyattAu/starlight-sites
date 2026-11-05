@@ -1164,3 +1164,10 @@ Forces are pushes and pulls that change motion. Free body diagrams are like dete
 - [Dynamics (Extended)](/maths/mechanics/dynamics-depth/) -- The extended dynamics treatment provides deeper analysis of connected particles, pulleys, and friction on inclined planes.
 - [Moments](/maths/mechanics/03-moments/) -- Moments extend Newton's laws to rotational equilibrium, complementing the translational equilibrium covered here.
 - [Energy and Work](/maths/mechanics/04-energy-and-work/) -- The work-energy principle provides an alternative formulation of Newton's second law in terms of energy.
+
+## Related in this track
+
+- [Dynamics (Extended)](/maths/mechanics/dynamics-depth/)
+- [Energy and Work](/maths/mechanics/04-energy-and-work/)
+- [Energy and Work (Extended)](/maths/mechanics/energy-and-work-depth/)
+- [Kinematics](/maths/mechanics/01-kinematics/)

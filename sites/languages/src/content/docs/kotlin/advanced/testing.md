@@ -493,3 +493,9 @@ Testing is like proof-reading a book -- unit tests check individual sentences, w
 - [Advanced](./)
 - [Java Interoperability](/kotlin/advanced/interoperability/)
 - [Metaprogramming](/kotlin/advanced/metaprogramming/)
+
+## Related in this track
+
+- [Java Interoperability](/kotlin/advanced/interoperability/)
+- [Metaprogramming](/kotlin/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/kotlin/advanced/null-safety-deep-dive/)

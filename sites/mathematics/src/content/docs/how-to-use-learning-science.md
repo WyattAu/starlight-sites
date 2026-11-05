@@ -219,3 +219,10 @@ worked examples at the right depth; but the effort must come from you.
 - Roediger & Karpicke (2006); Cepeda et al. (2006); Rohrer & Taylor (2007);
   Sweller & Cooper (1985); Dunlosky et al. (2013); the primary sources for
   the six techniques described here.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: From School to University Mathematics](/before-you-begin/)
+- [Complete University Mathematics Study Guide](/hub/)
+- [How to Use These Notes](/how-to-use/)

@@ -326,3 +326,10 @@ Combinatorics counts and structures discrete objects. Permutations arrange objec
 - [Discrete Mathematics](./)
 - [Propositional and Predicate Logic](/1-discrete-mathematics/1_propositional-and-predicate-logic/)
 - [Sets, Relations, and Functions](/1-discrete-mathematics/2_sets-relations-and-functions/)
+
+## Related in this track
+
+- [Graph Theory](/1-discrete-mathematics/5_graph-theory/)
+- [Problem Set](/1-discrete-mathematics/7_problem-set/)
+- [Proof Techniques](/1-discrete-mathematics/3_proof-techniques/)
+- [Propositional and Predicate Logic](/1-discrete-mathematics/1_propositional-and-predicate-logic/)

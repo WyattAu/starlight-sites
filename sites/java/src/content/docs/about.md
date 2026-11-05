@@ -108,3 +108,9 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Java Programming Study Guide](/hub/)
+- [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
+- [Introduction to Java](/intro/)
+- [Java Glossary, Key Terms and Definitions](/glossary/)

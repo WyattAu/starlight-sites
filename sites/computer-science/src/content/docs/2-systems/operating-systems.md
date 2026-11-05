@@ -768,3 +768,9 @@ Operating systems manage hardware resources and provide abstractions for applica
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Databases](/2-systems/databases/)
+- [Distributed Systems](/2-systems/distributed-systems/)
+- [Networking](/2-systems/networking/)

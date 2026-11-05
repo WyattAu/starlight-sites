@@ -1533,3 +1533,8 @@ Databases are the filing cabinets of the digital world, organizing data so it ca
 - [Programming And Databases](./)
 - [Programming Fundamentals](/ict/3-programming-and-databases/1_programming-fundamentals/)
 - [Data Management](/ict/3-programming-and-databases/3_data-management/)
+
+## Related in this track
+
+- [Data Management](/ict/3-programming-and-databases/3_data-management/)
+- [Programming Fundamentals](/ict/3-programming-and-databases/1_programming-fundamentals/)

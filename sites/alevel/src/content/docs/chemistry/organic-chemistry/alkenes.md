@@ -917,3 +917,10 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 - **[Alcohols](/chemistry/organic-chemistry/alcohols/):** Alkenes undergo hydration to form alcohols
 - **[Alkanes](/chemistry/organic-chemistry/alkanes/):** Alkenes are produced by cracking alkanes
 - **[Organic Introduction](/chemistry/organic-chemistry/introduction/):** Alkenes contain C=C double bonds and undergo addition reactions
+
+## Related in this track
+
+- [Alcohols](/chemistry/organic-chemistry/alcohols/)
+- [Alkanes](/chemistry/organic-chemistry/alkanes/)
+- [Amines | A-Level - Wyatt's Notes](/chemistry/organic-chemistry/amines/)
+- [Analytical Techniques](/chemistry/organic-chemistry/analytical-techniques/)

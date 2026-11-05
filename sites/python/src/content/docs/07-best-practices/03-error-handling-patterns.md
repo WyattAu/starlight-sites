@@ -888,3 +888,9 @@ Error handling in Python is about being specific and recoverable. `try`/`except`
 - [Debugging and Profiling](https://languages.wyattau.com/python/07-best-practices/02-debugging-and-profiling/)
 - [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/)
+
+## Related in this track
+
+- [Debugging and Profiling](/07-best-practices/02-debugging-and-profiling/)
+- [Packaging and Distribution](/07-best-practices/04-packaging-distribution/)
+- [Style and Idioms](/07-best-practices/01-style-and-idioms/)

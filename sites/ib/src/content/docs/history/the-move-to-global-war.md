@@ -1267,3 +1267,10 @@ The road to World War II is like watching a series of dominoes fall in slow moti
 - [Cell Biology](/biology/1-cell-biology/1_cell-biology/) -- The biological sciences context helps understand the human cost of conflict and displacement.
 - [Descriptive Statistics](/economics/5-quantitative-economics/1-descriptive-statistics/) -- Quantifying the scale of economic damage and reparations requires statistical analysis of economic data.
 :::
+
+## Related in this track
+
+- [20th Century China](/history/20th-century-china/)
+- [Authoritarian States](/history/authoritarian-states/)
+- [Causes and Effects of Wars](/history/causes-and-effects-of-wars/)
+- [Cold War Superpower Relations](/history/superpower-relations/)

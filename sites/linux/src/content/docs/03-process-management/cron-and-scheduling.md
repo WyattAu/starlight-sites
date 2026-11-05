@@ -977,3 +977,8 @@ Cron is like having a tireless personal assistant who checks your to-do list eve
 - [I/O Redirection and Pipes](/03-process-management/io-redirection/) -- Cron job output is often redirected to log files for monitoring and debugging.
 - [File Permissions](/02-file-systems/file-permissions/) -- Crontab files and scripts require appropriate permissions for execution.
 :::
+
+## Related in this track
+
+- [I/O Redirection and Pipes](/03-process-management/io-redirection/)
+- [Processes and Signals](/03-process-management/processes-and-signals/)

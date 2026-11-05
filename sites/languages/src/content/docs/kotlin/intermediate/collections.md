@@ -335,3 +335,10 @@ implementation, and key applications.
 - [Generics](https://kotlin.wyattau.com/intermediate/generics/), Collection type parameters and variance annotations (in/out) are governed by the generic type system.
 - [Delegation and Result](https://kotlin.wyattau.com/intermediate/delegation-and-result/), Property delegation can be used to lazily initialise collections or wrap them with observable behaviour.
 - [Coroutines Advanced](https://kotlin.wyattau.com/intermediate/coroutines-advanced/), StateFlow and SharedFlow build on collection concepts to provide reactive state management.
+
+## Related in this track
+
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [Generics](/kotlin/intermediate/generics/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)

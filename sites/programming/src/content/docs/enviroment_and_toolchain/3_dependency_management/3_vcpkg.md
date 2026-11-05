@@ -762,3 +762,10 @@ vcpkg is Microsoft's C++ package manager with a large catalog of pre-built libra
 - [[enviroment_and_toolchain/3_dependency_management/4_conan.md]] - Alternative: Conan
 
 - [Algorithm Analysis](https://computer-science.wyattau.com/docs/algorithm-analysis)
+
+## Related in this track
+
+- [Binary Caching](/enviroment_and_toolchain/3_dependency_management/6_binary_caching/)
+- [CPM.cmake](/enviroment_and_toolchain/3_dependency_management/2_cpm/)
+- [Conan | Programming - Wyatt's Notes](/enviroment_and_toolchain/3_dependency_management/4_conan/)
+- [Dependency Resolution](/enviroment_and_toolchain/3_dependency_management/1_dependency_architectures_models/)

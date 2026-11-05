@@ -899,3 +899,8 @@ practical implementation, and key applications.
 - [Descriptors](/python/04-object-oriented/03-descriptors/): Explains the attribute access mechanism that metaclasses often manipulate, including **set_name** and **get**.
 - [Protocols and Dunder Methods](/python/08-advanced-topics/04-protocols-dunder-methods/): Shows how dunder methods enable Python's data model, which metaclasses can customise at the class level.
 - [Data Validation](/python/08-advanced-topics/02-data-validation/): Demonstrates how metaclasses can enforce validation rules during class creation.
+
+## Related in this track
+
+- [Classes and Inheritance](/python/04-object-oriented/01-classes/)
+- [Descriptors and Properties](/python/04-object-oriented/03-descriptors/)

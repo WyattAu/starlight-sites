@@ -271,3 +271,10 @@ prove causation -- other factors (light, moisture, competition) may also be corr
 - [Diagnostics](./)
 - [Bioenergetics -- Diagnostic Tests](/biology/diagnostics/diag-bioenergetics/)
 - [Organisation -- Diagnostic Tests](/biology/diagnostics/diag-organisation/)
+
+## Related in this track
+
+- [Bioenergetics -- Diagnostic Tests](/biology/diagnostics/diag-bioenergetics/)
+- [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)
+- [GCSE Biology -- Diagnostic Guide](/biology/diagnostics/diagnostic-guide/)
+- [Inheritance, Variation and Evolution -- Diagnostic Tests](/biology/diagnostics/diag-inheritance-variation-evolution/)

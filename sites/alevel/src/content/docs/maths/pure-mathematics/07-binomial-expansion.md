@@ -1125,3 +1125,10 @@ $$
 - [Proof](/maths/pure-mathematics/13-proof/) -- The binomial theorem is proved by induction, and binomial coefficient identities appear frequently in proof questions.
 - [Differentiation](/maths/pure-mathematics/10-differentiation/) -- The derivative of $x^n$ is proved using the binomial theorem applied to $(x+h)^n$.
 - [Integration](/maths/pure-mathematics/11-integration/) -- Binomial expansions are used to integrate functions that cannot be handled by standard rules.
+
+## Related in this track
+
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/)
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/)
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/)
+- [Functions](/maths/pure-mathematics/05-functions/)

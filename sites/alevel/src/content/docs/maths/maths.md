@@ -157,3 +157,7 @@ marks are consistently lost.
 - **[Mechanics](/maths/practice-mechanics/):** Mechanics applies maths to physics
 - **[Statistics](/maths/statistics/):** Statistics develops data methods
 
+## Related in this track
+
+- [A Level Mathematics Diagnostic Test](/maths/diagnostic-test/)
+- [A-Level Maths -- Diagnostic Test Guide](/maths/diagnostic-guide/)

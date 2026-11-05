@@ -944,3 +944,9 @@ Core utilities are the Swiss Army knife of Linux -- ls lists files like a direct
 - [I/O Redirection](/03-process-management/io-redirection/) -- Piping core utilities together is the foundation of the Unix philosophy.
 - [File Permissions](/02-file-systems/file-permissions/) -- Commands like chmod and chown are core utilities for managing file access.
 :::
+
+## Related in this track
+
+- [Bash Scripting](/01-cli-fundamentals/bash-scripting/)
+- [Shell Basics](/01-cli-fundamentals/shell-basics/)
+- [Text Processing](/01-cli-fundamentals/text-processing/)

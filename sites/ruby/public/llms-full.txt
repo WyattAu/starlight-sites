@@ -7308,6 +7308,12 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Ruby Programming Study Guide](/hub/)
+- [Ruby - Wyatt's Notes](/intro/)
+- [Ruby Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Flashcards Ruby Basics
@@ -7562,6 +7568,12 @@ end
 - See [Programming Glossary](/glossary/) for general programming concepts
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 - See [Databases Glossary](/glossary/) for Rails database interactions
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Ruby Programming Study Guide](/hub/)
+- [Ruby - Wyatt's Notes](/intro/)
 
 ---
 
@@ -7820,6 +7832,12 @@ Use rbenv or rvm for Ruby version management. Use Bundler for gem dependency man
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Ruby - Wyatt's Notes](/intro/)
+- [Ruby Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Index
@@ -8018,6 +8036,12 @@ end
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Ruby Programming Study Guide](/hub/)
+- [Ruby Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 

@@ -1309,3 +1309,9 @@ practical implementation, and key applications.
 - [Best Practices](./)
 - [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)
 - [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
+
+## Related in this track
+
+- [Error Handling Patterns](/python/07-best-practices/03-error-handling-patterns/)
+- [Packaging and Distribution](/python/07-best-practices/04-packaging-distribution/)
+- [Style and Idioms](/python/07-best-practices/01-style-and-idioms/)

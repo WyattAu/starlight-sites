@@ -167,3 +167,10 @@ This page includes:
 - [Diagnostics](./)
 - [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)
 - [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)
+
+## Related in this track
+
+- [Cell Biology -- Diagnostic Tests](/biology/diagnostics/diag-cell-biology/)
+- [Ecology -- Diagnostic Tests](/biology/diagnostics/diag-ecology/)
+- [Genetics -- Diagnostic Tests](/biology/diagnostics/diag-genetics/)
+- [Human Physiology -- Diagnostic Tests](/biology/diagnostics/diag-human-physiology/)

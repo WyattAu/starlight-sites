@@ -329,3 +329,10 @@ variables are used regardless of $n$.
 - [Diagnostics](./)
 - [Fundamentals -- Diagnostic Tests](/computer-science/diagnostics/diag-fundamentals/)
 - [Computer Networks -- Diagnostic Tests](/computer-science/diagnostics/diag-networks/)
+
+## Related in this track
+
+- [A-Level Computer Science -- Diagnostic Guide](/computer-science/diagnostics/diagnostic-guide/)
+- [Computer Networks -- Diagnostic Tests](/computer-science/diagnostics/diag-networks/)
+- [Data Structures -- Diagnostic Tests](/computer-science/diagnostics/diag-data-structures/)
+- [Fundamentals -- Diagnostic Tests](/computer-science/diagnostics/diag-fundamentals/)

@@ -124,3 +124,10 @@ $$
 Index arithmetic converts multiplication problems into linear congruences. To compute
 $3^{17} \pmod 7$ when 3 has order 6: reduce the exponent 17 modulo 6 to 5, and read off
 $3^5 \equiv 5 \pmod 7$ from the power table. State the order reduction step explicitly.
+
+## Related in this track
+
+- [Arithmetic Functions](/7-number-theory/6_arithmetic-functions/)
+- [Congruences](/7-number-theory/3_congruences/)
+- [Continued Fractions](/7-number-theory/11_continued-fractions/)
+- [Divisibility and the Euclidean Algorithm](/7-number-theory/1_divisibility-and-euclidean-algorithm/)

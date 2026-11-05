@@ -368,3 +368,9 @@ The IB Physics syllabus is a map of the physical world organized into five terri
 - [IB Physics Index](/physics/physics/) provides a structured overview linking to all syllabus topics with detailed notes.
 - [Mechanics](https://ap.wyattau.com/physics/1-kinematics/1_kinematics/) covers the foundational kinematics and dynamics topics in Thematic Area A.
 - [Wrap Up](/physics/wrap-up/) provides a summary and revision strategy aligned to this syllabus structure.
+
+## Related in this track
+
+- [Assessment](/physics/Assessment/)
+- [Physics](/physics/physics/)
+- [Wrap Up](/physics/wrap-up/)

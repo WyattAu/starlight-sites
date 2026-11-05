@@ -1009,3 +1009,8 @@ Lifetimes are Rust's way of tracking how long references remain valid. Every ref
 - [Ownership Borrowing](./)
 - [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability/)
 - [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership/)
+
+## Related in this track
+
+- [Interior Mutability](/rust/02-ownership-borrowing/interior-mutability/)
+- [Ownership and Borrowing](/rust/02-ownership-borrowing/ownership/)

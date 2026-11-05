@@ -130,3 +130,10 @@ hyperplane need not exist, and efficient allocations can be unreachable by any p
   which theorem's hypotheses a real market violates.
 - Production and general equilibrium (next in track); the firm's profit maximisation joins the
   consumer's, and the fixed-point machinery from the game-theory track returns for existence.
+
+## Related in this track
+
+- [General Equilibrium](/1-microeconomic-theory/4_general-equilibrium/)
+- [Preferences and Utility](/1-microeconomic-theory/1_preferences-and-utility/)
+- [Production, Cost, and the Firm](/1-microeconomic-theory/5_production-and-firm/)
+- [Utility Maximisation, Expenditure Functions, and Slutsky](/1-microeconomic-theory/2_utility-maximisation/)

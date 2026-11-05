@@ -430,3 +430,9 @@ implementation, and key applications.
 - **[Net/HTTP](/standard-library/net-http/):** HTTP client and server that use I/O operations.
 - **[Strings and Time](/standard-library/strings-and-time/):** String and time utilities used with I/O operations.
 - **[Flashcards: Standard Library](/flashcards-standard-library/):** Interactive flashcards for standard library concepts.
+
+## Related in this track
+
+- [math, sort, and log/slog](/standard-library/math-sort-log/)
+- [net/http](/standard-library/net-http/)
+- [strings and time](/standard-library/strings-and-time/)

@@ -753,3 +753,7 @@ int main() {
 
 ## Worked Examples
 
+## Related in this track
+
+- [Stream Buffers and Locale Facets](/standard_library/3_input_output_formatting/1_stream_buffers/)
+- [Unicode Support](/standard_library/3_input_output_formatting/3_unicode_support/)

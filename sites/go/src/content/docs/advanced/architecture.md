@@ -580,3 +580,10 @@ Go project architecture is about organizing code so it stays maintainable as it 
 - [Modules and Packages](/advanced/modules-and-packages/) -- dependency management and versioning
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class functions and closures
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- lightweight concurrency primitives
+
+## Related in this track
+
+- [Modules and Packages](/advanced/modules-and-packages/)
+- [Networking](/advanced/networking/)
+- [Pointers and Memory](/advanced/pointers-and-memory/)
+- [Reflection](/advanced/reflection/)

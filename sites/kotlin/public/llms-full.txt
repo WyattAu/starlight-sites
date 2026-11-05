@@ -110,6 +110,13 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Before You Begin: What Kotlin Assumes You Know](/before-you-begin/)
+- [Complete Kotlin Programming Study Guide](/hub/)
+- [Introduction to Kotlin](/intro/)
+- [Kotlin Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Before You Begin
@@ -329,6 +336,13 @@ functions add functionality to classes you don't own.
   the probabilistic foundations behind coroutines' structured concurrency.
 - [Computer Science Track](https://computer-science.wyattau.com/1-discrete-mathematics/) -
   the discrete mathematics behind the type system.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Kotlin Programming Study Guide](/hub/)
+- [Introduction to Kotlin](/intro/)
+- [Kotlin Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -595,6 +609,13 @@ fun greet(name: String, greeting: String = "Hello") = "$greeting, $name!"
 - See [TypeScript Glossary](/glossary/) for another statically-typed language
 - See [Swift Glossary](/glossary/) for mobile development comparison
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Kotlin Assumes You Know](/before-you-begin/)
+- [Complete Kotlin Programming Study Guide](/hub/)
+- [Introduction to Kotlin](/intro/)
+
 ---
 
 ## Hub
@@ -858,6 +879,13 @@ Use Gradle with Kotlin DSL. It is the recommended build system for Kotlin projec
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Kotlin Assumes You Know](/before-you-begin/)
+- [Introduction to Kotlin](/intro/)
+- [Kotlin Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -1156,6 +1184,13 @@ kotlin {
 
 - **[Site Home](../../):** Main landing page for kotlin notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: What Kotlin Assumes You Know](/before-you-begin/)
+- [Complete Kotlin Programming Study Guide](/hub/)
+- [Kotlin Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -1890,6 +1925,12 @@ Kotlin and Java run on the same JVM, so interoperability is seamless at the byte
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- extension functions and lambda syntax
 - [Java Interoperability](/basics/types-and-variables/) -- Java's type system from the Kotlin perspective
 
+## Related in this track
+
+- [Metaprogramming](/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/advanced/null-safety-deep-dive/)
+- [Testing](/advanced/testing/)
+
 ---
 
 ## Metaprogramming
@@ -2301,6 +2342,12 @@ Reflection lets you inspect and manipulate types at runtime when compile-time in
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- extension functions and higher-order functions
 - [Coroutines](/intermediate/coroutines/) -- suspend functions and structured concurrency
 
+## Related in this track
+
+- [Java Interoperability](/advanced/interoperability/)
+- [Null Safety Deep Dive](/advanced/null-safety-deep-dive/)
+- [Testing](/advanced/testing/)
+
 ---
 
 ## Null Safety Deep Dive
@@ -2657,6 +2704,12 @@ Kotlin's null safety is a compile-time guarantee that eliminates most NullPointe
 - [Types and Variables](/basics/types-and-variables/) -- nullable type declarations
 - [Classes and Objects](/basics/classes-and-objects/) -- data classes and sealed classes
 - [Coroutines](/intermediate/coroutines/) -- null safety in suspend functions
+
+## Related in this track
+
+- [Java Interoperability](/advanced/interoperability/)
+- [Metaprogramming](/advanced/metaprogramming/)
+- [Testing](/advanced/testing/)
 
 ---
 
@@ -3148,6 +3201,12 @@ Testing in Kotlin leverages JUnit 5 with Kotlin-specific enhancements. MockK han
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- extension functions used in test utilities
 - [Null Safety Deep Dive](/advanced/null-safety-deep-dive/) -- null assertions in tests
 
+## Related in this track
+
+- [Java Interoperability](/advanced/interoperability/)
+- [Metaprogramming](/advanced/metaprogramming/)
+- [Null Safety Deep Dive](/advanced/null-safety-deep-dive/)
+
 ## Basics
 
 ---
@@ -3562,6 +3621,12 @@ Kotlin classes are blueprints for objects, final by default to prevent accidenta
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- extension functions and higher-order functions
 - [Coroutines](/intermediate/coroutines/) -- object declarations as coroutine scopes
 
+## Related in this track
+
+- [Control Flow](/basics/control-flow/)
+- [Functions](/basics/functions/)
+- [Types and Variables](/basics/types-and-variables/)
+
 ---
 
 ## Control Flow
@@ -3896,6 +3961,12 @@ Control flow in Kotlin is expression-oriented -- if, when, try/catch, and even l
 - [Types and Variables](/basics/types-and-variables/) -- nullable types and smart casts
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- lambdas and higher-order functions
 - [Classes and Objects](/basics/classes-and-objects/) -- sealed classes and exhaustive when
+
+## Related in this track
+
+- [Classes and Objects](/basics/classes-and-objects/)
+- [Functions](/basics/functions/)
+- [Types and Variables](/basics/types-and-variables/)
 
 ---
 
@@ -4250,6 +4321,12 @@ Kotlin functions are first-class values that can be passed as parameters, return
 - [Control Flow](/basics/control-flow/) -- lambdas in for-each and labeled returns
 - [Coroutines](/intermediate/coroutines/) -- suspend functions as coroutines
 
+## Related in this track
+
+- [Classes and Objects](/basics/classes-and-objects/)
+- [Control Flow](/basics/control-flow/)
+- [Types and Variables](/basics/types-and-variables/)
+
 ---
 
 ## Types And Variables
@@ -4561,6 +4638,12 @@ Kotlin's type system is built on three pillars: immutability by default (val ove
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- extension functions and function types
 - [Classes and Objects](/basics/classes-and-objects/) -- data classes and sealed classes
 - [Null Safety Deep Dive](/advanced/null-safety-deep-dive/) -- advanced null handling patterns
+
+## Related in this track
+
+- [Classes and Objects](/basics/classes-and-objects/)
+- [Control Flow](/basics/control-flow/)
+- [Functions](/basics/functions/)
 
 ## Intermediate
 
@@ -4894,6 +4977,13 @@ Kotlin collections split into read-only and mutable interfaces, where read-only 
 - [Types and Variables](/basics/types-and-variables/) -- nullable collections vs collections of nullables
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- higher-order functions like map and filter
 - [Coroutines](/intermediate/coroutines/) -- Flow as a lazy asynchronous collection
+
+## Related in this track
+
+- [Coroutines](/intermediate/coroutines/)
+- [Generics](/intermediate/generics/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)
+- [delegation and result](/intermediate/delegation-and-result/)
 
 ---
 
@@ -5259,6 +5349,13 @@ Coroutines are Kotlin's answer to asynchronous programming without the complexit
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- suspend functions and higher-order functions
 - [Classes and Objects](/basics/classes-and-objects/) -- sealed classes for flow state
 - [Testing](https://alevel.wyattau.com/computer-science/software-engineering/02-testing/) -- testing coroutines with runTest
+
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Generics](/intermediate/generics/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)
+- [delegation and result](/intermediate/delegation-and-result/)
 
 ---
 
@@ -5847,6 +5944,13 @@ This document covers advanced coroutine patterns that build on the fundamentals.
 Understanding these advanced patterns is essential for building robust, maintainable, and testable
 asynchronous systems with Kotlin coroutines.
 
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Coroutines](/intermediate/coroutines/)
+- [Generics](/intermediate/generics/)
+- [delegation and result](/intermediate/delegation-and-result/)
+
 ---
 
 ## Delegation And Result
@@ -6284,6 +6388,13 @@ build fluency.
 - **[Site Home](../../):** Main landing page for kotlin notes.
 - **Practice:** Practice problems for revision.
 
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Coroutines](/intermediate/coroutines/)
+- [Generics](/intermediate/generics/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)
+
 ---
 
 ## Generics
@@ -6604,6 +6715,13 @@ implementation, and key applications.
 
 - **[Site Home](../../):** Main landing page for kotlin notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Coroutines](/intermediate/coroutines/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)
+- [delegation and result](/intermediate/delegation-and-result/)
 
 ---
 
@@ -7048,4 +7166,11 @@ code. Practice each function with realistic examples to build fluency.
 
 - [Intermediate](./)
 - [Collections](/intermediate/collections/)
+- [coroutines advanced](/intermediate/coroutines-advanced/)
+
+## Related in this track
+
+- [Collections](/intermediate/collections/)
+- [Coroutines](/intermediate/coroutines/)
+- [Generics](/intermediate/generics/)
 - [coroutines advanced](/intermediate/coroutines-advanced/)

@@ -544,3 +544,8 @@ Use the revision links under each question to jump directly to the relevant topi
 - **[Pure Mathematics](/maths/flashcards-pure-mathematics/):** The diagnostic covers pure maths topics
 - **[Mechanics](/maths/practice-mechanics/):** Mechanics is tested in the diagnostic
 - **[Statistics](/maths/statistics/):** Statistics is assessed in the diagnostic
+
+## Related in this track
+
+- [A-Level Maths -- Diagnostic Test Guide](/maths/diagnostic-guide/)
+- [Mathematics](/maths/maths/)

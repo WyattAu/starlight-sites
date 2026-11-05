@@ -337,3 +337,9 @@ Our minds are prediction machines, constantly building models of the world to gu
 - [Research Methods](/psychology/research-methods/)
 - [Approaches in Psychology](/psychology/approaches/)
 - [Biopsychology](https://alevel.wyattau.com/psychology/7-biopsychology/1_biopsychology/)
+
+## Related in this track
+
+- [Cognitive Level of Analysis](/psychology/cognitive/_index/)
+- [Language and Thought](/psychology/cognitive/language-and-thought/)
+- [Thinking and Decision Making](/psychology/cognitive/thinking-and-decision-making/)

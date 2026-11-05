@@ -532,3 +532,8 @@ The universe operates through fundamental forces and energy transfers. Forces ar
 - [Physics](../../physics)
 - [Mechanics](/physics/mechanics/)
 - [Fields](/physics/fields/)
+
+## Related in this track
+
+- [Gravitational Fields](/physics/fields/gravitational-fields-depth/)
+- [Magnetic Fields](/physics/fields/magnetic-fields-depth/)

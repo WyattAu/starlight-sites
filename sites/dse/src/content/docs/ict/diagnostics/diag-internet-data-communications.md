@@ -274,3 +274,10 @@ customers and how to mitigate each.
 - [Diagnostics](./)
 - [Data Representation -- Diagnostic Tests](/ict/diagnostics/diag-data-representation/)
 - [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)
+
+## Related in this track
+
+- [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)
+- [DSE ICT -- Diagnostic Guide](/ict/diagnostics/diagnostic-guide/)
+- [Data Representation -- Diagnostic Tests](/ict/diagnostics/diag-data-representation/)
+- [Network Security and Social Implications -- Diagnostic Tests](/ict/diagnostics/diag-network-security-social-implications/)

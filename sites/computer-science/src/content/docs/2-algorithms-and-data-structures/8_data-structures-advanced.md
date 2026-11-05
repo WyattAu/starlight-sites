@@ -1940,3 +1940,10 @@ flowchart TD
 - [Algorithms and Data Structures](./)
 - [Algorithms and Data Structures -- Practice Problems](/2-algorithms-and-data-structures/12_practice-algorithms-data-structures/)
 - [Fundamental Data Structures](/2-algorithms-and-data-structures/2_fundamental-data-structures/)
+
+## Related in this track
+
+- [Advanced Topics](/2-algorithms-and-data-structures/6_advanced-topics/)
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/)
+- [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm_analysis/)
+- [Algorithms (Advanced)](/2-algorithms-and-data-structures/9_algorithms-advanced/)

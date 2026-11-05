@@ -2442,3 +2442,10 @@ flowchart TD
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Algorithms and Data Structures](/algorithms-and-data-structures/)
+- [Before You Begin: The Abstractions CS Assumes You Already Have](/before-you-begin/)
+- [Complete Computer Science Study Guide](/hub/)

@@ -1023,3 +1023,8 @@ Channels are Rust's answer to "share memory by communicating" instead of "commun
 - [Concurrency](https://java.wyattau.com/06-concurrency/01-concurrency/)
 - [Async Deep Dive](https://languages.wyattau.com/rust/06-concurrency/async-deep-dive/)
 - [Ownership and Borrowing](https://languages.wyattau.com/rust/02-ownership-borrowing/ownership/)
+
+## Related in this track
+
+- [Async Deep Dive](/06-concurrency/async-deep-dive/)
+- [Concurrency](/06-concurrency/concurrency/)

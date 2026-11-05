@@ -862,3 +862,10 @@ building a personal test matrix.
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
 :::
+
+## Related in this track
+
+- [Correlation and Regression](/maths/statistics/02-correlation-and-regression/)
+- [Correlation and Regression (Extended)](/maths/statistics/correlation-and-regression-depth/)
+- [Data Representation](/maths/statistics/01-data-representation/)
+- [Hypothesis Testing (Extended)](/maths/statistics/hypothesis-testing-depth/)

@@ -723,3 +723,9 @@ Data structures organize data for efficient access and modification. Arrays prov
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Algorithm Design](/1-algorithms/algorithm-design/)
+- [Complexity Theory](/1-algorithms/complexity-theory/)
+- [Graph Algorithms](/1-algorithms/graph-algorithms/)

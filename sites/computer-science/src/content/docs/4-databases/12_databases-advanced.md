@@ -1500,3 +1500,10 @@ flowchart TD
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Distributed Databases](/4-databases/9_distributed-databases/)
+- [Further Reading](/4-databases/11_further-reading/)
+- [Indexing](/4-databases/5_indexing/)
+- [Introduction to Database Systems](/4-databases/1_introduction-to-database-systems/)

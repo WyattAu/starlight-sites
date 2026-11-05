@@ -870,3 +870,8 @@ UDP is like sending a postcard without tracking - you write the address, drop it
 - [TCP State Machine](/03-tcp-udp/tcp-state-machine/) - TCP connection states that UDP deliberately avoids for lower overhead
 - [DNS](/04-dns/dns/) - Primary protocol using UDP for fast, stateless name resolution queries
 :::
+
+## Related in this track
+
+- [TCP State Machine](/03-tcp-udp/tcp-state-machine/)
+- [TCP and UDP](/03-tcp-udp/tcp-and-udp/)

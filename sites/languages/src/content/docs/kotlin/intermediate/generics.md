@@ -327,3 +327,10 @@ implementation, and key applications.
 - [Generics](/go/intermediate/generics/)
 - [Collections](/kotlin/intermediate/collections/)
 - [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+
+## Related in this track
+
+- [Collections](/kotlin/intermediate/collections/)
+- [Coroutines](/kotlin/intermediate/coroutines/)
+- [coroutines advanced](/kotlin/intermediate/coroutines-advanced/)
+- [delegation and result](/kotlin/intermediate/delegation-and-result/)

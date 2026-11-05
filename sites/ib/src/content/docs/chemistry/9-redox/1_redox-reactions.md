@@ -1176,3 +1176,8 @@ to unfamiliar contexts, particularly in calculation and practical questions.
 - [Redox](./)
 - [Redox Reactions (Advanced)](/chemistry/9-redox/2_redox-advanced/)
 - [Electrochemistry](/chemistry/9-redox/3_electrochemistry/)
+
+## Related in this track
+
+- [Electrochemistry](/chemistry/9-redox/3_electrochemistry/)
+- [Redox Reactions (Advanced)](/chemistry/9-redox/2_redox-advanced/)

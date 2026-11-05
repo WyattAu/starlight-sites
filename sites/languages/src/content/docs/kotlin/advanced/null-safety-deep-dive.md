@@ -360,3 +360,9 @@ Kotlin's null safety is like a building's fire code -- it prevents disasters by 
 - **[Types and Variables](/kotlin/basics/types-and-variables/):** Nullable type declarations and type inference fundamentals.
 - **[Control Flow](/kotlin/basics/control-flow/):** When expressions and null-safe branching patterns.
 - **[Metaprogramming](/kotlin/advanced/metaprogramming/):** Reflection-based null handling and contract annotations.
+
+## Related in this track
+
+- [Java Interoperability](/kotlin/advanced/interoperability/)
+- [Metaprogramming](/kotlin/advanced/metaprogramming/)
+- [Testing](/kotlin/advanced/testing/)

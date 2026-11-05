@@ -259,3 +259,8 @@ Git is a time machine for your code. Every commit is a snapshot you can return t
 - [Git Fundamentals](/git/02-fundamentals/01-the-three-trees/)
 - [Branching and Merging](/git/03-branching-and-merging/01-branching/)
 - [Advanced Git Commands](/git/advanced-git-commands/)
+
+## Related in this track
+
+- [Advanced Git Commands](/git/advanced-git-commands/)
+- [Best Practices](/git/07-best-practices/)

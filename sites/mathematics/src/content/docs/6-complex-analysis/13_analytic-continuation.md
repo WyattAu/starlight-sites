@@ -234,3 +234,10 @@ When analytically continuing a function to a larger domain, new singularities ma
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
 - [Statistical Learning](https://machine-learning.wyattau.com/docs/statistical-learning)
 - [Statistical Mechanics](https://physics.wyattau.com/docs/statistical-mechanics)
+
+## Related in this track
+
+- [Applications of Contour Integration](/6-complex-analysis/9_applications-of-contour-integration/)
+- [Argument Principle and Rouché's Theorem](/6-complex-analysis/12_argument-principle-and-rouch-s-theorem/)
+- [Cauchy's Integral Formula](/6-complex-analysis/6_cauchy-s-integral-formula/)
+- [Cauchy's Theorem](/6-complex-analysis/5_cauchy-s-theorem/)

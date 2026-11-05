@@ -699,3 +699,10 @@ modern verifiable computation possible.
 4. **Confusing the classes P and NP.** P ⊆ NP is known (a deterministic TM is a special case of a non-deterministic one). The open question is whether P = NP, whether every problem verifiable in polynomial time is also solvable in polynomial time. Most experts believe P ≠ NP, but this is unproven.
 
 5. **Assuming NP ⊆ coNP is false.** It is unknown whether NP = coNP. If it were true, then every problem whose "no" instances are efficiently verifiable would also have "yes" instances efficiently verifiable. This is considered unlikely but remains open, and is considered a harder question than P vs. NP by some researchers.
+
+## Related in this track
+
+- [Context-Free Languages](/6-theory-of-computation/3_context-free-languages/)
+- [Decidability](/6-theory-of-computation/5_decidability/)
+- [Introduction](/6-theory-of-computation/1_introduction/)
+- [Problem Set](/6-theory-of-computation/7_problem-set/)

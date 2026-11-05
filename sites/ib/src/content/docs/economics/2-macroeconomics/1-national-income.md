@@ -500,3 +500,9 @@ The key distinction is between nominal and real GDP. Nominal GDP can rise just b
 4. **Confusing GDP with GNP/GNI.** GDP measures production within a country's borders regardless of who owns the productive assets. GNP/GNI adjusts for net factor income from abroad, it includes income earned by citizens abroad and excludes income earned by foreigners domestically. For countries with large multinational presence, the difference is significant.
 
 5. **Assuming GDP per capita is evenly distributed.** GDP per capita is an average that hides distributional effects. A country can have a high GDP per capita while most of its population lives in poverty if income is highly concentrated. Always consider income inequality measures (Gini coefficient) alongside GDP per capita.
+
+## Related in this track
+
+- [Fiscal Policy](/economics/2-macroeconomics/2-fiscal-policy/)
+- [Monetary Policy](/economics/2-macroeconomics/3-monetary-policy/)
+- [Supply-Side Policy](/economics/2-macroeconomics/4-supply-side-policy/)

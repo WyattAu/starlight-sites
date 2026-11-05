@@ -410,3 +410,10 @@ social premium for community development projects (schools, healthcare, clean wa
 - [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/)
 - [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)
 - [The Financial Sector](/economics/macro/03-the-financial-sector/)
+
+## Related in this track
+
+- [Aggregate Demand and Aggregate Supply](/economics/macro/02-aggregate-demand-and-supply/)
+- [Fiscal Policy](/economics/macro/04-fiscal-policy/)
+- [Macroeconomic Performance](/economics/macro/01-macroeconomic-performance/)
+- [Macroeconomic Policy Debates](/economics/macro/07-macroeconomic-policy-debates/)

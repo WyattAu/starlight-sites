@@ -641,3 +641,9 @@ Distributed systems face fundamental challenges: the CAP theorem states you can 
 
 - [Discrete Mathematics](https://mathematics.wyattau.com/docs/discrete-mathematics)
 - [Algorithm Implementation](https://programming.wyattau.com/docs/algorithms)
+
+## Related in this track
+
+- [Databases](/2-systems/databases/)
+- [Networking](/2-systems/networking/)
+- [Operating Systems](/2-systems/operating-systems/)

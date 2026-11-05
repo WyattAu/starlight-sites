@@ -301,3 +301,10 @@ Reflection lets you inspect and manipulate types at runtime when static typing i
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/) -- type system and conversions
 - [Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/) -- first-class values and closures
 - [Goroutines and Synchronization](/concurrency/goroutines/) -- concurrency primitives
+
+## Related in this track
+
+- [Modules and Packages](/advanced/modules-and-packages/)
+- [Networking](/advanced/networking/)
+- [Pointers and Memory](/advanced/pointers-and-memory/)
+- [Testing](/advanced/testing/)

@@ -841,3 +841,9 @@ int main() {
 
 ## Worked Examples
 
+## Related in this track
+
+- [Iterator-Sentinel Model](/standard_library/2_algorithms_and_ranges/1_iterator_sentinel/)
+- [Parallel Algorithms](/standard_library/2_algorithms_and_ranges/5_parallel_algorithms/)
+- [Projections and Callable Objects](/standard_library/2_algorithms_and_ranges/3_projections/)
+- [Range Adaptors, Views, and Composition](/standard_library/2_algorithms_and_ranges/2_range_adaptors/)

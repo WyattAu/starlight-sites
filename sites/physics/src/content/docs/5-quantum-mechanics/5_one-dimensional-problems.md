@@ -593,3 +593,10 @@ The ground state energy of a quantum system is never zero for a confining potent
 
 **Mistake 3: Misunderstanding quantum tunnelling**
 Tunnelling does not require the particle to "have" energy greater than the barrier height inside the barrier. The wave function extends into the classically forbidden region with exponentially decreasing amplitude. The particle's energy is $E < V_0$ throughout, and the tunnelling probability decreases exponentially with barrier width and height.
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)

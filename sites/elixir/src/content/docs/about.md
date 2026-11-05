@@ -107,3 +107,7 @@ For questions, corrections, or suggestions, visit [wyattsnotes.wyattau.com](http
 
 ### Further Reading
 
+## Related in this track
+
+- [Complete Elixir Programming Study Guide](/hub/)
+- [Elixir Glossary, Key Terms and Definitions](/glossary/)

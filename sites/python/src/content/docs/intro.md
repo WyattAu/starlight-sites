@@ -136,3 +136,10 @@ Python is the language of readability: code that looks like English pseudocode a
 - [Types and Variables](https://kotlin.wyattau.com/basics/types-and-variables/)
 - [Data Structures](https://kotlin.wyattau.com/intermediate/collections/)
 - [Object-Oriented Programming](https://java.wyattau.com/03-object-oriented/01-classes/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: Python for the Courses Here](/before-you-begin/)
+- [Complete Python Programming Study Guide](/hub/)
+- [Python Glossary, Key Terms and Definitions](/glossary/)

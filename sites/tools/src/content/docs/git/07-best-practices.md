@@ -345,3 +345,8 @@ git config --global alias.save "stash push -m"
 - [Git](./)
 - [Introduction to Git](/git/01-intro/)
 - [Advanced Git Commands](/git/advanced-git-commands/)
+
+## Related in this track
+
+- [Advanced Git Commands](/git/advanced-git-commands/)
+- [Introduction to Git](/git/01-intro/)

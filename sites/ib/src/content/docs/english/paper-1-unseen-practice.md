@@ -747,3 +747,10 @@ demands.
 - **[Poetry Analysis](/english/poetry-analysis-guide/):** Literary analysis develops through study
 - **[Comparative Analysis](/english/comparitives/chronicle-streetcar/):** Comparing texts builds analytical skills
 - **[Flashcards](/english/flashcards-poetry/):** Literary terms support analysis
+
+## Related in this track
+
+- [A Streetcar Named Desire](/english/a-street-car-named-desire/)
+- [A Streetcar Named Desire, Close Reading and Analysis](/english/streetcar-named-desire-analysis/)
+- [Chronicle of a Death Foretold](/english/chronicle-of-a-death-foretold/)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)

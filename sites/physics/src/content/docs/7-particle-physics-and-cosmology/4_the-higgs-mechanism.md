@@ -224,3 +224,10 @@ The Higgs mechanism in particle physics is a relativistic generalisation of the 
 
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
+
+## Related in this track
+
+- [Advanced Topics in Cosmology](/7-particle-physics-and-cosmology/12_advanced-topics-in-cosmology/)
+- [Advanced Topics in Particle Physics](/7-particle-physics-and-cosmology/11_advanced-topics-in-particle-physics/)
+- [Beyond the Standard Model](/7-particle-physics-and-cosmology/9_beyond-the-standard-model/)
+- [Big Bang Cosmology](/7-particle-physics-and-cosmology/7_big-bang-cosmology/)

@@ -1362,3 +1362,8 @@ This converges when $|(1-p)e^t| < 1$ I.e., $t < -\ln(1-p)$. $\blacksquare$
 - [Exponential and Continuous Random Variables](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/) -- The inter-arrival times of a Poisson process follow the exponential distribution, linking discrete and continuous modelling.
 - [Chi-Squared Tests](/further-maths/further-statistics/03-chi-squared-tests/) -- Goodness-of-fit tests using the chi-squared statistic compare observed frequencies with Poisson or geometric expected values.
 - [Binomial Distribution](/further-maths/pure-mathematics/01-complex-numbers/) -- The Poisson distribution arises as a limiting case of the binomial when n is large and p is small.
+
+## Related in this track
+
+- [Chi-Squared Tests](/further-maths/further-statistics/03-chi-squared-tests/)
+- [Exponential Distribution and Continuous Random Variables](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/)

@@ -1069,3 +1069,10 @@ The inner try throws an `IOException`. The catch block wraps it in an `AppExcept
 
 - [Complete Java Programming Study Guide](/hub/)
 - [Java Fundamentals Practice (Interactive)](/practice-java-basics/)
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Java Programming Study Guide](/hub/)
+- [GraalVM and Modern JVM](/graalvm-and-modern-jvm/)
+- [Introduction to Java](/intro/)

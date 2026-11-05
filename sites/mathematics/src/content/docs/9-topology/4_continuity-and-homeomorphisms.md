@@ -264,3 +264,10 @@ The pasting lemma requires that the two pieces agree on their intersection and t
 - **[Topological Spaces](/9-topology/2_topological-spaces/)**: Topological spaces provide the foundation for defining continuity and homeomorphisms.
 - **[Compactness](/9-topology/5_compactness/)**: Compactness is preserved by continuous functions and characterizes spaces where extreme value theorem holds.
 - **[Connectedness](/9-topology/6_connectedness/)**: Connectedness is a topological invariant preserved by homeomorphisms and continuous images.
+
+## Related in this track
+
+- [Closed Sets, Closure, Interior, and Boundary](/9-topology/3_closed-sets-closure-interior-and-boundary/)
+- [Common Pitfalls](/9-topology/10_common-pitfalls/)
+- [Compactness](/9-topology/5_compactness/)
+- [Connectedness](/9-topology/6_connectedness/)

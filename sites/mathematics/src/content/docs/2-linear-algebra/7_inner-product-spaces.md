@@ -431,3 +431,10 @@ Spaces](/11-functional-analysis/2_inner-product-spaces-and-hilbert-spaces/) and
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+
+## Related in this track
+
+- [Eigenvalues and Eigenvectors](/2-linear-algebra/5_eigenvalues-and-eigenvectors/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)
+- [Problem Set](/2-linear-algebra/9_problem-set/)

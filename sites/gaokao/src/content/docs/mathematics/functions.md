@@ -357,3 +357,8 @@ The graph of a function is like a footprint. It shows you where the function has
 **Misapplying the composite function monotonicity rule.** The rule is "same direction = increasing, opposite direction = decreasing" for composite functions. If both inner and outer functions are increasing, the composite is increasing. If one increases and the other decreases, the composite is decreasing. Students often reverse this rule.
 
 **Forgetting to check the base of logarithms when comparing sizes.** When comparing log values, the base determines whether the function is increasing (base > 1) or decreasing (0 < base < 1). If the base is less than 1, larger arguments give smaller logarithm values, which reverses the inequality direction.
+
+## Related in this track
+
+- [Algebra](/mathematics/algebra/)
+- [Geometry](/mathematics/geometry/)

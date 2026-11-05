@@ -557,3 +557,10 @@ Operators](https://physics.wyattau.com/5-quantum-mechanics/4_operators-and-obser
 
 - [Quantum Mechanics](https://physics.wyattau.com/5-quantum-mechanics/)
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
+
+## Related in this track
+
+- [Inner Product Spaces](/2-linear-algebra/7_inner-product-spaces/)
+- [Linear Independence, Span, Basis, and Dimension](/2-linear-algebra/2_linear-independence-span-basis-and-dimension/)
+- [Matrices](/2-linear-algebra/3_matrices/)
+- [Problem Set](/2-linear-algebra/9_problem-set/)

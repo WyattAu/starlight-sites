@@ -139,3 +139,10 @@ Programming and Databases (logic, data management)
 - [Diagnostics](./)
 - [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)
 - [Data Representation -- Diagnostic Tests](/ict/diagnostics/diag-data-representation/)
+
+## Related in this track
+
+- [Computer Systems -- Diagnostic Tests](/ict/diagnostics/diag-computer-systems/)
+- [Data Representation -- Diagnostic Tests](/ict/diagnostics/diag-data-representation/)
+- [Internet and Data Communications -- Diagnostic Tests](/ict/diagnostics/diag-internet-data-communications/)
+- [Network Security and Social Implications -- Diagnostic Tests](/ict/diagnostics/diag-network-security-social-implications/)

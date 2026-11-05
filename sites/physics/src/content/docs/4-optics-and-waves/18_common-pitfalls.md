@@ -170,3 +170,10 @@ Optics pitfalls stem from conflating wave and ray descriptions. Fraunhofer and F
 - [Calculus](https://mathematics.wyattau.com/docs/calculus)
 - [Linear Algebra](https://mathematics.wyattau.com/2-linear-algebra/)
 - [Vector Calculus](https://mathematics.wyattau.com/docs/vector-calculus)
+
+## Related in this track
+
+- [Coherence](/4-optics-and-waves/8_coherence/)
+- [Coherence Theory](/4-optics-and-waves/15_coherence-theory/)
+- [Coherence Theory](/4-optics-and-waves/20_coherence-theory-16/)
+- [Computational Imaging and Adaptive Optics](/4-optics-and-waves/23_computational-imaging-and-adaptive-optics/)

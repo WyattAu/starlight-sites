@@ -291,3 +291,10 @@ docs/docs_dse/maths/compulsory/
 - **[Functions](/maths/diagnostics/diag-functions/):** Diagnostics assess core skills
 - **[Quadratics](/maths/diagnostics/diag-quadratics/):** Quadratics are tested
 - **[Trigonometry](/maths/diagnostics/diag-trigonometry/):** Trigonometry is assessed
+
+## Related in this track
+
+- [Combinatorics -- Diagnostic Tests](/maths/diagnostics/diag-combinatorics/)
+- [Coordinate Geometry -- Diagnostic Tests](/maths/diagnostics/diag-coordinate-geometry/)
+- [Dispersion -- Diagnostic Tests](/maths/diagnostics/diag-dispersion/)
+- [Functions -- Diagnostic Tests](/maths/diagnostics/diag-functions/)

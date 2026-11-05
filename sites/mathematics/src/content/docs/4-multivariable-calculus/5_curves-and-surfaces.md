@@ -373,3 +373,10 @@ $\blacksquare$
 - [Graph Theory](https://computer-science.wyattau.com/docs/graph-theory)
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
 - [Electromagnetism](https://physics.wyattau.com/3-electromagnetism/)
+
+## Related in this track
+
+- [Multiple Integrals](/4-multivariable-calculus/2_multiple-integrals/)
+- [Optimization](/4-multivariable-calculus/4_optimization/)
+- [Partial Derivatives](/4-multivariable-calculus/1_partial-derivatives/)
+- [Problem Set](/4-multivariable-calculus/6_problem-set/)

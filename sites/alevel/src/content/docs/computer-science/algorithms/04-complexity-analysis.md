@@ -912,3 +912,8 @@ Complexity for large inputs.
 
 ## Worked Examples
 
+## Related in this track
+
+- [Graph Algorithms](/computer-science/algorithms/03-graph-algorithms/)
+- [Searching Algorithms](/computer-science/algorithms/01-searching-algorithms/)
+- [Sorting Algorithms](/computer-science/algorithms/02-sorting-algorithms/)

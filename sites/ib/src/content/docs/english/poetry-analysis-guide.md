@@ -861,3 +861,10 @@ Over time, this practice changes how you read everything, not just poetry. The d
 4. **Over-relying on biographical context.** While knowing a poet's life can enrich understanding, IB poetry analysis prioritises close reading of the text itself. Examiners want to see your ability to analyse language, form, and structure, not your knowledge of the poet's biography. Context should support, not replace, textual evidence.
 
 5. **Using vague or imprecise language.** Phrases like "the poet uses effective imagery" or "the language is powerful" are too general to earn marks. Specify _which_ image, _what_ makes it effective, and _how_ it contributes to the poem's meaning. Precision in your analytical vocabulary distinguishes strong responses from weak ones.
+
+## Related in this track
+
+- [A Streetcar Named Desire](/english/a-street-car-named-desire/)
+- [A Streetcar Named Desire, Close Reading and Analysis](/english/streetcar-named-desire-analysis/)
+- [Chronicle of a Death Foretold](/english/chronicle-of-a-death-foretold/)
+- [Chronicle of a Death Foretold, Close Reading and Analysis](/english/chronicle-of-a-death-foretold-analysis/)

@@ -63,3 +63,9 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 
 ### Further Reading
 
+## Related in this track
+
+- [Machine Learning](/intro/)
+- [Machine Learning Deep Dive](/machine-learning-deep-dive/)
+- [Machine Learning Fundamentals Study Guide](/hub/)
+- [Machine Learning Glossary, Key Terms and Definitions](/glossary/)

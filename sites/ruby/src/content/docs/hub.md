@@ -263,3 +263,9 @@ Use rbenv or rvm for Ruby version management. Use Bundler for gem dependency man
 *Last updated: 24 July 2026*
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Ruby - Wyatt's Notes](/intro/)
+- [Ruby Glossary, Key Terms and Definitions](/glossary/)

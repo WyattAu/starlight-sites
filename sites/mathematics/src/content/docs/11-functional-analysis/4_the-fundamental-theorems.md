@@ -523,3 +523,10 @@ complement at all.
 - **[Sequences and Limits](/3-real-analysis/2_sequences-and-limits/)** -- Cauchy sequences and completeness.
 - **[Homomorphisms and Isomorphism Theorems](/1-abstract-algebra/5_homomorphisms-and-isomorphism-theorems/)** -- quotients, which is what $X/M$ in Problem 8 is.
 - [Classical Mechanics](https://physics.wyattau.com/1-classical-mechanics/)
+
+## Related in this track
+
+- [Applications](/11-functional-analysis/7_applications/)
+- [Bounded Linear Operators](/11-functional-analysis/3_bounded-linear-operators/)
+- [Compact Operators](/11-functional-analysis/5_compact-operators/)
+- [Historical Context](/11-functional-analysis/8_historical-context/)

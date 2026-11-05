@@ -346,3 +346,9 @@ practical implementation, and key applications.
 - **[I/O](/go/standard-library/io/):** Buffered I/O and stream processing for string manipulation.
 - **[net/http](/go/standard-library/net-http/):** HTTP header parsing and time-based cache headers.
 - **[Types and Variables](/go/basics/types-and-variables/):** String and time type fundamentals.
+
+## Related in this track
+
+- [Standard Library I/O](/go/standard-library/io/)
+- [math, sort, and log/slog](/go/standard-library/math-sort-log/)
+- [net/http](/go/standard-library/net-http/)

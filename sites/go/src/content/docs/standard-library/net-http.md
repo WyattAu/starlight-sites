@@ -617,3 +617,9 @@ implementation, and key applications.
 - **[I/O](/standard-library/io/):** File and stream operations used in HTTP handlers.
 - **[Strings and Time](/standard-library/strings-and-time/):** String and time utilities used in HTTP processing.
 - **Concurrency:** Goroutines and channels for handling concurrent HTTP requests.
+
+## Related in this track
+
+- [Standard Library I/O](/standard-library/io/)
+- [math, sort, and log/slog](/standard-library/math-sort-log/)
+- [strings and time](/standard-library/strings-and-time/)

@@ -443,3 +443,8 @@ linked above.
 - **[References](/git/02-fundamentals/03-references/):** Covers Git refs including branches and tags that point to commit objects.
 - **[The Three Trees](/git/02-fundamentals/01-the-three-trees/):** Explains the working directory, staging area, and repository where objects are stored.
 - **[Branching](/git/03-branching-and-merging/01-branching/):** Branch creation and management that relies on the commit object model.
+
+## Related in this track
+
+- [References](/git/02-fundamentals/03-references/)
+- [The Three Trees](/git/02-fundamentals/01-the-three-trees/)

@@ -183,3 +183,10 @@ A minimal surface has zero mean curvature $H = 0$, not zero Gaussian curvature $
 
 **Mistake 3: Misapplying the Gauss-Bonnet theorem to non-compact or open surfaces**
 The theorem $\int_M K\, dA = 2\pi\chi(M)$ requires $M$ to be compact. Students sometimes attempt to apply it to open surfaces like the plane or hyperbolic space, where the integral diverges and the formula does not hold. The theorem is fundamentally a statement about compact topology.
+
+## Related in this track
+
+- [Curvature](/12-differential-geometry/7_curvature/)
+- [De Rham Cohomology](/12-differential-geometry/13_de-rham-cohomology/)
+- [Differential Forms](/12-differential-geometry/4_differential-forms/)
+- [Elliptic Regularity](/12-differential-geometry/16_elliptic-regularity/)

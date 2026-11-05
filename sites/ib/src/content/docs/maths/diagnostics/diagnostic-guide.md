@@ -457,3 +457,10 @@ the Coverage Map (Section 7).
 - **[Number and Algebra](/maths/1-number-and-algebra/1_number-and-algebra/):** Diagnostics assess core skills
 - **[Functions](https://alevel.wyattau.com/maths/pure-mathematics/05-functions/):** Functions are tested
 - **[Calculus](https://hsc.wyattau.com/mathematics/calculus/):** Calculus diagnostics cover differentiation
+
+## Related in this track
+
+- [Complex Numbers -- Diagnostic Tests](/maths/diagnostics/diag-complex-numbers/)
+- [Differential Equations -- Diagnostic Tests](/maths/diagnostics/diag-differential-equations/)
+- [Differentiation -- Diagnostic Tests](/maths/diagnostics/diag-differentiation/)
+- [Functions and Equations -- Diagnostic Tests](/maths/diagnostics/diag-functions-equations/)

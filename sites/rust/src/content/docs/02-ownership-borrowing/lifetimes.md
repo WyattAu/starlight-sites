@@ -117,3 +117,8 @@ let s: &str = "hello";  // &'static is inferred for literals
 
 - [Interior Mutability](/02-ownership-borrowing/interior-mutability/)
 - [Ownership and Borrowing](/02-ownership-borrowing/ownership/)
+
+## Related in this track
+
+- [Interior Mutability](/02-ownership-borrowing/interior-mutability/)
+- [Ownership and Borrowing](/02-ownership-borrowing/ownership/)

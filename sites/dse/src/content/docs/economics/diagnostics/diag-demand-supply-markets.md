@@ -639,3 +639,10 @@ institutional reforms (faster approval processes, anti-land-banking measures) to
 - [Diagnostics](./)
 - [Basic Economic Concepts -- Diagnostic Tests](/economics/diagnostics/diag-basic-economic-concepts/)
 - [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)
+
+## Related in this track
+
+- [Basic Economic Concepts -- Diagnostic Tests](/economics/diagnostics/diag-basic-economic-concepts/)
+- [DSE Economics -- Diagnostic Guide](/economics/diagnostics/diagnostic-guide/)
+- [Fiscal and Monetary Policy -- Diagnostic Tests](/economics/diagnostics/diag-fiscal-monetary-policy/)
+- [International Trade and Finance -- Diagnostic Tests](/economics/diagnostics/diag-international-trade/)

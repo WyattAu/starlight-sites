@@ -152,3 +152,10 @@ The type checker in TypeScript is like a building inspector who reviews your blu
 - [Types and Annotations](/types-and-annotations/) - How TypeScript's type system builds on JavaScript's dynamic typing
 - [Tooling and Configuration](/tooling-and-configuration/) - How the TypeScript compiler and tsconfig.json configure the development workflow
 - [Functions](/functions/) - How TypeScript adds type safety to JavaScript's function expressions and declarations
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Advanced Patterns](/advanced-patterns/)
+- [Classes](/classes/)
+- [Complete TypeScript Programming Study Guide](/hub/)

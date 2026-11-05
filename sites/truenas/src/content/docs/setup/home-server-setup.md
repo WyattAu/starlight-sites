@@ -562,3 +562,8 @@ Setting up a home server is like building a small data center in your closet. Th
 - [ZFS Deep Dive](/01-zfs/zfs-deep-dive/) -- Pool creation and dataset configuration are essential steps in home server setup.
 - [Sharing and Permissions](/02-sharing-and-permissions/sharing-and-permissions/) -- Configuring SMB or NFS shares enables file access from client devices on the home network.
 - [Apps and Services](/04-apps-and-services/apps-and-services/) -- Installing applications like media servers or home automation extends the home server's functionality.
+
+## Related in this track
+
+- [Network Proxy](/setup/network-proxy/)
+- [Setup Traefik](/setup/traefik/)

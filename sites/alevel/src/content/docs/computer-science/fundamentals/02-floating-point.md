@@ -845,3 +845,10 @@ practical implementation, and key applications.
 - [Fundamentals](./)
 - [Number Systems](/computer-science/fundamentals/01-number-systems/)
 - [Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/)
+
+## Related in this track
+
+- [Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/)
+- [Computer Architecture](/computer-science/fundamentals/04-computer-architecture/)
+- [Legal, Ethical, and Moral Issues](/computer-science/fundamentals/06-legal-ethical-moral/)
+- [Number Systems](/computer-science/fundamentals/01-number-systems/)

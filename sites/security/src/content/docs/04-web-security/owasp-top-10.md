@@ -740,3 +740,8 @@ linked above.
 - [Web Security](/04-web-security/web-security/) provides the broader web application security context within which the OWASP Top 10 vulnerabilities sit.
 - [Authentication](/03-authentication/authentication/) covers credential management and session security that prevent several OWASP categories.
 - [Security Fundamentals](/01-security-fundamentals/security-fundamentals/) defines the core security principles (confidentiality, integrity, availability) that the OWASP list addresses.
+
+## Related in this track
+
+- [API Security](/04-web-security/api-security/)
+- [Web Security](/04-web-security/web-security/)

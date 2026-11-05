@@ -182,3 +182,9 @@ tags: [glossary]
 - See [University Chemistry Glossary](/glossary/) for deeper chemistry
 - See [University Admissions Glossary](/glossary/) for international university applications
 - See [SAT Glossary](/glossary/) for comparison with US admissions testing
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Complete Gaokao Study Guide, Math, Physics, Chemistry](/hub/)
+- [Introduction to Gaokao Notes](/intro/)

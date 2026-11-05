@@ -532,3 +532,10 @@ essential before progressing to Further Pure 2.
 - [Trigonometry](/maths/pure-mathematics/08-trigonometry/) -- Complex number arguments and polar coordinates build directly on trigonometric identities.
 - [Integration](/maths/pure-mathematics/11-integration/) -- Integration by parts and standard integrals are essential prerequisites for the further calculus in FP1.
 - [Differentiation](/maths/pure-mathematics/10-differentiation/) -- Derivatives of exponential and trigonometric functions underpin the differential equations covered here.
+
+## Related in this track
+
+- [Algebraic Expressions](/maths/pure-mathematics/01-algebraic-expressions/)
+- [Binomial Expansion](/maths/pure-mathematics/07-binomial-expansion/)
+- [Coordinates and Geometry](/maths/pure-mathematics/04-coordinates-and-geometry/)
+- [Equations and Inequalities](/maths/pure-mathematics/03-equations-and-inequalities/)

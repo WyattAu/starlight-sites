@@ -311,3 +311,10 @@ implementation, and key applications.
 - [Advanced](./)
 - [Pointers and Memory](/go/advanced/pointers-and-memory/)
 - [go project architecture](/go/advanced/architecture/)
+
+## Related in this track
+
+- [Networking](/go/advanced/networking/)
+- [Pointers and Memory](/go/advanced/pointers-and-memory/)
+- [Reflection](/go/advanced/reflection/)
+- [Testing](/go/advanced/testing/)

@@ -964,3 +964,8 @@ HTTP/2 is like upgrading from a single-lane road to a multi-lane highway. HTTP/1
 - [HTTP](/05-http-https/http/) - HTTP/1.1 fundamentals that HTTP/2 and HTTP/3 build upon
 - [TLS](/06-tls/tls/) - How TLS 1.3 is required for HTTP/2 and integral to HTTP/3's QUIC transport
 - [WebSockets](/05-http-https/websockets/) - How persistent connections differ between HTTP/2 streams and WebSocket frames
+
+## Related in this track
+
+- [HTTP | Networking - Wyatt's Notes](/05-http-https/http/)
+- [WebSockets](/05-http-https/websockets/)

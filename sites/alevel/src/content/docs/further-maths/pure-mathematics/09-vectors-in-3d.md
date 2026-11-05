@@ -1412,3 +1412,10 @@ The lines intersect at $\boxed{(1,0,0)}$.
 - [Projectile Motion](/further-maths/further-mechanics/01-projectile-motion/) applies vector resolution techniques to analyse motion under gravity in two and three dimensions.
 - [Polar Coordinates](/further-maths/pure-mathematics/05-polar-coordinates/) connects vector geometry to parametric representations of curves and surfaces in different coordinate systems.
 - [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/) supplies the integration and differentiation methods used in deriving volume formulas from the scalar triple product.
+
+## Related in this track
+
+- [Complex Numbers](/further-maths/pure-mathematics/01-complex-numbers/)
+- [Further Algebra](/further-maths/pure-mathematics/03-further-algebra/)
+- [Further Calculus](/further-maths/pure-mathematics/04-further-calculus/)
+- [Matrices](/further-maths/pure-mathematics/02-matrices/)

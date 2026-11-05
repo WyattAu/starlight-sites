@@ -642,3 +642,10 @@ practical implementation, and key applications.
 - [TypeScript](/typescript/) - Core TypeScript language features that tsconfig.json controls
 - [Types and Annotations](/types-and-annotations/) - How strict mode options affect type checking behavior
 - [Advanced Types](/advanced-types/) - How compiler flags like strictNullChecks enable advanced type patterns
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Advanced Patterns](/advanced-patterns/)
+- [Classes](/classes/)
+- [Complete TypeScript Programming Study Guide](/hub/)

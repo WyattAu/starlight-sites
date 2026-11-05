@@ -358,6 +358,13 @@ Gelman–Rubin statistic requires *dispersed* starting points, and why even $\ha
 - **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)**; the other computational attack: approximate the posterior by optimisation rather than by sampling.
 - **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)**; why the posterior becomes Gaussian, which is what Laplace's approximation exploits.
 
+## Related in this track
+
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+- [Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)
+
 ---
 
 ## Estimation Theory
@@ -675,6 +682,13 @@ executed.
 - **[Hodge Theory](https://mathematics.wyattau.com/12-differential-geometry/14_hodge-theory/)**; the other consumer of elliptic regularity; the pattern "kernel of an operator" recurs.
 - **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)**; the ELBO bound of §4, made the objective.
 
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+- [Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)
+
 ---
 
 ## Gaussian Processes
@@ -910,6 +924,13 @@ inducing values; an assumption the data can then confirm or refute.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; kernels, on the learning-theory side, as capacity control.
 - **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)**; the inducing-point sparse GP as a variational objective.
 - **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)**; marginal-likelihood maximisation as hyperparameter estimation.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+- [Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)
 
 ---
 
@@ -1221,6 +1242,13 @@ cat(sprintf("permutation p = %.4f   t-test p = %.4f\n", p_perm, p_t))
 - **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)**; the MLE whose likelihood ratio Wilks' theorem asymptotics.
 - **[Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)**; the posterior, which answers the question the $p$-value cannot.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; generalisation bounds as multiple-testing corrections.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)
 
 ---
 
@@ -1613,6 +1641,13 @@ from any start.
 - **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)**; bias–variance, which §2's $\lambda$ trades.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; the capacity control that the penalties instantiate.
 - **[Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)**; the Bayesian version of the same linear model, with error bars.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
 
 ---
 
@@ -2016,6 +2051,13 @@ $2\operatorname{Cov}(e^U, e^{1-U}) = 6e - e^2 - 1 - 2(e-1)^2 < 0$.
 - **[Statistical Decision Theory](/1-probabilistic-machine-learning/2_statistical-decision-theory/)**; the next page: risks, rules, and sufficiency.
 - **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)**; the LAN machinery, of which the CLT is the special case.
 
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+
 ---
 
 ## Research Frontier
@@ -2204,6 +2246,13 @@ nuisance functions without contaminating the causal parameter).
 - **[Sobolev Spaces](https://mathematics.wyattau.com/11-functional-analysis/10_sobolev-spaces/)**; the smoothness scale in which contraction rates are stated.
 - **[Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)**; the permutation argument, of which conformal validity is a corollary.
 - **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)**; scalable approximate inference, the enabling technology for nonparametric Bayes.
+
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
 
 ---
 
@@ -2588,6 +2637,13 @@ and loses near the tails; no rule dominates, which is the non-comparability of
 - **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)**; where Bayes and classical answers meet, and where they stop.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; the same risk, but with $\theta$ replaced by a function.
 
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+
 ---
 
 ## Statistical Learning Theory
@@ -2942,6 +2998,13 @@ for depth in [1, 3, 6, None]:                # None = unlimited depth
 - **[Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)**; the Bayesian route to the same capacity control, through priors rather than penalties.
 - **[Sobolev Spaces](https://mathematics.wyattau.com/11-functional-analysis/10_sobolev-spaces/)**; the smoothness scale behind nonparametric rates.
 
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+
 ---
 
 ## Variational Inference
@@ -3189,6 +3252,13 @@ the failure is systematic.
 - **[Exponential Families](/1-probabilistic-machine-learning/2_statistical-decision-theory/)**; $\nabla^2 A$ as covariance, the convexity behind well-posed coordinate ascent.
 - **[Statistical Learning Theory](/1-probabilistic-machine-learning/7_statistical-learning-theory/)**; generalisation, the question VI's posterior is supposed to answer.
 
+## Related in this track
+
+- [Bayesian Inference and Computation](/1-probabilistic-machine-learning/5_bayesian-inference-and-computation/)
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+
 ## Overview
 
 ---
@@ -3249,6 +3319,13 @@ Visit [wyattsnotes.wyattau.com](https://wyattsnotes.wyattau.com) for the full ne
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [Machine Learning](/intro/)
+- [Machine Learning Deep Dive](/machine-learning-deep-dive/)
+- [Machine Learning Fundamentals Study Guide](/hub/)
+- [Machine Learning Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 
@@ -3942,6 +4019,13 @@ do not change.
 - [About This Site](/about/)
 - [Machine Learning](/intro/)
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Machine Learning](/intro/)
+- [Machine Learning Deep Dive](/machine-learning-deep-dive/)
+- [Machine Learning Fundamentals Study Guide](/hub/)
+
 ---
 
 ## Glossary
@@ -4296,6 +4380,13 @@ scores = cross_val_score(model, X, y, cv=5)
 - See [Computer Science Glossary](/glossary/) for CS fundamentals
 - See [Mathematics Glossary](/glossary/) for statistical foundations
 - See [Databases Glossary](/glossary/) for data storage concepts
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Machine Learning](/intro/)
+- [Machine Learning Deep Dive](/machine-learning-deep-dive/)
+- [Machine Learning Fundamentals Study Guide](/hub/)
 
 ---
 
@@ -4755,6 +4846,13 @@ Export your trained model (ONNX, TorchScript, SavedModel). Wrap it in an API (Fa
 
 *Written by Wyatt. For questions or feedback, visit [wyattau.com](https://wyattau.com).*
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Machine Learning](/intro/)
+- [Machine Learning Deep Dive](/machine-learning-deep-dive/)
+- [Machine Learning Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Index
@@ -5175,6 +5273,13 @@ print(f"F1 Score:  {f1:.2f}")
 - **[Site Home](../../):** Main landing page for machine-learning notes.
 - **Practice:** Practice problems for revision.
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Machine Learning Deep Dive](/machine-learning-deep-dive/)
+- [Machine Learning Fundamentals Study Guide](/hub/)
+- [Machine Learning Glossary, Key Terms and Definitions](/glossary/)
+
 ---
 
 ## Machine Learning Deep Dive
@@ -5285,6 +5390,13 @@ tuning, and deployment pipelines (MLOps).
 - Failing to connect concepts across topics
 
 ### Further Reading
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Machine Learning](/intro/)
+- [Machine Learning Fundamentals Study Guide](/hub/)
+- [Machine Learning Glossary, Key Terms and Definitions](/glossary/)
 
 ---
 

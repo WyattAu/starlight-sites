@@ -348,3 +348,10 @@ print(f"F1 Score:  {f1:.2f}")
 
 - **[Site Home](../../):** Main landing page for machine-learning notes.
 - **Practice:** Practice problems for revision.
+
+## Related in this track
+
+- [About This Site](/about/)
+- [Machine Learning Deep Dive](/machine-learning-deep-dive/)
+- [Machine Learning Fundamentals Study Guide](/hub/)
+- [Machine Learning Glossary, Key Terms and Definitions](/glossary/)

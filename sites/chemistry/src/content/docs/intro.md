@@ -109,3 +109,9 @@ The practical power of chemistry lies in prediction. If you understand that nucl
 
 ### Further Reading
 
+## Related in this track
+
+- [About This Site](/about/)
+- [Before You Begin: The Chemistry Your School Course Skipped](/before-you-begin/)
+- [Chemistry Glossary, Key Terms and Definitions](/glossary/)
+- [Complete University Chemistry Study Guide](/hub/)

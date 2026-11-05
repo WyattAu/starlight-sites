@@ -354,3 +354,10 @@ Gelman–Rubin statistic requires *dispersed* starting points, and why even $\ha
 - **[Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)**; EM, the optimisation cousin: same latent variables, integrate by sampling instead of maximising.
 - **[Variational Inference](/1-probabilistic-machine-learning/6_variational-inference/)**; the other computational attack: approximate the posterior by optimisation rather than by sampling.
 - **[Posterior Asymptotics and the Bernstein–von Mises Theorem](https://mathematics.wyattau.com/13-graduate-statistics/1_posterior-asymptotics-and-bernstein-von-mises/)**; why the posterior becomes Gaussian, which is what Laplace's approximation exploits.
+
+## Related in this track
+
+- [Estimation Theory](/1-probabilistic-machine-learning/3_estimation-theory/)
+- [Gaussian Processes](/1-probabilistic-machine-learning/9_gaussian-processes/)
+- [Hypothesis Testing](/1-probabilistic-machine-learning/4_hypothesis-testing/)
+- [Linear and Generalised Linear Models](/1-probabilistic-machine-learning/8_linear-and-generalised-linear-models/)

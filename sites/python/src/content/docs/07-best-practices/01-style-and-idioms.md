@@ -1374,3 +1374,9 @@ Pythonic code is code that looks and feels like Python. PEP 8 is the style guide
 - [Debugging and Profiling](https://languages.wyattau.com/python/07-best-practices/02-debugging-and-profiling/)
 - [Error Handling Patterns](https://languages.wyattau.com/python/07-best-practices/03-error-handling-patterns/)
 - [Style and Idioms](https://languages.wyattau.com/python/07-best-practices/01-style-and-idioms/)
+
+## Related in this track
+
+- [Debugging and Profiling](/07-best-practices/02-debugging-and-profiling/)
+- [Error Handling Patterns](/07-best-practices/03-error-handling-patterns/)
+- [Packaging and Distribution](/07-best-practices/04-packaging-distribution/)

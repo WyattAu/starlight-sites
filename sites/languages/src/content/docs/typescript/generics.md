@@ -756,3 +756,10 @@ Generics are TypeScript's way of writing code that works with any type while pre
 - [Typescript](./)
 - [Advanced Patterns](/typescript/advanced-patterns/)
 - [advanced types](/typescript/advanced-types/)
+
+## Related in this track
+
+- [Advanced Patterns](/typescript/advanced-patterns/)
+- [Classes](/typescript/classes/)
+- [Error Handling](/typescript/error-handling/)
+- [Functions](/typescript/functions/)

@@ -729,3 +729,10 @@ For revision on algorithms, see
 - **[Graph Algorithms](/computer-science/algorithms/03-graph-algorithms/):** Dijkstra's and Prim's algorithms operate on graphs
 - **[Linked Lists](/computer-science/data-structures/02-linked-lists/):** Graphs can use adjacency lists with linked structures
 - **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Graph representations use binary data
+
+## Related in this track
+
+- [Arrays and Records](/computer-science/data-structures/01-arrays-and-records/)
+- [Hash Tables](/computer-science/data-structures/06-hash-tables/)
+- [Linked Lists](/computer-science/data-structures/02-linked-lists/)
+- [Stacks and Queues](/computer-science/data-structures/03-stacks-and-queues/)

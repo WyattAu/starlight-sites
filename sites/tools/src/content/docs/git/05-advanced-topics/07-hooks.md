@@ -969,3 +969,10 @@ implementation, and key applications.
 - [Commit Signing](/git/05-advanced-topics/08-commit-signing/) extends hooks by adding cryptographic verification to the commit process that hooks can enforce.
 - [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/) selectively applies commits where hooks may trigger on the newly applied changes.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) shows how hooks interact with server-side workflows during push and receive operations.
+
+## Related in this track
+
+- [Bisect | Tools - Wyatt's Notes](/git/05-advanced-topics/03-bisect/)
+- [Cherry-Pick](/git/05-advanced-topics/06-cherry-pick/)
+- [Commit Signing](/git/05-advanced-topics/08-commit-signing/)
+- [Filter-Repo (History Rewriting)](/git/05-advanced-topics/10-filter-repo/)

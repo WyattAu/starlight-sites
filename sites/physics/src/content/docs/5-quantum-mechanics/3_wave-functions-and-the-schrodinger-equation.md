@@ -571,3 +571,10 @@ For the infinite square well, $\psi = 0$ at the walls because the potential is i
 
 **Mistake 3: Assuming all wave functions are normalisable**
 Plane waves $e^{ikx}$ are not normalisable over all space and cannot represent physical states by themselves. Physical states are wave packets constructed by superposing plane waves. The energy spectrum for free particles is continuous, and the eigenfunctions form a continuum rather than a discrete set.
+
+## Related in this track
+
+- [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
+- [Approximation Methods](/5-quantum-mechanics/8_approximation-methods/)
+- [Density Functional Theory: Conceptual Overview](/5-quantum-mechanics/15_density-functional-theory-conceptual-overview/)
+- [Historical Motivation](/5-quantum-mechanics/1_historical-motivation/)

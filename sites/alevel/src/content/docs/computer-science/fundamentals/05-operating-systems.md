@@ -795,3 +795,10 @@ the same file, and the owner can modify the ACL to add or revoke permissions at 
 - **[Number Systems](/computer-science/fundamentals/01-number-systems/):** OS manages binary data
 - **[Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/):** OS uses Boolean logic
 - **[Data Structures](/computer-science/data-structures/05-graphs/):** OS uses data structures for process management
+
+## Related in this track
+
+- [Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/)
+- [Computer Architecture](/computer-science/fundamentals/04-computer-architecture/)
+- [Floating Point Representation](/computer-science/fundamentals/02-floating-point/)
+- [Legal, Ethical, and Moral Issues](/computer-science/fundamentals/06-legal-ethical-moral/)
