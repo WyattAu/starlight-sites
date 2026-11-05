@@ -45,6 +45,7 @@
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",
     "@biomejs/biome": "^2.6.4",
+    "@bruits/satteri-linux-x64-gnu": "^0.11.6",
     "@mdx-js/mdx": "^3.1.1",
     "@playwright/test": "^1.64.1",
     "@solidjs/testing-library": "^0.8.10",
@@ -75,7 +76,7 @@
     "mermaid": "^11.16.1",
     "dompurify": "^3.4.11",
     "happy-dom": "^21.0.4",
-    "sharp": "^0.35.0",
+    "sharp": "^0.35.4",
     "zod": "^4.6.6",
     "postcss": "^8.5.23",
     "undici": "^7.29.0",
@@ -88,7 +89,8 @@
     "svgo": "^4.0.2",
     "brace-expansion": "^5.0.8",
     "baseline-browser-mapping": "^2.11.0",
-    "deepmerge-ts": "^8.0.0"
+    "deepmerge-ts": "^8.0.0",
+    "@astrojs/markdown-remark": "^7.3.5"
   },
   "lint-staged": {
     "*.{md,mdx}": [
@@ -109,6 +111,7 @@
   },
   "prepare": "husky",
   "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.5",
     "@formkit/auto-animate": "^0.9.0",
     "@iconify-json/lucide": "^1.2.150",
     "@kobalte/core": "^0.13.14",
