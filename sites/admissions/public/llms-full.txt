@@ -2389,7 +2389,7 @@ When working with imo preparation, follow a structured approach:
 URL: https://admissions.wyattau.com/
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 ## What This Site Covers
 

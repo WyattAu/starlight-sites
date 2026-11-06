@@ -97,13 +97,20 @@ of all linear functionals on $V$. Elements of $V^*$ are linear maps $V \to k$.
 
 **Theorem 2.1.** $\dim V^* = \dim V$ when $V$ is finite-dimensional.
 
-**Proof.** Let $\{e_1, \dots, e_n\}$ be a basis of $V$. Define $e^j_i \in V^*$
+**Proof.** Let $\{e_1, \dots, e_n\}$ be a basis of $V$. Define $e^j \in V^*$
 (the **dual basis**) by $e^j(e_i) = \delta_{ij}$ (Kronecker delta). These are
-linearly independent: if $\sum a_j e^j = 0$, evaluate on $e_i$ to get $a_i = 0$.
-They span: for any $\varphi \in V^*$ and any $v = \sum v_i e_i$,
-$\varphi(v) = \varphi(\sum v_i e_i) = \sum v_i \varphi(e_i) = \sum
-\varphi(e_i) e^j(e_i) = \sum \varphi(e_i) e^j(e_i)$, so $\varphi = \sum
-\varphi(e_i) e^j$. Hence $\{e^1, \dots, e^n\}$ is a basis of $V^*$, and $\dim
+linearly independent: if $\sum a_j e^j = 0$, evaluate on $e_i$ to get
+$a_i e^i(e_i) = a_i = 0$.
+They span: for any $\varphi \in V^*$ and any $v = \sum_i v_i e_i$,
+we have $\varphi(v) = \sum_i v_i \varphi(e_i)$ (linearity), and since
+$v_i = e^i(v)$ by definition of the dual basis, this gives
+
+$$
+\varphi(v) = \sum_i \varphi(e_i)\, e^i(v) = \left(\sum_i \varphi(e_i)\, e^i\right)(v).
+$$
+
+So $\varphi = \sum_i \varphi(e_i)\, e^i$, proving that the dual basis spans
+$V^*$. Hence $\{e^1, \dots, e^n\}$ is a basis of $V^*$, and $\dim
 V^* = n = \dim V$. $\blacksquare$
 
 **The One-Line Reveal.** The dual basis is defined by where it *sends* the basis

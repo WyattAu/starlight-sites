@@ -1474,7 +1474,7 @@ D. 1/E
 A. Cv, constant volume
 B. Cp, constant pressure
 C. They are equal
-D. It depends on the gas colour
+D. The gas's colour
 
 **Answer: B**
 - At constant pressure some absorbed heat does expansion work, so more heat is needed for the same temperature rise: Cp = Cv + R for one mole of ideal gas. The difference equals the gas constant R.
@@ -8755,7 +8755,7 @@ graph TD
 
 **Solvent**: The substance that dissolves the solute. In aqueous solutions, water is the solvent.
 
-**Standard State**: The reference state for thermodynamic quantities: 1 atm pressure and specified temperature (usually 25°C).
+**Standard State**: The reference state for thermodynamic quantities: 1 atm pressure and a specified temperature - 25 °C (298.15 K) for most tabulated data, per the IUPAC convention.
 
 **Theory**: A well-substantiated explanation of natural phenomena supported by extensive evidence. More robust than a [Hypothesis](/glossary/).
 
@@ -8883,7 +8883,7 @@ graph TD
 
 **DNA (Deoxyribonucleic Acid)**: A nucleic acid that stores genetic information. Structure: double helix of nucleotide base pairs.
 
-**Enzyme**: A biological catalyst, usually a protein, that speeds up specific biochemical reactions. Highly specific and regulated.
+**Enzyme**: A biological catalyst that speeds up specific biochemical reactions. Nearly all enzymes are proteins; catalytic RNAs (ribozymes) are the exception. Highly specific and regulated.
 
 **Lipid**: A diverse group of organic compounds insoluble in water but soluble in organic solvents. Includes fats, oils, and waxes.
 
@@ -9069,7 +9069,7 @@ Modern chemistry relies on instrumental methods to identify and characterise com
 
 - **Statistical treatment** of experimental data including mean, standard deviation, and error propagation.
 - **Graphical analysis** using appropriate axes, units, trend lines, and error bars.
-- **Report writing** that communicates methods, results, and conclusions clearly.
+- **Report writing** that communicates methods, results, and conclusions in a structured, readable form.
 
 ## Problem-Solving Strategies
 
@@ -10007,7 +10007,7 @@ The intense colour of transition metal complexes arises primarily from:
 
 **Correct: C** (index 2)
 
-d-d transitions are typically weak (Laporte-forbidden in centrosymmetric complexes). The intense colours of many coordination compounds arise from charge transfer transitions (LMCT or MLCT), which are both spin- and Laporte-allowed, giving very high molar absorptivities.
+d-d transitions are weak because they are Laporte-forbidden in centrosymmetric complexes - they gain intensity only through vibronic coupling that momentarily destroys the centre of symmetry. The intense colours of many coordination compounds arise instead from charge transfer transitions (LMCT or MLCT), which are both spin- and Laporte-allowed, giving very high molar absorptivities.
 
 `medium`1 mark
 
@@ -10095,7 +10095,7 @@ In $\text{AlCl}_3$, aluminium has only 6 electrons in its valence shell (electro
 
 ## Tips for Using This Practice Test
 
-1. **Show your calculations.** For physical chemistry problems, write out all steps clearly, partial credit is awarded for correct method.
+1. **Show your calculations.** For physical chemistry problems, write out every step - partial credit is awarded for correct method even when the arithmetic slips.
 2. **Draw mechanisms.** For organic chemistry, practise drawing full arrow-pushing mechanisms rather than memorising products.
 3. **Use the periodic table.** Many inorganic trends (size, charge, electronegativity) follow periodic patterns.
 4. **Check charge balance.** Always verify that the total charge is conserved in reactions and complexes.

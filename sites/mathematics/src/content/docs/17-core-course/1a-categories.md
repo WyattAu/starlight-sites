@@ -248,10 +248,14 @@ in topology, the base-change adjunction in geometry.
    faithful but not full. (§4 — faithful: distinct homomorphisms are distinct
    functions ✓; not full: not every function between underlying sets is a
    homomorphism.)
-5. Prove that adjoints are unique up to natural isomorphism. (§5 — if $F
-   \dashv G$ and $F' \dashv G$, then $\operatorname{Hom}(F(A), B) \cong
-   \operatorname{Hom}(F'(A), B)$ naturally in $A$ and $B$, which by Yoneda
-   gives $F \cong F'$.)
+5. Let $F, F': \mathcal{C} \to \mathcal{D}$ both be left adjoint to the same
+   $G: \mathcal{D} \to \mathcal{C}$. Show that the adjunction bijections
+   $\operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong \operatorname{Hom}_{\mathcal{C}}(A, G(B))
+   \cong \operatorname{Hom}_{\mathcal{D}}(F'(A), B)$ can be composed to give a
+   natural bijection $\operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong
+   \operatorname{Hom}_{\mathcal{D}}(F'(A), B)$ for all $A, B$. (§5 — the
+   composition of two bijections is a bijection; naturality follows from the
+   naturality of each adjunction.)
 
 ### The One-Line Reveal (for this page)
 
