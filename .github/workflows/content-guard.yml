@@ -1,0 +1,42 @@
+# Content guard: estate-wide MDX frontmatter + em-dash validation over
+# every site's content, powered by @est/content-guard (checked out from
+# WyattAu/web-estate, public). Advisory until the em-dash backlog in
+# finance + mathematics clears; then flip continue-on-error to false.
+
+name: Content Guard
+
+on:
+  push:
+    branches: [main]
+    paths: ["sites/**/src/content/**"]
+  pull_request:
+    paths: ["sites/**/src/content/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    continue-on-error: true # advisory until the em-dash backlog clears
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out the web-estate kit repo (public)
+        uses: actions/checkout@v4
+        with:
+          repository: WyattAu/web-estate
+          path: web-estate
+
+      - uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install web-estate dependencies
+        working-directory: web-estate
+        run: bun install --frozen-lockfile
+
+      - name: Run content guard over all sites
+        working-directory: web-estate
+        run: bun run content:guard-dir "${{ github.workspace }}/sites"
