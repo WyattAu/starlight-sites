@@ -613,7 +613,7 @@ The intense colour of transition metal complexes arises primarily from:
 
 **Correct: C** (index 2)
 
-d-d transitions are typically weak (Laporte-forbidden in centrosymmetric complexes). The intense colours of many coordination compounds arise from charge transfer transitions (LMCT or MLCT), which are both spin- and Laporte-allowed, giving very high molar absorptivities.
+d-d transitions are weak because they are Laporte-forbidden in centrosymmetric complexes - they gain intensity only through vibronic coupling that momentarily destroys the centre of symmetry. The intense colours of many coordination compounds arise instead from charge transfer transitions (LMCT or MLCT), which are both spin- and Laporte-allowed, giving very high molar absorptivities.
 
 `medium`1 mark
 
@@ -701,7 +701,7 @@ In $\text{AlCl}_3$, aluminium has only 6 electrons in its valence shell (electro
 
 ## Tips for Using This Practice Test
 
-1. **Show your calculations.** For physical chemistry problems, write out all steps clearly, partial credit is awarded for correct method.
+1. **Show your calculations.** For physical chemistry problems, write out every step - partial credit is awarded for correct method even when the arithmetic slips.
 2. **Draw mechanisms.** For organic chemistry, practise drawing full arrow-pushing mechanisms rather than memorising products.
 3. **Use the periodic table.** Many inorganic trends (size, charge, electronegativity) follow periodic patterns.
 4. **Check charge balance.** Always verify that the total charge is conserved in reactions and complexes.

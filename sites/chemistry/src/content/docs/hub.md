@@ -167,7 +167,7 @@ Modern chemistry relies on instrumental methods to identify and characterise com
 
 - **Statistical treatment** of experimental data including mean, standard deviation, and error propagation.
 - **Graphical analysis** using appropriate axes, units, trend lines, and error bars.
-- **Report writing** that communicates methods, results, and conclusions clearly.
+- **Report writing** that communicates methods, results, and conclusions in a structured, readable form.
 
 ## Problem-Solving Strategies
 

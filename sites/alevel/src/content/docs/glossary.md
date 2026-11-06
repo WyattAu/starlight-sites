@@ -7,13 +7,13 @@ tags: [glossary]
 
 ## General Examination Terms
 
-**Assessment Objective (AO)**: The skills and knowledge being assessed. A-Level subjects typically have three AOs: AO1 (demonstrate knowledge and understanding), AO2 (apply knowledge and understanding), AO3 (analyse and evaluate).
+**Assessment Objective (AO)**: The skills and knowledge being assessed. Most A-Level specifications define three AOs - AO1 (demonstrate knowledge and understanding), AO2 (apply knowledge and understanding), AO3 (analyse and evaluate); mathematics specifications add AO4 (communicate clearly and concisely).
 
 **UCAS Tariff**: The points system used for university admissions in the UK. An A* is worth 56 points, A is 48, B is 40, and so on.
 
 **Linear Qualification**: A qualification where all exams are taken at the end of the two-year course, rather than in modular units throughout.
 
-**Synoptic Assessment**: Questions that require drawing together knowledge from multiple areas of the specification, typically appearing at the end of the A2 papers.
+**Synoptic Assessment**: Questions that require drawing together knowledge from multiple areas of the specification. They appear in the later papers of the qualification (paper 2 and paper 3 for most A-Level science specifications), where questions cross topic boundaries by design.
 
 **Grade Boundary**: The minimum raw marks required to achieve each grade (A*-E) for a given paper or overall qualification.
 
@@ -25,7 +25,7 @@ tags: [glossary]
 
 **Integration by Parts**: A technique for integrating products of functions, based on the rule $\int u \, dv = uv - \int v \, du$.
 
-**Parametric Equations**: Equations that express coordinates as separate functions of a parameter, typically time or angle.
+**Parametric Equations**: Equations that express coordinates as separate functions of a parameter. In mechanics the parameter is time (t); when tracing curves such as ellipses and Lissajous figures it is an angle (the parameter t or \u03b8 sweeps the curve as it varies).
 
 ## Physics
 

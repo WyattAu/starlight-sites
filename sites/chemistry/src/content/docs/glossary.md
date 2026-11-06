@@ -56,7 +56,7 @@ graph TD
 
 **Solvent**: The substance that dissolves the solute. In aqueous solutions, water is the solvent.
 
-**Standard State**: The reference state for thermodynamic quantities: 1 atm pressure and specified temperature (usually 25°C).
+**Standard State**: The reference state for thermodynamic quantities: 1 atm pressure and a specified temperature - 25 °C (298.15 K) for most tabulated data, per the IUPAC convention.
 
 **Theory**: A well-substantiated explanation of natural phenomena supported by extensive evidence. More robust than a [Hypothesis](/glossary/).
 
@@ -184,7 +184,7 @@ graph TD
 
 **DNA (Deoxyribonucleic Acid)**: A nucleic acid that stores genetic information. Structure: double helix of nucleotide base pairs.
 
-**Enzyme**: A biological catalyst, usually a protein, that speeds up specific biochemical reactions. Highly specific and regulated.
+**Enzyme**: A biological catalyst that speeds up specific biochemical reactions. Nearly all enzymes are proteins; catalytic RNAs (ribozymes) are the exception. Highly specific and regulated.
 
 **Lipid**: A diverse group of organic compounds insoluble in water but soluble in organic solvents. Includes fats, oils, and waxes.
 
