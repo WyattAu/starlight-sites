@@ -50,3 +50,15 @@
 6. Search SLO: watch the 7-day window converge; remaining zeros are genuine
    content gaps (econometrics terms)
 7. Uptime monitor blind-spot fix + crawlkit gsc/rank credential wiring
+
+## Core course hardening (2026-11-07)
+
+- 17-core-course Level 1 proofread: every handwave closed. 1B now has the
+  exchange lemma, basis extension, quotient universal property, permutation
+  sign from scratch (cycle decomposition + sign polynomial), determinant
+  existence/uniqueness/multiplicativity, and the exterior-power dimension via
+  separating functionals (no "standard argument"). 1A: incorrect "epi in Top"
+  caution replaced with the provable N -> Z monoid example, comma-category and
+  Hausdorff jargon removed, adjunction naturality made explicit, heading
+  levels fixed, self-test hints corrected. Em-dashes swept to en-dashes in
+  all three files. Level 2 (topology) is the next build.

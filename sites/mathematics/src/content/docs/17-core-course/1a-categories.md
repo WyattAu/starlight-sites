@@ -1,7 +1,7 @@
 ---
 date: 2026-10-24T00:00:00+00:00
-title: "Level 1A: Categories — The Language of Mathematics"
-description: "Category theory from first principles: objects, morphisms, universal properties, functors, and natural transformations — teaching you to think in arrows and compositions before touching numbers or coordinates."
+title: "Level 1A: Categories – The Language of Mathematics"
+description: "Category theory from first principles: objects, morphisms, universal properties, functors, and natural transformations – teaching you to think in arrows and compositions before touching numbers or coordinates."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -16,7 +16,7 @@ description: "Category theory from first principles: objects, morphisms, univers
 **The Defect.** Set-theoretic mathematics defines every object by its elements.
 A group is a set with operations; a topological space is a set with open subsets.
 This works for elementary mathematics but breaks down for objects whose essential
-structure is *relational* rather than *elemental* — a topological space is not
+structure is *relational* rather than *elemental* – a topological space is not
 its underlying set (many different topologies on the same set), and a group is
 not its underlying set (many different group structures). Category theory shifts
 the primitive from elements to **arrows**: what matters about an object is not
@@ -25,7 +25,7 @@ what it contains but how it relates to other objects.
 **The One-Line Reveal.** Read the definition of a category below. Close the page.
 Try to verify the axioms in **Set** (objects = sets, morphisms = functions). The
 axioms hold because function composition is associative and identity functions
-exist — and that verification *is* the proof that Set is a category.
+exist – and that verification *is* the proof that Set is a category.
 
 ## 1. Categories and Morphisms
 
@@ -54,7 +54,7 @@ morphisms on $A$. Then $\operatorname{id}_A = \operatorname{id}_A \circ
 \operatorname{id}'_A$ (since $\operatorname{id}_A$ is an identity). $\blacksquare$
 
 **The One-Line Reveal.** The proof above is two applications of the identity
-axiom — once for each identity morphism. The pattern (use one axiom, then the
+axiom – once for each identity morphism. The pattern (use one axiom, then the
 other) recurs in every uniqueness proof in category theory.
 
 ### Examples
@@ -74,12 +74,14 @@ other) recurs in every uniqueness proof in category theory.
 The last example ($\mathbf{Mat}_k$) shows that objects need not be sets: the
 object $n$ is a natural number (a "dimension"), and the morphisms from $m$ to
 $n$ are $n \times m$ matrices. Composition is matrix multiplication, which is
-associative, and the identity matrix is the identity morphism. This category is
-**equivalent** to $\mathbf{Vect}_k^{\mathrm{fd}}$ (finite-dimensional vector
-spaces) — an equivalence that captures the fact that every finite-dimensional
-vector space is isomorphic to $k^n$.
+associative, and the identity matrix is the identity morphism. Choosing a
+basis identifies $\mathbf{Vect}_k^{\mathrm{fd}}$ (finite-dimensional vector
+spaces) with this matrix category: every finite-dimensional space is
+isomorphic to some $k^n$, and once bases are fixed, linear maps are exactly
+matrices. The matrix category also shows that the axioms never mention
+elements: the object $n$ is not a set at all.
 
-### 2. Monomorphisms, Epimorphisms, and Isomorphisms
+## 2. Monomorphisms, Epimorphisms, and Isomorphisms
 
 **Definition.** A morphism $f: A \to B$ is a **monomorphism** (mono) if for all
 $g_1, g_2: C \to A$, $f \circ g_1 = f \circ g_2$ implies $g_1 = g_2$.
@@ -104,18 +106,37 @@ g \circ f \circ g_1 = g \circ f \circ g_2
 \implies g_1 = g_2.
 $$
 
-The proof for epi is dual (compose on the other side). $\blacksquare$
+To show $f$ is epi: suppose $h_1 \circ f = h_2 \circ f$ for $h_1, h_2: B \to
+C$. Compose both sides with $g$ on the right:
+$h_1 \circ (f \circ g) = h_2 \circ (f \circ g)$, and $f \circ g =
+\operatorname{id}_B$, so $h_1 = h_2$. $\blacksquare$
 
-**The One-Line Reveal.** The proof's pivot is composing with the inverse $g$ —
+**The One-Line Reveal.** The proof's pivot is composing with the inverse $g$ –
 canceling $f$ using its inverse. The same cancellation works for any
 isomorphism in any category.
 
 **Caution.** The converse fails: a morphism that is both mono and epi need not
-be an isomorphism. In $\mathbf{Top}$, the inclusion $[0, 1) \hookrightarrow
-[0, 1]$ is both mono and epi (because continuous maps into Hausdorff spaces are
-determined by dense subsets) but is not a homeomorphism.
+be an isomorphism. (In $\mathbf{Set}$ it does hold, because mono and epi are
+exactly injective and surjective, and injective plus surjective is bijective;
+the category axioms alone are too weak to force it.) Work in $\mathbf{Mon}$,
+the category of monoids (a set with an associative binary operation and an
+identity element) and functions preserving both. The inclusion
+$\mathbb{N} \hookrightarrow \mathbb{Z}$ of the natural numbers into the
+integers, both under addition, is mono: it is injective, and if
+$f \circ u = f \circ v$ for $u, v: X \to \mathbb{N}$ then $f(u(x)) = f(v(x))$
+for every $x \in X$, so $u(x) = v(x)$ by injectivity. It is epi: let
+$f, g: \mathbb{Z} \to M$ be monoid homomorphisms agreeing on $\mathbb{N}$, so
+in particular $f(1) = g(1)$. A homomorphism out of $\mathbb{Z}$ is determined
+by the image of $1$: for $k \geq 0$ additivity gives $f(k) = k f(1)$, and for
+$k < 0$ we have $f(k) + f(-k) = f(0) = 0_M$, so $f(k)$ is a two-sided additive
+inverse of $f(-k) = (-k)f(1)$, and two-sided inverses are unique (if
+$y + x = x + y = 0$ and $z + x = x + z = 0$, then
+$y = y + 0 = y + (x + z) = (y + x) + z = 0 + z = z$). So $f$ and $g$ agree
+everywhere. But the inclusion is not an isomorphism: a retraction
+$\mathbb{Z} \to \mathbb{N}$ would have to send $-1$ to a natural number $n$
+with $n + 1 = 0$, and there is no such natural number.
 
-### 3. Universal Properties
+## 3. Universal Properties
 
 **Definition.** An object $T$ in $\mathcal{C}$ is **terminal** if for every object
 $A$, there exists a unique morphism $A \to T$. An object $I$ is **initial** if for
@@ -126,7 +147,7 @@ every object $A$, there exists a unique morphism $I \to A$.
 **Proof.** Let $T$ and $T'$ be terminal. Since $T'$ is terminal, there exists
 $f: T \to T'$. Since $T$ is terminal, there exists $g: T' \to T$. Now $f \circ g:
 T' \to T'$ is a morphism from $T'$ to itself. Since $T'$ is terminal, there is
-exactly one morphism $T' \to T'$ — namely $\operatorname{id}_{T'}$. So
+exactly one morphism $T' \to T'$ – namely $\operatorname{id}_{T'}$. So
 $f \circ g = \operatorname{id}_{T'}$. Symmetrically, $g \circ f =
 \operatorname{id}_T$. So $f: T \cong T'$, and $g = f^{-1}$ is the unique such
 isomorphism (any other $g'$ with $f \circ g' = \operatorname{id}_{T'}$ would
@@ -138,20 +159,28 @@ object forces the compositions to be identities.
 
 **Examples of universal properties as terminal/initial objects:**
 
-- The **product** $A \times B$ is characterized by a universal property: for every
-  $C$ with maps $f: C \to A$ and $g: C \to B$, there exists a unique $h: C \to
-  A \times B$ making the diagram commute. This is not "terminal in
-  $\mathcal{C}$" but "terminal in a comma category" — the pattern generalises.
-- The **kernel** of a group homomorphism $\varphi: G \to H$ is characterized by
-  a universal property in the category of groups over $H$.
-- The **disjoint union** $A \sqcup B$ is characterized as the initial object in
-  the category of diagrams $A \to C \leftarrow B$.
+- The **product** $A \times B$ comes with projections $\pi_A: A \times B \to A$
+  and $\pi_B: A \times B \to B$, and is characterised by: for every object $C$
+  with maps $f: C \to A$ and $g: C \to B$, there exists a *unique* $h: C \to
+  A \times B$ with $\pi_A \circ h = f$ and $\pi_B \circ h = g$. In
+  $\mathbf{Set}$, $h$ sends $x$ to the pair $(f(x), g(x))$, and nothing else
+  could work. The content of the definition is the existence and uniqueness of
+  $h$, not what the elements of $A \times B$ are.
+- The **kernel** of a group homomorphism $\varphi: G \to H$ comes with an
+  inclusion $\ker \varphi \to G$, and it is universal among that data: any
+  homomorphism $k: K \to G$ with $\varphi \circ k$ the trivial map factors
+  uniquely through $\ker \varphi$.
+- The **disjoint union** $A \sqcup B$ comes with injections $A \to A \sqcup B$
+  and $B \to A \sqcup B$, and is characterised dually: it is initial among
+  objects $C$ equipped with maps from $A$ and from $B$, meaning every such pair
+  of maps extends uniquely to a map $A \sqcup B \to C$.
 
 Every universal property says: *this object is the unique (up to unique
-isomorphism) solution to a certain optimisation problem.* The problem is always
-"be the target of exactly one arrow from every object in a certain configuration."
+isomorphism) solution to a certain mapping problem.* The problem is always of
+one shape: be the target of exactly one arrow from every object in a certain
+configuration.
 
-### 4. Functors
+## 4. Functors
 
 **Definition.** A **functor** $F: \mathcal{C} \to \mathcal{D}$ between categories
 consists of:
@@ -173,7 +202,7 @@ symmetrically $F(f) \circ F(g) = \operatorname{id}_{F(B)}$. So $F(f)$ is an
 isomorphism with inverse $F(g)$. $\blacksquare$
 
 **The One-Line Reveal.** The proof is "apply the functor to both sides of
-$g \circ f = \operatorname{id}$" — the functorial axioms do the rest.
+$g \circ f = \operatorname{id}$" – the functorial axioms do the rest.
 
 **Examples:**
 
@@ -187,7 +216,7 @@ $g \circ f = \operatorname{id}$" — the functorial axioms do the rest.
   induce group homomorphisms, and composition of maps induces composition of
   homomorphisms.
 
-### 5. Natural Transformations and Adjunctions
+## 5. Natural Transformations and Adjunctions
 
 **Definition.** Given functors $F, G: \mathcal{C} \to \mathcal{D}$, a **natural
 transformation** $\eta: F \Rightarrow G$ assigns to each object $A$ a morphism
@@ -204,14 +233,23 @@ $$
 commutes: $G(f) \circ \eta_A = \eta_B \circ F(f)$.
 
 **Definition.** An **adjunction** between functors $F: \mathcal{C} \to
-\mathcal{D}$ and $G: \mathcal{D} \to \mathcal{C}$ is a natural isomorphism
+\mathcal{D}$ and $G: \mathcal{D} \to \mathcal{C}$ is, for every pair of objects
+$A$ of $\mathcal{C}$ and $B$ of $\mathcal{D}$, a bijection
 
 $$
-\operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong \operatorname{Hom}_{\mathcal{C}}(A, G(B))
+\Phi_{A,B}: \operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong \operatorname{Hom}_{\mathcal{C}}(A, G(B))
 $$
 
-for all objects $A$ of $\mathcal{C}$ and $B$ of $\mathcal{D}$. We write $F
-\dashv G$ ($F$ is left adjoint, $G$ is right adjoint).
+natural in both variables: for every $a: A' \to A$ in $\mathcal{C}$ and every
+$b: B \to B'$ in $\mathcal{D}$,
+
+$$
+\Phi_{A',B}(h \circ F(a)) = \Phi_{A,B}(h) \circ a,
+\qquad
+\Phi_{A,B'}(b \circ h) = G(b) \circ \Phi_{A,B}(h).
+$$
+
+We write $F \dashv G$ ($F$ is left adjoint, $G$ is right adjoint).
 
 **Example: Free ⊣ Forgetful.** The free group functor $F: \mathbf{Set} \to
 \mathbf{Grp}$ is left adjoint to the forgetful functor $U: \mathbf{Grp} \to
@@ -222,30 +260,33 @@ $$
 $$
 
 This says: a group homomorphism from the free group on $S$ to $G$ is exactly a
-function from $S$ to $G$ — the images of the generators freely determine the
+function from $S$ to $G$ – the images of the generators freely determine the
 homomorphism. This bijection is natural in both $S$ and $G$.
 
 **Why adjunctions matter.** An adjunction captures the concept of "the most
 efficient solution to a universal problem." The free group is the *most
-efficient* way to turn a set into a group — no extra relations, no wasted
+efficient* way to turn a set into a group – no extra relations, no wasted
 structure. Adjunctions formalise this efficiency, and they appear throughout
 mathematics: the tensor-hom adjunction in algebra, the product-hom adjunction
 in topology, the base-change adjunction in geometry.
 
-### 6. Self-test
+## 6. Self-test
 
-1. Verify that $\mathbf{Mat}_k$ satisfies the category axioms. Which axiom of
-   matrix algebra guarantees associativity? (§1 — associativity of matrix
-   multiplication.)
+1. Verify that $\mathbf{Mat}_k$ satisfies the category axioms. (§1 –
+   composition is matrix multiplication, so associativity of composition is
+   associativity of matrix multiplication, proved entrywise:
+   $((AB)C)_{ij} = \sum_l (AB)_{il}C_{lj} = \sum_{l,m} A_{im}B_{ml}C_{lj} =
+   (A(BC))_{ij}$.)
 2. Prove that the empty set $\emptyset$ is an initial object in $\mathbf{Set}$.
-   (§3 — for every set $A$, there exists a unique function $\emptyset \to A$
+   (§3 – for every set $A$, there exists a unique function $\emptyset \to A$
    because there are no elements to map.)
 3. Prove that if $f: A \to B$ is both mono and split epi (there exists $g: B
    \to A$ with $f \circ g = \operatorname{id}_B$), then $f$ is an isomorphism.
-   (§2 — $g \circ f \circ g = f \circ \operatorname{id}_B \circ g = g$, cancel
-   the mono $g$ on the left.)
+   (§2 – $f \circ (g \circ f) = (f \circ g) \circ f = f = f \circ
+   \operatorname{id}_A$; cancelling the mono $f$ on the left gives
+   $g \circ f = \operatorname{id}_A$.)
 4. Show that the forgetful functor $U: \mathbf{Grp} \to \mathbf{Set}$ is
-   faithful but not full. (§4 — faithful: distinct homomorphisms are distinct
+   faithful but not full. (§4 – faithful: distinct homomorphisms are distinct
    functions ✓; not full: not every function between underlying sets is a
    homomorphism.)
 5. Let $F, F': \mathcal{C} \to \mathcal{D}$ both be left adjoint to the same
@@ -253,7 +294,7 @@ in topology, the base-change adjunction in geometry.
    $\operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong \operatorname{Hom}_{\mathcal{C}}(A, G(B))
    \cong \operatorname{Hom}_{\mathcal{D}}(F'(A), B)$ can be composed to give a
    natural bijection $\operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong
-   \operatorname{Hom}_{\mathcal{D}}(F'(A), B)$ for all $A, B$. (§5 — the
+   \operatorname{Hom}_{\mathcal{D}}(F'(A), B)$ for all $A, B$. (§5 – the
    composition of two bijections is a bijection; naturality follows from the
    naturality of each adjunction.)
 
@@ -261,7 +302,7 @@ in topology, the base-change adjunction in geometry.
 
 The entire page follows from one shift: *stop asking what objects contain and
 start asking how they relate.* Every definition (mono, epi, terminal, functor,
-adjunction) is stated in terms of arrows and commutative diagrams — never in
+adjunction) is stated in terms of arrows and commutative diagrams – never in
 terms of elements. This is why category theory applies to objects that have no
 elements (the category $\mathbf{Mat}_k$), and why it unifies seemingly unrelated
 areas (the same universal property describes products in $\mathbf{Set}$,
@@ -269,10 +310,10 @@ free groups in $\mathbf{Grp}$, and pullbacks in $\mathbf{Top}$).
 
 ### Where to go next
 
-- [Linear Algebra Done Wrong](/17-core-course/1b-linear-algebra/) — the next
+- [Linear Algebra Done Wrong](/17-core-course/1b-linear-algebra/) – the next
   page: coordinate-free linear algebra with determinants as alternating forms.
-- [Conceptual Mathematics](https://archive.org/details/conceptualmathema0000lawv) —
+- [Conceptual Mathematics](https://archive.org/details/conceptualmathema0000lawv) –
   Lawvere & Schanuel's book, which develops this material at a gentler pace.
-- [Algebra: Chapter 0](https://papervine.wordpress.com/wp-content/uploads/2010/06/aluffi-algebra-chapter-0.pdf) —
+- [Algebra: Chapter 0](https://papervine.wordpress.com/wp-content/uploads/2010/06/aluffi-algebra-chapter-0.pdf) –
   Aluffi's book, which treats all of algebra through the categorical lens you
   have just learned.

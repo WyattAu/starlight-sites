@@ -1,7 +1,7 @@
 ---
 date: 2026-10-24T00:00:00+00:00
 title: "The Core Course"
-description: "A linear, dependency-ordered mathematics course in five levels: categories and multilinear algebra, topology, manifolds, measure theory, and the syntheses — designed so that no concept depends on a future concept."
+description: "A linear, dependency-ordered mathematics course in five levels: categories and multilinear algebra, topology, manifolds, measure theory, and the syntheses – designed so that no concept depends on a future concept."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -18,7 +18,7 @@ description: "A linear, dependency-ordered mathematics course in five levels: ca
 
 This course is separate from the reference tracks on this site. The reference
 tracks are an encyclopaedia: alphabetical, cross-linked, no required order.
-This course is the opposite — a linear sequence where page N assumes page N−1,
+This course is the opposite – a linear sequence where page N assumes page N−1,
 designed so that no concept you meet depends on a concept you have not yet
 learned.
 
@@ -63,7 +63,7 @@ without the artificial forcing function of exams.
 Never read a proof straight through. Read the theorem statement. Close the
 book. Spend fifteen minutes attempting the proof or identifying the exact
 technical roadblock. If stuck, open the book and read *only the first sentence*
-of the author's proof — that sentence almost always introduces the trick or
+of the author's proof – that sentence almost always introduces the trick or
 auxiliary object. Close the book again and finish the proof yourself. This turns
 passive consumption into active discovery.
 
@@ -97,7 +97,7 @@ before it causes structural collapse.
 ### Managing Cognitive Stalling
 
 When stuck: drop one dimension (solve on a 2-sphere or in **Set** instead), or
-apply the 48-hour incubation rule — write the obstacle in one plain English
+apply the 48-hour incubation rule – write the obstacle in one plain English
 question, close the book, and walk away. Subconscious processing in mathematics
 is a documented reality.
 
