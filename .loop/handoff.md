@@ -98,6 +98,34 @@
 - NEXT after 3A: 3b tangent spaces (derivations, differential, IFT on
   manifolds), then 3c forms + Stokes; Levels 4-5 (Schilling measure
   theory, then the syntheses).
+- 3B BUILT (930f2c5db): tangent vectors as derivations on GERMS (locality
+  by construction, no bump functions); Hadamard proved via FTC +
+  differentiation-under-integral (declared); derivation theorem (v_i =
+  D(x_i)); chart transport iso + change-of-basis law; differential
+  well-defined/Jacobian-in-charts/chain-rule; IFT on manifolds (local
+  diffeo). Self-review caught: type-inconsistent germs in the transport
+  (x_i o phi^-1 vs x_i o phi) - fixed.
+- 3C BUILT (66d3524c2): dx^I as determinant evaluators; wedge on
+  concatenated sequences so associativity is definitional; coordinate
+  basis proposition (dual statement proved IN-PAGE - 1B Thm 5.4 is
+  about vectors not forms, the draft's citation was wrong); d^2 = 0 via
+  Clairaut (the one declared input); graded Leibniz; pullback
+  commutation; coordinate independence of d on manifolds (Thm 3.2).
+- 3D BUILT (c3a360edc): manifolds-with-boundary (structural boundary
+  clause; invariance of domain flagged as the classical alternative);
+  orientation via positive-Jacobian atlas; outward-first boundary
+  orientation with Lemma 2.1 proved cleanly; chart + partition-of-unity
+  integration (Fubini/change-of-variables/partitions declared); local
+  Stokes on H^n with every sign audited (incl. the general-j_0 fix:
+  missing index not always n; j_0 != n terms die over the whole line);
+  generalised Stokes assembled through the partition; classical FTC/
+  Green/divergence/Stokes derived as coordinate expansions.
+- CORE COURSE LEVEL 3 COMPLETE: hub + 1A + 1B + 2A + 3A + 3B + 3C + 3D,
+  linear dependency order, every theorem proved, <= 3 declared analysis
+  inputs per page, all pointed at the RA track. NEXT: Level 4 (Schilling
+  measure theory: sigma-algebras, Caratheodory, Lebesgue, convergence
+  theorems, L^p), then Level 5 (Ullrich complex via forms; Bott-Tu de
+  Rham; Aluffi algebra chapter 0).
 - Deploy note: deploy.yml uses a concurrency group - newer pushes cancel
   in-progress runs (5e412b0f5 run cancelled by the 5280534d9 run). Watch
   only the newest run; main is cumulative.
