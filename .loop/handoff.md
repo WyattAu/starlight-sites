@@ -81,6 +81,23 @@
   derivations; 3c forms + Stokes). Declared inputs for 3a: multivariable
   chain rule + inverse function theorem (labelled explicitly, like
   completeness in Level 2). Levels 4-5 after.
+- 3A BUILT (3a-manifolds.md, e8f418b86 + 02a19925c): Euclidean
+  differentiability with the partials-do-not-a-derivative-make
+  counterexample; algebra of derivatives proved from the definition (so
+  rational smoothness needs no calculus); explicit-base line-with-two-
+  origins example; raw compatibility shown NON-transitive (counterexample:
+  t + |t-1|^3/4 is C^2 not C^3 at 1) with transitivity-through-a-common-
+  atlas (Prop 3.1) + locality (Lemma 1.5) proving maximal-atlas existence
+  AND uniqueness (Thm 3.2); stereographic sphere fully algebraic; products;
+  smooth maps via the f(U) subset V definition - smooth implies continuous
+  in two lines, well-definedness proved, dimension invariance via IFT +
+  rank-nullity (1B Thm 1.6 cross-link). Self-review caught: broken
+  counterexample (|t-1|^3 term was non-injective), messy half-edited §5
+  definition paragraph (now the Lee-style definition), quotient-handwave in
+  the two-origins example (now an explicit base).
+- NEXT after 3A: 3b tangent spaces (derivations, differential, IFT on
+  manifolds), then 3c forms + Stokes; Levels 4-5 (Schilling measure
+  theory, then the syntheses).
 - Deploy note: deploy.yml uses a concurrency group - newer pushes cancel
   in-progress runs (5e412b0f5 run cancelled by the 5280534d9 run). Watch
   only the newest run; main is cumulative.
