@@ -67,7 +67,7 @@ below is the complete dependency-ordered syllabus, and it is the build order.
 | 1A | Categories: objects, morphisms, universal properties, functors, adjunctions | written |
 | 1B | Linear algebra: spaces, duality, quotients, determinants, exterior algebra | written |
 | 1C | Eigenvectors, diagonalisation, and the spectral theorem | written |
-| 1D | Inner products, orthogonality, adjoints, the Gram–Schmidt process | queued |
+| 1D | Inner products, orthogonality, adjoints, the Gram–Schmidt process | written |
 | 1E | Canonical forms and the fundamental theorem of linear algebra | queued |
 | **Level 2 — Topology: The Canvas** | | |
 | 2A | Metric spaces, topological spaces, continuity, homeomorphism | written |
