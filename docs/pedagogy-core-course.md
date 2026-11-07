@@ -1,6 +1,6 @@
 # The Core Course Standard
 
-**Version 1 (draft for refinement).**
+**Version 2 (draft for refinement).**
 **Owner:** Wyatt Au. **Applies to:** `sites/mathematics/src/content/docs/17-core-course/`.
 **Status:** the build standard for the course. Every chapter, every edit, and
 every gate check answers to this document. Changes to this document change the
@@ -34,10 +34,14 @@ reconstruction.
 
 ## 1. The zero-knowledge contract
 
-**The reader's assumed baseline.** The reader can read English, can add and
-multiply integers, and is willing to struggle. That is the entire baseline.
-Everything else — negative numbers, fractions, roots, exponents, functions,
-sets, infinity, proof itself — is constructed by the course before it is used.
+**The reader's assumed baseline.** The reader can read English, recognise
+written patterns, and is willing to struggle. That is the entire baseline.
+The course does not assume arithmetic: counting is constructed, addition and
+multiplication are defined and their laws are proved, and every number system
+beyond the counting numbers is built by explicit construction. Nothing — no
+symbol, no operation, no fact from school — is assumed. Where a school habit
+helps the reader compute comfortably, the course says so, but the comfort is
+recognised as habit, and the mathematics underneath is built regardless.
 
 **The obligations this creates:**
 
@@ -52,11 +56,19 @@ sets, infinity, proof itself — is constructed by the course before it is used.
    removes them. The declared-input budget per chapter is at most three, and
    the long-term goal is zero: every declared input is eventually discharged
    by a foundations chapter.
-3. **No school mathematics.** Facts that school treats as obvious
-   (distributivity, "a fraction is a division", "$\sqrt{2}$ exists") are
-   either proved, constructed, or axiomatised openly. The word "obvious" is
-   banned: if a step is obvious, the reader can supply it, and the proof says
-   which earlier result supplies it.
+3. **No school mathematics.** Facts that school treats as obvious are built:
+   addition and its commutativity are theorems, fractions are equivalence
+   classes, $\sqrt{2}$ exists because the real line is constructed and the
+   proof is given. The word "obvious" is banned: if a step is short, the
+   proof does the step and names the earlier result that supplies it.
+ The chapter sequence follows mathematical
+   dependency, not the school curriculum. School order is treated as a
+   historical accident to be improved upon: the only ordering principle is
+   that nothing appears before everything it depends on.
+4. **No assumed order.** The chapter sequence follows mathematical
+   dependency, not the school curriculum. School order is treated as a
+   historical accident to be improved upon: the only ordering principle is
+   that nothing appears before everything it depends on.
 4. **The dependency discipline.** Chapters form one linear sequence. A chapter
    may use only: the baseline, declared inputs, and content of earlier
    chapters. Forward references are prohibited — including in quick checks,
@@ -66,6 +78,56 @@ sets, infinity, proof itself — is constructed by the course before it is used.
    chapter lists its declared inputs and the chapters it feeds. Adding a
    chapter requires updating the map. Reordering requires re-auditing every
    later chapter's dependencies.
+
+**The stage architecture.** The course is organised by dependency stages,
+not by school order and not by book boundaries. Each stage contains only
+chapters whose dependencies are fully discharged by earlier stages:
+
+- **Stage A: Reasoning** (no numbers). Logic, propositions, quantifiers,
+  proof by cases and by contradiction, sets, ordered pairs (built as sets),
+  relations, order relations, equivalence relations, functions, injections,
+  surjections, bijections. The reader leaves this stage able to read a proof
+  and handle infinite collections, without having counted anything.
+- **Stage B: Counting.** The Peano axioms as the definition of counting;
+  induction; addition and multiplication *defined recursively* and their laws
+  *proved*; order; division with remainder. Arithmetic is a theorem.
+- **Stage C: Expanding the line.** The failure of subtraction in the
+  counting numbers; $\mathbb{Z}$ built as difference classes (Stage A's
+  equivalence relations pay off); $\mathbb{Q}$ built as fraction classes;
+  density; the first crisis: $x^2 = 2$ has no rational solution.
+- **Stage D: The continuum.** Dedekind cuts (only order and $\mathbb{Q}$
+  needed); $\mathbb{R}$ constructed; completeness proved; decimals, roots;
+  cardinality: countable versus uncountable (Cantor's diagonal, over the
+  real line).
+- **Stage E: Completing algebra.** Polynomials as formal objects; the failure
+  of $x^2 + 1$ over $\mathbb{R}$; $\mathbb{C}$ built as pairs with a
+  multiplication rule; the fundamental theorem of algebra *declared here*
+  and discharged much later, when complex analysis is built — the first
+  entry in the declared-input ledger, and the demonstration that the ledger
+  is a promise the course keeps.
+- **Stage F: Structure.** Category theory as the language of composition,
+  now with built examples; linear algebra over $\mathbb{R}$ and
+  $\mathbb{C}$: spaces, maps, duality, quotients, determinants, exterior
+  algebra, eigenstructure, inner products and the spectral theorem,
+  canonical forms.
+- **Stage G: The canvas.** Metric and topological spaces, continuity,
+  connectedness, compactness, the quotient topology, convergence and
+  completeness, separation and metrisation.
+- **Stage H: Calculus as linearisation.** Smooth manifolds, tangent spaces,
+  differential forms, integration and Stokes, submanifolds, Lie groups.
+- **Stage I: Measure.** $\sigma$-algebras, Carathéodory, the Lebesgue
+  integral, convergence modes, $L^p$ duality, Fubini, Radon-Nikodym,
+  Fourier.
+- **Stage J: Complex analysis.** Holomorphy, Cauchy and residues, and the
+  proof of the fundamental theorem of algebra — the ledger closes.
+- **Stage K: Algebra and symmetry.** Groups, rings and modules, Galois
+  theory.
+
+The stages are the dependency order: no chapter may reach into a later
+stage, and within a stage the same rule holds. The written chapters of the
+first release sit in Stages F through H; Stages A through E are the
+foundations build, constructed ahead of everything else under the
+zero-knowledge contract.
 
 ---
 
@@ -162,8 +224,10 @@ Every chapter page, in order:
    one (Section 3.2).
 6. **Problems.** Multi-step chains requiring written arguments. The recall
    layer lives in the quick checks; the Problems are performance.
-7. **The Reveal (end of page).** What the reader should now be able to say.
-   Moved here from the page top: it spoils the dialectic there.
+7. **The Reveal (top of page, click-to-reveal).** The page's summary lives
+   at the top, inlined where the reader first meets the page, but blurred
+   behind a click so the dialectic is not spoiled by scrolling. The reader
+   chooses the spoiler; the course never forces it.
 8. **Where to go next.** The next chapter in the sequence (internal link
    only), the carried chapters it leans on, and the primary external source.
 
@@ -194,6 +258,14 @@ Each numbered section follows the five-beat rhythm:
 - Every ponder is answered somewhere in the page. No ponder is rhetorical.
 - The answers to quick checks are terse and immediate. The answers to ponders
   are the development itself.
+- **Spoiler mechanism.** Ponder answers, the One-Line Reveal, and any
+  resolution the reader should attempt first are rendered as click-to-reveal:
+  blurred text that sharpens on click (the Discord-spoiler pattern),
+  implemented as a `<details>` block or a blur span backed by a standalone
+  stylesheet class (never inline CSS: the astro-compress purger strips
+  inline styles; the class lives in a standalone stylesheet file). The rule:
+  anything that would be spoiled by scrolling is behind a click; the click is
+  the reader explicitly choosing the answer over the attempt.
 
 ### 3.4 The forward-honesty marker
 
@@ -243,8 +315,11 @@ not ship.
 1. Everything is proved, constructed, or declared; nothing asserted.
 2. No forward references, in any layer (prose, quick checks, problems,
    examples, figures).
-3. Declared inputs: at most three per chapter, named precisely, pointed at
-   their discharging chapter in the course map.
+3. Declared inputs: at most three per chapter, named precisely, entered in
+   the **declared-input ledger** with the chapter that will discharge them.
+   A declared input is a debt; the ledger exists so every debt is visibly
+   paid. (First debt: the fundamental theorem of algebra, declared in the
+   eigenstructure chapter, discharged in the complex analysis stage.)
 4. Every section has its quick check; the question count meets or exceeds
    the section's major results; every question has an answer.
 5. Every page has at least one complete dialectic (all seven beats) or is an
@@ -327,6 +402,12 @@ After merge:
 
 ## 9. Changelog
 
+- **v2**: the floor drops to literacy and pattern recognition; arithmetic
+  itself is constructed (Stage B); the stage architecture replaces school
+  ordering as Section 1's organising principle; click-to-reveal is the
+  spoiler mechanism (ponder answers and the inlined top-of-page Reveal);
+  the declared-input ledger is formalised as debts with discharge
+  chapters.
 - **v1**: initial draft. Synthesises the session's decisions: zero-knowledge
   contract, the seven-beat dialectic, rational reconstruction convention,
   physicist's clause, anticipation rule, chapter and section anatomy, quick

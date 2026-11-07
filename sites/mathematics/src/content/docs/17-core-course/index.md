@@ -55,50 +55,89 @@ graph TD
 
 ## The Course Map
 
-Eight chapters are written. The full course is forty-two. Each chapter is a
-book-scale unit with section quick checks and end-of-page problems; the table
-below is the complete dependency-ordered syllabus, and it is the build order.
+The reader arrives knowing how to read. The course builds the rest in
+dependency order: logic before counting, counting before the number line, the
+number line before algebra, algebra before structure, structure before the
+continuum, and the continuum before everything that measures it. Eleven
+chapters are written (five consolidated in the linear algebra page); the full
+course is fifty-two chapters across eleven stages.
 
 <div class="table-wrap">
 
 | Chapter | Title | Status |
 |---|---|---|
-| **Level 1 — Language and the Multilinear Engine** | | |
-| 1A | Categories: objects, morphisms, universal properties, functors, adjunctions | written |
-| 1B | Linear algebra: spaces, duality, quotients, determinants, exterior algebra | written |
-| 1C | Eigenvectors, diagonalisation, and the spectral theorem | written |
-| 1D | Inner products, orthogonality, adjoints, the Gram–Schmidt process | written |
-| 1E | Canonical forms and the fundamental theorem of linear algebra | queued |
-| **Level 2 — Topology: The Canvas** | | |
-| 2A | Metric spaces, topological spaces, continuity, homeomorphism | written |
-| 2B | Connectedness and compactness, with the IVT and EVT as theorems of space | written |
-| 2C | The quotient topology, gluing, and topological constructions | queued |
-| 2D | Sequences, convergence, completeness, and the $p$-adic warning | queued |
-| 2E | Separation axioms, countability, and metrisation | queued |
-| **Level 3 — Calculus as Linearization** | | |
-| 3A | Smooth manifolds: charts, atlases, smooth maps | written |
-| 3B | Tangent spaces, the differential, the inverse function theorem | written |
-| 3C | Differential forms and the exterior derivative | written |
-| 3D | Integration, orientation, and Stokes | written |
-| 3E | Submanifolds, immersions, submersions, and regular level sets | queued |
-| 3F | Lie groups and group actions | queued |
-| **Level 4 — Global Analysis** | | |
-| 4A | $\sigma$-algebras and measures | queued |
-| 4B | Construction of the Lebesgue integral: Carathéodory | queued |
-| 4C | Modes of convergence: pointwise, uniform, almost everywhere, in measure | queued |
-| 4D | $L^p$ spaces, Hölder and Minkowski, duality | queued |
-| 4E | Product measures and Fubini–Tonelli | queued |
-| 4F | Radon–Nikodym, conditional expectation, martingales | queued |
-| 4G | Fourier series and the Fourier transform | queued |
-| **Level 5 — The Syntheses** | | |
-| 5A | Holomorphic functions: complex differentiability and its rigidity | queued |
-| 5B | Complex integration, Cauchy's theorem, residues | queued |
-| 5C | De Rham cohomology: the degree of a map, the Poincaré lemma | queued |
-| 5D | The Mayer–Vietoris sequence and homotopy invariance | queued |
-| 5E | Groups, rings, and modules through the categorical lens | queued |
-| 5F | Galois theory: symmetry of equations | queued |
+| **Stage A — Reasoning** (no numbers) | | |
+| A1 | Propositions, quantifiers, and what a proof is | queued |
+| A2 | Sets: membership, products, power sets | queued |
+| A3 | Relations: order, equivalence (the machinery every construction uses) | queued |
+| A4 | Functions: injections, surjections, bijections, composition | queued |
+| A5 | Proof strategies in action: the false proof, dissected | queued |
+| **Stage B — Counting** | | |
+| B1 | The Peano axioms: what counting *is* | queued |
+| B2 | Addition defined recursively; its laws proved | queued |
+| B3 | Multiplication, order, exponentiation: all theorems | queued |
+| B4 | Division with remainder; the Archimedean property | queued |
+| **Stage C — Expanding the line** | | |
+| C1 | The failure of subtraction; $\mathbb{Z}$ as difference classes | queued |
+| C2 | The failure of division; $\mathbb{Q}$ as fraction classes; density | queued |
+| C3 | The first crisis: $x^2 = 2$ has no rational solution | queued |
+| **Stage D — The continuum** | | |
+| D1 | Dedekind cuts: $\mathbb{R}$ constructed from order alone | queued |
+| D2 | Arithmetic and completeness of $\mathbb{R}$, proved | queued |
+| D3 | Decimals, roots, the place of $\mathbb{Q}$ inside $\mathbb{R}$ | queued |
+| D4 | Cardinality: countable $\mathbb{Q}$, uncountable $\mathbb{R}$ | queued |
+| **Stage E — Completing algebra** | | |
+| E1 | Polynomials as formal objects | queued |
+| E2 | $\mathbb{C}$ built as pairs with a multiplication rule | queued |
+| E3 | The fundamental theorem of algebra — *declared*, discharged at K3 | queued |
+| **Stage F — Structure and linear algebra** | | |
+| F1 | Categories: objects, morphisms, universal properties, adjunctions | written |
+| F2 | Vector spaces, linear maps, dimension | written |
+| F3 | Duality and the double dual | written |
+| F4 | Quotient spaces and their universal property | written |
+| F5 | Determinants as alternating forms | written |
+| F6 | Exterior algebra | written |
+| F7 | Eigenstructure, triangularisation, Cayley–Hamilton | written |
+| F8 | Inner products, orthogonality, the spectral theorem | written |
+| F9 | Canonical forms: what remains when diagonalisation fails | queued |
+| **Stage G — The canvas** | | |
+| G1 | Metric and topological spaces, continuity, homeomorphism | written |
+| G2 | Connectedness and compactness; the IVT and EVT as theorems of space | written |
+| G3 | The quotient topology and topological constructions | queued |
+| G4 | Convergence, completeness, and the $p$-adic warning | queued |
+| G5 | Separation axioms, countability, metrisation | queued |
+| **Stage H — Calculus as linearisation** | | |
+| H1 | Smooth manifolds: charts, atlases, smooth maps | written |
+| H2 | Tangent spaces, the differential, the inverse function theorem | written |
+| H3 | Differential forms and the exterior derivative | written |
+| H4 | Integration, orientation, and Stokes | written |
+| H5 | Submanifolds, immersions, regular level sets | queued |
+| H6 | Lie groups and group actions | queued |
+| **Stage I — Measure** | | |
+| I1 | $\sigma$-algebras and measures | queued |
+| I2 | The Lebesgue integral: Carathéodory | queued |
+| I3 | Modes of convergence | queued |
+| I4 | $L^p$ spaces and duality | queued |
+| I5 | Product measures and Fubini–Tonelli | queued |
+| I6 | Radon–Nikodym and conditional expectation | queued |
+| I7 | Fourier series and the Fourier transform | queued |
+| **Stage J — Complex analysis** | | |
+| J1 | Holomorphy: complex differentiability and its rigidity | queued |
+| J2 | Complex integration, Cauchy's theorem, residues | queued |
+| J3 | The fundamental theorem of algebra, *proved* — the ledger closes | queued |
+| **Stage K — Algebra and symmetry** | | |
+| K1 | Groups through the categorical lens | queued |
+| K2 | Rings and modules | queued |
+| K3 | Galois theory: symmetry of equations | queued |
 
 </div>
+
+Stages A through E are the foundations build: the floor of the entire course,
+constructed ahead of everything else under the zero-knowledge contract. The
+declared-input ledger has one open debt — the fundamental theorem of algebra,
+declared at F7 — discharged at J3, roughly forty chapters later. That gap is
+the point: the reader watches mathematics borrow against its own future and
+pay the debt in full.
 
 The reference tracks in the sidebar remain the encyclopaedia; this course is
 the path through it.
