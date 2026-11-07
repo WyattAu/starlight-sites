@@ -474,9 +474,9 @@ space orthogonally.
 
 ### Where to go next
 
-- [Level 1E: Canonical Forms](/17-core-course/1e-canonical-forms/) – what
-  remains when the map is *not* diagonalisable: Jordan form, rational
-  canonical form, and the structure theorem. Under construction.
+- Level 1E: Canonical Forms – what remains when the map is *not*
+  diagonalisable: Jordan form, rational canonical form, and the structure
+  theorem. Under construction; the link lands here when it ships.
 - [Level 1C: Eigenvectors](/17-core-course/1c-eigenthings/) – the
   eigenvalue machinery this page upgrades to orthonormal bases.
 - [Linear Algebra Done Wrong](https://www.math.brown.edu/~treil/ladw/) –

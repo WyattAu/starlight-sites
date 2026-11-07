@@ -134,8 +134,8 @@ from six months ago. For every core concept, include:
 
 Skip computational drills. Do classification problems ("classify all groups of
 order 8"), counterexample challenges ("show the theorem fails if axiom X is
-omitted"), and omitted lemmas (when an author writes "the reader can easily
-verify," treat that as mandatory).
+omitted"), and omitted lemmas (when an author defers a verification to the
+reader, treat that as mandatory).
 
 ### Section Checkpoints and Problems
 

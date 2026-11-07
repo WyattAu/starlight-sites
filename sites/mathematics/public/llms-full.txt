@@ -18780,8 +18780,8 @@ $$
 $$
 
 Equality in the quadratic argument means the polynomial attains zero, i.e.
-$u + t v = 0$ for its root $t$: dependence. Conversely dependent vectors
-trivially attain equality ($u = c v$ makes both sides $|c| \|v\|^2$).
+$u + t v = 0$ for its root $t$: dependence. Conversely, dependent vectors
+attain equality: for $u = c v$ both sides equal $|c| \, \|v\|^2$.
 $\blacksquare$
 
 **Theorem 1.3 (triangle inequality).** $\|u + v\| \leq \|u\| + \|v\|$, with
@@ -18944,8 +18944,8 @@ $$
 \|v - w\|^2 = \|v - p_W(v)\|^2 + \|p_W(v) - w\|^2 \geq \|v - p_W(v)\|^2,
 $$
 
-with equality iff $p_W(v) = w$. Linearity: the decomposition of $\\alpha v_1
-+ \\beta v_2$ is the combination of the decompositions, by uniqueness.
+with equality iff $p_W(v) = w$. Linearity: the decomposition of $\alpha v_1
++ \beta v_2$ is the combination of the decompositions, by uniqueness.
 $\blacksquare$
 
 This theorem is why orthonormality matters beyond geometry: expanding a
@@ -19022,76 +19022,76 @@ arbitrary bases; only in orthonormal ones (Proposition 4.2).
 **Lemma 5.1 (self-adjoint eigenvalues are real; invariant complements).**
 Let $T$ be self-adjoint. (i) Every complex eigenvalue of the complexified
 $T$ is real. (ii) Eigenspaces of distinct eigenvalues are orthogonal, and
-$E_\\lambda^\\perp$ is $T$-invariant for every eigenvalue $\\lambda$.
+$E_\lambda^\perp$ is $T$-invariant for every eigenvalue $\lambda$.
 
-**Proof.** (ii) first, over the real field: if $x \\in E_\\lambda$ and $y
-\\in E_\\mu$ with $\\lambda \\neq \\mu$, then $\\lambda \\langle x, y
-\\rangle = \\langle T x, y \\rangle = \\langle x, T y \\rangle = \\mu
-\\langle x, y \\rangle$, so $(\\lambda - \\mu) \\langle x, y \\rangle = 0$
-and $\\langle x, y \\rangle = 0$. For the invariance of $E_\\lambda^\\perp$:
-take $y \\in E_\\lambda^\\perp$ and $x \\in E_\\lambda$; then $\\langle T
-y, x \\rangle = \\langle y, T x \\rangle = \\langle y, \\lambda x
-\\rangle = \\lambda \\langle y, x \\rangle = 0$. Since this holds for
-every $x \\in E_\\lambda$, it holds for every vector of their span, which
-is $E_\\lambda$: so $T y \\in E_\\lambda^\\perp$.
+**Proof.** (ii) first, over the real field: if $x \in E_\lambda$ and $y
+\in E_\mu$ with $\lambda \neq \mu$, then $\lambda \langle x, y
+\rangle = \langle T x, y \rangle = \langle x, T y \rangle = \mu
+\langle x, y \rangle$, so $(\lambda - \mu) \langle x, y \rangle = 0$
+and $\langle x, y \rangle = 0$. For the invariance of $E_\lambda^\perp$:
+take $y \in E_\lambda^\perp$ and $x \in E_\lambda$; then $\langle T
+y, x \rangle = \langle y, T x \rangle = \langle y, \lambda x
+\rangle = \lambda \langle y, x \rangle = 0$. Since this holds for
+every $x \in E_\lambda$, it holds for every vector of their span, which
+is $E_\lambda$: so $T y \in E_\lambda^\perp$.
 
 (i) requires the complexification, defined without tensor products: set
-$V_\\mathbb{C} := \\{u + i v\\}$ (formal pairs), with complex-scalar
-multiplication and the **Hermitian form** $\\langle u + i v, u' + i v'
-\\rangle := \\langle u, u' \\rangle + \\langle v, v' \\rangle + i(\\langle
-v, u' \\rangle - \\langle u, v' \\rangle)$, which is linear in the first
-argument and conjugate-linear in the second. Extend $T$ by $T_\\mathbb{C}(u
-+ i v) := T u + i\\, T v$; the self-adjoint identity survives the
-extension. If $T_\\mathbb{C} v = \\lambda v$ with $v \\neq 0$, then
+$V_\mathbb{C} := \{u + i v\}$ (formal pairs), with complex-scalar
+multiplication and the **Hermitian form** $\langle u + i v, u' + i v'
+\rangle := \langle u, u' \rangle + \langle v, v' \rangle + i(\langle
+v, u' \rangle - \langle u, v' \rangle)$, which is linear in the first
+argument and conjugate-linear in the second. Extend $T$ by $T_\mathbb{C}(u
++ i v) := T u + i\, T v$; the self-adjoint identity survives the
+extension. If $T_\mathbb{C} v = \lambda v$ with $v \neq 0$, then
 
 $$
-\\lambda \\langle v, v \\rangle = \\langle T_\\mathbb{C} v, v \\rangle =
-\\langle v, T_\\mathbb{C} v \\rangle = \\bar{\\lambda}\\, \\langle v, v
-\\rangle,
+\lambda \langle v, v \rangle = \langle T_\mathbb{C} v, v \rangle =
+\langle v, T_\mathbb{C} v \rangle = \bar{\lambda}\, \langle v, v
+\rangle,
 $$
 
-the last step being conjugate-linearity in the second slot, and $\\langle
-v, v \\rangle > 0$ (it is $\\|\\operatorname{Re} v\\|^2 +
-\\|\\operatorname{Im} v\\|^2$). So $\\lambda = \\bar{\\lambda}$: real.
-$\\blacksquare$
+the last step being conjugate-linearity in the second slot, and $\langle
+v, v \rangle > 0$ (it is $\|\operatorname{Re} v\|^2 +
+\|\operatorname{Im} v\|^2$). So $\lambda = \bar{\lambda}$: real.
+$\blacksquare$
 
-**Theorem 5.2 (the real spectral theorem).** Let $T: V \\to V$ be
+**Theorem 5.2 (the real spectral theorem).** Let $T: V \to V$ be
 self-adjoint on a finite-dimensional real inner product space. Then $V$ has
 an orthonormal basis of eigenvectors of $T$, and the matrix of $T$ in that
 basis is diagonal with real entries.
 
-**Proof.** Induct on $n$. Consider the complexification $V_\\mathbb{C} =
-V \\otimes \\mathbb{C}$ with the extended map $T_\\mathbb{C}$ (still
+**Proof.** Induct on $n$. Consider the complexification $V_\mathbb{C} =
+V \otimes \mathbb{C}$ with the extended map $T_\mathbb{C}$ (still
 self-adjoint for the Hermitian extension). Its characteristic polynomial
-$\\chi_T$ splits by the fundamental theorem of algebra (the declared input,
-as in 1C), so $T_\\mathbb{C}$ has an eigenvector $v \\neq 0$ with
-eigenvalue $\\lambda$; Lemma 5.1(i) shows $\\lambda \\in \\mathbb{R}$.
-Then $T_\\mathbb{C} v = \\lambda v$ with $\\lambda$ real means the real
+$\chi_T$ splits by the fundamental theorem of algebra (the declared input,
+as in 1C), so $T_\mathbb{C}$ has an eigenvector $v \neq 0$ with
+eigenvalue $\lambda$; Lemma 5.1(i) shows $\lambda \in \mathbb{R}$.
+Then $T_\mathbb{C} v = \lambda v$ with $\lambda$ real means the real
 and imaginary parts of $v$ are eigenvectors of the real $T$ (real
 eigenvalue, real matrix action), and at least one of them is nonzero: the
-real $T$ has a real eigenvector $x \\neq 0$ with $T x = \\lambda x$.
-Normalise it to a unit vector $e_1$. The line $L = \\operatorname{span}(e_1)$
-is $T$-invariant, so $T$ induces $\\bar{T}$ on $L^\\perp$ (Lemma 5.1(ii)'s
-computation shows $L^\\perp$ is $T$-invariant: for $y \\perp e_1$,
-$\\langle T y, e_1 \\rangle = \\langle y, T e_1 \\rangle = \\lambda
-\\langle y, e_1 \\rangle = 0$, and $\\dim L^\\perp = n - 1$ by Theorem
-3.1's decomposition). The restriction $\\bar{T} := T|_{L^\\perp}$ is again
+real $T$ has a real eigenvector $x \neq 0$ with $T x = \lambda x$.
+Normalise it to a unit vector $e_1$. The line $L = \operatorname{span}(e_1)$
+is $T$-invariant, so $T$ induces $\bar{T}$ on $L^\perp$ (Lemma 5.1(ii)'s
+computation shows $L^\perp$ is $T$-invariant: for $y \perp e_1$,
+$\langle T y, e_1 \rangle = \langle y, T e_1 \rangle = \lambda
+\langle y, e_1 \rangle = 0$, and $\dim L^\perp = n - 1$ by Theorem
+3.1's decomposition). The restriction $\bar{T} := T|_{L^\perp}$ is again
 self-adjoint (the adjoint of a restriction to an invariant complement is
 the restriction of the adjoint: the defining identity restricted to
-$L^\\perp \times L^\\perp$). By the induction hypothesis, $L^\\perp$ has
-an orthonormal eigenbasis of $\\bar{T}$; prefixing $e_1$ gives an
+$L^\perp \times L^\perp$). By the induction hypothesis, $L^\perp$ has
+an orthonormal eigenbasis of $\bar{T}$; prefixing $e_1$ gives an
 orthonormal list of $n$ eigenvectors of $T$, which are independent (Lemma
 2.2) and span (count and rank-nullity): an orthonormal eigenbasis. In it,
 $T$'s matrix is diagonal with the real eigenvalues.
 $\blacksquare$
 
-**Corollary 5.3.** A real symmetric $n \\times n$ matrix $A$ can be written
+**Corollary 5.3.** A real symmetric $n \times n$ matrix $A$ can be written
 $A = Q D Q^T$ with $Q$ orthogonal ($Q^T Q = I$) and $D$ diagonal real: the
 principal axis decomposition. In particular $A$ is diagonalisable, all
-eigenvalues are real, and $\\det A$ is the product of the eigenvalues.
+eigenvalues are real, and $\det A$ is the product of the eigenvalues.
 
 **Proof.** $A$ is the matrix of a self-adjoint endomorphism on
-$\\mathbb{R}^n$ with the dot product (Proposition 4.2). The spectral
+$\mathbb{R}^n$ with the dot product (Proposition 4.2). The spectral
 theorem gives an orthonormal eigenbasis; the matrix $Q$ with those
 eigenvectors as columns is orthogonal ($Q^T Q = I$: orthonormal columns)
 and $A Q = Q D$, so $A = Q D Q^T$. $\blacksquare$
@@ -19100,16 +19100,16 @@ and $A Q = Q D$, so $A = Q D Q^T$. $\blacksquare$
 
 1. Why are a self-adjoint map's eigenvalues real?
 2. State the Hermitian symmetry used in that proof.
-3. Why is $E_\\lambda^\perp$ invariant under a self-adjoint $T$?
+3. Why is $E_\lambda^\perp$ invariant under a self-adjoint $T$?
 4. What does the complexification buy in the spectral proof?
 5. Write the principal axis decomposition of a symmetric matrix.
 
-*Answers:* **1.** $\\lambda \\langle v, v \\rangle = \\langle v, T v
-\\rangle = \\bar{\\lambda} \\langle v, v \\rangle$ in the complexification,
-so $\\lambda$ equals its conjugate (Lemma 5.1). **2.** $\\langle u, w
-\\rangle = \\overline{\\langle w, u \\rangle}$. **3.** $\\langle T y, x
-\\rangle = \\langle y, T x \\rangle = \\lambda \\langle y, x \\rangle = 0$
-for $x \\in E_\\lambda$, $y \\perp E_\\lambda$. **4.** It makes the
+*Answers:* **1.** $\lambda \langle v, v \rangle = \langle v, T v
+\rangle = \bar{\lambda} \langle v, v \rangle$ in the complexification,
+so $\lambda$ equals its conjugate (Lemma 5.1). **2.** $\langle u, w
+\rangle = \overline{\langle w, u \rangle}$. **3.** $\langle T y, x
+\rangle = \langle y, T x \rangle = \lambda \langle y, x \rangle = 0$
+for $x \in E_\lambda$, $y \perp E_\lambda$. **4.** It makes the
 characteristic polynomial split (via the declared fundamental theorem of
 algebra) while Lemma 5.1 pulls the eigenvalues back to the reals. **5.** $A
 = Q D Q^T$ with $Q$ orthogonal, $D$ real diagonal (Corollary 5.3).
@@ -19159,9 +19159,9 @@ space orthogonally.
 
 ### Where to go next
 
-- [Level 1E: Canonical Forms](/17-core-course/1e-canonical-forms/) – what
-  remains when the map is *not* diagonalisable: Jordan form, rational
-  canonical form, and the structure theorem. Under construction.
+- Level 1E: Canonical Forms – what remains when the map is *not*
+  diagonalisable: Jordan form, rational canonical form, and the structure
+  theorem. Under construction; the link lands here when it ships.
 - [Level 1C: Eigenvectors](/17-core-course/1c-eigenthings/) – the
   eigenvalue machinery this page upgrades to orthonormal bases.
 - [Linear Algebra Done Wrong](https://www.math.brown.edu/~treil/ladw/) –
@@ -22201,8 +22201,8 @@ from six months ago. For every core concept, include:
 
 Skip computational drills. Do classification problems ("classify all groups of
 order 8"), counterexample challenges ("show the theorem fails if axiom X is
-omitted"), and omitted lemmas (when an author writes "the reader can easily
-verify," treat that as mandatory).
+omitted"), and omitted lemmas (when an author defers a verification to the
+reader, treat that as mandatory).
 
 ### Section Checkpoints and Problems
 
