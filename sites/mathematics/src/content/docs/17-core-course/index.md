@@ -83,7 +83,7 @@ below is the complete dependency-ordered syllabus, and it is the build order.
 | 3E | Submanifolds, immersions, submersions, and regular level sets | queued |
 | 3F | Lie groups and group actions | queued |
 | **Level 4 — Global Analysis** | | |
-| 4A | $\\sigma$-algebras and measures | queued |
+| 4A | $\sigma$-algebras and measures | queued |
 | 4B | Construction of the Lebesgue integral: Carathéodory | queued |
 | 4C | Modes of convergence: pointwise, uniform, almost everywhere, in measure | queued |
 | 4D | $L^p$ spaces, Hölder and Minkowski, duality | queued |

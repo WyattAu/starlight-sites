@@ -21253,6 +21253,56 @@ graph TD
     L4 --> L5A
 ```
 
+## The Course Map
+
+Eight chapters are written. The full course is forty-two. Each chapter is a
+book-scale unit with section quick checks and end-of-page problems; the table
+below is the complete dependency-ordered syllabus, and it is the build order.
+
+<div class="table-wrap">
+
+| Chapter | Title | Status |
+|---|---|---|
+| **Level 1 — Language and the Multilinear Engine** | | |
+| 1A | Categories: objects, morphisms, universal properties, functors, adjunctions | written |
+| 1B | Linear algebra: spaces, duality, quotients, determinants, exterior algebra | written |
+| 1C | Eigenvectors, diagonalisation, and the spectral theorem | queued |
+| 1D | Inner products, orthogonality, adjoints, the Gram–Schmidt process | queued |
+| 1E | Canonical forms and the fundamental theorem of linear algebra | queued |
+| **Level 2 — Topology: The Canvas** | | |
+| 2A | Metric spaces, topological spaces, continuity, homeomorphism | written |
+| 2B | Connectedness and compactness, with the IVT and EVT as theorems of space | written |
+| 2C | The quotient topology, gluing, and topological constructions | queued |
+| 2D | Sequences, convergence, completeness, and the $p$-adic warning | queued |
+| 2E | Separation axioms, countability, and metrisation | queued |
+| **Level 3 — Calculus as Linearization** | | |
+| 3A | Smooth manifolds: charts, atlases, smooth maps | written |
+| 3B | Tangent spaces, the differential, the inverse function theorem | written |
+| 3C | Differential forms and the exterior derivative | written |
+| 3D | Integration, orientation, and Stokes | written |
+| 3E | Submanifolds, immersions, submersions, and regular level sets | queued |
+| 3F | Lie groups and group actions | queued |
+| **Level 4 — Global Analysis** | | |
+| 4A | $\sigma$-algebras and measures | queued |
+| 4B | Construction of the Lebesgue integral: Carathéodory | queued |
+| 4C | Modes of convergence: pointwise, uniform, almost everywhere, in measure | queued |
+| 4D | $L^p$ spaces, Hölder and Minkowski, duality | queued |
+| 4E | Product measures and Fubini–Tonelli | queued |
+| 4F | Radon–Nikodym, conditional expectation, martingales | queued |
+| 4G | Fourier series and the Fourier transform | queued |
+| **Level 5 — The Syntheses** | | |
+| 5A | Holomorphic functions: complex differentiability and its rigidity | queued |
+| 5B | Complex integration, Cauchy's theorem, residues | queued |
+| 5C | De Rham cohomology: the degree of a map, the Poincaré lemma | queued |
+| 5D | The Mayer–Vietoris sequence and homotopy invariance | queued |
+| 5E | Groups, rings, and modules through the categorical lens | queued |
+| 5F | Galois theory: symmetry of equations | queued |
+
+</div>
+
+The reference tracks in the sidebar remain the encyclopaedia; this course is
+the path through it.
+
 ## The Mastery Methodology
 
 This course integrates five learning protocols designed for self-directed study
