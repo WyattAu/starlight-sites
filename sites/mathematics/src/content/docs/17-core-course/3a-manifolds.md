@@ -614,10 +614,10 @@ only ever needs to be checked through charts you already trust.
 
 ### Where to go next
 
-- [The Core Course hub](/17-core-course/) – Level 3B (tangent spaces as
-  derivations, the derivative of a smooth map, and the inverse function
-  theorem on manifolds) builds directly on the chart machinery of this
-  page. Under construction.
+- [Level 3B: Tangent Spaces](/17-core-course/3b-tangent-space/) – tangent
+  vectors as derivations on germs, the differential, and the inverse
+  function theorem on manifolds, built directly on the chart machinery of
+  this page.
 - [Level 2: Topology](/17-core-course/2a-topology/) – the Hausdorff,
   second-countable, subspace and product theorems used throughout this
   page, with proofs.
