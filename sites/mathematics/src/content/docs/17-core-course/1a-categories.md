@@ -287,7 +287,7 @@ in topology, the base-change adjunction in geometry.
    $g \circ f = \operatorname{id}_A$.)
 4. Show that the forgetful functor $U: \mathbf{Grp} \to \mathbf{Set}$ is
    faithful but not full. (§4 – faithful: distinct homomorphisms are distinct
-   functions ✓; not full: not every function between underlying sets is a
+   functions; not full: not every function between underlying sets is a
    homomorphism.)
 5. Let $F, F': \mathcal{C} \to \mathcal{D}$ both be left adjoint to the same
    $G: \mathcal{D} \to \mathcal{C}$. Show that the adjunction bijections
@@ -306,7 +306,7 @@ adjunction) is stated in terms of arrows and commutative diagrams – never in
 terms of elements. This is why category theory applies to objects that have no
 elements (the category $\mathbf{Mat}_k$), and why it unifies seemingly unrelated
 areas (the same universal property describes products in $\mathbf{Set}$,
-free groups in $\mathbf{Grp}$, and pullbacks in $\mathbf{Top}$).
+kernels in $\mathbf{Grp}$, and disjoint unions in $\mathbf{Set}$).
 
 ### Where to go next
 

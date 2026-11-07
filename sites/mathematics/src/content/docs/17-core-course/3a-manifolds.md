@@ -568,7 +568,7 @@ applied to $F^{-1} \circ F = \operatorname{id}$ and $F \circ F^{-1} =
 (F^{-1})'(F(x))$ ($n \times m$): $BA = I_n$ and $AB = I_m$. Then
 $\operatorname{im}(AB) = \mathbb{R}^m \subseteq \operatorname{im} A$, so $A$
 is surjective, and by rank–nullity ([Level 1B, Theorem
-1.6](/17-core-course/1b-linear-algebra/)) $m \leq n$; symmetrically $BA =
+1.7](/17-core-course/1b-linear-algebra/)) $m \leq n$; symmetrically $BA =
 I_n$ makes $B$ surjective and gives $n \leq m$. Hence $n = m$.
 $\blacksquare$
 

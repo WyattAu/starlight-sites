@@ -301,12 +301,13 @@ C = \{t \in [a, b] : [a, t] \subseteq A\}
 $$
 
 contains points greater than $a$. $C$ is bounded above by $b$; let $s = \sup
-C$ (completeness axiom), so $a < s \leq b$. First, every point $t < s$ lies
+C$ (completeness axiom), so $a < s \leq b$. First, every point $t \in [a, b]$ with $t < s$ lies
 in $A$: the sup property (ii) gives $u \in C$ with $t < u$, and $[a, t]
 \subseteq [a, u] \subseteq A$. Now if $s \in B$, openness of $B$ gives
-$(s - \varepsilon, s] \subseteq B$ for some $\varepsilon > 0$; but the point
-$s - \varepsilon/2 < s$ lies in $A$ by the previous paragraph, contradicting
-disjointness. So $s \in A$. Openness of $A$ gives $(s - \varepsilon, s +
+$(s - \varepsilon, s] \subseteq B$ for some $\varepsilon > 0$, chosen
+smaller than $2(s - a)$ so that $s - \varepsilon/2 \in [a, b]$; but the
+point $s - \varepsilon/2 < s$ lies in $A$ by the previous paragraph,
+contradicting disjointness. So $s \in A$. Openness of $A$ gives $(s - \varepsilon, s +
 \varepsilon) \cap [a, b] \subseteq A$ for some $\varepsilon > 0$. If $s <
 b$, take $\varepsilon' = \min(\varepsilon/2, (b - s)/2) > 0$: then $[a, s +
 \varepsilon'] \subseteq A$, so $s + \varepsilon' \in C$, contradicting $s =

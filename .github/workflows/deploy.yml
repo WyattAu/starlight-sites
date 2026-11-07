@@ -204,6 +204,9 @@ jobs:
       - name: Content depth validation
         run: node scripts/lint-depth.js
 
+      - name: Site-nav parity validation
+        run: node scripts/lint-site-nav-parity.js
+
       - name: Unit + integration tests
         run: node --test tests/unit/*.test.js tests/integration/*.test.js
 

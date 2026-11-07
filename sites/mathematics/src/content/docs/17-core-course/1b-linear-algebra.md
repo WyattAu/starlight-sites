@@ -32,9 +32,10 @@ dimension counting.
 by finitely many vectors. For spaces not spanned by any finite list, even the
 existence of a basis is equivalent to the axiom of choice; that set-theoretic
 territory is never needed downstream and is avoided here. A **field** is a
-system of scalars with addition, multiplication, and division, such as
-$\mathbb{Q}$, $\mathbb{R}$, or $\mathbb{C}$; nothing below uses more than the
-field axioms.
+system of scalars with addition, multiplication, and division, of
+characteristic different from $2$, such as $\mathbb{Q}$, $\mathbb{R}$, or
+$\mathbb{C}$; nothing below uses more than the field axioms together with $2
+\neq 0$, which the polarisation step of Lemma 4.4 needs.
 
 ## 1. Vector Spaces and Linear Maps
 
@@ -128,15 +129,32 @@ shorter list is already independent. This contradicts the maximality of $S$.
 So the list is independent and spans $V$, i.e. it is a basis extending the
 $u$'s. $\blacksquare$
 
-**Theorem 1.6 (rank–nullity).** For every linear map $T: V \to W$,
+**Theorem 1.6 (subspaces are finitely spanned).** Every subspace $U$ of a
+finitely spanned space $V$ is finitely spanned.
+
+**Proof.** Let $w_1, \dots, w_m$ span $V$. By the exchange lemma (Lemma 1.3),
+every linearly independent list in $V$ has at most $m$ members (apply the
+lemma with the list in question playing the independent part and the $w$'s
+the spanning part). So the independent lists *in $U$* have lengths bounded
+by $m$; among them, choose one of maximal length, $u_1, \dots, u_r$ (the
+empty list qualifies, so a maximal one exists). We claim the $u$'s span $U$.
+If some $u \in U$ lay outside their span, then $u_1, \dots, u_r, u$ would be
+a longer independent list in $U$: a dependence $\sum_i a_i u_i + b u = 0$
+with $b \neq 0$ would solve for $u$ as a combination of the $u$'s, forcing
+$b = 0$, and then all $a_i = 0$ by independence; so the longer list is
+independent, contradicting maximality. Hence the $u$'s span $U$.
+$\blacksquare$
+
+**Theorem 1.7 (rank–nullity).** For every linear map $T: V \to W$,
 
 $$
 \dim V = \dim \ker T + \dim \operatorname{im} T.
 $$
 
-**Proof.** Let $u_1, \dots, u_r$ be a basis of $\ker T$ (if
-$\ker T = \{0\}$ the list is empty and $r = 0$), and extend it to a basis
-$u_1, \dots, u_r, v_1, \dots, v_s$ of $V$ by Lemma 1.5. The images
+**Proof.** The kernel $\ker T$ is a subspace of the finitely spanned $V$, so
+by Theorem 1.6 it is finitely spanned and by Theorem 1.2 it has a basis
+$u_1, \dots, u_r$ (empty, with $r = 0$, if $\ker T = \{0\}$). Extend it to a
+basis $u_1, \dots, u_r, v_1, \dots, v_s$ of $V$ by Lemma 1.5. The images
 $T(v_1), \dots, T(v_s)$ span $\operatorname{im} T$: any $v$ decomposes as
 $\sum_i b_i u_i + \sum_j c_j v_j$, and $T(v) = \sum_j c_j T(v_j)$ because the
 $u$-terms map to zero. They are independent: if $\sum_j a_j T(v_j) = 0$, then
@@ -246,7 +264,7 @@ $v_1 + U = v_1' + U$ and $v_2 + U = v_2' + U$, then
 $(v_1 - v_1') + (v_2 - v_2') \in U$, so
 $(v_1 + v_2) + U = (v_1' + v_2') + U$; likewise for scalars. The vector space
 axioms hold because they hold for representatives. The zero vector is
-$0 + U = U$. The dimension formula follows from rank–nullity (Theorem 1.6)
+$0 + U = U$. The dimension formula follows from rank–nullity (Theorem 1.7)
 applied to the **quotient map** $\pi: V \to V/U$, $\pi(v) = v + U$:
 $\ker \pi = U$ by definition of the relation, and $\pi$ is surjective by
 construction, so $\dim V = \dim U + \dim(V/U)$. $\blacksquare$
@@ -360,14 +378,19 @@ coincide. The alternating $k$-forms form a vector space under pointwise
 operations: every axiom is checked argument by argument, exactly as in
 Theorem 1.1.
 
-**Lemma 4.4 (swapping negates).** An alternating form satisfies: exchanging
-any two arguments negates the value.
+**Lemma 4.4 (swapping negates; the converse).** An alternating form negates
+under the exchange of any two arguments; conversely, a $k$-linear form whose
+values negate under every exchange of two arguments is alternating.
 
 **Proof.** Put $v + w$ into two positions of the form and expand by
 multilinearity in those positions:
 $0 = \omega(v + w, v + w) = \omega(v, v) + \omega(v, w) + \omega(w, v) +
 \omega(w, w) = \omega(v, w) + \omega(w, v)$, the two pure terms vanishing by
-alternation. $\blacksquare$
+alternation; so the value swaps sign under the exchange. Conversely, if
+every exchange negates the value, then $\omega(\dots, v, \dots, v, \dots) =
+-\omega(\dots, v, \dots, v, \dots)$, so $2\,\omega(\dots, v, \dots, v,
+\dots) = 0$, and since the field's characteristic is not $2$ (Scope),
+$\omega(\dots, v, \dots, v, \dots) = 0$. $\blacksquare$
 
 **Lemma 4.5 (sorting).** For $\sigma \in S_n$ and any alternating $n$-form
 $\omega$ on $V$ with basis $e_1, \dots, e_n$:
@@ -456,6 +479,14 @@ $\det B = \sum_{\sigma} \operatorname{sgn}(\sigma) b_{\sigma(1) 1} \cdots
 b_{\sigma(n) n}$. The **determinant** of a linear map $T: V \to V$ is
 $\det T := \det B$, where $B$ is the matrix of $T$ in any basis; Corollary 4.9
 shows the choice of basis does not matter.
+
+**Convention (matrices).** The **matrix of $T$ in a basis** is the array
+whose $j$-th column holds the coordinates of $T e_j$; matrices act on
+coordinate columns by producing coordinates, and the matrix of a composition
+is the product of the matrices, because the $j$-th column of the product $BC$
+is $B$ applied to the $j$-th column of $C$, which is exactly the image of
+$e_j$ under the composition $S \circ T$ computed in coordinates. This
+columnwise check is the only matrix-composition fact used below.
 
 **Theorem 4.8 (multiplicativity).** For linear maps $S, T: V \to V$,
 $\det(S \circ T) = \det(S) \det(T)$.
