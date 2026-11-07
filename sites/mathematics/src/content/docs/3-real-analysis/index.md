@@ -11,7 +11,7 @@ tags:
 description: "Real analysis reconstructs the calculus on a rigorous foundation. Where the introductory calculus takes the real numbers, limits, and continuity as informal"
 ---
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

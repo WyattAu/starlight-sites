@@ -7,8 +7,7 @@ description: "This section covers electricity and magnetism concepts, definition
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. If Electricity And Magnetism feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -32,7 +31,6 @@ This section covers key physical principles, from classical mechanics to modern 
 
 Revision works best in one direction here: read Electricity And Magnetism, attempt the practice problems cold, and only then check the worked solutions.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

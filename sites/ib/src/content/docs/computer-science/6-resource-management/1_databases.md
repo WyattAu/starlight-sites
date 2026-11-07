@@ -657,7 +657,6 @@ CREATE TABLE Student (
     gpa FLOAT CHECK (gpa >= 0.0 AND gpa <= 4.0)
 );
 
-
 **Constraints:**
 
 <div class="table-wrap">
@@ -680,12 +679,10 @@ ALTER TABLE Student ADD COLUMN phone VARCHAR(20);
 ALTER TABLE Student DROP COLUMN phone;
 ALTER TABLE Student MODIFY COLUMN email VARCHAR(200);
 
-
 **DROP TABLE:**
 
 sql
 DROP TABLE Student;
-
 
 ### Data Manipulation Language (DML)
 
@@ -698,7 +695,6 @@ VALUES (1, 'Alice', 'Smith', 'alice@school.edu', '2005-06-15');
 INSERT INTO Student (studentID, firstName, lastName)
 VALUES (2, 'Bob', 'Jones');
 
-
 **UPDATE:**
 
 sql
@@ -708,14 +704,10 @@ sql
 UPDATE Student SET email = 'newemail@school.edu'
 WHERE lastName = 'Jones' AND firstName = 'Bob';
 
-
-
-
 **DELETE:**
 
 sql
 DELETE FROM Student WHERE studentID = 2;
-
 
 :::caution
 TABLE Student deletes both the data and the table structure. Be certain which one you intend.
@@ -731,14 +723,12 @@ sql
 SELECT firstName, lastName, gpa FROM Student;
 SELECT * FROM Student;
 
-
 **WHERE clause:**
 
 sql
 SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa >= 3.5 AND enrollmentYear = 2023;
-
 
 **Comparison operators in WHERE:** =, <>, <, >, $\le$, $\ge$, BETWEEN, LIKE, IN
 IS NULL, IS NOT NULL.
@@ -750,12 +740,10 @@ SELECT firstName, lastName, gpa
 FROM Student
 ORDER BY gpa DESC, lastName ASC;
 
-
 **DISTINCT:**
 
 sql
 SELECT DISTINCT department FROM Teacher;
-
 
 **LIMIT:**
 
@@ -764,7 +752,6 @@ SELECT firstName, lastName, gpa
 FROM Student
 ORDER BY gpa DESC
 LIMIT 10;
-
 
 ### Worked Example: Writing SQL Queries
 
@@ -801,7 +788,6 @@ FROM Student
 WHERE gradeLevel = 11 AND gpa > 3.5
 ORDER BY gpa DESC;
 
-
 Result: Carol Williams (3.9), Alice Smith (3.8)
 
 **Query 2: Count of students per grade level**
@@ -811,7 +797,6 @@ SELECT gradeLevel, COUNT(*) AS numStudents
 FROM Student
 GROUP BY gradeLevel
 ORDER BY gradeLevel;
-
 
 Result:
 
@@ -832,7 +817,6 @@ SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa = (SELECT MAX(gpa) FROM Student);
 
-
 Result: Carol Williams (3.9)
 
 Alternative using subquery comparison:
@@ -841,7 +825,6 @@ sql
 SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa >= ALL (SELECT gpa FROM Student);
-
 
 </details>
 
@@ -869,7 +852,6 @@ SELECT department, COUNT(*) AS numTeachers, AVG(salary) AS avgSalary
 FROM Teacher
 GROUP BY department;
 
-
 **HAVING:** Filters groups after GROUP BY. HAVING operates on aggregated values; WHERE operates on
 Individual rows before grouping.
 
@@ -878,7 +860,6 @@ SELECT department, COUNT(*) AS numTeachers
 FROM Teacher
 GROUP BY department
 HAVING COUNT(*) >= 3;
-
 
 ### Joins
 
@@ -892,7 +873,6 @@ FROM Student
 INNER JOIN Enrollment ON Student.studentID = Enrollment.studentID
 INNER JOIN Course ON Enrollment.courseID = Course.courseID;
 
-
 **LEFT JOIN (LEFT OUTER JOIN):** Returns all rows from the left table, and matched rows from the
 Right table. Unmatched rows from the right table are filled with NULL.
 
@@ -901,7 +881,6 @@ SELECT Student.firstName, Student.lastName, Course.courseName
 FROM Student
 LEFT JOIN Enrollment ON Student.studentID = Enrollment.studentID
 LEFT JOIN Course ON Enrollment.courseID = Course.courseID;
-
 
 This returns all students, including those who are not enrolled in any course (their courseName will
 be NULL).
@@ -917,7 +896,6 @@ FROM Student
 FULL OUTER JOIN Enrollment ON Student.studentID = Enrollment.studentID
 FULL OUTER JOIN Course ON Enrollment.courseID = Course.courseID;
 
-
 **Self-join:** A table joined with itself. Useful for hierarchical data or finding relationships
 Within the same entity.
 
@@ -925,7 +903,6 @@ sql
 SELECT e1.firstName AS employee, e2.firstName AS manager
 FROM Employee e1
 INNER JOIN Employee e2 ON e1.managerID = e2.employeeID;
-
 
 ### Comparison of Join Types
 
@@ -975,7 +952,6 @@ SELECT Student.firstName, Enrollment.courseID, Enrollment.grade
 FROM Student
 LEFT JOIN Enrollment ON Student.studentID = Enrollment.studentID
 ORDER BY Student.firstName, Enrollment.courseID;
-
 
 <details>
 <summary>Solution</summary>
@@ -1043,7 +1019,6 @@ FROM Enrollment
 GROUP BY studentID
 HAVING COUNT(*) > 1;
 
-
 **Result:**
 
 <div class="table-wrap">
@@ -1072,7 +1047,6 @@ SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa > (SELECT AVG(gpa) FROM Student);
 
-
 **Subquery with IN:**
 
 sql
@@ -1081,7 +1055,6 @@ FROM Student
 WHERE studentID IN (
     SELECT studentID FROM Enrollment WHERE courseID = 101
 );
-
 
 **Subquery with EXISTS:**
 
@@ -1092,7 +1065,6 @@ WHERE EXISTS (
     SELECT 1 FROM Enrollment e
     WHERE e.studentID = s.studentID AND e.grade = 'F'
 );
-
 
 EXISTS returns TRUE if the subquery returns at least one row. It is efficient because it stops
 Searching as soon as a match is found.
@@ -1107,7 +1079,6 @@ WHERE gpa > (
     SELECT AVG(gpa) FROM Student
     WHERE department = s.department
 );
-
 
 This finds students whose GPA exceeds the average GPA of their own department.
 
@@ -1134,7 +1105,6 @@ WHERE studentID IN (
     SELECT studentID FROM Enrollment WHERE grade = 'A'
 );
 
-
 The subquery returns {1, 3}. The outer query finds Alice and Carol.
 
 **(b) INNER JOIN with DISTINCT:**
@@ -1144,7 +1114,6 @@ SELECT DISTINCT Student.firstName, Student.lastName
 FROM Student
 INNER JOIN Enrollment ON Student.studentID = Enrollment.studentID
 WHERE Enrollment.grade = 'A';
-
 
 DISTINCT is needed because a student could have multiple A grades, which would produce duplicate
 Rows without it.
@@ -1165,7 +1134,6 @@ SELECT firstName, lastName, gpa
 FROM Student
 WHERE gpa >= 3.5
 ORDER BY gpa DESC;
-
 
 **Updatable views:** A view is updatable if it meets certain conditions: it is based on a single
 Table, it does not contain DISTINCT, GROUP BY, HAVING, or aggregate functions, and it includes the
@@ -1214,12 +1182,10 @@ UPDATE Account SET balance = balance + 100 WHERE accountID = 'B';
 
 COMMIT;
 
-
 If an error occurs before COMMIT:
 
 sql
 ROLLBACK;
-
 
 ### Worked Example: Transaction with ROLLBACK
 
@@ -1237,7 +1203,6 @@ UPDATE Account SET balance = balance + 100 WHERE accountID = 'B';
 
 -- What happens now?
 
-
 <details>
 <summary>Solution</summary>
 
@@ -1245,7 +1210,6 @@ Because the second UPDATE fails, the transaction must be rolled back:
 
 sql
 ROLLBACK;
-
 
 After ROLLBACK:
 
@@ -1266,7 +1230,6 @@ If both statements had succeeded:
 
 sql
 COMMIT;
-
 
 The changes would be permanent (**Durability**).
 
@@ -1312,7 +1275,6 @@ CREATE TABLE Enrollment (
         ON DELETE RESTRICT
 );
 
-
 Deleting a student cascades to delete their enrollment records. Deleting a course that has
 enrollments is restricted (blocked).
 
@@ -1344,7 +1306,6 @@ To delete the course, you must first delete (or reassign) all enrollments that r
 sql
 DELETE FROM Enrollment WHERE courseID = 101;
 DELETE FROM Course WHERE courseID = 101;
-
 
 </details>
 
@@ -1383,7 +1344,6 @@ CREATE TABLE Employee (
     deptID INTEGER,
     FOREIGN KEY (deptID) REFERENCES Department(deptID)
 );
-
 
 <details>
 <summary>Solution</summary>
@@ -1694,7 +1654,6 @@ CREATE TABLE Enrollment (
         ON DELETE RESTRICT
 );
 
-
 Key decisions:
 
 - Composite primary key {studentID, courseID} -- a student can enroll in a course only once
@@ -1731,7 +1690,6 @@ SELECT firstName, lastName, gpa
 FROM Student
 ORDER BY gpa DESC
 LIMIT 3;
-
 
 Result:
 
@@ -1780,7 +1738,6 @@ FROM Student
 WHERE COUNT(*) > 1
 GROUP BY gradeLevel;
 
-
 Correct:
 
 sql
@@ -1788,7 +1745,6 @@ SELECT gradeLevel, COUNT(*) AS numStudents
 FROM Student
 GROUP BY gradeLevel
 HAVING COUNT(*) > 1;
-
 
 The WHERE clause is evaluated before rows are grouped, so aggregate functions like COUNT(*) are
 not Yet defined. HAVING is evaluated after grouping, when aggregates are available.
@@ -1822,7 +1778,6 @@ WHERE studentID NOT IN (
     SELECT studentID FROM Enrollment
 );
 
-
 Alternative using LEFT JOIN:
 
 sql
@@ -1830,7 +1785,6 @@ SELECT Student.firstName, Student.lastName
 FROM Student
 LEFT JOIN Enrollment ON Student.studentID = Enrollment.studentID
 WHERE Enrollment.studentID IS NULL;
-
 
 Alternative using NOT EXISTS:
 
@@ -1841,7 +1795,6 @@ WHERE NOT EXISTS (
     SELECT 1 FROM Enrollment e
     WHERE e.studentID = s.studentID
 );
-
 
 All three approaches return the same result. NOT EXISTS is the most efficient for large Datasets
 because it stops searching as soon as a match is found.
@@ -1868,7 +1821,6 @@ What does the following SQL statement do? Is it dangerous?
 sql
 UPDATE Student SET gpa = 4.0;
 
-
 <details>
 <summary>Solution</summary>
 
@@ -1879,7 +1831,6 @@ The safe version:
 
 sql
 UPDATE Student SET gpa = 4.0 WHERE studentID = 3;
-
 
 Always double-check UPDATE and DELETE statements for a WHERE clause before executing them. In
 production systems, you can wrap destructive operations in a transaction and use SELECT first to
@@ -1920,7 +1871,6 @@ SELECT * FROM Student WHERE email IS NULL;
 
 -- Find rows where column has a value
 SELECT * FROM Student WHERE email IS NOT NULL;
-
 
 </details>
 
@@ -1983,7 +1933,6 @@ sql
 SELECT Student.firstName, Course.courseName
 FROM Student
 CROSS JOIN Course;
-
 
 If Student has 5 rows and Course has 3 rows, how many rows are in the result?
 
@@ -2067,7 +2016,6 @@ WHERE e1.salary > (
     WHERE e2.departmentID = e1.departmentID
 );
 
-
 This requires a **correlated subquery** because the average must be computed **per department**, and
 the Department changes for each row in the outer query. The inner query references e1.departmentID
 from The outer query, so it is re-evaluated for each employee.
@@ -2104,7 +2052,6 @@ SELECT Student.firstName, Student.lastName, Enrollment.grade
 FROM Student
 INNER JOIN Enrollment ON Student.studentID = Enrollment.studentID
 WHERE Enrollment.courseID = 101;
-
 
 **Advantage:** Security -- teachers of other courses cannot see the full Student table. They only
 see The subset of data relevant to course 101 through this view.
@@ -2161,7 +2108,6 @@ CREATE TABLE Membership (
     FOREIGN KEY (clubID) REFERENCES Club(clubID) ON DELETE CASCADE
 );
 
-
 Answer all parts:
 
 (a) Explain the effect of ON DELETE SET NULL on the Club table's teacherID foreign key. (b) Write
@@ -2185,7 +2131,6 @@ INNER JOIN Membership ON Student.studentID = Membership.studentID
 GROUP BY Student.studentID, Student.name
 HAVING COUNT(*) >= 2;
 
-
 **(c)**
 
 sql
@@ -2194,7 +2139,6 @@ FROM Club
 INNER JOIN Membership ON Club.clubID = Membership.clubID
 GROUP BY Club.clubID, Club.clubName
 HAVING COUNT(*) > 5;
-
 
 **(d)** The teacherID column in any Club row where teacherID = 3 is set to NULL. The club record
 is preserved; only the reference to the teacher is cleared. If ON DELETE CASCADE had been used

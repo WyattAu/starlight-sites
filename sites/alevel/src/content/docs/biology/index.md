@@ -7,7 +7,7 @@ description: "This section covers biology concepts, definitions, and application
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. The Biology section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 

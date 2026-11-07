@@ -109,4 +109,3 @@ intersection. Vehicles on other roads must yield to you.
 
 - [Driving Laws](/driving-laws/eu-driving-laws/) - EU driving regulations
 - [Theory Test](/theory-test/practice-eu-theory/) - Practice questions
-

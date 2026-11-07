@@ -7,7 +7,7 @@ description: "This section covers demos concepts, definitions, and applications 
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 This section covers essential mathematical techniques and theories. If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -197,4 +197,3 @@ Linear algebra studies vector spaces and linear maps between them. Core concepts
 - Cross-references to related topics
 
 ## Study Tips
-

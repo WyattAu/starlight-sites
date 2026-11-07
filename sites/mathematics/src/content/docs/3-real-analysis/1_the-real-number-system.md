@@ -17,7 +17,6 @@ description: 'This chapter assumes the reader is comfortable with: Comprehensive
 }
 </script>
 
-
 ## Recall prompts
 
 Attempt these from memory *before* reading.

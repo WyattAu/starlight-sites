@@ -7,7 +7,7 @@ description: "Diagnostic test notes for alevel Diagnostics covering key concepts
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 

@@ -7,7 +7,7 @@ description: "This section covers redox and electrochemistry concepts, definitio
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Revision works best in one direction here: read Redox And Electrochemistry, attempt the practice problems cold, and only then check the worked solutions.
 

@@ -11,7 +11,7 @@ tags:
 description: "Multivariable calculus extends the differential and integral calculus to functions of several real variables. The partial derivative generalises the"
 ---
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

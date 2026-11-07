@@ -102,7 +102,6 @@ Euler: $(-1)^{(p-1)/2} = 1$ iff $p \equiv 1 \pmod 4$.
 
 Mod 11, the QRs are $\{1, 3, 4, 5, 9\}$; exactly $(11-1)/2 = 5$ classes. Verify by squaring $1, \ldots, 10$ and note the symmetry $x$ and $11 - x$ share a square.
 
-
 $$
 \left(\frac{a}{p}\right) \equiv a^{(p-1)/2} \pmod p
 $$
@@ -110,7 +109,6 @@ $$
 Euler's criterion doubles as a computation recipe: exponentiate and read the sign. For
 $p = 23$, $a = 5$: $5^{11} \equiv -1 \pmod{23}$, so 5 is a non-residue and $x^2 \equiv 5$ has
 no solution. Pair this with reciprocity for a two-mark derivation.
-
 
 $$
 \left(\frac{a}{p}\right) \equiv a^{(p-1)/2} \pmod p

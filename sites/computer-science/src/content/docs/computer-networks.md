@@ -506,7 +506,7 @@ void wifi_send(frame *f) {
         wait(SIFS);
         wait_for_ACK(timeout);
         if (!received_ACK()) {
-            backoff = choose_random(0, 2^min(n,10) - 1) * slot_time;
+            backoff = choose_random(0, 2^min(n,10) - 1)* slot_time;
             wait(backoff);
             retry_count++;
         }

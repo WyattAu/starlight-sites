@@ -122,7 +122,6 @@ round yellow advance-warning sign.
 
 </div>
 
-
 ## Marking Catalog
 
 <div class="table-wrap">

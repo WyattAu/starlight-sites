@@ -30,7 +30,6 @@ vectors, vectorised operations instead of loops, seeded reproducibility, and
 the plot-as-evidence pattern -- and ends with a self-test.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

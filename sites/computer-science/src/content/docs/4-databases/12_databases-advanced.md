@@ -148,7 +148,6 @@ FUNCTION(args) OVER (
     [frame_clause]
 )
 
-
 **Frame specification:**
 
 $$
@@ -201,7 +200,6 @@ SELECT salesperson, month, amount,
        ) AS running_total
 FROM Sales;
 
-
 Result: | salesperson | month | amount | running_total |
 
 <div class="table-wrap">
@@ -222,7 +220,6 @@ SELECT salesperson, month, amount,
        ROW_NUMBER() OVER (PARTITION BY salesperson ORDER BY amount DESC) AS rn
 FROM Sales;
 
-
 If Alice had amounts 7000, 7000, 5000: RANK = (1, 1, 3), DENSE_RANK = (1, 1, 2), ROW_NUMBER = (1, 2,
 3).
 
@@ -240,14 +237,12 @@ SELECT salesperson,
 FROM Sales
 GROUP BY salesperson;
 
-
 **Unpivoting (columns to rows):**
 
 sql
 SELECT salesperson, month, amount
 FROM MonthlySales
 UNPIVOT (amount FOR month IN (jan_total, feb_total, mar_total));
-
 
 **Gaps and Islands.** Identifying consecutive sequences (e.g., consecutive login days):
 
@@ -256,13 +251,12 @@ WITH numbered AS (
     SELECT user_id, login_date,
            login_date - ROW_NUMBER() OVER (
                PARTITION BY user_id ORDER BY login_date
-           ) * INTERVAL '1 day' AS grp
+           ) *INTERVAL '1 day' AS grp
     FROM Logins
 )
 SELECT user_id, MIN(login_date) AS streak_start, MAX(login_date) AS streak_end, COUNT(*) AS streak_length
 FROM numbered
 GROUP BY user_id, grp;
-
 
 ### 2.3 Recursive CTEs for Graph Traversal
 
@@ -276,7 +270,6 @@ WITH RECURSIVE reachable(node, depth, path) AS (
     WHERE NOT (e.end_node = ANY(r.path))  -- prevent cycles
 )
 SELECT * FROM reachable WHERE depth <= 5;
-
 
 :::caution
 Always include a cycle check (e.g., tracking the path or visited nodes) or a depth limit. PostgreSQL
@@ -787,13 +780,11 @@ full. Split.
 
 Final R-tree:
 
-
          Root (MBR: 1,1,8,7)
         /                   \
   [R1,R2] (1,1,4,4)    [R3,R4] (5,1,8,7)
                           |        \
                       [R3]      [R4]   [R5] (1,5,3,7)
-
 
 Wait, this structure doesn't work cleanly. R-trees require careful split algorithms. The key
 takeaway is that R-trees group nearby spatial objects together and split when nodes overflow.
@@ -834,7 +825,6 @@ WITH RECURSIVE hierarchy AS (
 )
 SELECT * FROM hierarchy ORDER BY level, name;
 
-
 ### 11.2 Window Functions for Time Series
 
 **Moving average:**
@@ -848,7 +838,6 @@ SELECT date, value,
 FROM StockPrices
 WHERE symbol = 'AAPL';
 
-
 **Year-over-year growth:**
 
 sql
@@ -858,7 +847,6 @@ SELECT year, quarter, revenue,
            / LAG(revenue, 4) OVER (PARTITION BY symbol ORDER BY year, quarter) * 100 AS yoy_pct
 FROM Financials
 WHERE symbol = 'ACME';
-
 
 ### 11.3 Materialised Views
 
@@ -901,7 +889,6 @@ UPDATE Accounts SET balance = balance - 200 WHERE id = 2;
 ROLLBACK TO sp1;
 UPDATE Accounts SET balance = balance - 50 WHERE id = 2;
 COMMIT;
-
 
 ### 12.2 Isolation Level Anomalies
 
@@ -1134,7 +1121,6 @@ SELECT department_id,
 FROM Employee
 GROUP BY department_id;
 
-
 **PERCENTILE_CONT** interpolates (continuous); **PERCENTILE_DISC** returns an actual value from the
 data set (discrete).
 
@@ -1152,7 +1138,6 @@ MATCH_RECOGNIZE (
     DEFINE A AS A.price < PREV(A.price),
            B AS B.price > PREV(B.price)
 ) AS v_shaped;
-
 
 This finds "V-shaped" price patterns (consecutive decreases followed by consecutive increases).
 
@@ -1177,7 +1162,6 @@ SELECT * FROM Employee FOR SYSTEM_TIME AS OF '2025-01-01 00:00:00';
 -- Query all historical changes
 SELECT * FROM Employee FOR SYSTEM_TIME FROM '2025-01-01' TO '2025-12-31';
 
-
 ### 17.4 JSON and XML Support
 
 **JSON functions (PostgreSQL):**
@@ -1200,7 +1184,6 @@ WHERE data->>'type' = 'click';
 -- Index on JSONB
 CREATE INDEX idx_events_type ON events USING gin ((data->>'type'));
 
-
 **Theorem 17.1.** JSONB in PostgreSQL stores data in a decomposed binary format, enabling efficient
 indexing and querying. JSON (without the B) stores the exact text, which is faster to insert but
 slower to query.
@@ -1208,7 +1191,6 @@ slower to query.
 ## 18. Distributed Transactions: Two-Phase Commit Details
 
 ### 18.1 2PC Message Flow
-
 
 Coordinator          Participant 1        Participant 2
     |                      |                    |
@@ -1222,7 +1204,6 @@ Coordinator          Participant 1        Participant 2
     |--- COMMIT ----------------------------->|
     |<-- ACK -------------|                    |
     |<-- ACK ----------------------------------|
-
 
 **Failure scenarios:**
 
@@ -1288,7 +1269,6 @@ bank accounts where the invariant "total balance >= 0" is violated.
 
 **Problem 10.** A database uses ARIES recovery. The log contains (at the time of crash):
 
-
 [LSN 001] BEGIN T1
 [LSN 002] UPDATE T1 A: old=5, new=10
 [LSN 003] BEGIN T2
@@ -1296,7 +1276,6 @@ bank accounts where the invariant "total balance >= 0" is violated.
 [LSN 005] COMMIT T1
 [LSN 006] UPDATE T2 C: old=1, new=4
 [LSN 007] CHECKPOINT (dirty: A, B, C; active: T2)
-
 
 Describe the analysis, redo, and undo phases.
 
@@ -1482,7 +1461,6 @@ flowchart TD
     E --> P[Data Vault]
     E --> Q[Slowly Changing Dimensions]
     F --> R[CP vs AP Systems]
-
 
 ## Summary
 

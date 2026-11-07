@@ -8,7 +8,7 @@ title: "Pure Mathematics"
 description: "A-Level Maths Pure Mathematics notes covering key definitions, core concepts, worked examples, and practice questions for targeted exam preparation and mastery."
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

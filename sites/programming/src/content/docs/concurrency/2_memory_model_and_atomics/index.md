@@ -7,8 +7,7 @@ description: "This section covers 2_memory_model_and_atomics concepts, definitio
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: McConnell - Code Complete
-
+- text: McConnell - Code Complete
 
 This section covers programming language concepts, from syntax and type systems to algorithms and design patterns. Understanding these foundations enables effective software development and problem-solving.
 
@@ -34,7 +33,6 @@ This section covers programming language concepts, from syntax and type systems 
 
 Work through the Programming sections in order, starting with Compilation Model and Concurrency and building toward Compilation Model, Concurrency, Enviroment And Toolchain, Function Architecture, Object Oriented, Resource Management, Standard Library, Templates And Metaprogramming and Types, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

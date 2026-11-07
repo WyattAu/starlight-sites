@@ -1216,7 +1216,6 @@ Most parsimonious tree (based on fewest changes):
 
 E (outgroup)
 
-
 Node 1 (root): splits E from {A,B,C,D}. Synapomorphy: character 1. Node 2: splits {A,B} from {C,D}.
 Synapomorphy: character 2. Node 3: splits A from B. No unambiguous synapomorphy (character 4 in A
 and character 5 in B are Autapomorphies or homoplasies). Node 4: splits C from D. No clear
@@ -1816,12 +1815,10 @@ Gene B (fast clock, rate $= 5 \times 10^{-9}$ substitutions/site/year):
 (a) **Gene A**: the smallest distance is between species 2 and 3 ($6/1000$). The larger distances
 are Species 1 vs 2 ($12/1000$) and species 1 vs 3 ($18/1000$). Since $12 + 6 = 18$ The tree is:
 
-
      ┌── Species 2 (6 substitutions from node)
 ─────┤
      └────── Species 3 (12 from node)
          (root)── Species 1
-
 
 Species 2 and 3 are sister taxa; species 1 is the outgroup.
 

@@ -7,8 +7,7 @@ description: "Diagnostic test notes for dse Diagnostics covering key concepts, w
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers microeconomic and macroeconomic theory, from market structures to fiscal policy. These models provide the analytical framework for evaluating real-world economic questions.
 
@@ -38,7 +37,6 @@ This section covers microeconomic and macroeconomic theory, from market structur
 
 Work through the DSE sections in order, starting with Biology and Chemistry and building toward Biology, Chemistry, Economics, Geography, History, Ict, Maths, Physics and Zh, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

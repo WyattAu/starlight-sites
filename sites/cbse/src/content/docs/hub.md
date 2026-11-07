@@ -43,7 +43,6 @@ categories:
 
 ## Why This Guide Exists
 
-
 :::note[Heading to university next?]
 These notes are calibrated to your exam. University mathematics and physics are
 not: they assume you can read a proof, define a limit from the epsilon-delta

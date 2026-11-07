@@ -100,7 +100,7 @@ convergent sequences.
 **Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
 $K \in L^2([0,1]^2)$ is compact. If $f_n \rightharpoonup f$, then $T f_n \to T f$ in $L^2$.
 
-#**Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
+# **Example.** In $L^2([0,1])$, the integral operator $(Tf)(x) = \int_0^1 K(x, y) f(y)\, dy$ with
 $K \in L^2([0,1]^2)$ is compact. If $f_n \rightharpoonup f$, then $T f_n \to T f$ in $L^2$.
 
 ## Proofs

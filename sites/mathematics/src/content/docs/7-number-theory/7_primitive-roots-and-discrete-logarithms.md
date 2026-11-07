@@ -105,7 +105,6 @@ $\gcd(k, p-1) = 1$.
 
 Solve $3^x \equiv 5 \pmod 7$ using index tables base 3: $\operatorname{ind}_3(5) = 5$ and $\operatorname{ind}_3(3) = 1$, so $x \equiv 5 \pmod 6$; the linear-congruence method from the CRT page.
 
-
 $$
 \operatorname{ind}_g(ab) \equiv \operatorname{ind}_g(a) + \operatorname{ind}_g(b)
 \pmod{\varphi(n)}
@@ -114,7 +113,6 @@ $$
 Index arithmetic converts multiplication problems into linear congruences. To compute
 $3^{17} \pmod{7}$ when 3 has order 6: reduce the exponent 17 modulo 6 to 5, and read off
 $3^5 \equiv 5 \pmod 7$ from the power table. State the order reduction step explicitly.
-
 
 $$
 \operatorname{ind}_g(ab) \equiv \operatorname{ind}_g(a) + \operatorname{ind}_g(b)

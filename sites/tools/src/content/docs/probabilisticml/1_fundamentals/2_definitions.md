@@ -1168,10 +1168,8 @@ neural network weights are often initialized with Gaussian distributions.
 Let $\mathcal{F}$ be a class of measurable functions. The empirical measure $\hat{P}_n$
 satisfies the ULLN if:
 
-
 \sup_{f \in \mathcal{F}} \left| \int f \, d\hat{P}_n - \int f \,
 dP \right| \xrightarrow{a.s.} 0
-
 
 A function class $\mathcal{F}$ is called **Glivenko-Cantelli** if this holds. This is the
 actual theoretical backbone of Statistical Learning Theory and ERM, ensuring uniform convergence
@@ -1184,17 +1182,13 @@ function and $f: \mathcal{X} \to \mathcal{Y}$ be a hypothesis (predictor).
 
 The **True Risk** (or expected risk) is the expected loss under the true data distribution:
 
-
 \mathcal{R}(f) = \mathbb{E}_{(X,Y) \sim
 P}[\ell(f(X), Y)]
 
-
 The **Empirical Risk** is the average loss over the observed training samples:
-
 
 \hat{\mathcal{R}}*n(f) = \frac{1}{n}\sum_{i=1}^n
 \ell(f(x_i), y_i)
-
 
 _Connection to LLN:_ The Law of Large Numbers guarantees
 $\hat{\mathcal{R}}_n(f) \to \mathcal{R}(f)$ for a _fixed_ $f$. The ULLN extends
@@ -1205,12 +1199,10 @@ this to uniform convergence over a hypothesis class $\mathcal{H}$.
 **Hoeffding's Inequality:** Let $X_1, \dots, X_n$ be independent random variables bounded such that
 $a_i \leq X_i \leq b_i$. Then for any $t > 0$:
 
-
 P\left( \left| \frac{1}{n}\sum_{i=1}^n X_i -
 \mathbb{E}\left[\frac{1}{n}\sum_{i=1}^n X_i\right]
 \right| \geq t \right) \leq 2\exp\left(-\frac{2n^2t^2}{\sum_{i=1}^n(b_i -
 a_i)^2}\right)
-
 
 _Relevance:_ Provides high-probability bounds for bounded random variables; foundational for
 generalization bounds in SLT.
@@ -1219,17 +1211,13 @@ generalization bounds in SLT.
 variables. If $f: \mathcal{X}^n \to \mathbb{R}$ satisfies the bounded
 differences condition:
 
-
 \sup_{x_1, \dots, x_n, x_i'} |f(x_1, \dots, x_n) - f(x_1, \dots, x_{i-1}, x_i',
 x_{i+1}, \dots, x_n)| \leq c_i
 
-
 Then for any $t > 0$:
-
 
 P(|f(X\*1, \dots, X_n) - \mathbb{E}[f(X_1, \dots, X_n)]| \geq t) \leq
 2\exp\left(-\frac{2t^2}{\sum_{i=1}^n c_i^2}\right)
-
 
 _Relevance:_ Generalizes Hoeffding to functions of random variables; used to prove generalization
 bounds for arbitrary learning algorithms.
@@ -1240,12 +1228,10 @@ Let $\mathcal{F}$ be a class of functions
 $f: \mathcal{X} \to \mathbb{R}$ and let $S = \{x_1, \dots, x_n\}$ be a fixed
 sample. The **empirical Rademacher complexity** of $\mathcal{F}$ with respect to $S$ is:
 
-
 \hat{\mathfrak{R}}*S(\mathcal{F}) =
 \mathbb{E}_{\sigma}\left[ \sup_{f \in
 \mathcal{F}} \frac{1}{n}\sum_{i=1}^n \sigma_i f(x_i)
 \right]
-
 
 Where $\sigma_1, \dots, \sigma_n$ are i.i.d. Rademacher random variables
 ($P(\sigma_i = +1) = P(\sigma_i = -1) = 1/2$).
@@ -1304,10 +1290,8 @@ Stein score $\nabla_x \log p_t(x)$ appears in the reverse-time SDE.
 A **filtration** $\{\mathcal{F}_t\}_{t \geq 0}$ is an increasing family of
 $\sigma$-algebras indexed by time (discrete or continuous):
 
-
 \mathcal{F}_s \subseteq \mathcal{F}_t \subseteq
 \mathcal{F} \quad \mathrm{for} all {} s \leq t
-
 
 _Intuition:_ $\mathcal{F}_t$ represents the information available at time $t$. As time
 progresses, we gain more information (the $\sigma$-algebra grows).
@@ -1329,10 +1313,8 @@ information in $\mathcal{F}_t$.
 A stochastic process $\{X_t\}_{t \geq 0}$ adapted to a filtration $\{\mathcal{F}_t\}$ is a
 **martingale** if:
 
-
 \mathbb{E}[X_t | \mathcal{F}_s] = X_s \quad
 \mathrm{for} all {} s \leq t
-
 
 _Variants:_
 
@@ -1357,9 +1339,7 @@ $\kappa: S \times \mathcal{T} \to [0, 1]$ is a Markov Kernel (or probability ker
 A sequence of random variables $X_0, X_1, X_2, \dots$ taking values in a measurable space
 $(S, \mathcal{S})$ is a **Markov Chain** if it satisfies the Markov property:
 
-
 P(X_{n+1} \in B | X_0, \dots, X_n) = P(X_{n+1} \in B | X_n) = \kappa(X_n, B)
-
 
 Where $\kappa$ is the transition kernel.
 
@@ -1368,9 +1348,7 @@ Where $\kappa$ is the transition kernel.
 A probability measure $\pi$ on $(S, \mathcal{S})$ is a **stationary distribution** (or
 invariant measure) for a Markov kernel $\kappa$ if:
 
-
 \pi(B) = \int_S \kappa(x, B) \, d\pi(x) \quad \forall B \in \mathcal{S}
-
 
 _Relevance:_ Required for MCMC algorithms. The chain converges to $\pi$ under appropriate
 conditions.
@@ -1403,10 +1381,8 @@ There exists a family of probability measures $\{\mu_x\}_{x \in S}$ on $T$, uniq
 everywhere, such that for every bounded measurable function
 $f: S \times T \to \mathbb{R}$:
 
-
 \int_{S \times T} f(x, y) \, d\mu(x, y) = \int_S \left( \int_T f(x, y) \, d\mu_x(y) \right)
 d\nu(x)
-
 
 The measures $\mu_x$ are called the conditional probabilities of $Y$ given $X=x$, formally justifying
 the notation $P(Y \in B | X=x)$.
@@ -1430,7 +1406,6 @@ function $\kappa: \Omega \times \mathcal{S} \to [0, 1]$ such that:
 
 \int_G \kappa(\omega, B) \, dP(\omega) = P(X^{-1}(B) \cap G)
 
-
 **Key Distinction from Regular Conditional Probability:**
 
 - **Regular Conditional Probability** evaluates the probability of target sets given a
@@ -1452,26 +1427,21 @@ variable $Z$ satisfying:
 
 \int_G Z \, dP = \int_G X \, dP
 
-
 Note that $\mathbb{E}[X|\mathcal{G}]$ is the orthogonal projection of $X$ onto
 the subspace of $\mathcal{G}$-measurable functions if $X \in L^2$.
 
 If regular conditional distribution $\kappa$ exists, then:
 
-
 \mathbb{E}[X|\mathcal{G}] (\omega) = \int_S s \,
 \kappa(\omega, ds)
-
 
 ### Conditional Fréchet Mean
 
 If $S$ is a metric space $(S, d)$, the Conditional Fréchet Mean is the minimizer of the conditional
 Fréchet variance. Given the Regular Conditional Distribution $\kappa(\omega, \cdot)$ defined above:
 
-
 \mu_{\mathcal{G}}(\omega) = \underset{y \in S}{\arg\min}
 \int_S d^2(y, s) \, \kappa(\omega, ds)
-
 
 :::caution
 **Rigor Note:** For the integral $\int_S s \, \kappa(\omega, ds)$ in the context of a
@@ -1508,9 +1478,7 @@ $\mathcal{Q}= \{P_\theta \in \mathcal{M}_1(S, \mathcal{B}(S)) : P_\theta = \psi(
 A parametric family of distributions $\{P_\theta : \theta \in \Theta\}$ with densities $p(x|\theta)$
 belongs to the **exponential family** if it can be written in the form:
 
-
 P(x|\theta) = h(x) \exp\left(\langle \eta(\theta), T(x) \rangle - A(\theta)\right)
-
 
 Where:
 
@@ -1542,10 +1510,8 @@ Given a dominated model with reference measure $\lambda$, the density
 $f_\theta = \frac{dP_\theta}{d\lambda}$ exists. For a fixed observation $s \in S$, the likelihood
 function $L_s: \Theta \rightarrow [0, \infty)$ is defined by:
 
-
 \begin{equation} L_s(\theta) = f_{\theta}(s), \quad \text{where } f_{\theta} =
 \frac{dP_{\theta}}{d\lambda} \end{equation}
-
 
 ### Bayes' Theorem (Measure-Theoretic)
 
@@ -1554,17 +1520,13 @@ $\Pi$. Let $P_\theta$ be the likelihood (data distribution) for each $\theta \in
 observation $x$, the **posterior distribution** $\Pi(\cdot | x)$ is defined via the Radon-Nikodym
 derivative:
 
-
 \frac{d\Pi(\cdot | x)}{d\Pi}(\theta) = \frac{p(x | \theta)}{\int\_\Theta p(x |
 \theta') \, d\Pi(\theta')}
 
-
 Equivalently, in measure notation:
-
 
 \Pi(d\theta | x) = \frac{p(x | \theta)}{\int\_\Theta p(x | \theta') \, \Pi(d\theta')}
 \Pi(d\theta)
-
 
 Where $p(x | \theta) = \frac{dP_\theta}{d\lambda}(x)$ is the likelihood density with respect to a
 reference measure $\lambda$.
@@ -1581,9 +1543,7 @@ parameter spaces uniformly.
 Let $\{P_\theta : \theta \in \Theta\}$ be a parametric model with densities $f(x; \theta)$. The
 **Fisher score function** is the gradient of the log-likelihood with respect to parameters:
 
-
 S(x; \theta) = \nabla\_\theta \log f(x; \theta)
-
 
 _Properties:_
 
@@ -1598,9 +1558,7 @@ analysis.
 In modern ML, particularly Score-Based Generative Models and Diffusion Models, the "score" refers to
 the **Stein score** (or data score):
 
-
 S(x) = \nabla_x \log p(x)
-
 
 This is the gradient of the log-density with respect to the **data** $x$, not the parameters $\theta$.
 The Stein score points in the direction of steepest increase in log-probability within the data
@@ -1617,15 +1575,11 @@ _Key Distinction:_
 
 For two probability measures $P$ and $Q$ on $(\Omega, \mathcal{F})$:
 
-
 \delta(P, Q) = \sup_{A \in \mathcal{F}} |P(A) - Q(A)|
-
 
 If measures possess densities $p$ and $q$ w.r.t a reference measure $\mu$:
 
-
 \delta(P, Q) = \frac{1}{2} \int\_\Omega |p(x) - q(x)| \, d\mu(x)
-
 
 ### Fisher Information (Matrix)
 
@@ -1633,11 +1587,9 @@ Let $\{P_\theta : \theta \in \Theta\}$ be a parametric model with densities $f(x
 regularity conditions (twice differentiability), the Fisher Information Matrix
 $\mathcal{I}(\theta)$ is:
 
-
 \mathcal{I}(\theta)_{ij} = \mathbb{E}_{x
 \sim P\_\theta} \left[ \frac{\partial}{\partial \theta_i} \log f(x; \theta) \cdot
 \frac{\partial}{\partial \theta_j} \log f(x; \theta) \right]
-
 
 It represents the curvature of the KL-divergence near $\theta$.
 
@@ -1647,10 +1599,8 @@ Let $P$ and $Q$ be two probability measures on $(S, \mathcal{F})$. If $P \ll Q$,
 Kullback-Leibler Divergence is defined as the expectation of the log-likelihood ratio with respect
 to $P$:
 
-
 D_{KL}(P \| Q) = \int_S \log \left( \frac{dP}{dQ} \right) \, dP =
 \mathbb{E}*{x \sim P} \left[ \log \frac{dP}{dQ}(x) \right]
-
 
 If $P \not\ll Q$, then $D_{KL}(P \| Q) = +\infty$.
 

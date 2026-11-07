@@ -7,8 +7,7 @@ description: "Diagnostic test notes for gcse Diagnostics covering key concepts, 
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -35,7 +34,6 @@ This section covers key physical principles, from classical mechanics to modern 
 
 Use the diagnostic tests to find out whether Diagnostics needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

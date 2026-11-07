@@ -186,4 +186,3 @@ testing when lawfully arrested for DUI.
 - [Traffic Rules](/rules/traffic-rules/) - Traffic laws
 - [Right-of-Way](/rules/right-of-way/) - Intersection rules
 - [Defensive Driving](/safe-driving/defensive-driving/) - Safe techniques
-

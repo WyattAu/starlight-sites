@@ -89,7 +89,6 @@ Return to the [Languages Hub](/hub/) to compare languages, or jump into a specif
 
 Each language site in the network covers these concepts in depth with worked examples, start from the Languages Hub to navigate.
 
-
 ## Paradigms
 
 **Functional Programming**: Programmes built from pure functions and immutable data; Haskell is pure by default, Elixir is functional on the BEAM, and every mainstream language now borrows its ideas.
@@ -133,7 +132,6 @@ Each language site in the network covers these concepts in depth with worked exa
 **Coroutines**: Suspendable functions generalising async/await; Kotlin's structured concurrency and Python's async generators are coroutine-based.
 
 **Sum Type (Tagged Union)**: A value holding exactly one of several typed variants, Rust's enum, Swift's enum with associated values, Haskell's data declarations.
-
 
 ## Cross-Language Quick Reference
 

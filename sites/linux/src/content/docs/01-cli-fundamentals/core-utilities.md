@@ -84,7 +84,6 @@ grep -F "file.name" search.log
 # Color output
 grep --color=always "pattern" file
 
-
 #### BRE vs ERE vs PCRE
 
 <div class="table-wrap">
@@ -147,7 +146,6 @@ sed -e 's/foo/bar/g' -e 's/baz/qux/g' file.txt
 # Edit using a script file
 sed -f commands.sed file.txt
 
-
 #### Advanced sed Patterns
 
 bash
@@ -177,7 +175,6 @@ sed 's/\(word1\) \(word2\)/\2 \1/' file.txt  # swap two words
 
 # Extended regex mode (cleaner syntax)
 sed -E 's/(https?):\/\/([^/]+)(.*)/\2/' urls.txt
-
 
 ### awkPattern-Directed Scanning and Processing
 
@@ -217,11 +214,10 @@ awk '{count[$1]++} END {for (word in count) print word, count[word]}' words.txt
 # Output formatting (printf)
 awk '{printf "%-15s %8.2f %5d\n", $1, $2, $3}' report.txt
 
-
 #### awk Programming Constructs
 
 awk
-#!/usr/bin/awk -f
+# !/usr/bin/awk -f
 # Log analyzer, count HTTP status codes
 
 BEGIN {
@@ -243,7 +239,6 @@ END {
     printf "\nTotal requests: %d\n", total
 }
 
-
 bash
 # Process CSV-like data
 awk -F, 'NR > 1 {total += $3 * $4} END {printf "Revenue: USD %.2f\n", total}' sales.csv
@@ -256,7 +251,6 @@ awk 'FNR==1 {print "=== " FILENAME " ==="} {print}' *.log
 
 # System calls from within awk
 awk '{print | "sort -rn"}' unsorted.txt
-
 
 ### sort, uniq, wc, cut, tr
 
@@ -301,7 +295,6 @@ echo "Hello World" | tr '[:lower:]' '[:upper:]'  # POSIX character classes
 tr -cd '[:print:]' &lt; binary_file          # keep only printable characters
 echo "HELLO" | tr 'A-Z' 'a-z' | tr -d '\n' # chain transformations
 
-
 ### Pipeline Combinations
 
 bash
@@ -322,7 +315,6 @@ awk '{print $9}' access.log | sort | uniq -c | sort -rn | head -10
 
 # Replace all occurrences across multiple files
 find . -name "*.conf" -exec sed -i 's/oldhost.example.com/newhost.example.com/g' {} +
-
 
 ## File Operations
 
@@ -374,7 +366,6 @@ find . -type f -exec chmod 644 {} \;        # change permissions
 find . -type f -exec ls -lh {} +            # batch mode (efficient)
 find . -name "*.py" -exec grep -l "TODO" {} +  # find files containing TODO
 
-
 ### find -exec vs find -exec ... + vs xargs
 
 bash
@@ -392,7 +383,6 @@ find . -name "*.log" -print0 | xargs -0 -P 4 gzip
 
 # xargs with replacement string
 find . -name "*.c" -print0 | xargs -0 -I {} cp {} /backup/
-
 
 <div class="table-wrap">
 
@@ -434,7 +424,6 @@ find . -name "*.bak" | xargs -p rm
 # Replace string
 find . -name "*.c" | xargs -I @ gcc @ -o @.o
 
-
 ### lnSymbolic and Hard Links
 
 bash
@@ -460,7 +449,6 @@ readlink /path/to/symlink       # show immediate target
 # Find broken symlinks
 find / -type l ! -exec test -e {} \; -print
 
-
 mermaid
 graph LR
     A[Directory Entry 1<br/>name: file.txt] -->|points to| C[Inode 12345]
@@ -469,7 +457,6 @@ graph LR
     E[Symlink Entry<br/>name: link.txt] -->|points to| F[Inode 67890]
     F -->|contains path string| G["path: /path/to/file.txt"]
     G -.->|resolved by VFS| C
-
 
 ### statFile Metadata
 
@@ -497,7 +484,6 @@ stat -c '%i %U %G %a %s %y' /etc/passwd
 
 # Compare two files
 stat -c '%i' file1 file2   # same inode = hard links
-
 
 ## Archiving and Compression
 
@@ -534,7 +520,6 @@ tar -dvf archive.tar
 
 # Preserve permissions, ownership, timestamps
 tar --preserve-permissions --same-owner -xvf archive.tar
-
 
 ### Compression Formats
 
@@ -573,7 +558,6 @@ zstd -d file.txt.zst      # decompress
 # bzip2: ~60 MiB in 45s
 # xz:    ~45 MiB in 60s
 # zstd:  ~55 MiB in 3s
-
 
 ### rsyncIncremental File Transfer
 
@@ -618,7 +602,6 @@ text
 Type   Owner    Group    Other
 ----   -----    -----    -----
 -       rwx      r-x      r--
-
 
 <div class="table-wrap">
 
@@ -668,7 +651,6 @@ chmod -R 755 /var/www/html/
 # Reference mode
 chmod --reference=reference_file target_file
 
-
 ### Special Permission Bits
 
 <div class="table-wrap">
@@ -705,7 +687,6 @@ Can be used for privilege escalation. Audit SUID files regularly:
 bash
 find / -perm -4000 -type f -exec ls -la {} \; 2>/dev/null
 
-
 ### umask
 
 umask controls the default permissions for newly created files and directories. It is a **mask**,
@@ -726,7 +707,6 @@ umask 0077     # files: 600 (666 - 077), directories: 700 (777 - 077)
 # 0027, group-readable, not world-readable
 # 0077, private (only owner)
 # 0007, group-writable (for shared directories)
-
 
 The math: default_permissions & ~umask. For files: 0666 & ~0022 = 0644. For directories:
 0777 & ~0022 = 0755. Note that most programs do not create files with execute bits set by default,
@@ -766,7 +746,6 @@ setfacl -m m::rwx /path/to/file
 getfacl -R /path > acl_backup
 setfacl --restore=acl_backup
 
-
 ACL evaluation order:
 
 1. If the process is the file owner, use owner permissions.
@@ -793,7 +772,6 @@ chown -R user:group /var/www/html/
 # Reference
 chown --reference=ref_file target_file
 
-
 ## Common Pitfalls
 
 ### Pitfall: grep Returning Non-Zero on No Matches
@@ -815,14 +793,13 @@ fi
 
 # Fix 3: grep --fail-with-zero-context option (GNU grep 2.36+)
 
-
 ### Pitfall: find -exec rm with Filenames Containing Spaces
 
 bash
 # WRONG, word splitting on spaces
 find . -name "*.tmp" -exec rm {} \;
 
-# Actually, -exec {} \; is safe. The real problem is piping to xargs:
+# Actually, -exec {} \; is safe. The real problem is piping to xargs
 # WRONG
 find . -name "*.tmp" | xargs rm
 
@@ -830,7 +807,6 @@ find . -name "*.tmp" | xargs rm
 find . -name "*.tmp" -print0 | xargs -0 rm
 # or
 find . -name "*.tmp" -delete
-
 
 ### Pitfall: sort Stability
 
@@ -840,7 +816,6 @@ Reordered:
 bash
 # Stable sort, preserves original order of equal elements
 sort -s -k2,2n data.txt
-
 
 ### Pitfall: sed -i on Symlinks
 
@@ -859,7 +834,6 @@ awk '$3 == 1.1' data.txt    # may miss matches
 # CORRECT, use a tolerance
 awk '$3 > 1.0999 && $3 < 1.1001' data.txt
 
-
 ### Pitfall: tr Does Not Read Files
 
 tr reads from stdin only. To process a file, redirect input:
@@ -872,7 +846,6 @@ tr 'a-z' 'A-Z' file.txt
 tr 'a-z' 'A-Z' &lt; file.txt
 # or
 cat file.txt | tr 'a-z' 'A-Z'
-
 
 ### Pitfall: tar and Absolute Paths
 
@@ -889,7 +862,6 @@ tar --strip-components=1 -xvf archive.tar
 # Extract to a specific directory
 tar --directory /tmp/extract -xvf archive.tar
 
-
 ### Pitfall: chmod +x on Files Without Read Permission
 
 A file can be executable but not readable. For scripts, this means the shell cannot read the file to
@@ -899,7 +871,6 @@ Regular compiled binaries can still be executed without read permission.
 bash
 chmod 111 binary     # execute-only, works for compiled binaries
 chmod 111 script.sh  # fails, shell needs to read the script
-
 
 ### Pitfall: xargs with Empty Input
 
@@ -911,7 +882,6 @@ true | xargs echo
 
 # CORRECT, use -r (or --no-run-if-empty)
 true | xargs -r echo
-
 
 ### Pitfall: sort -h Availability
 

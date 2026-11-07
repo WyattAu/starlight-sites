@@ -97,7 +97,6 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-
 
 **Validation Stability Definition**: The practical standard: complete your benchmark suite plus a daily-driver workload list with zero errors, WHEA events, or crashes over a defined soak period.
 
-
 ## Bench and Monitoring Terms
 
 **HWiNFO**: The standard Windows sensor suite, per-core clocks, VRM temps, power draw, and bus utilisation with logging for correlation against stress runs.
@@ -135,7 +134,6 @@ Return to the [Tuning Hub](/hub/) for per-component guides, or see Linux for OS-
 **Hot Spot vs Edge Temp**: The die's internal junction temperature versus the measured edge sensor; a large delta signals mounting or paste problems.
 
 **VRAM Junction Temp**: GDDR6/6X memory temperature, often the true throttle trigger at high memory offsets, invisible on edge sensors.
-
 
 ## Tuning Workflow Reference
 

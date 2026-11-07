@@ -7,8 +7,7 @@ description: "This section covers redox concepts, definitions, and applications 
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. If index feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -32,7 +31,6 @@ This section covers fundamental chemical principles, from atomic structure and b
 
 Use the diagnostic tests to find out whether index needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

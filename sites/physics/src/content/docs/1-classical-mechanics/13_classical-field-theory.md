@@ -11,7 +11,7 @@ tags:
 description: "For a field The Lagrangian density replaces the discrete Lagrangian : Comprehensive educational content coverage with definitions and practice problems."
 ---
 sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
+- text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

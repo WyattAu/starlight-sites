@@ -13,7 +13,6 @@ graph TD
     R -->|catalyst| P
 ```
 
-
 **Accuracy**: How close a measurement is to the true or accepted value. Related to [Precision](/glossary/).
 
 **Atom**: The smallest unit of an element that retains the chemical properties of that element. Consists of a nucleus (protons + neutrons) and electrons.

@@ -8,7 +8,7 @@ title: "Nuclear & Quantum Physics"
 description: "This section covers nuclear & quantum physics concepts, definitions, and applications with worked examples and practice problems."
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -183,13 +183,13 @@ Each page in this section includes:
 
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <!-- Breadcrumb Schema for SEO -->
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <script type="application/ld+json">
 sources:
   - text: Standard textbook reference
@@ -210,13 +210,13 @@ sources:
   - text: Standard textbook reference
 </script>
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <!-- Course Schema for SEO -->
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <script type="application/ld+json">
 sources:
   - text: Standard textbook reference
@@ -282,22 +282,22 @@ sources:
   - text: Standard textbook reference
 </script>
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Intuition
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Nuclear and quantum physics is about the very small, atoms, nuclei, and subatomic particles. At this scale, the rules of everyday life break down. Particles can behave like waves. Electrons can be in multiple places at once. Radioactive decay is fundamentally random, you can predict how many atoms will decay, but not which ones.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 The binding energy curve is the key to understanding nuclear energy. Iron-56 sits at the peak, it's the most stable nucleus. Splitting heavier nuclei (fission) releases energy because the products are more tightly bound. Combining lighter nuclei (fusion) also releases energy for the same reason. This is why the Sun shines (fusion) and why nuclear power plants work (fission). Einstein's $E = mc^2$ tells you how much energy is released: even a tiny mass defect corresponds to enormous energy because $c^2$ is so large.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference

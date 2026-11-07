@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for 2_build_sy
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for 2_build_system. If 2_build_system feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 
@@ -35,7 +34,6 @@ This section provides study materials and resources for 2_build_system. If 2_bui
 
 Use the diagnostic tests to find out whether 2_build_system needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

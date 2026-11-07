@@ -7,8 +7,7 @@ description: "This section covers cefr levels concepts, definitions, and applica
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language proficiency assessment across CEFR levels. These materials support preparation for standardised language examinations.
 
@@ -35,7 +34,6 @@ This section covers language proficiency assessment across CEFR levels. These ma
 
 Work through the Language Tests sections in order, starting with Cefr Levels and Practice and building toward Cefr Levels and Practice, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

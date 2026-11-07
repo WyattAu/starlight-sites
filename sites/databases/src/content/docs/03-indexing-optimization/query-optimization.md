@@ -584,7 +584,7 @@ SET plan_cache_mode = auto;
 :::
 
 :::note
-Transactions. Use the ` prepared_statements` option or driver-side prepared statement emulation.
+Transactions. Use the `prepared_statements` option or driver-side prepared statement emulation.
 
 ## Auto-Vacuum Tuning
 

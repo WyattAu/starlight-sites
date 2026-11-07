@@ -55,7 +55,7 @@ The answer; the idea that makes the computation feasible; is the Euclidean algor
 reason the Euclidean algorithm works is a property of the integers that most people never think
 to question: the **division algorithm**. This page builds from the division algorithm to Bézout's
 identity to the extended Euclidean algorithm, and each step earns the next.
-
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 > **Exercise 0.1.** Before reading further, try to find $\gcd(252, 198)$ by listing all divisors
 > of each number. Then notice how much faster the method on this page will be.
 
@@ -84,7 +84,7 @@ $bx + cy = a(mx + ny)$, so $a$ divides the result. $\blacksquare$
 
 This "linearity" is what makes divisibility proofs work: to show $n \mid f(n) - g(n)$, show
 $n$ divides each term separately.
-
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 > **Exercise 0.3.** Show that if $n \mid a - b$ and $n \mid c - d$, then $n \mid ac - bd$.
 > *Hint:* add and subtract $bc$.
 
@@ -123,10 +123,10 @@ the way $\mathbb{Z}$'s does. When it does decrease, the ring has unique factoris
 $\mathbb{Z}[i]$); when it doesn't, it doesn't (like $\mathbb{Z}[\sqrt{-5}]$). The division
 algorithm is not just a computational tool; it is the property that makes the entire edifice of
 arithmetic stand.
-
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 > **Exercise 0.4.** Prove the division algorithm for $b < 0$ by reducing to the case $b > 0$.
 > What changes in the inequality $0 \leq r < |b|$?
-
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 > **Exercise 0.5.** Show that for any integer $a$, $a^2 - a$ is divisible by 3.
 > *Hint:* $a \equiv 0, 1, \text{ or } 2 \pmod 3$; but you can also prove it by factoring
 > $a^2 - a = a(a - 1)$ and checking two consecutive integers.
@@ -174,11 +174,11 @@ itself an element of $S$; because $S$ is closed under subtraction of elements of
 by$. This is exactly the argument that shows every ideal of $\mathbb{Z}$ is principal, and it is
 the proof template for Bézout domains in ring theory. The Euclidean algorithm doesn't just compute
 a gcd; it proves a structural theorem about the integers.
-
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 > **Exercise 0.6.** Find $\gcd(12, 42)$ and Bézout coefficients. Then find *all* solutions to
 > $12x + 42y = 6$.
 > *Answer:* $\gcd = 6$; $12(-3) + 42(1) = 6$; all solutions are $x = -3 + 7t$, $y = 1 - 2t$.
-
+<!-- separate exercises; a bare blank would fuse the quotes (MD028) -->
 > **Exercise 0.7.** Show that $\gcd(a, b) = \gcd(a, b - a) = \gcd(a, a + b)$.
 > *Why this matters:* this is the mathematical basis of the subtraction-based Euclidean algorithm
 > that Euclid actually wrote down (Elements, Book VII, Propositions 1–2).

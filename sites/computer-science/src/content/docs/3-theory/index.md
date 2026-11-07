@@ -8,7 +8,7 @@ title: "Theory | Computer Science - Wyatt's Notes"
 description: "Theoretical computer science establishes the formal foundations of the discipline. It addresses fundamental questions about what can be computed, how"
 ---
 sources:
-  - text: Cormen et al - Introduction to Algorithms
+- text: Cormen et al - Introduction to Algorithms
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

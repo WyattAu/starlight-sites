@@ -125,4 +125,3 @@ Language conventions are the traffic rules of writing, they keep communication f
 - [Grammar](/reading/grammar/) -- The language section tests grammar rules including subject-verb agreement, pronoun clarity, and punctuation.
 - [Essay](/writing/essay/) -- Editing and revising skills transfer directly to constructing well-organised evidence-based essays.
 - [Comprehension](/reading/comprehension/) -- Understanding passage meaning is essential for making effective rhetorical revisions.
-

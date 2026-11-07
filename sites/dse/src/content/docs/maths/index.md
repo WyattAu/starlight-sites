@@ -8,7 +8,7 @@ description: 'DSE Maths Mathematics notes covering key definitions, core concept
 tableOfContents: false
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -175,4 +175,3 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-

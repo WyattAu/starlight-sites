@@ -155,4 +155,3 @@ incorrect redirect URLs, verify these headers are passed through correctly.
 - [Remote Operations](/git/04-remotes-and-workflows/01-remote-operations/) covers the standard Git remote commands used to interact with a self-hosted Gitea instance.
 - [Workflows](/git/04-remotes-and-workflows/02-workflows/) defines team collaboration patterns that a Gitea server enables for self-hosted teams.
 - [Pull Requests](/git/04-remotes-and-workflows/03-pull-requests/) describes the code review process that Gitea supports natively.
-

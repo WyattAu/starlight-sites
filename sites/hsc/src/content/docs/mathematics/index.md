@@ -7,8 +7,7 @@ description: "This section covers mathematics concepts, definitions, and applica
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers essential mathematical techniques and theories. Use the diagnostic tests to find out whether Mathematics needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -45,7 +44,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

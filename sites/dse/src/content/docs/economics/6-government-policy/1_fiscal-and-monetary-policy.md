@@ -1613,4 +1613,3 @@ success in this subject.
 > > > > > > > Stashed changes:docs/docs_dse/Economics/fiscal-and-monetary-policy.md
 
 ## Worked Examples
-

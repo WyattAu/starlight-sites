@@ -7,8 +7,7 @@ description: "This section covers structure bonding concepts, definitions, and a
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Use the diagnostic tests to find out whether Structure Bonding needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -44,7 +43,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

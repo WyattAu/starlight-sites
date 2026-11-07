@@ -7,7 +7,7 @@ description: "This section covers programming concepts, definitions, and applica
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Programming feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 

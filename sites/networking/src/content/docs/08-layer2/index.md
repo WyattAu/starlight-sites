@@ -7,8 +7,7 @@ description: "This section covers layer2 concepts, definitions, and applications
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -44,7 +43,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

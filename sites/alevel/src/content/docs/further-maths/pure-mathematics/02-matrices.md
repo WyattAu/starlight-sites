@@ -1263,8 +1263,6 @@ Therefore $\text{tr}\,\mathbf{A} = \lambda_1 + \lambda_2 + \cdots + \lambda_n$. 
 
 </details>
 
-
-
 ## Cross-References
 
 - [Complex Numbers](/further-maths/pure-mathematics/01-complex-numbers/) -- Complex eigenvalues lead to rotation-scaling transformations, connecting matrix theory to the geometry of complex arithmetic.

@@ -10,7 +10,7 @@ categories: [alevel, geography]
 description: 'A-Level Geography notes covering key definitions, core concepts, worked examples, and practice questions for solid study and examination practice.'
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -114,13 +114,13 @@ A-Level Geography is assessed through three written papers and a non-examined fi
 
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <!-- Breadcrumb Schema for SEO -->
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <script type="application/ld+json">
 sources:
   - text: Standard textbook reference
@@ -141,13 +141,13 @@ sources:
   - text: Standard textbook reference
 </script>
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <!-- Course Schema for SEO -->
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 <script type="application/ld+json">
 sources:
   - text: Standard textbook reference
@@ -213,43 +213,43 @@ sources:
   - text: Standard textbook reference
 </script>
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 > **Source**: Content aligned with AQA Geography (7037) specification. Case studies drawn from
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 > widely-used textbooks and publicly available data.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Overview
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 This section provides comprehensive A-Level Geography content for Geography, covering all specification points with detailed explanations, worked examples, and practice questions.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Content Structure
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Each page in this section includes:
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - **Definitions**: Clear, precise explanations of key concepts
 sources:
   - text: Standard textbook reference
@@ -267,37 +267,37 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## How to Use These Notes
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 1. Read the introductory page to understand the topic overview
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 2. Work through each sub-topic in order
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 3. Attempt the practice questions before checking solutions
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 4. Use the flashcards to revise key terminology
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 5. Complete the diagnostic test to identify remaining gaps
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Key Topics
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - Core definitions and principles
 sources:
   - text: Standard textbook reference
@@ -312,13 +312,13 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Revision Strategies
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 - **Active Recall**: Test yourself regularly rather than re-reading notes
 sources:
   - text: Standard textbook reference
@@ -333,34 +333,34 @@ sources:
   - text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Exam Preparation
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Focus on command word interpretation and mark scheme analysis. Practice timing yourself on questions to build speed and accuracy. Review examiner reports for this topic to understand common student errors.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ## Intuition
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 Geography is the study of how people and places interact. Physical geography examines the natural systems that shape our planet, while human geography explores how societies organize and modify those systems. The subject connects local observations to global patterns: a single flood event in Cumbria reveals the same hydrological principles that govern river systems worldwide. Understanding geography means seeing connections between topics that appear unrelated, such as how climate change affects both coastal erosion and food security.
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -434,4 +434,3 @@ This page includes:
 - **Elaborative Interrogation**: Ask yourself why each concept works
 
 ## Exam Preparation
-

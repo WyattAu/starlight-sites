@@ -159,4 +159,3 @@ When finished, attempt the.
 - **[Number Systems](/computer-science/fundamentals/01-number-systems/):** Binary systems are foundational to computing
 - **[Boolean Algebra](/computer-science/fundamentals/03-boolean-algebra/):** Logic gates underpin digital circuits
 - **[Programming](/computer-science/programming/01-programming-constructs/):** Programming translates algorithms into code
-

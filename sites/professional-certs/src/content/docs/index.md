@@ -10,7 +10,7 @@ tags:
   - test-prep
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 # Professional Certifications
 

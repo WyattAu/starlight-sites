@@ -132,7 +132,6 @@ This introduction provides comprehensive coverage of I18n content for the Ib qua
 
 - [Zh](./)
 
-
 ## Advanced Content
 
 This section provides detailed coverage of advanced concepts, including full derivations, proofs, and extended examples.

@@ -7,8 +7,7 @@ description: "This section covers circuits concepts, definitions, and applicatio
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Use the diagnostic tests to find out whether Circuits needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -44,7 +43,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

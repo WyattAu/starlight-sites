@@ -109,7 +109,6 @@ congruence.
 
 Solve $x \equiv 1 \pmod 6$, $x \equiv 7 \pmod{10}$: $\gcd(6, 10) = 2$ and $1 \equiv 7 \equiv 1 \pmod 2$, so solutions exist. Combine into $x \equiv 7 \pmod{\mathrm{lcm}(6,10) = 30}$, i.e. $x = 7, 37, \ldots$
 
-
 $$
 x = a_1 M_1 y_1 + a_2 M_2 y_2, \qquad M_i = M/m_i, \quad M = m_1 m_2
 $$

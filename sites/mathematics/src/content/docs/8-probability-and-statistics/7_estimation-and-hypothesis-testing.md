@@ -529,7 +529,6 @@ only provides evidence against $H_0$; absence of evidence is not evidence of abs
 distinction is critical in scientific Reasoning.
 :::
 
-
 ## Counterexamples worth knowing by name
 
 <div class="table-wrap">

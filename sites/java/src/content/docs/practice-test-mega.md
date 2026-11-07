@@ -794,7 +794,7 @@ public class Main {
 
 **Correct: B** (index 1)
 
-`reduce(1, (a, b) -> a * b)` computes the product: 1 * 1 * 2 * 3 * 4 * 5 = 120. The identity value is 1 (multiplicative identity). `IntStream.rangeClosed(1, 5)` produces the stream 1, 2, 3, 4, 5.
+`reduce(1, (a, b) -> a * b)` computes the product: 1 *1* 2 *3* 4 * 5 = 120. The identity value is 1 (multiplicative identity). `IntStream.rangeClosed(1, 5)` produces the stream 1, 2, 3, 4, 5.
 
 `easy`1 mark
 

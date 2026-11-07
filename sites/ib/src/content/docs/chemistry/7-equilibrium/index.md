@@ -7,7 +7,7 @@ description: "This section covers equilibrium concepts, definitions, and applica
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers fundamental chemical principles, from atomic structure and bonding to reaction kinetics and equilibrium. Work through Equilibrium alongside the practice problems for Chemistry, then let the diagnostic tests tell you whether it stuck.
 

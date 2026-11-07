@@ -8,7 +8,7 @@ title: "Fundamentals"
 description: "A-Level Computer Science Fundamentals notes covering key definitions, core concepts, worked examples, and practice questions for complete revision."
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

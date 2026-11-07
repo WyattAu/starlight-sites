@@ -354,7 +354,6 @@ stateDiagram-v2
     s1 --> g1 : Sublimation (heat in)
     g1 --> s1 : Deposition (heat out)
 
-
 Energy flows **in** for solid → liquid → gas and flows **out** for the reverse; the direction of
 each arrow's heat label is examinable.
 

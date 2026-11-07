@@ -11,7 +11,7 @@ tags:
   - University
 ---
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

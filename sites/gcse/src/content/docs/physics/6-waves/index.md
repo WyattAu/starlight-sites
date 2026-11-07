@@ -7,7 +7,7 @@ description: "This section covers waves concepts, definitions, and applications 
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. The Physics section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 

@@ -172,7 +172,7 @@ The IB Mathematics AA syllabus is structured like a journey from concrete to abs
 |  | Definite Integration | SL & HL | Evaluating the definite integral using the Fundamental Theorem of Calculus. | \int_a^b f(x)\,dx = [F(x)]_a^b = F(b) - F(a) |
 |  | Area Under a Curve | SL & HL | Using definite integration to find the area between a curve and the x-axis. | A = \int_a^b f(x)\,dx when f(x) \ge 0; split at roots where f(x) changes sign |
 |  | Area Between Two Curves | SL & HL | Finding the enclosed area between two functions over a given interval. | A = \int_a^b [f(x) - g(x)]\,dx where f(x) \ge g(x) on [a, b] |
-|  | Trapezoidal Rule | SL & HL | Numerical approximation of a definite integral; accuracy increases with more trapezia. | \int_a^b f(x)\,dx \approx (h/2)[y_0 + 2y_1 + 2y_2 + \cdots + 2y_{n-1} + y_n] where h = (b-a)/n |
+|  | Trapezoidal Rule | SL & HL | Numerical approximation of a definite integral; accuracy increases with more trapezia. | \int_a^b f(x)\,dx \approx [h/2](y_0 + 2y_1 + 2y_2 + \cdots + 2y_{n-1} + y_n) where h = (b-a)/n |
 |  | Kinematics: Displacement and Velocity | SL & HL | Displacement, velocity, and acceleration as functions of time. | v = ds/dt; a = dv/dt = d^2s/dt^2; s = \int v\,dt; v = \int a\,dt |
 |                                   | Kinematics: Total Distance Travelled         | SL & HL | Finding total distance travelled from a velocity-time graph.                                                                    | Total distance = \int_a^b                                                                                                                                            | v(t)                                               | \,dt; split where v(t) changes sign                                          |                                  |                                |                     |     |
 |  | Implicit Differentiation | HL Only | Differentiating equations where y is defined implicitly as a function of x. | d/dx[y^n] = ny^{n-1}\,dy/dx; d/dx[xy] = y + x\,dy/dx |
@@ -620,4 +620,3 @@ If you get this wrong, revise: Separable differential equations (HL, Topic 5).
 ## Summary
 
 ## Worked Examples
-

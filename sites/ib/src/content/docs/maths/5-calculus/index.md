@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for calculus. 
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for calculus. Use the diagnostic tests to find out whether Calculus needs another pass before your exam, rather than revising topics you have already mastered.
 
@@ -35,7 +34,6 @@ This section provides study materials and resources for calculus. Use the diagno
 
 Work through Calculus alongside the practice problems for Maths, then let the diagnostic tests tell you whether it stuck.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

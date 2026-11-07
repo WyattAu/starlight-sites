@@ -10,7 +10,7 @@ tags:
 description: 'Topology: comprehensive educational content notes with precise definitions, worked examples, common pitfalls, and practice problems.'
 ---
 sources:
-  - text: Spivak - Calculus
+- text: Spivak - Calculus
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

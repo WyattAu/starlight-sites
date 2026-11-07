@@ -207,4 +207,3 @@ In electrostatic equilibrium, the electric field inside a conductor is always ze
 ### Mistake 3: Forgetting that electric field is a vector and must be added as such
 
 When calculating the net electric field from multiple charges, students often add the magnitudes directly instead of resolving into components. Electric field is a vector quantity: $\vec{E}_{net} = \vec{E}_1 + \vec{E}_2 + \ldots$. For two charges, you must find the angle between the field vectors and add components: $E_x = E_1\cos\theta_1 + E_2\cos\theta_2$ and $E_y = E_1\sin\theta_1 + E_2\sin\theta_2$.
-

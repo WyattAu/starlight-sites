@@ -32,7 +32,6 @@ first -- it is the foundation every later page uses -- or browse the
 [curriculum](/1-probabilistic-machine-learning/) for the dependency chain.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

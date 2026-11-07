@@ -8,7 +8,7 @@ title: "Magnetic Effects of Current and Magnetism"
 description: "This section covers magnetic effects of current and magnetism concepts, definitions, and applications with worked examples and practice problems."
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

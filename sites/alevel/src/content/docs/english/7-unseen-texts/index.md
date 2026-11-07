@@ -7,8 +7,7 @@ description: "This section covers unseen texts concepts, definitions, and applic
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers literary analysis, language techniques, and critical writing skills. Work through Unseen Texts alongside the practice problems for English, then let the diagnostic tests tell you whether it stuck.
 
@@ -44,7 +43,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

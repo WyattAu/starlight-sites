@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for best pract
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for best practices. Work through Best Practices alongside the practice problems for Best Practices, then let the diagnostic tests tell you whether it stuck.
 
@@ -33,7 +32,6 @@ This section provides study materials and resources for best practices. Work thr
 
 The Best Practices section pairs worked examples with the common mistakes examiners see most, so misunderstandings get fixed while they are still cheap to fix.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

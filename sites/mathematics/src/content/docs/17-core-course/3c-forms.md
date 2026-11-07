@@ -207,7 +207,7 @@ derivative**. On functions it reproduces Section 1's definition.
 $d(ab) = a\, db + b\, da$.
 
 **Proof.** $d(ab) = \sum_i \partial_i(ab)\, dx^i = \sum_i (\partial_i a)\, b
-+ a\, (\partial_i b)\, dx^i = b\, da + a\, db$ (ordinary product rule), and
+- a\, (\partial_i b)\, dx^i = b\, da + a\, db$ (ordinary product rule), and
 scalars pull through the wedge. $\blacksquare$
 
 **Theorem 2.2 ($d^2 = 0$).** For every smooth $k$-form field $\omega$, we

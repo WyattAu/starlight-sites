@@ -678,7 +678,6 @@ modern verifiable computation possible.
 - [Algorithm Analysis](/2-algorithms-and-data-structures/1_algorithm-analysis/); the concrete
   algorithms whose running times populate the complexity classes.
 
-
 ## Cross-References
 
 - [Turing Machines](/6-theory-of-computation/4_turing-machines/) -- Complexity classes are defined in terms of Turing machine resources, connecting computational models to complexity.

@@ -740,4 +740,3 @@ underlying theory, practical implementation, and key applications.
 - the JVM and garbage collection
 
 ## Worked Examples
-
