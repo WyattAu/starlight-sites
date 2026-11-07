@@ -535,7 +535,7 @@ invertibility computation above. $\blacksquare$
 **The One-Line Reveal.** The determinant is not decreed; it is *forced*. An
 alternating $n$-form is determined by one scalar (Theorem 4.6), a normalised
 one exists (Theorem 4.7), so the determinant exists and is unique, and the
-Leibniz formula is simply what uniqueness dictates. Multiplicativity then
+Leibniz formula is exactly what uniqueness dictates. Multiplicativity then
 falls out of composing an alternating form with a linear map.
 
 ## 5. The Exterior Algebra

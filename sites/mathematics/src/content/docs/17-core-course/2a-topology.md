@@ -289,7 +289,8 @@ nonempty open sets $A, B \subseteq X$ with $A \cup B = X$. $X$ is
 **connected** if no separation exists; otherwise **disconnected**.
 
 **Theorem 6.1 (the interval is connected).** Every closed bounded interval
-$[a, b]$ is connected (a one-point interval is trivially so; assume $a < b$).
+$[a, b]$ is connected (a one-point interval admits no separation, since its
+only nonempty open subset is the whole space; assume $a < b$).
 
 **Proof.** Suppose $[a, b] = A \cup B$, a separation, and swap the names so
 $a \in A$. Write $A = [a,b] \cap A'$ with $A'$ open in $\mathbb{R}$; since

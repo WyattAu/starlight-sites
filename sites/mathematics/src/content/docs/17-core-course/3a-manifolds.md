@@ -308,7 +308,7 @@ bookkeeping is standard). It is smoothly compatible with $\psi$: on the
 overlap $(0, 1)$ the transition $t \mapsto \theta^{-1}(t)$ is smooth,
 because $\theta$ is smooth there (a polynomial in $t$) with derivative
 never zero, so the inverse function theorem gives a smooth inverse. And
-$\varphi$ is trivially compatible with $\psi$ (both are restrictions of the
+$\varphi$ is compatible with $\psi$ without any computation (both are restrictions of the
 identity). But $\varphi$ and $\theta$ are *not* compatible: the transition
 $\theta \circ \varphi^{-1} = \theta$ is twice but not three times
 differentiable at $t = 1$ ($|t-1|^3$ has a third derivative that jumps
