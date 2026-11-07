@@ -113,6 +113,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [3a Manifolds](https://mathematics.wyattau.com/17-core-course/3a-manifolds/)
 - [3b Tangent Space](https://mathematics.wyattau.com/17-core-course/3b-tangent-space/)
 - [3c Forms](https://mathematics.wyattau.com/17-core-course/3c-forms/)
+- [3d Stokes](https://mathematics.wyattau.com/17-core-course/3d-stokes/)
 - [Index](https://mathematics.wyattau.com/17-core-course/)
 
 ## Linear-Algebra

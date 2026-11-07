@@ -410,10 +410,9 @@ the same thing in every coordinate system.
 
 ### Where to go next
 
-- [The Core Course hub](/17-core-course/) – Level 3D (orientation,
-  integration of forms, and the generalised Stokes theorem, with the
-  classical Green, divergence, and Stokes theorems as corollaries). Under
-  construction.
+- [Level 3D: Integration and Stokes](/17-core-course/3d-stokes/) –
+  orientation, integration of forms, and the generalised Stokes theorem,
+  where the exterior derivative of this page starts paying rent.
 - [Level 3B: Tangent Spaces](/17-core-course/3b-tangent-space/) – the
   differential whose field-version is the $df$ of this page.
 - [An Introduction to Manifolds](https://link.springer.com/book/10.1007/978-1-4419-4000-6)
