@@ -75,12 +75,28 @@
       { name: 'Admissions', url: 'https://admissions.wyattau.com', tags: 'Test prep' },
     ],
     'Licensing & Civics': [
-      { name: 'Driving UK', url: 'https://driving-uk.wyattau.com', tags: 'Theory Test, Highway Code' },
+      {
+        name: 'Driving UK',
+        url: 'https://driving-uk.wyattau.com',
+        tags: 'Theory Test, Highway Code',
+      },
       { name: 'Driving EU', url: 'https://driving-eu.wyattau.com', tags: 'Theory, Signage' },
       { name: 'Driving US', url: 'https://driving-us.wyattau.com', tags: 'Permit, Road Signs' },
-      { name: 'Language Tests', url: 'https://language-tests.wyattau.com', tags: 'Listening, Reading, Practice' },
-      { name: 'Civics Tests', url: 'https://civics-tests.wyattau.com', tags: 'Citizenship, Practice' },
-      { name: 'Professional Certs', url: 'https://professional-certs.wyattau.com', tags: 'Cloud, Security, Practice' },
+      {
+        name: 'Language Tests',
+        url: 'https://language-tests.wyattau.com',
+        tags: 'Listening, Reading, Practice',
+      },
+      {
+        name: 'Civics Tests',
+        url: 'https://civics-tests.wyattau.com',
+        tags: 'Citizenship, Practice',
+      },
+      {
+        name: 'Professional Certs',
+        url: 'https://professional-certs.wyattau.com',
+        tags: 'Cloud, Security, Practice',
+      },
     ],
     Infrastructure: [
       { name: 'Networking', url: 'https://networking.wyattau.com', tags: 'Protocols, Config' },
