@@ -109,8 +109,9 @@ is a documented reality.
 |---|---|---|
 | [Categories: The Language of Mathematics](/17-core-course/1a-categories/) | 1A | Objects, morphisms, universal properties, functors, natural transformations |
 | [Linear Algebra Done Wrong](/17-core-course/1b-linear-algebra/) | 1B | Coordinate-free vector spaces, dual spaces, quotient spaces, exterior algebra, determinants as alternating forms |
+| [Level 2: Topology](/17-core-course/2a-topology/) | 2 | Metric and abstract topologies, continuity, subspaces and products, Hausdorff, connectedness (intermediate value theorem), compactness (extreme value theorem) |
 
 </div>
 
-Levels 2–5 are under construction. The dependency graph above shows the
+Levels 3–5 are under construction. The dependency graph above shows the
 planned structure.

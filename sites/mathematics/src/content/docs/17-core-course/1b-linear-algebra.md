@@ -712,9 +712,9 @@ alternating form, with the Leibniz formula derived rather than decreed.
 
 ### Where to go next
 
-- [The Core Course hub](/17-core-course/) – Level 2 (topology, after Bradley,
-  Bryson and Terilla) builds directly on the quotient and universal-property
-  machinery of this page. It is under construction.
+- [Level 2: Topology](/17-core-course/2a-topology/) – continuity,
+  connectedness, and compactness proved from the open-set axioms, building
+  directly on the quotient and universal-property machinery of this page.
 - [Real Analysis](/3-real-analysis/) – the rigorous
   $\varepsilon$–$\delta$ foundations that underpin the measure theory of
   Level 4.
