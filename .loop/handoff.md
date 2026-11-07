@@ -126,6 +126,29 @@
   measure theory: sigma-algebras, Caratheodory, Lebesgue, convergence
   theorems, L^p), then Level 5 (Ullrich complex via forms; Bott-Tu de
   Rham; Aluffi algebra chapter 0).
+- FULL AUDIT PASS DONE (8241c3faa..f9a7e9de2, 2026-11-07): all 8 pages
+  re-verified; 7 findings fixed (1B subspace-generation gap -> new Thm
+  1.6 + rank-nullity renumbered 1.7, char != 2 scope + Lemma 4.4
+  converse, matrix-composition convention, 2A eps-bounding, 1A glyph +
+  un-built term). Mechanical sweeps clean.
+- DOGFOODING PASS DONE: header Sites catalogue 38/48 -> 48/48 (added
+  economics, finance, accounting, programming, driving-eu/uk/us,
+  language-tests, civics-tests, professional-certs); landing index +
+  Layout nav completed, dead computing.wyattau.com link removed;
+  vestigial Google Fonts preconnect + GA CSP/prefetch removed from
+  shared + 44 _headers files; new gate check lint-site-nav-parity.js
+  guards all 4 catalogue surfaces (biome-clean; biome check + sync
+  -shared --check MUST be run locally before pushing - three gate
+  failures were caused by skipping those).
+- LIVE VERIFIED 2026-11-07: all 8 core-course URLs 200; landing +
+  mathematics navs carry the new catalogue; CSP headers clean (only
+  cloudflareinsights + search.wyattau.com allowances remain); search
+  healthy, L3 terms (Hadamard lemma, exchange lemma, outward-first)
+  all return results.
+- OPEN: vendor mermaid + web-vitals off jsdelivr (Head.astro touches
+  every page of 48 sites - dedicated rollout); Level 4 measure theory
+  next content build; local commit d04e6d74e (3 prose handwave words)
+  pushed and processing.
 - Deploy note: deploy.yml uses a concurrency group - newer pushes cancel
   in-progress runs (5e412b0f5 run cancelled by the 5280534d9 run). Watch
   only the newest run; main is cumulative.
