@@ -150,6 +150,18 @@ x_i}\big|_a$: it acts by $\frac{\partial}{\partial x_i}\big|_a [f] =
 \partial_i f(a)$. Theorem 1.3 says these $n$ operators form a basis of the
 space of derivations.
 
+
+**Quick check.**
+
+1. When are two functions the same germ at a?
+2. State the Leibniz rule for a derivation at a.
+3. Why does a derivation kill constant germs?
+4. State Hadamard's lemma.
+5. Which two declared analysis inputs enter Hadamard's proof?
+
+*Answers:* **1.** They agree on some neighbourhood of a. **2.** D of the product is D(f) g(a) plus f(a) D(g). **3.** D(1) = D(1 times 1) = 2 D(1), so D(1) = 0 (Lemma 1.1). **4.** f(x) = f(a) + sum (x_i - a_i) g_i(x) with g_i smooth, g_i(a) the i-th partial at a (Lemma 1.2). **5.** The fundamental theorem of calculus; differentiation under the integral sign.
+
+
 ## 2. The Tangent Space of a Manifold
 
 **Definition.** A function $f: M \to \mathbb{R}$ on a smooth manifold is
@@ -285,6 +297,18 @@ $\frac{\partial}{\partial x^i}$ changes by the *Jacobian of the transition
 map*, which is why the same physical direction acquires different
 coordinate descriptions in different charts.
 
+
+**Quick check.**
+
+1. Define the tangent space at p.
+2. What is the chart transport of Theorem 2.1?
+3. Write the basis derivation as an operator on germs.
+4. How do basis derivations transform between two charts?
+5. What is the dimension of the tangent space?
+
+*Answers:* **1.** The derivations of the germ algebra at p. **2.** X maps to the list of X applied to the coordinate germs, an isomorphism onto R^n. **3.** A germ f maps to the i-th partial of f composed with phi inverse, at phi(p). **4.** By the Jacobian matrix of the transition map (Theorem 2.2). **5.** n: the transport is a linear isomorphism.
+
+
 ## 3. The Differential
 
 **Definition.** For a smooth map $f: M \to N$ and $p \in M$, the
@@ -369,6 +393,18 @@ derivatives), which is exactly the derivative of the coordinate
 description of the curve: the abstract definition returns the familiar
 one, chart by chart. $\blacksquare$
 
+
+**Quick check.**
+
+1. Define the differential df_p.
+2. Why is the differential independent of the representative g?
+3. What is the matrix of the differential in chart bases?
+4. State the chain rule on manifolds.
+5. What is the velocity of a curve gamma at t?
+
+*Answers:* **1.** Applied to a germ g at the target, it evaluates X on the germ of g composed with f. **2.** Representatives agreeing near the target compose with f to germs agreeing near p (continuity of f). **3.** The Jacobian matrix of the chart representation (Theorem 3.2). **4.** The differential of the composition is the composition of the differentials (Theorem 3.3). **5.** The differential d gamma_t applied to the standard basis derivation.
+
+
 ## 4. The Inverse Function Theorem on Manifolds
 
 **Theorem 4.1 (local diffeomorphisms).** Let $f: M \to N$ be a smooth map of
@@ -412,7 +448,19 @@ the matrix of $f'(p)$ by 3A's Proposition 1.1. The manifold definitions
 recover the Euclidean ones verbatim, which is the consistency check any new
 definition must pass. $\blacksquare$
 
-## 5. Self-test
+
+**Quick check.**
+
+1. State the inverse function theorem on manifolds.
+2. Which two theorems does its proof assemble?
+3. What does the differential of the identity do?
+4. Why is the local diffeomorphism's image open?
+5. What is a diffeomorphism's differential at each point?
+
+*Answers:* **1.** An isomorphism df_p makes f a local diffeomorphism at p (Theorem 4.1). **2.** The Euclidean inverse function theorem; the chart transport isomorphism of Theorem 2.1. **3.** It is the identity on the tangent space. **4.** It is F applied to an open subset of its domain, and F is a homeomorphism there. **5.** An isomorphism: the chain rule on f composed with its inverse gives the identity matrices.
+
+
+## 5. Problems
 
 1. Prove that a derivation $D$ at $a$ satisfies $D([f]) = 0$ for every germ
    $[f]$ with $[f](a) = 0$ and vanishing first partials at $a$. (§1 – write
@@ -438,6 +486,18 @@ definition must pass. $\blacksquare$
    set; images of those neighbourhoods cover the image and are open.)
 7. Prove that $d(\operatorname{id}_M)_p = \operatorname{id}_{T_pM}$.
    (§3 – act on $X$ and a germ $[g]$: $X([g]) = X([g])$.)
+
+**Problems.** The quick checks above tested recall. These chain several results and require
+full written arguments; hints are included where the jump is large.
+
+8. Prove that a diffeomorphism's differential is an isomorphism at every
+   point. (The chain rule applied to $f \circ f^{-1} = \operatorname{id}$
+   and $f^{-1} \circ f = \operatorname{id}$.)
+9. Compute the velocity of $\gamma(t) = (\cos t, \sin t)$ on $S^1$ at $t$,
+   in the stereographic chart $\varphi_S$. (The chart representation of
+   $\gamma$ is $t \mapsto \cos t / (1 + \sin t)$; its ordinary derivative
+   is the chart coordinate of the velocity by Theorem 3.2, giving
+   $-1/(1 + \sin t)$.)
 
 ### The One-Line Reveal (for this page)
 

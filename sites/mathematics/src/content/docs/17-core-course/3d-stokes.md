@@ -88,6 +88,18 @@ apply verbatim, since the chain rule underlies them and extends to the
 boundary (both the representation and its extension restrict to the same
 map on the half-space part).
 
+
+**Quick check.**
+
+1. What is the half-space and where is its boundary?
+2. What does smooth on a subset of the half-space mean?
+3. Which compatibility clause keeps the boundary well defined?
+4. What manifold is the boundary?
+5. Which deep theorem would make the boundary clause automatic?
+
+*Answers:* **1.** The set of points with nonnegative last coordinate; the hyperplane where it is zero. **2.** Extendable to a smooth map on an open subset of the full space. **3.** Transitions carry the boundary hyperplane into itself. **4.** An (n minus 1)-dimensional manifold with the restricted charts. **5.** Invariance of domain (algebraic topology; outside this course).
+
+
 ## 2. Orientation
 
 **Definition.** An **orientation** of an $n$-dimensional vector space $V$ is
@@ -162,6 +174,18 @@ diagonal entries $c$ (once) and $1$ ($n-1$ times): its determinant is $c >
 differ by a positive factor, 1B), and the boundary basis is positively
 oriented with respect to one outward vector iff with respect to the other.
 $\blacksquare$
+
+
+**Quick check.**
+
+1. What is an orientation of a vector space?
+2. What makes an atlas oriented?
+3. Define the outward vectors at a boundary point.
+4. State the outward-first boundary orientation.
+5. Why is it independent of the chosen outward vector?
+
+*Answers:* **1.** One of the two classes of bases under positive-determinant equivalence. **2.** Every transition has positive Jacobian determinant. **3.** Those mapping to negative last coordinate in one (hence any, Lemma 2.1) chart. **4.** The outward vector followed by the boundary basis is positively oriented in the ambient tangent space. **5.** The change-of-basis between two outward vectors is triangular with positive determinant (Lemma 2.2).
+
 
 ## 3. Integration of Forms
 
@@ -241,6 +265,18 @@ $$
 the rearrangement being legitimate because locally only finitely many
 terms are nonzero (local finiteness), so all sums are finite over the
 support of $\omega$. $\blacksquare$
+
+
+**Quick check.**
+
+1. When is the integral of a form a chart integral?
+2. What makes two chart integrals agree?
+3. What is a partition of unity?
+4. Why is the global integral partition-independent?
+5. Which three analysis facts are declared for integration?
+
+*Answers:* **1.** The support is compact inside one positively oriented chart domain. **2.** The change-of-variables formula with positive Jacobian (Proposition 3.1). **3.** A locally finite smooth family between zero and one, supports in chart domains, summing to one. **4.** Refine both partitions through the pairwise products and apply Proposition 3.1 (Proposition 3.2). **5.** Fubini; the change-of-variables formula; existence of smooth partitions of unity.
+
 
 ## 4. The Local Stokes Theorem
 
@@ -338,6 +374,18 @@ minus sign ($\int \partial_n a = -a(\cdot, 0)$), and the boundary
 orientation's $(-1)^n$. They combine to match exactly; a proof of Stokes
 whose signs "come out right" without this audit is not a proof.
 
+
+**Quick check.**
+
+1. State the local Stokes theorem.
+2. Which summands of the exterior derivative die on the half-space, and why?
+3. Name the three signs in the surviving term.
+4. Why does the fundamental theorem of calculus appear in the proof?
+5. How many terms survive for a single basis summand?
+
+*Answers:* **1.** The integral of the derivative over the half-space equals the integral of the form over its boundary (Theorem 4.1). **2.** A missing index other than the last: the compactly supported derivative integrates to zero over the whole line. **3.** The insertion sign; the fundamental theorem's minus; the boundary orientation's sign. **4.** Fubini reduces the integral to the last-coordinate antiderivative evaluated at the boundary. **5.** Exactly one: the term whose missing index is the last coordinate.
+
+
 ## 5. The Generalised Stokes Theorem
 
 **Theorem 5.1 (Stokes).** Let $M$ be a compact oriented $n$-manifold with
@@ -399,6 +447,18 @@ sense of 3A), then $\int_M d\omega = 0$ for every $(n-1)$-form $\omega$.
 **Proof.** $\partial M = \emptyset$ and the boundary integral is zero by
 definition. $\blacksquare$
 
+
+**Quick check.**
+
+1. State the generalised Stokes theorem.
+2. How does the partition of unity assemble its proof?
+3. Why do interior charts contribute zero boundary terms?
+4. What does Corollary 5.2 say?
+5. Why is the boundary orientation convention essential to the assembly?
+
+*Answers:* **1.** The integral of the derivative over M equals the integral of the form over the boundary (Theorem 5.1). **2.** The form is the sum of the cut-off pieces; apply the local statement to each and sum. **3.** Their supports miss the boundary hyperplane, so the trace vanishes. **4.** A compact oriented manifold without boundary has zero integral of every exact top form. **5.** The local statement uses the half-space convention; Section 2 defines the boundary orientation as its transport, so the signs agree.
+
+
 ## 6. The Classical Theorems as Coordinates of Stokes
 
 **The fundamental theorem of calculus (one dimension).** For $M = [a, b]$,
@@ -443,7 +503,19 @@ orientation normal. $\blacksquare$
 
 One theorem, four costumes.
 
-## 7. Self-test
+
+**Quick check.**
+
+1. Which theorem is Stokes in one dimension?
+2. What 2-form is the derivative of (P dx plus Q dy)?
+3. What 3-form is the derivative of the flux form?
+4. What does the classical Stokes theorem equate?
+5. Which corollary covers the boundaryless case?
+
+*Answers:* **1.** The fundamental theorem of calculus. **2.** The difference of the partials, times the area form. **3.** The divergence, times the volume form. **4.** The surface integral of the curl against the circulation of the boundary. **5.** Corollary 5.2.
+
+
+## 7. Problems
 
 1. Prove that a transition of a manifold-with-boundary restricts to a
    transition of the boundary atlases, and conclude $\partial M$ is an
@@ -479,6 +551,21 @@ One theorem, four costumes.
    disjoint chart domains. (§3 – linearity of the coefficient integrals;
    disjointness keeps the supports in separate charts so no double
    counting arises.)
+
+**Problems.** The quick checks above tested recall. These chain several results and require
+full written arguments; hints are included where the jump is large.
+
+8. Prove that the boundary of $[0, 1]^2$ consists of its four edges, and
+   write each edge's outward-first orientation explicitly. (Outward is
+   $(0, -1)$ on the bottom, $(0, 1)$ on the top, $(-1, 0)$ on the left,
+   $(1, 0)$ on the right; transport each through Lemma 2.1's convention.)
+9. Check that for $n = 2$ the boundary orientation of $\partial \mathbb{H}^2$
+   is $+dx$: take $w = e_x$ and verify $(-e_y, e_x)$ has positive
+   determinant. (The determinant of the columns is $0 \cdot 0 - 1 \cdot (-1) = 1$.)
+10. Compute $\int_{[0,1]^2} d(x y^2\, dy)$ directly and via Stokes, and
+    confirm the two agree. (Direct: $d = y^2\, dx \wedge dy$, integral
+    $1/3$. Stokes: only the right edge contributes, giving $\int_0^1 y^2 dy
+    = 1/3$; the left edge carries $x = 0$.)
 
 ### The One-Line Reveal (for this page)
 

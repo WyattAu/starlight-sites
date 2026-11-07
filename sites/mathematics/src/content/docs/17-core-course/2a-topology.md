@@ -119,6 +119,18 @@ unions of open balls (Definition above, justified by Propositions 1.1 and
   sets is cofinite. Finite intersections: the complement of a finite
   intersection is a finite union of finite complements, finite. $\blacksquare$
 
+
+**Quick check.**
+
+1. What makes a set open in a metric space?
+2. Are arbitrary unions of opens open? Finite intersections?
+3. Give an infinite family of opens with a non-open intersection.
+4. What is the cofinite topology?
+5. What is a base, and what does second countable mean?
+
+*Answers:* **1.** Every point has a ball around it contained in the set. **2.** Yes; yes. Infinite intersections can fail. **3.** $\bigcap_n (-1/n, 1/n) = \{0\}$, not open. **4.** Opens are the empty set and complements of finite sets. **5.** A base is opens whose unions give every open set; second countable means a countable base.
+
+
 ## 2. Continuity and Homeomorphism
 
 **Definition.** For a function $f: X \to Y$ and a subset $B \subseteq Y$, the
@@ -173,6 +185,18 @@ unions of intervals: open. $\blacksquare$
 bijection property are the elementary-calculus inputs from the Scope. So the
 whole real line is, topologically, a finite interval. $\blacksquare$
 
+
+**Quick check.**
+
+1. Define continuity through preimages.
+2. Why does composition preserve continuity?
+3. What is a homeomorphism?
+4. Which pairs of intervals are provably homeomorphic on this page?
+5. Which theorem makes $\varepsilon$–$\delta$ equal to the open-set definition?
+
+*Answers:* **1.** The preimage of every open set is open. **2.** $(g \circ f)^{-1}(U) = f^{-1}(g^{-1}(U))$ and preimages inherit openness step by step (Theorem 2.1). **3.** A continuous bijection with continuous inverse. **4.** Any two nonempty open intervals, by affine maps; also $(0,1) \cong \mathbb{R}$ via $\tan$. **5.** Theorem 2.2.
+
+
 ## 3. Closed Sets, Interior, Closure
 
 **Definition.** A subset $F \subseteq X$ is **closed** if its complement
@@ -215,6 +239,18 @@ $(x-1)/2$ lies above $1$. $\blacksquare$
 **Definition.** $x$ is a **limit point** of $A$ if every neighbourhood of $x$
 meets $A$ in some point *other than $x$ itself*; points of $A$ that are not
 limit points of $A$ are **isolated**.
+
+
+**Quick check.**
+
+1. Define closed.
+2. Describe $\overline{A}$ in two equivalent ways.
+3. What is a limit point of $A$?
+4. Compute $\overline{[0,1)}$ in $\mathbb{R}$.
+5. What does a point outside $\overline{A}$ have?
+
+*Answers:* **1.** Its complement is open. **2.** The smallest closed superset; equivalently, the set of points whose every neighbourhood meets $A$. **3.** A point whose every neighbourhood meets $A$ in a point other than itself. **4.** $[0, 1]$ (Proposition 3.2's example method). **5.** A neighbourhood disjoint from $A$.
+
 
 ## 4. Subspaces and Products
 
@@ -263,6 +299,18 @@ This is a universal property in the sense of [Level
 pair of maps into the factors, with continuity requiring nothing extra. The
 product is the categorical product in $\mathbf{Top}$.
 
+
+**Quick check.**
+
+1. What are the opens of a subspace $A \subseteq X$?
+2. When is $g: Y \to A$ continuous?
+3. What is a box in $X \times Z$?
+4. What does the product topology contain at minimum?
+5. State the product's characteristic property.
+
+*Answers:* **1.** Intersections $A \cap U$ with $U$ open in $X$. **2.** Exactly when its composite with the inclusion $A \hookrightarrow X$ is (Proposition 4.1). **3.** $U \times V$ with $U$, $V$ open. **4.** All unions of boxes. **5.** $f$ into $X \times Z$ is continuous iff both components are (Proposition 4.2).
+
+
 ## 5. Hausdorff Spaces
 
 **Definition.** A space $X$ is **Hausdorff** if for any two distinct points
@@ -281,6 +329,18 @@ neighbourhood of $x$ contains all but finitely many $x_n$. If $x_n \to x$
 and $x_n \to y$ with $x \neq y$, the disjoint neighbourhoods $U \ni x$,
 $V \ni y$ each contain a tail; but two tails of one sequence overlap, and the
 overlap lies in $U \cap V = \emptyset$: contradiction. $\blacksquare$
+
+
+**Quick check.**
+
+1. Define Hausdorff.
+2. Why are metric spaces Hausdorff?
+3. What does Hausdorff give for singletons?
+4. What does it give for convergent sequences?
+5. Is the indiscrete two-point space Hausdorff?
+
+*Answers:* **1.** Distinct points have disjoint neighbourhoods. **2.** Balls of radius $d(x,y)/2$ separate (Proposition 5.1). **3.** Closed. **4.** At most one limit. **5.** No: the only nonempty open set is the whole space.
+
 
 ## 6. Connectedness
 
@@ -364,6 +424,18 @@ union is $\mathbb{Q}$ (no rational equals $\alpha$). $\blacksquare$
 This is the first crack in the arithmetic line: connectedness is a property
 of *completed* space. It distinguishes $\mathbb{R}$ from $\mathbb{Q}$
 topologically, before any measure or limit theory.
+
+
+**Quick check.**
+
+1. Define separation and connectedness.
+2. Why is a continuous image of a connected space connected?
+3. Why is every interval connected, given $[a,b]$ is?
+4. State the intermediate value theorem's mechanism.
+5. Is $\mathbb{Q}$ connected?
+
+*Answers:* **1.** A separation is a cover by two disjoint nonempty opens; connected means none exists. **2.** A separation of the image pulls back to one of the domain (Theorem 6.2). **3.** A hypothetical separation restricts to a closed subinterval, contradicting Theorem 6.1. **4.** Nonattainment of the intermediate value splits $[a,b]$ into two preimage half-spaces, a separation (Corollary 6.4). **5.** No: split at $\sqrt{2}$ (Proposition 6.6).
+
 
 ## 7. Compactness
 
@@ -470,7 +542,20 @@ directions, both properties are topological invariants. Connectedness
 separates $\mathbb{R}$ from $\mathbb{Q}$ (Proposition 6.6); compactness
 separates $[0, 2\pi]$ from $[0, 2\pi)$.
 
-## 8. Self-test
+
+**Quick check.**
+
+1. Define compactness.
+2. Why is a closed subset of a compact space compact?
+3. Why is a continuous image of a compact space compact?
+4. Why are compact subsets of Hausdorff spaces closed?
+5. What mechanism proves the extreme value theorem?
+6. Why is $[0, 2\pi)$ not compact?
+
+*Answers:* **1.** Every open cover has a finite subcover. **2.** Add the complement to the cover; a finite subcover minus the complement covers the subset (Theorem 7.2 i). **3.** Pull the cover back, take a finite subcover, push it forward (Theorem 7.2 ii). **4.** Each outside point separates finitely from the set (Theorem 7.2 iii). **5.** The image is compact, hence closed and bounded; the supremum is then attained (Corollary 7.3). **6.** The cover $\{(-1, 2\pi - 1/n)\}$ has no finite subcover (wrap-map example).
+
+
+## 8. Problems
 
 1. Prove that $\mathbb{R}$ with the cofinite topology is connected. (§1, §6
    – two disjoint nonempty cofinite sets would have complements whose union
@@ -496,6 +581,18 @@ separates $[0, 2\pi]$ from $[0, 2\pi)$.
 7. Prove that $S^1$ is connected. (§6, §7 – it is the continuous image of
    the connected interval $[0, 2\pi]$ under the wrap map $W$, by Theorems
    6.2 and 7.1.)
+
+**Problems.** The quick checks above tested recall. These chain several results and require
+full written arguments; hints are included where the jump is large.
+
+8. Prove that the intersection of two compact subsets of a Hausdorff space
+   is compact. (Each is closed by Theorem 7.2 iii; the intersection is a
+   closed subset of one of them, so Theorem 7.2 i applies.)
+9. Prove that a continuous map from a connected space into a discrete space
+   is constant. (The image is connected and discrete, hence a single point.)
+10. Prove that $[0, 1]$ and $(0, 1)$ are not homeomorphic. (Compactness is a
+    topological invariant; $[0,1]$ is compact and $(0,1)$ is not, by the
+    cover $\{(1/n, 1)\}$.)
 
 ### The One-Line Reveal (for this page)
 

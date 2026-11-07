@@ -79,7 +79,23 @@ basis identifies $\mathbf{Vect}_k^{\mathrm{fd}}$ (finite-dimensional vector
 spaces) with this matrix category: every finite-dimensional space is
 isomorphic to some $k^n$, and once bases are fixed, linear maps are exactly
 matrices. The matrix category also shows that the axioms never mention
-elements: the object $n$ is not a set at all.
+elements: the object $n$ is not a set at all. The table names categories that later levels build, on purpose:
+category theory is the language the course will speak. Work with $\mathbf{Set}$
+today; $\mathbf{Top}$ and $\mathbf{Vect}_k$ become fully built examples in their
+own levels, and the table is a map of where the course is going, not a list of
+prerequisites.
+
+
+**Quick check.**
+
+1. What two axioms must a category's composition satisfy?
+2. In $\mathbf{Set}$, what is the identity morphism of a set $A$?
+3. Name a category whose objects are not sets.
+4. How many identity morphisms can an object have?
+5. What does the type $\operatorname{Hom}(B,C) \times \operatorname{Hom}(A,B) \to \operatorname{Hom}(A,C)$ encode about composability?
+
+*Answers:* **1.** Associativity; an identity morphism for every object. **2.** The identity function $\operatorname{id}_A$. **3.** $\mathbf{Mat}_k$: objects are natural numbers, morphisms are matrices. **4.** Exactly one (Theorem 1.1). **5.** The codomain of the first arrow must be the domain of the second.
+
 
 ## 2. Monomorphisms, Epimorphisms, and Isomorphisms
 
@@ -136,6 +152,18 @@ everywhere. But the inclusion is not an isomorphism: a retraction
 $\mathbb{Z} \to \mathbb{N}$ would have to send $-1$ to a natural number $n$
 with $n + 1 = 0$, and there is no such natural number.
 
+
+**Quick check.**
+
+1. State monomorphism in one line.
+2. What is the pivot of Theorem 2.1's proof?
+3. Why is $\mathbb{N} \hookrightarrow \mathbb{Z}$ epi in $\mathbf{Mon}$?
+4. Why does mono plus epi give an isomorphism in $\mathbf{Set}$?
+5. What is a split epimorphism?
+
+*Answers:* **1.** $f \circ g_1 = f \circ g_2$ forces $g_1 = g_2$, for all pairs into the domain. **2.** Composing with the inverse $g$ cancels $f$. **3.** A homomorphism out of $\mathbb{Z}$ is pinned by $f(1)$, since $f(-1)$ is the unique two-sided inverse of $f(1)$. **4.** Mono is injective and epi is surjective there. **5.** There is $g$ with $f \circ g = \operatorname{id}_B$.
+
+
 ## 3. Universal Properties
 
 **Definition.** An object $T$ in $\mathcal{C}$ is **terminal** if for every object
@@ -180,6 +208,18 @@ isomorphism) solution to a certain mapping problem.* The problem is always of
 one shape: be the target of exactly one arrow from every object in a certain
 configuration.
 
+
+**Quick check.**
+
+1. Define terminal and initial objects.
+2. What does unique up to unique isomorphism give for two terminal objects?
+3. State the product's universal property.
+4. State the kernel's universal property.
+5. How does the disjoint union dualise the product?
+
+*Answers:* **1.** Terminal: every object has exactly one arrow to it; initial: exactly one from it. **2.** An isomorphism $T \cong T'$, and it is the only one compatible with the universal arrows. **3.** Projections $\pi_A, \pi_B$; every pair $f: C \to A$, $g: C \to B$ factors uniquely through $h: C \to A \times B$. **4.** Every $k: K \to G$ with $\varphi \circ k$ trivial factors uniquely through $\ker \varphi \to G$. **5.** Every pair of maps from $A$ and from $B$ extends uniquely to a map $A \sqcup B \to C$.
+
+
 ## 4. Functors
 
 **Definition.** A **functor** $F: \mathcal{C} \to \mathcal{D}$ between categories
@@ -215,6 +255,18 @@ $g \circ f = \operatorname{id}$" – the functorial axioms do the rest.
   pointed space to its fundamental group. This is a functor: continuous maps
   induce group homomorphisms, and composition of maps induces composition of
   homomorphisms.
+
+
+**Quick check.**
+
+1. What two laws define a functor?
+2. What do functors do to isomorphisms?
+3. What does the forgetful functor $\mathbf{Grp} \to \mathbf{Set}$ forget?
+4. In what sense is the fundamental group a functor?
+5. Give one functor from this page and one thing it preserves or forgets.
+
+*Answers:* **1.** $F(\operatorname{id}_A) = \operatorname{id}_{F(A)}$ and $F(g \circ f) = F(g) \circ F(f)$. **2.** Carry them to isomorphisms (Theorem 4.1). **3.** The group structure; it keeps the underlying set and functions. **4.** Continuous pointed maps induce group homomorphisms, compatibly with composition. **5.** For instance: $U$ forgets; $\pi_1$ preserves loop composition.
+
 
 ## 5. Natural Transformations and Adjunctions
 
@@ -270,7 +322,19 @@ structure. Adjunctions formalise this efficiency, and they appear throughout
 mathematics: the tensor-hom adjunction in algebra, the product-hom adjunction
 in topology, the base-change adjunction in geometry.
 
-## 6. Self-test
+
+**Quick check.**
+
+1. State the naturality square of $\eta: F \Rightarrow G$.
+2. What does an adjunction assign to each pair $A, B$?
+3. Which two naturality equations did the adjunction definition demand?
+4. What do the free and forgetful functors form?
+5. In words: what does $\operatorname{Hom}_{\mathbf{Grp}}(F(S), G) \cong \operatorname{Hom}_{\mathbf{Set}}(S, U(G))$ say?
+
+*Answers:* **1.** $G(f) \circ \eta_A = \eta_B \circ F(f)$. **2.** A bijection $\operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong \operatorname{Hom}_{\mathcal{C}}(A, G(B))$. **3.** $\Phi_{A',B}(h \circ F(a)) = \Phi_{A,B}(h) \circ a$ and $\Phi_{A,B'}(b \circ h) = G(b) \circ \Phi_{A,B}(h)$. **4.** An adjunction $F \dashv U$. **5.** A homomorphism from the free group on $S$ is exactly a function from $S$ into $G$.
+
+
+## 6. Problems
 
 1. Verify that $\mathbf{Mat}_k$ satisfies the category axioms. (§1 –
    composition is matrix multiplication, so associativity of composition is
@@ -297,6 +361,19 @@ in topology, the base-change adjunction in geometry.
    \operatorname{Hom}_{\mathcal{D}}(F'(A), B)$ for all $A, B$. (§5 – the
    composition of two bijections is a bijection; naturality follows from the
    naturality of each adjunction.)
+
+**Problems.** The quick checks above tested recall. These chain several results and require
+full written arguments; hints are included where the jump is large.
+
+8. Prove that initial objects are unique up to unique isomorphism. (Dualise
+   Theorem 3.1: reverse every arrow in the proof.)
+9. Prove that the composition of isomorphisms is an isomorphism and that
+   $(f \circ g)^{-1} = g^{-1} \circ f^{-1}$. (Compose the claimed inverse
+   with $f \circ g$ and regroup by associativity; both composites collapse to
+   the relevant identity.)
+10. Prove that in $\mathbf{Mat}_k$ the isomorphisms are exactly the invertible
+    square matrices. (An isomorphism in the category needs two-sided matrix
+    inverses: $BC = I$ and $CB = I$ for the same $n$.)
 
 ### The One-Line Reveal (for this page)
 

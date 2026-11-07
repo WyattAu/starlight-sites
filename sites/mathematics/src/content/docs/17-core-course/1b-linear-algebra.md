@@ -171,6 +171,18 @@ maps to zero (the kernel) and the part that maps injectively (the extension).
 The splitting is possible by basis extension, and then the theorem is just
 counting.
 
+
+**Quick check.**
+
+1. Recite the eight vector-space axioms in one breath.
+2. Why must a minimal spanning list be independent?
+3. State the exchange lemma.
+4. Why is dimension well defined?
+5. What does basis extension give?
+
+*Answers:* **1.** Associative commutative addition with identity and inverses; $1v = v$; $(\alpha\beta)v = \alpha(\beta v)$; two distributivities. **2.** A dependent member can be deleted while still spanning, contradicting minimality (Theorem 1.2). **3.** An independent list in a finitely spanned space has length at most the spanning list (Lemma 1.3). **4.** Lemma 1.3 applied in both directions between two bases (Corollary 1.4). **5.** Any independent list extends, using pieces of a spanning list, to a basis (Lemma 1.5).
+
+
 ## 2. Dual Spaces
 
 **Definition.** The **dual space** $V^* = \operatorname{Hom}(V, k)$ is the
@@ -250,6 +262,18 @@ transformation from the identity functor to the double-dual functor: the
 square above is exactly the commuting square from the definition of a natural
 transformation.
 
+
+**Quick check.**
+
+1. What is the dual basis of $e_1, \dots, e_n$?
+2. Why is $V \cong V^{**}$ canonical while $V \cong V^*$ is not?
+3. Define the dual map $T^*$.
+4. What does Proposition 2.3 say?
+5. Compute $e^3(v)$ for $v = 2e_1 - e_3$.
+
+*Answers:* **1.** Functionals $e^j$ with $e^j(e_i) = \delta_{ij}$. **2.** $\operatorname{ev}$ uses no choice of basis; the isomorphism $V \cong V^*$ needs one. **3.** $T^*(\varphi) = \varphi \circ T$. **4.** $T^{**} \circ \operatorname{ev}_V = \operatorname{ev}_W \circ T$: the square commutes. **5.** $-1$.
+
+
 ## 3. Quotient Spaces
 
 **Definition.** Let $U \subseteq V$ be a subspace. The **quotient space**
@@ -285,6 +309,20 @@ By construction $\bar{T} \circ \pi = T$. For uniqueness: every element of
 $V/U$ has the form $\pi(v)$ (surjectivity, Theorem 3.1), so any $\bar{S}$
 with $\bar{S} \circ \pi = T$ must send $\pi(v)$ to $T(v)$; there is no
 freedom left. $\blacksquare$
+
+
+**Quick check.**
+
+1. When do two cosets coincide?
+2. Why is the kernel of the quotient map equal to U?
+3. State the universal property of the quotient.
+4. What is the dimension of the quotient?
+5. What makes a map out of the quotient well defined?
+
+*Answers:* **1.** v + U = v' + U exactly when v - v' lies in U. **2.** The quotient map sends v to U exactly when v lies in U. **3.** A map killing U factors uniquely through the quotient map (Theorem 3.2). **4.** dim V minus dim U. **5.** It must take the same value on every representative: its pre-composition must kill U.
+
+
+
 
 ## 4. Alternating Forms and the Determinant
 
@@ -538,6 +576,20 @@ one exists (Theorem 4.7), so the determinant exists and is unique, and the
 Leibniz formula is exactly what uniqueness dictates. Multiplicativity then
 falls out of composing an alternating form with a linear map.
 
+
+**Quick check.**
+
+1. How is the sign of a permutation defined on this page?
+2. What is the sign of a product of permutations?
+3. State the determination theorem in one line.
+4. Why does the Leibniz form equal one on the basis?
+5. What is the determinant of the inverse in terms of the determinant?
+
+*Answers:* **1.** sigma P equals the sign times P, for P the product of (x_i - x_j) over i less than j (Proposition 4.3). **2.** Signs multiply: a transposition has sign minus one (Proposition 4.3). **3.** An alternating n-form is the Leibniz form times its value on the basis (Theorem 4.6). **4.** Only the identity permutation survives the delta coordinates. **5.** Its reciprocal: the two determinants multiply to the determinant of the identity, which is one.
+
+
+
+
 ## 5. The Exterior Algebra
 
 The exterior powers are the spaces of $k$-dimensional volume measurements:
@@ -702,7 +754,20 @@ is a short universal-property argument, constructed when it is first needed
 for differential forms; the individual powers built here are what the
 intervening levels use.
 
-## 6. Self-test
+
+**Quick check.**
+
+1. What is a pure wedge?
+2. Why does $v \wedge w = -w \wedge v$?
+3. Why do dependent vectors wedge to zero?
+4. State the universal property of $\bigwedge^k V$.
+5. What is $\dim \bigwedge^k V$, and what for $k > n$?
+6. Write $v_1 \wedge \cdots \wedge v_n$ in terms of the determinant.
+
+*Answers:* **1.** The coset in $F/R$ of a tuple's symbol. **2.** Expand $(v+w) \wedge (v+w) = 0$ (Theorem 5.1). **3.** Substitute the dependence; every resulting term repeats a factor (Corollary 5.2). **4.** Alternating $k$-linear maps factor uniquely through the wedge (Theorem 5.3). **5.** $\binom{n}{k}$; and $\bigwedge^k V = 0$ (Theorem 5.4). **6.** $v_1 \wedge \cdots \wedge v_n = \det(B)\, e_1 \wedge \cdots \wedge e_n$ (Corollary 5.5).
+
+
+## 6. Problems
 
 1. Prove that the coordinates of a vector in a basis are unique. (§1 – two
    expressions for the same vector subtract to a vanishing combination, and
@@ -730,6 +795,17 @@ intervening levels use.
    other, extend the independent pair $\{v, w\}$ to a basis (Lemma 1.5) and
    evaluate the functional $\lambda_{(1, 2)}$ from Theorem 5.4, which sends
    $v \wedge w$ to $1$.)
+
+**Problems.** The quick checks above tested recall. These chain several results and require
+full written arguments; hints are included where the jump is large.
+
+7. Prove that the determinant of a triangular matrix is the product of its
+   diagonal entries. (In the Leibniz sum, $\sigma \neq \operatorname{id}$
+   forces $\sigma(l) < l$ for some $l$, where the entry is zero.)
+8. Prove that any $n + 1$ vectors in an $n$-dimensional space are linearly
+   dependent. (Exchange lemma, Lemma 1.3, with a basis as the spanning list.)
+9. Prove that the determinant of a matrix with a zero row is zero. (The
+   Leibniz form is alternating and linear; one argument is the zero vector.)
 
 ### The One-Line Reveal (for this page)
 

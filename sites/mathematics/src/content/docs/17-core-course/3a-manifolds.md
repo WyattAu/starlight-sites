@@ -175,6 +175,18 @@ on arbitrarily small neighbourhoods of $a$: restricting the domain to a
 smaller open set changes nothing at interior points. Both directions are
 this one remark. $\blacksquare$
 
+
+**Quick check.**
+
+1. Define the derivative of $f$ at $a$.
+2. Do partial derivatives at a point determine the derivative?
+3. Does existence of all partial derivatives force differentiability?
+4. What is the derivative of the product $gh$ at $a$?
+5. Which functions were proved smooth with no calculus input?
+
+*Answers:* **1.** The unique linear $L$ with $\|f(a+h) - f(a) - Lh\| = o(\|h\|)$. **2.** Yes, when the derivative exists: the entries are the partials (Proposition 1.1). **3.** No: the Caution's counterexample has every directional derivative and no derivative. **4.** $h(a)\, g'(a) + g(a)\, h'(a)$ (Proposition 1.2). **5.** Polynomials and rational functions on their domains (Corollary 1.3).
+
+
 ## 2. Topological Manifolds
 
 **Definition.** A **base** for a topology on $X$ is a collection
@@ -242,6 +254,18 @@ in the manifold, then $W$ is open in $U$ (the subspace topologies of the
 open $U$ agree), so $\varphi(W)$ is open in $\varphi(U)$, hence open in
 $\mathbb{R}^n$, and $\varphi|_W: W \to \varphi(W)$ is a homeomorphism:
 charts cover $W$. $\blacksquare$
+
+
+**Quick check.**
+
+1. Name the three clauses defining a topological manifold.
+2. What is a base, and what does second countable mean?
+3. Why is the line with two origins not a manifold?
+4. Is an open subset of a manifold a manifold?
+5. Why is $\mathbb{R}^n$ second countable?
+
+*Answers:* **1.** Hausdorff; second countable; locally Euclidean of dimension $n$. **2.** A base is opens whose unions give all opens; second countable means a countable base. **3.** It is not Hausdorff: the two origins cannot be separated. **4.** Yes, with the restricted charts (Proposition 2.2). **5.** Balls with rational centres and rational radii (Proposition 2.1).
+
 
 ## 3. Charts, Atlases, and the Maximal Atlas
 
@@ -357,6 +381,18 @@ smooth structure; charts of the maximal atlas are **admissible**. A subset
 is open in the manifold exactly when it is open in the underlying topology:
 the smooth structure adds no topology.
 
+
+**Quick check.**
+
+1. What is a chart, and what is an atlas?
+2. What is the transition map of charts $(U, \varphi)$, $(V, \psi)$?
+3. What does smoothly compatible mean?
+4. Is smooth compatibility transitive among arbitrary charts?
+5. What repairs transitivity, and how does Theorem 3.2 use it?
+
+*Answers:* **1.** A homeomorphism onto an open subset of $\mathbb{R}^n$; an atlas is charts covering $M$. **2.** $\psi \circ \varphi^{-1}$ on $\varphi(U \cap V)$. **3.** Both transition directions are smooth. **4.** No: the $\theta(t) = t + \frac{1}{4}|t-1|^3$ counterexample is compatible with $\psi$ but not with $\varphi$. **5.** Compatibility through a common covering atlas, applied locally (Proposition 3.1); that is what makes $\operatorname{Max}(\mathcal{A})$ consistent and unique (Theorem 3.2).
+
+
 ## 4. Examples
 
 **Example (the sphere, entirely by algebra).** Let
@@ -456,6 +492,18 @@ since composing and inverting act coordinatewise; it is smooth by the
 pairing lemma (Lemma 1.4) applied to the two smooth transition maps. So the
 product charts form a smooth atlas, and Theorem 3.2 extends it.
 $\blacksquare$
+
+
+**Quick check.**
+
+1. Write the stereographic inverse $\psi_N$.
+2. What is the transition $\varphi_S \circ \psi_N$?
+3. Why is $S^n$ Hausdorff and second countable?
+4. Why is $M \times N$ a manifold, and of what dimension?
+5. What did the sphere construction not need?
+
+*Answers:* **1.** $\psi_N(y) = (2y/(\|y\|^2+1),\ (\|y\|^2-1)/(\|y\|^2+1))$. **2.** $y \mapsto y/\|y\|^2$ on $\mathbb{R}^n \setminus \{0\}$. **3.** It is a subspace of $\mathbb{R}^{n+1}$ (Proposition 2.1). **4.** Product charts form a smooth atlas (Theorem 4.1); dimension $m + n$. **5.** No trigonometry: only rational functions and algebra.
+
 
 ## 5. Smooth Maps Between Manifolds
 
@@ -576,7 +624,19 @@ This is why the definition of a manifold fixes one dimension $n$ per
 component and never needs to defend it: the inverse function theorem plus
 rank–nullity make the dimension unforgeable.
 
-## 6. Self-test
+
+**Quick check.**
+
+1. When is $f: M \to N$ smooth at $p$?
+2. How many lines does smoothness-to-continuity take, and how?
+3. Why is the definition independent of charts?
+4. What is a diffeomorphism?
+5. Why is dimension a diffeomorphism invariant?
+
+*Answers:* **1.** Some chart at $p$ carries inside a chart at $f(p)$ with a smooth chart representation. **2.** Two lines: factor $f$ as $\psi^{-1}$ after representation after $\varphi$ on the chart domain (Proposition 5.1). **3.** Continuity lets domains shrink; transitions are smooth; the chain rule finishes (Proposition 5.2). **4.** A smooth bijection with smooth inverse. **5.** The chain rule gives $BA = I_n$ and $AB = I_m$; rank–nullity forces $n = m$ (Theorem 5.4).
+
+
+## 6. Problems
 
 1. Prove that the line with two origins is not Hausdorff, and conclude
    which clause of the manifold definition rules it out. (§2 – any two
@@ -602,6 +662,17 @@ rank–nullity make the dimension unforgeable.
 7. Prove that a diffeomorphism $f: M \to N$ restricts, for every open
    $U \subseteq M$, to a diffeomorphism $U \to f(U)$. (§5, §2 – $f(U)$ is
    open by continuity, and charts restrict as in Proposition 2.2.)
+
+**Problems.** The quick checks above tested recall. These chain several results and require
+full written arguments; hints are included where the jump is large.
+
+8. Prove that every chart is a diffeomorphism onto its open image, viewed as
+   an open submanifold of $\mathbb{R}^n$. (Its chart representation is the
+   identity; Propositions 2.2 and 5.3 finish.)
+9. Prove that $\gamma: (0, 2\pi) \to S^1 \setminus \{(1, 0)\}$,
+   $\gamma(t) = (\cos t, \sin t)$, is a diffeomorphism onto its image.
+   (Bijective by trigonometry; smooth by Proposition 4.2; the inverse has
+   nonzero derivative, so the inverse function theorem smooths it.)
 
 ### The One-Line Reveal (for this page)
 

@@ -87,6 +87,17 @@ order 8"), counterexample challenges ("show the theorem fails if axiom X is
 omitted"), and omitted lemmas (when an author writes "the reader can easily
 verify," treat that as mandatory).
 
+### Section Checkpoints and Problems
+
+Mathematics is learned by doing, not by reading. Every numbered section of
+every page ends with a **Quick check**: five short questions with terse
+answers, testing exactly what the section proved. Do them before moving on;
+if one fails, reread only that section. Every page then ends with
+**Problems**: multi-step chains that require written arguments, with hints
+where the jump is large. The One-Line Reveal tells you what to attempt
+before reading; the quick checks keep you honest while reading; the problems
+are where you find out whether you can do it.
+
 ### The 3-Month Retrospective
 
 Every week, spend forty-five minutes on a blank-page retrieval drill from two

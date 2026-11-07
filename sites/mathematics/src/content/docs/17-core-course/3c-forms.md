@@ -184,6 +184,18 @@ coefficients are unique at every point, so there is nothing to check). Write
 $\Omega^k(U)$ for the vector space of smooth $k$-form fields on $U$, and
 $\Omega^0(U) = C^\infty(U)$.
 
+
+**Quick check.**
+
+1. Evaluate dx^I on k vectors.
+2. When is dx^j wedge dx^I zero?
+3. What is dx^j wedge dx^I when j is not in I?
+4. Why do the increasing dx^I form a basis?
+5. What is the wedge of two fields?
+
+*Answers:* **1.** The determinant of the matrix of their I-indexed coordinates. **2.** When j occurs in I (a repeated row). **3.** The sorting sign times dx of the merged increasing sequence (Lemma 1.1). **4.** Evaluation on increasing tuples extracts unique coefficients (Proposition 1.2). **5.** Pairwise coefficient products times the basis wedges.
+
+
 ## 2. The Exterior Derivative
 
 **Definition.** For a smooth function $a \in C^\infty(U)$, define
@@ -280,6 +292,18 @@ $$
 
 and summing gives $(-1)^k\, \omega \wedge d\eta$. $\blacksquare$
 
+
+**Quick check.**
+
+1. Compute d of x squared times y.
+2. Why is d squared zero on functions?
+3. State the graded Leibniz rule.
+4. Verify d of df vanishes for f = x squared y in coordinates.
+5. What is d of (a dx^I)?
+
+*Answers:* **1.** 2xy dx plus x squared dy. **2.** Mixed partials agree, and the antisymmetric pairing cancels the terms (Theorem 2.2, Clairaut). **3.** d of a wedge = d of the first wedge the second, plus minus one to the degree of the first, times the first wedge d of the second (Theorem 2.3). **4.** The dy-wedge-dx term and the dx-wedge-dy term cancel by antisymmetry. **5.** Sum over j of the j-th partial times dx^j wedge dx^I.
+
+
 ## 3. Pullbacks and Coordinate Independence
 
 **Definition (pullback).** For a smooth map $f: U \to V$ between open sets
@@ -372,7 +396,19 @@ $\omega = \sum_i (-1)^{i-1} F_i\, dx^1 \wedge \cdots \widehat{dx^i} \cdots
 \wedge dx^n$, it yields $(\operatorname{div} F)\, dx^1 \wedge \cdots \wedge
 dx^n$, a computation included as a self-test.
 
-## 4. Self-test
+
+**Quick check.**
+
+1. Define the pullback of b dy^J.
+2. Which proved rule kills the d-of-df terms in the pullback proof?
+3. Which rule rewrites d of the pulled-back coefficient?
+4. State the coordinate-independence theorem for d on manifolds.
+5. What is the pullback of (g times omega)?
+
+*Answers:* **1.** The pulled-back coefficient times the wedge of the pulled-back differentials. **2.** d squared equals zero on functions (Theorem 2.2). **3.** The chain rule (Theorem 3.1's first sum). **4.** The chart-wise d satisfies the compatibility condition because d commutes with transitions (Theorem 3.2). **5.** (g composed with f) times the pullback of omega.
+
+
+## 4. Problems
 
 1. Prove that $dx^I = 0$ as an alternating map whenever $I$ has a repeated
    index. (§1 – two rows of the determinant matrix coincide.)
@@ -398,6 +434,19 @@ dx^n$, a computation included as a self-test.
 6. Prove that if $\omega$ is closed ($d\omega = 0$) then so is every
    pullback $f^*\omega$. (§3, §2 – $d(f^*\omega) = f^*(d\omega) = f^*0 =
    0$.)
+
+**Problems.** The quick checks above tested recall. These chain several results and require
+full written arguments; hints are included where the jump is large.
+
+7. Compute $d(x^2 y\, dx)$ and verify $d^2$ vanishes on it by hand.
+   ($d(x^2y\,dx) = 2xy\, dy \wedge dx$; its $d$ pairs $2x\,dx \wedge dy \wedge
+   dx = 0$ with the $dy$-term vanishing by repetition.)
+8. Prove $f^*(dx^1 \wedge dx^2) = \det(dF)\, dx^1 \wedge dx^2$ for a smooth
+   $F: \mathbb{R}^2 \to \mathbb{R}^2$. (Expand $df^1 \wedge df^2$ by the
+   insertion rules; the cross terms die and the survivor is the
+   two-by-two determinant.)
+9. Prove that pullback is contravariant: $(g \circ f)^* = f^* \circ g^*$.
+   (A pointwise substitution chase through the definition.)
 
 ### The One-Line Reveal (for this page)
 
