@@ -506,10 +506,9 @@ part of the definition.
 
 ### Where to go next
 
-- [The Core Course hub](/17-core-course/) – Level 3 (manifolds, after Loring
-  Tu) linearises everything on this page: tangent spaces make the canvas
-  locally linear, and differential forms rebuild integration on it. Under
-  construction.
+- [Level 3A: Smooth Manifolds](/17-core-course/3a-manifolds/) – charts and
+  atlases make the canvas locally linear; this page's subspace, product,
+  and Hausdorff theorems are the raw material of the manifold definition.
 - [Real Analysis](/3-real-analysis/) – where the two declared inputs of this
   page (the completeness axiom and the continuity of the elementary
   functions) are actually proved.

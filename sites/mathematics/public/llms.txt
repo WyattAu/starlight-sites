@@ -110,6 +110,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [1a Categories](https://mathematics.wyattau.com/17-core-course/1a-categories/)
 - [1b Linear Algebra](https://mathematics.wyattau.com/17-core-course/1b-linear-algebra/)
 - [2a Topology](https://mathematics.wyattau.com/17-core-course/2a-topology/)
+- [3a Manifolds](https://mathematics.wyattau.com/17-core-course/3a-manifolds/)
 - [Index](https://mathematics.wyattau.com/17-core-course/)
 
 ## Linear-Algebra
