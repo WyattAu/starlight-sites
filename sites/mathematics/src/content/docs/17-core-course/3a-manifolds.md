@@ -219,13 +219,13 @@ sets $N(t, \varepsilon) = (t - \varepsilon, t + \varepsilon) \setminus \{0\}$
 for $t \neq 0$; the sets $P(\varepsilon) = \{p\} \cup \big((-\varepsilon, 0)
 \cup (0, \varepsilon)\big)$; and the sets $Q(\varepsilon)$ defined likewise
 with $q$. (Base check: pairwise intersections of members are unions of
-members — intervals meet in intervals, $P(\varepsilon) \cap P(\delta) =
+members – intervals meet in intervals, $P(\varepsilon) \cap P(\delta) =
 P(\min)$, and a punctured interval meets a punctured interval in punctured
 intervals, each point of which carries a small ball avoiding $0$.) With the
 topology $\mathcal{B}$ generates, every point of $M$ has a Euclidean
 neighbourhood: $t \neq 0$ has $N(t, \varepsilon) \cong (t - \varepsilon, t +
 \varepsilon)$, and $p$ has $\varphi: P(\varepsilon) \to (-\varepsilon,
-\varepsilon)$, $\varphi(p) = 0$, $\varphi(s) = s$ — a homeomorphism (the
+\varepsilon)$, $\varphi(p) = 0$, $\varphi(s) = s$ – a homeomorphism (the
 preimage of any interval is a member of $\mathcal{B}$ or a union of them),
 and likewise for $q$. But $M$ is not Hausdorff: $P(\varepsilon) \ni p$ and
 $Q(\delta) \ni q$ always intersect, in $(-\min(\varepsilon, \delta), 0) \cup
