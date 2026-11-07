@@ -29,6 +29,7 @@ const computerScience = [
   { name: 'Ruby', meta: '10 pages · 6 topics', url: 'https://ruby.wyattau.com/' },
   { name: 'Haskell', meta: '10 pages · 6 topics', url: 'https://haskell.wyattau.com/' },
   { name: 'Elixir', meta: '9 pages · 5 topics', url: 'https://elixir.wyattau.com/' },
+  { name: 'Programming', meta: '120 pages', url: 'https://programming.wyattau.com/' },
 ]
 const furtherStudies = [
   { name: 'Mathematics', meta: '160 pages · 13 topics', url: 'https://mathematics.wyattau.com/' },
@@ -50,12 +51,21 @@ const infrastructure = [
   { name: 'Licensing', meta: '2 pages', url: 'https://licensing.wyattau.com/' },
   { name: 'Machine Learning', meta: '2 pages', url: 'https://machine-learning.wyattau.com/' },
 ]
+const licensingCivics = [
+  { name: 'Driving UK', meta: '29 pages', url: 'https://driving-uk.wyattau.com/' },
+  { name: 'Driving EU', meta: '9 pages', url: 'https://driving-eu.wyattau.com/' },
+  { name: 'Driving US', meta: '37 pages', url: 'https://driving-us.wyattau.com/' },
+  { name: 'Language Tests', meta: '11 pages', url: 'https://language-tests.wyattau.com/' },
+  { name: 'Civics Tests', meta: '24 pages', url: 'https://civics-tests.wyattau.com/' },
+  { name: 'Professional Certs', meta: '6 pages', url: 'https://professional-certs.wyattau.com/' },
+]
 
 const groups = [
   { label: 'Exam Boards', image: 'exam-prep', sites: examBoards },
   { label: 'Computer Science', image: 'computer-science', sites: computerScience },
   { label: 'Further Studies', image: 'mathematics', sites: furtherStudies },
   { label: 'Infrastructure', image: 'infrastructure', sites: infrastructure },
+  { label: 'Licensing & Civics', image: 'books', sites: licensingCivics },
 ]
 const totalSites = groups.reduce((n, g) => n + g.sites.length, 0)
 let rowNumber = 0
