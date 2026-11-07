@@ -451,9 +451,10 @@ transport of that shadow along charts.
 
 ### Where to go next
 
-- [The Core Course hub](/17-core-course/) – Level 3C (differential forms
-  and the generalised Stokes theorem) is where the tangent and cotangent
-  machinery starts paying rent. Under construction.
+- [Level 3C: Differential Forms](/17-core-course/3c-forms/) – forms as
+  determinant evaluators, the exterior derivative, and the coordinate
+  independence that makes them intrinsic, built on the differential of
+  this page.
 - [Level 3A: Smooth Manifolds](/17-core-course/3a-manifolds/) – the charts,
   smooth maps, and the Euclidean inverse function theorem used throughout
   this page.
