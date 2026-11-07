@@ -8,7 +8,7 @@ title: "Algorithms"
 description: "The study of algorithms is central to computer science. An algorithm is a finite, well-defined sequence of instructions that solves a computational problem."
 ---
 sources:
-  - text: Cormen et al - Introduction to Algorithms
+- text: Cormen et al - Introduction to Algorithms
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

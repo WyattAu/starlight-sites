@@ -8,7 +8,7 @@ title: "Systems"
 description: 'Topics in computer systems including operating systems, computer architecture, concurrency, and networking fundamentals.'
 ---
 sources:
-  - text: Cormen et al - Introduction to Algorithms
+- text: Cormen et al - Introduction to Algorithms
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

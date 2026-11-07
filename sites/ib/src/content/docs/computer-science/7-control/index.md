@@ -7,7 +7,7 @@ description: "This section covers control concepts, definitions, and application
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Use the diagnostic tests to find out whether Control needs another pass before your exam, rather than revising topics you have already mastered.
 

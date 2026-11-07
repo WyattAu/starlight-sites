@@ -884,7 +884,6 @@ $\blacksquare$
 
 </div>
 
-
 | [Redox Reactions]  | DSE     | [View](https://dse.wyattau.com/chemistry/6-redox-and-electrochemistry/1_redox-and-electrochemistry/) |
 
 ## See Also

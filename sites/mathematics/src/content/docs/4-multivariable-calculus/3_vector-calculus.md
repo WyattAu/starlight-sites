@@ -473,7 +473,7 @@ Therefore $\phi(x,y,z) = x^2 y + xz^2 + y^2 z + C$. $\blacksquare$
   field has continuous partial derivatives on the region (including interior). If there are
   singularities inside the region, the theorems do not apply directly; the singularity must be
   handled separately.
-- ** connected domains.** The condition $\nabla \times \mathbf{F} = \mathbf{0}$ guarantees that
+- **connected domains.** The condition $\nabla \times \mathbf{F} = \mathbf{0}$ guarantees that
   $\mathbf{F}$ is conservative only on a connected domain. For example,
   $\mathbf{F} = \frac{(-y, x)}{x^2 + y^2}$ has zero curl on $\mathbb{R}^2 \setminus \\{(0,0)\\}$ but
   is not conservative there (the domain is not connected).

@@ -25,7 +25,6 @@ vectors, vectorised operations instead of loops, seeded reproducibility, and
 the plot-as-evidence pattern -- and ends with a self-test.
 :::
 
-
 ## Abstract
 
 This resource is created as an aggregation of best practices in Python. It covers idiomatic Python

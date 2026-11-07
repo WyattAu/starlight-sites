@@ -31,7 +31,6 @@ recursion as the loop, and higher-order functions from the ground up, and ends
 with a self-test so confident readers can skip by assessment.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -7,8 +7,7 @@ description: "This section covers algorithms concepts, definitions, and applicat
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. Work through Algorithms alongside the practice problems for Computer Science, then let the diagnostic tests tell you whether it stuck.
 
@@ -44,7 +43,6 @@ This section introduces fundamental concepts that form the foundation for advanc
 ## Further Reading
 
 For deeper understanding, consult the recommended textbooks and additional resources linked throughout the topic pages.
-
 
 ## Overview
 

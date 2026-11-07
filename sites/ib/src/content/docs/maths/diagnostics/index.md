@@ -7,7 +7,7 @@ description: "Diagnostic test notes for ib Diagnostics covering key concepts, wo
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section provides study materials and resources for diagnostics. Work through Diagnostics alongside the practice problems for Maths, then let the diagnostic tests tell you whether it stuck.
 
@@ -32,7 +32,6 @@ This section provides study materials and resources for diagnostics. Work throug
 - [Diag Trigonometry](/maths/diagnostics/diag-trigonometry/)
 - [Diag Vectors](/maths/diagnostics/diag-vectors/)
 - [Diagnostic Guide](/maths/diagnostics/diagnostic-guide/)
-
 
 ## Overview
 

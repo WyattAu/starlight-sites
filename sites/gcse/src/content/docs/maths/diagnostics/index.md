@@ -7,8 +7,7 @@ description: "Diagnostic test notes for gcse Diagnostics covering key concepts, 
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for diagnostics. Work through Diagnostics alongside the practice problems for Maths, then let the diagnostic tests tell you whether it stuck.
 
@@ -35,7 +34,6 @@ This section provides study materials and resources for diagnostics. Work throug
 
 If Diagnostics feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

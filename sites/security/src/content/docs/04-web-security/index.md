@@ -7,8 +7,7 @@ description: "This section covers web security concepts, definitions, and applic
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers cybersecurity principles, network security, and defensive strategies. Understanding these topics is critical for protecting systems and data in modern computing environments.
 
@@ -32,7 +31,6 @@ This section covers cybersecurity principles, network security, and defensive st
 
 Work through the Security sections in order, starting with Authentication and Cloud Security and building toward Authentication, Cloud Security, Cryptography, Diagnostics, Incident Response, Malware Analysis, Network Security, Os Security, Security Fundamentals and Web Security, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

@@ -7,7 +7,7 @@ description: "Diagnostic test notes for dse Diagnostics covering key concepts, w
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers key physical principles, from classical mechanics to modern physics. Revision works best in one direction here: read Diagnostics, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -50,4 +50,3 @@ Use the cross-references to link related concepts across subjects where applicab
 - Cross-references to related topics
 
 ## Study Tips
-

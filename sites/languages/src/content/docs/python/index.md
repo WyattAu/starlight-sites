@@ -7,8 +7,7 @@ description: "This section covers python concepts, definitions, and applications
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers language learning, proficiency levels, and assessment frameworks. These materials support preparation for standardised language examinations and communicative competence development.
 
@@ -33,7 +32,6 @@ This section covers language learning, proficiency levels, and assessment framew
 
 Work through the Languages sections in order, starting with Dart and Elixir and building toward Dart, Elixir, Go, Haskell, Java, Kotlin, Python, Ruby, Rust, Swift and Typescript, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

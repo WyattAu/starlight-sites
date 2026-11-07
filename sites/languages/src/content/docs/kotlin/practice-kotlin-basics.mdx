@@ -91,4 +91,3 @@ the explanation.
 **Confusing `let`, `also`, `apply`, and `run`:** `let`/`run` return the last expression; `also`/`apply` return the receiver. Mixing them up leads to unexpected return values and confusing chains.
 
 **Forgetting that `lazy` properties must be `val`:** `by lazy` only works with read-only `val` properties. Using it with `var` causes a compile error because lazy initialization assumes the value never changes after first access.
-

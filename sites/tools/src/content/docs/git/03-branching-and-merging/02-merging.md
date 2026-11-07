@@ -296,8 +296,8 @@ $ git merge --abort
 
 :::tip
 ```bash
-$ git config --global merge.tool vscode
-$ git config --global mergetool.vscode.cmd 'code --wait $MERGED'
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 ```
 
 Popular options: `meld` (Linux), `vscode` (cross-platform), `kdiff3` (cross-platform), `opendiff`

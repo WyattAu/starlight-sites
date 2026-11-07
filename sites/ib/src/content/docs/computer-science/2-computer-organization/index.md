@@ -7,7 +7,7 @@ description: "This section covers computer organization concepts, definitions, a
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 This section covers computational thinking, data structures, algorithms, and systems. If Computer Organization feels solid, move on; if not, the worked examples below are the fastest way to repair it before the exam.
 

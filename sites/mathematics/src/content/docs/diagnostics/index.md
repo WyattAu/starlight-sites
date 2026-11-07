@@ -7,8 +7,7 @@ description: "Diagnostic test notes for mathematics Diagnostics covering key con
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Spivak - Calculus
-
+- text: Spivak - Calculus
 
 # Diagnostics
 

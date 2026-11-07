@@ -22,7 +22,6 @@ categories:
 
 ## A Level Economics, Course Overview
 
-
 :::note[Going further with economics?]
 These pages teach the exam: diagrams, evaluation structure, and the
 institutions each board expects. **[economics.wyattau.com](https://economics.wyattau.com)**
@@ -142,7 +141,7 @@ $$
 **Welfare:** $$CS = \int_0^Q [P_D(Q) - P^*] \, dQ = \frac{1}{2}(P_{choke} - P^*) \times Q^*
 $$
 $$
-PS = \int_0^Q [P^* - P_S(Q)] \, dQ = \frac{1}{2}(P^* - P_{choke\_supply}) \times Q^*
+PS = \int_0^Q [P^*- P_S(Q)] \, dQ = \frac{1}{2}(P^* - P_{choke\_supply}) \times Q^*
 $$
 $$
 DWL_{tax} = \frac{1}{2} \times t \times \Delta Q

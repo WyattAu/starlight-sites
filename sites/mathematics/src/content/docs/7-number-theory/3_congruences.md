@@ -106,7 +106,6 @@ Squares mod 4 are 0 and 1, so a sum of two squares is $0, 1$ or $2 \pmod 4$; nev
 
 Residue classes are preserved by polynomial evaluation: if $a \equiv b \pmod n$ then $f(a) \equiv f(b) \pmod n$ for any integer polynomial $f$. Verify for $f(x) = x^2 + x + 1$ with $a = 2$, $b = 5$, $n = 3$ before using it in proofs.
 
-
 $$
 a \equiv b \pmod n, \quad c \equiv d \pmod n \Longrightarrow ac \equiv bd \pmod n
 $$

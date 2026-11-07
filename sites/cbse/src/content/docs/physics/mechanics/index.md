@@ -8,7 +8,7 @@ title: "Mechanics"
 description: "This section covers mechanics concepts, definitions, and applications with worked examples and practice problems."
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

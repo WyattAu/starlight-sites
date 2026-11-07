@@ -11,7 +11,7 @@ tags:
 description: 'UNIVERSITY Physics notes: Quantum Mechanics. Comprehensive study material with definitions, examples, and assessment tools.'
 ---
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

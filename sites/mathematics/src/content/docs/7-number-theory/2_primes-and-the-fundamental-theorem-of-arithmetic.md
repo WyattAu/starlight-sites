@@ -44,7 +44,7 @@ is a prime not in the list; contradiction. $\blacksquare$
 
 Note the proof gives **no efficient method** for producing new primes: $p_1 \cdots p_k + 1$ need
 not be prime (the products are called *Euclid numbers*; $2 \cdot 3 \cdot 5 \cdot 7 \cdot 11 \cdot 13
-+ 1 = 30031 = 59 \times 509$ is composite).
+- 1 = 30031 = 59 \times 509$ is composite).
 
 ### 2.3 The Fundamental Theorem of Arithmetic
 

@@ -25,7 +25,6 @@ promises, what encapsulation is, and why TCP and UDP are two points on a
 guarantee spectrum -- and ends with a self-test.
 :::
 
-
 ## Why Networking Matters
 
 Every system you operate, deploy, or debug depends on networking. A container cannot reach its

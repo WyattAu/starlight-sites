@@ -7,8 +7,7 @@ description: "This section covers theory test concepts, definitions, and applica
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers driving theory and practical knowledge required for the driving test. Understanding traffic rules, hazard perception, and vehicle handling is essential for safe driving.
 
@@ -33,7 +32,6 @@ This section covers driving theory and practical knowledge required for the driv
 
 Work through the Driving (UK) sections in order, starting with Highway Code and Practical Test and building toward Highway Code, Practical Test, Practice, Road Signs, Theory Test and Vehicle Safety, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

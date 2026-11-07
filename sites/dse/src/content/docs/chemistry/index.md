@@ -8,7 +8,7 @@ description: "DSE Chemistry notes covering key definitions, core concepts, worke
 tableOfContents: false
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

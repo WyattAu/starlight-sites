@@ -188,7 +188,6 @@ matrices via partial trace), open quantum systems, and decoherence.
 - [Angular Momentum and the Hydrogen Atom](/5-quantum-mechanics/6_angular-momentum-and-the-hydrogen-atom/)
 - [Thermodynamics and Statistical Mechanics](/2-thermal-physics/21_thermodynamics-and-statistical-mechanics/)
 
-
 ## Intuition
 
 The postulates of quantum mechanics are like the rules of a game that nature plays at the smallest scales. The state vector is your scoreboard: it contains everything knowable about the system. Hermitian operators are the measuring instruments, and their real eigenvalues are the only possible outcomes you can read. The Born rule tells you that the square of the amplitude gives the probability, like measuring how much of a wave is present at each point. Time evolution is smooth and deterministic, like a river flowing according to a fixed current. The measurement problem is the deep mystery: the smooth flow of the Schrodinger equation suddenly jerks when you look, collapsing the wave function to a single outcome. This tension between smooth evolution and sudden collapse is still debated. Decoherence explains why we do not see quantum weirdness in everyday life: the environment constantly measures the system, washing out quantum superpositions.
@@ -203,7 +202,6 @@ The expectation value $\langle \hat{A} \rangle = \sum_n a_n P(a_n)$ is the avera
 
 **Mistake 3: Forgetting that measurement collapses the state**
 After measuring $\hat{A}$ and obtaining $a_n$, the state collapses to $|a_n\rangle$, not to some other state. This collapse is irreversible in the sense that information about the original superposition is lost. Subsequent measurements of $\hat{A}$ will yield $a_n$ with certainty until the system evolves or is disturbed.
-
 
 ## Counterexamples worth knowing by name
 

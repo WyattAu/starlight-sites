@@ -126,4 +126,3 @@ The practical driving test includes several manoeuvres you must demonstrate. You
 
 - [Practical Test](./)
 - [UK Driving Test](/)
-

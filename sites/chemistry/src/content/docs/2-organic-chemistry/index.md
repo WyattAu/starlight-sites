@@ -8,7 +8,7 @@ title: "Organic Chemistry"
 description: 'Topics in organic chemistry including reaction mechanisms, functional group chemistry, and synthesis with worked examples.'
 ---
 sources:
-  - text: Atkins, de Paula - Physical Chemistry
+- text: Atkins, de Paula - Physical Chemistry
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

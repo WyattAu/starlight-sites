@@ -7,8 +7,7 @@ description: "This section covers human physiology concepts, definitions, and ap
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers core concepts in biology, from molecular mechanisms to whole-organism physiology. Work through Human Physiology alongside the practice problems for Biology, then let the diagnostic tests tell you whether it stuck.
 
@@ -32,7 +31,6 @@ This section covers core concepts in biology, from molecular mechanisms to whole
 
 Use the diagnostic tests to find out whether Human Physiology needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

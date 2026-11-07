@@ -2189,4 +2189,3 @@ success in this subject.
 > > > > > > > Stashed changes:docs/docs_dse/Economics/market-structure-and-theory-of-the-firm.md
 
 ## Worked Examples
-

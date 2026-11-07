@@ -119,7 +119,7 @@ Minimising subject to the Phillips curve $\pi = \pi^e - \alpha(u - u^*)$:
 
 Under **discretion** (after expectations are formed): the optimal policy creates inflation bias:
 
-\pi_{discretion} = \pi^* + \frac{\beta \alpha}{1 + \beta \alpha^2} > \pi^*
+\pi_{discretion} = \pi^*+ \frac{\beta \alpha}{1 + \beta \alpha^2} > \pi^*
 
 Under a **rule** (commitment to $\pi = \pi^*$): $\pi = \pi^*$ with no bias.
 
@@ -776,7 +776,7 @@ complete regime change.
 - Current output growth: $g = 1.0\%$
 - Equilibrium real interest rate: $r^* = 2\%$
 
-**Taylor Rule (standard version):** $$i = r^* + \pi^* + 0.5(\pi - \pi^*) + 0.5(g - g^*)
+**Taylor Rule (standard version):** $$i = r^*+ \pi^* + 0.5(\pi - \pi^*) + 0.5(g - g^*)
 
 i = 2 + 2 + 0.5(6 - 2) + 0.5(1.0 - 2.5) = 4 + 2 - 0.75 = 5.25\%
 
@@ -833,7 +833,7 @@ $u = u^*$. Loss $= 0 + 0 = 0$. First-best outcome.
 
 **If the government reneges (discretion):** After wages are set at $\pi^e = 2\%$ The government
 minimises:
-L = (\pi - 2)^2 + \beta(u^* - \alpha(\pi - 2) - u^*)^2 = (\pi - 2)^2 + \beta\alpha^2(\pi - 2)^2 = (\pi - 2)^2(1 + \beta\alpha^2)
+L = (\pi - 2)^2 + \beta(u^*- \alpha(\pi - 2) - u^*)^2 = (\pi - 2)^2 + \beta\alpha^2(\pi - 2)^2 = (\pi - 2)^2(1 + \beta\alpha^2)
 
 Minimising: $\pi^* = 2$ (optimal to stick to the promise). Loss is still zero.
 
@@ -845,7 +845,7 @@ than $\pi^e$ because the government tries to exploit the short-run Phillips curv
 shock.
 
 **Rational expectations:** Workers anticipate the government's incentive to inflate. In equilibrium:
-\pi^e = \pi^* + \frac{\beta\alpha}{1 + \beta\alpha^2}(u^* - u^*) = \pi^*
+\pi^e = \pi^*+ \frac{\beta\alpha}{1 + \beta\alpha^2}(u^* - u^*) = \pi^*
 
 Wait -- let me redo this properly. Under rational expectations with discretion:
 
@@ -856,7 +856,7 @@ $$
 
 Workers correctly anticipate the inflationary bias. The unemployment rate is:
 $$
-u = u^* + \epsilon - \alpha\left(\frac{\beta\alpha}{1 + \beta\alpha^2}\epsilon\right) = u^* + \frac{\epsilon}{1 + \beta\alpha^2}
+u = u^*+ \epsilon - \alpha\left(\frac{\beta\alpha}{1 + \beta\alpha^2}\epsilon\right) = u^* + \frac{\epsilon}{1 + \beta\alpha^2}
 
 The output gain from surprise inflation is zero (since workers anticipate it), but inflation is
 higher. This is the **inflationary bias** of discretionary policy.

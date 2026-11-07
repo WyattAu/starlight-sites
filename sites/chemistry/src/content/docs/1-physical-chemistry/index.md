@@ -8,7 +8,7 @@ title: "Physical Chemistry"
 description: 'Topics in physical chemistry including thermodynamics, kinetics, quantum chemistry, and spectroscopy with worked examples.'
 ---
 sources:
-  - text: Atkins, de Paula - Physical Chemistry
+- text: Atkins, de Paula - Physical Chemistry
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

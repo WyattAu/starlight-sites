@@ -20,7 +20,6 @@ from first principles, defines every term before it is used, and ends with a
 self-test so confident readers can skip by assessment rather than by trust.
 :::
 
-
 ## Physics
 
 Welcome to the physics notes. These notes cover undergraduate physics, from classical mechanics through quantum theory and statistical mechanics.

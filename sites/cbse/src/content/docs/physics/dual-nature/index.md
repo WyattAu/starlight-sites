@@ -8,7 +8,7 @@ title: "Dual Nature of Radiation and Matter"
 description: "This section covers dual nature of radiation and matter concepts, definitions, and applications with worked examples and practice problems."
 ---
 sources:
-  - text: Standard textbook reference
+- text: Standard textbook reference
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

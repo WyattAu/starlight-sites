@@ -11,7 +11,7 @@ tags:
 description: "For a rigid body rotating freely (no external torques), the angular momentum in  Comprehensive educational content coverage with definitions and practice proble"
 ---
 sources:
-  - text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
+- text: "Halliday, D., Resnick, R., & Walker, J. (2013). Fundamentals of Physics (10th ed.). Wiley."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">

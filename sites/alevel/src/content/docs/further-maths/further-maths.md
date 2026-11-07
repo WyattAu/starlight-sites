@@ -157,4 +157,3 @@ mechanics based on your module route.
 - **[Pure Mathematics](/further-maths/pure-mathematics/04-further-calculus/):** Pure maths extends A-level topics
 - **[Further Mechanics](/further-maths/further-maths/):** Mechanics applies maths to physics
 - **[Further Statistics](/further-maths/further-statistics/02-exponential-and-continuous-random-variables/):** Statistics covers probability distributions
-

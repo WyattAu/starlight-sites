@@ -8,8 +8,8 @@ tags:
 description: "Lagrangian mechanics: generalised coordinates, the Euler-Lagrange equation from d'Alembert's principle and from Hamilton's principle, cyclic coordinates and conserved momenta, with the pendulum, double pendulum, Atwood machine and rotating hoop worked in full. Tier U."
 ---
 sources:
-  - text: "Goldstein, H., Poole, C., & Safko, J. (2002). Classical Mechanics (3rd ed.). Addison Wesley."
-  - text: "Landau, L. D., & Lifshitz, E. M. (1976). Mechanics (3rd ed.). Butterworth-Heinemann."
+- text: "Goldstein, H., Poole, C., & Safko, J. (2002). Classical Mechanics (3rd ed.). Addison Wesley."
+- text: "Landau, L. D., & Lifshitz, E. M. (1976). Mechanics (3rd ed.). Butterworth-Heinemann."
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -457,7 +457,6 @@ h = \sum_j \dot{q}_j \frac{\partial T}{\partial \dot{q}_j} - T + V = 2T - T + V 
 $$
 
 $\blacksquare$
-
 
 The clearest single picture of what the formalism buys is the rotating hoop of
 worked example 3.7, whose equilibria bifurcate as the hoop speeds up.

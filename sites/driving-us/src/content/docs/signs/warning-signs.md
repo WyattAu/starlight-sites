@@ -99,7 +99,6 @@ hazard type.
 
 </div>
 
-
 ## Warning Sign Catalog by Shape
 
 <div class="table-wrap">

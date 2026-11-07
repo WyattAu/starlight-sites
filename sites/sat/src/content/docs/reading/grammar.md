@@ -126,4 +126,3 @@ Grammar is the infrastructure of communication, like the electrical wiring in a 
 - [Comprehension](/reading/comprehension/) -- Grammar knowledge supports reading comprehension by clarifying sentence meaning and author intent.
 - [Writing Language](/writing/language/) -- The writing and language section tests the same grammar concepts applied to editing and revising passages.
 - [Writing Essay](/writing/essay/) -- Correct grammar usage is essential for constructing clear and effective evidence-based essays.
-

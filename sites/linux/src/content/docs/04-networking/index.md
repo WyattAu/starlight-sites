@@ -7,8 +7,7 @@ description: "This section covers networking concepts, definitions, and applicat
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section covers computer networking fundamentals, from protocol layers to network security. These concepts underpin modern distributed systems and internet infrastructure.
 
@@ -32,7 +31,6 @@ This section covers computer networking fundamentals, from protocol layers to ne
 
 Work through the Linux sections in order, starting with Cli Fundamentals and Diagnostics and building toward Cli Fundamentals, Diagnostics, File Systems, Networking, Package Management, Process Management, Security and Systemd, then check yourself with the practice problems for each topic.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

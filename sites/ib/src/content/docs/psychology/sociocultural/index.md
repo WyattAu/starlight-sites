@@ -7,8 +7,7 @@ description: "This section provides study materials and resources for sociocultu
 date: 2026-01-01T00:00:00Z
 ---
 sources:
-  - text: Standard textbook reference
-
+- text: Standard textbook reference
 
 This section provides study materials and resources for sociocultural. Revision works best in one direction here: read Sociocultural, attempt the practice problems cold, and only then check the worked solutions.
 
@@ -33,7 +32,6 @@ This section provides study materials and resources for sociocultural. Revision 
 
 Use the diagnostic tests to find out whether Sociocultural needs another pass before your exam, rather than revising topics you have already mastered.
 Use the cross-references to link related concepts across subjects where applicable.
-
 
 ## Overview
 

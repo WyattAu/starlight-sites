@@ -93,7 +93,6 @@ From the official Texas Driver Handbook:
 - Assuming turn signals are optional in roundabouts, Texas roundabout
   rules mirror standard yield-to-left practice.
 
-
 ## TX Fees and Milestones Quick Table
 
 <div class="table-wrap">

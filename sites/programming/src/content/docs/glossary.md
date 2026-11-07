@@ -14,7 +14,6 @@ graph TD
     F --> O[Objects]
 ```
 
-
 **Algorithm**: A finite sequence of well-defined instructions for solving a problem or performing a computation.
 
 **Syntax**: The set of rules defining the structure of valid statements in a programming language.

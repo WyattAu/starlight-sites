@@ -31,7 +31,6 @@ written to be skimmed by confident readers: take the self-test at the end, and
 only study the sections whose answers surprise you.
 :::
 
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

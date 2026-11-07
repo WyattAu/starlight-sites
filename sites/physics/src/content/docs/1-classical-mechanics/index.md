@@ -11,7 +11,7 @@ tags:
 description: "University-level classical mechanics: Newtonian mechanics, Lagrangian and Hamiltonian formulations, Noether's theorem, rigid body dynamics, and nonlinear dynamics - with every derivation shown."
 ---
 sources:
-  - text: Halliday, Resnick, Walker - Fundamentals of Physics
+- text: Halliday, Resnick, Walker - Fundamentals of Physics
 
 <!-- Breadcrumb Schema for SEO -->
 <script type="application/ld+json">
@@ -92,7 +92,6 @@ University-level classical mechanics notes covering Lagrangian, Hamiltonian, and
 ## How to Use These Notes
 
 Start with Lagrangian mechanics to build foundational knowledge, then progress to Hamiltonian mechanics and advanced topics. Each section includes worked examples and practice problems.
-
 
 ## Additional Resources
 
