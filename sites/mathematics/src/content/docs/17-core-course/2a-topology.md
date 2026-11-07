@@ -35,7 +35,12 @@ track](/3-real-analysis/):
 1. **The completeness axiom**: every nonempty set of real numbers bounded
    above has a least upper bound $\sup S$, characterised by (i) $s \leq \sup
    S$ for all $s \in S$, and (ii) if $c < \sup S$, then some $s \in S$ has
-   $c < s$.
+   $c < s$. Its first consequence is used repeatedly below, so we prove it
+   here. **Archimedean property**: for every real $c$ there is a natural
+   number $n > c$. *Proof.* If $\mathbb{N}$ had an upper bound $b$, then $s
+   = \sup \mathbb{N}$ would exist; property (ii) supplies $n \in \mathbb{N}$
+   with $n > s - 1$, and then $n + 1 \in \mathbb{N}$ exceeds the upper bound
+   $s$: contradiction. $\blacksquare$
 2. **Elementary-calculus continuity**: the standard functions ($\sin$, $\cos$,
    $\tan$, $\arctan$) are continuous on their domains, and their
    bijection properties are as trigonometry describes. Where these enter, the
@@ -76,8 +81,8 @@ there is $r_i > 0$ with $B(x, r_i) \subseteq U_i$, and
 $B(x, \min_i r_i)$ is contained in every $U_i$, hence in the intersection.
 *Failure for infinite intersections:* $\bigcap_{n \geq 1} (-1/n, 1/n) =
 \{0\}$ in $\mathbb{R}$ (a real number in every $(-1/n, 1/n)$ satisfies
-$|t| < 1/n$ for all $n$, forcing $t = 0$ by the Archimedean property,
-Lemma 6.0 below), and $\{0\}$ is not open: no ball around $0$ fits inside a
+$|t| < 1/n$ for all $n$, forcing $t = 0$ by the Archimedean property, proved
+in the Scope), and $\{0\}$ is not open: no ball around $0$ fits inside a
 single point. $\blacksquare$
 
 The two properties just proved are the ones the theorems of analysis
@@ -154,10 +159,12 @@ is a **topological invariant**.
 **Example (affine homeomorphisms).** Any two nonempty open intervals $(a,b)$,
 $(c,d)$ of $\mathbb{R}$ are homeomorphic. The affine map $f(t) = \frac{d-c}{b-a}
 (t - a) + c$ is a bijection $(a, b) \to (c, d)$ (solve for $t$), and it is
-continuous with continuous inverse: the preimage of an interval $(u, v)$
-under an affine map is an interval (reversed if the slope is negative, still
-open), and general open sets are unions of intervals whose preimages are
-unions of intervals. $\blacksquare$
+continuous with continuous inverse: every open subset of $\mathbb{R}$ is a
+union of the open intervals that openness supplies at each of its points, and
+the preimage of an interval $(u, v)$ under an affine map $t \mapsto \alpha t
++ \beta$ is the interval $\big((u - \beta)/\alpha, (v - \beta)/\alpha\big)$
+(endpoints swapped when $\alpha < 0$, still open), so preimages of opens are
+unions of intervals: open. $\blacksquare$
 
 **Example ($(0,1) \cong \mathbb{R}$).** The map $t \mapsto
 \tan\!\big(\pi(t - \tfrac{1}{2})\big)$ is a continuous bijection $(0, 1) \to
@@ -197,12 +204,13 @@ only if every neighbourhood of $x$ meets $A$.
 closed) disjoint from $A \subseteq \overline{A}$. $\blacksquare$
 
 **Example.** $\overline{(0, 1)} = [0, 1]$ in $\mathbb{R}$. Every point of
-$[0, 1]$: a neighbourhood of $0$ contains $(-\varepsilon, \varepsilon)$ for
-some $\varepsilon > 0$, which meets $(0, 1)$ in $(0, \min(\varepsilon, 1))$;
-similarly at $1$ and inside; Proposition 3.2 puts all of $[0,1]$ in the
-closure. Every point $x \notin [0, 1]$ has a ball around it (of radius the
-distance to $[0,1]$, positive because $x$ lies outside the closed interval
-$[0,1]$) disjoint from $(0,1)$. $\blacksquare$
+$[0, 1]$ has every neighbourhood meeting $(0, 1)$: a neighbourhood of $0$
+contains $(-\varepsilon, \varepsilon)$ for some $\varepsilon > 0$, which
+meets $(0, 1)$ in $(0, \min(\varepsilon, 1))$; similarly at $1$; points
+inside are trivial. Proposition 3.2 puts all of $[0,1]$ in the closure. A
+point $x \notin [0, 1]$ has a neighbourhood avoiding $(0, 1)$: if $x < 0$,
+the ball of radius $|x|/2$ lies below $0$; if $x > 1$, the ball of radius
+$(x-1)/2$ lies above $1$. $\blacksquare$
 
 **Definition.** $x$ is a **limit point** of $A$ if every neighbourhood of $x$
 meets $A$ in some point *other than $x$ itself*; points of $A$ that are not
@@ -280,20 +288,13 @@ overlap lies in $U \cap V = \emptyset$: contradiction. $\blacksquare$
 nonempty open sets $A, B \subseteq X$ with $A \cup B = X$. $X$ is
 **connected** if no separation exists; otherwise **disconnected**.
 
-**Lemma 6.0 (Archimedean property).** For every real number $c$ there is a
-natural number $n > c$.
-
-**Proof.** If $\mathbb{N}$ had an upper bound $b$, the completeness axiom
-would give $s = \sup \mathbb{N}$; by property (ii), some $n \in \mathbb{N}$
-has $n > s - 1$, and then $n + 1 \in \mathbb{N}$ exceeds $s$, contradicting
-that $s$ is an upper bound. $\blacksquare$
-
 **Theorem 6.1 (the interval is connected).** Every closed bounded interval
 $[a, b]$ is connected (a one-point interval is trivially so; assume $a < b$).
 
 **Proof.** Suppose $[a, b] = A \cup B$, a separation, and swap the names so
-$a \in A$. Write $A = [a,b] \cap A'$ with $A'$ open in $\mathbb{R}$; then
-$[a, a + \varepsilon') \subseteq A$ for some $\varepsilon' > 0$, so the set
+$a \in A$. Write $A = [a,b] \cap A'$ with $A'$ open in $\mathbb{R}$; since
+$A'$ is open and contains $a$, some $\varepsilon' > 0$ has
+$[a, a + \varepsilon') \subseteq A$, so the set
 
 $$
 C = \{t \in [a, b] : [a, t] \subseteq A\}
@@ -418,9 +419,7 @@ neighbourhood avoiding $K$: the complement of $K$ is open.
 \mathbb{N}}$ has a finite subcover, exhibiting a bound; closedness is (iii)
 with $\mathbb{R}$ Hausdorff (Proposition 5.1). Conversely, if $K$ is closed
 and bounded, then $K \subseteq [-R, R]$ for some $R > 0$, which is compact
-by Theorem 7.1 (an affine homeomorphism carries $[a,b]$ to $[-1, 1]$ and
-homeomorphisms preserve compactness: (ii) applied to the homeomorphism and
-its inverse), and (i) makes $K$ compact. $\blacksquare$
+by Theorem 7.1, and (i) makes $K$ compact. $\blacksquare$
 
 **Corollary 7.3 (extreme value theorem).** A continuous $f: [a, b] \to
 \mathbb{R}$ attains a maximum and a minimum value.
@@ -438,28 +437,29 @@ $(u, v)$ under $y \mapsto -y$ is the open interval $(-v, -u)$).
 $\blacksquare$
 
 **Example (a continuous bijection need not be a homeomorphism).** Let
-$S^1 = \{(u, v) \in \mathbb{R}^2 : u^2 + v^2 = 1\}$ with its subspace
-topology, and let $w: [0, 2\pi) \to S^1$, $w(t) = (\cos t, \sin t)$. Then
+$S^1 = \{(u, v) \in \mathbb{R} \times \mathbb{R} : u^2 + v^2 = 1\}$, a
+subspace of the product space $\mathbb{R} \times \mathbb{R}$ (Section 4), and
+let $w: [0, 2\pi) \to S^1$, $w(t) = (\cos t, \sin t)$. Then
 $w$ is a continuous bijection that is not a homeomorphism. This example is
 the reason the definition of homeomorphism insists on the inverse.
 
 *Proof.* Continuity: $\cos$ and $\sin$ are continuous (elementary-calculus
 input from the Scope), so $w$ is continuous as a map into
-$\mathbb{R} \times \mathbb{R}$ (Proposition 4.2, reading $S^1 \subseteq
-\mathbb{R} \times \mathbb{R}$), and into $S^1$ by the characteristic property
-of the subspace (Proposition 4.1). Bijectivity: surjective by trigonometry
-(every point of the circle is reached at some angle in $[0, 2\pi)$), and
-injective because angles in $[0, 2\pi)$ with equal cosine *and* equal sine
-are equal (again trigonometry). Not a homeomorphism: the full map
-$W: [0, 2\pi] \to S^1$ on the closed interval is continuous and surjective,
-so $S^1$ is compact (Theorems 7.1 and 7.2 ii). If the inverse of $w$ were
-continuous, then $[0, 2\pi)$ would be the continuous image of the compact
-$S^1$, hence compact (Theorem 7.2 ii). But $[0, 2\pi)$ is not compact: the
-cover $\{(-1, 2\pi - 1/n) \cap [0, 2\pi)\}_{n \in \mathbb{N}}$ (each member
-open in the subspace) has no finite subcover, since a finite subcollection's
-largest member is $(-1, 2\pi - 1/N)$, and the point $2\pi - 1/(2N)$ lies in
-$[0, 2\pi)$ above $2\pi - 1/N$ (the Archimedean property, Lemma 6.0, applied
-to the positive number $1/(2\pi - t)$ when checking that the cover covers).
+$\mathbb{R} \times \mathbb{R}$ (Proposition 4.2), and into $S^1$ by the
+characteristic property of the subspace (Proposition 4.1). Bijectivity:
+surjective by trigonometry (every point of the circle is reached at some
+angle in $[0, 2\pi)$), and injective because angles in $[0, 2\pi)$ with
+equal cosine *and* equal sine are equal (again trigonometry). Not a
+homeomorphism: the full map $W: [0, 2\pi] \to S^1$ on the closed interval is
+continuous (same formula, restricted) and surjective, so $S^1$ is compact
+(Theorems 7.1 and 7.2 ii). If the inverse of $w$ were continuous, then
+$[0, 2\pi)$ would be the continuous image of the compact $S^1$, hence
+compact (Theorem 7.2 ii). But $[0, 2\pi)$ is not compact: the collection
+$\{(-1,\, 2\pi - 1/n) \cap [0, 2\pi)\}_{n \in \mathbb{N}}$ covers it (for
+$t < 2\pi$ the number $2\pi - t$ is positive, so the Archimedean property
+gives $n > 1/(2\pi - t)$, i.e. $t > 2\pi - 1/n$), each member is open in the
+subspace, and no finite subcollection covers: its largest member is
+$(-1, 2\pi - 1/N)$, and the point $2\pi - 1/(2N)$ lies above $2\pi - 1/N$.
 So no such homeomorphism exists. $\blacksquare$
 
 **Invariants.** Theorems 6.2 and 7.2(ii) say connectedness and compactness
@@ -486,10 +486,11 @@ separates $[0, 2\pi]$ from $[0, 2\pi)$.
    no finite subcover: a finite subcollection has a largest $N$, and the
    point $N + 1$ escapes.)
 6. Prove that $\{1/n : n \in \mathbb{N}\} \cup \{0\}$ is compact. (§7 –
-   prove it is closed (for $y > 0$ off the set, only finitely many $1/n$
-   exceed $y/2$, by the Archimedean property, so the nearest one gives a
-   separating ball) and bounded, then quote the converse in Theorem
-   7.2(iv).)
+   prove it is closed (for $y > 0$ off the set, the Archimedean property
+   leaves only finitely many $1/n$ above $y/2$, so the nearest member of the
+   set to $y$ exists, and the ball of half that distance, capped at $y/2$ to
+   also avoid $0$, separates $y$ from the set) and bounded, then quote the
+   converse in Theorem 7.2(iv).)
 7. Prove that $S^1$ is connected. (§6, §7 – it is the continuous image of
    the connected interval $[0, 2\pi]$ under the wrap map $W$, by Theorems
    6.2 and 7.1.)
