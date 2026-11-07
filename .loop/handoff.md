@@ -61,4 +61,26 @@
   caution replaced with the provable N -> Z monoid example, comma-category and
   Hausdorff jargon removed, adjunction naturality made explicit, heading
   levels fixed, self-test hints corrected. Em-dashes swept to en-dashes in
-  all three files. Level 2 (topology) is the next build.
+  all three files.
+- Level 2 BUILT (2a-topology.md, 5280534d9): metric + abstract topologies,
+  continuity (open-preimage definition, epsilon-delta equivalence proved),
+  homeomorphisms, closure/interior, subspace + product characteristic
+  properties, Hausdorff, connectedness (full sup proof that [a,b] is
+  connected; IVT as a corollary; Q disconnected with sqrt-2 irrationality
+  proved inline), compactness (full Heine-Borel sup proof; compact-in-
+  Hausdorff closed; EVT as a corollary; wrap map as the canonical
+  continuous-bijection-not-homeomorphism). Two declared analysis inputs
+  (completeness axiom incl. Archimedean corollary, elementary-calculus
+  continuity), everything else proved. Self-review pass caught 9 issues
+  (forward reference of Archimedes, undefined distance-to-set, R^2 vs RxR
+  product-topology gap) - fixed in 9ae6603ab.
+- Hub page table lists 1A/1B/2; 1B links forward to 2. Sidebar picks up
+  2a-topology via autogenerate.
+- NEXT: Level 3 in three sub-pages (3a smooth manifolds: charts, atlases,
+  compatibility transitivity, stereographic S^n; 3b tangent spaces via
+  derivations; 3c forms + Stokes). Declared inputs for 3a: multivariable
+  chain rule + inverse function theorem (labelled explicitly, like
+  completeness in Level 2). Levels 4-5 after.
+- Deploy note: deploy.yml uses a concurrency group - newer pushes cancel
+  in-progress runs (5e412b0f5 run cancelled by the 5280534d9 run). Watch
+  only the newest run; main is cumulative.
