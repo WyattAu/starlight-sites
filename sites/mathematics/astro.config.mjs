@@ -41,6 +41,11 @@ export default defineConfig({
       sidebar: [
         { label: 'Study Hub', slug: 'hub' },
         { label: 'Introduction', slug: 'intro' },
+        {
+          label: 'The Core Course',
+          items: [{ autogenerate: { directory: '17-core-course' } }],
+          collapsed: false,
+        },
         { label: 'Practice Test', slug: 'practice-test-mega' },
         {
           label: 'Abstract Algebra',
@@ -101,11 +106,6 @@ export default defineConfig({
           label: 'Topology',
           items: [{ autogenerate: { directory: '9-topology' } }],
           collapsed: true,
-        },
-        {
-          label: 'The Core Course',
-          items: [{ autogenerate: { directory: '17-core-course' } }],
-          collapsed: false,
         },
         { label: 'Demos', items: [{ autogenerate: { directory: 'demos' } }], collapsed: true },
         { label: 'About', slug: 'about' },
