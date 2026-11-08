@@ -222,17 +222,55 @@ jobs:
   # class regressions in ~2 minutes instead of after a full canary+rollout.
   lean-proof:
     runs-on: ubuntu-latest
-    # Prebuilt Lean image: no runtime downloads from releases.lean-lang.org,
-    # which has flaked twice in a row (elan init, then the toolchain tarball).
-    # The image ships lean + lake at exactly the pinned version.
-    container: ghcr.io/leanprover/lean4:v4.29.0
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+
+      - name: Cache elan and the pinned toolchain
+        uses: actions/cache@v4
+        with:
+          path: ~/.elan
+          key: elan-${{ runner.os }}-v4.29.0
+          restore-keys: elan-${{ runner.os }}-
+
+      - name: Install elan if not cached
+        run: |
+          set -e
+          if ! command -v elan > /dev/null 2>&1; then
+            ok=0
+            for i in 1 2 3 4 5; do
+              if curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh \
+                | sh -s -- -y --default-toolchain none; then
+                ok=1
+                break
+              fi
+              echo "elan install attempt $i failed; retrying"
+              sleep 15
+            done
+            [ "$ok" = 1 ] || { echo "elan install failed after 5 attempts"; exit 1; }
+          fi
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+
+      - name: Install the pinned toolchain if not cached
+        working-directory: lean
+        run: |
+          set -e
+          export PATH="$HOME/.elan/bin:$PATH"
+          if ! elan toolchain list 2>/dev/null | grep -q v4.29.0; then
+            ok=0
+            for i in 1 2 3 4 5; do
+              if elan toolchain install; then ok=1; break; fi
+              echo "toolchain download attempt $i failed; retrying"
+              sleep 20
+            done
+            [ "$ok" = 1 ] || { echo "toolchain install failed after 5 attempts"; exit 1; }
+          fi
+          lake --version
 
       - name: Build the course-graph proof artifact
         working-directory: lean
         run: |
+          export PATH="$HOME/.elan/bin:$PATH"
           lake build
           echo "verified: lean $(lean --version)"
 
