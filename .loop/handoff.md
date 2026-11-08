@@ -1,3 +1,66 @@
+# Handoff — core course graph + axioms ledger, Lean in CI, theme-fab + mermaid repairs (2026-11-08)
+
+## Deployed state
+- run 42435368783 (0967a4361) SUCCESS: theme selector fix (fab was hidden on
+  the whole landing site by `body.page-landing #wn-reader{display:none}`; the
+  class is every page's base class). Verified with playwright: fab visible on
+  /, /about/, /topics/ at 1208,828.
+- run for 5e4c1a96e in flight: 61-chapter graph + axioms ledger + mermaid
+  vendoring + lean-proof CI job. Verify mermaid renders (jsdelivr was 503 and
+  every diagram on the fleet showed raw code) with
+  `node /tmp/opencode/verify-deploy.mjs` (screenshots in /tmp/opencode/shots/).
+
+## What landed (5f65d49b7..5e4c1a96e)
+- docs/course-graph.json = single source of truth: 61 chapters, 12 stages,
+  130 edges, 13 ledger debts (all paid), 2 axioms (classical-logic at A1,
+  axiom-of-choice at D5 — modelled separately from debts, never discharged).
+  New chapters: C4 primes/FTA, D5 choice/Zorn, G7 integration+FTC (fixes the
+  misattributed FTC debt that pointed at the chain-rule chapter), G8
+  contraction mapping/ODEs, J8 curvature.
+- scripts/check-course-graph.py (gate): acyclicity, order, ledger payees,
+  axiom validation, hub agreement. scripts/gen-course-map.py generates the
+  hub map + stage-graph mermaid between markers (--check mode for CI later).
+- scripts/gen-course-graph-lean.py -> lean/CourseGraph.lean: 61 per-chapter
+  descent theorems + composite graph_ok; builds green locally on elan
+  v4.29.0 (reinstall fixed the earlier corrupted-toolchain false alarms).
+  NEW CI JOB lean-proof: elan + lake build before deploy-canary.
+- Standard v2.3 (docs/pedagogy-core-course.md): axioms vs debts, generated
+  ledger, hub page rewritten (the stale "Five Levels" framing is gone).
+- Mermaid/web-vitals vendored same-origin (mermaid 11.17.2 UMD 3.5MB,
+  web-vitals 4.2.4 IIFE) to public/vendor/ on all 49 sites via
+  sync-shared PUBLIC_FILES; mermaid-render.js lazy-loads it only on pages
+  with diagrams; Head.astro CDN tag + preconnect removed; CSP drops
+  jsdelivr; 48 astro configs drop the jsdelivr dns-prefetch;
+  lint-config-parity needle updated. mermaid-render.js/web-vitals.js are
+  now sync-managed (8 sites were missing copies).
+- biome excludes: lean/.lake, lake-manifest.json, docs/course-graph.json
+  (generator output), **/public/vendor (third-party bundles).
+
+## Open items (priority order)
+1. Post-deploy: verify mermaid renders on math hub + a diagram-heavy page
+   (tools/python), fab on landing, no jsdelivr requests, CSP not blocking
+   /vendor/mermaid.min.js.
+2. Stage A1 build (propositions/quantifiers/false-proof dissection) once the
+   user blesses the 61-chapter DAG. Click-to-reveal mechanism (standalone
+   stylesheet class, never inline CSS) needed before Stage A content.
+3. gen-course-map.py --check is not yet a CI gate step (local + validator
+   agreement only). Wire it into the gate next graph change.
+4. Lean transitive-closure theorem over symbolic indices: skip; per-chapter
+   certificates are complete for the data. Do not promise more in docs.
+5. Search worker zero-results 43.2% lifetime; bot filter accumulating.
+
+## Lessons (this session)
+- Identical per-site blobs dedupe in git (one zlib stream): 49 x 3.5MB
+  vendor copies cost ~1MB of pack. The sync-shared duplication pattern is
+  cheap for identical assets, expensive only for divergent ones.
+- biome formats JSON inside gitignored dirs if the file is tracked; and
+  `rg -rn` REPLACES matches (the -r flag) — read flags before trusting
+  grep-style output. Both caused false alarms this session.
+- The "corrupted elan toolchain" was a red herring: the real bug was
+  conjoining theorem NAMES where propositions belong
+  (`deps_lt_A1 ∧ ...` vs the unfolded ∀ statements). Toolchain reinstall
+  was unnecessary; the generated statement was the problem.
+
 # Handoff — estate math repair, SEO fixes, search SLO, deploy gate unblocked (2026-11-01)
 
 ## Deployed state
