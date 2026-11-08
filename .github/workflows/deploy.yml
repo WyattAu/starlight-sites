@@ -228,9 +228,23 @@ jobs:
 
       - name: Install elan (toolchain pinned by lean/lean-toolchain)
         run: |
-          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh \
-            | sh -s -- -y --default-toolchain none
+          for i in 1 2 3; do
+            curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh \
+              | sh -s -- -y --default-toolchain none && break
+            echo "elan install attempt $i failed; retrying"
+            sleep 10
+          done
           echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+
+      - name: Install the pinned toolchain (downloads from releases.lean-lang.org, which flakes)
+        working-directory: lean
+        run: |
+          for i in 1 2 3 4 5; do
+            elan toolchain install && break
+            echo "toolchain download attempt $i failed; retrying"
+            sleep 15
+          done
+          elan show
 
       - name: Build the course-graph proof artifact
         working-directory: lean

@@ -22131,6 +22131,9 @@ graph TD
     J["J: Calculus as linearisation (7)"]
     K["K: Complex analysis (3)"]
     L["L: Algebra and symmetry (5)"]
+    M["M: The functional summit (6)"]
+    N["N: Topology and geometry at research level (7)"]
+    O["O: Probability at research level (4)"]
     A --> B
     A --> C
     A --> D
@@ -22158,15 +22161,29 @@ graph TD
     F --> G
     F --> J
     F --> L
+    F --> M
+    F --> N
     G --> I
     G --> J
     G --> K
+    G --> O
     H --> J
     H --> L
+    H --> M
+    H --> N
     I --> J
     I --> K
+    I --> M
+    I --> N
+    I --> O
     J --> K
     J --> L
+    J --> M
+    J --> N
+    K --> M
+    L --> N
+    M --> N
+    M --> O
 ```
 
 Each node is a stage, with its chapter count; each arrow is a dependency
@@ -22181,8 +22198,8 @@ The reader arrives knowing how to read. The course builds the rest in
 dependency order: logic before counting, counting before the number line, the
 number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
-The full course is 66 chapters across 12 dependency stages, from
-logic to Galois, with
+The full course is 83 chapters across 15 dependency stages, from
+logic to the research frontier, with
 14 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
@@ -22270,6 +22287,26 @@ chapter descends the course order.
 | L3 | Galois theory: symmetry of equations | queued |
 | L4 | Lie groups and group actions | queued |
 | L5 | Geometry: the fifth postulate, its collapse, and symmetry as geometry | queued |
+| **Stage M — The functional summit** | *Functional analysis to elliptic PDE: Banach and Hilbert spaces, distributions, Sobolev, the Laplacian's spectrum.* | |
+| M1 | Banach spaces and the four pillars (debt: zorn-lemma → D5) | queued |
+| M2 | Hilbert spaces and the spectral theorem for compact operators | queued |
+| M3 | Weak topologies, locally convex spaces, and distributions | queued |
+| M4 | Banach algebras, the Gelfand spectrum, and C*-algebras | queued |
+| M5 | Sobolev spaces and weak derivatives | queued |
+| M6 | Elliptic theory: the Laplacian, Fredholm, and regularity | queued |
+| **Stage N — Topology and geometry at research level** | *Homotopy, homological algebra, homology, de Rham cohomology, characteristic classes, Riemannian geometry, representations.* | |
+| N1 | The fundamental group, covering spaces, and Van Kampen | queued |
+| N2 | Homological algebra: chain complexes, derived functors, Ext and Tor | queued |
+| N3 | Homology: simplicial and singular | queued |
+| N4 | de Rham cohomology: Stokes as an isomorphism | queued |
+| N5 | Fibre bundles, connections, and characteristic classes | queued |
+| N6 | Riemannian geometry: Hopf-Rinow, Gauss-Bonnet, comparison | queued |
+| N7 | Representation theory: characters and Peter-Weyl | queued |
+| **Stage O — Probability at research level** | *Martingales, Brownian motion, the Ito calculus, and the diffusion bridge to PDE.* | |
+| O1 | Martingales and optional stopping | queued |
+| O2 | Brownian motion: construction, invariance, pathologies | queued |
+| O3 | The Ito calculus | queued |
+| O4 | Stochastic differential equations and Feynman-Kac | queued |
 
 </div>
 

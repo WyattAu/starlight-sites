@@ -10,8 +10,8 @@ course.
 
 ## 0. Purpose
 
-The Core Course teaches mathematics from nothing to the frontier of the
-undergraduate canon, on one principle:
+The Core Course teaches mathematics from nothing to the research
+frontier, on one principle:
 
 > **You can only do mathematics. You cannot read it.**
 
@@ -151,6 +151,25 @@ chapters whose dependencies are fully discharged by earlier stages:
   a Lie group is a group before it is a manifold), and the closing synthesis
   — geometry: the fifth postulate, its collapse, and symmetry as geometry.
   The course ends by re-seeing, not re-teaching.
+- **Stage M: The functional summit.** Banach spaces and the four pillars
+  (Hahn-Banach, Banach-Steinhaus, open mapping, closed graph: Baire earning
+  its keep); Hilbert spaces and the spectral theorem for compact operators;
+  weak topologies and distributions; Banach algebras, the Gelfand spectrum,
+  and C*-algebras (Liouville paying a second debt); Sobolev spaces; elliptic
+  theory: weak solutions becoming smooth, the Laplacian's spectrum as the
+  infinite spectral theorem in action.
+- **Stage N: Topology and geometry at research level.** The fundamental
+  group with covering spaces and Van Kampen; homological algebra (Ext, Tor,
+  derived functors); simplicial and singular homology; de Rham cohomology
+  with Stokes read as an isomorphism; fibre bundles and Chern-Weil
+  characteristic classes; Riemannian geometry (Hopf-Rinow, Gauss-Bonnet,
+  comparison); representation theory from finite characters to Peter-Weyl.
+- **Stage O: Probability at research level.** Martingales and optional
+  stopping; Brownian motion built by Kolmogorov's extension and shown
+  nowhere differentiable; the Ito calculus (quadratic variation as the
+  obstruction); stochastic differential equations solved by Picard
+  iteration — G9 returning — and Feynman-Kac, where the course's two
+  halves, analysis and probability, are revealed as one subject.
 
 The stages are the dependency order: no chapter may reach into a later
 stage, and within a stage the same rule holds. The written chapters of the
@@ -439,6 +458,14 @@ After merge:
 
 ## 9. Changelog
 
+- **v2.5**: the frontier moves. Three research stages follow the core
+  spine: M (functional analysis to elliptic PDE), N (homotopy, homological
+  algebra, homology, de Rham, characteristic classes, Riemannian geometry,
+  representations), O (martingales, Brownian motion, the Ito calculus,
+  stochastic differential equations and Feynman-Kac). 83 chapters, 15
+  stages, 188 edges; the Lean artifact re-proves the new order before any
+  content is written. Feynman-Kac closes the loop the course opened: the
+  diffusion solves the PDE, and Picard iteration returns from Stage G.
 - **v2.4**: the full dependency audit. Four unclean dependencies found and
   fixed: Lie groups sat in the manifold stage before groups exist (moved to
   Stage L); the change-of-variables formula consumed the inverse function

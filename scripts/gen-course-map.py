@@ -36,7 +36,7 @@ def build_section(graph):
         "number line before algebra, algebra before structure, structure before the",
         "continuum, and the continuum before everything that measures it.",
         f"The full course is {len(chapters)} chapters across {len(graph['stages'])} dependency stages, from",
-        "logic to Galois, with",
+        "logic to the research frontier, with",
         f"{written} written. The graph is machine-checked: `docs/course-graph.json` is",
         "validated for acyclicity and order-consistency on every push, and the same",
         "data generates a Lean 4 proof, checked in CI, that every dependency of every",

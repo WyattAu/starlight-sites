@@ -60,6 +60,21 @@
       "id": "L",
       "title": "Algebra and symmetry",
       "blurb": "Groups, rings, Galois, Lie groups, and the geometry synthesis."
+    },
+    {
+      "id": "M",
+      "title": "The functional summit",
+      "blurb": "Functional analysis to elliptic PDE: Banach and Hilbert spaces, distributions, Sobolev, the Laplacian's spectrum."
+    },
+    {
+      "id": "N",
+      "title": "Topology and geometry at research level",
+      "blurb": "Homotopy, homological algebra, homology, de Rham cohomology, characteristic classes, Riemannian geometry, representations."
+    },
+    {
+      "id": "O",
+      "title": "Probability at research level",
+      "blurb": "Martingales, Brownian motion, the Ito calculus, and the diffusion bridge to PDE."
     }
   ],
   "chapters": [
@@ -998,7 +1013,243 @@
         "H1",
         "J7"
       ],
-      "note": "Synthesis, not reintroduction: Hilbert's axioms re-seen, the equivalent postulate forms proved equivalent, the Poincaré and hyperboloid models built analytically, curvature explaining the failure, Erlangen closing the arc. The course's closing chord."
+      "note": "Synthesis, not reintroduction: Hilbert's axioms re-seen, the equivalent postulate forms proved equivalent, the Poincaré and hyperboloid models built analytically, curvature explaining the failure, Erlangen closing the arc. The closing chord of the core spine; the research stages M, N and O continue past it."
+    },
+    {
+      "id": "M1",
+      "stage": "M",
+      "title": "Banach spaces and the four pillars",
+      "deps": [
+        "H3",
+        "I4"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [
+        {
+          "input": "zorn-lemma",
+          "dischargedBy": "D5",
+          "note": "Hahn-Banach is Zorn at work."
+        }
+      ],
+      "note": "Hahn-Banach, Banach-Steinhaus, the open mapping theorem, the closed graph theorem. Baire category, the Stage-H promise, earns its keep."
+    },
+    {
+      "id": "M2",
+      "stage": "M",
+      "title": "Hilbert spaces and the spectral theorem for compact operators",
+      "deps": [
+        "M1",
+        "F8"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "The infinite-dimensional completion of F8: compact operators, the Fredholm alternative, eigenfunction expansions. Sturm-Liouville as the first instance."
+    },
+    {
+      "id": "M3",
+      "stage": "M",
+      "title": "Weak topologies, locally convex spaces, and distributions",
+      "deps": [
+        "M1",
+        "I7"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Banach-Alaoglu; weak and weak-* convergence; the Schwartz space with the Fourier transform as an automorphism of it; distributions as its dual, and the derivative extended to all of them."
+    },
+    {
+      "id": "M4",
+      "stage": "M",
+      "title": "Banach algebras, the Gelfand spectrum, and C*-algebras",
+      "deps": [
+        "M1",
+        "M2",
+        "K2"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "The spectral radius via Liouville (K2 pays again); characters and the Gelfand transform; commutative C*-algebras are algebras of continuous functions: Gelfand-Naimark."
+    },
+    {
+      "id": "M5",
+      "stage": "M",
+      "title": "Sobolev spaces and weak derivatives",
+      "deps": [
+        "M3",
+        "I4",
+        "I5"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "The regularity ladder: weak derivatives, Sobolev embedding, traces; why elliptic equations are solved in these spaces."
+    },
+    {
+      "id": "M6",
+      "stage": "M",
+      "title": "Elliptic theory: the Laplacian, Fredholm, and regularity",
+      "deps": [
+        "M5",
+        "M2",
+        "J5"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Weak solutions become smooth; the Laplacian's spectrum as the infinite spectral theorem in action; Hodge theory on the horizon."
+    },
+    {
+      "id": "N1",
+      "stage": "N",
+      "title": "The fundamental group, covering spaces, and Van Kampen",
+      "deps": [
+        "H1",
+        "H2",
+        "L1"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Loops modulo homotopy as a group; the circle's group computed; Van Kampen's theorem."
+    },
+    {
+      "id": "N2",
+      "stage": "N",
+      "title": "Homological algebra: chain complexes, derived functors, Ext and Tor",
+      "deps": [
+        "L2",
+        "F1"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Exact sequences as the working language; derived functors; Ext and Tor as the measuring instruments."
+    },
+    {
+      "id": "N3",
+      "stage": "N",
+      "title": "Homology: simplicial and singular",
+      "deps": [
+        "N2",
+        "H2",
+        "L2"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Chain complexes from spaces; homotopy invariance; the Euler characteristic as the shadow of homology."
+    },
+    {
+      "id": "N4",
+      "stage": "N",
+      "title": "de Rham cohomology: Stokes as an isomorphism",
+      "deps": [
+        "J5",
+        "N3"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "The Poincare lemma; closed versus exact; the pairing with homology and the de Rham theorem; the degree of a map."
+    },
+    {
+      "id": "N5",
+      "stage": "N",
+      "title": "Fibre bundles, connections, and characteristic classes",
+      "deps": [
+        "J7",
+        "J3",
+        "N4"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Chern-Weil theory: curvature integrates into cohomology classes that see the topology of the bundle."
+    },
+    {
+      "id": "N6",
+      "stage": "N",
+      "title": "Riemannian geometry: Hopf-Rinow, Gauss-Bonnet, comparison",
+      "deps": [
+        "J7",
+        "H3",
+        "N4"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Geodesic completeness equals topological completeness; Gauss-Bonnet as the marriage of curvature and topology; comparison geometry's triangle intuitions made theorems."
+    },
+    {
+      "id": "N7",
+      "stage": "N",
+      "title": "Representation theory: characters and Peter-Weyl",
+      "deps": [
+        "L4",
+        "M2",
+        "I7"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Fourier generalised: irreducible representations as the modes of a group. Finite groups by characters; compact groups by Peter-Weyl."
+    },
+    {
+      "id": "O1",
+      "stage": "O",
+      "title": "Martingales and optional stopping",
+      "deps": [
+        "I6",
+        "I8"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Conditional expectation as the engine; filtrations; the optional sampling theorem; upcrossing inequalities."
+    },
+    {
+      "id": "O2",
+      "stage": "O",
+      "title": "Brownian motion: construction, invariance, pathologies",
+      "deps": [
+        "O1",
+        "I5"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Kolmogorov's extension theorem; Donsker's invariance principle as a statement; continuous paths that are nowhere differentiable."
+    },
+    {
+      "id": "O3",
+      "stage": "O",
+      "title": "The Ito calculus",
+      "deps": [
+        "O2",
+        "I4"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Quadratic variation as the obstruction to the ordinary chain rule; the Ito integral; Ito's formula."
+    },
+    {
+      "id": "O4",
+      "stage": "O",
+      "title": "Stochastic differential equations and Feynman-Kac",
+      "deps": [
+        "O3",
+        "G9",
+        "M6"
+      ],
+      "file": null,
+      "status": "queued",
+      "declaredInputs": [],
+      "note": "Existence and uniqueness by Picard iteration - G9 returns; the diffusion semigroup solves the PDE, and Feynman-Kac fuses the course's two halves: analysis and probability are one subject."
     }
   ],
   "axioms": [
