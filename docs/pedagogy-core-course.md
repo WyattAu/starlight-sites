@@ -105,22 +105,30 @@ chapters whose dependencies are fully discharged by earlier stages:
   and discharged much later, when complex analysis is built — the first
   entry in the declared-input ledger, and the demonstration that the ledger
   is a promise the course keeps.
-- **Stage F: Structure.** Category theory as the language of composition,
-  now with built examples; linear algebra over $\mathbb{R}$ and
-  $\mathbb{C}$: spaces, maps, duality, quotients, determinants, exterior
-  algebra, eigenstructure, inner products and the spectral theorem,
-  canonical forms.
-- **Stage G: The canvas.** Metric and topological spaces, continuity,
+- **Stage F: Structure and linear algebra.** Category theory as the language
+  of composition, now with built examples; linear algebra over
+  $\mathbb{R}$ and $\mathbb{C}$: spaces, maps, duality, quotients,
+  determinants, exterior algebra, eigenstructure, inner products and the
+  spectral theorem, canonical forms.
+- **Stage G: Euclidean analysis.** Convergence in $\mathbb{R}^n$,
+  continuity in several variables, the multivariable derivative, the chain
+  rule and Clairaut, the inverse function theorem, the elementary functions
+  built from power series. This stage *discharges the multivariable debts*
+  that the manifold chapters would otherwise have to declare.
+- **Stage H: The canvas.** Metric and topological spaces, continuity,
   connectedness, compactness, the quotient topology, convergence and
   completeness, separation and metrisation.
-- **Stage H: Calculus as linearisation.** Smooth manifolds, tangent spaces,
-  differential forms, integration and Stokes, submanifolds, Lie groups.
 - **Stage I: Measure.** $\sigma$-algebras, Carathéodory, the Lebesgue
-  integral, convergence modes, $L^p$ duality, Fubini, Radon-Nikodym,
-  Fourier.
-- **Stage J: Complex analysis.** Holomorphy, Cauchy and residues, and the
+  integral, convergence modes, $L^p$ duality, Fubini and the
+  change-of-variables formula, Radon-Nikodym, Fourier. This stage *discharges
+  the integration debts* (Fubini, change of variables) that the Stokes
+  chapter consumes.
+- **Stage J: Calculus as linearisation.** Smooth manifolds, tangent spaces,
+  differential forms, partitions of unity, integration and Stokes,
+  submanifolds, Lie groups.
+- **Stage K: Complex analysis.** Holomorphy, Cauchy and residues, and the
   proof of the fundamental theorem of algebra — the ledger closes.
-- **Stage K: Algebra and symmetry.** Groups, rings and modules, Galois
+- **Stage L: Algebra and symmetry.** Groups, rings and modules, Galois
   theory.
 
 The stages are the dependency order: no chapter may reach into a later
@@ -344,11 +352,17 @@ failure and is not optional):
    `lint-descriptions`, `lint-links`.
 4. `node scripts/lint-site-nav-parity.js` (if catalogue surfaces were
    touched).
-5. Backslash hygiene on new pages: no doubled LaTeX escapes.
-6. `node scripts/generate-llms-txt.js` (if any content changed).
-7. Self-review pass: re-read the full page as a hostile reader; fix findings.
-8. Commit and push immediately. Deferred pushes are the failure mode this
+5. `python3 scripts/check-course-graph.py` (the dependency graph: acyclic,
+   ordered, ledger discharged, hub in agreement — every edit to the course
+   map or any chapter's dependencies changes the graph).
+6. Backslash hygiene on new pages: no doubled LaTeX escapes.
+7. `node scripts/generate-llms-txt.js` (if any content changed).
+8. Self-review pass: re-read the full page as a hostile reader; fix findings.
+9. Commit and push immediately. Deferred pushes are the failure mode this
    rule exists to prevent; the deploy queue absorbs immediate pushes.
+10. The Lean artifact (`lean/`) is proved in CI, not locally: local elan
+    toolchains have shown corrupted behaviour, and the repo's CI-only policy
+    for heavy builds applies here too.
 
 After merge:
 
@@ -402,6 +416,11 @@ After merge:
 
 ## 9. Changelog
 
+- **v2.1**: the stage architecture becomes the validated 12-stage
+  dependency order (Euclidean analysis inserted as Stage G; measure moved
+  before manifolds, discharging the Fubini debt in the correct order); the
+  dependency graph is machine-checked on every push and its acyclicity is
+  proved in Lean 4 in CI.
 - **v2**: the floor drops to literacy and pattern recognition; arithmetic
   itself is constructed (Stage B); the stage architecture replaces school
   ordering as Section 1's organising principle; click-to-reveal is the

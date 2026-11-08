@@ -22120,94 +22120,105 @@ graph TD
     L4 --> L5A
 ```
 
+<!-- COURSE-MAP:START -->
 ## The Course Map
 
 The reader arrives knowing how to read. The course builds the rest in
 dependency order: logic before counting, counting before the number line, the
 number line before algebra, algebra before structure, structure before the
-continuum, and the continuum before everything that measures it. Eleven
-chapters are written (five consolidated in the linear algebra page); the full
-course is fifty-two chapters across eleven stages.
+continuum, and the continuum before everything that measures it.
+The full course is 56 chapters across 12 dependency stages, from
+logic to Galois. The graph is machine-checked: `docs/course-graph.json` is
+validated for acyclicity and order-consistency on every push, and the same
+data generates a Lean 4 proof, checked in CI, that the dependency order is
+well-founded.
 
 <div class="table-wrap">
 
 | Chapter | Title | Status |
 |---|---|---|
-| **Stage A — Reasoning** (no numbers) | | |
+| **Stage A — Reasoning** | *Logic, sets, relations, functions. No numbers.* | |
 | A1 | Propositions, quantifiers, and what a proof is | queued |
 | A2 | Sets: membership, products, power sets | queued |
-| A3 | Relations: order, equivalence (the machinery every construction uses) | queued |
+| A3 | Relations: order, equivalence | queued |
 | A4 | Functions: injections, surjections, bijections, composition | queued |
 | A5 | Proof strategies in action: the false proof, dissected | queued |
-| **Stage B — Counting** | | |
-| B1 | The Peano axioms: what counting *is* | queued |
+| **Stage B — Counting** | *Peano, induction, arithmetic as theorems.* | |
+| B1 | The Peano axioms: what counting is | queued |
 | B2 | Addition defined recursively; its laws proved | queued |
 | B3 | Multiplication, order, exponentiation: all theorems | queued |
 | B4 | Division with remainder; the Archimedean property | queued |
-| **Stage C — Expanding the line** | | |
-| C1 | The failure of subtraction; $\mathbb{Z}$ as difference classes | queued |
-| C2 | The failure of division; $\mathbb{Q}$ as fraction classes; density | queued |
-| C3 | The first crisis: $x^2 = 2$ has no rational solution | queued |
-| **Stage D — The continuum** | | |
-| D1 | Dedekind cuts: $\mathbb{R}$ constructed from order alone | queued |
-| D2 | Arithmetic and completeness of $\mathbb{R}$, proved | queued |
-| D3 | Decimals, roots, the place of $\mathbb{Q}$ inside $\mathbb{R}$ | queued |
-| D4 | Cardinality: countable $\mathbb{Q}$, uncountable $\mathbb{R}$ | queued |
-| **Stage E — Completing algebra** | | |
+| **Stage C — Expanding the line** | *Z, Q, and the first crisis.* | |
+| C1 | The failure of subtraction; Z as difference classes | queued |
+| C2 | The failure of division; Q as fraction classes; density | queued |
+| C3 | The first crisis: x^2 = 2 has no rational solution | queued |
+| **Stage D — The continuum** | *R constructed; completeness proved; cardinality.* | |
+| D1 | Dedekind cuts: R constructed from order alone | queued |
+| D2 | Arithmetic and completeness of R, proved | queued |
+| D3 | Decimals, roots, the place of Q inside R | queued |
+| D4 | Cardinality: countable Q, uncountable R | queued |
+| **Stage E — Completing algebra** | *Polynomials, C, and the FTA debt.* | |
 | E1 | Polynomials as formal objects | queued |
-| E2 | $\mathbb{C}$ built as pairs with a multiplication rule | queued |
-| E3 | The fundamental theorem of algebra — *declared*, discharged at K3 | queued |
-| **Stage F — Structure and linear algebra** | | |
+| E2 | C built as pairs with a multiplication rule | queued |
+| E3 | The fundamental theorem of algebra: statement, consequences, and the debt (debt: fundamental-theorem-of-algebra → K3) | queued |
+| **Stage F — Structure and linear algebra** | *Categories and linear algebra over R and C.* | |
 | F1 | Categories: objects, morphisms, universal properties, adjunctions | written |
 | F2 | Vector spaces, linear maps, dimension | written |
 | F3 | Duality and the double dual | written |
 | F4 | Quotient spaces and their universal property | written |
 | F5 | Determinants as alternating forms | written |
 | F6 | Exterior algebra | written |
-| F7 | Eigenstructure, triangularisation, Cayley–Hamilton | written |
-| F8 | Inner products, orthogonality, the spectral theorem | written |
+| F7 | Eigenstructure, triangularisation, Cayley-Hamilton (debt: fundamental-theorem-of-algebra → K3) | written |
+| F8 | Inner products, orthogonality, the spectral theorem (debt: fundamental-theorem-of-algebra → K3) | written |
 | F9 | Canonical forms: what remains when diagonalisation fails | queued |
-| **Stage G — The canvas** | | |
-| G1 | Metric and topological spaces, continuity, homeomorphism | written |
-| G2 | Connectedness and compactness; the IVT and EVT as theorems of space | written |
-| G3 | The quotient topology and topological constructions | queued |
-| G4 | Convergence, completeness, and the $p$-adic warning | queued |
-| G5 | Separation axioms, countability, metrisation | queued |
-| **Stage H — Calculus as linearisation** | | |
-| H1 | Smooth manifolds: charts, atlases, smooth maps | written |
-| H2 | Tangent spaces, the differential, the inverse function theorem | written |
-| H3 | Differential forms and the exterior derivative | written |
-| H4 | Integration, orientation, and Stokes | written |
-| H5 | Submanifolds, immersions, regular level sets | queued |
-| H6 | Lie groups and group actions | queued |
-| **Stage I — Measure** | | |
-| I1 | $\sigma$-algebras and measures | queued |
-| I2 | The Lebesgue integral: Carathéodory | queued |
+| **Stage G — Euclidean analysis** | *Convergence, continuity, the derivative, the chain rule, the IFT, the elementary functions. Discharges the multivariable debts of the manifold chapters.* | |
+| G1 | Convergence of sequences in R and R^n | queued |
+| G2 | Continuity in several variables | queued |
+| G3 | The derivative in several variables | queued |
+| G4 | The chain rule, partials, and Clairaut | queued |
+| G5 | The inverse function theorem | queued |
+| G6 | The exponential and trigonometric functions via power series | queued |
+| **Stage H — The canvas** | *Metric and topological spaces, connectedness, compactness.* | |
+| H1 | Metric and topological spaces, continuity, homeomorphism (debt: completeness-axiom → D2, elementary-functions-continuity → G6) | written |
+| H2 | Connectedness and compactness; the IVT and EVT | written |
+| **Stage I — Measure** | *Sigma-algebras to Fourier. Discharges the Fubini and change-of-variables debts.* | |
+| I1 | Sigma-algebras and measures | queued |
+| I2 | The Lebesgue integral: Caratheodory | queued |
 | I3 | Modes of convergence | queued |
-| I4 | $L^p$ spaces and duality | queued |
-| I5 | Product measures and Fubini–Tonelli | queued |
-| I6 | Radon–Nikodym and conditional expectation | queued |
+| I4 | L^p spaces and duality | queued |
+| I5 | Product measures and Fubini-Tonelli; the change-of-variables formula | queued |
+| I6 | Radon-Nikodym and conditional expectation | queued |
 | I7 | Fourier series and the Fourier transform | queued |
-| **Stage J — Complex analysis** | | |
-| J1 | Holomorphy: complex differentiability and its rigidity | queued |
-| J2 | Complex integration, Cauchy's theorem, residues | queued |
-| J3 | The fundamental theorem of algebra, *proved* — the ledger closes | queued |
-| **Stage K — Algebra and symmetry** | | |
-| K1 | Groups through the categorical lens | queued |
-| K2 | Rings and modules | queued |
-| K3 | Galois theory: symmetry of equations | queued |
+| **Stage J — Calculus as linearisation** | *Manifolds, tangent spaces, forms, partitions of unity, integration and Stokes.* | |
+| J1 | Smooth manifolds: charts, atlases, smooth maps (debt: multivariable-chain-rule → G4, multivariable-inverse-function-theorem → G5, trigonometry-facts → G6) | written |
+| J2 | Tangent spaces, the differential, the IFT on manifolds (debt: fundamental-theorem-of-calculus → G4, differentiation-under-the-integral → I5) | written |
+| J3 | Differential forms and the exterior derivative (debt: clairaut-mixed-partials → G4) | written |
+| J4 | Partitions of unity | queued |
+| J5 | Integration, orientation, and Stokes (debt: fubini-theorem → I5, change-of-variables-formula → I5, partitions-of-unity-existence → J4) | written |
+| J6 | Submanifolds, immersions, regular level sets | queued |
+| J7 | Lie groups and group actions | queued |
+| **Stage K — Complex analysis** | *Holomorphy, Cauchy, residues, and the FTA proved — the ledger closes.* | |
+| K1 | Holomorphy: complex differentiability and its rigidity | queued |
+| K2 | Complex integration, Cauchy's theorem, residues | queued |
+| K3 | The fundamental theorem of algebra, proved - the ledger closes | queued |
+| **Stage L — Algebra and symmetry** | *Groups, rings and modules, Galois.* | |
+| L1 | Groups through the categorical lens | queued |
+| L2 | Rings and modules | queued |
+| L3 | Galois theory: symmetry of equations | queued |
 
 </div>
 
-Stages A through E are the foundations build: the floor of the entire course,
-constructed ahead of everything else under the zero-knowledge contract. The
-declared-input ledger has one open debt — the fundamental theorem of algebra,
-declared at F7 — discharged at J3, roughly forty chapters later. That gap is
-the point: the reader watches mathematics borrow against its own future and
-pay the debt in full.
+The declared-input ledger is visible in the map: a chapter carrying a debt
+shows the input and the chapter that discharges it. The ledger's first debt
+(the fundamental theorem of algebra, declared at E3 and used at F7 and F8)
+is paid at K3, where the theorem is finally proved. Every debt in the
+ledger has a payee, and the machine check enforces it.
 
 The reference tracks in the sidebar remain the encyclopaedia; this course is
 the path through it.
+<!-- COURSE-MAP:END -->
+
+
 
 ## The Mastery Methodology
 

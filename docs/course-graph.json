@@ -1,0 +1,839 @@
+{
+  "$comment": "The authoritative dependency graph of the Core Course. Validated by scripts/check-course-graph.py; proved acyclic in lean/CourseGraph. Chapters are listed in dependency order: every dependency must reference a chapter earlier in this file.",
+  "stages": [
+    {
+      "id": "A",
+      "title": "Reasoning",
+      "blurb": "Logic, sets, relations, functions. No numbers."
+    },
+    {
+      "id": "B",
+      "title": "Counting",
+      "blurb": "Peano, induction, arithmetic as theorems."
+    },
+    {
+      "id": "C",
+      "title": "Expanding the line",
+      "blurb": "Z, Q, and the first crisis."
+    },
+    {
+      "id": "D",
+      "title": "The continuum",
+      "blurb": "R constructed; completeness proved; cardinality."
+    },
+    {
+      "id": "E",
+      "title": "Completing algebra",
+      "blurb": "Polynomials, C, and the FTA debt."
+    },
+    {
+      "id": "F",
+      "title": "Structure and linear algebra",
+      "blurb": "Categories and linear algebra over R and C."
+    },
+    {
+      "id": "G",
+      "title": "Euclidean analysis",
+      "blurb": "Convergence, continuity, the derivative, the chain rule, the IFT, the elementary functions. Discharges the multivariable debts of the manifold chapters."
+    },
+    {
+      "id": "H",
+      "title": "The canvas",
+      "blurb": "Metric and topological spaces, connectedness, compactness."
+    },
+    {
+      "id": "I",
+      "title": "Measure",
+      "blurb": "Sigma-algebras to Fourier. Discharges the Fubini and change-of-variables debts."
+    },
+    {
+      "id": "J",
+      "title": "Calculus as linearisation",
+      "blurb": "Manifolds, tangent spaces, forms, partitions of unity, integration and Stokes."
+    },
+    {
+      "id": "K",
+      "title": "Complex analysis",
+      "blurb": "Holomorphy, Cauchy, residues, and the FTA proved — the ledger closes."
+    },
+    {
+      "id": "L",
+      "title": "Algebra and symmetry",
+      "blurb": "Groups, rings and modules, Galois."
+    }
+  ],
+  "chapters": [
+    {
+      "id": "A1",
+      "stage": "A",
+      "title": "Propositions, quantifiers, and what a proof is",
+      "deps": [],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "A2",
+      "stage": "A",
+      "title": "Sets: membership, products, power sets",
+      "deps": [
+        "A1"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "A3",
+      "stage": "A",
+      "title": "Relations: order, equivalence",
+      "deps": [
+        "A2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "A4",
+      "stage": "A",
+      "title": "Functions: injections, surjections, bijections, composition",
+      "deps": [
+        "A2",
+        "A3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "A5",
+      "stage": "A",
+      "title": "Proof strategies in action: the false proof, dissected",
+      "deps": [
+        "A1",
+        "A3",
+        "A4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "B1",
+      "stage": "B",
+      "title": "The Peano axioms: what counting is",
+      "deps": [
+        "A1",
+        "A2",
+        "A4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "B2",
+      "stage": "B",
+      "title": "Addition defined recursively; its laws proved",
+      "deps": [
+        "B1"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "B3",
+      "stage": "B",
+      "title": "Multiplication, order, exponentiation: all theorems",
+      "deps": [
+        "B2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "B4",
+      "stage": "B",
+      "title": "Division with remainder; the Archimedean property",
+      "deps": [
+        "B3",
+        "A3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "C1",
+      "stage": "C",
+      "title": "The failure of subtraction; Z as difference classes",
+      "deps": [
+        "B2",
+        "A3",
+        "A4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "C2",
+      "stage": "C",
+      "title": "The failure of division; Q as fraction classes; density",
+      "deps": [
+        "C1",
+        "B4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "C3",
+      "stage": "C",
+      "title": "The first crisis: x^2 = 2 has no rational solution",
+      "deps": [
+        "C2",
+        "B1"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "D1",
+      "stage": "D",
+      "title": "Dedekind cuts: R constructed from order alone",
+      "deps": [
+        "C2",
+        "C3",
+        "A3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "D2",
+      "stage": "D",
+      "title": "Arithmetic and completeness of R, proved",
+      "deps": [
+        "D1",
+        "C2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": [],
+      "discharges": [
+        "completeness-axiom"
+      ]
+    },
+    {
+      "id": "D3",
+      "stage": "D",
+      "title": "Decimals, roots, the place of Q inside R",
+      "deps": [
+        "D2",
+        "B4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "D4",
+      "stage": "D",
+      "title": "Cardinality: countable Q, uncountable R",
+      "deps": [
+        "A4",
+        "D2",
+        "C2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "E1",
+      "stage": "E",
+      "title": "Polynomials as formal objects",
+      "deps": [
+        "D2",
+        "B3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "E2",
+      "stage": "E",
+      "title": "C built as pairs with a multiplication rule",
+      "deps": [
+        "E1",
+        "D2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "E3",
+      "stage": "E",
+      "title": "The fundamental theorem of algebra: statement, consequences, and the debt",
+      "deps": [
+        "E1",
+        "E2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": [
+        {
+          "input": "fundamental-theorem-of-algebra",
+          "dischargedBy": "K3",
+          "note": "Declared here as a working axiom; discharged by the winding-number proof in K3."
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "stage": "F",
+      "title": "Categories: objects, morphisms, universal properties, adjunctions",
+      "deps": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "C2"
+      ],
+      "status": "written",
+      "file": "1a-categories.md",
+      "declaredInputs": []
+    },
+    {
+      "id": "F2",
+      "stage": "F",
+      "title": "Vector spaces, linear maps, dimension",
+      "deps": [
+        "D2",
+        "E2",
+        "A4",
+        "F1"
+      ],
+      "status": "written",
+      "file": "1b-linear-algebra.md",
+      "declaredInputs": []
+    },
+    {
+      "id": "F3",
+      "stage": "F",
+      "title": "Duality and the double dual",
+      "deps": [
+        "F2"
+      ],
+      "status": "written",
+      "file": "1b-linear-algebra.md",
+      "declaredInputs": []
+    },
+    {
+      "id": "F4",
+      "stage": "F",
+      "title": "Quotient spaces and their universal property",
+      "deps": [
+        "F2",
+        "A3"
+      ],
+      "status": "written",
+      "file": "1b-linear-algebra.md",
+      "declaredInputs": []
+    },
+    {
+      "id": "F5",
+      "stage": "F",
+      "title": "Determinants as alternating forms",
+      "deps": [
+        "F4",
+        "F2"
+      ],
+      "status": "written",
+      "file": "1b-linear-algebra.md",
+      "declaredInputs": []
+    },
+    {
+      "id": "F6",
+      "stage": "F",
+      "title": "Exterior algebra",
+      "deps": [
+        "F5",
+        "F2"
+      ],
+      "status": "written",
+      "file": "1b-linear-algebra.md",
+      "declaredInputs": []
+    },
+    {
+      "id": "F7",
+      "stage": "F",
+      "title": "Eigenstructure, triangularisation, Cayley-Hamilton",
+      "deps": [
+        "F2",
+        "F5",
+        "F4",
+        "E3",
+        "B3"
+      ],
+      "status": "written",
+      "file": "1c-eigenthings.md",
+      "declaredInputs": [
+        {
+          "input": "fundamental-theorem-of-algebra",
+          "dischargedBy": "K3",
+          "note": "Used via E3's declaration; the root guarantee for complex triangularisation."
+        }
+      ]
+    },
+    {
+      "id": "F8",
+      "stage": "F",
+      "title": "Inner products, orthogonality, the spectral theorem",
+      "deps": [
+        "F7",
+        "F2",
+        "E2"
+      ],
+      "status": "written",
+      "file": "1d-inner-products.md",
+      "declaredInputs": [
+        {
+          "input": "fundamental-theorem-of-algebra",
+          "dischargedBy": "K3",
+          "note": "Complexification splits via FTA."
+        }
+      ]
+    },
+    {
+      "id": "F9",
+      "stage": "F",
+      "title": "Canonical forms: what remains when diagonalisation fails",
+      "deps": [
+        "F7",
+        "F3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "G1",
+      "stage": "G",
+      "title": "Convergence of sequences in R and R^n",
+      "deps": [
+        "D2",
+        "B4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "G2",
+      "stage": "G",
+      "title": "Continuity in several variables",
+      "deps": [
+        "G1",
+        "F2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "G3",
+      "stage": "G",
+      "title": "The derivative in several variables",
+      "deps": [
+        "G2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "G4",
+      "stage": "G",
+      "title": "The chain rule, partials, and Clairaut",
+      "deps": [
+        "G3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": [],
+      "discharges": [
+        "clairaut-mixed-partials",
+        "multivariable-chain-rule",
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "G5",
+      "stage": "G",
+      "title": "The inverse function theorem",
+      "deps": [
+        "G4",
+        "F5"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": [],
+      "discharges": [
+        "multivariable-inverse-function-theorem"
+      ]
+    },
+    {
+      "id": "G6",
+      "stage": "G",
+      "title": "The exponential and trigonometric functions via power series",
+      "deps": [
+        "G1",
+        "E1"
+      ],
+      "status": "queued",
+      "file": null,
+      "discharges": [
+        "elementary-functions-continuity",
+        "trigonometry-facts"
+      ]
+    },
+    {
+      "id": "H1",
+      "stage": "H",
+      "title": "Metric and topological spaces, continuity, homeomorphism",
+      "deps": [
+        "D2",
+        "A3",
+        "A4"
+      ],
+      "status": "written",
+      "file": "2a-topology.md",
+      "declaredInputs": [
+        {
+          "input": "completeness-axiom",
+          "dischargedBy": "D2",
+          "note": "Debt paid: D2 constructs R and proves completeness, so this is no longer a declaration."
+        },
+        {
+          "input": "elementary-functions-continuity",
+          "dischargedBy": "G6",
+          "note": "Continuity of sin, cos, exp used in examples and exercises."
+        }
+      ],
+      "discharges": []
+    },
+    {
+      "id": "H2",
+      "stage": "H",
+      "title": "Connectedness and compactness; the IVT and EVT",
+      "deps": [
+        "H1",
+        "A1",
+        "B4"
+      ],
+      "status": "written",
+      "file": "2a-topology.md",
+      "declaredInputs": []
+    },
+    {
+      "id": "I1",
+      "stage": "I",
+      "title": "Sigma-algebras and measures",
+      "deps": [
+        "A2",
+        "D2",
+        "D4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "I2",
+      "stage": "I",
+      "title": "The Lebesgue integral: Caratheodory",
+      "deps": [
+        "I1"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "I3",
+      "stage": "I",
+      "title": "Modes of convergence",
+      "deps": [
+        "I2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "I4",
+      "stage": "I",
+      "title": "L^p spaces and duality",
+      "deps": [
+        "I3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "I5",
+      "stage": "I",
+      "title": "Product measures and Fubini-Tonelli; the change-of-variables formula",
+      "deps": [
+        "I2"
+      ],
+      "status": "queued",
+      "file": null,
+      "discharges": [
+        "fubini-theorem",
+        "change-of-variables-formula"
+      ]
+    },
+    {
+      "id": "I6",
+      "stage": "I",
+      "title": "Radon-Nikodym and conditional expectation",
+      "deps": [
+        "I4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "I7",
+      "stage": "I",
+      "title": "Fourier series and the Fourier transform",
+      "deps": [
+        "I4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "J1",
+      "stage": "J",
+      "title": "Smooth manifolds: charts, atlases, smooth maps",
+      "deps": [
+        "H1",
+        "F2",
+        "G3",
+        "G4",
+        "G5",
+        "G6"
+      ],
+      "status": "written",
+      "file": "3a-manifolds.md",
+      "declaredInputs": [
+        {
+          "input": "multivariable-chain-rule",
+          "dischargedBy": "G4"
+        },
+        {
+          "input": "multivariable-inverse-function-theorem",
+          "dischargedBy": "G5"
+        },
+        {
+          "input": "trigonometry-facts",
+          "dischargedBy": "G6"
+        }
+      ]
+    },
+    {
+      "id": "J2",
+      "stage": "J",
+      "title": "Tangent spaces, the differential, the IFT on manifolds",
+      "deps": [
+        "J1",
+        "F7"
+      ],
+      "status": "written",
+      "file": "3b-tangent-space.md",
+      "declaredInputs": [
+        {
+          "input": "fundamental-theorem-of-calculus",
+          "dischargedBy": "G4",
+          "note": "One-variable FTC, proved in G's development of the integral on R."
+        },
+        {
+          "input": "differentiation-under-the-integral",
+          "dischargedBy": "I5",
+          "note": "Hadamard's smoothness argument; discharged by the product-measure machinery."
+        }
+      ]
+    },
+    {
+      "id": "J3",
+      "stage": "J",
+      "title": "Differential forms and the exterior derivative",
+      "deps": [
+        "J1",
+        "F6"
+      ],
+      "status": "written",
+      "file": "3c-forms.md",
+      "declaredInputs": [
+        {
+          "input": "clairaut-mixed-partials",
+          "dischargedBy": "G4"
+        }
+      ]
+    },
+    {
+      "id": "J4",
+      "stage": "J",
+      "title": "Partitions of unity",
+      "deps": [
+        "J1"
+      ],
+      "status": "queued",
+      "file": null,
+      "discharges": [
+        "partitions-of-unity-existence"
+      ]
+    },
+    {
+      "id": "J5",
+      "stage": "J",
+      "title": "Integration, orientation, and Stokes",
+      "deps": [
+        "J3",
+        "J4",
+        "I5",
+        "H2"
+      ],
+      "status": "written",
+      "file": "3d-stokes.md",
+      "declaredInputs": [
+        {
+          "input": "fubini-theorem",
+          "dischargedBy": "I5"
+        },
+        {
+          "input": "change-of-variables-formula",
+          "dischargedBy": "I5"
+        },
+        {
+          "input": "partitions-of-unity-existence",
+          "dischargedBy": "J4",
+          "note": "J4 builds the partition machinery this chapter's proof consumes."
+        }
+      ]
+    },
+    {
+      "id": "J6",
+      "stage": "J",
+      "title": "Submanifolds, immersions, regular level sets",
+      "deps": [
+        "J2",
+        "G5"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "J7",
+      "stage": "J",
+      "title": "Lie groups and group actions",
+      "deps": [
+        "J2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "K1",
+      "stage": "K",
+      "title": "Holomorphy: complex differentiability and its rigidity",
+      "deps": [
+        "E2",
+        "G3",
+        "J3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "K2",
+      "stage": "K",
+      "title": "Complex integration, Cauchy's theorem, residues",
+      "deps": [
+        "K1",
+        "J5",
+        "I5"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "K3",
+      "stage": "K",
+      "title": "The fundamental theorem of algebra, proved - the ledger closes",
+      "deps": [
+        "K2"
+      ],
+      "status": "queued",
+      "file": null,
+      "discharges": [
+        "fundamental-theorem-of-algebra"
+      ]
+    },
+    {
+      "id": "L1",
+      "stage": "L",
+      "title": "Groups through the categorical lens",
+      "deps": [
+        "F1",
+        "C1"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "L2",
+      "stage": "L",
+      "title": "Rings and modules",
+      "deps": [
+        "L1",
+        "F2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
+      "id": "L3",
+      "stage": "L",
+      "title": "Galois theory: symmetry of equations",
+      "deps": [
+        "L2",
+        "E1"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    }
+  ]
+}
