@@ -24,7 +24,7 @@ def deps : Nat → List Nat := fun c =>
   | 9 => [3, 7]
   | 10 => [2, 3, 6]
   | 11 => [8, 10]
-  | 12 => [5, 11]
+  | 12 => [5, 8, 11]
   | 13 => [8, 11]
   | 14 => [2, 10]
   | 15 => [2, 11, 12]
@@ -32,73 +32,75 @@ def deps : Nat → List Nat := fun c =>
   | 17 => [8, 16]
   | 18 => [3, 11, 16]
   | 19 => [2, 18]
-  | 20 => [7, 16]
-  | 21 => [16, 20]
-  | 22 => [20, 21]
-  | 23 => [0, 1, 2, 3, 11]
-  | 24 => [3, 16, 21, 23]
-  | 25 => [24]
-  | 26 => [2, 24]
-  | 27 => [24, 26]
-  | 28 => [24, 27]
-  | 29 => [7, 22, 24, 26, 27]
-  | 30 => [21, 24, 29]
-  | 31 => [25, 29, 30]
-  | 32 => [8, 16]
-  | 33 => [32]
-  | 34 => [24, 32]
-  | 35 => [34]
+  | 20 => [18, 19]
+  | 21 => [7, 16]
+  | 22 => [16, 21]
+  | 23 => [21, 22]
+  | 24 => [0, 1, 2, 3, 11]
+  | 25 => [3, 16, 22, 24]
+  | 26 => [25]
+  | 27 => [2, 25]
+  | 28 => [25, 27]
+  | 29 => [25, 28]
+  | 30 => [7, 23, 25, 27, 28]
+  | 31 => [22, 25, 30]
+  | 32 => [26, 30, 31]
+  | 33 => [8, 16]
+  | 34 => [33]
+  | 35 => [25, 33]
   | 36 => [35]
-  | 37 => [27, 36]
-  | 38 => [20, 32, 33]
-  | 39 => [32, 34]
-  | 40 => [16, 29, 34]
-  | 41 => [2, 3, 16]
-  | 42 => [0, 8, 41]
-  | 43 => [41, 42]
-  | 44 => [9, 33, 42]
-  | 45 => [1, 16, 18]
-  | 46 => [45]
-  | 47 => [46]
+  | 37 => [36]
+  | 38 => [28, 37]
+  | 39 => [21, 33, 34]
+  | 40 => [33, 35]
+  | 41 => [16, 30, 35]
+  | 42 => [2, 3, 16]
+  | 43 => [0, 8, 42]
+  | 44 => [42, 43]
+  | 45 => [9, 34, 43]
+  | 46 => [2, 43]
+  | 47 => [1, 16, 18]
   | 48 => [47]
-  | 49 => [37, 46]
-  | 50 => [48]
-  | 51 => [44, 48]
-  | 52 => [47, 51]
-  | 53 => [24, 35, 36, 37, 38, 41]
-  | 54 => [29, 53]
-  | 55 => [28, 53]
-  | 56 => [53]
-  | 57 => [42, 49, 55, 56]
-  | 58 => [37, 54]
-  | 59 => [54, 55]
-  | 60 => [21, 35, 55]
-  | 61 => [49, 57, 60]
-  | 62 => [61]
-  | 63 => [10, 23]
-  | 64 => [13, 14, 24, 63]
-  | 65 => [20, 64]
-  | 66 => [54, 63]
-  | 67 => [41, 59, 63]
-  | 68 => [43, 48]
-  | 69 => [30, 68]
-  | 70 => [51, 68]
-  | 71 => [61, 68, 69]
-  | 72 => [48, 49, 70]
-  | 73 => [57, 69, 72]
-  | 74 => [69, 70, 73]
-  | 75 => [41, 42, 63]
-  | 76 => [23, 64]
-  | 77 => [42, 64, 76]
-  | 78 => [57, 77]
-  | 79 => [55, 59, 78]
-  | 80 => [43, 59, 78]
-  | 81 => [51, 66, 69]
-  | 82 => [50, 52]
-  | 83 => [49, 82]
-  | 84 => [48, 83]
-  | 85 => [40, 73, 84]
+  | 49 => [48]
+  | 50 => [49]
+  | 51 => [38, 48]
+  | 52 => [50]
+  | 53 => [45, 50]
+  | 54 => [49, 53]
+  | 55 => [25, 36, 37, 38, 39, 42]
+  | 56 => [30, 55]
+  | 57 => [29, 55]
+  | 58 => [55]
+  | 59 => [43, 51, 57, 58]
+  | 60 => [38, 56]
+  | 61 => [56, 57]
+  | 62 => [22, 36, 57]
+  | 63 => [51, 59, 62]
+  | 64 => [63]
+  | 65 => [10, 24]
+  | 66 => [13, 14, 25, 65]
+  | 67 => [21, 66]
+  | 68 => [46, 56, 65]
+  | 69 => [42, 61, 65]
+  | 70 => [44, 50]
+  | 71 => [31, 70]
+  | 72 => [53, 70]
+  | 73 => [63, 70, 71]
+  | 74 => [50, 51, 72]
+  | 75 => [59, 71, 74]
+  | 76 => [71, 72, 75]
+  | 77 => [42, 43, 65]
+  | 78 => [24, 66]
+  | 79 => [43, 66, 78]
+  | 80 => [59, 79]
+  | 81 => [57, 61, 80]
+  | 82 => [44, 61, 80]
+  | 83 => [53, 68, 71]
+  | 84 => [52, 54]
+  | 85 => [42, 51, 84]
   | 86 => [50, 85]
+  | 87 => [41, 75, 86]
+  | 88 => [52, 87]
   | _ => []
 
 /- Per-chapter certificates: for every chapter, every dependency is strictly
@@ -184,275 +186,283 @@ theorem deps_lt_D5 : ∀ d ∈ deps 19, d < 19 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_E1 : ∀ d ∈ deps 20, d < 20 := by
+theorem deps_lt_D6 : ∀ d ∈ deps 20, d < 20 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_E2 : ∀ d ∈ deps 21, d < 21 := by
+theorem deps_lt_E1 : ∀ d ∈ deps 21, d < 21 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_E3 : ∀ d ∈ deps 22, d < 22 := by
+theorem deps_lt_E2 : ∀ d ∈ deps 22, d < 22 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_F1 : ∀ d ∈ deps 23, d < 23 := by
+theorem deps_lt_E3 : ∀ d ∈ deps 23, d < 23 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_F2 : ∀ d ∈ deps 24, d < 24 := by
+theorem deps_lt_F1 : ∀ d ∈ deps 24, d < 24 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_F3 : ∀ d ∈ deps 25, d < 25 := by
+theorem deps_lt_F2 : ∀ d ∈ deps 25, d < 25 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_F4 : ∀ d ∈ deps 26, d < 26 := by
+theorem deps_lt_F3 : ∀ d ∈ deps 26, d < 26 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_F5 : ∀ d ∈ deps 27, d < 27 := by
+theorem deps_lt_F4 : ∀ d ∈ deps 27, d < 27 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_F6 : ∀ d ∈ deps 28, d < 28 := by
+theorem deps_lt_F5 : ∀ d ∈ deps 28, d < 28 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_F7 : ∀ d ∈ deps 29, d < 29 := by
+theorem deps_lt_F6 : ∀ d ∈ deps 29, d < 29 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_F8 : ∀ d ∈ deps 30, d < 30 := by
+theorem deps_lt_F7 : ∀ d ∈ deps 30, d < 30 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_F9 : ∀ d ∈ deps 31, d < 31 := by
+theorem deps_lt_F8 : ∀ d ∈ deps 31, d < 31 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_G1 : ∀ d ∈ deps 32, d < 32 := by
+theorem deps_lt_F9 : ∀ d ∈ deps 32, d < 32 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_G2 : ∀ d ∈ deps 33, d < 33 := by
+theorem deps_lt_G1 : ∀ d ∈ deps 33, d < 33 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_G3 : ∀ d ∈ deps 34, d < 34 := by
+theorem deps_lt_G2 : ∀ d ∈ deps 34, d < 34 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_G4 : ∀ d ∈ deps 35, d < 35 := by
+theorem deps_lt_G3 : ∀ d ∈ deps 35, d < 35 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_G5 : ∀ d ∈ deps 36, d < 36 := by
+theorem deps_lt_G4 : ∀ d ∈ deps 36, d < 36 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_G6 : ∀ d ∈ deps 37, d < 37 := by
+theorem deps_lt_G5 : ∀ d ∈ deps 37, d < 37 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_G7 : ∀ d ∈ deps 38, d < 38 := by
+theorem deps_lt_G6 : ∀ d ∈ deps 38, d < 38 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_G8 : ∀ d ∈ deps 39, d < 39 := by
+theorem deps_lt_G7 : ∀ d ∈ deps 39, d < 39 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_G9 : ∀ d ∈ deps 40, d < 40 := by
+theorem deps_lt_G8 : ∀ d ∈ deps 40, d < 40 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_H1 : ∀ d ∈ deps 41, d < 41 := by
+theorem deps_lt_G9 : ∀ d ∈ deps 41, d < 41 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_H2 : ∀ d ∈ deps 42, d < 42 := by
+theorem deps_lt_H1 : ∀ d ∈ deps 42, d < 42 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_H3 : ∀ d ∈ deps 43, d < 43 := by
+theorem deps_lt_H2 : ∀ d ∈ deps 43, d < 43 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_H4 : ∀ d ∈ deps 44, d < 44 := by
+theorem deps_lt_H3 : ∀ d ∈ deps 44, d < 44 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_I1 : ∀ d ∈ deps 45, d < 45 := by
+theorem deps_lt_H4 : ∀ d ∈ deps 45, d < 45 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_I2 : ∀ d ∈ deps 46, d < 46 := by
+theorem deps_lt_H5 : ∀ d ∈ deps 46, d < 46 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_I3 : ∀ d ∈ deps 47, d < 47 := by
+theorem deps_lt_I1 : ∀ d ∈ deps 47, d < 47 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_I4 : ∀ d ∈ deps 48, d < 48 := by
+theorem deps_lt_I2 : ∀ d ∈ deps 48, d < 48 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_I5 : ∀ d ∈ deps 49, d < 49 := by
+theorem deps_lt_I3 : ∀ d ∈ deps 49, d < 49 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_I6 : ∀ d ∈ deps 50, d < 50 := by
+theorem deps_lt_I4 : ∀ d ∈ deps 50, d < 50 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_I7 : ∀ d ∈ deps 51, d < 51 := by
+theorem deps_lt_I5 : ∀ d ∈ deps 51, d < 51 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_I8 : ∀ d ∈ deps 52, d < 52 := by
+theorem deps_lt_I6 : ∀ d ∈ deps 52, d < 52 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_J1 : ∀ d ∈ deps 53, d < 53 := by
+theorem deps_lt_I7 : ∀ d ∈ deps 53, d < 53 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_J2 : ∀ d ∈ deps 54, d < 54 := by
+theorem deps_lt_I8 : ∀ d ∈ deps 54, d < 54 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_J3 : ∀ d ∈ deps 55, d < 55 := by
+theorem deps_lt_J1 : ∀ d ∈ deps 55, d < 55 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_J4 : ∀ d ∈ deps 56, d < 56 := by
+theorem deps_lt_J2 : ∀ d ∈ deps 56, d < 56 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_J5 : ∀ d ∈ deps 57, d < 57 := by
+theorem deps_lt_J3 : ∀ d ∈ deps 57, d < 57 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_J6 : ∀ d ∈ deps 58, d < 58 := by
+theorem deps_lt_J4 : ∀ d ∈ deps 58, d < 58 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_J7 : ∀ d ∈ deps 59, d < 59 := by
+theorem deps_lt_J5 : ∀ d ∈ deps 59, d < 59 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_K1 : ∀ d ∈ deps 60, d < 60 := by
+theorem deps_lt_J6 : ∀ d ∈ deps 60, d < 60 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_K2 : ∀ d ∈ deps 61, d < 61 := by
+theorem deps_lt_J7 : ∀ d ∈ deps 61, d < 61 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_K3 : ∀ d ∈ deps 62, d < 62 := by
+theorem deps_lt_K1 : ∀ d ∈ deps 62, d < 62 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_L1 : ∀ d ∈ deps 63, d < 63 := by
+theorem deps_lt_K2 : ∀ d ∈ deps 63, d < 63 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_L2 : ∀ d ∈ deps 64, d < 64 := by
+theorem deps_lt_K3 : ∀ d ∈ deps 64, d < 64 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_L3 : ∀ d ∈ deps 65, d < 65 := by
+theorem deps_lt_L1 : ∀ d ∈ deps 65, d < 65 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_L4 : ∀ d ∈ deps 66, d < 66 := by
+theorem deps_lt_L2 : ∀ d ∈ deps 66, d < 66 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_L5 : ∀ d ∈ deps 67, d < 67 := by
+theorem deps_lt_L3 : ∀ d ∈ deps 67, d < 67 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_M1 : ∀ d ∈ deps 68, d < 68 := by
+theorem deps_lt_L4 : ∀ d ∈ deps 68, d < 68 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_M2 : ∀ d ∈ deps 69, d < 69 := by
+theorem deps_lt_L5 : ∀ d ∈ deps 69, d < 69 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_M3 : ∀ d ∈ deps 70, d < 70 := by
+theorem deps_lt_M1 : ∀ d ∈ deps 70, d < 70 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_M4 : ∀ d ∈ deps 71, d < 71 := by
+theorem deps_lt_M2 : ∀ d ∈ deps 71, d < 71 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_M5 : ∀ d ∈ deps 72, d < 72 := by
+theorem deps_lt_M3 : ∀ d ∈ deps 72, d < 72 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_M6 : ∀ d ∈ deps 73, d < 73 := by
+theorem deps_lt_M4 : ∀ d ∈ deps 73, d < 73 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_M7 : ∀ d ∈ deps 74, d < 74 := by
+theorem deps_lt_M5 : ∀ d ∈ deps 74, d < 74 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_N1 : ∀ d ∈ deps 75, d < 75 := by
+theorem deps_lt_M6 : ∀ d ∈ deps 75, d < 75 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_N2 : ∀ d ∈ deps 76, d < 76 := by
+theorem deps_lt_M7 : ∀ d ∈ deps 76, d < 76 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_N3 : ∀ d ∈ deps 77, d < 77 := by
+theorem deps_lt_N1 : ∀ d ∈ deps 77, d < 77 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_N4 : ∀ d ∈ deps 78, d < 78 := by
+theorem deps_lt_N2 : ∀ d ∈ deps 78, d < 78 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_N5 : ∀ d ∈ deps 79, d < 79 := by
+theorem deps_lt_N3 : ∀ d ∈ deps 79, d < 79 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_N6 : ∀ d ∈ deps 80, d < 80 := by
+theorem deps_lt_N4 : ∀ d ∈ deps 80, d < 80 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_N7 : ∀ d ∈ deps 81, d < 81 := by
+theorem deps_lt_N5 : ∀ d ∈ deps 81, d < 81 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_O1 : ∀ d ∈ deps 82, d < 82 := by
+theorem deps_lt_N6 : ∀ d ∈ deps 82, d < 82 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_O2 : ∀ d ∈ deps 83, d < 83 := by
+theorem deps_lt_N7 : ∀ d ∈ deps 83, d < 83 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_O3 : ∀ d ∈ deps 84, d < 84 := by
+theorem deps_lt_O1 : ∀ d ∈ deps 84, d < 84 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_O4 : ∀ d ∈ deps 85, d < 85 := by
+theorem deps_lt_O2 : ∀ d ∈ deps 85, d < 85 := by
   intro d h
   simp [deps] at h <;> omega
 
-theorem deps_lt_O5 : ∀ d ∈ deps 86, d < 86 := by
+theorem deps_lt_O3 : ∀ d ∈ deps 86, d < 86 := by
+  intro d h
+  simp [deps] at h <;> omega
+
+theorem deps_lt_O4 : ∀ d ∈ deps 87, d < 87 := by
+  intro d h
+  simp [deps] at h <;> omega
+
+theorem deps_lt_O5 : ∀ d ∈ deps 88, d < 88 := by
   intro d h
   simp [deps] at h <;> omega
 
 /- The composite certificate: every edge of the course graph descends the
 course order. -/
-theorem graph_ok : (∀ d ∈ deps 0, d < 0) ∧ (∀ d ∈ deps 1, d < 1) ∧ (∀ d ∈ deps 2, d < 2) ∧ (∀ d ∈ deps 3, d < 3) ∧ (∀ d ∈ deps 4, d < 4) ∧ (∀ d ∈ deps 5, d < 5) ∧ (∀ d ∈ deps 6, d < 6) ∧ (∀ d ∈ deps 7, d < 7) ∧ (∀ d ∈ deps 8, d < 8) ∧ (∀ d ∈ deps 9, d < 9) ∧ (∀ d ∈ deps 10, d < 10) ∧ (∀ d ∈ deps 11, d < 11) ∧ (∀ d ∈ deps 12, d < 12) ∧ (∀ d ∈ deps 13, d < 13) ∧ (∀ d ∈ deps 14, d < 14) ∧ (∀ d ∈ deps 15, d < 15) ∧ (∀ d ∈ deps 16, d < 16) ∧ (∀ d ∈ deps 17, d < 17) ∧ (∀ d ∈ deps 18, d < 18) ∧ (∀ d ∈ deps 19, d < 19) ∧ (∀ d ∈ deps 20, d < 20) ∧ (∀ d ∈ deps 21, d < 21) ∧ (∀ d ∈ deps 22, d < 22) ∧ (∀ d ∈ deps 23, d < 23) ∧ (∀ d ∈ deps 24, d < 24) ∧ (∀ d ∈ deps 25, d < 25) ∧ (∀ d ∈ deps 26, d < 26) ∧ (∀ d ∈ deps 27, d < 27) ∧ (∀ d ∈ deps 28, d < 28) ∧ (∀ d ∈ deps 29, d < 29) ∧ (∀ d ∈ deps 30, d < 30) ∧ (∀ d ∈ deps 31, d < 31) ∧ (∀ d ∈ deps 32, d < 32) ∧ (∀ d ∈ deps 33, d < 33) ∧ (∀ d ∈ deps 34, d < 34) ∧ (∀ d ∈ deps 35, d < 35) ∧ (∀ d ∈ deps 36, d < 36) ∧ (∀ d ∈ deps 37, d < 37) ∧ (∀ d ∈ deps 38, d < 38) ∧ (∀ d ∈ deps 39, d < 39) ∧ (∀ d ∈ deps 40, d < 40) ∧ (∀ d ∈ deps 41, d < 41) ∧ (∀ d ∈ deps 42, d < 42) ∧ (∀ d ∈ deps 43, d < 43) ∧ (∀ d ∈ deps 44, d < 44) ∧ (∀ d ∈ deps 45, d < 45) ∧ (∀ d ∈ deps 46, d < 46) ∧ (∀ d ∈ deps 47, d < 47) ∧ (∀ d ∈ deps 48, d < 48) ∧ (∀ d ∈ deps 49, d < 49) ∧ (∀ d ∈ deps 50, d < 50) ∧ (∀ d ∈ deps 51, d < 51) ∧ (∀ d ∈ deps 52, d < 52) ∧ (∀ d ∈ deps 53, d < 53) ∧ (∀ d ∈ deps 54, d < 54) ∧ (∀ d ∈ deps 55, d < 55) ∧ (∀ d ∈ deps 56, d < 56) ∧ (∀ d ∈ deps 57, d < 57) ∧ (∀ d ∈ deps 58, d < 58) ∧ (∀ d ∈ deps 59, d < 59) ∧ (∀ d ∈ deps 60, d < 60) ∧ (∀ d ∈ deps 61, d < 61) ∧ (∀ d ∈ deps 62, d < 62) ∧ (∀ d ∈ deps 63, d < 63) ∧ (∀ d ∈ deps 64, d < 64) ∧ (∀ d ∈ deps 65, d < 65) ∧ (∀ d ∈ deps 66, d < 66) ∧ (∀ d ∈ deps 67, d < 67) ∧ (∀ d ∈ deps 68, d < 68) ∧ (∀ d ∈ deps 69, d < 69) ∧ (∀ d ∈ deps 70, d < 70) ∧ (∀ d ∈ deps 71, d < 71) ∧ (∀ d ∈ deps 72, d < 72) ∧ (∀ d ∈ deps 73, d < 73) ∧ (∀ d ∈ deps 74, d < 74) ∧ (∀ d ∈ deps 75, d < 75) ∧ (∀ d ∈ deps 76, d < 76) ∧ (∀ d ∈ deps 77, d < 77) ∧ (∀ d ∈ deps 78, d < 78) ∧ (∀ d ∈ deps 79, d < 79) ∧ (∀ d ∈ deps 80, d < 80) ∧ (∀ d ∈ deps 81, d < 81) ∧ (∀ d ∈ deps 82, d < 82) ∧ (∀ d ∈ deps 83, d < 83) ∧ (∀ d ∈ deps 84, d < 84) ∧ (∀ d ∈ deps 85, d < 85) ∧ (∀ d ∈ deps 86, d < 86) :=
-  ⟨deps_lt_A1, deps_lt_A2, deps_lt_A3, deps_lt_A4, deps_lt_A5, deps_lt_B1, deps_lt_B2, deps_lt_B3, deps_lt_B4, deps_lt_B5, deps_lt_C1, deps_lt_C2, deps_lt_C3, deps_lt_C4, deps_lt_C5, deps_lt_D1, deps_lt_D2, deps_lt_D3, deps_lt_D4, deps_lt_D5, deps_lt_E1, deps_lt_E2, deps_lt_E3, deps_lt_F1, deps_lt_F2, deps_lt_F3, deps_lt_F4, deps_lt_F5, deps_lt_F6, deps_lt_F7, deps_lt_F8, deps_lt_F9, deps_lt_G1, deps_lt_G2, deps_lt_G3, deps_lt_G4, deps_lt_G5, deps_lt_G6, deps_lt_G7, deps_lt_G8, deps_lt_G9, deps_lt_H1, deps_lt_H2, deps_lt_H3, deps_lt_H4, deps_lt_I1, deps_lt_I2, deps_lt_I3, deps_lt_I4, deps_lt_I5, deps_lt_I6, deps_lt_I7, deps_lt_I8, deps_lt_J1, deps_lt_J2, deps_lt_J3, deps_lt_J4, deps_lt_J5, deps_lt_J6, deps_lt_J7, deps_lt_K1, deps_lt_K2, deps_lt_K3, deps_lt_L1, deps_lt_L2, deps_lt_L3, deps_lt_L4, deps_lt_L5, deps_lt_M1, deps_lt_M2, deps_lt_M3, deps_lt_M4, deps_lt_M5, deps_lt_M6, deps_lt_M7, deps_lt_N1, deps_lt_N2, deps_lt_N3, deps_lt_N4, deps_lt_N5, deps_lt_N6, deps_lt_N7, deps_lt_O1, deps_lt_O2, deps_lt_O3, deps_lt_O4, deps_lt_O5⟩
+theorem graph_ok : (∀ d ∈ deps 0, d < 0) ∧ (∀ d ∈ deps 1, d < 1) ∧ (∀ d ∈ deps 2, d < 2) ∧ (∀ d ∈ deps 3, d < 3) ∧ (∀ d ∈ deps 4, d < 4) ∧ (∀ d ∈ deps 5, d < 5) ∧ (∀ d ∈ deps 6, d < 6) ∧ (∀ d ∈ deps 7, d < 7) ∧ (∀ d ∈ deps 8, d < 8) ∧ (∀ d ∈ deps 9, d < 9) ∧ (∀ d ∈ deps 10, d < 10) ∧ (∀ d ∈ deps 11, d < 11) ∧ (∀ d ∈ deps 12, d < 12) ∧ (∀ d ∈ deps 13, d < 13) ∧ (∀ d ∈ deps 14, d < 14) ∧ (∀ d ∈ deps 15, d < 15) ∧ (∀ d ∈ deps 16, d < 16) ∧ (∀ d ∈ deps 17, d < 17) ∧ (∀ d ∈ deps 18, d < 18) ∧ (∀ d ∈ deps 19, d < 19) ∧ (∀ d ∈ deps 20, d < 20) ∧ (∀ d ∈ deps 21, d < 21) ∧ (∀ d ∈ deps 22, d < 22) ∧ (∀ d ∈ deps 23, d < 23) ∧ (∀ d ∈ deps 24, d < 24) ∧ (∀ d ∈ deps 25, d < 25) ∧ (∀ d ∈ deps 26, d < 26) ∧ (∀ d ∈ deps 27, d < 27) ∧ (∀ d ∈ deps 28, d < 28) ∧ (∀ d ∈ deps 29, d < 29) ∧ (∀ d ∈ deps 30, d < 30) ∧ (∀ d ∈ deps 31, d < 31) ∧ (∀ d ∈ deps 32, d < 32) ∧ (∀ d ∈ deps 33, d < 33) ∧ (∀ d ∈ deps 34, d < 34) ∧ (∀ d ∈ deps 35, d < 35) ∧ (∀ d ∈ deps 36, d < 36) ∧ (∀ d ∈ deps 37, d < 37) ∧ (∀ d ∈ deps 38, d < 38) ∧ (∀ d ∈ deps 39, d < 39) ∧ (∀ d ∈ deps 40, d < 40) ∧ (∀ d ∈ deps 41, d < 41) ∧ (∀ d ∈ deps 42, d < 42) ∧ (∀ d ∈ deps 43, d < 43) ∧ (∀ d ∈ deps 44, d < 44) ∧ (∀ d ∈ deps 45, d < 45) ∧ (∀ d ∈ deps 46, d < 46) ∧ (∀ d ∈ deps 47, d < 47) ∧ (∀ d ∈ deps 48, d < 48) ∧ (∀ d ∈ deps 49, d < 49) ∧ (∀ d ∈ deps 50, d < 50) ∧ (∀ d ∈ deps 51, d < 51) ∧ (∀ d ∈ deps 52, d < 52) ∧ (∀ d ∈ deps 53, d < 53) ∧ (∀ d ∈ deps 54, d < 54) ∧ (∀ d ∈ deps 55, d < 55) ∧ (∀ d ∈ deps 56, d < 56) ∧ (∀ d ∈ deps 57, d < 57) ∧ (∀ d ∈ deps 58, d < 58) ∧ (∀ d ∈ deps 59, d < 59) ∧ (∀ d ∈ deps 60, d < 60) ∧ (∀ d ∈ deps 61, d < 61) ∧ (∀ d ∈ deps 62, d < 62) ∧ (∀ d ∈ deps 63, d < 63) ∧ (∀ d ∈ deps 64, d < 64) ∧ (∀ d ∈ deps 65, d < 65) ∧ (∀ d ∈ deps 66, d < 66) ∧ (∀ d ∈ deps 67, d < 67) ∧ (∀ d ∈ deps 68, d < 68) ∧ (∀ d ∈ deps 69, d < 69) ∧ (∀ d ∈ deps 70, d < 70) ∧ (∀ d ∈ deps 71, d < 71) ∧ (∀ d ∈ deps 72, d < 72) ∧ (∀ d ∈ deps 73, d < 73) ∧ (∀ d ∈ deps 74, d < 74) ∧ (∀ d ∈ deps 75, d < 75) ∧ (∀ d ∈ deps 76, d < 76) ∧ (∀ d ∈ deps 77, d < 77) ∧ (∀ d ∈ deps 78, d < 78) ∧ (∀ d ∈ deps 79, d < 79) ∧ (∀ d ∈ deps 80, d < 80) ∧ (∀ d ∈ deps 81, d < 81) ∧ (∀ d ∈ deps 82, d < 82) ∧ (∀ d ∈ deps 83, d < 83) ∧ (∀ d ∈ deps 84, d < 84) ∧ (∀ d ∈ deps 85, d < 85) ∧ (∀ d ∈ deps 86, d < 86) ∧ (∀ d ∈ deps 87, d < 87) ∧ (∀ d ∈ deps 88, d < 88) :=
+  ⟨deps_lt_A1, deps_lt_A2, deps_lt_A3, deps_lt_A4, deps_lt_A5, deps_lt_B1, deps_lt_B2, deps_lt_B3, deps_lt_B4, deps_lt_B5, deps_lt_C1, deps_lt_C2, deps_lt_C3, deps_lt_C4, deps_lt_C5, deps_lt_D1, deps_lt_D2, deps_lt_D3, deps_lt_D4, deps_lt_D5, deps_lt_D6, deps_lt_E1, deps_lt_E2, deps_lt_E3, deps_lt_F1, deps_lt_F2, deps_lt_F3, deps_lt_F4, deps_lt_F5, deps_lt_F6, deps_lt_F7, deps_lt_F8, deps_lt_F9, deps_lt_G1, deps_lt_G2, deps_lt_G3, deps_lt_G4, deps_lt_G5, deps_lt_G6, deps_lt_G7, deps_lt_G8, deps_lt_G9, deps_lt_H1, deps_lt_H2, deps_lt_H3, deps_lt_H4, deps_lt_H5, deps_lt_I1, deps_lt_I2, deps_lt_I3, deps_lt_I4, deps_lt_I5, deps_lt_I6, deps_lt_I7, deps_lt_I8, deps_lt_J1, deps_lt_J2, deps_lt_J3, deps_lt_J4, deps_lt_J5, deps_lt_J6, deps_lt_J7, deps_lt_K1, deps_lt_K2, deps_lt_K3, deps_lt_L1, deps_lt_L2, deps_lt_L3, deps_lt_L4, deps_lt_L5, deps_lt_M1, deps_lt_M2, deps_lt_M3, deps_lt_M4, deps_lt_M5, deps_lt_M6, deps_lt_M7, deps_lt_N1, deps_lt_N2, deps_lt_N3, deps_lt_N4, deps_lt_N5, deps_lt_N6, deps_lt_N7, deps_lt_O1, deps_lt_O2, deps_lt_O3, deps_lt_O4, deps_lt_O5⟩

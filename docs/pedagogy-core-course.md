@@ -108,11 +108,13 @@ chapters whose dependencies are fully discharged by earlier stages:
 - **Stage D: The continuum.** Dedekind cuts (only order and $\mathbb{Q}$
   needed); $\mathbb{R}$ constructed; completeness proved; decimals, roots;
   cardinality: countable versus uncountable (Cantor's diagonal, over the
-  real line). Then the infinity the later stages actually consume: Zermelo's
-  axiom of choice is *adopted here*, recorded as an axiom rather than a debt,
-  and Zorn's lemma and the well-ordering principle are proved equivalent to
-  it. The basis theorem, the maximal ideal theorem, and Tychonoff's theorem
-  all spend this assumption, and the map shows where.
+  real line); ordinals and transfinite induction, the instruments the
+  equivalences are proved with. Then the infinity the later stages actually
+  consume: Zermelo's axiom of choice is *adopted here*, recorded as an axiom
+  rather than a debt, and Zorn's lemma and the well-ordering principle are
+  proved equivalent to it. The basis theorem, the maximal ideal theorem,
+  and Tychonoff's theorem all spend this assumption, and the map shows
+  where.
 - **Stage E: Completing algebra.** Polynomials as formal objects; the failure
   of $x^2 + 1$ over $\mathbb{R}$; $\mathbb{C}$ built as pairs with a
   multiplication rule; the fundamental theorem of algebra *declared here*
@@ -135,7 +137,8 @@ chapters whose dependencies are fully discharged by earlier stages:
   *discharges the multivariable and integration debts* that the manifold
   chapters would otherwise have to declare, including the one-variable FTC.
 - **Stage H: The canvas.** Metric and topological spaces, continuity,
-  connectedness, compactness, completeness and the Baire category theorem,
+  connectedness, compactness, the quotient topology (gluing, and the
+  Hausdorff price it can pay), completeness and the Baire category theorem,
   separation and metrisation, and approximation: Weierstrass,
   Stone-Weierstrass, and Arzela-Ascoli, the theorems that make function
   spaces livable.
@@ -496,6 +499,24 @@ After merge:
 
 ## 9. Changelog
 
+- **v2.7: STRUCTURE FROZEN.** The final pass. The ordinals split from
+  the choice chapter (D5 ordinals and transfinite induction; D6 choice,
+  Zorn, well-ordering: the instrument and the axiom separated, and every
+  zorn debt retargeted); the quotient topology finally has a home (H5,
+  which Lie groups' orbit spaces now declare); partitions of unity were
+  an unwritten ghost discharging a written chapter's debt and are now
+  marked as covered inside the Stokes page; C3's lowest-terms argument
+  correctly declares division with remainder; Brownian motion's
+  Kolmogorov extension correctly declares the topology it needs. Scope
+  notes added to I2 (Riemann versus Lebesgue), I8 (Borel-Cantelli), N2
+  (abelian categories), N3 (higher homotopy), L2 (tensor products), L4
+  (orbit spaces). 89 chapters, 15 stages, 207 edges; Lean re-proven.
+
+  **The freeze.** The structure is now stable, and content work proceeds
+  stage by stage (A is written; B is next). Structural edits after the
+  freeze require: a written defect report (what breaks, which chapters
+  move, which debts retarget), a regenerated Lean artifact, and the full
+  local verification ladder. Typos and scope-note additions remain free.
 - **v2.6**: the per-topic completeness audit. Four coverage gaps closed
   with new chapters: counting arguments and the binomial theorem (B5, the
   finite ancestor of the series chapter), approximation and function-space

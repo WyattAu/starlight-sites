@@ -19,7 +19,7 @@
     {
       "id": "D",
       "title": "The continuum",
-      "blurb": "R constructed; completeness; cardinality; choice."
+      "blurb": "R constructed; completeness; cardinality; ordinals; choice."
     },
     {
       "id": "E",
@@ -39,7 +39,7 @@
     {
       "id": "H",
       "title": "The canvas",
-      "blurb": "The canvas: spaces, compactness, completeness, metrisation."
+      "blurb": "The canvas: spaces, compactness, quotients, approximation."
     },
     {
       "id": "I",
@@ -230,7 +230,8 @@
       "title": "The first crisis: x^2 = 2 has no rational solution",
       "deps": [
         "C2",
-        "B1"
+        "B1",
+        "B4"
       ],
       "status": "queued",
       "file": "stage-c-expanding-the-line.md",
@@ -319,7 +320,7 @@
     {
       "id": "D5",
       "stage": "D",
-      "title": "Choice, Zorn's lemma, and well-ordering",
+      "title": "Ordinals and transfinite induction",
       "deps": [
         "D4",
         "A3"
@@ -332,7 +333,24 @@
       ],
       "discharges": [
         "zorn-lemma"
-      ]
+      ],
+      "note": "Well-ordered sets and their classification; ordinals as the sizes of well-orderings; transfinite recursion and induction: the instruments the choice chapter uses."
+    },
+    {
+      "id": "D6",
+      "stage": "D",
+      "file": null,
+      "status": "queued",
+      "title": "Choice, Zorn's lemma, and well-ordering",
+      "declaredInputs": [],
+      "deps": [
+        "D4",
+        "D5"
+      ],
+      "discharges": [
+        "zorn-lemma"
+      ],
+      "note": "Zermelo's axiom is adopted here, recorded as an axiom rather than a debt, and Zorn's lemma and the well-ordering principle are proved equivalent to it by transfinite machinery."
     },
     {
       "id": "E1",
@@ -407,7 +425,7 @@
       "declaredInputs": [
         {
           "input": "zorn-lemma",
-          "dischargedBy": "D5",
+          "dischargedBy": "D6",
           "note": "Basis existence for spaces that are not finitely generated."
         }
       ]
@@ -678,7 +696,7 @@
       "declaredInputs": [
         {
           "input": "zorn-lemma",
-          "dischargedBy": "D5",
+          "dischargedBy": "D6",
           "note": "Tychonoff's theorem for arbitrary products."
         }
       ],
@@ -712,6 +730,19 @@
       "note": "Bernstein polynomials and the Weierstrass approximation theorem; Stone-Weierstrass (the density engine of the Fourier chapter); Arzela-Ascoli: compactness for families of functions."
     },
     {
+      "id": "H5",
+      "stage": "H",
+      "file": null,
+      "status": "queued",
+      "title": "The quotient topology: gluing and its price",
+      "declaredInputs": [],
+      "deps": [
+        "H2",
+        "A3"
+      ],
+      "note": "The universal property of the quotient; the circle as an interval with its ends glued; projective spaces; why quotients can fail to be Hausdorff, and what that costs."
+    },
+    {
       "id": "I1",
       "stage": "I",
       "title": "Sigma-algebras and measures",
@@ -733,7 +764,8 @@
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "The comparison theorem: Riemann integrable on a bounded interval means Lebesgue integrable with the same value, and equals a.e. continuity. G8's integral is the special case, not a rival."
     },
     {
       "id": "I3",
@@ -807,7 +839,7 @@
         "I3",
         "I7"
       ],
-      "note": "Chebyshev and the weak law; characteristic functions via the Fourier chapter; the central limit theorem."
+      "note": "The Borel-Cantelli lemmas: the measure-theoretic grammar of 'almost always' and 'infinitely often'."
     },
     {
       "id": "J1",
@@ -885,11 +917,12 @@
       "deps": [
         "J1"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "3d-stokes.md",
       "discharges": [
         "partitions-of-unity-existence"
-      ]
+      ],
+      "note": "Covered inside the Stokes page: the gluing construction and its covering-of-a-manifold applications."
     },
     {
       "id": "J5",
@@ -1012,11 +1045,11 @@
       "declaredInputs": [
         {
           "input": "zorn-lemma",
-          "dischargedBy": "D5",
+          "dischargedBy": "D6",
           "note": "Existence of maximal ideals and of maximal ideals in a quotient."
         }
       ],
-      "note": "Ideals and quotient rings; PIDs and UFDs; Noetherian rings; the structure theorem for finitely generated modules over a PID, re-deriving the canonical forms of F9."
+      "note": "Tensor products of modules with their universal property; multilinear maps rehabilitated from F6 in the generality algebra needs."
     },
     {
       "id": "L3",
@@ -1040,9 +1073,10 @@
       "declaredInputs": [],
       "deps": [
         "L1",
-        "J2"
+        "J2",
+        "H5"
       ],
-      "note": "Moved from Stage J: a Lie group is a group before it is a manifold. Stage order now honours that."
+      "note": "Topological groups and orbit spaces: H5's quotient topology earns its keep here first."
     },
     {
       "id": "L5",
@@ -1071,7 +1105,7 @@
       "declaredInputs": [
         {
           "input": "zorn-lemma",
-          "dischargedBy": "D5",
+          "dischargedBy": "D6",
           "note": "Hahn-Banach is Zorn at work."
         }
       ],
@@ -1184,7 +1218,7 @@
       "file": null,
       "status": "queued",
       "declaredInputs": [],
-      "note": "Exact sequences as the working language; derived functors; Ext and Tor as the measuring instruments."
+      "note": "Abelian categories as the abstract habitat of exact sequences, stated as a remark; the concrete categories of modules carry the chapter."
     },
     {
       "id": "N3",
@@ -1198,7 +1232,7 @@
       "file": null,
       "status": "queued",
       "declaredInputs": [],
-      "note": "Chain complexes from spaces; homotopy invariance; the Euler characteristic as the shadow of homology."
+      "note": "Higher homotopy groups are defined and their computability gap stated honestly: computations beyond this course are research."
     },
     {
       "id": "N4",
@@ -1274,7 +1308,8 @@
       "title": "Brownian motion: construction, invariance, pathologies",
       "deps": [
         "O1",
-        "I5"
+        "I5",
+        "H1"
       ],
       "file": null,
       "status": "queued",

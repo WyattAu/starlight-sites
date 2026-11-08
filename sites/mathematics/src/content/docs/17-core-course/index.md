@@ -55,11 +55,11 @@ graph TD
     A["A: Reasoning (5)"]
     B["B: Counting (5)"]
     C["C: Expanding the line (5)"]
-    D["D: The continuum (5)"]
+    D["D: The continuum (6)"]
     E["E: Completing algebra (3)"]
     F["F: Structure and linear algebra (9)"]
     G["G: Euclidean analysis (9)"]
-    H["H: The canvas (4)"]
+    H["H: The canvas (5)"]
     I["I: Measure (8)"]
     J["J: Calculus as linearisation (7)"]
     K["K: Complex analysis (3)"]
@@ -106,6 +106,7 @@ graph TD
     H --> L
     H --> M
     H --> N
+    H --> O
     I --> J
     I --> K
     I --> M
@@ -133,9 +134,9 @@ The reader arrives knowing how to read. The course builds the rest in
 dependency order: logic before counting, counting before the number line, the
 number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
-The full course is 87 chapters across 15 dependency stages, from
+The full course is 89 chapters across 15 dependency stages, from
 logic to the research frontier, with
-19 written. The graph is machine-checked: `docs/course-graph.json` is
+20 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order.
@@ -162,19 +163,20 @@ chapter descends the course order.
 | C3 | The first crisis: x^2 = 2 has no rational solution | queued |
 | C4 | Primes and the fundamental theorem of arithmetic | queued |
 | C5 | Congruence classes and the rings Z/nZ | queued |
-| **Stage D — The continuum** | *R constructed; completeness; cardinality; choice.* | |
+| **Stage D — The continuum** | *R constructed; completeness; cardinality; ordinals; choice.* | |
 | D1 | Dedekind cuts: R constructed from order alone | queued |
 | D2 | Arithmetic and completeness of R, proved | queued |
 | D3 | Decimals, roots, the place of Q inside R | queued |
 | D4 | Cardinality: countable Q, uncountable R | queued |
-| D5 | Choice, Zorn's lemma, and well-ordering (assumes: axiom-of-choice) | queued |
+| D5 | Ordinals and transfinite induction (assumes: axiom-of-choice) | queued |
+| D6 | Choice, Zorn's lemma, and well-ordering | queued |
 | **Stage E — Completing algebra** | *Polynomials, C, and the FTA debt.* | |
 | E1 | Polynomials as formal objects | queued |
 | E2 | C built as pairs with a multiplication rule | queued |
 | E3 | The fundamental theorem of algebra: statement, consequences, and the debt (debt: fundamental-theorem-of-algebra → K3) | queued |
 | **Stage F — Structure and linear algebra** | *Categories and linear algebra over R and C.* | |
 | F1 | Categories: objects, morphisms, universal properties, adjunctions | written |
-| F2 | Vector spaces, linear maps, dimension (debt: zorn-lemma → D5) | written |
+| F2 | Vector spaces, linear maps, dimension (debt: zorn-lemma → D6) | written |
 | F3 | Duality and the double dual | written |
 | F4 | Quotient spaces and their universal property | written |
 | F5 | Determinants as alternating forms | written |
@@ -192,11 +194,12 @@ chapter descends the course order.
 | G7 | The exponential and trigonometric functions via power series | queued |
 | G8 | Integration on the real line and the fundamental theorem of calculus | queued |
 | G9 | The contraction mapping principle and existence for ODEs | queued |
-| **Stage H — The canvas** | *The canvas: spaces, compactness, completeness, metrisation.* | |
+| **Stage H — The canvas** | *The canvas: spaces, compactness, quotients, approximation.* | |
 | H1 | Metric and topological spaces, continuity, homeomorphism (debt: completeness-axiom → D2, elementary-functions-continuity → G7) | written |
-| H2 | Connectedness and compactness; the IVT and EVT (debt: zorn-lemma → D5) | written |
+| H2 | Connectedness and compactness; the IVT and EVT (debt: zorn-lemma → D6) | written |
 | H3 | Completeness, the Baire category theorem, and metrisation | queued |
 | H4 | Approximation and compactness in function spaces | queued |
+| H5 | The quotient topology: gluing and its price | queued |
 | **Stage I — Measure** | *Sigma-algebras to Fourier, ending at the probability laws.* | |
 | I1 | Sigma-algebras and measures | queued |
 | I2 | The Lebesgue integral: Caratheodory | queued |
@@ -210,7 +213,7 @@ chapter descends the course order.
 | J1 | Smooth manifolds: charts, atlases, smooth maps (debt: multivariable-chain-rule → G5, multivariable-inverse-function-theorem → G6, trigonometry-facts → G7) | written |
 | J2 | Tangent spaces, the differential, the IFT on manifolds (debt: fundamental-theorem-of-calculus → G8, differentiation-under-the-integral → I5) | written |
 | J3 | Differential forms and the exterior derivative (debt: clairaut-mixed-partials → G5) | written |
-| J4 | Partitions of unity | queued |
+| J4 | Partitions of unity | written |
 | J5 | Integration, orientation, and Stokes (debt: fubini-theorem → I5, change-of-variables-formula → I5, partitions-of-unity-existence → J4) | written |
 | J6 | Submanifolds, immersions, regular level sets | queued |
 | J7 | Connections, curvature, and geodesics | queued |
@@ -220,12 +223,12 @@ chapter descends the course order.
 | K3 | The fundamental theorem of algebra, proved - the ledger closes | queued |
 | **Stage L — Algebra and symmetry** | *Groups, rings, Galois, Lie groups, and the geometry synthesis.* | |
 | L1 | Groups through the categorical lens | queued |
-| L2 | Rings and modules (debt: zorn-lemma → D5) | queued |
+| L2 | Rings and modules (debt: zorn-lemma → D6) | queued |
 | L3 | Galois theory: symmetry of equations | queued |
 | L4 | Lie groups and group actions | queued |
 | L5 | Geometry: the fifth postulate, its collapse, and symmetry as geometry | queued |
 | **Stage M — The functional summit** | *Functional analysis to elliptic PDE: Banach and Hilbert spaces, distributions, Sobolev, the Laplacian's spectrum.* | |
-| M1 | Banach spaces and the four pillars (debt: zorn-lemma → D5) | queued |
+| M1 | Banach spaces and the four pillars (debt: zorn-lemma → D6) | queued |
 | M2 | Hilbert spaces and the spectral theorem for compact operators | queued |
 | M3 | Weak topologies, locally convex spaces, and distributions | queued |
 | M4 | Banach algebras, the Gelfand spectrum, and C*-algebras | queued |
