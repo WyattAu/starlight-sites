@@ -54,8 +54,12 @@ for c in chapters:
         fail(f"{c['id']}: written but no file")
     if c.get("file"):
         f = ROOT / "sites" / "mathematics" / "src" / "content" / "docs" / "17-core-course" / c["file"]
-        if not f.exists():
+        # Queued chapters may carry a planned filename (stage = page for the
+        # foundations build); the file itself is only required once written.
+        if c["status"] == "written" and not f.exists():
             fail(f"{c['id']}: file does not exist: {c['file']}")
+        if c["status"] == "queued" and f.exists():
+            fail(f"{c['id']}: queued but its planned file already exists: {c['file']}")
 
 # 2. Order: dependencies must be earlier
 for c in chapters:

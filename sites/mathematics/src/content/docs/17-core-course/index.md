@@ -176,7 +176,7 @@ chapter descends the course order.
 | I3 | Modes of convergence | queued |
 | I4 | L^p spaces and duality | queued |
 | I5 | Product measures and Fubini-Tonelli; the change-of-variables formula | queued |
-| I6 | Radon-Nikodym and conditional expectation | queued |
+| I6 | Radon-Nikodym, conditional expectation, and the birth of probability | queued |
 | I7 | Fourier series and the Fourier transform | queued |
 | **Stage J — Calculus as linearisation** | *Manifolds, tangent spaces, forms, Stokes, curvature.* | |
 | J1 | Smooth manifolds: charts, atlases, smooth maps (debt: multivariable-chain-rule → G4, multivariable-inverse-function-theorem → G5, trigonometry-facts → G6) | written |

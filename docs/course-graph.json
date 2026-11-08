@@ -69,7 +69,7 @@
       "title": "Propositions, quantifiers, and what a proof is",
       "deps": [],
       "status": "queued",
-      "file": null,
+      "file": "stage-a-reasoning.md",
       "declaredInputs": [],
       "axioms": [
         "classical-logic"
@@ -83,7 +83,7 @@
         "A1"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-a-reasoning.md",
       "declaredInputs": []
     },
     {
@@ -94,7 +94,7 @@
         "A2"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-a-reasoning.md",
       "declaredInputs": []
     },
     {
@@ -106,7 +106,7 @@
         "A3"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-a-reasoning.md",
       "declaredInputs": []
     },
     {
@@ -119,8 +119,9 @@
         "A4"
       ],
       "status": "queued",
-      "file": null,
-      "declaredInputs": []
+      "file": "stage-a-reasoning.md",
+      "declaredInputs": [],
+      "note": "The dissected false proof is the quantifier swap (forall-exists implies exists-forall). H2 calls back: uniform continuity is the swapped form of continuity, and compactness is what makes the swap legal."
     },
     {
       "id": "B1",
@@ -132,7 +133,7 @@
         "A4"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-b-counting.md",
       "declaredInputs": []
     },
     {
@@ -143,7 +144,7 @@
         "B1"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-b-counting.md",
       "declaredInputs": []
     },
     {
@@ -154,7 +155,7 @@
         "B2"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-b-counting.md",
       "declaredInputs": []
     },
     {
@@ -166,7 +167,7 @@
         "A3"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-b-counting.md",
       "declaredInputs": []
     },
     {
@@ -179,7 +180,7 @@
         "A4"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-c-expanding-the-line.md",
       "declaredInputs": []
     },
     {
@@ -191,7 +192,7 @@
         "B4"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-c-expanding-the-line.md",
       "declaredInputs": []
     },
     {
@@ -203,7 +204,7 @@
         "B1"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-c-expanding-the-line.md",
       "declaredInputs": []
     },
     {
@@ -215,7 +216,7 @@
         "B4"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-c-expanding-the-line.md",
       "declaredInputs": []
     },
     {
@@ -228,7 +229,7 @@
         "A3"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-d-the-continuum.md",
       "declaredInputs": []
     },
     {
@@ -240,7 +241,7 @@
         "C2"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-d-the-continuum.md",
       "declaredInputs": [],
       "discharges": [
         "completeness-axiom"
@@ -255,7 +256,7 @@
         "B4"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-d-the-continuum.md",
       "declaredInputs": []
     },
     {
@@ -268,7 +269,7 @@
         "C2"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-d-the-continuum.md",
       "declaredInputs": []
     },
     {
@@ -280,7 +281,7 @@
         "A3"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-d-the-continuum.md",
       "declaredInputs": [],
       "axioms": [
         "axiom-of-choice"
@@ -298,7 +299,7 @@
         "B3"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-e-completing-algebra.md",
       "declaredInputs": []
     },
     {
@@ -310,7 +311,7 @@
         "D2"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-e-completing-algebra.md",
       "declaredInputs": []
     },
     {
@@ -322,7 +323,7 @@
         "E2"
       ],
       "status": "queued",
-      "file": null,
+      "file": "stage-e-completing-algebra.md",
       "declaredInputs": [
         {
           "input": "fundamental-theorem-of-algebra",
@@ -543,7 +544,8 @@
       "discharges": [
         "elementary-functions-continuity",
         "trigonometry-facts"
-      ]
+      ],
+      "note": "Angle is defined algebraically, as the parameter of the circle parametrisation. The equivalence with arc length is a remark after G7, carrying the forward-honesty marker."
     },
     {
       "id": "G7",
@@ -614,7 +616,8 @@
           "dischargedBy": "D5",
           "note": "Tychonoff's theorem for arbitrary products."
         }
-      ]
+      ],
+      "note": "Compactness is presented as the theorem that legalises the A5 quantifier swap: continuity under an existential quantifier becomes uniformity under a universal one."
     },
     {
       "id": "I1",
@@ -679,13 +682,14 @@
     {
       "id": "I6",
       "stage": "I",
-      "title": "Radon-Nikodym and conditional expectation",
+      "title": "Radon-Nikodym, conditional expectation, and the birth of probability",
       "deps": [
         "I4"
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "Examples are filtrations, fair games, and martingale intuitions; the probability language is derived, not assumed."
     },
     {
       "id": "I7",
