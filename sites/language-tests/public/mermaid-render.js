@@ -7,10 +7,11 @@
   let initialized = false
   let pollTimer = null
 
+  // Only the two shapes the pipeline can actually render: an ExpressiveCode
+  // fence (converted below) and an already-converted block. Anything else
+  // must not trigger the 3.5 MB download.
   const hasMermaid = () =>
-    document.querySelectorAll(
-      'pre.mermaid, pre[data-language="mermaid"], code.language-mermaid, div.mermaid',
-    ).length > 0
+    document.querySelectorAll('pre.mermaid, pre[data-language="mermaid"]').length > 0
 
   const libraryInjected = () => document.querySelector(`script[src="${LIB}"]`)
 
@@ -90,8 +91,10 @@
   }
 
   const initMermaid = () => {
+    if (!hasMermaid()) return
     if (tryInit()) return
-    // Request the vendored library, then poll until it has executed.
+    // A diagram is present. Request the vendored library, then poll until
+    // it has executed.
     loadLibrary()
     pollTimer = setInterval(() => {
       if (tryInit()) {
@@ -117,14 +120,7 @@
 
   // Also listen for load event (fires after ALL resources including mermaid.min.js)
   window.addEventListener('load', () => {
-    if (!initialized && hasMermaid()) {
-      loadLibrary()
-      if (typeof window.mermaid !== 'undefined') {
-        window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
-        initialized = true
-        renderAll()
-      }
-    }
+    if (!initialized && hasMermaid()) initMermaid()
   })
 
   // Re-render on view transitions
