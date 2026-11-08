@@ -135,7 +135,7 @@ number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
 The full course is 87 chapters across 15 dependency stages, from
 logic to the research frontier, with
-14 written. The graph is machine-checked: `docs/course-graph.json` is
+19 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order.
@@ -145,11 +145,11 @@ chapter descends the course order.
 | Chapter | Title | Status |
 |---|---|---|
 | **Stage A — Reasoning** | *Logic, sets, relations, functions. No numbers.* | |
-| A1 | Propositions, quantifiers, and what a proof is (assumes: classical-logic) | queued |
-| A2 | Sets: membership, products, power sets | queued |
-| A3 | Relations: order, equivalence | queued |
-| A4 | Functions: injections, surjections, bijections, composition | queued |
-| A5 | Proof strategies in action: the false proof, dissected | queued |
+| A1 | Propositions, quantifiers, and what a proof is (assumes: classical-logic) | written |
+| A2 | Sets: membership, products, power sets | written |
+| A3 | Relations: order, equivalence | written |
+| A4 | Functions: injections, surjections, bijections, composition | written |
+| A5 | Proof strategies in action: the false proof, dissected | written |
 | **Stage B — Counting** | *Peano, induction, arithmetic as theorems.* | |
 | B1 | The Peano axioms: what counting is | queued |
 | B2 | Addition defined recursively; its laws proved | queued |
@@ -338,6 +338,7 @@ is a documented reality.
 
 | Page | Level | Content |
 |---|---|---|
+| [Stage A: Reasoning](/17-core-course/stage-a-reasoning/) | A | Propositions, quantifiers, sets, relations, functions, and the dissection of a false proof: the floor of the course, assuming nothing |
 | [Categories: The Language of Mathematics](/17-core-course/1a-categories/) | 1A | Objects, morphisms, universal properties, functors, natural transformations |
 | [Linear Algebra Done Wrong](/17-core-course/1b-linear-algebra/) | 1B | Coordinate-free vector spaces, dual spaces, quotient spaces, exterior algebra, determinants as alternating forms |
 | [Level 2: Topology](/17-core-course/2a-topology/) | 2 | Metric and abstract topologies, continuity, subspaces and products, Hausdorff, connectedness (intermediate value theorem), compactness (extreme value theorem) |

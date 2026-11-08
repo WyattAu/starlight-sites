@@ -117,6 +117,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [3c Forms](https://mathematics.wyattau.com/17-core-course/3c-forms/)
 - [3d Stokes](https://mathematics.wyattau.com/17-core-course/3d-stokes/)
 - [Index](https://mathematics.wyattau.com/17-core-course/)
+- [Stage A Reasoning](https://mathematics.wyattau.com/17-core-course/stage-a-reasoning/)
 
 ## Linear-Algebra
 

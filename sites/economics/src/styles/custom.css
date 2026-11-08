@@ -2057,3 +2057,94 @@ button:active {
     border-top-color: var(--color-accent);
   }
 }
+
+/* === Click-to-reveal (spoiler) ===
+   Two standalone classes backing the course's ponder answers and the
+   One-Line Reveal. Never inline CSS: astro-compress purges inline styles.
+   Both are keyboard-reachable and print-revealed. */
+
+/* Block spoiler: native <details>/<summary>, so the answer is hidden with
+   zero JavaScript and works without it. */
+details.wn-spoiler {
+  margin: 1.25rem 0;
+  border: 1px solid var(--wn-border, var(--sl-color-gray-5, #2a2a3a));
+  border-radius: 0.75rem;
+  background: var(--wn-bg-card, var(--sl-color-bg-cover, transparent));
+  overflow: hidden;
+}
+details.wn-spoiler > summary {
+  cursor: pointer;
+  padding: 0.65rem 1rem;
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--wn-text-muted, var(--sl-color-gray-4, #8888a0));
+  list-style: none;
+  user-select: none;
+}
+details.wn-spoiler > summary::-webkit-details-marker {
+  display: none;
+}
+details.wn-spoiler > summary::before {
+  content: "\25B8";
+  display: inline-block;
+  margin-inline-end: 0.5rem;
+  transition: rotate 0.2s ease;
+}
+details.wn-spoiler[open] > summary::before {
+  rotate: 90deg;
+}
+details.wn-spoiler > summary:hover {
+  color: var(--wn-text, var(--sl-color-white, #e2e8f0));
+  background: var(--wn-bg-hover, var(--sl-color-gray-6, #242436));
+}
+details.wn-spoiler > .wn-spoiler-body {
+  padding: 0.5rem 1rem 1rem;
+  border-top: 1px dashed var(--wn-border, var(--sl-color-gray-6, #2a2a3a));
+  animation: wn-spoiler-in 0.25s ease;
+}
+@keyframes wn-spoiler-in {
+  from {
+    opacity: 0;
+    translate: 0 -4px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+[data-reduce-motion="true"] details.wn-spoiler > .wn-spoiler-body,
+[data-reduce-motion="true"] details.wn-spoiler > summary::before {
+  animation: none;
+  transition: none;
+}
+
+/* Inline spoiler: the One-Line Reveal. Blurred until pointer or keyboard
+   focus; taps work on touch because focus follows tap. */
+.wn-spoiler-inline {
+  filter: blur(7px);
+  cursor: pointer;
+  transition: filter 0.25s ease;
+  border-radius: 0.25rem;
+}
+.wn-spoiler-inline:hover,
+.wn-spoiler-inline:focus,
+.wn-spoiler-inline:focus-within,
+.wn-spoiler-inline.revealed {
+  filter: none;
+}
+.wn-spoiler-inline:focus-visible {
+  outline: 2px solid var(--sl-color-accent, #ff6b35);
+  outline-offset: 3px;
+}
+@media print {
+  .wn-spoiler-inline {
+    filter: none;
+  }
+  details.wn-spoiler {
+    border-color: #999;
+  }
+  details.wn-spoiler:not([open]) > .wn-spoiler-body {
+    display: block;
+  }
+}

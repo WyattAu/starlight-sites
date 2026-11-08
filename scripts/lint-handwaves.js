@@ -96,6 +96,17 @@ function isInsideMath(line, matchStart) {
   return false
 }
 
+// A match wrapped in quotation marks is a mention of the word, not a use
+// of it as prose: quoting the banned words is exactly what the course's
+// opening pages do when they name the habits they are dismantling.
+const QUOTE_CHARS = ['"', "'", '\u201C', '\u201D']
+
+function isQuotedMention(line, index, length) {
+  const before = line.slice(Math.max(0, index - 2), index).trimEnd()
+  const after = line.slice(index + length, index + length + 2).trimStart()
+  return QUOTE_CHARS.some(q => before.endsWith(q)) && QUOTE_CHARS.some(q => after.startsWith(q))
+}
+
 function scanFile(filePath) {
   const content = fs.readFileSync(filePath, 'utf8')
   const lines = content.split('\n')
@@ -115,6 +126,7 @@ function scanFile(filePath) {
         while ((match = regex.exec(lines[lineno])) !== null) {
           if (isInsideInlineCode(lines[lineno], match.index)) continue
           if (isInsideMath(lines[lineno], match.index)) continue
+          if (isQuotedMention(lines[lineno], match.index, match[0].length)) continue
 
           const relPath = path.relative(path.join(__dirname, '..'), filePath)
           issues.push({

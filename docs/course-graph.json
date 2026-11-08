@@ -83,7 +83,7 @@
       "stage": "A",
       "title": "Propositions, quantifiers, and what a proof is",
       "deps": [],
-      "status": "queued",
+      "status": "written",
       "file": "stage-a-reasoning.md",
       "declaredInputs": [],
       "axioms": [
@@ -97,7 +97,7 @@
       "deps": [
         "A1"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-a-reasoning.md",
       "declaredInputs": []
     },
@@ -108,7 +108,7 @@
       "deps": [
         "A2"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-a-reasoning.md",
       "declaredInputs": []
     },
@@ -120,7 +120,7 @@
         "A2",
         "A3"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-a-reasoning.md",
       "declaredInputs": []
     },
@@ -133,7 +133,7 @@
         "A3",
         "A4"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-a-reasoning.md",
       "declaredInputs": [],
       "note": "The dissected false proof is the quantifier swap (forall-exists implies exists-forall). H2 calls back: uniform continuity is the swapped form of continuity, and compactness is what makes the swap legal."
