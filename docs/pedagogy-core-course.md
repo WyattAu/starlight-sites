@@ -97,9 +97,11 @@ chapters whose dependencies are fully discharged by earlier stages:
 - **Stage C: Expanding the line.** The failure of subtraction in the
   counting numbers; $\mathbb{Z}$ built as difference classes (Stage A's
   equivalence relations pay off); $\mathbb{Q}$ built as fraction classes;
-  density; the first crisis: $x^2 = 2$ has no rational solution; and the
+  density; the first crisis: $x^2 = 2$ has no rational solution; the
   arithmetic of $\mathbb{Z}$ made honest: primes and the fundamental theorem
-  of arithmetic, proved from division with remainder.
+  of arithmetic, proved from division with remainder; and congruence
+  classes, the rings $\mathbb{Z}/n$ with Fermat's little theorem, so the
+  algebra stage's favourite examples exist before algebra begins.
 - **Stage D: The continuum.** Dedekind cuts (only order and $\mathbb{Q}$
   needed); $\mathbb{R}$ constructed; completeness proved; decimals, roots;
   cardinality: countable versus uncountable (Cantor's diagonal, over the
@@ -119,22 +121,25 @@ chapters whose dependencies are fully discharged by earlier stages:
   $\mathbb{R}$ and $\mathbb{C}$: spaces, maps, duality, quotients,
   determinants, exterior algebra, eigenstructure, inner products and the
   spectral theorem, canonical forms.
-- **Stage G: Euclidean analysis.** Convergence in $\mathbb{R}^n$,
-  continuity in several variables, the multivariable derivative, the chain
-  rule and Clairaut, the inverse function theorem, the elementary functions
-  built from power series, integration on the real line with the fundamental
-  theorem of calculus, and the contraction mapping principle with existence
-  and uniqueness for ordinary differential equations. This stage *discharges
-  the multivariable and integration debts* that the manifold chapters would
-  otherwise have to declare, including the one-variable FTC.
+- **Stage G: Euclidean analysis.** Convergence in $\mathbb{R}^n$; series
+  and sequences of functions, pointwise versus uniform, and the exchange of
+  limits; continuity in several variables; the multivariable derivative; the
+  chain rule and Clairaut; the inverse function theorem; the elementary
+  functions built from power series (legitimately, on the series chapter's
+  shoulders); integration on the real line with the fundamental theorem of
+  calculus; and the contraction mapping principle with existence, uniqueness,
+  and linear systems $x' = Ax$ via the matrix exponential. This stage
+  *discharges the multivariable and integration debts* that the manifold
+  chapters would otherwise have to declare, including the one-variable FTC.
 - **Stage H: The canvas.** Metric and topological spaces, continuity,
-  connectedness, compactness, the quotient topology, convergence and
-  completeness, separation and metrisation.
+  connectedness, compactness, completeness and the Baire category theorem,
+  separation and metrisation.
 - **Stage I: Measure.** $\sigma$-algebras, Carathéodory, the Lebesgue
   integral, convergence modes, $L^p$ duality, Fubini and the
-  change-of-variables formula, Radon-Nikodym, Fourier. This stage *discharges
-  the integration debts* (Fubini, change of variables) that the Stokes
-  chapter consumes.
+  change-of-variables formula, Radon-Nikodym, conditional expectation, and
+  the laws of large numbers with the central limit theorem, with Fourier as
+  the engine of the second. This stage *discharges the integration debts*
+  (Fubini, change of variables) that the Stokes chapter consumes.
 - **Stage J: Calculus as linearisation.** Smooth manifolds, tangent spaces,
   differential forms, partitions of unity, integration and Stokes,
   submanifolds, Lie groups, and the first look at curvature: connections,
@@ -142,7 +147,10 @@ chapters whose dependencies are fully discharged by earlier stages:
 - **Stage K: Complex analysis.** Holomorphy, Cauchy and residues, and the
   proof of the fundamental theorem of algebra — the ledger closes.
 - **Stage L: Algebra and symmetry.** Groups, rings and modules, Galois
-  theory.
+  theory, Lie groups and their actions (moved here from the manifold stage:
+  a Lie group is a group before it is a manifold), and the closing synthesis
+  — geometry: the fifth postulate, its collapse, and symmetry as geometry.
+  The course ends by re-seeing, not re-teaching.
 
 The stages are the dependency order: no chapter may reach into a later
 stage, and within a stage the same rule holds. The written chapters of the
@@ -431,6 +439,19 @@ After merge:
 
 ## 9. Changelog
 
+- **v2.4**: the full dependency audit. Four unclean dependencies found and
+  fixed: Lie groups sat in the manifold stage before groups exist (moved to
+  Stage L); the change-of-variables formula consumed the inverse function
+  theorem without declaring it; the ODE chapter's linear systems consume
+  eigen theory without declaring it; and the elementary functions were built
+  from power series with no chapter building series or uniform convergence —
+  a new Stage-G chapter, "Series and the exchange of limits", now carries
+  that load and Stage G is renumbered (G2 series ... G9 ODEs). Coverage
+  additions from the floor-to-frontier audit: congruence classes (C5),
+  completeness/Baire/metrisation (H3, matching the standard's own promise),
+  the laws of large numbers and the central limit theorem (I8), and the
+  geometry verdict applied: one capstone, L5, the course's final chapter.
+  66 chapters, 145 edges; the Lean artifact re-proves the new order.
 - **v2.3**: the map is 61 chapters. Three real gaps closed: the
   fundamental theorem of calculus was misattributed to the chain-rule chapter
   and now belongs to a Stage-G integration chapter; the axiom of choice had no

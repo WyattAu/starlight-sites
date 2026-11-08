@@ -54,16 +54,16 @@ Three rules govern every chapter:
 graph TD
     A["A: Reasoning (5)"]
     B["B: Counting (4)"]
-    C["C: Expanding the line (4)"]
+    C["C: Expanding the line (5)"]
     D["D: The continuum (5)"]
     E["E: Completing algebra (3)"]
     F["F: Structure and linear algebra (9)"]
-    G["G: Euclidean analysis (8)"]
-    H["H: The canvas (2)"]
-    I["I: Measure (7)"]
-    J["J: Calculus as linearisation (8)"]
+    G["G: Euclidean analysis (9)"]
+    H["H: The canvas (3)"]
+    I["I: Measure (8)"]
+    J["J: Calculus as linearisation (7)"]
     K["K: Complex analysis (3)"]
-    L["L: Algebra and symmetry (3)"]
+    L["L: Algebra and symmetry (5)"]
     A --> B
     A --> C
     A --> D
@@ -91,12 +91,15 @@ graph TD
     F --> G
     F --> J
     F --> L
+    G --> I
     G --> J
     G --> K
     H --> J
+    H --> L
     I --> J
     I --> K
     J --> K
+    J --> L
 ```
 
 Each node is a stage, with its chapter count; each arrow is a dependency
@@ -111,7 +114,7 @@ The reader arrives knowing how to read. The course builds the rest in
 dependency order: logic before counting, counting before the number line, the
 number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
-The full course is 61 chapters across 12 dependency stages, from
+The full course is 66 chapters across 12 dependency stages, from
 logic to Galois, with
 14 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
@@ -133,11 +136,12 @@ chapter descends the course order.
 | B2 | Addition defined recursively; its laws proved | queued |
 | B3 | Multiplication, order, exponentiation: all theorems | queued |
 | B4 | Division with remainder; the Archimedean property | queued |
-| **Stage C — Expanding the line** | *Z, Q, primes, and the first crisis.* | |
+| **Stage C — Expanding the line** | *Z, Q, primes, congruences, and the first crisis.* | |
 | C1 | The failure of subtraction; Z as difference classes | queued |
 | C2 | The failure of division; Q as fraction classes; density | queued |
 | C3 | The first crisis: x^2 = 2 has no rational solution | queued |
 | C4 | Primes and the fundamental theorem of arithmetic | queued |
+| C5 | Congruence classes and the rings Z/nZ | queued |
 | **Stage D — The continuum** | *R constructed; completeness; cardinality; choice.* | |
 | D1 | Dedekind cuts: R constructed from order alone | queued |
 | D2 | Arithmetic and completeness of R, proved | queued |
@@ -158,19 +162,21 @@ chapter descends the course order.
 | F7 | Eigenstructure, triangularisation, Cayley-Hamilton (debt: fundamental-theorem-of-algebra → K3) | written |
 | F8 | Inner products, orthogonality, the spectral theorem (debt: fundamental-theorem-of-algebra → K3) | written |
 | F9 | Canonical forms: what remains when diagonalisation fails | queued |
-| **Stage G — Euclidean analysis** | *Convergence, continuity, derivatives, integration, the elementary functions, ODEs. Discharges the multivariable debts.* | |
+| **Stage G — Euclidean analysis** | *Convergence, series, continuity, derivatives, integration, the elementary functions, ODEs. Discharges the multivariable debts.* | |
 | G1 | Convergence of sequences in R and R^n | queued |
-| G2 | Continuity in several variables | queued |
-| G3 | The derivative in several variables | queued |
-| G4 | The chain rule, partials, and Clairaut | queued |
-| G5 | The inverse function theorem | queued |
-| G6 | The exponential and trigonometric functions via power series | queued |
-| G7 | Integration on the real line and the fundamental theorem of calculus | queued |
-| G8 | The contraction mapping principle and existence for ODEs | queued |
-| **Stage H — The canvas** | *Metric and topological spaces, connectedness, compactness.* | |
-| H1 | Metric and topological spaces, continuity, homeomorphism (debt: completeness-axiom → D2, elementary-functions-continuity → G6) | written |
+| G2 | Series and the exchange of limits | queued |
+| G3 | Continuity in several variables | queued |
+| G4 | The derivative in several variables | queued |
+| G5 | The chain rule, partials, and Clairaut | queued |
+| G6 | The inverse function theorem | queued |
+| G7 | The exponential and trigonometric functions via power series | queued |
+| G8 | Integration on the real line and the fundamental theorem of calculus | queued |
+| G9 | The contraction mapping principle and existence for ODEs | queued |
+| **Stage H — The canvas** | *The canvas: spaces, compactness, completeness, metrisation.* | |
+| H1 | Metric and topological spaces, continuity, homeomorphism (debt: completeness-axiom → D2, elementary-functions-continuity → G7) | written |
 | H2 | Connectedness and compactness; the IVT and EVT (debt: zorn-lemma → D5) | written |
-| **Stage I — Measure** | *Sigma-algebras to Fourier. Discharges the Fubini and change-of-variables debts.* | |
+| H3 | Completeness, the Baire category theorem, and metrisation | queued |
+| **Stage I — Measure** | *Sigma-algebras to Fourier, ending at the probability laws.* | |
 | I1 | Sigma-algebras and measures | queued |
 | I2 | The Lebesgue integral: Caratheodory | queued |
 | I3 | Modes of convergence | queued |
@@ -178,23 +184,25 @@ chapter descends the course order.
 | I5 | Product measures and Fubini-Tonelli; the change-of-variables formula | queued |
 | I6 | Radon-Nikodym, conditional expectation, and the birth of probability | queued |
 | I7 | Fourier series and the Fourier transform | queued |
+| I8 | The laws of large numbers and the central limit theorem | queued |
 | **Stage J — Calculus as linearisation** | *Manifolds, tangent spaces, forms, Stokes, curvature.* | |
-| J1 | Smooth manifolds: charts, atlases, smooth maps (debt: multivariable-chain-rule → G4, multivariable-inverse-function-theorem → G5, trigonometry-facts → G6) | written |
-| J2 | Tangent spaces, the differential, the IFT on manifolds (debt: fundamental-theorem-of-calculus → G7, differentiation-under-the-integral → I5) | written |
-| J3 | Differential forms and the exterior derivative (debt: clairaut-mixed-partials → G4) | written |
+| J1 | Smooth manifolds: charts, atlases, smooth maps (debt: multivariable-chain-rule → G5, multivariable-inverse-function-theorem → G6, trigonometry-facts → G7) | written |
+| J2 | Tangent spaces, the differential, the IFT on manifolds (debt: fundamental-theorem-of-calculus → G8, differentiation-under-the-integral → I5) | written |
+| J3 | Differential forms and the exterior derivative (debt: clairaut-mixed-partials → G5) | written |
 | J4 | Partitions of unity | queued |
 | J5 | Integration, orientation, and Stokes (debt: fubini-theorem → I5, change-of-variables-formula → I5, partitions-of-unity-existence → J4) | written |
 | J6 | Submanifolds, immersions, regular level sets | queued |
-| J7 | Lie groups and group actions | queued |
-| J8 | Connections, curvature, and geodesics | queued |
+| J7 | Connections, curvature, and geodesics | queued |
 | **Stage K — Complex analysis** | *Holomorphy, Cauchy, residues, and the FTA proved — the ledger closes.* | |
 | K1 | Holomorphy: complex differentiability and its rigidity | queued |
 | K2 | Complex integration, Cauchy's theorem, residues | queued |
 | K3 | The fundamental theorem of algebra, proved - the ledger closes | queued |
-| **Stage L — Algebra and symmetry** | *Groups, rings and modules, Galois.* | |
+| **Stage L — Algebra and symmetry** | *Groups, rings, Galois, Lie groups, and the geometry synthesis.* | |
 | L1 | Groups through the categorical lens | queued |
 | L2 | Rings and modules (debt: zorn-lemma → D5) | queued |
 | L3 | Galois theory: symmetry of equations | queued |
+| L4 | Lie groups and group actions | queued |
+| L5 | Geometry: the fifth postulate, its collapse, and symmetry as geometry | queued |
 
 </div>
 

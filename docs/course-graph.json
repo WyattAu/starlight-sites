@@ -14,7 +14,7 @@
     {
       "id": "C",
       "title": "Expanding the line",
-      "blurb": "Z, Q, primes, and the first crisis."
+      "blurb": "Z, Q, primes, congruences, and the first crisis."
     },
     {
       "id": "D",
@@ -34,17 +34,17 @@
     {
       "id": "G",
       "title": "Euclidean analysis",
-      "blurb": "Convergence, continuity, derivatives, integration, the elementary functions, ODEs. Discharges the multivariable debts."
+      "blurb": "Convergence, series, continuity, derivatives, integration, the elementary functions, ODEs. Discharges the multivariable debts."
     },
     {
       "id": "H",
       "title": "The canvas",
-      "blurb": "Metric and topological spaces, connectedness, compactness."
+      "blurb": "The canvas: spaces, compactness, completeness, metrisation."
     },
     {
       "id": "I",
       "title": "Measure",
-      "blurb": "Sigma-algebras to Fourier. Discharges the Fubini and change-of-variables debts."
+      "blurb": "Sigma-algebras to Fourier, ending at the probability laws."
     },
     {
       "id": "J",
@@ -59,7 +59,7 @@
     {
       "id": "L",
       "title": "Algebra and symmetry",
-      "blurb": "Groups, rings and modules, Galois."
+      "blurb": "Groups, rings, Galois, Lie groups, and the geometry synthesis."
     }
   ],
   "chapters": [
@@ -218,6 +218,19 @@
       "status": "queued",
       "file": "stage-c-expanding-the-line.md",
       "declaredInputs": []
+    },
+    {
+      "id": "C5",
+      "stage": "C",
+      "file": "stage-c-expanding-the-line.md",
+      "status": "queued",
+      "title": "Congruence classes and the rings Z/nZ",
+      "declaredInputs": [],
+      "deps": [
+        "C1",
+        "A3"
+      ],
+      "note": "Congruence as an equivalence relation; the ring Z/nZ; units mod p; Fermat's little theorem. Feeds the examples of the algebra stage."
     },
     {
       "id": "D1",
@@ -481,6 +494,18 @@
     {
       "id": "G2",
       "stage": "G",
+      "file": null,
+      "status": "queued",
+      "title": "Series and the exchange of limits",
+      "declaredInputs": [],
+      "deps": [
+        "G1"
+      ],
+      "note": "Numeric series (comparison, ratio, root, alternating), then sequences of functions: pointwise versus uniform, the Weierstrass M-test, and what uniformity licenses (limits, sums, derivatives term by term). Closes by rereading decimals as series."
+    },
+    {
+      "id": "G3",
+      "stage": "G",
       "title": "Continuity in several variables",
       "deps": [
         "G1",
@@ -491,22 +516,22 @@
       "declaredInputs": []
     },
     {
-      "id": "G3",
+      "id": "G4",
       "stage": "G",
       "title": "The derivative in several variables",
       "deps": [
-        "G2"
+        "G3"
       ],
       "status": "queued",
       "file": null,
       "declaredInputs": []
     },
     {
-      "id": "G4",
+      "id": "G5",
       "stage": "G",
       "title": "The chain rule, partials, and Clairaut",
       "deps": [
-        "G3"
+        "G4"
       ],
       "status": "queued",
       "file": null,
@@ -517,11 +542,11 @@
       ]
     },
     {
-      "id": "G5",
+      "id": "G6",
       "stage": "G",
       "title": "The inverse function theorem",
       "deps": [
-        "G4",
+        "G5",
         "F5"
       ],
       "status": "queued",
@@ -532,12 +557,13 @@
       ]
     },
     {
-      "id": "G6",
+      "id": "G7",
       "stage": "G",
       "title": "The exponential and trigonometric functions via power series",
       "deps": [
         "G1",
-        "E1"
+        "E1",
+        "G2"
       ],
       "status": "queued",
       "file": null,
@@ -545,15 +571,15 @@
         "elementary-functions-continuity",
         "trigonometry-facts"
       ],
-      "note": "Angle is defined algebraically, as the parameter of the circle parametrisation. The equivalence with arc length is a remark after G7, carrying the forward-honesty marker."
+      "note": "Angle is defined algebraically, as the parameter of the circle parametrisation. The equivalence with arc length is a remark after G8, carrying the forward-honesty marker."
     },
     {
-      "id": "G7",
+      "id": "G8",
       "stage": "G",
       "title": "Integration on the real line and the fundamental theorem of calculus",
       "deps": [
         "G1",
-        "G2"
+        "G3"
       ],
       "status": "queued",
       "file": null,
@@ -563,12 +589,13 @@
       ]
     },
     {
-      "id": "G8",
+      "id": "G9",
       "stage": "G",
       "title": "The contraction mapping principle and existence for ODEs",
       "deps": [
-        "G2",
-        "D2"
+        "G3",
+        "D2",
+        "F7"
       ],
       "status": "queued",
       "file": null,
@@ -593,7 +620,7 @@
         },
         {
           "input": "elementary-functions-continuity",
-          "dischargedBy": "G6",
+          "dischargedBy": "G7",
           "note": "Continuity of sin, cos, exp used in examples and exercises."
         }
       ],
@@ -618,6 +645,19 @@
         }
       ],
       "note": "Compactness is presented as the theorem that legalises the A5 quantifier swap: continuity under an existential quantifier becomes uniformity under a universal one."
+    },
+    {
+      "id": "H3",
+      "stage": "H",
+      "file": "2b-completeness-and-metrisation.md",
+      "status": "queued",
+      "title": "Completeness, the Baire category theorem, and metrisation",
+      "declaredInputs": [],
+      "deps": [
+        "H1",
+        "H2"
+      ],
+      "note": "Complete metric spaces and Cantor's nested theorem; Baire category; separation axioms; Urysohn metrisation; compactness equivalences."
     },
     {
       "id": "I1",
@@ -670,7 +710,8 @@
       "stage": "I",
       "title": "Product measures and Fubini-Tonelli; the change-of-variables formula",
       "deps": [
-        "I2"
+        "I2",
+        "G6"
       ],
       "status": "queued",
       "file": null,
@@ -703,31 +744,44 @@
       "declaredInputs": []
     },
     {
+      "id": "I8",
+      "stage": "I",
+      "file": null,
+      "status": "queued",
+      "title": "The laws of large numbers and the central limit theorem",
+      "declaredInputs": [],
+      "deps": [
+        "I3",
+        "I7"
+      ],
+      "note": "Chebyshev and the weak law; characteristic functions via the Fourier chapter; the central limit theorem."
+    },
+    {
       "id": "J1",
       "stage": "J",
       "title": "Smooth manifolds: charts, atlases, smooth maps",
       "deps": [
         "H1",
         "F2",
-        "G3",
         "G4",
         "G5",
-        "G6"
+        "G6",
+        "G7"
       ],
       "status": "written",
       "file": "3a-manifolds.md",
       "declaredInputs": [
         {
           "input": "multivariable-chain-rule",
-          "dischargedBy": "G4"
-        },
-        {
-          "input": "multivariable-inverse-function-theorem",
           "dischargedBy": "G5"
         },
         {
-          "input": "trigonometry-facts",
+          "input": "multivariable-inverse-function-theorem",
           "dischargedBy": "G6"
+        },
+        {
+          "input": "trigonometry-facts",
+          "dischargedBy": "G7"
         }
       ]
     },
@@ -744,7 +798,7 @@
       "declaredInputs": [
         {
           "input": "fundamental-theorem-of-calculus",
-          "dischargedBy": "G7",
+          "dischargedBy": "G8",
           "note": "One-variable FTC, proved in the integration chapter of Stage G."
         },
         {
@@ -767,7 +821,7 @@
       "declaredInputs": [
         {
           "input": "clairaut-mixed-partials",
-          "dischargedBy": "G4"
+          "dischargedBy": "G5"
         }
       ]
     },
@@ -818,7 +872,7 @@
       "title": "Submanifolds, immersions, regular level sets",
       "deps": [
         "J2",
-        "G5"
+        "G6"
       ],
       "status": "queued",
       "file": null,
@@ -826,17 +880,6 @@
     },
     {
       "id": "J7",
-      "stage": "J",
-      "title": "Lie groups and group actions",
-      "deps": [
-        "J2"
-      ],
-      "status": "queued",
-      "file": null,
-      "declaredInputs": []
-    },
-    {
-      "id": "J8",
       "stage": "J",
       "title": "Connections, curvature, and geodesics",
       "deps": [
@@ -853,7 +896,7 @@
       "title": "Holomorphy: complex differentiability and its rigidity",
       "deps": [
         "E2",
-        "G3",
+        "G4",
         "J3"
       ],
       "status": "queued",
@@ -905,7 +948,8 @@
       "deps": [
         "L1",
         "F2",
-        "C4"
+        "C4",
+        "C5"
       ],
       "status": "queued",
       "file": null,
@@ -928,6 +972,33 @@
       "status": "queued",
       "file": null,
       "declaredInputs": []
+    },
+    {
+      "id": "L4",
+      "stage": "L",
+      "file": null,
+      "status": "queued",
+      "title": "Lie groups and group actions",
+      "declaredInputs": [],
+      "deps": [
+        "L1",
+        "J2"
+      ],
+      "note": "Moved from Stage J: a Lie group is a group before it is a manifold. Stage order now honours that."
+    },
+    {
+      "id": "L5",
+      "stage": "L",
+      "file": null,
+      "status": "queued",
+      "title": "Geometry: the fifth postulate, its collapse, and symmetry as geometry",
+      "declaredInputs": [],
+      "deps": [
+        "L1",
+        "H1",
+        "J7"
+      ],
+      "note": "Synthesis, not reintroduction: Hilbert's axioms re-seen, the equivalent postulate forms proved equivalent, the Poincaré and hyperboloid models built analytically, curvature explaining the failure, Erlangen closing the arc. The course's closing chord."
     }
   ],
   "axioms": [
