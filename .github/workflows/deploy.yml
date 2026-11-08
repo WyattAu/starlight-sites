@@ -232,7 +232,9 @@ jobs:
 
       - name: Build the course-graph proof artifact
         working-directory: lean
-        run: lake build && echo "verified: lean $(lean --version)"
+        run: |
+          lake build
+          echo "verified: lean $(lean --version)"
 
   content-sync:
     needs: resolve-sites

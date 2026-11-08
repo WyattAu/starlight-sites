@@ -431,13 +431,18 @@ failure and is not optional):
    ordered, ledger discharged, hub in agreement — every edit to the course
    map or any chapter's dependencies changes the graph).
 6. Backslash hygiene on new pages: no doubled LaTeX escapes.
-7. `node scripts/generate-llms-txt.js` (if any content changed).
-8. Self-review pass: re-read the full page as a hostile reader; fix findings.
-9. Commit and push immediately. Deferred pushes are the failure mode this
-   rule exists to prevent; the deploy queue absorbs immediate pushes.
-10. The Lean artifact (`lean/`) is proved in CI, not locally: local elan
-    toolchains have shown corrupted behaviour, and the repo's CI-only policy
-    for heavy builds applies here too.
+7. If `.github/workflows/` changed: `python3 -c "import yaml;
+   yaml.safe_load(open('.github/workflows/deploy.yml'))"` — the workflow
+   parser on GitHub kills the entire run (all jobs, no logs) on YAML that a
+   plain scalar with a stray colon produces. This check exists because that
+   happened.
+8. `node scripts/generate-llms-txt.js` (if any content changed).
+9. Self-review pass: re-read the full page as a hostile reader; fix findings.
+10. Commit and push immediately. Deferred pushes are the failure mode this
+    rule exists to prevent; the deploy queue absorbs immediate pushes.
+11. The Lean artifact (`lean/`) is proved in CI, not locally: the CI job
+    runs in the pinned `ghcr.io/leanprover/lean4` container, which removed
+    the releases.lean-lang.org download flake that killed two deploys.
 
 After merge:
 
