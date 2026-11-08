@@ -1,3 +1,50 @@
+# Handoff — 87-chapter research syllabus verified; Stage A written; reveal mechanism live (2026-11-08, later)
+
+## Deployed state
+- run 42472946877 (d2e647c03) SUCCESS, lean-proof: success (first CI-proof of
+  the artifact; elan cache seeded, no more runtime downloads after cache hit).
+- run for 8e2282c67 in flight: Stage A page + reveal CSS + lint exemption.
+
+## What landed (10ade0503..8e2282c67)
+- Research frontier (v2.5): Stage M functional summit (6), Stage N topology/
+  geometry (7), Stage O probability (4). 83 chapters verified BEFORE content.
+- Per-topic completeness audit (v2.6): new B5 counting, H4 approximation
+  (Weierstrass/Stone-Weierstrass/Arzela-Ascoli), M7 unbounded operators +
+  Stone, O5 Girsanov/risk-neutral; 20 scope notes; I7 dep +H4, F9 dep +F8.
+  87 chapters, 200 edges. Approach machinery added: stage gates, retention
+  loop (feeds the existing mastery engine), formal witnesses (Stage B Lean).
+- Stage A WRITTEN: stage-a-reasoning.md, all five chapters as one page;
+  ponder spoilers, quick checks, first stage gate, 4 problems. A1-A5
+  status=written in the graph. Reveal CSS: details.wn-spoiler +
+  .wn-spoiler-inline in shared/styles/custom.css (synced to 48 sites).
+- lint-handwaves: quoted-mention exemption (match wrapped in quotes is a
+  mention not a use); whole-tree findings 255 -> 247.
+- lean-proof job: actions/cache on ~/.elan + retry loops with real failure
+  propagation + elan toolchain install "$(cat lean-toolchain)" (elan needs
+  an explicit arg). ghcr.io/leanprover/lean4 does NOT exist; Docker Hub
+  mirror empty. Do not go back to containers.
+
+## Next (in order)
+1. Verify Stage A rendered: node /tmp/opencode/verify-stage-a.mjs
+   (spoiler count, click opens, blur lifts on focus, sidebar link, fab).
+2. Stage B: stage-b-counting.md (Peano, addition/multiplication as
+   theorems, division with remainder, counting arguments B5) with the
+   FIRST formal-witness Lean boxes (core-only: Nat.add_comm etc.) + the
+   CI extraction check (scripts/check-course-lean, wire into gate).
+3. Retrofit One-Line Reveal to the 14 written pages (plain text ->
+   wn-spoiler-inline), one site-sync commit.
+4. llms.txt freshness on every content push (rule 8).
+
+## Lessons
+- Plain-scalar YAML values cannot contain ': ' (verified: lean ...) — the
+  whole-workflow failure mode is zero jobs + no logs; parse workflow YAML
+  locally before push (standard rule 7, born this session).
+- actions/cache only saves on job success: a flaky job that fails never
+  seeds its cache; retries must propagate (ok=1 flags), never mask with
+  trailing sleeps.
+- rg -r REPLACES matches (the -r flag); my own greps showed '.n nav' for
+  '.page-landing nav' — read flags before trusting output.
+
 # Handoff — core course graph + axioms ledger, Lean in CI, theme-fab + mermaid repairs (2026-11-08)
 
 ## Deployed state
