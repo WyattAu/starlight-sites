@@ -149,7 +149,8 @@
       ],
       "status": "queued",
       "file": "stage-b-counting.md",
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "Strong induction and the well-ordering principle are proved equivalent to induction here; infinite descent follows."
     },
     {
       "id": "B2",
@@ -184,6 +185,19 @@
       "status": "queued",
       "file": "stage-b-counting.md",
       "declaredInputs": []
+    },
+    {
+      "id": "B5",
+      "stage": "B",
+      "file": null,
+      "status": "queued",
+      "title": "Counting arguments: bijections, permutations, and the binomial theorem",
+      "declaredInputs": [],
+      "deps": [
+        "B3",
+        "A4"
+      ],
+      "note": "Counting as bijections; factorials, permutations and combinations; the binomial theorem and Pascal's triangle; the pigeonhole principle. The finite ancestor of the series chapter's binomial series."
     },
     {
       "id": "C1",
@@ -232,7 +246,8 @@
       ],
       "status": "queued",
       "file": "stage-c-expanding-the-line.md",
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "The Euclidean algorithm and Bezout's identity come first; linear Diophantine equations are the exercises. Unique factorisation is proved on Bezout's shoulders."
     },
     {
       "id": "C5",
@@ -273,7 +288,8 @@
       "declaredInputs": [],
       "discharges": [
         "completeness-axiom"
-      ]
+      ],
+      "note": "Completeness is stated as the supremum property and proved for the cuts. The Cauchy-sequence construction is rebuilt and proved equivalent to D1's cuts once convergence exists (Stage G)."
     },
     {
       "id": "D3",
@@ -328,7 +344,8 @@
       ],
       "status": "queued",
       "file": "stage-e-completing-algebra.md",
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "Polynomial division, the remainder theorem, and the factor theorem; roots and multiplicity. The division algorithm is Euclid's again, in a new ring."
     },
     {
       "id": "E2",
@@ -488,11 +505,13 @@
       "title": "Canonical forms: what remains when diagonalisation fails",
       "deps": [
         "F7",
+        "F8",
         "F3"
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "The Jordan and rational canonical forms; the singular value decomposition from F8's spectral theorem; Sylvester's law of inertia. Every way a linear map refuses to diagonalise, named and normalised."
     },
     {
       "id": "G1",
@@ -504,7 +523,8 @@
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "limsup and liminf; subsequence principles; the Cauchy construction of R rebuilt and proved equivalent to the cuts of D1."
     },
     {
       "id": "G2",
@@ -539,7 +559,8 @@
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "The one-variable slice carries Rolle, the mean value theorem, monotonicity, and L'Hopital: EVT and IVT cashed in."
     },
     {
       "id": "G5",
@@ -569,7 +590,8 @@
       "declaredInputs": [],
       "discharges": [
         "multivariable-inverse-function-theorem"
-      ]
+      ],
+      "note": "The inverse and implicit function theorems, proved together; graphs versus level sets."
     },
     {
       "id": "G7",
@@ -586,7 +608,7 @@
         "elementary-functions-continuity",
         "trigonometry-facts"
       ],
-      "note": "Angle is defined algebraically, as the parameter of the circle parametrisation. The equivalence with arc length is a remark after G8, carrying the forward-honesty marker."
+      "note": "Power series, the general binomial series, and the classical functions re-derived; e and pi meet their series."
     },
     {
       "id": "G8",
@@ -601,7 +623,8 @@
       "declaredInputs": [],
       "discharges": [
         "fundamental-theorem-of-calculus"
-      ]
+      ],
+      "note": "Darboux's theory, the fundamental theorem of calculus, and Taylor's theorem with integral remainder."
     },
     {
       "id": "G9",
@@ -675,6 +698,20 @@
       "note": "Complete metric spaces and Cantor's nested theorem; Baire category; separation axioms; Urysohn metrisation; compactness equivalences."
     },
     {
+      "id": "H4",
+      "stage": "H",
+      "file": null,
+      "status": "queued",
+      "title": "Approximation and compactness in function spaces",
+      "declaredInputs": [],
+      "deps": [
+        "H2",
+        "G2",
+        "B5"
+      ],
+      "note": "Bernstein polynomials and the Weierstrass approximation theorem; Stone-Weierstrass (the density engine of the Fourier chapter); Arzela-Ascoli: compactness for families of functions."
+    },
+    {
       "id": "I1",
       "stage": "I",
       "title": "Sigma-algebras and measures",
@@ -745,14 +782,15 @@
       "status": "queued",
       "file": null,
       "declaredInputs": [],
-      "note": "Examples are filtrations, fair games, and martingale intuitions; the probability language is derived, not assumed."
+      "note": "The Lebesgue differentiation theorem; functions of bounded variation; absolutely continuous functions and the fundamental theorem of calculus in its correct generality."
     },
     {
       "id": "I7",
       "stage": "I",
       "title": "Fourier series and the Fourier transform",
       "deps": [
-        "I4"
+        "I4",
+        "H4"
       ],
       "status": "queued",
       "file": null,
@@ -916,7 +954,8 @@
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "Conformal maps, Mobius transformations, the Riemann sphere; harmonic functions as the real and imaginary parts of holomorphy."
     },
     {
       "id": "K2",
@@ -929,7 +968,8 @@
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "Taylor and Laurent series; the argument principle and Rouche's theorem; residue calculus."
     },
     {
       "id": "K3",
@@ -954,7 +994,8 @@
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "Subgroups, quotients, Lagrange; group actions, orbits and the class equation; the Sylow theorems."
     },
     {
       "id": "L2",
@@ -974,7 +1015,8 @@
           "dischargedBy": "D5",
           "note": "Existence of maximal ideals and of maximal ideals in a quotient."
         }
-      ]
+      ],
+      "note": "Ideals and quotient rings; PIDs and UFDs; Noetherian rings; the structure theorem for finitely generated modules over a PID, re-deriving the canonical forms of F9."
     },
     {
       "id": "L3",
@@ -986,7 +1028,8 @@
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "Field extensions, automorphism groups, the fundamental theorem; constructibility, solvable groups, Abel-Ruffini, and the cubic and quartic resolved."
     },
     {
       "id": "L4",
@@ -1032,7 +1075,7 @@
           "note": "Hahn-Banach is Zorn at work."
         }
       ],
-      "note": "Hahn-Banach, Banach-Steinhaus, the open mapping theorem, the closed graph theorem. Baire category, the Stage-H promise, earns its keep."
+      "note": "The Riesz representation theorem for C([a,b])* as the bridge back to Stage I's measure."
     },
     {
       "id": "M2",
@@ -1103,6 +1146,20 @@
       "note": "Weak solutions become smooth; the Laplacian's spectrum as the infinite spectral theorem in action; Hodge theory on the horizon."
     },
     {
+      "id": "M7",
+      "stage": "M",
+      "file": null,
+      "status": "queued",
+      "title": "Unbounded operators, the spectral theorem, and Stone's theorem",
+      "declaredInputs": [],
+      "deps": [
+        "M6",
+        "M2",
+        "M3"
+      ],
+      "note": "Self-adjointness beyond boundedness; the spectral theorem in its general form via projection-valued measures; Stone's theorem: one-parameter unitary groups and their generators. The mathematical frame of quantum mechanics."
+    },
+    {
       "id": "N1",
       "stage": "N",
       "title": "The fundamental group, covering spaces, and Van Kampen",
@@ -1154,7 +1211,7 @@
       "file": null,
       "status": "queued",
       "declaredInputs": [],
-      "note": "The Poincare lemma; closed versus exact; the pairing with homology and the de Rham theorem; the degree of a map."
+      "note": "The Poincare lemma; the degree of a map; Poincare duality on oriented manifolds; the de Rham theorem stated."
     },
     {
       "id": "N5",
@@ -1250,6 +1307,19 @@
       "status": "queued",
       "declaredInputs": [],
       "note": "Existence and uniqueness by Picard iteration - G9 returns; the diffusion semigroup solves the PDE, and Feynman-Kac fuses the course's two halves: analysis and probability are one subject."
+    },
+    {
+      "id": "O5",
+      "stage": "O",
+      "file": null,
+      "status": "queued",
+      "title": "Martingale representation, Girsanov, and the risk-neutral measure",
+      "declaredInputs": [],
+      "deps": [
+        "O4",
+        "I6"
+      ],
+      "note": "Every martingale is an Ito integral (representation); changing the measure via the Radon-Nikodym derivative (Girsanov); the risk-neutral calculus that pricing theory is built on."
     }
   ],
   "axioms": [

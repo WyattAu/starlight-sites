@@ -53,20 +53,20 @@ Three rules govern every chapter:
 ```mermaid
 graph TD
     A["A: Reasoning (5)"]
-    B["B: Counting (4)"]
+    B["B: Counting (5)"]
     C["C: Expanding the line (5)"]
     D["D: The continuum (5)"]
     E["E: Completing algebra (3)"]
     F["F: Structure and linear algebra (9)"]
     G["G: Euclidean analysis (9)"]
-    H["H: The canvas (3)"]
+    H["H: The canvas (4)"]
     I["I: Measure (8)"]
     J["J: Calculus as linearisation (7)"]
     K["K: Complex analysis (3)"]
     L["L: Algebra and symmetry (5)"]
-    M["M: The functional summit (6)"]
+    M["M: The functional summit (7)"]
     N["N: Topology and geometry at research level (7)"]
-    O["O: Probability at research level (4)"]
+    O["O: Probability at research level (5)"]
     A --> B
     A --> C
     A --> D
@@ -96,10 +96,12 @@ graph TD
     F --> L
     F --> M
     F --> N
+    G --> H
     G --> I
     G --> J
     G --> K
     G --> O
+    H --> I
     H --> J
     H --> L
     H --> M
@@ -131,7 +133,7 @@ The reader arrives knowing how to read. The course builds the rest in
 dependency order: logic before counting, counting before the number line, the
 number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
-The full course is 83 chapters across 15 dependency stages, from
+The full course is 87 chapters across 15 dependency stages, from
 logic to the research frontier, with
 14 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
@@ -153,6 +155,7 @@ chapter descends the course order.
 | B2 | Addition defined recursively; its laws proved | queued |
 | B3 | Multiplication, order, exponentiation: all theorems | queued |
 | B4 | Division with remainder; the Archimedean property | queued |
+| B5 | Counting arguments: bijections, permutations, and the binomial theorem | queued |
 | **Stage C — Expanding the line** | *Z, Q, primes, congruences, and the first crisis.* | |
 | C1 | The failure of subtraction; Z as difference classes | queued |
 | C2 | The failure of division; Q as fraction classes; density | queued |
@@ -193,6 +196,7 @@ chapter descends the course order.
 | H1 | Metric and topological spaces, continuity, homeomorphism (debt: completeness-axiom → D2, elementary-functions-continuity → G7) | written |
 | H2 | Connectedness and compactness; the IVT and EVT (debt: zorn-lemma → D5) | written |
 | H3 | Completeness, the Baire category theorem, and metrisation | queued |
+| H4 | Approximation and compactness in function spaces | queued |
 | **Stage I — Measure** | *Sigma-algebras to Fourier, ending at the probability laws.* | |
 | I1 | Sigma-algebras and measures | queued |
 | I2 | The Lebesgue integral: Caratheodory | queued |
@@ -227,6 +231,7 @@ chapter descends the course order.
 | M4 | Banach algebras, the Gelfand spectrum, and C*-algebras | queued |
 | M5 | Sobolev spaces and weak derivatives | queued |
 | M6 | Elliptic theory: the Laplacian, Fredholm, and regularity | queued |
+| M7 | Unbounded operators, the spectral theorem, and Stone's theorem | queued |
 | **Stage N — Topology and geometry at research level** | *Homotopy, homological algebra, homology, de Rham cohomology, characteristic classes, Riemannian geometry, representations.* | |
 | N1 | The fundamental group, covering spaces, and Van Kampen | queued |
 | N2 | Homological algebra: chain complexes, derived functors, Ext and Tor | queued |
@@ -240,6 +245,7 @@ chapter descends the course order.
 | O2 | Brownian motion: construction, invariance, pathologies | queued |
 | O3 | The Ito calculus | queued |
 | O4 | Stochastic differential equations and Feynman-Kac | queued |
+| O5 | Martingale representation, Girsanov, and the risk-neutral measure | queued |
 
 </div>
 

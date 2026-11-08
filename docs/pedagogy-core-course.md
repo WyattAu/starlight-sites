@@ -92,8 +92,11 @@ chapters whose dependencies are fully discharged by earlier stages:
   surjections, bijections. The reader leaves this stage able to read a proof
   and handle infinite collections, without having counted anything.
 - **Stage B: Counting.** The Peano axioms as the definition of counting;
-  induction; addition and multiplication *defined recursively* and their laws
-  *proved*; order; division with remainder. Arithmetic is a theorem.
+  induction (with strong induction and well-ordering proved equivalent);
+  addition and multiplication *defined recursively* and their laws *proved*;
+  order; division with remainder; and counting arguments themselves:
+  bijections, permutations, the binomial theorem, the pigeonhole principle.
+  Arithmetic is a theorem, and counting things is a theorem too.
 - **Stage C: Expanding the line.** The failure of subtraction in the
   counting numbers; $\mathbb{Z}$ built as difference classes (Stage A's
   equivalence relations pay off); $\mathbb{Q}$ built as fraction classes;
@@ -133,7 +136,9 @@ chapters whose dependencies are fully discharged by earlier stages:
   chapters would otherwise have to declare, including the one-variable FTC.
 - **Stage H: The canvas.** Metric and topological spaces, continuity,
   connectedness, compactness, completeness and the Baire category theorem,
-  separation and metrisation.
+  separation and metrisation, and approximation: Weierstrass,
+  Stone-Weierstrass, and Arzela-Ascoli, the theorems that make function
+  spaces livable.
 - **Stage I: Measure.** $\sigma$-algebras, Carathéodory, the Lebesgue
   integral, convergence modes, $L^p$ duality, Fubini and the
   change-of-variables formula, Radon-Nikodym, conditional expectation, and
@@ -157,7 +162,9 @@ chapters whose dependencies are fully discharged by earlier stages:
   weak topologies and distributions; Banach algebras, the Gelfand spectrum,
   and C*-algebras (Liouville paying a second debt); Sobolev spaces; elliptic
   theory: weak solutions becoming smooth, the Laplacian's spectrum as the
-  infinite spectral theorem in action.
+  infinite spectral theorem in action; then unbounded operators, the
+  spectral theorem in its general form, and Stone's theorem — the
+  mathematical frame of quantum mechanics.
 - **Stage N: Topology and geometry at research level.** The fundamental
   group with covering spaces and Van Kampen; homological algebra (Ext, Tor,
   derived functors); simplicial and singular homology; de Rham cohomology
@@ -169,7 +176,33 @@ chapters whose dependencies are fully discharged by earlier stages:
   nowhere differentiable; the Ito calculus (quadratic variation as the
   obstruction); stochastic differential equations solved by Picard
   iteration — G9 returning — and Feynman-Kac, where the course's two
-  halves, analysis and probability, are revealed as one subject.
+  halves, analysis and probability, are revealed as one subject; then
+  martingale representation, Girsanov, and the risk-neutral measure.
+
+### The approach machinery
+
+Three mechanisms turn the method into habits. They are part of the standard,
+not decoration.
+
+1. **Stage gates.** Before a stage begins, the reader answers a short
+   diagnostic drawn from the previous stage's quick checks: five questions,
+   pass mark four. A failed gate names the sections to reread; the course
+   never lets a reader walk into Stage N carrying a Stage-H gap. Gates are
+   generated from the same fixtures as the quick checks, so they cannot
+   disagree with them.
+2. **The retention loop.** Every quick check and problem the reader answers
+   feeds the site's existing spaced-repetition engine (the mastery engine
+   behind the sidebar's dots and the global review queue). Wrong answers
+   schedule the underlying section for review; mastery tiers gate the next
+   stage. The course does not build a second practice system; it feeds the
+   one that exists.
+3. **Formal witnesses (Stage B).** The arithmetic theorems of Stage B ship
+   with collapsible Lean proofs: real, compiling, CI-verified excerpts using
+   only core Lean. They are optional computational appendices: the prose
+   proof is the proof, no Lean knowledge is assumed, and the first box opens
+   with a self-contained primer on reading a theorem-statement-as-type. The
+   CI extracts the blocks from the page and compiles them, so a witness that
+   stops compiling fails the build exactly as a broken graph does.
 
 The stages are the dependency order: no chapter may reach into a later
 stage, and within a stage the same rule holds. The written chapters of the
@@ -458,6 +491,23 @@ After merge:
 
 ## 9. Changelog
 
+- **v2.6**: the per-topic completeness audit. Four coverage gaps closed
+  with new chapters: counting arguments and the binomial theorem (B5, the
+  finite ancestor of the series chapter), approximation and function-space
+  compactness (H4: Weierstrass, Stone-Weierstrass, Arzela-Ascoli — the
+  density engine Fourier leans on), the general spectral theorem with
+  Stone's theorem (M7: the mathematical frame of quantum mechanics), and
+  martingale representation with Girsanov (O5: the risk-neutral calculus).
+  Twenty chapters gained scope notes naming the standard theorems they own
+  (Euclid's algorithm and Bezout at C4; Rolle, MVT and L'Hopital at G4;
+  Taylor with integral remainder at G8; the implicit function theorem at
+  G6; flows at J2; Laurent series, the argument principle and Rouche at K2;
+  the Lebesgue differentiation theorem, BV and AC functions at I6; Sylow
+  and the class equation at L1; the PID structure theorem at L2;
+  Abel-Ruffini at L3; Poincare duality at N4; the SVD at F9; and the
+  Cauchy-construction equivalence at G1). The approach gained its machinery
+  section: stage gates, the retention loop into the existing mastery
+  engine, and formal witnesses. 87 chapters, 200 edges, Lean re-proven.
 - **v2.5**: the frontier moves. Three research stages follow the core
   spine: M (functional analysis to elliptic PDE), N (homotopy, homological
   algebra, homology, de Rham, characteristic classes, Riemannian geometry,

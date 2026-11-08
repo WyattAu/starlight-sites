@@ -222,33 +222,17 @@ jobs:
   # class regressions in ~2 minutes instead of after a full canary+rollout.
   lean-proof:
     runs-on: ubuntu-latest
+    # Prebuilt Lean image: no runtime downloads from releases.lean-lang.org,
+    # which has flaked twice in a row (elan init, then the toolchain tarball).
+    # The image ships lean + lake at exactly the pinned version.
+    container: ghcr.io/leanprover/lean4:v4.29.0
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install elan (toolchain pinned by lean/lean-toolchain)
-        run: |
-          for i in 1 2 3; do
-            curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh \
-              | sh -s -- -y --default-toolchain none && break
-            echo "elan install attempt $i failed; retrying"
-            sleep 10
-          done
-          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
-
-      - name: Install the pinned toolchain (downloads from releases.lean-lang.org, which flakes)
-        working-directory: lean
-        run: |
-          for i in 1 2 3 4 5; do
-            elan toolchain install && break
-            echo "toolchain download attempt $i failed; retrying"
-            sleep 15
-          done
-          elan show
-
       - name: Build the course-graph proof artifact
         working-directory: lean
-        run: lake build
+        run: lake build && echo "verified: lean $(lean --version)"
 
   content-sync:
     needs: resolve-sites
