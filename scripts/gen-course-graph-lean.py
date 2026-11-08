@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """Generate lean/CourseGraph.lean from docs/course-graph.json.
 
-Regenerate after any course-map change: `python3 scripts/gen-course-graph-lean.py`
-then `cd lean && lake build`. Do not edit CourseGraph.lean by hand.
+Regenerate after any course-map change:
+  python3 scripts/gen-course-graph-lean.py
+then `cd lean && lake build CourseGraph`. Do not edit CourseGraph.lean by
+hand: it is generated output, including the proof tail appended verbatim
+from lean/proof-tail.lean.
 """
 import json
 from pathlib import Path
@@ -21,10 +24,10 @@ out_lines = [
     "course-map change. Do not edit by hand.",
     "-/",
     "",
-    "",
-    "/- The dependency lists of the Core Course, indexed by dependency order.",
-    "Each chapter is a natural number; `deps c` lists the chapters `c` directly",
-    "depends on, every one of them strictly earlier in the course order. -/",
+    "/- The dependency lists of the frozen course structure, indexed by",
+    "dependency order. Each chapter is a natural number; `deps c` lists the",
+    "chapters `c` directly depends on, every one of them strictly earlier in",
+    "the course order. -/",
     "",
     "def deps : Nat → List Nat := fun c =>",
     "  match c with",
@@ -37,22 +40,46 @@ for i, c in enumerate(chapters):
 
 out_lines.append("  | _ => []")
 out_lines.append("")
-out_lines.append("/- Per-chapter certificates: for every chapter, every dependency is strictly")
-out_lines.append("earlier in the course order. Each is proved by exhaustive evaluation of the")
-out_lines.append("generated data; a forward dependency anywhere fails to compile. -/")
+
+# The concrete edge list, as (chapter, dependency) pairs in file order.
+pairs = []
+for c in chapters:
+    ci = rank[c["id"]]
+    for d in sorted(rank[d] for d in c.get("deps", [])):
+        pairs.append(f"({ci}, {d})")
+
+out_lines.append("/- The concrete edge list of the frozen course graph, as (chapter,")
+out_lines.append("dependency) pairs in file order. -/")
+out_lines.append("def edgeList : List (Nat × Nat) :=")
+if pairs:
+    out_lines.append("  [" + ", ".join(pairs) + "]")
+else:
+    out_lines.append("  []")
+out_lines.append("")
+out_lines.append(f"def edgeCount : Nat := {len(pairs)}")
+out_lines.append("")
+
+# Per-chapter descent certificates: every dependency is strictly earlier.
+# Exhaustive evaluation; a forward dependency anywhere fails to compile.
 for i, c in enumerate(chapters):
     out_lines.append(f"theorem deps_lt_{c['id']} : ∀ d ∈ deps {i}, d < {i} := by")
     out_lines.append("  intro d h")
     out_lines.append("  simp [deps] at h <;> omega")
     out_lines.append("")
-conj = " ∧ ".join(f"deps_lt_{c['id']}" for c in chapters)
-out_lines.append(f"/- The composite certificate: every edge of the course graph descends the")
-out_lines.append("course order. -/")
+
 stmt = " ∧ ".join(f"(∀ d ∈ deps {rank[c['id']]}, d < {rank[c['id']]})" for c in chapters)
+out_lines.append("/- The composite certificate: every edge of the course graph descends the")
+out_lines.append("course order. -/")
 out_lines.append(f"theorem graph_ok : {stmt} :=")
 out_lines.append("  ⟨" + ", ".join(f"deps_lt_{c['id']}" for c in chapters) + "⟩")
+
+# The proof tail (structural theorems) is appended verbatim after the data.
+tail = ROOT / "lean" / "proof-tail.lean"
+if tail.exists():
+    out_lines.append("")
+    out_lines.append(tail.read_text(encoding="utf-8").rstrip() + "\n")
 
 out = ROOT / "lean" / "CourseGraph.lean"
 out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text("\n".join(out_lines) + "\n", encoding="utf-8")
-print(f"lean/CourseGraph.lean generated: {n} chapters")
+print(f"lean/CourseGraph.lean generated: {n} chapters, {len(pairs)} edges, proof tail appended")

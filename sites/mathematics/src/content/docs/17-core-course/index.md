@@ -139,7 +139,8 @@ logic to the research frontier, with
 20 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
-chapter descends the course order.
+chapter descends the course order and that the dependency graph is
+acyclic: no chapter can reach itself through any chain of prerequisites.
 
 <div class="table-wrap">
 
