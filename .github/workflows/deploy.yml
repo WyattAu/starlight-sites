@@ -259,12 +259,13 @@ jobs:
           if ! elan toolchain list 2>/dev/null | grep -q v4.29.0; then
             ok=0
             for i in 1 2 3 4 5; do
-              if elan toolchain install; then ok=1; break; fi
+              if elan toolchain install "$(cat lean-toolchain)"; then ok=1; break; fi
               echo "toolchain download attempt $i failed; retrying"
               sleep 20
             done
             [ "$ok" = 1 ] || { echo "toolchain install failed after 5 attempts"; exit 1; }
           fi
+          elan toolchain list
           lake --version
 
       - name: Build the course-graph proof artifact
