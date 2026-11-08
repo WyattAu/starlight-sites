@@ -17,3 +17,7 @@ playwright-report/
 
 crawlkit-results-*/
 __pycache__/
+
+# Lean build artifacts (lake)
+lean/.lake/
+lean/lake-manifest.json

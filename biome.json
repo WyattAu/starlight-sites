@@ -17,6 +17,9 @@
       "!**/playwright-report",
       "!**/test-results",
       "!**/.wrangler",
+      "!**/.lake",
+      "!**/lake-manifest.json",
+      "!docs/course-graph.json",
       "!scripts/archive"
     ]
   },

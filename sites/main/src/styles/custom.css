@@ -994,10 +994,10 @@ footer {
   }
 }
 
-/* Hide floating reader settings on landing page */
-body.page-landing #wn-reader {
-  display: none;
-}
+/* The floating reader settings button stays visible here too. `page-landing`
+   is the class every page in this site carries, so hiding the button for it
+   removed the bottom-right theme selector from the whole landing site. The
+   header's theme cycler is a shortcut, not a replacement for the full panel. */
 
 /* === Focus Styles === */
 :focus-visible {

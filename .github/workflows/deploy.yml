@@ -220,6 +220,22 @@ jobs:
   # parses and validates all content collections (frontmatter, schemas)
   # without running the Vite build -- it catches InvalidContentEntryDataError
   # class regressions in ~2 minutes instead of after a full canary+rollout.
+  lean-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install elan (toolchain pinned by lean/lean-toolchain)
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh \
+            | sh -s -- -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+
+      - name: Build the course-graph proof artifact
+        working-directory: lean
+        run: lake build
+
   content-sync:
     needs: resolve-sites
     runs-on: ubuntu-latest
@@ -255,7 +271,7 @@ jobs:
   # Wave 1 -- canary (2 sites, distinct structural variants). If this fails,
   # the rollout never starts and the blast radius is 2 sites, not 45.
   deploy-canary:
-    needs: [gate, content-sync, resolve-sites]
+    needs: [gate, content-sync, lean-proof, resolve-sites]
     runs-on: ubuntu-latest
     timeout-minutes: 60
     strategy:
