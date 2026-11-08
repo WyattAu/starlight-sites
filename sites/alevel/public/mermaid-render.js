@@ -1,9 +1,26 @@
 ;(() => {
+  // The library is vendored same-origin (public/vendor/mermaid.min.js, mermaid
+  // 11.17.2) and loaded LAZILY: pages without a mermaid block never download
+  // its 3.5 MB. The CDN script tag in Head.astro is gone; jsdelivr's outage
+  // used to leave every diagram as raw code.
+  const LIB = '/vendor/mermaid.min.js'
   let initialized = false
   let pollTimer = null
 
   const hasMermaid = () =>
-    document.querySelectorAll('pre.mermaid, pre[data-language="mermaid"]').length > 0
+    document.querySelectorAll(
+      'pre.mermaid, pre[data-language="mermaid"], code.language-mermaid, div.mermaid',
+    ).length > 0
+
+  const libraryInjected = () => document.querySelector(`script[src="${LIB}"]`)
+
+  const loadLibrary = () => {
+    if (libraryInjected()) return
+    const script = document.createElement('script')
+    script.src = LIB
+    script.defer = true
+    document.head.appendChild(script)
+  }
 
   const getTheme = () => {
     const t = document.documentElement.getAttribute('data-theme')
@@ -74,7 +91,8 @@
 
   const initMermaid = () => {
     if (tryInit()) return
-    // Poll for mermaid.min.js
+    // Request the vendored library, then poll until it has executed.
+    loadLibrary()
     pollTimer = setInterval(() => {
       if (tryInit()) {
         clearInterval(pollTimer)
@@ -100,6 +118,7 @@
   // Also listen for load event (fires after ALL resources including mermaid.min.js)
   window.addEventListener('load', () => {
     if (!initialized && hasMermaid()) {
+      loadLibrary()
       if (typeof window.mermaid !== 'undefined') {
         window.mermaid.initialize({ startOnLoad: false, theme: getTheme(), securityLevel: 'loose' })
         initialized = true

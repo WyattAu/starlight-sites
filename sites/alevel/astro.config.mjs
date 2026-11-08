@@ -104,7 +104,6 @@ export default defineConfig({
             crossorigin: true,
           },
         },
-        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },
         {
           tag: 'link',
           attrs: {

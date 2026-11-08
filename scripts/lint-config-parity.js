@@ -35,10 +35,6 @@ const REQUIRED_HEAD = [
   { needle: "name: 'theme-color'", label: 'theme-color meta' },
   { needle: '/fonts/Inter-latin.woff2', label: 'Inter font preload' },
   { needle: '/fonts/JetBrainsMono-latin.woff2', label: 'JetBrainsMono font preload' },
-  {
-    needle: "rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net'",
-    label: 'jsDelivr dns-prefetch',
-  },
   { needle: 'katex.min.css', label: 'KaTeX stylesheet' },
   { needle: 'application/ld+json', label: 'JSON-LD structured data' },
 ]

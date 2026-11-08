@@ -55,29 +55,32 @@ recognised as habit, and the mathematics underneath is built regardless.
    named, counted in the chapter's Scope, and pointed at the chapter that
    removes them. The declared-input budget per chapter is at most three, and
    the long-term goal is zero: every declared input is eventually discharged
-   by a foundations chapter.
+   by a foundations chapter. A permanent assumption is not a debt: classical
+   logic and Zermelo's axiom of choice are recorded as *axioms*, separately
+   from the debt ledger, so that no chapter can quietly depend on one.
 3. **No school mathematics.** Facts that school treats as obvious are built:
    addition and its commutativity are theorems, fractions are equivalence
    classes, $\sqrt{2}$ exists because the real line is constructed and the
    proof is given. The word "obvious" is banned: if a step is short, the
    proof does the step and names the earlier result that supplies it.
- The chapter sequence follows mathematical
-   dependency, not the school curriculum. School order is treated as a
-   historical accident to be improved upon: the only ordering principle is
-   that nothing appears before everything it depends on.
 4. **No assumed order.** The chapter sequence follows mathematical
    dependency, not the school curriculum. School order is treated as a
    historical accident to be improved upon: the only ordering principle is
    that nothing appears before everything it depends on.
-4. **The dependency discipline.** Chapters form one linear sequence. A chapter
-   may use only: the baseline, declared inputs, and content of earlier
-   chapters. Forward references are prohibited — including in quick checks,
-   problems, motivating remarks, and the examples table. Motivating examples
-   that name future content must carry the forward-honesty marker (see 3.4).
-5. **The dependency ledger.** The course map in the hub is the ledger: every
-   chapter lists its declared inputs and the chapters it feeds. Adding a
-   chapter requires updating the map. Reordering requires re-auditing every
-   later chapter's dependencies.
+5. **The dependency discipline.** Chapters form one linear sequence. A chapter
+   may use only: the baseline, declared inputs, content of earlier
+   chapters, and the axioms. Forward references are prohibited — including in
+   quick checks, problems, motivating remarks, and the examples table.
+   Motivating examples that name future content must carry the
+   forward-honesty marker (see 3.4).
+6. **The dependency ledger.** The course map is generated from
+   `docs/course-graph.json`, the machine-checked source of truth: every
+   chapter lists its dependencies, its declared inputs and their discharging
+   chapter, and any axiom it assumes. Adding a chapter requires editing the
+   graph and regenerating the map; reordering requires re-auditing every later
+   chapter's dependencies. `scripts/check-course-graph.py` fails the push on a
+   cycle, a forward dependency, an unpaid debt, an unknown axiom, or a map that
+   disagrees with the graph.
 
 **The stage architecture.** The course is organised by dependency stages,
 not by school order and not by book boundaries. Each stage contains only
@@ -94,11 +97,17 @@ chapters whose dependencies are fully discharged by earlier stages:
 - **Stage C: Expanding the line.** The failure of subtraction in the
   counting numbers; $\mathbb{Z}$ built as difference classes (Stage A's
   equivalence relations pay off); $\mathbb{Q}$ built as fraction classes;
-  density; the first crisis: $x^2 = 2$ has no rational solution.
+  density; the first crisis: $x^2 = 2$ has no rational solution; and the
+  arithmetic of $\mathbb{Z}$ made honest: primes and the fundamental theorem
+  of arithmetic, proved from division with remainder.
 - **Stage D: The continuum.** Dedekind cuts (only order and $\mathbb{Q}$
   needed); $\mathbb{R}$ constructed; completeness proved; decimals, roots;
   cardinality: countable versus uncountable (Cantor's diagonal, over the
-  real line).
+  real line). Then the infinity the later stages actually consume: Zermelo's
+  axiom of choice is *adopted here*, recorded as an axiom rather than a debt,
+  and Zorn's lemma and the well-ordering principle are proved equivalent to
+  it. The basis theorem, the maximal ideal theorem, and Tychonoff's theorem
+  all spend this assumption, and the map shows where.
 - **Stage E: Completing algebra.** Polynomials as formal objects; the failure
   of $x^2 + 1$ over $\mathbb{R}$; $\mathbb{C}$ built as pairs with a
   multiplication rule; the fundamental theorem of algebra *declared here*
@@ -113,8 +122,11 @@ chapters whose dependencies are fully discharged by earlier stages:
 - **Stage G: Euclidean analysis.** Convergence in $\mathbb{R}^n$,
   continuity in several variables, the multivariable derivative, the chain
   rule and Clairaut, the inverse function theorem, the elementary functions
-  built from power series. This stage *discharges the multivariable debts*
-  that the manifold chapters would otherwise have to declare.
+  built from power series, integration on the real line with the fundamental
+  theorem of calculus, and the contraction mapping principle with existence
+  and uniqueness for ordinary differential equations. This stage *discharges
+  the multivariable and integration debts* that the manifold chapters would
+  otherwise have to declare, including the one-variable FTC.
 - **Stage H: The canvas.** Metric and topological spaces, continuity,
   connectedness, compactness, the quotient topology, convergence and
   completeness, separation and metrisation.
@@ -125,7 +137,8 @@ chapters whose dependencies are fully discharged by earlier stages:
   chapter consumes.
 - **Stage J: Calculus as linearisation.** Smooth manifolds, tangent spaces,
   differential forms, partitions of unity, integration and Stokes,
-  submanifolds, Lie groups.
+  submanifolds, Lie groups, and the first look at curvature: connections,
+  the curvature tensor, geodesics.
 - **Stage K: Complex analysis.** Holomorphy, Cauchy and residues, and the
   proof of the fundamental theorem of algebra — the ledger closes.
 - **Stage L: Algebra and symmetry.** Groups, rings and modules, Galois
@@ -133,9 +146,11 @@ chapters whose dependencies are fully discharged by earlier stages:
 
 The stages are the dependency order: no chapter may reach into a later
 stage, and within a stage the same rule holds. The written chapters of the
-first release sit in Stages F through H; Stages A through E are the
+first release sit in Stages F through J; Stages A through E are the
 foundations build, constructed ahead of everything else under the
-zero-knowledge contract.
+zero-knowledge contract. Dependencies that run upstream are legal and
+visible: a stage-J chapter may declare an input that a stage-G chapter pays,
+and the ledger checks the payee rather than the direction of travel.
 
 ---
 
@@ -416,6 +431,17 @@ After merge:
 
 ## 9. Changelog
 
+- **v2.3**: the map is 61 chapters. Three real gaps closed: the
+  fundamental theorem of calculus was misattributed to the chain-rule chapter
+  and now belongs to a Stage-G integration chapter; the axiom of choice had no
+  home although the basis theorem, maximal ideals, and Tychonoff all need it,
+  so it is now adopted explicitly at D5 with Zorn and well-ordering proved
+  equivalent; and the arithmetic of the integers (primes, unique
+  factorisation) now exists before the rings chapter that uses it. Axioms are
+  modelled separately from debts: an axiom is never discharged, and the
+  checker fails an unknown or unused axiom. The hub map is generated from the
+  graph by `scripts/gen-course-map.py`, and CI builds the Lean artifact before
+  any site deploys.
 - **v2.1**: the stage architecture becomes the validated 12-stage
   dependency order (Euclidean analysis inserted as Stage G; measure moved
   before manifolds, discharging the Fubini debt in the correct order); the

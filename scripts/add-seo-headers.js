@@ -32,7 +32,6 @@ const SITE_DESCRIPTIONS = {
 const _PERFORMANCE_HEADERS = [
   // DNS prefetch for external resources
   { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' } },
-  { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },
 ]
 
 Object.entries(SITE_DESCRIPTIONS).forEach(([site, description]) => {
@@ -57,7 +56,7 @@ Object.entries(SITE_DESCRIPTIONS).forEach(([site, description]) => {
   if (!content.includes('dns-prefetch')) {
     content = content.replace(
       /head:\s*\[/,
-      `head: [\n        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' } },\n        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' } },`,
+      `head: [\n        { tag: 'link', attrs: { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' } },`,
     )
   }
 

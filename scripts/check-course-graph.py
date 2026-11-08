@@ -118,7 +118,27 @@ for (name, by) in sorted(all_discharged):
     if by not in id_set:
         fail(f"discharger {by} of '{name}' does not exist")
 
-# 5. Hub agreement
+# 5. Axioms: the permanent assumptions, distinct from debts.
+axioms = graph.get("axioms", [])
+axiom_ids = [a.get("id") for a in axioms]
+if len(set(axiom_ids)) != len(axiom_ids):
+    fail("duplicate axiom ids")
+for a in axioms:
+    if not a.get("id") or not a.get("statement"):
+        fail(f"malformed axiom {a}")
+assumed = {}
+for c in chapters:
+    for aid in c.get("axioms", []):
+        if aid not in axiom_ids:
+            fail(f"{c['id']} assumes unknown axiom '{aid}'")
+        assumed.setdefault(aid, []).append(c["id"])
+for aid in axiom_ids:
+    if aid not in assumed:
+        fail(f"axiom '{aid}' is declared but no chapter assumes it")
+    if aid in all_declared:
+        fail(f"axiom '{aid}' is also declared as a debt; axioms are never discharged")
+
+# 6. Hub agreement
 hub = HUB.read_text(encoding="utf-8")
 m = re.search(r"<!-- COURSE-MAP:START -->(.*?)<!-- COURSE-MAP:END -->", hub, re.S)
 if not m:
@@ -136,7 +156,7 @@ else:
             htitle, hstatus = hub_map[c["id"]]
             if hstatus != c["status"]:
                 fail(f"hub status drift for {c['id']}: hub '{hstatus}' vs graph '{c['status']}'")
-            htitle_clean = re.sub(r"\s*\(debt:.*?\)\s*$", "", htitle)
+            htitle_clean = re.sub(r"\s*\(.*?\)\s*$", "", htitle)
             if htitle_clean != c["title"]:
                 fail(f"hub title drift for {c['id']}: hub '{htitle_clean}' vs graph '{c['title']}'")
     for cid in hub_map:
@@ -151,5 +171,6 @@ if problems:
 print(
     f"course graph OK: {len(chapters)} chapters, {len(stages)} stages, "
     f"{sum(len(c.get('deps', [])) for c in chapters)} edges, acyclic, "
-    f"{len(all_declared)} ledger inputs all discharged, hub in agreement"
+    f"{len(all_declared)} ledger inputs all discharged, "
+    f"{len(axiom_ids)} axioms declared and assumed, hub in agreement"
 )

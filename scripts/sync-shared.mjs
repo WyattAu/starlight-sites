@@ -69,6 +69,16 @@ const PUBLIC_FILES = [
   ['shared/public/img/hero/library.webp', 'public/img/hero/library.webp'],
   ['shared/public/img/hero/library.jpg', 'public/img/hero/library.jpg'],
   ['shared/public/js/scroll-reveal.js', 'public/js/scroll-reveal.js'],
+  // Vendored third-party libraries, same-origin. mermaid.min.js is mermaid
+  // 11.17.2 (UMD, exposes window.mermaid), loaded lazily by
+  // mermaid-render.js only on pages with a diagram. web-vitals.iife.js is
+  // web-vitals 4.2.4 (IIFE, exposes window.webVitals). To upgrade either,
+  // replace the canonical file here and run this script; identical blobs are
+  // stored once by git, so the per-site copies cost nothing in the pack.
+  ['shared/public/vendor/mermaid.min.js', 'public/vendor/mermaid.min.js'],
+  ['shared/public/vendor/web-vitals.iife.js', 'public/vendor/web-vitals.iife.js'],
+  ['shared/public/mermaid-render.js', 'public/mermaid-render.js'],
+  ['shared/public/web-vitals.js', 'public/web-vitals.js'],
 ]
 
 const args = new Set(process.argv.slice(2))

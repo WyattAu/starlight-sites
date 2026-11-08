@@ -14,12 +14,12 @@
     {
       "id": "C",
       "title": "Expanding the line",
-      "blurb": "Z, Q, and the first crisis."
+      "blurb": "Z, Q, primes, and the first crisis."
     },
     {
       "id": "D",
       "title": "The continuum",
-      "blurb": "R constructed; completeness proved; cardinality."
+      "blurb": "R constructed; completeness; cardinality; choice."
     },
     {
       "id": "E",
@@ -34,7 +34,7 @@
     {
       "id": "G",
       "title": "Euclidean analysis",
-      "blurb": "Convergence, continuity, the derivative, the chain rule, the IFT, the elementary functions. Discharges the multivariable debts of the manifold chapters."
+      "blurb": "Convergence, continuity, derivatives, integration, the elementary functions, ODEs. Discharges the multivariable debts."
     },
     {
       "id": "H",
@@ -49,7 +49,7 @@
     {
       "id": "J",
       "title": "Calculus as linearisation",
-      "blurb": "Manifolds, tangent spaces, forms, partitions of unity, integration and Stokes."
+      "blurb": "Manifolds, tangent spaces, forms, Stokes, curvature."
     },
     {
       "id": "K",
@@ -70,7 +70,10 @@
       "deps": [],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [],
+      "axioms": [
+        "classical-logic"
+      ]
     },
     {
       "id": "A2",
@@ -204,6 +207,18 @@
       "declaredInputs": []
     },
     {
+      "id": "C4",
+      "stage": "C",
+      "title": "Primes and the fundamental theorem of arithmetic",
+      "deps": [
+        "C2",
+        "B4"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
       "id": "D1",
       "stage": "D",
       "title": "Dedekind cuts: R constructed from order alone",
@@ -255,6 +270,24 @@
       "status": "queued",
       "file": null,
       "declaredInputs": []
+    },
+    {
+      "id": "D5",
+      "stage": "D",
+      "title": "Choice, Zorn's lemma, and well-ordering",
+      "deps": [
+        "D4",
+        "A3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": [],
+      "axioms": [
+        "axiom-of-choice"
+      ],
+      "discharges": [
+        "zorn-lemma"
+      ]
     },
     {
       "id": "E1",
@@ -325,7 +358,13 @@
       ],
       "status": "written",
       "file": "1b-linear-algebra.md",
-      "declaredInputs": []
+      "declaredInputs": [
+        {
+          "input": "zorn-lemma",
+          "dischargedBy": "D5",
+          "note": "Basis existence for spaces that are not finitely generated."
+        }
+      ]
     },
     {
       "id": "F3",
@@ -473,8 +512,7 @@
       "declaredInputs": [],
       "discharges": [
         "clairaut-mixed-partials",
-        "multivariable-chain-rule",
-        "fundamental-theorem-of-calculus"
+        "multivariable-chain-rule"
       ]
     },
     {
@@ -506,6 +544,33 @@
         "elementary-functions-continuity",
         "trigonometry-facts"
       ]
+    },
+    {
+      "id": "G7",
+      "stage": "G",
+      "title": "Integration on the real line and the fundamental theorem of calculus",
+      "deps": [
+        "G1",
+        "G2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": [],
+      "discharges": [
+        "fundamental-theorem-of-calculus"
+      ]
+    },
+    {
+      "id": "G8",
+      "stage": "G",
+      "title": "The contraction mapping principle and existence for ODEs",
+      "deps": [
+        "G2",
+        "D2"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
     },
     {
       "id": "H1",
@@ -543,7 +608,13 @@
       ],
       "status": "written",
       "file": "2a-topology.md",
-      "declaredInputs": []
+      "declaredInputs": [
+        {
+          "input": "zorn-lemma",
+          "dischargedBy": "D5",
+          "note": "Tychonoff's theorem for arbitrary products."
+        }
+      ]
     },
     {
       "id": "I1",
@@ -669,8 +740,8 @@
       "declaredInputs": [
         {
           "input": "fundamental-theorem-of-calculus",
-          "dischargedBy": "G4",
-          "note": "One-variable FTC, proved in G's development of the integral on R."
+          "dischargedBy": "G7",
+          "note": "One-variable FTC, proved in the integration chapter of Stage G."
         },
         {
           "input": "differentiation-under-the-integral",
@@ -761,6 +832,18 @@
       "declaredInputs": []
     },
     {
+      "id": "J8",
+      "stage": "J",
+      "title": "Connections, curvature, and geodesics",
+      "deps": [
+        "J2",
+        "J3"
+      ],
+      "status": "queued",
+      "file": null,
+      "declaredInputs": []
+    },
+    {
       "id": "K1",
       "stage": "K",
       "title": "Holomorphy: complex differentiability and its rigidity",
@@ -817,11 +900,18 @@
       "title": "Rings and modules",
       "deps": [
         "L1",
-        "F2"
+        "F2",
+        "C4"
       ],
       "status": "queued",
       "file": null,
-      "declaredInputs": []
+      "declaredInputs": [
+        {
+          "input": "zorn-lemma",
+          "dischargedBy": "D5",
+          "note": "Existence of maximal ideals and of maximal ideals in a quotient."
+        }
+      ]
     },
     {
       "id": "L3",
@@ -834,6 +924,18 @@
       "status": "queued",
       "file": null,
       "declaredInputs": []
+    }
+  ],
+  "axioms": [
+    {
+      "id": "classical-logic",
+      "statement": "Every proposition is either true or false, and a proof may use the law of the excluded middle.",
+      "note": "Adopted at A1. Constructive alternatives are not developed; a proof by contradiction is therefore always available."
+    },
+    {
+      "id": "axiom-of-choice",
+      "statement": "For every family of nonempty sets there is a function choosing one element from each set.",
+      "note": "Adopted at D5, where it is shown to be equivalent to Zorn's lemma and to the well-ordering principle."
     }
   ]
 }
