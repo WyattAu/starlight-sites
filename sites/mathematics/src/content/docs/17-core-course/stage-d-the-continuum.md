@@ -678,5 +678,6 @@ counting world: polynomials as formal objects whose roots may not exist
 in $\mathbb{R}$, the complex numbers built as pairs with a
 multiplication rule, and the fundamental theorem of algebra *declared*
 with Stage K named as its future payee. The debt ledger opens its
-longest entry, and the structural stages begin. The page
-`stage-e-completing-algebra.md` carries it.
+longest entry, and the structural stages begin.
+
+**Next: [Stage E: Completing Algebra](/17-core-course/stage-e-completing-algebra/).**

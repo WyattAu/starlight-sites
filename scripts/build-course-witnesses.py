@@ -21,6 +21,7 @@ OUT = ROOT / "lean" / "Witnesses.lean"
 PAGES = [
     "stage-b-counting.md",
     "stage-c-expanding-the-line.md",
+    "stage-e-completing-algebra.md",
 ]
 
 HEADER = """/-!

@@ -136,7 +136,7 @@ number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
 The full course is 89 chapters across 15 dependency stages, from
 logic to the research frontier, with
-36 written. The graph is machine-checked: `docs/course-graph.json` is
+39 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order and that the dependency graph is
@@ -172,9 +172,9 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | D5 | Ordinals and transfinite induction (assumes: axiom-of-choice) | written |
 | D6 | Choice, Zorn's lemma, and well-ordering | written |
 | **Stage E: Completing algebra** | *Polynomials, C, and the FTA debt.* | |
-| E1 | Polynomials as formal objects | queued |
-| E2 | C built as pairs with a multiplication rule | queued |
-| E3 | The fundamental theorem of algebra: statement, consequences, and the debt (debt: fundamental-theorem-of-algebra → K3) | queued |
+| E1 | Polynomials as formal objects | written |
+| E2 | C built as pairs with a multiplication rule | written |
+| E3 | The fundamental theorem of algebra: statement, consequences, and the debt (debt: fundamental-theorem-of-algebra → K3) | written |
 | **Stage F: Structure and linear algebra** | *Categories and linear algebra over R and C.* | |
 | F1 | Categories: objects, morphisms, universal properties, adjunctions | written |
 | F2 | Vector spaces, linear maps, dimension (debt: zorn-lemma → D6) | written |
@@ -346,6 +346,7 @@ is a documented reality.
 | [Stage B: Counting](/17-core-course/stage-b-counting/) | B | Peano, induction and its dissection, addition and multiplication as theorems, division with remainder, the Archimedean property, pigeonhole and the binomial law |
 | [Stage C: Expanding the Line](/17-core-course/stage-c-expanding-the-line/) | C | The integers from difference classes, the rationals, the first crisis, Euclid and Bezout, congruence classes and Fermat |
 | [Stage D: The continuum](/17-core-course/stage-d-the-continuum/) | D | Dedekind cuts, arithmetic and completeness, decimals, cardinality and Cantor, ordinals and transfinite induction, choice and Zorn |
+| [Stage E: Completing Algebra](/17-core-course/stage-e-completing-algebra/) | E | Polynomials as formal objects, ℂ as pairs with a forced rule, and the FTA declared with Stage K as payee |
 | [Categories: The Language of Mathematics](/17-core-course/1a-categories/) | 1A | Objects, morphisms, universal properties, functors, natural transformations |
 | [Linear Algebra Done Wrong](/17-core-course/1b-linear-algebra/) | 1B | Coordinate-free vector spaces, dual spaces, quotient spaces, exterior algebra, determinants as alternating forms |
 | [Level 2: Topology](/17-core-course/2a-topology/) | 2 | Metric and abstract topologies, continuity, subspaces and products, Hausdorff, connectedness (intermediate value theorem), compactness (extreme value theorem) |

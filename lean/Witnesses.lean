@@ -33,3 +33,15 @@ theorem mod_lt_w (a b : Nat) (h : b ≠ 0) : a % b < b :=
 theorem add_wd (a b c d a' b' c' d' : Nat)
     (h1 : a + b' = a' + b) (h2 : c + d' = c' + d) :
     a + c + (b' + d') = a' + c' + (b + d) := by omega
+
+/-! From `stage-e-completing-algebra.md` -/
+
+def evalPoly (coef : List Nat) (x : Nat) : Nat :=
+  match coef with
+  | [] => 0
+  | a :: rest => a + x * evalPoly rest x
+
+theorem eval_nil_w (x : Nat) : evalPoly [] x = 0 := rfl
+
+theorem eval_cons_w (a : Nat) (coef : List Nat) (x : Nat) :
+    evalPoly (a :: coef) x = a + x * evalPoly coef x := rfl

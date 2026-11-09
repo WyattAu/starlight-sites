@@ -1683,3 +1683,14 @@ details.wn-spoiler > .wn-spoiler-body {
     display: block;
   }
 }
+
+/* === KaTeX copy fix ===
+   KaTeX renders every expression twice in the DOM: the visual HTML span
+   and a hidden MathML copy. Copy/paste grabs both, so proofreaders get
+   every formula doubled. display:none removes the MathML copy from
+   selection; the visual span remains, and its text stays available to
+   assistive tech (noisier than MathML, but single). */
+.katex .katex-mathml {
+  display: none;
+}
+

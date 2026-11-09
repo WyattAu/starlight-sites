@@ -367,10 +367,10 @@
         "D2",
         "B3"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-e-completing-algebra.md",
       "declaredInputs": [],
-      "note": "Polynomial division, the remainder theorem, and the factor theorem; roots and multiplicity. The division algorithm is Euclid's again, in a new ring."
+      "note": "Polynomials as coefficient sequences: identity is syntactic (refuted over Z/2), Horner evaluation is the formal witness (evalPoly, compiling in CI)."
     },
     {
       "id": "E2",
@@ -380,7 +380,7 @@
         "E1",
         "D2"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-e-completing-algebra.md",
       "declaredInputs": []
     },
@@ -392,7 +392,7 @@
         "E1",
         "E2"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-e-completing-algebra.md",
       "declaredInputs": [
         {
