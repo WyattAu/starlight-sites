@@ -22456,8 +22456,8 @@ every line except the one that matters.</span>
 
 **Scope.** Nothing. The floor of this course is literacy and pattern
 recognition, and this page consumes exactly that. One axiom is adopted, not
-proved, and it is stated in full in Section 1. Two remarks look forward
-(both carry the forward-honesty marker, and neither is used by any proof
+proved, and it is stated in full in Section 1. Three remarks look forward
+(each carries the forward-honesty marker, and none is used by any proof
 here).
 
 ## 1. Propositions, Quantifiers, and What a Proof Is
@@ -22474,9 +22474,9 @@ defined by its truth table, which is nothing more than the rule for
 computing the combination's truth from the inputs' truths.
 
 **Ponder.** Before reading on: is the sentence "if Wednesday follows
-Tuesday, then every even number is divisible by two" true or false? Both
-parts are true; what should the rule say? And is "if Wednesday follows
-Tuesday, then every even number is odd" true or false? One part is false.
+Tuesday, then the sun rises in the east" true or false? Both parts are
+true; what should the rule say? And is "if Wednesday follows Tuesday, then
+the sun rises in the west" true or false? One part is false.
 
 <details class="wn-spoiler">
 <summary>Compare your answer</summary>
@@ -22492,11 +22492,12 @@ implication with a *false* hypothesis?
 
 **Definition.** An implication $P \to Q$ with a false hypothesis $P$ is
 **true**, regardless of $Q$. Nothing is being claimed about $Q$'s truth; the
-impression claims only what happens *if* $P$ holds, and it does not hold.
+sentence claims only what happens *if* $P$ holds, and it does not hold.
 
-This convention is not decoration. It is what makes "every even number is
-divisible by two" true *and* "every even number is divisible by four" false
-without contradiction later, when the objects exist. **Axiom (classical
+This convention is not decoration. It is what makes an empty claim true
+without contradiction: a conditional whose hypothesis never holds asserts
+nothing, and imposes nothing. Section 2 leans on this exactly once, when
+it declares the empty set a subset of every set. **Axiom (classical
 logic).** This course adopts, without proof: every proposition is exactly
 one of true or false, and a derivation of a contradiction from $\neg P$
 licenses a proof of $P$. This axiom is recorded in the course map; it is
@@ -22547,7 +22548,7 @@ equivalent to $\neg Q \to \neg P$. *Proof.* Truth table over the four
 assignments of $P$ and $Q$. For each row, compute both sentences. True
 implies true: $P \to Q$ true, $\neg Q \to \neg P$ true (false implies
 false is true). True implies false: $P \to Q$ false, $\neg Q \to \neg P$
-false (true implies true is false). False implies true: both true (false
+false (a true hypothesis over a false conclusion). False implies true: both true (false
 hypotheses). False implies false: both true. The columns agree on all four
 rows, so the sentences are equivalent. $\blacksquare$
 
@@ -22642,9 +22643,10 @@ $\mathcal{P}(S)$ is the set of all subsets of $S$. Both are sets, built by
 bounded comprehension, so both are honest.
 
 **Example.** For $S = \{a, b\}$: $\mathcal{P}(S) = \{\varnothing, \{a\},
-\{b\}, \{a, b\}\}$, four subsets. Subsets of $S$ correspond exactly to
-propositions about elements of $S$ (each $x$ is in or out), which is why
-the power set will matter when propositions are counted, much later.
+\{b\}, \{a, b\}\}$. Subsets of $S$ correspond exactly to propositions about
+elements of $S$ (each $x$ is in or out), which is why the power set is the
+central object of Stage D's cardinality chapter. (Forward-honesty marker:
+nothing here depends on it.)
 $\blacksquare$
 
 **Quick check.**
@@ -22654,7 +22656,7 @@ $\blacksquare$
 3. True or false: $\varnothing \in \{\varnothing\}$, and
    $\varnothing \subseteq \{\varnothing\}$?
 4. What theorem justifies the Kuratowski recipe for pairs?
-5. How many subsets does a three-element set have? Enumerate them.
+5. List every subset of $\{a, b, c\}$.
 
 *Answers:* **1.** Sets are equal exactly when they have the same elements.
 **2.** Bounded comprehension collects from a given set, so the collection
@@ -22662,10 +22664,19 @@ cannot be the paradox-bearing "set of all sets"; unbounded comprehension
 produces Russell's $R$. **3.** True and true: the one element of the right
 set is $\varnothing$ itself, and the empty set is a subset of every set.
 **4.** $(a, b) = (c, d)$ if and only if $a = c$ and $b = d$ (Problem 2).
-**5.** Eight: all $2^3$ in/out patterns, enumerated as
-$\{\varnothing\}, \ldots$ up to the whole set.
+**5.** $\varnothing$; the singletons $\{a\}$, $\{b\}$, $\{c\}$; the
+pairs $\{a, b\}$, $\{a, c\}$, $\{b, c\}$; and $\{a, b, c\}$: one subset
+for each way of deciding, for every element separately, whether it is in
+or out.
 
 ## 3. Relations: Order and Equivalence
+
+**The naive conjecture.** Whatever "order" means, it should put everything
+in a line: every pair comparable, always. The subset relation refutes this
+immediately, as Section 2's own example shows: the singletons $\{a\}$ and
+$\{b\}$ neither contain each other. The repair is not a workaround but a
+definition: order-ness is three laws, and comparability is an extra that
+must be earned, never assumed.
 
 **Definition.** A **relation** on a set $S$ is a subset $R \subseteq S
 \times S$. Write $x \,R\, y$ when $(x, y) \in R$. A relation is nothing
@@ -22682,7 +22693,7 @@ $y \preceq x$ always.
 **Example.** Subset inclusion is a partial order on $\mathcal{P}(S)$:
 reflexive by definition, antisymmetric by extensionality, transitive by a
 one-line element chase (Problem 1 asks for it). It is *not* total whenever
-$S$ has two elements: $\{a\}$ and $\{b\}$ are incomparable. Partial orders
+$S$ contains distinct $a$ and $b$: $\{a\}$ and $\{b\}$ are incomparable. Partial orders
 are the honest default; totality is a bonus that must be proved, never
 assumed. $\blacksquare$
 
@@ -22691,9 +22702,8 @@ relation** when it is reflexive, symmetric ($x \sim y$ forces
 $y \sim x$), and transitive.
 
 **Example.** On the people in a room, declare $x \sim y$ when $x$ and $y$
-have the same parity of age in years (both even or both odd). Reflexive:
-everyone shares their own parity. Symmetric and transitive: "same as the
-same" chains. $\blacksquare$
+were born in the same month. Reflexive: everyone shares their own month.
+Symmetric and transitive: "same as the same" chains. $\blacksquare$
 
 **Definition.** For an equivalence relation $\sim$ on $S$ and $x \in S$,
 the **equivalence class** of $x$ is $[x] := \{y \in S : y \sim x\}$. The
@@ -22727,16 +22737,17 @@ beyond this page.)
 
 1. Name the three properties of a partial order and the extra property of
    a total order.
-2. Why is subset inclusion on $\mathcal{P}(S)$ not a total order (for
-   $|S| \geq 2$)?
-3. What are the equivalence classes of the parity relation on a room of
-   people?
+2. Why is subset inclusion on $\mathcal{P}(S)$ not a total order when $S$
+   contains distinct $a$ and $b$?
+3. What are the equivalence classes of the same-birth-month relation on a
+   room of people?
 4. Where can two equivalence classes overlap, and what follows?
 5. State the partition correspondence in one sentence.
 
 *Answers:* **1.** Reflexive, antisymmetric, transitive; plus comparability
-of every pair. **2.** Two singletons $\{a\}$, $\{b\}$ with $a \neq b$ are
-incomparable. **3.** Two classes: even-aged and odd-aged. **4.** Only by
+of every pair. **2.** The singletons $\{a\}$ and $\{b\}$, for distinct $a$ and $b$, are
+incomparable. **3.** One class per birth month: the people born in January,
+the people born in February, and so on. **4.** Only by
 being equal; a shared element forces $x \sim y$ and then equality of the
 classes. **5.** Equivalence relations on $S$ and disjoint-coverings of
 $S$ are two descriptions of one idea, each recovered from the other.
@@ -22763,6 +22774,26 @@ depends on it.)
 associative: $(h \circ g) \circ f = h \circ (g \circ f)$, because both
 sides send $x$ to $h(g(f(x)))$ and extensionality of relations (here, of
 sets of pairs) makes equal behaviour equal.
+
+**Ponder.** Before reading on: try to *undo* a function that forgets. Let
+the inputs be the people of a room and the outputs their birth-months:
+$f(x) :=$ the month of $x$. Attempt an inverse $g$: from "March", recover
+the person. What does $g$ have to demand of the room?
+
+<details class="wn-spoiler">
+<summary>The autopsy</summary>
+<div class="wn-spoiler-body">
+
+The attempt fails twice, and the failures are the definition. Several
+people share a month, so "March" cannot name a person: the function is
+not injective, and collisions are exactly what undoing cannot survive. No
+month is guaranteed occupied, so some outputs have no person to return
+to: the function is not surjective, and gaps are the other thing undoing
+cannot survive. Injective and surjective together, bijective, is
+precisely *undoable*. The theorem below says that "precisely" is exact.
+
+</div>
+</details>
 
 **Theorem.** $f: S \to T$ is bijective if and only if it has an inverse: a
 function $g: T \to S$ with $g(f(x)) = x$ for all $x \in S$ and
@@ -22846,8 +22877,9 @@ made. The rule being violated has a name: universal introduction requires
 a witness for the conclusion that does not depend on the variable being
 generalised over. Here the dependence is the whole story.
 
-**The concrete counterexample.** A world with two people, $a$ and $b$,
-each their own mother-stand-in is absurd, so use a cleaner relation:
+**The concrete counterexample.** A world whose people are $a$ and $b$,
+and no one else. Each their own mother-stand-in is absurd, so use a
+cleaner relation:
 $L(x, y)$, "$y$ loves $x$". Suppose $L(a, a)$ and $L(b, b)$ and no other
 loves hold. Then $\forall x\ \exists y,\ L(x, y)$ is true (each person is
 loved, by themselves: choose $y = x$), while $\exists y\ \forall x,\ L(x,
@@ -22919,7 +22951,7 @@ definition.
 **Quick check.**
 
 1. State the exact rule the false proof violated.
-2. Give the two-person counterexample in full.
+2. Give the $a$-and-$b$ counterexample in full.
 3. What licence does a proof by cases need beyond the cases themselves?
 4. Which of the four proof shapes rests on the classical-logic axiom?
 5. In one sentence: why can "since $x$ was arbitrary" not rescue the
@@ -22974,8 +23006,8 @@ and require full written arguments.
 1. Prove that subset inclusion on $\mathcal{P}(S)$ is a partial order:
    reflexivity, antisymmetry (use extensionality), transitivity (do the
    element chase: assume $A \subseteq B \subseteq C$, take $x \in A$, and
-   license every step). Then give a two-element $S$ and two subsets that
-   show the order is not total.
+   license every step). Then take $S = \{a, b\}$ and show the order is not
+   total by exhibiting two incomparable subsets.
    *(Hint: the transitivity chase is three lines, each licensed by a
    definition.)*
 2. Prove the pair law: $(a, b) = (c, d)$ if and only if $a = c$ and
@@ -22991,13 +23023,15 @@ and require full written arguments.
    side's inverse (uniqueness is Theorem, Section 4).
    *(Hint: the two laws are $x = f^{-1}(g^{-1}((g \circ f)(x)))$ and
    $z = (g \circ f)(f^{-1}(g^{-1}(z)))$; both unwind by the definitions.)*
-4. Prove: there is no injective function from a three-element set to a
-   two-element set. Do it by exhaustive cases: enumerate the value of
-   $f(x_1)$ (two cases), and in each, enumerate $f(x_2)$ (two cases
-   each), and conclude collisions. Count the cases you exhausted and
-   confirm they cover every function.
-   *(Hint: eight case paths, each ending in $f(x_i) = f(x_j)$ with
-   $i \neq j$.)*
+4. Prove: there is no injective function from $\{x, y, z\}$ to
+   $\{u, v\}$. Do it by exhaustive cases: enumerate the possible values
+   of $f(x)$, and for each of those, the possible values of $f(y)$, and
+   for each of those, the possible values of $f(z)$; conclude in every
+   branch that two of the three inputs collide. Confirm the branches
+   cover every function from $\{x, y, z\}$ to $\{u, v\}$.
+   *(Hint: every branch ends with $f(x) = f(y)$, $f(x) = f(z)$, or
+   $f(y) = f(z)$, since a branch is a complete choice of outputs and
+   only two outputs exist.)*
 5. In the diagonal proof, replace $\mathcal{P}(S)$ by the set of pairs
    $S \times S$ and attempt the same construction: given $f: S \to S
    \times S$, try $D := \{x \in S : (x, x) \notin f(x)\}$... where does
