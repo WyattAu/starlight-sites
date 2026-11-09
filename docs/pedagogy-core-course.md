@@ -38,8 +38,8 @@ reconstruction.
 written patterns, and is willing to struggle. That is the entire baseline.
 The course does not assume arithmetic: counting is constructed, addition and
 multiplication are defined and their laws are proved, and every number system
-beyond the counting numbers is built by explicit construction. Nothing — no
-symbol, no operation, no fact from school — is assumed. Where a school habit
+beyond the counting numbers is built by explicit construction. Nothing - no
+symbol, no operation, no fact from school - is assumed. Where a school habit
 helps the reader compute comfortably, the course says so, but the comfort is
 recognised as habit, and the mathematics underneath is built regardless.
 
@@ -69,7 +69,7 @@ recognised as habit, and the mathematics underneath is built regardless.
    that nothing appears before everything it depends on.
 5. **The dependency discipline.** Chapters form one linear sequence. A chapter
    may use only: the baseline, declared inputs, content of earlier
-   chapters, and the axioms. Forward references are prohibited — including in
+   chapters, and the axioms. Forward references are prohibited - including in
    quick checks, problems, motivating remarks, and the examples table.
    Motivating examples that name future content must carry the
    forward-honesty marker (see 3.4).
@@ -118,7 +118,7 @@ chapters whose dependencies are fully discharged by earlier stages:
 - **Stage E: Completing algebra.** Polynomials as formal objects; the failure
   of $x^2 + 1$ over $\mathbb{R}$; $\mathbb{C}$ built as pairs with a
   multiplication rule; the fundamental theorem of algebra *declared here*
-  and discharged much later, when complex analysis is built — the first
+  and discharged much later, when complex analysis is built - the first
   entry in the declared-input ledger, and the demonstration that the ledger
   is a promise the course keeps.
 - **Stage F: Structure and linear algebra.** Category theory as the language
@@ -153,11 +153,11 @@ chapters whose dependencies are fully discharged by earlier stages:
   submanifolds, Lie groups, and the first look at curvature: connections,
   the curvature tensor, geodesics.
 - **Stage K: Complex analysis.** Holomorphy, Cauchy and residues, and the
-  proof of the fundamental theorem of algebra — the ledger closes.
+  proof of the fundamental theorem of algebra - the ledger closes.
 - **Stage L: Algebra and symmetry.** Groups, rings and modules, Galois
   theory, Lie groups and their actions (moved here from the manifold stage:
   a Lie group is a group before it is a manifold), and the closing synthesis
-  — geometry: the fifth postulate, its collapse, and symmetry as geometry.
+  - geometry: the fifth postulate, its collapse, and symmetry as geometry.
   The course ends by re-seeing, not re-teaching.
 - **Stage M: The functional summit.** Banach spaces and the four pillars
   (Hahn-Banach, Banach-Steinhaus, open mapping, closed graph: Baire earning
@@ -166,7 +166,7 @@ chapters whose dependencies are fully discharged by earlier stages:
   and C*-algebras (Liouville paying a second debt); Sobolev spaces; elliptic
   theory: weak solutions becoming smooth, the Laplacian's spectrum as the
   infinite spectral theorem in action; then unbounded operators, the
-  spectral theorem in its general form, and Stone's theorem — the
+  spectral theorem in its general form, and Stone's theorem - the
   mathematical frame of quantum mechanics.
 - **Stage N: Topology and geometry at research level.** The fundamental
   group with covering spaces and Van Kampen; homological algebra (Ext, Tor,
@@ -178,7 +178,7 @@ chapters whose dependencies are fully discharged by earlier stages:
   stopping; Brownian motion built by Kolmogorov's extension and shown
   nowhere differentiable; the Ito calculus (quadratic variation as the
   obstruction); stochastic differential equations solved by Picard
-  iteration — G9 returning — and Feynman-Kac, where the course's two
+  iteration - G9 returning - and Feynman-Kac, where the course's two
   halves, analysis and probability, are revealed as one subject; then
   martingale representation, Girsanov, and the risk-neutral measure.
 
@@ -436,11 +436,11 @@ failure and is not optional):
 4. `node scripts/lint-site-nav-parity.js` (if catalogue surfaces were
    touched).
 5. `python3 scripts/check-course-graph.py` (the dependency graph: acyclic,
-   ordered, ledger discharged, hub in agreement — every edit to the course
+   ordered, ledger discharged, hub in agreement - every edit to the course
    map or any chapter's dependencies changes the graph).
 6. Backslash hygiene on new pages: no doubled LaTeX escapes.
 7. If `.github/workflows/` changed: `python3 -c "import yaml;
-   yaml.safe_load(open('.github/workflows/deploy.yml'))"` — the workflow
+   yaml.safe_load(open('.github/workflows/deploy.yml'))"` - the workflow
    parser on GitHub kills the entire run (all jobs, no logs) on YAML that a
    plain scalar with a stray colon produces. This check exists because that
    happened.
@@ -525,7 +525,7 @@ After merge:
 - **v2.6**: the per-topic completeness audit. Four coverage gaps closed
   with new chapters: counting arguments and the binomial theorem (B5, the
   finite ancestor of the series chapter), approximation and function-space
-  compactness (H4: Weierstrass, Stone-Weierstrass, Arzela-Ascoli — the
+  compactness (H4: Weierstrass, Stone-Weierstrass, Arzela-Ascoli - the
   density engine Fourier leans on), the general spectral theorem with
   Stone's theorem (M7: the mathematical frame of quantum mechanics), and
   martingale representation with Girsanov (O5: the risk-neutral calculus).
@@ -552,7 +552,7 @@ After merge:
   Stage L); the change-of-variables formula consumed the inverse function
   theorem without declaring it; the ODE chapter's linear systems consume
   eigen theory without declaring it; and the elementary functions were built
-  from power series with no chapter building series or uniform convergence —
+  from power series with no chapter building series or uniform convergence -
   a new Stage-G chapter, "Series and the exchange of limits", now carries
   that load and Stage G is renumbered (G2 series ... G9 ODEs). Coverage
   additions from the floor-to-frontier audit: congruence classes (C5),

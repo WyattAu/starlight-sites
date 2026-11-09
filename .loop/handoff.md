@@ -1,4 +1,4 @@
-# Handoff — 87-chapter research syllabus verified; Stage A written; reveal mechanism live (2026-11-08, later)
+# Handoff - 87-chapter research syllabus verified; Stage A written; reveal mechanism live (2026-11-08, later)
 
 ## Deployed state
 - run 42472946877 (d2e647c03) SUCCESS, lean-proof: success (first CI-proof of
@@ -36,16 +36,16 @@
 4. llms.txt freshness on every content push (rule 8).
 
 ## Lessons
-- Plain-scalar YAML values cannot contain ': ' (verified: lean ...) — the
+- Plain-scalar YAML values cannot contain ': ' (verified: lean ...) - the
   whole-workflow failure mode is zero jobs + no logs; parse workflow YAML
   locally before push (standard rule 7, born this session).
 - actions/cache only saves on job success: a flaky job that fails never
   seeds its cache; retries must propagate (ok=1 flags), never mask with
   trailing sleeps.
 - rg -r REPLACES matches (the -r flag); my own greps showed '.n nav' for
-  '.page-landing nav' — read flags before trusting output.
+  '.page-landing nav' - read flags before trusting output.
 
-# Handoff — core course graph + axioms ledger, Lean in CI, theme-fab + mermaid repairs (2026-11-08)
+# Handoff - core course graph + axioms ledger, Lean in CI, theme-fab + mermaid repairs (2026-11-08)
 
 ## Deployed state
 - run 42435368783 (0967a4361) SUCCESS: theme selector fix (fab was hidden on
@@ -60,7 +60,7 @@
 ## What landed (5f65d49b7..5e4c1a96e)
 - docs/course-graph.json = single source of truth: 61 chapters, 12 stages,
   130 edges, 13 ledger debts (all paid), 2 axioms (classical-logic at A1,
-  axiom-of-choice at D5 — modelled separately from debts, never discharged).
+  axiom-of-choice at D5 - modelled separately from debts, never discharged).
   New chapters: C4 primes/FTA, D5 choice/Zorn, G7 integration+FTC (fixes the
   misattributed FTC debt that pointed at the chain-rule chapter), G8
   contraction mapping/ODEs, J8 curvature.
@@ -101,17 +101,17 @@
   vendor copies cost ~1MB of pack. The sync-shared duplication pattern is
   cheap for identical assets, expensive only for divergent ones.
 - biome formats JSON inside gitignored dirs if the file is tracked; and
-  `rg -rn` REPLACES matches (the -r flag) — read flags before trusting
+  `rg -rn` REPLACES matches (the -r flag) - read flags before trusting
   grep-style output. Both caused false alarms this session.
 - The "corrupted elan toolchain" was a red herring: the real bug was
   conjoining theorem NAMES where propositions belong
   (`deps_lt_A1 ∧ ...` vs the unfolded ∀ statements). Toolchain reinstall
   was unnecessary; the generated statement was the problem.
 
-# Handoff — estate math repair, SEO fixes, search SLO, deploy gate unblocked (2026-11-01)
+# Handoff - estate math repair, SEO fixes, search SLO, deploy gate unblocked (2026-11-01)
 
 ## Deployed state
-- Deploy All Sites: SUCCESS (run 41385771451, 2026-11-02) — includes the
+- Deploy All Sites: SUCCESS (run 41385771451, 2026-11-02) - includes the
   mid-line flow-math closing repair (62 files) + 33-span oracle pass, the
   .mdx list-item restoration, ib genetics prose repair, and sidebar
   Introduction entries. wyattsnotes.wyattau.com UP (200).
@@ -124,7 +124,7 @@
 ## What landed (see git log on main, 376dae600..b1d7fc9aa)
 - GCSE bonding: NaCl dot-and-cross (8th diagram), 10 unbalanced \mathrm
   repairs, prose fixes; PRIOR HANDOFF DIAGNOSIS CORRECTED: the SVGs were
-  never stripped — grep -c counted minified-HTML lines, not matches
+  never stripped - grep -c counted minified-HTML lines, not matches
 - Accounting: "The Four Statements, Interlocking" (cycle track page 2)
 - CS: section 6.12 The PCP Theorem (statement, gap amplification, hardness
   of approximation, Dinur, IP=PSPACE lineage)
@@ -146,13 +146,13 @@
 3. llms.txt freshness: regenerate after any content change (2 passes)
 
 ## Open items (priority order)
-1. Manual KaTeX repair list (61 files, .loop/known-issues-katex.md) — the
+1. Manual KaTeX repair list (61 files, .loop/known-issues-katex.md) - the
    bonding page still shows ~32 katex-error instances from the structural
    class; each needs human re-reading of the intended formula
 2. GRAPH002 internal-linking program (991 pages, crawlkit baseline in
    docs/SEO-AUDIT-2026-11-01.md)
 3. CANNIB001 triage (150 clusters) + DUP-CROSS strategy decision
-   (differentiate vs cross-site canonicals) — business input needed
+   (differentiate vs cross-site canonicals) - business input needed
 4. CSP headers for accounting/economics/finance; multi-H1 cleanup in
    PageTitle override
 5. wyattsnotes: add to the uptime monitor check list (it was down and the
