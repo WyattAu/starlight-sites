@@ -2,7 +2,7 @@
 template: splash
 date: 2026-07-23T22:34:31+01:00
 title: "Mathematics"
-description: "This section covers mathematics concepts, definitions, and applications with worked examples and practice problems."
+description: "Two doors: a linear proof-based course built from literacy to the research frontier, and an encyclopaedia of rigorous reference tracks across the undergraduate canon."
 sources:
   - text: "Aluffi, P. (2009). Algebra: Chapter 0. American Mathematical Society."
   - text: "Spivak, M. (2008). Calculus (4th ed.). Publish or Perish."
@@ -10,59 +10,86 @@ sources:
   - text: "Strang, G. (2016). Introduction to Linear Algebra (5th ed.). Wellesley-Cambridge Press."
   - text: "Ross, S. M. (2019). A First Course in Probability (10th ed.). Pearson."
 hero:
-  tagline: Proof-based undergraduate mathematics.
+  tagline: Proof-based mathematics: a course, and an encyclopaedia.
   actions:
-    - text: Browse Notes
-      link: /intro/
+    - text: Start the Course
+      link: /17-core-course/
       icon: right-arrow
       variant: primary
+    - text: Browse the Encyclopaedia
+      link: /intro/
+      variant: secondary
 ---
 
-## Intuition
+import { Card, CardGrid } from '@astrojs/starlight/components/Card.astro';
 
-**The language of the universe:** Mathematics is the language of the universe, it describes everything from the orbit of planets to the behaviour of subatomic particles. Understanding mathematics gives you the tools to model, predict, and understand the world.
+## Choose your door
 
-**Why it matters:** Mathematics is not just about numbers, it is about patterns, structures, and logical reasoning. These skills transfer to every field, from computer science to economics to biology.
+This site holds two different things, and it matters which one you open.
 
-**The key insight:** Mathematical proof is the ultimate form of certainty, unlike empirical science, which can always be overturned by new evidence, a mathematical proof is true forever. This is why mathematics is the foundation of all exact sciences.
+<CardGrid>
+  <Card title="The Course: start here" icon="seti:doc">
+    One linear path, from literacy alone to the research frontier. Nothing
+    depends on a later chapter, and every dependency is machine-checked: the
+    counting numbers are *defined*, addition is a *theorem*, and the real
+    line is *built*. Five declarations at the bottom of mathematics, eighty-nine
+    chapters at the top of it.
 
-## Why This Matters
+    **Begin at [Stage A: Reasoning](/17-core-course/).**
+  </Card>
+  <Card title="The Encyclopaedia: look things up" icon="seti:book">
+    Fifteen reference tracks arranged by subject, alphabetical within each
+    track and cross-linked everywhere: algebra, analysis, topology, complex
+    analysis, measure theory, differential geometry, and the graduate
+    shelves. No required order; built for revision and lookup.
 
-Mathematics is the foundation of all quantitative disciplines. These notes provide rigorous, proof-based coverage of undergraduate mathematics, from algebraic structures to functional analysis. Each topic builds on the previous, creating a coherent framework for understanding the mathematical universe.
+    **Enter at [the Introduction](/intro/).**
+  </Card>
+</CardGrid>
 
-## What You Will Find
+## Why a course on this site at all
 
-- **Abstract Algebra**: Groups, rings, and fields, the algebraic structures underlying symmetry and number theory. From cyclic groups to Galois theory, abstract algebra reveals the architecture of mathematical objects.
-- **Real Analysis**: The rigorous foundations of calculus, limits, continuity, and integration. The ε-δ framework provides the logical basis for all of analysis.
-- **Linear Algebra**: Vector spaces, linear transformations, eigenvalues, and inner product spaces. Linear algebra is the most widely applied area of mathematics.
-- **Multivariable Calculus**: Partial derivatives, gradient, multiple integrals, and vector calculus. Green's, Stokes', and Gauss' theorems unify differential and integral calculus.
-- **Complex Analysis**: Analytic functions, contour integration, and the residue theorem. Complex analysis is the most elegant branch of analysis, differentiability once implies infinite differentiability.
-- **Differential Geometry**: Manifolds, curvature, and geometric structures. Differential geometry connects calculus to geometry on curved spaces.
-- **Functional Analysis**: Infinite-dimensional vector spaces and bounded operators. Functional analysis extends linear algebra to function spaces, underpinning quantum mechanics and PDE theory.
+Because the encyclopaedia's strengths are the course's weaknesses. An
+encyclopaedia lets you look up the mean value theorem; it cannot tell you
+what you needed to read first. A course gives you the order and refuses
+to let a chapter assume anything you have not met. The Core Course on
+this site is the second kind of object: one sequence, dependency-ordered,
+with every prerequisite machine-checked before anything ships. You do not
+browse it. You walk it.
 
-## Cross-References
+## The encyclopaedia: what you will find
 
-- **[Introduction](https://typescript.wyattau.com/intro/)**: Start here for an overview of the mathematics notes and navigation guidance.
-- **[Abstract Algebra](/1-abstract-algebra)**: Groups, rings, and fields provide algebraic structure theory.
-- **[Real Analysis](/3-real-analysis)**: Rigorous foundations for limits, sequences, and integration.
-- **[Topology](9-topology/1_introduction-to-topology)**: Generalisation of continuity and convergence in abstract spaces.
+The reference tracks cover the undergraduate canon and part of the
+graduate shelves, proof-based throughout:
+
+- **Abstract Algebra**: groups, rings, and fields, from cyclic groups to
+  Galois theory.
+- **Real Analysis**: limits, continuity, and the ε-δ framework.
+- **Linear Algebra**: vector spaces, eigenvalues, inner product spaces.
+- **Multivariable Calculus**: gradient, multiple integrals, and the
+  theorems of Green, Stokes, and Gauss.
+- **Complex Analysis**: analytic functions, contour integration, residues.
+- **Differential Geometry**: manifolds, curvature, geometric structures.
+- **Functional Analysis**: infinite-dimensional spaces and bounded
+  operators; the mathematics behind quantum mechanics and PDE theory.
+- **Measure Theory, Probability, Topology, Number Theory**: the measure-
+  theoretic foundations, the distributions, the qualitative geometry, and
+  the arithmetic of the integers.
+
+Every track carries worked examples, common mistakes, and practice
+problems with spaced-repetition review.
 
 ## Common Mistakes
 
-**Confusing "proof-based" mathematics with computational mathematics:** These notes emphasise rigorous proofs and definitions, not just formulas and techniques. A correct answer without a valid proof is insufficient, you must justify every step using axioms, theorems, or previously established results.
+**Confusing proof-based mathematics with computational mathematics:**
+these notes emphasise rigorous proofs and definitions, not formulas and
+techniques. A correct answer without a valid proof is insufficient.
 
-**Skipping prerequisite topics:** Mathematics is cumulative. Abstract algebra builds on set theory and logic; real analysis assumes comfort with sequences and limits; functional analysis requires both linear algebra and real analysis. Skipping foundational material leads to compounding gaps in understanding.
+**Skipping prerequisite topics:** mathematics is cumulative, and skipping
+foundations compounds gaps. This is precisely why the course exists: its
+order is checked so that skipping is a choice you cannot make by
+accident.
 
-**Treating definitions as interchangeable across fields:** The word "normal" means different things in group theory (normal subgroups), linear algebra (normal matrices), and topology (normal spaces). Always check which definition applies in the current context, they are not the same concept wearing different hats.
-
-## Overview
-
-## Key Topics
-
-- Core concepts and definitions
-- Worked examples with step-by-step solutions
-- Practice problems for self-assessment
-- Cross-references to related topics
-
-## Study Tips
-
+**Treating definitions as interchangeable across fields:** the word
+"normal" means different things in group theory, linear algebra, and
+topology. Always check which definition applies in the current context.
