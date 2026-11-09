@@ -28,20 +28,20 @@ $$
 P = \sum_{t=1}^{T} \frac{C}{(1 + y)^t} + \frac{F}{(1 + y)^T},
 $$
 
-where $y$ is the **yield to maturity** (YTM) — the single rate that equates the bond's price to
+where $y$ is the **yield to maturity** (YTM) - the single rate that equates the bond's price to
 the present value of its cash flows.
 
 **Theorem 1.1 (Inverse relationship).** Bond prices and yields move in opposite directions:
 $\frac{\partial P}{\partial y} < 0$.
 
 **Proof.** $\frac{\partial P}{\partial y} = \sum_{t=1}^{T} \frac{-t\,C}{(1+y)^{t+1}} -
-\frac{T\,F}{(1+y)^{T+1}} < 0$ — every term is negative for positive $C$, $F$, $y$. The
+\frac{T\,F}{(1+y)^{T+1}} < 0$ - every term is negative for positive $C$, $F$, $y$. The
 derivative is strictly negative because each term discounts a positive cash flow to a smaller
 present value at a higher rate. $\blacksquare$
 
 This inverse relationship is the most important fact in bond markets: when interest rates rise,
 existing bond prices fall (their fixed coupons are worth less compared to new bonds at higher
-rates). The magnitude of the fall depends on the bond's maturity and coupon rate — measured by
+rates). The magnitude of the fall depends on the bond's maturity and coupon rate - measured by
 duration and convexity (§3).
 
 ### 2. Yield to Maturity
@@ -53,9 +53,9 @@ $$
 P_{\text{obs}} = \sum_{t=1}^{T} \frac{C}{(1 + y)^t} + \frac{F}{(1 + y)^T}.
 $$
 
-There is no closed-form solution — $y$ is found numerically (Newton's method or bisection). The
+There is no closed-form solution - $y$ is found numerically (Newton's method or bisection). The
 YTM summarizes the bond's return as a single rate, assuming all coupons are reinvested at the
-same rate — an assumption that rarely holds exactly but provides a standard comparison metric.
+same rate - an assumption that rarely holds exactly but provides a standard comparison metric.
 
 **Par, premium, discount.** When $y = C/F$ (the coupon rate equals the YTM), the bond trades at
 **par** ($P = F$). When $y < C/F$, the bond trades at a **premium** ($P > F$); when
@@ -68,8 +68,8 @@ stream is worth more than face value discounted at the same rate.
 bonds and their time to maturity: $y(T)$ for $T = 1, 2, \dots$. The curve plotting $y(T)$
 against $T$ is the **yield curve**.
 
-**Forward rates.** The implied forward rate $f(T, T+1)$ — the rate for borrowing from $T$ to
-$T+1$ implied by today's zero-coupon prices — satisfies:
+**Forward rates.** The implied forward rate $f(T, T+1)$ - the rate for borrowing from $T$ to
+$T+1$ implied by today's zero-coupon prices - satisfies:
 
 $$
 (1 + y(T+1))^{T+1} = (1 + y(T))^T \times (1 + f(T, T+1)).
@@ -79,7 +79,7 @@ $$
 forward rate equals the expected future spot rate: $f(T, T+1) = E[y(T, T+1)]$. The yield curve
 slopes upward when short rates are expected to rise.
 
-*This is a hypothesis, not a theorem — it requires risk-neutral investors and ignores the term
+*This is a hypothesis, not a theorem - it requires risk-neutral investors and ignores the term
 premium (the extra yield demanded for holding longer-dated bonds). The empirical term premium
 is positive and varies over time, which is why the yield curve slopes upward on average even
 when rates are not expected to rise.*
@@ -117,7 +117,7 @@ where $D^* = D/(1+y)$ is the modified duration. The approximation $\Delta P / P 
 
 **Duration properties** (all proved from the formula):
 
-- Zero-coupon bonds: $D = T$ (duration equals maturity — all cash flows arrive at $T$).
+- Zero-coupon bonds: $D = T$ (duration equals maturity - all cash flows arrive at $T$).
 - Higher coupon → lower duration (more cash arrives early).
 - Longer maturity → higher duration.
 
@@ -128,7 +128,7 @@ C = \frac{1}{P}\frac{\partial^2 P}{\partial y^2} > 0.
 $$
 
 The convexity of the price–yield relationship means duration overestimates the price fall when
-rates rise and underestimates the price gain when rates fall — bonds benefit from convexity.
+rates rise and underestimates the price gain when rates fall - bonds benefit from convexity.
 
 ### 5. Interest Rate Risk
 
@@ -148,21 +148,21 @@ and the reinvestment gain is larger. $\blacksquare$
 ### 6. Self-test
 
 1. Why does a 30-year zero-coupon bond have more interest rate risk than a 30-year coupon
-   bond? (§4 — zero-coupon: $D = T = 30$; coupon bond: $D < T$ because some cash arrives
+   bond? (§4 - zero-coupon: $D = T = 30$; coupon bond: $D < T$ because some cash arrives
    earlier.)
 2. A bond trades at par with YTM 5%. The central bank raises rates by 1%. What happens to the
-   bond's price? (§1/§4 — falls by approximately $D^* \times 1\%$, where $D^* = D/(1.05)$.)
-3. Why does the expectations hypothesis fail empirically? (§3 — the term premium is positive:
+   bond's price? (§1/§4 - falls by approximately $D^* \times 1\%$, where $D^* = D/(1.05)$.)
+3. Why does the expectations hypothesis fail empirically? (§3 - the term premium is positive:
    investors demand extra yield for bearing interest rate risk, so the forward rate exceeds
    the expected future spot rate.)
-4. What does convexity buy the bondholder? (§4 — the price-yield curve is convex, so the
+4. What does convexity buy the bondholder? (§4 - the price-yield curve is convex, so the
    price gain from falling rates exceeds the price loss from rising rates of equal magnitude.)
 
 ### Where to go next
 
-- [No-Arbitrage](/1-principles/1_no-arbitrage/) — the principle underlying the bond pricing
+- [No-Arbitrage](/1-principles/1_no-arbitrage/) - the principle underlying the bond pricing
   formula.
-- [Portfolio Theory](/2-portfolio-theory/1_mean-variance-and-capm/) — bonds in a multi-asset
+- [Portfolio Theory](/2-portfolio-theory/1_mean-variance-and-capm/) - bonds in a multi-asset
   portfolio context.
 
 ---

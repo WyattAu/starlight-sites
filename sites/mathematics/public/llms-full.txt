@@ -54226,7 +54226,7 @@ It depends on your goals. If you are studying physics, you need linear algebra, 
 ## Index
 URL: https://mathematics.wyattau.com/
 
-import { Card, CardGrid } from '@astrojs/starlight/components/Card.astro';
+import { Card, CardGrid } from '@astrojs/starlight/components';
 
 ## Choose your door
 
