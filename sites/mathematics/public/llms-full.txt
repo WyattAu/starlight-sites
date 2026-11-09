@@ -22454,6 +22454,9 @@ an axiom, a definition, or forced by earlier lines, and Stage A builds that
 check from five parts while dissecting one famous argument that satisfies
 every line except the one that matters.</span>
 
+*The blur is deliberate: form your own reading of the page first, then
+click it.*
+
 **Scope.** Nothing. The floor of this course is literacy and pattern
 recognition, and this page consumes exactly that. One axiom is adopted, not
 proved, and it is stated in full in Section 1. Three remarks look forward
