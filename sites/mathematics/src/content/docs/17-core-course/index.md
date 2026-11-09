@@ -136,7 +136,7 @@ number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
 The full course is 89 chapters across 15 dependency stages, from
 logic to the research frontier, with
-20 written. The graph is machine-checked: `docs/course-graph.json` is
+25 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order and that the dependency graph is
@@ -153,11 +153,11 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | A4 | Functions: injections, surjections, bijections, composition | written |
 | A5 | Proof strategies in action: the false proof, dissected | written |
 | **Stage B — Counting** | *Peano, induction, arithmetic as theorems.* | |
-| B1 | The Peano axioms: what counting is | queued |
-| B2 | Addition defined recursively; its laws proved | queued |
-| B3 | Multiplication, order, exponentiation: all theorems | queued |
-| B4 | Division with remainder; the Archimedean property | queued |
-| B5 | Counting arguments: bijections, permutations, and the binomial theorem | queued |
+| B1 | The Peano axioms: what counting is | written |
+| B2 | Addition defined recursively; its laws proved (debt: recursion-principle → D5) | written |
+| B3 | Multiplication, order, exponentiation: all theorems | written |
+| B4 | Division with remainder; the Archimedean property | written |
+| B5 | Counting arguments: bijections, permutations, and the binomial theorem | written |
 | **Stage C — Expanding the line** | *Z, Q, primes, congruences, and the first crisis.* | |
 | C1 | The failure of subtraction; Z as difference classes | queued |
 | C2 | The failure of division; Q as fraction classes; density | queued |

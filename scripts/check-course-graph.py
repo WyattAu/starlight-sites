@@ -121,6 +121,20 @@ for (name, by) in sorted(all_discharged):
         fail(f"{by} discharges '{name}' but no chapter declares it")
     if by not in id_set:
         fail(f"discharger {by} of '{name}' does not exist")
+# Ghost discharges: every (input, discharger) pair listed in a chapter's
+# discharges[] must be named by some declaration's dischargedBy. This
+# catches stale discharges left behind when a debt is retargeted.
+declared_pairs = {
+    (d["input"], d["dischargedBy"])
+    for c in chapters for d in c.get("declaredInputs", [])
+    if d.get("input") and d.get("dischargedBy")
+}
+for (name, by) in sorted(all_discharged):
+    if (name, by) not in declared_pairs:
+        fail(
+            f"ghost discharge: {by} lists '{name}' in discharges[] but no "
+            f"declaration names {by} as its payee for '{name}'"
+        )
 
 # 5. Axioms: the permanent assumptions, distinct from debts.
 axioms = graph.get("axioms", [])

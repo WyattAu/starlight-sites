@@ -268,11 +268,14 @@ jobs:
           elan toolchain list
           lake --version
 
-      - name: Build the course-graph proof artifact
+      - name: Generate the formal witnesses from Stage pages
+        run: python3 scripts/build-course-witnesses.py
+
+      - name: Build the course-graph proof artifact and the witnesses
         working-directory: lean
         run: |
           export PATH="$HOME/.elan/bin:$PATH"
-          lake build
+          lake build CourseGraph Witnesses
           echo "verified: lean $(lean --version)"
 
   content-sync:

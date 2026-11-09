@@ -147,10 +147,10 @@
         "A2",
         "A4"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-b-counting.md",
       "declaredInputs": [],
-      "note": "Strong induction and the well-ordering principle are proved equivalent to induction here; infinite descent follows."
+      "note": "The Peano declarations define the counting numbers (any two systems satisfying them are interchangeable); they are content, not course axioms. The adopted axioms remain classical logic and choice."
     },
     {
       "id": "B2",
@@ -159,9 +159,15 @@
       "deps": [
         "B1"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-b-counting.md",
-      "declaredInputs": []
+      "declaredInputs": [
+        {
+          "input": "recursion-principle",
+          "dischargedBy": "D5",
+          "note": "That the two defining lines yield exactly one function; the general primitive-recursion theorem is Stage D's transfinite recursion."
+        }
+      ]
     },
     {
       "id": "B3",
@@ -170,7 +176,7 @@
       "deps": [
         "B2"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-b-counting.md",
       "declaredInputs": []
     },
@@ -182,15 +188,15 @@
         "B3",
         "A3"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-b-counting.md",
       "declaredInputs": []
     },
     {
       "id": "B5",
       "stage": "B",
-      "file": null,
-      "status": "queued",
+      "file": "stage-b-counting.md",
+      "status": "written",
       "title": "Counting arguments: bijections, permutations, and the binomial theorem",
       "declaredInputs": [],
       "deps": [
@@ -332,7 +338,7 @@
         "axiom-of-choice"
       ],
       "discharges": [
-        "zorn-lemma"
+        "recursion-principle"
       ],
       "note": "Well-ordered sets and their classification; ordinals as the sizes of well-orderings; transfinite recursion and induction: the instruments the choice chapter uses."
     },
