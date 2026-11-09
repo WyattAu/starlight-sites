@@ -22,6 +22,9 @@ env:
   HEALTH_URL: https://search.wyattau.com/api/health
   MAX_ZERO_RESULT_RATE: "10" # percent
   MAX_AVG_LATENCY_MS: "500"
+  # A violation persists across many probes; one issue comment per day is
+  # the signal, sixty per day is noise (starlight-sites#22 reached 300).
+  COMMENT_THROTTLE_HOURS: "20"
 
 jobs:
   check:
@@ -53,13 +56,19 @@ jobs:
             echo "violations=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Create issue on SLO violation
+      # Values arrive through env, never through direct ${{ }} interpolation
+      # inside a script: the probe output is data, not source (zizmor).
+      - name: Report SLO violation
         if: steps.slo.outputs.violations == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          EVAL_JSON: ${{ steps.slo.outputs.eval }}
+          ZERO_RESULT_LIMIT: ${{ env.MAX_ZERO_RESULT_RATE }}
+          LATENCY_LIMIT: ${{ env.MAX_AVG_LATENCY_MS }}
+          THROTTLE_HOURS: ${{ env.COMMENT_THROTTLE_HOURS }}
         with:
           script: |
-            const evalData = JSON.parse(${{ toJSON(steps.slo.outputs.eval) }});
-            const title = `SLO Alert: Search quality degraded (${new Date().toISOString().split('T')[0]})`;
+            const evalData = JSON.parse(process.env.EVAL_JSON);
             const body = [
               '## Search SLO Violation',
               '',
@@ -68,32 +77,88 @@ jobs:
               `Metrics at probe time: zero-result rate **${evalData.rate}%**, avg latency **${evalData.latency} ms**, total searches **${evalData.searches}**.`,
               '',
               `Targets (CODE_QUALITY_MATRIX.md): zero-result rate < 5%, avg latency < 200 ms.`,
-              `Alert thresholds: < ${{ env.MAX_ZERO_RESULT_RATE }}% / < ${{ env.MAX_AVG_LATENCY_MS }} ms.`,
+              `Alert thresholds: < ${process.env.ZERO_RESULT_LIMIT}% / < ${process.env.LATENCY_LIMIT} ms.`,
               '',
               `Dashboard: https://search.wyattau.com/dashboard`,
               `Workflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
             ].join('\n');
 
-            const issues = await github.rest.issues.listForRepo({
+            // Newest open alert first. The previous version took issues[0],
+            // which GitHub returns oldest-first, so every violation piled
+            // onto the same year-old issue instead of the current one.
+            const open = (await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
               state: 'open',
-              labels: 'alert,slo'
-            });
+              labels: 'alert,slo',
+              sort: 'created',
+              direction: 'desc',
+              per_page: 10
+            })).data.filter(i => !i.pull_request);
 
-            if (issues.data.length === 0) {
-              await github.rest.issues.create({
+            if (open.length === 0) {
+              const created = await github.rest.issues.create({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                title,
+                title: `SLO Alert: Search quality degraded (${new Date().toISOString().split('T')[0]})`,
                 body,
                 labels: ['alert', 'slo']
               });
-            } else {
+              core.info(`opened issue #${created.data.number}`);
+              return;
+            }
+
+            const issue = open[0];
+            const ageHours = (Date.now() - new Date(issue.updated_at).getTime()) / 3_600_000;
+            if (ageHours < Number(process.env.THROTTLE_HOURS)) {
+              core.info(`issue #${issue.number} updated ${ageHours.toFixed(1)}h ago; throttled`);
+              return;
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+              body
+            });
+            core.info(`commented on issue #${issue.number}`);
+
+      # An alert that never closes is indistinguishable from an unfixed
+      # incident. Recovery closes the issue with the evidence attached.
+      - name: Close recovered SLO alerts
+        if: steps.slo.outputs.violations == 'false'
+        uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b # v7
+        env:
+          EVAL_JSON: ${{ steps.slo.outputs.eval }}
+        with:
+          script: |
+            const evalData = JSON.parse(process.env.EVAL_JSON);
+            const open = (await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'alert,slo',
+              per_page: 100
+            })).data.filter(i => !i.pull_request);
+
+            if (open.length === 0) {
+              core.info('no open SLO alerts');
+              return;
+            }
+
+            for (const issue of open) {
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: issues.data[0].number,
-                body
+                issue_number: issue.number,
+                body: `Recovered: zero-result rate **${evalData.rate}%**, avg latency **${evalData.latency} ms** are back within the alert thresholds. Closing.\n\nWorkflow run: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`
               });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+                state_reason: 'completed'
+              });
+              core.info(`closed issue #${issue.number}`);
             }
