@@ -139,8 +139,8 @@ jobs:
       - name: No-emoji lint
         run: node scripts/lint-no-emoji.js
 
-      - name: Biome lint and format check
-        run: bunx biome check .
+      - name: Biome lint and format check (pinned to the bun.lock version)
+        run: bunx @biomejs/biome@2.5.0 check .
 
       - name: Aside directive lint
         run: node scripts/lint-asides.js

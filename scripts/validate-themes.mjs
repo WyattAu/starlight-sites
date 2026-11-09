@@ -32,7 +32,11 @@ const CSS = path.join(__dirname, '..', 'shared', 'styles', 'custom.css')
 
 function hexToRgb(hex) {
   let h = hex.replace('#', '')
-  if (h.length === 4) h = h.split('').map(c => c + c).join('')
+  if (h.length === 4)
+    h = h
+      .split('')
+      .map(c => c + c)
+      .join('')
   const r = parseInt(h.slice(0, 2), 16)
   const g = parseInt(h.slice(2, 4), 16)
   const b = parseInt(h.slice(4, 6), 16)
@@ -42,7 +46,7 @@ function hexToRgb(hex) {
 
 function srgbToLinear(c) {
   const s = c / 255
-  return s <= 0.04045 ? s / 12.92 : Math.pow((s + 0.055) / 1.055, 2.4)
+  return s <= 0.04045 ? s / 12.92 : ((s + 0.055) / 1.055) ** 2.4
 }
 
 function luminance({ r, g, b }) {
@@ -67,7 +71,9 @@ function composite(fgHex, bgHex) {
 // ---------- Oklab (for perceptual separation) ----------
 
 function linearToOklab({ r, g, b }) {
-  const lr = srgbToLinear(r), lg = srgbToLinear(g), lb = srgbToLinear(b)
+  const lr = srgbToLinear(r),
+    lg = srgbToLinear(g),
+    lb = srgbToLinear(b)
   const l_ = Math.cbrt(0.4122214708 * lr + 0.5363325363 * lg + 0.0514459929 * lb)
   const m_ = Math.cbrt(0.2119034982 * lr + 0.6806995451 * lg + 0.1073969566 * lb)
   const s_ = Math.cbrt(0.0883024619 * lr + 0.2817188376 * lg + 0.6299787005 * lb)
@@ -79,9 +85,11 @@ function linearToOklab({ r, g, b }) {
 }
 
 function dE00(c1Hex, c2Hex) {
-  const toLab = (hex) => {
+  const toLab = hex => {
     const { r, g, b } = hexToRgb(hex)
-    const lr = srgbToLinear(r), lg = srgbToLinear(g), lb = srgbToLinear(b)
+    const lr = srgbToLinear(r),
+      lg = srgbToLinear(g),
+      lb = srgbToLinear(b)
     const l_ = Math.cbrt(0.4122214708 * lr + 0.5363325363 * lg + 0.0514459929 * lb)
     const m_ = Math.cbrt(0.2119034982 * lr + 0.6806995451 * lg + 0.1073969566 * lb)
     const s_ = Math.cbrt(0.0883024619 * lr + 0.2817188376 * lg + 0.6299787005 * lb)
@@ -139,9 +147,7 @@ const TEXT_PAIRS_AA = [
 ]
 // Dim text is de-emphasised by design: WCAG AA for large/UI text (3:1),
 // not the 4.5:1 body-text bar.
-const TEXT_PAIRS_DIM = [
-  ['--wn-text-dim', '--wn-bg'],
-]
+const TEXT_PAIRS_DIM = [['--wn-text-dim', '--wn-bg']]
 const NONTEXT_PAIRS_3 = [
   ['--wn-border', '--wn-bg'],
   ['--wn-bg-hover', '--wn-bg'],
@@ -160,7 +166,7 @@ function hex(v) {
 function validateTheme(name, vars, rootVars, report) {
   // Resolution chain: the theme block first, then the :root base palette.
   // A variable defined by neither is skipped (that pair is not rendered).
-  const V = (v) => vars[v] ?? rootVars[v] ?? null
+  const V = v => vars[v] ?? rootVars[v] ?? null
   const bgRaw = V('--wn-bg') || V('--sl-color-bg')
   const bg = bgRaw ? hex(bgRaw) : null
   if (!bg) {
