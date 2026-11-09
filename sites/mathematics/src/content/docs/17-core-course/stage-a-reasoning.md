@@ -1,7 +1,7 @@
 ---
 date: 2026-11-09T00:00:00+00:00
 title: "Stage A: Reasoning"
-description: "The course's foundation, built with no numbers at all: propositions and quantifiers, sets and the danger inside unbounded comprehension, relations and the partition correspondence, functions and bijections, and the dissection of a false proof that fails by swapping two quantifiers."
+description: "The course's foundation, built with no numbers at all: propositions and connectives as truth tables, quantifiers, sets with full symbolic definitions, relations, order and equivalence, functions as special relations, and the dissection of a false proof that fails by swapping two quantifiers. Eight quick-check questions per section."
 ---
 
 <!-- Breadcrumb Schema for SEO -->
@@ -13,619 +13,582 @@ description: "The course's foundation, built with no numbers at all: proposition
 }
 </script>
 
-**The Defect.** Every attempt to learn mathematics rigorously runs into the
-same wall: the books keep saying "clearly" and "obviously" about steps the
-reader cannot reproduce, and the reader concludes that proof is a talent
-they lack. It is not a talent. Proof is a *machine*: a finite sequence of
-statements in which each one is either declared up front or licensed by the
-ones before it. Once you see the machine, "clearly" disappears from your
-own writing forever, because you know which step was being skipped. Stage
-A builds that machine out of five parts: propositions and quantifiers, sets,
-relations, functions, and a dissection of a proof that looks perfect and
-proves nothing.
+**The Defect.** The books say "clearly" where you see no argument, and
+the conclusion you draw is that proof is a talent you lack. It is not.
+A proof is a finite sequence of statements in which every line is
+declared up front or licensed by earlier lines. Once the licence is
+visible, "clearly" disappears: you know exactly which step was skipped.
 
 **The One-Line Reveal.** <span class="wn-spoiler-inline" tabindex="0">A
-proof is a syntactic object, checkable without understanding: each line is
-an axiom, a definition, or forced by earlier lines, and Stage A builds that
-check from five parts while dissecting one famous argument that satisfies
-every line except the one that matters.</span>
+proof is a syntactic object, checkable without understanding; Stage A
+builds the check from five parts (connectives as truth tables,
+quantifiers, sets, relations, functions) and dissects one argument that
+satisfies every line except the licence.</span>
 
 *The blur is deliberate: form your own reading of the page first, then
 click it.*
 
-**Scope.** Nothing. The floor of this course is literacy and pattern
-recognition, and this page consumes exactly that. One axiom is adopted, not
-proved, and it is stated in full in Section 1. Three remarks look forward
-(each carries the forward-honesty marker, and none is used by any proof
-here).
+**Scope.** The floor is literacy and pattern recognition. One axiom is
+adopted (Section 1, stated in full, recorded in the course map's axiom
+table). Three remarks carry the forward-honesty marker; no proof uses
+future content.
 
-## 1. Propositions, Quantifiers, and What a Proof Is
+## 1. Propositions, Connectives, Quantifiers, Proof
 
-**Definition.** A **proposition** is a sentence that is exactly one of true
-or false. "Wednesday follows Tuesday" is a proposition. "Tuesday is pleasant"
-is not, until an argument has first been made that it is one.
+**Definition (proposition).** A sentence that is exactly one of true
+(T) or false (F).
 
-**Definition.** Propositions combine by **connectives**: negation
-($\neg P$, read "not $P$"), conjunction ($P \land Q$, "both"), disjunction
-($P \lor Q$, "at least one"), implication ($P \to Q$, "if $P$ then $Q$"),
-and equivalence ($P \leftrightarrow Q$, "the same truth value"). Each is
-defined by its truth table, which is nothing more than the rule for
-computing the combination's truth from the inputs' truths.
+**Definition (connectives).** For propositions $P, Q$, the five
+connectives are defined by the table (T = true, F = false):
 
-**Ponder.** Before reading on: is the sentence "if Wednesday follows
-Tuesday, then the sun rises in the east" true or false? Both parts are
-true; what should the rule say? And is "if Wednesday follows Tuesday, then
-the sun rises in the west" true or false? One part is false.
+| $P$ | $Q$ | $\neg P$ | $P \land Q$ | $P \lor Q$ | $P \to Q$ | $P \leftrightarrow Q$ |
+|-----|-----|----------|-------------|------------|-----------|------------------------|
+| T | T | F | T | T | T | T |
+| T | F | F | F | T | F | F |
+| F | T | T | F | T | T | F |
+| F | F | T | F | F | T | T |
 
-<details class="wn-spoiler">
-<summary>Compare your answer</summary>
-<div class="wn-spoiler-body">
+Reading: $\neg$ not; $\land$ both; $\lor$ at least one; $\to$
+if-then; $\leftrightarrow$ same truth value.
 
-An implication with a true hypothesis takes its truth from the conclusion:
-the first sentence is true (true implies true), the second false (true
-implies false). The interesting case is the next ponder: what is an
-implication with a *false* hypothesis?
-
-</div>
-</details>
-
-**Definition.** An implication $P \to Q$ with a false hypothesis $P$ is
-**true**, regardless of $Q$. Nothing is being claimed about $Q$'s truth; the
-sentence claims only what happens *if* $P$ holds, and it does not hold.
-
-This convention is not decoration. It is what makes an empty claim true
-without contradiction: a conditional whose hypothesis never holds asserts
-nothing, and imposes nothing. Section 2 leans on this exactly once, when
-it declares the empty set a subset of every set. **Axiom (classical
-logic).** This course adopts, without proof: every proposition is exactly
-one of true or false, and a derivation of a contradiction from $\neg P$
-licenses a proof of $P$. This axiom is recorded in the course map; it is
-never silently assumed anywhere else, and constructive alternatives are
-flagged if they ever matter.
-
-**Definition.** A **quantifier** binds a variable across a claim. The
-universal quantifier $\forall x,\ P(x)$ asserts $P$ holds of *every* object
-in the domain; the existential quantifier $\exists x,\ P(x)$ asserts $P$
-holds of *at least one*. Quantifiers stack, and **order is meaning**:
-
-- $\forall x\ \exists y,\ R(x, y)$: for each object $x$ there is some $y$,
-  which is allowed to depend on $x$.
-- $\exists y\ \forall x,\ R(x, y)$: there is a *single* $y$ that works for
-  every $x$ at once.
-
-"Everyone has a mother" and "someone is everyone's mother" are different
-claims. One is true of humanity. Section 5 dissects an argument that
-pretends they are the same.
-
-**Definition.** A **proof** of a proposition $P$ is a finite sequence of
-statements whose last line is $P$, in which every line is one of: an axiom,
-a definition, a previously proved proposition, or a consequence of earlier
-lines licensed by the inference rules of the connectives and quantifiers.
-Nothing else may appear. The words "clearly" and "obviously" are banned
-from this course: if a step is short, the proof performs the step.
-
-**Ponder.** Before reading on: how could a *rule-licensed sequence* be
-better than an argument that just feels convincing? Try to name one thing
-the sequence gives you that feeling does not.
-
-<details class="wn-spoiler">
-<summary>Compare your answer</summary>
-<div class="wn-spoiler-body">
-
-Checking: a sequence can be verified line by line, by anyone, without
-sharing the author's intuitions or culture. That is why a proof proved in
-one language convinces in every other, and why the same sequence can be
-handed to a machine. Feeling does not transfer; the machine does. This is
-also the entire content of Section 5: an argument can *feel* airtight while
-its rule-license is broken, and only the rule catches it.
-
-</div>
-</details>
-
-**Example (a first proof).** The contrapositive law: $P \to Q$ is
-equivalent to $\neg Q \to \neg P$. *Proof.* Truth table over the four
-assignments of $P$ and $Q$. For each row, compute both sentences. True
-implies true: $P \to Q$ true, $\neg Q \to \neg P$ true (false implies
-false is true). True implies false: $P \to Q$ false, $\neg Q \to \neg P$
-false (a true hypothesis over a false conclusion). False implies true: both true (false
-hypotheses). False implies false: both true. The columns agree on all four
-rows, so the sentences are equivalent. $\blacksquare$
-
-The pattern to notice: the proof did not *argue*, it *enumerated*. Every
-truth-table proof is a proof by exhaustive cases, and "by cases" is
-waterproof exactly when the cases exhaust, which Section 5 turns into a
-warning.
-
-**Quick check.**
-
-1. What may each line of a proof be?
-2. Why is $P \to Q$ true when $P$ is false?
-3. Write the difference between $\forall x\ \exists y$ and
-   $\exists y\ \forall x$ in one plain sentence each.
-4. Which axiom did this section adopt, and where is it recorded?
-5. Prove or disprove: $\neg(P \land Q)$ is equivalent to
-   $\neg P \lor \neg Q$.
-
-*Answers:* **1.** An axiom, a definition, a previous result, or a rule-
-licensed consequence of earlier lines. **2.** The claim is conditional and
-its condition never arises; nothing is asserted. **3.** Dependence: in the
-first, $y$ may vary with $x$; in the second, one $y$ serves everyone.
-**4.** Classical logic (each proposition is exactly one of true or false;
-contradiction licenses proof); recorded in the course map's axiom table.
-**5.** True: enumerate the four rows; they agree in every row.
-
-## 2. Sets: Membership, Products, Power Sets
-
-**Definition.** A **set** is a collection of objects, called its
-**elements**, and a set is completely determined by its elements: sets $S$
-and $T$ are equal when they have the same elements. This is
-**extensionality**, and it is the only way two sets can differ.
-
-**Definition.** Write $x \in S$ for membership. Given a set $S$ and a
-proposition $P(x)$ about its elements, the **set-builder** notation
-$\{x \in S : P(x)\}$ denotes the elements of $S$ satisfying $P$. The
-*bounded* form (inside a given $S$) is always available. The unbounded form
-"the set of all $x$ such that $P(x)$" is forbidden in this course, and the
-next ponder is the reason.
-
-**Ponder.** Before reading on: what should "the set of all sets that are
-not members of themselves" be? Call it $R$. Ask whether $R \in R$, and let
-the answer decide whether $R \in R$. What went wrong?
+**Ponder.** Before reading on: rows 3 and 4 of the $P \to Q$ column
+say an implication with a false hypothesis is *true*. Can you justify
+that from the table's purpose, or does it feel arbitrary?
 
 <details class="wn-spoiler">
 <summary>The autopsy</summary>
 <div class="wn-spoiler-body">
 
-If $R \in R$, then $R$ satisfies its own entry condition, which demands
-$R \notin R$. If $R \notin R$, then $R$ fails its entry condition, which
-demands $R \in R$. Either assumption forces its negation: a proposition
-that is neither true nor false, contradicting the classical-logic axiom.
-This is Russell's paradox. The fault is not in the axiom but in the
-unbounded comprehension: "any property defines a set" is false as stated.
-Bounded comprehension, inside an already-given set, is safe, and every set
-in this course is built that way.
+The table is the definition, so the question is really: why was this
+row chosen? Because $P \to Q$ must mean "every case with $P$ true has
+$Q$ true"; when $P$ is false there are no such cases, so the claim is
+vacuously satisfied. Alternative conventions break later theorems:
+Section 2's definition of subset ($\varnothing \subseteq S$) and the
+empty-set laws all rest on this row. A convention is judged by its
+consequences, and this one has none that conflict.
 
 </div>
 </details>
 
-**Definition.** The **empty set** $\varnothing$ is the set with no
-elements. $S$ is a **subset** of $T$, written $S \subseteq T$, when every
-element of $S$ is an element of $T$. Note the asymmetry: $\varnothing
-\subseteq S$ always (the universal claim "for every $x \in \varnothing$,
-$x \in S$" has a false hypothesis for every $x$, and there are none), while
-$\varnothing \in S$ is an ordinary membership claim about one object.
+**Definition (quantifiers).** For a domain $D$ and proposition
+$P(x)$:
 
-**Definition.** For sets $S$ and $T$, the **ordered pair** $(a, b)$ of
-elements is built from sets alone, by the recipe $(a, b) := \{\{a\},
-\{a, b\}\}$.
+- $\forall x \in D,\ P(x)$ := for every $x \in D$, $P(x)$ holds.
+- $\exists x \in D,\ P(x)$ := for at least one $x \in D$, $P(x)$
+  holds.
 
-**Ponder.** Before reading on: that recipe looks absurd. Why not just
-declare pairs as a new kind of object?
+Quantifiers stack and **order is meaning**:
+$\forall x\ \exists y,\ R(x, y)$ permits $y$ to depend on $x$;
+$\exists y\ \forall x,\ R(x, y)$ demands one $y$ serving every $x$.
 
-<details class="wn-spoiler">
-<summary>The autopsy</summary>
-<div class="wn-spoiler-body">
+**Axiom (classical logic).** Every proposition is exactly one of T or
+F, and a derivation of a contradiction from $\neg P$ licenses a proof
+of $P$. Adopted, not proved; recorded in the course map's axiom
+table; every later use is flagged.
 
-Declaring a new kind of object means declaring new laws for it, and every
-new law is a new place to be inconsistent. The recipe builds pairs from
-*only* the objects and laws already in hand. It is justified by one
-theorem, which is Problem 2: $(a, b) = (c, d)$ if and only if $a = c$ and
-$b = d$. The recipe earns its ugliness by delivering exactly the behaviour
-pairs need, from extensionality alone.
+**Definition (proof).** A proof of $P$ is a finite sequence of
+statements ending in $P$ in which every line is: an axiom, a
+definition, a previously proved statement, or a consequence of earlier
+lines by the rules of Section 1. No other line is permitted. The
+words "clearly" and "obviously" name skipped lines and are banned.
 
-</div>
-</details>
+**Theorem (contrapositive).** $(P \to Q) \leftrightarrow (\neg Q \to
+\neg P)$.
 
-**Definition.** The **product** $S \times T$ is the set of all ordered
-pairs $(s, t)$ with $s \in S$ and $t \in T$. The **power set**
-$\mathcal{P}(S)$ is the set of all subsets of $S$. Both are sets, built by
-bounded comprehension, so both are honest.
+*Proof.* Extend the table by three computed columns:
 
-**Example.** For $S = \{a, b\}$: $\mathcal{P}(S) = \{\varnothing, \{a\},
-\{b\}, \{a, b\}\}$. Subsets of $S$ correspond exactly to propositions about
-elements of $S$ (each $x$ is in or out), which is why the power set is the
-central object of Stage D's cardinality chapter. (Forward-honesty marker:
-nothing here depends on it.)
+| $P$ | $Q$ | $P \to Q$ | $\neg Q$ | $\neg P$ | $\neg Q \to \neg P$ |
+|-----|-----|-----------|----------|----------|----------------------|
+| T | T | T | F | F | T |
+| T | F | F | T | F | F |
+| F | T | T | F | T | T |
+| F | F | T | T | T | T |
+
+The columns $P \to Q$ and $\neg Q \to \neg P$ agree in all four rows.
 $\blacksquare$
 
 **Quick check.**
 
-1. State extensionality.
-2. Why is bounded comprehension safe where unbounded comprehension is not?
-3. True or false: $\varnothing \in \{\varnothing\}$, and
-   $\varnothing \subseteq \{\varnothing\}$?
-4. What theorem justifies the Kuratowski recipe for pairs?
-5. List every subset of $\{a, b, c\}$.
+1. Write the truth table of $\neg(P \land Q)$ and of
+   $\neg P \lor \neg Q$; what do you observe?
+2. State the definition of $\forall x \in D,\ P(x)$.
+3. How many rows does the truth table of a proposition built from
+   three propositions $P, Q, R$ have?
+4. State the classical-logic axiom, and where it is recorded.
+5. In row (T, F), why is $P \to Q$ false while $P \lor Q$ is true?
+6. Which connective does $P \leftrightarrow Q$ abbreviate, by the
+   table?
+7. Give the three permitted kinds of lines in a proof, plus the
+   fourth.
+8. Why are "clearly" and "obviously" banned?
 
-*Answers:* **1.** Sets are equal exactly when they have the same elements.
-**2.** Bounded comprehension collects from a given set, so the collection
-cannot be the paradox-bearing "set of all sets"; unbounded comprehension
-produces Russell's $R$. **3.** True and true: the one element of the right
-set is $\varnothing$ itself, and the empty set is a subset of every set.
-**4.** $(a, b) = (c, d)$ if and only if $a = c$ and $b = d$ (Problem 2).
-**5.** $\varnothing$; the singletons $\{a\}$, $\{b\}$, $\{c\}$; the
-pairs $\{a, b\}$, $\{a, c\}$, $\{b, c\}$; and $\{a, b, c\}$: one subset
-for each way of deciding, for every element separately, whether it is in
-or out.
+*Answers:* **1.** The columns are identical in all four rows (De
+Morgan's law, here by enumeration). **2.** $P(x)$ holds for every
+element of the domain $D$. **3.** $2^3$-style enumeration: eight
+rows, one per assignment of T/F to the three propositions. **4.** T/F
+exclusivity plus double-negation licensing; recorded in the course
+map's axiom table. **5.** Row 2: $P \to Q$ needs $Q$ true when $P$ is
+true and it is not; $P \lor Q$ needs at least one true and $P$ is.
+**6.** Mutual implication: each implies the other. **7.** Axiom,
+definition, previously proved statement, rule-licensed consequence.
+**8.** They name a skipped line: the licence the definition demands
+is missing.
+
+## 2. Sets: Membership, Operations, Products, Power Sets
+
+**Definition (set, extensionality).** A **set** is a collection of
+objects, its **elements**. Sets $S, T$ are equal exactly when
+$\forall x\ (x \in S \leftrightarrow x \in T)$.
+
+**Definition (membership operations).** For sets $S, T$:
+
+- $S \subseteq T :\Longleftrightarrow \forall x\ (x \in S \to x \in
+  T)$.
+- $S \cup T := \{x : x \in S \lor x \in T\}$.
+- $S \cap T := \{x : x \in S \land x \in T\}$.
+- $S \setminus T := \{x : x \in S \land x \notin T\}$.
+
+**Definition (bounded comprehension).** For a set $S$ and proposition
+$P$: $\{x \in S : P(x)\}$ denotes $\{x : x \in S \land P(x)\}$. The
+unbounded form $\{x : P(x)\}$ is forbidden; Russell's paradox is the
+reason (Problem 1).
+
+**Ponder.** Before reading on: let $R$ be "the set of all sets that
+are not members of themselves". Evaluate $R \in R$ under each of its
+two possible answers. What does the contradiction diagnose: the
+classical-logic axiom, or the unbounded comprehension?
+
+<details class="wn-spoiler">
+<summary>The autopsy</summary>
+<div class="wn-spoiler-body">
+
+$R \in R \to R \notin R$ and $R \notin R \to R \in R$: a proposition
+that is neither T nor F, violating the axiom. The axiom is innocent;
+the comprehension is the culprit. Bounded comprehension collects only
+inside an existing set, so the collection cannot be "all sets". Every
+set in this course is built by bounded comprehension, and no proof
+ever quantifies over "all sets".
+
+</div>
+</details>
+
+**Definition (empty set).** $\varnothing :=$ the set with
+$\forall x\ (x \notin \varnothing)$; it is a set by comprehension on
+any given set.
+
+**Definition (product).** The ordered pair
+$(a, b) := \{\{a\}, \{a, b\}\}$, and $S \times T := \{(s, t) : s \in
+S \land t \in T\}$.
+
+**Theorem (pair law).** $(a, b) = (c, d) \leftrightarrow (a = c
+\land b = d)$. (Proof: Problem 2.)
+
+**Definition (power set).** $\mathcal{P}(S) := \{T : T \subseteq S\}$.
+
+**Example (representation).** For $S = \{a, b\}$:
+
+| subset of $S$ | in words |
+|---|---|
+| $\varnothing$ | neither in |
+| $\{a\}$ | $a$ in, $b$ out |
+| $\{b\}$ | $a$ out, $b$ in |
+| $\{a, b\}$ | both in |
+
+Each subset is one row: a decision, for every element separately,
+whether it is in. $\blacksquare$
+
+**Quick check.**
+
+1. Prove $S \cap T \subseteq S$ from the definitions (one line:
+   take $x \in S \cap T$, and license each step).
+2. Compute $(S \setminus T) \cup (T \setminus S)$ for $S = \{a, b\}$,
+   $T = \{b, c\}$.
+3. Prove or disprove: $\varnothing \in \mathcal{P}(\varnothing)$.
+4. State the comprehension that builds $S \setminus T$.
+5. Prove: if $S \subseteq T$ then $S \cup T = T$ (element chase).
+6. Prove: $S \cap (T \cup U) = (S \cap T) \cup (S \cap U)$ (element
+   chase with the connective table from Section 1).
+7. What are the two comprehension bounds in the definition of
+   $S \times T$?
+8. How does the pair law justify the Kuratowski recipe
+   $(a, b) := \{\{a\}, \{a, b\}\}$?
+
+*Answers:* **1.** Let $x \in S \cap T$; by definition $x \in S \land
+x \in T$; the rule for $\land$ gives $x \in S$; hence $x \in S$; so
+$S \cap T \subseteq S$. **2.** $\{a, c\}$ (in exactly one of the two
+sets). **3.** True: $\mathcal{P}(\varnothing) = \{\varnothing\}$, and
+$\varnothing$ is its element. **4.** $S \setminus T := \{x \in S :
+x \notin T\}$. **5.** $\supseteq$: $t \in T$ has $t \in S \cup T$.
+$\subseteq$: $x \in S \cup T$ is $x \in S \lor x \in T$; in the first
+case $x \in T$ by hypothesis; in the second $x \in T$ directly.
+**6.** The element chase reduces to the connective identity $\land$
+distributes over $\lor$, which is row-checked in Section 1. **7.**
+$x \in S$ and $t \in T$ (two bounded comprehensions, one per side of
+the pair). **8.** The recipe earns its definition by the pair law:
+$(a, b) = (c, d) \leftrightarrow (a = c \land b = d)$, so pairs built
+from sets behave as pairs must (Problem 2 proves it).
 
 ## 3. Relations: Order and Equivalence
 
-**The naive conjecture.** Whatever "order" means, it should put everything
-in a line: every pair comparable, always. The subset relation refutes this
-immediately, as Section 2's own example shows: the singletons $\{a\}$ and
-$\{b\}$ neither contain each other. The repair is not a workaround but a
-definition: order-ness is three laws, and comparability is an extra that
-must be earned, never assumed.
+**The naive conjecture.** "Order" means everything compares. The
+singletons $\{a\}$ and $\{b\}$ of Section 2 refute it under $\subseteq$:
+neither contains the other. Comparability is an extra law, not a
+given.
 
-**Definition.** A **relation** on a set $S$ is a subset $R \subseteq S
-\times S$. Write $x \,R\, y$ when $(x, y) \in R$. A relation is nothing
-more than a set of pairs; every property relations have is a property of
-that set of pairs.
+**Definition (relation).** A relation on $S$ is an element $R \in
+\mathcal{P}(S \times S)$; write $x \,R\, y :\Longleftrightarrow (x, y)
+\in R$.
 
-**Definition (order).** A relation $\preceq$ on $S$ is a **partial order**
-when it is **reflexive** ($x \preceq x$ always), **antisymmetric**
-($x \preceq y$ and $y \preceq x$ force $x = y$), and **transitive**
-($x \preceq y$ and $y \preceq z$ force $x \preceq z$). It is a **total
-order** when additionally every pair is comparable: $x \preceq y$ or
-$y \preceq x$ always.
+**Definition (partial order).** $R$ is a partial order when:
 
-**Example.** Subset inclusion is a partial order on $\mathcal{P}(S)$:
-reflexive by definition, antisymmetric by extensionality, transitive by a
-one-line element chase (Problem 1 asks for it). It is *not* total whenever
-$S$ contains distinct $a$ and $b$: $\{a\}$ and $\{b\}$ are incomparable. Partial orders
-are the honest default; totality is a bonus that must be proved, never
-assumed. $\blacksquare$
+- **reflexive**: $\forall a\ (a \,R\, a)$;
+- **antisymmetric**: $\forall a, b\ ((a \,R\, b \land b \,R\, a) \to
+  a = b)$;
+- **transitive**: $\forall a, b, c\ ((a \,R\, b \land b \,R\, c) \to
+  a \,R\, c)$.
 
-**Definition (equivalence).** A relation $\sim$ on $S$ is an **equivalence
-relation** when it is reflexive, symmetric ($x \sim y$ forces
-$y \sim x$), and transitive.
+It is a **total order** when additionally $\forall a, b\ (a \,R\, b
+\lor b \,R\, a)$.
 
-**Example.** On the people in a room, declare $x \sim y$ when $x$ and $y$
-were born in the same month. Reflexive: everyone shares their own month.
-Symmetric and transitive: "same as the same" chains. $\blacksquare$
+**Example (representation).** $\subseteq$ on $\mathcal{P}(\{a, b\})$
+as a table of comparisons ($\checkmark$ = related, blank = not):
 
-**Definition.** For an equivalence relation $\sim$ on $S$ and $x \in S$,
-the **equivalence class** of $x$ is $[x] := \{y \in S : y \sim x\}$. The
-class is a *subset*, built by bounded comprehension.
+| $\subseteq$ | $\varnothing$ | $\{a\}$ | $\{b\}$ | $\{a, b\}$ |
+|---|---|---|---|---|
+| $\varnothing$ | ✓ | ✓ | ✓ | ✓ |
+| $\{a\}$ | | ✓ | | ✓ |
+| $\{b\}$ | | | ✓ | ✓ |
+| $\{a, b\}$ | | | | ✓ |
 
-**Theorem (the partition correspondence).** The equivalence classes of an
-equivalence relation on $S$ are disjoint, non-empty, and their union is
-$S$. Conversely, any family of non-empty disjoint subsets whose union is
-$S$ arises as the classes of exactly one equivalence relation, namely
-"$x \sim y$ if and only if $x$ and $y$ lie in the same member of the
-family."
+Reflexive: the diagonal is all ✓. Antisymmetric: no two distinct
+elements are mutually ✓. Transitive: chase the ✓s. Not total: the
+$\{a\}$/$\{b\}$ cells are blank. $\blacksquare$
 
-*Proof.* Non-empty: $x \in [x]$ by reflexivity. Union: every $x$ lies in
-its own class, so the classes cover $S$. Disjoint: suppose $[x]$ and $[y]$
-share an element $z$; then $z \sim x$ and $z \sim y$, so by symmetry and
-transitivity $x \sim y$, and then any $w \in [x]$ satisfies $w \sim x
-\sim y$, giving $w \in [y]$; the classes are equal, not partially
-overlapping. Conversely, given the family, reflexivity, symmetry and
-transitivity of "same member" are immediate from the definition of the
-family; and if two members $A$ and $B$ of the family both contain $x$,
-they share an element and so, being disjoint, are equal, which makes
-"same member" well-defined. $\blacksquare$
+**Definition (equivalence).** $R$ is an equivalence relation when:
+reflexive; **symmetric**: $\forall a, b\ ((a \,R\, b) \to (b \,R\,
+a))$; transitive.
 
-The theorem says: an equivalence relation *is* a way of cutting a set into
-non-overlapping pieces. This is not a slogan; the proof above is the whole
-content, and Stage C will construct an entire number system out of exactly
-this cutting move. (Forward-honesty marker: that construction uses nothing
-beyond this page.)
+**Example.** On the people in a room: $x \sim y$ when $x$ and $y$
+were born in the same month. All three laws hold by "same as the
+same" chaining. $\blacksquare$
 
-**Quick check.**
+**Definition (class).** $[x] := \{y \in S : y \sim x\}$.
 
-1. Name the three properties of a partial order and the extra property of
-   a total order.
-2. Why is subset inclusion on $\mathcal{P}(S)$ not a total order when $S$
-   contains distinct $a$ and $b$?
-3. What are the equivalence classes of the same-birth-month relation on a
-   room of people?
-4. Where can two equivalence classes overlap, and what follows?
-5. State the partition correspondence in one sentence.
+**Theorem (partition correspondence).** The classes of an equivalence
+relation on $S$ form a disjoint cover of $S$; conversely, every
+disjoint cover $\{F_i\}$ of $S$ induces exactly one equivalence
+relation ("same $F_i$").
 
-*Answers:* **1.** Reflexive, antisymmetric, transitive; plus comparability
-of every pair. **2.** The singletons $\{a\}$ and $\{b\}$, for distinct $a$ and $b$, are
-incomparable. **3.** One class per birth month: the people born in January,
-the people born in February, and so on. **4.** Only by
-being equal; a shared element forces $x \sim y$ and then equality of the
-classes. **5.** Equivalence relations on $S$ and disjoint-coverings of
-$S$ are two descriptions of one idea, each recovered from the other.
+*Proof.* Nonempty: $x \in [x]$ by reflexivity. Cover: every $x$ lies
+in its own class. Disjoint: if $z \in [x] \cap [y]$, then $z \sim x$
+and $z \sim y$; symmetry and transitivity give $x \sim y$; then for
+any $w \in [x]$: $w \sim x \sim y$, so $w \in [y]$; hence $[x] =
+[y]$. Converse: same-member is reflexive, symmetric, transitive
+because "lies in the same member" is an equality of members, and
+disjointness makes the member unique. $\blacksquare$
 
-## 4. Functions: Injections, Surjections, Bijections
-
-**Definition.** A **function** $f$ from $S$ to $T$, written $f: S \to T$,
-is a relation $f \subseteq S \times T$ that is *total* (every $x \in S$
-has some $y$ with $(x, y) \in f$) and *single-valued* (that $y$ is unique:
-$(x, y), (x, y') \in f$ force $y = y'$). Write $f(x) = y$. A function is a
-relation with two extra laws, nothing more.
-
-**Definition.** $f: S \to T$ is **injective** when distinct inputs give
-distinct outputs ($f(x) = f(x')$ forces $x = x'$); **surjective** when
-every $t \in T$ is hit ($\forall t \in T\ \exists s \in S,\ f(s) = t$);
-**bijective** when both. A bijection pairs up $S$ and $T$ with no
-collisions and no leftovers: that pairing *is* the meaning of "the two
-sets have the same size", and Stage D will build the entire theory of
-infinite size on this definition. (Forward-honesty marker: nothing here
-depends on it.)
-
-**Definition.** For $f: S \to T$ and $g: T \to U$ the **composition** $g
-\circ f: S \to U$ is $(g \circ f)(x) := g(f(x))$. Composition is
-associative: $(h \circ g) \circ f = h \circ (g \circ f)$, because both
-sides send $x$ to $h(g(f(x)))$ and extensionality of relations (here, of
-sets of pairs) makes equal behaviour equal.
-
-**Ponder.** Before reading on: try to *undo* a function that forgets. Let
-the inputs be the people of a room and the outputs their birth-months:
-$f(x) :=$ the month of $x$. Attempt an inverse $g$: from "March", recover
-the person. What does $g$ have to demand of the room?
+**Ponder.** Before reading on: can two distinct classes share exactly
+one element? Try to build such a pair from the definition of $[x]$
+before reading the proof's third line.
 
 <details class="wn-spoiler">
 <summary>The autopsy</summary>
 <div class="wn-spoiler-body">
 
-The attempt fails twice, and the failures are the definition. Several
-people share a month, so "March" cannot name a person: the function is
-not injective, and collisions are exactly what undoing cannot survive. No
-month is guaranteed occupied, so some outputs have no person to return
-to: the function is not surjective, and gaps are the other thing undoing
-cannot survive. Injective and surjective together, bijective, is
-precisely *undoable*. The theorem below says that "precisely" is exact.
+Suppose $z \in [x] \cap [y]$. The definitions give $z \sim x$ and
+$z \sim y$; symmetry turns the first into $x \sim z$; transitivity
+chains $x \sim z \sim y$ into $x \sim y$; and then every member of
+$[x]$ is a member of $[y]$. The "share one element" attempt collapses
+into equality. A wrong guess here usually forgets the symmetry step;
+the autopsy names it.
 
 </div>
 </details>
 
-**Theorem.** $f: S \to T$ is bijective if and only if it has an inverse: a
-function $g: T \to S$ with $g(f(x)) = x$ for all $x \in S$ and
-$f(g(t)) = t$ for all $t \in T$. The inverse, when it exists, is unique.
+**Quick check.**
 
-*Proof.* Suppose $f$ bijective. Define $g$ by: $g(t)$ is the unique $s$
-with $f(s) = t$; surjectivity guarantees some $s$, injectivity guarantees
-it is unique, which is exactly the two laws of being a function. Then
-$g(f(x)) = x$ since $x$ is such an $s$, and $f(g(t)) = t$ by the defining
-property of $g(t)$. Conversely, given such a $g$: injectivity holds
-because $f(x) = f(x')$ gives $x = g(f(x)) = g(f(x')) = x'$; surjectivity
-holds because any $t$ is $f(g(t))$. Uniqueness: if $g$ and $g'$ both
-invert $f$, then for any $t$, $t = f(g(t))$, so applying $g'$ gives
-$g'(t) = g'(f(g(t))) = g(t)$, using $g'$'s first law; hence $g' = g$ by
-extensionality. $\blacksquare$
+1. Write the three order laws as formal $\forall$-statements.
+2. In the representation table, list the ordered pairs $(X, Y)$ with
+   $X \subseteq Y$, $X \neq Y$.
+3. Prove $\subseteq$ on $\mathcal{P}(S)$ is antisymmetric using only
+   extensionality.
+4. State symmetry and transitivity as formal $\forall$-statements.
+5. For the same-birth-month relation on a room of people, list the
+   equivalence classes.
+6. Prove: $x \sim y \to [x] = [y]$ (three lines: symmetry,
+   transitivity twice, element chase).
+7. What does the converse half of the partition correspondence
+   construct?
+8. Why is "same member" well-defined when the family is disjoint?
 
-**Theorem (no surjection onto the power set).** For every set $S$ and
-every function $f: S \to \mathcal{P}(S)$, there is a subset of $S$ that
-$f$ does not hit.
+*Answers:* **1.** Reflexive: $\forall a\ (a \,R\, a)$;
+antisymmetric: $\forall a, b\ ((a \,R\, b \land b \,R\, a) \to a =
+b)$; transitive: $\forall a, b, c\ ((a \,R\, b \land b \,R\, c) \to
+a \,R\, c)$; total adds $\forall a, b\ (a \,R\, b \lor b \,R\, a)$.
+**2.** $(\varnothing, \{a\})$, $(\varnothing, \{b\})$,
+$(\varnothing, \{a, b\})$, $(\{a\}, \{a, b\})$, $(\{b\}, \{a, b\})$.
+**3.** If $S \subseteq T$ and $T \subseteq S$, extensionality gives
+$S = T$. **4.** Symmetric: $\forall a, b\ ((a \sim b) \to (b \sim
+a))$; transitive: $\forall a, b, c\ ((a \sim b \land b \sim c) \to
+(a \sim c))$. **5.** One class per birth month: the people born in
+each month. **6.** $w \in [x] \to w \sim x$; with $x \sim y$,
+transitivity gives $w \sim y$, so $w \in [y]$; extensionality gives
+$[x] = [y]$. **7.** The partition (the disjoint cover) that the
+relation's classes realize. **8.** Disjointness means a member of $S$
+lies in at most one family member, so "the member containing it" is
+unique.
 
-*Proof.* Consider $D := \{x \in S : x \notin f(x)\}$, bounded
-comprehension, honest. If some $s$ had $f(s) = D$, ask whether $s \in D$.
-By $D$'s definition, $s \in D$ exactly when $s \notin f(s)$, and since
-$f(s) = D$ that says $s \in D$ exactly when $s \notin D$: either answer
-forces its negation, contradicting the classical-logic axiom. So no such
-$s$ exists and $D$ is unhit. $\blacksquare$
+## 4. Functions: Relations with Two Extra Laws
 
-This is the diagonal move: the set $D$ disagrees with $f(s)$ at the point
-$s$, for every $s$ simultaneously. Stage D will run the same move against
-listings of the real line, where the payoff is that the real line is too
-big to list. (Forward-honesty marker: the proof here is complete on its
-own.)
+**Definition (function).** $f \subseteq S \times T$ is a function
+$S \to T$ when:
+
+- **total**: $\forall x \in S\ \exists y \in T,\ (x, y) \in f$;
+- **single-valued**: $\forall x \in S\ \forall y, y' \in T\ ((x, y)
+  \in f \land (x, y') \in f) \to y = y'$.
+
+Write $f(x) = y$ for the unique $y$.
+
+**Definition.** $f$ is **injective** when $\forall x, x' \in S\ (f(x)
+= f(x') \to x = x')$; **surjective** when $\forall t \in T\ \exists
+s \in S,\ f(s) = t$; **bijective** when both.
+
+**Ponder.** Before reading on: try to *undo* a forgetting function.
+Inputs: the people of a room. Outputs: their birth-months,
+$f(x) :=$ the month of $x$. Attempt an inverse $g$: from "March",
+recover the person. What must $g$ demand of the room?
+
+<details class="wn-spoiler">
+<summary>The autopsy</summary>
+<div class="wn-spoiler-body">
+
+Two failures, and they are the definition. Several people share a
+month, so "March" cannot name one person to return: $f$ is not
+injective. Some months have no person at all, so some outputs have no
+input to return: $f$ is not surjective. Injective + surjective =
+bijective is exactly undoability. The theorem below proves the
+"exactly".
+
+</div>
+</details>
+
+**Definition (composition).** $g \circ f: S \to U$ with
+$(g \circ f)(x) := g(f(x))$.
+
+**Theorem (inverse).** $f$ is bijective if and only if there exists
+$g: T \to S$ with $g \circ f = \mathrm{id}_S$ and $f \circ g =
+\mathrm{id}_T$; $g$ is then unique.
+
+*Proof.* ($\to$) Define $g(t) :=$ the unique $s$ with $f(s) = t$;
+surjectivity gives existence, injectivity gives uniqueness (so $g$
+satisfies single-valuedness), and totality holds since every $t \in
+T$ is some $f(s)$. Then $g(f(x)) = x$ and $f(g(t)) = t$ by
+construction. ($\leftarrow$) Given $g$: injectivity of $f$ holds
+because $f(x) = f(x')$ implies $x = g(f(x)) = g(f(x')) = x'$;
+surjectivity holds because every $t$ equals $f(g(t))$. Uniqueness of
+$g$: if $g'$ also inverts $f$, then for every $t$: $t = f(g(t))$, so
+$g'(t) = g'(f(g(t))) = g(t)$; extensionality gives $g' = g$.
+$\blacksquare$
+
+**Theorem (no surjection onto the power set).** For every $f: S \to
+\mathcal{P}(S)$ there exists $D \subseteq S$ with $D \notin f$'s
+image.
+
+*Proof.* $D := \{x \in S : x \notin f(x)\}$ (bounded comprehension).
+If $f(s) = D$ for some $s$: $s \in D \leftrightarrow s \notin D$ by
+$D$'s definition, contradicting the classical-logic axiom. So $D$ is
+unhit. $\blacksquare$
 
 **Quick check.**
 
-1. Which two laws turn a relation into a function?
-2. State injective, surjective, bijective in one line each.
-3. Where did the proof of the inverse theorem use surjectivity, and where
-   injectivity?
-4. In the diagonal proof, what exactly contradicts the classical-logic
-   axiom?
-5. Give a function $f: S \to \mathcal{P}(S)$ for $S = \{a\}$ and an
-   unhit subset.
+1. Write the two function laws as formal $\forall/\exists$
+   statements.
+2. State injective, surjective as formal statements.
+3. Prove: the composition of two injections is injective.
+4. Where do surjectivity and injectivity each enter the inverse
+   construction?
+5. In the diagonal proof, which axiom does the final contradiction
+   invoke?
+6. For $S = \{a\}$: give $f: S \to \mathcal{P}(S)$ and an unhit
+   subset.
+7. Prove: if $f$ is injective and $g \circ f$ is defined, then $g
+   \circ f$ injective implies $g$ injective on $f$'s image.
+8. Why does the uniqueness proof of $g$ use extensionality?
 
-*Answers:* **1.** Totality and single-valuedness. **2.** No collisions;
-everything is hit; both. **3.** Surjectivity produced $s$ for $g(t)$;
-injectivity made $s$ unique and proved injectivity of $f$. **4.** The set
-$D$ yields the proposition "$s \in D$ if and only if $s \notin D$", which
-is neither true nor false. **5.** $f(a) := \varnothing$; then $\{a\}$ is
-unhit. (The theorem says some subset is unhit; finding it is allowed.)
+*Answers:* **1.** Total: $\forall x \in S\ \exists y \in T\ ((x, y)
+\in f)$; single-valued: $\forall x\ \forall y, y'\ (((x, y) \in f
+\land (x, y') \in f) \to y = y')$. **2.** Injective:
+$\forall x, x'\ (f(x) = f(x') \to x = x')$; surjective:
+$\forall t \in T\ \exists s \in S\ (f(s) = t)$. **3.** Let $g(f(x))
+= g(f(x'))$; $g$ injective gives $f(x) = f(x')$; $f$ injective gives
+$x = x'$. **4.** Surjectivity guarantees the preimage exists
+(totality of $g$); injectivity guarantees it is unique (single-
+valuedness). **5.** The classical-logic axiom: "$s \in D
+\leftrightarrow s \notin D$" is neither T nor F. **6.** $f(a) :=
+\varnothing$; the unhit subset is $\{a\}$. **7.** Restrict $g$ to
+$f$'s image; the same argument as Theorem inverse-unique applies
+there. **8.** Two functions with the same values on every input are
+the same set of pairs.
 
 ## 5. The False Proof, Dissected
 
-Now the monster, as promised. The claim under examination:
+**The claim.** $\forall x\ \exists y,\ M(x, y) \to \exists y\ \forall
+x,\ M(x, y)$, where $M(x, y)$ means "$y$ is the mother of $x$" and
+the domain is all people. The premise is true; the conclusion is
+false.
 
-> **Claim.** Since every person has a mother, there is a person who is the
-> mother of everyone.
+> **The false proof.** Fix an arbitrary person $x$. By the premise,
+> some $y$ satisfies $M(x, y)$, namely $x$'s mother. Since $x$ was
+> arbitrary, this $y$ works for every person. $\blacksquare$
 
-Let the domain be all people, and $M(x, y)$ mean "$y$ is the mother of
-$x$". The premise is $\forall x\ \exists y,\ M(x, y)$: true. The claim is
-$\exists y\ \forall x,\ M(x, y)$: false. Here is an argument for the claim
-that no rule catches at a glance.
+**The autopsy.** The premise licenses a witness $y$ *for each $x$*,
+possibly different per $x$: write it $y = m(x)$. The step "since $x$
+was arbitrary" generalises over $x$ while $y = m(x)$ silently
+depends on it. The licence for universal introduction demands the
+witness be independent of the generalised variable; here the
+dependence is the entire content. Formally: from $\forall x\
+\exists y\ R(x, y)$ one may derive $\forall x\ R(x, m(x))$ for a
+witness function $m$, but never $\exists y\ \forall x\ R(x, y)$.
 
-> **The false proof.** Fix an arbitrary person $x$. By the premise there
-> exists $y$ with $M(x, y)$, namely $x$'s mother. Since $x$ was arbitrary,
-> this $y$ works for every person. Hence $\exists y\ \forall x,\ M(x, y)$.
-> $\blacksquare$
+**The counterexample (representation).** Domain $\{a, b\}$; the
+relation as an explicit set of pairs:
+$L = \{(a, a), (b, b)\}$.
 
-It *feels* airtight. It proves nothing. The dissection is the most valuable
-page-content in Stage A, so it is done slowly.
+| $L$ | $a$ | $b$ |
+|---|---|---|
+| $a$ | ✓ | |
+| $b$ | | ✓ |
 
-**The autopsy.** The premise $\forall x\ \exists y,\ M(x, y)$ licenses the
-following, and only the following: for *each* $x$, a witness $y$ *possibly
-different for each $x$*. Choosing the witness for one arbitrary $x$ makes
-$y$ a function of $x$ in disguise: write it $y = m(x)$, the mother of $x$.
-The false proof then treats this $m(x)$ as if it were a single fixed
-object. The sentence "since $x$ was arbitrary" is the sleight: arbitrariness
-of $x$ licenses a conclusion *about $x$* with $y$ held fixed, but here $y$
-was *not* held fixed; it varied with $x$ across the very choices being
-made. The rule being violated has a name: universal introduction requires
-a witness for the conclusion that does not depend on the variable being
-generalised over. Here the dependence is the whole story.
+Then $\forall x\ \exists y,\ L(x, y)$ holds ($y := x$), while
+$\exists y\ \forall x,\ L(x, y)$ fails: $a$ is not loved by $b$ and
+$b$ is not loved by $a$. Premise true, conclusion false.
 
-**The concrete counterexample.** A world whose people are $a$ and $b$,
-and no one else. Each their own mother-stand-in is absurd, so use a
-cleaner relation:
-$L(x, y)$, "$y$ loves $x$". Suppose $L(a, a)$ and $L(b, b)$ and no other
-loves hold. Then $\forall x\ \exists y,\ L(x, y)$ is true (each person is
-loved, by themselves: choose $y = x$), while $\exists y\ \forall x,\ L(x,
-y)$ is false ($a$ is not loved by $b$ and $b$ is not loved by $a$, so no
-single $y$ loves everyone). Premise true, conclusion false: the argument
-form is invalid, whatever the flavour of the prose.
+**The second monster.** "Every person is tall or short": take any
+person; they are not both tall and short; so they are tall or short.
+The gap: "not both" yields "one of the two" only when the two cases
+exhaust, and middle height is neither. Exhaustive dichotomy means
+$P \lor \neg P$ (the classical-logic axiom), and each case must reach
+the conclusion independently.
 
-**Ponder.** Before reading on: the false proof chose "an arbitrary $x$".
-What would a *correct* proof of an existential claim $\exists y\ \dots$
-look like, and why can arbitrariness never appear there?
+**The four licensed shapes.** Direct proof; contrapositive
+(Section 1's table); contradiction (the axiom); exhaustive cases.
+Everything later is built from these.
+
+**Ponder.** Before reading on: the false proof is error-shaped, not
+nonsense-shaped. Why does the course demand counterexamples of
+exactly that kind?
 
 <details class="wn-spoiler">
 <summary>The autopsy</summary>
 <div class="wn-spoiler-body">
 
-An existential claim is proved by *exhibiting*: name or construct a
-specific witness and prove it satisfies the property. There is no
-arbitrariness, because no generalisation happens; the witness is a
-particular object (or a construction whose description may use given
-data, but must deliver one fixed object). The false proof's structure is
-exactly backwards: it argued like a universal proof (fix arbitrary $x$,
-generalise) while claiming an existential conclusion. Matching proof
-shapes to quantifier shapes is half of Stage A.
-
-</div>
-</details>
-
-**The second monster: a dichotomy that misses a case.** Proof by cases is
-waterproof when the cases exhaust. Here is an argument that pretends they
-do. Claim: every person in a room is either tall or short. "Proof": take
-any person; they are not both tall and short (assume tall and short are
-opposites), so they are tall or short. The gap: "not both" does not give
-"one of the two" unless the two options *exhaust the possibilities*. A
-person of middle height is neither, and the argument never licensed
-excluding them. The repair is a definition, again: cases must come from an
-exhaustive split, such as "$P$ or $\neg P$" (which is the classical-logic
-axiom at work), and each case must reach the conclusion *independently*.
-
-**The patterns that remain.** After the dissection, four shapes of proof
-are licensed in this course, and everything later is built from them:
-
-1. **Direct proof**: chain definitions and prior results until the target.
-2. **Contrapositive**: to prove $P \to Q$, prove $\neg Q \to \neg P$,
-   justified by Section 1's truth table.
-3. **Contradiction**: assume $\neg P$, derive a contradiction, conclude
-   $P$; justified by the classical-logic axiom, declared in Section 1 and
-   never silently.
-4. **Cases**: split on an exhaustive dichotomy; win in every case.
-
-**Ponder.** Before reading on: the false proof is error-shaped, not
-nonsense-shaped. Why is that the standard to demand of a counterexample,
-per this course's method?
-
-<details class="wn-spoiler">
-<summary>Compare your answer</summary>
-<div class="wn-spoiler-body">
-
-A nonsense argument teaches nothing: nobody would have believed it. An
-error-shaped argument is one a careful person could produce, which means
-the error marks a real boundary in the method, not a typo. Dissecting it
-yields a *rule* (existential witnesses may depend on the variable; universal
-witnesses may not), and the rule outlives the example. That is the course's
-dialectic in one paragraph: conjecture, attempt, monster, repaired
-definition.
+A nonsense argument teaches nothing; an error-shaped argument is one
+a careful person could produce, so its error marks a boundary in the
+method. Dissecting it yields a rule: existential witnesses may depend
+on the variable, universal witnesses may not. The rule outlives the
+example: conjecture, attempt, monster, repaired definition.
 
 </div>
 </details>
 
 **Quick check.**
 
-1. State the exact rule the false proof violated.
-2. Give the $a$-and-$b$ counterexample in full.
-3. What licence does a proof by cases need beyond the cases themselves?
-4. Which of the four proof shapes rests on the classical-logic axiom?
-5. In one sentence: why can "since $x$ was arbitrary" not rescue the
-   false proof?
+1. State the violated rule as a $\forall/\exists$ statement.
+2. Write the counterexample's relation $L$ as a set of pairs and
+   verify both quantified claims.
+3. What licence does a case proof need beyond exhaustion?
+4. Which of the four shapes rests on the classical-logic axiom?
+5. Prove: $\exists y\ \forall x,\ R(x, y)$ implies $\forall x\
+   \exists y,\ R(x, y)$ (the converse direction is valid). Which
+   direction is the false proof?
+6. Give a relation $R$ on $\{a, b\}$ where both quantified claims
+   hold.
+7. In the false proof, what is the witness function $m$, explicitly?
+8. Why does the counterexample need the domain to have at least two
+   elements?
 
-*Answers:* **1.** Universal introduction's witness must not depend on the
-generalised variable; here $y$ depended on $x$. **2.** $L(a, a)$,
-$L(b, b)$, nothing else: premise true ($y := x$ each time), conclusion
-false. **3.** Exhaustiveness, plus independent arguments in each case.
-**4.** Contradiction (and every use of "not both gives one of two").
-**5.** Arbitrariness of $x$ licenses conclusions about $x$ with the other
-objects fixed, but the witness $y$ varied with $x$ across the choices.
+*Answers:* **1.** $\forall x\ \exists y\ R(x, y)$ does not imply
+$\exists y\ \forall x\ R(x, y)$: the existential witness $y$ may
+depend on $x$. **2.** $L = \{(a, a), (b, b)\}$;
+$\forall x\ \exists y$ holds with $y := x$;
+$\exists y\ \forall x$ fails since neither $a$ nor $b$ is loved by
+both. **3.** Independent arguments per case. **4.** Cases (exhaustive
+dichotomy $P \lor \neg P$) and contradiction. **5.** The valid
+direction; the false proof ran the invalid direction (universal to
+existential). **6.** $R = \{(a, a), (b, b), (a, b)\}$: $y := b$
+serves both. **7.** $m(x) :=$ the mother of $x$; a function on the
+domain. **8.** On a one-element domain both claims hold, so no
+counterexample exists there.
 
 ## Stage Gate
 
-Before Stage B, answer these five without notes. Pass mark: four. Each is
-drawn from this page's quick checks; a failed gate names the section to
-reread (1: Section 1; 2: Section 2; 3: Section 3; 4: Section 4; 5:
-Section 5).
+Before Stage B, answer these five without notes. Pass mark: four. A
+failed gate names the section to reread (1: Section 1; 2: Section 2;
+3: Section 3; 4: Section 4; 5: Section 5).
 
-1. What four things may a line of a proof be?
-2. What does bounded comprehension prevent, and what is the paradox it
-   avoids?
+1. State the induction-adjacent rule: what may each line of a proof
+   be?
+2. Define bounded comprehension, and name the paradox it prevents.
 3. State the partition correspondence.
-4. Prove in two lines that the composition of two bijections is a
-   bijection (Problem 3 develops this; the gate wants the shape).
-5. State the quantifier rule whose violation the false proof committed.
+4. Prove: the composition of two bijections is a bijection (Problem 3
+   develops this; the gate wants the shape).
+5. State the quantifier rule the false proof violated.
 
 <details class="wn-spoiler">
 <summary>Gate answers</summary>
 <div class="wn-spoiler-body">
 
-**1.** Axiom, definition, previous result, rule-licensed consequence.
-**2.** Unbounded comprehension ("all sets with property $P$") produces
-Russell's paradox; bounded comprehension collects only inside a given set.
-**3.** Equivalence classes are a disjoint non-empty cover, and every
-disjoint non-empty cover arises from exactly one equivalence relation.
-**4.** $g \circ f$ surjective: for $z \in U$ pick $t$ with $g(t) = z$
-($g$ surjective) and $x$ with $f(x) = t$; injective: $(g \circ f)(x) =
-(g \circ f)(x')$ gives $f(x) = f(x')$ by $g$ injective, then $x = x'$ by
-$f$ injective. **5.** A universal-introduction witness must not depend on
-the generalised variable.
+**1.** Axiom, definition, previously proved statement, rule-licensed
+consequence. **2.** $\{x \in S : P(x)\}$ collects inside a given $S$;
+unbounded $\{x : P(x)\}$ produces Russell's $R$. **3.** Classes are a
+disjoint cover; every disjoint cover induces exactly one equivalence
+relation. **4.** $g \circ f$ surjective: for $z \in U$, pick $t$
+with $g(t) = z$, then $x$ with $f(x) = t$; injective: $g(f(x)) =
+g(f(x'))$ gives $f(x) = f(x')$ by $g$ injective, then $x = x'$ by $f$
+injective. **5.** $\forall x\ \exists y\ R(x, y) \not\to \exists
+y\ \forall x\ R(x, y)$: the universal witness may not depend on the
+generalised variable.
 
 </div>
 </details>
 
 ## Problems
 
-**Problems.** The quick checks tested recall. These chain several results
-and require full written arguments.
+**Problems.** The quick checks tested recall. These chain several
+results and require full written arguments.
 
-1. Prove that subset inclusion on $\mathcal{P}(S)$ is a partial order:
-   reflexivity, antisymmetry (use extensionality), transitivity (do the
-   element chase: assume $A \subseteq B \subseteq C$, take $x \in A$, and
-   license every step). Then take $S = \{a, b\}$ and show the order is not
-   total by exhibiting two incomparable subsets.
-   *(Hint: the transitivity chase is three lines, each licensed by a
-   definition.)*
-2. Prove the pair law: $(a, b) = (c, d)$ if and only if $a = c$ and
-   $b = d$, for the Kuratowski recipe $(a, b) = \{\{a\}, \{a, b\}\}$.
-   *(Hint: one direction is immediate by the recipe. For the other,
-   suppose $a = b$; then $\{\{a\}, \{a, b\}\} = \{\{a\}\}$ has one
-   element, so $\{c\} = \{d\}$, forcing $c = d = a$. In the main case
-   $\{a\} \in \{\{c\}, \{c, d\}\}$ forces $\{a\} = \{c\}$, hence
-   $a = c$; then $b$ is forced by comparing the remaining members.)*
-3. Let $f: S \to T$ and $g: T \to U$ be bijections. Prove $g \circ f$ is
-   a bijection, and prove $(g \circ f)^{-1} = f^{-1} \circ g^{-1}$ by
-   showing the right side satisfies the two inverting laws of the left
-   side's inverse (uniqueness is Theorem, Section 4).
-   *(Hint: the two laws are $x = f^{-1}(g^{-1}((g \circ f)(x)))$ and
-   $z = (g \circ f)(f^{-1}(g^{-1}(z)))$; both unwind by the definitions.)*
+1. Prove $\subseteq$ on $\mathcal{P}(S)$ is a partial order
+   (reflexive, antisymmetric, transitive), then take $S = \{a, b\}$
+   and show it is not total.
+   *(Hint: antisymmetry is extensionality; the transitivity chase is
+   three licensed steps.)*
+2. Prove the pair law: $(a, b) = (c, d) \leftrightarrow (a = c \land
+   b = d)$ for the Kuratowski recipe.
+   *(Hint: the case $a = b$ collapses $\{\{a\}, \{a, b\}\}$ to
+   $\{\{a\}\}$, forcing $c = d = a$; otherwise $\{a\} = \{c\}$
+   forces $a = c$, then compare remaining members.)*
+3. Prove: the composition of two bijections is a bijection, and
+   $(g \circ f)^{-1} = f^{-1} \circ g^{-1}$.
+   *(Hint: the two inverting laws for the pair are
+   $x = f^{-1}(g^{-1}((g \circ f)(x)))$ and
+   $z = (g \circ f)(f^{-1}(g^{-1}(z)))$.)*
 4. Prove: there is no injective function from $\{x, y, z\}$ to
-   $\{u, v\}$. Do it by exhaustive cases: enumerate the possible values
-   of $f(x)$, and for each of those, the possible values of $f(y)$, and
-   for each of those, the possible values of $f(z)$; conclude in every
-   branch that two of the three inputs collide. Confirm the branches
-   cover every function from $\{x, y, z\}$ to $\{u, v\}$.
-   *(Hint: every branch ends with $f(x) = f(y)$, $f(x) = f(z)$, or
-   $f(y) = f(z)$, since a branch is a complete choice of outputs and
-   only two outputs exist.)*
-5. In the diagonal proof, replace $\mathcal{P}(S)$ by the set of pairs
-   $S \times S$ and attempt the same construction: given $f: S \to S
-   \times S$, try $D := \{x \in S : (x, x) \notin f(x)\}$... where does
-   the argument break? Identify the exact line that can no longer be
-   licensed.
-   *(Hint: $D$ would need to be a subset of $S$, not a pair; the
-   contradiction in the original came from $D$ being a member of the
-   target set $\mathcal{P}(S)$, so $f(s) = D$ was even possible.)*
+   $\{u, v\}$, by exhaustive cases on $(f(x), f(y), f(z))$.
+   *(Hint: each branch is a complete choice of outputs, and with two
+   outputs some branch forces a collision $f(x_i) = f(x_j)$,
+   $i \neq j$.)*
+5. In the diagonal proof, attempt the same construction with
+   $\mathcal{P}(S)$ replaced by $S \times S$: try $D := \{x \in S :
+   (x, x) \notin f(x)\}$. Where exactly does the argument fail?
+   *(Hint: the contradiction required $f(s) = D$ to be possible, that
+   is, $D \in f$'s codomain; $S \times S$ is not $\mathcal{P}(S)$.)*
 
 ## Where to Go Next
 
-Stage B (Counting) builds the counting numbers from the Peano axioms:
-induction, then addition defined recursively with its laws proved as
-theorems, then multiplication, order, and division with remainder.
-Arithmetic becomes a theorem, and the equivalence classes and bijections
-of this page are the instruments it uses.
+Stage B (Counting) defines the counting numbers by five declarations
+(the Peano axioms), proves induction, addition, multiplication, order,
+division with remainder, and the counting arguments: arithmetic
+becomes a theorem, and this page's equivalence classes and bijections
+are its instruments.
 
 **Next: [Stage B: Counting](/17-core-course/stage-b-counting/).**
