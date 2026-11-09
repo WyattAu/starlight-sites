@@ -23429,7 +23429,9 @@ by Section 2. **5.** $a^{S(b)} = a^b \times a$.
 **Theorem (division with remainder).** For all $a$ and all $b \neq 0$,
 there exist exactly one $q$ and exactly one $r$ with
 
-$$a = b \times q + r, \qquad r < b.$$
+$$
+a = b \times q + r, \qquad r < b.
+$$
 
 *Proof (existence).* Strong induction on $a$. If $a = 0$: take $q := 0$,
 $r := 0$; then $b \times 0 + 0 = 0 = a$ and $0 < b$ since $b \neq 0$ is a

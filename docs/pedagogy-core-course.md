@@ -427,7 +427,9 @@ failure and is not optional):
 1. `bunx biome check . --diagnostic-level=error` (zero errors).
 2. `node scripts/sync-shared.mjs --check` (if shared assets were touched).
 3. Scoped lints on touched content: `lint-depth`, `lint-handwaves`,
-   `lint-descriptions`, `lint-links`.
+   `lint-descriptions`, `lint-links`, and the display-math delimiter check
+   (`node scripts/fix-display-math.mjs --check <file>`; single-line
+   `$$` blocks are rejected by the gate).
 4. `node scripts/lint-site-nav-parity.js` (if catalogue surfaces were
    touched).
 5. `python3 scripts/check-course-graph.py` (the dependency graph: acyclic,
