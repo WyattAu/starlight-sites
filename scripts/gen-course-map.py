@@ -54,7 +54,7 @@ def build_section(graph):
         if c["stage"] != current_stage:
             current_stage = c["stage"]
             s = stages[current_stage]
-            lines.append(f"| **Stage {current_stage} — {s['title']}** | *{s['blurb']}* | |")
+            lines.append(f"| **Stage {current_stage}: {s['title']}** | *{s['blurb']}* | |")
 
         status = "written" if c["status"] == "written" else "queued"
         notes = []

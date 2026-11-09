@@ -320,6 +320,30 @@ a \times S(b + c) = a \times (b + c) + a = (a \times b + a \times c) + a
 Section 2's step line inside, the induction hypothesis, and associativity
 of addition. $\blacksquare$
 
+**Ponder.** Before reading on: commutativity of addition took one
+induction. Try commutativity of multiplication the same way, induction on
+$b$: the step case needs $a \times S(b) = S(a) \times b$, and the
+definition hands you $a \times S(b) = a \times b + a$, which grows on
+the *wrong side*. Why is the swap harder here than for addition?
+
+<details class="wn-spoiler">
+<summary>The autopsy</summary>
+<div class="wn-spoiler-body">
+
+Addition's step line grows on the right ($a + S(b) = S(a + b)$), so
+induction on $b$ walks exactly the argument the definition manipulates.
+Multiplication's step line grows on the right too ($a \times S(b) =
+a \times b + a$), but the swap wants the growth to appear on the
+*outside*, wrapped in a successor, and the definition only produces a
+sum. The bridge is a helper identity ($S(a) \times b = a \times b +
+b$) proved by its own induction. The general lesson: commutativity of a
+recursively defined operation costs one helper per interaction between
+the recursion and the successor. Nothing is harder in kind; there is just
+more bookkeeping, and the bookkeeping is the mathematics.
+
+</div>
+</details>
+
 **Theorem (commutativity).** For all $a, b$: $a \times b = b \times a$.
 
 *Proof.* First a helper, by induction on $b$: $S(a) \times b = a \times b + b$. Base: $S(a) \times 0 = 0 = a \times 0 + 0$. Step: $S(a) \times
@@ -429,7 +453,8 @@ would violate the inequality argument in the uniqueness proof. Existence
 says the walk stops; uniqueness says the stopping place is a fact about
 $a$ and $b$, not about the walker. Stage C will keep the stopping place
 ($a \bmod b$) and throw away the quotient, and a new arithmetic will grow
-from it.
+from it. (Forward-honesty marker: the remainder theorem is used there,
+not here.)
 
 </div>
 </details>
@@ -494,6 +519,31 @@ then $z$ is a successor, $z = S(t)$ with $t \geq c$, so $\psi(t) = S(t)
 \ominus 1$'s neighbourhood, $t < k$ holds because $S(t) = z < k$. Hence
 $\psi$ is a bijection onto $[k]$ minus the point $c$.
 $\blacksquare$
+
+**Ponder.** Before reading on: the pigeonhole principle is the one you
+already believe. Try to imagine *believing it false*: seats and guests,
+more guests than seats, every guest on a distinct seat, and yet seats
+left over? The reason this cannot be imagined is exactly what the proof
+must construct: an injection from a longer list of counting numbers into
+a shorter one, which would let the shorter list measure the longer one.
+Watch the proof fail to exist.
+
+<details class="wn-spoiler">
+<summary>The autopsy</summary>
+<div class="wn-spoiler-body">
+
+Any imagined injection would assign to each of $k$ guests a distinct
+seat among $m < k$. Listing the guests' seats in order gives a
+nonincreasing chain that must strictly rise $k$ times while rising at
+most $m < k$ times in total: the chain runs out of strict rises. The
+formal proof below packages this exhaustion as strong induction, and the
+removal lemma is what lets the induction shorten the guest list by one
+without losing track of which seats are taken. The principle feels
+unprovable precisely because no finite counterexample can exist; that is
+why it needs induction rather than inspection.
+
+</div>
+</details>
 
 **Theorem (pigeonhole).** If $m < k$, then every function $[k] \to [m]$
 has a collision: some distinct $x, y$ with $f(x) = f(y)$. Equivalently,

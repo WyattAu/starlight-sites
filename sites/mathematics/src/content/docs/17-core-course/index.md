@@ -146,36 +146,36 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 
 | Chapter | Title | Status |
 |---|---|---|
-| **Stage A — Reasoning** | *Logic, sets, relations, functions. No numbers.* | |
+| **Stage A: Reasoning** | *Logic, sets, relations, functions. No numbers.* | |
 | A1 | Propositions, quantifiers, and what a proof is (assumes: classical-logic) | written |
 | A2 | Sets: membership, products, power sets | written |
 | A3 | Relations: order, equivalence | written |
 | A4 | Functions: injections, surjections, bijections, composition | written |
 | A5 | Proof strategies in action: the false proof, dissected | written |
-| **Stage B — Counting** | *Peano, induction, arithmetic as theorems.* | |
+| **Stage B: Counting** | *Peano, induction, arithmetic as theorems.* | |
 | B1 | The Peano axioms: what counting is | written |
 | B2 | Addition defined recursively; its laws proved (debt: recursion-principle → D5) | written |
 | B3 | Multiplication, order, exponentiation: all theorems | written |
 | B4 | Division with remainder; the Archimedean property | written |
 | B5 | Counting arguments: bijections, permutations, and the binomial theorem | written |
-| **Stage C — Expanding the line** | *Z, Q, primes, congruences, and the first crisis.* | |
+| **Stage C: Expanding the line** | *Z, Q, primes, congruences, and the first crisis.* | |
 | C1 | The failure of subtraction; Z as difference classes | queued |
 | C2 | The failure of division; Q as fraction classes; density | queued |
 | C3 | The first crisis: x^2 = 2 has no rational solution | queued |
 | C4 | Primes and the fundamental theorem of arithmetic | queued |
 | C5 | Congruence classes and the rings Z/nZ | queued |
-| **Stage D — The continuum** | *R constructed; completeness; cardinality; ordinals; choice.* | |
+| **Stage D: The continuum** | *R constructed; completeness; cardinality; ordinals; choice.* | |
 | D1 | Dedekind cuts: R constructed from order alone | queued |
 | D2 | Arithmetic and completeness of R, proved | queued |
 | D3 | Decimals, roots, the place of Q inside R | queued |
 | D4 | Cardinality: countable Q, uncountable R | queued |
 | D5 | Ordinals and transfinite induction (assumes: axiom-of-choice) | queued |
 | D6 | Choice, Zorn's lemma, and well-ordering | queued |
-| **Stage E — Completing algebra** | *Polynomials, C, and the FTA debt.* | |
+| **Stage E: Completing algebra** | *Polynomials, C, and the FTA debt.* | |
 | E1 | Polynomials as formal objects | queued |
 | E2 | C built as pairs with a multiplication rule | queued |
 | E3 | The fundamental theorem of algebra: statement, consequences, and the debt (debt: fundamental-theorem-of-algebra → K3) | queued |
-| **Stage F — Structure and linear algebra** | *Categories and linear algebra over R and C.* | |
+| **Stage F: Structure and linear algebra** | *Categories and linear algebra over R and C.* | |
 | F1 | Categories: objects, morphisms, universal properties, adjunctions | written |
 | F2 | Vector spaces, linear maps, dimension (debt: zorn-lemma → D6) | written |
 | F3 | Duality and the double dual | written |
@@ -185,7 +185,7 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | F7 | Eigenstructure, triangularisation, Cayley-Hamilton (debt: fundamental-theorem-of-algebra → K3) | written |
 | F8 | Inner products, orthogonality, the spectral theorem (debt: fundamental-theorem-of-algebra → K3) | written |
 | F9 | Canonical forms: what remains when diagonalisation fails | queued |
-| **Stage G — Euclidean analysis** | *Convergence, series, continuity, derivatives, integration, the elementary functions, ODEs. Discharges the multivariable debts.* | |
+| **Stage G: Euclidean analysis** | *Convergence, series, continuity, derivatives, integration, the elementary functions, ODEs. Discharges the multivariable debts.* | |
 | G1 | Convergence of sequences in R and R^n | queued |
 | G2 | Series and the exchange of limits | queued |
 | G3 | Continuity in several variables | queued |
@@ -195,13 +195,13 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | G7 | The exponential and trigonometric functions via power series | queued |
 | G8 | Integration on the real line and the fundamental theorem of calculus | queued |
 | G9 | The contraction mapping principle and existence for ODEs | queued |
-| **Stage H — The canvas** | *The canvas: spaces, compactness, quotients, approximation.* | |
+| **Stage H: The canvas** | *The canvas: spaces, compactness, quotients, approximation.* | |
 | H1 | Metric and topological spaces, continuity, homeomorphism (debt: completeness-axiom → D2, elementary-functions-continuity → G7) | written |
 | H2 | Connectedness and compactness; the IVT and EVT (debt: zorn-lemma → D6) | written |
 | H3 | Completeness, the Baire category theorem, and metrisation | queued |
 | H4 | Approximation and compactness in function spaces | queued |
 | H5 | The quotient topology: gluing and its price | queued |
-| **Stage I — Measure** | *Sigma-algebras to Fourier, ending at the probability laws.* | |
+| **Stage I: Measure** | *Sigma-algebras to Fourier, ending at the probability laws.* | |
 | I1 | Sigma-algebras and measures | queued |
 | I2 | The Lebesgue integral: Caratheodory | queued |
 | I3 | Modes of convergence | queued |
@@ -210,7 +210,7 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | I6 | Radon-Nikodym, conditional expectation, and the birth of probability | queued |
 | I7 | Fourier series and the Fourier transform | queued |
 | I8 | The laws of large numbers and the central limit theorem | queued |
-| **Stage J — Calculus as linearisation** | *Manifolds, tangent spaces, forms, Stokes, curvature.* | |
+| **Stage J: Calculus as linearisation** | *Manifolds, tangent spaces, forms, Stokes, curvature.* | |
 | J1 | Smooth manifolds: charts, atlases, smooth maps (debt: multivariable-chain-rule → G5, multivariable-inverse-function-theorem → G6, trigonometry-facts → G7) | written |
 | J2 | Tangent spaces, the differential, the IFT on manifolds (debt: fundamental-theorem-of-calculus → G8, differentiation-under-the-integral → I5) | written |
 | J3 | Differential forms and the exterior derivative (debt: clairaut-mixed-partials → G5) | written |
@@ -218,17 +218,17 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | J5 | Integration, orientation, and Stokes (debt: fubini-theorem → I5, change-of-variables-formula → I5, partitions-of-unity-existence → J4) | written |
 | J6 | Submanifolds, immersions, regular level sets | queued |
 | J7 | Connections, curvature, and geodesics | queued |
-| **Stage K — Complex analysis** | *Holomorphy, Cauchy, residues, and the FTA proved — the ledger closes.* | |
+| **Stage K: Complex analysis** | *Holomorphy, Cauchy, residues, and the FTA proved: the ledger closes.* | |
 | K1 | Holomorphy: complex differentiability and its rigidity | queued |
 | K2 | Complex integration, Cauchy's theorem, residues | queued |
 | K3 | The fundamental theorem of algebra, proved - the ledger closes | queued |
-| **Stage L — Algebra and symmetry** | *Groups, rings, Galois, Lie groups, and the geometry synthesis.* | |
+| **Stage L: Algebra and symmetry** | *Groups, rings, Galois, Lie groups, and the geometry synthesis.* | |
 | L1 | Groups through the categorical lens | queued |
 | L2 | Rings and modules (debt: zorn-lemma → D6) | queued |
 | L3 | Galois theory: symmetry of equations | queued |
 | L4 | Lie groups and group actions | queued |
 | L5 | Geometry: the fifth postulate, its collapse, and symmetry as geometry | queued |
-| **Stage M — The functional summit** | *Functional analysis to elliptic PDE: Banach and Hilbert spaces, distributions, Sobolev, the Laplacian's spectrum.* | |
+| **Stage M: The functional summit** | *Functional analysis to elliptic PDE: Banach and Hilbert spaces, distributions, Sobolev, the Laplacian's spectrum.* | |
 | M1 | Banach spaces and the four pillars (debt: zorn-lemma → D6) | queued |
 | M2 | Hilbert spaces and the spectral theorem for compact operators | queued |
 | M3 | Weak topologies, locally convex spaces, and distributions | queued |
@@ -236,7 +236,7 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | M5 | Sobolev spaces and weak derivatives | queued |
 | M6 | Elliptic theory: the Laplacian, Fredholm, and regularity | queued |
 | M7 | Unbounded operators, the spectral theorem, and Stone's theorem | queued |
-| **Stage N — Topology and geometry at research level** | *Homotopy, homological algebra, homology, de Rham cohomology, characteristic classes, Riemannian geometry, representations.* | |
+| **Stage N: Topology and geometry at research level** | *Homotopy, homological algebra, homology, de Rham cohomology, characteristic classes, Riemannian geometry, representations.* | |
 | N1 | The fundamental group, covering spaces, and Van Kampen | queued |
 | N2 | Homological algebra: chain complexes, derived functors, Ext and Tor | queued |
 | N3 | Homology: simplicial and singular | queued |
@@ -244,7 +244,7 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | N5 | Fibre bundles, connections, and characteristic classes | queued |
 | N6 | Riemannian geometry: Hopf-Rinow, Gauss-Bonnet, comparison | queued |
 | N7 | Representation theory: characters and Peter-Weyl | queued |
-| **Stage O — Probability at research level** | *Martingales, Brownian motion, the Ito calculus, and the diffusion bridge to PDE.* | |
+| **Stage O: Probability at research level** | *Martingales, Brownian motion, the Ito calculus, and the diffusion bridge to PDE.* | |
 | O1 | Martingales and optional stopping | queued |
 | O2 | Brownian motion: construction, invariance, pathologies | queued |
 | O3 | The Ito calculus | queued |
