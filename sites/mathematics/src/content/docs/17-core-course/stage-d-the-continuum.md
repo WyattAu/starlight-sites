@@ -118,16 +118,11 @@ would work but adds a quotient stage for no benefit.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** Nonempty, proper, closed downward, no greatest
-element. **2.** It ensures every cut boundary is approachable from
-inside by rationals, so rationals and their cuts behave identically in
-the order. **3.** $\alpha \subseteq \beta$. **4.** A cut contains only
-rationals strictly below its boundary, and $p$ is the boundary of
-$p^*$. **5.** Density (the embedding needs it); the crisis theorem is
-not used here: the cut construction does not presuppose that holes
-exist, only that they will be measured.
-
+1. Nonempty, proper, closed downward, no greatest element.
+2. It ensures every cut boundary is approachable from inside by rationals, so rationals and their cuts behave identically in the order.
+3. $\alpha \subseteq \beta$.
+4. A cut contains only rationals strictly below its boundary, and $p$ is the boundary of $p^*$.
+5. Density (the embedding needs it); the crisis theorem is not used here: the cut construction does not presuppose that holes exist, only that they will be measured.
 </div>
 </details>
 
@@ -236,16 +231,11 @@ that is the entire justification of the construction.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** Nonempty, proper, downward closed, no greatest
-element. **2.** The cut $\{r : r < q\}$; every rational law holds in
-its cut, so the embedding is faithful. **3.** Every nonempty
-bounded-above set of cuts has a least upper bound; the supremum is the
-union of the set. **4.** Dedekind's definition made "least upper bound"
-mean "the union of the cuts", and unions of downward-closed proper
-sets are themselves cuts. **5.** The crisis theorem: the diagonal now
-has a real measure.
-
+1. Nonempty, proper, downward closed, no greatest element.
+2. The cut $\{r : r < q\}$; every rational law holds in its cut, so the embedding is faithful.
+3. Every nonempty bounded-above set of cuts has a least upper bound; the supremum is the union of the set.
+4. Dedekind's definition made "least upper bound" mean "the union of the cuts", and unions of downward-closed proper sets are themselves cuts.
+5. The crisis theorem: the diagonal now has a real measure.
 </div>
 </details>
 
@@ -325,15 +315,11 @@ dispute.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** The least upper bound of the finite partial sums,
-which exists by completeness. **2.** They are nondecreasing and
-bounded above by $\lfloor x \rfloor + 1$. **3.** The pigeonhole
-principle on the division remainders. **4.** It is the least upper
-bound of $1 - 10^{-k}$, which is $1$. **5.** Only when one expansion
-ends in all $9$s and the other is its terminating twin; the diagonal
-argument of Section 4 must therefore avoid $9$s.
-
+1. The least upper bound of the finite partial sums, which exists by completeness.
+2. They are nondecreasing and bounded above by $\lfloor x \rfloor + 1$.
+3. The pigeonhole principle on the division remainders.
+4. It is the least upper bound of $1 - 10^{-k}$, which is $1$.
+5. Only when one expansion ends in all $9$s and the other is its terminating twin; the diagonal argument of Section 4 must therefore avoid $9$s.
 </div>
 </details>
 
@@ -431,16 +417,11 @@ manufactured points, no listing survives.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** Countable: in bijection with some $[n]$ or with
-$\mathbb{N}$; uncountable: not. **2.** Schröder-Bernstein. **3.** To
-dodge the dual-decimal expansion trap: a digit change outside
-$\{0, 9\}$ forces a genuinely different number. **4.** No: if the
-irrationals in $[0, 1]$ were countable, their union with the countable
-rationals would count $[0, 1]$, contradicting Cantor. **5.** Equal in
-size: $\mathbb{Q} \cong \mathbb{N}$ by the injection-and-Schröder-
-Bernstein argument.
-
+1. Countable: in bijection with some $[n]$ or with $\mathbb{N}$; uncountable: not.
+2. Schröder-Bernstein.
+3. To dodge the dual-decimal expansion trap: a digit change outside $\{0, 9\}$ forces a genuinely different number.
+4. No: if the irrationals in $[0, 1]$ were countable, their union with the countable rationals would count $[0, 1]$, contradicting Cantor.
+5. Equal in size: $\mathbb{Q} \cong \mathbb{N}$ by the injection-and-Schröder- Bernstein argument.
 </div>
 </details>
 
@@ -516,16 +497,11 @@ accident of $\mathbb{N}$'s simple shape.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** Well-ordered: every nonempty subset has a least
-member; ordinal: the order type of a well-ordering. **2.** Base at the
-least member; at each $w$, truth on all smaller members gives truth at
-$w$; conclude truth everywhere. **3.** A position with no immediate
-predecessor; the "all smaller members" hypothesis covers it without a
-predecessor. **4.** The recursion principle; paid. **5.** Both are
-least-counterexample arguments; the counterexample set is well-ordered
-so a least failure exists and contradicts the step hypothesis.
-
+1. Well-ordered: every nonempty subset has a least member; ordinal: the order type of a well-ordering.
+2. Base at the least member; at each $w$, truth on all smaller members gives truth at $w$; conclude truth everywhere.
+3. A position with no immediate predecessor; the "all smaller members" hypothesis covers it without a predecessor.
+4. The recursion principle; paid.
+5. Both are least-counterexample arguments; the counterexample set is well-ordered so a least failure exists and contradicts the step hypothesis.
 </div>
 </details>
 
@@ -607,17 +583,11 @@ the axiom table keeps the purchase visible.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** Every family of nonempty sets admits a choice
-function; equivalents: Zorn's lemma and the well-ordering principle.
-**2.** A subfamily whose members are pairwise comparable. **3.** The
-climb uses choice-selected strict upper bounds at every ordinal
-position; the climb is stopped by the set-size barrier (it outruns the
-set). **4.** Any nonempty subset of the union lies within one member
-of the chain, which is well-ordered, so it has a least member.
-**5.** Spend: the basis theorem (Stage F), maximal ideals (Stage L),
-Tychonoff (Stage H). Cost: Banach-Tarski.
-
+1. Every family of nonempty sets admits a choice function; equivalents: Zorn's lemma and the well-ordering principle.
+2. A subfamily whose members are pairwise comparable.
+3. The climb uses choice-selected strict upper bounds at every ordinal position; the climb is stopped by the set-size barrier (it outruns the set).
+4. Any nonempty subset of the union lies within one member of the chain, which is well-ordered, so it has a least member.
+5. Spend: the basis theorem (Stage F), maximal ideals (Stage L), Tychonoff (Stage H). Cost: Banach-Tarski.
 </div>
 </details>
 
@@ -649,23 +619,11 @@ to reread (1: Section 1; 2: Section 2; 3: Section 3; 4: Sections 4 and
 <details class="wn-spoiler">
 <summary>Gate answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** A cut is a nonempty proper downward-closed set of rationals with
-no greatest element; without no-greatest-element, each boundary would
-produce two cuts for one number. **2.** Every nonempty
-bounded-above set of cuts has a least upper bound; the proof constructs
-the union of the set, which is itself a cut and is the least upper
-bound. **3.** The diagonal digits are chosen from $\{5, 6\}$, never $0$
-or $9$, so the manufactured number differs from every listed number
-regardless of which of its two expansions is compared. **4.** Base at
-the least member; truth on all smaller members gives truth at each
-member; the discharged debt is Stage B's recursion principle, whose
-general form is transfinite recursion. **5.** Choice: every family of
-nonempty sets has a choice function; Zorn: every chain-bounded poset
-has a maximal element; the proof shows choice (with transfinite
-machinery) implies Zorn, and Zorn implies well-ordering, which implies
-choice.
-
+1. A cut is a nonempty proper downward-closed set of rationals with no greatest element; without no-greatest-element, each boundary would produce two cuts for one number.
+2. Every nonempty bounded-above set of cuts has a least upper bound; the proof constructs the union of the set, which is itself a cut and is the least upper bound.
+3. The diagonal digits are chosen from $\{5, 6\}$, never $0$ or $9$, so the manufactured number differs from every listed number regardless of which of its two expansions is compared.
+4. Base at the least member; truth on all smaller members gives truth at each member; the discharged debt is Stage B's recursion principle, whose general form is transfinite recursion.
+5. Choice: every family of nonempty sets has a choice function; Zorn: every chain-bounded poset has a maximal element; the proof shows choice (with transfinite machinery) implies Zorn, and Zorn implies well-ordering, which implies choice.
 </div>
 </details>
 

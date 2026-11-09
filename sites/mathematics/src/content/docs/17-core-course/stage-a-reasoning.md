@@ -599,18 +599,11 @@ Section 4; 5: Section 5).
 <details class="wn-spoiler">
 <summary>Gate answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** Axiom, definition, previously proved statement, rule-licensed
-consequence. **2.** $\{x \in S : P(x)\}$ collects inside a given $S$;
-unbounded $\{x : P(x)\}$ produces Russell's $R$. **3.** Classes are a
-disjoint cover; every disjoint cover induces exactly one equivalence
-relation. **4.** $g \circ f$ surjective: for $z \in U$, pick $t$
-with $g(t) = z$, then $x$ with $f(x) = t$; injective: $g(f(x)) =
-g(f(x'))$ gives $f(x) = f(x')$ by $g$ injective, then $x = x'$ by $f$
-injective. **5.** $\forall x\ \exists y\ R(x, y) \not\to \exists
-y\ \forall x\ R(x, y)$: the universal witness may not depend on the
-generalised variable.
-
+1. Axiom, definition, previously proved statement, rule-licensed consequence.
+2. $\{x \in S : P(x)\}$ collects inside a given $S$; unbounded $\{x : P(x)\}$ produces Russell's $R$.
+3. Classes are a disjoint cover; every disjoint cover induces exactly one equivalence relation.
+4. $g \circ f$ surjective: for $z \in U$, pick $t$ with $g(t) = z$, then $x$ with $f(x) = t$; injective: $g(f(x)) = g(f(x'))$ gives $f(x) = f(x')$ by $g$ injective, then $x = x'$ by $f$ injective.
+5. $\forall x\ \exists y\ R(x, y) \not\to \exists y\ \forall x\ R(x, y)$: the universal witness may not depend on the generalised variable.
 </div>
 </details>
 

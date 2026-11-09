@@ -160,6 +160,9 @@ jobs:
       - name: Inline-math interrupt gate (course pages)
         run: python3 scripts/fix-inline-math-interrupts.py --check
 
+      - name: Theme validation (WCAG AA composited, Oklab separation)
+        run: node scripts/validate-themes.mjs
+
       - name: Prose damage lint
         run: python3 scripts/fix-prose-damage.py --check
 

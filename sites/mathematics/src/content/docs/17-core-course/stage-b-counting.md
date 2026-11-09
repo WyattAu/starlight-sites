@@ -158,16 +158,11 @@ induction, and Section 4's division theorem is its first outing.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** Zero is a counting number; successors exist; zero is no
-one's successor; successors are distinct for distinct inputs; induction.
-**2.** Base: $P(0)$. Hypothesis: $P(n)$. Step: $P(n) \to P(S(n))$.
-**3.** True for herds of at least two horses; false for the step from one
-horse to two (the overlap is empty). **4.** Every nonempty set of
-counting numbers has a least element; the proof is by contradiction plus
-induction. **5.** It is derived from least counterexamples, which follow
-from induction plus well-ordering.
-
+1. Zero is a counting number; successors exist; zero is no one's successor; successors are distinct for distinct inputs; induction.
+2. Base: $P(0)$. Hypothesis: $P(n)$. Step: $P(n) \to P(S(n))$.
+3. True for herds of at least two horses; false for the step from one horse to two (the overlap is empty).
+4. Every nonempty set of counting numbers has a least element; the proof is by contradiction plus induction.
+5. It is derived from least counterexamples, which follow from induction plus well-ordering.
 </div>
 </details>
 
@@ -301,15 +296,11 @@ push.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** $a + 0 := a$ and $a + S(b) := S(a + b)$; the recursion
-walks the right argument. **2.** The base line is $a + 0 = a$; "$a + 0 =
-0$" is multiplication's base, not addition's. **3.** $0 + n = n$ (the
-first crack); commutativity swaps arguments and needed the left-zero
-case. **4.** $a + 1 = a + S(0) = S(a + 0) = S(a)$. **5.** That the two
-lines define exactly one function; its general proof is Stage D's
-transfinite recursion.
-
+1. $a + 0 := a$ and $a + S(b) := S(a + b)$; the recursion walks the right argument.
+2. The base line is $a + 0 = a$; "$a + 0 = 0$" is multiplication's base, not addition's.
+3. $0 + n = n$ (the first crack); commutativity swaps arguments and needed the left-zero case.
+4. $a + 1 = a + S(0) = S(a + 0) = S(a)$.
+5. That the two lines define exactly one function; its general proof is Stage D's transfinite recursion.
 </div>
 </details>
 
@@ -410,13 +401,11 @@ the same inductions as Section 2 and 3; Problem 5 asks for one.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** $a \times 0 := 0$ and $a \times S(b) := a \times b +
-a$; the recursion walks the right argument. **2.** Associativity of
-addition and the multiplication step line. **3.** $a \leq b$ when some
-$c$ satisfies $a + c = b$. **4.** Witness $c := 1$: $a + 1 = S(a)$
-by Section 2. **5.** $a^{S(b)} = a^b \times a$.
-
+1. $a \times 0 := 0$ and $a \times S(b) := a \times b + a$; the recursion walks the right argument.
+2. Associativity of addition and the multiplication step line.
+3. $a \leq b$ when some $c$ satisfies $a + c = b$.
+4. Witness $c := 1$: $a + 1 = S(a)$ by Section 2.
+5. $a^{S(b)} = a^b \times a$.
 </div>
 </details>
 
@@ -522,14 +511,11 @@ discharging the small arithmetic fact $0 < b$ from $b \neq 0$.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** Strong induction on $a$ (least-counterexample shape).
-**2.** It bounds $d$: a larger quotient would add at least a full
-$b \times 1$, exceeding $b \times q + d$ when $d < b$. **3.** $q := 0$
-and $r := 0$. **4.** For every $a$ and every $b \neq 0$, some multiple
-$b \times n$ exceeds $a$. **5.** $r < b$ and $r \geq 0$; existence
-by strong induction on $a$.
-
+1. Strong induction on $a$ (least-counterexample shape).
+2. It bounds $d$: a larger quotient would add at least a full $b \times 1$, exceeding $b \times q + d$ when $d < b$.
+3. $q := 0$ and $r := 0$.
+4. For every $a$ and every $b \neq 0$, some multiple $b \times n$ exceeds $a$.
+5. $r < b$ and $r \geq 0$; existence by strong induction on $a$.
 </div>
 </details>
 
@@ -678,15 +664,11 @@ induction.) $\blacksquare$
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** If $m < k$, every function $[k] \to [m]$ collides on
-distinct inputs; equivalently no injection exists. **2.** In the case
-where the top value is in the image: removing that one pair turns the
-problem into the previous case. **3.** There exists a bijection from
-$[n]$ onto $X$. **4.** $B(n, k) = B(n \ominus 1, k \ominus 1) + B(n
-\ominus 1, k)$, with $B(n, 0) = B(n, n) = 1$. **5.** Stage C
-(Expanding the line), via the remainder theorem.
-
+1. If $m < k$, every function $[k] \to [m]$ collides on distinct inputs; equivalently no injection exists.
+2. In the case where the top value is in the image: removing that one pair turns the problem into the previous case.
+3. There exists a bijection from $[n]$ onto $X$.
+4. $B(n, k) = B(n \ominus 1, k \ominus 1) + B(n \ominus 1, k)$, with $B(n, 0) = B(n, n) = 1$.
+5. Stage C (Expanding the line), via the remainder theorem.
 </div>
 </details>
 
@@ -717,17 +699,11 @@ Section 5).
 <details class="wn-spoiler">
 <summary>Gate answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** If $P(0)$ and $P(n) \to P(S(n))$ for all $n$, then $P$ holds of
-every counting number; the horse argument's step needed the overlap to
-be nonempty, which fails at the boundary. **2.** $a + 0 := a$,
-$a + S(b) := S(a + b)$; the left-zero theorem $0 + n = n$ came first.
-**3.** $a \times 0 := 0$, $a \times S(b) := a \times b + a$; and
-$a \leq b$ means $\exists c,\ a + c = b$. **4.** For $b \neq 0$: exactly
-one $q, r$ satisfy $a = b \times q + r$ and $r < b$. **5.** If $m < k$,
-every function $[k] \to [m]$ collides; the proof consumes the removal
-lemma.
-
+1. If $P(0)$ and $P(n) \to P(S(n))$ for all $n$, then $P$ holds of every counting number; the horse argument's step needed the overlap to be nonempty, which fails at the boundary.
+2. $a + 0 := a$, $a + S(b) := S(a + b)$; the left-zero theorem $0 + n = n$ came first.
+3. $a \times 0 := 0$, $a \times S(b) := a \times b + a$; and $a \leq b$ means $\exists c,\ a + c = b$.
+4. For $b \neq 0$: exactly one $q, r$ satisfy $a = b \times q + r$ and $r < b$.
+5. If $m < k$, every function $[k] \to [m]$ collides; the proof consumes the removal lemma.
 </div>
 </details>
 

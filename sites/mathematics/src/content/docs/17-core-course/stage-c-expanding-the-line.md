@@ -145,14 +145,11 @@ d$ in $\mathbb{N}$; well-defined by the same representative bookkeeping
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** $(a, b) \sim (c, d)$ when $a + d = c + b$; $\mathbb{Z}$
-is the set of equivalence classes. **2.** Equality of the classes forces
-$n = m$ by the base line of addition. **3.** $[(8, 9)]$, which behaves
-as $-1$: it is $-[(1, 0)]$. **4.** Equivalence relations and their
-quotient set (the partition correspondence). **5.** The class $[(b,
-a)]$; adding gives $[(a + b, b + a)] = 0_{\mathbb{Z}}$.
-
+1. $(a, b) \sim (c, d)$ when $a + d = c + b$; $\mathbb{Z}$ is the set of equivalence classes.
+2. Equality of the classes forces $n = m$ by the base line of addition.
+3. $[(8, 9)]$, which behaves as $-1$: it is $-[(1, 0)]$.
+4. Equivalence relations and their quotient set (the partition correspondence).
+5. The class $[(b, a)]$; adding gives $[(a + b, b + a)] = 0_{\mathbb{Z}}$.
 </div>
 </details>
 
@@ -240,16 +237,11 @@ built to prevent.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** $(p, q) \sim (p', q')$ when $p \times q' = p' \times
-q$, on pairs with $q \neq 0_{\mathbb{Z}}$. **2.** Stage 1's
-distributivity and commutativity on $\mathbb{Z}$ (Stage B's laws,
-lifted). **3.** $[(5, 3)]$; and $[(3, 5)] \times [(5, 3)] = [(15, 15)]
-= 1_{\mathbb{Q}}$. **4.** Between any two distinct rationals lies a
-third; it does not claim every point of the line is rational. **5.**
-The inverse definition divides by $q$; $q = 0_{\mathbb{Z}}$ has no
-inverse and encodes no fraction.
-
+1. $(p, q) \sim (p', q')$ when $p \times q' = p' \times q$, on pairs with $q \neq 0_{\mathbb{Z}}$.
+2. Stage 1's distributivity and commutativity on $\mathbb{Z}$ (Stage B's laws, lifted).
+3. $[(5, 3)]$; and $[(3, 5)] \times [(5, 3)] = [(15, 15)] = 1_{\mathbb{Q}}$.
+4. Between any two distinct rationals lies a third; it does not claim every point of the line is rational.
+5. The inverse definition divides by $q$; $q = 0_{\mathbb{Z}}$ has no inverse and encodes no fraction.
 </div>
 </details>
 
@@ -329,17 +321,11 @@ shape proved Stage B's division theorem; here it does historic work.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** An odd times an odd is odd; and every even product
-$2 \times q \times q$ forces evenness of its square root in this
-setting. **2.** The lowest-terms hypothesis (no common factor) is
-contradicted by both $p$ and $q$ being even. **3.** It uses only
-Stage B's arithmetic, order, and well-ordering descent. **4.** It has
-no rational solution. **5.** The rational line has holes (the diagonal's
-length is missing); a completed line must contain that length. Its
-construction is Stage D. (Forward-honesty marker: Stage D is future
-content; this theorem stands on its own.)
-
+1. An odd times an odd is odd; and every even product $2 \times q \times q$ forces evenness of its square root in this setting.
+2. The lowest-terms hypothesis (no common factor) is contradicted by both $p$ and $q$ being even.
+3. It uses only Stage B's arithmetic, order, and well-ordering descent.
+4. It has no rational solution.
+5. The rational line has holes (the diagonal's length is missing); a completed line must contain that length. Its construction is Stage D. (Forward-honesty marker: Stage D is future content; this theorem stands on its own.)
 </div>
 </details>
 
@@ -428,16 +414,11 @@ are the same up to order. $\blacksquare$
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** Each remainder is strictly smaller than the previous,
-and strictly decreasing counting numbers cannot descend forever
-(well-ordering). **2.** There exist integers $u, v$ with $a \times u +
-b \times v = \gcd(a, b)$. **3.** A prime dividing a product divides a
-factor; it consumes Bezout's identity. **4.** The existence induction is
-strong induction, justified by well-ordering's least-counterexample
-reading. **5.** $12$ is always two $2$s and one $3$: same primes, same
-multiplicities, any order.
-
+1. Each remainder is strictly smaller than the previous, and strictly decreasing counting numbers cannot descend forever (well-ordering).
+2. There exist integers $u, v$ with $a \times u + b \times v = \gcd(a, b)$.
+3. A prime dividing a product divides a factor; it consumes Bezout's identity.
+4. The existence induction is strong induction, justified by well-ordering's least-counterexample reading.
+5. $12$ is always two $2$s and one $3$: same primes, same multiplicities, any order.
 </div>
 </details>
 
@@ -539,15 +520,11 @@ contents, and these two are the first pair of contrasting specimens.
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** $6 = 2 \times 3$ is composite, so $[2]$ and $[3]$ are
-nonzero non-units with $[2] \times [3] = [0]$: cancellation fails
-exactly when nonzero zero-divisors exist. **2.** Prime: every nonzero
-class is a unit; composite: at least one nonzero class is not. **3.**
-The binomial law and Euclid's lemma (via Bezout). **4.** $2^4 = 16 =
-3 \times 5 + 1$, so $2^4 \equiv 1 = 2^{5 \ominus 1}$: matches Fermat.
-**5.** Exactly $n$ classes, represented by $0, 1, \dots, n \ominus 1$.
-
+1. $6 = 2 \times 3$ is composite, so $[2]$ and $[3]$ are nonzero non-units with $[2] \times [3] = [0]$: cancellation fails exactly when nonzero zero-divisors exist.
+2. Prime: every nonzero class is a unit; composite: at least one nonzero class is not.
+3. The binomial law and Euclid's lemma (via Bezout).
+4. $2^4 = 16 = 3 \times 5 + 1$, so $2^4 \equiv 1 = 2^{5 \ominus 1}$: matches Fermat.
+5. Exactly $n$ classes, represented by $0, 1, \dots, n \ominus 1$.
 </div>
 </details>
 
@@ -577,20 +554,11 @@ Section 5).
 <details class="wn-spoiler">
 <summary>Gate answers</summary>
 <div class="wn-spoiler-body">
-
-**1.** $(a, b) \sim (c, d)$ when $a + d = c + b$; classes of such pairs;
-addition and multiplication must be shown independent of representatives.
-**2.** Between any two rationals lies a third; Stage D must add
-completeness: every hole in the line is filled. **3.** If $p \times p =
-3 \times q \times q$ in lowest terms, $p \times p$ divisible by $3$
-forces $p$ divisible by $3$ (if $3 \mid p \times p$ with $p$ prime
-factorisation, Euclid's lemma with the prime $3$), write $p = 3 \times
-h$, substitute, cancel, $q$ divisible by $3$: contradicts lowest terms.
-**4.** $a \times u + b \times v = \gcd(a, b)$; and a prime dividing a
-product divides a factor. **5.** $\mathbb{Z}/p$: every nonzero class is
-a unit; and $a^p \equiv a \pmod p$ (so $a^{p \ominus 1} \equiv 1$ when
-$p \nmid a$).
-
+1. $(a, b) \sim (c, d)$ when $a + d = c + b$; classes of such pairs; addition and multiplication must be shown independent of representatives.
+2. Between any two rationals lies a third; Stage D must add completeness: every hole in the line is filled.
+3. If $p \times p = 3 \times q \times q$ in lowest terms, $p \times p$ divisible by $3$ forces $p$ divisible by $3$ (if $3 \mid p \times p$ with $p$ prime factorisation, Euclid's lemma with the prime $3$), write $p = 3 \times h$, substitute, cancel, $q$ divisible by $3$: contradicts lowest terms.
+4. $a \times u + b \times v = \gcd(a, b)$; and a prime dividing a product divides a factor.
+5. $\mathbb{Z}/p$: every nonzero class is a unit; and $a^p \equiv a \pmod p$ (so $a^{p \ominus 1} \equiv 1$ when $p \nmid a$).
 </div>
 </details>
 
