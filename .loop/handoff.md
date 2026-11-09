@@ -1,3 +1,71 @@
+# Handoff — Stages A-D written and deployed; landing separated; structure frozen at 89 (2026-11-09, evening)
+
+## Deployed state
+- f4f54fe00 chain deployed: Stage C + Stage D pages, course-order sidebar
+  pagination, hub rows. One Cloudflare transient ("Failed to publish your
+  Function", dse canary) failed a run; gh run rerun --failed issued.
+- lean-proof: success (89 descent certs + abstract/concrete acyclicity +
+  cycle-detector soundness + edge integrity, all core Lean, CI-compiled).
+
+## Content state (89 chapters frozen at v2.7; written: 6 stage pages)
+- Stage A (stage-a-reasoning.md): 5 chapters, audited vs the standard,
+  17 fixes (zero-knowledge arithmetic leaks removed, dialectic beats in
+  S3/S4, scope count, markers).
+- Stage B (stage-b-counting.md): Peano through binomial law; FIRST
+  formal witnesses (zero_add, add_comm, div/mod) extracted by
+  scripts/build-course-witnesses.py into lean/Witnesses.lean, compiled
+  in CI (lakefile has both libs; CI regenerates before build).
+- Stage C (stage-c-expanding-the-line.md): Z as difference classes
+  (add_wd witness), Q, the first crisis, Euclid/Bezout/FTA, Z/n +
+  Fermat. 2 post-push interrupts fixed (gate ran after commit - reorder).
+- Stage D (stage-d-the-continuum.md): Dedekind cuts, completeness (the
+  supremum IS the union), decimals + 0.999...=1, cardinality + Cantor +
+  Schroder-Bernstein, ordinals + transfinite induction (DISCHARGES
+  Stage B's recursion-principle debt), choice adopted at D6 (graph
+  axiom note retargeted from D5 after the split), Zorn + well-ordering
+  equivalence proofs. Formal witnesses paused (past core Lean).
+- Landing (index.mdx + PageFrame.astro): two-doors design; hero CTA
+  inverted; Core Course pulled OUT of the topic grid into an accent
+  feature panel (Enter the course); grid reheaded 'Reference tracks'.
+- Sidebar (astro.config.mjs): explicit course order (Overview, A, B, C,
+  D, 1A..3D) - prev/next now walks the true sequence.
+
+## Compliance audit (matrix in session log)
+- A/B: 5/5 quick checks per page, ponders 7/5, spoilers 8/6, gates,
+  problems 5/5, zero em-dashes. Hub em-dashes 16 -> 0 (generator fixed:
+  stage rows 'Stage A: Reasoning'; K blurb colon).
+- Old pages 1a-3d: pre-standard (no ponders/spoilers/gates) - rewritten
+  when the pipeline reaches them.
+
+## Known issues / open items
+1. Fleet-wide inline-math interrupts: ~1248 suspicious paragraphs
+   (277 files); course pages CLEAN and gated. Ledger:
+   .loop/known-issues-inline-math.md with remediation plan.
+2. llms.txt freshness gate caught two pushes; rule 8 exists - run llms
+   regen LAST before commit, after parallel churn settles.
+3. Parallel session ACTIVE in the tree: em-dash sweep (5 files, 52/52)
+   flowed through my tagline commit; commit 056041aa9 cancelled behind
+   mine. Check git log before claiming authorship.
+4. solid-fx (218 SolidJS components, MIT) identified for borrowing;
+   integration path: Astro Solid islands via pediment patterns. First
+   borrows when content reaches polish: FadeContent, CountUp.
+5. Stage E (stage-e-completing-algebra.md) is NEXT: polynomials, C,
+   FTA debt opens. Then sidebar/hub/where-to-go wiring per pattern.
+6. bijective-inverse uniqueness in Stage C cites 'Section 4's Problem
+   3 chain'; verify cross-references when adding Stage D/E problems.
+
+## Lessons (this round)
+- Page frontmatter YAML: unquoted 'key: value: with colon' kills the
+  whole site build (js-yaml in content-sync). Parse frontmatter of
+  every changed page locally (python3 -c yaml.safe_load).
+- Cloudflare Pages 'Failed to publish your Function: Unknown internal
+  error' is transient: gh run rerun --failed is the fix.
+- git add -A during tree flaps sweeps PARALLEL SESSION work into your
+  commit; inspect git status before adding, or scope the add.
+- remark-math terminates inline math at paragraph interrupts (lines
+  starting with +, -, >, digits): scripts/fix-inline-math-interrupts.py
+  merges and gates (course scope).
+
 # Handoff - 87-chapter research syllabus verified; Stage A written; reveal mechanism live (2026-11-08, later)
 
 ## Deployed state
