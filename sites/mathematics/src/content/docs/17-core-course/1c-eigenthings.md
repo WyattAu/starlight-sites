@@ -177,8 +177,7 @@ only if (i) $\chi_T$ splits into linear factors over $k$ and (ii) algebraic
 multiplicity equals geometric multiplicity for every eigenvalue.
 
 **Proof.** ($\implies$) In a basis of eigenvectors the matrix is diagonal
-with entries $\lambda_1, \dots, \lambda_n$, so $\chi_T(t) = \prod_i (t
-- \lambda_i)$ splits, and for each distinct $\lambda$, the eigenspace
+with entries $\lambda_1, \dots, \lambda_n$, so $\chi_T(t) = \prod_i (t - \lambda_i)$ splits, and for each distinct $\lambda$, the eigenspace
 contains the span of $\lambda$'s basis vectors, so the geometric
 multiplicity is at least the count; Theorem 4.2 caps it, so they are equal.
 ($\Longleftarrow$) Suppose (i) and (ii). The distinct eigenvalues
@@ -294,8 +293,7 @@ fundamental theorem of algebra (Corollary 2.3). **4.** Degree $n$, monic.
 triangular in some basis; the fundamental theorem of algebra.
 **2.** The quotient $V/L$ and its universal property (1B, Theorem 3.2).
 **3.** The diagonal entries (Corollary 3.2). **4.** $u$ plus lifts of a
-basis of $V/L$: $n$ vectors spanning $V$ (rank–nullity). **5.** $\prod_i (t
-- d_i)$.
+basis of $V/L$: $n$ vectors spanning $V$ (rank–nullity). **5.** $\prod_i (t - d_i)$.
 
 **Quick check.**
 

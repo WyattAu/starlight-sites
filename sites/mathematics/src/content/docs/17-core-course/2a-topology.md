@@ -173,8 +173,7 @@ $(c,d)$ of $\mathbb{R}$ are homeomorphic. The affine map $f(t) = \frac{d-c}{b-a}
 (t - a) + c$ is a bijection $(a, b) \to (c, d)$ (solve for $t$), and it is
 continuous with continuous inverse: every open subset of $\mathbb{R}$ is a
 union of the open intervals that openness supplies at each of its points, and
-the preimage of an interval $(u, v)$ under an affine map $t \mapsto \alpha t
-+ \beta$ is the interval $\big((u - \beta)/\alpha, (v - \beta)/\alpha\big)$
+the preimage of an interval $(u, v)$ under an affine map $t \mapsto \alpha t + \beta$ is the interval $\big((u - \beta)/\alpha, (v - \beta)/\alpha\big)$
 (endpoints swapped when $\alpha < 0$, still open), so preimages of opens are
 unions of intervals: open. $\blacksquare$
 

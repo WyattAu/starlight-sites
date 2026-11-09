@@ -322,8 +322,7 @@ of addition. $\blacksquare$
 
 **Theorem (commutativity).** For all $a, b$: $a \times b = b \times a$.
 
-*Proof.* First a helper, by induction on $b$: $S(a) \times b = a \times b
-+ b$. Base: $S(a) \times 0 = 0 = a \times 0 + 0$. Step: $S(a) \times
+*Proof.* First a helper, by induction on $b$: $S(a) \times b = a \times b + b$. Base: $S(a) \times 0 = 0 = a \times 0 + 0$. Step: $S(a) \times
 S(b) = S(a) \times b + S(a) = (a \times b + b) + S(a) = (a \times b +
 a) + S(b) = a \times S(b) + S(b)$, using the step lines of
 multiplication and the associativity and commutativity of addition.
@@ -336,8 +335,7 @@ b$. Write $a < b$ for $a \leq S(b)$'s condition with $c$ nonzero:
 there exists nonzero $c$ with $a + c = b$.
 
 **Theorem (reflexive and transitive).** $\leq$ is reflexive ($a \leq a$,
-witness $c := 0$) and transitive: if $a + c = b$ and $b + d = e$ then $a
-+ (c + d) = e$, so $a \leq e$.
+witness $c := 0$) and transitive: if $a + c = b$ and $b + d = e$ then $a + (c + d) = e$, so $a \leq e$.
 
 *Proof.* Reflexivity is immediate (Section 2's base line). For
 transitivity: $a + (c + d) = (a + c) + d = b + d = e$ by associativity
@@ -347,8 +345,7 @@ and the hypotheses. $\blacksquare$
 $a, b$: if $a \leq b$ then $S(a) \leq S(b)$.
 
 *Proof.* $a < S(a)$: witness $c := 1$, since $a + 1 = S(a)$ (Section 2).
-For the second: $a \leq b$ gives $b = a + c$, so $S(b) = S(a + c) = S(a)
-+ c$ by the successor-swap theorem, which is $S(a) \leq S(b)$ with
+For the second: $a \leq b$ gives $b = a + c$, so $S(b) = S(a + c) = S(a) + c$ by the successor-swap theorem, which is $S(a) \leq S(b)$ with
 witness $c$. $\blacksquare$
 
 **Definition (exponentiation).** $a^0 := 1$ and $a^{S(b)} := a^b \times

@@ -151,6 +151,9 @@ jobs:
       - name: Display-math delimiter gate
         run: node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
 
+      - name: Inline-math interrupt gate (course pages)
+        run: python3 scripts/fix-inline-math-interrupts.py --check
+
       - name: Prose damage lint
         run: python3 scripts/fix-prose-damage.py --check
 

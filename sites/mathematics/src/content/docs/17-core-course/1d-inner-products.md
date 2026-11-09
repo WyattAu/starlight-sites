@@ -148,8 +148,7 @@ pairwise orthogonal vectors is linearly independent.
 
 **Proof.** Suppose $\sum_i c_i v_i = 0$ with the $v_i$ nonzero and pairwise
 orthogonal. Apply $\langle \cdot, v_j \rangle$: every term $c_i \langle
-v_i, v_j \rangle$ vanishes except $i = j$, where $\langle v_j, v_j \rangle
-> 0$ (positive definiteness and $v_j \neq 0$). So $c_j \langle v_j, v_j
+v_i, v_j \rangle$ vanishes except $i = j$, where $\langle v_j, v_j \rangle > 0$ (positive definiteness and $v_j \neq 0$). So $c_j \langle v_j, v_j
 \rangle = 0$, forcing $c_j = 0$; for every $j$. $\blacksquare$
 
 **Theorem 2.3 (Gram-Schmidt).** Let $w_1, \dots, w_k$ be linearly
@@ -234,8 +233,7 @@ $v \in V$ decomposes uniquely as $v = w + w'$ with $w \in W$ and $w' \in
 W^\perp$.
 
 **Proof.** Take an orthonormal basis $e_1, \dots, e_r$ of $W$ (Corollary
-2.4), define $w := \sum_{i \leq r} \langle v, e_i \rangle e_i$ and $w' := v
-- w$. Then $w \in W$, and for each basis vector $e_j$ of $W$:
+2.4), define $w := \sum_{i \leq r} \langle v, e_i \rangle e_i$ and $w' := v - w$. Then $w \in W$, and for each basis vector $e_j$ of $W$:
 $\langle w', e_j \rangle = \langle v, e_j \rangle - \langle w, e_j \rangle
 = \langle v, e_j \rangle - \langle v, e_j \rangle = 0$ (the inner product of
 $w$ with $e_j$ picks out exactly the $j$-th coefficient, Theorem 2.5's
@@ -259,8 +257,7 @@ $$
 \|v - w\|^2 = \|v - p_W(v)\|^2 + \|p_W(v) - w\|^2 \geq \|v - p_W(v)\|^2,
 $$
 
-with equality iff $p_W(v) = w$. Linearity: the decomposition of $\alpha v_1
-+ \beta v_2$ is the combination of the decompositions, by uniqueness.
+with equality iff $p_W(v) = w$. Linearity: the decomposition of $\alpha v_1 + \beta v_2$ is the combination of the decompositions, by uniqueness.
 $\blacksquare$
 
 This theorem is why orthonormality matters beyond geometry: expanding a
@@ -355,8 +352,7 @@ $V_\mathbb{C} := \{u + i v\}$ (formal pairs), with complex-scalar
 multiplication and the **Hermitian form** $\langle u + i v, u' + i v'
 \rangle := \langle u, u' \rangle + \langle v, v' \rangle + i(\langle
 v, u' \rangle - \langle u, v' \rangle)$, which is linear in the first
-argument and conjugate-linear in the second. Extend $T$ by $T_\mathbb{C}(u
-+ i v) := T u + i\, T v$; the self-adjoint identity survives the
+argument and conjugate-linear in the second. Extend $T$ by $T_\mathbb{C}(u + i v) := T u + i\, T v$; the self-adjoint identity survives the
 extension. If $T_\mathbb{C} v = \lambda v$ with $v \neq 0$, then
 
 $$
