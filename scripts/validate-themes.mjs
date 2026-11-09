@@ -26,12 +26,27 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const CSS = path.join(__dirname, '..', 'shared', 'styles', 'custom.css')
+// The palette layer lives in themes.css (single source since the
+// consolidation); custom.css is scanned too for any residual blocks.
+const CSS_FILES = [
+  path.join(__dirname, '..', 'shared', 'styles', 'themes.css'),
+  path.join(__dirname, '..', 'shared', 'styles', 'custom.css'),
+]
 
 // ---------- colour math ----------
 
-function hexToRgb(hex) {
-  let h = hex.replace('#', '')
+function hexToRgb(v) {
+  if (!v) return null
+  const t = v.trim()
+  if (t.startsWith('rgb')) {
+    const nums = t.match(/[\d.]+/g)
+    if (!nums || nums.length < 3) return null
+    return {
+      r: +nums[0], g: +nums[1], b: +nums[2],
+      a: nums[3] !== undefined ? +nums[3] : 1,
+    }
+  }
+  let h = t.replace('#', '')
   if (h.length === 4)
     h = h
       .split('')
@@ -225,8 +240,16 @@ function validateTheme(name, vars, rootVars, report) {
 
 // ---------- main ----------
 
-const cssText = fs.readFileSync(CSS, 'utf8')
-const { themes, rootVars } = parseThemes(cssText)
+const merged = {}
+let rootVars = {}
+for (const cssFile of CSS_FILES) {
+  const cssText = fs.readFileSync(cssFile, 'utf8')
+  const parsed = parseThemes(cssText)
+  // later files override earlier ones; themes.css is listed after custom.css
+  for (const [k, v] of Object.entries(parsed.themes)) merged[k] = v
+  rootVars = { ...rootVars, ...parsed.rootVars }
+}
+const themes = merged
 const names = Object.keys(themes)
 const REPORT = []
 let totalFailures = 0

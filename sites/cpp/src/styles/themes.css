@@ -55,7 +55,7 @@
   --wn-bg-hover: #242436;
   --wn-text: #e8e8ed;
   --wn-text-muted: #8888a0;
-  --wn-text-dim: #5a5a70;
+  --wn-text-dim: #656580;
   --wn-border: #2a2a3a;
   --wn-border-light: #3a3a4a;
   --wn-overlay: rgba(0, 0, 0, 0.7);
@@ -117,13 +117,13 @@
   --wn-bg-hover: #f0ece4;
   --wn-text: #1a1a1a;
   --wn-text-muted: #6b6560;
-  --wn-text-dim: #a09890;
+  --wn-text-dim: #8a8378;
   --wn-border: #ddd8d0;
   --wn-border-light: #e8e4dc;
   --wn-overlay: rgba(0, 0, 0, 0.3);
   --wn-glow: rgba(255, 107, 53, 0.06);
 
-  --sl-color-accent: #ff6b35;
+  --sl-color-accent: #c2410c;
   --sl-color-accent-low: #ff6b3518;
   --sl-color-accent-high: #e05520;
   --sl-color-bg: #f5f2ed;
@@ -134,7 +134,7 @@
   --sl-color-hairline-light: #ddd8d0;
   --sl-color-hairline-shade: #c8c4bc;
   --sl-color-text: #1a1a1a;
-  --sl-color-text-accent: #ff6b35;
+  --sl-color-text-accent: #c2410c;
   --sl-color-text-invert: #ffffff;
   --sl-color-gray-1: #1a1a1a;
   --sl-color-gray-2: #4a4846;
@@ -177,14 +177,14 @@
   --wn-bg-card: #fef7e8;
   --wn-bg-hover: #f8efd8;
   --wn-text: #5b4636;
-  --wn-text-muted: #8b7355;
-  --wn-text-dim: #b8a88a;
+  --wn-text-muted: #6f5a42;
+  --wn-text-dim: #9a8a6a;
   --wn-border: #e8dcc8;
   --wn-border-light: #f0e8d8;
   --wn-overlay: rgba(0, 0, 0, 0.25);
   --wn-glow: rgba(201, 123, 58, 0.08);
 
-  --sl-color-accent: #c97b3a;
+  --sl-color-accent: #9d5f1f;
   --sl-color-accent-low: #c97b3a22;
   --sl-color-accent-high: #a8642e;
   --sl-color-bg: #fbf3e0;
@@ -195,7 +195,7 @@
   --sl-color-hairline-light: #e8dcc8;
   --sl-color-hairline-shade: #d8ccb8;
   --sl-color-text: #5b4636;
-  --sl-color-text-accent: #c97b3a;
+  --sl-color-text-accent: #9d5f1f;
   --sl-color-text-invert: #ffffff;
   --sl-color-gray-1: #5b4636;
   --sl-color-gray-2: #7a6248;
@@ -300,8 +300,8 @@
   --wn-bg-card: #3b4252;
   --wn-bg-hover: #434c5e;
   --wn-text: #d8dee9;
-  --wn-text-muted: #81a1c1;
-  --wn-text-dim: #6b7a94;
+  --wn-text-muted: #94b8d8;
+  --wn-text-dim: #7d8db0;
   --wn-border: #4c566a;
   --wn-border-light: #5e6a82;
   --wn-overlay: rgba(0, 0, 0, 0.6);
@@ -362,8 +362,8 @@
   --wn-bg-card: #333547;
   --wn-bg-hover: #44475a;
   --wn-text: #f8f8f2;
-  --wn-text-muted: #6272a4;
-  --wn-text-dim: #52556a;
+  --wn-text-muted: #95a3d1;
+  --wn-text-dim: #767a9e;
   --wn-border: #44475a;
   --wn-border-light: #555980;
   --wn-overlay: rgba(0, 0, 0, 0.6);
@@ -423,15 +423,15 @@
   --wn-bg-elevated: #fef9ef;
   --wn-bg-card: #fef9ef;
   --wn-bg-hover: #eee8d5;
-  --wn-text: #586e75; /* DARKENED from #657b83 for WCAG AA (5.2:1 vs 4.3:1) */
-  --wn-text-muted: #657b83;
-  --wn-text-dim: #93a1a1;
+  --wn-text: #47595e; /* DARKENED from #586e75 for WCAG AA (6.1:1 vs 5.2:1) */
+  --wn-text-muted: #586e75; /* the previous text value: distinct from, and lighter than, the body text */
+  --wn-text-dim: #7f8d8d;
   --wn-border: #d5cfb8;
   --wn-border-light: #e0dbc4;
   --wn-overlay: rgba(0, 0, 0, 0.2);
   --wn-glow: rgba(38, 139, 210, 0.06);
 
-  --sl-color-accent: #268bd2;
+  --sl-color-accent: #1a6fa8;
   --sl-color-accent-low: #268bd218;
   --sl-color-accent-high: #2075b3;
   --sl-color-bg: #fdf6e3;
@@ -441,8 +441,8 @@
   --sl-color-bg-hairline: #d5cfb8;
   --sl-color-hairline-light: #d5cfb8;
   --sl-color-hairline-shade: #c0baa4;
-  --sl-color-text: #586e75; /* DARKENED for WCAG AA */
-  --sl-color-text-accent: #268bd2;
+  --sl-color-text: #47595e; /* DARKENED for WCAG AA */
+  --sl-color-text-accent: #1a6fa8;
   --sl-color-text-invert: #fdf6e3;
   --sl-color-gray-1: #586e75;
   --sl-color-gray-2: #657b83;
@@ -485,7 +485,7 @@
   --wn-bg-card: #383830;
   --wn-bg-hover: #49483e;
   --wn-text: #f8f8f2;
-  --wn-text-muted: #75715e; /* FIXED: was #a6e22e (green = accent, semantically wrong) */
+  --wn-text-muted: #a8a48d; /* FIXED: was #a6e22e (green = accent, semantically wrong) */
   --wn-text-dim: #75715e;
   --wn-border: #49483e;
   --wn-border-light: #5b5a50;
@@ -547,7 +547,7 @@
   --wn-bg-card: #2a3040;
   --wn-bg-hover: #334050;
   --wn-text: #d4d4d4;
-  --wn-text-muted: #707a8c; /* FIXED: was #ffcc66 (gold = accent, semantically wrong) */
+  --wn-text-muted: #93a0b5; /* FIXED: was #ffcc66 (gold = accent, semantically wrong) */
   --wn-text-dim: #707a8c;
   --wn-border: #3a4150;
   --wn-border-light: #4a5160;
@@ -711,4 +711,101 @@
 }
 .starlight-aside__title {
   color: var(--sl-color-asides-text-accent);
+}
+
+/* --- 11/12. Shroom Space (ported from WyattAu/shroom-theme, AA-tuned) --- */
+/* --- 12/13. Shroom Space (ported from WyattAu/shroom-theme) ---
+   Derivation: the shroom color-science pipeline (Oklab ramps, APCA
+   soft-clamp regime, WCAG AA on alpha-composited pairs) generates the
+   VS Code palettes; these blocks port the editor surface ladder and
+   the six syntax hues to the site variables. Dark: purple-tinted
+   #24212E surfaces, deliberately not pure black. Light: warm
+   earth-tone #F5F2E8. Accent: the keyword purple #BE9AF7 / #895D9C;
+   secondary hues teal #74D7C8 / #006161 and gold #E8C990 / #886930
+   are kept for future component accents. */
+
+[data-theme="shroom"] {
+  --wn-bg: #24212e;
+  --wn-bg-elevated: #2a2739;
+  --wn-bg-card: #2a2739;
+  --wn-bg-hover: #393552;
+  --wn-text: #ccc8d9;
+  --wn-text-muted: #948eb0;
+  --wn-text-dim: #726d89;
+  --wn-border: #393552;
+  --wn-border-light: #45405e;
+  --wn-overlay: rgba(30, 28, 41, 0.7);
+  --wn-glow: rgba(190, 154, 247, 0.08);
+
+  --sl-color-accent: #be9af7;
+  --sl-color-accent-low: #be9af720;
+  --sl-color-accent-high: #d4b9fa;
+  --sl-color-bg: #24212e;
+  --sl-color-bg-nav: #1e1c29;
+  --sl-color-bg-sidebar: #2a2739;
+  --sl-color-bg-inline-code: #393552;
+  --sl-color-bg-hairline: #393552;
+  --sl-color-hairline-light: #45405e;
+  --sl-color-hairline-shade: #1e1c29;
+  --sl-color-text: #ccc8d9;
+  --sl-color-text-accent: #be9af7;
+  --sl-color-text-invert: #24212e;
+  --sl-color-gray-1: #e0def4;
+  --sl-color-gray-2: #ccc8d9;
+  --sl-color-gray-3: #8c86a3;
+  --sl-color-gray-4: #726d89;
+  --sl-color-gray-5: #393552;
+  --sl-color-gray-6: #2a2739;
+  --sl-color-gray-7: #24212e;
+  --sl-color-gray-8: #1e1c29;
+  --sl-color-black: #1e1c29;
+  --sl-color-white: #e0def4;
+
+  --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.4);
+  --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.55), 0 2px 4px rgba(0, 0, 0, 0.45);
+  --wn-elevation-3: 0 12px 24px rgba(0, 0, 0, 0.65), 0 4px 8px rgba(0, 0, 0, 0.5);
+  --wn-elevation-4: 0 24px 48px rgba(0, 0, 0, 0.75), 0 8px 16px rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="shroom-light"] {
+  --wn-bg: #f5f2e8;
+  --wn-bg-elevated: #ebe8dd;
+  --wn-bg-card: #ebe8dd;
+  --wn-bg-hover: #d9d4c3;
+  --wn-text: #4a4555;
+  --wn-text-muted: #67626f;
+  --wn-text-dim: #8a857c;
+  --wn-border: #d9d4c3;
+  --wn-border-light: #e1decc;
+  --wn-overlay: rgba(74, 69, 85, 0.3);
+  --wn-glow: rgba(137, 93, 156, 0.06);
+
+  --sl-color-accent: #895d9c;
+  --sl-color-accent-low: #895d9c18;
+  --sl-color-accent-high: #6e4684;
+  --sl-color-bg: #f5f2e8;
+  --sl-color-bg-nav: #ebe8dd;
+  --sl-color-bg-sidebar: #f5f2e8;
+  --sl-color-bg-inline-code: #ebe8dd;
+  --sl-color-bg-hairline: #d9d4c3;
+  --sl-color-hairline-light: #d9d4c3;
+  --sl-color-hairline-shade: #c5c0b0;
+  --sl-color-text: #4a4555;
+  --sl-color-text-accent: #895d9c;
+  --sl-color-text-invert: #f5f2e8;
+  --sl-color-gray-1: #4a4555;
+  --sl-color-gray-2: #726c7c;
+  --sl-color-gray-3: #8a857c;
+  --sl-color-gray-4: #a8a294;
+  --sl-color-gray-5: #c5c0b0;
+  --sl-color-gray-6: #d9d4c3;
+  --sl-color-gray-7: #e1decc;
+  --sl-color-gray-8: #ebe8dd;
+  --sl-color-black: #f5f2e8;
+  --sl-color-white: #4a4555;
+
+  --wn-elevation-1: 0 1px 3px rgba(74, 69, 85, 0.1), 0 1px 2px rgba(74, 69, 85, 0.06);
+  --wn-elevation-2: 0 4px 8px rgba(74, 69, 85, 0.12), 0 2px 4px rgba(74, 69, 85, 0.08);
+  --wn-elevation-3: 0 12px 24px rgba(74, 69, 85, 0.14), 0 4px 8px rgba(74, 69, 85, 0.1);
+  --wn-elevation-4: 0 24px 48px rgba(74, 69, 85, 0.18), 0 8px 16px rgba(74, 69, 85, 0.12);
 }
