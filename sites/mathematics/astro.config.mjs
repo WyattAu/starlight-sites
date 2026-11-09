@@ -51,6 +51,10 @@ export default defineConfig({
               label: 'Stage C: Expanding the Line',
               slug: '17-core-course/stage-c-expanding-the-line',
             },
+            {
+              label: 'Stage D: The continuum',
+              slug: '17-core-course/stage-d-the-continuum',
+            },
             { label: '1A: Categories', slug: '17-core-course/1a-categories' },
             { label: '1B: Linear Algebra', slug: '17-core-course/1b-linear-algebra' },
             { label: '1C: Eigenvectors', slug: '17-core-course/1c-eigenthings' },

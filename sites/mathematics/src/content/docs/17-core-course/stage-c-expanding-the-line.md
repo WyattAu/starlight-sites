@@ -584,4 +584,6 @@ and require full written arguments.
 Stage D (The continuum) answers the question Section 3 planted: it
 builds the real line from the rationals' order alone, by Dedekind cuts,
 proves the line complete (every hole filled), and hands back the
-diagonal's length. The page `stage-d-the-continuum.md` carries it.
+diagonal's length.
+
+**Next: [Stage D: The continuum](/17-core-course/stage-d-the-continuum/).**

@@ -345,6 +345,7 @@ is a documented reality.
 | [Stage A: Reasoning](/17-core-course/stage-a-reasoning/) | A | Propositions, quantifiers, sets, relations, functions, and the dissection of a false proof: the floor of the course, assuming nothing |
 | [Stage B: Counting](/17-core-course/stage-b-counting/) | B | Peano, induction and its dissection, addition and multiplication as theorems, division with remainder, the Archimedean property, pigeonhole and the binomial law |
 | [Stage C: Expanding the Line](/17-core-course/stage-c-expanding-the-line/) | C | The integers from difference classes, the rationals, the first crisis, Euclid and Bezout, congruence classes and Fermat |
+| [Stage D: The continuum](/17-core-course/stage-d-the-continuum/) | D | Dedekind cuts, arithmetic and completeness, decimals, cardinality and Cantor, ordinals and transfinite induction, choice and Zorn |
 | [Categories: The Language of Mathematics](/17-core-course/1a-categories/) | 1A | Objects, morphisms, universal properties, functors, natural transformations |
 | [Linear Algebra Done Wrong](/17-core-course/1b-linear-algebra/) | 1B | Coordinate-free vector spaces, dual spaces, quotient spaces, exterior algebra, determinants as alternating forms |
 | [Level 2: Topology](/17-core-course/2a-topology/) | 2 | Metric and abstract topologies, continuity, subspaces and products, Hausdorff, connectedness (intermediate value theorem), compactness (extreme value theorem) |
