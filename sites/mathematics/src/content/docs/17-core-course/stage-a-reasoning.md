@@ -299,7 +299,7 @@ Suppose $z \in [x] \cap [y]$. The definitions give $z \sim x$ and
 $z \sim y$; symmetry turns the first into $x \sim z$; transitivity
 chains $x \sim z \sim y$ into $x \sim y$; and then every member of
 $[x]$ is a member of $[y]$. The "share one element" attempt collapses
-into equality. A wrong guess here usually forgets the symmetry step;
+into equality. A wrong guess here forgets the symmetry step;
 the autopsy names it.
 
 </div>
