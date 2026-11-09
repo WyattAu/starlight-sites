@@ -42,7 +42,9 @@ function hexToRgb(v) {
     const nums = t.match(/[\d.]+/g)
     if (!nums || nums.length < 3) return null
     return {
-      r: +nums[0], g: +nums[1], b: +nums[2],
+      r: +nums[0],
+      g: +nums[1],
+      b: +nums[2],
       a: nums[3] !== undefined ? +nums[3] : 1,
     }
   }
