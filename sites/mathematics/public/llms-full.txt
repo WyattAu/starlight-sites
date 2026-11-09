@@ -23867,8 +23867,7 @@ chosen representatives.
 is $a + b' = a' + b$ and $c + d' = c' + d$. For addition: $(a + c) +
 (b' + d') = (a + b') + (c + d') = (a' + b) + (c' + d) = (a' + c') + (b +
 d)$, so $(a + c, b + d) \sim (a' + c', b' + d')$. For multiplication,
-expand both sides of $(a + b')(c + d') + (a + d')(c + b') = (a' + b)(c
-+ d) + (a' + d)(c + b')$ using distributivity (Stage B), apply the two
+expand both sides of $(a + b')(c + d') + (a + d')(c + b') = (a' + b)(c + d) + (a' + d)(c + b')$ using distributivity (Stage B), apply the two
 hypotheses twice each, and watch the sides become equal: the full
 expansion is Problem 2, and the machine-checkable witness is below.
 $\blacksquare$
@@ -23954,8 +23953,9 @@ multiplicative inverse: $[(p, q)]^{-1} := [(q, p)]$ for $p \neq
 *Proof.* The class $1_{\mathbb{Q}}$ is $[(1_{\mathbb{Z}},
 1_{\mathbb{Z}})]$, and $(p \times q, p \times q) \sim (1, 1)$ because
 $p \times q \times 1_{\mathbb{Z}} = 1_{\mathbb{Z}} \times p \times q$
-(trivially, as equality of the same product). The condition $p \neq
-0_{\mathbb{Z}}$ makes $(q, p)$ a legal pair. $\blacksquare$
+(the two sides are the same product, on both representatives). The
+condition $p \neq 0_{\mathbb{Z}}$ makes $(q, p)$ a legal pair.
+$\blacksquare$
 
 Division is now total: $a / b := a \times b^{-1}$ for $b \neq
 0_{\mathbb{Q}}$. The equation $c \times x = d$ with $c \neq 0$ has the
@@ -24233,8 +24233,7 @@ numerator product $p \times (p \ominus 1) \times \dots \times (p
 \ominus k + 1)$ while none of $k, k \ominus 1, \dots, 1$ (all smaller
 than $p$) is divisible by the prime $p$ (Euclid's lemma, applied factor
 by factor); as $p$ is prime it divides the product only through its own
-factor, so $p \mid B(p, k)$. Hence $(a + 1)^p \equiv a^p + 1 \equiv a
-+ 1 \pmod p$. For the final claim: $a \not\equiv 0$ means $[a]$ is a
+factor, so $p \mid B(p, k)$. Hence $(a + 1)^p \equiv a^p + 1 \equiv a + 1 \pmod p$. For the final claim: $a \not\equiv 0$ means $[a]$ is a
 unit, and $[a]^p = [a]$ lets the unit $[a]^{\ominus 1}$ cancel one
 copy. $\blacksquare$
 
