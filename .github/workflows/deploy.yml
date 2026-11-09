@@ -148,6 +148,12 @@ jobs:
       - name: MDX parse gate
         run: node --max-old-space-size=1024 scripts/lint-mdx-parse.js
 
+      # Astro parses frontmatter as YAML at content-sync time: an unquoted
+      # `tagline: a: b` takes the whole site down, not just the page. This
+      # gate existed but was never wired into this hand-maintained list.
+      - name: Frontmatter YAML gate
+        run: node --max-old-space-size=1024 scripts/lint-frontmatter-yaml.js
+
       - name: Display-math delimiter gate
         run: node --max-old-space-size=1024 scripts/fix-display-math.mjs --check
 
