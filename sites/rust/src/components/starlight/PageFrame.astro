@@ -71,6 +71,21 @@ function flattenSidebar(entries: SidebarEntry[]): TopicCard[] {
 }
 
 const topics = flattenSidebar(starlightRoute.sidebar ?? [])
+
+// The Core Course is not a topic: it is the site's centre of gravity, and
+// the encyclopaedia grid must not list it as track 02. Pull it out of the
+// grid and give it its own feature panel above the encyclopaedia.
+const courseGroup = (starlightRoute.sidebar ?? []).find(
+  (e) => e.type === 'group' && /^the core course$/i.test(e.label),
+)
+const course =
+  courseGroup?.type === 'group'
+    ? {
+        href: (courseGroup.entries.find((c) => c.type === 'link') ?? { href: '/17-core-course/' })
+          .href,
+        pages: courseGroup.entries.length,
+      }
+    : undefined
 ---
 
 {
@@ -93,11 +108,31 @@ const topics = flattenSidebar(starlightRoute.sidebar ?? [])
           )}
         </SubjectHero>
         <ProgressPanel client:idle />
+        {course && (
+          <section class="landing-course" aria-label="The course">
+            <div class="landing-course__inner">
+              <p class="landing-kicker reveal">The course</p>
+              <h2 class="landing-heading">
+                Start from literacy. Walk to the research frontier.
+              </h2>
+              <p class="landing-course__desc">
+                One linear path, dependency-ordered and machine-checked:
+                nothing assumes anything you have not met. Twelve chapters
+                are live; the full map runs eighty-nine chapters from logic
+                to the research frontier.
+              </p>
+              <a class="landing-cta__btn" href={course.href}>
+                Enter the course
+                <span aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+          </section>
+        )}
         {topics.length > 0 && (
           <section class="landing-topics" aria-label="Topics">
             <div class="landing-topics__inner">
-              <p class="landing-kicker reveal">Browse the library</p>
-              <h2 class="landing-heading">Study topics</h2>
+              <p class="landing-kicker reveal">Browse the encyclopaedia</p>
+              <h2 class="landing-heading">Reference tracks</h2>
               <TopicGrid topics={topics} columns={3} />
             </div>
           </section>
@@ -120,6 +155,25 @@ const topics = flattenSidebar(starlightRoute.sidebar ?? [])
 
 <style>
   /* Landing-only styles, scoped to the .landing wrapper rendered above. */
+
+  /* The course feature panel: the site's centre of gravity, visually
+     distinct from the encyclopaedia grid below it. */
+  .landing-course {
+    background: var(--sl-color-bg-cover, rgba(0, 0, 0, 0.04));
+    border-block: 1px solid var(--sl-color-gray-6, var(--sl-color-gray-5, #2a2a3a));
+    padding: calc(var(--sl-nav-pad-y) * 3) var(--sl-nav-pad-x);
+  }
+  .landing-course__inner {
+    max-width: var(--sl-content-width, 72rem);
+    margin-inline: auto;
+  }
+  .landing-course__desc {
+    max-width: 44rem;
+    margin: 0.75rem 0 1.25rem;
+    color: var(--sl-color-gray-3, var(--sl-color-gray-4, #8888a0));
+    line-height: 1.7;
+  }
+
   .landing-header {
     position: fixed;
     inset-inline-start: 0;
