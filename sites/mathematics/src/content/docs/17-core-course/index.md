@@ -136,7 +136,7 @@ number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
 The full course is 89 chapters across 15 dependency stages, from
 logic to the research frontier, with
-25 written. The graph is machine-checked: `docs/course-graph.json` is
+30 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order and that the dependency graph is
@@ -159,11 +159,11 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | B4 | Division with remainder; the Archimedean property | written |
 | B5 | Counting arguments: bijections, permutations, and the binomial theorem | written |
 | **Stage C: Expanding the line** | *Z, Q, primes, congruences, and the first crisis.* | |
-| C1 | The failure of subtraction; Z as difference classes | queued |
-| C2 | The failure of division; Q as fraction classes; density | queued |
-| C3 | The first crisis: x^2 = 2 has no rational solution | queued |
-| C4 | Primes and the fundamental theorem of arithmetic | queued |
-| C5 | Congruence classes and the rings Z/nZ | queued |
+| C1 | The failure of subtraction; Z as difference classes | written |
+| C2 | The failure of division; Q as fraction classes; density | written |
+| C3 | The first crisis: x^2 = 2 has no rational solution | written |
+| C4 | Primes and the fundamental theorem of arithmetic | written |
+| C5 | Congruence classes and the rings Z/nZ | written |
 | **Stage D: The continuum** | *R constructed; completeness; cardinality; ordinals; choice.* | |
 | D1 | Dedekind cuts: R constructed from order alone | queued |
 | D2 | Arithmetic and completeness of R, proved | queued |
@@ -343,6 +343,8 @@ is a documented reality.
 | Page | Level | Content |
 |---|---|---|
 | [Stage A: Reasoning](/17-core-course/stage-a-reasoning/) | A | Propositions, quantifiers, sets, relations, functions, and the dissection of a false proof: the floor of the course, assuming nothing |
+| [Stage B: Counting](/17-core-course/stage-b-counting/) | B | Peano, induction and its dissection, addition and multiplication as theorems, division with remainder, the Archimedean property, pigeonhole and the binomial law |
+| [Stage C: Expanding the Line](/17-core-course/stage-c-expanding-the-line/) | C | The integers from difference classes, the rationals, the first crisis, Euclid and Bezout, congruence classes and Fermat |
 | [Categories: The Language of Mathematics](/17-core-course/1a-categories/) | 1A | Objects, morphisms, universal properties, functors, natural transformations |
 | [Linear Algebra Done Wrong](/17-core-course/1b-linear-algebra/) | 1B | Coordinate-free vector spaces, dual spaces, quotient spaces, exterior algebra, determinants as alternating forms |
 | [Level 2: Topology](/17-core-course/2a-topology/) | 2 | Metric and abstract topologies, continuity, subspaces and products, Hausdorff, connectedness (intermediate value theorem), compactness (extreme value theorem) |

@@ -626,5 +626,6 @@ Stage B (Counting) builds the counting numbers from the Peano axioms:
 induction, then addition defined recursively with its laws proved as
 theorems, then multiplication, order, and division with remainder.
 Arithmetic becomes a theorem, and the equivalence classes and bijections
-of this page are the instruments it uses. The page
-`stage-b-counting.md` carries it.
+of this page are the instruments it uses.
+
+**Next: [Stage B: Counting](/17-core-course/stage-b-counting/).**

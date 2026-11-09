@@ -214,9 +214,10 @@
         "A3",
         "A4"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-c-expanding-the-line.md",
-      "declaredInputs": []
+      "declaredInputs": [],
+      "note": "The integers as difference classes: pairs of counting numbers modulo A3's equivalence relation, with well-defined arithmetic (the add_wd formal witness compiles in CI)."
     },
     {
       "id": "C2",
@@ -226,7 +227,7 @@
         "C1",
         "B4"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-c-expanding-the-line.md",
       "declaredInputs": []
     },
@@ -239,7 +240,7 @@
         "B1",
         "B4"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-c-expanding-the-line.md",
       "declaredInputs": []
     },
@@ -251,7 +252,7 @@
         "C2",
         "B4"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-c-expanding-the-line.md",
       "declaredInputs": [],
       "note": "The Euclidean algorithm and Bezout's identity come first; linear Diophantine equations are the exercises. Unique factorisation is proved on Bezout's shoulders."
@@ -260,7 +261,7 @@
       "id": "C5",
       "stage": "C",
       "file": "stage-c-expanding-the-line.md",
-      "status": "queued",
+      "status": "written",
       "title": "Congruence classes and the rings Z/nZ",
       "declaredInputs": [],
       "deps": [

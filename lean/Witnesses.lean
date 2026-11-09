@@ -27,3 +27,9 @@ theorem division_with_remainder_w (a b : Nat) :
 
 theorem mod_lt_w (a b : Nat) (h : b ≠ 0) : a % b < b :=
   Nat.mod_lt a (by omega)
+
+/-! From `stage-c-expanding-the-line.md` -/
+
+theorem add_wd (a b c d a' b' c' d' : Nat)
+    (h1 : a + b' = a' + b) (h2 : c + d' = c' + d) :
+    a + c + (b' + d') = a' + c' + (b + d) := by omega

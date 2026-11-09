@@ -20,6 +20,7 @@ DOCS = ROOT / "sites" / "mathematics" / "src" / "content" / "docs" / "17-core-co
 OUT = ROOT / "lean" / "Witnesses.lean"
 PAGES = [
     "stage-b-counting.md",
+    "stage-c-expanding-the-line.md",
 ]
 
 HEADER = """/-!

@@ -721,8 +721,9 @@ and require full written arguments.
 Stage C (Expanding the line) takes the remainder theorem and does
 something violent with it: it declares two numbers equivalent when their
 difference is divisible by $b$, keeps only the remainders, and discovers
-that the resulting arithmetic (Section A's equivalence classes, this
+that the resulting arithmetic (Stage A's equivalence classes, this
 stage's remainder theorem) is a working number system with negative
 directions built in. Then the rationals, and then the first crisis: a
-length whose square is two, which no fraction measures. The page
-`stage-c-expanding-the-line.md` carries it.
+length whose square is two, which no fraction measures.
+
+**Next: [Stage C: Expanding the Line](/17-core-course/stage-c-expanding-the-line/).**
