@@ -47,7 +47,10 @@ export default defineConfig({
             { label: 'Overview: the Course Map', slug: '17-core-course' },
             { label: 'Stage A: Reasoning', slug: '17-core-course/stage-a-reasoning' },
             { label: 'Stage B: Counting', slug: '17-core-course/stage-b-counting' },
-            { label: 'Stage C: Expanding the Line', slug: '17-core-course/stage-c-expanding-the-line' },
+            {
+              label: 'Stage C: Expanding the Line',
+              slug: '17-core-course/stage-c-expanding-the-line',
+            },
             { label: '1A: Categories', slug: '17-core-course/1a-categories' },
             { label: '1B: Linear Algebra', slug: '17-core-course/1b-linear-algebra' },
             { label: '1C: Eigenvectors', slug: '17-core-course/1c-eigenthings' },
