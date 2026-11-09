@@ -1214,7 +1214,7 @@
     var list = el('div', { id: 'wn-cheat-list' })
     var entries = [
       { key: '?', desc: 'Show this help' },
-      { key: 's /', desc: 'Search all sites' },
+      { key: 's / ⌘K', desc: 'Search all sites' },
       { key: 't', desc: 'Cycle theme' },
       { key: 'f', desc: 'Toggle reading mode' },
       { key: 'n', desc: 'Next page' },
@@ -1320,14 +1320,17 @@
     }
     gPending = false
 
-    // Ctrl+/Cmd+ shortcuts
+    // Ctrl+/Cmd+ shortcuts. Note: Ctrl+F / Cmd+F is deliberately NOT
+    // intercepted; browser find-in-page is sacred muscle memory, and
+    // suppressing it reads as "find is broken". The search modal lives
+    // on Ctrl+K / Cmd+K (and on "/" and "s" without modifiers).
     if (e.ctrlKey || e.metaKey) {
       if (e.key === ',') {
         e.preventDefault()
         togglePanel()
         return
       }
-      if (e.key === 'f') {
+      if (e.key === 'k' || e.key === 'K') {
         e.preventDefault()
         openPageSearch()
         return

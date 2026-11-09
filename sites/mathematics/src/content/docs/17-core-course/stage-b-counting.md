@@ -31,7 +31,8 @@ starting object, one always-step, and one induction licence generate every
 counting number; addition and multiplication are then *defined* by two
 lines each, and every law of school arithmetic, without exception, falls
 out as a theorem proved by induction, with division-with-remainder the
-crown that Stage C will use to break the line open.</span>
+crown that Stage C will use to break the line open. (Forward-honesty
+marker: Stage C is future content; nothing below depends on it.)</span>
 
 *The blur is deliberate: form your own reading of the page first, then
 click it.*
@@ -425,7 +426,8 @@ $\blacksquare$
 
 The remainder theorem is the gate through which Stage C will pass: the
 line of counting numbers divides the world into remainders, and the
-remainders become new number systems.
+remainders become new number systems. (Forward-honesty marker: the
+construction is future content; this section only proves the theorem.)
 
 **Theorem (the Archimedean property).** For all $a$ and all $b \neq 0$,
 there exists $n$ with $a < b \times n$.
@@ -453,8 +455,8 @@ would violate the inequality argument in the uniqueness proof. Existence
 says the walk stops; uniqueness says the stopping place is a fact about
 $a$ and $b$, not about the walker. Stage C will keep the stopping place
 ($a \bmod b$) and throw away the quotient, and a new arithmetic will grow
-from it. (Forward-honesty marker: the remainder theorem is used there,
-not here.)
+from it. (Forward-honesty marker as flagged: the construction is future
+content; this section only proves the theorem.)
 
 </div>
 </details>
@@ -483,15 +485,15 @@ discharging the small arithmetic fact $0 < b$ from $b \neq 0$.
 2. Where does $r < b$ get used in the uniqueness proof?
 3. What are the two witnesses for $a = 0$ in the remainder theorem?
 4. State the Archimedean property for the counting numbers.
-5. What does Stage C keep from the remainder theorem, and what does it
-   throw away?
+5. State the two conditions on the remainder $r$ in the remainder
+   theorem, and name the proof shape that existence uses.
 
 *Answers:* **1.** Strong induction on $a$ (least-counterexample shape).
 **2.** It bounds $d$: a larger quotient would add at least a full
 $b \times 1$, exceeding $b \times q + d$ when $d < b$. **3.** $q := 0$
 and $r := 0$. **4.** For every $a$ and every $b \neq 0$, some multiple
-$b \times n$ exceeds $a$. **5.** Stage C keeps the remainder and throws
-away the quotient.
+$b \times n$ exceeds $a$. **5.** $r < b$ and $r \geq 0$; existence
+by strong induction on $a$.
 
 ## 5. Counting Arguments: Bijections Meet Arithmetic
 

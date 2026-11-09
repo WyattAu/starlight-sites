@@ -302,15 +302,18 @@ shape proved Stage B's division theorem; here it does historic work.
 3. Why does the proof not need density or limits?
 4. State what the theorem says about the equation $x \times x = 2$ over
    $\mathbb{Q}$.
-5. Which stage is created by this theorem's conclusion?
+5. What does the theorem imply about the rational line, and what must
+   any completed line add?
 
 *Answers:* **1.** An odd times an odd is odd; and every even product
 $2 \times q \times q$ forces evenness of its square root in this
 setting. **2.** The lowest-terms hypothesis (no common factor) is
 contradicted by both $p$ and $q$ being even. **3.** It uses only
 Stage B's arithmetic, order, and well-ordering descent. **4.** It has
-no rational solution. **5.** Stage D, the construction of the real
-line.
+no rational solution. **5.** The rational line has holes (the diagonal's
+length is missing); a completed line must contain that length. Its
+construction is Stage D. (Forward-honesty marker: Stage D is future
+content; this theorem stands on its own.)
 
 ## 4. Primes and the Fundamental Theorem of Arithmetic
 
