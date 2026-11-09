@@ -132,7 +132,7 @@ can be chosen with $x = [(a, b)]$, $y = [(c, d)]$, and $b + c \leq a +
 d$ in $\mathbb{N}$; well-defined by the same representative bookkeeping
 (Problem 3).
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the equivalence relation defining $\mathbb{Z}$.
 2. Why is the map $n \mapsto n_{\mathbb{Z}}$ injective?
@@ -141,12 +141,22 @@ d$ in $\mathbb{N}$; well-defined by the same representative bookkeeping
 4. Which Stage A tool made the quotient construction legal?
 5. What does $-[(a, b)]$ mean, and what does adding it produce?
 
-*Answers:* **1.** $(a, b) \sim (c, d)$ when $a + d = c + b$; $\mathbb{Z}$
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $(a, b) \sim (c, d)$ when $a + d = c + b$; $\mathbb{Z}$
 is the set of equivalence classes. **2.** Equality of the classes forces
 $n = m$ by the base line of addition. **3.** $[(8, 9)]$, which behaves
 as $-1$: it is $-[(1, 0)]$. **4.** Equivalence relations and their
 quotient set (the partition correspondence). **5.** The class $[(b,
 a)]$; adding gives $[(a + b, b + a)] = 0_{\mathbb{Z}}$.
+
+</div>
+</details>
+
+:::
 
 ## 2. The Failure of Division; the Rationals
 
@@ -217,7 +227,7 @@ built to prevent.
 </div>
 </details>
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the equivalence relation defining $\mathbb{Q}$.
 2. Which stage's which law makes rational addition well-defined?
@@ -226,7 +236,12 @@ built to prevent.
 4. State density in one sentence, and one thing it does not claim.
 5. Why must the second component avoid $0_{\mathbb{Z}}$?
 
-*Answers:* **1.** $(p, q) \sim (p', q')$ when $p \times q' = p' \times
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $(p, q) \sim (p', q')$ when $p \times q' = p' \times
 q$, on pairs with $q \neq 0_{\mathbb{Z}}$. **2.** Stage 1's
 distributivity and commutativity on $\mathbb{Z}$ (Stage B's laws,
 lifted). **3.** $[(5, 3)]$; and $[(3, 5)] \times [(5, 3)] = [(15, 15)]
@@ -234,6 +249,11 @@ lifted). **3.** $[(5, 3)]$; and $[(3, 5)] \times [(5, 3)] = [(15, 15)]
 third; it does not claim every point of the line is rational. **5.**
 The inverse definition divides by $q$; $q = 0_{\mathbb{Z}}$ has no
 inverse and encodes no fraction.
+
+</div>
+</details>
+
+:::
 
 ## 3. The First Crisis: a Length No Fraction Measures
 
@@ -295,7 +315,7 @@ shape proved Stage B's division theorem; here it does historic work.
 </div>
 </details>
 
-**Quick check.**
+:::note[Quick check]
 
 1. Which two facts about evenness drive the proof?
 2. What exactly contradicts what, at the end of the proof?
@@ -305,7 +325,12 @@ shape proved Stage B's division theorem; here it does historic work.
 5. What does the theorem imply about the rational line, and what must
    any completed line add?
 
-*Answers:* **1.** An odd times an odd is odd; and every even product
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** An odd times an odd is odd; and every even product
 $2 \times q \times q$ forces evenness of its square root in this
 setting. **2.** The lowest-terms hypothesis (no common factor) is
 contradicted by both $p$ and $q$ being even. **3.** It uses only
@@ -314,6 +339,11 @@ no rational solution. **5.** The rational line has holes (the diagonal's
 length is missing); a completed line must contain that length. Its
 construction is Stage D. (Forward-honesty marker: Stage D is future
 content; this theorem stands on its own.)
+
+</div>
+</details>
+
+:::
 
 ## 4. Primes and the Fundamental Theorem of Arithmetic
 
@@ -384,7 +414,7 @@ cancellation for multiplication, Problem-set technique) and repeat.
 The lists match element for element, so $r = s$ and the factorisations
 are the same up to order. $\blacksquare$
 
-**Quick check.**
+:::note[Quick check]
 
 1. Why does the remainder sequence in Euclid's algorithm terminate?
 2. State Bezout's identity.
@@ -394,7 +424,12 @@ are the same up to order. $\blacksquare$
 5. What does "unique up to order" mean concretely for $12 = 2 \times 2
    \times 3$?
 
-*Answers:* **1.** Each remainder is strictly smaller than the previous,
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Each remainder is strictly smaller than the previous,
 and strictly decreasing counting numbers cannot descend forever
 (well-ordering). **2.** There exist integers $u, v$ with $a \times u +
 b \times v = \gcd(a, b)$. **3.** A prime dividing a product divides a
@@ -402,6 +437,11 @@ factor; it consumes Bezout's identity. **4.** The existence induction is
 strong induction, justified by well-ordering's least-counterexample
 reading. **5.** $12$ is always two $2$s and one $3$: same primes, same
 multiplicities, any order.
+
+</div>
+</details>
+
+:::
 
 ## 5. Congruence Classes and the Rings of Remainders
 
@@ -484,7 +524,7 @@ contents, and these two are the first pair of contrasting specimens.
 </div>
 </details>
 
-**Quick check.**
+:::note[Quick check]
 
 1. Why does $\mathbb{Z}/6$ fail cancellation where $\mathbb{Z}/5$ does
    not?
@@ -495,7 +535,12 @@ contents, and these two are the first pair of contrasting specimens.
 5. How many classes does $\mathbb{Z}/n$ have, and what are their
    standard representatives?
 
-*Answers:* **1.** $6 = 2 \times 3$ is composite, so $[2]$ and $[3]$ are
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $6 = 2 \times 3$ is composite, so $[2]$ and $[3]$ are
 nonzero non-units with $[2] \times [3] = [0]$: cancellation fails
 exactly when nonzero zero-divisors exist. **2.** Prime: every nonzero
 class is a unit; composite: at least one nonzero class is not. **3.**
@@ -503,12 +548,22 @@ The binomial law and Euclid's lemma (via Bezout). **4.** $2^4 = 16 =
 3 \times 5 + 1$, so $2^4 \equiv 1 = 2^{5 \ominus 1}$: matches Fermat.
 **5.** Exactly $n$ classes, represented by $0, 1, \dots, n \ominus 1$.
 
+</div>
+</details>
+
+:::
+
 ## Stage Gate
+## Stage Gate
+
+
 
 Before Stage D, answer these five without notes. Pass mark: four. Each is
 drawn from this page's quick checks; a failed gate names the section to
 reread (1: Section 1; 2: Section 2; 3: Section 3; 4: Section 4; 5:
 Section 5).
+
+:::caution[Pass mark: four of five]
 
 1. State the difference-class definition of $\mathbb{Z}$ and the
    well-definedness obligation both operations must discharge.
@@ -517,6 +572,7 @@ Section 5).
 4. State Bezout's identity and Euclid's lemma.
 5. State the units theorem for $\mathbb{Z}/p$ and Fermat's little
    theorem.
+
 
 <details class="wn-spoiler">
 <summary>Gate answers</summary>
@@ -537,6 +593,8 @@ $p \nmid a$).
 
 </div>
 </details>
+
+:::
 
 ## Problems
 

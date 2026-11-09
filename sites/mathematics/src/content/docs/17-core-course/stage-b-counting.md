@@ -145,7 +145,7 @@ $\blacksquare$
 Strong induction is the version Stage D will generalize into transfinite
 induction, and Section 4's division theorem is its first outing.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the five Peano declarations.
 2. What are the base case, induction hypothesis, and inductive step of an
@@ -154,7 +154,12 @@ induction, and Section 4's division theorem is its first outing.
 4. State well-ordering, and name which proof shape its proof uses.
 5. Why does strong induction not need its own axiom?
 
-*Answers:* **1.** Zero is a counting number; successors exist; zero is no
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Zero is a counting number; successors exist; zero is no
 one's successor; successors are distinct for distinct inputs; induction.
 **2.** Base: $P(0)$. Hypothesis: $P(n)$. Step: $P(n) \to P(S(n))$.
 **3.** True for herds of at least two horses; false for the step from one
@@ -162,6 +167,11 @@ horse to two (the overlap is empty). **4.** Every nonempty set of
 counting numbers has a least element; the proof is by contradiction plus
 induction. **5.** It is derived from least counterexamples, which follow
 from induction plus well-ordering.
+
+</div>
+</details>
+
+:::
 
 ## Formal Witnesses: How to Read the Boxes
 
@@ -278,7 +288,7 @@ $S(0 + k)$ and then to $S(k)$, which is the goal's right side. The same
 proofs, certified: this pair of boxes compiles in the proof job on every
 push.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the two lines that define addition, and say which argument the
    recursion walks.
@@ -287,13 +297,23 @@ push.
 4. Prove $a + 1 = S(a)$ where $1 := S(0)$.
 5. What exactly does the recursion-principle debt license?
 
-*Answers:* **1.** $a + 0 := a$ and $a + S(b) := S(a + b)$; the recursion
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $a + 0 := a$ and $a + S(b) := S(a + b)$; the recursion
 walks the right argument. **2.** The base line is $a + 0 = a$; "$a + 0 =
 0$" is multiplication's base, not addition's. **3.** $0 + n = n$ (the
 first crack); commutativity swaps arguments and needed the left-zero
 case. **4.** $a + 1 = a + S(0) = S(a + 0) = S(a)$. **5.** That the two
 lines define exactly one function; its general proof is Stage D's
 transfinite recursion.
+
+</div>
+</details>
+
+:::
 
 ## 3. Multiplication, Order, Exponentiation: All Theorems
 
@@ -377,7 +397,7 @@ witness $c$. $\blacksquare$
 a$. The laws ($a^{b + c} = a^b \times a^c$ and friends) are proved by
 the same inductions as Section 2 and 3; Problem 5 asks for one.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the two lines that define multiplication.
 2. Which two previously proved facts does distributivity's proof use in
@@ -386,11 +406,21 @@ the same inductions as Section 2 and 3; Problem 5 asks for one.
 4. Why does $a < S(a)$ hold, by the definition of $<$?
 5. State $a^{S(b)}$ in terms of $a^b$.
 
-*Answers:* **1.** $a \times 0 := 0$ and $a \times S(b) := a \times b +
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $a \times 0 := 0$ and $a \times S(b) := a \times b +
 a$; the recursion walks the right argument. **2.** Associativity of
 addition and the multiplication step line. **3.** $a \leq b$ when some
 $c$ satisfies $a + c = b$. **4.** Witness $c := 1$: $a + 1 = S(a)$
 by Section 2. **5.** $a^{S(b)} = a^b \times a$.
+
+</div>
+</details>
+
+:::
 
 ## 4. Division with Remainder; the Archimedean Property
 
@@ -478,7 +508,7 @@ witness states $b \times (a / b) + a \% b = a$ for all $a, b$; the second
 adds the bound $a \% b < b$ whenever $b \neq 0$, with the `by omega`
 discharging the small arithmetic fact $0 < b$ from $b \neq 0$.
 
-**Quick check.**
+:::note[Quick check]
 
 1. In the existence proof, which proof shape carries the main argument,
    and what is the induction on?
@@ -488,12 +518,22 @@ discharging the small arithmetic fact $0 < b$ from $b \neq 0$.
 5. State the two conditions on the remainder $r$ in the remainder
    theorem, and name the proof shape that existence uses.
 
-*Answers:* **1.** Strong induction on $a$ (least-counterexample shape).
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Strong induction on $a$ (least-counterexample shape).
 **2.** It bounds $d$: a larger quotient would add at least a full
 $b \times 1$, exceeding $b \times q + d$ when $d < b$. **3.** $q := 0$
 and $r := 0$. **4.** For every $a$ and every $b \neq 0$, some multiple
 $b \times n$ exceeds $a$. **5.** $r < b$ and $r \geq 0$; existence
 by strong induction on $a$.
+
+</div>
+</details>
+
+:::
 
 ## 5. Counting Arguments: Bijections Meet Arithmetic
 
@@ -625,7 +665,7 @@ x^k \, y^{n \ominus k}$; proved by induction on $n$ using Section 3's
 distributivity and the recurrence. (Problem 4 carries out the
 induction.) $\blacksquare$
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the pigeonhole principle with its exact hypotheses.
 2. Where does the removal lemma enter the pigeonhole proof?
@@ -634,7 +674,12 @@ induction.) $\blacksquare$
 5. Which stage's chapters consume the remainder theorem immediately
    after this page's stage gate?
 
-*Answers:* **1.** If $m < k$, every function $[k] \to [m]$ collides on
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** If $m < k$, every function $[k] \to [m]$ collides on
 distinct inputs; equivalently no injection exists. **2.** In the case
 where the top value is in the image: removing that one pair turns the
 problem into the previous case. **3.** There exists a bijection from
@@ -642,12 +687,22 @@ $[n]$ onto $X$. **4.** $B(n, k) = B(n \ominus 1, k \ominus 1) + B(n
 \ominus 1, k)$, with $B(n, 0) = B(n, n) = 1$. **5.** Stage C
 (Expanding the line), via the remainder theorem.
 
+</div>
+</details>
+
+:::
+
 ## Stage Gate
+## Stage Gate
+
+
 
 Before Stage C, answer these five without notes. Pass mark: four. Each is
 drawn from this page's quick checks; a failed gate names the section to
 reread (1: Section 1; 2: Section 2; 3: Section 3; 4: Section 4; 5:
 Section 5).
+
+:::caution[Pass mark: four of five]
 
 1. State the induction axiom, and give the validity condition the horse
    argument violated.
@@ -657,6 +712,7 @@ Section 5).
    defined from addition.
 4. State the remainder theorem with its two conditions on $r$.
 5. State the pigeonhole principle, and name the lemma its proof consumes.
+
 
 <details class="wn-spoiler">
 <summary>Gate answers</summary>
@@ -674,6 +730,8 @@ lemma.
 
 </div>
 </details>
+
+:::
 
 ## Problems
 

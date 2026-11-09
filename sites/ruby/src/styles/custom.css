@@ -568,6 +568,102 @@
 
 /* ----- Accent colors for asides/admonitions ----- */
 /* Dark themes: asides use dark backgrounds (--sl-color-*-low) with light text */
+/* --- 12/13. Shroom Space (ported from WyattAu/shroom-theme) ---
+   Derivation: the shroom color-science pipeline (Oklab ramps, APCA
+   soft-clamp regime, WCAG AA on alpha-composited pairs) generates the
+   VS Code palettes; these blocks port the editor surface ladder and
+   the six syntax hues to the site variables. Dark: purple-tinted
+   #24212E surfaces, deliberately not pure black. Light: warm
+   earth-tone #F5F2E8. Accent: the keyword purple #BE9AF7 / #895D9C;
+   secondary hues teal #74D7C8 / #006161 and gold #E8C990 / #886930
+   are kept for future component accents. */
+
+[data-theme="shroom"] {
+  --wn-bg: #24212e;
+  --wn-bg-elevated: #2a2739;
+  --wn-bg-card: #2a2739;
+  --wn-bg-hover: #393552;
+  --wn-text: #ccc8d9;
+  --wn-text-muted: #8c86a3;
+  --wn-text-dim: #726d89;
+  --wn-border: #393552;
+  --wn-border-light: #45405e;
+  --wn-overlay: rgba(30, 28, 41, 0.7);
+  --wn-glow: rgba(190, 154, 247, 0.08);
+
+  --sl-color-accent: #be9af7;
+  --sl-color-accent-low: #be9af720;
+  --sl-color-accent-high: #d4b9fa;
+  --sl-color-bg: #24212e;
+  --sl-color-bg-nav: #1e1c29;
+  --sl-color-bg-sidebar: #2a2739;
+  --sl-color-bg-inline-code: #393552;
+  --sl-color-bg-hairline: #393552;
+  --sl-color-hairline-light: #45405e;
+  --sl-color-hairline-shade: #1e1c29;
+  --sl-color-text: #ccc8d9;
+  --sl-color-text-accent: #be9af7;
+  --sl-color-text-invert: #24212e;
+  --sl-color-gray-1: #e0def4;
+  --sl-color-gray-2: #ccc8d9;
+  --sl-color-gray-3: #8c86a3;
+  --sl-color-gray-4: #726d89;
+  --sl-color-gray-5: #393552;
+  --sl-color-gray-6: #2a2739;
+  --sl-color-gray-7: #24212e;
+  --sl-color-gray-8: #1e1c29;
+  --sl-color-black: #1e1c29;
+  --sl-color-white: #e0def4;
+
+  --wn-elevation-1: 0 1px 3px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.4);
+  --wn-elevation-2: 0 4px 8px rgba(0, 0, 0, 0.55), 0 2px 4px rgba(0, 0, 0, 0.45);
+  --wn-elevation-3: 0 12px 24px rgba(0, 0, 0, 0.65), 0 4px 8px rgba(0, 0, 0, 0.5);
+  --wn-elevation-4: 0 24px 48px rgba(0, 0, 0, 0.75), 0 8px 16px rgba(0, 0, 0, 0.55);
+}
+
+[data-theme="shroom-light"] {
+  --wn-bg: #f5f2e8;
+  --wn-bg-elevated: #ebe8dd;
+  --wn-bg-card: #ebe8dd;
+  --wn-bg-hover: #d9d4c3;
+  --wn-text: #4a4555;
+  --wn-text-muted: #726c7c;
+  --wn-text-dim: #8a857c;
+  --wn-border: #d9d4c3;
+  --wn-border-light: #e1decc;
+  --wn-overlay: rgba(74, 69, 85, 0.3);
+  --wn-glow: rgba(137, 93, 156, 0.06);
+
+  --sl-color-accent: #895d9c;
+  --sl-color-accent-low: #895d9c18;
+  --sl-color-accent-high: #6e4684;
+  --sl-color-bg: #f5f2e8;
+  --sl-color-bg-nav: #ebe8dd;
+  --sl-color-bg-sidebar: #f5f2e8;
+  --sl-color-bg-inline-code: #ebe8dd;
+  --sl-color-bg-hairline: #d9d4c3;
+  --sl-color-hairline-light: #d9d4c3;
+  --sl-color-hairline-shade: #c5c0b0;
+  --sl-color-text: #4a4555;
+  --sl-color-text-accent: #895d9c;
+  --sl-color-text-invert: #f5f2e8;
+  --sl-color-gray-1: #4a4555;
+  --sl-color-gray-2: #726c7c;
+  --sl-color-gray-3: #8a857c;
+  --sl-color-gray-4: #a8a294;
+  --sl-color-gray-5: #c5c0b0;
+  --sl-color-gray-6: #d9d4c3;
+  --sl-color-gray-7: #e1decc;
+  --sl-color-gray-8: #ebe8dd;
+  --sl-color-black: #f5f2e8;
+  --sl-color-white: #4a4555;
+
+  --wn-elevation-1: 0 1px 3px rgba(74, 69, 85, 0.1), 0 1px 2px rgba(74, 69, 85, 0.06);
+  --wn-elevation-2: 0 4px 8px rgba(74, 69, 85, 0.12), 0 2px 4px rgba(74, 69, 85, 0.08);
+  --wn-elevation-3: 0 12px 24px rgba(74, 69, 85, 0.14), 0 4px 8px rgba(74, 69, 85, 0.1);
+  --wn-elevation-4: 0 24px 48px rgba(74, 69, 85, 0.18), 0 8px 16px rgba(74, 69, 85, 0.12);
+}
+
 [data-theme="dark"],
 [data-theme="nord"],
 [data-theme="dracula"],

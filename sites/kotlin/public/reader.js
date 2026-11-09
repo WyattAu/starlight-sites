@@ -48,6 +48,8 @@
     { value: 'ayu-mirage', label: 'Ayu Mirage', icon: '#moon' },
     { value: 'solarized', label: 'Solarized', icon: '#sun' },
     { value: 'papercolor', label: 'Papercolor', icon: '#sun' },
+    { value: 'shroom', label: 'Shroom', icon: '#moon' },
+    { value: 'shroom-light', label: 'Shroom Light', icon: '#sun' },
     { value: 'contrast', label: 'Contrast', icon: '#a11y' },
   ]
 

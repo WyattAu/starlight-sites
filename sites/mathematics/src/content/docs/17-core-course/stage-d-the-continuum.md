@@ -105,7 +105,7 @@ would work but adds a quotient stage for no benefit.
 </div>
 </details>
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the three conditions defining a cut.
 2. Why does density of $\mathbb{Q}$ make the embedding $q \mapsto q^*$
@@ -114,7 +114,12 @@ would work but adds a quotient stage for no benefit.
 4. Why is $p \notin p^*$ for any rational $p$?
 5. Which Stage C theorem is *not* needed for the embedding?
 
-*Answers:* **1.** Nonempty, proper, closed downward, no greatest
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Nonempty, proper, closed downward, no greatest
 element. **2.** It ensures every cut boundary is approachable from
 inside by rationals, so rationals and their cuts behave identically in
 the order. **3.** $\alpha \subseteq \beta$. **4.** A cut contains only
@@ -122,6 +127,11 @@ rationals strictly below its boundary, and $p$ is the boundary of
 $p^*$. **5.** Density (the embedding needs it); the crisis theorem is
 not used here: the cut construction does not presuppose that holes
 exist, only that they will be measured.
+
+</div>
+</details>
+
+:::
 
 ## 2. Arithmetic and Completeness: the Summit
 
@@ -213,7 +223,7 @@ The cut $\alpha$ is, of course, what the world calls $\sqrt{2}$. Stage C
 proved no rational does this job; the cuts do it without strain, and
 that is the entire justification of the construction.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the three cut conditions.
 2. What is $q^*$, and why does $\mathbb{Q}$ embed?
@@ -222,7 +232,12 @@ that is the entire justification of the construction.
 4. Why is the completeness proof so short?
 5. Which Stage C theorem does Section 2's last theorem retire?
 
-*Answers:* **1.** Nonempty, proper, downward closed, no greatest
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Nonempty, proper, downward closed, no greatest
 element. **2.** The cut $\{r : r < q\}$; every rational law holds in
 its cut, so the embedding is faithful. **3.** Every nonempty
 bounded-above set of cuts has a least upper bound; the supremum is the
@@ -230,6 +245,11 @@ union of the set. **4.** Dedekind's definition made "least upper bound"
 mean "the union of the cuts", and unions of downward-closed proper
 sets are themselves cuts. **5.** The crisis theorem: the diagonal now
 has a real measure.
+
+</div>
+</details>
+
+:::
 
 ## 3. Decimals: Every Real Gets a Name
 
@@ -291,7 +311,7 @@ dispute.
 </div>
 </details>
 
-**Quick check.**
+:::note[Quick check]
 
 1. What does the infinite sum in the decimal theorem *mean*, given that
    Stage B only ever added finitely many terms?
@@ -301,13 +321,23 @@ dispute.
 5. Why can two different decimals name the same number, and what is the
    only way?
 
-*Answers:* **1.** The least upper bound of the finite partial sums,
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** The least upper bound of the finite partial sums,
 which exists by completeness. **2.** They are nondecreasing and
 bounded above by $\lfloor x \rfloor + 1$. **3.** The pigeonhole
 principle on the division remainders. **4.** It is the least upper
 bound of $1 - 10^{-k}$, which is $1$. **5.** Only when one expansion
 ends in all $9$s and the other is its terminating twin; the diagonal
 argument of Section 4 must therefore avoid $9$s.
+
+</div>
+</details>
+
+:::
 
 ## 4. Cardinality: Counting the Uncountable
 
@@ -387,7 +417,7 @@ manufactured points, no listing survives.
 </div>
 </details>
 
-**Quick check.**
+:::note[Quick check]
 
 1. Define countable and uncountable.
 2. Which theorem lets an injection plus an injection become a
@@ -397,7 +427,12 @@ manufactured points, no listing survives.
 5. Which is bigger, $\mathbb{Q}$ or $\mathbb{N}$? Justify with a
    theorem.
 
-*Answers:* **1.** Countable: in bijection with some $[n]$ or with
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Countable: in bijection with some $[n]$ or with
 $\mathbb{N}$; uncountable: not. **2.** Schröder-Bernstein. **3.** To
 dodge the dual-decimal expansion trap: a digit change outside
 $\{0, 9\}$ forces a genuinely different number. **4.** No: if the
@@ -405,6 +440,11 @@ irrationals in $[0, 1]$ were countable, their union with the countable
 rationals would count $[0, 1]$, contradicting Cantor. **5.** Equal in
 size: $\mathbb{Q} \cong \mathbb{N}$ by the injection-and-Schröder-
 Bernstein argument.
+
+</div>
+</details>
+
+:::
 
 ## 5. Ordinals and Transfinite Induction: Paying Stage B's Debt
 
@@ -462,7 +502,7 @@ accident of $\mathbb{N}$'s simple shape.
 </div>
 </details>
 
-**Quick check.**
+:::note[Quick check]
 
 1. Define well-ordered set and ordinal.
 2. State transfinite induction.
@@ -472,7 +512,12 @@ accident of $\mathbb{N}$'s simple shape.
 5. Why does the proof of transfinite induction mirror the proof of
    well-ordering's use in Section 3?
 
-*Answers:* **1.** Well-ordered: every nonempty subset has a least
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Well-ordered: every nonempty subset has a least
 member; ordinal: the order type of a well-ordering. **2.** Base at the
 least member; at each $w$, truth on all smaller members gives truth at
 $w$; conclude truth everywhere. **3.** A position with no immediate
@@ -480,6 +525,11 @@ predecessor; the "all smaller members" hypothesis covers it without a
 predecessor. **4.** The recursion principle; paid. **5.** Both are
 least-counterexample arguments; the counterexample set is well-ordered
 so a least failure exists and contradicts the step hypothesis.
+
+</div>
+</details>
+
+:::
 
 ## 6. Choice, Zorn's Lemma, and the Well-Ordering Principle
 
@@ -543,7 +593,7 @@ famous specimen. The course adopts choice because the working
 mathematics of the later stages spends it at every turn, and because
 the axiom table keeps the purchase visible.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the axiom of choice, and name its two proved equivalents.
 2. What is a chain in a partially ordered set?
@@ -553,7 +603,12 @@ the axiom table keeps the purchase visible.
 5. Name two later-stage theorems that spend choice, and one theorem
    that shows its cost.
 
-*Answers:* **1.** Every family of nonempty sets admits a choice
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Every family of nonempty sets admits a choice
 function; equivalents: Zorn's lemma and the well-ordering principle.
 **2.** A subfamily whose members are pairwise comparable. **3.** The
 climb uses choice-selected strict upper bounds at every ordinal
@@ -563,12 +618,22 @@ of the chain, which is well-ordered, so it has a least member.
 **5.** Spend: the basis theorem (Stage F), maximal ideals (Stage L),
 Tychonoff (Stage H). Cost: Banach-Tarski.
 
+</div>
+</details>
+
+:::
+
 ## Stage Gate
+## Stage Gate
+
+
 
 Before Stage E, answer these five without notes. Pass mark: four. Each
 is drawn from this page's quick checks; a failed gate names the section
 to reread (1: Section 1; 2: Section 2; 3: Section 3; 4: Sections 4 and
 5; 5: Section 6).
+
+:::caution[Pass mark: four of five]
 
 1. State the cut conditions and why no-greatest-element is required.
 2. State completeness, and what object the proof constructs as the
@@ -579,6 +644,7 @@ to reread (1: Section 1; 2: Section 2; 3: Section 3; 4: Sections 4 and
    discharges.
 5. State the axiom of choice, Zorn's lemma, and which theorem proves
    which.
+
 
 <details class="wn-spoiler">
 <summary>Gate answers</summary>
@@ -602,6 +668,8 @@ choice.
 
 </div>
 </details>
+
+:::
 
 ## Problems
 
