@@ -90,7 +90,7 @@ function closeUnclosed(math) {
       j++
     }
     if (scanning && insertAt === out.length) insertAt = end
-    out = out.slice(0, insertAt) + '}' + out.slice(insertAt)
+    out = `${out.slice(0, insertAt)}}${out.slice(insertAt)}`
   }
   return out
 }

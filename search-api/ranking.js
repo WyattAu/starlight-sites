@@ -199,7 +199,7 @@ const STOP_WORDS = new Set([
 // Rules are ordered longest-suffix first; lengths guard against over-stripping.
 function stem(word) {
   const w = word
-  if (w.length > 4 && w.endsWith('ies')) return w.slice(0, -3) + 'y' // studies -> study
+  if (w.length > 4 && w.endsWith('ies')) return `${w.slice(0, -3)}y` // studies -> study
   if (w.length > 4 && w.endsWith('sses')) return w.slice(0, -2) // classes -> class
   if (
     w.length > 3 &&

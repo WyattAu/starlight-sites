@@ -75,7 +75,7 @@ function routesOf(siteDir) {
       .split(path.sep)
     if (parts[parts.length - 1] === 'index') parts.pop()
     if (!parts.length) continue
-    routes.add('/' + parts.join('/') + '/')
+    routes.add(`/${parts.join('/')}/`)
   }
   for (const file of walk(path.join(siteDir, 'src', 'pages'))) {
     if (!file.endsWith('.astro')) continue
@@ -84,7 +84,7 @@ function routesOf(siteDir) {
       .replace(/\.astro$/, '')
       .split(path.sep)
     if (parts[parts.length - 1] === 'index') parts.pop()
-    routes.add('/' + parts.join('/') + (parts.length ? '/' : ''))
+    routes.add(`/${parts.join('/')}${parts.length ? '/' : ''}`)
   }
   return routes
 }

@@ -59,11 +59,11 @@ function makeFixture({ filler, body, indexPage = false, tierPage = false }) {
   const front = '---\ntitle: x\n---\n\n'
   // 40 pages carrying the filler, to push it past the threshold of 30.
   for (let i = 0; i < 40; i++) {
-    fs.writeFileSync(path.join(docs, `pad${i}.md`), front + filler + '\n\n' + filler + '\n')
+    fs.writeFileSync(path.join(docs, `pad${i}.md`), `${front + filler}\n\n${filler}\n`)
   }
   const target = path.join(docs, tierPage ? 'subject' : '', indexPage ? 'index.md' : 'page.md')
   fs.mkdirSync(path.dirname(target), { recursive: true })
-  fs.writeFileSync(target, front + body + '\n')
+  fs.writeFileSync(target, `${front + body}\n`)
   return { root, target }
 }
 

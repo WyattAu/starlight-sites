@@ -149,7 +149,7 @@ if (APPLY) {
     const block = `## See also\n\n${bullets}\n`
     let text = fs.readFileSync(s.page.abs, 'utf8')
     if (text.includes('## See also')) continue
-    text = text.replace(/\s*$/, '') + '\n' + block
+    text = `${text.replace(/\s*$/, '')}\n${block}`
     fs.writeFileSync(s.page.abs, text)
     applied++
   }

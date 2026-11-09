@@ -82,7 +82,7 @@ const BASE = 'https://mathematics.wyattau.com'
   }
 
   // 4. KaTeX still single-rendered (self-hosted CSS did not regress).
-  await page.goto(BASE + '/9-topology/9_introduction-to-algebraic-topology/', {
+  await page.goto(`${BASE}/9-topology/9_introduction-to-algebraic-topology/`, {
     waitUntil: 'load',
     timeout: 60000,
   })

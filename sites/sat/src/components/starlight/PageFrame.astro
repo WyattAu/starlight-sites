@@ -87,7 +87,7 @@ const course =
       }
     : undefined
 const topics = flattenSidebar(sidebar).filter((t) => {
-  if (!courseGroup || courseGroup.type !== 'group') return true
+  if (courseGroup?.type !== 'group') return true
   return !(t.title === courseGroup.label || t.href.startsWith('/17-core-course'))
 })
 ---
