@@ -136,7 +136,7 @@ number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
 The full course is 89 chapters across 15 dependency stages, from
 logic to the research frontier, with
-30 written. The graph is machine-checked: `docs/course-graph.json` is
+36 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order and that the dependency graph is
@@ -165,12 +165,12 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | C4 | Primes and the fundamental theorem of arithmetic | written |
 | C5 | Congruence classes and the rings Z/nZ | written |
 | **Stage D: The continuum** | *R constructed; completeness; cardinality; ordinals; choice.* | |
-| D1 | Dedekind cuts: R constructed from order alone | queued |
-| D2 | Arithmetic and completeness of R, proved | queued |
-| D3 | Decimals, roots, the place of Q inside R | queued |
-| D4 | Cardinality: countable Q, uncountable R | queued |
-| D5 | Ordinals and transfinite induction (assumes: axiom-of-choice) | queued |
-| D6 | Choice, Zorn's lemma, and well-ordering | queued |
+| D1 | Dedekind cuts: R constructed from order alone | written |
+| D2 | Arithmetic and completeness of R, proved | written |
+| D3 | Decimals, roots, the place of Q inside R | written |
+| D4 | Cardinality: countable Q, uncountable R | written |
+| D5 | Ordinals and transfinite induction (assumes: axiom-of-choice) | written |
+| D6 | Choice, Zorn's lemma, and well-ordering | written |
 | **Stage E: Completing algebra** | *Polynomials, C, and the FTA debt.* | |
 | E1 | Polynomials as formal objects | queued |
 | E2 | C built as pairs with a multiplication rule | queued |

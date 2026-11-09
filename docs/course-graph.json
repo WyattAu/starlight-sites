@@ -279,7 +279,7 @@
         "C3",
         "A3"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-d-the-continuum.md",
       "declaredInputs": []
     },
@@ -291,7 +291,7 @@
         "D1",
         "C2"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-d-the-continuum.md",
       "declaredInputs": [],
       "discharges": [
@@ -307,7 +307,7 @@
         "D2",
         "B4"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-d-the-continuum.md",
       "declaredInputs": []
     },
@@ -320,7 +320,7 @@
         "D2",
         "C2"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-d-the-continuum.md",
       "declaredInputs": []
     },
@@ -332,7 +332,7 @@
         "D4",
         "A3"
       ],
-      "status": "queued",
+      "status": "written",
       "file": "stage-d-the-continuum.md",
       "declaredInputs": [],
       "axioms": [
@@ -346,8 +346,8 @@
     {
       "id": "D6",
       "stage": "D",
-      "file": null,
-      "status": "queued",
+      "file": "stage-d-the-continuum.md",
+      "status": "written",
       "title": "Choice, Zorn's lemma, and well-ordering",
       "declaredInputs": [],
       "deps": [
@@ -357,7 +357,7 @@
       "discharges": [
         "zorn-lemma"
       ],
-      "note": "Zermelo's axiom is adopted here, recorded as an axiom rather than a debt, and Zorn's lemma and the well-ordering principle are proved equivalent to it by transfinite machinery."
+      "note": "The axiom of choice is adopted here (course map axiom table), and Zorn's lemma and well-ordering are proved equivalent to it. Spent by Stage F's basis theorem, Stage L's maximal ideals, and Stage H's Tychonoff."
     },
     {
       "id": "E1",
@@ -1373,7 +1373,7 @@
     {
       "id": "axiom-of-choice",
       "statement": "For every family of nonempty sets there is a function choosing one element from each set.",
-      "note": "Adopted at D5, where it is shown to be equivalent to Zorn's lemma and to the well-ordering principle."
+      "note": "Adopted at D6, where it is shown equivalent to Zorn's lemma and to the well-ordering principle."
     }
   ]
 }

@@ -120,6 +120,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Stage A Reasoning](https://mathematics.wyattau.com/17-core-course/stage-a-reasoning/)
 - [Stage B Counting](https://mathematics.wyattau.com/17-core-course/stage-b-counting/)
 - [Stage C Expanding The Line](https://mathematics.wyattau.com/17-core-course/stage-c-expanding-the-line/)
+- [Stage D The Continuum](https://mathematics.wyattau.com/17-core-course/stage-d-the-continuum/)
 
 ## Linear-Algebra
 
