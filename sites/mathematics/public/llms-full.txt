@@ -23207,7 +23207,7 @@ click it.*
 **Scope.** Consumes Stage A: sets, equivalence relations, functions,
 bijections, the four proof shapes, and the classical-logic axiom.
 Adopts one new batch of declarations (the Peano axioms, Section 1,
-stated in full — they are *content*, not course axioms) and declares
+stated in full; they are *content*, not course axioms) and declares
 exactly one debt: the recursion principle of Section 2, pointed at
 Stage D's transfinite recursion as its payee. The first formal
 witnesses appear: Lean boxes compiled on every push.
@@ -23228,8 +23228,8 @@ to be *counting*:
 <summary>What the game must promise</summary>
 <div class="wn-spoiler-body">
 
-If the game worked as you imagine counting — start, next, next,
-next, each step new — then: the start is never reached again
+If the game worked as you imagine counting (start, next, next,
+next, each step new), then: the start is never reached again
 (question 1: no), and different tokens' next-moves land on different
 tokens (question 2: no). These promises *are* the definition, and
 Section 1 states them exactly. Anything that violates them (a loop
@@ -23271,7 +23271,7 @@ you assume?
 
 Check $P(0)$ (the base case), and prove: if $P(n)$ holds (the
 **induction hypothesis**, which you may assume), then $P(S(n))$ (the
-**inductive step**). Axiom 5 guarantees this suffices — there are no
+**inductive step**). Axiom 5 guarantees this suffices: there are no
 other counting numbers to reach, because every one is reached by
 finitely many next-moves from $0$.
 
@@ -23402,7 +23402,7 @@ that verifies it.
 **Ponder 1 (construct addition).** You have $0$, $S$, and the five
 declarations. Now invent addition: $a + b$ should "count $b$ more
 steps after $a$". Write the definition using only $0$, $S$, and
-recursion on $b$ — two lines.
+recursion on $b$: two lines.
 
 <details class="wn-spoiler">
 <summary>Compare your construction</summary>
@@ -23444,8 +23444,8 @@ by the step line. $\blacksquare$
 **Ponder (the autopsy).** The base line fixes what happens at the
 right-hand zero; nothing in the definition says what happens when the
 *left* argument is zero. The theorem $0 + n = n$ is genuinely new
-information, and commutativity — which would let you swap the
-arguments and cite the definition — is exactly what has *not* been
+information, and commutativity, which would let you swap the
+arguments and cite the definition, is exactly what has *not* been
 proved yet. This is the first crack in "it is obvious": obviousness
 smuggles in the theorem you wanted to prove.
 
@@ -23617,8 +23617,7 @@ associativity and the hypotheses. $\blacksquare$
 all $a, b$: if $a \leq b$ then $S(a) \leq S(b)$.
 
 *Proof.* $a < S(a)$: witness $c := 1$, since $a + 1 = S(a)$
-(Section 2). For the second: $b = a + c$, so $S(b) = S(a + c) = S(a)
-+ c$ by the successor-swap theorem, which is $S(a) \leq S(b)$ with
+(Section 2). For the second: $b = a + c$, so $S(b) = S(a + c) = S(a) + c$ by the successor-swap theorem, which is $S(a) \leq S(b)$ with
 witness $c$. $\blacksquare$
 
 **Definition (exponentiation).** $a^0 := 1$ and $a^{S(b)} := a^b
@@ -23641,8 +23640,7 @@ for one.
 8. Compute $a^{b + c}$ in terms of $a^b$ and $a^c$, and prove it by
    induction on $c$.
 
-*Answers:* **1.** $a \times 0 := 0$ and $a \times S(b) := a \times b
-+ a$; the recursion walks the right argument. **2.** Associativity
+*Answers:* **1.** $a \times 0 := 0$ and $a \times S(b) := a \times b + a$; the recursion walks the right argument. **2.** Associativity
 of addition and the multiplication step line. **3.** $a \leq b$
 when some $c$ satisfies $a + c = b$. **4.** Witness $c := 1$: $a +
 1 = S(a)$ by Section 2. **5.** $a^{S(b)} = a^b \times a$. **6.**
@@ -23771,7 +23769,7 @@ some multiple $b \times n$ exceeds $a$. **5.** The remainder
 \leq a$ (Section 3's successor-grows chain: $b \leq a$ when $b
 \neq 0$ and $a \geq b$), so $r < a$ or $r = a$ with $q = 1$.
 **7.** With $d \leq b$, the case $d = b$ would give $b \times q'
-= b \times q + b = b \times S(q)$, so $q' = S(q)$ — a *consistent*
+= b \times q + b = b \times S(q)$, so $q' = S(q)$: a *consistent*
 solution, not a contradiction; strictness of $d < b$ is exactly
 what rules the boundary case out. **8.** Walk: $4 \ominus 2 = 2$,
 $2 \ominus 2 = 0$, stop: $q = 2$, $r = 0$, and $2 \times 2 + 0 = 4$
@@ -23889,12 +23887,12 @@ turns the problem into the previous case. **3.** There exists a
 bijection from $[n]$ onto $X$. **4.** $B(n, k) = B(n \ominus 1, k
 \ominus 1) + B(n \ominus 1, k)$, with $B(n, 0) = B(n, n) = 1$.
 **5.** Coefficient of $x^0$: $0$; of $x^1$: $1$; of $x^2$: $1$; of
-$x^3$: $1$; of $x^4$: $0$ — the sequence $(0, 1, 1, 1, 0)$.
+$x^3$: $1$; of $x^4$: $0$, the sequence $(0, 1, 1, 1, 0)$.
 **6.** The base case has $k = 0$ with no function existing at all,
 so removal never arises. **7.** The removal lemma (which sets) and
 the strong induction that Stage B built (which climbs). **8.**
 $S(2)$ times the count for $[S(1)]$, which is $S(1)$ times the
-count for $[0]$, which is $1$: the count is $2$ — the two
+count for $[0]$, which is $1$: the count is $2$, the two
 bijections are the identity and the swap.
 
 ## Stage Gate
@@ -23922,8 +23920,7 @@ Section 4; 5: Section 5).
 of every counting number; the horse argument's step needed the
 overlap to be nonempty, which fails at the boundary. **2.** $a + 0
 := a$, $a + S(b) := S(a + b)$; the left-zero theorem $0 + n = n$
-came first. **3.** $a \times 0 := 0$, $a \times S(b) := a \times b
-+ a$; and $a \leq b$ means $\exists c,\ a + c = b$. **4.** For $b
+came first. **3.** $a \times 0 := 0$, $a \times S(b) := a \times b + a$; and $a \leq b$ means $\exists c,\ a + c = b$. **4.** For $b
 \neq 0$: exactly one $q, r$ satisfy $a = b \times q + r$ and $r <
 b$. **5.** If $m < k$, every function $[k] \to [m]$ collides; the
 proof consumes the removal lemma.
@@ -23941,8 +23938,7 @@ results and require full written arguments.
 1. Prove **right cancellation**: if $a + c = b + c$ then $a = b$,
    by induction on $c$. Then use it to prove antisymmetry of
    $\leq$: if $a \leq b$ and $b \leq a$, then $a = b$.
-   *(Hint: for the cancellation base case, $c = 0$ gives $a + 0 = b
-   + 0$, which is $a = b$ by the base line. The step: $a + S(c) =
+   *(Hint: for the cancellation base case, $c = 0$ gives $a + 0 = b + 0$, which is $a = b$ by the base line. The step: $a + S(c) =
    b + S(c)$ gives $S(a + c) = S(b + c)$, hence $a + c = b + c$ by
    Peano's fourth declaration, and the induction hypothesis
    finishes.)*
