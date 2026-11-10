@@ -22579,7 +22579,7 @@ proof: compute both sentences on all four rows.
 
 The columns agree in all four rows. $\blacksquare$
 
-**Quick check.**
+:::note[Quick check]
 
 1. Construct the truth table of $\neg(P \land Q)$ and of
    $\neg P \lor \neg Q$; what do you observe?
@@ -22593,7 +22593,11 @@ The columns agree in all four rows. $\blacksquare$
 7. What licence does each line of a proof carry?
 8. Which row of $P \to Q$ does the vacuous case rest on?
 
-*Answers:* **1.** Identical columns in all four rows (De Morgan's
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Identical columns in all four rows (De Morgan's
 law, by enumeration). **2.** None: $P \to Q$ is false exactly in row
 (T, F). **3.** T/F exclusivity and double-negation licensing;
 recorded in the course map's axiom table. **4.** Eight. **5.** Rows 2
@@ -22602,6 +22606,11 @@ row 1, $Q$ is true. **6.** Negation of $P \to Q$ is T only in row
 (T, F), which is exactly where $P \land \neg Q$ is T. **7.** Axiom,
 definition, previous result, rule-licensed consequence. **8.** Row
 (F, F) and rows (F, T), (F, F): every row with $P$ false.
+
+</div>
+</details>
+
+:::
 
 ## 2. Sets: Membership, Operations, Products, Power Sets
 
@@ -22698,7 +22707,7 @@ S \land t \in T\}$. $\mathcal{P}(S) := \{T : T \subseteq S\}$.
 \{a\}, \{b\}, \{a, b\}\}$: one subset per way of deciding, for each
 element separately, in or out. $\blacksquare$
 
-**Quick check.**
+:::note[Quick check]
 
 1. State extensionality as a formal $\forall \leftrightarrow$
    statement.
@@ -22714,7 +22723,11 @@ element separately, in or out. $\blacksquare$
 8. What paradox does unbounded comprehension produce, and which
    axiom does it violate?
 
-*Answers:* **1.** $S = T :\Longleftrightarrow \forall x\ (x \in S
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $S = T :\Longleftrightarrow \forall x\ (x \in S
 \leftrightarrow x \in T)$. **2.** Let $x \in S \cap T$; the $\land$
 rule gives $x \in S$; so $S \cap T \subseteq S$. **3.** True:
 $\mathcal{P}(\varnothing) = \{\varnothing\}$. **4.** $\supseteq$
@@ -22725,6 +22738,11 @@ elements in exactly one of the two sets. **7.** The chase reduces to
 $\land$ distributing over $\lor$, row-checked in Section 1. **8.**
 Russell's $R$: neither $R \in R$ nor $R \notin R$, violating the
 classical-logic axiom; bounded comprehension is the repair.
+
+</div>
+</details>
+
+:::
 
 ## 3. Relations: Order and Equivalence
 
@@ -22809,7 +22827,7 @@ $\blacksquare$
 </div>
 </details>
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the three order laws as formal $\forall$-statements.
 2. List the ordered pairs $(X, Y)$ with $X \subsetneq Y$ in the
@@ -22822,7 +22840,11 @@ $\blacksquare$
 7. What does the converse half of the correspondence construct?
 8. Why does disjointness make "same member" well-defined?
 
-*Answers:* **1.** Reflexive: $\forall a\ (a \,R\, a)$;
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Reflexive: $\forall a\ (a \,R\, a)$;
 antisymmetric: $\forall a, b\ ((a \,R\, b \land b \,R\, a) \to a =
 b)$; transitive: $\forall a, b, c\ ((a \,R\, b \land b \,R\, c) \to
 a \,R\, c)$; total adds $\forall a, b\ (a \,R\, b \lor b \,R\, a)$.
@@ -22836,6 +22858,11 @@ $x \sim y$ gives $w \sim y$; so $[x] \subseteq [y]$; symmetric
 argument gives the reverse inclusion. **7.** The disjoint cover the
 classes realize. **8.** An element of $S$ lies in at most one family
 member, so "the member containing it" is unique.
+
+</div>
+</details>
+
+:::
 
 ## 4. Functions: Relations with Two Extra Laws
 
@@ -22904,7 +22931,7 @@ $\blacksquare$
 $s \in D \leftrightarrow s \notin D$, contradicting the
 classical-logic axiom. $\blacksquare$
 
-**Quick check.**
+:::note[Quick check]
 
 1. Write the two function laws formally.
 2. Write injective and surjective formally.
@@ -22918,7 +22945,11 @@ classical-logic axiom. $\blacksquare$
    injective on $f$'s image.
 8. Why does the uniqueness of $g$ end with extensionality?
 
-*Answers:* **1.** Total: $\forall x \in S\ \exists y \in T\ ((x, y)
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Total: $\forall x \in S\ \exists y \in T\ ((x, y)
 \in f)$; single-valued: $\forall x\ \forall y, y'\ (((x, y) \in f
 \land (x, y') \in f) \to y = y')$. **2.** Injective:
 $\forall x, x'\ (f(x) = f(x') \to x = x')$; surjective:
@@ -22930,6 +22961,11 @@ injectivity: its uniqueness. **5.** "$s \in D \leftrightarrow s
 $\{a\}$. **7.** $g(f(x)) = g(f(x'))$ gives $f(x) = f(x')$, then $x
 = x'$. **8.** Same values on every input means the same set of
 pairs.
+
+</div>
+</details>
+
+:::
 
 ## 5. The False Proof, Dissected
 
@@ -22980,7 +23016,7 @@ case must reach the conclusion independently.
 (Section 1's table); contradiction (the axiom); exhaustive cases.
 Everything later is built from these.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the violated rule with $\forall/\exists$.
 2. Verify both quantified claims on $L = \{(a, a), (b, b)\}$.
@@ -22992,7 +23028,11 @@ Everything later is built from these.
 7. Write the witness function $m$ explicitly for the mothers.
 8. Why does the counterexample need at least two elements?
 
-*Answers:* **1.** $\forall x\ \exists y\ R(x, y) \not\to \exists
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\forall x\ \exists y\ R(x, y) \not\to \exists
 y\ \forall x\ R(x, y)$. **2.** $\forall x\ \exists y$ holds with $y
 := x$; $\exists y\ \forall x$ fails (no column has two ✓s). **3.**
 Independent arguments per case. **4.** Cases and contradiction.
@@ -23002,13 +23042,16 @@ valid. The false proof ran the invalid converse. **6.** $R =
 $ the mother of $x$. **8.** On one element both claims hold, so no
 counterexample exists.
 
-## Stage Gate
+</div>
+</details>
 
+:::
+
+## Stage Gate
 :::caution[Pass mark: four of five]
 Before Stage B, answer these five without notes. A failed gate names
 the section to reread (1: Section 1; 2: Section 2; 3: Section 3; 4:
 Section 4; 5: Section 5).
-
 1. State the licence each line of a proof must carry.
 2. Define bounded comprehension, and name the paradox it prevents.
 3. State the partition correspondence.
@@ -23059,6 +23102,7 @@ results and require full written arguments.
    *(Hint: the contradiction required $f(s) = D$ to be possible;
    $S \times S$ is not $\mathcal{P}(S)$.)*
 
+:::
 ## Where to Go Next
 
 Stage B (Counting) defines the counting numbers by five declarations
