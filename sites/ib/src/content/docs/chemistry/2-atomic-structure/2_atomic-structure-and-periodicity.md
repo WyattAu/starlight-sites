@@ -936,7 +936,6 @@ Splitting are **weak-field ligands**.
 | $[\mathrm{CoCl}_4]^{2-}$                                        | Blue            | Yellow/orange   |
 
 </div>
-:::
 :::caution
 $[\mathrm{Ti}(\mathrm{H}_2\mathrm{O})_6]^{4+}$ has $d^0$), or (b) it has a full $d$-subshell (e.g.,
 $\mathrm{Zn}^{2+}$$[\mathrm{Cu}(\mathrm{NH}_3)_4]^+$ has $d^{10}$). In both cases, there are no
@@ -1688,8 +1687,7 @@ than $\mathrm{F}$.
   Group 13 dips because the p1 electron is in a higher energy p-subshell. Group 16 dips because the
   p4 electron is paired with another electron in the same orbital, creating repulsion. These
   exceptions are frequently tested in IB exams.
-:::
-:::
+
 ## Practice Problems
 
 <details>

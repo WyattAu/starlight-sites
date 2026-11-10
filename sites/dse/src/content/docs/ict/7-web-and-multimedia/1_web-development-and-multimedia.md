@@ -1268,7 +1268,6 @@ after POST processing, so the Back button returns to the form, not the POST requ
 
 multimedia, including key theories, case studies, and management strategies.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/web-development-and-multimedia.md
 
 **Key concepts include:**
 
@@ -1281,7 +1280,6 @@ multimedia, including key theories, case studies, and management strategies.
 Using specific case studies and data to support arguments is essential for achieving the highest
 marks in geography assessments.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/web-development-and-multimedia.md
 
 ## Worked Examples
 

@@ -1097,7 +1097,6 @@ $$
    cannot be zero).
 
 2. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
-   > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/polynomials.md
 
 ## Summary
 

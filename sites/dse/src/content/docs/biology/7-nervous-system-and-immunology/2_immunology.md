@@ -1422,7 +1422,6 @@ $$
 
 1. Using anecdotal evidence or small sample sizes as though they constitute robust scientific data.
 
-   > > > > > > > Stashed changes:docs/docs_dse/Biology/immunology.md
 
 2. Misinterpreting graphs by confusing the independent and dependent variables or reading scales
    incorrectly.
@@ -1431,7 +1430,6 @@ which process is being described.
 
 1. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
-   > > > > > > > Stashed changes:docs/docs_dse/Biology/immunology.md
 
 ## Summary
 

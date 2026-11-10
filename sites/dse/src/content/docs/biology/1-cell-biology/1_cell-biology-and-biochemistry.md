@@ -2392,7 +2392,6 @@ $$
 m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
 $$
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/cell-biology-and-biochemistry.md
 :::
 
 ## See Also

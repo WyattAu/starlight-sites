@@ -3903,7 +3903,6 @@ Higher biodiversity generally leads to greater ecosystem stability:
 
 concepts, experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/biodiversity-and-conservation.md
 
 **Key concepts include:**
 
@@ -3916,7 +3915,6 @@ concepts, experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/biodiversity-and-conservation.md
 
 ## Worked Examples
 
@@ -6641,7 +6639,6 @@ $$
 m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
 $$
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/cell-biology-and-biochemistry.md
 :::
 
 ## See Also
@@ -14425,7 +14422,6 @@ species, each adapted to a different ecological niche.
 
 experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/evolution.md
 
 **Key concepts include:**
 
@@ -14438,7 +14434,6 @@ experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/evolution.md
 
 ## Worked Examples
 
@@ -16465,7 +16460,6 @@ PCR is a technique used to amplify a specific region of DNA in vitro (outside a 
 
 experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/genetics.md
 
 **Key concepts include:**
 
@@ -16478,7 +16472,6 @@ experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/genetics.md
 
 ## Worked Examples
 
@@ -17882,7 +17875,6 @@ During the fight-or-flight response, the adrenal medulla releases adrenaline, wh
 
 experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/homeostasis.md
 
 **Key concepts include:**
 
@@ -17895,7 +17887,6 @@ experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/homeostasis.md
 
 ## Worked Examples
 
@@ -20041,7 +20032,6 @@ $$
 
 experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/human-physiology.md
 
 **Key concepts include:**
 
@@ -20054,7 +20044,6 @@ experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/human-physiology.md
 
 ## Worked Examples
 
@@ -22131,7 +22120,6 @@ under 35; decreasing to less than 5% for women over 42).
 
 key concepts, experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/human-reproduction-and-homeostasis.md
 
 **Key concepts include:**
 
@@ -22144,7 +22132,6 @@ key concepts, experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/human-reproduction-and-homeostasis.md
 
 ## Worked Examples
 
@@ -23580,7 +23567,6 @@ $$
 
 1. Using anecdotal evidence or small sample sizes as though they constitute robust scientific data.
 
-   > > > > > > > Stashed changes:docs/docs_dse/Biology/immunology.md
 
 2. Misinterpreting graphs by confusing the independent and dependent variables or reading scales
    incorrectly.
@@ -23589,7 +23575,6 @@ which process is being described.
 
 1. Stating that 'enzymes are denatured by heat' without specifying that high temperatures cause the
    change in tertiary structure.
-   > > > > > > > Stashed changes:docs/docs_dse/Biology/immunology.md
 
 ## Summary
 
@@ -25999,7 +25984,6 @@ personal test matrix.
 </script>
 
 ## Industrial Biotechnology Applications
-:::
 
 ### Bioremediation
 
@@ -26175,13 +26159,12 @@ contamination of cultures and protect the operator from potentially pathogenic o
   sticky ends.** Sticky ends (with single-stranded overhangs) are more useful in genetic engineering
   because they facilitate the joining of DNA fragments from different sources\*\*
 - **In bioremediation, "in situ" means treating the pollution on-site, NOT in a laboratory or
-  bioreactor.** "Ex situ" means removing the contaminated material for treatment elsewhere\*\* :::
+  bioreactor.** "Ex situ" means removing the contaminated material for treatment elsewhere\*\*
 
 ## Summary
 
 key concepts, experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/microorganisms-and-biotechnology.md
 
 **Key concepts include:**
 
@@ -26194,13 +26177,11 @@ key concepts, experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/microorganisms-and-biotechnology.md
 
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-:::
 
 ## Cross-References
 
@@ -27540,7 +27521,6 @@ LTP is the cellular basis of learning and memory:
 
 experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/nervous-system.md
 
 **Key concepts include:**
 
@@ -27553,7 +27533,6 @@ experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/nervous-system.md
 
 ## Worked Examples
 
@@ -29703,7 +29682,6 @@ in shortest supply (the **limiting factor**).
 
 experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/plant-biology.md
 
 **Key concepts include:**
 
@@ -29716,7 +29694,6 @@ experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/plant-biology.md
 
 ## Worked Examples
 
@@ -31406,7 +31383,6 @@ because the buffer system absorbs the added base. The buffer resists large pH ch
 
 4. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
-   > > > > > > > Stashed changes:docs/docs_dse/Chemistry/acids-bases-electrochemistry.md
 
 $$
 
@@ -33033,7 +33009,6 @@ These factors combine to give helium the highest first ionisation energy of all 
    molecular refers to individual molecules.
 
 4. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.
-   > > > > > > > Stashed changes:docs/docs_dse/Chemistry/atomic-structure-and-bonding.md
 :::
 
 ## See Also
@@ -34312,7 +34287,6 @@ $$
 m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
 $$
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/carbon-chemistry.md
 
 ## See Also
 
@@ -35619,7 +35593,6 @@ $$
 m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
 $$
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/chemical-equilibrium.md
 
 ## See Also
 
@@ -36872,7 +36845,6 @@ $$
 k = \frac{\text{rate}}{[\text{A}][\text{B}]^2} = \frac{2.0 \times 10^{-3}}{(0.10)(0.20)^2} = \frac{2.0 \times 10^{-3}}{4.0 \times 10^{-3}} = 0.50\,\text{mol}^{-2}\,\text{dm}^6\text{s}^{-1}
 $$
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/chemical-kinetics.md
 
 ## Cross-References
 
@@ -43611,7 +43583,6 @@ $$
 \Delta H = (-394) - (-283) = -111\,\text{kJ\,mol}^{-1}
 $$
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/energetics.md
 :::
 
 ## See Also
@@ -45388,7 +45359,6 @@ $\mathrm{C}_8\mathrm{H}_{16}\mathrm{O}_3$.
 
 including key reactions, underlying theories, and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/mole-concept-and-stoichiometry.md
 
 **Key concepts include:**
 
@@ -45401,7 +45371,6 @@ including key reactions, underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/mole-concept-and-stoichiometry.md
 
 ## Worked Examples
 
@@ -47511,7 +47480,6 @@ Theoretical moles of ester $= 0.0676 \mathrm{ mol}$ (1:1 ratio)
 5. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.
 
 6. Misidentifying the limiting reagent. Compare mole ratios rather than comparing masses.
-    > > > > > > > Stashed changes:docs/docs_dse/Chemistry/organic-chemistry.md
 
 ## Cross-References
 
@@ -50170,7 +50138,6 @@ If you get this wrong, revise: [Opportunity Cost](#opportunity-cost)
 
 including key models, evidence, and policy implications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/basic-economic-concepts.md
 
 **Key concepts include:**
 
@@ -50183,7 +50150,6 @@ including key models, evidence, and policy implications.
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/basic-economic-concepts.md
 
 ## Worked Examples
 
@@ -51806,7 +51772,6 @@ If you get this wrong, revise: [Price Controls and Welfare](/economics/2-demand-
 
 1. Failing to evaluate both strengths and weaknesses of economic models, not just listing them.
 
-   > > > > > > > Stashed changes:docs/docs_dse/Economics/demand-supply-markets.md
 
 2. Confusing a movement along a curve with a shift of the curve. Movements are caused by price
    changes; shifts by non-price determinants.
@@ -51814,7 +51779,6 @@ If you get this wrong, revise: [Price Controls and Welfare](/economics/2-demand-
 along) or a decrease (shift) of the demand curve.
 
 1. Forgetting to distinguish between short-run and long-run effects in macroeconomic analysis.
-   > > > > > > > Stashed changes:docs/docs_dse/Economics/demand-supply-markets.md
 
 ## Worked Examples
 
@@ -58531,7 +58495,6 @@ If you get this wrong, revise: [Supply-Side Policy](/economics/6-government-poli
 
 policy, including key models, evidence, and policy implications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/fiscal-and-monetary-policy.md
 
 **Key concepts include:**
 
@@ -58544,7 +58507,6 @@ policy, including key models, evidence, and policy implications.
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/fiscal-and-monetary-policy.md
 
 ## Worked Examples
 
@@ -62651,7 +62613,6 @@ If you get this wrong, revise: [Information Asymmetry](#information-asymmetry)
 
 underlying theory, practical implementation, and key applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/market-failure-and-government-intervention.md
 
 **Key concepts include:**
 
@@ -62661,7 +62622,6 @@ underlying theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/market-failure-and-government-intervention.md
 
 ## Worked Examples
 
@@ -64841,7 +64801,6 @@ If you get this wrong, revise:
 
 theory of the firm, including key models, evidence, and policy implications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/market-structure-and-theory-of-the-firm.md
 
 **Key concepts include:**
 
@@ -64854,7 +64813,6 @@ theory of the firm, including key models, evidence, and policy implications.
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/market-structure-and-theory-of-the-firm.md
 
 ## Worked Examples
 
@@ -66673,7 +66631,6 @@ If you get this wrong, revise: [Financial Development](/economics/8-money-and-ba
 
 including key models, evidence, and policy implications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/money-and-banking.md
 
 **Key concepts include:**
 
@@ -66686,7 +66643,6 @@ including key models, evidence, and policy implications.
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/money-and-banking.md
 
 ## Worked Examples
 
@@ -74447,7 +74403,6 @@ following factors are also critical:
 
 systems, including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/computer-systems.md
 
 **Key concepts include:**
 
@@ -74457,7 +74412,6 @@ systems, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/computer-systems.md
 
 ## Intuition
 
@@ -75418,7 +75372,6 @@ easy-to-use Privacy dashboard.
 
 including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/data-management.md
 
 **Key concepts include:**
 
@@ -75428,7 +75381,6 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/data-management.md
 
 ## Intuition
 
@@ -76982,7 +76934,6 @@ $$
 
 including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/data-representation.md
 
 **Key concepts include:**
 
@@ -76992,7 +76943,6 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/data-representation.md
 
 ## Intuition
 
@@ -80841,7 +80791,6 @@ Internet -- Modem -- Router -- Central Switch
 
 communications, including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/internet-and-data-communications.md
 
 **Key concepts include:**
 
@@ -80851,7 +80800,6 @@ communications, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/internet-and-data-communications.md
 
 ## Intuition
 
@@ -81843,7 +81791,6 @@ The doctor could also face disciplinary action from the medical regulatory body.
 
 underlying theory, practical implementation, and key applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/network-security-and-social-implications.md
 
 **Key concepts include:**
 
@@ -81853,7 +81800,6 @@ underlying theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/network-security-and-social-implications.md
 
 ## Worked Examples
 
@@ -83145,7 +83091,6 @@ because they render more on projectors and screens, especially at larger sizes a
 
 depth, including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/office-applications-depth.md
 
 **Key concepts include:**
 
@@ -83155,7 +83100,6 @@ depth, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/office-applications-depth.md
 
 ## Worked Examples
 
@@ -84225,7 +84169,6 @@ to work correctly.
 
 productivity, including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/office-automation-and-productivity.md
 
 **Key concepts include:**
 
@@ -84235,7 +84178,6 @@ productivity, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/office-automation-and-productivity.md
 
 ## Worked Examples
 
@@ -87098,7 +87040,6 @@ END
 
 theory, practical implementation, and key applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/programming-fundamentals.md
 
 **Key concepts include:**
 
@@ -87108,7 +87049,6 @@ theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/programming-fundamentals.md
 
 ## Intuition
 
@@ -88083,7 +88023,6 @@ and then switch completely. This limits risk without the burden of full parallel
 
 including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/system-lifecycle.md
 
 **Key concepts include:**
 
@@ -88093,7 +88032,6 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/system-lifecycle.md
 
 ## Worked Examples
 
@@ -89379,7 +89317,6 @@ after POST processing, so the Back button returns to the form, not the POST requ
 
 multimedia, including key theories, case studies, and management strategies.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/web-development-and-multimedia.md
 
 **Key concepts include:**
 
@@ -89392,7 +89329,6 @@ multimedia, including key theories, case studies, and management strategies.
 Using specific case studies and data to support arguments is essential for achieving the highest
 marks in geography assessments.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/web-development-and-multimedia.md
 
 ## Worked Examples
 
@@ -105457,7 +105393,6 @@ right-angled at $A$.
 
 2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
-   > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/geometries.md
 
 ## Summary
 
@@ -106527,7 +106462,6 @@ requires using previous work.
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
-   > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/inequalities.md
 
 ## Summary
 
@@ -110608,7 +110542,6 @@ $$
    cannot be zero).
 
 2. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
-   > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/polynomials.md
 
 ## Summary
 
@@ -111817,7 +111750,6 @@ $\blacksquare$
 denominator cannot be zero).
 
 1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
-   > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/probability.md
 
 ## Summary
 

@@ -2063,7 +2063,6 @@ under 35; decreasing to less than 5% for women over 42).
 
 key concepts, experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/human-reproduction-and-homeostasis.md
 
 **Key concepts include:**
 
@@ -2076,7 +2075,6 @@ key concepts, experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/human-reproduction-and-homeostasis.md
 
 ## Worked Examples
 

@@ -1614,7 +1614,6 @@ These factors combine to give helium the highest first ionisation energy of all 
    molecular refers to individual molecules.
 
 4. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.
-   > > > > > > > Stashed changes:docs/docs_dse/Chemistry/atomic-structure-and-bonding.md
 :::
 
 ## See Also

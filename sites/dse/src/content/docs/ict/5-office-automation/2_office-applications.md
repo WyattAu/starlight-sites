@@ -1274,7 +1274,6 @@ because they render more on projectors and screens, especially at larger sizes a
 
 depth, including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/office-applications-depth.md
 
 **Key concepts include:**
 
@@ -1284,7 +1283,6 @@ depth, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/office-applications-depth.md
 
 ## Worked Examples
 

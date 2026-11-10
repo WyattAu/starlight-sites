@@ -970,7 +970,6 @@ The doctor could also face disciplinary action from the medical regulatory body.
 
 underlying theory, practical implementation, and key applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/network-security-and-social-implications.md
 
 **Key concepts include:**
 
@@ -980,7 +979,6 @@ underlying theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/network-security-and-social-implications.md
 
 ## Worked Examples
 

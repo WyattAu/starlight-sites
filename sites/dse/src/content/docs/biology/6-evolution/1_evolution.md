@@ -1485,7 +1485,6 @@ species, each adapted to a different ecological niche.
 
 experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/evolution.md
 
 **Key concepts include:**
 
@@ -1498,7 +1497,6 @@ experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/evolution.md
 
 ## Worked Examples
 

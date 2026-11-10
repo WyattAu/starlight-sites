@@ -1526,7 +1526,6 @@ If you get this wrong, revise: [Information Asymmetry](#information-asymmetry)
 
 underlying theory, practical implementation, and key applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/market-failure-and-government-intervention.md
 
 **Key concepts include:**
 
@@ -1536,7 +1535,6 @@ underlying theory, practical implementation, and key applications.
 - security and ethical considerations
 - applications in the real world
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/market-failure-and-government-intervention.md
 
 ## Worked Examples
 

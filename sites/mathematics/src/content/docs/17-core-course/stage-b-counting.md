@@ -851,7 +851,6 @@ results and require full written arguments.
    counting number is even or its successor is even, by induction,
    and split on which.)*
 
-:::
 ## Where to Go Next
 
 Stage C (Expanding the line) takes the remainder theorem and does

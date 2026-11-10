@@ -1673,7 +1673,6 @@ personal test matrix.
 </script>
 
 ## Industrial Biotechnology Applications
-:::
 
 ### Bioremediation
 
@@ -1849,13 +1848,12 @@ contamination of cultures and protect the operator from potentially pathogenic o
   sticky ends.** Sticky ends (with single-stranded overhangs) are more useful in genetic engineering
   because they facilitate the joining of DNA fragments from different sources\*\*
 - **In bioremediation, "in situ" means treating the pollution on-site, NOT in a laboratory or
-  bioreactor.** "Ex situ" means removing the contaminated material for treatment elsewhere\*\* :::
+  bioreactor.** "Ex situ" means removing the contaminated material for treatment elsewhere\*\*
 
 ## Summary
 
 key concepts, experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/microorganisms-and-biotechnology.md
 
 **Key concepts include:**
 
@@ -1868,13 +1866,11 @@ key concepts, experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/microorganisms-and-biotechnology.md
 
 ## Worked Examples
 
 Worked examples demonstrating the application of key concepts are covered in the detailed sub-pages
 linked above.
-:::
 
 ## Cross-References
 

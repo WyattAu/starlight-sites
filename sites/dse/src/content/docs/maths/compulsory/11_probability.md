@@ -1069,7 +1069,6 @@ $\blacksquare$
 denominator cannot be zero).
 
 1. Dropping negative signs during algebraic manipulation. Substitute back to verify your answer.
-   > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/probability.md
 
 ## Summary
 

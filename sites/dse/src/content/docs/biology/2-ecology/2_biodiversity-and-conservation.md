@@ -1725,7 +1725,6 @@ Higher biodiversity generally leads to greater ecosystem stability:
 
 concepts, experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/biodiversity-and-conservation.md
 
 **Key concepts include:**
 
@@ -1738,7 +1737,6 @@ concepts, experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/biodiversity-and-conservation.md
 
 ## Worked Examples
 

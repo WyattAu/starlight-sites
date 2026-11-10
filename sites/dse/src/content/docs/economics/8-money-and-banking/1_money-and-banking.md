@@ -1816,7 +1816,6 @@ If you get this wrong, revise: [Financial Development](/economics/8-money-and-ba
 
 including key models, evidence, and policy implications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/money-and-banking.md
 
 **Key concepts include:**
 
@@ -1829,7 +1828,6 @@ including key models, evidence, and policy implications.
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/money-and-banking.md
 
 ## Worked Examples
 

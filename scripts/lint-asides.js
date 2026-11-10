@@ -60,6 +60,11 @@ function lintFile(rel, lines) {
       continue
     }
     if (/^:::\s*$/.test(line)) {
+      if (!open) {
+        violations.push(
+          `${rel}:${i + 1} stray ::: closer with no open directive -- renders as literal text`,
+        )
+      }
       open = null
       continue
     }

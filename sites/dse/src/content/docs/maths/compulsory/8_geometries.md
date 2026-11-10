@@ -1059,7 +1059,6 @@ right-angled at $A$.
 
 2. Misreading the question, particularly with 'hence' vs 'hence or otherwise'. The former requires
    using previous work.
-   > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/geometries.md
 
 ## Summary
 

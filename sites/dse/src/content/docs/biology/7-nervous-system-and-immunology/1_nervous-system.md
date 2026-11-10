@@ -1335,7 +1335,6 @@ LTP is the cellular basis of learning and memory:
 
 experimental evidence, and real-world applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/nervous-system.md
 
 **Key concepts include:**
 
@@ -1348,7 +1347,6 @@ experimental evidence, and real-world applications.
 Success requires the ability to recall specific factual content, apply knowledge to novel scenarios,
 and evaluate experimental evidence critically.
 
-> > > > > > > Stashed changes:docs/docs_dse/Biology/nervous-system.md
 
 ## Worked Examples
 

@@ -1597,7 +1597,6 @@ If you get this wrong, revise: [Supply-Side Policy](/economics/6-government-poli
 
 policy, including key models, evidence, and policy implications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/fiscal-and-monetary-policy.md
 
 **Key concepts include:**
 
@@ -1610,7 +1609,6 @@ policy, including key models, evidence, and policy implications.
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/fiscal-and-monetary-policy.md
 
 ## Worked Examples
 

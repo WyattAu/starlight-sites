@@ -1544,7 +1544,6 @@ $$
 
 including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/data-representation.md
 
 **Key concepts include:**
 
@@ -1554,7 +1553,6 @@ including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/data-representation.md
 
 ## Intuition
 

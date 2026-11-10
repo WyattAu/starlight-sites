@@ -1159,7 +1159,6 @@ $$
 \Delta H = (-394) - (-283) = -111\,\text{kJ\,mol}^{-1}
 $$
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/energetics.md
 :::
 
 ## See Also

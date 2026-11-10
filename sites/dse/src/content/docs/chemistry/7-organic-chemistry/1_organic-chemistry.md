@@ -2099,7 +2099,6 @@ Theoretical moles of ester $= 0.0676 \mathrm{ mol}$ (1:1 ratio)
 5. Confusing enthalpy of formation with enthalpy of combustion, or using the wrong sign convention.
 
 6. Misidentifying the limiting reagent. Compare mole ratios rather than comparing masses.
-    > > > > > > > Stashed changes:docs/docs_dse/Chemistry/organic-chemistry.md
 
 ## Cross-References
 

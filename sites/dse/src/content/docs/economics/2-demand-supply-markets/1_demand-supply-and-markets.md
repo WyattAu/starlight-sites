@@ -1588,7 +1588,6 @@ If you get this wrong, revise: [Price Controls and Welfare](/economics/2-demand-
 
 1. Failing to evaluate both strengths and weaknesses of economic models, not just listing them.
 
-   > > > > > > > Stashed changes:docs/docs_dse/Economics/demand-supply-markets.md
 
 2. Confusing a movement along a curve with a shift of the curve. Movements are caused by price
    changes; shifts by non-price determinants.
@@ -1596,7 +1595,6 @@ If you get this wrong, revise: [Price Controls and Welfare](/economics/2-demand-
 along) or a decrease (shift) of the demand curve.
 
 1. Forgetting to distinguish between short-run and long-run effects in macroeconomic analysis.
-   > > > > > > > Stashed changes:docs/docs_dse/Economics/demand-supply-markets.md
 
 ## Worked Examples
 

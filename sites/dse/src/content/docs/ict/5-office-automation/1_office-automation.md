@@ -1052,7 +1052,6 @@ to work correctly.
 
 productivity, including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/office-automation-and-productivity.md
 
 **Key concepts include:**
 
@@ -1062,7 +1061,6 @@ productivity, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/office-automation-and-productivity.md
 
 ## Worked Examples
 

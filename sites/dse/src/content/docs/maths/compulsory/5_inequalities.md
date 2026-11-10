@@ -873,7 +873,6 @@ requires using previous work.
 
 1. Forgetting to check that solutions satisfy the original equation (especially with squaring both
    sides or dividing by variables).
-   > > > > > > > Stashed changes:docs/docs_dse/Maths/compulsory/inequalities.md
 
 ## Summary
 

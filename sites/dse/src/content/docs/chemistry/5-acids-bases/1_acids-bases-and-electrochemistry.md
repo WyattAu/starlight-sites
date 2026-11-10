@@ -1562,7 +1562,6 @@ because the buffer system absorbs the added base. The buffer resists large pH ch
 
 4. Drawing structural formulae incorrectly. Check the number of bonds each atom can form and the
    overall charge.
-   > > > > > > > Stashed changes:docs/docs_dse/Chemistry/acids-bases-electrochemistry.md
 
 $$
 

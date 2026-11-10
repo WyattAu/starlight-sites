@@ -2173,7 +2173,6 @@ If you get this wrong, revise:
 
 theory of the firm, including key models, evidence, and policy implications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/market-structure-and-theory-of-the-firm.md
 
 **Key concepts include:**
 
@@ -2186,7 +2185,6 @@ theory of the firm, including key models, evidence, and policy implications.
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/market-structure-and-theory-of-the-firm.md
 
 ## Worked Examples
 

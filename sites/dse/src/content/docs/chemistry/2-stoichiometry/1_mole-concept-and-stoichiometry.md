@@ -1080,7 +1080,6 @@ $\mathrm{C}_8\mathrm{H}_{16}\mathrm{O}_3$.
 
 including key reactions, underlying theories, and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/mole-concept-and-stoichiometry.md
 
 **Key concepts include:**
 
@@ -1093,7 +1092,6 @@ including key reactions, underlying theories, and practical applications.
 Mastery of these concepts requires both theoretical understanding and the ability to apply knowledge
 to unfamiliar contexts, particularly in calculation and practical questions.
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/mole-concept-and-stoichiometry.md
 
 ## Worked Examples
 

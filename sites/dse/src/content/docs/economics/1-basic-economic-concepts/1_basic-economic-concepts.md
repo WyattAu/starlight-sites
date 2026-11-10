@@ -1656,7 +1656,6 @@ If you get this wrong, revise: [Opportunity Cost](#opportunity-cost)
 
 including key models, evidence, and policy implications.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/basic-economic-concepts.md
 
 **Key concepts include:**
 
@@ -1669,7 +1668,6 @@ including key models, evidence, and policy implications.
 The ability to apply these theories to real-world data and evaluate policy decisions is central to
 success in this subject.
 
-> > > > > > > Stashed changes:docs/docs_dse/Economics/basic-economic-concepts.md
 
 ## Worked Examples
 

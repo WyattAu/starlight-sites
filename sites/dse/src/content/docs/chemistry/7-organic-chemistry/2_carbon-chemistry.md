@@ -915,7 +915,6 @@ $$
 m(\text{CaCl}_2) = 0.100 \times 111 = 11.1\,\text{g}
 $$
 
-> > > > > > > Stashed changes:docs/docs_dse/Chemistry/carbon-chemistry.md
 
 ## See Also
 

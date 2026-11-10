@@ -22730,7 +22730,6 @@ results and require full written arguments.
    $\mathbb{C}$ the plane splits into two $1 \times 1$ Jordan blocks
    at $\pm i$.)*
 
-:::
 ## Where to Go Next
 
 The algebra of finite dimensions is now closed: whatever an operator
@@ -23916,7 +23915,6 @@ results and require full written arguments.
    *(Hint: the contradiction required $f(s) = D$ to be possible;
    $S \times S$ is not $\mathcal{P}(S)$.)*
 
-:::
 ## Where to Go Next
 
 Stage B (Counting) defines the counting numbers by five declarations
@@ -24779,7 +24777,6 @@ results and require full written arguments.
    counting number is even or its successor is even, by induction,
    and split on which.)*
 
-:::
 ## Where to Go Next
 
 Stage C (Expanding the line) takes the remainder theorem and does
@@ -27700,7 +27697,6 @@ results and require full written arguments.
    entries of $Df$ supplies; the contraction factor is essentially
    that supremum.)*
 
-:::
 ## Where to Go Next
 
 The calculus of several variables now stands on proved ground: limits

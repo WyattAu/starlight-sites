@@ -1252,7 +1252,6 @@ END
 
 theory, practical implementation, and key applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/programming-fundamentals.md
 
 **Key concepts include:**
 
@@ -1262,7 +1261,6 @@ theory, practical implementation, and key applications.
 - graph algorithms (Dijkstra, BFS, DFS)
 - dynamic programming
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/programming-fundamentals.md
 
 ## Intuition
 

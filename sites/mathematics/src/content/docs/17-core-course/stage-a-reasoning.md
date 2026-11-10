@@ -811,7 +811,6 @@ results and require full written arguments.
    *(Hint: the contradiction required $f(s) = D$ to be possible;
    $S \times S$ is not $\mathcal{P}(S)$.)*
 
-:::
 ## Where to Go Next
 
 Stage B (Counting) defines the counting numbers by five declarations

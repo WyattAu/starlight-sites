@@ -671,7 +671,6 @@ results and require full written arguments.
    $\mathbb{C}$ the plane splits into two $1 \times 1$ Jordan blocks
    at $\pm i$.)*
 
-:::
 ## Where to Go Next
 
 The algebra of finite dimensions is now closed: whatever an operator

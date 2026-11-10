@@ -927,7 +927,6 @@ results and require full written arguments.
    entries of $Df$ supplies; the contraction factor is essentially
    that supremum.)*
 
-:::
 ## Where to Go Next
 
 The calculus of several variables now stands on proved ground: limits

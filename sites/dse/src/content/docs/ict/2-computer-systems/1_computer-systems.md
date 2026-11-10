@@ -1151,7 +1151,6 @@ following factors are also critical:
 
 systems, including key principles and practical applications.
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/computer-systems.md
 
 **Key concepts include:**
 
@@ -1161,7 +1160,6 @@ systems, including key principles and practical applications.
 - common techniques and methods
 - evaluation and critical analysis
 
-> > > > > > > Stashed changes:docs/docs_dse/ICT/computer-systems.md
 
 ## Intuition
 
