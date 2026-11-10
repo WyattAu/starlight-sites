@@ -206,15 +206,22 @@ the converse does not follow.
 
 ## 2. Sets: Membership, Operations, Products, Power Sets
 
-**Ponder 5 (construct extensionality).** Two collections: the
-even-counting numbers below ten, and the counting numbers whose
-double is below twenty. Different descriptions. Are they the same
-*set*? Attempt the rule that decides when two sets are equal.
+**Ponder 5 (construct extensionality).** Here are two descriptions of
+a collection of counting numbers. Description one: the even counting
+numbers below twenty. Description two: the counting numbers that are
+twice some counting number below ten. Write out both collections and
+compare them: the descriptions differ in wording, but the collections
+should land on exactly the same elements. Now attempt the rule that
+decides, from the elements alone, whether two descriptions name the
+same *set*.
 
 <details class="wn-spoiler">
 <summary>Compare your construction</summary>
 <div class="wn-spoiler-body">
 
+The two lists coincide: every even counting number below twenty is
+twice some counting number below ten (halve it), and every double of
+a counting number below ten is an even counting number below twenty.
 The rule: two sets are equal exactly when they have the same elements
 : $\forall x\ (x \in S \leftrightarrow x \in T)$. This is
 **extensionality**, and it is the only way two sets can differ. The
@@ -228,24 +235,41 @@ same set: a set is its membership, not its description.
 objects, its elements; sets $S, T$ are equal exactly when
 $\forall x\ (x \in S \leftrightarrow x \in T)$.
 
-**Ponder 6 (construct the operations).** Given sets $S$ and $T$,
-invent: the set of elements in both; the set of elements in at least
-one; the set of elements in $S$ but not $T$; the claim that every
-element of $S$ is an element of $T$. Define all four in symbols from
-$\in$, $\land$, $\lor$, $\to$.
+**Ponder 6 (construct the operations).** Take two concrete sets,
+$S := \{a, b, c, d\}$ and $T := \{c, d, e, f\}$. Work by listing:
+which elements belong to both at once? Which belong to at least one?
+Which belong to $S$ yet fail to belong to $T$? Each of your three
+answers was produced by running a *test* on a candidate element $x$,
+and the test used nothing but the two membership facts $x \in S$,
+$x \in T$, joined by "and", "or", or "not". Now the construction:
+write down each of your three tests as a formula in $\in$, $\land$,
+$\lor$, and parentheses, so that the formula collects exactly the
+elements your list collected. Then attempt a fourth, different in
+kind: a single sentence that says *every* element of $S$ passes the
+membership test for $T$.
 
 <details class="wn-spoiler">
 <summary>Compare your construction</summary>
 <div class="wn-spoiler-body">
 
+Your first list is collected by the test $x \in S \land x \in T$,
+the second by $x \in S \lor x \in T$, the third by $x \in S \land x
+\notin T$. Read as definitions, each formula sweeps the test into a
+set:
 - $S \cap T := \{x : x \in S \land x \in T\}$.
 - $S \cup T := \{x : x \in S \lor x \in T\}$.
 - $S \setminus T := \{x : x \in S \land x \notin T\}$.
-- $S \subseteq T :\Longleftrightarrow \forall x\ (x \in S \to x \in
-  T)$.
 
-Four definitions, each a bounded comprehension built from one
-connective.
+The fourth attempt is different in kind: it does not test one
+candidate $x$ but claims something about all of them at once,
+$S \subseteq T :\Longleftrightarrow \forall x\ (x \in S \to x \in
+T)$. Check it against the concrete pair: with $S$ and $T$ as above,
+$S \subseteq T$ fails, and your listing shows why, since $a$ belongs
+to $S$ but not to $T$.
+
+Four constructions, the first three from one connective each, the
+fourth from a quantifier; all four are bounded comprehensions, which
+is the licence Section 2 states next.
 
 </div>
 </details>
@@ -381,9 +405,10 @@ itself, containment cannot run both ways between distinct sets, and
 containment chains. But it does not line its elements up in a row:
 $\{a\}$ and $\{b\}$ sit beside each other with no order between them.
 
-**Ponder 10 (sort the room).** On the people in a room, sort them by
-birth month. January-born here, February-born there, and so on. Now
-answer, from your sorting:
+**Ponder 10 (sort the room).** Take the people in a room and sort
+them into groups by birth month: everyone born in January goes into
+one group, everyone born in February into another, and so on. Answer
+three questions from your sorting:
 
 1. Does every person land in exactly one group?
 2. If two people are in the same group, what can you say about
@@ -428,9 +453,11 @@ equivalence relation on $S$ form a disjoint cover of $S$; conversely,
 every disjoint cover $\{F_i\}$ of $S$ induces exactly one equivalence
 relation ("same $F_i$").
 
-**Ponder (attempt it).** The first direction's danger: two classes
-sharing one element. Can they share "half"? Try to build such a pair
-before reading the proof.
+**Ponder (attempt it).** The first direction's danger is overlap: two
+distinct classes sharing an element. Settle this before reading the
+proof: if two classes share even one element, must they share *all*
+their elements? Try to build a pair of classes that overlap without
+coinciding before reading why no such pair exists.
 
 <details class="wn-spoiler">
 <summary>The proof, explained alongside</summary>
@@ -521,10 +548,11 @@ when:
 
 Write $f(x) = y$ for the unique $y$.
 
-**Ponder 13 (undoing).** Try to *undo* a function that forgets.
-Inputs: the people of a room. Outputs: their birth-months,
-$f(x) :=$ the month of $x$. Attempt an inverse $g$: from "March",
-recover the person. What does $g$ have to demand of the room?
+**Ponder 13 (undoing).** Try to undo a function that forgets
+information. The function $f$ sends each person in a room to their
+birth month: $f(x)$ is the month of $x$. Attempt an inverse $g$ that
+takes a month, such as March, and recovers the person born in it.
+What does $g$ have to demand of the room before it can exist?
 
 <details class="wn-spoiler">
 <summary>The autopsy</summary>
