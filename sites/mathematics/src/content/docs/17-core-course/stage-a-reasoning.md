@@ -168,7 +168,7 @@ $\blacksquare$
 is true are the same knowledge: if the conclusion fails, the
 hypothesis must have failed, or the implication would have been false.
 
-**Quick check.**
+:::note[Quick check]
 
 1. Construct the truth table of $\neg(P \land Q)$ and of
    $\neg P \lor \neg Q$; what do you observe?
@@ -183,7 +183,11 @@ hypothesis must have failed, or the implication would have been false.
 8. Prove or disprove: $(P \to Q) \to (Q \to P)$. Does the converse
    carry the same information?
 
-*Answers:* **1.** Identical columns in all four rows (De Morgan's
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Identical columns in all four rows (De Morgan's
 law, by enumeration). **2.** None: $P \to Q$ is false exactly in row
 (T, F). **3.** T/F exclusivity and double-negation licensing;
 recorded in the course map's axiom table. **4.** Eight: every
@@ -194,6 +198,11 @@ which is exactly where $P \land \neg Q$ is T. **7.** Axiom,
 definition, previously proved statement, rule-licensed consequence.
 **8.** Disprove: row (F, T) has $P \to Q$ true and $Q \to P$ false;
 the converse does not follow.
+
+</div>
+</details>
+
+:::
 
 ## 2. Sets: Membership, Operations, Products, Power Sets
 
@@ -289,7 +298,7 @@ S \land t \in T\}$. $\mathcal{P}(S) := \{T : T \subseteq S\}$.
 \{a\}, \{b\}, \{a, b\}\}$: one subset per way of deciding, for each
 element separately, in or out. $\blacksquare$
 
-**Quick check.**
+:::note[Quick check]
 
 1. State extensionality as a formal $\forall \leftrightarrow$
    statement.
@@ -305,7 +314,11 @@ element separately, in or out. $\blacksquare$
 8. What paradox does unbounded comprehension produce, and which
    axiom does it violate?
 
-*Answers:* **1.** $S = T :\Longleftrightarrow \forall x\ (x \in S
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $S = T :\Longleftrightarrow \forall x\ (x \in S
 \leftrightarrow x \in T)$. **2.** Let $x \in S \cap T$; the $\land$
 rule gives $x \in S$; so $S \cap T \subseteq S$. **3.** True:
 $\mathcal{P}(\varnothing) = \{\varnothing\}$. **4.** $\supseteq$
@@ -316,6 +329,11 @@ elements in exactly one of the two sets. **7.** The chase reduces to
 $\land$ distributing over $\lor$, row-checked in Section 1. **8.**
 Russell's $R$: neither $R \in R$ nor $R \notin R$, violating the
 classical-logic axiom; bounded comprehension is the repair.
+
+</div>
+</details>
+
+:::
 
 ## 3. Relations: Order and Equivalence
 
@@ -452,7 +470,7 @@ pairs of counting numbers "the same number" under exactly such a
 relation, and the integers are born. The sorting you did in this
 section is the prototype of that construction.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the three order laws as formal $\forall$-statements.
 2. List the ordered pairs $(X, Y)$ with $X \subsetneq Y$ in the
@@ -467,7 +485,11 @@ section is the prototype of that construction.
 8. Your room-sorting satisfied one more property the birth-month
    relation has: name it. (Every person is in *some* group.)
 
-*Answers:* **1.** Reflexive: $\forall a\ (a \,R\, a)$;
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Reflexive: $\forall a\ (a \,R\, a)$;
 antisymmetric: $\forall a, b\ ((a \,R\, b \land b \,R\, a) \to a =
 b)$; transitive: $\forall a, b, c\ ((a \,R\, b \land b \,R\, c) \to
 a \,R\, c)$; total adds $\forall a, b\ (a \,R\, b \lor b \,R\, a)$.
@@ -482,6 +504,11 @@ classes are the twelve birth-month groups. **6.** $w \in [x] \to w
 symmetric argument gives the reverse inclusion. **7.** The disjoint
 cover the classes realize. **8.** Every class is nonempty: everyone
 lands in some group (the covering half of the correspondence).
+
+</div>
+</details>
+
+:::
 
 ## 4. Functions: Relations with Two Extra Laws
 
@@ -556,7 +583,7 @@ unhit. $\blacksquare$
 built to disagree with the listed subset at its own position, the
 same diagonal move Stage D will run against lists of the real line.
 
-**Quick check.**
+:::note[Quick check]
 
 1. Write the two function laws formally.
 2. Write injective and surjective formally.
@@ -570,7 +597,11 @@ same diagonal move Stage D will run against lists of the real line.
    injective on $f$'s image.
 8. Why does the uniqueness of $g$ end with extensionality?
 
-*Answers:* **1.** Total: $\forall x \in S\ \exists y \in T\ ((x, y)
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Total: $\forall x \in S\ \exists y \in T\ ((x, y)
 \in f)$; single-valued: $\forall x\ \forall y, y'\ (((x, y) \in f
 \land (x, y') \in f) \to y = y')$. **2.** Injective:
 $\forall x, x'\ (f(x) = f(x') \to x = x')$; surjective:
@@ -582,6 +613,11 @@ injectivity: its uniqueness. **5.** "$s \in D \leftrightarrow s
 unhit subset is $\{a\}$. **7.** $g(f(x)) = g(f(x'))$ gives $f(x) =
 f(x')$, then $x = x'$. **8.** Two functions with the same values on
 every input are the same set of pairs.
+
+</div>
+</details>
+
+:::
 
 ## 5. The False Proof, Dissected
 
@@ -652,7 +688,7 @@ definition.
 </div>
 </details>
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the violated rule with $\forall/\exists$.
 2. Verify both quantified claims on $L = \{(a, a), (b, b)\}$.
@@ -664,7 +700,11 @@ definition.
 7. Write the witness function $m$ explicitly for the mothers.
 8. Why does the counterexample need at least two elements?
 
-*Answers:* **1.** $\forall x\ \exists y\ R(x, y) \not\to \exists
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\forall x\ \exists y\ R(x, y) \not\to \exists
 y\ \forall x\ R(x, y)$. **2.** $\forall x\ \exists y$ holds with $y
 := x$; $\exists y\ \forall x$ fails (no column has two ✓s). **3.**
 Independent arguments per case. **4.** Cases and contradiction.
@@ -673,6 +713,11 @@ valid. The false proof ran the invalid converse. **6.** $R =
 \{(a, a), (b, b), (a, b)\}$: $y := b$ serves both. **7.** $m(x) :=
 $ the mother of $x$. **8.** On one element both claims hold, so no
 counterexample exists.
+
+</div>
+</details>
+
+:::
 
 ## Stage Gate
 
@@ -738,6 +783,7 @@ results and require full written arguments.
    *(Hint: the contradiction required $f(s) = D$ to be possible;
    $S \times S$ is not $\mathcal{P}(S)$.)*
 
+:::
 ## Where to Go Next
 
 Stage B (Counting) defines the counting numbers by five declarations

@@ -173,7 +173,7 @@ Strong induction is the version Stage D will generalise into
 transfinite induction, and Section 4's division theorem is its first
 outing.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the five Peano declarations, and name the two game
    questions they answer.
@@ -189,7 +189,11 @@ outing.
 8. Why does induction need *no other cases* beyond $P(0)$ and
    $P(n) \to P(S(n))$?
 
-*Answers:* **1.** Zero exists; successors exist; zero is no one's
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Zero exists; successors exist; zero is no one's
 successor; successors are distinct for distinct inputs; induction.
 Game: the start is never revisited, and next-moves never collide.
 **2.** Base $P(0)$; hypothesis $P(n)$; step $P(n) \to P(S(n))$.
@@ -203,6 +207,11 @@ failure, whose "all smaller hold" contradicts the step hypothesis.
 is that $X$ is both nonempty and empty. **8.** Axiom 5: every
 counting number is reached by finitely many next-moves from $0$, so
 closing base and step closes everything.
+
+</div>
+</details>
+
+:::
 
 ## Formal Witnesses: How to Read the Boxes
 
@@ -324,7 +333,7 @@ $0 + S(k)$ to $S(0 + k)$ and then to $S(k)$, which is the goal's
 right side. The same proofs, certified: this pair of boxes compiles
 in the proof job on every push.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the two lines that define addition, and say which argument
    the recursion walks.
@@ -340,7 +349,11 @@ in the proof job on every push.
 8. Which Stage A tool does the uniqueness half of the recursion
    principle consume?
 
-*Answers:* **1.** $a + 0 := a$ and $a + S(b) := S(a + b)$; the
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $a + 0 := a$ and $a + S(b) := S(a + b)$; the
 recursion walks the right argument. **2.** $a + 1 = a + S(0) =
 S(a + 0) = S(a)$. **3.** $0 + n = n$ (the first crack);
 commutativity swaps arguments and needed the left-zero case.
@@ -355,6 +368,11 @@ two-line recursion shape, so the same uniqueness question arises and
 the same principle answers it. **8.** Extensionality: two functions
 with the same values on every input are the same set of pairs
 (Stage A).
+
+</div>
+</details>
+
+:::
 
 ## 3. Multiplication, Order, Exponentiation: All Theorems
 
@@ -456,7 +474,7 @@ witness $c$. $\blacksquare$
 proved by the same inductions as Sections 2 and 3; Problem 5 asks
 for one.
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the two lines that define multiplication.
 2. Which two previously proved facts does distributivity's proof use
@@ -471,7 +489,11 @@ for one.
 8. Compute $a^{b + c}$ in terms of $a^b$ and $a^c$, and prove it by
    induction on $c$.
 
-*Answers:* **1.** $a \times 0 := 0$ and $a \times S(b) := a \times b + a$; the recursion walks the right argument. **2.** Associativity
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $a \times 0 := 0$ and $a \times S(b) := a \times b + a$; the recursion walks the right argument. **2.** Associativity
 of addition and the multiplication step line. **3.** $a \leq b$
 when some $c$ satisfies $a + c = b$. **4.** Witness $c := 1$: $a +
 1 = S(a)$ by Section 2. **5.** $a^{S(b)} = a^b \times a$. **6.**
@@ -481,6 +503,11 @@ so $c + d = 0$ by Stage B cancellation, so $c = d = 0$, so $a = b$.
 **8.** $a^{b + S(c)} = a^{b + c} \times a = (a^b \times a^c)
 \times a$; $a^{S(b + c)} = a^{b + c} \times a$; equal by the
 induction hypothesis at $c$.
+
+</div>
+</details>
+
+:::
 
 ## 4. Division with Remainder; the Archimedean Property
 
@@ -576,7 +603,7 @@ the second adds the bound $a \% b < b$ whenever $b \neq 0$, with the
 `by omega` discharging the small arithmetic fact $0 < b$ from $b
 \neq 0$.
 
-**Quick check.**
+:::note[Quick check]
 
 1. In the existence proof, which proof shape carries the main
    argument, and what is the induction on?
@@ -591,7 +618,11 @@ the second adds the bound $a \% b < b$ whenever $b \neq 0$, with the
 8. Compute the quotient and remainder of $S(S(S(S(0))))$ upon $S(S(0))$
    (that is, $4$ upon $2$) by the walking argument.
 
-*Answers:* **1.** Strong induction on $a$ (least-counterexample
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Strong induction on $a$ (least-counterexample
 shape). **2.** It bounds $d$: a larger quotient would add at least a
 full $b \times 1$, exceeding $b \times q + d$ when $d < b$. **3.**
 $q := 0$ and $r := 0$. **4.** For every $a$ and every $b \neq 0$,
@@ -605,6 +636,11 @@ solution, not a contradiction; strictness of $d < b$ is exactly
 what rules the boundary case out. **8.** Walk: $4 \ominus 2 = 2$,
 $2 \ominus 2 = 0$, stop: $q = 2$, $r = 0$, and $2 \times 2 + 0 = 4$
 checks.
+
+</div>
+</details>
+
+:::
 
 ## 5. Counting Arguments: Bijections Meet Arithmetic
 
@@ -696,7 +732,7 @@ y^{n \ominus 1} + \dots + B(n, n) \, x^n$, with each term $B(n, k)
 Section 3's distributivity and the recurrence. (Problem 4 carries
 out the induction.) $\blacksquare$
 
-**Quick check.**
+:::note[Quick check]
 
 1. State the pigeonhole principle with its exact hypotheses.
 2. Where does the removal lemma enter the pigeonhole proof?
@@ -711,7 +747,11 @@ out the induction.) $\blacksquare$
    chain together?
 8. How many permutations does $[2]$ have, by the count recursion?
 
-*Answers:* **1.** If $m < k$, every function $[k] \to [m]$ collides
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** If $m < k$, every function $[k] \to [m]$ collides
 on distinct inputs; equivalently no injection exists. **2.** In the
 case where the top value is in the image: removing that one pair
 turns the problem into the previous case. **3.** There exists a
@@ -725,6 +765,11 @@ the strong induction that Stage B built (which climbs). **8.**
 $S(2)$ times the count for $[S(1)]$, which is $S(1)$ times the
 count for $[0]$, which is $1$: the count is $2$, the two
 bijections are the identity and the swap.
+
+</div>
+</details>
+
+:::
 
 ## Stage Gate
 
@@ -806,6 +851,7 @@ results and require full written arguments.
    counting number is even or its successor is even, by induction,
    and split on which.)*
 
+:::
 ## Where to Go Next
 
 Stage C (Expanding the line) takes the remainder theorem and does
