@@ -335,7 +335,7 @@ The replacement for "the tangent line" is the **best affine map**: a
 linear map $L: \mathbb{R}^n \to \mathbb{R}^m$ such that
 $$f(p + h) = f(p) + L h + r(h), \qquad \frac{\|r(h)\|}{\|h\|} \to 0
 \text{ as } h \to 0.$$
-The error is not merely small (adding the zero map also gives small
+the error is not merely small (adding the zero map also gives small
 error); it is small *relative to the step size*: first-order
 accurate. "Best" means exactly this: any other linear candidate
 differs from $L$ by an error that is only first-order, so $L$ is
