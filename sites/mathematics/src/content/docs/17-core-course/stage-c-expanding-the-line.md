@@ -58,12 +58,36 @@ ledger of a business that owes more than it owns cannot be written, and
 every equation $a + x = b$ with $a < b$ is unsolvable. The monster is the
 equation itself, and the repair is the deepest move in the course.
 
+**Ponder 1 (invent the repair yourself).** Before reading the
+definition: you may not subtract $5$ from $3$, but you may *describe*
+the would-be difference. Propose a piece of data that encodes "$a$
+minus $b$" whether or not $a \geq b$, and propose when two pieces of
+data should count as the same object. Test your rule on $(7, 3)$ and
+$(6, 2)$.
+
+<details class="wn-spoiler">
+<summary>Compare your construction</summary>
+<div class="wn-spoiler-body">
+
+The natural data is the ordered pair $(a, b)$, meaning "start at $b$,
+walk until you reach $a$": the difference $a \ominus b$ that may not
+exist as a counting number. Two pairs name the same would-be difference
+when the crossed sums agree: $(a, b)$ and $(c, d)$ are the same object
+exactly when $a + d = c + b$. Check it on the prompt: $(7, 3)$ and
+$(6, 2)$ satisfy $7 + 2 = 6 + 3$, so both mean four. The rule is not a
+guess pulled from air: it is the smallest relation that makes the
+arithmetic come out right, and the well-definedness theorem below
+proves "right".
+
+</div>
+</details>
+
 **Definition (difference classes).** On the set $\mathbb{N} \times
 \mathbb{N}$ of ordered pairs of counting numbers, declare $(a, b)
 \sim (c, d)$ when $a + d = c + b$. This is Stage A's equivalence
 relation machinery, checked directly: reflexive ($a + b = a + b$),
 symmetric (symmetry of equality), transitive (add a $c$-term and
-cancel, Section 2's associativity and the base line). The **integers**
+cancel, using Stage B Section 2's associativity and base line). The **integers**
 are the equivalence classes of $\sim$, written
 $\mathbb{Z} := (\mathbb{N} \times \mathbb{N}) / \sim$. The pair $(a, b)$
 encodes the *difference* $a - b$ that may not exist in $\mathbb{N}$: the
@@ -140,7 +164,12 @@ d$ in $\mathbb{N}$; well-defined by the same representative bookkeeping
    simple terms.
 4. Which Stage A tool made the quotient construction legal?
 5. What does $-[(a, b)]$ mean, and what does adding it produce?
-
+6. Decide, by the recognition rule alone, whether $[(2, 5)] = [(7,
+   10)]$, and name the integer both represent.
+7. Show $[(a, b)] = [(a + k, b + k)]$ for every $k$: adding the same
+   amount to both sides of a difference changes nothing.
+8. Compute $[(3, 7)] \times [(2, 4)]$ on representatives and name the
+   resulting integer.
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -150,6 +179,9 @@ d$ in $\mathbb{N}$; well-defined by the same representative bookkeeping
 3. $[(8, 9)]$, which behaves as $-1$: it is $-[(1, 0)]$.
 4. Equivalence relations and their quotient set (the partition correspondence).
 5. The class $[(b, a)]$; adding gives $[(a + b, b + a)] = 0_{\mathbb{Z}}$.
+6. $2 + 10 = 12 = 7 + 5$: equal classes, both meaning $3$.
+7. The recognition rule demands $a + (b + k) = (a + k) + b$, true by commutativity of addition on $\mathbb{N}$.
+8. $[(3 \times 2 + 7 \times 4, 3 \times 4 + 7 \times 2)] = [(34, 26)]$, which is the class of $(8, 0)$: the integer $8$ (check: $34 + 0 = 8 + 26$).
 </div>
 </details>
 
@@ -162,6 +194,28 @@ no solution (Section 4's parity argument shows $3 \times x$ is never $5$;
 or directly, $x$ would have to be a non-integer). Division is only total
 when the divisor divides. Same move, new pairs.
 
+**Ponder 1 (run the move yourself).** Before reading the definition:
+Section 1 repaired subtraction by quotienting pairs of counting
+numbers. Division needs the same surgery. Invent it: what is the pair,
+what is the recognition rule, and which pairs must be forbidden before
+the construction starts?
+
+<details class="wn-spoiler">
+<summary>Compare your construction</summary>
+<div class="wn-spoiler-body">
+
+The pair $(p, q)$ of integers means the fraction $p/q$, so $q$ must not
+be $0_{\mathbb{Z}}$: a division by zero describes nothing. Two pairs
+name the same fraction when cross-multiplying agrees: $(p, q) \sim (p',
+q')$ when $p \times q' = p' \times q$. Multiplication plays the role
+that addition played in Section 1's rule, because fractions compare by
+products. If your rule matches the definition below, you have
+internalised the move: the second run of the same construction should
+feel nearly mechanical.
+
+</div>
+</details>
+
 **Definition (fraction classes).** On $\mathbb{Z} \times (\mathbb{Z}
 \setminus \{0_{\mathbb{Z}}\})$, declare $(p, q) \sim (p', q')$ when $p
 \times q' = p' \times q$. The **rationals** are the classes, written
@@ -173,6 +227,17 @@ $(p, 1_{\mathbb{Z}})$ copies the integers into $\mathbb{Q}$, injectively
 r \times q, q \times s)]$ and $[(p, q)] \times [(r, s)] := [(p \times r,
 q \times s)]$. Both are well-defined (Problem 5: the addition case needs
 $\mathbb{Z}$'s distributivity, which Section 1 just built).
+
+**The move, side by side.** One construction, run twice; the table is
+the honest representation of the parallel:
+
+| | Integers (Section 1) | Rationals (Section 2) |
+|---|---|---|
+| Old objects | pairs $(a, b)$ of counting numbers | pairs $(p, q)$ of integers, $q \neq 0_{\mathbb{Z}}$ |
+| Intended meaning | the difference $a \ominus b$ | the fraction $p/q$ |
+| Recognition rule | $a + d = c + b$ | $p \times q' = p' \times q$ |
+| New law gained | additive inverses: subtraction total | multiplicative inverses: division total |
+| What is inherited | every law of $\mathbb{N}$ | every law of $\mathbb{Z}$ |
 
 **Theorem (inverses exist).** Every nonzero rational has a
 multiplicative inverse: $[(p, q)]^{-1} := [(q, p)]$ for $p \neq
@@ -232,7 +297,12 @@ built to prevent.
    $1_{\mathbb{Q}}$.
 4. State density in one sentence, and one thing it does not claim.
 5. Why must the second component avoid $0_{\mathbb{Z}}$?
-
+6. Decide whether $[(2, 4)] = [(3, 6)]$ without reducing anything to
+   lowest terms.
+7. Compute $[(1, 2)] + [(1, 3)]$ on representatives, and exhibit a
+   rational strictly between the sum and $1$.
+8. The pair $(0, 0)$ is forbidden. Trace what the recognition rule
+   would do to $\mathbb{Q}$ if it were admitted.
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -242,6 +312,9 @@ built to prevent.
 3. $[(5, 3)]$; and $[(3, 5)] \times [(5, 3)] = [(15, 15)] = 1_{\mathbb{Q}}$.
 4. Between any two distinct rationals lies a third; it does not claim every point of the line is rational.
 5. The inverse definition divides by $q$; $q = 0_{\mathbb{Z}}$ has no inverse and encodes no fraction.
+6. $2 \times 6 = 12 = 3 \times 4$: yes, the same class, both meaning $1/2$.
+7. $[(1 \times 3 + 1 \times 2, 2 \times 3)] = [(5, 6)]$; between $[(5, 6)]$ and $[(1, 1)]$ lies $[(11, 12)]$.
+8. $(0, 0) \sim (p, q)$ for every legal pair, since $0 \times q = p \times 0$ always: every class would collapse into one, and $\mathbb{Q}$ would be a single object instead of a number system.
 </div>
 </details>
 
@@ -316,16 +389,24 @@ shape proved Stage B's division theorem; here it does historic work.
    $\mathbb{Q}$.
 5. What does the theorem imply about the rational line, and what must
    any completed line add?
-
+6. Run the descent with $4$ in place of $2$: where does it stall, and
+   why is stalling the correct outcome? ($x \times x = 4$ does have a
+   rational solution.)
+7. Adapt the proof to show no rational squares to $6$.
+8. A right triangle has legs $1$ and $1$. Which equation kills its
+   hypotenuse-as-fraction, and which theorem is it?
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
-1. An odd times an odd is odd; and every even product $2 \times q \times q$ forces evenness of its square root in this setting.
+1. An odd times an odd is odd (so $p \times p$ even forces $p$ even); and then $p$ even makes $q \times q$ even, so $q$ even.
 2. The lowest-terms hypothesis (no common factor) is contradicted by both $p$ and $q$ being even.
 3. It uses only Stage B's arithmetic, order, and well-ordering descent.
 4. It has no rational solution.
 5. The rational line has holes (the diagonal's length is missing); a completed line must contain that length. Its construction is Stage D. (Forward-honesty marker: Stage D is future content; this theorem stands on its own.)
+6. $p \times p = 4 \times q \times q$ forces $p$ even; write $p = 2 \times h$ and substitute: $4 \times h \times h = 4 \times q \times q$, so $h \times h = q \times q$. No contradiction: the descent stalls because $4$ is itself a square, so both factors of $2$ on the right are used up at once. Correct, since $x = 2$ solves the equation.
+7. $p \times p = 6 \times q \times q$ forces $p$ even (an odd square is odd) and $3 \mid p \times p$, so $3 \mid p$ by Euclid's lemma; write $p = 2 \times h$: then $2 \times h \times h = 3 \times q \times q$, so $2 \mid 3 \times q \times q$, and since $2 \nmid 3$, Euclid's lemma gives $2 \mid q$, so $q$ even. Both even contradicts lowest terms.
+8. The hypotenuse $d$ satisfies $d \times d = 1 \times 1 + 1 \times 1 = 2$ (the geometric fact motivating this section's algebra); if $d = p/q$ then $p \times p = 2 \times q \times q$, the crisis equation, and this section's theorem kills it.
 </div>
 </details>
 
@@ -336,8 +417,8 @@ shape proved Stage B's division theorem; here it does historic work.
 **The bridge.** Section 3's descent used "lowest terms", which quietly
 used a fact about common factors. This section proves that machinery
 honestly: the Euclidean algorithm, Bezout's identity, and the
-fundamental theorem of arithmetic. These are the tools that Stage 5 and
-the algebra stage will reuse constantly.
+fundamental theorem of arithmetic. These are the tools the later
+algebra stages will reuse constantly.
 
 **Definition.** $b$ **divides** $a$ (written $b \mid a$) when $a = b
 \times q$ for some $q$. A **common divisor** of $a$ and $b$ divides
@@ -346,9 +427,9 @@ common divisor divides.
 
 **Theorem (Euclid's algorithm and Bezout).** Let $a, b$ be counting
 numbers with $b \neq 0$, and run the descent: set $r_0 := a$, $r_1 :=
-b$, and $r_{j + 2} := r_j \ominus ...$, the remainder of $r_j$ upon
-division by $r_{j + 1}$ (Stage B's remainder theorem, used with $b :=
-r_{j+1}$). The sequence strictly decreases after the first step, so it
+b$, and $r_{j + 2} := r_j \bmod r_{j + 1}$, the remainder of $r_j$ upon
+division by $r_{j + 1}$ (Stage B's remainder theorem, used with divisor
+$r_{j + 1}$). The sequence strictly decreases after the first step, so it
 stops at some $r_{n+1} = 0$; then $r_n$ is a greatest common divisor of
 $a$ and $b$, and there exist integers $u, v$ with $a \times u + b \times
 v = r_n$ (Bezout's identity, the coefficients read backwards off the
@@ -379,6 +460,11 @@ $p \times u \times b + (a \times b) \times v = b$. The first term is
 divisible by $p$, and $a \times b$ is divisible by $p$ by hypothesis,
 so $b$ is divisible by $p$. $\blacksquare$
 
+*In words:* Bezout's identity is a skeleton key. To show a prime $p$
+divides a factor of a product, unlock $\gcd(p, a) = 1$, write $1$ as a
+recipe in $p$ and $a$, multiply the recipe by $b$, and watch every term
+but $b$ itself become divisible by $p$.
+
 **Definition.** A counting number $p > 1$ is **prime** when its only
 divisors are $1$ and $p$.
 
@@ -400,6 +486,12 @@ cancellation for multiplication, Problem-set technique) and repeat.
 The lists match element for element, so $r = s$ and the factorisations
 are the same up to order. $\blacksquare$
 
+*In words:* existence chops every number down to primes. Uniqueness
+says the chops are forced: the first prime of one factorisation must
+divide some prime of the other, a prime dividing a prime equals it, and
+cancelling the pair leaves two shorter factorisations of the same
+number, so the match propagates to the end.
+
 :::note[Quick check]
 
 1. Why does the remainder sequence in Euclid's algorithm terminate?
@@ -409,7 +501,13 @@ are the same up to order. $\blacksquare$
    proof?
 5. What does "unique up to order" mean concretely for $12 = 2 \times 2
    \times 3$?
-
+6. Run the Euclidean sequence for $(48, 18)$; state the gcd and find
+   one Bezout pair by back-substitution.
+7. For a prime $p$ and any $a$: what are the only possible values of
+   $\gcd(p, a)$, and which fact about primes restricts them?
+8. Factor $60$ as $2 \times 2 \times 3 \times 5$ and as $5 \times 3
+   \times 2 \times 2$. Why does the fundamental theorem not call this
+   a contradiction?
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -419,6 +517,9 @@ are the same up to order. $\blacksquare$
 3. A prime dividing a product divides a factor; it consumes Bezout's identity.
 4. The existence induction is strong induction, justified by well-ordering's least-counterexample reading.
 5. $12$ is always two $2$s and one $3$: same primes, same multiplicities, any order.
+6. $48 = 2 \times 18 + 12$, $18 = 1 \times 12 + 6$, $12 = 2 \times 6 + 0$: the gcd is $6$; back-substitution gives $6 = 18 - 12 = 3 \times 18 - 48$, so $u = -1$, $v = 3$.
+7. Only $1$ or $p$: a common divisor of $p$ and $a$ divides the prime $p$, whose only divisors are $1$ and $p$.
+8. It does not: uniqueness means same primes with same multiplicities, in any order. Both factorisations carry two $2$s, one $3$, one $5$.
 </div>
 </details>
 
@@ -448,6 +549,22 @@ distributing. The laws lift from $\mathbb{Z}$ by the same
 representative bookkeeping. Cancellation fails: in $\mathbb{Z}/6$, $2
 \times 3 = 2 \times 0$ but $3 \neq 0$. $\blacksquare$
 
+**The systems so far, by their laws.** The differences between number
+systems are exactly which rows hold; a table is the honest
+representation:
+
+| Law | $\mathbb{N}$ | $\mathbb{Z}$ | $\mathbb{Q}$ | $\mathbb{Z}/p$, prime | $\mathbb{Z}/6$ |
+|---|---|---|---|---|---|
+| addition: associative, commutative, identity | yes | yes | yes | yes | yes |
+| additive inverses for every element | no | yes | yes | yes | yes |
+| multiplication: associative, commutative, identity, distributive | yes | yes | yes | yes | yes |
+| multiplicative inverses for every nonzero element | no | no | yes | yes | no |
+| cancellation for multiplication | yes | yes | yes | yes | no |
+| a compatible order | yes | yes | yes | no (it would wrap into a cycle) | no |
+
+No single column is "the best": each system trades one law for another,
+and the algebra stages read systems exactly by this table.
+
 **Definition.** A class $[a]$ is a **unit** in $\mathbb{Z}/n$ when some
 class $[b]$ satisfies $[a] \times [b] = [1]$.
 
@@ -471,15 +588,20 @@ $a^p \equiv a \pmod p$. In particular, if $p \nmid a$, then $a^{p
 
 *Proof.* Induction on $a$. Base: $0^p = 0 \equiv 0$. Step: assume
 $a^p \equiv a$. Then $(a + 1)^p = a^p + 1 + \sum$ of the middle binomial
-terms $B(p, k) \, a^k$ for $0 < k < p$ (the binomial law, Stage B).
-Each middle coefficient $B(p, k)$ is divisible by $p$: $B(p, k) = p
-\times (p \ominus 1) \times \dots \times (p \ominus k + 1) / k!$ times
-$k!$, so $p \times B(p, k) \ominus$-cancelled form shows $p$ divides the
-numerator product $p \times (p \ominus 1) \times \dots \times (p
-\ominus k + 1)$ while none of $k, k \ominus 1, \dots, 1$ (all smaller
-than $p$) is divisible by the prime $p$ (Euclid's lemma, applied factor
-by factor); as $p$ is prime it divides the product only through its own
-factor, so $p \mid B(p, k)$. Hence $(a + 1)^p \equiv a^p + 1 \equiv a + 1 \pmod p$. For the final claim: $a \not\equiv 0$ means $[a]$ is a
+terms $B(p, k)$ for $0 < k < p$ (the binomial law, Stage B). Each
+middle coefficient $B(p, k)$ is divisible by $p$. The count identity
+$k! \times B(p, k) = p \times (p \ominus 1) \times \dots \times (p
+\ominus k + 1)$ holds because both sides count the pairs (a
+$k$-element subset of $[p]$, an ordering of it): the left side orders
+each subset ($k!$ ways, Stage B's permutation count), and the right
+side builds an injection $[k] \to [p]$ factor by factor, one fewer
+remaining choice per factor. Now $p$ divides the right side, being one
+of its factors; $p$ does not divide $k!$, since each of $1, \dots, k$
+is smaller than the prime $p$, so none is divisible by $p$, and
+Euclid's lemma applied factor by factor spreads that non-divisibility
+to the whole product $k!$. A prime dividing a product but not one
+factor must divide the other (Euclid's lemma once more), so $p \mid
+B(p, k)$. Hence $(a + 1)^p \equiv a^p + 1 \equiv a + 1 \pmod p$. For the final claim: $a \not\equiv 0$ means $[a]$ is a
 unit, and $[a]^p = [a]$ lets the unit $[a]^{\ominus 1}$ cancel one
 copy. $\blacksquare$
 
@@ -515,7 +637,12 @@ contents, and these two are the first pair of contrasting specimens.
    $p = 5$.
 5. How many classes does $\mathbb{Z}/n$ have, and what are their
    standard representatives?
-
+6. Compute $2^{6} \bmod 7$ and check Fermat's conclusion for $a = 2$,
+   $p = 7$.
+7. Exhibit the inverse of $[3]$ in $\mathbb{Z}/7$ by a Bezout
+   computation.
+8. In $\mathbb{Z}/6$, list the units and the nonzero non-units,
+   connecting each to the factorisation $6 = 2 \times 3$.
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -525,22 +652,20 @@ contents, and these two are the first pair of contrasting specimens.
 3. The binomial law and Euclid's lemma (via Bezout).
 4. $2^4 = 16 = 3 \times 5 + 1$, so $2^4 \equiv 1 = 2^{5 \ominus 1}$: matches Fermat.
 5. Exactly $n$ classes, represented by $0, 1, \dots, n \ominus 1$.
+6. $2^{6} = 64 = 9 \times 7 + 1$, so $2^{6} \equiv 1 = 2^{7 \ominus 1}$: exactly Fermat's claim when $p \nmid a$.
+7. Bezout on $(7, 3)$: $7 = 2 \times 3 + 1$, so $3 \times (-2) + 7 \times 1 = 1$; reduce mod $7$: $[3] \times [-2] = [1]$, and $[-2] = [5]$, so $[3]^{-1} = [5]$ (check: $3 \times 5 = 15 = 2 \times 7 + 1$).
+8. Units: $[1]$ and $[5]$ ($5 \times 5 = 25 = 4 \times 6 + 1$). Nonzero non-units: $[2], [3], [4]$, since $[2] \times [3] = [0]$ and $[4] \times [3] = [0]$: the zero-divisors pair up exactly as the factor pairs of $6$.
 </div>
 </details>
 
 :::
 
 ## Stage Gate
-## Stage Gate
-
-
-
-Before Stage D, answer these five without notes. Pass mark: four. Each is
-drawn from this page's quick checks; a failed gate names the section to
-reread (1: Section 1; 2: Section 2; 3: Section 3; 4: Section 4; 5:
-Section 5).
 
 :::caution[Pass mark: four of five]
+Before Stage D, answer these five without notes. A failed gate names
+the section to reread (1: Section 1; 2: Section 2; 3: Section 3; 4:
+Section 4; 5: Section 5).
 
 1. State the difference-class definition of $\mathbb{Z}$ and the
    well-definedness obligation both operations must discharge.
