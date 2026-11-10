@@ -116,12 +116,14 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [3b Tangent Space](https://mathematics.wyattau.com/17-core-course/3b-tangent-space/)
 - [3c Forms](https://mathematics.wyattau.com/17-core-course/3c-forms/)
 - [3d Stokes](https://mathematics.wyattau.com/17-core-course/3d-stokes/)
+- [F9 Canonical Forms](https://mathematics.wyattau.com/17-core-course/f9-canonical-forms/)
 - [Index](https://mathematics.wyattau.com/17-core-course/)
 - [Stage A Reasoning](https://mathematics.wyattau.com/17-core-course/stage-a-reasoning/)
 - [Stage B Counting](https://mathematics.wyattau.com/17-core-course/stage-b-counting/)
 - [Stage C Expanding The Line](https://mathematics.wyattau.com/17-core-course/stage-c-expanding-the-line/)
 - [Stage D The Continuum](https://mathematics.wyattau.com/17-core-course/stage-d-the-continuum/)
 - [Stage E Completing Algebra](https://mathematics.wyattau.com/17-core-course/stage-e-completing-algebra/)
+- [Stage G Euclidean Analysis](https://mathematics.wyattau.com/17-core-course/stage-g-euclidean-analysis/)
 
 ## Linear-Algebra
 

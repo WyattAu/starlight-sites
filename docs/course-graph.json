@@ -533,8 +533,8 @@
         "F8",
         "F3"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "f9-canonical-forms.md",
       "declaredInputs": [],
       "note": "The Jordan and rational canonical forms; the singular value decomposition from F8's spectral theorem; Sylvester's law of inertia. Every way a linear map refuses to diagonalise, named and normalised."
     },
@@ -546,16 +546,16 @@
         "D2",
         "B4"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-g-euclidean-analysis.md",
       "declaredInputs": [],
       "note": "limsup and liminf; subsequence principles; the Cauchy construction of R rebuilt and proved equivalent to the cuts of D1."
     },
     {
       "id": "G2",
       "stage": "G",
-      "file": null,
-      "status": "queued",
+      "file": "stage-g-euclidean-analysis.md",
+      "status": "written",
       "title": "Series and the exchange of limits",
       "declaredInputs": [],
       "deps": [
@@ -571,8 +571,8 @@
         "G1",
         "F2"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-g-euclidean-analysis.md",
       "declaredInputs": []
     },
     {
@@ -582,8 +582,8 @@
       "deps": [
         "G3"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-g-euclidean-analysis.md",
       "declaredInputs": [],
       "note": "The one-variable slice carries Rolle, the mean value theorem, monotonicity, and L'Hopital: EVT and IVT cashed in."
     },
@@ -594,8 +594,8 @@
       "deps": [
         "G4"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-g-euclidean-analysis.md",
       "declaredInputs": [],
       "discharges": [
         "clairaut-mixed-partials",
@@ -610,8 +610,8 @@
         "G5",
         "F5"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-g-euclidean-analysis.md",
       "declaredInputs": [],
       "discharges": [
         "multivariable-inverse-function-theorem"
@@ -627,8 +627,8 @@
         "E1",
         "G2"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-g-euclidean-analysis.md",
       "discharges": [
         "elementary-functions-continuity",
         "trigonometry-facts"
@@ -643,8 +643,8 @@
         "G1",
         "G3"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-g-euclidean-analysis.md",
       "declaredInputs": [],
       "discharges": [
         "fundamental-theorem-of-calculus"
@@ -660,8 +660,8 @@
         "D2",
         "F7"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-g-euclidean-analysis.md",
       "declaredInputs": []
     },
     {

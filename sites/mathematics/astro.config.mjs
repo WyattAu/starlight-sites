@@ -63,6 +63,11 @@ export default defineConfig({
             { label: '1B: Linear Algebra', slug: '17-core-course/1b-linear-algebra' },
             { label: '1C: Eigenvectors', slug: '17-core-course/1c-eigenthings' },
             { label: '1D: Inner Products', slug: '17-core-course/1d-inner-products' },
+            { label: 'F9: Canonical Forms', slug: '17-core-course/f9-canonical-forms' },
+            {
+              label: 'Stage G: Euclidean Analysis',
+              slug: '17-core-course/stage-g-euclidean-analysis',
+            },
             { label: 'Level 2: Topology', slug: '17-core-course/2a-topology' },
             { label: '3A: Manifolds', slug: '17-core-course/3a-manifolds' },
             { label: '3B: Tangent Spaces', slug: '17-core-course/3b-tangent-space' },

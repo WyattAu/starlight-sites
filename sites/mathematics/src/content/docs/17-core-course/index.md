@@ -184,17 +184,17 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | F6 | Exterior algebra | written |
 | F7 | Eigenstructure, triangularisation, Cayley-Hamilton (debt: fundamental-theorem-of-algebra → K3) | written |
 | F8 | Inner products, orthogonality, the spectral theorem (debt: fundamental-theorem-of-algebra → K3) | written |
-| F9 | Canonical forms: what remains when diagonalisation fails | queued |
+| F9 | Canonical forms: what remains when diagonalisation fails | written |
 | **Stage G: Euclidean analysis** | *Convergence, series, continuity, derivatives, integration, the elementary functions, ODEs. Discharges the multivariable debts.* | |
-| G1 | Convergence of sequences in R and R^n | queued |
-| G2 | Series and the exchange of limits | queued |
-| G3 | Continuity in several variables | queued |
-| G4 | The derivative in several variables | queued |
-| G5 | The chain rule, partials, and Clairaut | queued |
-| G6 | The inverse function theorem | queued |
-| G7 | The exponential and trigonometric functions via power series | queued |
-| G8 | Integration on the real line and the fundamental theorem of calculus | queued |
-| G9 | The contraction mapping principle and existence for ODEs | queued |
+| G1 | Convergence of sequences in R and R^n | written |
+| G2 | Series and the exchange of limits | written |
+| G3 | Continuity in several variables | written |
+| G4 | The derivative in several variables | written |
+| G5 | The chain rule, partials, and Clairaut | written |
+| G6 | The inverse function theorem | written |
+| G7 | The exponential and trigonometric functions via power series | written |
+| G8 | Integration on the real line and the fundamental theorem of calculus | written |
+| G9 | The contraction mapping principle and existence for ODEs | written |
 | **Stage H: The canvas** | *The canvas: spaces, compactness, quotients, approximation.* | |
 | H1 | Metric and topological spaces, continuity, homeomorphism (debt: completeness-axiom → D2, elementary-functions-continuity → G7) | written |
 | H2 | Connectedness and compactness; the IVT and EVT (debt: zorn-lemma → D6) | written |
