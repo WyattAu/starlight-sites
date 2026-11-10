@@ -49,6 +49,7 @@ for (const file of targets) {
   let inComment = false
   const out = []
   let touched = false
+  let mathOpen = false
 
   for (const line of lines) {
     // Track fenced code blocks (``` or ~~~) so we never rewrite inside them.
@@ -86,6 +87,30 @@ for (const file of targets) {
         out.push(`${m[1]}$$`, `${m[1]}${m[2].trim()}`, `${m[1]}$$`)
         if (closes > 0) inComment = false
         continue
+      }
+
+      // Glued closer on a multi-line block: an open `$$...` fence whose closing
+      // line ends with `$$` carrying content before it (exactly one `$$` on the
+      // line). remark-math then swallows the following prose into the math span,
+      // KaTeX errors, and everything after renders as raw text. Rewrites the
+      // closer onto its own line. Lines with two or more `$$` are left alone:
+      // they are chains of self-contained single-line blocks.
+      const dollarPairs = (line.match(/\$\$/g) || []).length
+      if (mathOpen && dollarPairs === 1 && /\S\$\$\s*$/.test(line)) {
+        changedBlocks += 1
+        touched = true
+        out.push(line.replace(/\$\$\s*$/, ''))
+        out.push(`${line.match(/^\s*/)[0]}$$`)
+        mathOpen = false
+        if (closes > 0) inComment = false
+        continue
+      }
+      if (dollarPairs >= 2) {
+        mathOpen = false
+      } else if (FENCE_ONLY.test(line)) {
+        mathOpen = false
+      } else if (/^\s*\$\$/.test(line) && dollarPairs === 1) {
+        mathOpen = true
       }
     }
 
