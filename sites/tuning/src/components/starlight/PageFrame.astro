@@ -84,6 +84,9 @@ const course =
         href: (courseGroup.entries.find((c) => c.type === 'link') ?? { href: '/17-core-course/' })
           .href,
         pages: courseGroup.entries.length,
+        syllabus: courseGroup.entries
+          .filter((c) => c.type === 'link')
+          .map((c) => ({ label: c.label, href: c.href })),
       }
     : undefined
 const topics = flattenSidebar(sidebar).filter((t) => {
@@ -98,7 +101,24 @@ const topics = flattenSidebar(sidebar).filter((t) => {
       <header class="landing-header">
         <Header />
       </header>
-      <div class="main-frame landing-frame">
+      <div class="main-frame landing-frame landing-frame--syllabus">
+        {course && course.syllabus.length > 0 && (
+          <aside class="landing-syllabus" aria-label="Course syllabus">
+            <p class="landing-syllabus__kicker">The syllabus</p>
+            <ol class="landing-syllabus__list">
+              {course.syllabus.map((s) => (
+                <li class="landing-syllabus__item">
+                  <a href={s.href}>{s.label}</a>
+                </li>
+              ))}
+            </ol>
+            <a class="landing-syllabus__cta" href={course.href}>
+              Course overview
+              <span aria-hidden="true">&rarr;</span>
+            </a>
+          </aside>
+        )}
+        <div class="landing-main">
         <SubjectHero title={title} tagline={tagline} image="/img/hero/library.avif" imageAlt="">
           {actions.length > 0 && (
             <div class="landing-cta" slot="actions">
@@ -143,6 +163,7 @@ const topics = flattenSidebar(sidebar).filter((t) => {
         )}
         <slot />
       </div>
+      </div>
     </div>
   ) : (
     <PageFrame>
@@ -159,6 +180,74 @@ const topics = flattenSidebar(sidebar).filter((t) => {
 
 <style>
   /* Landing-only styles, scoped to the .landing wrapper rendered above. */
+
+  /* The syllabus rail: the course outline visible on the landing at
+     desktop widths; hidden on mobile (the course panel carries the
+     structure there). */
+  .landing-frame--syllabus {
+    display: grid;
+    grid-template-columns: 15.5rem minmax(0, 1fr);
+    align-items: start;
+  }
+  .landing-syllabus {
+    position: sticky;
+    top: var(--sl-nav-height, 4rem);
+    max-height: calc(100vh - var(--sl-nav-height, 4rem));
+    overflow-y: auto;
+    padding: 1.25rem 1rem;
+    border-inline-end: 1px solid var(--sl-color-gray-6, var(--sl-color-gray-5, #2a2a3a));
+    background: var(--sl-color-bg-sidebar, var(--sl-color-bg, transparent));
+  }
+  .landing-syllabus__kicker {
+    margin: 0 0 0.5rem;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sl-color-gray-3, var(--sl-color-gray-4, #8888a0));
+  }
+  .landing-syllabus__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+  .landing-syllabus__item a {
+    display: block;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.4rem;
+    font-size: 0.82rem;
+    line-height: 1.35;
+    color: var(--sl-color-gray-2, var(--sl-color-gray-3, #c0c0d0));
+    text-decoration: none;
+  }
+  .landing-syllabus__item a:hover {
+    background: var(--sl-color-gray-6, var(--sl-color-gray-5, #2a2a3a));
+    color: var(--sl-color-text, var(--sl-color-white, #e2e8f0));
+  }
+  .landing-syllabus__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0.75rem 0.5rem 0;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--sl-color-text-accent, var(--sl-color-accent, #ff6b35));
+    text-decoration: none;
+  }
+  .landing-syllabus__cta:hover {
+    text-decoration: underline;
+  }
+  @media (max-width: 60rem) {
+    .landing-frame--syllabus {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .landing-syllabus {
+      display: none;
+    }
+  }
 
   /* The course feature panel: the site's centre of gravity, visually
      distinct from the encyclopaedia grid below it. */
