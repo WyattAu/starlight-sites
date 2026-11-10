@@ -27522,7 +27522,9 @@ and Lipschitz in its second argument near $(t_0, y_0)$: on some box
 $|t - t_0| \leq \alpha$, $\|y - y_0\| \leq \beta$, there is $K$ with
 $\|f(t, y_1) - f(t, y_2)\| \leq K \|y_1 - y_2\|$. Then for some
 $h > 0$ the initial value problem
-$$y' = f(t, y), \qquad y(t_0) = y_0$$
+$$
+y' = f(t, y), \qquad y(t_0) = y_0
+$$
 has exactly one solution on $[t_0 - h, t_0 + h]$.
 
 *Proof.* A solution of the initial value problem is exactly a fixed
