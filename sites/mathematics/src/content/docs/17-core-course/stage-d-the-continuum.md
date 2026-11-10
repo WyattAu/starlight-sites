@@ -112,8 +112,14 @@ would work but adds a quotient stage for no benefit.
    honest?
 3. In the order on cuts, what does $\alpha \leq \beta$ mean set-wise?
 4. Why is $p \notin p^*$ for any rational $p$?
-5. Which Stage C theorem is *not* needed for the embedding?
-
+5. Which Stage C theorem does the cut construction *not* need, and why
+   is that important?
+6. Verify that $\{r \in \mathbb{Q} : r < 1\}$ is a cut by checking all
+   four conditions (where does density earn its keep?).
+7. Write out $0^*$ and $1^*$ as sets, and decide $0^* < 1^*$ by
+   containment.
+8. Which rational is the boundary of $q^*$, and which side of the cut
+   is it on?
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -122,13 +128,38 @@ would work but adds a quotient stage for no benefit.
 2. It ensures every cut boundary is approachable from inside by rationals, so rationals and their cuts behave identically in the order.
 3. $\alpha \subseteq \beta$.
 4. A cut contains only rationals strictly below its boundary, and $p$ is the boundary of $p^*$.
-5. Density (the embedding needs it); the crisis theorem is not used here: the cut construction does not presuppose that holes exist, only that they will be measured.
+5. The crisis theorem is not needed: the cut construction does not presuppose that holes exist, only builds the line that will measure them.
+6. Nonempty ($0$ is in); proper ($2$ is out); downward closed (anything below a member is still below $1$); no greatest element, and here density does the work: any member $r < 1$ has a larger rational still below $1$.
+7. $0^* = \{r : r < 0\}$ and $1^* = \{r : r < 1\}$; $0^* \subsetneq 1^*$ (the rational $0$ belongs to the second but not the first), so $0^* < 1^*$.
+8. The boundary is $q$ itself, and it lives on the right: outside the cut, which is exactly the no-greatest-element condition.
 </div>
 </details>
 
 :::
 
 ## 2. Arithmetic and Completeness: the Summit
+
+**Ponder 1 (invent addition on cuts).** Before reading the definition:
+a cut is a set of rationals, so arithmetic on cuts must be built from
+arithmetic on rationals. Invent addition: given two cuts $\alpha$ and
+$\beta$, which set of rationals should deserve the name $\alpha +
+\beta$? Test your candidate against the requirement that $q^* + r^*$
+should equal $(q + r)^*$.
+
+<details class="wn-spoiler">
+<summary>Compare your construction</summary>
+<div class="wn-spoiler-body">
+
+The natural candidate: add elementwise. $\alpha + \beta$ should be the
+set of all sums $r + s$ with $r$ from $\alpha$ and $s$ from $\beta$.
+Check it on embedded rationals: the sums of all $r < q$ and all $s < r'
+$ are exactly the numbers below $q + r'$ (density closes the gap on
+both sides), so $q^* + r'^* = (q + r')^*$: the embedding respects
+addition. The work is then proving the elementwise set is a cut and
+satisfies the laws, which is what the theorems below do.
+
+</div>
+</details>
 
 **Definition (addition).** $\alpha + \beta := \{r + s : r \in \alpha,\
 s \in \beta\}$.
@@ -218,6 +249,20 @@ The cut $\alpha$ is, of course, what the world calls $\sqrt{2}$. Stage C
 proved no rational does this job; the cuts do it without strain, and
 that is the entire justification of the construction.
 
+**The tower so far.** One table holds the whole climb; each row is the
+construction move this course spent a stage proving:
+
+| System | Built from | Defining rule | New power |
+|---|---|---|---|
+| $\mathbb{N}$ (Stage B) | five declarations | the induction licence | counting, induction, well-ordering |
+| $\mathbb{Z}$ (Stage C) | pairs of counting numbers | $a + d = c + b$ | subtraction total |
+| $\mathbb{Q}$ (Stage C) | pairs of integers, denominator nonzero | $p \times q' = p' \times q$ | division total |
+| $\mathbb{R}$ (this stage) | cuts of rationals | downward closed, no greatest element | completeness |
+
+Every embedding in the tower is faithful (the old arithmetic is
+unchanged inside the new system), and each stage's hard theorem is the
+next stage's raw material.
+
 :::note[Quick check]
 
 1. State the three cut conditions.
@@ -226,7 +271,11 @@ that is the entire justification of the construction.
    the proof *is* the supremum.
 4. Why is the completeness proof so short?
 5. Which Stage C theorem does Section 2's last theorem retire?
-
+6. In the $\sqrt{2}$ cut $\alpha$, is the rational $1.4$ a member? Is
+   $1.5$?
+7. What is the union $\bigcup \{q^* : q \in \mathbb{Q},\ q < 1/2\}$ as
+   a set, and which real is it?
+8. Why can the completeness proof not fail to produce an *upper* bound?
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -236,12 +285,38 @@ that is the entire justification of the construction.
 3. Every nonempty bounded-above set of cuts has a least upper bound; the supremum is the union of the set.
 4. Dedekind's definition made "least upper bound" mean "the union of the cuts", and unions of downward-closed proper sets are themselves cuts.
 5. The crisis theorem: the diagonal now has a real measure.
+6. $1.4 \times 1.4 = 1.96 < 2$, so $1.4 \in \alpha$; $1.5 \times 1.5 = 2.25 > 2$, so $1.5 \notin \alpha$.
+7. The union is $\{r \in \mathbb{Q} : r < 1/2\}$ (every member of a $q^*$ with $q < 1/2$ is itself below $1/2$, and every $r < 1/2$ lies in some $q^*$ by density): the cut $(1/2)^*$, the real we call one half.
+8. The union contains every member of the set by construction: $\sigma \supseteq \alpha$ for each $\alpha \in T$ is exactly what union means, so being an upper bound is not an extra fact to verify but the definition read aloud.
 </div>
 </details>
 
 :::
 
 ## 3. Decimals: Every Real Gets a Name
+
+**Ponder 1 (invent the naming scheme).** Before reading the
+definition: every real must get a decimal name, but "infinite decimal"
+is not yet a defined object. Invent the digits: given the cut $x$,
+which rational quantity should the $k$-th digit record? (Hint: you may
+use completeness to grab whole units, tenths, hundredths, one tier at a
+time.)
+
+<details class="wn-spoiler">
+<summary>Compare your construction</summary>
+<div class="wn-spoiler-body">
+
+Tier by tier: completeness hands you the greatest integer below $x$
+(the units digit is its last digit); subtract it, multiply by $10$, and
+completeness again hands you the greatest integer below that (the
+first digit); recurse. Formally, the $k$-th digit is the units digit of
+$\lfloor 10^k \times x \rfloor$: each tier is a fresh application of
+the greatest-integer construction, which is itself completeness applied
+to an integer-bounded set. If your scheme matches, the theorem below
+is just the claim that the tiers reassemble.
+
+</div>
+</details>
 
 **Definition.** For a real $x$ and a counting number $k$, define the
 $k$-th digit function by $d_k(x) :=$ the units digit of
@@ -310,7 +385,12 @@ dispute.
 4. State the one-line proof that $0.999\ldots = 1$.
 5. Why can two different decimals name the same number, and what is the
    only way?
-
+6. Compute the first three partial sums of $0.999\ldots$ and their
+   distances from $1$.
+7. Does $1/3 = 0.333\ldots$ contradict the repeating-means-rational
+   theorem, or illustrate it?
+8. Write the terminating decimal that names $1/2$, and its forbidden
+   twin.
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -320,6 +400,9 @@ dispute.
 3. The pigeonhole principle on the division remainders.
 4. It is the least upper bound of $1 - 10^{-k}$, which is $1$.
 5. Only when one expansion ends in all $9$s and the other is its terminating twin; the diagonal argument of Section 4 must therefore avoid $9$s.
+6. $0.9$, $0.99$, $0.999$, at distances $10^{-1}$, $10^{-2}$, $10^{-3}$ from $1$: shrinking with no floor, which is the Archimedean squeeze.
+7. It illustrates the theorem: $1/3$ is rational and its expansion repeats with period $1$ (the remainders of $10^k$ upon division by $3$ are all $1$).
+8. $0.5000\ldots$; the twin is $0.4999\ldots$, the recurring-$9$ form of the same real, which the canonical-expansion choice excludes.
 </div>
 </details>
 
@@ -340,7 +423,7 @@ $\mathbb{Q} \cong \mathbb{N}$).
 of $(a, b)$ to a single counting number by the pairing recipe (the map
 $(a, b) \mapsto 2^a \times 3^b$ composed with a fixed bijection
 back from the image is an injection, and $\mathbb{Z}$ is infinite, so
-Stage 4's Schröder-Bernstein below finishes the bijection).
+Section 4's Schröder-Bernstein theorem below finishes the bijection).
 $\mathbb{Q} \cong \mathbb{N}$: in lowest terms with positive
 denominator, map the fraction $p/q$ to $2^{p} \times 3^{q}$ times a
 sign factor; again an injection into $\mathbb{N}$, with $\mathbb{Q}$
@@ -372,6 +455,12 @@ $d$ differs from $x_k$ at digit $k$ for every $k$, differing at a
 digit other than $9$ and not $0$ guarantees genuinely different
 numbers, dodging the dual-expansion trap. So $d$ is a real no $k$
 names. $\blacksquare$
+
+*In words:* assume the list is complete, then walk down the diagonal
+taking, at each row, a digit that row failed to use. The walk
+manufactures a number every row missed, and choosing digits only from
+$\{5, 6\}$ guarantees the miss is genuine rather than a naming
+accident of the two-expansion phenomenon.
 
 **Theorem.** The interval $[0, 1]$ is uncountable; so is
 $\mathbb{R}$.
@@ -412,7 +501,11 @@ manufactured points, no listing survives.
 4. Is the set of irrationals countable? Justify in one sentence.
 5. Which is bigger, $\mathbb{Q}$ or $\mathbb{N}$? Justify with a
    theorem.
-
+6. Describe an interleaving bijection between $\mathbb{N}$ and
+   $\mathbb{Z}$ in words.
+7. Running the diagonal construction on a list that contains only
+   rationals: where does the manufactured number land?
+8. Is the set of terminating decimals countable? Justify.
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -421,7 +514,10 @@ manufactured points, no listing survives.
 2. Schröder-Bernstein.
 3. To dodge the dual-decimal expansion trap: a digit change outside $\{0, 9\}$ forces a genuinely different number.
 4. No: if the irrationals in $[0, 1]$ were countable, their union with the countable rationals would count $[0, 1]$, contradicting Cantor.
-5. Equal in size: $\mathbb{Q} \cong \mathbb{N}$ by the injection-and-Schröder- Bernstein argument.
+5. Equal in size: $\mathbb{Q} \cong \mathbb{N}$ by the injection-and-Schröder-Bernstein argument.
+6. Send $0$ to $0$; send the odd counting numbers to the positives ($1 \mapsto 1$, $3 \mapsto 2$, and so on); send the even positives to the negatives ($2 \mapsto -1$, $4 \mapsto -2$, and so on). Every integer is hit exactly once.
+7. Outside the rationals: the manufactured number's digits are $5$s and $6$s and need not repeat, so the argument exhibits an irrational the rational-only list never mentioned, with no contradiction.
+8. Yes: each terminating decimal is a fraction $m/10^k$; the pairs $(m, k)$ of counting numbers inject into $\mathbb{N}$ (Stage B's pairing bookkeeping), so the terminating decimals inject into a countable set and are countable.
 </div>
 </details>
 
@@ -492,7 +588,10 @@ accident of $\mathbb{N}$'s simple shape.
    words?
 5. Why does the proof of transfinite induction mirror the proof of
    well-ordering's use in Section 3?
-
+6. Exhibit a well-ordered set whose order type is not $\omega$.
+7. In that set, which position is a limit position, and what are its
+   smaller members?
+8. Why is $\mathbb{N}$ with its order reversed not well-ordered?
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -502,12 +601,39 @@ accident of $\mathbb{N}$'s simple shape.
 3. A position with no immediate predecessor; the "all smaller members" hypothesis covers it without a predecessor.
 4. The recursion principle; paid.
 5. Both are least-counterexample arguments; the counterexample set is well-ordered so a least failure exists and contradicts the step hypothesis.
+6. Take $\mathbb{N}$ in its usual order and append one new point after all of them: every subset still has a least member, but the order type is past $\omega$ (the world calls it $\omega + 1$).
+7. The appended point: its smaller members are all the counting numbers, and it has no immediate predecessor, since no counting number is last.
+8. The whole set is a nonempty subset of itself with no least element (the reversed order runs $\ldots, 3, 2, 1, 0$ with no end).
 </div>
 </details>
 
 :::
 
 ## 6. Choice, Zorn's Lemma, and the Well-Ordering Principle
+
+**Ponder 1 (attempt a choice function by hand).** Before reading the
+axiom: a family of nonempty sets needs one member picked from each.
+For pairs of *shoes*, you can do it without any new axiom: pick the
+left shoe. For pairs of *socks* (indistinguishable, no left or right),
+try to write the rule. What goes wrong, and what must be adopted to fix
+it?
+
+<details class="wn-spoiler">
+<summary>The obstruction</summary>
+<div class="wn-spoiler-body">
+
+The shoe rule works because a defining property exists: "the left one".
+The sock family offers no distinguishing property at all: to choose one
+sock from each of infinitely many pairs, you would need either a rule
+(there is none that works for an arbitrary family) or a new kind of
+licence that asserts the choice exists anyway. That licence is the
+axiom of choice. The point of the attempt is that the axiom is not
+obvious and not harmless: for *finite* families, Stage A's logic
+already proves choice by iterating; the axiom's content is entirely in
+the infinite case.
+
+</div>
+</details>
 
 **The axiom (choice), adopted.** For every family of nonempty sets
 there exists a function choosing one member from each set in the
@@ -569,6 +695,17 @@ famous specimen. The course adopts choice because the working
 mathematics of the later stages spends it at every turn, and because
 the axiom table keeps the purchase visible.
 
+**The circle of equivalents, one engine per implication:**
+
+| From | To | The proof's engine |
+|---|---|---|
+| choice | Zorn's lemma | choice-selected strict upper bounds, climbed by transfinite recursion |
+| Zorn's lemma | well-ordering | Zorn applied to the poset of well-ordered subsets of $X$ |
+| well-ordering | choice | pick each set's least member in a well-ordering of the union |
+
+Adopting one adopts all three; the course adopts choice and flags every
+use.
+
 :::note[Quick check]
 
 1. State the axiom of choice, and name its two proved equivalents.
@@ -578,7 +715,11 @@ the axiom table keeps the purchase visible.
    well-ordered?
 5. Name two later-stage theorems that spend choice, and one theorem
    that shows its cost.
-
+6. State the shoes-and-socks contrast: which is choice-free, and why?
+7. In the well-ordering proof, what would go wrong if Zorn delivered
+   only an element bounded above some chain rather than a maximal one?
+8. Which of the three implications in this section used transfinite
+   recursion, and what did the recursion climb with?
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
@@ -588,22 +729,20 @@ the axiom table keeps the purchase visible.
 3. The climb uses choice-selected strict upper bounds at every ordinal position; the climb is stopped by the set-size barrier (it outruns the set).
 4. Any nonempty subset of the union lies within one member of the chain, which is well-ordered, so it has a least member.
 5. Spend: the basis theorem (Stage F), maximal ideals (Stage L), Tychonoff (Stage H). Cost: Banach-Tarski.
+6. Shoes: choice-free, because "pick the left one" is a defining rule. Socks: choice is needed, because an arbitrary family of indistinguishable pairs offers no rule, so the existence of a simultaneous selection must be asserted.
+7. Nothing would force the element to cover $X$: a chain-bounded element can still miss members of $X$, and the append-one-point contradiction (the engine of maximality) would have nothing to contradict.
+8. Choice implies Zorn used transfinite recursion: the climb appends choice-selected strict upper bounds at successor positions and chain-upper-bounds at limit positions, until it outruns the set.
 </div>
 </details>
 
 :::
 
 ## Stage Gate
-## Stage Gate
-
-
-
-Before Stage E, answer these five without notes. Pass mark: four. Each
-is drawn from this page's quick checks; a failed gate names the section
-to reread (1: Section 1; 2: Section 2; 3: Section 3; 4: Sections 4 and
-5; 5: Section 6).
 
 :::caution[Pass mark: four of five]
+Before Stage E, answer these five without notes. A failed gate names
+the section to reread (1: Section 1; 2: Section 2; 3: Section 3; 4:
+Sections 4 and 5; 5: Section 6).
 
 1. State the cut conditions and why no-greatest-element is required.
 2. State completeness, and what object the proof constructs as the
