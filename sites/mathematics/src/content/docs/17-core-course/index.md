@@ -198,9 +198,9 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | **Stage H: The canvas** | *The canvas: spaces, compactness, quotients, approximation.* | |
 | H1 | Metric and topological spaces, continuity, homeomorphism (debt: completeness-axiom → D2, elementary-functions-continuity → G7) | written |
 | H2 | Connectedness and compactness; the IVT and EVT (debt: zorn-lemma → D6) | written |
-| H3 | Completeness, the Baire category theorem, and metrisation | queued |
-| H4 | Approximation and compactness in function spaces | queued |
-| H5 | The quotient topology: gluing and its price | queued |
+| H3 | Completeness, the Baire category theorem, and metrisation | written |
+| H4 | Approximation and compactness in function spaces | written |
+| H5 | The quotient topology: gluing and its price | written |
 | **Stage I: Measure** | *Sigma-algebras to Fourier, ending at the probability laws.* | |
 | I1 | Sigma-algebras and measures | queued |
 | I2 | The Lebesgue integral: Caratheodory | queued |

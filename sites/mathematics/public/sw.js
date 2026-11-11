@@ -2,7 +2,7 @@
 // Stale-While-Revalidate for HTML, Cache-First for assets, Network-First for API
 
 const CACHES = {
-  static: 'wn-static-v2',
+  static: 'wn-static-v3',
   pages: 'wn-pages-v1',
   api: 'wn-api-v1',
 }
@@ -104,6 +104,18 @@ self.addEventListener('fetch', event => {
     return
   }
 
+  // Fixed-URL first-party scripts (reader.js etc.) must revalidate: they are
+  // actively developed under names that never change, so cache-first would
+  // pin users to an old copy indefinitely. Hashed bundles and fonts are
+  // immutable and stay cache-first.
+  if (url.pathname === '/reader.js' || url.pathname === '/mermaid-render.js') {
+    event.respondWith(staleWhileRevalidate(request))
+    return
+  }
+  if (url.pathname === '/reader.js' || url.pathname === '/mermaid-render.js') {
+    event.respondWith(staleWhileRevalidate(request))
+    return
+  }
   if (url.pathname.match(/\.(woff2|css|js|svg|png|jpg|webp|avif)$/)) {
     event.respondWith(cacheFirst(event.request))
     return

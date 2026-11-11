@@ -427,8 +427,9 @@ three questions from your sorting:
    month.
 
 What you have built is a **relation** (a rule deciding relatedness
-for pairs), and your groups are the classes of that relation. The
-words come after the construction, as labels for what you made.
+for pairs), and the groups are its living embodiment. The words,
+including a name for the groups, come after the construction, as
+labels for what you made.
 
 </div>
 </details>

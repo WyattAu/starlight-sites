@@ -604,6 +604,9 @@ part of the definition.
 
 ### Where to go next
 
+- [2B: Completeness, Baire, and Metrisation](/17-core-course/2b-completeness-and-metrisation/) –
+  the next chapter: completeness as a portable property, and Baire's
+  theorem as its spending engine.
 - [Level 3A: Smooth Manifolds](/17-core-course/3a-manifolds/) – charts and
   atlases make the canvas locally linear; this page's subspace, product,
   and Hausdorff theorems are the raw material of the manifold definition.

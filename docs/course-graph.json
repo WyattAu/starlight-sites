@@ -713,7 +713,7 @@
       "id": "H3",
       "stage": "H",
       "file": "2b-completeness-and-metrisation.md",
-      "status": "queued",
+      "status": "written",
       "title": "Completeness, the Baire category theorem, and metrisation",
       "declaredInputs": [],
       "deps": [
@@ -725,8 +725,8 @@
     {
       "id": "H4",
       "stage": "H",
-      "file": null,
-      "status": "queued",
+      "file": "h4-approximation-and-compactness.md",
+      "status": "written",
       "title": "Approximation and compactness in function spaces",
       "declaredInputs": [],
       "deps": [
@@ -739,8 +739,8 @@
     {
       "id": "H5",
       "stage": "H",
-      "file": null,
-      "status": "queued",
+      "file": "h5-quotient-topology.md",
+      "status": "written",
       "title": "The quotient topology: gluing and its price",
       "declaredInputs": [],
       "deps": [

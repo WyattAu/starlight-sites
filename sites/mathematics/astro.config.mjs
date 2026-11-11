@@ -69,6 +69,15 @@ export default defineConfig({
               slug: '17-core-course/stage-g-euclidean-analysis',
             },
             { label: 'Level 2: Topology', slug: '17-core-course/2a-topology' },
+            {
+              label: '2B: Completeness and Metrisation',
+              slug: '17-core-course/2b-completeness-and-metrisation',
+            },
+            {
+              label: 'H4: Approximation and Compactness',
+              slug: '17-core-course/h4-approximation-and-compactness',
+            },
+            { label: 'H5: The Quotient Topology', slug: '17-core-course/h5-quotient-topology' },
             { label: '3A: Manifolds', slug: '17-core-course/3a-manifolds' },
             { label: '3B: Tangent Spaces', slug: '17-core-course/3b-tangent-space' },
             { label: '3C: Differential Forms', slug: '17-core-course/3c-forms' },

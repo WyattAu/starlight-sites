@@ -19766,6 +19766,9 @@ part of the definition.
 
 ### Where to go next
 
+- [2B: Completeness, Baire, and Metrisation](/17-core-course/2b-completeness-and-metrisation/) –
+  the next chapter: completeness as a portable property, and Baire's
+  theorem as its spending engine.
 - [Level 3A: Smooth Manifolds](/17-core-course/3a-manifolds/) – charts and
   atlases make the canvas locally linear; this page's subspace, product,
   and Hausdorff theorems are the raw material of the manifold definition.
@@ -19776,6 +19779,505 @@ part of the definition.
   Bradley, Bryson and Terilla's book, free and open access from MIT Press;
   its Chapter 2 covers this page's material with the categorical accent that
   Level 1A supplied.
+
+---
+
+## 2b Completeness And Metrisation
+URL: https://mathematics.wyattau.com/17-core-course/2b-completeness-and-metrisation/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "17 Core Course", "url": "https://mathematics.wyattau.com/17-core-course"}, {"name": "2B: Completeness, Baire, and Metrisation", "url": "https://mathematics.wyattau.com/17-core-course/2b-completeness-and-metrisation"}]
+}
+</script>
+
+**The Defect.** Stage G spent completeness in its home territory, the
+line: Cauchy sequences converge, so Picard's iterates have a limit
+and differential equations have solutions. But Picard's iterates were
+not numbers. They were *functions*, living in a space of continuous
+functions on an interval, and the proof quietly treated that space as
+if it were complete too. The naive conjecture: completeness is a fact
+about the real line, inherited by anything built on it. The repair:
+completeness is a *property a space may or may not have*, portable to
+any space with a distance; the line merely introduced it. Once lifted,
+it pays again and again: the Baire category theorem, the engine behind
+existence proofs across the functional stages, is completeness spent
+at second order.
+
+**The One-Line Reveal.** <span class="wn-spoiler-inline" tabindex="0">A
+metric space is complete when its Cauchy sequences converge, the same
+contract as Stage G's with points of any kind; complete spaces cannot
+be a countable union of nowhere dense sets (Baire), which is how
+existence proofs win; and the converse question, which topologies come
+from a distance, has the clean three-condition answer called
+metrisability.</span>
+
+*The blur is deliberate: form your own reading of the page first, then
+click it.*
+
+**Scope.** Consumes Stage G (the Cauchy contract, uniform convergence)
+and 2A (open sets, continuity, compactness, connectedness). One
+constructive centrepiece: the proof that $\mathcal{C}[0,1]$, the space
+of continuous functions under the sup-norm distance, is complete,
+which is exactly the licence Section 9 of Stage G borrowed. Baire's
+theorem is proved in full; its great corollaries are named, with the
+functional stages booked as payees. Metrisation closes the stage as a
+question answered with one theorem stated and its proof honestly
+declared. No new axioms; no new debts.
+
+## 1. Completeness as a Portable Property
+
+**Ponder 1 (invent the portable test).** Stage G's Cauchy contract was
+written for numbers: for every $\varepsilon > 0$ there is $N$ with
+$|a_k - a_j| < \varepsilon$ for $k, j \geq N$. The absolute value did
+two jobs: it measured *distance between points* and it produced
+*numbers* to compare against $\varepsilon$. In a space whose points
+are functions, what must replace the absolute value, and which of the
+two jobs survives?
+
+<details class="wn-spoiler">
+<summary>Compare your construction</summary>
+<div class="wn-spoiler-body">
+
+The replacement is a **metric**: a distance $d(x, y) \geq 0$
+satisfying $d(x, y) = 0$ exactly when $x = y$, symmetry $d(x, y) =
+d(y, x)$, and the triangle inequality $d(x, z) \leq d(x, y) + d(y,
+z)$. Only the first job survives: the distance produces a *number*
+$d(x, y)$, and the contract compares that number against
+$\varepsilon$. In the space of continuous functions on $[0, 1]$, the
+natural distance between functions $f, g$ is the sup-norm $d(f, g) :=
+\sup_{t} |f(t) - g(t)|$: the largest gap between their graphs. Your
+Cauchy contract then reads: functions whose pairwise gaps eventually
+stay under every tolerance. Whether they *converge* (to a function in
+the space, uniformly) is precisely the completeness question.
+
+</div>
+</details>
+
+**Definition (complete metric space).** A metric space $(X, d)$ is
+**complete** when every Cauchy sequence of points of $X$ converges to
+a point of $X$.
+
+**Theorem (instances).** $\mathbb{R}^n$ with its Euclidean distance is
+complete; every closed subset of a complete space is complete in the
+inherited distance; and $\mathcal{C}[0, 1]$ with the sup-norm is
+complete.
+
+*Proof.* $\mathbb{R}^n$: a Cauchy sequence in $\mathbb{R}^n$ is
+Cauchy coordinate by coordinate (each coordinate is dominated by the
+full distance), and each coordinate converges in $\mathbb{R}$ by
+Stage G; the limit vector is the limit. Closed subset: a Cauchy
+sequence in the subset converges in the ambient space (completeness),
+and the limit lies in the subset because the subset is closed (2A:
+closed sets contain their limit points). $\mathcal{C}[0, 1]$: let
+$f_k$ be Cauchy in the sup-norm. For each $t$, $|f_k(t) - f_j(t)|
+\leq d(f_k, f_j)$, so the *number* sequences $f_k(t)$ are Cauchy and
+converge to some $f(t)$. The Cauchy contract is *uniform in $t$*:
+past $N$, $\sup |f_k - f_j| < \varepsilon$; letting $j \to \infty$
+gives $\sup |f_k - f| \leq \varepsilon$, so $f_k \to f$ *uniformly*.
+Uniform limits of continuous functions are continuous (Stage G
+Section 2's exchange theorem, spent at last), so $f \in
+\mathcal{C}[0, 1]$. $\blacksquare$
+
+*In words:* the sup-norm's Cauchy contract is exactly uniform
+convergence wearing a distance; the exchange theorem that Stage G
+flagged as needing uniformity is what keeps the limit inside the
+space, and that is the whole proof that the function space is
+complete.
+
+**The counterexample instance.** $\mathbb{Q}$ is not complete: the
+sequence $1, 1.4, 1.41, 1.414, \ldots$ of decimal truncations of
+$\sqrt{2}$ is Cauchy in $\mathbb{Q}$ (each term agrees with the next
+to within a decimal place) and converges in $\mathbb{R}$ to a point
+Stage C proved is not rational. Incompleteness is not exotic; it is
+the normal condition of a space whose points were chosen carelessly.
+Completeness says: your space already contains the objects your
+Cauchy sequences describe.
+
+:::note[Quick check]
+
+1. State the three metric axioms.
+2. State the Cauchy contract for a metric space, and say what the
+   metric replaced.
+3. Why does a Cauchy sequence in $\mathbb{R}^n$ converge coordinate
+   by coordinate?
+4. Where does closedness enter the proof that a closed subset of a
+   complete space is complete?
+5. Recite the sup-norm Cauchy contract for $\mathcal{C}[0, 1]$ in one
+   sentence, and name the Stage G theorem that closes the proof.
+6. Prove that $d(x, y) = |x - y|$ on $\mathbb{R}$ satisfies the
+   triangle inequality.
+7. A sequence converges. Prove it is Cauchy, and explain why the
+   converse needs completeness.
+8. Give the distance on $\mathbb{R}^n$ and verify symmetry.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Nonnegativity with $d = 0$ iff equal; symmetry; the triangle
+inequality. **2.** For every $\varepsilon > 0$ there is $N$ with
+$d(x_k, x_j) < \varepsilon$ for $k, j \geq N$; the metric replaced
+the absolute value's measuring job. **3.** $|a_k^{(i)} - a_j^{(i)}|
+\leq d(a_k, a_j)$: each coordinate sequence is Cauchy in
+$\mathbb{R}$, hence converges; the vector of limits is the limit.
+**4.** Completeness of the ambient space hands over a limit point;
+closedness is what guarantees the limit actually lies in the subset.
+**5.** For every $\varepsilon$ there is $N$ with $\sup_t |f_k(t) -
+f_j(t)| < \varepsilon$ for $k, j \geq N$; Stage G's theorem that
+uniform limits of continuous functions are continuous closes it.
+**6.** $d(x, z) = |x - z| \leq |x - y| + |y - z| = d(x, y) + d(y, z)$ by the ordinary triangle inequality for absolute value. **7.** Given $\varepsilon$, convergence gives $N$ with $|a_k - L| < \varepsilon/2$ for $k \geq N$; then $|a_k - a_j| \leq |a_k - L| + |L - a_j| < \varepsilon$. The converse is exactly the completeness axiom: Cauchy need not converge in a holed space like $\mathbb{Q}$. **8.** $d(x, y) := \sqrt{\sum_i (x_i - y_i)^2}$; swapping $x$ and $y$ squares the same differences, so $d(x, y) = d(y, x)$.
+
+</div>
+</details>
+
+:::
+
+## 2. Nested Intervals: Completeness Doing Visible Work
+
+**Ponder (attempt the intersection).** In $\mathbb{R}$, take closed
+intervals $I_1 \supseteq I_2 \supseteq I_3 \supseteq \cdots$, with
+lengths tending to $0$: $I_k = [0, 1/k]$. What is $\bigcap_k I_k$?
+Now take the same nested family in $\mathbb{Q}$, intervals chosen
+around $\sqrt{2}$ with rational endpoints, lengths tending to $0$.
+Attempt the intersection there before reading the theorem.
+
+<details class="wn-spoiler">
+<summary>The two answers</summary>
+<div class="wn-spoiler-body">
+
+In $\mathbb{R}$ the intersection is exactly $\{0\}$: nested closed
+bounded intervals with lengths tending to zero have one common point.
+In $\mathbb{Q}$ the family around $\sqrt{2}$ has *empty*
+intersection: the one point every interval shares is irrational, and
+the space does not contain it. Nested closed sets with diameters
+tending to zero can miss if the space has holes. Completeness is
+precisely the guarantee that they cannot miss: this is the visible,
+geometric form of "Cauchy sequences converge".
+
+</div>
+</details>
+
+**Theorem (Cantor's intersection theorem).** In a complete metric
+space, nested nonempty closed sets $F_1 \supseteq F_2 \supseteq
+\cdots$ whose diameters tend to $0$ have intersection exactly one
+point.
+
+*Proof.* Choose $x_k \in F_k$. For $j \geq k$: $x_j \in F_j
+\subseteq F_k$, so $d(x_k, x_j) \leq \mathrm{diam}(F_k) \to 0$:
+$(x_k)$ is Cauchy. Completeness gives $x^* = \lim x_k$; each $F_k$
+is closed and contains the tail from $k$ on, so $x^* \in F_k$ for
+every $k$. Uniqueness: two common points would be joined by a
+distance at most every diameter, hence $0$. $\blacksquare$
+
+:::note[Quick check]
+
+1. Why does $x_j \in F_j \subseteq F_k$ make the sequence Cauchy?
+2. Where does completeness enter, and where does closedness?
+3. Construct the empty rational intersection explicitly: nested
+   rational intervals around $\sqrt{2}$ with diameters tending to
+   zero.
+4. What does the theorem become in a complete space of functions
+   with the sup-norm?
+5. Which Stage D construction is this theorem's ancestor?
+6. Prove that a Cauchy sequence is bounded, in any metric space.
+7. Construct two disjoint closed sets in $\mathbb{R}$ with distance
+   zero between them, and reconcile with Cantor's theorem.
+8. State the diameter of a set, and compute it for $[0, 1] \times
+   \{3\}$ in $\mathbb{R}^2$.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** For $j, k \geq K$ both points sit in $F_K$, whose diameter is
+a bound on their distance; diameters tend to $0$, so the Cauchy
+contract holds. **2.** Completeness produces the limit $x^*$;
+closedness of each $F_k$ keeps the limit inside that $F_k$.
+**3.** Take $F_k := [\lfloor 10^k \sqrt{2} \rfloor / 10^k,
+\lceil 10^k \sqrt{2} \rceil / 10^k]$ intersected with
+$\mathbb{Q}$: nested rational intervals, diameters $10^{-k}$,
+common point only $\sqrt{2}$, which is not rational. **4.** Nested
+closed sets of functions with sup-diameters tending to zero share
+exactly one function; convergence is uniform. **5.** Stage D's
+nested-interval construction of the reals from rationals; here the
+construction is a *theorem* because completeness is assumed.
+**6.** The contract with $\varepsilon = 1$ bounds every tail pair; the finite head is bounded by the maximum of finitely many pairwise distances. **7.** $A := \{1, 2, 3, \ldots\}$ and $B := \{n + 1/n : n \geq 2\}$: both closed (discrete), no shared points, yet $d(n, n + 1/n) = 1/n \to 0$. No conflict: Cantor needs *nested* sets whose diameters vanish, not nearby disjoint ones. **8.** $\mathrm{diam}(S) := \sup_{x, y \in S} d(x, y)$; for $[0, 1] \times \{3\}$ it is $1$ (the second coordinate never varies).
+
+</div>
+</details>
+
+:::
+
+## 3. Nowhere Dense Sets and the Baire Category Theorem
+
+**Ponder (attempt the escape).** In $\mathbb{R}$, the integers are
+scattered: every interval contains a subinterval avoiding them
+entirely. The rationals are the opposite: every interval contains a
+rational. Now attempt the countable version: given countably many
+scattered closed sets (say, the integers, then twice the integers,
+then three times them, and so on), can you build an interval
+avoiding *all of them at once*? Describe your construction step by
+step before reading the theorem.
+
+<details class="wn-spoiler">
+<summary>The escape construction</summary>
+<div class="wn-spoiler-body">
+
+Step by step: start with a closed interval $\overline{B}_1$. The
+first scattered set does not fill it, so choose a smaller closed
+interval $\overline{B}_2 \subseteq \overline{B}_1$ avoiding set one.
+The second scattered set does not fill $\overline{B}_2$, so choose
+$\overline{B}_3 \subseteq \overline{B}_2$ avoiding set two. Repeat
+forever; the nested intersection (Section 2's theorem, which needs
+completeness) delivers a point lying in every $\overline{B}_k$,
+hence avoiding every one of the countably many scattered sets. The
+construction is the proof; the only input is that the intersection
+cannot miss, which is completeness.
+
+</div>
+</details>
+
+**Definition (nowhere dense).** A set $A$ is **nowhere dense** when
+its closure has empty interior: no open interval sits inside
+$\overline{A}$. A set is **meagre** when it is a countable union of
+nowhere dense sets.
+
+**Theorem (Baire category).** A complete metric space is not
+meagre: no countable family of nowhere dense sets covers it.
+
+*Proof.* Let $A_1, A_2, \ldots$ be nowhere dense and $X$ complete,
+nonempty. Pick a closed ball $\overline{B}_1$ of radius at most $1$
+(a point exists, so a small ball around it exists). Since
+$\overline{A_1}$ has empty interior, it does not fill $\overline{B}_1$'s
+interior: choose a closed ball $\overline{B}_2 \subseteq
+\overline{B}_1$ of radius at most $1/2$ avoiding $A_1$. Continue:
+$\overline{B}_{k+1} \subseteq \overline{B}_k$, radius $2^{-k}$,
+avoiding $A_k$. The nested closed balls have diameters tending to
+$0$, so Cantor's intersection theorem hands over a point $x^*$ in
+every $\overline{B}_k$; then $x^* \notin A_k$ for every $k$: a point
+of $X$ outside every $A_k$. No countable family covers $X$.
+$\blacksquare$
+
+*In words:* completeness is what turns "step by step I can dodge each
+set" into "there is a single point that dodges them all at once".
+Baire is completeness spent at second order, and it is the engine of
+existence proofs: to show *some* object has a property, cover the
+space by the sets of objects lacking it and show each is nowhere
+dense.
+
+**The classic corollaries, honestly scoped.** This engine proves: the
+set of real numbers with bounded decimal partial quotients is
+meagre; there exist continuous functions on $[0, 1]$ that are
+nowhere differentiable (the meagreness of the differentiable ones is
+the engine; the full measure-theoretic polish is Stage I's); and on
+the functional side, the uniform boundedness principle, the first of
+the four pillars of functional analysis (Stage M, booked as payee).
+Each is Baire plus bookkeeping; none needs anything else.
+
+:::note[Quick check]
+
+1. Define nowhere dense, and give one set that is dense but meagre.
+2. State Baire's theorem, and where completeness enters its proof.
+3. Why must the escaping balls be chosen *closed*?
+4. What does "second order" mean in the claim that Baire spends
+   completeness at second order?
+5. Name the three corollaries and their payees.
+6. Prove that a closed ball in a complete space is complete.
+7. Give two dense meagre sets whose union is dense and meagre, and
+   state the general principle.
+8. Why does Baire need the sets to be *countably* many? What fails
+   for two sets?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Closure with empty interior; $\mathbb{Q}$ is dense and
+meagre (a countable union of singletons, each nowhere dense).
+**2.** No countable family of nowhere dense sets covers a complete
+metric space; completeness runs Cantor's intersection theorem on
+the escaping nested balls. **3.** Cantor's intersection theorem
+needs closedness; open nested balls can shrink onto a missing
+boundary point. **4.** First order: Cauchy sequences converge
+(Stage G). Second order: countably many successive dodges compose
+into one point dodging everything (Baire). **5.** Nowhere
+differentiable continuous functions (Stage I polishes the
+statement); the uniform boundedness principle (Stage M); and
+Baire's own number-theoretic instances (none needed).
+**6.** A closed ball is a closed subset of a complete space, and 2B Section 1's closed-subset theorem applies directly. **7.** $\mathbb{Q}$ and the irrationals are both dense; $\mathbb{Q}$ is meagre and the irrationals contain a meagre... more precisely: $\mathbb{Q}$ is a countable union of singletons (nowhere dense), and any countable union of meagre sets is meagre by regrouping the unions. **8.** Nothing fails: finitely many nowhere dense sets are a fortiori countable, and Baire covers that case; the theorem's power is exactly the countable statement, which is what diagonal and iteration arguments consume.
+
+</div>
+</details>
+
+:::
+
+## 4. Metrisation: Which Topologies Come From a Distance
+
+2A defined continuity, compactness, and connectedness through open
+sets alone, with no distance anywhere. A topology that comes from a
+metric inherits everything Sections 1 to 3 proved, so the classifying
+question: which topologies arise from some metric?
+
+**Definition (metrisable).** A topology $\tau$ on $X$ is
+**metrisable** when some metric $d$ on $X$ generates exactly $\tau$:
+the open $d$-balls are precisely $\tau$'s open sets.
+
+**The three counting/separation conditions.** A metrisable space must
+be: **Hausdorff** (distinct points sit in disjoint open sets: metric
+spaces separate points by ball radii); **first countable** (each
+point has a countable neighbourhood basis: the balls of radius
+$1/k$); and, for the classical positive theorem, **regular** with a
+**countable base** (points and closed sets separate, and the whole
+topology is generated by countably many open sets).
+
+**Theorem (Urysohn metrisation, stated).** Every Hausdorff, regular,
+second countable space is metrisable.
+
+*Honest scope.* The proof embeds the space into a countable product
+of intervals and pulls the metric back, and it runs through the
+Urysohn lemma on separating closed sets by continuous functions; the
+embedding technique is Stage M's territory, and the course declares
+the theorem here rather than build it. What this stage *does*
+certify is the necessity direction, the three conditions above, each
+with a one-line metric-space proof, and the payoff: on metrisable
+ground, every completeness tool of this stage is legal, and the
+function spaces of Stage M all live there.
+
+:::note[Quick check]
+
+1. Define metrisable.
+2. Give the metric proof that metrisable implies Hausdorff.
+3. Give the countable neighbourhood basis of a point in a metric
+   space.
+4. State Urysohn's theorem with all three hypotheses.
+5. Why does metrisability matter for everything this stage proved?
+6. Show the lower-limit topology's failure of second countability
+   needs a diagonal argument, and state the contradiction in one
+   line.
+7. Is every metric space Hausdorff? Prove or give the one-line
+   reason.
+8. State what metrisability licenses for this chapter's theorems.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Some metric's open balls generate exactly the given topology.
+**2.** Distinct $x \neq y$ have $d(x, y) = r > 0$; the balls of
+radius $r/2$ around each are disjoint and open. **3.** The balls
+$B(x, 1/k)$, $k = 1, 2, 3, \ldots$: every neighbourhood of $x$
+contains one of them. **4.** Hausdorff + regular + second countable
+implies metrisable. **5.** Completeness, Cantor intersection, and
+Baire were proved for metric spaces; metrisability is the licence
+that transfers them to a space built topologically.
+**6.** A countable base list $B_1, B_2, \ldots$ is beaten by the point $x :=$ the diagonal choice $\min_k (x_k + \epsilon_k)$-style construction: $[x, x + \delta)$ contains no listed member with $x \notin B_k$ chosen inside $[x_k, x)$. **7.** Yes: distinct $x \neq y$ have $r := d(x, y) > 0$, and the balls of radius $r/2$ are disjoint opens. **8.** Once a topology is metrisable, completeness, Cantor intersection, and Baire (all proved for metrics) apply to it directly.
+
+</div>
+</details>
+
+:::
+
+## Stage Gate
+
+:::caution[Pass mark: four of five]
+Before the next chapter, answer these five without notes. A failed
+gate names the section to reread (1: Section 1; 2: Section 2; 3:
+Section 3; 4: Sections 4 and 5; 5: Section 5).
+
+1. State the metric axioms and the Cauchy contract for a metric
+   space.
+2. Prove that $\mathcal{C}[0, 1]$ with the sup-norm is complete,
+   naming the Stage G theorem that closes it.
+3. State Cantor's intersection theorem, and give the rational
+   counterexample when completeness fails.
+4. State Baire's theorem, and sketch the escaping-ball construction.
+5. State the three necessary conditions for metrisability and
+   Urysohn's theorem.
+
+<details class="wn-spoiler">
+<summary>Gate answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Nonnegativity with equality iff identical, symmetry, triangle
+inequality; Cauchy: for every $\varepsilon$ there is $N$ with
+$d(x_k, x_j) < \varepsilon$ for $k, j \geq N$. **2.** Sup-norm
+Cauchy contract is uniform pointwise Cauchyness; limits assemble
+into a function; uniform limits of continuous functions are
+continuous (Stage G), so the limit stays in the space. **3.** Nested
+nonempty closed sets with diameters tending to zero share exactly
+one point; the rational nested intervals around $\sqrt{2}$ share
+none. **4.** A complete metric space is not a countable union of
+nowhere dense sets; dodge each set with a closed ball of half the
+radius and run Cantor. **5.** Hausdorff, first countable (for
+necessity), and for Urysohn's positive theorem Hausdorff + regular +
+second countable implies metrisable (declared, embedding proof at
+Stage M).
+
+</div>
+</details>
+
+:::
+
+## Problems
+
+**Problems.** The quick checks tested recall. These chain several
+results and require full written arguments.
+
+1. Prove that $\mathbb{Q}$ is not complete by the Baire route:
+   singletons are nowhere dense, so $\mathbb{Q}$ is meagre; then
+   argue directly that a complete space cannot equal a countable
+   union of singletons of its own points when it is uncountable, and
+   reconcile the two arguments. Which one uses uncountability?
+   *(Hint: Baire rules out covering a complete space meagrely, but
+   $\mathbb{Q}$ is the space being covered by its own points; the
+   direct argument is Cantor's diagonal in metric clothing. The two
+   reconcile because $\mathbb{Q}$ is not complete.)*
+2. Prove: in a complete metric space, the intersection of nested
+   *nonempty compact* sets is nonempty, even without the diameter
+   condition, and show the diameter condition cannot be dropped for
+   closed sets by constructing nested closed sets with empty
+   intersection in $\mathbb{R}$.
+   *(Hint: compactness hands over the finite-intersection property;
+   the closed counterexample is $F_k := [k, \infty)$.)*
+3. Prove that a meagre set in a complete metric space has empty
+   interior. Conclude that $\mathbb{R}$ cannot be a countable union
+   of Cantor sets (each Cantor set is closed with empty interior).
+   *(Hint: if a meagre set contained an open ball, that ball would
+   be covered by countably many nowhere dense sets, contradicting
+   Baire on the ball, which is complete as a closed subspace.)*
+4. Prove that $\mathbb{R}^\mathbb{N}$, the space of all real
+   sequences, with the distance $d(x, y) := \sum_k 2^{-k}
+   \min(1, |x_k - y_k|)$, is a complete metric space, and verify all
+   three metric axioms.
+   *(Hint: the min bounds each term's contribution; convergence in
+   this distance is coordinatewise; a Cauchy sequence converges
+   coordinate by coordinate and the tail sum makes the coordinate
+   convergence uniform in the weighting.)*
+5. Show that the topology on $\mathbb{R}$ generated by the half-open
+   intervals $[a, b)$ (the lower-limit topology) is Hausdorff and
+   first countable but strictly finer than the standard topology,
+   and state which metrisability condition the classical theorem
+   demands that you cannot verify here.
+   *(Hint: $[a, b)$ separates points as well as balls do; the basis
+   $[x, x + 1/k)$ is countable at each $x$; $[0, 1)$ is open in the
+   lower-limit topology but not in the standard one. Second
+   countability is the condition this problem leaves open; it fails,
+   but the proof is H4's diagonal technique.)*
+
+## Where to Go Next
+
+Completeness is now a portable property and Baire its spending
+engine. The next chapter turns to the question of what makes an
+infinite-dimensional space tractable: **H4: Approximation and
+compactness in function spaces**, where the Weierstrass approximation
+theorem is proved by construction and the Arzelà-Ascoli theorem
+explains when sequences of functions have workable subsequences.
+
+**Next: [H4: Approximation and Compactness](/17-core-course/h4-approximation-and-compactness/).**
 
 ---
 
@@ -22744,6 +23246,858 @@ later stages have been leaning on.
 
 ---
 
+## H4 Approximation And Compactness
+URL: https://mathematics.wyattau.com/17-core-course/h4-approximation-and-compactness/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "17 Core Course", "url": "https://mathematics.wyattau.com/17-core-course"}, {"name": "H4: Approximation and Compactness", "url": "https://mathematics.wyattau.com/17-core-course/h4-approximation-and-compactness"}]
+}
+</script>
+
+**The Defect.** $\mathcal{C}[0, 1]$ is complete (2B), so Cauchy
+sequences of functions converge. But most of the sequences analysis
+hands you are not Cauchy; they are merely infinite, and the working
+question is whether some *subsequence* converges. On the line the
+answer was free: bounded sequence, extract a convergent subsequence
+(Bolzano-Weierstrass). In a space of functions the same claim is
+false, and the false version is seductive: the sequence $x^k$ is
+bounded in the sup-norm, yet no subsequence converges uniformly.
+The naive conjecture: boundedness is enough. The repair is one new
+idea, equicontinuity, and one theorem, Arzelà-Ascoli, that turns
+boundedness plus equicontinuity into convergent subsequences. Its
+sibling, Weierstrass approximation, then lands as a bonus proved by
+construction: every continuous function is uniformly approachable by
+polynomials, and the approaching polynomials have explicit names.
+
+**The One-Line Reveal.** <span class="wn-spoiler-inline" tabindex="0">Bounded
+plus *equally gentle* is the compactness criterion in function
+spaces (Arzelà-Ascoli, proved by a diagonal argument through a
+countable dense set); and every continuous function on a closed
+interval is uniformly approximated by its own Bernstein polynomials,
+whose convergence is Stage B's binomial law wearing analysis
+clothing.</span>
+
+*The blur is deliberate: form your own reading of the page first, then
+click it.*
+
+**Scope.** Consumes 2B (completeness of $\mathcal{C}[0,1]$), Stage G
+(uniform convergence, the exchange theorem), and Stage B (the binomial
+law, spent in the Bernstein proof). Compactness is used in its
+sequential form on $[0, 1]$; the function-space compactness that
+Arzelà-Ascoli delivers is stated in the same sequential terms, and
+the open-cover translation is named for 2A's framework. No new
+axioms; no new debts.
+
+## 1. The Failure That Defines Equicontinuity
+
+**Ponder 1 (dissect the failure first).** The functions $f_k(t) :=
+t^k$ on $[0, 1]$ satisfy $\sup |f_k| = 1$: the sequence is bounded in
+the sup-norm. Pointwise, $f_k(t) \to f(t)$ with $f(t) = 0$ on $[0,
+1)$ and $f(1) = 1$ (Stage G's exchange monster). Attempt the
+subsequence question before reading on: could *some* subsequence
+converge uniformly? The limit of a uniformly convergent subsequence
+must equal the pointwise limit, and uniform limits of continuous
+functions are continuous. What does that chain force?
+
+<details class="wn-spoiler">
+<summary>The dissection</summary>
+<div class="wn-spoiler-body">
+
+Any uniformly convergent subsequence must converge to the pointwise
+limit $f$, and $f$ is discontinuous; but uniform limits of continuous
+functions are continuous (Stage G). So *no* subsequence converges
+uniformly, despite boundedness. The diagnosis: the failure lives near
+$t = 1$, where each $f_k$ is steep; the sequence is bounded but its
+members are not *equally gentle*. Each $f_k$ alone is continuous
+(gentleness at a scale depending on $k$), and as $k$ grows the scale
+shrinks to nothing. A common gentleness scale across the whole
+sequence is exactly what is missing, and it is the definition the
+theorem needs.
+
+</div>
+</details>
+
+**Definition (equicontinuity).** A family $\mathcal{F}$ of functions
+on a metric space is **equicontinuous** when: for every $\varepsilon > 0$ there is $\delta > 0$ such that $d(x, y) < \delta$ implies
+$|f(x) - f(y)| < \varepsilon$ for *every* $f \in \mathcal{F}$. The
+one $\delta$ serves all members.
+
+:::note[Quick check]
+
+1. State the failure chain: why does no subsequence of $t^k$
+   converge uniformly?
+2. Define equicontinuity, and say what one quantity serves all
+   members.
+3. Is a single continuous function, as a one-element family,
+   equicontinuous?
+4. Show $\{t^k\}$ is not equicontinuous by computing at which pair
+   the common $\delta$ fails.
+5. Which Stage G theorem does the failure chain consume?
+6. Prove the family $\{\sin(t + k)\}$ is equicontinuous.
+7. State Lipschitz's relation to equicontinuity.
+8. Show a uniformly convergent family of continuous functions is
+   equicontinuous.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** A uniform limit must equal the pointwise limit $f$; $f$ is
+discontinuous; uniform limits of continuous functions are
+continuous; contradiction. **2.** One $\delta$ answers every
+$\varepsilon$ *simultaneously for all members of the family*.
+**3.** Yes: continuity provides a $\delta$ per $\varepsilon$, and
+with one member there is nobody else to serve. **4.** At $x = 1 -
+\delta/2^{1/k}$-style points: for any $\delta$, pick $k$ with the
+$[0, 1 - \delta]$-to-$[0,1]$ jump visible; concretely $f_k(1) -
+f_k(1 - 1/k) = 1 - (1 - 1/k)^k \to 1 - e^{-1} \approx 0.632$, which
+no common $\delta$ with $\varepsilon < 0.6$ survives. **5.** The
+theorem that uniform limits of continuous functions are continuous.
+**6.** $|\sin(t + k) - \sin(s + k)| \leq |t - s|$ for every $k$ by the mean-value bound $|\cos| \leq 1$: one $\delta = \varepsilon$ serves the whole family. **7.** One Lipschitz constant $L$ gives equicontinuity with $\delta = \varepsilon / L$: the Lipschitz inequality holds identically for every member. **8.** Finitely many members up to the convergence threshold handle $\delta$ individually; the tail members are within $\varepsilon/3$ of the limit, whose own continuity supplies the middle $\delta$.
+
+</div>
+</details>
+
+:::
+
+## 2. Arzelà-Ascoli: the Compactness Criterion
+
+**Theorem (Arzelà-Ascoli, sequential form).** Let $f_1, f_2, \ldots$
+be functions on $[0, 1]$ that are uniformly bounded (one constant
+$M$ with $|f_k(t)| \leq M$ for all $k, t$) and equicontinuous. Then
+some subsequence converges uniformly.
+
+*Proof.* Take a countable dense set in $[0, 1]$: the rationals in
+$[0, 1]$, listed as $q_1, q_2, \ldots$. Extract subsequences in
+stages, one per rational. Stage one: $(f_k(q_1))$ is a bounded
+number sequence, so a subsequence makes it converge; call it the
+$f^{(1)}$ family. Stage two: the $f^{(1)}$ values at $q_2$ are
+bounded, so extract a sub-subsequence $f^{(2)}$ converging there
+too; and so on, the $f^{(j)}$ stage converging at $q_1, \ldots,
+q_j$. The **diagonal** family $g_k := f^{(k)}_k$ differs from
+$f^{(j)}$ in only finitely many early members, so it converges at
+*every* rational $q_j$. It remains to promote rational-point
+convergence to uniform convergence: given $\varepsilon$, equicontinuity
+gives $\delta$; finitely many rationals $q_1, \ldots, q_m$ hit every
+point within $\delta$ (density plus finiteness of the cover by
+$\delta$-balls); past some $N$, the diagonal family's values agree
+at each of the $m$ rationals within $\varepsilon/3$; then for any
+$t$, pick $q_j$ within $\delta$ of $t$ and chain
+$|g_k(t) - g_N(t)| \leq |g_k(t) - g_k(q_j)| + |g_k(q_j) - g_N(q_j)| + |g_N(q_j) - g_N(t)| < \varepsilon/3 + \varepsilon/3 +
+\varepsilon/3$. Uniform convergence, with the sup-norm Cauchy
+contract; $\mathcal{C}[0,1]$'s completeness (2B) adds that the limit
+is continuous. $\blacksquare$
+
+*In words:* the diagonal is bookkeeping, but the promotion step is
+the content: one $\delta$ serving the whole family is exactly what
+lets finitely many rational witnesses carry every point of the
+interval. Equicontinuity is the price of compactness in infinite
+dimensions, and it is not negotiable, as Section 1's monster showed.
+
+:::note[Quick check]
+
+1. Why must subsequences be extracted one rational at a time,
+   rather than handling all rationals at once?
+2. Why does the diagonal family $g_k = f^{(k)}_k$ converge at every
+   rational?
+3. Where do equicontinuity and density each enter the promotion
+   step?
+4. Where does the completeness of $\mathcal{C}[0,1]$ enter?
+5. State the monster's role: what does it rule out about the
+   theorem?
+6. Why must the dense set be countable for the diagonal argument?
+7. Where is Bolzano-Weierstrass used, and on what space?
+8. State the subsequence-of-subsequence bookkeeping in one sentence.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** One number sequence converges by Bolzano-Weierstrass on
+$[0, 1]$; infinitely many at once is not a number sequence. Each
+stage passes a convergent sub-subsequence forward. **2.** For fixed
+$q_j$, the diagonal family agrees with stage $f^{(j)}$ from member
+$j$ onward (a finite head), and that stage converges at $q_j$.
+**3.** Equicontinuity converts closeness of *points* into closeness
+of *values* uniformly across the family; density reduces all points
+to finitely many rational witnesses. **4.** It guarantees the
+uniform limit is continuous, so the subsequence converges *inside*
+$\mathcal{C}[0, 1]$. **5.** Boundedness alone is insufficient: the
+hypotheses cannot be weakened to boundedness, and the theorem's
+equicontinuity clause is load-bearing.
+**6.** The construction extracts one subsequence per base point, and passing through infinitely many stages requires the stages to be countable; the diagonal is indexed by the same countable list. **7.** At each extraction stage, Bolzano-Weierstrass runs on the bounded number sequence of values at that stage's rational, in $\mathbb{R}$. **8.** The $k$-th diagonal member sits in stage $k$, and for fixed $q_j$ the diagonal agrees with stage $j$ from member $j$ on, so it inherits that stage's convergence at $q_j$.
+
+</div>
+</details>
+
+:::
+
+## 3. Bernstein Polynomials: Weierstrass by Construction
+
+**The question.** How well can polynomials approximate an arbitrary
+continuous function? The answer: arbitrarily well, uniformly; and the
+constructive proof is worth writing out because the approximating
+polynomials have formulas.
+
+**Ponder (invent the approximation).** A continuous $f$ on $[0, 1]$
+can be sampled: $f$ at $k/n$ for $k = 0, \ldots, n$. A naïve
+approximant interpolates these samples. Why does interpolation fail
+to converge uniformly for general continuous $f$, and what property
+do polynomials have that interpolation lacks? Attempt an answer
+before reading Bernstein's construction.
+
+<details class="wn-spoiler">
+<summary>Why interpolation fails, and the fix</summary>
+<div class="wn-spoiler-body">
+
+Interpolating polynomials must pass *exactly* through the samples,
+and forcing exactness at many points creates violent oscillation
+between them (the classic Runge phenomenon); degree grows and the
+error between nodes can grow with it. The fix is to *approximate
+instead of interpolate*: blend the sampled values with weights that
+are nonnegative and sum to one, so the approximant never overshoots
+beyond the sampled range. Bernstein's weights are the binomial
+probabilities: the value at $t$ is the average of $f$ at $k/n$
+weighted by $B(n, k) t^k (1 - t)^{n-k}$, Stage B's binomial
+coefficient reading as "the chance of $k$ successes in $n$ coin
+flips landing at $t$".
+
+</div>
+</details>
+
+**Definition (Bernstein polynomials).** For $f \in \mathcal{C}[0,
+1]$:
+$$
+B_n(f)(t) := \sum_{k=0}^{n} f\!\left(\frac{k}{n}\right) B(n, k)\, t^k
+(1 - t)^{n-k}.
+$$
+
+**Theorem (Weierstrass approximation, Bernstein's proof).** For
+every continuous $f$ on $[0, 1]$, $B_n(f) \to f$ uniformly.
+
+*Proof sketch (the complete chase is Problem 3).* Two properties of
+the weights carry everything: they are nonnegative and sum to one
+($\sum_k B(n,k) t^k (1-t)^{n-k} = (t + (1-t))^n = 1$, the binomial
+law), and they concentrate: for $t$ fixed, the mass sits at $k
+\approx nt$ (the binomial distribution's concentration). The
+uniform-continuity of $f$ on $[0,1]$ (2B's flagged theorem: a
+continuous function on a compact interval is uniformly continuous)
+gives $\delta$; splitting the sum into $|k/n - t| < \delta$ and its
+complement, the inner part is within $\varepsilon$ of $f(t)$ by
+continuity, and the outer part is killed by the concentration
+estimate $\sum_{|k/n - t| \geq \delta} B(n,k) t^k (1-t)^{n-k} \leq
+\frac{1}{4 n \delta^2}$ (an instance of the variance bound, provable
+from Stage B's sums). Outside contributions vanish uniformly in $t$
+as $n \to \infty$. $\blacksquare$
+
+*In words:* $B_n(f)(t)$ is the expected value of $f$ evaluated at a
+random coin-flip frequency near $t$; concentration makes the random
+frequency hug $t$, and uniform continuity of $f$ converts that into
+uniform closeness of the expected value to $f(t)$.
+
+:::note[Quick check]
+
+1. Compute $B_1(f)$ and $B_2(f)$ for $f(t) = t^2$; where does each
+   miss the graph, and how does the miss shrink as $n$ grows?
+2. Verify the weights sum to one, naming the theorem used.
+3. Where does uniform (not mere pointwise) continuity of $f$ enter?
+4. What does the concentration estimate bound, and by what kind of
+   quantity?
+5. Why does the theorem close the earlier question about
+   $\mathcal{C}[0,1]$ being "too big"?
+6. Compute $B_n(1)$ for any $n$.
+7. Prove $B_n(f)(0) = f(0)$ and $B_n(f)(1) = f(1)$ for every $n$.
+8. State what happens to $B_n(f)$ when $f$ itself is a polynomial of
+   degree at most $n$.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $B_1(f)(t) = f(0)(1-t) + f(1)t = t$, missing the graph by $t(1-t)$; $B_2(f)(t) = 0 \cdot (1-t)^2 + 2 \cdot \frac{1}{4} \cdot t(1-t) + t^2 = \frac{t}{2} + \frac{t^2}{2}$, missing by $\frac{t(1-t)}{2}$: the miss halves, and in general $B_n(t^2) = t^2 + \frac{t(1-t)}{n}$, so the error dies like $1/n$.
+**2.** $(t + (1-t))^n = \sum_k B(n,k) t^k (1-t)^{n-k} = 1$: Stage
+B's binomial law. **3.** One $\delta$ must serve every $t$
+simultaneously, since the concentration estimate is uniform in $t$;
+pointwise continuity would give a different $\delta$ per point and
+no uniform conclusion. **4.** The total binomial mass outside the
+$|k/n - t| < \delta$ window, bounded by a constant times $1/n$.
+**5.** The space of polynomials is dense in $\mathcal{C}[0, 1]$:
+every continuous function is a uniform limit of polynomials, so
+statements proved for polynomials pass to all continuous functions.
+**6.** $B_n(1)(t) = \sum_k B(n,k) t^k (1-t)^{n-k} = 1$: the constant function one is reproduced exactly, by the binomial law. **7.** At $t = 0$ only the $k = 0$ term survives, giving $f(0)$; at $t = 1$ only the $k = n$ term survives, giving $f(1)$: the approximant interpolates the endpoints. **8.** If $f$ has degree at most $1$, $B_n(f) = f$ exactly; for higher degrees the approximants have degree at most $n$ and converge to $f$, never oscillating away as interpolants do.
+
+</div>
+</details>
+
+:::
+
+## 4. What Compactness Buys
+
+**The working corollaries, honestly scoped.** Arzelà-Ascoli is the
+engine behind existence proofs where no contraction is available: the
+**Peano theorem** (the initial value problem $y' = f(t, y)$ with
+merely continuous $f$ has *some* solution: Euler polygon iterates are
+equicontinuous and bounded, Arzelà-Ascoli extracts a uniformly
+convergent subsequence, and the limit solves the equation), stated
+here, its proof assembled from pieces the course owns, booked as
+Problem 5; and the **Schauder fixed point theorem** (a continuous
+self-map of a convex compact set has a fixed point), named with the
+functional stage as payee.
+
+:::note[Quick check]
+
+1. State Peano's theorem and compare its hypothesis with Picard's.
+2. Why are Euler polygons equicontinuous when slopes are uniformly
+   bounded?
+3. State Schauder's theorem, and name its stage.
+4. Which of the two existence engines (Picard, Peano) gives
+   uniqueness?
+5. What does Weierstrass approximation add to the function-space
+   toolkit that completeness alone does not?
+6. State the price each existence engine pays: what does Picard
+   need that Peano does not, and vice versa?
+7. Why does density of polynomials make function-space arguments
+   easier?
+8. Give one theorem about polynomials that transports to continuous
+   functions by Weierstrass, and name the transport step.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Peano: $f$ merely continuous gives existence of a solution;
+Picard: $f$ Lipschitz gives existence *and uniqueness*; Peano
+trades uniqueness for a weaker hypothesis. **2.** Every segment's
+slope is bounded by one constant $M$, so any two points within
+$\delta = \varepsilon/M$ on the same or adjacent segments have
+values within $\varepsilon$: one $\delta$ for the whole family.
+**3.** A continuous self-map of a convex compact set in a
+normed space has a fixed point; Stage M (functional analysis).
+**4.** Picard (the contraction is unique); Peano solutions can
+branch. **5.** Density of polynomials: a dense, well-understood
+subclass; statements can be proved on polynomials and transported
+by uniform approximation.
+**6.** Picard needs Lipschitz (a quantitative contract) and buys uniqueness; Peano needs only continuity and buys existence without uniqueness. **7.** A dense subclass lets you prove statements for the well-understood members and transport by uniform approximation, provided the statement is preserved under uniform limits. **8.** The intermediate value theorem, first proved for polynomials with rational coefficients, transports to all continuous functions; the transport step is uniform convergence plus closure of the property under uniform limits.
+
+</div>
+</details>
+
+:::
+
+## Stage Gate
+
+:::caution[Pass mark: four of five]
+Before the next chapter, answer these five without notes. A failed
+gate names the section to reread (1: Section 1; 2: Section 2; 3:
+Section 3; 4: Sections 4 and 5; 5: Section 5).
+
+1. Give the $t^k$ failure chain and the definition it forces.
+2. State Arzelà-Ascoli, and identify the diagonal argument's role.
+3. Where do equicontinuity and density enter the promotion step?
+4. Define Bernstein polynomials, and name the Stage B theorem their
+   proof spends.
+5. State Peano versus Picard, and what Weierstrass approximation
+   adds.
+
+<details class="wn-spoiler">
+<summary>Gate answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $t^k$ is bounded but no subsequence converges uniformly (the
+uniform limit would be the discontinuous pointwise limit); the
+forced definition is equicontinuity: one $\delta$ serves all
+members. **2.** Uniformly bounded + equicontinuous implies a
+uniformly convergent subsequence; the diagonal walks stages
+extracted per rational. **3.** Equicontinuity converts point
+closeness to value closeness family-wide; density reduces the
+interval to finitely many rational witnesses. **4.** $B_n(f)(t) =
+\sum_k f(k/n) B(n,k) t^k (1-t)^{n-k}$; the binomial law gives both
+the weights' sum and their concentration. **5.** Peano: continuous
+$f$ yields existence; Picard: Lipschitz $f$ yields existence and
+uniqueness; Weierstrass adds polynomial density, a
+proof-on-polynomials-then-transport strategy.
+
+</div>
+</details>
+
+:::
+
+## Problems
+
+**Problems.** The quick checks tested recall. These chain several
+results and require full written arguments.
+
+1. Prove that $\{f_k\}$ with $f_k(t) = \sin(kt)$ is uniformly
+   bounded but not equicontinuous at any scale, by showing the
+   common-$\delta$ contract fails uniformly in $k$.
+   *(Hint: at $x, y$ separated by roughly $\pi/(2k)$, $f_k$ swings
+   its full range; one $\delta$ cannot serve all $k$.)*
+2. Prove: the family $\{t^k : k \geq 1\} \cup \{0\}$ on $[0, 1]$,
+   with the constant zero function adjoined, is compact in the
+   sup-norm's sequential sense, and identify where each member of
+   the family lives relative to the pointwise limit.
+   *(Hint: every sequence drawn from a finite family has a
+   convergent subsequence without any work; the work is sequences drawn from the
+   $t^k$ tail, which either escape to the pointwise discontinuity or
+   settle; the answer exposes that adding one limit point repairs
+   sequential compactness.)*
+3. Carry out the concentration estimate: prove $\sum_{|k/n - t|
+   \geq \delta} B(n, k) t^k (1 - t)^{n-k} \leq \frac{1}{4 n
+   \delta^2}$ using Stage B's binomial sums applied to $(k - nt)^2$
+   weighting, and conclude the Weierstrass theorem.
+   *(Hint: multiply the binomial identity by $k$ and by $k^2$ to get
+   the mean $nt$ and the variance $nt(1-t) \leq n/4$; then run the
+   Chebyshev-style split.)*
+4. Prove that $B_n(f) \to f$ for $f(t) = t^2$ *by hand*: compute
+   $B_n(t^2)$ explicitly via the mean and variance of the binomial
+   distribution, and show the sup-norm error is at most $1/(4n)$.
+   *(Hint: the mean of $k/n$ is $t$; the variance is $t(1-t)/n$;
+   the identity $B_n(t^2)(t) = t^2 + t(1-t)/n$ follows from the
+   second-moment calculation.)*
+5. Assemble the Peanø existence proof from the pieces: given $y' =
+   f(t, y)$, $f$ continuous on a box, define the Euler polygons
+   with step $1/n$, show they are uniformly bounded and
+   equicontinuous, extract a uniformly convergent subsequence, and
+   prove the limit solves the integral equation $y(t) = y_0 +
+   \int_{t_0}^t f(s, y(s)) ds$.
+   *(Hint: the discretised equation passes to the limit because $f$
+   is uniformly continuous on the box and the polygons' corners
+   approximate the argument $y(s)$ within the convergence tolerance;
+   the fundamental theorem of calculus converts the limit of
+   difference quotients into the integral form.)*
+
+## Where to Go Next
+
+Function spaces are now tractable: subsequences extractable,
+polynomials dense. The next chapter faces the price of the century's
+boldest construction: **H5: The quotient topology, gluing and its
+price**, where the circle is born from a glued interval, Hausdorff
+can fail, and the universal property becomes the classification tool.
+
+**Next: [H5: The Quotient Topology](/17-core-course/h5-quotient-topology/).**
+
+---
+
+## H5 Quotient Topology
+URL: https://mathematics.wyattau.com/17-core-course/h5-quotient-topology/
+
+<!-- Breadcrumb Schema for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "mathematics", "url": "https://mathematics.wyattau.com"}, {"name": "17 Core Course", "url": "https://mathematics.wyattau.com/17-core-course"}, {"name": "H5: The Quotient Topology", "url": "https://mathematics.wyattau.com/17-core-course/h5-quotient-topology"}]
+}
+</script>
+
+**The Defect.** Quotients already exist in this course twice: Stage C
+built the integers as equivalence classes of pairs, and 1B built
+quotient vector spaces. Both were *algebraic* quotients: the
+structure carried forward was arithmetic. The geometric question is
+younger and stranger. Take a strip of paper and glue its ends: you
+see a circle. Take a square and glue opposite sides: a torus, a
+cylinder, a Klein bottle depending on the twist. What is the
+*definition* of the glued object, and when does the glued space
+behave? The naive conjecture: gluing is harmless bookkeeping. The
+reality: the quotient topology is defined exactly so that maps *out*
+of it are continuous, and the price of that definition is that
+gluing can destroy the separation you took for granted. Hausdorff is
+not inherited.
+
+**The One-Line Reveal.** <span class="wn-spoiler-inline" tabindex="0">The
+quotient topology is the finest topology on the glued set making the
+projection continuous, which says precisely: a map out of the glued
+space is continuous exactly when the glued-together map underneath is;
+compactness survives gluing, Hausdorff does not, and the line with
+two origins is the standing counterexample that keeps every later
+gluing honest.</span>
+
+*The blur is deliberate: form your own reading of the page first, then
+click it.*
+
+**Scope.** Consumes 2A (topologies, continuity, compactness,
+Hausdorff), Stage A (equivalence relations and their quotient sets),
+and 2B (nothing beyond the metric analogy). One debt is paid forward:
+the universal property here is the pattern that Stage J's manifold
+gluing and Stage N's fibre bundles will reuse, and this page states
+it once, formally. No new axioms; no new debts.
+
+## 1. The Gluing Instinct, Made Concrete
+
+**Ponder 1 (glue by hand).** Take the interval $[0, 1]$ and declare
+$0$ and $1$ to be "the same point". Before any definition: what set
+of points does the glued object contain? Write your answer as a set
+of subsets of $[0, 1]$: which singletons survive, and which pair
+stops being two points?
+
+<details class="wn-spoiler">
+<summary>Compare your construction</summary>
+<div class="wn-spoiler-body">
+
+The glued set contains: one point for each $t \in (0, 1)$ (the
+singleton $\{t\}$ survives), and *one* point for the pair $\{0,
+1\}$. So the glued set is the set of equivalence classes of the
+relation $0 \sim 1$, everything else alone: exactly Stage A's
+quotient construction, $(X / {\sim}) = \{[x] : x \in X\}$. What the
+gluing adds beyond algebra is topology: which subsets of the glued
+set count as open. That choice is the whole content of the
+definition in Section 2, and there are wrong choices, which is why
+the definition is not obvious.
+
+</div>
+</details>
+
+**The gallery.** The same move, different relations: glue the ends
+with a twist for the Möbius strip (a square's left edge to its right
+edge, reversed); glue opposite sides of a square plainly for the
+torus $\mathbb{R}^2 / \mathbb{Z}^2$; glue nothing for the identity
+quotient. Each quotient set is easy; each *topology* is where care
+begins.
+
+:::note[Quick check]
+
+1. Express the glued interval's point set as a quotient of
+   equivalence classes.
+2. Which singletons survive unglued?
+3. State the relation defining the torus from $\mathbb{R}^2$.
+4. Why is the quotient *set* the easy half of the construction?
+5. Give one gluing that produces the cylinder rather than the torus.
+6. How many points does the glued interval have in total?
+7. Give the relation whose quotient produces the circle from
+   $\mathbb{R}$.
+8. State what the glued interval has in common with
+   $\mathbb{R}/\mathbb{Z}$.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $[0, 1] / (0 \sim 1)$: classes are $\{t\}$ for $0 < t < 1$
+and $\{0, 1\}$ once. **2.** Every singleton except $\{0\}$ and
+$\{1\}$. **3.** $(x, y) \sim (x + m, y + n)$ for integers $m, n$:
+the classes of $\mathbb{Z}^2$ acting on the plane. **4.** The set
+is Stage A's quotient construction; the new question is entirely
+topological: which subsets are open. **5.** Glue only one pair of a
+square's opposite sides: the square with its horizontal edges
+identified is a cylinder.
+**6.** Continuum many: one per $t \in (0, 1)$, plus the single class $\{0, 1\}$. **7.** $x \sim y$ when $x - y \in \mathbb{Z}$: integer translates name the same point. **8.** They are homeomorphic: sending the class of $t \in [0, 1]$ to the class of $t$ in $\mathbb{R}/\mathbb{Z}$ identifies both with the circle as a quotient of the line.
+
+</div>
+</details>
+
+:::
+
+## 2. The Quotient Topology and Its Universal Property
+
+**Definition (quotient topology).** For $X$ a topological space and
+$\sim$ an equivalence relation with projection $q: X \to X/{\sim}$,
+the **quotient topology** on $X/{\sim}$ is the finest topology
+making $q$ continuous: $U \subseteq X/{\sim}$ is open exactly when
+$q^{-1}(U)$ is open in $X$.
+
+**Ponder (attempt the universal property yourself).** Before reading
+the theorem: a map $g$ from the glued interval to a circle sends
+classes to points. Work out from the definition of continuity exactly
+what condition on $g$ makes it continuous, in terms of the composed
+map $g \circ q$ on the *unglued* interval.
+
+<details class="wn-spoiler">
+<summary>The condition you derived</summary>
+<div class="wn-spoiler-body">
+
+$g$ is continuous exactly when $g \circ q$ is continuous. Reasoning
+from the definition: $g$ continuous means $g^{-1}(V)$ open in
+$X/{\sim}$ for open $V$, which by the quotient topology's
+definition means $(g \circ q)^{-1}(V)$ open in $X$, the continuity
+of the composite. The quotient definition was *chosen* to make this
+true, which is why it is called the universal property: the glued
+space inherits exactly the maps that respect the gluing, no more
+and no fewer.
+
+</div>
+</details>
+
+**Theorem (universal property of the quotient).** $g: X/{\sim} \to
+Y$ is continuous if and only if $g \circ q: X \to Y$ is continuous.
+Moreover, if $g \circ q$ is constant on each class (which
+continuity of a well-defined $g$ forces), the correspondence
+between maps $X/{\sim} \to Y$ and maps $X \to Y$ respecting the
+relation is a bijection.
+
+*Proof.* Forward: given continuous $g$, the composite with the
+continuous $q$ is continuous. Backward: given $g \circ q$
+continuous and $V \subseteq Y$ open, $(g \circ q)^{-1}(V) =
+q^{-1}(g^{-1}(V))$ is open; by the quotient topology's definition,
+$g^{-1}(V)$ is open in $X/{\sim}$. Bijection: a map respecting the
+relation determines exactly one map on classes; the universal
+property says it is continuous exactly when the original is.
+$\blacksquare$
+
+:::note[Quick check]
+
+1. State the quotient topology by its open sets.
+2. State the universal property in one sentence.
+3. In the glued interval, which maps $[0, 1] \to Y$ descend to maps
+   of the glued space?
+4. Why is the projection $q$ continuous by construction, and what
+   does "finest" rule out?
+5. Give the torus reading: which continuous maps
+   $\mathbb{R}^2 \to Y$ descend to the torus?
+6. Prove that $q$ maps saturated open sets to open sets, by the
+   definition of the quotient topology.
+7. State the continuity half of the universal property for the
+   torus.
+8. Give a non-example: a map on $[0, 1]$ that does not descend to
+   the glued interval, and the reason.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $U$ is open exactly when $q^{-1}(U)$ is open in $X$. **2.**
+Maps out of the quotient are exactly the relation-respecting maps
+out of the original, with matching continuity. **3.** Exactly the
+continuous maps with $g(0) = g(1)$: constant on the one nontrivial
+class. **4.** Preimages of opens are open by definition; "finest"
+rules out extra open sets, which would break the iff in the
+universal property by making too many $g$ continuous. **5.** Those
+constant on each coset of $\mathbb{Z}^2$, that is, periodic with
+integer periods in both coordinates.
+**6.** $U$ saturated means $U = q^{-1}(q(U))$; if $U$ is open and saturated, $q(U)$ has open preimage $U$, so $q(U)$ is open by the quotient definition. **7.** $g$ on the torus is continuous exactly when its composite with the plane's projection is continuous on $\mathbb{R}^2$. **8.** $g(t) = t$: it sends the identified pair $0, 1$ to different values, so it is not constant on classes and no well-defined descended map exists.
+
+</div>
+</details>
+
+:::
+
+## 3. The Price: Hausdorff Can Fail
+
+**Ponder (attempt the separation).** Build the **line with two
+origins**: start with two copies of $\mathbb{R}$, $A$ and $B$, and
+glue each $a \in A \setminus \{0_A\}$ to the matching $b \in B
+\setminus \{0_B\}$. The two origins $0_A, 0_B$ stay unglued. Attempt
+to separate them: can you find disjoint open sets, one around each
+origin? Try before reading the dissection.
+
+<details class="wn-spoiler">
+<summary>The failed separation</summary>
+<div class="wn-spoiler-body">
+
+Any open set around $0_A$ contains, by the quotient topology, the
+image of some interval $(-\varepsilon, \varepsilon) \subseteq A$;
+un-gluing only removed the origin, so that image includes the
+punctured intervals $(-\varepsilon, 0) \cup (0, \varepsilon)$ *as
+seen from both copies*. Every open set around $0_B$ likewise
+contains punctured intervals from the same shared points. Two open
+sets, one around each origin, must both contain points of the
+shared punctured line: they cannot be disjoint. The glued space is
+not Hausdorff, although both copies were. This is the price: the
+quotient topology is forced by the universal property, and the
+universal property does not care about separation.
+
+</div>
+</details>
+
+**Theorem (what survives and what does not).** The continuous image
+of a compact space is compact; hence a quotient of a compact space
+is compact. The quotient of a Hausdorff space need not be Hausdorff.
+
+*Proof.* Quotient compactness: $q$ is continuous, and 2A's theorem
+says the continuous image of compact is compact. The failure of
+Hausdorff is Section 3's constructed space: two copies of
+$\mathbb{R}$ are Hausdorff, the gluing produces a non-Hausdorff
+quotient. $\blacksquare$
+
+:::note[Quick check]
+
+1. Why does every open set around $0_A$ contain punctured intervals
+   from both copies?
+2. State what survives gluing and what does not, with the theorem
+   names.
+3. In the line with two origins, are the two origins' neighbourhood
+   structures identical away from the origin itself?
+4. Which Stage A machinery is doing the work of "glue these pairs"?
+5. Give one practical rule the counterexample teaches about later
+   gluings.
+6. Show that any two neighbourhoods of the two origins intersect,
+   not just the small ones.
+7. Which point of the glued interval's quotient could have caused a
+   Hausdorff failure, and why does it not?
+8. State one property the line with two origins shares with the
+   ordinary line, and one it lacks.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** The quotient's opens are images of saturated opens; the
+saturation of any interval around $0_A$ includes the punctured
+neighbourhood, whose points are glued to their $B$-twins. **2.**
+Compactness survives (continuous image of compact); Hausdorff does
+not (the constructed counterexample). **3.** Yes: the two origins
+have isomorphic punctured neighbourhoods, which is why no local
+argument can separate them. **4.** Equivalence relations and their
+quotient sets, Stage A Section 3. **5.** When gluing, check the
+saturation of neighbourhoods around the glued seam: separation
+failures announce themselves as neighbourhoods forced to share
+points.
+**6.** Every neighbourhood of either origin contains a punctured interval from the shared line; any two such neighbourhoods intersect there, whatever their size. **7.** The class $\{0, 1\}$: its two members have disjoint preimage-neighbourhoods $[0, \varepsilon)$ and $(1 - \varepsilon, 1]$, so the class separates cleanly from every other point, and the space stays Hausdorff. **8.** It shares the local structure (every point has interval neighbourhoods); it lacks Hausdorff separation between the two origins.
+
+</div>
+</details>
+
+:::
+
+## 4. Classification by Universal Property
+
+**The torus, classified.** The universal property is not bookkeeping;
+it is the tool that *identifies* glued spaces. The torus
+$\mathbb{R}^2 / \mathbb{Z}^2$: a continuous map from the torus to $Y$
+is exactly a continuous map $F: \mathbb{R}^2 \to Y$ that is
+doubly periodic, $F(x + m, y + n) = F(x, y)$. Doubly periodic
+functions on the plane are precisely functions on the torus; no new
+definition is needed, and every theorem about plane-periodic
+functions transfers.
+
+**The pattern, named once.** This is the third universal property in
+the course: the product (2A), the quotient vector space (1B), and
+now the quotient topology all follow the same shape: the constructed
+object is defined by the maps *into* or *out of* it. Stage F1 named
+the shape; here it carries weight. Stage J's manifolds will be glued
+from charts by exactly this pattern, and Stage N's fibre bundles are
+quotient constructions whose price (the same non-Hausdorff traps)
+must be checked the same way.
+
+:::note[Quick check]
+
+1. Restate doubly periodic functions as maps from the torus.
+2. Name the three earlier universal properties this chapter's
+   matches.
+3. Why does a theorem about plane-periodic functions transfer to the
+   torus without reproof?
+4. What must be checked before declaring a glued space usable?
+5. Which later stages will reuse this pattern?
+6. Restate the universal property for maps *into* the quotient:
+   what must a map $Y \to X/{\sim}$ look like?
+7. Give the torus as a product of two glued intervals, and justify
+   by the universal properties.
+8. State the one-sentence moral of the line with two origins for
+   later stages.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Compose with $q$: a torus-map is exactly a doubly periodic
+plane-map. **2.** The product's maps-in property (2A), the quotient
+vector space's maps-out property (1B), and the categorical shape
+named at F1. **3.** The universal property makes the function sets
+identical with matching continuity: the theorem transfers through
+the bijection. **4.** The saturation of neighbourhoods along the
+seam: whether Hausdorff and any needed separation survive the
+gluing. **5.** Stage J (charts glued into manifolds) and Stage N
+(fibre bundles as quotient constructions).
+**6.** No universal property constrains maps in: a map into the quotient is any map landing in the classes, checked for well-definedness and continuity on representatives by hand. **7.** $\mathbb{R}^2/\mathbb{Z}^2$ is homeomorphic to $(\mathbb{R}/\mathbb{Z}) \times (\mathbb{R}/\mathbb{Z})$: gluing the coordinates independently, and the product and quotient universal properties compose the homeomorphism both ways. **8.** After any gluing, test separation at the seam: saturation forces shared neighbourhoods, and Hausdorff is the first casualty.
+
+</div>
+</details>
+
+:::
+
+## Stage Gate
+
+:::caution[Pass mark: four of five]
+Before Stage I, answer these five without notes. A failed gate names
+the section to reread (1: Section 1; 2: Section 2; 3: Section 3; 4:
+Sections 4 and 5; 5: Section 5). Stage I is queued; its home is the
+Course Map.
+
+1. Express the glued interval as a quotient set, and state which
+   singletons survive.
+2. Define the quotient topology, and state the universal property.
+3. Construct the line with two origins and prove it is not
+   Hausdorff.
+4. State what survives gluing and what does not, with proofs named.
+5. Translate doubly periodic functions into torus maps, and name the
+   pattern this instantiates.
+
+<details class="wn-spoiler">
+<summary>Gate answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $[0, 1]/(0 \sim 1)$; all singletons except $\{0\}$ and
+$\{1\}$, which merge into $\{0, 1\}$. **2.** Opens are the sets
+whose preimages under $q$ are open; $g$ out of the quotient is
+continuous iff $g \circ q$ is. **3.** Glue two copies of
+$\mathbb{R}$ away from their origins; any two neighbourhoods of the
+two origins share punctured-line points, so they cannot be
+disjoint. **4.** Compactness survives (continuous image of
+compact); Hausdorff does not (the constructed counterexample).
+**5.** Torus maps are exactly doubly periodic plane maps; the
+pattern is the universal property, third of its line in this
+course.
+
+</div>
+</details>
+
+:::
+
+## Problems
+
+**Problems.** The quick checks tested recall. These chain several
+results and require full written arguments.
+
+1. Prove that the glued interval is compact and connected, citing
+   the theorems that survive gluing and the continuous image
+   theorem.
+   *(Hint: compact: the image of compact under the continuous $q$;
+   connected: an image of a connected space is connected, or run
+   the separation-lifts argument through $q^{-1}$.)*
+2. Prove that the quotient map $q$ is continuous and, when the
+   relation's classes are all open (an **open relation**), an open
+   map; conclude that for the glued interval, $q$ is closed too.
+   *(Hint: openness of $q$ means images of opens are open, which
+   for saturated opens is the definition; the interval's closed
+   classes make $q$ closed by the compact-to-Hausdorff route or
+   directly.)*
+3. Show that the line with two origins, while not Hausdorff, is
+   still a "good" space in the weaker sense: every point has a
+   neighbourhood homeomorphic to an open interval. Which of 2A's
+   theorems fail on it, and which survive?
+   *(Hint: away from the origins it is an ordinary line; the
+   failures are separation theorems, and compactness properties
+   survive by the continuous-image theorem.)*
+4. Classify: which continuous functions $[0, 1] \to \mathbb{R}$
+   descend to the glued interval $[0, 1]/(0 \sim 1)$, and describe
+   the descended functions as familiar objects.
+   *(Hint: descend iff $g(0) = g(1)$; the descended functions are
+   exactly the continuous functions on the circle, that is, the
+   $1$-periodic continuous functions on the line composed with the
+   covering.)*
+5. Prove: the quotient of a connected space is connected, and the
+   quotient of a path-connected space is path-connected, and
+   conclude that the torus is both.
+   *(Hint: the continuous image of connected is connected; a path
+   in $X$ descends to a path in the quotient by the universal
+   property, since paths are maps from $[0, 1]$.)*
+
+## Where to Go Next
+
+Stage H is complete: the canvas has its distances, its Baire engine,
+its function-space compactness, and its gluing calculus. Stage I
+(Measure) is queued; its home is the [Course
+Map](/17-core-course/), where the sigma-algebras, the Lebesgue
+integral, and the birth of probability are mapped as the next
+construction the functional stages stand on.
+
+**Next: the [Course Map](/17-core-course/), and Stage I beyond it.**
+
+---
+
 ## Index
 URL: https://mathematics.wyattau.com/17-core-course/
 
@@ -22941,9 +24295,9 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | **Stage H: The canvas** | *The canvas: spaces, compactness, quotients, approximation.* | |
 | H1 | Metric and topological spaces, continuity, homeomorphism (debt: completeness-axiom → D2, elementary-functions-continuity → G7) | written |
 | H2 | Connectedness and compactness; the IVT and EVT (debt: zorn-lemma → D6) | written |
-| H3 | Completeness, the Baire category theorem, and metrisation | queued |
-| H4 | Approximation and compactness in function spaces | queued |
-| H5 | The quotient topology: gluing and its price | queued |
+| H3 | Completeness, the Baire category theorem, and metrisation | written |
+| H4 | Approximation and compactness in function spaces | written |
+| H5 | The quotient topology: gluing and its price | written |
 | **Stage I: Measure** | *Sigma-algebras to Fourier, ending at the probability laws.* | |
 | I1 | Sigma-algebras and measures | queued |
 | I2 | The Lebesgue integral: Caratheodory | queued |
@@ -23531,8 +24885,9 @@ three questions from your sorting:
    month.
 
 What you have built is a **relation** (a rule deciding relatedness
-for pairs), and your groups are the classes of that relation. The
-words come after the construction, as labels for what you made.
+for pairs), and the groups are its living embodiment. The words,
+including a name for the groups, come after the construction, as
+labels for what you made.
 
 </div>
 </details>
