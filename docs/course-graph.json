@@ -1032,8 +1032,8 @@
         "F1",
         "C1"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-l-algebra-and-symmetry.md",
       "declaredInputs": [],
       "note": "Subgroups, quotients, Lagrange; group actions, orbits and the class equation; the Sylow theorems."
     },
@@ -1047,8 +1047,8 @@
         "C4",
         "C5"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-l-algebra-and-symmetry.md",
       "declaredInputs": [
         {
           "input": "zorn-lemma",
@@ -1066,16 +1066,16 @@
         "L2",
         "E1"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-l-algebra-and-symmetry.md",
       "declaredInputs": [],
       "note": "Field extensions, automorphism groups, the fundamental theorem; constructibility, solvable groups, Abel-Ruffini, and the cubic and quartic resolved."
     },
     {
       "id": "L4",
       "stage": "L",
-      "file": null,
-      "status": "queued",
+      "file": "stage-l-algebra-and-symmetry.md",
+      "status": "written",
       "title": "Lie groups and group actions",
       "declaredInputs": [],
       "deps": [
@@ -1088,8 +1088,8 @@
     {
       "id": "L5",
       "stage": "L",
-      "file": null,
-      "status": "queued",
+      "file": "stage-l-algebra-and-symmetry.md",
+      "status": "written",
       "title": "Geometry: the fifth postulate, its collapse, and symmetry as geometry",
       "declaredInputs": [],
       "deps": [

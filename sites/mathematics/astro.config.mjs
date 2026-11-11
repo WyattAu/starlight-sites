@@ -94,6 +94,10 @@ export default defineConfig({
               label: 'Stage K: Complex Analysis',
               slug: '17-core-course/stage-k-complex-analysis',
             },
+            {
+              label: 'Stage L: Algebra and Symmetry',
+              slug: '17-core-course/stage-l-algebra-and-symmetry',
+            },
           ],
           collapsed: false,
         },

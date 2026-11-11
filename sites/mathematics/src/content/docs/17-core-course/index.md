@@ -223,11 +223,11 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | K2 | Complex integration, Cauchy's theorem, residues | written |
 | K3 | The fundamental theorem of algebra, proved - the ledger closes | written |
 | **Stage L: Algebra and symmetry** | *Groups, rings, Galois, Lie groups, and the geometry synthesis.* | |
-| L1 | Groups through the categorical lens | queued |
-| L2 | Rings and modules (debt: zorn-lemma → D6) | queued |
-| L3 | Galois theory: symmetry of equations | queued |
-| L4 | Lie groups and group actions | queued |
-| L5 | Geometry: the fifth postulate, its collapse, and symmetry as geometry | queued |
+| L1 | Groups through the categorical lens | written |
+| L2 | Rings and modules (debt: zorn-lemma → D6) | written |
+| L3 | Galois theory: symmetry of equations | written |
+| L4 | Lie groups and group actions | written |
+| L5 | Geometry: the fifth postulate, its collapse, and symmetry as geometry | written |
 | **Stage M: The functional summit** | *Functional analysis to elliptic PDE: Banach and Hilbert spaces, distributions, Sobolev, the Laplacian's spectrum.* | |
 | M1 | Banach spaces and the four pillars (debt: zorn-lemma → D6) | queued |
 | M2 | Hilbert spaces and the spectral theorem for compact operators | queued |
