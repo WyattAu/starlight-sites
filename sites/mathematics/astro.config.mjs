@@ -78,6 +78,10 @@ export default defineConfig({
               slug: '17-core-course/h4-approximation-and-compactness',
             },
             { label: 'H5: The Quotient Topology', slug: '17-core-course/h5-quotient-topology' },
+            {
+              label: 'Stage I: Measure',
+              slug: '17-core-course/stage-i-measure',
+            },
             { label: '3A: Manifolds', slug: '17-core-course/3a-manifolds' },
             { label: '3B: Tangent Spaces', slug: '17-core-course/3b-tangent-space' },
             { label: '3C: Differential Forms', slug: '17-core-course/3c-forms' },

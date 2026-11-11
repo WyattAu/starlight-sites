@@ -407,10 +407,9 @@ results and require full written arguments.
 ## Where to Go Next
 
 Stage H is complete: the canvas has its distances, its Baire engine,
-its function-space compactness, and its gluing calculus. Stage I
-(Measure) is queued; its home is the [Course
-Map](/17-core-course/), where the sigma-algebras, the Lebesgue
-integral, and the birth of probability are mapped as the next
-construction the functional stages stand on.
+its function-space compactness, and its gluing calculus. **Stage I:
+Measure** now builds the machinery of size: sigma-algebras, the
+Lebesgue integral that integrates what Riemann refused, the
+convergence ladder, and the birth of probability.
 
-**Next: the [Course Map](/17-core-course/), and Stage I beyond it.**
+**Next: [Stage I: Measure](/17-core-course/stage-i-measure/).**

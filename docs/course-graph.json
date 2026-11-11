@@ -758,8 +758,8 @@
         "D2",
         "D4"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-i-measure.md",
       "declaredInputs": []
     },
     {
@@ -769,8 +769,8 @@
       "deps": [
         "I1"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-i-measure.md",
       "declaredInputs": [],
       "note": "The comparison theorem: Riemann integrable on a bounded interval means Lebesgue integrable with the same value, and equals a.e. continuity. G8's integral is the special case, not a rival."
     },
@@ -781,8 +781,8 @@
       "deps": [
         "I2"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-i-measure.md",
       "declaredInputs": []
     },
     {
@@ -792,8 +792,8 @@
       "deps": [
         "I3"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-i-measure.md",
       "declaredInputs": []
     },
     {
@@ -804,8 +804,8 @@
         "I2",
         "G6"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-i-measure.md",
       "discharges": [
         "fubini-theorem",
         "change-of-variables-formula"
@@ -818,8 +818,8 @@
       "deps": [
         "I4"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-i-measure.md",
       "declaredInputs": [],
       "note": "The Lebesgue differentiation theorem; functions of bounded variation; absolutely continuous functions and the fundamental theorem of calculus in its correct generality."
     },
@@ -831,15 +831,15 @@
         "I4",
         "H4"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-i-measure.md",
       "declaredInputs": []
     },
     {
       "id": "I8",
       "stage": "I",
-      "file": null,
-      "status": "queued",
+      "file": "stage-i-measure.md",
+      "status": "written",
       "title": "The laws of large numbers and the central limit theorem",
       "declaredInputs": [],
       "deps": [

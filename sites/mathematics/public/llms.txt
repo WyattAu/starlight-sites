@@ -127,6 +127,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Stage D The Continuum](https://mathematics.wyattau.com/17-core-course/stage-d-the-continuum/)
 - [Stage E Completing Algebra](https://mathematics.wyattau.com/17-core-course/stage-e-completing-algebra/)
 - [Stage G Euclidean Analysis](https://mathematics.wyattau.com/17-core-course/stage-g-euclidean-analysis/)
+- [Stage I Measure](https://mathematics.wyattau.com/17-core-course/stage-i-measure/)
 
 ## Linear-Algebra
 

@@ -202,14 +202,14 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | H4 | Approximation and compactness in function spaces | written |
 | H5 | The quotient topology: gluing and its price | written |
 | **Stage I: Measure** | *Sigma-algebras to Fourier, ending at the probability laws.* | |
-| I1 | Sigma-algebras and measures | queued |
-| I2 | The Lebesgue integral: Caratheodory | queued |
-| I3 | Modes of convergence | queued |
-| I4 | L^p spaces and duality | queued |
-| I5 | Product measures and Fubini-Tonelli; the change-of-variables formula | queued |
-| I6 | Radon-Nikodym, conditional expectation, and the birth of probability | queued |
-| I7 | Fourier series and the Fourier transform | queued |
-| I8 | The laws of large numbers and the central limit theorem | queued |
+| I1 | Sigma-algebras and measures | written |
+| I2 | The Lebesgue integral: Caratheodory | written |
+| I3 | Modes of convergence | written |
+| I4 | L^p spaces and duality | written |
+| I5 | Product measures and Fubini-Tonelli; the change-of-variables formula | written |
+| I6 | Radon-Nikodym, conditional expectation, and the birth of probability | written |
+| I7 | Fourier series and the Fourier transform | written |
+| I8 | The laws of large numbers and the central limit theorem | written |
 | **Stage J: Calculus as linearisation** | *Manifolds, tangent spaces, forms, Stokes, curvature.* | |
 | J1 | Smooth manifolds: charts, atlases, smooth maps (debt: multivariable-chain-rule → G5, multivariable-inverse-function-theorem → G6, trigonometry-facts → G7) | written |
 | J2 | Tangent spaces, the differential, the IFT on manifolds (debt: fundamental-theorem-of-calculus → G8, differentiation-under-the-integral → I5) | written |
