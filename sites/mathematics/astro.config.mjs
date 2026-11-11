@@ -86,6 +86,10 @@ export default defineConfig({
             { label: '3B: Tangent Spaces', slug: '17-core-course/3b-tangent-space' },
             { label: '3C: Differential Forms', slug: '17-core-course/3c-forms' },
             { label: '3D: Stokes', slug: '17-core-course/3d-stokes' },
+            {
+              label: 'Stage K: Complex Analysis',
+              slug: '17-core-course/stage-k-complex-analysis',
+            },
           ],
           collapsed: false,
         },

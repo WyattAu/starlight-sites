@@ -992,8 +992,8 @@
         "G4",
         "J3"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-k-complex-analysis.md",
       "declaredInputs": [],
       "note": "Conformal maps, Mobius transformations, the Riemann sphere; harmonic functions as the real and imaginary parts of holomorphy."
     },
@@ -1006,8 +1006,8 @@
         "J5",
         "I5"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-k-complex-analysis.md",
       "declaredInputs": [],
       "note": "Taylor and Laurent series; the argument principle and Rouche's theorem; residue calculus."
     },
@@ -1018,8 +1018,8 @@
       "deps": [
         "K2"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "stage-k-complex-analysis.md",
       "discharges": [
         "fundamental-theorem-of-algebra"
       ]

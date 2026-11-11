@@ -219,9 +219,9 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | J6 | Submanifolds, immersions, regular level sets | queued |
 | J7 | Connections, curvature, and geodesics | queued |
 | **Stage K: Complex analysis** | *Holomorphy, Cauchy, residues, and the FTA proved: the ledger closes.* | |
-| K1 | Holomorphy: complex differentiability and its rigidity | queued |
-| K2 | Complex integration, Cauchy's theorem, residues | queued |
-| K3 | The fundamental theorem of algebra, proved - the ledger closes | queued |
+| K1 | Holomorphy: complex differentiability and its rigidity | written |
+| K2 | Complex integration, Cauchy's theorem, residues | written |
+| K3 | The fundamental theorem of algebra, proved - the ledger closes | written |
 | **Stage L: Algebra and symmetry** | *Groups, rings, Galois, Lie groups, and the geometry synthesis.* | |
 | L1 | Groups through the categorical lens | queued |
 | L2 | Rings and modules (debt: zorn-lemma → D6) | queued |

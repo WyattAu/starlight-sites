@@ -591,3 +591,5 @@ classical theorems are its coordinate expansions.
   to Manifolds* ([Springer](https://link.springer.com/book/10.1007/978-1-4419-4000-6))
   – the two classical treatments; Spivak proves Stokes over chains with the
   same local-to-global architecture, Tu over manifolds with boundary.
+
+**Next: [Stage K: Complex Analysis](/17-core-course/stage-k-complex-analysis/).**

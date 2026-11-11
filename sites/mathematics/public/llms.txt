@@ -128,6 +128,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Stage E Completing Algebra](https://mathematics.wyattau.com/17-core-course/stage-e-completing-algebra/)
 - [Stage G Euclidean Analysis](https://mathematics.wyattau.com/17-core-course/stage-g-euclidean-analysis/)
 - [Stage I Measure](https://mathematics.wyattau.com/17-core-course/stage-i-measure/)
+- [Stage K Complex Analysis](https://mathematics.wyattau.com/17-core-course/stage-k-complex-analysis/)
 
 ## Linear-Algebra
 

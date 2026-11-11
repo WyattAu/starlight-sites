@@ -109,14 +109,32 @@ finitely many next-moves from $0$.
 </div>
 </details>
 
+**Definition (the induction technique).** Declaration 5 is both part
+of what counting *is* and the licence for how its theorems are
+proved. To prove that every counting number has a property $P$, the
+technique has three named parts:
+
+1. **Base case.** Prove $P(0)$.
+2. **Induction hypothesis.** Assume $P(n)$ for an arbitrary $n$;
+   this standing assumption is what you get to use.
+3. **Inductive step.** Prove $P(n) \to P(S(n))$.
+
+Declaration 5 guarantees these two checks suffice: they close every
+counting number. Read honestly, that guarantee is itself the
+inductive picture (each number is reached from $0$ by finitely many
+next-moves), and Section 1's first theorems are the technique's
+first outings. The declaration says the licence exists; the
+definition above is how you drive it.
+
 **Theorem (every nonzero counting number is a successor).** For every
 $n \in \mathbb{N}$ with $n \neq 0$, there is a $k$ with $n = S(k)$.
 
-*Proof.* Take the property $P(n)$: "$n = 0$ or there is $k$ with $n
-= S(k)$". Then $P(0)$ holds trivially, and if $P(n)$ holds then
-$P(S(n))$ holds (the second branch: $S(n) = S(n)$). Induction gives
-$P$ for all $n$; restricting to $n \neq 0$ gives the claim.
-$\blacksquare$
+*Proof.* By induction, with the property $P(n)$: "$n = 0$ or there
+is $k$ with $n = S(k)$". **Base case:** $P(0)$ holds by its first
+branch. **Inductive step:** assume $P(n)$ (induction hypothesis);
+then $P(S(n))$ holds by the second branch, since $S(n) = S(n)$.
+Declaration 5 gives $P$ for all $n$; restricting to $n \neq 0$
+gives the claim. $\blacksquare$
 
 **The monster of Stage B.** Here is an induction that proves every
 herd of horses is single-coloured. Base: a herd of one horse is
