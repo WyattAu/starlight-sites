@@ -293,27 +293,97 @@ closing base and step closes everything.
 
 ## Formal Witnesses: How to Read the Boxes
 
-Starting with Section 2, some theorems carry a second proof in a grey
-box: a **formal witness**, written in the proof language Lean. Three
-things to know, and then the boxes read themselves.
+Starting with Section 2, some theorems carry a second proof in a
+grey box: a **formal witness**, written in the proof language Lean.
+This section explains what that means, mechanically, before the
+first box appears.
 
-1. **The statement is the theorem.** In a witness, the line
-   `theorem add_comm (a b : Nat) : a + b = b + a` says: for all
-   counting numbers `a` and `b`, `a + b` and `b + a` are equal. Lean
-   states the proposition and demands a proof *term* after the `:=`.
-2. **The tactics are the rules.** `rfl` closes a goal that is true by
-   definition (one line of the definition applies). `induction n
-   with` runs the base-and-step proof from Section 1. `rw [t]`
-   rewrites the goal using the equation `t`. Each box is accompanied
-   by a plain-English gloss mapping it to the prose proof.
-3. **The promise is machine-checked.** The proof job on every push
-   extracts every box from this page and compiles it. If an edit
-   breaks a witness, the build fails, exactly as a broken course map
-   fails the build.
+**What Lean is.** Lean is a language in which a proof is not prose
+but an *object*: a line-by-line construction where every step is
+one application of a rule the language already knows. After the
+proof is written, a separate program, the kernel, re-checks every
+step against those rules. Nothing is accepted on reading, on
+reputation, or on plausibility: a witness either compiles or it
+does not, and there is no third verdict. That is the standard of
+rigour the boxes carry: stronger than a careful human reader,
+because a human reader can be persuaded by a step that skips
+something.
 
-The witnesses use only core Lean: no libraries, no shortcuts. The
-prose proof remains the proof of record; the witness is a machine
-that verifies it.
+**The anatomy of a witness.** Every box has the same skeleton:
+
+```lean
+theorem sample_w : 2 + 2 = 4 := by rfl
+```
+
+Read it token by token:
+
+- `theorem` announces that a claim and its proof follow.
+- `sample_w` is the claim's name (the `_w` suffix marks a witness;
+  it exists so the proof job can collect them).
+- `: 2 + 2 = 4` is the **statement**: the proposition being claimed.
+  This line, on its own, is a demand: prove it.
+- `:= by rfl` is the **proof**: `by` says "a tactic proof follows",
+  and the single tactic `rfl` closes it.
+
+**Goals and tactics.** After `by`, Lean holds a **goal**: the
+unproven statement, displayed as a claim you still owe. A **tactic**
+is a command that transforms the goal, and a tactic proof ends when
+no goal remains. Each tactic used on this page does one job:
+
+- `rfl` closes a goal whose two sides are *equal by definition*:
+  running the definitions on both sides computes them to the same
+  thing. It is the machine form of "this line of the definition
+  applies".
+- `induction n with` runs Section 1's technique mechanically: it
+  replaces one goal ("P holds for all n") with exactly two goals,
+  the base case and the step, and names the step's assumption
+  (`ih`, the induction hypothesis) so you can use it.
+- `rw [t]` rewrites the goal using the proved equation `t`,
+  replacing the equation's left side by its right side wherever it
+  appears. Chaining `rw [t1, t2]` applies both in order.
+- `omega` hands the goal to the decision procedure for linear
+  arithmetic: a complete solver for the facts about `+`,
+  comparisons, and case splits on the counting numbers. If the
+  goal is in its scope, it closes it; if not, it fails loudly.
+
+**Reading the page's first real box.** Section 2 proves
+$0 + n = n$ in prose, then shows:
+
+```lean
+theorem zero_add_w (n : Nat) : 0 + n = n := by
+  induction n with
+  | zero => rfl
+  | succ k ih => rw [Nat.add_succ, ih]
+```
+
+Line by line: the statement binds `n : Nat` (a counting number) and
+claims `0 + n = n` for all of them; `:= by` opens the tactic proof.
+`induction n with` splits the single goal into the two goals of the
+induction technique, labelled `zero` and `succ k ih` (the step's
+new counting number is `k`, its induction hypothesis is `ih`). The
+base case `| zero => rfl`: the claim $0 + 0 = 0$ is true by the
+base line of addition, which is its definition, so `rfl` closes it.
+The step `| succ k ih => rw [Nat.add_succ, ih]`: the goal
+$0 + S(k) = S(k)$ is rewritten using the step line
+(`Nat.add_succ`) and then the induction hypothesis (`ih`), after
+which nothing remains. The box *is* the prose proof, one tactic per
+sentence.
+
+**Why this is stronger than reading.** A prose proof can hide a
+gap in a persuasive sentence; a witness cannot, because the kernel
+checks every step against rules and no rule is "and so on". The
+**proof job on every push** extracts every box from this page and
+compiles it: if an edit breaks a witness, the build fails, exactly
+as a broken course map fails the build.
+
+**Core Lean only.** The witnesses use no libraries and no imported
+mathematics: only the language's built-in arithmetic on the
+counting numbers and the decision procedures shipped with the
+compiler. Nothing in a box rests on a foundation the course has not
+built or explicitly declared. The prose proof remains the proof of
+record, written for understanding; the witness is the machine that
+verifies it, written for truth. Read the prose to learn, read the
+box to be certain.
 
 ## 2. Addition, Defined Recursively; Its Laws Proved
 
