@@ -104,16 +104,11 @@ self.addEventListener('fetch', event => {
     return
   }
 
-  // Fixed-URL first-party scripts (reader.js etc.) must revalidate: they are
-  // actively developed under names that never change, so cache-first would
-  // pin users to an old copy indefinitely. Hashed bundles and fonts are
-  // immutable and stay cache-first.
+  // Fixed-URL first-party scripts revalidate: they are actively developed
+  // under names that never change, so cache-first would pin users to an old
+  // copy indefinitely. Hashed bundles and fonts are immutable, cache-first.
   if (url.pathname === '/reader.js' || url.pathname === '/mermaid-render.js') {
-    event.respondWith(staleWhileRevalidate(request))
-    return
-  }
-  if (url.pathname === '/reader.js' || url.pathname === '/mermaid-render.js') {
-    event.respondWith(staleWhileRevalidate(request))
+    event.respondWith(staleWhileRevalidate(event.request))
     return
   }
   if (url.pathname.match(/\.(woff2|css|js|svg|png|jpg|webp|avif)$/)) {
