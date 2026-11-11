@@ -14,7 +14,7 @@ theorem sample_w : 2 + 2 = 4 := by rfl
 
 /-! From `stage-b-counting.md` -/
 
-theorem zero_add_w (n : Nat) : 0 + n = n := by
+theorem zero_add_walk_w (n : Nat) : 0 + n = n := by
   induction n with
   | zero => rfl
   | succ k ih => rw [Nat.add_succ, ih]

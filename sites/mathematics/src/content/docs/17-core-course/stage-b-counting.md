@@ -350,7 +350,7 @@ no goal remains. Each tactic used on this page does one job:
 $0 + n = n$ in prose, then shows:
 
 ```lean
-theorem zero_add_w (n : Nat) : 0 + n = n := by
+theorem zero_add_walk_w (n : Nat) : 0 + n = n := by
   induction n with
   | zero => rfl
   | succ k ih => rw [Nat.add_succ, ih]
