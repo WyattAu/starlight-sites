@@ -222,6 +222,9 @@ jobs:
       - name: Course graph validation
         run: python3 scripts/check-course-graph.py
 
+      - name: Course map freshness (hub Course Map section)
+        run: python3 scripts/gen-course-map.py --check
+
       - name: Unit + integration tests
         run: node --test tests/unit/*.test.js tests/integration/*.test.js
 

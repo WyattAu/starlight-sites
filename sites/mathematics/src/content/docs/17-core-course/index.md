@@ -136,7 +136,7 @@ number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
 The full course is 89 chapters across 15 dependency stages, from
 logic to the research frontier, with
-39 written. The graph is machine-checked: `docs/course-graph.json` is
+70 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order and that the dependency graph is
