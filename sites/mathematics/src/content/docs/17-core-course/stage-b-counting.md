@@ -37,8 +37,8 @@ click it.*
 
 **Scope.** Consumes Stage A: sets, equivalence relations, functions,
 bijections, the four proof shapes, and the classical-logic axiom.
-Adopts one new batch of declarations (the Peano axioms, Section 1,
-stated in full; they are *content*, not course axioms) and declares
+Adopts one new batch of declarations (the Peano declarations,
+Section 1, stated in full; they are *content*, not course axioms) and declares
 exactly one debt: the recursion principle of Section 2, pointed at
 Stage D's transfinite recursion as its payee. The first formal
 witnesses appear: Lean boxes compiled on every push.
@@ -76,16 +76,21 @@ numbers**), a distinguished element $0$, and a function $S: \mathbb{N}
 
 1. $0 \in \mathbb{N}$.
 2. For every $n \in \mathbb{N}$, the successor $S(n) \in \mathbb{N}$.
-3. $0$ is not the successor of any counting number.
-4. Distinct counting numbers have distinct successors: if $S(a) =
-   S(b)$ then $a = b$.
-5. **Induction.** For any proposition $P$ about counting numbers: if
-   $P(0)$ holds, and $P(n)$ implies $P(S(n))$ for every $n$, then
-   $P(n)$ holds for every $n \in \mathbb{N}$.
+3. Zero is nobody's successor: there is no $n \in \mathbb{N}$ with
+   $S(n) = 0$.
+4. Different numbers have different successors: if $S(a) = S(b)$,
+   then $a = b$.
+5. **Induction.** For every proposition $P$ about counting numbers:
+   whenever both of these hold: (i) $P(0)$ is true, and (ii) for
+   every $n$, if $P(n)$ is true then $P(S(n))$ is true. Then $P(n)$
+   is true for every counting number $n$.
 
 Declarations 3 and 4 are your two game questions answered: the start
 is never revisited, and the next-move never collides. Declaration 5
-is the licence that makes the whole system provable.
+says something the first four cannot: that the moves from $0$ reach
+*everything*: there are no stray counting numbers off the chain.
+It is the licence that makes proofs about all counting numbers
+possible, and Section 1's theorems are its first outings.
 
 **Notation.** Define names: $1 := S(0)$, $2 := S(1)$, $3 := S(2)$,
 and so on when needed. These are abbreviations for iterated
@@ -100,11 +105,13 @@ you assume?
 <summary>Compare your construction</summary>
 <div class="wn-spoiler-body">
 
-Check $P(0)$ (the base case), and prove: if $P(n)$ holds (the
+Check $P(0)$ (the **base case**), and prove: if $P(n)$ holds (the
 **induction hypothesis**, which you may assume), then $P(S(n))$ (the
-**inductive step**). Axiom 5 guarantees this suffices: there are no
-other counting numbers to reach, because every one is reached by
-finitely many next-moves from $0$.
+**inductive step**). Declaration 5 guarantees these two checks
+suffice. The informal picture: every counting number is reached
+from $0$ by finitely many next-moves, so a proof carried up the
+chain reaches everything. Stated carefully, that picture *is*
+Declaration 5; the axiom is what turns the picture into a licence.
 
 </div>
 </details>
@@ -177,15 +184,65 @@ $\leq n$ or equal to $S(n)$, shown in Section 3), and it would be
 least, contradiction. By induction, no member of $X$ exists at all,
 contradicting nonemptiness. $\blacksquare$
 
-**Theorem (strong induction).** Let $P$ be a proposition about
-counting numbers. If, for every $n$, the statement "$P(k)$ holds for
-every $k < n$" implies $P(n)$, then $P$ holds for every $n$.
+**Ponder (attempt the strengthening).** Ordinary induction's step
+may assume only $P(n)$, the immediate predecessor's value. Attempt
+the strengthened licence: what may a proof assume if even that is
+too little, because showing $P(n)$ genuinely needs the earlier
+values? State the assumption precisely, and ask what happens at the
+very first number, where there is nothing smaller at all.
 
-*Proof.* Suppose $P$ fails somewhere. By well-ordering (applied to
-the nonempty set of counting numbers where $P$ fails), there is a
-least $n$ with $\neg P(n)$. Then $P(k)$ holds for every $k < n$ (any
-failure $k$ would be smaller than the least failure $n$). The
-hypothesis gives $P(n)$, contradicting minimality. $\blacksquare$
+<details class="wn-spoiler">
+<summary>Compare your construction</summary>
+<div class="wn-spoiler-body">
+
+The strengthened hypothesis is a *bundle*: assume $P$ holds of every
+counting number smaller than $n$, all of them at once, not just
+the predecessor. Two subtleties must be made rigorous. First, at
+$n = 0$ there are no smaller numbers, so the bundle is empty and
+the step has to deliver $P(0)$ on its own: a strong induction needs
+no separate base case, but only because the supposition covers the
+base for free. Second, "smaller than $n$" needs the order, which
+Section 3 defines; until then, read $k < n$ as "$k$ is reached
+before $n$ in the next-moves". The axiom licence that makes the
+bundle hypothesis sufficient is well-ordering, proved above.
+
+</div>
+</details>
+
+**Theorem (strong induction).** Let $P$ be a proposition about
+counting numbers. Suppose that for every counting number $n$: **if**
+$P$ holds of every counting number $k$ with $k < n$, **then** $P$
+holds of $n$. Under this supposition alone (no separate base case
+needed), $P$ holds of every counting number.
+
+*Proof.* Suppose, for contradiction, that $P$ fails somewhere, and
+let $F := \{n \in \mathbb{N} : P \text{ fails at } n\}$: a
+nonempty set of counting numbers. By well-ordering, $F$ has a least
+member $n_0$. Every counting number $k < n_0$ lies outside $F$: a
+failure at $k$ would be a failure smaller than the least failure.
+So $P$ holds of every $k < n_0$, which is exactly the bundle
+hypothesis; the supposition, applied at $n_0$, delivers $P(n_0)$.
+But $n_0 \in F$ says $P$ fails at $n_0$: contradiction. So $F$ is
+empty, and $P$ holds of every counting number. $\blacksquare$
+
+*In words:* if $P$ fails anywhere, well-ordering hands you the
+*first* failure; the bundle hypothesis says everything before the
+first failure is fine, and the supposition says the first failure
+cannot be a failure. Least-counterexample reasoning is the same
+engine that proved Stage B's division theorem, and it is the shape
+Stage D generalises into transfinite induction.
+
+**Remark (the two inductions compared).** Ordinary induction is the
+special case where the step consults only the immediate predecessor:
+$P(S(n))$ needs $P(n)$, which is one member of the bundle. Conversely,
+strong induction follows from ordinary induction by proving the
+auxiliary statement "$P$ holds of every $k < n$" for increasing $n$
+(quick check 6 runs the well-ordering route; the auxiliary route is
+the same chase with one more layer). Each licence implies the other.
+Reach for strong induction when the step genuinely needs *all*
+smaller values: Section 4's division theorem splits $n$ into
+arbitrary smaller pieces, so its proof assumes the claim on all of
+them.
 
 Strong induction is the version Stage D will generalise into
 transfinite induction, and Section 4's division theorem is its first
@@ -201,7 +258,8 @@ outing.
 4. Prove: every nonzero counting number is a successor (induction on
    $n$, property "$n = 0$ or $n = S(k)$").
 5. State well-ordering.
-6. Prove strong induction from well-ordering.
+6. State strong induction's supposition precisely, and explain why
+   it needs no separate base case.
 7. In the well-ordering proof, what is the property $P(n)$, and what
    contradiction closes it?
 8. Why does induction need *no other cases* beyond $P(0)$ and
@@ -219,10 +277,12 @@ Game: the start is never revisited, and next-moves never collide.
 from one horse to two (the overlap is empty). **4.** Property "$n =
 0$ or $n = S(k)$"; $P(0)$ trivial; $P(n) \to P(S(n))$ by the second
 branch; induction. **5.** Every nonempty set of counting numbers has
-a least element. **6.** If $P$ fails, well-ordering gives a least
-failure, whose "all smaller hold" contradicts the step hypothesis.
+a least element. **6.** Supposition: for every $n$, if $P$ holds of
+every $k < n$, then $P$ holds of $n$. No base case is needed: at
+$n = 0$ the bundle of smaller numbers is empty, so the supposition
+itself delivers $P(0)$.
 **7.** $P(n)$ := "no member of $X$ is $\leq n$"; the contradiction
-is that $X$ is both nonempty and empty. **8.** Axiom 5: every
+is that $X$ is both nonempty and empty. **8.** Declaration 5: every
 counting number is reached by finitely many next-moves from $0$, so
 closing base and step closes everything.
 
@@ -834,7 +894,7 @@ results and require full written arguments.
    $\leq$: if $a \leq b$ and $b \leq a$, then $a = b$.
    *(Hint: for the cancellation base case, $c = 0$ gives $a + 0 = b + 0$, which is $a = b$ by the base line. The step: $a + S(c) =
    b + S(c)$ gives $S(a + c) = S(b + c)$, hence $a + c = b + c$ by
-   Peano's fourth declaration, and the induction hypothesis
+   Declaration 4, and the induction hypothesis
    finishes.)*
 2. Prove $\leq$ is a **total order**: every pair is comparable. Do
    it by induction on $a$, with the case $a = 0$ immediate, and the
