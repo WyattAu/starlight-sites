@@ -273,9 +273,13 @@ stays $1 - 1/(k+1)$), the ladder's standing specimen.
    nonnegative one.
 2. State monotone convergence, and what theorem it generalises from
    Stage G.
-3. Compute $\int D$ and say which inequality made it possible.
-4. Order the ladder's modes by implication, and give the standing
-   counterexample.
+3. Compute $\int D$, where $D := \mathbf{1}_{\mathbb{Q} \cap [0, 1]}$
+   is Section 2's Dirichlet indicator, and say which property of the
+   rationals' measure makes the answer what it is.
+4. Order the three convergence modes (almost everywhere, in
+   measure, in $L^1$) by implication, and give the standing
+   counterexample $f_k(t) = t^k$ on $[0, 1]$: which modes hold for
+   it and which fail?
 5. State dominated convergence, and what lemma proves it.
 6. Compute $\int \mathbf{1}_{\text{irrationals}}$ on $[0, 1]$.
 7. Prove the integral is monotone: $f \leq g$ implies $\int f

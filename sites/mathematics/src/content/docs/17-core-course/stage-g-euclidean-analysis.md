@@ -284,16 +284,16 @@ continuity.
 
 1. State continuity at a point as a limit contract.
 2. State the sequential test.
-3. In the monster $g$, compute the limit along $y = 2x$ and compare
-   with the diagonal.
+3. In the monster $g = xy/(x^2 + y^2)$ (with $g(0, 0) := 0$),
+   compute the limit along $y = 2x$ and compare with the diagonal.
 4. Where does $g$'s coordinatewise continuity hold, and what does
    the example prove?
 5. Give the multivariable limit laws (sums, products, compositions
    with continuous functions).
 6. Prove $f(x, y) = xy$ is continuous at the origin by the
    contract.
-7. Compute the monster $g$ along the parabola $y = x^2$ and compare
-   with the earlier paths.
+7. Compute $g(t, t^2)$ for $g = xy/(x^2 + y^2)$ and compare with
+   the axis and diagonal paths.
 8. State the composition law for continuous functions.
 
 <details class="wn-spoiler">
@@ -369,13 +369,13 @@ directions out of infinitely many.
 2. Prove uniqueness of the approximating linear map.
 3. Compute the Jacobian of $f(x, y) = (xy, x + y)$ at $(1, 2)$.
 4. Why does the existence of all partials not give
-   differentiability, by the monster?
+   differentiability, by the function $g = xy/(x^2 + y^2)$?
 5. What does differentiability at $p$ imply about continuity at $p$,
    and why?
 6. Compute both partial derivatives of $f(x, y) = (x^2 y, y^3)$
    at the origin.
-7. Why is the zero map the only candidate Jacobian for the monster
-   $g$ at the origin, and what refutes it?
+7. Why is the zero map the only candidate Jacobian for $g =
+   xy/(x^2 + y^2)$ at the origin, and what refutes it?
 8. State what differentiability implies, and what it does not,
    about partial derivatives.
 

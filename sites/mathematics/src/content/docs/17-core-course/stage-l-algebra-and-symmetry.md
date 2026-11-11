@@ -259,8 +259,9 @@ by halving degrees. $\blacksquare$
 5. State the two classical impossibilities and the degree that
    kills each.
 6. Compute the Galois group of $x^2 - 3$ over $\mathbb{Q}$.
-7. Confirm the swap table of $x^4 - 2$ is $\mathbb{Z}/4$, by the
-   Ponder's multiplication logic.
+7. The roots of $x^4 - 2$ are $r, ir, -r, -ir$ with $r =
+   \sqrt[4]{2}$: confirm that choosing $r \mapsto i^j r$ forces the
+   images of the other three, so the Galois group is $\mathbb{Z}/4$.
 8. State the tower law: what happens to degrees along a tower of
    fields?
 

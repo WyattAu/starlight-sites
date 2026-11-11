@@ -162,8 +162,9 @@ dimensions, and it is not negotiable, as Section 1's monster showed.
 3. Where do equicontinuity and density each enter the promotion
    step?
 4. Where does the completeness of $\mathcal{C}[0,1]$ enter?
-5. State the monster's role: what does it rule out about the
-   theorem?
+5. State what the family $f_k(t) = t^k$ rules out about
+   Arzelà-Ascoli: which of the two hypotheses could not be dropped,
+   and what does the family do that violates it?
 6. Why must the dense set be countable for the diagonal argument?
 7. Where is Bolzano-Weierstrass used, and on what space?
 8. State the subsequence-of-subsequence bookkeeping in one sentence.

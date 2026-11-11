@@ -23409,8 +23409,9 @@ dimensions, and it is not negotiable, as Section 1's monster showed.
 3. Where do equicontinuity and density each enter the promotion
    step?
 4. Where does the completeness of $\mathcal{C}[0,1]$ enter?
-5. State the monster's role: what does it rule out about the
-   theorem?
+5. State what the family $f_k(t) = t^k$ rules out about
+   Arzelà-Ascoli: which of the two hypotheses could not be dropped,
+   and what does the family do that violates it?
 6. Why must the dense set be countable for the diagonal argument?
 7. Where is Bolzano-Weierstrass used, and on what space?
 8. State the subsequence-of-subsequence bookkeeping in one sentence.
@@ -28852,16 +28853,16 @@ continuity.
 
 1. State continuity at a point as a limit contract.
 2. State the sequential test.
-3. In the monster $g$, compute the limit along $y = 2x$ and compare
-   with the diagonal.
+3. In the monster $g = xy/(x^2 + y^2)$ (with $g(0, 0) := 0$),
+   compute the limit along $y = 2x$ and compare with the diagonal.
 4. Where does $g$'s coordinatewise continuity hold, and what does
    the example prove?
 5. Give the multivariable limit laws (sums, products, compositions
    with continuous functions).
 6. Prove $f(x, y) = xy$ is continuous at the origin by the
    contract.
-7. Compute the monster $g$ along the parabola $y = x^2$ and compare
-   with the earlier paths.
+7. Compute $g(t, t^2)$ for $g = xy/(x^2 + y^2)$ and compare with
+   the axis and diagonal paths.
 8. State the composition law for continuous functions.
 
 <details class="wn-spoiler">
@@ -28937,13 +28938,13 @@ directions out of infinitely many.
 2. Prove uniqueness of the approximating linear map.
 3. Compute the Jacobian of $f(x, y) = (xy, x + y)$ at $(1, 2)$.
 4. Why does the existence of all partials not give
-   differentiability, by the monster?
+   differentiability, by the function $g = xy/(x^2 + y^2)$?
 5. What does differentiability at $p$ imply about continuity at $p$,
    and why?
 6. Compute both partial derivatives of $f(x, y) = (x^2 y, y^3)$
    at the origin.
-7. Why is the zero map the only candidate Jacobian for the monster
-   $g$ at the origin, and what refutes it?
+7. Why is the zero map the only candidate Jacobian for $g =
+   xy/(x^2 + y^2)$ at the origin, and what refutes it?
 8. State what differentiability implies, and what it does not,
    about partial derivatives.
 
@@ -29782,9 +29783,13 @@ stays $1 - 1/(k+1)$), the ladder's standing specimen.
    nonnegative one.
 2. State monotone convergence, and what theorem it generalises from
    Stage G.
-3. Compute $\int D$ and say which inequality made it possible.
-4. Order the ladder's modes by implication, and give the standing
-   counterexample.
+3. Compute $\int D$, where $D := \mathbf{1}_{\mathbb{Q} \cap [0, 1]}$
+   is Section 2's Dirichlet indicator, and say which property of the
+   rationals' measure makes the answer what it is.
+4. Order the three convergence modes (almost everywhere, in
+   measure, in $L^1$) by implication, and give the standing
+   counterexample $f_k(t) = t^k$ on $[0, 1]$: which modes hold for
+   it and which fail?
 5. State dominated convergence, and what lemma proves it.
 6. Compute $\int \mathbf{1}_{\text{irrationals}}$ on $[0, 1]$.
 7. Prove the integral is monotone: $f \leq g$ implies $\int f
@@ -31005,8 +31010,9 @@ by halving degrees. $\blacksquare$
 5. State the two classical impossibilities and the degree that
    kills each.
 6. Compute the Galois group of $x^2 - 3$ over $\mathbb{Q}$.
-7. Confirm the swap table of $x^4 - 2$ is $\mathbb{Z}/4$, by the
-   Ponder's multiplication logic.
+7. The roots of $x^4 - 2$ are $r, ir, -r, -ir$ with $r =
+   \sqrt[4]{2}$: confirm that choosing $r \mapsto i^j r$ forces the
+   images of the other three, so the Galois group is $\mathbb{Z}/4$.
 8. State the tower law: what happens to degrees along a tower of
    fields?
 
