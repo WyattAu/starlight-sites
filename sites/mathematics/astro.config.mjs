@@ -87,6 +87,10 @@ export default defineConfig({
             { label: '3C: Differential Forms', slug: '17-core-course/3c-forms' },
             { label: '3D: Stokes', slug: '17-core-course/3d-stokes' },
             {
+              label: 'J6-J7: Submanifolds and Curvature',
+              slug: '17-core-course/j6-j7-geometry',
+            },
+            {
               label: 'Stage K: Complex Analysis',
               slug: '17-core-course/stage-k-complex-analysis',
             },

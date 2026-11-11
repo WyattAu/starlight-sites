@@ -216,8 +216,8 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | J3 | Differential forms and the exterior derivative (debt: clairaut-mixed-partials → G5) | written |
 | J4 | Partitions of unity | written |
 | J5 | Integration, orientation, and Stokes (debt: fubini-theorem → I5, change-of-variables-formula → I5, partitions-of-unity-existence → J4) | written |
-| J6 | Submanifolds, immersions, regular level sets | queued |
-| J7 | Connections, curvature, and geodesics | queued |
+| J6 | Submanifolds, immersions, regular level sets | written |
+| J7 | Connections, curvature, and geodesics | written |
 | **Stage K: Complex analysis** | *Holomorphy, Cauchy, residues, and the FTA proved: the ledger closes.* | |
 | K1 | Holomorphy: complex differentiability and its rigidity | written |
 | K2 | Complex integration, Cauchy's theorem, residues | written |

@@ -967,8 +967,8 @@
         "J2",
         "G6"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "j6-j7-geometry.md",
       "declaredInputs": []
     },
     {
@@ -979,8 +979,8 @@
         "J2",
         "J3"
       ],
-      "status": "queued",
-      "file": null,
+      "status": "written",
+      "file": "j6-j7-geometry.md",
       "declaredInputs": []
     },
     {

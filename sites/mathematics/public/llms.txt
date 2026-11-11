@@ -121,6 +121,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [H4 Approximation And Compactness](https://mathematics.wyattau.com/17-core-course/h4-approximation-and-compactness/)
 - [H5 Quotient Topology](https://mathematics.wyattau.com/17-core-course/h5-quotient-topology/)
 - [Index](https://mathematics.wyattau.com/17-core-course/)
+- [J6 J7 Geometry](https://mathematics.wyattau.com/17-core-course/j6-j7-geometry/)
 - [Stage A Reasoning](https://mathematics.wyattau.com/17-core-course/stage-a-reasoning/)
 - [Stage B Counting](https://mathematics.wyattau.com/17-core-course/stage-b-counting/)
 - [Stage C Expanding The Line](https://mathematics.wyattau.com/17-core-course/stage-c-expanding-the-line/)
