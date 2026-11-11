@@ -273,7 +273,7 @@ uniform closeness of the expected value to $f(t)$.
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
 
-**1.** $B_1(f)(t) = f(0)(1-t) + f(1)t = t$, missing the graph by $t(1-t)$; $B_2(f)(t) = 0 \cdot (1-t)^2 + 2 \cdot \frac{1}{4} \cdot t(1-t) + t^2 = \frac{t}{2} + \frac{t^2}{2}$, missing by $\frac{t(1-t)}{2}$: the miss halves, and in general $B_n(t^2) = t^2 + \frac{t(1-t)}{n}$, so the error dies like $1/n$.
+**1.** $B_1(f)(t) = f(0)(1-t) + f(1)t = t$, missing the graph by $t(1-t)$; $B_2(f)(t) = 0 \cdot (1-t)^2 + 2 \cdot \frac{1}{4} \cdot t(1-t) + t^2 = \frac{t}{2} + \frac{t^2}{2}$, missing by $\frac{t(1-t)}{2}$: the miss halves, and for every $n$: $B_n(t^2) = t^2 + \frac{t(1-t)}{n}$, so the error dies like $1/n$.
 **2.** $(t + (1-t))^n = \sum_k B(n,k) t^k (1-t)^{n-k} = 1$: Stage
 B's binomial law. **3.** One $\delta$ must serve every $t$
 simultaneously, since the concentration estimate is uniform in $t$;
