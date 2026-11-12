@@ -32064,8 +32064,8 @@ chosen, and the lifting theorem (proved from the uniqueness of
 lifts by a connectedness chase) is what powers the winding
 number. **Van Kampen's theorem** computes fundamental groups of
 unions: if $X = U \cup V$ with $U, V$ open and the
-intersection's fundamental group known (the simply connected case
-is the cleanest), handled by the amalgamated-product construction from
+intersection's loops all contractible (the cleanest case for the
+amalgamation), handled by the amalgamated-product construction from
 Stage L's groups, then $\pi_1(X)$ is built from $\pi_1(U)$ and
 $\pi_1(V)$ with the overlaps' relations imposed. It computes the
 wedge of two circles as the free group on two generators: the
