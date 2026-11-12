@@ -136,7 +136,7 @@ number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
 The full course is 89 chapters across 15 dependency stages, from
 logic to the research frontier, with
-84 written. The graph is machine-checked: `docs/course-graph.json` is
+89 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order and that the dependency graph is
@@ -245,11 +245,11 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | N6 | Riemannian geometry: Hopf-Rinow, Gauss-Bonnet, comparison | written |
 | N7 | Representation theory: characters and Peter-Weyl | written |
 | **Stage O: Probability at research level** | *Martingales, Brownian motion, the Ito calculus, and the diffusion bridge to PDE.* | |
-| O1 | Martingales and optional stopping | queued |
-| O2 | Brownian motion: construction, invariance, pathologies | queued |
-| O3 | The Ito calculus | queued |
-| O4 | Stochastic differential equations and Feynman-Kac | queued |
-| O5 | Martingale representation, Girsanov, and the risk-neutral measure | queued |
+| O1 | Martingales and optional stopping | written |
+| O2 | Brownian motion: construction, invariance, pathologies | written |
+| O3 | The Ito calculus | written |
+| O4 | Stochastic differential equations and Feynman-Kac | written |
+| O5 | Martingale representation, Girsanov, and the risk-neutral measure | written |
 
 </div>
 

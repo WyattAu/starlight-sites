@@ -1304,8 +1304,8 @@
         "I6",
         "I8"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-o-probability-at-research-level.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Conditional expectation as the engine; filtrations; the optional sampling theorem; upcrossing inequalities."
     },
@@ -1318,8 +1318,8 @@
         "I5",
         "H1"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-o-probability-at-research-level.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Kolmogorov's extension theorem; Donsker's invariance principle as a statement; continuous paths that are nowhere differentiable."
     },
@@ -1331,8 +1331,8 @@
         "O2",
         "I4"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-o-probability-at-research-level.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Quadratic variation as the obstruction to the ordinary chain rule; the Ito integral; Ito's formula."
     },
@@ -1345,16 +1345,16 @@
         "G9",
         "M6"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-o-probability-at-research-level.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Existence and uniqueness by Picard iteration - G9 returns; the diffusion semigroup solves the PDE, and Feynman-Kac fuses the course's two halves: analysis and probability are one subject."
     },
     {
       "id": "O5",
       "stage": "O",
-      "file": null,
-      "status": "queued",
+      "file": "stage-o-probability-at-research-level.md",
+      "status": "written",
       "title": "Martingale representation, Girsanov, and the risk-neutral measure",
       "declaredInputs": [],
       "deps": [

@@ -106,6 +106,10 @@ export default defineConfig({
               label: 'Stage N: Topology and Geometry',
               slug: '17-core-course/stage-n-topology-and-geometry',
             },
+            {
+              label: 'Stage O: Probability at Research Level',
+              slug: '17-core-course/stage-o-probability-at-research-level',
+            },
           ],
           collapsed: false,
         },
