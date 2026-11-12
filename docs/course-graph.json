@@ -1209,8 +1209,8 @@
         "H2",
         "L1"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-n-topology-and-geometry.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Loops modulo homotopy as a group; the circle's group computed; Van Kampen's theorem."
     },
@@ -1222,8 +1222,8 @@
         "L2",
         "F1"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-n-topology-and-geometry.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Abelian categories as the abstract habitat of exact sequences, stated as a remark; the concrete categories of modules carry the chapter."
     },
@@ -1236,8 +1236,8 @@
         "H2",
         "L2"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-n-topology-and-geometry.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Higher homotopy groups are defined and their computability gap stated honestly: computations beyond this course are research."
     },
@@ -1249,8 +1249,8 @@
         "J5",
         "N3"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-n-topology-and-geometry.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "The Poincare lemma; the degree of a map; Poincare duality on oriented manifolds; the de Rham theorem stated."
     },
@@ -1263,8 +1263,8 @@
         "J3",
         "N4"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-n-topology-and-geometry.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Chern-Weil theory: curvature integrates into cohomology classes that see the topology of the bundle."
     },
@@ -1277,8 +1277,8 @@
         "H3",
         "N4"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-n-topology-and-geometry.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Geodesic completeness equals topological completeness; Gauss-Bonnet as the marriage of curvature and topology; comparison geometry's triangle intuitions made theorems."
     },
@@ -1291,8 +1291,8 @@
         "M2",
         "I7"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-n-topology-and-geometry.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Fourier generalised: irreducible representations as the modes of a group. Finite groups by characters; compact groups by Peter-Weyl."
     },

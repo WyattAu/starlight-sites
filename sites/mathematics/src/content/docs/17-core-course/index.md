@@ -136,7 +136,7 @@ number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
 The full course is 89 chapters across 15 dependency stages, from
 logic to the research frontier, with
-77 written. The graph is machine-checked: `docs/course-graph.json` is
+84 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order and that the dependency graph is
@@ -237,13 +237,13 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | M6 | Elliptic theory: the Laplacian, Fredholm, and regularity | written |
 | M7 | Unbounded operators, the spectral theorem, and Stone's theorem | written |
 | **Stage N: Topology and geometry at research level** | *Homotopy, homological algebra, homology, de Rham cohomology, characteristic classes, Riemannian geometry, representations.* | |
-| N1 | The fundamental group, covering spaces, and Van Kampen | queued |
-| N2 | Homological algebra: chain complexes, derived functors, Ext and Tor | queued |
-| N3 | Homology: simplicial and singular | queued |
-| N4 | de Rham cohomology: Stokes as an isomorphism | queued |
-| N5 | Fibre bundles, connections, and characteristic classes | queued |
-| N6 | Riemannian geometry: Hopf-Rinow, Gauss-Bonnet, comparison | queued |
-| N7 | Representation theory: characters and Peter-Weyl | queued |
+| N1 | The fundamental group, covering spaces, and Van Kampen | written |
+| N2 | Homological algebra: chain complexes, derived functors, Ext and Tor | written |
+| N3 | Homology: simplicial and singular | written |
+| N4 | de Rham cohomology: Stokes as an isomorphism | written |
+| N5 | Fibre bundles, connections, and characteristic classes | written |
+| N6 | Riemannian geometry: Hopf-Rinow, Gauss-Bonnet, comparison | written |
+| N7 | Representation theory: characters and Peter-Weyl | written |
 | **Stage O: Probability at research level** | *Martingales, Brownian motion, the Ito calculus, and the diffusion bridge to PDE.* | |
 | O1 | Martingales and optional stopping | queued |
 | O2 | Brownian motion: construction, invariance, pathologies | queued |

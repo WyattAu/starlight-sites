@@ -102,6 +102,10 @@ export default defineConfig({
               label: 'Stage M: The Functional Summit',
               slug: '17-core-course/stage-m-the-functional-summit',
             },
+            {
+              label: 'Stage N: Topology and Geometry',
+              slug: '17-core-course/stage-n-topology-and-geometry',
+            },
           ],
           collapsed: false,
         },
