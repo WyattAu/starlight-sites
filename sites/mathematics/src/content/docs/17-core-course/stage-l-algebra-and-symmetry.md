@@ -500,10 +500,8 @@ results and require full written arguments.
 
 Symmetry is now algebra, equations are now read through their
 groups, and the geometries are now choices with their own motion
-groups. **Stage M (The functional summit)** is queued; its home is
-the [Course Map](/17-core-course/): Banach and Hilbert spaces,
-where 2B's completeness and Stage I's $L^p$ meet their final
-structure, and where the four pillars the course has been naming
-since 2B are proved.
+groups. **Stage M: The Functional Summit** now builds the space those
+symmetries act on: Banach and Hilbert spaces, the four pillars, the
+spectral theorem, and the equation-solving architecture.
 
-**Next: the [Course Map](/17-core-course/), and Stage M beyond it.**
+**Next: [Stage M: The Functional Summit](/17-core-course/stage-m-the-functional-summit/).**

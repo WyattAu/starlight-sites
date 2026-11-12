@@ -1107,8 +1107,8 @@
         "H3",
         "I4"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-m-the-functional-summit.md",
+      "status": "written",
       "declaredInputs": [
         {
           "input": "zorn-lemma",
@@ -1126,8 +1126,8 @@
         "M1",
         "F8"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-m-the-functional-summit.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "The infinite-dimensional completion of F8: compact operators, the Fredholm alternative, eigenfunction expansions. Sturm-Liouville as the first instance."
     },
@@ -1139,8 +1139,8 @@
         "M1",
         "I7"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-m-the-functional-summit.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Banach-Alaoglu; weak and weak-* convergence; the Schwartz space with the Fourier transform as an automorphism of it; distributions as its dual, and the derivative extended to all of them."
     },
@@ -1153,8 +1153,8 @@
         "M2",
         "K2"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-m-the-functional-summit.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "The spectral radius via Liouville (K2 pays again); characters and the Gelfand transform; commutative C*-algebras are algebras of continuous functions: Gelfand-Naimark."
     },
@@ -1167,8 +1167,8 @@
         "I4",
         "I5"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-m-the-functional-summit.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "The regularity ladder: weak derivatives, Sobolev embedding, traces; why elliptic equations are solved in these spaces."
     },
@@ -1181,16 +1181,16 @@
         "M2",
         "J5"
       ],
-      "file": null,
-      "status": "queued",
+      "file": "stage-m-the-functional-summit.md",
+      "status": "written",
       "declaredInputs": [],
       "note": "Weak solutions become smooth; the Laplacian's spectrum as the infinite spectral theorem in action; Hodge theory on the horizon."
     },
     {
       "id": "M7",
       "stage": "M",
-      "file": null,
-      "status": "queued",
+      "file": "stage-m-the-functional-summit.md",
+      "status": "written",
       "title": "Unbounded operators, the spectral theorem, and Stone's theorem",
       "declaredInputs": [],
       "deps": [

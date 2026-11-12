@@ -136,7 +136,7 @@ number line before algebra, algebra before structure, structure before the
 continuum, and the continuum before everything that measures it.
 The full course is 89 chapters across 15 dependency stages, from
 logic to the research frontier, with
-70 written. The graph is machine-checked: `docs/course-graph.json` is
+77 written. The graph is machine-checked: `docs/course-graph.json` is
 validated for acyclicity and order-consistency on every push, and the same
 data generates a Lean 4 proof, checked in CI, that every dependency of every
 chapter descends the course order and that the dependency graph is
@@ -229,13 +229,13 @@ acyclic: no chapter can reach itself through any chain of prerequisites.
 | L4 | Lie groups and group actions | written |
 | L5 | Geometry: the fifth postulate, its collapse, and symmetry as geometry | written |
 | **Stage M: The functional summit** | *Functional analysis to elliptic PDE: Banach and Hilbert spaces, distributions, Sobolev, the Laplacian's spectrum.* | |
-| M1 | Banach spaces and the four pillars (debt: zorn-lemma → D6) | queued |
-| M2 | Hilbert spaces and the spectral theorem for compact operators | queued |
-| M3 | Weak topologies, locally convex spaces, and distributions | queued |
-| M4 | Banach algebras, the Gelfand spectrum, and C*-algebras | queued |
-| M5 | Sobolev spaces and weak derivatives | queued |
-| M6 | Elliptic theory: the Laplacian, Fredholm, and regularity | queued |
-| M7 | Unbounded operators, the spectral theorem, and Stone's theorem | queued |
+| M1 | Banach spaces and the four pillars (debt: zorn-lemma → D6) | written |
+| M2 | Hilbert spaces and the spectral theorem for compact operators | written |
+| M3 | Weak topologies, locally convex spaces, and distributions | written |
+| M4 | Banach algebras, the Gelfand spectrum, and C*-algebras | written |
+| M5 | Sobolev spaces and weak derivatives | written |
+| M6 | Elliptic theory: the Laplacian, Fredholm, and regularity | written |
+| M7 | Unbounded operators, the spectral theorem, and Stone's theorem | written |
 | **Stage N: Topology and geometry at research level** | *Homotopy, homological algebra, homology, de Rham cohomology, characteristic classes, Riemannian geometry, representations.* | |
 | N1 | The fundamental group, covering spaces, and Van Kampen | queued |
 | N2 | Homological algebra: chain complexes, derived functors, Ext and Tor | queued |

@@ -131,6 +131,7 @@ All pages are open-access, ad-free, and licensed under AGPLv3.
 - [Stage I Measure](https://mathematics.wyattau.com/17-core-course/stage-i-measure/)
 - [Stage K Complex Analysis](https://mathematics.wyattau.com/17-core-course/stage-k-complex-analysis/)
 - [Stage L Algebra And Symmetry](https://mathematics.wyattau.com/17-core-course/stage-l-algebra-and-symmetry/)
+- [Stage M The Functional Summit](https://mathematics.wyattau.com/17-core-course/stage-m-the-functional-summit/)
 
 ## Linear-Algebra
 

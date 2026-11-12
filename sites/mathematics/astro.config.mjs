@@ -98,6 +98,10 @@ export default defineConfig({
               label: 'Stage L: Algebra and Symmetry',
               slug: '17-core-course/stage-l-algebra-and-symmetry',
             },
+            {
+              label: 'Stage M: The Functional Summit',
+              slug: '17-core-course/stage-m-the-functional-summit',
+            },
           ],
           collapsed: false,
         },
