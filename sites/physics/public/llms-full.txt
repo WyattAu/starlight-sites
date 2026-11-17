@@ -2170,6 +2170,17 @@ Newton's second law states that the net force on an object equals its mass times
 
 The first law is the special case of zero net force: the object's state of motion does not change. The third law states that every force has an equal and opposite counterpart: when A pushes B, B pushes A with the same force in the opposite direction. The conservation laws -- of momentum, energy, and angular momentum -- follow from these principles applied to isolated systems. They are the reason we can predict the outcome of a collision without knowing every microscopic detail: the conserved quantities constrain the outcome regardless of complexity.
 
+**Ponder 1 (the two forms of the second law).** The law is stated twice above: $\mathbf{F} = m\mathbf{a}$ and $\mathbf{F} = \dot{\mathbf{p}}$. For constant mass they agree. Attempt to invent a physical situation where they disagree, and decide which form is the true law.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+They disagree whenever mass changes: a rocket losing fuel, a raindrop accreting vapour. $\mathbf{F} = m\mathbf{a}$ then fails while $\mathbf{F} = \dot{\mathbf{p}}$ still holds, because momentum carries the mass factor inside the derivative. The true law is the momentum form; $\mathbf{F} = m\mathbf{a}$ is its constant-mass corollary, and Section 1.8's rocket equation lives entirely inside that distinction.
+
+</div>
+</details>
+
 ### 1.1 Newton's Laws
 
 1. **First Law (Inertia):** A body remains at rest or in uniform motion unless acted upon by a net
@@ -2254,6 +2265,17 @@ $$
 $$
 
 The period is $T = 2\pi/\omega = 2\pi\sqrt{l\cos\theta/g}$. $\blacksquare$
+
+**Ponder (attempt the derivation).** Before reading: attempt to derive momentum conservation for two interacting bodies from the third law alone. Write $\dot{\mathbf{p}}_1 = \mathbf{F}_{12}$ and $\dot{\mathbf{p}}_2 = \mathbf{F}_{21}$, apply the third law, and see what single step delivers $\dot{\mathbf{p}}_1 + \dot{\mathbf{p}}_2 = 0$.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Add the two equations: $\dot{\mathbf{p}}_1 + \dot{\mathbf{p}}_2 = \mathbf{F}_{12} + \mathbf{F}_{21} = 0$ by the third law ($\mathbf{F}_{21} = -\mathbf{F}_{12}$). The total momentum is constant. The single step is Newton's third law itself: conservation of momentum is the third law restated for a closed system, which is why it survives even when the forces are complicated or unknown.
+
+</div>
+</details>
 
 ### 1.5 Conservation of Linear Momentum
 
@@ -2347,6 +2369,17 @@ $$
 If $\boldsymbol{\tau}^{(\mathrm{ext})} = \mathbf{0}$ Then $\mathbf{L} = \mathrm{const}$.
 $\blacksquare$
 
+**Ponder 1 (attempt the dissection).** The rocket accelerates in empty space with nothing external to push against. Ordinary intuition says motion needs something to push on. Attempt the dissection: what IS the rocket pushing on, and why does the answer rescue momentum conservation?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The rocket pushes on its own expelled fuel. The expelled mass carries momentum backwards, and the rocket plus remaining fuel carries equal momentum forwards: total momentum stays zero exactly as conservation demands. The intuition fails because it pictures the rocket alone; the closed system is rocket-plus-exhaust. The rocket equation (this section) quantifies the trade: each kilogram of propellant expelled at velocity $v_e$ buys $\Delta v = v_e \ln(m_0/m_f)$ of velocity for the vehicle.
+
+</div>
+</details>
+
 ### 1.8 The Rocket Equation
 
 **Definition.** The **rocket equation** (Tsiolkovsky equation) describes the motion of a rocket that
@@ -2408,6 +2441,17 @@ $$
 
 $\blacksquare$
 
+</details>
+
+**Ponder (attempt the counting).** Two identical masses collide elastically, one initially at rest. Before reading the worked example: attempt to count what is known and unknown after the collision, and decide whether the final state is fully determined.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Four unknowns (two velocity components per particle) against three conservation equations: two momentum components plus kinetic energy. One degree of freedom remains, so the outcome is a one-parameter family, not a single answer: the scattering angle is free, and the final speeds depend on it. The worked example's value is seeing that the counting, not the computation, is the physics.
+
+</div>
 </details>
 
 ### 1.10 Worked Example: Elastic Collision in Two Dimensions
@@ -2577,6 +2621,56 @@ Kinetic friction opposes the direction of motion relative to the surface, not th
 
 **Mistake 3: Forgetting that Newton's third law pairs act on different objects**
 The action-reaction pair in Newton's third law always acts on different objects. If object A exerts a force on object B, then object B exerts an equal and opposite force on object A. These forces do not cancel because they act on different bodies. A frequent mistake is adding action-reaction forces together and concluding the net force is zero.
+
+:::note[Quick check]
+
+1. State Newton's three laws, and give the form of the second law
+   that survives variable mass.
+2. In polar coordinates, which extra acceleration terms appear, and
+   which motion produces them?
+3. For a block on an incline with friction, attempt the failure
+   condition: at which angle does the block begin to slide?
+4. State the conical pendulum's geometry, and what determines its
+   period.
+5. Derive momentum conservation for two interacting bodies from the
+   third law in two lines.
+6. A ball dropped from height $h$ rebounds to $h/2$. What fraction
+   of its kinetic energy did the collision remove, and is the
+   collision elastic?
+7. State the rocket equation, and what happens to $\Delta v$ as the
+   fuel fraction shrinks toward zero?
+8. In an elastic collision between identical masses where one
+   starts at rest, prove the final velocities are perpendicular.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Inertia: rest or uniform motion without net force; $\mathbf{F}
+= \dot{\mathbf{p}}$ (or $m\mathbf{a}$ for constant mass); equal and
+opposite reaction. The momentum form survives variable mass.
+**2.** Radial ($-v^2/r$ toward the centre) and transverse terms:
+circular motion produces the centripetal term. **3.** Sliding
+begins when the gravity component along the incline,
+$mg\sin\theta$, exceeds the maximum static friction
+$\mu_s mg\cos\theta$: the critical angle satisfies $\tan\theta_c
+= \mu_s$. **4.** The bob sweeps a cone with the string at constant
+angle $\theta$ from vertical; the period is $2\pi\sqrt{L
+\cos\theta / g}$. **5.** $\dot{\mathbf{p}}_1 + \dot{\mathbf{p}}_2
+= \mathbf{F}_{12} + \mathbf{F}_{21} = 0$ by the third law.
+**6.** Half the kinetic energy is removed; the collision is
+inelastic. **7.** $\Delta v = v_e \ln(m_0/m_f)$; as $m_f
+\to m_0$ (no fuel burnt) $\Delta v \to 0$, and the logarithm is
+why staging exists. **8.** With equal masses, energy conservation
+plus momentum conservation in two dimensions forces the outgoing
+velocities to be perpendicular: writing the momentum and energy
+equations and squaring the momentum one gives
+$\mathbf{v}_1 \cdot \mathbf{v}_2 = 0$.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
