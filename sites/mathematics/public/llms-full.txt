@@ -29163,6 +29163,17 @@ coordinate folds the line, and no neighbourhood of a point on the
 fold is injective). What data about $Df(p)$ decides whether $f$ is
 invertible near $p$, with a differentiable inverse?
 
+**Ponder 1 (attempt the one-dimensional reading).** The map $f(x) := x^2$ is locally invertible near $x = 1$ and near $x = -1$, but not near $0$. Attempt to read the decision off the derivative, and then generalise: what should the condition be for a plane map?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Near $1$: $f' = 2 \neq 0$, the map is locally one-to-one with inverse $\sqrt{y}$ (smooth off $0$). Near $0$: $f' = 0$ and the fold appears. The condition in the plane: $\det Df(p) \neq 0$: the derivative must be an invertible linear map, the exact generalisation of a nonzero slope.
+
+</div>
+</details>
+
 **Theorem (inverse function theorem).** Let $f: \mathbb{R}^n \to
 \mathbb{R}^n$ be $C^1$ near $p$. If $\det Df(p) \neq 0$, then there
 are neighbourhoods $U$ of $p$ and $W$ of $f(p)$ such that $f: U \to
@@ -29913,6 +29924,17 @@ dominator gives $L^1$ convergence; Fatou's lemma proves it.
 
 ## 4. L^p Spaces: Norms and Completeness
 
+**Ponder 1 (attempt the exponent pairing).** The Hölder bound $\int |fg| \leq \|f\|_p \|g\|_q$ pairs the exponents $p$ and $q$. Attempt the bound on the model case $f = g = \mathbf{1}_{[0, 1/2]}$ in $L^2[0, 1]$: what relation between $p$ and $q$ makes the bound sharp, and what does the case $p = q$ remind you of?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The bound holds with equality exactly when $p = q = 2$: both sides give $1/2$. That case is Cauchy-Schwarz, and the general pairing $1/p + 1/q = 1$ is its generalisation; the proof's engine (Young's inequality $ab \leq a^p/p + b^q/q$) is the one-variable optimisation of Stage G.
+
+</div>
+</details>
+
 **Definition.** For $1 \leq p < \infty$: $L^p := $ (measurable $f$
 with $\int |f|^p < \infty$) modulo a.e.-equality, with
 $\|f\|_p := (\int |f|^p)^{1/p}$; $L^\infty$ uses the essential
@@ -29980,6 +30002,17 @@ is what the monotone convergence step consumes. **5.** $(L^p)^*
 
 ## 5. Product Measures, Fubini-Tonelli, and Change of Variables
 
+**Ponder 1 (attempt the reordering).** You can compute $\int_0^1 \int_0^1 xy \, dy \, dx$ in either order and get the same value. Attempt to invent a function where the two orders disagree, and then state what property of a function must be required to forbid the disagreement.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The classical instance integrates $2xy/(x^2+y^2)^2$-style kernels: each single integral is finite but the two orders give different answers, and the resolution is that $\int|f| = \infty$. Fubini's hypothesis (absolute integrability) is exactly the condition that forbids the pathology; without it, iterated integrals can lie.
+
+</div>
+</details>
+
 **Definition (product measure).** For measures $\mu$ on $X$ and $\nu$
 on $Y$, the product $\mu \otimes \nu$ is the measure on $X \times Y$
 with $(\mu \otimes \nu)(A \times B) = \mu(A)\nu(B)$, extended to
@@ -30038,6 +30071,17 @@ under a diffeomorphism; Stage G's inverse function theorem.
 
 ## 6. Radon-Nikodym and the Birth of Probability
 
+**Ponder 1 (attempt the partial average).** Stage M2's projection theorem says every vector has a closest point in a closed subspace. Attempt to define "the expectation of $X$ given only partial information $\mathcal{F}'$" as a projection: which subspace, and what property should the projection have with respect to $X$?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The subspace is the $\mathcal{F}'$-measurable square-integrable functions; the projection $Y$ is characterised by $\mathbb{E}[(X - Y)Z] = 0$ for every bounded $\mathcal{F}'$-measurable $Z$, and that $Y$ is the conditional expectation $\mathbb{E}[X \mid \mathcal{F}']$: a partial average, computed by projecting.
+
+</div>
+</details>
+
 **Definition (probability space).** A **probability space** is a
 measure space with total mass $1$; a **random variable** is a
 measurable function to $\mathbb{R}$; **expectation** is $\mathbb{E}[X]
@@ -30092,6 +30136,17 @@ Riemann's theory has no bridge to countable operations.
 :::
 
 ## 7. Fourier Series and the Fourier Transform
+
+**Ponder 1 (invent the extraction).** You want to build $f$ out of the waves $\sin(nt)$ and $\cos(nt)$. Invent the extraction: what computation on $f$ would measure "how much of the wave $e^{int}$ is present"? (Hint: Stage M2's inner product kills what it is orthogonal to.)
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Multiply $f$ by the wave's conjugate $e^{-int}$ and average: the waves' orthogonality kills every other frequency, leaving exactly the amplitude. That average $\hat{f}(n) = \frac{1}{2\pi} \int f e^{-int}$ is the coefficient, and the extraction working at all is the trigonometric system's orthogonality.
+
+</div>
+</details>
 
 **Definition.** For $f$ integrable on $[-\pi, \pi]$:
 $\hat{f}(n) := \frac{1}{2\pi} \int f(t) e^{-int} dt$, and the
@@ -32134,6 +32189,17 @@ the first non-abelian example.
 
 ## 2. Homological Algebra: Chain Complexes, Ext, Tor
 
+**Ponder 1 (invent the count).** You want to count the holes of a combinatorial object made of vertices, edges, and faces. Invent "cycle" and "boundary": what should each mean for edges of a graph, and why must the boundary of a boundary vanish for any hole-counting to work?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+A cycle is a closed loop of edges with no dangling ends; a boundary is whatever a filled piece contributes. The identity $d \circ d = 0$ says every boundary is itself cycle-shaped, which is what lets cycles-minus-boundaries be a quotient; without it, "independent loops" would double-count filled pieces.
+
+</div>
+</details>
+
 **Definition (chain complex).** A sequence of modules and maps
 $\cdots \to C_2 \to C_1 \to C_0 \to 0$ with $\mathrm{im}\, d_{k+1}
 \subseteq \ker d_k$ (the **boundary** of anything is a **cycle**).
@@ -32186,6 +32252,17 @@ kernels, and the quotient has no meaning.
 :::
 
 ## 3. Homology: Simplicial and Singular
+
+**Ponder 1 (attempt the distinction).** A filled triangle and a hollow triangle have the same edges. Attempt an invariant computable from the edges alone that distinguishes them, using the cycle-versus-boundary vocabulary of Section 2.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The edge loop around a hollow triangle is a cycle that is not any face's boundary: a nonzero class in $H_1$. The filled triangle's rim is the boundary of its face: zero in $H_1$. Same edges, different homology: the invariant sees filling, which edges alone cannot.
+
+</div>
+</details>
 
 **Definition (simplicial homology).** A simplicial complex glues
 triangles (and their higher-dimensional cousins) along faces; its
@@ -32340,6 +32417,17 @@ radial contraction contracts all positive-degree closed forms.
 
 ## 5. Fibre Bundles, Connections, and Characteristic Classes
 
+**Ponder 1 (invent the seam bookkeeping).** The circle's covering was locally trivial: over each half, it looks like a plain interval, but walking across the seam renumbers the sheets. Invent what the "transition map" at a seam must record, and what twisting it would produce.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The transition map records how the fibre's labels renumber from one trivialisation to the next; for the covering it is a flip of $\mathbb{Z}$. Twisting the flip into an interval's side edges produces the Möbius strip instead of the cylinder: the transition data is the bundle's only real content.
+
+</div>
+</details>
+
 **Definition.** A **fibre bundle** is a manifold $E$ mapped to a
 base $B$ such that locally $E$ looks like $B \times F$ (fibre $F$),
 with smooth transition maps between the local trivialisations:
@@ -32402,6 +32490,17 @@ integrates to $\chi(S^2) = 2$.
 
 ## 6. Riemannian Geometry: Hopf-Rinow, Gauss-Bonnet, Comparison
 
+**Ponder 1 (attempt the missing data).** A sphere and a plane are both smooth manifolds: charts exist for each. Attempt to define "the distance between two points" using only charts, and identify which ingredient is missing before "geodesic" can mean anything.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Charts give coordinates but no lengths: the composition of two charts carries no information about how far apart points are. The missing ingredient is the metric, an inner product on each tangent space varying smoothly; distance and geodesics are then built from it, not from the charts.
+
+</div>
+</details>
+
 **Definition.** A **Riemannian metric** is an inner product on
 each tangent space, varying smoothly; it creates lengths, geodesics
 (J6-J7), and curvature from the manifold alone.
@@ -32461,6 +32560,17 @@ Section 5's Euler class.
 :::
 
 ## 7. Representation Theory: Characters and Peter-Weyl
+
+**Ponder 1 (invent the tractable shadow).** A symmetry group may be wild, but matrices acting on a vector space are tractable. Invent the single number-valued function of a group element that survives conjugation (relabeling the basis) and is cheap to compute for a matrix.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The trace: $\mathrm{tr}(MNM^{-1}) = \mathrm{tr}(N)$, conjugation-invariant by the cyclic property, and computable as the diagonal sum. That function is the character, and its conjugation invariance is exactly what makes it a class function on the group.
+
+</div>
+</details>
 
 **Definition.** A **representation** of a group $G$ is a
 homomorphism $G \to GL(V)$: symmetry made linear, Stage L's

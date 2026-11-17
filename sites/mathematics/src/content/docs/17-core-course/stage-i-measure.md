@@ -310,6 +310,17 @@ dominator gives $L^1$ convergence; Fatou's lemma proves it.
 
 ## 4. L^p Spaces: Norms and Completeness
 
+**Ponder 1 (attempt the exponent pairing).** The Hölder bound $\int |fg| \leq \|f\|_p \|g\|_q$ pairs the exponents $p$ and $q$. Attempt the bound on the model case $f = g = \mathbf{1}_{[0, 1/2]}$ in $L^2[0, 1]$: what relation between $p$ and $q$ makes the bound sharp, and what does the case $p = q$ remind you of?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The bound holds with equality exactly when $p = q = 2$: both sides give $1/2$. That case is Cauchy-Schwarz, and the general pairing $1/p + 1/q = 1$ is its generalisation; the proof's engine (Young's inequality $ab \leq a^p/p + b^q/q$) is the one-variable optimisation of Stage G.
+
+</div>
+</details>
+
 **Definition.** For $1 \leq p < \infty$: $L^p := $ (measurable $f$
 with $\int |f|^p < \infty$) modulo a.e.-equality, with
 $\|f\|_p := (\int |f|^p)^{1/p}$; $L^\infty$ uses the essential
@@ -377,6 +388,17 @@ is what the monotone convergence step consumes. **5.** $(L^p)^*
 
 ## 5. Product Measures, Fubini-Tonelli, and Change of Variables
 
+**Ponder 1 (attempt the reordering).** You can compute $\int_0^1 \int_0^1 xy \, dy \, dx$ in either order and get the same value. Attempt to invent a function where the two orders disagree, and then state what property of a function must be required to forbid the disagreement.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The classical instance integrates $2xy/(x^2+y^2)^2$-style kernels: each single integral is finite but the two orders give different answers, and the resolution is that $\int|f| = \infty$. Fubini's hypothesis (absolute integrability) is exactly the condition that forbids the pathology; without it, iterated integrals can lie.
+
+</div>
+</details>
+
 **Definition (product measure).** For measures $\mu$ on $X$ and $\nu$
 on $Y$, the product $\mu \otimes \nu$ is the measure on $X \times Y$
 with $(\mu \otimes \nu)(A \times B) = \mu(A)\nu(B)$, extended to
@@ -435,6 +457,17 @@ under a diffeomorphism; Stage G's inverse function theorem.
 
 ## 6. Radon-Nikodym and the Birth of Probability
 
+**Ponder 1 (attempt the partial average).** Stage M2's projection theorem says every vector has a closest point in a closed subspace. Attempt to define "the expectation of $X$ given only partial information $\mathcal{F}'$" as a projection: which subspace, and what property should the projection have with respect to $X$?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The subspace is the $\mathcal{F}'$-measurable square-integrable functions; the projection $Y$ is characterised by $\mathbb{E}[(X - Y)Z] = 0$ for every bounded $\mathcal{F}'$-measurable $Z$, and that $Y$ is the conditional expectation $\mathbb{E}[X \mid \mathcal{F}']$: a partial average, computed by projecting.
+
+</div>
+</details>
+
 **Definition (probability space).** A **probability space** is a
 measure space with total mass $1$; a **random variable** is a
 measurable function to $\mathbb{R}$; **expectation** is $\mathbb{E}[X]
@@ -489,6 +522,17 @@ Riemann's theory has no bridge to countable operations.
 :::
 
 ## 7. Fourier Series and the Fourier Transform
+
+**Ponder 1 (invent the extraction).** You want to build $f$ out of the waves $\sin(nt)$ and $\cos(nt)$. Invent the extraction: what computation on $f$ would measure "how much of the wave $e^{int}$ is present"? (Hint: Stage M2's inner product kills what it is orthogonal to.)
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Multiply $f$ by the wave's conjugate $e^{-int}$ and average: the waves' orthogonality kills every other frequency, leaving exactly the amplitude. That average $\hat{f}(n) = \frac{1}{2\pi} \int f e^{-int}$ is the coefficient, and the extraction working at all is the trigonometric system's orthogonality.
+
+</div>
+</details>
 
 **Definition.** For $f$ integrable on $[-\pi, \pi]$:
 $\hat{f}(n) := \frac{1}{2\pi} \int f(t) e^{-int} dt$, and the

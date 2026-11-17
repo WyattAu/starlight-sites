@@ -501,6 +501,17 @@ coordinate folds the line, and no neighbourhood of a point on the
 fold is injective). What data about $Df(p)$ decides whether $f$ is
 invertible near $p$, with a differentiable inverse?
 
+**Ponder 1 (attempt the one-dimensional reading).** The map $f(x) := x^2$ is locally invertible near $x = 1$ and near $x = -1$, but not near $0$. Attempt to read the decision off the derivative, and then generalise: what should the condition be for a plane map?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Near $1$: $f' = 2 \neq 0$, the map is locally one-to-one with inverse $\sqrt{y}$ (smooth off $0$). Near $0$: $f' = 0$ and the fold appears. The condition in the plane: $\det Df(p) \neq 0$: the derivative must be an invertible linear map, the exact generalisation of a nonzero slope.
+
+</div>
+</details>
+
 **Theorem (inverse function theorem).** Let $f: \mathbb{R}^n \to
 \mathbb{R}^n$ be $C^1$ near $p$. If $\det Df(p) \neq 0$, then there
 are neighbourhoods $U$ of $p$ and $W$ of $f(p)$ such that $f: U \to

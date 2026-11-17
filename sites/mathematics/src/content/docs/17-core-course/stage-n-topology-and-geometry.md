@@ -142,6 +142,17 @@ the first non-abelian example.
 
 ## 2. Homological Algebra: Chain Complexes, Ext, Tor
 
+**Ponder 1 (invent the count).** You want to count the holes of a combinatorial object made of vertices, edges, and faces. Invent "cycle" and "boundary": what should each mean for edges of a graph, and why must the boundary of a boundary vanish for any hole-counting to work?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+A cycle is a closed loop of edges with no dangling ends; a boundary is whatever a filled piece contributes. The identity $d \circ d = 0$ says every boundary is itself cycle-shaped, which is what lets cycles-minus-boundaries be a quotient; without it, "independent loops" would double-count filled pieces.
+
+</div>
+</details>
+
 **Definition (chain complex).** A sequence of modules and maps
 $\cdots \to C_2 \to C_1 \to C_0 \to 0$ with $\mathrm{im}\, d_{k+1}
 \subseteq \ker d_k$ (the **boundary** of anything is a **cycle**).
@@ -194,6 +205,17 @@ kernels, and the quotient has no meaning.
 :::
 
 ## 3. Homology: Simplicial and Singular
+
+**Ponder 1 (attempt the distinction).** A filled triangle and a hollow triangle have the same edges. Attempt an invariant computable from the edges alone that distinguishes them, using the cycle-versus-boundary vocabulary of Section 2.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The edge loop around a hollow triangle is a cycle that is not any face's boundary: a nonzero class in $H_1$. The filled triangle's rim is the boundary of its face: zero in $H_1$. Same edges, different homology: the invariant sees filling, which edges alone cannot.
+
+</div>
+</details>
 
 **Definition (simplicial homology).** A simplicial complex glues
 triangles (and their higher-dimensional cousins) along faces; its
@@ -348,6 +370,17 @@ radial contraction contracts all positive-degree closed forms.
 
 ## 5. Fibre Bundles, Connections, and Characteristic Classes
 
+**Ponder 1 (invent the seam bookkeeping).** The circle's covering was locally trivial: over each half, it looks like a plain interval, but walking across the seam renumbers the sheets. Invent what the "transition map" at a seam must record, and what twisting it would produce.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The transition map records how the fibre's labels renumber from one trivialisation to the next; for the covering it is a flip of $\mathbb{Z}$. Twisting the flip into an interval's side edges produces the Möbius strip instead of the cylinder: the transition data is the bundle's only real content.
+
+</div>
+</details>
+
 **Definition.** A **fibre bundle** is a manifold $E$ mapped to a
 base $B$ such that locally $E$ looks like $B \times F$ (fibre $F$),
 with smooth transition maps between the local trivialisations:
@@ -410,6 +443,17 @@ integrates to $\chi(S^2) = 2$.
 
 ## 6. Riemannian Geometry: Hopf-Rinow, Gauss-Bonnet, Comparison
 
+**Ponder 1 (attempt the missing data).** A sphere and a plane are both smooth manifolds: charts exist for each. Attempt to define "the distance between two points" using only charts, and identify which ingredient is missing before "geodesic" can mean anything.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Charts give coordinates but no lengths: the composition of two charts carries no information about how far apart points are. The missing ingredient is the metric, an inner product on each tangent space varying smoothly; distance and geodesics are then built from it, not from the charts.
+
+</div>
+</details>
+
 **Definition.** A **Riemannian metric** is an inner product on
 each tangent space, varying smoothly; it creates lengths, geodesics
 (J6-J7), and curvature from the manifold alone.
@@ -469,6 +513,17 @@ Section 5's Euler class.
 :::
 
 ## 7. Representation Theory: Characters and Peter-Weyl
+
+**Ponder 1 (invent the tractable shadow).** A symmetry group may be wild, but matrices acting on a vector space are tractable. Invent the single number-valued function of a group element that survives conjugation (relabeling the basis) and is cheap to compute for a matrix.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The trace: $\mathrm{tr}(MNM^{-1}) = \mathrm{tr}(N)$, conjugation-invariant by the cyclic property, and computable as the diagonal sum. That function is the character, and its conjugation invariance is exactly what makes it a class function on the group.
+
+</div>
+</details>
 
 **Definition.** A **representation** of a group $G$ is a
 homomorphism $G \to GL(V)$: symmetry made linear, Stage L's
