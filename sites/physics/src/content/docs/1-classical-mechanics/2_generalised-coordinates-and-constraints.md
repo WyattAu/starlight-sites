@@ -17,6 +17,19 @@ description: "A system with degrees of freedom can be described by Comprehensive
 }
 </script>
 
+**History.** The generalised-coordinate formalism descends from Jean le Rond d'Alembert's *Traite de Dynamique* (1743), where virtual displacements first appeared as the foundation of mechanics, and reached its canonical form in Joseph-Louis Lagrange's *Mechanique Analytique* (1788). Lagrange's preface contains the most famous sentence in the subject's history: the work contains no diagrams, because the methods require neither constructions nor geometrical arguments, only algebraic operations subject to a regular and uniform procedure.
+
+**Ponder (attempt the counting).** A bead slides on a circular wire in the plane; a pendulum bob swings on a string of fixed length; a coin rolls on a table. Each system lives in 2D or 3D space, yet each needs only ONE number to describe its configuration. Attempt the general rule: how many numbers does a system of N particles with k independent constraints require, and what are those numbers called?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The rule: N particles in 3D carry 3N coordinates; each independent constraint removes one. The count 3N minus k is the number of degrees of freedom, and the remaining coordinates are the generalised coordinates. The bead: 2 coordinates minus 1 constraint (the wire) = 1 (the angle along the wire). The pendulum: 3 minus the fixed length = 1 (the angle). The rolling coin: trickier, because rolling constraints are inequalities in disguise, which is why the count is done on velocities there.
+
+</div>
+</details>
+
 ### 2.1 Generalised Coordinates
 
 A system with $n$ degrees of freedom can be described by $n$ **generalised coordinates**
@@ -118,6 +131,17 @@ $\blacksquare$
 
 </details>
 
+**Ponder (attempt the removal).** Constraint forces (the wire's normal force, the string's tension) are the messiest part of Newtonian bookkeeping: they are unknown, and they do no work along allowed motions. Attempt the principle that removes them: for what class of displacements does the total work of ALL ideal constraint forces vanish identically, and why does asking the question only about those displacements make the constraint forces irrelevant?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The displacement is the virtual displacement: any infinitesimal displacement consistent with the constraints at a frozen instant of time. Ideal constraints do no work through virtual displacements (the wire's normal force is perpendicular to the wire, the string's tension perpendicular to the allowed arc), so their total virtual work vanishes identically. Asking only about virtual displacements is what makes the constraint forces irrelevant: d'Alembert's principle says the applied forces balance through the virtual work, and the unknown reactions never enter the equation. Lagrange's whole program is this removal, systematised.
+
+</div>
+</details>
+
 ### 2.5 Virtual Work and D"Alembert’s Principle
 
 A **virtual displacement** $\delta \mathbf{r}_i$ is an infinitesimal change in position consistent
@@ -194,6 +218,28 @@ Non-holonomic constraints (inequalities or non-integrable differential relations
 
 **Mistake 3: Applying D'Alembert's principle without checking that constraints are ideal**
 D'Alembert's principle requires that constraint forces do no virtual work. This holds for frictionless surfaces, rigid rods, and inextensible strings, but not for sliding friction or deformable boundaries. If the constraints are not ideal, the constraint forces contribute to the virtual work and must be included explicitly.
+
+:::note[Quick check]
+
+1. State d'Alembert's principle, and name the displacement class it quantifies over.
+2. Classify: the bead on a wire, a gas molecule in a box, a pendulum of fixed length, a block on a table with friction. Which constraint is not ideal?
+3. A particle confined to a sphere of radius R: how many generalised coordinates, and what are the natural ones?
+4. Why do constraint forces never appear in the Lagrangian equations of the next section?
+5. What is the difference between holonomic and non-holonomic constraints, and which is harder?
+6. Give the degrees of freedom of two beads connected by a rigid rod of fixed length, free in 3D.
+7. Why does freezing time matter in the definition of virtual displacement?
+8. State the count: N particles, k independent holonomic constraints.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** The virtual work of the applied forces vanishes for every virtual displacement compatible with the constraints; the quantifier is over virtual (constraint-compatible, time-frozen) displacements. **2.** Bead: holonomic ideal; box walls: ideal holonomic; pendulum: ideal holonomic; table friction: NOT ideal (it does work and depends on the normal force). **3.** Two: latitude and longitude on the sphere. **4.** Because d'Alembert's principle eliminated them: the principle is precisely the statement that ideal constraint forces do no virtual work, so the equations contain only applied forces. **5.** Holonomic constraints are equations among coordinates (finitely many generalised coordinates suffice); non-holonomic ones involve velocities or inequalities and generally cannot be integrated away: they are harder. **6.** Two free beads carry 6 coordinates; the fixed length is 5 constraints (the pair's relative position is fixed in direction and magnitude minus one): the pair has 5 degrees of freedom. **7.** Freezing time prevents moving constraints from doing work through their own motion: a moving wire CAN pump energy into the system during a real displacement. **8.** 3N minus k: the number of independent generalised coordinates equals the degrees of freedom.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

@@ -65,6 +65,17 @@ $$
 
 Where $T$ is the kinetic energy and $V$ is the potential energy.
 
+**Ponder (attempt the lemma).** The derivation needs the fundamental lemma of the calculus of variations: if the integral of h(t) times ANY smooth function vanishing at the endpoints is zero, then h is identically zero. Attempt the proof: suppose h(t_0) is nonzero at some interior point, and construct the function that breaks the claim.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Take phi vanishing at the endpoints but rising smoothly inside a shrinking neighbourhood of t_0 with the same sign as h(t_0) (a bump function). Then the integral of h times phi is nonzero, contradicting the lemma's assumption. Since h is continuous, the neighbourhood cannot be shrunk away: h must vanish identically. The bump function is the whole proof.
+
+</div>
+</details>
+
 ### 3.2 Derivation of the Euler-Lagrange Equation from D"Alembert’s Principle
 
 **Theorem 3.1 (Euler-Lagrange from D'Alembert).** The equations of motion for a holonomic system
@@ -540,6 +551,50 @@ practice never trains.
    the Euler-Lagrange equation.
 5. (Energy.) For the rotating hoop, compute $h$, show it is conserved, and show
    explicitly that $h \neq T + V$.
+
+:::note[Quick check]
+
+1. State the Euler-Lagrange equation for L(q, q-dot, t).
+2. Apply it to L = (1/2) m q-dot^2 - V(q) and name the recovered law.
+3. What is the action, and what does Hamilton's principle assert about it?
+4. Attempt L = T + V instead of L = T - V: what breaks?
+5. For the simple pendulum, derive the equation of motion from the Lagrangian.
+6. What is a cyclic coordinate, and what is conserved when one exists?
+7. For the double pendulum, how many degrees of freedom and how would you count them?
+8. Name the two formulations this section connects, and what each contributes.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** d/dt (partial L / partial q-dot) - partial L / partial q = 0. **2.** d/dt (m q-dot) - (-V'(q)) = 0, i.e. m q-ddot = -V'(q): Newton's second law with force from the potential. **3.** The action is the time integral of the Lagrangian; Hamilton's principle: the physical path makes the action stationary against all neighbouring paths with the same endpoints. **4.** The force term flips: particles accelerate up potential gradients instead of down them, contradicting experiment. The minus sign is physics, not convention. **5.** L = (1/2) m l^2 theta-dot^2 + m g l cos(theta); the Euler-Lagrange equation gives theta-ddot + (g/l) sin(theta) = 0. **6.** A cyclic coordinate is one absent from L (present only through its velocity); its conjugate momentum is conserved. **7.** Two: the two angles. Each mass carries two position coordinates minus the two rod constraints: 4 - 2 = 2. **8.** d'Alembert contributed the virtual-work principle the derivation starts from; Hamilton the stationary-action principle the equations also follow from: two doors into the same room.
+
+</div>
+</details>
+
+:::
+
+:::note[Quick check]
+
+1. State the Euler-Lagrange equation for L(q, q-dot, t).
+2. Apply it to L = (1/2) m q-dot^2 - V(q) and name the recovered law.
+3. What is the action, and what does Hamilton's principle assert about it?
+4. Attempt L = T + V instead of L = T - V: what breaks?
+5. For the simple pendulum, derive the equation of motion from the Lagrangian.
+6. What is a cyclic coordinate, and what is conserved when one exists?
+7. For the double pendulum, how many degrees of freedom and how would you count them?
+8. Name the two formulations this section connects, and what each contributes.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** d/dt (partial L / partial q-dot) - partial L / partial q = 0. **2.** d/dt (m q-dot) - (-V'(q)) = 0, i.e. m q-ddot = -V'(q): Newton's second law with force from the potential. **3.** The action is the time integral of the Lagrangian; Hamilton's principle: the physical path makes the action stationary against all neighbouring paths with the same endpoints. **4.** The force term flips: particles accelerate up potential gradients instead of down them, contradicting experiment. The minus sign is physics, not convention. **5.** L = (1/2) m l^2 theta-dot^2 + m g l cos(theta); the Euler-Lagrange equation gives theta-ddot + (g/l) sin(theta) = 0. **6.** A cyclic coordinate is one absent from L (present only through its velocity); its conjugate momentum is conserved. **7.** Two: the two angles. Each mass carries two position coordinates minus the two rod constraints: 4 - 2 = 2. **8.** d'Alembert contributed the virtual-work principle the derivation starts from; Hamilton the stationary-action principle the equations also follow from: two doors into the same room.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
