@@ -17103,6 +17103,8 @@ Try to verify the axioms in **Set** (objects = sets, morphisms = functions). The
 axioms hold because function composition is associative and identity functions
 exist – and that verification *is* the proof that Set is a category.
 
+**History.** Category theory was born in 1945, in Eilenberg and Mac Lane's paper *General Theory of Natural Equivalences*: they built the language to say precisely why certain constructions (the product, the free group, the universal covering) are "the right ones". The name "category" came from the categories of natural transformations they wanted to talk about.
+
 ## 1. Categories and Morphisms
 
 **Definition.** A **category** $\mathcal{C}$ consists of:
@@ -17163,6 +17165,7 @@ prerequisites.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What two axioms must a category's composition satisfy?
 2. In $\mathbf{Set}$, what is the identity morphism of a set $A$?
@@ -17173,6 +17176,8 @@ prerequisites.
 *Answers:* **1.** Associativity; an identity morphism for every object. **2.** The identity function $\operatorname{id}_A$. **3.** $\mathbf{Mat}_k$: objects are natural numbers, morphisms are matrices. **4.** Exactly one (Theorem 1.1). **5.** The codomain of the first arrow must be the domain of the second.
 
 
+
+:::
 ## 2. Monomorphisms, Epimorphisms, and Isomorphisms
 
 **Definition.** A morphism $f: A \to B$ is a **monomorphism** (mono) if for all
@@ -17230,6 +17235,7 @@ with $n + 1 = 0$, and there is no such natural number.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State monomorphism in one line.
 2. What is the pivot of Theorem 2.1's proof?
@@ -17239,6 +17245,19 @@ with $n + 1 = 0$, and there is no such natural number.
 
 *Answers:* **1.** $f \circ g_1 = f \circ g_2$ forces $g_1 = g_2$, for all pairs into the domain. **2.** Composing with the inverse $g$ cancels $f$. **3.** A homomorphism out of $\mathbb{Z}$ is pinned by $f(1)$, since $f(-1)$ is the unique two-sided inverse of $f(1)$. **4.** Mono is injective and epi is surjective there. **5.** There is $g$ with $f \circ g = \operatorname{id}_B$.
 
+
+
+:::
+**Ponder (invent the universal property).** Many constructions are "the right one" without any formula singling them out. Attempt the pattern: what must a claim like "the product of $X$ and $Y$" promise so that *any other* candidate is automatically the same thing as yours?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The promise is about maps *into* the candidate: your object must receive a map from every competitor, and that receiving map must be unique. Anything satisfying the promise is isomorphic to anything else satisfying it, because each maps into the other and the composites are forced to be identities by uniqueness. That is the universal property, the language's engine for naming constructions without formulas.
+
+</div>
+</details>
 
 ## 3. Universal Properties
 
@@ -17286,6 +17305,7 @@ configuration.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define terminal and initial objects.
 2. What does unique up to unique isomorphism give for two terminal objects?
@@ -17296,6 +17316,8 @@ configuration.
 *Answers:* **1.** Terminal: every object has exactly one arrow to it; initial: exactly one from it. **2.** An isomorphism $T \cong T'$, and it is the only one compatible with the universal arrows. **3.** Projections $\pi_A, \pi_B$; every pair $f: C \to A$, $g: C \to B$ factors uniquely through $h: C \to A \times B$. **4.** Every $k: K \to G$ with $\varphi \circ k$ trivial factors uniquely through $\ker \varphi \to G$. **5.** Every pair of maps from $A$ and from $B$ extends uniquely to a map $A \sqcup B \to C$.
 
 
+
+:::
 ## 4. Functors
 
 **Definition.** A **functor** $F: \mathcal{C} \to \mathcal{D}$ between categories
@@ -17334,6 +17356,7 @@ $g \circ f = \operatorname{id}$" – the functorial axioms do the rest.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What two laws define a functor?
 2. What do functors do to isomorphisms?
@@ -17344,6 +17367,8 @@ $g \circ f = \operatorname{id}$" – the functorial axioms do the rest.
 *Answers:* **1.** $F(\operatorname{id}_A) = \operatorname{id}_{F(A)}$ and $F(g \circ f) = F(g) \circ F(f)$. **2.** Carry them to isomorphisms (Theorem 4.1). **3.** The group structure; it keeps the underlying set and functions. **4.** Continuous pointed maps induce group homomorphisms, compatibly with composition. **5.** For instance: $U$ forgets; $\pi_1$ preserves loop composition.
 
 
+
+:::
 ## 5. Natural Transformations and Adjunctions
 
 **Definition.** Given functors $F, G: \mathcal{C} \to \mathcal{D}$, a **natural
@@ -17400,6 +17425,7 @@ in topology, the base-change adjunction in geometry.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the naturality square of $\eta: F \Rightarrow G$.
 2. What does an adjunction assign to each pair $A, B$?
@@ -17410,6 +17436,8 @@ in topology, the base-change adjunction in geometry.
 *Answers:* **1.** $G(f) \circ \eta_A = \eta_B \circ F(f)$. **2.** A bijection $\operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong \operatorname{Hom}_{\mathcal{C}}(A, G(B))$. **3.** $\Phi_{A',B}(h \circ F(a)) = \Phi_{A,B}(h) \circ a$ and $\Phi_{A,B'}(b \circ h) = G(b) \circ \Phi_{A,B}(h)$. **4.** An adjunction $F \dashv U$. **5.** A homomorphism from the free group on $S$ is exactly a function from $S$ into $G$.
 
 
+
+:::
 ## 6. Problems
 
 1. Verify that $\mathbf{Mat}_k$ satisfies the category axioms. (§1 –
@@ -17508,6 +17536,8 @@ system of scalars with addition, multiplication, and division, of
 characteristic different from $2$, such as $\mathbb{Q}$, $\mathbb{R}$, or
 $\mathbb{C}$; nothing below uses more than the field axioms together with $2
 \neq 0$, which the polarisation step of Lemma 4.4 needs.
+
+**History.** The determinant predates the vector space by more than a century: Leibniz introduced determinant-like expressions in 1693, and Cayley formalised the notation in 1841. The abstract definition of a vector space came later still (Peano in 1888, via his *Calcolo Geometrico*), which is why this page can define determinants before it ever states what a vector space is.
 
 ## 1. Vector Spaces and Linear Maps
 
@@ -17645,6 +17675,7 @@ counting.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Recite the eight vector-space axioms in one breath.
 2. Why must a minimal spanning list be independent?
@@ -17654,6 +17685,19 @@ counting.
 
 *Answers:* **1.** Associative commutative addition with identity and inverses; $1v = v$; $(\alpha\beta)v = \alpha(\beta v)$; two distributivities. **2.** A dependent member can be deleted while still spanning, contradicting minimality (Theorem 1.2). **3.** An independent list in a finitely spanned space has length at most the spanning list (Lemma 1.3). **4.** Lemma 1.3 applied in both directions between two bases (Corollary 1.4). **5.** Any independent list extends, using pieces of a spanning list, to a basis (Lemma 1.5).
 
+
+
+:::
+**Ponder (invent the dual basis).** Given a basis $e_1, \ldots, e_n$ of $V$, attempt to invent linear functionals $e^1, \ldots, e^n$ on $V$ that "read off" coordinates: what must $e^i(e_j)$ be for the reading to work, and why do the $e^i$ form a basis of the dual?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The requirement is $e^i(e_j) = 1$ when $i = j$ and $0$ otherwise: each functional reads exactly one coordinate. Linearity then forces $e^i(x) = x_i$ for every vector, and any linear functional is determined by its values on a basis, so the $e^i$ span and are independent: a basis of the dual.
+
+</div>
+</details>
 
 ## 2. Dual Spaces
 
@@ -17736,6 +17780,7 @@ transformation.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is the dual basis of $e_1, \dots, e_n$?
 2. Why is $V \cong V^{**}$ canonical while $V \cong V^*$ is not?
@@ -17746,6 +17791,8 @@ transformation.
 *Answers:* **1.** Functionals $e^j$ with $e^j(e_i) = \delta_{ij}$. **2.** $\operatorname{ev}$ uses no choice of basis; the isomorphism $V \cong V^*$ needs one. **3.** $T^*(\varphi) = \varphi \circ T$. **4.** $T^{**} \circ \operatorname{ev}_V = \operatorname{ev}_W \circ T$: the square commutes. **5.** $-1$.
 
 
+
+:::
 ## 3. Quotient Spaces
 
 **Definition.** Let $U \subseteq V$ be a subspace. The **quotient space**
@@ -17784,6 +17831,7 @@ freedom left. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. When do two cosets coincide?
 2. Why is the kernel of the quotient map equal to U?
@@ -17796,6 +17844,8 @@ freedom left. $\blacksquare$
 
 
 
+
+:::
 ## 4. Alternating Forms and the Determinant
 
 This section constructs the determinant honestly: not as an opaque formula,
@@ -18050,6 +18100,7 @@ falls out of composing an alternating form with a linear map.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. How is the sign of a permutation defined on this page?
 2. What is the sign of a product of permutations?
@@ -18062,6 +18113,8 @@ falls out of composing an alternating form with a linear map.
 
 
 
+
+:::
 ## 5. The Exterior Algebra
 
 The exterior powers are the spaces of $k$-dimensional volume measurements:
@@ -18228,6 +18281,7 @@ intervening levels use.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is a pure wedge?
 2. Why does $v \wedge w = -w \wedge v$?
@@ -18239,6 +18293,8 @@ intervening levels use.
 *Answers:* **1.** The coset in $F/R$ of a tuple's symbol. **2.** Expand $(v+w) \wedge (v+w) = 0$ (Theorem 5.1). **3.** Substitute the dependence; every resulting term repeats a factor (Corollary 5.2). **4.** Alternating $k$-linear maps factor uniquely through the wedge (Theorem 5.3). **5.** $\binom{n}{k}$; and $\bigwedge^k V = 0$ (Theorem 5.4). **6.** $v_1 \wedge \cdots \wedge v_n = \det(B)\, e_1 \wedge \cdots \wedge e_n$ (Corollary 5.5).
 
 
+
+:::
 ## 6. Problems
 
 1. Prove that the coordinates of a vector in a basis are unique. (§1 – two
@@ -18335,6 +18391,8 @@ $\mathbb{C}$ has a complex root; proved in any algebra course, used here only
 to guarantee that complex characteristic polynomials split). Everything else
 is proved. No inner products appear on this page; the spectral theorem for
 inner-product spaces is Level 1D's business.
+
+**History.** Cayley stated what is now called the Cayley-Hamilton theorem in 1858, for matrices of size up to three; Hamilton had already found the quaternionic case in 1853, and a fully general proof waited for Frobenius. The theorem was folklore before it was rigour: exactly the gap Stage K's Goursat discussion taught you to spot.
 
 ## 1. Eigenvalues, Eigenvectors, Eigenspaces
 
@@ -18490,6 +18548,17 @@ the sum is all of $V$. Taking a basis of each eigenspace and concatenating
 gives $n$ linearly independent eigenvectors spanning $V$: a basis of
 eigenvectors, in which the matrix is diagonal. $\blacksquare$
 
+**Ponder (attempt the theorem on an instance).** Attempt Cayley-Hamilton on the matrix $A := \begin{pmatrix} 2 & 1 \\ 0 & 3 \end{pmatrix}$: compute the characteristic polynomial, substitute $A$ into it, and verify the claim by direct multiplication.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The characteristic polynomial is $(x - 2)(x - 3) = x^2 - 5x + 6$; the substitution gives $A^2 - 5A + 6I$, which computes entry by entry to the zero matrix: the polynomial evaluated at the matrix annihilates it, exactly as the theorem claims.
+
+</div>
+</details>
+
 ## 5. Cayley–Hamilton
 
 **Theorem 5.1 (Cayley–Hamilton).** Every endomorphism satisfies its own
@@ -18554,6 +18623,7 @@ indeed $\chi_T(0) = (-1)^n \det T$.
 exactly invertibility (1B, Corollary 4.9). $\blacksquare$
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define an eigenvalue of $T$.
 2. Why is $E_\lambda$ a subspace?
@@ -18624,6 +18694,8 @@ one-dimensional.
 where the induction hypothesis applies. **4.** $\chi_T(0) = (-1)^n \det T$.
 **5.** Degree $n$: its own characteristic polynomial.
 
+
+:::
 ## 6. Problems
 
 **Problems.** The quick checks above tested recall. These chain several
@@ -18722,6 +18794,8 @@ $\mathbb{R}$ as the primary field; the complex Hermitian variant is flagged
 wherever it differs. No other inputs are declared: Cauchy-Schwarz,
 Gram-Schmidt, and the spectral theorem are all proved here.
 
+**History.** Gram-Schmidt orthogonality was published by Erhard Schmidt in 1907, building on an 1883 paper of Gram; both were solving the same practical problem, extracting uncorrelated coordinates from correlated data. David Hilbert's $l^2$ space, the infinite-dimensional home of the theory, appeared in 1906 as part of his work on integral equations.
+
 ## 1. Inner Products and Norms
 
 **Definition.** An **inner product** on a real vector space $V$ is a function
@@ -18803,6 +18877,7 @@ inner product spaces are metric spaces (the Level 2 axioms), and the
 geometry is honest.
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the three defining properties of an inner product.
 2. Why is $\|cv\| = |c|\, \|v\|$?
@@ -18817,6 +18892,19 @@ norm is the nonnegative square root. **3.** $|\langle u, v \rangle| \leq
 as a quadratic in $t$; nonnegativity forces a nonpositive discriminant.
 **5.** The inner product: $2\langle u, v \rangle = \|u+v\|^2 - \|u\|^2 -
 \|v\|^2$.
+
+
+:::
+**Ponder (invent the projection subtractions).** Given two independent vectors $v, w$, attempt to invent a modified $w'$ that is orthogonal to $v$ while still spanning (with $v$) the same plane. What combination of $v$ and $w$ works, and what must you divide by?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Subtract the shadow: $w' := w - \frac{\langle w, v \rangle}{\langle v, v \rangle} v$. Then $\langle w', v \rangle = \langle w, v \rangle - \frac{\langle w, v \rangle}{\langle v, v \rangle} \langle v, v \rangle = 0$, and $w'$ stays in the plane. Normalising $v$ and $w'$ to unit length is Gram-Schmidt's first run; the process repeats on the third vector.
+
+</div>
+</details>
 
 ## 2. Orthogonality and Gram-Schmidt
 
@@ -18889,6 +18977,7 @@ This is Parseval's identity's engine: in an orthonormal basis, coordinates
 *are* inner products. Measurement replaces bookkeeping.
 
 **Quick check.**
+:::note[Quick check]
 
 1. State Pythagoras and where its proof uses orthogonality.
 2. Why is a pairwise orthogonal family of nonzero vectors automatically
@@ -18905,6 +18994,8 @@ the same successive spans. **4.** Otherwise $w_i$ would lie in the previous
 span, contradicting independence. **5.** The inner products $\langle v, e_i
 \rangle$ (Theorem 2.5).
 
+
+:::
 ## 3. Orthogonal Complements and Projection
 
 **Definition.** For a subspace $W \subseteq V$, the **orthogonal
@@ -18948,6 +19039,7 @@ signal in an orthonormal basis *is* best approximation, and the error is
 exactly the part the basis cannot see.
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define $W^\perp$ and say why it is a subspace.
 2. State the orthogonal decomposition theorem.
@@ -18961,6 +19053,8 @@ decomposition (Theorem 3.1). **3.** The unique $W$-component of $v$.
 **4.** Pythagoras (Lemma 2.1) on the split $v - w = (v - p_W) + (p_W - w)$.
 **5.** Exactly when $w = p_W(v)$ (the second Pythagoras summand vanishes).
 
+
+:::
 ## 4. Adjoints
 
 **Definition.** For a linear map $T: V \to V$, the **adjoint** is a map
@@ -18998,6 +19092,7 @@ Theorem 4.1's computation. Conversely a symmetric matrix gives a
 self-adjoint map by the same computation in reverse. $\blacksquare$
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the adjoint of $T$.
 2. What is the matrix of $T^*$ in an orthonormal basis?
@@ -19012,6 +19107,8 @@ their difference applied to some $v$ would be a nonzero vector orthogonal
 to every vector, including itself: norm zero, contradiction. **5.** Not in
 arbitrary bases; only in orthonormal ones (Proposition 4.2).
 
+
+:::
 ## 5. The Spectral Theorem
 
 **Lemma 5.1 (self-adjoint eigenvalues are real; invariant complements).**
@@ -19091,6 +19188,7 @@ eigenvectors as columns is orthogonal ($Q^T Q = I$: orthonormal columns)
 and $A Q = Q D$, so $A = Q D Q^T$. $\blacksquare$
 
 **Quick check.**
+:::note[Quick check]
 
 1. Why are a self-adjoint map's eigenvalues real?
 2. State the Hermitian symmetry used in that proof.
@@ -19108,6 +19206,8 @@ characteristic polynomial split (via the declared fundamental theorem of
 algebra) while Lemma 5.1 pulls the eigenvalues back to the reals. **5.** $A
 = Q D Q^T$ with $Q$ orthogonal, $D$ real diagonal (Corollary 5.3).
 
+
+:::
 ## 6. Problems
 
 **Problems.** The quick checks above tested recall. These chain several
@@ -19210,6 +19310,19 @@ track](/3-real-analysis/):
 
 Everything else is proved here.
 
+**History.** Felix Hausdorff's *Grundzuge der Mengenlehre* (1914) gave the axiomatic definition of a topological space used here, and the subject's first great theorem predated it by two centuries: Euler's 1736 Konigsberg bridge paper is the founding document of topology, answering a question about bridges by ignoring every measurement.
+
+**Ponder (invent the axioms from the line).** On the real line, attempt to invent "open set" from the behaviour of unions and intersections of open intervals, and then attempt the opposite: which properties must the complements of your open sets have for the line's closed intervals to fit in?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Unions of open intervals are open (every point keeps an interval from one constituent), and finite intersections are open (take the smaller of the two radii); infinite intersections fail, which is exactly why the axioms require finite intersections only. Complements of opens are the closed sets: containing all their limit points.
+
+</div>
+</details>
+
 ## 1. Metric Spaces and the Idea of a Topology
 
 **Definition.** A **metric** on a set $X$ is a function $d: X \times X \to
@@ -19283,6 +19396,7 @@ unions of open balls (Definition above, justified by Propositions 1.1 and
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What makes a set open in a metric space?
 2. Are arbitrary unions of opens open? Finite intersections?
@@ -19293,6 +19407,8 @@ unions of open balls (Definition above, justified by Propositions 1.1 and
 *Answers:* **1.** Every point has a ball around it contained in the set. **2.** Yes; yes. Infinite intersections can fail. **3.** $\bigcap_n (-1/n, 1/n) = \{0\}$, not open. **4.** Opens are the empty set and complements of finite sets. **5.** A base is opens whose unions give every open set; second countable means a countable base.
 
 
+
+:::
 ## 2. Continuity and Homeomorphism
 
 **Definition.** For a function $f: X \to Y$ and a subset $B \subseteq Y$, the
@@ -19348,6 +19464,7 @@ whole real line is, topologically, a finite interval. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define continuity through preimages.
 2. Why does composition preserve continuity?
@@ -19358,6 +19475,8 @@ whole real line is, topologically, a finite interval. $\blacksquare$
 *Answers:* **1.** The preimage of every open set is open. **2.** $(g \circ f)^{-1}(U) = f^{-1}(g^{-1}(U))$ and preimages inherit openness step by step (Theorem 2.1). **3.** A continuous bijection with continuous inverse. **4.** Any two nonempty open intervals, by affine maps; also $(0,1) \cong \mathbb{R}$ via $\tan$. **5.** Theorem 2.2.
 
 
+
+:::
 ## 3. Closed Sets, Interior, Closure
 
 **Definition.** A subset $F \subseteq X$ is **closed** if its complement
@@ -19403,6 +19522,7 @@ limit points of $A$ are **isolated**.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define closed.
 2. Describe $\overline{A}$ in two equivalent ways.
@@ -19413,6 +19533,8 @@ limit points of $A$ are **isolated**.
 *Answers:* **1.** Its complement is open. **2.** The smallest closed superset; equivalently, the set of points whose every neighbourhood meets $A$. **3.** A point whose every neighbourhood meets $A$ in a point other than itself. **4.** $[0, 1]$ (Proposition 3.2's example method). **5.** A neighbourhood disjoint from $A$.
 
 
+
+:::
 ## 4. Subspaces and Products
 
 **Definition (subspace).** For $A \subseteq X$, the **subspace topology** on
@@ -19462,6 +19584,7 @@ product is the categorical product in $\mathbf{Top}$.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What are the opens of a subspace $A \subseteq X$?
 2. When is $g: Y \to A$ continuous?
@@ -19472,6 +19595,8 @@ product is the categorical product in $\mathbf{Top}$.
 *Answers:* **1.** Intersections $A \cap U$ with $U$ open in $X$. **2.** Exactly when its composite with the inclusion $A \hookrightarrow X$ is (Proposition 4.1). **3.** $U \times V$ with $U$, $V$ open. **4.** All unions of boxes. **5.** $f$ into $X \times Z$ is continuous iff both components are (Proposition 4.2).
 
 
+
+:::
 ## 5. Hausdorff Spaces
 
 **Definition.** A space $X$ is **Hausdorff** if for any two distinct points
@@ -19493,6 +19618,7 @@ overlap lies in $U \cap V = \emptyset$: contradiction. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define Hausdorff.
 2. Why are metric spaces Hausdorff?
@@ -19503,6 +19629,8 @@ overlap lies in $U \cap V = \emptyset$: contradiction. $\blacksquare$
 *Answers:* **1.** Distinct points have disjoint neighbourhoods. **2.** Balls of radius $d(x,y)/2$ separate (Proposition 5.1). **3.** Closed. **4.** At most one limit. **5.** No: the only nonempty open set is the whole space.
 
 
+
+:::
 ## 6. Connectedness
 
 **Definition.** A **separation** of a space $X$ is a pair of disjoint
@@ -19588,6 +19716,7 @@ topologically, before any measure or limit theory.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define separation and connectedness.
 2. Why is a continuous image of a connected space connected?
@@ -19598,6 +19727,8 @@ topologically, before any measure or limit theory.
 *Answers:* **1.** A separation is a cover by two disjoint nonempty opens; connected means none exists. **2.** A separation of the image pulls back to one of the domain (Theorem 6.2). **3.** A hypothetical separation restricts to a closed subinterval, contradicting Theorem 6.1. **4.** Nonattainment of the intermediate value splits $[a,b]$ into two preimage half-spaces, a separation (Corollary 6.4). **5.** No: split at $\sqrt{2}$ (Proposition 6.6).
 
 
+
+:::
 ## 7. Compactness
 
 **Definition.** An **open cover** of $X$ is a collection of open sets with
@@ -19705,6 +19836,7 @@ separates $[0, 2\pi]$ from $[0, 2\pi)$.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define compactness.
 2. Why is a closed subset of a compact space compact?
@@ -19716,6 +19848,8 @@ separates $[0, 2\pi]$ from $[0, 2\pi)$.
 *Answers:* **1.** Every open cover has a finite subcover. **2.** Add the complement to the cover; a finite subcover minus the complement covers the subset (Theorem 7.2 i). **3.** Pull the cover back, take a finite subcover, push it forward (Theorem 7.2 ii). **4.** Each outside point separates finitely from the set (Theorem 7.2 iii). **5.** The image is compact, hence closed and bounded; the supremum is then attained (Corollary 7.3). **6.** The cover $\{(-1, 2\pi - 1/n)\}$ has no finite subcover (wrap-map example).
 
 
+
+:::
 ## 8. Problems
 
 1. Prove that $\mathbb{R}$ with the cofinite topology is connected. (§1, §6
@@ -20333,6 +20467,8 @@ track](/3-real-analysis/)). Nothing else is assumed: in particular the
 smoothness of polynomial and rational functions is *proved* in Section 1,
 which is why the sphere example needs no calculus at all.
 
+**History.** The manifold concept descends from Bernhard Riemann's 1854 habilitation lecture *On the Hypotheses which lie at the Foundations of Geometry*, where space itself was proposed as a manifold with a metric chosen, not given. Poincare's work on the three-body problem forced the technical definitions in the 1880s and 1890s: dynamics needed spaces that were neither planes nor spheres.
+
 ## 1. Differentiability in Euclidean Space
 
 **Definition.** A map $f: \mathbb{R}^n \to \mathbb{R}^m$ is
@@ -20457,6 +20593,7 @@ this one remark. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the derivative of $f$ at $a$.
 2. Do partial derivatives at a point determine the derivative?
@@ -20467,6 +20604,8 @@ this one remark. $\blacksquare$
 *Answers:* **1.** The unique linear $L$ with $\|f(a+h) - f(a) - Lh\| = o(\|h\|)$. **2.** Yes, when the derivative exists: the entries are the partials (Proposition 1.1). **3.** No: the Caution's counterexample has every directional derivative and no derivative. **4.** $h(a)\, g'(a) + g(a)\, h'(a)$ (Proposition 1.2). **5.** Polynomials and rational functions on their domains (Corollary 1.3).
 
 
+
+:::
 ## 2. Topological Manifolds
 
 **Definition.** A **base** for a topology on $X$ is a collection
@@ -20537,6 +20676,7 @@ charts cover $W$. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Name the three clauses defining a topological manifold.
 2. What is a base, and what does second countable mean?
@@ -20546,6 +20686,19 @@ charts cover $W$. $\blacksquare$
 
 *Answers:* **1.** Hausdorff; second countable; locally Euclidean of dimension $n$. **2.** A base is opens whose unions give all opens; second countable means a countable base. **3.** It is not Hausdorff: the two origins cannot be separated. **4.** Yes, with the restricted charts (Proposition 2.2). **5.** Balls with rational centres and rational radii (Proposition 2.1).
 
+
+
+:::
+**Ponder (attempt the atlas on the sphere).** Attempt to cover the whole sphere with a single chart (one bijection from the sphere to an open piece of the plane). Where does the attempt fail, and what does the failure force?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The sphere minus a point is a chart (stereographic projection), but the missing point cannot be charted by the same map: a continuous bijection from the compact sphere to a non-compact plane open set cannot be a homeomorphism. The failure forces a second chart covering the pole, with a smooth transition map between them: an atlas, not a chart.
+
+</div>
+</details>
 
 ## 3. Charts, Atlases, and the Maximal Atlas
 
@@ -20663,6 +20816,7 @@ the smooth structure adds no topology.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is a chart, and what is an atlas?
 2. What is the transition map of charts $(U, \varphi)$, $(V, \psi)$?
@@ -20673,6 +20827,8 @@ the smooth structure adds no topology.
 *Answers:* **1.** A homeomorphism onto an open subset of $\mathbb{R}^n$; an atlas is charts covering $M$. **2.** $\psi \circ \varphi^{-1}$ on $\varphi(U \cap V)$. **3.** Both transition directions are smooth. **4.** No: the $\theta(t) = t + \frac{1}{4}|t-1|^3$ counterexample is compatible with $\psi$ but not with $\varphi$. **5.** Compatibility through a common covering atlas, applied locally (Proposition 3.1); that is what makes $\operatorname{Max}(\mathcal{A})$ consistent and unique (Theorem 3.2).
 
 
+
+:::
 ## 4. Examples
 
 **Example (the sphere, entirely by algebra).** Let
@@ -20775,6 +20931,7 @@ $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Write the stereographic inverse $\psi_N$.
 2. What is the transition $\varphi_S \circ \psi_N$?
@@ -20785,6 +20942,8 @@ $\blacksquare$
 *Answers:* **1.** $\psi_N(y) = (2y/(\|y\|^2+1),\ (\|y\|^2-1)/(\|y\|^2+1))$. **2.** $y \mapsto y/\|y\|^2$ on $\mathbb{R}^n \setminus \{0\}$. **3.** It is a subspace of $\mathbb{R}^{n+1}$ (Proposition 2.1). **4.** Product charts form a smooth atlas (Theorem 4.1); dimension $m + n$. **5.** No trigonometry: only rational functions and algebra.
 
 
+
+:::
 ## 5. Smooth Maps Between Manifolds
 
 **Definition.** A map $f: M \to N$ of smooth manifolds is **smooth at** $p
@@ -20906,6 +21065,7 @@ rank–nullity make the dimension unforgeable.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. When is $f: M \to N$ smooth at $p$?
 2. How many lines does smoothness-to-continuity take, and how?
@@ -20916,6 +21076,8 @@ rank–nullity make the dimension unforgeable.
 *Answers:* **1.** Some chart at $p$ carries inside a chart at $f(p)$ with a smooth chart representation. **2.** Two lines: factor $f$ as $\psi^{-1}$ after representation after $\varphi$ on the chart domain (Proposition 5.1). **3.** Continuity lets domains shrink; transitions are smooth; the chain rule finishes (Proposition 5.2). **4.** A smooth bijection with smooth inverse. **5.** The chain rule gives $BA = I_n$ and $AB = I_m$; rank–nullity forces $n = m$ (Theorem 5.4).
 
 
+
+:::
 ## 6. Problems
 
 1. Prove that the line with two origins is not Hausdorff, and conclude
@@ -21019,6 +21181,8 @@ here. One word of calibration: from this page on, "smooth" means
 differentiable of *all* orders; 3A's definitions and theorems apply verbatim
 in the $C^\infty$ category, since the chain rule and inverse function theorem
 are standardly stated there.
+
+**History.** The idea that tangent vectors are derivations (operators on functions satisfying the product rule) descends from Hermann Grassmann's 1844 *Ausdehnungslehre*, whose algebra of quantities was a century ahead of its reception; the modern derivation-based definition was standardised in the 1950s once sheaves and modules supplied the language.
 
 ## 1. Germs and Derivations in Euclidean Space
 
@@ -21129,6 +21293,7 @@ space of derivations.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. When are two functions the same germ at a?
 2. State the Leibniz rule for a derivation at a.
@@ -21138,6 +21303,19 @@ space of derivations.
 
 *Answers:* **1.** They agree on some neighbourhood of a. **2.** D of the product is D(f) g(a) plus f(a) D(g). **3.** D(1) = D(1 times 1) = 2 D(1), so D(1) = 0 (Lemma 1.1). **4.** f(x) = f(a) + sum (x_i - a_i) g_i(x) with g_i smooth, g_i(a) the i-th partial at a (Lemma 1.2). **5.** The fundamental theorem of calculus; differentiation under the integral sign.
 
+
+
+:::
+**Ponder (invent the derivation reading).** On the line, a tangent vector $v$ acts on a function $f$ by producing $f'(p) \cdot v$. Attempt to invent, for a manifold, an operator on smooth functions capturing "the derivative of $f$ in the direction of $v$" using only what charts provide, and check the product rule it must satisfy.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Take a chart, differentiate the chart-representation of $f$ in the direction of $v$'s coordinates: the operator satisfies the Leibniz rule $D_v(fg) = f(p) D_v g + g(p) D_v f$, the defining property of a derivation, and it is chart-independent because the transition maps' chain-rule terms cancel.
+
+</div>
+</details>
 
 ## 2. The Tangent Space of a Manifold
 
@@ -21276,6 +21454,7 @@ coordinate descriptions in different charts.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the tangent space at p.
 2. What is the chart transport of Theorem 2.1?
@@ -21286,6 +21465,8 @@ coordinate descriptions in different charts.
 *Answers:* **1.** The derivations of the germ algebra at p. **2.** X maps to the list of X applied to the coordinate germs, an isomorphism onto R^n. **3.** A germ f maps to the i-th partial of f composed with phi inverse, at phi(p). **4.** By the Jacobian matrix of the transition map (Theorem 2.2). **5.** n: the transport is a linear isomorphism.
 
 
+
+:::
 ## 3. The Differential
 
 **Definition.** For a smooth map $f: M \to N$ and $p \in M$, the
@@ -21372,6 +21553,7 @@ one, chart by chart. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the differential df_p.
 2. Why is the differential independent of the representative g?
@@ -21382,6 +21564,8 @@ one, chart by chart. $\blacksquare$
 *Answers:* **1.** Applied to a germ g at the target, it evaluates X on the germ of g composed with f. **2.** Representatives agreeing near the target compose with f to germs agreeing near p (continuity of f). **3.** The Jacobian matrix of the chart representation (Theorem 3.2). **4.** The differential of the composition is the composition of the differentials (Theorem 3.3). **5.** The differential d gamma_t applied to the standard basis derivation.
 
 
+
+:::
 ## 4. The Inverse Function Theorem on Manifolds
 
 **Theorem 4.1 (local diffeomorphisms).** Let $f: M \to N$ be a smooth map of
@@ -21427,6 +21611,7 @@ definition must pass. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the inverse function theorem on manifolds.
 2. Which two theorems does its proof assemble?
@@ -21437,6 +21622,8 @@ definition must pass. $\blacksquare$
 *Answers:* **1.** An isomorphism df_p makes f a local diffeomorphism at p (Theorem 4.1). **2.** The Euclidean inverse function theorem; the chart transport isomorphism of Theorem 2.1. **3.** It is the identity on the tangent space. **4.** It is F applied to an open subset of its domain, and F is a homeomorphism there. **5.** An isomorphism: the chain rule on f composed with its inverse gives the identity matrices.
 
 
+
+:::
 ## 5. Problems
 
 1. Prove that a derivation $D$ at $a$ satisfies $D([f]) = 0$ for every germ
@@ -21537,6 +21724,8 @@ One input is declared: **Clairaut's theorem** (if the second partial
 derivatives of a smooth function are continuous, they are equal; proved in
 the [Real Analysis track](/3-real-analysis/)). It is used in exactly two
 places, both flagged. Everything else is proved.
+
+**History.** Exterior algebra is Hermann Grassmann's 1844 *Ausdehnungslehre* again: the wedge product, the alternating rule, and the coordinate-free determinant are all there, written for an audience of zero. Elie Cartan brought the exterior derivative to analysis in 1899, making the calculus of forms the language of modern differential geometry and of physics' gauge theories.
 
 ## 1. Alternating Forms on Euclidean Space
 
@@ -21686,6 +21875,7 @@ $\Omega^0(U) = C^\infty(U)$.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Evaluate dx^I on k vectors.
 2. When is dx^j wedge dx^I zero?
@@ -21695,6 +21885,19 @@ $\Omega^0(U) = C^\infty(U)$.
 
 *Answers:* **1.** The determinant of the matrix of their I-indexed coordinates. **2.** When j occurs in I (a repeated row). **3.** The sorting sign times dx of the merged increasing sequence (Lemma 1.1). **4.** Evaluation on increasing tuples extracts unique coefficients (Proposition 1.2). **5.** Pairwise coefficient products times the basis wedges.
 
+
+
+:::
+**Ponder (invent the derivative of forms).** On functions, the derivative $df$ is Stage J's differential. Attempt to invent $d$ on 1-forms: what should $d(f \, dx)$ be, if the rule "differentiate the coefficient, wedge with the differential" and the product rule $d(fg) = f \, dg + g \, df$ are your only guides?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Attempt: $d(f \, dx) = df \wedge dx$. Expanding $df = f_x \, dx + f_y \, dy$ and wedging (with $dx \wedge dx = 0$ and $dy \wedge dx = -dx \wedge dy$) gives $f_y \, dy \wedge dx = -f_y \, dx \wedge dy$. The sign flip is the alternating rule doing the work: the exterior derivative is forced by the product rule plus antisymmetry.
+
+</div>
+</details>
 
 ## 2. The Exterior Derivative
 
@@ -21793,6 +21996,7 @@ and summing gives $(-1)^k\, \omega \wedge d\eta$. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Compute d of x squared times y.
 2. Why is d squared zero on functions?
@@ -21803,6 +22007,8 @@ and summing gives $(-1)^k\, \omega \wedge d\eta$. $\blacksquare$
 *Answers:* **1.** 2xy dx plus x squared dy. **2.** Mixed partials agree, and the antisymmetric pairing cancels the terms (Theorem 2.2, Clairaut). **3.** d of a wedge = d of the first wedge the second, plus minus one to the degree of the first, times the first wedge d of the second (Theorem 2.3). **4.** The dy-wedge-dx term and the dx-wedge-dy term cancel by antisymmetry. **5.** Sum over j of the j-th partial times dx^j wedge dx^I.
 
 
+
+:::
 ## 3. Pullbacks and Coordinate Independence
 
 **Definition (pullback).** For a smooth map $f: U \to V$ between open sets
@@ -21897,6 +22103,7 @@ dx^n$, a computation included as a self-test.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the pullback of b dy^J.
 2. Which proved rule kills the d-of-df terms in the pullback proof?
@@ -21907,6 +22114,8 @@ dx^n$, a computation included as a self-test.
 *Answers:* **1.** The pulled-back coefficient times the wedge of the pulled-back differentials. **2.** d squared equals zero on functions (Theorem 2.2). **3.** The chain rule (Theorem 3.1's first sum). **4.** The chart-wise d satisfies the compatibility condition because d commutes with transitions (Theorem 3.2). **5.** (g composed with f) times the pullback of omega.
 
 
+
+:::
 ## 4. Problems
 
 1. Prove that $dx^I = 0$ as an alternating map whenever $I$ has a repeated
@@ -22014,6 +22223,8 @@ smooth bump $t \mapsto e^{-1/t}$, proved in Tu's book). The one-variable
 fundamental theorem of calculus is carried from 3C. Everything else is
 proved.
 
+**History.** The generalised Stokes theorem's history runs through a letter: William Thomson (Lord Kelvin) stated the result in an 1850 letter to George Gabriel Stokes, who set it as an exam question at Cambridge in 1854 and hence carries the name. The general form over manifolds was distilled by Cartan and Poincare from that special case.
+
 ## 1. Manifolds with Boundary
 
 **Definition.** Let $\mathbb{H}^n = \{x \in \mathbb{R}^n : x_n \geq 0\}$,
@@ -22058,6 +22269,7 @@ map on the half-space part).
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is the half-space and where is its boundary?
 2. What does smooth on a subset of the half-space mean?
@@ -22068,6 +22280,8 @@ map on the half-space part).
 *Answers:* **1.** The set of points with nonnegative last coordinate; the hyperplane where it is zero. **2.** Extendable to a smooth map on an open subset of the full space. **3.** Transitions carry the boundary hyperplane into itself. **4.** An (n minus 1)-dimensional manifold with the restricted charts. **5.** Invariance of domain (algebraic topology; outside this course).
 
 
+
+:::
 ## 2. Orientation
 
 **Definition.** An **orientation** of an $n$-dimensional vector space $V$ is
@@ -22145,6 +22359,7 @@ $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is an orientation of a vector space?
 2. What makes an atlas oriented?
@@ -22154,6 +22369,19 @@ $\blacksquare$
 
 *Answers:* **1.** One of the two classes of bases under positive-determinant equivalence. **2.** Every transition has positive Jacobian determinant. **3.** Those mapping to negative last coordinate in one (hence any, Lemma 2.1) chart. **4.** The outward vector followed by the boundary basis is positively oriented in the ambient tangent space. **5.** The change-of-basis between two outward vectors is triangular with positive determinant (Lemma 2.2).
 
+
+
+:::
+**Ponder (attempt the coordinate change).** Attempt to integrate the 2-form $dx \wedge dy$ over a region and then over the same region read through the map $(x, y) \mapsto (2x, 3y)$. What must happen to the form for the integral to be invariant, and what object computes the correction?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The pulled-back form must acquire the determinant: $d(2x) \wedge d(3y) = 6 \, dx \wedge dy$. The determinant of the derivative is the correction, which is why the change-of-variables formula carries the absolute Jacobian: pullback is the invariant operation, and the determinant is its local scale.
+
+</div>
+</details>
 
 ## 3. Integration of Forms
 
@@ -22236,6 +22464,7 @@ support of $\omega$. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. When is the integral of a form a chart integral?
 2. What makes two chart integrals agree?
@@ -22246,6 +22475,8 @@ support of $\omega$. $\blacksquare$
 *Answers:* **1.** The support is compact inside one positively oriented chart domain. **2.** The change-of-variables formula with positive Jacobian (Proposition 3.1). **3.** A locally finite smooth family between zero and one, supports in chart domains, summing to one. **4.** Refine both partitions through the pairwise products and apply Proposition 3.1 (Proposition 3.2). **5.** Fubini; the change-of-variables formula; existence of smooth partitions of unity.
 
 
+
+:::
 ## 4. The Local Stokes Theorem
 
 This is the analytic heart of the whole enterprise: everything else is
@@ -22344,6 +22575,7 @@ whose signs "come out right" without this audit is not a proof.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the local Stokes theorem.
 2. Which summands of the exterior derivative die on the half-space, and why?
@@ -22354,6 +22586,8 @@ whose signs "come out right" without this audit is not a proof.
 *Answers:* **1.** The integral of the derivative over the half-space equals the integral of the form over its boundary (Theorem 4.1). **2.** A missing index other than the last: the compactly supported derivative integrates to zero over the whole line. **3.** The insertion sign; the fundamental theorem's minus; the boundary orientation's sign. **4.** Fubini reduces the integral to the last-coordinate antiderivative evaluated at the boundary. **5.** Exactly one: the term whose missing index is the last coordinate.
 
 
+
+:::
 ## 5. The Generalised Stokes Theorem
 
 **Theorem 5.1 (Stokes).** Let $M$ be a compact oriented $n$-manifold with
@@ -22417,6 +22651,7 @@ definition. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the generalised Stokes theorem.
 2. How does the partition of unity assemble its proof?
@@ -22427,6 +22662,8 @@ definition. $\blacksquare$
 *Answers:* **1.** The integral of the derivative over M equals the integral of the form over the boundary (Theorem 5.1). **2.** The form is the sum of the cut-off pieces; apply the local statement to each and sum. **3.** Their supports miss the boundary hyperplane, so the trace vanishes. **4.** A compact oriented manifold without boundary has zero integral of every exact top form. **5.** The local statement uses the half-space convention; Section 2 defines the boundary orientation as its transport, so the signs agree.
 
 
+
+:::
 ## 6. The Classical Theorems as Coordinates of Stokes
 
 **The fundamental theorem of calculus (one dimension).** For $M = [a, b]$,
@@ -22473,6 +22710,7 @@ One theorem, four costumes.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Which theorem is Stokes in one dimension?
 2. What 2-form is the derivative of (P dx plus Q dy)?
@@ -22483,6 +22721,8 @@ One theorem, four costumes.
 *Answers:* **1.** The fundamental theorem of calculus. **2.** The difference of the partials, times the area form. **3.** The divergence, times the volume form. **4.** The surface integral of the curl against the circulation of the boundary. **5.** Corollary 5.2.
 
 
+
+:::
 ## 7. Problems
 
 1. Prove that a transition of a manifold-with-boundary restricts to a

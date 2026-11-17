@@ -38,6 +38,8 @@ derivatives of a smooth function are continuous, they are equal; proved in
 the [Real Analysis track](/3-real-analysis/)). It is used in exactly two
 places, both flagged. Everything else is proved.
 
+**History.** Exterior algebra is Hermann Grassmann's 1844 *Ausdehnungslehre* again: the wedge product, the alternating rule, and the coordinate-free determinant are all there, written for an audience of zero. Elie Cartan brought the exterior derivative to analysis in 1899, making the calculus of forms the language of modern differential geometry and of physics' gauge theories.
+
 ## 1. Alternating Forms on Euclidean Space
 
 **Definition.** An **alternating $k$-form** at a point $a \in \mathbb{R}^n$
@@ -186,6 +188,7 @@ $\Omega^0(U) = C^\infty(U)$.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Evaluate dx^I on k vectors.
 2. When is dx^j wedge dx^I zero?
@@ -195,6 +198,19 @@ $\Omega^0(U) = C^\infty(U)$.
 
 *Answers:* **1.** The determinant of the matrix of their I-indexed coordinates. **2.** When j occurs in I (a repeated row). **3.** The sorting sign times dx of the merged increasing sequence (Lemma 1.1). **4.** Evaluation on increasing tuples extracts unique coefficients (Proposition 1.2). **5.** Pairwise coefficient products times the basis wedges.
 
+
+
+:::
+**Ponder (invent the derivative of forms).** On functions, the derivative $df$ is Stage J's differential. Attempt to invent $d$ on 1-forms: what should $d(f \, dx)$ be, if the rule "differentiate the coefficient, wedge with the differential" and the product rule $d(fg) = f \, dg + g \, df$ are your only guides?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Attempt: $d(f \, dx) = df \wedge dx$. Expanding $df = f_x \, dx + f_y \, dy$ and wedging (with $dx \wedge dx = 0$ and $dy \wedge dx = -dx \wedge dy$) gives $f_y \, dy \wedge dx = -f_y \, dx \wedge dy$. The sign flip is the alternating rule doing the work: the exterior derivative is forced by the product rule plus antisymmetry.
+
+</div>
+</details>
 
 ## 2. The Exterior Derivative
 
@@ -293,6 +309,7 @@ and summing gives $(-1)^k\, \omega \wedge d\eta$. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Compute d of x squared times y.
 2. Why is d squared zero on functions?
@@ -303,6 +320,8 @@ and summing gives $(-1)^k\, \omega \wedge d\eta$. $\blacksquare$
 *Answers:* **1.** 2xy dx plus x squared dy. **2.** Mixed partials agree, and the antisymmetric pairing cancels the terms (Theorem 2.2, Clairaut). **3.** d of a wedge = d of the first wedge the second, plus minus one to the degree of the first, times the first wedge d of the second (Theorem 2.3). **4.** The dy-wedge-dx term and the dx-wedge-dy term cancel by antisymmetry. **5.** Sum over j of the j-th partial times dx^j wedge dx^I.
 
 
+
+:::
 ## 3. Pullbacks and Coordinate Independence
 
 **Definition (pullback).** For a smooth map $f: U \to V$ between open sets
@@ -397,6 +416,7 @@ dx^n$, a computation included as a self-test.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the pullback of b dy^J.
 2. Which proved rule kills the d-of-df terms in the pullback proof?
@@ -407,6 +427,8 @@ dx^n$, a computation included as a self-test.
 *Answers:* **1.** The pulled-back coefficient times the wedge of the pulled-back differentials. **2.** d squared equals zero on functions (Theorem 2.2). **3.** The chain rule (Theorem 3.1's first sum). **4.** The chart-wise d satisfies the compatibility condition because d commutes with transitions (Theorem 3.2). **5.** (g composed with f) times the pullback of omega.
 
 
+
+:::
 ## 4. Problems
 
 1. Prove that $dx^I = 0$ as an alternating map whenever $I$ has a repeated

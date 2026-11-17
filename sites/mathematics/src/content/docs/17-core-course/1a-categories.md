@@ -27,6 +27,8 @@ Try to verify the axioms in **Set** (objects = sets, morphisms = functions). The
 axioms hold because function composition is associative and identity functions
 exist – and that verification *is* the proof that Set is a category.
 
+**History.** Category theory was born in 1945, in Eilenberg and Mac Lane's paper *General Theory of Natural Equivalences*: they built the language to say precisely why certain constructions (the product, the free group, the universal covering) are "the right ones". The name "category" came from the categories of natural transformations they wanted to talk about.
+
 ## 1. Categories and Morphisms
 
 **Definition.** A **category** $\mathcal{C}$ consists of:
@@ -87,6 +89,7 @@ prerequisites.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What two axioms must a category's composition satisfy?
 2. In $\mathbf{Set}$, what is the identity morphism of a set $A$?
@@ -97,6 +100,8 @@ prerequisites.
 *Answers:* **1.** Associativity; an identity morphism for every object. **2.** The identity function $\operatorname{id}_A$. **3.** $\mathbf{Mat}_k$: objects are natural numbers, morphisms are matrices. **4.** Exactly one (Theorem 1.1). **5.** The codomain of the first arrow must be the domain of the second.
 
 
+
+:::
 ## 2. Monomorphisms, Epimorphisms, and Isomorphisms
 
 **Definition.** A morphism $f: A \to B$ is a **monomorphism** (mono) if for all
@@ -154,6 +159,7 @@ with $n + 1 = 0$, and there is no such natural number.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State monomorphism in one line.
 2. What is the pivot of Theorem 2.1's proof?
@@ -163,6 +169,19 @@ with $n + 1 = 0$, and there is no such natural number.
 
 *Answers:* **1.** $f \circ g_1 = f \circ g_2$ forces $g_1 = g_2$, for all pairs into the domain. **2.** Composing with the inverse $g$ cancels $f$. **3.** A homomorphism out of $\mathbb{Z}$ is pinned by $f(1)$, since $f(-1)$ is the unique two-sided inverse of $f(1)$. **4.** Mono is injective and epi is surjective there. **5.** There is $g$ with $f \circ g = \operatorname{id}_B$.
 
+
+
+:::
+**Ponder (invent the universal property).** Many constructions are "the right one" without any formula singling them out. Attempt the pattern: what must a claim like "the product of $X$ and $Y$" promise so that *any other* candidate is automatically the same thing as yours?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The promise is about maps *into* the candidate: your object must receive a map from every competitor, and that receiving map must be unique. Anything satisfying the promise is isomorphic to anything else satisfying it, because each maps into the other and the composites are forced to be identities by uniqueness. That is the universal property, the language's engine for naming constructions without formulas.
+
+</div>
+</details>
 
 ## 3. Universal Properties
 
@@ -210,6 +229,7 @@ configuration.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define terminal and initial objects.
 2. What does unique up to unique isomorphism give for two terminal objects?
@@ -220,6 +240,8 @@ configuration.
 *Answers:* **1.** Terminal: every object has exactly one arrow to it; initial: exactly one from it. **2.** An isomorphism $T \cong T'$, and it is the only one compatible with the universal arrows. **3.** Projections $\pi_A, \pi_B$; every pair $f: C \to A$, $g: C \to B$ factors uniquely through $h: C \to A \times B$. **4.** Every $k: K \to G$ with $\varphi \circ k$ trivial factors uniquely through $\ker \varphi \to G$. **5.** Every pair of maps from $A$ and from $B$ extends uniquely to a map $A \sqcup B \to C$.
 
 
+
+:::
 ## 4. Functors
 
 **Definition.** A **functor** $F: \mathcal{C} \to \mathcal{D}$ between categories
@@ -258,6 +280,7 @@ $g \circ f = \operatorname{id}$" – the functorial axioms do the rest.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What two laws define a functor?
 2. What do functors do to isomorphisms?
@@ -268,6 +291,8 @@ $g \circ f = \operatorname{id}$" – the functorial axioms do the rest.
 *Answers:* **1.** $F(\operatorname{id}_A) = \operatorname{id}_{F(A)}$ and $F(g \circ f) = F(g) \circ F(f)$. **2.** Carry them to isomorphisms (Theorem 4.1). **3.** The group structure; it keeps the underlying set and functions. **4.** Continuous pointed maps induce group homomorphisms, compatibly with composition. **5.** For instance: $U$ forgets; $\pi_1$ preserves loop composition.
 
 
+
+:::
 ## 5. Natural Transformations and Adjunctions
 
 **Definition.** Given functors $F, G: \mathcal{C} \to \mathcal{D}$, a **natural
@@ -324,6 +349,7 @@ in topology, the base-change adjunction in geometry.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the naturality square of $\eta: F \Rightarrow G$.
 2. What does an adjunction assign to each pair $A, B$?
@@ -334,6 +360,8 @@ in topology, the base-change adjunction in geometry.
 *Answers:* **1.** $G(f) \circ \eta_A = \eta_B \circ F(f)$. **2.** A bijection $\operatorname{Hom}_{\mathcal{D}}(F(A), B) \cong \operatorname{Hom}_{\mathcal{C}}(A, G(B))$. **3.** $\Phi_{A',B}(h \circ F(a)) = \Phi_{A,B}(h) \circ a$ and $\Phi_{A,B'}(b \circ h) = G(b) \circ \Phi_{A,B}(h)$. **4.** An adjunction $F \dashv U$. **5.** A homomorphism from the free group on $S$ is exactly a function from $S$ into $G$.
 
 
+
+:::
 ## 6. Problems
 
 1. Verify that $\mathbf{Mat}_k$ satisfies the category axioms. (§1 –

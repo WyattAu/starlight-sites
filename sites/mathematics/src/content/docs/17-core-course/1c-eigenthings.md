@@ -35,6 +35,8 @@ to guarantee that complex characteristic polynomials split). Everything else
 is proved. No inner products appear on this page; the spectral theorem for
 inner-product spaces is Level 1D's business.
 
+**History.** Cayley stated what is now called the Cayley-Hamilton theorem in 1858, for matrices of size up to three; Hamilton had already found the quaternionic case in 1853, and a fully general proof waited for Frobenius. The theorem was folklore before it was rigour: exactly the gap Stage K's Goursat discussion taught you to spot.
+
 ## 1. Eigenvalues, Eigenvectors, Eigenspaces
 
 **Definition.** Let $T: V \to V$ be a linear map (an **endomorphism**: from
@@ -189,6 +191,17 @@ the sum is all of $V$. Taking a basis of each eigenspace and concatenating
 gives $n$ linearly independent eigenvectors spanning $V$: a basis of
 eigenvectors, in which the matrix is diagonal. $\blacksquare$
 
+**Ponder (attempt the theorem on an instance).** Attempt Cayley-Hamilton on the matrix $A := \begin{pmatrix} 2 & 1 \\ 0 & 3 \end{pmatrix}$: compute the characteristic polynomial, substitute $A$ into it, and verify the claim by direct multiplication.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The characteristic polynomial is $(x - 2)(x - 3) = x^2 - 5x + 6$; the substitution gives $A^2 - 5A + 6I$, which computes entry by entry to the zero matrix: the polynomial evaluated at the matrix annihilates it, exactly as the theorem claims.
+
+</div>
+</details>
+
 ## 5. Cayley–Hamilton
 
 **Theorem 5.1 (Cayley–Hamilton).** Every endomorphism satisfies its own
@@ -253,6 +266,7 @@ indeed $\chi_T(0) = (-1)^n \det T$.
 exactly invertibility (1B, Corollary 4.9). $\blacksquare$
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define an eigenvalue of $T$.
 2. Why is $E_\lambda$ a subspace?
@@ -323,6 +337,8 @@ one-dimensional.
 where the induction hypothesis applies. **4.** $\chi_T(0) = (-1)^n \det T$.
 **5.** Degree $n$: its own characteristic polynomial.
 
+
+:::
 ## 6. Problems
 
 **Problems.** The quick checks above tested recall. These chain several

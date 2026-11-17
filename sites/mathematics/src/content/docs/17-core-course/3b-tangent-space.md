@@ -43,6 +43,8 @@ differentiable of *all* orders; 3A's definitions and theorems apply verbatim
 in the $C^\infty$ category, since the chain rule and inverse function theorem
 are standardly stated there.
 
+**History.** The idea that tangent vectors are derivations (operators on functions satisfying the product rule) descends from Hermann Grassmann's 1844 *Ausdehnungslehre*, whose algebra of quantities was a century ahead of its reception; the modern derivation-based definition was standardised in the 1950s once sheaves and modules supplied the language.
+
 ## 1. Germs and Derivations in Euclidean Space
 
 **Definition.** Let $a \in \mathbb{R}^n$. Two smooth functions defined on
@@ -152,6 +154,7 @@ space of derivations.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. When are two functions the same germ at a?
 2. State the Leibniz rule for a derivation at a.
@@ -161,6 +164,19 @@ space of derivations.
 
 *Answers:* **1.** They agree on some neighbourhood of a. **2.** D of the product is D(f) g(a) plus f(a) D(g). **3.** D(1) = D(1 times 1) = 2 D(1), so D(1) = 0 (Lemma 1.1). **4.** f(x) = f(a) + sum (x_i - a_i) g_i(x) with g_i smooth, g_i(a) the i-th partial at a (Lemma 1.2). **5.** The fundamental theorem of calculus; differentiation under the integral sign.
 
+
+
+:::
+**Ponder (invent the derivation reading).** On the line, a tangent vector $v$ acts on a function $f$ by producing $f'(p) \cdot v$. Attempt to invent, for a manifold, an operator on smooth functions capturing "the derivative of $f$ in the direction of $v$" using only what charts provide, and check the product rule it must satisfy.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Take a chart, differentiate the chart-representation of $f$ in the direction of $v$'s coordinates: the operator satisfies the Leibniz rule $D_v(fg) = f(p) D_v g + g(p) D_v f$, the defining property of a derivation, and it is chart-independent because the transition maps' chain-rule terms cancel.
+
+</div>
+</details>
 
 ## 2. The Tangent Space of a Manifold
 
@@ -299,6 +315,7 @@ coordinate descriptions in different charts.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the tangent space at p.
 2. What is the chart transport of Theorem 2.1?
@@ -309,6 +326,8 @@ coordinate descriptions in different charts.
 *Answers:* **1.** The derivations of the germ algebra at p. **2.** X maps to the list of X applied to the coordinate germs, an isomorphism onto R^n. **3.** A germ f maps to the i-th partial of f composed with phi inverse, at phi(p). **4.** By the Jacobian matrix of the transition map (Theorem 2.2). **5.** n: the transport is a linear isomorphism.
 
 
+
+:::
 ## 3. The Differential
 
 **Definition.** For a smooth map $f: M \to N$ and $p \in M$, the
@@ -395,6 +414,7 @@ one, chart by chart. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the differential df_p.
 2. Why is the differential independent of the representative g?
@@ -405,6 +425,8 @@ one, chart by chart. $\blacksquare$
 *Answers:* **1.** Applied to a germ g at the target, it evaluates X on the germ of g composed with f. **2.** Representatives agreeing near the target compose with f to germs agreeing near p (continuity of f). **3.** The Jacobian matrix of the chart representation (Theorem 3.2). **4.** The differential of the composition is the composition of the differentials (Theorem 3.3). **5.** The differential d gamma_t applied to the standard basis derivation.
 
 
+
+:::
 ## 4. The Inverse Function Theorem on Manifolds
 
 **Theorem 4.1 (local diffeomorphisms).** Let $f: M \to N$ be a smooth map of
@@ -450,6 +472,7 @@ definition must pass. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the inverse function theorem on manifolds.
 2. Which two theorems does its proof assemble?
@@ -460,6 +483,8 @@ definition must pass. $\blacksquare$
 *Answers:* **1.** An isomorphism df_p makes f a local diffeomorphism at p (Theorem 4.1). **2.** The Euclidean inverse function theorem; the chart transport isomorphism of Theorem 2.1. **3.** It is the identity on the tangent space. **4.** It is F applied to an open subset of its domain, and F is a homeomorphism there. **5.** An isomorphism: the chain rule on f composed with its inverse gives the identity matrices.
 
 
+
+:::
 ## 5. Problems
 
 1. Prove that a derivation $D$ at $a$ satisfies $D([f]) = 0$ for every germ

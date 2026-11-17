@@ -37,6 +37,8 @@ characteristic different from $2$, such as $\mathbb{Q}$, $\mathbb{R}$, or
 $\mathbb{C}$; nothing below uses more than the field axioms together with $2
 \neq 0$, which the polarisation step of Lemma 4.4 needs.
 
+**History.** The determinant predates the vector space by more than a century: Leibniz introduced determinant-like expressions in 1693, and Cayley formalised the notation in 1841. The abstract definition of a vector space came later still (Peano in 1888, via his *Calcolo Geometrico*), which is why this page can define determinants before it ever states what a vector space is.
+
 ## 1. Vector Spaces and Linear Maps
 
 **Definition.** A **vector space** $V$ over a field $k$ is a set with addition
@@ -173,6 +175,7 @@ counting.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Recite the eight vector-space axioms in one breath.
 2. Why must a minimal spanning list be independent?
@@ -182,6 +185,19 @@ counting.
 
 *Answers:* **1.** Associative commutative addition with identity and inverses; $1v = v$; $(\alpha\beta)v = \alpha(\beta v)$; two distributivities. **2.** A dependent member can be deleted while still spanning, contradicting minimality (Theorem 1.2). **3.** An independent list in a finitely spanned space has length at most the spanning list (Lemma 1.3). **4.** Lemma 1.3 applied in both directions between two bases (Corollary 1.4). **5.** Any independent list extends, using pieces of a spanning list, to a basis (Lemma 1.5).
 
+
+
+:::
+**Ponder (invent the dual basis).** Given a basis $e_1, \ldots, e_n$ of $V$, attempt to invent linear functionals $e^1, \ldots, e^n$ on $V$ that "read off" coordinates: what must $e^i(e_j)$ be for the reading to work, and why do the $e^i$ form a basis of the dual?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The requirement is $e^i(e_j) = 1$ when $i = j$ and $0$ otherwise: each functional reads exactly one coordinate. Linearity then forces $e^i(x) = x_i$ for every vector, and any linear functional is determined by its values on a basis, so the $e^i$ span and are independent: a basis of the dual.
+
+</div>
+</details>
 
 ## 2. Dual Spaces
 
@@ -264,6 +280,7 @@ transformation.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is the dual basis of $e_1, \dots, e_n$?
 2. Why is $V \cong V^{**}$ canonical while $V \cong V^*$ is not?
@@ -274,6 +291,8 @@ transformation.
 *Answers:* **1.** Functionals $e^j$ with $e^j(e_i) = \delta_{ij}$. **2.** $\operatorname{ev}$ uses no choice of basis; the isomorphism $V \cong V^*$ needs one. **3.** $T^*(\varphi) = \varphi \circ T$. **4.** $T^{**} \circ \operatorname{ev}_V = \operatorname{ev}_W \circ T$: the square commutes. **5.** $-1$.
 
 
+
+:::
 ## 3. Quotient Spaces
 
 **Definition.** Let $U \subseteq V$ be a subspace. The **quotient space**
@@ -312,6 +331,7 @@ freedom left. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. When do two cosets coincide?
 2. Why is the kernel of the quotient map equal to U?
@@ -324,6 +344,8 @@ freedom left. $\blacksquare$
 
 
 
+
+:::
 ## 4. Alternating Forms and the Determinant
 
 This section constructs the determinant honestly: not as an opaque formula,
@@ -578,6 +600,7 @@ falls out of composing an alternating form with a linear map.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. How is the sign of a permutation defined on this page?
 2. What is the sign of a product of permutations?
@@ -590,6 +613,8 @@ falls out of composing an alternating form with a linear map.
 
 
 
+
+:::
 ## 5. The Exterior Algebra
 
 The exterior powers are the spaces of $k$-dimensional volume measurements:
@@ -756,6 +781,7 @@ intervening levels use.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is a pure wedge?
 2. Why does $v \wedge w = -w \wedge v$?
@@ -767,6 +793,8 @@ intervening levels use.
 *Answers:* **1.** The coset in $F/R$ of a tuple's symbol. **2.** Expand $(v+w) \wedge (v+w) = 0$ (Theorem 5.1). **3.** Substitute the dependence; every resulting term repeats a factor (Corollary 5.2). **4.** Alternating $k$-linear maps factor uniquely through the wedge (Theorem 5.3). **5.** $\binom{n}{k}$; and $\bigwedge^k V = 0$ (Theorem 5.4). **6.** $v_1 \wedge \cdots \wedge v_n = \det(B)\, e_1 \wedge \cdots \wedge e_n$ (Corollary 5.5).
 
 
+
+:::
 ## 6. Problems
 
 1. Prove that the coordinates of a vector in a basis are unique. (§1 – two

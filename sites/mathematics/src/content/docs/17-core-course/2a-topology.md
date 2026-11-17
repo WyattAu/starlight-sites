@@ -48,6 +48,19 @@ track](/3-real-analysis/):
 
 Everything else is proved here.
 
+**History.** Felix Hausdorff's *Grundzuge der Mengenlehre* (1914) gave the axiomatic definition of a topological space used here, and the subject's first great theorem predated it by two centuries: Euler's 1736 Konigsberg bridge paper is the founding document of topology, answering a question about bridges by ignoring every measurement.
+
+**Ponder (invent the axioms from the line).** On the real line, attempt to invent "open set" from the behaviour of unions and intersections of open intervals, and then attempt the opposite: which properties must the complements of your open sets have for the line's closed intervals to fit in?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Unions of open intervals are open (every point keeps an interval from one constituent), and finite intersections are open (take the smaller of the two radii); infinite intersections fail, which is exactly why the axioms require finite intersections only. Complements of opens are the closed sets: containing all their limit points.
+
+</div>
+</details>
+
 ## 1. Metric Spaces and the Idea of a Topology
 
 **Definition.** A **metric** on a set $X$ is a function $d: X \times X \to
@@ -121,6 +134,7 @@ unions of open balls (Definition above, justified by Propositions 1.1 and
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What makes a set open in a metric space?
 2. Are arbitrary unions of opens open? Finite intersections?
@@ -131,6 +145,8 @@ unions of open balls (Definition above, justified by Propositions 1.1 and
 *Answers:* **1.** Every point has a ball around it contained in the set. **2.** Yes; yes. Infinite intersections can fail. **3.** $\bigcap_n (-1/n, 1/n) = \{0\}$, not open. **4.** Opens are the empty set and complements of finite sets. **5.** A base is opens whose unions give every open set; second countable means a countable base.
 
 
+
+:::
 ## 2. Continuity and Homeomorphism
 
 **Definition.** For a function $f: X \to Y$ and a subset $B \subseteq Y$, the
@@ -186,6 +202,7 @@ whole real line is, topologically, a finite interval. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define continuity through preimages.
 2. Why does composition preserve continuity?
@@ -196,6 +213,8 @@ whole real line is, topologically, a finite interval. $\blacksquare$
 *Answers:* **1.** The preimage of every open set is open. **2.** $(g \circ f)^{-1}(U) = f^{-1}(g^{-1}(U))$ and preimages inherit openness step by step (Theorem 2.1). **3.** A continuous bijection with continuous inverse. **4.** Any two nonempty open intervals, by affine maps; also $(0,1) \cong \mathbb{R}$ via $\tan$. **5.** Theorem 2.2.
 
 
+
+:::
 ## 3. Closed Sets, Interior, Closure
 
 **Definition.** A subset $F \subseteq X$ is **closed** if its complement
@@ -241,6 +260,7 @@ limit points of $A$ are **isolated**.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define closed.
 2. Describe $\overline{A}$ in two equivalent ways.
@@ -251,6 +271,8 @@ limit points of $A$ are **isolated**.
 *Answers:* **1.** Its complement is open. **2.** The smallest closed superset; equivalently, the set of points whose every neighbourhood meets $A$. **3.** A point whose every neighbourhood meets $A$ in a point other than itself. **4.** $[0, 1]$ (Proposition 3.2's example method). **5.** A neighbourhood disjoint from $A$.
 
 
+
+:::
 ## 4. Subspaces and Products
 
 **Definition (subspace).** For $A \subseteq X$, the **subspace topology** on
@@ -300,6 +322,7 @@ product is the categorical product in $\mathbf{Top}$.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What are the opens of a subspace $A \subseteq X$?
 2. When is $g: Y \to A$ continuous?
@@ -310,6 +333,8 @@ product is the categorical product in $\mathbf{Top}$.
 *Answers:* **1.** Intersections $A \cap U$ with $U$ open in $X$. **2.** Exactly when its composite with the inclusion $A \hookrightarrow X$ is (Proposition 4.1). **3.** $U \times V$ with $U$, $V$ open. **4.** All unions of boxes. **5.** $f$ into $X \times Z$ is continuous iff both components are (Proposition 4.2).
 
 
+
+:::
 ## 5. Hausdorff Spaces
 
 **Definition.** A space $X$ is **Hausdorff** if for any two distinct points
@@ -331,6 +356,7 @@ overlap lies in $U \cap V = \emptyset$: contradiction. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define Hausdorff.
 2. Why are metric spaces Hausdorff?
@@ -341,6 +367,8 @@ overlap lies in $U \cap V = \emptyset$: contradiction. $\blacksquare$
 *Answers:* **1.** Distinct points have disjoint neighbourhoods. **2.** Balls of radius $d(x,y)/2$ separate (Proposition 5.1). **3.** Closed. **4.** At most one limit. **5.** No: the only nonempty open set is the whole space.
 
 
+
+:::
 ## 6. Connectedness
 
 **Definition.** A **separation** of a space $X$ is a pair of disjoint
@@ -426,6 +454,7 @@ topologically, before any measure or limit theory.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define separation and connectedness.
 2. Why is a continuous image of a connected space connected?
@@ -436,6 +465,8 @@ topologically, before any measure or limit theory.
 *Answers:* **1.** A separation is a cover by two disjoint nonempty opens; connected means none exists. **2.** A separation of the image pulls back to one of the domain (Theorem 6.2). **3.** A hypothetical separation restricts to a closed subinterval, contradicting Theorem 6.1. **4.** Nonattainment of the intermediate value splits $[a,b]$ into two preimage half-spaces, a separation (Corollary 6.4). **5.** No: split at $\sqrt{2}$ (Proposition 6.6).
 
 
+
+:::
 ## 7. Compactness
 
 **Definition.** An **open cover** of $X$ is a collection of open sets with
@@ -543,6 +574,7 @@ separates $[0, 2\pi]$ from $[0, 2\pi)$.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define compactness.
 2. Why is a closed subset of a compact space compact?
@@ -554,6 +586,8 @@ separates $[0, 2\pi]$ from $[0, 2\pi)$.
 *Answers:* **1.** Every open cover has a finite subcover. **2.** Add the complement to the cover; a finite subcover minus the complement covers the subset (Theorem 7.2 i). **3.** Pull the cover back, take a finite subcover, push it forward (Theorem 7.2 ii). **4.** Each outside point separates finitely from the set (Theorem 7.2 iii). **5.** The image is compact, hence closed and bounded; the supremum is then attained (Corollary 7.3). **6.** The cover $\{(-1, 2\pi - 1/n)\}$ has no finite subcover (wrap-map example).
 
 
+
+:::
 ## 8. Problems
 
 1. Prove that $\mathbb{R}$ with the cofinite topology is connected. (§1, §6

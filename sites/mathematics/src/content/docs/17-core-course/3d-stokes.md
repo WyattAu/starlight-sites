@@ -46,6 +46,8 @@ smooth bump $t \mapsto e^{-1/t}$, proved in Tu's book). The one-variable
 fundamental theorem of calculus is carried from 3C. Everything else is
 proved.
 
+**History.** The generalised Stokes theorem's history runs through a letter: William Thomson (Lord Kelvin) stated the result in an 1850 letter to George Gabriel Stokes, who set it as an exam question at Cambridge in 1854 and hence carries the name. The general form over manifolds was distilled by Cartan and Poincare from that special case.
+
 ## 1. Manifolds with Boundary
 
 **Definition.** Let $\mathbb{H}^n = \{x \in \mathbb{R}^n : x_n \geq 0\}$,
@@ -90,6 +92,7 @@ map on the half-space part).
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is the half-space and where is its boundary?
 2. What does smooth on a subset of the half-space mean?
@@ -100,6 +103,8 @@ map on the half-space part).
 *Answers:* **1.** The set of points with nonnegative last coordinate; the hyperplane where it is zero. **2.** Extendable to a smooth map on an open subset of the full space. **3.** Transitions carry the boundary hyperplane into itself. **4.** An (n minus 1)-dimensional manifold with the restricted charts. **5.** Invariance of domain (algebraic topology; outside this course).
 
 
+
+:::
 ## 2. Orientation
 
 **Definition.** An **orientation** of an $n$-dimensional vector space $V$ is
@@ -177,6 +182,7 @@ $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is an orientation of a vector space?
 2. What makes an atlas oriented?
@@ -186,6 +192,19 @@ $\blacksquare$
 
 *Answers:* **1.** One of the two classes of bases under positive-determinant equivalence. **2.** Every transition has positive Jacobian determinant. **3.** Those mapping to negative last coordinate in one (hence any, Lemma 2.1) chart. **4.** The outward vector followed by the boundary basis is positively oriented in the ambient tangent space. **5.** The change-of-basis between two outward vectors is triangular with positive determinant (Lemma 2.2).
 
+
+
+:::
+**Ponder (attempt the coordinate change).** Attempt to integrate the 2-form $dx \wedge dy$ over a region and then over the same region read through the map $(x, y) \mapsto (2x, 3y)$. What must happen to the form for the integral to be invariant, and what object computes the correction?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The pulled-back form must acquire the determinant: $d(2x) \wedge d(3y) = 6 \, dx \wedge dy$. The determinant of the derivative is the correction, which is why the change-of-variables formula carries the absolute Jacobian: pullback is the invariant operation, and the determinant is its local scale.
+
+</div>
+</details>
 
 ## 3. Integration of Forms
 
@@ -268,6 +287,7 @@ support of $\omega$. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. When is the integral of a form a chart integral?
 2. What makes two chart integrals agree?
@@ -278,6 +298,8 @@ support of $\omega$. $\blacksquare$
 *Answers:* **1.** The support is compact inside one positively oriented chart domain. **2.** The change-of-variables formula with positive Jacobian (Proposition 3.1). **3.** A locally finite smooth family between zero and one, supports in chart domains, summing to one. **4.** Refine both partitions through the pairwise products and apply Proposition 3.1 (Proposition 3.2). **5.** Fubini; the change-of-variables formula; existence of smooth partitions of unity.
 
 
+
+:::
 ## 4. The Local Stokes Theorem
 
 This is the analytic heart of the whole enterprise: everything else is
@@ -376,6 +398,7 @@ whose signs "come out right" without this audit is not a proof.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the local Stokes theorem.
 2. Which summands of the exterior derivative die on the half-space, and why?
@@ -386,6 +409,8 @@ whose signs "come out right" without this audit is not a proof.
 *Answers:* **1.** The integral of the derivative over the half-space equals the integral of the form over its boundary (Theorem 4.1). **2.** A missing index other than the last: the compactly supported derivative integrates to zero over the whole line. **3.** The insertion sign; the fundamental theorem's minus; the boundary orientation's sign. **4.** Fubini reduces the integral to the last-coordinate antiderivative evaluated at the boundary. **5.** Exactly one: the term whose missing index is the last coordinate.
 
 
+
+:::
 ## 5. The Generalised Stokes Theorem
 
 **Theorem 5.1 (Stokes).** Let $M$ be a compact oriented $n$-manifold with
@@ -449,6 +474,7 @@ definition. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the generalised Stokes theorem.
 2. How does the partition of unity assemble its proof?
@@ -459,6 +485,8 @@ definition. $\blacksquare$
 *Answers:* **1.** The integral of the derivative over M equals the integral of the form over the boundary (Theorem 5.1). **2.** The form is the sum of the cut-off pieces; apply the local statement to each and sum. **3.** Their supports miss the boundary hyperplane, so the trace vanishes. **4.** A compact oriented manifold without boundary has zero integral of every exact top form. **5.** The local statement uses the half-space convention; Section 2 defines the boundary orientation as its transport, so the signs agree.
 
 
+
+:::
 ## 6. The Classical Theorems as Coordinates of Stokes
 
 **The fundamental theorem of calculus (one dimension).** For $M = [a, b]$,
@@ -505,6 +533,7 @@ One theorem, four costumes.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Which theorem is Stokes in one dimension?
 2. What 2-form is the derivative of (P dx plus Q dy)?
@@ -515,6 +544,8 @@ One theorem, four costumes.
 *Answers:* **1.** The fundamental theorem of calculus. **2.** The difference of the partials, times the area form. **3.** The divergence, times the volume form. **4.** The surface integral of the curl against the circulation of the boundary. **5.** Corollary 5.2.
 
 
+
+:::
 ## 7. Problems
 
 1. Prove that a transition of a manifold-with-boundary restricts to a

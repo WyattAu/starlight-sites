@@ -39,6 +39,8 @@ $\mathbb{R}$ as the primary field; the complex Hermitian variant is flagged
 wherever it differs. No other inputs are declared: Cauchy-Schwarz,
 Gram-Schmidt, and the spectral theorem are all proved here.
 
+**History.** Gram-Schmidt orthogonality was published by Erhard Schmidt in 1907, building on an 1883 paper of Gram; both were solving the same practical problem, extracting uncorrelated coordinates from correlated data. David Hilbert's $l^2$ space, the infinite-dimensional home of the theory, appeared in 1906 as part of his work on integral equations.
+
 ## 1. Inner Products and Norms
 
 **Definition.** An **inner product** on a real vector space $V$ is a function
@@ -120,6 +122,7 @@ inner product spaces are metric spaces (the Level 2 axioms), and the
 geometry is honest.
 
 **Quick check.**
+:::note[Quick check]
 
 1. State the three defining properties of an inner product.
 2. Why is $\|cv\| = |c|\, \|v\|$?
@@ -134,6 +137,19 @@ norm is the nonnegative square root. **3.** $|\langle u, v \rangle| \leq
 as a quadratic in $t$; nonnegativity forces a nonpositive discriminant.
 **5.** The inner product: $2\langle u, v \rangle = \|u+v\|^2 - \|u\|^2 -
 \|v\|^2$.
+
+
+:::
+**Ponder (invent the projection subtractions).** Given two independent vectors $v, w$, attempt to invent a modified $w'$ that is orthogonal to $v$ while still spanning (with $v$) the same plane. What combination of $v$ and $w$ works, and what must you divide by?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Subtract the shadow: $w' := w - \frac{\langle w, v \rangle}{\langle v, v \rangle} v$. Then $\langle w', v \rangle = \langle w, v \rangle - \frac{\langle w, v \rangle}{\langle v, v \rangle} \langle v, v \rangle = 0$, and $w'$ stays in the plane. Normalising $v$ and $w'$ to unit length is Gram-Schmidt's first run; the process repeats on the third vector.
+
+</div>
+</details>
 
 ## 2. Orthogonality and Gram-Schmidt
 
@@ -206,6 +222,7 @@ This is Parseval's identity's engine: in an orthonormal basis, coordinates
 *are* inner products. Measurement replaces bookkeeping.
 
 **Quick check.**
+:::note[Quick check]
 
 1. State Pythagoras and where its proof uses orthogonality.
 2. Why is a pairwise orthogonal family of nonzero vectors automatically
@@ -222,6 +239,8 @@ the same successive spans. **4.** Otherwise $w_i$ would lie in the previous
 span, contradicting independence. **5.** The inner products $\langle v, e_i
 \rangle$ (Theorem 2.5).
 
+
+:::
 ## 3. Orthogonal Complements and Projection
 
 **Definition.** For a subspace $W \subseteq V$, the **orthogonal
@@ -265,6 +284,7 @@ signal in an orthonormal basis *is* best approximation, and the error is
 exactly the part the basis cannot see.
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define $W^\perp$ and say why it is a subspace.
 2. State the orthogonal decomposition theorem.
@@ -278,6 +298,8 @@ decomposition (Theorem 3.1). **3.** The unique $W$-component of $v$.
 **4.** Pythagoras (Lemma 2.1) on the split $v - w = (v - p_W) + (p_W - w)$.
 **5.** Exactly when $w = p_W(v)$ (the second Pythagoras summand vanishes).
 
+
+:::
 ## 4. Adjoints
 
 **Definition.** For a linear map $T: V \to V$, the **adjoint** is a map
@@ -315,6 +337,7 @@ Theorem 4.1's computation. Conversely a symmetric matrix gives a
 self-adjoint map by the same computation in reverse. $\blacksquare$
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the adjoint of $T$.
 2. What is the matrix of $T^*$ in an orthonormal basis?
@@ -329,6 +352,8 @@ their difference applied to some $v$ would be a nonzero vector orthogonal
 to every vector, including itself: norm zero, contradiction. **5.** Not in
 arbitrary bases; only in orthonormal ones (Proposition 4.2).
 
+
+:::
 ## 5. The Spectral Theorem
 
 **Lemma 5.1 (self-adjoint eigenvalues are real; invariant complements).**
@@ -408,6 +433,7 @@ eigenvectors as columns is orthogonal ($Q^T Q = I$: orthonormal columns)
 and $A Q = Q D$, so $A = Q D Q^T$. $\blacksquare$
 
 **Quick check.**
+:::note[Quick check]
 
 1. Why are a self-adjoint map's eigenvalues real?
 2. State the Hermitian symmetry used in that proof.
@@ -425,6 +451,8 @@ characteristic polynomial split (via the declared fundamental theorem of
 algebra) while Lemma 5.1 pulls the eigenvalues back to the reals. **5.** $A
 = Q D Q^T$ with $Q$ orthogonal, $D$ real diagonal (Corollary 5.3).
 
+
+:::
 ## 6. Problems
 
 **Problems.** The quick checks above tested recall. These chain several

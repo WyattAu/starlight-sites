@@ -53,6 +53,8 @@ track](/3-real-analysis/)). Nothing else is assumed: in particular the
 smoothness of polynomial and rational functions is *proved* in Section 1,
 which is why the sphere example needs no calculus at all.
 
+**History.** The manifold concept descends from Bernhard Riemann's 1854 habilitation lecture *On the Hypotheses which lie at the Foundations of Geometry*, where space itself was proposed as a manifold with a metric chosen, not given. Poincare's work on the three-body problem forced the technical definitions in the 1880s and 1890s: dynamics needed spaces that were neither planes nor spheres.
+
 ## 1. Differentiability in Euclidean Space
 
 **Definition.** A map $f: \mathbb{R}^n \to \mathbb{R}^m$ is
@@ -177,6 +179,7 @@ this one remark. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Define the derivative of $f$ at $a$.
 2. Do partial derivatives at a point determine the derivative?
@@ -187,6 +190,8 @@ this one remark. $\blacksquare$
 *Answers:* **1.** The unique linear $L$ with $\|f(a+h) - f(a) - Lh\| = o(\|h\|)$. **2.** Yes, when the derivative exists: the entries are the partials (Proposition 1.1). **3.** No: the Caution's counterexample has every directional derivative and no derivative. **4.** $h(a)\, g'(a) + g(a)\, h'(a)$ (Proposition 1.2). **5.** Polynomials and rational functions on their domains (Corollary 1.3).
 
 
+
+:::
 ## 2. Topological Manifolds
 
 **Definition.** A **base** for a topology on $X$ is a collection
@@ -257,6 +262,7 @@ charts cover $W$. $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Name the three clauses defining a topological manifold.
 2. What is a base, and what does second countable mean?
@@ -266,6 +272,19 @@ charts cover $W$. $\blacksquare$
 
 *Answers:* **1.** Hausdorff; second countable; locally Euclidean of dimension $n$. **2.** A base is opens whose unions give all opens; second countable means a countable base. **3.** It is not Hausdorff: the two origins cannot be separated. **4.** Yes, with the restricted charts (Proposition 2.2). **5.** Balls with rational centres and rational radii (Proposition 2.1).
 
+
+
+:::
+**Ponder (attempt the atlas on the sphere).** Attempt to cover the whole sphere with a single chart (one bijection from the sphere to an open piece of the plane). Where does the attempt fail, and what does the failure force?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The sphere minus a point is a chart (stereographic projection), but the missing point cannot be charted by the same map: a continuous bijection from the compact sphere to a non-compact plane open set cannot be a homeomorphism. The failure forces a second chart covering the pole, with a smooth transition map between them: an atlas, not a chart.
+
+</div>
+</details>
 
 ## 3. Charts, Atlases, and the Maximal Atlas
 
@@ -383,6 +402,7 @@ the smooth structure adds no topology.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. What is a chart, and what is an atlas?
 2. What is the transition map of charts $(U, \varphi)$, $(V, \psi)$?
@@ -393,6 +413,8 @@ the smooth structure adds no topology.
 *Answers:* **1.** A homeomorphism onto an open subset of $\mathbb{R}^n$; an atlas is charts covering $M$. **2.** $\psi \circ \varphi^{-1}$ on $\varphi(U \cap V)$. **3.** Both transition directions are smooth. **4.** No: the $\theta(t) = t + \frac{1}{4}|t-1|^3$ counterexample is compatible with $\psi$ but not with $\varphi$. **5.** Compatibility through a common covering atlas, applied locally (Proposition 3.1); that is what makes $\operatorname{Max}(\mathcal{A})$ consistent and unique (Theorem 3.2).
 
 
+
+:::
 ## 4. Examples
 
 **Example (the sphere, entirely by algebra).** Let
@@ -495,6 +517,7 @@ $\blacksquare$
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. Write the stereographic inverse $\psi_N$.
 2. What is the transition $\varphi_S \circ \psi_N$?
@@ -505,6 +528,8 @@ $\blacksquare$
 *Answers:* **1.** $\psi_N(y) = (2y/(\|y\|^2+1),\ (\|y\|^2-1)/(\|y\|^2+1))$. **2.** $y \mapsto y/\|y\|^2$ on $\mathbb{R}^n \setminus \{0\}$. **3.** It is a subspace of $\mathbb{R}^{n+1}$ (Proposition 2.1). **4.** Product charts form a smooth atlas (Theorem 4.1); dimension $m + n$. **5.** No trigonometry: only rational functions and algebra.
 
 
+
+:::
 ## 5. Smooth Maps Between Manifolds
 
 **Definition.** A map $f: M \to N$ of smooth manifolds is **smooth at** $p
@@ -626,6 +651,7 @@ rank–nullity make the dimension unforgeable.
 
 
 **Quick check.**
+:::note[Quick check]
 
 1. When is $f: M \to N$ smooth at $p$?
 2. How many lines does smoothness-to-continuity take, and how?
@@ -636,6 +662,8 @@ rank–nullity make the dimension unforgeable.
 *Answers:* **1.** Some chart at $p$ carries inside a chart at $f(p)$ with a smooth chart representation. **2.** Two lines: factor $f$ as $\psi^{-1}$ after representation after $\varphi$ on the chart domain (Proposition 5.1). **3.** Continuity lets domains shrink; transitions are smooth; the chain rule finishes (Proposition 5.2). **4.** A smooth bijection with smooth inverse. **5.** The chain rule gives $BA = I_n$ and $AB = I_m$; rank–nullity forces $n = m$ (Theorem 5.4).
 
 
+
+:::
 ## 6. Problems
 
 1. Prove that the line with two origins is not Hausdorff, and conclude
