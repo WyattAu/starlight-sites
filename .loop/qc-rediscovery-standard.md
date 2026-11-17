@@ -48,3 +48,15 @@ instances: Stage A (Russell 1902, Zermelo 1908, Euclid's
 Elements), Stage B (Peano 1880s, Kronecker's dictum, Gauss's
 schoolboy sum), Stage E (d'Alembert 1746, Gauss 1799, the shared
 gap). The nine pre-standard pages are the retrofit ledger.
+
+## Ponder standard (added 2026-11-13, promoted to pedagogy-core 4a)
+
+Ponders are intellectual discovery, not prompts. Four shapes:
+construction, failure dissection, proof attempt, reading-the-
+historical-attempt. Four gates: answering IS the discovery; the
+difficulty is the real one; answerable only by thinking; immediate
+complete feedback in the spoiler. Page-level arc: naive attempt,
+failure, repair, rigour, surprise. Specimen defects: Stage E's
+former "invent the set of elements in both" (meaning handed over,
+symbols requested). Retroactive A-L audit ledgered with the QC
+ladder pass.

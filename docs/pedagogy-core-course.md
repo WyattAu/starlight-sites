@@ -393,6 +393,61 @@ equivalent. Marked instances are counted in the audit.
 
 ---
 
+## 4a. The ponder standard: intellectual discovery, not prompts
+
+A ponder exists to make the reader live through the intellectual
+difficulty that forced the concept into existence. A ponder that
+describes the answer's shape and asks for symbols is not a ponder:
+it is a transcription exercise wearing a name. The standard:
+
+**The four intellectual-ponder shapes.** Every ponder is one of:
+
+1. **Construction** — the reader invents the object or formula from
+   the need, with the need stated as a problem they can feel
+   (Stage C's "invent the repair yourself": you may not subtract 5
+   from 3, but you may describe the would-be difference).
+2. **Failure dissection** — the reader finds where an argument or
+   construction breaks, on the real instance (Stage B's horse
+   autopsy: which herds, which boundary).
+3. **Proof attempt** — the reader runs the argument's engine on a
+   small case before the general proof lands (Stage K's attempt the
+   complex derivative along two directions).
+4. **Reading the historical attempt** — the reader diagnoses why
+   the actual historical attempt failed or stalled (Stage L's fifth
+   postulate chase: where does every attempt smuggle in the
+   answer).
+
+**The four quality gates.** A ponder passes only if:
+
+- **Answering it is the discovery.** The spoiler's content IS the
+  concept; answering the question = constructing the idea, not
+  reciting it. (Anti-pattern: "invent the set of elements in
+  both" — the meaning handed over, only symbols requested.)
+- **The difficulty is the real one.** The obstacle posed is the
+  same obstacle the mathematicians faced (the two-directional
+  limit for holomorphy; the surviving second-order term for Itô),
+  not artificial busywork.
+- **It is answerable only by thinking.** No memory retrieval, no
+  lookup, no transcription; the section's prose must not already
+  contain the answer's shape.
+- **Feedback is immediate and complete.** The spoiler carries the
+  full resolution, including why wrong attempts fail, and lands
+  the formal name immediately after.
+
+**The page-level arc.** A stage page's ponders, read in sequence,
+should trace the historical discovery arc where the material
+allows: naive attempt, failure, repair, rigour, surprise. The
+attempt comes before the term; the term is the name of what the
+reader already built ("every definition arrives as the name of
+something you already built").
+
+**Enforcement.** The per-stage audit checks each ponder against
+the four shapes and four gates; a ponder that hands over the
+meaning and asks for association is a defect (Stage E's former
+"define the set of elements in both" was the specimen), as is a
+ponder whose answer the reader could transcribe from the
+preceding paragraph.
+
 ## 4b. The history requirement
 
 Every section of a stage page carries at least one **anchored
