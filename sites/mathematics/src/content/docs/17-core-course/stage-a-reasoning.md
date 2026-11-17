@@ -279,9 +279,12 @@ $P$: $\{x \in S : P(x)\}$ collects the elements of $S$ satisfying
 $P$. The unbounded form $\{x : P(x)\}$ is forbidden; the next ponder
 is the reason.
 
-**Ponder 7 (the monster).** Let $R$ be "the set of all sets that are
-not members of themselves". Ask whether $R \in R$, under both
-possible answers. What does the contradiction diagnose?
+**Ponder 7 (the monster).** Let $R$ be "the set of all sets that
+are not members of themselves" — the paradox Bertrand Russell
+wrote to Gottlob Frege about in 1902, just as Frege's life work on
+set-theoretic foundations went to press. Ask whether $R \in R$,
+under both possible answers. What does the contradiction
+diagnose?
 
 <details class="wn-spoiler">
 <summary>The autopsy</summary>
@@ -352,7 +355,7 @@ singletons, the three pairs, the whole set. **6.** $\{a, c\}$: the
 elements in exactly one of the two sets. **7.** The chase reduces to
 $\land$ distributing over $\lor$, row-checked in Section 1. **8.**
 Russell's $R$: neither $R \in R$ nor $R \notin R$, violating the
-classical-logic axiom; bounded comprehension is the repair.
+classical-logic axiom; bounded comprehension is the repair — the move Ernst Zermelo formalised in 1908 when he axiomatised set theory to cage exactly this monster.
 
 </div>
 </details>

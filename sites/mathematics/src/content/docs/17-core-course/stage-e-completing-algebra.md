@@ -112,7 +112,7 @@ If $i < m$, then $a_i = 0$; if $j < n$, then $b_j = 0$. So every other
 term vanishes and $a_m \times b_n \neq 0$ (no zero divisors). The
 product has degree $m + n$. $\blacksquare$
 
-**Quick check.**
+:::note[Quick check]
 
 1. Write the coefficient sequences of $3 + 0 \times x + 5 \times x^2$
    and of $x$.
@@ -299,7 +299,9 @@ builds exactly enough rigidity to run this.
 </div>
 </details>
 
-**Quick check.**
+:::
+
+:::note[Quick check]
 
 1. State the fundamental theorem of algebra in root form and in
    factor form.
@@ -362,6 +364,8 @@ factorizations.
 
 </div>
 </details>
+
+:::
 
 :::
 

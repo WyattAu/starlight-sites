@@ -25103,9 +25103,12 @@ $P$: $\{x \in S : P(x)\}$ collects the elements of $S$ satisfying
 $P$. The unbounded form $\{x : P(x)\}$ is forbidden; the next ponder
 is the reason.
 
-**Ponder 7 (the monster).** Let $R$ be "the set of all sets that are
-not members of themselves". Ask whether $R \in R$, under both
-possible answers. What does the contradiction diagnose?
+**Ponder 7 (the monster).** Let $R$ be "the set of all sets that
+are not members of themselves" — the paradox Bertrand Russell
+wrote to Gottlob Frege about in 1902, just as Frege's life work on
+set-theoretic foundations went to press. Ask whether $R \in R$,
+under both possible answers. What does the contradiction
+diagnose?
 
 <details class="wn-spoiler">
 <summary>The autopsy</summary>
@@ -25176,7 +25179,7 @@ singletons, the three pairs, the whole set. **6.** $\{a, c\}$: the
 elements in exactly one of the two sets. **7.** The chase reduces to
 $\land$ distributing over $\lor$, row-checked in Section 1. **8.**
 Russell's $R$: neither $R \in R$ nor $R \notin R$, violating the
-classical-logic axiom; bounded comprehension is the repair.
+classical-logic axiom; bounded comprehension is the repair — the move Ernst Zermelo formalised in 1908 when he axiomatised set theory to cage exactly this monster.
 
 </div>
 </details>
@@ -25738,6 +25741,14 @@ says something the first four cannot: that the moves from $0$ reach
 *everything*: there are no stray counting numbers off the chain.
 It is the licence that makes proofs about all counting numbers
 possible, and Section 1's theorems are its first outings.
+
+**History.** These five declarations were distilled in the 1880s
+by Giuseppe Peano (building on Richard Dedekind and Hermann
+Grassmann), and Leopold Kronecker's dictum that God made the
+natural numbers while all else is the work of man is this stage's
+programme statement. Carl Friedrich Gauss, as the schoolboy story
+goes, summed the first hundred numbers in seconds by pairing the
+ends: the sum identity of Problem 5 is that pairing, proved.
 
 **Notation.** Define names: $1 := S(0)$, $2 := S(1)$, $3 := S(2)$,
 and so on when needed. These are abbreviations for iterated
@@ -28337,7 +28348,7 @@ If $i < m$, then $a_i = 0$; if $j < n$, then $b_j = 0$. So every other
 term vanishes and $a_m \times b_n \neq 0$ (no zero divisors). The
 product has degree $m + n$. $\blacksquare$
 
-**Quick check.**
+:::note[Quick check]
 
 1. Write the coefficient sequences of $3 + 0 \times x + 5 \times x^2$
    and of $x$.
@@ -28524,7 +28535,9 @@ builds exactly enough rigidity to run this.
 </div>
 </details>
 
-**Quick check.**
+:::
+
+:::note[Quick check]
 
 1. State the fundamental theorem of algebra in root form and in
    factor form.
@@ -28587,6 +28600,8 @@ factorizations.
 
 </div>
 </details>
+
+:::
 
 :::
 

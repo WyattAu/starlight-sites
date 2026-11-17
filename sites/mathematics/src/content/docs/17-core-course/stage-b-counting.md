@@ -92,6 +92,14 @@ says something the first four cannot: that the moves from $0$ reach
 It is the licence that makes proofs about all counting numbers
 possible, and Section 1's theorems are its first outings.
 
+**History.** These five declarations were distilled in the 1880s
+by Giuseppe Peano (building on Richard Dedekind and Hermann
+Grassmann), and Leopold Kronecker's dictum that God made the
+natural numbers while all else is the work of man is this stage's
+programme statement. Carl Friedrich Gauss, as the schoolboy story
+goes, summed the first hundred numbers in seconds by pairing the
+ends: the sum identity of Problem 5 is that pairing, proved.
+
 **Notation.** Define names: $1 := S(0)$, $2 := S(1)$, $3 := S(2)$,
 and so on when needed. These are abbreviations for iterated
 successors, not new objects.
