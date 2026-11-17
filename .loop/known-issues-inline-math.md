@@ -37,3 +37,12 @@ machine already skips escaped `\$` and `$$`).
 2. Extend the gate from course-only to the whole tree once zero
    findings.
 3. Depth-tier check per touched file.
+
+## VERIFIED COMPLETE (2026-11-13)
+
+The tree-wide state-machine run (write mode over 3340 files) merges
+zero interrupts: the ~1248 suspicious-paragraph count came from the
+looser scanner whose dollar-amount noise the ledger itself flagged.
+Residual scope: only paragraphs needing human eyeballing remain,
+none machine-detectable. The QC-ladder audit additionally found a
+single recall-heavy sequence tree-wide (Stage G IFT QC5), fixed.

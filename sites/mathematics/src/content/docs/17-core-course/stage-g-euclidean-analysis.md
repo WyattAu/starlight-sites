@@ -543,7 +543,8 @@ differentiable inverses with them.
    the example $(x, y) \mapsto (x^2, y)$?
 4. What role does $C^1$ (not mere differentiability at one point)
    play in the proof sketch?
-5. State the inverse's Jacobian formula.
+5. Derive the inverse's Jacobian formula by applying the chain
+   rule to $f^{-1} \circ f = \mathrm{id}$.
 6. Compute $\det Df$ for $f(x, y) = (x^2, y)$ at $(1, 0)$ and
    $(0, 0)$, and state where local invertibility holds.
 7. State the inverse Jacobian formula and its one-dimensional
@@ -563,8 +564,10 @@ itself. **3.** $x \mapsto x^2$ has $D = 0$ at the origin, and the
 folding means two inputs share one output near $0$: no local
 injectivity, hence no inverse. **4.** The contraction estimate needs
 $Df$ to stay close to $Df(p)$ on a whole neighbourhood, which is
-continuity of the derivative, not just its existence at $p$. **5.**
-$D(f^{-1})(q) = (Df(f^{-1}(q)))^{-1}$.
+continuity of the derivative, not just its existence at $p$. **5.** Composing $f^{-1} \circ f = \mathrm{id}$ and differentiating
+by the chain rule: $D(f^{-1})_{f(p)} \, Df_p = I$, so
+$D(f^{-1})(f(p)) = (Df(p))^{-1}$; the hypothesis needed is that
+$Df_p$ is invertible.
 **6.** $\det Df = 2x$: it is $2$ at $(1, 0)$, where the map is locally invertible, and $0$ at $(0, 0)$, the fold where two inputs share one output. **7.** $D(f^{-1})(q) = (Df(f^{-1}(q)))^{-1}$; in one variable, the inverse's derivative is the reciprocal of the derivative at the preimage. **8.** The contraction mapping principle (Section 9) for the local inverse's existence, and the chain rule for its Jacobian.
 
 </div>
