@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 GRAPH = ROOT / "docs" / "course-graph.json"
-HUB = ROOT / "sites" / "mathematics" / "src" / "content" / "docs" / "17-core-course" / "index.md"
+HUB = ROOT / "sites" / "mathematics" / "src" / "content" / "docs" / "17-core-course" / "index.mdx"
 
 problems = []
 
@@ -158,7 +158,7 @@ for aid in axiom_ids:
 
 # 6. Hub agreement
 hub = HUB.read_text(encoding="utf-8")
-m = re.search(r"<!-- COURSE-MAP:START -->(.*?)<!-- COURSE-MAP:END -->", hub, re.S)
+m = re.search(r"\{/\* COURSE-MAP:START \*/\}(.*?)\{/\* COURSE-MAP:END \*/\}", hub, re.S)
 if not m:
     fail("hub is missing the COURSE-MAP markers")
 else:

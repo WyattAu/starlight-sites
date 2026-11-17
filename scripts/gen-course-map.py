@@ -17,9 +17,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 GRAPH = ROOT / "docs" / "course-graph.json"
-HUB = ROOT / "sites" / "mathematics" / "src" / "content" / "docs" / "17-core-course" / "index.md"
-START = "<!-- COURSE-MAP:START -->"
-END = "<!-- COURSE-MAP:END -->"
+HUB = ROOT / "sites" / "mathematics" / "src" / "content" / "docs" / "17-core-course" / "index.mdx"
+START = "{/* COURSE-MAP:START */}"
+END = "{/* COURSE-MAP:END */}"
 
 
 def build_section(graph):
@@ -100,8 +100,8 @@ def build_section(graph):
     return "\n".join(lines)
 
 
-STAGE_START = "<!-- STAGE-GRAPH:START -->"
-STAGE_END = "<!-- STAGE-GRAPH:END -->"
+STAGE_START = "{/* STAGE-GRAPH:START */}"
+STAGE_END = "{/* STAGE-GRAPH:END */}"
 
 
 def build_stage_graph(graph):

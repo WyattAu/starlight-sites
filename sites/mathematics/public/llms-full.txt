@@ -24343,17 +24343,28 @@ convergence ladder, and the birth of probability.
 ## Index
 URL: https://mathematics.wyattau.com/17-core-course/
 
-<!-- Breadcrumb Schema for SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "The Core Course",
-  "description": "A linear mathematics course that starts from literacy alone and builds counting, arithmetic, the real line, algebra, analysis and geometry in dependency order.",
-  "provider": {"@type": "Organization", "name": "Wyatt's Notes", "url": "https://mathematics.wyattau.com"},
-  "url": "https://mathematics.wyattau.com/17-core-course/"
-}
-</script>
+import CountUp from '../../../components/CountUp';
+import FadeReveal from '../../../components/FadeReveal';
+
+{/* Breadcrumb Schema for SEO */}
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Course",
+      name: "The Core Course",
+      description:
+        "A linear mathematics course that starts from literacy alone and builds counting, arithmetic, the real line, algebra, analysis and geometry in dependency order.",
+      provider: {
+        "@type": "Organization",
+        name: "Wyatt's Notes",
+        url: "https://mathematics.wyattau.com",
+      },
+      url: "https://mathematics.wyattau.com/17-core-course/",
+    }),
+  }}
+/>
 
 This course is separate from the reference tracks on this site. The reference
 tracks are an encyclopaedia: alphabetical, cross-linked, no required order.
@@ -24388,7 +24399,8 @@ Three rules govern every chapter:
 
 ## The stage graph
 
-<!-- STAGE-GRAPH:START -->
+{/* STAGE-GRAPH:START */}
+
 ```mermaid
 graph TD
     A["A: Reasoning (5)"]
@@ -24464,9 +24476,10 @@ graph TD
 Each node is a stage, with its chapter count; each arrow is a dependency
 that crosses a stage boundary. The arrows only ever point forward, which is
 the property the Lean artifact checks chapter by chapter.
-<!-- STAGE-GRAPH:END -->
+{/* STAGE-GRAPH:END */}
 
-<!-- COURSE-MAP:START -->
+{/* COURSE-MAP:START */}
+
 ## The Course Map
 
 The reader arrives knowing how to read. The course builds the rest in
@@ -24612,9 +24625,11 @@ not the direction of travel.
 
 The reference tracks in the sidebar remain the encyclopaedia; this course is
 the path through it.
-<!-- COURSE-MAP:END -->
+{/* COURSE-MAP:END */}
 
 
+
+<FadeReveal>
 
 ## The Mastery Methodology
 
@@ -24698,6 +24713,10 @@ is a documented reality.
 
 Levels 4–5 are under construction. The dependency graph above shows the
 planned structure.
+
+
+
+</FadeReveal>
 
 ---
 
