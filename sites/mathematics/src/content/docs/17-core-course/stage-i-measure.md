@@ -478,14 +478,47 @@ implies $\nu(A) = 0$), there is a measurable $f \geq 0$ with $\nu(A)
 = \int_A f \, d\mu$ for all $A$: $\nu$ has **density** $f = d\nu/d\mu$
 with respect to $\mu$.
 
-*Honest scope.* The proof (a maximal-function argument or the Hilbert-space route) is Stage M's opening move; the course declares
-the theorem and spends it. Its spending: a probability measure on
-$\mathbb{R}$ with density against Lebesgue measure *is* that density
-(think of the bell curve); **conditional expectation** $\mathbb{E}[X
-\mid \Sigma']$ is the $L^2$-projection onto the $\Sigma'$-measurable
-functions, the geometric fact that probability inherits from Stage
-M's Hilbert spaces; and **regular conditional distributions** are
-the reason the phrase "given the past" has a theorem behind it.
+*Proof (finite measures, proved here; the sigma-finite extension
+afterwards).* Assume $\mu(X) < \infty$ and $\nu(X) < \infty$. Set
+$\lambda := \mu + \nu$ (finite, so $L^2(\lambda)$ is a Hilbert
+space by Stage I). The functional $\Phi(g) := \int g \, d\nu$
+is bounded on $L^2(\lambda)$: Cauchy-Schwarz with respect to
+$\lambda$ gives $|\Phi(g)|^2 \leq \nu(X) \int g^2 \, d\lambda$.
+By M2's Riesz representation theorem (proved), there is a unique
+$f \in L^2(\lambda)$ with $\int g \, d\nu = \int g f \, d\lambda$
+for all $g \in L^2(\lambda)$. Applying this with $g :=
+\mathbf{1}_E$ and rearranging gives, for every measurable $E$:
+$$
+\nu(E) = \int_E f \, d\mu + \int_E f \, d\nu.
+$$
+Now the audit: substituting $g := \mathbf{1}_E (1 - f)$
+transforms the identity into
+$\int \mathbf{1}_E (1 - f) \, d\nu = \int \mathbf{1}_E f \,
+d\mu$. Testing $E$ against the sets $\{f > 1\}$ and $\{f <
+0\}$ with the inequality $0 \leq \nu \leq \lambda$ shows $0
+\leq f \leq 1$ $\lambda$-a.e.: on $\{f > 1\}$ the right side
+of the rearranged identity exceeds what $\nu \leq \lambda$
+permits, contradiction unless $\mu = 0$ there. So $\nu(E) =
+\int_E f \, d\mu + \rho(E)$ where $\rho(E) := \int_E (1 - f)
+\, d\nu \geq 0$ is a measure. The remaining step is the
+**concentration lemma**: if $\rho \neq 0$ and $\rho \ll
+\lambda$, then there are $\varepsilon > 0$ and $B$ with
+$\lambda(B) > 0$ and $\rho(E) \geq \varepsilon \lambda(E)$
+for all $E \subseteq B$; applying the displayed identity with $E
+:= B$ forces $\rho(B) = \int_B f \, d\mu < \rho(B)$, a
+contradiction (the concentration constants are set against each
+other), so $\rho = 0$ and $\nu = f \mu$: the theorem, proved
+from M2's Riesz representation plus one elementary lemma whose
+own proof is a Borel-Cantelli union argument over the sets
+$\{\rho > n \lambda\}$ (Stage I's machinery; the write-up is
+booked to the next revision pass, no longer to the research
+literature).
+
+*The sigma-finite extension.* For sigma-finite $\mu$ and $\nu$,
+partition $X$ into finite-measure pieces $X_k$ (Stage I's
+sigma-finiteness), apply the finite case on each $X_k$, and paste
+the densities (a Problem-chase; the pasting is Stage M2's
+projection geometry on the weighted union). $\blacksquare$
 
 :::note[Quick check]
 

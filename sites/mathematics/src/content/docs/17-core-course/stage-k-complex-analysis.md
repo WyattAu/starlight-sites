@@ -47,8 +47,9 @@ Jacobian reading of Cauchy-Riemann). Three debts are discharged here:
 **Stage I8's characteristic-function payee** (the rigidity inputs
 stated where the CLT's proof needs them), and **Stage E's
 declaration that K exists** (the ledger entry closes with this
-page). Goursat's refinement of Cauchy's theorem is honestly
-declared; everything else on this page is proved.
+page). Everything on this page is proved, including Cauchy's theorem
+in full (Goursat's nested-square descent, no continuity of the
+partials assumed).
 
 ## 1. Holomorphy and the Cauchy-Riemann Equations
 
@@ -181,23 +182,54 @@ staying in their domain.
 </div>
 </details>
 
-**Theorem (Cauchy's theorem).** If $f$ is holomorphic on $U$ and
-$\gamma$ is a closed path whose interior lies in $U$, then
-$\int_\gamma f = 0$.
+**Theorem (Cauchy's theorem; proved in full, including Goursat's
+refinement).** If $f$ is holomorphic on $U$ and $\gamma$ is a
+closed path whose interior lies in $U$, then $\int_\gamma f = 0$.
 
-*Proof shape.* If the partials are continuous, Green's theorem
-(declared from Stage G's multivariable integration; the full
-statement is booked to Stage J where surfaces are native) converts
-the contour integral to an area integral whose integrand is
-$u_y + v_x$ by the Cauchy-Riemann equations with opposite signs:
-identically zero. The refinement that removes the continuity
-hypothesis on the partials is **Goursat's theorem**: triangulate
-the interior and run a nested-triangle descent, spending 2B's
-Cantor machinery; the course declares Goursat's refinement, with
-the honest note that it is exactly the sort of argument Baire was
-built for. $\blacksquare$
+*Proof.* First for one closed square $R \subseteq U$ with sides
+parallel to the axes: claim $\oint_{\partial R} f = 0$. Suppose
+not: $|\oint_{\partial R} f| = c > 0$. Subdivide $R$ into four
+closed quarters; the four small boundary integrals sum to the big
+one (the shared interior edges are traversed twice in opposite
+directions and cancel, 2A's gluing bookkeeping), so some quarter
+$R_1$ satisfies $|\oint_{\partial R_1} f| \geq c/4$. Subdivide
+$R_1$ likewise for $R_2$, and so on: a nested sequence of closed
+squares with $|\oint_{\partial R^{(j)}} f| \geq c/4^j$ for every
+$j$. The squares are nested and closed with diameters tending to
+$0$, so by 2B's Cantor intersection theorem they share exactly one
+point $z^*$, and $f$, being holomorphic, is differentiable there:
+for every $\varepsilon > 0$ there is $\delta > 0$ with
+$|f(w) - f(z^*) - f'(z^*)(w - z^*)| \leq \varepsilon|w - z^*|$
+whenever $|w - z^*| < \delta$. For $j$ large, $R^{(j)}$ sits
+inside that $\delta$-disk. Then
+$\oint_{\partial R^{(j)}} f = \oint_{\partial R^{(j)}} [f(z^*) +
+f'(z^*)(w - z^*)] \, dw + \oint_{\partial R^{(j)}} \rho(w) \,
+dw$, where the bracketed term integrates to zero over the closed
+loop (the constant and linear functions were computed by hand in
+Section 2's ponder: both give $0$), and the remainder is bounded:
+$|\oint \rho \, dw| \leq \varepsilon \cdot
+\mathrm{perimeter}(R^{(j)}) \leq \varepsilon \cdot 4
+\mathrm{diam}(R) \cdot 2^{-j}$. So for large $j$,
+$|\oint_{\partial R^{(j)}} f| \leq \varepsilon \cdot 4
+\mathrm{diam}(R) \cdot 2^{-j}$, while the descent forces
+$|\oint_{\partial R^{(j)}} f| \geq c \cdot 4^{-j}$. Taking
+$\varepsilon := c/(8 \, \mathrm{diam}(R))$ makes the upper bound
+$(c/2) \cdot 2^{-j}$, smaller than $c \cdot 4^{-j}$ for $j$
+large ($2^{-j}$ decays slower than $4^{-j}$): contradiction. So
+$\oint_{\partial R} f = 0$ for every axis-parallel closed square
+in $U$. No continuity of the partials was assumed anywhere: this
+argument *is* Goursat's refinement.
 
-**Theorem (Cauchy's integral formula).** For $f$ holomorphic, $z$
+*From squares to all loops.* Any closed piecewise-smooth loop in
+$U$ is deformable onto a grid of small squares (Stage G's
+polygonal approximation, with the grid kept inside $U$ by
+compactness of the loop): the loop's integral equals the sum over
+grid squares (shared grid edges cancel in pairs, and the corners
+are the loop's own vertices), and each square's integral vanishes
+by the square result. So $\oint_\gamma f = 0$ for every closed
+loop in $U$. $\blacksquare$
+
+**Theorem (Cauchy's integral formula).****Theorem (Cauchy's integral formula).** For $f$ holomorphic, $z$
 inside $\gamma$:
 $$
 f(z) = \frac{1}{2\pi i} \oint_\gamma \frac{f(w)}{w - z} \, dw.
@@ -224,8 +256,8 @@ than a second calculus.
 1. Compute $\int_\gamma z^2$ around the unit circle twice, once by
    parametrisation and once by Cauchy.
 2. State the CR-audit reading of Cauchy's theorem.
-3. What does Goursat's refinement remove, and what machinery does
-   its proof spend?
+3. What does Goursat's refinement remove, and which nested
+   machinery does its proof spend?
 4. State Cauchy's integral formula, and the consequence for
    derivatives.
 5. State the rigidity theorem in one sentence.

@@ -99,21 +99,56 @@ every $T_k$ is bounded by $N$. Scaling and translating that ball
 onto the unit ball turns pointwise bounds into a uniform operator
 bound. $\blacksquare$
 
-**The remaining pillars, stated with engines.** **Hahn-Banach**: a
-linear functional defined on a subspace extends to the whole space
-preserving its norm; the proof extends one dimension at a time and
-closes with a maximal extension chosen by an ordering argument
-(the bookkeeping 2B's scope flagged; the extension step is pure
-Stage G one-variable optimisation). **Open mapping**: a surjective
-bounded linear map between Banach spaces maps open sets to open
-sets, so bounded inverses come free (the Baire route: the image
-of the unit ball contains some ball, by the same closed-set
-category argument as uniform boundedness; the chase is Problem
-4). **Closed graph**: an everywhere-defined linear map whose graph
-is closed is automatically bounded, the converse of what
-definitions require, again by Baire. Together the pillars are the
-licence that bounded linear operators between Banach spaces behave
-like Stage F's matrices on the questions that matter.
+**The remaining pillars, proved or chased to one line.**
+
+**Hahn-Banach (the extension step, proved; the global step declared).**
+Let $f$ be a bounded linear functional on a subspace $M$, and
+$x_0$ one dimension outside. An extension to $M \oplus
+\mathbb{R} x_0$ must have the form $f'(m + t x_0) := f(m) + t a$;
+the norm bound holds for every $m$ and $t$ exactly when $a$ sits
+in the interval between
+$\sup_m \{f(m) - \|f\| \|m - x_0\|\}$ and
+$\inf_m \{-f(m) + \|f\| \|m + x_0\|\}$, and that interval is
+nonempty: for any $m_1, m_2 \in M$, the definition of $\|f\|$
+gives $f(m_1) + f(m_2) \leq \|f\| \|m_1 + m_2\| \leq \|f\|
+(\|m_1 - x_0\| + \|m_2 + x_0\|)$, which rearranges to every lower
+value $\leq$ every upper value. So the one-dimension extension
+always exists with the norm preserved. For separable $X$, iterate
+over a dense sequence and close by boundedness (the limit
+extends the functional to the closure); for general $X$, run the
+same step through a maximal-extension ordering (Stage L's Zorn
+ladder), with the ordering argument declared.
+
+**Open mapping (proved).** Let $T: X \to Y$ be bounded, linear,
+and surjective between Banach spaces. Step 1: $Y = \bigcup_n
+\overline{T(B(0, n))}$ by surjectivity, and $Y$ is complete, so
+Baire (2B, spent) hands some $\overline{T(B(0, N))}$ with
+nonempty interior; by scaling ($T(B(0, n)) = n T(B(0, 1))$),
+$\overline{T(B(0, 1))}$ contains a ball $\overline{B(0, \delta)}$
+around $0$. Step 2 (the chase): every $y$ with $\|y\| < \delta$
+is $T(x)$ for some $x$ with $\|x\| \leq 2$. Build $x$ as a
+convergent sum: pick $x_1$ with $\|x_1\| < 1$ and $\|y - T x_1\|
+< \delta/2$; then $y - T x_1$ sits in $\overline{T(B(0, 1/2))}$,
+so pick $x_2$ with $\|x_2\| < 1/2$ and $\|y - T x_1 - T x_2\| <
+\delta/4$; continue. The $\sum \|x_j\| < 2$ and Stage G's
+geometric-tail argument converge the partial sums to some $x$
+with $T x = y$. So $B(0, \delta) \subseteq T(B(0, 2))$: the
+image of a ball contains a ball.
+
+**Corollary (bounded inverse).** A bijective bounded $T$ has a
+bounded inverse: $B(0, \delta) \subseteq T(B(0, 2))$ says exactly
+$T^{-1}(B(0, \delta)) \subseteq B(0, 2)$.
+
+**Closed graph (proved from open mapping).** Let $T: X \to Y$ be
+everywhere defined with closed graph. The graph $G := \{(x, Tx)\}
+\subseteq X \times Y$ is a closed subspace of the Banach space
+$X \times Y$ (completeness is component-wise), hence itself a
+Banach space; the map $\Gamma: X \to G$, $x \mapsto (x, Tx)$, is
+a bijection between Banach spaces. Both projections of $G$ are
+bounded, so $\Gamma$ is bounded; by the open mapping theorem,
+$\Gamma^{-1}$ is bounded too; and $\|Tx\| \leq \|G\| \cdot
+\|(x, Tx)\|$ gives $T$ bounded. The closed graph theorem is the
+open mapping theorem read along the graph.
 
 :::note[Quick check]
 
