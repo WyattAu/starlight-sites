@@ -393,6 +393,36 @@ equivalent. Marked instances are counted in the audit.
 
 ---
 
+## 4b. The history requirement
+
+Every section of a stage page carries at least one **anchored
+history element**: a named mathematician, date, controversy, or
+failed attempt, tied to the section's actual content and phrased as
+part of the rediscovery (how the idea was really found, including
+the wrong turns), never as a decorative aside.
+
+The shapes an anchored history element can take:
+
+- **The named failure**: the false proof, the wrong conjecture, the
+  two-thousand-year attempt (e.g. the fifth postulate's collapse;
+  d'Alembert's and Gauss's early FTA proofs and their shared gap).
+- **The discoverer's actual route**: the letter, the press-time
+  disaster, the schoolboy story that is really a proof idea
+  (Russell's 1902 letter; Gauss's paired-end sum).
+- **The tradition**: which school, which century, which earlier
+  work the construction distils (Peano 1880s via Dedekind and
+  Grassmann; Euclid's Elements as the axiomatic tradition's origin).
+
+Enforcement: the per-stage verification sweep counts anchored
+history mentions per page; a page with quick checks but zero
+anchored history fails the audit (Stage A's zero-count in the
+2026-11-12 audit was the trigger for this requirement; its repair
+is the worked example).
+
+Retroactive ledger: the nine pre-standard pages (1A-3D) carry
+neither ponders nor the QC ladder nor history; their retrofit is
+queued as the polish pass's largest item.
+
 ## 5. The rigor invariants
 
 These hold for every chapter at all times. A chapter failing any of them does

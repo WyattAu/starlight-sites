@@ -36,3 +36,15 @@ should be order-locked: Q3 only makes sense after Q2's computation.
 - Retroactive pass pending: stages A-L QC sequences (audit each
   against the ladder; rewrite offenders). Ledger this as its own
   task; do NOT bulk-rewrite without the per-section care standard.
+
+## History clause (added 2026-11-12, promoted to pedagogy-core 4b)
+
+Every section carries at least one anchored history element: named
+mathematician, date, controversy, or failed attempt, tied to the
+content, phrased as rediscovery history (real routes, wrong turns
+included), never decorative. Audit: zero anchored-history mentions
+on a page with quick checks fails the sweep. First repaired
+instances: Stage A (Russell 1902, Zermelo 1908, Euclid's
+Elements), Stage B (Peano 1880s, Kronecker's dictum, Gauss's
+schoolboy sum), Stage E (d'Alembert 1746, Gauss 1799, the shared
+gap). The nine pre-standard pages are the retrofit ledger.
