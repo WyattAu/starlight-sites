@@ -1,341 +1,836 @@
 {
-  "version": "physics-v1.0-draft",
+  "version": "physics-v1.1",
   "course": "physics",
   "note": "Physics course structure, drafted 2026-11-12 with the same standards and principles as the mathematics course: dependency-ordered, nothing assumes anything not met, rediscovery template throughout (pedagogy-core 4a ponders, 4b history, QC ladder), guided-discovery quick checks. The mathematics course (89 chapters, complete) is the declared prerequisite: physics consumes its calculus, linear algebra, measure, and analysis machinery, and says so per chapter in depends_on.",
   "prerequisite_course": "mathematics",
   "stages": [
-    { "id": "A", "title": "Measurement and Modelling" },
-    { "id": "B", "title": "Motion and Force" },
-    { "id": "C", "title": "Momentum and Energy" },
-    { "id": "D", "title": "Gravity and Orbits" },
-    { "id": "E", "title": "Oscillations and Waves" },
-    { "id": "F", "title": "Heat and Thermodynamics" },
-    { "id": "G", "title": "Electrostatics" },
-    { "id": "H", "title": "Magnetism and Maxwell's Synthesis" },
-    { "id": "I", "title": "Optics" },
-    { "id": "J", "title": "Special Relativity" },
-    { "id": "K", "title": "Quantum Foundations" },
-    { "id": "L", "title": "Atoms, Nuclei, and Particles" },
-    { "id": "M", "title": "Statistical Mechanics" },
-    { "id": "N", "title": "Condensed Matter" },
-    { "id": "O", "title": "The Research Frontier" }
+    {
+      "id": "A",
+      "title": "Measurement and Modelling"
+    },
+    {
+      "id": "B",
+      "title": "Motion and Force"
+    },
+    {
+      "id": "C",
+      "title": "Momentum and Energy"
+    },
+    {
+      "id": "D",
+      "title": "Gravity and Orbits"
+    },
+    {
+      "id": "E",
+      "title": "Oscillations, Waves, and Fluids"
+    },
+    {
+      "id": "F",
+      "title": "Heat and Thermodynamics"
+    },
+    {
+      "id": "G",
+      "title": "Electrostatics"
+    },
+    {
+      "id": "H",
+      "title": "Magnetism and Maxwell's Synthesis"
+    },
+    {
+      "id": "I",
+      "title": "Optics"
+    },
+    {
+      "id": "J",
+      "title": "Special Relativity"
+    },
+    {
+      "id": "K",
+      "title": "Quantum Foundations"
+    },
+    {
+      "id": "L",
+      "title": "Atoms, Nuclei, and Particles"
+    },
+    {
+      "id": "M",
+      "title": "Statistical Mechanics"
+    },
+    {
+      "id": "N",
+      "title": "Condensed Matter"
+    },
+    {
+      "id": "O",
+      "title": "The Research Frontier"
+    }
   ],
   "chapters": [
     {
       "id": "A1",
       "stage": "A",
       "title": "What physics asks: models, not truths",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": []
     },
     {
       "id": "A2",
       "stage": "A",
       "title": "Units, dimensions, and dimensional analysis",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "A1"
+      ]
     },
     {
       "id": "A3",
       "stage": "A",
       "title": "Uncertainty: every measurement is a range",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "A2"
+      ]
     },
-    { "id": "A4", "stage": "A", "title": "Estimation: the Fermi method", "status": "queued" },
-    { "id": "A5", "stage": "A", "title": "Vectors and coordinate freedom", "status": "queued" },
+    {
+      "id": "A4",
+      "stage": "A",
+      "title": "Estimation: the Fermi method",
+      "status": "queued",
+      "depends_on": [
+        "A2"
+      ]
+    },
+    {
+      "id": "A5",
+      "stage": "A",
+      "title": "Vectors and coordinate freedom",
+      "status": "queued",
+      "depends_on": [
+        "A1"
+      ]
+    },
     {
       "id": "B1",
       "stage": "B",
       "title": "Kinematics: describing motion before explaining it",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "A5",
+        "A2"
+      ]
     },
     {
       "id": "B2",
       "stage": "B",
       "title": "Newton's three laws, constructed from experiments",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "B1",
+        "A3"
+      ]
     },
     {
       "id": "B3",
       "stage": "B",
       "title": "Force inventories and free-body diagrams",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "B2"
+      ]
     },
-    { "id": "B4", "stage": "B", "title": "Friction and the models of contact", "status": "queued" },
+    {
+      "id": "B4",
+      "stage": "B",
+      "title": "Friction and the models of contact",
+      "status": "queued",
+      "depends_on": [
+        "B3"
+      ]
+    },
     {
       "id": "B5",
       "stage": "B",
       "title": "Circular motion and the fictitious forces",
+      "status": "queued",
+      "depends_on": [
+        "B1",
+        "B2"
+      ]
+    },
+    {
+      "id": "B6",
+      "stage": "B",
+      "title": "Rotational kinematics and angular momentum",
+      "status": "queued"
+    },
+    {
+      "id": "B7",
+      "stage": "B",
+      "title": "Rotational dynamics, moment of inertia, and rolling",
       "status": "queued"
     },
     {
       "id": "C1",
       "stage": "C",
       "title": "Momentum and its conservation, from collisions",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "B2"
+      ]
     },
     {
       "id": "C2",
       "stage": "C",
       "title": "Work, energy, and the first great conserved quantity",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "B1",
+        "B2"
+      ]
     },
     {
       "id": "C3",
       "stage": "C",
       "title": "Potential energy diagrams: reading motion from a picture",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "C2"
+      ]
     },
     {
       "id": "C4",
       "stage": "C",
       "title": "Collisions: elastic, inelastic, and what each conserves",
+      "status": "queued",
+      "depends_on": [
+        "C1",
+        "C2"
+      ]
+    },
+    {
+      "id": "C5",
+      "stage": "C",
+      "title": "Angular momentum conservation: gyroscopes and stability",
       "status": "queued"
     },
     {
       "id": "D1",
       "stage": "D",
       "title": "The falling apple and the orbiting moon: one law",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "B2",
+        "C2"
+      ]
     },
-    { "id": "D2", "stage": "D", "title": "Kepler's laws from Newton's", "status": "queued" },
+    {
+      "id": "D2",
+      "stage": "D",
+      "title": "Kepler's laws from Newton's",
+      "status": "queued",
+      "depends_on": [
+        "D1"
+      ]
+    },
     {
       "id": "D3",
       "stage": "D",
       "title": "Orbits: circles, ellipses, and escape",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "D1",
+        "C2"
+      ]
     },
     {
       "id": "D4",
       "stage": "D",
       "title": "Tides and the three-body problem's door",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "D1",
+        "C1"
+      ]
     },
     {
       "id": "E1",
       "stage": "E",
       "title": "Oscillators: the harmonic model and its limits",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "C3",
+        "B2"
+      ]
     },
-    { "id": "E2", "stage": "E", "title": "Damping and forcing: resonance", "status": "queued" },
-    { "id": "E3", "stage": "E", "title": "Waves: the travelling disturbance", "status": "queued" },
+    {
+      "id": "E2",
+      "stage": "E",
+      "title": "Damping and forcing: resonance",
+      "status": "queued",
+      "depends_on": [
+        "E1"
+      ]
+    },
+    {
+      "id": "E3",
+      "stage": "E",
+      "title": "Waves: the travelling disturbance",
+      "status": "queued",
+      "depends_on": [
+        "E1"
+      ]
+    },
     {
       "id": "E4",
       "stage": "E",
       "title": "Superposition, standing waves, and music",
+      "status": "queued",
+      "depends_on": [
+        "E3"
+      ]
+    },
+    {
+      "id": "E5",
+      "stage": "E",
+      "title": "The wave equation, derived",
+      "status": "queued",
+      "depends_on": [
+        "E3"
+      ]
+    },
+    {
+      "id": "E6",
+      "stage": "E",
+      "title": "Fluids at rest: pressure and buoyancy",
       "status": "queued"
     },
-    { "id": "E5", "stage": "E", "title": "The wave equation, derived", "status": "queued" },
+    {
+      "id": "E7",
+      "stage": "E",
+      "title": "Fluids in motion: Bernoulli and flow",
+      "status": "queued"
+    },
+    {
+      "id": "E8",
+      "stage": "E",
+      "title": "The Doppler effect",
+      "status": "queued"
+    },
     {
       "id": "F1",
       "stage": "F",
       "title": "Temperature, heat, and the zeroth laws",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "A3"
+      ]
     },
     {
       "id": "F2",
       "stage": "F",
       "title": "The ideal gas: from experiments to a model",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "F1",
+        "A2"
+      ]
     },
     {
       "id": "F3",
       "stage": "F",
       "title": "Kinetic theory: bridging micro and macro",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "F2",
+        "B2"
+      ]
     },
     {
       "id": "F4",
       "stage": "F",
       "title": "The first law: energy conservation extended",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "C2",
+        "F1"
+      ]
     },
     {
       "id": "F5",
       "stage": "F",
       "title": "The second law: entropy and the arrow of time",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "F4"
+      ]
     },
-    { "id": "F6", "stage": "F", "title": "Heat engines and Carnot's bound", "status": "queued" },
+    {
+      "id": "F6",
+      "stage": "F",
+      "title": "Heat engines and Carnot's bound",
+      "status": "queued",
+      "depends_on": [
+        "F4",
+        "F5"
+      ]
+    },
     {
       "id": "G1",
       "stage": "G",
       "title": "Charge: the experimentally invented quantity",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "A2"
+      ]
     },
     {
       "id": "G2",
       "stage": "G",
       "title": "Coulomb's law and the electric field",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "G1",
+        "B2"
+      ]
     },
-    { "id": "G3", "stage": "G", "title": "Gauss's law: the counting tool", "status": "queued" },
-    { "id": "G4", "stage": "G", "title": "Potential and energy in the field", "status": "queued" },
-    { "id": "G5", "stage": "G", "title": "Capacitors and dielectrics", "status": "queued" },
+    {
+      "id": "G3",
+      "stage": "G",
+      "title": "Gauss's law: the counting tool",
+      "status": "queued",
+      "depends_on": [
+        "G2"
+      ]
+    },
+    {
+      "id": "G4",
+      "stage": "G",
+      "title": "Potential and energy in the field",
+      "status": "queued",
+      "depends_on": [
+        "G2",
+        "C2"
+      ]
+    },
+    {
+      "id": "G5",
+      "stage": "G",
+      "title": "Capacitors and dielectrics",
+      "status": "queued",
+      "depends_on": [
+        "G4"
+      ]
+    },
     {
       "id": "H1",
       "stage": "H",
       "title": "Current and the magnetic interaction",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "G2"
+      ]
     },
-    { "id": "H2", "stage": "H", "title": "Ampere's law and magnetic fields", "status": "queued" },
+    {
+      "id": "H2",
+      "stage": "H",
+      "title": "Ampere's law and magnetic fields",
+      "status": "queued",
+      "depends_on": [
+        "H1"
+      ]
+    },
     {
       "id": "H3",
       "stage": "H",
       "title": "Faraday's induction: changing fields make fields",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "H2",
+        "G3"
+      ]
     },
     {
       "id": "H4",
       "stage": "H",
       "title": "Maxwell's displacement current: the synthesis",
+      "status": "queued",
+      "depends_on": [
+        "H3",
+        "G5"
+      ]
+    },
+    {
+      "id": "H5",
+      "stage": "H",
+      "title": "Light as an electromagnetic wave",
+      "status": "queued",
+      "depends_on": [
+        "H4",
+        "E5"
+      ]
+    },
+    {
+      "id": "H6",
+      "stage": "H",
+      "title": "DC circuits: Kirchhoff's laws",
       "status": "queued"
     },
-    { "id": "H5", "stage": "H", "title": "Light as an electromagnetic wave", "status": "queued" },
+    {
+      "id": "H7",
+      "stage": "H",
+      "title": "AC circuits and resonance",
+      "status": "queued"
+    },
     {
       "id": "I1",
       "stage": "I",
       "title": "Reflection, refraction, and Fermat's principle",
+      "status": "queued",
+      "depends_on": [
+        "H5"
+      ]
+    },
+    {
+      "id": "I2",
+      "stage": "I",
+      "title": "Interference: Young's experiment",
+      "status": "queued",
+      "depends_on": [
+        "H5",
+        "E4"
+      ]
+    },
+    {
+      "id": "I3",
+      "stage": "I",
+      "title": "Diffraction and resolution limits",
+      "status": "queued",
+      "depends_on": [
+        "I2"
+      ]
+    },
+    {
+      "id": "I4",
+      "stage": "I",
+      "title": "Polarisation: the transverse clue",
+      "status": "queued",
+      "depends_on": [
+        "H5"
+      ]
+    },
+    {
+      "id": "I5",
+      "stage": "I",
+      "title": "Lenses, mirrors, and image formation",
       "status": "queued"
     },
-    { "id": "I2", "stage": "I", "title": "Interference: Young's experiment", "status": "queued" },
-    { "id": "I3", "stage": "I", "title": "Diffraction and resolution limits", "status": "queued" },
-    { "id": "I4", "stage": "I", "title": "Polarisation: the transverse clue", "status": "queued" },
     {
       "id": "J1",
       "stage": "J",
       "title": "The two postulates and what they cost",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "H5"
+      ]
     },
     {
       "id": "J2",
       "stage": "J",
       "title": "Time dilation and length contraction",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "J1"
+      ]
     },
     {
       "id": "J3",
       "stage": "J",
       "title": "Relativistic energy: E equals mc squared",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "J2",
+        "C2"
+      ]
     },
-    { "id": "J4", "stage": "J", "title": "Spacetime diagrams and causality", "status": "queued" },
+    {
+      "id": "J4",
+      "stage": "J",
+      "title": "Spacetime diagrams and causality",
+      "status": "queued",
+      "depends_on": [
+        "J2"
+      ]
+    },
     {
       "id": "K1",
       "stage": "K",
       "title": "Blackbody radiation: the ultraviolet catastrophe",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "H5",
+        "F3"
+      ]
     },
     {
       "id": "K2",
       "stage": "K",
       "title": "The photoelectric effect: light as quanta",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "K1",
+        "H5"
+      ]
     },
-    { "id": "K3", "stage": "K", "title": "Matter waves and the double slit", "status": "queued" },
+    {
+      "id": "K3",
+      "stage": "K",
+      "title": "Matter waves and the double slit",
+      "status": "queued",
+      "depends_on": [
+        "K2",
+        "I2"
+      ]
+    },
     {
       "id": "K4",
       "stage": "K",
       "title": "The Schrodinger equation and probability amplitudes",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "K3",
+        "E5"
+      ]
     },
     {
       "id": "K5",
       "stage": "K",
       "title": "The uncertainty principle: not ignorance, structure",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "K4"
+      ]
     },
     {
       "id": "L1",
       "stage": "L",
       "title": "The hydrogen atom: spectra and quantisation",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "K4",
+        "K5"
+      ]
     },
-    { "id": "L2", "stage": "L", "title": "Spin and the Pauli principle", "status": "queued" },
+    {
+      "id": "L2",
+      "stage": "L",
+      "title": "Spin and the Pauli principle",
+      "status": "queued",
+      "depends_on": [
+        "L1",
+        "K5"
+      ]
+    },
     {
       "id": "L3",
       "stage": "L",
       "title": "Nuclei: binding, decay, and half-lives",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "J3"
+      ]
     },
     {
       "id": "L4",
       "stage": "L",
       "title": "Particles and the standard model's inventory",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "L3",
+        "L2"
+      ]
     },
     {
       "id": "M1",
       "stage": "M",
       "title": "Counting states: microstates and multiplicity",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "F3"
+      ]
     },
     {
       "id": "M2",
       "stage": "M",
       "title": "Boltzmann's entropy and temperature",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "M1",
+        "F4"
+      ]
     },
     {
       "id": "M3",
       "stage": "M",
       "title": "Partition functions: the counting machine",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "M2"
+      ]
     },
     {
       "id": "M4",
       "stage": "M",
       "title": "Quantum statistics: bosons and fermions",
+      "status": "queued",
+      "depends_on": [
+        "M3",
+        "L2"
+      ]
+    },
+    {
+      "id": "M5",
+      "stage": "M",
+      "title": "Phase transitions and the states of matter",
       "status": "queued"
     },
     {
       "id": "N1",
       "stage": "N",
       "title": "Bonds, bands, and why copper conducts",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "M4"
+      ]
     },
-    { "id": "N2", "stage": "N", "title": "Semiconductors and the band gap", "status": "queued" },
-    { "id": "N3", "stage": "N", "title": "Magnetism in matter", "status": "queued" },
+    {
+      "id": "N2",
+      "stage": "N",
+      "title": "Semiconductors and the band gap",
+      "status": "queued",
+      "depends_on": [
+        "N1"
+      ]
+    },
+    {
+      "id": "N3",
+      "stage": "N",
+      "title": "Magnetism in matter",
+      "status": "queued",
+      "depends_on": [
+        "H2",
+        "N1"
+      ]
+    },
     {
       "id": "N4",
       "stage": "N",
       "title": "Superconductivity: the zero-resistance state",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "M4",
+        "N2"
+      ]
     },
     {
       "id": "O1",
       "stage": "O",
       "title": "General relativity: gravity as geometry",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "J4",
+        "D1"
+      ]
     },
-    { "id": "O2", "stage": "O", "title": "Cosmology: the expanding universe", "status": "queued" },
+    {
+      "id": "O2",
+      "stage": "O",
+      "title": "Cosmology: the expanding universe",
+      "status": "queued",
+      "depends_on": [
+        "O1",
+        "H5"
+      ]
+    },
     {
       "id": "O3",
       "stage": "O",
       "title": "Quantum field theory: fields as the substance",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "K4",
+        "L4"
+      ]
     },
     {
       "id": "O4",
       "stage": "O",
       "title": "Open problems: dark matter, dark energy, quantum gravity",
-      "status": "queued"
+      "status": "queued",
+      "depends_on": [
+        "O2",
+        "O3"
+      ]
     }
   ],
   "mathematics_dependency_map": {
     "note": "Physics chapters consume the mathematics course's machinery. The map records which mathematics stages each physics stage leans on, so the physics prose can cite them as declared prerequisites.",
-    "A": ["A", "B"],
-    "B": ["G"],
-    "C": ["G"],
-    "D": ["G", "J"],
-    "E": ["G", "I"],
-    "F": ["I", "M"],
-    "G": ["I"],
-    "H": ["I", "G"],
-    "I": ["H", "G"],
-    "J": ["K"],
-    "K": ["I", "G"],
-    "L": ["K", "G"],
-    "M": ["I", "M"],
-    "N": ["M", "F"],
-    "O": ["J", "K", "M"]
-  }
+    "A": [
+      "A",
+      "B"
+    ],
+    "B": [
+      "G"
+    ],
+    "C": [
+      "G"
+    ],
+    "D": [
+      "G",
+      "J"
+    ],
+    "E": [
+      "G",
+      "I"
+    ],
+    "F": [
+      "I",
+      "M"
+    ],
+    "G": [
+      "I"
+    ],
+    "H": [
+      "I",
+      "G"
+    ],
+    "I": [
+      "H",
+      "G"
+    ],
+    "J": [
+      "K"
+    ],
+    "K": [
+      "I",
+      "G"
+    ],
+    "L": [
+      "K",
+      "G"
+    ],
+    "M": [
+      "I",
+      "M"
+    ],
+    "N": [
+      "M",
+      "F"
+    ],
+    "O": [
+      "J",
+      "K",
+      "M"
+    ]
+  },
+  "validated_by": "scripts/check-physics-graph.py"
 }
