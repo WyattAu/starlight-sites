@@ -83,6 +83,7 @@ describe('deploy.yml changed-site detection base ref', () => {
     assert.ok(
       // biome-ignore lint/suspicious/noTemplateCurlyInString: literal GitHub Actions expression under test
       workflow.includes('BASE="refs/tags/${LAST_GOOD_TAG}"'),
+      // biome-ignore lint/suspicious/noTemplateCurlyInString: literal GitHub Actions expression under test
       'deploy.yml must resolve last-good-deploy as refs/tags/${LAST_GOOD_TAG}; ' +
         'refs/remotes/origin/* is never populated by actions/checkout',
     )
