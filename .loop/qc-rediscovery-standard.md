@@ -60,3 +60,16 @@ failure, repair, rigour, surprise. Specimen defects: Stage E's
 former "invent the set of elements in both" (meaning handed over,
 symbols requested). Retroactive A-L audit ledgered with the QC
 ladder pass.
+
+## Physics two-track plan (2026-11-13)
+
+Track 1 (retrofit): physics.wyattau.com already exists - 133 advanced
+research-level files across 7 topics (1-classical-mechanics 17,
+2-thermal-physics 23, 3-electromagnetism 16, 4-optics-and-waves 25,
+5-quantum-mechanics 19, 6-solid-state-physics 18,
+7-particle-physics-and-cosmology 15), zero ponders, zero quick
+checks, zero history in the sampled pages. Retrofit every page to
+4a/4b/QC-ladder, topic by topic, starting 1-classical-mechanics.
+Track 2 (intro course): the frozen 78-chapter structure
+(docs/physics-course-graph.json, v1.1) is the prerequisite on-ramp;
+content sessions begin at Stage A once track 1 is underway.
