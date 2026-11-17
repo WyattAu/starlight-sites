@@ -63,9 +63,7 @@ const display = (...body) => ['$$', ...body, '$$', ''].join('\n')
 
 describe('fix-latex-braces: repairs what KaTeX rejects', () => {
   it('unescapes an environment name', () => {
-    const out = repair(
-      display("\\begin\\{aligned\\}", 'y &= 1', String.raw`\end\{aligned\}`),
-    )
+    const out = repair(display('\\begin\\{aligned\\}', 'y &= 1', String.raw`\end\{aligned\}`))
     assert.match(out, /\\begin\{aligned\}/)
     assert.match(out, /\\end\{aligned\}/)
   })
@@ -130,7 +128,7 @@ describe('fix-latex-braces: must not touch correct maths', () => {
   })
 
   it('leaves maths inside a fenced block alone', () => {
-    const src = ['```tex', "\\begin\\{aligned\\}", '```', ''].join('\n')
+    const src = ['```tex', '\\begin\\{aligned\\}', '```', ''].join('\n')
     assert.equal(repair(src), src)
   })
 
@@ -143,11 +141,7 @@ describe('fix-latex-braces: must not touch correct maths', () => {
 
 describe('fix-latex-braces: structural damage is reported, not guessed', () => {
   it('is idempotent', () => {
-    const src = display(
-      "\\begin\\{aligned\\}",
-      "y &= 1",
-      String.raw`\end\{aligned\}`,
-    )
+    const src = display('\\begin\\{aligned\\}', 'y &= 1', String.raw`\end\{aligned\}`)
     const once = repair(src)
     assert.equal(repair(once), once)
   })
