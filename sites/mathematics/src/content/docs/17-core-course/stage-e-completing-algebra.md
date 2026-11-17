@@ -329,6 +329,8 @@ consequence). **8.** The ledger bans silent assumptions: an undeclared
 use of an unproved theorem is exactly the failure mode the two-ledger
 design exists to prevent.
 
+:::
+
 ## Stage Gate
 
 :::caution[Pass mark: four of five]
@@ -367,7 +369,6 @@ factorizations.
 
 :::
 
-:::
 
 ## Problems
 
