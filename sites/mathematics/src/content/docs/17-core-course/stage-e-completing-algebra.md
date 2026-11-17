@@ -316,6 +316,10 @@ builds exactly enough rigidity to run this.
 8. Why is declaring with a named payee honest, per the ledger's
    design?
 
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
 *Answers:* **1.** Root form: every nonconstant $f$ over $\mathbb{C}$
 has some $z$ with $f(z) = 0$; factor form: $f$ factors completely
 into linear factors. **2.** Exactly $n$, counted with multiplicity.
@@ -330,6 +334,9 @@ use of an unproved theorem is exactly the failure mode the two-ledger
 design exists to prevent.
 
 :::
+
+</div>
+</details>
 
 ## Stage Gate
 
