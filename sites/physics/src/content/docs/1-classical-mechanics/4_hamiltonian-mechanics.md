@@ -53,6 +53,19 @@ The Lagrangian is the better formulation for solving a specific problem
 quickly; the Hamiltonian is the better one for understanding the structure of
 the solution space.
 
+**History.** William Rowan Hamilton's two papers of 1833 and 1835 (*On a General Method in Dynamics*) recast Lagrange's mechanics in terms of the function now bearing his name, building on Adrien-Marie Legendre's 1787 transformation. The term phase space for the geometry of all possible states entered the language through James Clerk Maxwell's 1868 work and Ludwig Boltzmann's statistical mechanics: the picture of nature as points flowing through a space of states is Hamilton's inheritance.
+
+**Ponder (attempt the swap).** The Lagrangian takes positions and velocities. Attempt to invent the transformation that swaps velocity for momentum as the independent variable: given L(q, v), what combination of L and v produces a function of q and p that contains the same physics? Try it on L = (1/2) m v^2 - V(x).
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The Legendre transform: H(q, p) := p v - L(q, v) with v solved from p = partial L / partial v. For L = (1/2) m v^2 - V(x): p = m v, so v = p/m and H = p (p/m) - ((1/2) m (p/m)^2 - V) = p^2/(2m) + V(x). The transform is invertible exactly when L is convex in v, which physics guarantees for honest kinetic energies.
+
+</div>
+</details>
+
 ### 4.1 Generalised Momentum
 
 The **generalised momentum** conjugate to $q_j$ is
@@ -134,6 +147,17 @@ $$
 
 $\blacksquare$
 
+</details>
+
+**Ponder (attempt the doubling).** Lagrange gives n second-order equations. Attempt the reading of Hamilton's equations as 2n first-order ones: why is the doubled first-order system the natural home for geometry, and what does a point moving through phase space represent?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+A phase-space point is a complete state: position AND momentum. Hamilton's equations move that point along a flow, one coordinate per half: q-dot = partial H / partial p, p-dot = -partial H / partial q. The doubling is the price of the geometry: flows in phase space never cross (determinism made visible), volumes are preserved, and the Hamiltonian itself is conserved when time does not appear. The n second-order equations become 2n first-order ones because velocity has been promoted to an independent coordinate.
+
+</div>
 </details>
 
 ### 4.5 Hamilton's Equations
@@ -448,6 +472,28 @@ Hamiltonian mechanics is like switching from a video recording of motion to a sn
 Legendre transform from $L$ To $H$ is regular. If
 $\det(\partial^2 L / \partial \dot{q}_i \partial \dot{q}_j) = 0$ The system Has **constraints** and
 the Hamiltonian formulation requires special treatment (Dirac brackets or Constraint analysis).
+:::
+
+:::note[Quick check]
+
+1. Define conjugate momentum, and state Hamilton's equations.
+2. Compute the Hamiltonian for L = (1/2) m v^2 - V(x), and state what it equals when V is time-independent.
+3. State the Legendre transform and what makes it invertible.
+4. State Liouville's theorem, and name the phase-space picture it supports.
+5. Why does dH/dt = 0 when the Lagrangian has no explicit time dependence?
+6. Derive Hamilton's equations for the harmonic oscillator, and name the phase-space curves.
+7. What does the Poisson bracket of two quantities compute?
+8. Contrast the Lagrangian and Hamiltonian pictures: which variables does each use?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Conjugate momentum p = partial L / partial q-dot; Hamilton's equations: q-dot = partial H / partial p, p-dot = -partial H / partial q. **2.** H = p^2/(2m) + V(x): the total energy, conserved when V has no explicit time dependence. **3.** H(q, p) = p v - L with v solved from p = partial L / partial v; invertible when L is convex in v. **4.** The phase-space flow preserves volumes: the density of states moving through phase space is constant. **5.** No explicit time dependence makes H itself the conserved quantity: dH/dt = partial H / partial t = 0. **6.** q-dot = p/m and p-dot = -k q: ellipses in phase space, clockwise, centred at the origin. **7.** The rate of change of any quantity F along the flow: dF/dt = the Poisson bracket of F with H. **8.** Lagrangian: positions and velocities, second-order equations; Hamiltonian: positions and momenta, doubled first-order equations with phase-space geometry.
+
+</div>
+</details>
+
 :::
 
 ## Cross-References

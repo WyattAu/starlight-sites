@@ -808,6 +808,19 @@ The Lagrangian is the better formulation for solving a specific problem
 quickly; the Hamiltonian is the better one for understanding the structure of
 the solution space.
 
+**History.** William Rowan Hamilton's two papers of 1833 and 1835 (*On a General Method in Dynamics*) recast Lagrange's mechanics in terms of the function now bearing his name, building on Adrien-Marie Legendre's 1787 transformation. The term phase space for the geometry of all possible states entered the language through James Clerk Maxwell's 1868 work and Ludwig Boltzmann's statistical mechanics: the picture of nature as points flowing through a space of states is Hamilton's inheritance.
+
+**Ponder (attempt the swap).** The Lagrangian takes positions and velocities. Attempt to invent the transformation that swaps velocity for momentum as the independent variable: given L(q, v), what combination of L and v produces a function of q and p that contains the same physics? Try it on L = (1/2) m v^2 - V(x).
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The Legendre transform: H(q, p) := p v - L(q, v) with v solved from p = partial L / partial v. For L = (1/2) m v^2 - V(x): p = m v, so v = p/m and H = p (p/m) - ((1/2) m (p/m)^2 - V) = p^2/(2m) + V(x). The transform is invertible exactly when L is convex in v, which physics guarantees for honest kinetic energies.
+
+</div>
+</details>
+
 ### 4.1 Generalised Momentum
 
 The **generalised momentum** conjugate to $q_j$ is
@@ -889,6 +902,17 @@ $$
 
 $\blacksquare$
 
+</details>
+
+**Ponder (attempt the doubling).** Lagrange gives n second-order equations. Attempt the reading of Hamilton's equations as 2n first-order ones: why is the doubled first-order system the natural home for geometry, and what does a point moving through phase space represent?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+A phase-space point is a complete state: position AND momentum. Hamilton's equations move that point along a flow, one coordinate per half: q-dot = partial H / partial p, p-dot = -partial H / partial q. The doubling is the price of the geometry: flows in phase space never cross (determinism made visible), volumes are preserved, and the Hamiltonian itself is conserved when time does not appear. The n second-order equations become 2n first-order ones because velocity has been promoted to an independent coordinate.
+
+</div>
 </details>
 
 ### 4.5 Hamilton's Equations
@@ -1203,6 +1227,28 @@ Hamiltonian mechanics is like switching from a video recording of motion to a sn
 Legendre transform from $L$ To $H$ is regular. If
 $\det(\partial^2 L / \partial \dot{q}_i \partial \dot{q}_j) = 0$ The system Has **constraints** and
 the Hamiltonian formulation requires special treatment (Dirac brackets or Constraint analysis).
+:::
+
+:::note[Quick check]
+
+1. Define conjugate momentum, and state Hamilton's equations.
+2. Compute the Hamiltonian for L = (1/2) m v^2 - V(x), and state what it equals when V is time-independent.
+3. State the Legendre transform and what makes it invertible.
+4. State Liouville's theorem, and name the phase-space picture it supports.
+5. Why does dH/dt = 0 when the Lagrangian has no explicit time dependence?
+6. Derive Hamilton's equations for the harmonic oscillator, and name the phase-space curves.
+7. What does the Poisson bracket of two quantities compute?
+8. Contrast the Lagrangian and Hamiltonian pictures: which variables does each use?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Conjugate momentum p = partial L / partial q-dot; Hamilton's equations: q-dot = partial H / partial p, p-dot = -partial H / partial q. **2.** H = p^2/(2m) + V(x): the total energy, conserved when V has no explicit time dependence. **3.** H(q, p) = p v - L with v solved from p = partial L / partial v; invertible when L is convex in v. **4.** The phase-space flow preserves volumes: the density of states moving through phase space is constant. **5.** No explicit time dependence makes H itself the conserved quantity: dH/dt = partial H / partial t = 0. **6.** q-dot = p/m and p-dot = -k q: ellipses in phase space, clockwise, centred at the origin. **7.** The rate of change of any quantity F along the flow: dF/dt = the Poisson bracket of F with H. **8.** Lagrangian: positions and velocities, second-order equations; Hamiltonian: positions and momenta, doubled first-order equations with phase-space geometry.
+
+</div>
+</details>
+
 :::
 
 ## Cross-References
@@ -2841,6 +2887,19 @@ written down from symmetry requirements rather than from forces -- and it is why
 Emmy Noether's theorem is arguably the most important result in theoretical
 physics.
 
+**History.** Emmy Noether proved the theorem in her 1918 paper *Invariante Variationsprobleme*, at Gottingen, where she had been invited by David Hilbert and Felix Klein and where she lectured under Hilbert's name because women were barred from professorships. Albert Einstein wrote to the Prussian ministry on her behalf, asking whether the mathematical institute might rather be a bathing establishment, so obtuse was the opposition. Her theorem has been called the most beautiful idea in mathematical physics: conservation laws are symmetry, and nothing more.
+
+**Ponder (attempt the correspondence).** Attempt to fill the correspondence table before reading the theorem: time-translation symmetry gives energy conservation; space-translation symmetry gives momentum conservation; rotation symmetry gives angular momentum. What is the general rule that produces all three at once?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The rule: every CONTINUOUS symmetry of the action yields a conserved quantity. Translations leave the action unchanged (space is uniform) and deliver momentum; rotations leave it unchanged (space has no preferred direction) and deliver angular momentum; time translations deliver energy. The theorem's content is that the map is one-to-one: each independent continuous symmetry produces exactly one conservation law, and conversely. Noether made the fifty-year-old conservation bookkeeping a theorem about symmetry itself.
+
+</div>
+</details>
+
 ### 5.1 Statement of Noether's Theorem
 
 **Theorem 5.1 (Noether's Theorem).** For every continuous symmetry of the action, there is a
@@ -2854,6 +2913,17 @@ Q = \sum_j \frac{\partial L}{\partial \dot{q}_j} f_j
 $$
 
 Is a constant of motion.
+
+**Ponder (attempt the time-translation case).** Attempt the theorem's engine on the simplest case before reading the proof: if the Lagrangian has no explicit time dependence, chase dL/dt through the chain rule and the Euler-Lagrange equation, and identify the quantity whose total derivative vanishes.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The chain rule: dL/dt = (partial L / partial q) q-dot + (partial L / partial q-dot) q-ddot (no explicit time term). The Euler-Lagrange equation swaps partial L / partial q with d/dt (partial L / partial q-dot), so dL/dt = d/dt (q-dot partial L / partial q-dot). The quantity E := q-dot partial L / partial q-dot - L has zero derivative: E is conserved. For L = T - V with T quadratic in velocities, E equals the total energy T + V: the conservation of energy is exactly time-translation symmetry.
+
+</div>
+</details>
 
 ### 5.2 Full Proof of Noether's Theorem
 
@@ -3098,6 +3168,28 @@ the symplectic structure page.
    current $j^\mu$, and compute the charge.
 5. (Symplectic structure.) Show that a symmetry generated by $G$ preserves the
    symplectic form, connecting Noether's theorem to the geometry of phase space.
+
+:::note[Quick check]
+
+1. Define a representation and a character of a group.
+2. State Noether's theorem in one sentence.
+3. Prove energy conservation from time-translation symmetry.
+4. Why does the minus sign in L = T - V matter? Attempt L = T + V.
+5. Derive the Euler-Lagrange equation from Hamilton's principle.
+6. For the coupled pendulums, state the two normal modes and their frequencies.
+7. State the intermediate-axis instability, and name its demonstration.
+8. Name the two formulations the topic connects, and the theorem that links symmetry to conservation.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** A representation is a homomorphism into GL(V); the character is its trace function, constant on conjugacy classes. **2.** Every continuous symmetry of the action produces one conserved quantity, one-to-one. **3.** The chain rule with the Euler-Lagrange equation turns dL/dt into d/dt (q-dot partial L / partial q-dot - L) = 0: the energy E is conserved. **4.** The force term flips: particles accelerate up potential gradients instead of down them, contradicting experiment. The minus sign is physics, not convention. **5.** Stationary action plus integration by parts plus the fundamental lemma gives the Euler-Lagrange equation for every coordinate. **6.** Symmetric: both swing together at sqrt(g/l); antisymmetric: opposite swing at sqrt(g/l + 2k/m) for coupling strength k. **7.** Rotation about the intermediate principal axis is unstable, small wobbles growing exponentially; Dzhanibekov's 1985 wing-nut flips aboard Salyut 7 demonstrated it. **8.** d'Alembert's virtual-work principle and Hamilton's stationary action; Noether's theorem links every continuous symmetry to a conservation law.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
@@ -4202,6 +4294,19 @@ URL: https://physics.wyattau.com/1-classical-mechanics/8_rigid-body-dynamics/
 }
 </script>
 
+**History.** Leonhard Euler's equations of rigid body motion appeared in his 1765 *Theoria motus corporum solidorum seu rigidorum*, completing the mechanics of rotating bodies his Basel predecessor had begun. The intermediate-axis instability's most famous demonstration came three centuries later: cosmonaut Vladimir Dzhanibekov, aboard the Salyut 7 station in 1985, repeatedly flipped a wing nut in weightlessness and watched it tumble 180 degrees every few seconds, exactly as Euler's equations predicted.
+
+**Ponder (attempt the generalisation).** For a point mass, rotational inertia is I = m r^2. Attempt to generalise to a rigid body of many masses: why does the answer depend on the rotation AXIS, and what mathematical object captures direction-dependence?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Sum I = sum m r^2 with r measured perpendicular to the chosen axis: change the axis and the perpendicular distances all change, so the sum changes. The direction-dependence is exactly what a matrix encodes: the inertia TENSOR maps angular velocity to angular momentum, and its eigenvectors are the principal axes. A scalar cannot do this: spinning a book about different axes meets different resistance, and only a tensor tells the truth about all of them at once.
+
+</div>
+</details>
+
 ### 8.1 Rigid Body Kinematics
 
 **Definition.** A **rigid body** is a system of particles in which the distance between every pair
@@ -4318,6 +4423,17 @@ $$
 
 In the principal axis frame with $\boldsymbol{\tau} = \mathbf{0}$ This gives Euler's equations
 directly. $\blacksquare$
+
+**Ponder (attempt the failure prediction).** A rigid body with principal moments I1 < I2 < I3 spins stably about the first and third principal axes. Attempt the failure prediction for the middle axis: linearise Euler's equations around pure spin about I2 with small wobbles in the other directions, and watch the sign of the growth rate.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Linearising about pure spin, the two wobbles obey growth-rate factors proportional to (I2 - I3)/I1 and (I1 - I2)/I3. With I2 in the middle, the first factor is negative and the second positive: their product is negative, so the wobbles oscillate stably about the long and short axes. About the middle axis the factors flip sign together: the product is positive, the wobbles grow exponentially, and the rotation tumbles. Euler's equations predicted the Dzhanibekov flip a century before a cosmonaut filmed it.
+
+</div>
+</details>
 
 ### 8.6 Stability of Torque-Free Rotation
 
@@ -4495,6 +4611,45 @@ Torque-free rotation about a principal axis is stable only if the axis correspon
 
 **Mistake 3: Confusing the parallel axis theorem for tensors with the scalar version**
 The parallel axis theorem for the inertia tensor is $I_{jk}' = I_{jk}^{(\mathrm{CM})} + M(a^2\delta_{jk} - a_j a_k)$, which involves the full tensor structure. The scalar version $I = I_{\mathrm{CM}} + Ma^2$ only applies to the moment about a single axis parallel to the displacement. Using the scalar version for off-diagonal components gives incorrect results.
+
+:::note[Quick check]
+
+1. Define the inertia tensor and the role of its eigenvectors.
+2. State Euler's equations of motion for torque-free rotation.
+3. What are the principal axes, and why are they useful?
+4. State the intermediate-axis theorem, and give its modern
+   demonstration.
+5. Describe the spinning top's precession and what drives it.
+6. Why is the middle-axis rotation unstable, in one sentence?
+7. What role do Euler angles play in rigid body kinematics?
+8. State the gyroscopic precession rate for a spinning top, and
+   name the mass, length, and spin quantities it is built from.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** The tensor mapping angular velocity to angular momentum,
+L = I omega; its eigenvectors are the principal axes, where torque
+and rotation align. **2.** I1 w1-dot = (I2 - I3) w2 w3 and its
+cyclic permutations: the torque-free Euler equations. **3.** The
+mutually perpendicular axes in which the inertia tensor is
+diagonal; motion about them decouples. **4.** Rotation about the
+intermediate principal axis is unstable (small wobbles grow
+exponentially); Dzhanibekov's 1985 wing-nut flips aboard Salyut 7.
+**5.** The top's axis sweeps a cone under gravity's torque, at the
+precession rate Omega = m g l / (I3 omega3). **6.** The
+linearised wobble growth rates have the same sign about the middle
+axis, so perturbations grow instead of oscillating. **7.** Three
+angles parameterising orientation: they locate the body frame
+relative to the lab frame. **8.** Omega = m g l / (I3 omega3):
+proportional to the weight times the lever arm, inversely to the
+spin angular momentum.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
@@ -4784,6 +4939,19 @@ URL: https://physics.wyattau.com/1-classical-mechanics/7_small-oscillations-and-
 }
 </script>
 
+**History.** The first observation of coupled-oscillator synchronisation was Christiaan Huygens' in 1665: two pendulum clocks mounted on the same beam drifted into opposite-phase sympathy within half an hour, and he reported the odd sympathy to his father in a letter. The normal-mode formalism used here descends from Lord Rayleigh's *Theory of Sound* (1877), which systematised small oscillations across acoustics and mechanics.
+
+**Ponder (attempt the linearisation).** At a stable equilibrium the forces vanish. Attempt to invent the universal approximation: for ANY potential with a minimum at the equilibrium, what does the potential look like to second order in a small displacement, and what motion does that approximate potential produce?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Expand the potential in a Taylor series about the minimum: the linear term vanishes (the derivative is zero at a minimum), and the quadratic term survives: V(x) is approximately V0 + (1/2) k x^2 for some positive k. Every minimum, whatever the system, is locally a harmonic oscillator with stiffness k = V''(0). Small oscillations around equilibrium are universal: that is why the harmonic oscillator appears everywhere in physics, from molecules to bridges.
+
+</div>
+</details>
+
 ### 7.1 Equilibrium and Small Oscillations
 
 At a stable equilibrium, $V$ has a local minimum. Expanding around equilibrium
@@ -4813,6 +4981,17 @@ The Euler-Lagrange equations become:
 $$
 \mathbf{T}\, \ddot{\boldsymbol{\eta}} + \mathbf{V}\, \boldsymbol{\eta} = \mathbf{0}
 $$
+
+**Ponder (attempt the decoupling).** Two coupled pendulums write their equations in coupled coordinates: each acceleration depends on both angles. Attempt to invent new coordinates (combinations of the two) in which the equations separate, and predict what the combinations are for two identical pendulums.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Try the sums and differences: u = x + y and v = x - y. For identical pendulums the coupling is symmetric, so u evolves with the summed stiffness and v with the difference: each combination oscillates independently, as a normal mode. The general recipe: diagonalise the coupling matrix; the eigenvectors ARE the normal-mode coordinates, and the eigenvalues ARE the squared frequencies. The symmetric mode (both swinging together) and the antisymmetric mode (swinging opposite) are the two independent motions hidden inside the coupled mess.
+
+</div>
+</details>
 
 ### 7.3 Normal Modes and the Secular Equation
 
@@ -4959,6 +5138,49 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 | Degeneracy | When $\omega_\alpha = \omega_\beta$, eigenvectors are not uniquely determined |
 
 </div>
+
+:::note[Quick check]
+
+1. Define equilibrium and its stability in terms of the potential.
+2. Write the matrix formulation for two coupled oscillators.
+3. Define the secular equation.
+4. State the orthogonality of normal modes and what it enables.
+5. Describe the symmetric and antisymmetric modes of two identical
+   coupled pendulums, with their frequencies.
+6. For the double pendulum in the small-oscillation limit, how many
+   normal modes exist?
+7. What does "small oscillations" mean quantitatively, and what
+   does the linearisation discard?
+8. Name the historical observation that motivated coupled
+   oscillator theory, and its year.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Equilibrium: all generalised forces vanish; stable if small
+displacements produce restoring forces, which for a potential means
+a local minimum. **2.** M q-ddot + K q = 0 for the mass matrix M
+and stiffness matrix K of the coupled system. **3.** The
+characteristic equation det(K - omega^2 M) = 0: setting its
+determinant to zero extracts the squared normal frequencies.
+**4.** Distinct normal modes are M-orthogonal; the orthogonality
+lets any motion be decomposed into independent mode amplitudes.
+**5.** Symmetric: the pendulums swing together with the coupling
+slack, frequency sqrt(g/l); antisymmetric: opposite swing with the
+coupling stretched, frequency sqrt(g/l + 2k/m). **6.** Two, as
+always for two degrees of freedom: the eigenvalue count matches
+the coordinate count. **7.** Displacements small enough that
+V''(0) x^2 / 2 dominates all higher Taylor terms; the
+linearisation discards cubic and higher powers of the
+coordinates. **8.** Christiaan Huygens' two pendulum clocks
+synchronising on a shared beam, reported as the odd sympathy in
+1665.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

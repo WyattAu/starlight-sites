@@ -17,6 +17,19 @@ description: "A is a system of particles in which the distance between every pai
 }
 </script>
 
+**History.** Leonhard Euler's equations of rigid body motion appeared in his 1765 *Theoria motus corporum solidorum seu rigidorum*, completing the mechanics of rotating bodies his Basel predecessor had begun. The intermediate-axis instability's most famous demonstration came three centuries later: cosmonaut Vladimir Dzhanibekov, aboard the Salyut 7 station in 1985, repeatedly flipped a wing nut in weightlessness and watched it tumble 180 degrees every few seconds, exactly as Euler's equations predicted.
+
+**Ponder (attempt the generalisation).** For a point mass, rotational inertia is I = m r^2. Attempt to generalise to a rigid body of many masses: why does the answer depend on the rotation AXIS, and what mathematical object captures direction-dependence?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Sum I = sum m r^2 with r measured perpendicular to the chosen axis: change the axis and the perpendicular distances all change, so the sum changes. The direction-dependence is exactly what a matrix encodes: the inertia TENSOR maps angular velocity to angular momentum, and its eigenvectors are the principal axes. A scalar cannot do this: spinning a book about different axes meets different resistance, and only a tensor tells the truth about all of them at once.
+
+</div>
+</details>
+
 ### 8.1 Rigid Body Kinematics
 
 **Definition.** A **rigid body** is a system of particles in which the distance between every pair
@@ -133,6 +146,17 @@ $$
 
 In the principal axis frame with $\boldsymbol{\tau} = \mathbf{0}$ This gives Euler's equations
 directly. $\blacksquare$
+
+**Ponder (attempt the failure prediction).** A rigid body with principal moments I1 < I2 < I3 spins stably about the first and third principal axes. Attempt the failure prediction for the middle axis: linearise Euler's equations around pure spin about I2 with small wobbles in the other directions, and watch the sign of the growth rate.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Linearising about pure spin, the two wobbles obey growth-rate factors proportional to (I2 - I3)/I1 and (I1 - I2)/I3. With I2 in the middle, the first factor is negative and the second positive: their product is negative, so the wobbles oscillate stably about the long and short axes. About the middle axis the factors flip sign together: the product is positive, the wobbles grow exponentially, and the rotation tumbles. Euler's equations predicted the Dzhanibekov flip a century before a cosmonaut filmed it.
+
+</div>
+</details>
 
 ### 8.6 Stability of Torque-Free Rotation
 
@@ -310,6 +334,45 @@ Torque-free rotation about a principal axis is stable only if the axis correspon
 
 **Mistake 3: Confusing the parallel axis theorem for tensors with the scalar version**
 The parallel axis theorem for the inertia tensor is $I_{jk}' = I_{jk}^{(\mathrm{CM})} + M(a^2\delta_{jk} - a_j a_k)$, which involves the full tensor structure. The scalar version $I = I_{\mathrm{CM}} + Ma^2$ only applies to the moment about a single axis parallel to the displacement. Using the scalar version for off-diagonal components gives incorrect results.
+
+:::note[Quick check]
+
+1. Define the inertia tensor and the role of its eigenvectors.
+2. State Euler's equations of motion for torque-free rotation.
+3. What are the principal axes, and why are they useful?
+4. State the intermediate-axis theorem, and give its modern
+   demonstration.
+5. Describe the spinning top's precession and what drives it.
+6. Why is the middle-axis rotation unstable, in one sentence?
+7. What role do Euler angles play in rigid body kinematics?
+8. State the gyroscopic precession rate for a spinning top, and
+   name the mass, length, and spin quantities it is built from.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** The tensor mapping angular velocity to angular momentum,
+L = I omega; its eigenvectors are the principal axes, where torque
+and rotation align. **2.** I1 w1-dot = (I2 - I3) w2 w3 and its
+cyclic permutations: the torque-free Euler equations. **3.** The
+mutually perpendicular axes in which the inertia tensor is
+diagonal; motion about them decouples. **4.** Rotation about the
+intermediate principal axis is unstable (small wobbles grow
+exponentially); Dzhanibekov's 1985 wing-nut flips aboard Salyut 7.
+**5.** The top's axis sweeps a cone under gravity's torque, at the
+precession rate Omega = m g l / (I3 omega3). **6.** The
+linearised wobble growth rates have the same sign about the middle
+axis, so perturbations grow instead of oscillating. **7.** Three
+angles parameterising orientation: they locate the body frame
+relative to the lab frame. **8.** Omega = m g l / (I3 omega3):
+proportional to the weight times the lever arm, inversely to the
+spin angular momentum.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

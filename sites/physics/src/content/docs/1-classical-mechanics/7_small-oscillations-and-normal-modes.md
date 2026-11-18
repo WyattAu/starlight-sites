@@ -17,6 +17,19 @@ description: 'At a stable equilibrium, has a local minimum. Expanding around equ
 }
 </script>
 
+**History.** The first observation of coupled-oscillator synchronisation was Christiaan Huygens' in 1665: two pendulum clocks mounted on the same beam drifted into opposite-phase sympathy within half an hour, and he reported the odd sympathy to his father in a letter. The normal-mode formalism used here descends from Lord Rayleigh's *Theory of Sound* (1877), which systematised small oscillations across acoustics and mechanics.
+
+**Ponder (attempt the linearisation).** At a stable equilibrium the forces vanish. Attempt to invent the universal approximation: for ANY potential with a minimum at the equilibrium, what does the potential look like to second order in a small displacement, and what motion does that approximate potential produce?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Expand the potential in a Taylor series about the minimum: the linear term vanishes (the derivative is zero at a minimum), and the quadratic term survives: V(x) is approximately V0 + (1/2) k x^2 for some positive k. Every minimum, whatever the system, is locally a harmonic oscillator with stiffness k = V''(0). Small oscillations around equilibrium are universal: that is why the harmonic oscillator appears everywhere in physics, from molecules to bridges.
+
+</div>
+</details>
+
 ### 7.1 Equilibrium and Small Oscillations
 
 At a stable equilibrium, $V$ has a local minimum. Expanding around equilibrium
@@ -46,6 +59,17 @@ The Euler-Lagrange equations become:
 $$
 \mathbf{T}\, \ddot{\boldsymbol{\eta}} + \mathbf{V}\, \boldsymbol{\eta} = \mathbf{0}
 $$
+
+**Ponder (attempt the decoupling).** Two coupled pendulums write their equations in coupled coordinates: each acceleration depends on both angles. Attempt to invent new coordinates (combinations of the two) in which the equations separate, and predict what the combinations are for two identical pendulums.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Try the sums and differences: u = x + y and v = x - y. For identical pendulums the coupling is symmetric, so u evolves with the summed stiffness and v with the difference: each combination oscillates independently, as a normal mode. The general recipe: diagonalise the coupling matrix; the eigenvectors ARE the normal-mode coordinates, and the eigenvalues ARE the squared frequencies. The symmetric mode (both swinging together) and the antisymmetric mode (swinging opposite) are the two independent motions hidden inside the coupled mess.
+
+</div>
+</details>
 
 ### 7.3 Normal Modes and the Secular Equation
 
@@ -192,6 +216,49 @@ Normal modes are like the natural hum of a system. When you pluck a guitar strin
 | Degeneracy | When $\omega_\alpha = \omega_\beta$, eigenvectors are not uniquely determined |
 
 </div>
+
+:::note[Quick check]
+
+1. Define equilibrium and its stability in terms of the potential.
+2. Write the matrix formulation for two coupled oscillators.
+3. Define the secular equation.
+4. State the orthogonality of normal modes and what it enables.
+5. Describe the symmetric and antisymmetric modes of two identical
+   coupled pendulums, with their frequencies.
+6. For the double pendulum in the small-oscillation limit, how many
+   normal modes exist?
+7. What does "small oscillations" mean quantitatively, and what
+   does the linearisation discard?
+8. Name the historical observation that motivated coupled
+   oscillator theory, and its year.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Equilibrium: all generalised forces vanish; stable if small
+displacements produce restoring forces, which for a potential means
+a local minimum. **2.** M q-ddot + K q = 0 for the mass matrix M
+and stiffness matrix K of the coupled system. **3.** The
+characteristic equation det(K - omega^2 M) = 0: setting its
+determinant to zero extracts the squared normal frequencies.
+**4.** Distinct normal modes are M-orthogonal; the orthogonality
+lets any motion be decomposed into independent mode amplitudes.
+**5.** Symmetric: the pendulums swing together with the coupling
+slack, frequency sqrt(g/l); antisymmetric: opposite swing with the
+coupling stretched, frequency sqrt(g/l + 2k/m). **6.** Two, as
+always for two degrees of freedom: the eigenvalue count matches
+the coordinate count. **7.** Displacements small enough that
+V''(0) x^2 / 2 dominates all higher Taylor terms; the
+linearisation discards cubic and higher powers of the
+coordinates. **8.** Christiaan Huygens' two pendulum clocks
+synchronising on a shared beam, reported as the odd sympathy in
+1665.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
