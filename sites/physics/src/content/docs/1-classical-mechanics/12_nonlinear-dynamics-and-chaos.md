@@ -22,6 +22,8 @@ sources:
 }
 </script>
 
+**History.** Henri Poincare discovered deterministic chaos in 1890, in the amended memoir for King Oscar II's prize on the three-body problem: a geometric error in the first version forced him to invent what is now called chaos theory on the way to the corrected one. Edward Lorenz rediscovered it in 1963 with twelve equations of atmospheric convection and the butterfly effect, and Robert May's 1976 Nature paper brought the logistic map to ecologists with the warning that simple models need not behave predictably.
+
 ### 11.1 The Logistic Map
 
 The logistic map is the simplest model of chaotic dynamics:
@@ -40,6 +42,17 @@ $$
 **Feigenbaum constants:** The ratio of successive bifurcation intervals converges to
 $\delta = 4.669\ldots$ A universal constant for all period-doubling transitions.
 
+**Ponder (attempt the prediction).** Iterate the logistic map x -> 4x(1-x) from two initial conditions differing by one part in a billion. Attempt to predict the state after fifty iterations, and then explain why every weather forecast shares the structural difficulty.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+After a few iterations the difference has amplified to the same scale as the values themselves (the map's Lyapunov exponent is positive: differences grow like 2 to the power of the iteration count), and the two trajectories occupy different halves of the interval. The prediction is not merely hard: it is impossible in principle past the Lyapunov time, because the initial condition's precision is finite. Lorenz's 1979 talk gave the phenomenon its name: does the flap of a butterfly's wings in Brazil set off a tornado in Texas?
+
+</div>
+</details>
+
 ### 11.2 Lyapunov Exponents
 
 The **Lyapunov exponent** $\lambda$ measures the rate of exponential divergence of nearby
@@ -54,6 +67,17 @@ $$
 - $\lambda > 0$: Trajectories diverge exponentially (chaos)
 
 For the logistic map at $r = 4$: $\lambda = \ln 2 \approx 0.693$.
+
+**Ponder (attempt the route to chaos).** Attempt to invent a route by which a simple forced system becomes chaotic: what must the forcing's frequency relationship to the natural frequency be for the motion to stay periodic, and what happens when it fails?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Periodic motion survives while the forcing locks to a harmonic of the natural frequency: frequency-locking. As the forcing strength grows, the locked states destabilise through period-doubling cascades (each doubling an infinite sequence converging at a universal rate, Feigenbaum's delta = 4.669), and beyond the cascade the motion never repeats: chaos. The route through period-doubling is universal across systems, which is Feigenbaum's discovery.
+
+</div>
+</details>
 
 ### 11.3 The Driven Damped Pendulum
 
@@ -243,3 +267,20 @@ Nonlinear dynamics reveals that deterministic systems can produce unpredictable 
 - [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
 - [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
+:::note[Quick check]
+
+1. Define the logistic map and its chaos parameter range.
+2. x_{n+1} = r x_n (1 - x_n); chaotic for r above approximately 3.5699, with period-doubling cascades on the way.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Define the Lyapunov exponent, and its meaning for prediction. **2.** The exponential rate lambda at which nearby trajectories separate; positive lambda means any finite-precision prediction dies after the Lyapunov time.
+
+</div>
+</details>
+
+:::
+

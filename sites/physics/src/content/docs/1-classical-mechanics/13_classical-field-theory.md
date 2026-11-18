@@ -22,6 +22,19 @@ sources:
 }
 </script>
 
+**History.** The Klein-Gordon equation appeared in 1926 in five papers within months of each other (Schrödinger twice, Klein, Gordon, and Fock), each arriving at the relativistic wave equation from a different route; Schrodinger's non-relativistic limit became quantum mechanics' founding equation instead. The energy-momentum tensor's conservation law descends from Emmy Noether's 1918 theorem applied to spacetime translations, the same symmetry-conservation pairing Stage 5 proved for particle mechanics.
+
+**Ponder (attempt the promotion).** Mechanics' Lagrangian L(q, q-dot, t) becomes field theory's Lagrangian density L(phi, phi-dot, grad phi) integrated over space. Attempt the promotion for a vibrating string: what are the field, the velocity density, and the potential density that reproduce the wave equation's Lagrangian?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The field is the displacement phi(x, t); the kinetic density is (1/2)(phi-dot)^2, the potential density is (1/2)(phi_x)^2 (the string's stretching) plus maybe (1/2) omega^2 phi^2 (restoring force). The Euler-Lagrange equation for this density is phi-ddot = c^2 phi_xx, the wave equation: the promotion is mechanical once the densities are named.
+
+</div>
+</details>
+
 ### 12.1 Lagrangian Field Theory
 
 For a field $\phi(\mathbf{r}, t)$ The Lagrangian density $\mathcal{L}$ replaces the discrete
@@ -73,6 +86,17 @@ j^\mu = i(\phi^*\partial^\mu\phi - \phi\partial^\mu\phi^*)
 $$
 
 With conserved charge $Q = \int(i\phi^*\dot{\phi} - \phi\dot{\phi}^*)\,d^3x$.
+
+**Ponder (attempt the conservation).** Noether's theorem applied to spacetime translations of a field theory produces not one conserved current but a whole tensor T with four indices. Attempt the reading: what does the conservation law partial_mu T^{mu nu} = 0 say when integrated over all space, for the time direction?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The time component's integral gives the conserved total energy (the Hamiltonian density integrated); the space components give the conserved momentum. Spacetime translation symmetry conserves energy and momentum together as one tensor law: Noether's theorem at field strength, and the reason every field theory ships with an energy-momentum tensor.
+
+</div>
+</details>
 
 ### 12.4 Hamiltonian Density and Energy-Momentum Tensor
 
@@ -201,3 +225,20 @@ Classical field theory extends mechanics from particles to continuous media. A f
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
 - [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
 - [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)
+
+:::note[Quick check]
+
+1. Define the Lagrangian density and write it for the Klein-Gordon field.
+2. L = (1/2)(phi-dot)^2 - (1/2)(grad phi)^2 - (1/2) m^2 phi^2; the relativistic wave's kinetic and mass terms.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Derive the Klein-Gordon equation from that density. **2.** The Euler-Lagrange equation for fields: partial_mu partial^mu phi + m^2 phi = 0, the relativistic wave equation.
+
+</div>
+</details>
+
+:::
+

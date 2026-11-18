@@ -264,6 +264,19 @@ sources:
 }
 </script>
 
+**History.** The Klein-Gordon equation appeared in 1926 in five papers within months of each other (Schrödinger twice, Klein, Gordon, and Fock), each arriving at the relativistic wave equation from a different route; Schrodinger's non-relativistic limit became quantum mechanics' founding equation instead. The energy-momentum tensor's conservation law descends from Emmy Noether's 1918 theorem applied to spacetime translations, the same symmetry-conservation pairing Stage 5 proved for particle mechanics.
+
+**Ponder (attempt the promotion).** Mechanics' Lagrangian L(q, q-dot, t) becomes field theory's Lagrangian density L(phi, phi-dot, grad phi) integrated over space. Attempt the promotion for a vibrating string: what are the field, the velocity density, and the potential density that reproduce the wave equation's Lagrangian?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The field is the displacement phi(x, t); the kinetic density is (1/2)(phi-dot)^2, the potential density is (1/2)(phi_x)^2 (the string's stretching) plus maybe (1/2) omega^2 phi^2 (restoring force). The Euler-Lagrange equation for this density is phi-ddot = c^2 phi_xx, the wave equation: the promotion is mechanical once the densities are named.
+
+</div>
+</details>
+
 ### 12.1 Lagrangian Field Theory
 
 For a field $\phi(\mathbf{r}, t)$ The Lagrangian density $\mathcal{L}$ replaces the discrete
@@ -315,6 +328,17 @@ j^\mu = i(\phi^*\partial^\mu\phi - \phi\partial^\mu\phi^*)
 $$
 
 With conserved charge $Q = \int(i\phi^*\dot{\phi} - \phi\dot{\phi}^*)\,d^3x$.
+
+**Ponder (attempt the conservation).** Noether's theorem applied to spacetime translations of a field theory produces not one conserved current but a whole tensor T with four indices. Attempt the reading: what does the conservation law partial_mu T^{mu nu} = 0 say when integrated over all space, for the time direction?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The time component's integral gives the conserved total energy (the Hamiltonian density integrated); the space components give the conserved momentum. Spacetime translation symmetry conserves energy and momentum together as one tensor law: Noether's theorem at field strength, and the reason every field theory ships with an energy-momentum tensor.
+
+</div>
+</details>
 
 ### 12.4 Hamiltonian Density and Energy-Momentum Tensor
 
@@ -443,6 +467,22 @@ Classical field theory extends mechanics from particles to continuous media. A f
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
 - [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
 - [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)
+
+:::note[Quick check]
+
+1. Define the Lagrangian density and write it for the Klein-Gordon field.
+2. L = (1/2)(phi-dot)^2 - (1/2)(grad phi)^2 - (1/2) m^2 phi^2; the relativistic wave's kinetic and mass terms.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Derive the Klein-Gordon equation from that density. **2.** The Euler-Lagrange equation for fields: partial_mu partial^mu phi + m^2 phi = 0, the relativistic wave equation.
+
+</div>
+</details>
+
+:::
 
 ---
 
@@ -1297,6 +1337,8 @@ sources:
 }
 </script>
 
+**History.** Carl Gustav Jacob Jacobi's 1837 Konigsberg lectures developed the Hamilton-Jacobi equation as the crown of the formalism: solve one first-order partial differential equation and every trajectory follows by differentiation. Albert Einstein's 1911 paper on adiabatic invariants was the bridge between old quantum theory and this machinery: Bohr-Sommerfeld quantisation quantised exactly the action variables Section 10.2 constructs, and the failure of that quantisation for the helium atom drove the invention of wave mechanics.
+
 ### 10.1 Canonical Transformations
 
 A **canonical transformation** from $(q, p)$ to $(Q, P)$ preserves the form of Hamilton's equations.
@@ -1327,6 +1369,17 @@ $\{F, G\}_{q,p} = \{F, G\}_{Q,P}$.
 $P_i = p_i$ is canonical (the transformation is the identity on phase space). A non-trivial example: the rotation
 $Q = q\cos\theta + p\sin\theta$, $P = -q\sin\theta + p\cos\theta$ is canonical (it preserves
 $dq \wedge dp = dQ \wedge dP$).
+
+**Ponder (attempt the invariant discovery).** A pendulum's string length is slowly shortened. Attempt to predict what happens to its energy amplitude before any formula: does the oscillation grow, shrink, or stay? What quantity refuses to change?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The action J = (1/2) point-product of the orbit in phase space is the adiabatic invariant: changed slowly, it stays constant. For the pendulum, J is proportional to E / omega, and omega rises as the length falls, so E must rise proportionally: the amplitude grows as the pendulum shortens. The swing of a child on a swing pumped by standing and crouching is exactly this adiabatic invariant doing work.
+
+</div>
+</details>
 
 ### 10.2 Action-Angle Variables
 
@@ -1425,6 +1478,17 @@ fluid.
 **Proof.** The flow $\phi_t$ generated by Hamilton's equations satisfies
 $\det(\partial(q', p')/\partial(q, p)) = 1$ (canonical transformation), so the Jacobian is 1.
 By the change of variables formula, $\rho$ is conserved along trajectories. $\square$
+
+**Ponder (attempt the breakdown).** Solar system orbits are nearly Keplerian ellipses, perturbed weakly by the planets' mutual attractions. Laplace and Lagrange computed such perturbations and concluded stability in 1784, but Poincare proved in 1890 that the perturbation series DIVERGE for resonant orbits. Attempt the reason: what happens to a small perturbation hitting an orbit whose frequencies are commensurate?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+A resonance means the perturbation's period matches the orbit's, so the small kick arrives in phase every cycle: the naive correction term divides by the frequency difference, which is zero, and blows up. Kolmogorov, Arnold and Moser later proved that MOST tori (sufficiently irrational frequencies) survive, while the resonant ones break into chaos: the KAM theorem is the modern answer to the question Poincare's divergence discovered.
+
+</div>
+</details>
 
 ### 10.6 Perturbation Theory and KAM Theorem
 
@@ -1527,6 +1591,22 @@ Hamiltonian mechanics reformulates Newton's laws in terms of energy rather than 
 - [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
 - [Lagrangian Mechanics](/1-classical-mechanics/3_lagrangian-mechanics/)
+
+:::note[Quick check]
+
+1. Define a canonical transformation, and what it preserves.
+2. A change of phase-space coordinates preserving Hamilton's equations' form; it preserves the symplectic structure and phase-space volume (Liouville).
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** What are action-angle variables, and when do they exist? **2.** Coordinates (J, theta) in which H depends only on the actions J and the angles advance linearly; they exist for integrable systems.
+
+</div>
+</details>
+
+:::
 
 ---
 
@@ -3223,6 +3303,8 @@ sources:
 }
 </script>
 
+**History.** Henri Poincare discovered deterministic chaos in 1890, in the amended memoir for King Oscar II's prize on the three-body problem: a geometric error in the first version forced him to invent what is now called chaos theory on the way to the corrected one. Edward Lorenz rediscovered it in 1963 with twelve equations of atmospheric convection and the butterfly effect, and Robert May's 1976 Nature paper brought the logistic map to ecologists with the warning that simple models need not behave predictably.
+
 ### 11.1 The Logistic Map
 
 The logistic map is the simplest model of chaotic dynamics:
@@ -3241,6 +3323,17 @@ $$
 **Feigenbaum constants:** The ratio of successive bifurcation intervals converges to
 $\delta = 4.669\ldots$ A universal constant for all period-doubling transitions.
 
+**Ponder (attempt the prediction).** Iterate the logistic map x -> 4x(1-x) from two initial conditions differing by one part in a billion. Attempt to predict the state after fifty iterations, and then explain why every weather forecast shares the structural difficulty.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+After a few iterations the difference has amplified to the same scale as the values themselves (the map's Lyapunov exponent is positive: differences grow like 2 to the power of the iteration count), and the two trajectories occupy different halves of the interval. The prediction is not merely hard: it is impossible in principle past the Lyapunov time, because the initial condition's precision is finite. Lorenz's 1979 talk gave the phenomenon its name: does the flap of a butterfly's wings in Brazil set off a tornado in Texas?
+
+</div>
+</details>
+
 ### 11.2 Lyapunov Exponents
 
 The **Lyapunov exponent** $\lambda$ measures the rate of exponential divergence of nearby
@@ -3255,6 +3348,17 @@ $$
 - $\lambda > 0$: Trajectories diverge exponentially (chaos)
 
 For the logistic map at $r = 4$: $\lambda = \ln 2 \approx 0.693$.
+
+**Ponder (attempt the route to chaos).** Attempt to invent a route by which a simple forced system becomes chaotic: what must the forcing's frequency relationship to the natural frequency be for the motion to stay periodic, and what happens when it fails?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Periodic motion survives while the forcing locks to a harmonic of the natural frequency: frequency-locking. As the forcing strength grows, the locked states destabilise through period-doubling cascades (each doubling an infinite sequence converging at a universal rate, Feigenbaum's delta = 4.669), and beyond the cascade the motion never repeats: chaos. The route through period-doubling is universal across systems, which is Feigenbaum's discovery.
+
+</div>
+</details>
 
 ### 11.3 The Driven Damped Pendulum
 
@@ -3444,6 +3548,22 @@ Nonlinear dynamics reveals that deterministic systems can produce unpredictable 
 - [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
 - [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
+:::note[Quick check]
+
+1. Define the logistic map and its chaos parameter range.
+2. x_{n+1} = r x_n (1 - x_n); chaotic for r above approximately 3.5699, with period-doubling cascades on the way.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Define the Lyapunov exponent, and its meaning for prediction. **2.** The exponential rate lambda at which nearby trajectories separate; positive lambda means any finite-precision prediction dies after the Lyapunov time.
+
+</div>
+</details>
+
+:::
 
 ---
 
@@ -4683,6 +4803,8 @@ sources:
 }
 </script>
 
+**History.** Louis Poinsot's 1834 geometric construction replaced Euler's algebraic treatment of free rotation with a rolling cone picture: the inertia ellipsoid rolls without slipping on a fixed plane, and the tumbling of the intermediate-axis rotation becomes visible as geometry. The gyrocompass, which finds true north from the Earth's rotation without a magnetic needle, was developed by Hermann Anschutz-Kaempfe around 1908 while attempting to navigate submarines under the polar ice, and was aboard nearly every large vessel by the 1940s.
+
 ### 9.1 Euler's Equations in the Body Frame
 
 For a rigid body rotating freely (no external torques), the angular momentum in the body frame
@@ -4745,6 +4867,17 @@ $\omega_1$ grows exponentially. The motion is unstable. $\blacksquare$
 2. **Satellite attitude:** Gravity-gradient stabilisation exploits the fact that rotation about
    the axis of minimum moment of inertia is stable in a gravitational field.
 
+**Ponder (attempt the rate).** A top spinning at rate omega3 about its symmetry axis precesses about the vertical at rate Omega. Attempt to derive Omega from the torque and the angular momentum geometry before reading the formula, for a top of mass m with centre of mass at distance l from the pivot.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The torque is mgl in magnitude, horizontal, perpendicular to the axis. The angular momentum points nearly along the axis and must precess with the torque: Omega L = mgl gives Omega = mgl / (I3 omega3). The geometry: the changing angular momentum is a horizontal vector rotating at rate Omega, so Omega L equals the torque. The faster the spin, the slower the precession: an unintuitive result the formula makes immediate.
+
+</div>
+</details>
+
 ### 9.3 The Symmetric Top with One Point Fixed
 
 A symmetric top ($I_1 = I_2$) with one point fixed, under gravity, is described by three Euler
@@ -4804,6 +4937,17 @@ $$
 
 **Gyroscopic inertia.** A rapidly spinning top resists tilting because changing the direction of
 $\mathbf{L}$ requires a torque proportional to $\omega_3$.
+
+**Ponder (attempt the counting).** Two rigid bars hinged at their ends, free in the plane: attempt to count the degrees of freedom, and what the hinge constraint removes.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Each free bar in the plane has 3 degrees of freedom (position plus angle): 6 total. The hinge pins the two bars' shared end together: 2 constraints (the two coordinates coincide). The hinged pair has 4 degrees of freedom, and the hinge forces do no work on rotations about the pin, which is why the Lagrangian method handles hinged systems cleanly while Newtonian bookkeeping drowns in reaction forces.
+
+</div>
+</details>
 
 ### 9.5 Coupled Rigid Bodies
 
@@ -4924,6 +5068,22 @@ coupled or driven systems, numerical integration of the full Euler equations is 
 - [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
 - [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
+:::note[Quick check]
+
+1. Write Euler's equations in the body frame, and why that frame?
+2. I1 w1-dot = (I2 - I3) w2 w3 and cyclic permutations; the body frame rotates with the body so the inertia tensor is constant there, while the lab-frame tensor would tumble.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Why is rotation about the largest or smallest principal axis stable, but the middle axis unstable? **2.** Linearising Euler's equations about pure spin shows the wobble growth rate has opposite signs for the two factors about the end axes (oscillation) and the same sign about the middle axis (exponential growth): the Dzhanibekov flip.
+
+</div>
+</details>
+
+:::
 
 ---
 
@@ -5204,12 +5364,25 @@ synchronising on a shared beam, reported as the odd sympathy in
 ## Symplectic Structure And Kam Theory
 URL: https://physics.wyattau.com/1-classical-mechanics/16_symplectic-structure-and-kam-theory/
 
+**History.** Hermann Weyl coined the word symplectic in 1939, from the Greek for intertwined, because the Latin 'complex' was already taken: the structure it names is the geometry Hamilton's mechanics secretly lives in. Henri Poincare's 1890 prize memoir proved the non-existence of the uniform integrals astronomers hoped would settle the three-body problem, discovering deterministic chaos on the way; sixty-four years later Kolmogorov announced, and Arnold and Moser proved, the theorem that most of the old quasi-periodic motion survives small perturbations after all.
+
 ## Symplectic Structure and KAM Theory
 
 **Tier: R (Research).** Builds on Hamiltonian mechanics and Noether's theorem.
 This is where classical mechanics stops being a solved problem and becomes a
 live field: the KAM theorem is one of the deepest results in mathematical
 physics, and the questions it leaves open are still being worked on.
+
+**Ponder (attempt the necessity).** Liouville's theorem preserves phase-space volume under Hamiltonian flow. Attempt the question one level deeper: volume preservation alone allows squeezing a circle into a long thin ellipse of the same area, which ordinary mechanics forbids. What extra structure must the flow preserve to forbid the squeeze?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The symplectic form: Hamiltonian flows preserve not just the volume element but the pairing omega of infinitesimal displacement pairs. The squeeze changes the shape's symplectic area in each conjugate plane while keeping total volume, so preserving omega forbids it. This is why canonical transformations (not arbitrary volume-preserving maps) are the symmetries of mechanics: the symplectic structure is the invariant geometry.
+
+</div>
+</details>
 
 ## Recall prompts
 
@@ -5342,6 +5515,17 @@ direction of quantisation runs from this structure, not from the Schrödinger
 equation; which is why deformation quantisation is formulated as a deformation
 of the Poisson algebra.
 
+**Ponder (attempt the survival).** The KAM theorem's statement: under a small perturbation, most invariant tori with sufficiently irrational frequency ratios survive slightly deformed, while resonant ones dissolve into chaotic layers. Attempt the reason the irrationality condition matters, from the perturbation series's structure.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The perturbation series divides by the frequency combinations k dot omega; irrational frequencies make every divisor bounded away from zero (Diophantine condition), so the series converges on those tori. Resonant tori, where k dot omega = 0 for some integer vector, have vanishing divisors: the perturbation destroys them. Most frequencies are irrational enough: that is the sense in which most survives.
+
+</div>
+</details>
+
 ## Integrable systems and action-angle variables
 
 **In words.** A system with $n$ degrees of freedom is *integrable* if there are
@@ -5453,7 +5637,7 @@ stable" is the standard overstatement.
 **Small divisors are not a technicality.** Poincaré showed the three-body
 problem's perturbation series diverge. Every attempted "solution" of the
 $n$-body problem by formal series is wrong, and Poincaré's discovery of this is
-usually taken as the birth of chaos theory.
+taken by most historians as the birth of chaos theory.
 
 **Ergodicity is not implied.** A positive measure of surviving tori means the
 system is *not* ergodic on the energy surface. Treating KAM systems as
@@ -5497,6 +5681,22 @@ ergodic; common in statistical mechanics reasoning; is unjustified.
 - [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
 - [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
+:::note[Quick check]
+
+1. Define the symplectic two-form on phase space, and its coordinate expression.
+2. omega((delta q1, delta p1), (delta q2, delta p2)) = delta q1 delta p2 - delta p1 delta q2: the signed sum of conjugate-parallelogram areas.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** What does a canonical transformation preserve? **2.** The symplectic form: the pullback of omega under the transformation equals omega, which is stronger than preserving volume.
+
+</div>
+</details>
+
+:::
 
 ## Thermal-Physics
 

@@ -22,6 +22,8 @@ sources:
 }
 </script>
 
+**History.** Louis Poinsot's 1834 geometric construction replaced Euler's algebraic treatment of free rotation with a rolling cone picture: the inertia ellipsoid rolls without slipping on a fixed plane, and the tumbling of the intermediate-axis rotation becomes visible as geometry. The gyrocompass, which finds true north from the Earth's rotation without a magnetic needle, was developed by Hermann Anschutz-Kaempfe around 1908 while attempting to navigate submarines under the polar ice, and was aboard nearly every large vessel by the 1940s.
+
 ### 9.1 Euler's Equations in the Body Frame
 
 For a rigid body rotating freely (no external torques), the angular momentum in the body frame
@@ -84,6 +86,17 @@ $\omega_1$ grows exponentially. The motion is unstable. $\blacksquare$
 2. **Satellite attitude:** Gravity-gradient stabilisation exploits the fact that rotation about
    the axis of minimum moment of inertia is stable in a gravitational field.
 
+**Ponder (attempt the rate).** A top spinning at rate omega3 about its symmetry axis precesses about the vertical at rate Omega. Attempt to derive Omega from the torque and the angular momentum geometry before reading the formula, for a top of mass m with centre of mass at distance l from the pivot.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The torque is mgl in magnitude, horizontal, perpendicular to the axis. The angular momentum points nearly along the axis and must precess with the torque: Omega L = mgl gives Omega = mgl / (I3 omega3). The geometry: the changing angular momentum is a horizontal vector rotating at rate Omega, so Omega L equals the torque. The faster the spin, the slower the precession: an unintuitive result the formula makes immediate.
+
+</div>
+</details>
+
 ### 9.3 The Symmetric Top with One Point Fixed
 
 A symmetric top ($I_1 = I_2$) with one point fixed, under gravity, is described by three Euler
@@ -143,6 +156,17 @@ $$
 
 **Gyroscopic inertia.** A rapidly spinning top resists tilting because changing the direction of
 $\mathbf{L}$ requires a torque proportional to $\omega_3$.
+
+**Ponder (attempt the counting).** Two rigid bars hinged at their ends, free in the plane: attempt to count the degrees of freedom, and what the hinge constraint removes.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Each free bar in the plane has 3 degrees of freedom (position plus angle): 6 total. The hinge pins the two bars' shared end together: 2 constraints (the two coordinates coincide). The hinged pair has 4 degrees of freedom, and the hinge forces do no work on rotations about the pin, which is why the Lagrangian method handles hinged systems cleanly while Newtonian bookkeeping drowns in reaction forces.
+
+</div>
+</details>
 
 ### 9.5 Coupled Rigid Bodies
 
@@ -263,3 +287,20 @@ coupled or driven systems, numerical integration of the full Euler equations is 
 - [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
 - [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
+:::note[Quick check]
+
+1. Write Euler's equations in the body frame, and why that frame?
+2. I1 w1-dot = (I2 - I3) w2 w3 and cyclic permutations; the body frame rotates with the body so the inertia tensor is constant there, while the lab-frame tensor would tumble.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Why is rotation about the largest or smallest principal axis stable, but the middle axis unstable? **2.** Linearising Euler's equations about pure spin shows the wobble growth rate has opposite signs for the two factors about the end axes (oscillation) and the same sign about the middle axis (exponential growth): the Dzhanibekov flip.
+
+</div>
+</details>
+
+:::
+

@@ -11,12 +11,25 @@ categories:
   - Physics
 ---
 
+**History.** Hermann Weyl coined the word symplectic in 1939, from the Greek for intertwined, because the Latin 'complex' was already taken: the structure it names is the geometry Hamilton's mechanics secretly lives in. Henri Poincare's 1890 prize memoir proved the non-existence of the uniform integrals astronomers hoped would settle the three-body problem, discovering deterministic chaos on the way; sixty-four years later Kolmogorov announced, and Arnold and Moser proved, the theorem that most of the old quasi-periodic motion survives small perturbations after all.
+
 ## Symplectic Structure and KAM Theory
 
 **Tier: R (Research).** Builds on Hamiltonian mechanics and Noether's theorem.
 This is where classical mechanics stops being a solved problem and becomes a
 live field: the KAM theorem is one of the deepest results in mathematical
 physics, and the questions it leaves open are still being worked on.
+
+**Ponder (attempt the necessity).** Liouville's theorem preserves phase-space volume under Hamiltonian flow. Attempt the question one level deeper: volume preservation alone allows squeezing a circle into a long thin ellipse of the same area, which ordinary mechanics forbids. What extra structure must the flow preserve to forbid the squeeze?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The symplectic form: Hamiltonian flows preserve not just the volume element but the pairing omega of infinitesimal displacement pairs. The squeeze changes the shape's symplectic area in each conjugate plane while keeping total volume, so preserving omega forbids it. This is why canonical transformations (not arbitrary volume-preserving maps) are the symmetries of mechanics: the symplectic structure is the invariant geometry.
+
+</div>
+</details>
 
 ## Recall prompts
 
@@ -149,6 +162,17 @@ direction of quantisation runs from this structure, not from the Schrödinger
 equation; which is why deformation quantisation is formulated as a deformation
 of the Poisson algebra.
 
+**Ponder (attempt the survival).** The KAM theorem's statement: under a small perturbation, most invariant tori with sufficiently irrational frequency ratios survive slightly deformed, while resonant ones dissolve into chaotic layers. Attempt the reason the irrationality condition matters, from the perturbation series's structure.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The perturbation series divides by the frequency combinations k dot omega; irrational frequencies make every divisor bounded away from zero (Diophantine condition), so the series converges on those tori. Resonant tori, where k dot omega = 0 for some integer vector, have vanishing divisors: the perturbation destroys them. Most frequencies are irrational enough: that is the sense in which most survives.
+
+</div>
+</details>
+
 ## Integrable systems and action-angle variables
 
 **In words.** A system with $n$ degrees of freedom is *integrable* if there are
@@ -260,7 +284,7 @@ stable" is the standard overstatement.
 **Small divisors are not a technicality.** Poincaré showed the three-body
 problem's perturbation series diverge. Every attempted "solution" of the
 $n$-body problem by formal series is wrong, and Poincaré's discovery of this is
-usually taken as the birth of chaos theory.
+taken by most historians as the birth of chaos theory.
 
 **Ergodicity is not implied.** A positive measure of surviving tori means the
 system is *not* ergodic on the energy surface. Treating KAM systems as
@@ -304,3 +328,20 @@ ergodic; common in statistical mechanics reasoning; is unjustified.
 - [Generalised Coordinates and Constraints](/1-classical-mechanics/2_generalised-coordinates-and-constraints/)
 - [Hamiltonian Mechanics](/1-classical-mechanics/4_hamiltonian-mechanics/)
 - [Hamiltonian Mechanics: Advanced Topics](/1-classical-mechanics/11_hamiltonian-mechanics-advanced-topics/)
+
+:::note[Quick check]
+
+1. Define the symplectic two-form on phase space, and its coordinate expression.
+2. omega((delta q1, delta p1), (delta q2, delta p2)) = delta q1 delta p2 - delta p1 delta q2: the signed sum of conjugate-parallelogram areas.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** What does a canonical transformation preserve? **2.** The symplectic form: the pullback of omega under the transformation equals omega, which is stronger than preserving volume.
+
+</div>
+</details>
+
+:::
+
