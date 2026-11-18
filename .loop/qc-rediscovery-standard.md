@@ -73,3 +73,20 @@ checks, zero history in the sampled pages. Retrofit every page to
 Track 2 (intro course): the frozen 78-chapter structure
 (docs/physics-course-graph.json, v1.1) is the prerequisite on-ramp;
 content sessions begin at Stage A once track 1 is underway.
+
+## Physics retrofit progress (2026-11-18)
+
+Topic 1 (1-classical-mechanics, 17 files): COMPLETE. All pages carry
+history, 2+ ponders, and QC ladders under 4a/4b. Exemplar:
+1_newtonian-mechanics-review.md. Advanced pages (10-13, 16) carry
+8-question QC ladders.
+
+Remaining: topics 2-7 (2-thermal 23 files, 3-em 16, 4-optics 25,
+5-quantum 19, 6-solid-state 18, 7-particle-cosmology 15 = 116
+files), then track 2 (Stage A of the 78-chapter intro course, from
+physics-v1.1 graph). Note: the existing physics site pages ALREADY
+carry :::note[Historical Context] asides (4b partially satisfied in
+that shape) and :::{/* */} JSX comments from an earlier mdx-era
+migration, so check-before-insert and watch for both shapes.
+Batch pattern proven: survey headings, insert history + 2 ponders +
+QC ladder via python with heading anchors, fixers, gates, commit.
