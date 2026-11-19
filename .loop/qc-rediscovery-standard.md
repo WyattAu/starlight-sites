@@ -110,3 +110,32 @@ with heading anchors, QC via the qc() helper (see
 (interrupts, display-math, prose-damage), lint-asides, handwaves,
 depth, llms regen, commit. One finding pattern to watch: vague
 phrases in new ponder spoilers get caught by lint-handwaves.
+
+## Physics retrofit position (2026-11-19, session 2 end)
+
+TOPIC 2 COMPLETE except one decision. Files 1-7 and 10-20 carry the
+full standard (history + 2 ponders + 8-question QC ladder). Files
+8_common-pitfalls and 9_problem-set are EXEMPT meta pages - the
+math course precedent (e.g. 1-abstract-algebra/17_common-pitfalls:
+HC=0 PON=0 QC=0) exempts pitfalls/problem-set pages. Batches:
+919a12269 (QC 6/7/10/11), fe44ec3cc (12/13/14), 1fa92cf2d
+(15/16/17), c6c19f386 (18/19/20).
+
+DECISION PENDING - 21_thermodynamics-and-statistical-mechanics
+(3319 lines): a 21-section omnibus duplicating the whole track
+(laws, Maxwell, engines, Ising, FDT, blackbody, ensembles...).
+Not a chapter; options: (a) retrofit as review page with
+integration-level history + ponders + comprehensive QC, (b) split
+into the dedicated chapters it duplicates, (c) exempt as a review
+anthology. Decide before touching it.
+
+Injection scripts (all py_compile-checked, idempotent):
+.loop/qc-inject-671011.py, .loop/retrofit-121314.py,
+.loop/retrofit-151617.py, .loop/retrofit-181920.py.
+
+NEXT SESSION: topics 3-7 in topic order, same batch pattern
+(3 files per batch: survey -> write script via write tool ->
+py_compile -> run -> fixers + asides + handwaves + depth ->
+llms -> scoped add -> commit -> push). First survey each topic's
+file list and HC/PON/QC counts with the one-liner used for
+topic 2. Then track 2 Stage A intro course from physics-v1.1.
