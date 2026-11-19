@@ -5965,7 +5965,7 @@ URL: https://physics.wyattau.com/2-thermal-physics/7_classical-limit-and-the-max
 <summary>The resolution</summary>
 <div class="wn-spoiler-body">
 
-The wave packets overlap when the interparticle spacing falls below the thermal de Broglie wavelength: the particles' quantum identities blur, and the distinguishable counting fails. The criterion: n lambda^3 much less than 1 makes wave-packet overlap rare, so the classical limit holds. At room temperature and density, ordinary gases pass easily; at low temperature or high density, the quantum statistics take over.
+The wave packets overlap when the interparticle spacing falls below the thermal de Broglie wavelength: the particles' quantum identities blur, and the distinguishable counting fails. The criterion: n lambda^3 much less than 1 makes wave-packet overlap rare, so the classical limit holds. At room temperature and density, ordinary gases sit far from the overlap regime; at low temperature or high density, the quantum statistics take over.
 
 </div>
 </details>
