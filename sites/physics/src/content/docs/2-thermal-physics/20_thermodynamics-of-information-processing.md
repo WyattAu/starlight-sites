@@ -17,6 +17,8 @@ description: "The minimum energy dissipation per irreversible bit operation depe
 }
 </script>
 
+**History.** The founding paradox is Maxwell's 1867 demon; the founding quantitative claim is Leo Szilard's 1929 one-molecule engine, which tied one bit of information to one $k_B T \ln 2$ of work, thirty-two years before anyone priced the bit itself. Rolf Landauer's 1961 IBM paper did that: erasure costs at least $k_B T \ln 2$, and the cost sits at erasure, not measurement. Charles Bennett's 1982 analysis completed the demon's exorcism by showing that computation can be made logically reversible, so it is the demon's memory reset, not its measurements, that restores the second law.
+
 ### 20.1 Landauer Bound in Practice
 
 The minimum energy dissipation per irreversible bit operation depends on the physical
@@ -61,6 +63,17 @@ $$
 
 Landauer's principle states that erasing one bit of information dissipates at least $k_B T \ln 2$ of heat. This follows from the second law: the entropy decrease of the information-bearing degrees of freedom must be compensated by an entropy increase in the environment.
 
+**Ponder (attempt the asymmetry).** Why must erasing one bit cost $k_B T \ln 2$ while writing or copying can be free? Attempt the argument from entropy bookkeeping: an erasure maps two states onto one. What happened to the phase-space volume, and what must the bath absorb?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Erasure compresses a two-state ensemble onto one state: the system's phase-space volume shrinks by a factor 2 and its entropy drops by $k_B \ln 2$. The second law demands the environment's entropy rise by at least as much, so the bath absorbs at least $Q = k_B T \ln 2$. Writing maps one state to two and grows the space, which the bath supplies without complaint. The asymmetry is logical irreversibility: many-to-one maps cost, one-to-one maps need not, which is Bennett's route to reversible computing.
+
+</div>
+</details>
+
 The fundamental equality for a quasi-static bit operation is:
 
 $$
@@ -76,6 +89,17 @@ The total entropy balance for a measurement-and-erasure cycle:
 $$
 \Delta S_{\text{gas}} + \Delta S_{\text{memory}} + \Delta S_{\text{bath}} \geq 0
 $$
+
+**Ponder (attempt the exorcism).** Maxwell's demon seems to violate the second law by sorting molecules for free. Attempt to locate exactly where its cycle fails: the measurement, the sorting, or the memory reset, and reconstruct Szilard's one-bit engine budget.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Szilard's engine: the demon measures which half of the box holds its single molecule (one bit), lets the gas expand against a piston harvesting $k_B T \ln 2$ of work, and must then reset its memory. Bennett showed the measurement and harvest can in principle be made reversible; the erasure of the one-bit record dissipates $k_B T \ln 2$, exactly cancelling the harvest. The bookkeeping fails at reset: information is physical, and forgetting is the only step that must be paid for.
+
+</div>
+</details>
 
 The net effect is that the demon cannot violate the second law when the full information-processing cycle is accounted for.
 
@@ -161,6 +185,28 @@ This enormous gap demonstrates that current computing is limited not by thermody
 ## Intuition
 
 Landauer's principle reveals that information is physical: erasing a bit must dissipate at least kT ln 2 of heat because erasure reduces the entropy of the information-bearing system, and the second law demands compensation in the environment. Maxwell's demon fails because acquiring and erasing information about particles costs energy that exactly cancels the apparent entropy decrease. The vast gap between the Landauer limit and current CMOS technology shows that modern computing is limited by engineering, not by fundamental physics. Reversible computing aims to close this gap by never erasing information during computation.
+
+:::note[Quick check]
+
+1. State the Landauer limit in energy and in electronvolts at room temperature, and the order-of-magnitude gap to a modern CMOS switch.
+2. What does closing the CMOS-to-Landauer gap require?
+3. What did Bennett's 1982 argument show about where computation pays?
+4. Name the canonical reversible logic gates and the tape-restoring trick.
+5. Write Shannon's entropy and the quasi-static erasure equality.
+6. Why does erasure cost while writing does not?
+7. Where does Maxwell's demon's cycle actually fail?
+8. Give the ATP energy scale, and the flip-flop example's cost in $k_B T$ per operation.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $k_B T \ln 2 \approx 0.018\ \mathrm{eV}$ at 300 K; era-2000 CMOS sat at $\sim 10^4 k_B T$ per switch and modern nodes at $10^2$ to $10^3 k_B T$, a gap of five to six orders of magnitude. **2.** Fundamentally different computing paradigms: reversible or adiabatic logic operating near equilibrium, not incremental voltage tuning. **3.** That a computer can be logically reversible at every step if it never erases: dissipation occurs only at initialisation and optional output, not during the computation itself. **4.** Fredkin and Toffoli gates; any computation can be made reversible by saving all intermediates and running the computation in reverse to restore the input tape. **5.** $H = -\sum_i p_i \log_2 p_i$; for a quasi-static bit erasure $\Delta S_{\text{system}} + \Delta S_{\text{bath}} = 0$, giving $Q \ge k_B T \ln 2$. **6.** Erasure is a many-to-one map: phase-space volume shrinks by 2, entropy drops $k_B \ln 2$, and the bath must absorb it. Writing is one-to-many and thermodynamically free. **7.** At the memory reset: measurement and sorting can be reversible in principle, but erasing the one-bit record costs $k_B T \ln 2$, cancelling the harvested work (Szilard-Bennett accounting). **8.** ATP hydrolysis delivers $\Delta G \approx 20 k_B T$; the worked flip-flop dissipates $E = 10\,\mu\mathrm{W}/3\,\mathrm{GHz} \approx 3.33 \times 10^{-15}\ \mathrm{J} \approx 8 \times 10^5 k_B T$ per operation, about $10^6$ times the Landauer limit.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

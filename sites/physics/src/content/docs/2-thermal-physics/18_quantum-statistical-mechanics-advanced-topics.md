@@ -17,6 +17,19 @@ description: "The (or density operator) provides the most general description of
 }
 </script>
 
+**History.** The density matrix is John von Neumann's, from his 1927 axiomatisation of quantum mechanics: he built it precisely to handle statistical mixtures that a single wavefunction cannot represent. Lev Landau introduced the same object from the other side in 1927, describing a subsystem in contact with an environment by a traced-out state, anticipating decoherence by decades. The entropy formula $-k_B \mathrm{Tr}(\hat\rho \ln \hat\rho)$ carries von Neumann's name, and E. T. Jaynes's 1957 maximum-entropy principle showed that the canonical $\hat\rho = e^{-\beta \hat H}/Z$ is not an assumption about physics at all: it is the least-biased guess consistent with a measured temperature.
+
+**Ponder (attempt the purity test).** Why does $\mathrm{Tr}(\hat\rho^2)$ decide purity? Attempt to see it: expand $\hat\rho = \sum_i p_i |\psi_i\rangle\langle\psi_i|$ and square it. What do the cross-terms do, and why is $\mathrm{Tr}(\hat\rho^2) < 1$ a statement about ignorance rather than about physics?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Squaring kills the cross-terms in an orthonormal basis, leaving $\hat\rho^2 = \sum_i p_i^2 |\psi_i\rangle\langle\psi_i|$, so $\mathrm{Tr}(\hat\rho^2) = \sum_i p_i^2$. That sum is 1 exactly when a single probability is 1 (pure state) and falls below 1 for any genuine mixture. The mixture can be epistemic: a subsystem of a larger pure state is described by a mixed $\hat\rho$ while the whole stays pure. The probabilities sit in the description, not necessarily in the world, which is exactly why the density operator and not the wavefunction is the general object.
+
+</div>
+</details>
+
 ### 18.1 Density Matrix and Ensemble Averages
 
 The **density matrix** (or density operator) provides the most general description of a quantum
@@ -52,6 +65,17 @@ $$
 
 This is the quantum analogue of Liouville's equation. For a closed system, the von Neumann
 entropy is constant (unitary evolution preserves eigenvalues of $\hat{\rho}$).
+
+**Ponder (attempt the bookkeeping).** The grand partition function arrives with an awkward sign pattern, $\ln \mathcal{Z} = \pm \sum_{\mathbf{k}} \ln(1 \mp e^{-\beta(\epsilon_{\mathbf{k}} - \mu)})$. Attempt to rederive it from per-mode occupation counting so the signs stop being arbitrary: where does each sign come from?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Count one mode grand-canonically. Fermions allow $n = 0$ or $1$, so the mode partition function is $1 + e^{-\beta(\epsilon-\mu)}$: the $\ln(1 + x)$ branch. Bosons allow any $n$, so the mode sum is the geometric series $\sum_n x^n = 1/(1-x)$: the $\ln(1-x)$ branch. Both signs encode one counting rule with or without a ceiling, and the whole thermodynamics follows from $\Omega = -PV = \mp k_B T \sum_{\mathbf{k}} \ln(1 \mp x)$. The classical limit $x \ll 1$ collapses both branches to the Maxwell-Boltzmann weight.
+
+</div>
+</details>
 
 ### 18.2 Quantum Ideal Gases: General Treatment
 
@@ -281,6 +305,28 @@ low-frequency rise. In $d = 2$ (graphene): the specific heat per area is
 $C/A = (2\pi^2 k_B^4)/(15\hbar^3 c^2)\,T^3 \propto T^3$ (Debye $T^3$ in 2D).
 
 </details>
+
+:::note[Quick check]
+
+1. Define the density matrix for a statistical mixture and the rule it gives for expectation values.
+2. State the purity test and the entropy built on the density matrix.
+3. Write the canonical ensemble's density operator.
+4. State the von Neumann equation and what closed-system evolution preserves.
+5. Write the grand partition function's sign pattern and state the classical limit.
+6. What happens to the chemical potential below $T_c$ in the ideal Bose gas, and how does $N$ split?
+7. Which quantity of the degenerate Fermi gas is linear in temperature, and how does it scale?
+8. Why is the chemical potential of a photon gas exactly zero?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\hat\rho = \sum_i p_i |\psi_i\rangle\langle\psi_i|$ with $\mathrm{Tr}\,\hat\rho = 1$, hermiticity, and $\langle \hat A \rangle = \mathrm{Tr}(\hat\rho \hat A)$: the most general quantum state description, pure or mixed. **2.** $\mathrm{Tr}(\hat\rho^2) = 1$ if and only if the state is pure; von Neumann entropy $S = -k_B \mathrm{Tr}(\hat\rho \ln \hat\rho)$ is zero for pure states and positive for thermal ones. **3.** $\hat\rho = \frac{1}{Z} e^{-\beta \hat H}$ with $Z = \mathrm{Tr}[e^{-\beta \hat H}]$. **4.** $i\hbar\, \partial \hat\rho/\partial t = [\hat H, \hat\rho]$, the quantum analogue of Liouville's equation; unitary evolution preserves the eigenvalues of $\hat\rho$, so the von Neumann entropy of a closed system stays constant. **5.** $\ln \mathcal{Z} = \pm \sum_{\mathbf{k}} \ln(1 \mp e^{-\beta(\epsilon_{\mathbf{k}} - \mu)})$, plus for fermions, minus for bosons; when $\beta(\epsilon-\mu) \gg 1$ both branches reduce to the Maxwell-Boltzmann weight $e^{-\beta(\epsilon-\mu)}$. **6.** It is pinned at the ground-state energy $\mu = \epsilon_0$; the particle number splits as $N = N_0 + N_{\text{ex}}$, with the excited fraction saturating and the surplus condensing into the ground state. **7.** The specific heat: $C_V \propto T/T_F$, from the Sommerfeld expansion; only the thermal shell of electrons within $k_B T$ of the Fermi surface responds. **8.** Photon number is not conserved: photons are created and destroyed freely by the walls, so the distribution $1/(e^{\beta\hbar\omega} - 1)$ carries $\mu = 0$, with temperature alone fixing the occupancy (Planck's law).
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
