@@ -5957,6 +5957,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/7_classical-limit-and-the-max
 }
 </script>
 
+**History.** The Gibbs paradox (Josiah Willard Gibbs, 1875) argued against counting identical particles as distinguishable from 1875: mixing two identical gases would double the entropy under that counting. The paradox waited seventy years for quantum indistinguishability to explain the fix: Gibbs's factor 1/N! is the classical shadow of quantum statistics, and the classical limit derived in this section is only honest when that factor is included.
+
+**Ponder (attempt the criterion).** Attempt to invent the criterion separating the quantum regime from the classical one, using the thermal de Broglie wavelength: when two identical particles' wave packets overlap, what happens to the distinguishable counting that the classical limit assumes?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The wave packets overlap when the interparticle spacing falls below the thermal de Broglie wavelength: the particles' quantum identities blur, and the distinguishable counting fails. The criterion: n lambda^3 much less than 1 makes wave-packet overlap rare, so the classical limit holds. At room temperature and density, ordinary gases pass easily; at low temperature or high density, the quantum statistics take over.
+
+</div>
+</details>
+
 ### 7.1 Derivation from Quantum Statistics
 
 In the classical (dilute) limit, both Fermi-Dirac and Bose-Einstein distributions reduce to the
@@ -6024,6 +6037,17 @@ $$
 $$
 S = -\frac{\partial F}{\partial T} = Nk_B\left[\ln\!\left(\frac{V}{N\lambda_{\mathrm{th}}^3}\right) + \frac{5}{2}\right]
 $$
+
+**Ponder (attempt the failure that started a revolution).** Equipartition assigns kT/2 to every quadratic degree of freedom. Apply it to the electromagnetic field's modes in a cavity: each mode is a quadratic degree of freedom, and there are infinitely many. Attempt to compute the total energy, and name the catastrophe and the year its resolution was published.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The Rayleigh-Jeans law integrates the kT/2 per mode over infinitely many modes and diverges: the ultraviolet catastrophe. Planck's 1900 resolution introduced the quantum e = h nu per mode, cutting off the high-frequency modes, and the failure of classical equipartition was the first crack in classical physics that quantum mechanics answered. The catastrophe is the opening chapter of Stage K's quantum foundations.
+
+</div>
+</details>
 
 ### 7.4 Equipartition Theorem
 
@@ -7484,6 +7508,17 @@ $$
 
 This yields the mean-field critical exponent $\beta = 1/2$.
 
+**Ponder (attempt the divergence).** Landau's free energy with an external field: F = F0 + a(T - Tc) M^2 + b M^4 - H M. Attempt to compute the susceptibility chi = dM/dH above the Curie temperature, and watch how it behaves as T approaches Tc.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Minimising gives 2 a (T - Tc) M - H = 0 above Tc, so chi = dM/dH = 1 / (2 a (T - Tc)): the susceptibility diverges as T approaches Tc from above, with the mean-field critical exponent of one (gamma = 1). The divergence is why critical points scatter light so strongly (critical opalescence): the fluctuations grow without bound.
+
+</div>
+</details>
+
 ### 11.3 Susceptibility
 
 The **susceptibility** $\chi = \partial\phi/\partial h|_{h=0}$ is obtained by expanding
@@ -7930,6 +7965,17 @@ $$
 $$
 
 Where $\Delta v = v_2 - v_1$ is the change in specific volume.
+
+**Ponder (attempt the critical point).** The van der Waals isotherms have an inflection point where the first and second derivatives of pressure with respect to volume both vanish. Attempt to derive the critical temperature, volume, and pressure from the equation in terms of the van der Waals constants a and b.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The critical point sits where dP/dV = 0 and d^2P/dV^2 = 0 simultaneously: for P = RT/(V-b) - a/V^2, the two conditions give V_c = 3b, T_c = 8a/(27 R b), and P_c = a/(27 b^2). The universal number from the ratio P_c V_c / (R T_c) = 3/8: the same for every gas described by van der Waals, the first hint of the law of corresponding states.
+
+</div>
+</details>
 
 ### 10.2 Van der Waals Equation and Critical Phenomena
 
@@ -9783,6 +9829,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/6_the-ising-model/
 }
 </script>
 
+**History.** Wilhelm Lenz proposed the model in 1920 and gave it to his doctoral student Ernst Ising, whose 1925 thesis solved the one-dimensional case and found no phase transition. The absence of a transition in 1D convinced many that the model was a dead end, until Rudolf Peierls's 1936 argument showed the 2D model must have a phase transition at low temperature, and Lars Onsager's 1948 solution of the 2D case in closed form became one of the most celebrated results in statistical mechanics.
+
+**Ponder (attempt the counting).** Attempt to count the states of the 2D Ising model on a 10 by 10 lattice: how many configurations, and why does exact enumeration fail for even this modest system?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+2 spins per site, 100 sites: 2^100 configurations, about 10^30. Exhaustive enumeration at one configuration per nanosecond would take longer than the age of the universe. The counting failure is why approximations (mean field, Monte Carlo sampling) exist, and why the exactly solvable cases (1D, 2D zero field) are precious: Onsager's 2D solution is one of the monuments of the subject.
+
+</div>
+</details>
+
 ### 6.1 Definition
 
 The **Ising model** is the simplest model of a phase transition. On a lattice of $N$ sites, each
@@ -9832,6 +9891,17 @@ $$
 
 The magnetisation $m = -\partial f/\partial h|_{h=0} = 0$ for all $T > 0$ Confirming no spontaneous
 magnetisation and hence no phase transition. $\blacksquare$
+
+**Ponder (attempt the decoupling).** The Ising Hamiltonian couples neighbouring spins: H = -J sum s_i s_j. Attempt the mean-field decoupling: replace every neighbour's spin by its average m, and derive the self-consistency equation for m. What does the solution m = tanh(beta J z m) tell you at weak coupling?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The decoupling s_i s_j = m s_i + s_j m - m^2 gives each spin a mean field J z m acting on it, and self-consistency demands m = tanh(beta J z m). At weak coupling (beta J z < 1) the only solution is m = 0 (no magnetisation); above the critical coupling, nonzero solutions appear continuously: a phase transition in the simplest possible equation. The critical coupling separates the magnetised and unmagnetised phases, and the mean-field approximation is the entire theory's first rung.
+
+</div>
+</details>
 
 ### 6.3 Mean Field Theory
 

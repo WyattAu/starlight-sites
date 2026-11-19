@@ -17,6 +17,19 @@ description: 'The is the simplest model of a phase transition. On a lattice of s
 }
 </script>
 
+**History.** Wilhelm Lenz proposed the model in 1920 and gave it to his doctoral student Ernst Ising, whose 1925 thesis solved the one-dimensional case and found no phase transition. The absence of a transition in 1D convinced many that the model was a dead end, until Rudolf Peierls's 1936 argument showed the 2D model must have a phase transition at low temperature, and Lars Onsager's 1948 solution of the 2D case in closed form became one of the most celebrated results in statistical mechanics.
+
+**Ponder (attempt the counting).** Attempt to count the states of the 2D Ising model on a 10 by 10 lattice: how many configurations, and why does exact enumeration fail for even this modest system?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+2 spins per site, 100 sites: 2^100 configurations, about 10^30. Exhaustive enumeration at one configuration per nanosecond would take longer than the age of the universe. The counting failure is why approximations (mean field, Monte Carlo sampling) exist, and why the exactly solvable cases (1D, 2D zero field) are precious: Onsager's 2D solution is one of the monuments of the subject.
+
+</div>
+</details>
+
 ### 6.1 Definition
 
 The **Ising model** is the simplest model of a phase transition. On a lattice of $N$ sites, each
@@ -66,6 +79,17 @@ $$
 
 The magnetisation $m = -\partial f/\partial h|_{h=0} = 0$ for all $T > 0$ Confirming no spontaneous
 magnetisation and hence no phase transition. $\blacksquare$
+
+**Ponder (attempt the decoupling).** The Ising Hamiltonian couples neighbouring spins: H = -J sum s_i s_j. Attempt the mean-field decoupling: replace every neighbour's spin by its average m, and derive the self-consistency equation for m. What does the solution m = tanh(beta J z m) tell you at weak coupling?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The decoupling s_i s_j = m s_i + s_j m - m^2 gives each spin a mean field J z m acting on it, and self-consistency demands m = tanh(beta J z m). At weak coupling (beta J z < 1) the only solution is m = 0 (no magnetisation); above the critical coupling, nonzero solutions appear continuously: a phase transition in the simplest possible equation. The critical coupling separates the magnetised and unmagnetised phases, and the mean-field approximation is the entire theory's first rung.
+
+</div>
+</details>
 
 ### 6.3 Mean Field Theory
 

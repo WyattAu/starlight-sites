@@ -62,6 +62,17 @@ $$
 
 This yields the mean-field critical exponent $\beta = 1/2$.
 
+**Ponder (attempt the divergence).** Landau's free energy with an external field: F = F0 + a(T - Tc) M^2 + b M^4 - H M. Attempt to compute the susceptibility chi = dM/dH above the Curie temperature, and watch how it behaves as T approaches Tc.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Minimising gives 2 a (T - Tc) M - H = 0 above Tc, so chi = dM/dH = 1 / (2 a (T - Tc)): the susceptibility diverges as T approaches Tc from above, with the mean-field critical exponent of one (gamma = 1). The divergence is why critical points scatter light so strongly (critical opalescence): the fluctuations grow without bound.
+
+</div>
+</details>
+
 ### 11.3 Susceptibility
 
 The **susceptibility** $\chi = \partial\phi/\partial h|_{h=0}$ is obtained by expanding

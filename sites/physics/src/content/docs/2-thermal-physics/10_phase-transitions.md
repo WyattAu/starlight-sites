@@ -47,6 +47,17 @@ $$
 
 Where $\Delta v = v_2 - v_1$ is the change in specific volume.
 
+**Ponder (attempt the critical point).** The van der Waals isotherms have an inflection point where the first and second derivatives of pressure with respect to volume both vanish. Attempt to derive the critical temperature, volume, and pressure from the equation in terms of the van der Waals constants a and b.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The critical point sits where dP/dV = 0 and d^2P/dV^2 = 0 simultaneously: for P = RT/(V-b) - a/V^2, the two conditions give V_c = 3b, T_c = 8a/(27 R b), and P_c = a/(27 b^2). The universal number from the ratio P_c V_c / (R T_c) = 3/8: the same for every gas described by van der Waals, the first hint of the law of corresponding states.
+
+</div>
+</details>
+
 ### 10.2 Van der Waals Equation and Critical Phenomena
 
 The van der Waals equation of state modifies the ideal gas law to account for intermolecular forces:

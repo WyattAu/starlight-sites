@@ -17,6 +17,19 @@ description: "In the classical (dilute) limit, both Fermi-Dirac and Bose-Einstei
 }
 </script>
 
+**History.** The Gibbs paradox (Josiah Willard Gibbs, 1875) argued against counting identical particles as distinguishable from 1875: mixing two identical gases would double the entropy under that counting. The paradox waited seventy years for quantum indistinguishability to explain the fix: Gibbs's factor 1/N! is the classical shadow of quantum statistics, and the classical limit derived in this section is only honest when that factor is included.
+
+**Ponder (attempt the criterion).** Attempt to invent the criterion separating the quantum regime from the classical one, using the thermal de Broglie wavelength: when two identical particles' wave packets overlap, what happens to the distinguishable counting that the classical limit assumes?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The wave packets overlap when the interparticle spacing falls below the thermal de Broglie wavelength: the particles' quantum identities blur, and the distinguishable counting fails. The criterion: n lambda^3 much less than 1 makes wave-packet overlap rare, so the classical limit holds. At room temperature and density, ordinary gases pass easily; at low temperature or high density, the quantum statistics take over.
+
+</div>
+</details>
+
 ### 7.1 Derivation from Quantum Statistics
 
 In the classical (dilute) limit, both Fermi-Dirac and Bose-Einstein distributions reduce to the
@@ -84,6 +97,17 @@ $$
 $$
 S = -\frac{\partial F}{\partial T} = Nk_B\left[\ln\!\left(\frac{V}{N\lambda_{\mathrm{th}}^3}\right) + \frac{5}{2}\right]
 $$
+
+**Ponder (attempt the failure that started a revolution).** Equipartition assigns kT/2 to every quadratic degree of freedom. Apply it to the electromagnetic field's modes in a cavity: each mode is a quadratic degree of freedom, and there are infinitely many. Attempt to compute the total energy, and name the catastrophe and the year its resolution was published.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The Rayleigh-Jeans law integrates the kT/2 per mode over infinitely many modes and diverges: the ultraviolet catastrophe. Planck's 1900 resolution introduced the quantum e = h nu per mode, cutting off the high-frequency modes, and the failure of classical equipartition was the first crack in classical physics that quantum mechanics answered. The catastrophe is the opening chapter of Stage K's quantum foundations.
+
+</div>
+</details>
 
 ### 7.4 Equipartition Theorem
 
