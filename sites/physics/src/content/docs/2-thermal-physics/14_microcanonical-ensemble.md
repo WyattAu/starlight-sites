@@ -20,6 +20,19 @@ description: "The describes an isolated system with fixed total energy Particle 
 The **microcanonical ensemble** describes an isolated system with fixed total energy $E$ Particle
 number $N$ And volume $V$.
 
+**History.** Ludwig Boltzmann proposed the counting entropy, $S$ proportional to $\ln W$, in 1877, in a short paper that drew little notice at the time; the idea had come to him as a shift from continuous to combinatorial arguments. Max Planck gave the relation its constant $k_B$ and its modern form $S = k_B \ln W$ in 1900-1901 while introducing the quantum of energy, and it is Planck's version that is engraved on Boltzmann's Vienna gravestone. Josiah Willard Gibbs's 1902 Statistical Mechanics then placed the microcanonical ensemble at the foundation of the subject.
+
+**Ponder (attempt the logarithm).** Boltzmann's entropy is the logarithm of the state count. Attempt to derive the logarithm rather than assume it: when two independent systems are combined, their state counts multiply, $\Omega = \Omega_1 \Omega_2$. Which property of entropy forces $S = c \ln \Omega$, and what fixes the constant $c$?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Entropy must be additive: two separated systems' entropy is the sum of their entropies. Additivity converts the multiplication of counts into an addition only under the logarithm, since $c \ln(\Omega_1 \Omega_2) = c \ln \Omega_1 + c \ln \Omega_2$. Monotonicity fixes the sign of $c$, and matching one measured scale (the ideal gas or blackbody spectrum) fixes its value: $c = k_B$, the constant Planck named for Boltzmann.
+
+</div>
+</details>
+
 ### 14.1 Density of States
 
 The number of microstates with energy between $E$ and $E + \delta E$ is:
@@ -85,6 +98,17 @@ $$
 $$
 
 (For the harmonic oscillator, $n = 2$: $\langle K \rangle = \langle U \rangle$.)
+
+**Ponder (attempt the failure).** Ensemble equivalence is a theorem of the thermodynamic limit. Attempt to find its edge cases: what happens to energy fluctuations when interactions are long-ranged, as gravity's are, or when the entropy $S(E)$ loses concavity at a first-order transition?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Equivalence needs additive energy and a concave $S(E)$. With long-ranged forces, energy no longer scales with volume per particle, $\Delta E/E$ need not vanish, and the microcanonical ensemble allows a negative specific heat: a gravitating cluster that radiates energy away heats up, which the canonical ensemble's bath forbids. A non-concave $S(E)$ makes the Legendre transform $\inf_E [E - \beta^{-1} S(E)]$ non-invertible: the canonical ensemble never visits the states between the concave hull's tangency points, and the two ensembles genuinely disagree.
+
+</div>
+</details>
 
 ### 14.4 Equivalence of Ensembles in the Thermodynamic Limit
 
@@ -243,6 +267,28 @@ The ensembles are equivalent only in the thermodynamic limit ($N \to \infty$, $V
 
 **Mistake 3: Forgetting the $1/N!$ factor in the classical partition function**
 For indistinguishable particles, the phase space volume must be divided by $N!$ to avoid overcounting microstates that differ only by particle labels. Omitting this factor leads to the Gibbs paradox: the entropy of mixing two identical gases would be nonzero, which is physically incorrect. The $1/N!$ factor ensures extensivity of the entropy.
+
+:::note[Quick check]
+
+1. Define the microcanonical state count $\Omega(E, V, N)$ and the entropy built on it.
+2. How is temperature defined inside the microcanonical ensemble?
+3. State the ideal-gas entropy's large-$N$ form (Sackur-Tetrode) and the mean energy it implies.
+4. State the classical virial theorem's consequence for a power-law potential $U \propto r^n$.
+5. What mechanism drives ensemble equivalence in the thermodynamic limit?
+6. Write the Legendre-transform relation between microcanonical entropy and canonical free energy.
+7. What does the microcanonical picture give for the third law?
+8. For the two-state paramagnet, give the multiplicity, the equation of state, and where $T \to \infty$.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\Omega(E, V, N) = \int_{E < \mathcal{H} < E + \delta E} \frac{d^{3N} q\, d^{3N} p}{N!\, h^{3N}}$, and $S = k_B \ln \Omega$. **2.** Through $1/T = \partial S / \partial E$: temperature is the inverse slope of the entropy versus energy. **3.** $S = N k_B [\ln(V/N) + \tfrac{3}{2} \ln(4 \pi m E / 3 N h^2) + 5/2]$; differentiating gives $E = \tfrac{3}{2} N k_B T$, equipartition recovered. **4.** $\langle K \rangle = \tfrac{n}{2} \langle U \rangle$; for the harmonic oscillator ($n = 2$) the kinetic and potential energies are equal on average. **5.** Canonical energy fluctuations scale as $\Delta E / E \sim 1/\sqrt{N}$: the energy distribution sharpens onto a delta function as $N \to \infty$, so every ensemble agrees. **6.** $F(\beta) = \inf_E [E - \beta^{-1} S(E)]$: the canonical free energy is the Legendre-Fenchel transform of the microcanonical entropy. **7.** Nernst's theorem: as $T \to 0$ the system sits in its ground state(s), so $S \to k_B \ln g_0$, zero for a non-degenerate ground state ($g_0 = 1$). **8.** $\Omega = \binom{N}{N_\uparrow}$ with $E = (2 N_\uparrow - N) \mu B$; the equation of state is $M = N \mu \tanh(\mu B / k_B T)$ (the spin-1/2 Brillouin function). $T \to \infty$ at $M = 0$, where the entropy is maximal and $1/T = 0$.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

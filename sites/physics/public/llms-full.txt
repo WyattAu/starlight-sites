@@ -6692,6 +6692,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/13_fluctuation-dissipation-th
 }
 </script>
 
+**History.** The theorem's first instance is Einstein's 1905 Brownian-motion paper, which tied a particle's diffusion coefficient to its mobility in the viscous medium: the same molecular collisions that drag the particle also drive its random walk. The electrical version arrived in a single year at Bell Labs: John Bertrand Johnson measured the thermal noise of a resistor in 1928, and Harry Nyquist explained it the same year with an equipartition argument. Ryogo Kubo's 1957 formalism made the general quantum statement precise, and the theorem has been the working bridge between equilibrium fluctuations and every response coefficient since.
+
+**Ponder (attempt the invention).** At equilibrium nothing dissipates, yet the theorem equates a dissipation coefficient (the absorptive part $\chi''$) with a fluctuation spectrum $S(\omega)$. Attempt to invent the reason the same bath that damps a motion must also jiggle it: what would equilibrium look like if the bath drained energy without ever returning it?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+It would be a one-way street: a system coupled to such a bath would cool forever, and detailed balance would fail. In true equilibrium the coupled system and bath trade energy at exactly equal rates, and the microscopic coupling that lets the bath drain a driven motion is the same coupling through which it kicks the system spontaneously. Einstein's Brownian result is the cleanest instance: drag and diffusion are the same collisions seen from two sides.
+
+</div>
+</details>
+
 ### 13.1 Linear Response Theory
 
 The **fluctuation-dissipation theorem** (FDT) connects the response of a system to a small
@@ -6733,6 +6746,17 @@ $$
 $$
 
 The fluctuation spectrum is Lorentzian, peaked at $\omega_0$.
+
+**Ponder (attempt Nyquist's argument).** A resistor $R$ is connected to a matched transmission line whose modes sit at temperature $T$. Attempt to derive the noise voltage from equipartition alone: how much energy does each line mode carry, and what voltage source must the resistor imitate to keep the balance?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Each classical mode carries $k_B T$, so two matched resistors at the ends trade a power $k_B T \Delta f$ per bandwidth back and forth. A Thevenin source $V_n$ behind $R$ delivers at most $V_n^2 / 4R$ to a matched load; setting that equal to $k_B T \Delta f$ gives $\langle V^2 \rangle = 4 k_B T R \Delta f$. The noise is the resistor's effort to stay in equilibrium with the radiation field: equipartition wearing a circuit's clothes.
+
+</div>
+</details>
 
 ### 13.3 Johnson--Nyquist Noise
 
@@ -6865,6 +6889,28 @@ $$
 $$
 
 The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k_B T / C$ (equipartition). This is independent of $R$, illustrating that the fluctuation-dissipation relation always yields the correct thermal equilibrium result regardless of the dissipation mechanism.
+
+:::note[Quick check]
+
+1. Write the perturbed Hamiltonian used in linear response and the response integral it produces.
+2. State the quantum response function and its ingredients.
+3. State the classical form of the fluctuation-dissipation theorem.
+4. What spectrum does a damped harmonic oscillator produce, and where does it peak?
+5. State the Johnson-Nyquist noise formula and name its ingredients.
+6. Compute the noise voltage squared for a 10 k$\Omega$ resistor at 300 K over a 1 MHz bandwidth.
+7. Why is Johnson-Nyquist noise fundamental rather than an engineering nuisance?
+8. Reconstruct Nyquist's 1928 equipartition argument from a matched line.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\mathcal{H}(t) = \mathcal{H}_0 - f(t) A$ with $A$ the observable conjugate to the field $f(t)$; the first-order response is $\langle A(t) \rangle - \langle A \rangle_0 = \int_{-\infty}^{t} \chi_{AA}(t - t') f(t')\, dt'$. **2.** $\chi_{AA}(t) = \frac{i}{\hbar} \theta(t) \langle [A(t), A(0)] \rangle_0$: a retarded (causal) commutator of the observable with itself, evaluated in equilibrium. **3.** $S(\omega) = \frac{2 k_B T}{\omega} \chi''(\omega)$: the fluctuation power spectrum equals the absorptive (imaginary) part of the susceptibility times $2 k_B T / \omega$. **4.** A Lorentzian: $\chi''(\omega) = \gamma \omega / [(\omega_0^2 - \omega^2)^2 + \gamma^2 \omega^2]$, peaked at the natural frequency $\omega_0$. **5.** $\langle V^2 \rangle = 4 k_B T R \Delta f$ with $R$ the resistance and $\Delta f$ the measured bandwidth. **6.** $4 \times (1.38 \times 10^{-23}) \times 300 \times 10^4 \times 10^6 \approx 1.66 \times 10^{-10}\ \mathrm{V^2}$, that is about 13 microvolts rms. **7.** It arises from the thermal motion of the charge carriers themselves: no cooling of the circuit removes it short of cooling the resistor, and it sets the noise floor of every amplifier. **8.** Each line mode carries $k_B T$, so matched resistors trade $k_B T \Delta f$ per bandwidth; a Thevenin source delivers $V_n^2/4R$ to a matched load, and equating the two gives $\langle V^2 \rangle = 4 k_B T R \Delta f$.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
@@ -7237,6 +7283,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/12_ising-model-and-mean-field
 }
 </script>
 
+**History.** Mean field theory is older than the model it describes: Pierre Weiss postulated his molecular field in 1907 to explain ferromagnetism, two decades before the Ising model existed. Ernst Ising's 1925 thesis then killed the one-dimensional case, and the two-dimensional case waited for Lars Onsager, who presented his transfer-matrix solution in 1942 and published the full derivation only in 1944. Chen-Ning Yang completed the spontaneous magnetisation, with its exact exponent $\beta = 1/8$, in 1952. No exact solution exists in three dimensions to this day.
+
+**Ponder (attempt the method).** The one-dimensional partition function sums $2^N$ configurations. Attempt to invent a method that never performs the exponential sum: factorise each nearest-neighbour bond's Boltzmann weight into a 2 by 2 matrix, and write the total sum as a trace. What survives the thermodynamic limit?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Write $T(\sigma, \sigma') = \exp[\beta J \sigma \sigma' + \beta h (\sigma + \sigma')/2]$: the bond weight as a matrix element. The total sum factorises into $Z = \mathrm{Tr}\, \mathbf{T}^N = \lambda_+^N + \lambda_-^N$, and as $N \to \infty$ only the largest eigenvalue remains: the free energy per spin is a logarithm of one number. The exponential count became an algebra problem, and the same move, enlarged to $4 \times 4$ matrices, is Onsager's 1944 solution of the square lattice.
+
+</div>
+</details>
+
 ### 12.1 The Ising Model
 
 The Ising model is the simplest model of interacting spins on a lattice. Each site $i$ has a spin
@@ -7272,6 +7331,17 @@ $$
 
 **Key result:** The 1D Ising model has **no** phase transition at $T > 0$. The magnetization
 $m = \langle\sigma\rangle \to 0$ as $h \to 0$ for all finite $T$.
+
+**Ponder (attempt the clash).** Mean field gives the magnetisation exponent $\beta = 1/2$ from the $\tanh$ expansion; Onsager's exact square lattice gives $\beta = 1/8$. Attempt to diagnose why the same expansion that works at high temperature fails precisely at the critical point, and why mean field becomes exact above $d = 4$.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The expansion assumes each spin sees the average field; near $T_c$ the fluctuations of the local field grow without bound and the assumption collapses. Fluctuations weaken as coordination grows: each spin's field is an average over $z$ neighbours with relative spread about $1/\sqrt{z}$, and $z$ grows without bound as the dimension rises. Above the upper critical dimension $d = 4$ the fluctuations are harmless and mean field is exact; below it they renormalise the exponents, which is precisely what the renormalisation group computes.
+
+</div>
+</details>
 
 ### 12.2 Mean-Field Approximation
 
@@ -7453,6 +7523,28 @@ The 1D Ising model has no phase transition at any finite temperature. The transf
 
 **Mistake 3: Assuming critical exponents depend on microscopic details**
 Critical exponents are universal: they depend only on the dimensionality of the system and the symmetry of the order parameter, not on the coupling constant $J$ or lattice structure. This universality means that the 2D Ising model on a square lattice and on a triangular lattice have the same critical exponents despite different microscopic Hamiltonians.
+
+:::note[Quick check]
+
+1. Write the Ising Hamiltonian and explain each symbol's role.
+2. How does the transfer matrix evaluate the 1D partition function, and what is the model's key 1D verdict?
+3. State the Weiss mean-field decoupling of $\sigma_i \sigma_j$.
+4. Write the self-consistency equation for $m$ with and without a field.
+5. Where does the mean-field critical temperature $T_c^{\text{MF}}$ sit, and how does the small-$m$ expansion locate it?
+6. Compare the mean-field and exact critical temperatures for the square lattice.
+7. List the mean-field critical exponents and the exact 2D Ising values.
+8. What is the upper critical dimension, and what does universality claim?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\mathcal{H} = -J \sum_{\langle i,j \rangle} \sigma_i \sigma_j - h \sum_i \sigma_i$ with $\sigma_i \in \{-1, +1\}$; $J > 0$ couples nearest neighbours ferromagnetically and $h$ is the external field. **2.** $Z = \mathrm{Tr}\, \mathbf{T}^N = \lambda_+^N + \lambda_-^N$ with $\mathbf{T}$ the 2 by 2 bond matrix; in the thermodynamic limit $Z = \lambda_+^N$. Verdict: no phase transition at any $T > 0$; $m \to 0$ as $h \to 0$. **3.** $\sigma_i \sigma_j \approx \sigma_i \langle \sigma_j \rangle + \langle \sigma_i \rangle \sigma_j - \langle \sigma_i \rangle \langle \sigma_j \rangle$: each spin interacts with the average, not with individual neighbours. **4.** With field: $m = \tanh[\beta (zJm + h)]$. At $h = 0$: $m = \tanh(\beta zJm)$. **5.** $T_c^{\text{MF}} = zJ/k_B$: expanding $m = \tanh(\beta zJm)$ for small $m$ gives $m \approx \beta zJm - (\beta zJ)^3 m^3/3$, and a nonzero solution appears only when $\beta zJ > 1$. **6.** Mean field: $k_B T_c = zJ = 4J$ for $z = 4$; exact (Onsager): $k_B T_c/J = 2/\ln(1+\sqrt{2}) \approx 2.269$. The overestimate factor is $4/2.269 \approx 1.76$. **7.** Mean field: $\beta = 1/2$, $\gamma = 1$, $\alpha = 0$ (jump), $\nu = 1/2$. Exact 2D: $\beta = 1/8$, $\gamma = 7/4$, $\alpha = 0$ (logarithm), $\nu = 1$. **8.** Mean field is exact for $d > 4$ and wrong below: above $d = 4$, critical fluctuations are too weak to shift the exponents. Universality: the exponents depend only on dimensionality and symmetry, not on microscopic details.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
@@ -7727,6 +7819,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/14_microcanonical-ensemble/
 The **microcanonical ensemble** describes an isolated system with fixed total energy $E$ Particle
 number $N$ And volume $V$.
 
+**History.** Ludwig Boltzmann proposed the counting entropy, $S$ proportional to $\ln W$, in 1877, in a short paper that drew little notice at the time; the idea had come to him as a shift from continuous to combinatorial arguments. Max Planck gave the relation its constant $k_B$ and its modern form $S = k_B \ln W$ in 1900-1901 while introducing the quantum of energy, and it is Planck's version that is engraved on Boltzmann's Vienna gravestone. Josiah Willard Gibbs's 1902 Statistical Mechanics then placed the microcanonical ensemble at the foundation of the subject.
+
+**Ponder (attempt the logarithm).** Boltzmann's entropy is the logarithm of the state count. Attempt to derive the logarithm rather than assume it: when two independent systems are combined, their state counts multiply, $\Omega = \Omega_1 \Omega_2$. Which property of entropy forces $S = c \ln \Omega$, and what fixes the constant $c$?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Entropy must be additive: two separated systems' entropy is the sum of their entropies. Additivity converts the multiplication of counts into an addition only under the logarithm, since $c \ln(\Omega_1 \Omega_2) = c \ln \Omega_1 + c \ln \Omega_2$. Monotonicity fixes the sign of $c$, and matching one measured scale (the ideal gas or blackbody spectrum) fixes its value: $c = k_B$, the constant Planck named for Boltzmann.
+
+</div>
+</details>
+
 ### 14.1 Density of States
 
 The number of microstates with energy between $E$ and $E + \delta E$ is:
@@ -7792,6 +7897,17 @@ $$
 $$
 
 (For the harmonic oscillator, $n = 2$: $\langle K \rangle = \langle U \rangle$.)
+
+**Ponder (attempt the failure).** Ensemble equivalence is a theorem of the thermodynamic limit. Attempt to find its edge cases: what happens to energy fluctuations when interactions are long-ranged, as gravity's are, or when the entropy $S(E)$ loses concavity at a first-order transition?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Equivalence needs additive energy and a concave $S(E)$. With long-ranged forces, energy no longer scales with volume per particle, $\Delta E/E$ need not vanish, and the microcanonical ensemble allows a negative specific heat: a gravitating cluster that radiates energy away heats up, which the canonical ensemble's bath forbids. A non-concave $S(E)$ makes the Legendre transform $\inf_E [E - \beta^{-1} S(E)]$ non-invertible: the canonical ensemble never visits the states between the concave hull's tangency points, and the two ensembles genuinely disagree.
+
+</div>
+</details>
 
 ### 14.4 Equivalence of Ensembles in the Thermodynamic Limit
 
@@ -7950,6 +8066,28 @@ The ensembles are equivalent only in the thermodynamic limit ($N \to \infty$, $V
 
 **Mistake 3: Forgetting the $1/N!$ factor in the classical partition function**
 For indistinguishable particles, the phase space volume must be divided by $N!$ to avoid overcounting microstates that differ only by particle labels. Omitting this factor leads to the Gibbs paradox: the entropy of mixing two identical gases would be nonzero, which is physically incorrect. The $1/N!$ factor ensures extensivity of the entropy.
+
+:::note[Quick check]
+
+1. Define the microcanonical state count $\Omega(E, V, N)$ and the entropy built on it.
+2. How is temperature defined inside the microcanonical ensemble?
+3. State the ideal-gas entropy's large-$N$ form (Sackur-Tetrode) and the mean energy it implies.
+4. State the classical virial theorem's consequence for a power-law potential $U \propto r^n$.
+5. What mechanism drives ensemble equivalence in the thermodynamic limit?
+6. Write the Legendre-transform relation between microcanonical entropy and canonical free energy.
+7. What does the microcanonical picture give for the third law?
+8. For the two-state paramagnet, give the multiplicity, the equation of state, and where $T \to \infty$.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\Omega(E, V, N) = \int_{E < \mathcal{H} < E + \delta E} \frac{d^{3N} q\, d^{3N} p}{N!\, h^{3N}}$, and $S = k_B \ln \Omega$. **2.** Through $1/T = \partial S / \partial E$: temperature is the inverse slope of the entropy versus energy. **3.** $S = N k_B [\ln(V/N) + \tfrac{3}{2} \ln(4 \pi m E / 3 N h^2) + 5/2]$; differentiating gives $E = \tfrac{3}{2} N k_B T$, equipartition recovered. **4.** $\langle K \rangle = \tfrac{n}{2} \langle U \rangle$; for the harmonic oscillator ($n = 2$) the kinetic and potential energies are equal on average. **5.** Canonical energy fluctuations scale as $\Delta E / E \sim 1/\sqrt{N}$: the energy distribution sharpens onto a delta function as $N \to \infty$, so every ensemble agrees. **6.** $F(\beta) = \inf_E [E - \beta^{-1} S(E)]$: the canonical free energy is the Legendre-Fenchel transform of the microcanonical entropy. **7.** Nernst's theorem: as $T \to 0$ the system sits in its ground state(s), so $S \to k_B \ln g_0$, zero for a non-degenerate ground state ($g_0 = 1$). **8.** $\Omega = \binom{N}{N_\uparrow}$ with $E = (2 N_\uparrow - N) \mu B$; the equation of state is $M = N \mu \tanh(\mu B / k_B T)$ (the spin-1/2 Brillouin function). $T \to \infty$ at $M = 0$, where the entropy is maximal and $1/T = 0$.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

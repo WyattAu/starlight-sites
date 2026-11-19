@@ -17,6 +17,19 @@ description: "The (FDT) connects the response of a system to a small perturbatio
 }
 </script>
 
+**History.** The theorem's first instance is Einstein's 1905 Brownian-motion paper, which tied a particle's diffusion coefficient to its mobility in the viscous medium: the same molecular collisions that drag the particle also drive its random walk. The electrical version arrived in a single year at Bell Labs: John Bertrand Johnson measured the thermal noise of a resistor in 1928, and Harry Nyquist explained it the same year with an equipartition argument. Ryogo Kubo's 1957 formalism made the general quantum statement precise, and the theorem has been the working bridge between equilibrium fluctuations and every response coefficient since.
+
+**Ponder (attempt the invention).** At equilibrium nothing dissipates, yet the theorem equates a dissipation coefficient (the absorptive part $\chi''$) with a fluctuation spectrum $S(\omega)$. Attempt to invent the reason the same bath that damps a motion must also jiggle it: what would equilibrium look like if the bath drained energy without ever returning it?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+It would be a one-way street: a system coupled to such a bath would cool forever, and detailed balance would fail. In true equilibrium the coupled system and bath trade energy at exactly equal rates, and the microscopic coupling that lets the bath drain a driven motion is the same coupling through which it kicks the system spontaneously. Einstein's Brownian result is the cleanest instance: drag and diffusion are the same collisions seen from two sides.
+
+</div>
+</details>
+
 ### 13.1 Linear Response Theory
 
 The **fluctuation-dissipation theorem** (FDT) connects the response of a system to a small
@@ -58,6 +71,17 @@ $$
 $$
 
 The fluctuation spectrum is Lorentzian, peaked at $\omega_0$.
+
+**Ponder (attempt Nyquist's argument).** A resistor $R$ is connected to a matched transmission line whose modes sit at temperature $T$. Attempt to derive the noise voltage from equipartition alone: how much energy does each line mode carry, and what voltage source must the resistor imitate to keep the balance?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Each classical mode carries $k_B T$, so two matched resistors at the ends trade a power $k_B T \Delta f$ per bandwidth back and forth. A Thevenin source $V_n$ behind $R$ delivers at most $V_n^2 / 4R$ to a matched load; setting that equal to $k_B T \Delta f$ gives $\langle V^2 \rangle = 4 k_B T R \Delta f$. The noise is the resistor's effort to stay in equilibrium with the radiation field: equipartition wearing a circuit's clothes.
+
+</div>
+</details>
 
 ### 13.3 Johnson--Nyquist Noise
 
@@ -190,6 +214,28 @@ $$
 $$
 
 The total mean-square voltage across the capacitor is $\langle V_C^2 \rangle = k_B T / C$ (equipartition). This is independent of $R$, illustrating that the fluctuation-dissipation relation always yields the correct thermal equilibrium result regardless of the dissipation mechanism.
+
+:::note[Quick check]
+
+1. Write the perturbed Hamiltonian used in linear response and the response integral it produces.
+2. State the quantum response function and its ingredients.
+3. State the classical form of the fluctuation-dissipation theorem.
+4. What spectrum does a damped harmonic oscillator produce, and where does it peak?
+5. State the Johnson-Nyquist noise formula and name its ingredients.
+6. Compute the noise voltage squared for a 10 k$\Omega$ resistor at 300 K over a 1 MHz bandwidth.
+7. Why is Johnson-Nyquist noise fundamental rather than an engineering nuisance?
+8. Reconstruct Nyquist's 1928 equipartition argument from a matched line.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\mathcal{H}(t) = \mathcal{H}_0 - f(t) A$ with $A$ the observable conjugate to the field $f(t)$; the first-order response is $\langle A(t) \rangle - \langle A \rangle_0 = \int_{-\infty}^{t} \chi_{AA}(t - t') f(t')\, dt'$. **2.** $\chi_{AA}(t) = \frac{i}{\hbar} \theta(t) \langle [A(t), A(0)] \rangle_0$: a retarded (causal) commutator of the observable with itself, evaluated in equilibrium. **3.** $S(\omega) = \frac{2 k_B T}{\omega} \chi''(\omega)$: the fluctuation power spectrum equals the absorptive (imaginary) part of the susceptibility times $2 k_B T / \omega$. **4.** A Lorentzian: $\chi''(\omega) = \gamma \omega / [(\omega_0^2 - \omega^2)^2 + \gamma^2 \omega^2]$, peaked at the natural frequency $\omega_0$. **5.** $\langle V^2 \rangle = 4 k_B T R \Delta f$ with $R$ the resistance and $\Delta f$ the measured bandwidth. **6.** $4 \times (1.38 \times 10^{-23}) \times 300 \times 10^4 \times 10^6 \approx 1.66 \times 10^{-10}\ \mathrm{V^2}$, that is about 13 microvolts rms. **7.** It arises from the thermal motion of the charge carriers themselves: no cooling of the circuit removes it short of cooling the resistor, and it sets the noise floor of every amplifier. **8.** Each line mode carries $k_B T$, so matched resistors trade $k_B T \Delta f$ per bandwidth; a Thevenin source delivers $V_n^2/4R$ to a matched load, and equating the two gives $\langle V^2 \rangle = 4 k_B T R \Delta f$.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

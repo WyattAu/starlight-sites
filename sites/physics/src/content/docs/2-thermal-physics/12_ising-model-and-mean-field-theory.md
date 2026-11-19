@@ -17,6 +17,19 @@ description: "The Ising model is the simplest model of interacting spins on a la
 }
 </script>
 
+**History.** Mean field theory is older than the model it describes: Pierre Weiss postulated his molecular field in 1907 to explain ferromagnetism, two decades before the Ising model existed. Ernst Ising's 1925 thesis then killed the one-dimensional case, and the two-dimensional case waited for Lars Onsager, who presented his transfer-matrix solution in 1942 and published the full derivation only in 1944. Chen-Ning Yang completed the spontaneous magnetisation, with its exact exponent $\beta = 1/8$, in 1952. No exact solution exists in three dimensions to this day.
+
+**Ponder (attempt the method).** The one-dimensional partition function sums $2^N$ configurations. Attempt to invent a method that never performs the exponential sum: factorise each nearest-neighbour bond's Boltzmann weight into a 2 by 2 matrix, and write the total sum as a trace. What survives the thermodynamic limit?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Write $T(\sigma, \sigma') = \exp[\beta J \sigma \sigma' + \beta h (\sigma + \sigma')/2]$: the bond weight as a matrix element. The total sum factorises into $Z = \mathrm{Tr}\, \mathbf{T}^N = \lambda_+^N + \lambda_-^N$, and as $N \to \infty$ only the largest eigenvalue remains: the free energy per spin is a logarithm of one number. The exponential count became an algebra problem, and the same move, enlarged to $4 \times 4$ matrices, is Onsager's 1944 solution of the square lattice.
+
+</div>
+</details>
+
 ### 12.1 The Ising Model
 
 The Ising model is the simplest model of interacting spins on a lattice. Each site $i$ has a spin
@@ -52,6 +65,17 @@ $$
 
 **Key result:** The 1D Ising model has **no** phase transition at $T > 0$. The magnetization
 $m = \langle\sigma\rangle \to 0$ as $h \to 0$ for all finite $T$.
+
+**Ponder (attempt the clash).** Mean field gives the magnetisation exponent $\beta = 1/2$ from the $\tanh$ expansion; Onsager's exact square lattice gives $\beta = 1/8$. Attempt to diagnose why the same expansion that works at high temperature fails precisely at the critical point, and why mean field becomes exact above $d = 4$.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The expansion assumes each spin sees the average field; near $T_c$ the fluctuations of the local field grow without bound and the assumption collapses. Fluctuations weaken as coordination grows: each spin's field is an average over $z$ neighbours with relative spread about $1/\sqrt{z}$, and $z$ grows without bound as the dimension rises. Above the upper critical dimension $d = 4$ the fluctuations are harmless and mean field is exact; below it they renormalise the exponents, which is precisely what the renormalisation group computes.
+
+</div>
+</details>
 
 ### 12.2 Mean-Field Approximation
 
@@ -233,6 +257,28 @@ The 1D Ising model has no phase transition at any finite temperature. The transf
 
 **Mistake 3: Assuming critical exponents depend on microscopic details**
 Critical exponents are universal: they depend only on the dimensionality of the system and the symmetry of the order parameter, not on the coupling constant $J$ or lattice structure. This universality means that the 2D Ising model on a square lattice and on a triangular lattice have the same critical exponents despite different microscopic Hamiltonians.
+
+:::note[Quick check]
+
+1. Write the Ising Hamiltonian and explain each symbol's role.
+2. How does the transfer matrix evaluate the 1D partition function, and what is the model's key 1D verdict?
+3. State the Weiss mean-field decoupling of $\sigma_i \sigma_j$.
+4. Write the self-consistency equation for $m$ with and without a field.
+5. Where does the mean-field critical temperature $T_c^{\text{MF}}$ sit, and how does the small-$m$ expansion locate it?
+6. Compare the mean-field and exact critical temperatures for the square lattice.
+7. List the mean-field critical exponents and the exact 2D Ising values.
+8. What is the upper critical dimension, and what does universality claim?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\mathcal{H} = -J \sum_{\langle i,j \rangle} \sigma_i \sigma_j - h \sum_i \sigma_i$ with $\sigma_i \in \{-1, +1\}$; $J > 0$ couples nearest neighbours ferromagnetically and $h$ is the external field. **2.** $Z = \mathrm{Tr}\, \mathbf{T}^N = \lambda_+^N + \lambda_-^N$ with $\mathbf{T}$ the 2 by 2 bond matrix; in the thermodynamic limit $Z = \lambda_+^N$. Verdict: no phase transition at any $T > 0$; $m \to 0$ as $h \to 0$. **3.** $\sigma_i \sigma_j \approx \sigma_i \langle \sigma_j \rangle + \langle \sigma_i \rangle \sigma_j - \langle \sigma_i \rangle \langle \sigma_j \rangle$: each spin interacts with the average, not with individual neighbours. **4.** With field: $m = \tanh[\beta (zJm + h)]$. At $h = 0$: $m = \tanh(\beta zJm)$. **5.** $T_c^{\text{MF}} = zJ/k_B$: expanding $m = \tanh(\beta zJm)$ for small $m$ gives $m \approx \beta zJm - (\beta zJ)^3 m^3/3$, and a nonzero solution appears only when $\beta zJ > 1$. **6.** Mean field: $k_B T_c = zJ = 4J$ for $z = 4$; exact (Onsager): $k_B T_c/J = 2/\ln(1+\sqrt{2}) \approx 2.269$. The overestimate factor is $4/2.269 \approx 1.76$. **7.** Mean field: $\beta = 1/2$, $\gamma = 1$, $\alpha = 0$ (jump), $\nu = 1/2$. Exact 2D: $\beta = 1/8$, $\gamma = 7/4$, $\alpha = 0$ (logarithm), $\nu = 1$. **8.** Mean field is exact for $d > 4$ and wrong below: above $d = 4$, critical fluctuations are too weak to shift the exponents. Universality: the exponents depend only on dimensionality and symmetry, not on microscopic details.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
