@@ -17,6 +17,19 @@ description: 'Quantum Statistics in Detail: comprehensive educational content no
 }
 </script>
 
+**History.** The two quantum distributions arrived within two years of each other. Satyendra Nath Bose sent his photon-counting derivation to Albert Einstein in 1924; Einstein translated it himself, extended it to massive particles, and predicted the condensation now bearing both names. Enrico Fermi and Paul Dirac independently wrote down the fermion distribution in 1926, after Wolfgang Pauli's 1925 exclusion principle. Arnold Sommerfeld applied the Fermi gas to metals in 1928 and resolved a puzzle the classical Drude model had carried since 1900: why conduction electrons, apparently thousands of degrees hot, contribute almost nothing to the heat capacity.
+
+**Ponder (attempt the counting).** The classical Maxwell-Boltzmann counting assumes distinguishable particles and unrestricted state occupation. Attempt to construct the two quantum corrections from the counting alone: what changes when a state holds at most one particle, and what changes when any number is allowed but the particles are indistinguishable?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+One particle per state: the grand-canonical counting yields $\langle n \rangle = 1/(e^{\beta(\epsilon - \mu)} + 1)$, where the $+1$ is the exclusion cap in the denominator. Indistinguishable bosons: the counting yields $\langle n \rangle = 1/(e^{\beta(\epsilon - \mu)} - 1)$, where the $-1$ enhances occupation: bosons bunch. The single sign in the denominator is the whole of statistics; every macroscopic consequence (degeneracy pressure, condensation) flows from it.
+
+</div>
+</details>
+
 ### 15.1 Fermi--Dirac and Bose--Einstein Distributions
 
 For non-interacting quantum particles:
@@ -59,6 +72,17 @@ C_V = Nk_B\frac{\pi^2}{2}\frac{T}{T_F} + \cdots
 $$
 
 The linear specific heat is a hallmark of degenerate Fermi systems.
+
+**Ponder (attempt the contrast).** Both gases live at low temperature, yet the Fermi gas keeps a finite energy floor while the Bose gas collapses into its ground state. Attempt to explain both behaviours from the distributions alone: why can fermions never condense, and why must bosons?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Fermions: Pauli exclusion stacks the particles up the momentum ladder, and even at $T = 0$ the gas carries energy $\tfrac{3}{5} N \epsilon_F$. Degeneracy pressure is pure statistics, no interaction required. Bosons: no ceiling exists, and below $T_c$ the excited states can absorb only a bounded number (the thermal cloud saturates when $n \lambda^3$ reaches order one), so the surplus has nowhere to go but the ground state: a macroscopic fraction, $N_0/N = 1 - (T/T_c)^{3/2}$. Exclusion versus bunching: one cap, one attractor.
+
+</div>
+</details>
 
 ### 15.3 The Bose Gas and Bose--Einstein Condensation
 
@@ -197,6 +221,28 @@ Quantum statistics is the story of two fundamentally different types of matter. 
 | Symmetry of wavefunction | No constraint | Antisymmetric | Symmetric |
 
 </div>
+
+:::note[Quick check]
+
+1. Write the quantum occupation number formula and identify the fermion and boson cases.
+2. State what Pauli exclusion does to occupation, and what bosons are allowed instead.
+3. Give the Fermi energy of a 3D gas in terms of density, and define the Fermi temperature.
+4. State the Sommerfeld expansion's energy and specific heat at $T \ll T_F$.
+5. Why did the linear specific heat resolve the metals puzzle?
+6. Give the BEC critical temperature for a 3D Bose gas.
+7. State the condensate fraction below $T_c$.
+8. Estimate the Fermi energy of copper ($n \approx 8.49 \times 10^{28}\ \mathrm{m^{-3}}$) in joules and electronvolts.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\langle n_i \rangle = 1/(e^{\beta(\epsilon_i - \mu)} \pm 1)$: plus for fermions, minus for bosons. **2.** Fermions: $\langle n_i \rangle \leq 1$ per state, the exclusion cap. Bosons: unrestricted occupation, up to macroscopic condensation into one state. **3.** $\epsilon_F = \frac{\hbar^2}{2m}(3\pi^2 n)^{2/3}$ at $T = 0$, and $T_F = \epsilon_F / k_B$: the temperature scale set by degeneracy. **4.** $E = \tfrac{3}{5} N \epsilon_F [1 + \tfrac{5\pi^2}{12}(T/T_F)^2 + \cdots]$ and $C_V = N k_B \tfrac{\pi^2}{2} (T/T_F)$: linear in $T$, tiny compared with $N k_B$. **5.** Classical Drude theory predicted electrons should supply a full $\tfrac{3}{2} N k_B$; measurements showed almost nothing. The Fermi result gives only $\sim (T/T_F)$ of that, since electrons deep below $\epsilon_F$ have no empty states to absorb energy into. **6.** $T_c = \frac{2\pi\hbar^2}{m k_B}\left(\frac{n}{\zeta(3/2)}\right)^{2/3}$ with $\zeta(3/2) \approx 2.612$: condensation when the de Broglie wave packets overlap. **7.** $N_0/N = 1 - (T/T_c)^{3/2}$: the excited states saturate, and everything beyond their capacity sits in the ground state. **8.** $\epsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 n)^{2/3} \approx 1.13 \times 10^{-18}\ \mathrm{J} \approx 7\ \mathrm{eV}$, so $T_F \sim 8 \times 10^4\ \mathrm{K}$: copper's electrons are deeply degenerate at room temperature.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

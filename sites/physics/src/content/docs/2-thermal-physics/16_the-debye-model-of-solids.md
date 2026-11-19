@@ -17,6 +17,19 @@ description: 'The treats all atoms as independent quantum oscillators with the s
 }
 </script>
 
+**History.** Einstein's 1907 solid was the first application of quantum ideas to matter: quantised oscillators made the specific heat fall at low temperature where classical equipartition demanded the constant $3Nk_B$ of Dulong-Petit. But Walther Nernst's low-temperature measurements around 1910-1911 exposed the model's wrong shape: experiments showed a power law, not an exponential freeze-out. Peter Debye's 1912 fix treated the lattice as a continuum of sound waves with a cutoff chosen to fit exactly $3N$ modes, and the $T^3$ law emerged from the $\omega^2$ density of states. The phonon concept was born in that calculation.
+
+**Ponder (attempt the exponent).** Experiment says $C_V \propto T^3$ at low temperature; Einstein's model gives an exponential. Attempt to find which structural feature of the mode spectrum decides the low-temperature shape: what does a solid do at temperature $T$ when its spectrum has a gap (Einstein) versus a continuum reaching zero (Debye)?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The exponent lives in the low-frequency density of states. With a single gap at $\omega_E$, modes freeze out exponentially: $C \propto e^{-\theta_E/T}$. With a continuum $g(\omega) \propto \omega^2$ reaching zero, only modes with $\hbar\omega \lesssim k_B T$ stay excited: their count scales as the phase-space volume of a ball of radius $k_B T/\hbar$ in $k$-space, $\propto T^3$. The gapless acoustic spectrum is the entire fix: no fine-tuning, just topology of the dispersion at $\omega = 0$.
+
+</div>
+</details>
+
 ### 16.1 From Einstein to Debye
 
 The **Einstein model** treats all atoms as independent quantum oscillators with the same frequency
@@ -117,6 +130,17 @@ frequency (acoustic) modes have vanishing excitation energy.
 
 At high temperatures, both models converge to the Dulong--Petit value $3Nk_B$.
 
+**Ponder (attempt the cutoff).** Debye counts modes with the continuum integral $g(\omega) = 3V\omega^2/2\pi^2 v_s^3$ up to a cutoff $\omega_D$ chosen so the total comes to exactly $3N$. Attempt to derive $\omega_D$ from that condition, and name the physics the cutoff stands in for.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+$\int_0^{\omega_D} g\, d\omega = \frac{V \omega_D^3}{2\pi^2 v_s^3} = 3N$ gives $\omega_D = v_s (6\pi^2 N/V)^{1/3}$, equivalently $k_D = (6\pi^2 n)^{1/3}$: one allowed wavelength per atom, $\lambda_D$ comparable to the lattice spacing. The cutoff replaces the discrete Brillouin zone of the real crystal: beyond $k_D$ the continuum picture double-counts modes that the discrete lattice cannot support, since sound waves shorter than the atomic spacing have no meaning in the crystal.
+
+</div>
+</details>
+
 ### 16.5 Debye Frequency and Wavevector
 
 The Debye wavevector $k_D$ is related to the Debye frequency by $\omega_D = v_s k_D$. The
@@ -203,6 +227,28 @@ The Debye frequency $\omega_D$ is an artificial cutoff imposed to match the tota
 
 **Mistake 3: Forgetting to account for longitudinal and transverse modes separately**
 The average sound speed $v_s$ used in the Debye model must account for both longitudinal and transverse phonon branches. The correct formula is $3/v_s^3 = 1/v_L^3 + 2/v_T^3$, reflecting one longitudinal and two transverse modes per wavevector. Using only the longitudinal speed overestimates $\theta_D$ and gives incorrect specific heat values.
+
+:::note[Quick check]
+
+1. Write the Einstein specific heat and state its correct limit and its low-temperature failure.
+2. State the Debye density of states and the condition that fixes the cutoff $\omega_D$.
+3. Write the Debye specific heat integral in terms of $\theta_D$.
+4. Give the low-temperature Debye law.
+5. Give the high-temperature limit both models share.
+6. In the aluminum worked example, the computed $\theta_D \approx 748$ K against an experimental 428 K: what causes the gap?
+7. State the mean sound speed prescription for one longitudinal and two transverse modes.
+8. Explain physically why Debye captures $T^3$ where Einstein misses it, and what $\theta_D$ correlates with across materials.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $C_V = 3Nk_B (\theta_E/T)^2 e^{\theta_E/T} / (e^{\theta_E/T} - 1)^2$: it recovers Dulong-Petit at high $T$ and falls to zero as $T \to 0$ (already a quantum success), but exponentially rather than as a power law. **2.** $g(\omega) = 3V\omega^2 / 2\pi^2 v_s^3$ for $0 \le \omega \le \omega_D$, with $\int_0^{\omega_D} g\, d\omega = 3N$, giving $\omega_D = v_s (6\pi^2 N/V)^{1/3}$. **3.** $C_V = 9Nk_B (T/\theta_D)^3 \int_0^{\theta_D/T} \frac{x^4 e^x}{(e^x - 1)^2} dx$ with $\theta_D = \hbar\omega_D/k_B$. **4.** $C_V = \frac{12\pi^4}{5} N k_B (T/\theta_D)^3 \propto T^3$: the universal low-temperature law of insulating crystals. **5.** Dulong-Petit: $C_V \to 3Nk_B$ once every mode is thermally excited ($T \gg \theta_D$). **6.** The single-speed approximation: real crystals have one longitudinal and two transverse branches with different dispersions, so the true density of states deviates from the ideal $\omega^2$ form. **7.** $3/v_s^3 = 1/v_L^3 + 2/v_T^3$: the inverse-cube average over one longitudinal and two transverse branches. **8.** Einstein's gapped spectrum freezes out exponentially; Debye's continuum reaching $\omega = 0$ leaves thermally reachable acoustic modes whose phase space grows as $T^3$. $\theta_D$ correlates with stiffness and melting point: stiff bonds and light atoms (diamond) push it up, soft materials (lead) pull it down.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

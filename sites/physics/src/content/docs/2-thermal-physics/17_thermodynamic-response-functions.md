@@ -17,6 +17,8 @@ description: "Response functions measure how thermodynamic quantities change wit
 }
 </script>
 
+**History.** The four Maxwell relations appeared in James Clerk Maxwell's Theory of Heat (1871), read off from the exact differentials of the thermodynamic potentials. Systematic manipulation of any thermodynamic derivative became an industry after Percy Bridgman's 1914 tables reduced every possible derivative to a small set of measurable quantities, a tool generations of cryogenics labs kept at hand. The pedagogical mnemonics (the thermodynamic square, credited to Max Born's school) arrived later, and instructors have argued since over whether mnemonics teach the structure or hide it.
+
 ### 17.1 General Relations
 
 Response functions measure how thermodynamic quantities change with state variables. The most
@@ -38,6 +40,17 @@ $$
 C_P - C_V = TV \cdot \frac{1}{T^2} \cdot P = Nk_B
 $$
 
+**Ponder (attempt the sign).** Attempt to derive the Maxwell relations without the table: start from $dU = TdS - PdV$, apply the equality of mixed second partials that exact differentials obey, and generate the first relation. Why do the signs alternate across the four potentials?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Exactness of $U(S,V)$ says $\partial/\partial V$ of $(\partial U/\partial S) = \partial/\partial S$ of $(\partial U/\partial V)$, that is $(\partial T/\partial V)_S = -(\partial P/\partial S)_V$. Each potential carries its own pair of conjugate variables with its own signs ($dU$: $T, -P$; $dF$: $-S, -P$; $dH$: $T, V$; $dG$: $-S, V$), and each relation inherits the sign of the swapped pair. The alternating signs are bookkeeping for which variables are natural to which potential, not physics to be memorised.
+
+</div>
+</details>
+
 ### 17.2 Maxwell Relations
 
 From the exact differentials of thermodynamic potentials:
@@ -52,6 +65,17 @@ From the exact differentials of thermodynamic potentials:
 | $G(T,P)$  | $dG = -SdT + VdP$ | $\left(\dfrac{\partial S}{\partial P}\right)_T = -\left(\dfrac{\partial V}{\partial T}\right)_P$ |
 
 </div>
+
+**Ponder (attempt the trap).** Attempt to convert $(\partial S/\partial V)_T$ into measurable quantities with Jacobians, and locate the classic sign trap: why does the triple product $(\partial x/\partial y)_z (\partial y/\partial z)_x (\partial z/\partial x)_y$ come to $-1$ rather than $+1$?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Convert to Jacobians: $(\partial S/\partial V)_T = \partial(S,T)/\partial(V,T)$, then chain through whichever variables are measurable ($ P$, $T$): $\partial(S,T)/\partial(V,P) \cdot \partial(V,P)/\partial(V,T)$. Each Jacobian expands into ordinary partials from the measurable set. The trap: each factor in the triple product holds a different variable fixed, so the cycle is not a closed loop of unconstrained derivatives; one factor is an inversion of the others' orientation, and the product carries the sign $-1$. Mechanical Jacobian algebra prevents the error that plain intuition invites.
+
+</div>
+</details>
 
 ### 17.3 Jacobian Formalism
 
@@ -374,6 +398,28 @@ chemical potential is infinitely sharp.
 Thermodynamic response functions measure how a system reacts to small changes in its environment. Heat capacity tells you how much energy is needed to raise the temperature, reflecting how many microscopic degrees of freedom are active. The compressibility measures how much a system shrinks under pressure, revealing the stiffness of interparticle interactions. Magnetic susceptibility shows how strongly a material magnetizes in response to an applied field. These response functions are not independent: Maxwell relations connect them through second derivatives of thermodynamic potentials, encoding the deep consistency of thermodynamics. Fluctuation-response theorems link the magnitude of spontaneous fluctuations to the corresponding response function, connecting equilibrium statistics to nonequilibrium behavior.
 
 </details>
+
+:::note[Quick check]
+
+1. Define the three canonical response functions $C_X$, $\kappa_T$, and $\alpha$.
+2. State the identity linking $C_P$ and $C_V$, and evaluate it for the ideal gas.
+3. Why is $C_P$ never smaller than $C_V$?
+4. Generate the Maxwell relation from the Helmholtz potential $F(T,V)$.
+5. Generate the Maxwell relation from the Gibbs potential $G(T,P)$.
+6. State the Jacobian conversion rule for a constrained partial derivative.
+7. What is the triple-product rule and its sign?
+8. Use the worked example to give $C_P/C_V$ for a monatomic and a diatomic gas at room temperature.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $C_X = T (\partial S/\partial T)_X$; $\kappa_T = -\tfrac{1}{V} (\partial V/\partial P)_T$; $\alpha = \tfrac{1}{V} (\partial V/\partial T)_P$. **2.** $C_P - C_V = TV\alpha^2/\kappa_T$; for the ideal gas ($\alpha = 1/T$, $\kappa_T = 1/P$) this is $TV(1/T^2)P = Nk_B$. **3.** $C_P - C_V = TV\alpha^2/\kappa_T$ is a product of squares and a positive compressibility: $\alpha^2 \ge 0$ and $\kappa_T > 0$, so the gap cannot go negative. Physically, $C_P$ pays for expansion work the $C_V$ process never does. **4.** $dF = -SdT - PdV$ gives $(\partial S/\partial V)_T = (\partial P/\partial T)_V$. **5.** $dG = -SdT + VdP$ gives $(\partial S/\partial P)_T = -(\partial V/\partial T)_P$. **6.** $(\partial x/\partial y)_z = \partial(x,z)/\partial(y,z)$: every constrained derivative is a ratio of two Jacobians sharing the held variable. **7.** $(\partial x/\partial y)_z (\partial y/\partial z)_x (\partial z/\partial x)_y = -1$: the minus sign appears because each factor holds a different variable fixed. **8.** Monatomic: $C_P/C_V = 1 + Nk_B/(3Nk_B/2) = 5/3$. Diatomic: $1 + Nk_B/(5Nk_B/2) = 7/5 = 1.4$.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
