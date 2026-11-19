@@ -90,3 +90,23 @@ that shape) and :::{/* */} JSX comments from an earlier mdx-era
 migration, so check-before-insert and watch for both shapes.
 Batch pattern proven: survey headings, insert history + 2 ponders +
 QC ladder via python with heading anchors, fixers, gates, commit.
+
+## Physics retrofit position (2026-11-19, end of session)
+
+Topic 2 done: files 1, 2, 3, 4, 5, 6, 7_classical (7 of 21) each
+carry history + 2 ponders + QC ladder (batch commits 9cd3af1fc,
+4c1035a50, bce85d0b2). Lint clean.
+
+Next session continues topic 2 in this order: 10_phase-transitions
+history+ponder-2 already added? NO - only 6_ising and 7_classical
+got ponder 2 in the last pass; files 10, 11, 12, 13, 14, 15, 16,
+17, 18, 19, 20 still need history + 2 ponders + QC ladder; 8_common-
+pitfalls and 9_problem-set need QC+history only; 21_monolith
+(3319 lines) needs a survey first.
+
+Batch pattern: python inline script, insert_hist + insert_ponder
+with heading anchors, QC via the qc() helper (see
+.loop/qc-inject-thermal.py for the working template), then fixers
+(interrupts, display-math, prose-damage), lint-asides, handwaves,
+depth, llms regen, commit. One finding pattern to watch: vague
+phrases in new ponder spoilers get caught by lint-handwaves.
