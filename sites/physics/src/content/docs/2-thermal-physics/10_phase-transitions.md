@@ -21,6 +21,8 @@ A **phase transition** is a discontinuity in a thermodynamic quantity or its der
 function of a state variable. Phase transitions are classified by Ehrenfest according to which
 derivative of the Gibbs free energy is discontinuous.
 
+**History.** The Ehrenfest classification (Paul Ehrenfest, 1933) sorted phase transitions by the lowest derivative of the free energy that is discontinuous, and the modern scheme descends from it. The van der Waals equation (Johannes Diderik van der Waals, 1873) gave the first description of critical phenomena, and van der Waals's Nobel Prize (1910) recognised the equation that first described both gas and liquid with one law.
+
 ### 10.1 Classification of Phase Transitions
 
 <div class="table-wrap">
@@ -93,6 +95,17 @@ $$
 $$
 
 Where $\beta = 1/2$ is the **mean-field critical exponent** (van der Waals prediction).
+
+**Ponder (attempt the exponents).** Near the critical point, observables follow power laws: the correlation length xi ~ |T - Tc|^{-nu}, the compressibility diverges, and the critical isotherm P ~ |V - Vc|^delta. Attempt to invent why POWER LAWS appear, from the absence of any characteristic scale at the critical point.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+At the critical point there is no characteristic length or energy scale: the system is scale-free, and scale-free systems have no other choice than power laws (a rescaling by a factor b maps the system to itself, and only power laws are self-similar under rescaling). The exponents are universal because they depend only on symmetries and dimensions, not on microscopic details: that universality is the deepest lesson of critical phenomena.
+
+</div>
+</details>
 
 ### 10.3 Critical Exponents
 

@@ -20,6 +20,8 @@ description: "Landau theory provides a phenomenological framework for continuous
 Landau theory provides a phenomenological framework for continuous (second-order) phase transitions
 by expanding the free energy in powers of an **order parameter** $\phi$.
 
+**History.** Lev Landau's 1937 theory wrote the free energy as an analytic function of an order parameter and expanded in its powers, and the framework immediately explained superfluidity's two-fluid model with Laszlo Tisza. Landau's school produced the scaling ideas that grew into the modern renormalisation group, and the theory's failures (the lambda transition's divergent specific heat) are what pointed to the deeper structure.
+
 ### 11.1 Landau Free Energy
 
 The Landau free energy density (in the absence of external fields) is:
