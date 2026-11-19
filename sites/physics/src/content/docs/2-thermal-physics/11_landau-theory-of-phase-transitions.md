@@ -204,6 +204,28 @@ The specific heat jump at $T_c$: $\Delta C = T_c a_0^2/(2b) = 400 \times 0.25/(4
 
 Landau theory is a mathematical framework for understanding how systems choose between ordered and disordered states. The order parameter tracks the degree of ordering, like magnetization in a magnet. Above the critical temperature, thermal fluctuations destroy order. Below it, the free energy landscape develops two minima, and the system must choose one, breaking symmetry. The theory is powerful because it makes few assumptions about microscopic details, capturing universal features of continuous phase transitions through simple polynomial expansions.
 
+:::note[Quick check]
+
+1. Write Landau's free energy for a ferromagnet and identify the order parameter.
+2. State the zero-field solutions of the theory above and below $T_c$.
+3. What is the temperature dependence of the spontaneous magnetisation, and which exponent does it give?
+4. Compute the susceptibility above $T_c$ and its divergence.
+5. What does Landau theory predict for the specific heat at $T_c$?
+6. Which symmetry is broken at the transition, and what does 'spontaneously' mean here?
+7. Why does Landau theory fail near $T_c$, and which framework repairs it?
+8. Give an everyday example of spontaneous symmetry breaking in a ferromagnet.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $F = F_0 + a(T - T_c) M^2 + b M^4$ (plus $-HM$ with a field): the order parameter is the magnetisation $M$, the macroscopic quantity that is zero in the disordered phase and nonzero below $T_c$. **2.** Above $T_c$ ($a > 0$) the unique minimum is $M = 0$. Below $T_c$ ($a < 0$) $M = 0$ turns into a maximum and two minima appear at $M = \pm \sqrt{a_0 (T_c - T)/b}$. **3.** $M \propto (T_c - T)^{1/2}$: the mean-field exponent $\beta = 1/2$. **4.** Minimising with field gives $2 a (T - T_c) M - H = 0$, so $\chi = 1/(2 a (T - T_c))$: divergence with mean-field exponent $\gamma = 1$. **5.** A finite jump at $T_c$ (a second-order transition in the Ehrenfest sense), because $M^2 \propto T_c - T$ enters the free energy linearly: Landau theory predicts no divergence, while real systems (the lambda transition) diverge. **6.** The flip symmetry $M \to -M$ of the free energy: below $T_c$ the system must settle into one of the two minima, and which one it picks is decided by infinitesimal causes, not by the Hamiltonian, which treats both alike. **7.** It neglects fluctuations, which grow without bound as $T \to T_c$ and invalidate the analytic expansion: the renormalisation group resums them and yields the true exponents. **8.** A bar of iron cooled below its Curie point with no external field magnetises itself: the choice of north pole is spontaneous, an accident of thermal noise frozen in.
+
+</div>
+</details>
+
+:::
+
 ## Cross-References
 
 - **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: Landau theory provides the phenomenological foundation for the critical exponents and scaling relations discussed in the phase transitions chapter.

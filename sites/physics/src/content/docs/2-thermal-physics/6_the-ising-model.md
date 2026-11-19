@@ -214,6 +214,28 @@ This gives the mean field critical exponent $\gamma = 1$. $\blacksquare$
 
 The Ising model is the simplest system showing how local interactions create global order. Each spin copies its neighbors' tendency, and below the critical temperature this copying wins, creating spontaneous magnetization. Mean-field theory averages over neighbors, ignoring fluctuations that become important near the critical point. The 1D model has no phase transition because any domain wall costs only finite energy. In 2D, Onsager's exact solution shows a phase transition exists. Critical exponents are universal because near the critical point, the correlation length diverges, making microscopic details irrelevant.
 
+:::note[Quick check]
+
+1. Write the Ising model's energy for spins $s_i = \pm 1$ with nearest-neighbour coupling $J$ and external field $h$, and say what the sign of $J$ does.
+2. What did Ising's exact solution of the one-dimensional model find in his 1925 thesis?
+3. Why was Peierls's 1936 argument the turning point for the model's reputation?
+4. State the mean-field decoupling of $s_i s_j$ and the self-consistency equation it produces.
+5. Where is the critical point of the mean-field equation, and what happens as it is crossed?
+6. For the 2D square lattice, compare the mean-field critical temperature with Onsager's exact value.
+7. How does the susceptibility behave above $T_c$ in the mean-field treatment?
+8. What is the core failure of mean field theory that the pitfalls section emphasises?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $H = -J \sum_{\langle ij \rangle} s_i s_j - h \sum_i s_i$. Positive $J$ rewards aligned neighbours (ferromagnetic coupling); negative $J$ rewards anti-alignment. **2.** No phase transition at any positive temperature: long-range order never appears in 1D, and Ising concluded the model could not describe ferromagnetism. The conclusion is correct for 1D only. **3.** Peierls showed that at low temperature the energy cost of a domain wall beats its entropy in two dimensions, so long-range order must survive: the 2D model does have a phase transition, reviving a model many had written off after Ising's negative result. **4.** Replace each neighbour's spin by its average: $s_i s_j \approx m s_i + m s_j - m^2$. Each spin then feels an effective field from its $z$ neighbours, and self-consistency demands $m = \tanh(\beta J z\, m)$. **5.** The critical coupling is $\beta J z = 1$, that is $k_B T_c = J z$. Below $T_c$ two nonzero solutions $\pm m$ appear continuously from $m = 0$: a phase transition in the simplest possible equation. **6.** Mean field gives $k_B T_c = J z = 4J$ for the square lattice ($z = 4$); the exact Onsager value is $k_B T_c / J = 2/\ln(1+\sqrt{2}) \approx 2.269$. Mean field overestimates $T_c$ by the factor $4/2.269 \approx 1.76$ because it ignores fluctuations. **7.** It diverges as $T \to T_c$ from above, $\chi \sim 1/(T - T_c)$ in mean field (the Curie-Weiss form): the system responds without bound to an arbitrarily small field near criticality. **8.** It neglects fluctuations, which grow without bound near $T_c$: mean field predicts ordering even in one dimension (where none occurs), overestimates $T_c$, and yields the wrong critical exponents.
+
+</div>
+</details>
+
+:::
+
 ## Cross-References
 
 - **[Statistical Mechanics](/2-thermal-physics/2_statistical-mechanics/)**: The Ising model partition function is computed using the same statistical mechanics framework as the canonical ensemble.

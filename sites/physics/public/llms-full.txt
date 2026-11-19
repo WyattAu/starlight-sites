@@ -6199,6 +6199,28 @@ The equipartition theorem assigns $\frac{1}{2}k_B T$ per quadratic degree of fre
 
 The Maxwell-Boltzmann distribution is what quantum statistics looks like when particles are far apart and quantum effects are negligible. At high temperatures or low densities, the thermal de Broglie wavelength shrinks below the inter-particle spacing, and the distinction between bosons and fermions vanishes. The speed distribution reflects a tug-of-war between energy and entropy: the Boltzmann factor suppresses high energies, while the density of states favours them. The most probable speed is lower than the mean, which is lower than the RMS, because the distribution is asymmetric with a tail toward higher speeds.
 
+:::note[Quick check]
+
+1. When do the Fermi-Dirac and Bose-Einstein distributions reduce to Maxwell-Boltzmann, and in terms of what criterion?
+2. State the Maxwell-Boltzmann speed distribution's shape and its most probable speed.
+3. Write the classical $N$-particle partition function and explain the role of the factor $1/N!$.
+4. State the equipartition theorem's assignment per quadratic degree of freedom, and give the mean energy of a 3D point particle.
+5. How does the Maxwell-Boltzmann distribution follow from maximum entropy?
+6. Derive the shape of the barometric formula from hydrostatic balance.
+7. What is the effusion flux through a small hole, and how does it scale with pressure and temperature?
+8. State the mean free path and the origin of its numerical factor.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** When the thermal occupation is small, equivalently the degeneracy parameter $n \lambda^3 \ll 1$ with $\lambda$ the thermal de Broglie wavelength: wave-packet overlap is rare, the $\pm 1$ in the quantum denominators is negligible, and both distributions collapse to the Maxwell-Boltzmann form. **2.** $f(v) \propto v^2 \exp(-m v^2 / 2 k_B T)$: the Gaussian in momentum times the $v^2$ volume-of-shell factor; the most probable speed is $v_p = \sqrt{2 k_B T / m}$. **3.** $Z_N = z^N / N!$ with $z$ the one-particle partition function. The $1/N!$ counts identical particles as indistinguishable, which makes $Z_N$ and the entropy extensive; without it, mixing two identical gases would double the entropy (the Gibbs paradox). **4.** Each quadratic degree of freedom carries $k_B T / 2$ of mean energy; a free 3D particle has three translational degrees, so $\langle E \rangle = 3 k_B T / 2$. **5.** Maximising the Shannon entropy subject to fixed mean energy yields the exponential Boltzmann weight $\exp(-\beta E)$: the least-biased distribution consistent with a temperature constraint. **6.** Hydrostatic balance $dP/dz = -m g n$ with $P = n k_B T$ gives $n(z) = n_0 \exp(-m g z / k_B T)$: exponential decay with the scale height $k_B T / m g$. **7.** The flux through a hole small compared with the mean free path is $n \langle v \rangle / 4$ with $\langle v \rangle = \sqrt{8 k_B T / \pi m}$, so the rate scales as $P / \sqrt{m T}$: lighter particles escape faster at fixed temperature (Graham's law). **8.** $\lambda = 1 / (\sqrt{2}\, n \sigma)$ with $\sigma$ the collision cross-section; the $\sqrt{2}$ comes from the relative speed of two moving molecules, which exceeds a molecule's own speed by that factor on average.
+
+</div>
+</details>
+
+:::
+
 ## Cross-References
 
 - **[Quantum Statistics in Detail](/2-thermal-physics/15_quantum-statistics-in-detail/)**: The Maxwell-Boltzmann distribution is the high-temperature limit of the Fermi-Dirac and Bose-Einstein distributions derived in this chapter.
@@ -7650,6 +7672,28 @@ The specific heat jump at $T_c$: $\Delta C = T_c a_0^2/(2b) = 400 \times 0.25/(4
 
 Landau theory is a mathematical framework for understanding how systems choose between ordered and disordered states. The order parameter tracks the degree of ordering, like magnetization in a magnet. Above the critical temperature, thermal fluctuations destroy order. Below it, the free energy landscape develops two minima, and the system must choose one, breaking symmetry. The theory is powerful because it makes few assumptions about microscopic details, capturing universal features of continuous phase transitions through simple polynomial expansions.
 
+:::note[Quick check]
+
+1. Write Landau's free energy for a ferromagnet and identify the order parameter.
+2. State the zero-field solutions of the theory above and below $T_c$.
+3. What is the temperature dependence of the spontaneous magnetisation, and which exponent does it give?
+4. Compute the susceptibility above $T_c$ and its divergence.
+5. What does Landau theory predict for the specific heat at $T_c$?
+6. Which symmetry is broken at the transition, and what does 'spontaneously' mean here?
+7. Why does Landau theory fail near $T_c$, and which framework repairs it?
+8. Give an everyday example of spontaneous symmetry breaking in a ferromagnet.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $F = F_0 + a(T - T_c) M^2 + b M^4$ (plus $-HM$ with a field): the order parameter is the magnetisation $M$, the macroscopic quantity that is zero in the disordered phase and nonzero below $T_c$. **2.** Above $T_c$ ($a > 0$) the unique minimum is $M = 0$. Below $T_c$ ($a < 0$) $M = 0$ turns into a maximum and two minima appear at $M = \pm \sqrt{a_0 (T_c - T)/b}$. **3.** $M \propto (T_c - T)^{1/2}$: the mean-field exponent $\beta = 1/2$. **4.** Minimising with field gives $2 a (T - T_c) M - H = 0$, so $\chi = 1/(2 a (T - T_c))$: divergence with mean-field exponent $\gamma = 1$. **5.** A finite jump at $T_c$ (a second-order transition in the Ehrenfest sense), because $M^2 \propto T_c - T$ enters the free energy linearly: Landau theory predicts no divergence, while real systems (the lambda transition) diverge. **6.** The flip symmetry $M \to -M$ of the free energy: below $T_c$ the system must settle into one of the two minima, and which one it picks is decided by infinitesimal causes, not by the Hamiltonian, which treats both alike. **7.** It neglects fluctuations, which grow without bound as $T \to T_c$ and invalidate the analytic expansion: the renormalisation group resums them and yields the true exponents. **8.** A bar of iron cooled below its Curie point with no external field magnetises itself: the choice of north pole is spontaneous, an accident of thermal noise frozen in.
+
+</div>
+</details>
+
+:::
+
 ## Cross-References
 
 - **[Phase Transitions](/2-thermal-physics/10_phase-transitions/)**: Landau theory provides the phenomenological foundation for the critical exponents and scaling relations discussed in the phase transitions chapter.
@@ -8143,6 +8187,28 @@ At $T = 374.15$ K (1 K above boiling), $P \approx 1.013 \times 10^5 + 1.35 \time
 ## Intuition
 
 Phase transitions are sudden rearrangements of matter's structure. First-order transitions like boiling involve latent heat because energy goes into breaking bonds rather than raising temperature. The Clausius-Clapeyron equation links the boiling point's pressure sensitivity to the volume change during vaporization. At the critical point, the distinction between liquid and gas vanishes because thermal fluctuations overcome both attractions and repulsions. Critical exponents describe how physical quantities diverge near this point, and their universality reflects that wildly different systems share the same mathematical structure near criticality.
+
+:::note[Quick check]
+
+1. State the Ehrenfest classification's distinction between first-order and second-order transitions.
+2. Which thermodynamic derivatives are discontinuous in a first-order transition, and what do they correspond to physically?
+3. Give the van der Waals critical constants $V_c$, $T_c$, $P_c$ in terms of the constants $a$ and $b$, and the universal ratio they produce.
+4. Why do power laws appear at the critical point?
+5. What is the universality lesson of critical phenomena?
+6. How do the isotherms change below the critical temperature in the liquid-gas system?
+7. What is critical opalescence, and what does it reveal?
+8. Which quantity diverges with the exponent $\gamma$?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** First order: a first derivative of the free energy (entropy, volume) is discontinuous, with latent heat and coexistence. Second order: first derivatives are continuous but a second derivative (heat capacity, compressibility, susceptibility) jumps or diverges. **2.** The entropy $S = -\partial F/\partial T$ and the volume $V = \partial F/\partial P$: their jumps give the latent heat $T \Delta S$ and the discontinuous density change of melting or boiling. **3.** $V_c = 3b$, $T_c = 8a/(27 R b)$, $P_c = a/(27 b^2)$, giving $P_c V_c / (R T_c) = 3/8$ for every gas described by van der Waals: the first hint of the law of corresponding states. **4.** At the critical point no characteristic length or energy scale survives: the system is scale-free, and only power laws are self-similar under rescaling. The divergence of the correlation length removes every microscopic scale from the problem. **5.** The critical exponents depend only on symmetries and dimension, not on microscopic details: fluids and magnets with nothing shared microscopically share exponents. **6.** Below $T_c$ the isotherms develop a flat coexistence portion: liquid and gas coexist at one pressure, connected by the van der Waals loop, whose unphysical sections are replaced by the Maxwell construction. **7.** Near $T_c$ the fluid scatters light strongly: the correlation length grows to optical wavelengths, so fluctuations exist on all scales and the fluid turns milky. It is the visual signature of diverging correlations. **8.** The compressibility (the magnetic susceptibility in the magnet analogy) diverges as $|T - T_c|^{-\gamma}$: the system's response to a small field blows up.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
@@ -10040,6 +10106,28 @@ This gives the mean field critical exponent $\gamma = 1$. $\blacksquare$
 ## Intuition
 
 The Ising model is the simplest system showing how local interactions create global order. Each spin copies its neighbors' tendency, and below the critical temperature this copying wins, creating spontaneous magnetization. Mean-field theory averages over neighbors, ignoring fluctuations that become important near the critical point. The 1D model has no phase transition because any domain wall costs only finite energy. In 2D, Onsager's exact solution shows a phase transition exists. Critical exponents are universal because near the critical point, the correlation length diverges, making microscopic details irrelevant.
+
+:::note[Quick check]
+
+1. Write the Ising model's energy for spins $s_i = \pm 1$ with nearest-neighbour coupling $J$ and external field $h$, and say what the sign of $J$ does.
+2. What did Ising's exact solution of the one-dimensional model find in his 1925 thesis?
+3. Why was Peierls's 1936 argument the turning point for the model's reputation?
+4. State the mean-field decoupling of $s_i s_j$ and the self-consistency equation it produces.
+5. Where is the critical point of the mean-field equation, and what happens as it is crossed?
+6. For the 2D square lattice, compare the mean-field critical temperature with Onsager's exact value.
+7. How does the susceptibility behave above $T_c$ in the mean-field treatment?
+8. What is the core failure of mean field theory that the pitfalls section emphasises?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $H = -J \sum_{\langle ij \rangle} s_i s_j - h \sum_i s_i$. Positive $J$ rewards aligned neighbours (ferromagnetic coupling); negative $J$ rewards anti-alignment. **2.** No phase transition at any positive temperature: long-range order never appears in 1D, and Ising concluded the model could not describe ferromagnetism. The conclusion is correct for 1D only. **3.** Peierls showed that at low temperature the energy cost of a domain wall beats its entropy in two dimensions, so long-range order must survive: the 2D model does have a phase transition, reviving a model many had written off after Ising's negative result. **4.** Replace each neighbour's spin by its average: $s_i s_j \approx m s_i + m s_j - m^2$. Each spin then feels an effective field from its $z$ neighbours, and self-consistency demands $m = \tanh(\beta J z\, m)$. **5.** The critical coupling is $\beta J z = 1$, that is $k_B T_c = J z$. Below $T_c$ two nonzero solutions $\pm m$ appear continuously from $m = 0$: a phase transition in the simplest possible equation. **6.** Mean field gives $k_B T_c = J z = 4J$ for the square lattice ($z = 4$); the exact Onsager value is $k_B T_c / J = 2/\ln(1+\sqrt{2}) \approx 2.269$. Mean field overestimates $T_c$ by the factor $4/2.269 \approx 1.76$ because it ignores fluctuations. **7.** It diverges as $T \to T_c$ from above, $\chi \sim 1/(T - T_c)$ in mean field (the Curie-Weiss form): the system responds without bound to an arbitrarily small field near criticality. **8.** It neglects fluctuations, which grow without bound near $T_c$: mean field predicts ordering even in one dimension (where none occurs), overestimates $T_c$, and yields the wrong critical exponents.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

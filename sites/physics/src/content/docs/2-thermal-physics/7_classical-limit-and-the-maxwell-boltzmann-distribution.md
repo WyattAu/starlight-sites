@@ -259,6 +259,28 @@ The equipartition theorem assigns $\frac{1}{2}k_B T$ per quadratic degree of fre
 
 The Maxwell-Boltzmann distribution is what quantum statistics looks like when particles are far apart and quantum effects are negligible. At high temperatures or low densities, the thermal de Broglie wavelength shrinks below the inter-particle spacing, and the distinction between bosons and fermions vanishes. The speed distribution reflects a tug-of-war between energy and entropy: the Boltzmann factor suppresses high energies, while the density of states favours them. The most probable speed is lower than the mean, which is lower than the RMS, because the distribution is asymmetric with a tail toward higher speeds.
 
+:::note[Quick check]
+
+1. When do the Fermi-Dirac and Bose-Einstein distributions reduce to Maxwell-Boltzmann, and in terms of what criterion?
+2. State the Maxwell-Boltzmann speed distribution's shape and its most probable speed.
+3. Write the classical $N$-particle partition function and explain the role of the factor $1/N!$.
+4. State the equipartition theorem's assignment per quadratic degree of freedom, and give the mean energy of a 3D point particle.
+5. How does the Maxwell-Boltzmann distribution follow from maximum entropy?
+6. Derive the shape of the barometric formula from hydrostatic balance.
+7. What is the effusion flux through a small hole, and how does it scale with pressure and temperature?
+8. State the mean free path and the origin of its numerical factor.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** When the thermal occupation is small, equivalently the degeneracy parameter $n \lambda^3 \ll 1$ with $\lambda$ the thermal de Broglie wavelength: wave-packet overlap is rare, the $\pm 1$ in the quantum denominators is negligible, and both distributions collapse to the Maxwell-Boltzmann form. **2.** $f(v) \propto v^2 \exp(-m v^2 / 2 k_B T)$: the Gaussian in momentum times the $v^2$ volume-of-shell factor; the most probable speed is $v_p = \sqrt{2 k_B T / m}$. **3.** $Z_N = z^N / N!$ with $z$ the one-particle partition function. The $1/N!$ counts identical particles as indistinguishable, which makes $Z_N$ and the entropy extensive; without it, mixing two identical gases would double the entropy (the Gibbs paradox). **4.** Each quadratic degree of freedom carries $k_B T / 2$ of mean energy; a free 3D particle has three translational degrees, so $\langle E \rangle = 3 k_B T / 2$. **5.** Maximising the Shannon entropy subject to fixed mean energy yields the exponential Boltzmann weight $\exp(-\beta E)$: the least-biased distribution consistent with a temperature constraint. **6.** Hydrostatic balance $dP/dz = -m g n$ with $P = n k_B T$ gives $n(z) = n_0 \exp(-m g z / k_B T)$: exponential decay with the scale height $k_B T / m g$. **7.** The flux through a hole small compared with the mean free path is $n \langle v \rangle / 4$ with $\langle v \rangle = \sqrt{8 k_B T / \pi m}$, so the rate scales as $P / \sqrt{m T}$: lighter particles escape faster at fixed temperature (Graham's law). **8.** $\lambda = 1 / (\sqrt{2}\, n \sigma)$ with $\sigma$ the collision cross-section; the $\sqrt{2}$ comes from the relative speed of two moving molecules, which exceeds a molecule's own speed by that factor on average.
+
+</div>
+</details>
+
+:::
+
 ## Cross-References
 
 - **[Quantum Statistics in Detail](/2-thermal-physics/15_quantum-statistics-in-detail/)**: The Maxwell-Boltzmann distribution is the high-temperature limit of the Fermi-Dirac and Bose-Einstein distributions derived in this chapter.

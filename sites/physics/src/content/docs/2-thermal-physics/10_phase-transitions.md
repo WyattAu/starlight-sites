@@ -223,6 +223,28 @@ At $T = 374.15$ K (1 K above boiling), $P \approx 1.013 \times 10^5 + 1.35 \time
 
 Phase transitions are sudden rearrangements of matter's structure. First-order transitions like boiling involve latent heat because energy goes into breaking bonds rather than raising temperature. The Clausius-Clapeyron equation links the boiling point's pressure sensitivity to the volume change during vaporization. At the critical point, the distinction between liquid and gas vanishes because thermal fluctuations overcome both attractions and repulsions. Critical exponents describe how physical quantities diverge near this point, and their universality reflects that wildly different systems share the same mathematical structure near criticality.
 
+:::note[Quick check]
+
+1. State the Ehrenfest classification's distinction between first-order and second-order transitions.
+2. Which thermodynamic derivatives are discontinuous in a first-order transition, and what do they correspond to physically?
+3. Give the van der Waals critical constants $V_c$, $T_c$, $P_c$ in terms of the constants $a$ and $b$, and the universal ratio they produce.
+4. Why do power laws appear at the critical point?
+5. What is the universality lesson of critical phenomena?
+6. How do the isotherms change below the critical temperature in the liquid-gas system?
+7. What is critical opalescence, and what does it reveal?
+8. Which quantity diverges with the exponent $\gamma$?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** First order: a first derivative of the free energy (entropy, volume) is discontinuous, with latent heat and coexistence. Second order: first derivatives are continuous but a second derivative (heat capacity, compressibility, susceptibility) jumps or diverges. **2.** The entropy $S = -\partial F/\partial T$ and the volume $V = \partial F/\partial P$: their jumps give the latent heat $T \Delta S$ and the discontinuous density change of melting or boiling. **3.** $V_c = 3b$, $T_c = 8a/(27 R b)$, $P_c = a/(27 b^2)$, giving $P_c V_c / (R T_c) = 3/8$ for every gas described by van der Waals: the first hint of the law of corresponding states. **4.** At the critical point no characteristic length or energy scale survives: the system is scale-free, and only power laws are self-similar under rescaling. The divergence of the correlation length removes every microscopic scale from the problem. **5.** The critical exponents depend only on symmetries and dimension, not on microscopic details: fluids and magnets with nothing shared microscopically share exponents. **6.** Below $T_c$ the isotherms develop a flat coexistence portion: liquid and gas coexist at one pressure, connected by the van der Waals loop, whose unphysical sections are replaced by the Maxwell construction. **7.** Near $T_c$ the fluid scatters light strongly: the correlation length grows to optical wavelengths, so fluctuations exist on all scales and the fluid turns milky. It is the visual signature of diverging correlations. **8.** The compressibility (the magnetic susceptibility in the magnet analogy) diverges as $|T - T_c|^{-\gamma}$: the system's response to a small field blows up.
+
+</div>
+</details>
+
+:::
+
 ## Cross-References
 
 - **[The Ising Model](/2-thermal-physics/6_the-ising-model/)**: The Ising model is the simplest model exhibiting a second-order phase transition with well-characterised critical exponents.
