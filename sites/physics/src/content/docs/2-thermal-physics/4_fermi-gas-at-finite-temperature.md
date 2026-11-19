@@ -17,6 +17,19 @@ description: "Study notes for Fermi Gas at Finite Temperature with worked exampl
 }
 </script>
 
+**History.** Arnold Sommerfeld's 1927 expansion applied the year-old Fermi-Dirac distribution to metals and resolved a puzzle that had defeated classical theory: the electron gas seemed to carry no heat capacity at all. Classical statistics predicted electrons should contribute a full 3R/2 per mole of metal, observed was percent-level, and Sommerfeld's expansion explained the discrepancy as the Pauli principle's freeze on all but a thin shell of electrons near the Fermi surface.
+
+**Ponder (attempt the dissection).** Classical equipartition predicts each copper conduction electron carries (3/2) kT of kinetic energy, adding roughly 3R/2 per mole of heat capacity at room temperature. Observation: the electronic contribution is about one hundredth of that. Attempt the dissection using the Fermi distribution's shape: which electrons can absorb thermal energy of order kT, and what fraction of the gas is that?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Only electrons within kT of the Fermi surface have empty states reachable by a thermal kick: the rest are locked below by filled states (the Pauli principle). That shell is a fraction of order kT/E_F of the gas, and E_F for copper is about 7 eV against kT of 0.026 eV at room temperature: the active fraction is about one part in three hundred. Multiplying the classical prediction by that fraction reproduces the observation: the Pauli principle freezes the sea and leaves the surface thermally alive.
+
+</div>
+</details>
+
 ### 4.1 Sommerfeld Expansion
 
 At finite temperature, the Fermi-Dirac distribution "smears out" the step function at
@@ -155,6 +168,28 @@ $\blacksquare$
 - **Thermoelectric effect:** The Sommerfeld expansion explains the Mott formula for thermopower, relating $S \propto T \cdot d(\ln \sigma)/d\varepsilon$ at $\varepsilon_F$.
 - **White dwarf cooling:** Degenerate electron gas thermodynamics determines the heat capacity and cooling rate of white dwarfs, with $T_F \sim 10^8$ K.
 - **Heavy fermion systems:** Materials with strongly renormalised effective masses show an enhanced Sommerfeld coefficient $\gamma = C_V/T$, signalling strong correlations.
+
+:::note[Quick check]
+
+1. State the Sommerfeld expansion's purpose.
+2. Give copper's Fermi energy order and compare with room-temperature kT.
+3. What fraction of the electron gas is thermally active at room temperature?
+4. Write the electronic heat capacity's leading low-T form.
+5. Why does the Pauli principle freeze most of the electron gas?
+6. State the chemical potential's temperature dependence at low T.
+7. Name the physicist whose 1927 expansion resolved the metals' heat-capacity puzzle.
+8. What is the Fermi temperature for copper, roughly?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Correcting the electron gas's heat capacity: expansions in kT / E_F give temperature corrections to Fermi-surface quantities. **2.** About 7 eV against 0.026 eV: three hundred times larger. **3.** The fraction kT / E_F near the Fermi surface: about one part in three hundred. **4.** C_V is approximately gamma T with gamma proportional to n / E_F: linear in temperature. **5.** Filled states below block thermal kicks; only the shell within kT of the surface has empty targets. **6.** mu rises slightly with T, by corrections of order (kT)^2 / E_F: nearly constant at room temperature. **7.** Arnold Sommerfeld, 1927. **8.** E_F / k_B is about 80,000 K for copper: room temperature is deep freeze.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

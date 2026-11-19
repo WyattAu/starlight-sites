@@ -5714,6 +5714,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/5_bose-einstein-condensation/
 }
 </script>
 
+**History.** Satyendra Nath Bose derived Planck's law in 1924 by counting photon states with a new statistics, and sent the paper to Einstein asking for translation; Einstein recognised the method, translated it himself, and extended the counting to massive particles in 1925, predicting the condensation now carrying both names. The condensate was first realised in Eric Cornell and Carl Wieman's 1995 rubidium experiment, seventy years after the prediction, work recognised by the 2001 Nobel Prize.
+
+**Ponder (attempt the overflow).** Attempt to compute how many particles the excited states of a Bose gas can hold at temperature T, using the density of states and the Bose distribution. What happens to the surplus when the total exceeds that number, and what is the condensed fraction at zero temperature?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The excited states' capacity is N_exc = zeta(3/2) V (mkT/2 pi h-bar^2)^{3/2}, falling like T^{3/2}: below a critical temperature T_c the excited states are saturated and every surplus particle must pile into the single-particle ground state, a macroscopic occupation with no classical analogue. At zero temperature the fraction in the ground state is one: the condensate. The 1995 rubidium experiment observed exactly this macroscopic ground-state occupation at temperatures around 170 nanokelvin.
+
+</div>
+</details>
+
 ### 5.1 Ideal Bose Gas
 
 For bosons, the average occupation of a single-particle state of energy $\varepsilon$ is
@@ -5889,6 +5902,28 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 ## Intuition
 
 Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic atoms are cooled below a critical temperature, their thermal de Broglie wavelengths overlap, and a macroscopic fraction collapses into the single lowest-energy quantum state. Unlike a classical gas, where particles are distinguishable and distribute across energies, bosons are indistinguishable and happily occupy the same state. The condensate fraction grows as temperature drops, like snow accumulating on the ground. BEC is a purely statistical phenomenon requiring no interparticle interactions, making it a textbook example of phase transition driven solely by quantum mechanics.
+
+:::note[Quick check]
+
+1. What happens below the Bose-Einstein critical temperature?
+2. Write the critical temperature's scaling with density.
+3. State the condensed fraction at temperature T below T_c.
+4. What happens to the condensate fraction at zero temperature?
+5. Name the 1995 experiment and its atom.
+6. Why do photons not undergo Bose-Einstein condensation at ordinary conditions?
+7. What is the Bose gas's chemical potential below T_c?
+8. Name the prediction's year and the predictor who extended Bose's statistics.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** The ground state acquires a macroscopic occupation: the condensate forms. **2.** T_c scales as the density to the two-thirds, times Planck and mass constants. **3.** 1 - (T / T_c)^{3/2}: a power-law depletion as T rises. **4.** The fraction reaches one: all particles in the ground state. **5.** Eric Cornell and Carl Wieman's rubidium-87 condensate, with Wolfgang Ketterle's sodium work the same year: the 2001 Nobel Prize. **6.** Photon number is not conserved: the chemical potential sticks at zero, and sunlight's thermal distribution has no critical temperature. **7.** Stuck at the ground-state energy: adding particles all enter the condensate without changing mu. **8.** Bose's 1924 counting and Einstein's 1925 extension: the condensation is Einstein's prediction.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
@@ -6357,6 +6392,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/4_fermi-gas-at-finite-tempera
 }
 </script>
 
+**History.** Arnold Sommerfeld's 1927 expansion applied the year-old Fermi-Dirac distribution to metals and resolved a puzzle that had defeated classical theory: the electron gas seemed to carry no heat capacity at all. Classical statistics predicted electrons should contribute a full 3R/2 per mole of metal, observed was percent-level, and Sommerfeld's expansion explained the discrepancy as the Pauli principle's freeze on all but a thin shell of electrons near the Fermi surface.
+
+**Ponder (attempt the dissection).** Classical equipartition predicts each copper conduction electron carries (3/2) kT of kinetic energy, adding roughly 3R/2 per mole of heat capacity at room temperature. Observation: the electronic contribution is about one hundredth of that. Attempt the dissection using the Fermi distribution's shape: which electrons can absorb thermal energy of order kT, and what fraction of the gas is that?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Only electrons within kT of the Fermi surface have empty states reachable by a thermal kick: the rest are locked below by filled states (the Pauli principle). That shell is a fraction of order kT/E_F of the gas, and E_F for copper is about 7 eV against kT of 0.026 eV at room temperature: the active fraction is about one part in three hundred. Multiplying the classical prediction by that fraction reproduces the observation: the Pauli principle freezes the sea and leaves the surface thermally alive.
+
+</div>
+</details>
+
 ### 4.1 Sommerfeld Expansion
 
 At finite temperature, the Fermi-Dirac distribution "smears out" the step function at
@@ -6495,6 +6543,28 @@ $\blacksquare$
 - **Thermoelectric effect:** The Sommerfeld expansion explains the Mott formula for thermopower, relating $S \propto T \cdot d(\ln \sigma)/d\varepsilon$ at $\varepsilon_F$.
 - **White dwarf cooling:** Degenerate electron gas thermodynamics determines the heat capacity and cooling rate of white dwarfs, with $T_F \sim 10^8$ K.
 - **Heavy fermion systems:** Materials with strongly renormalised effective masses show an enhanced Sommerfeld coefficient $\gamma = C_V/T$, signalling strong correlations.
+
+:::note[Quick check]
+
+1. State the Sommerfeld expansion's purpose.
+2. Give copper's Fermi energy order and compare with room-temperature kT.
+3. What fraction of the electron gas is thermally active at room temperature?
+4. Write the electronic heat capacity's leading low-T form.
+5. Why does the Pauli principle freeze most of the electron gas?
+6. State the chemical potential's temperature dependence at low T.
+7. Name the physicist whose 1927 expansion resolved the metals' heat-capacity puzzle.
+8. What is the Fermi temperature for copper, roughly?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Correcting the electron gas's heat capacity: expansions in kT / E_F give temperature corrections to Fermi-surface quantities. **2.** About 7 eV against 0.026 eV: three hundred times larger. **3.** The fraction kT / E_F near the Fermi surface: about one part in three hundred. **4.** C_V is approximately gamma T with gamma proportional to n / E_F: linear in temperature. **5.** Filled states below block thermal kicks; only the shell within kT of the surface has empty targets. **6.** mu rises slightly with T, by corrections of order (kT)^2 / E_F: nearly constant at room temperature. **7.** Arnold Sommerfeld, 1927. **8.** E_F / k_B is about 80,000 K for copper: room temperature is deep freeze.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
@@ -8915,6 +8985,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/2_statistical-mechanics/
 }
 </script>
 
+**History.** Ludwig Boltzmann's 1877 identification S = k log W (the equation carved on his Vienna tombstone) built entropy from counting, against a decade of opposition from Ernst Mach's school and Ostwald's energetics. Josiah Willard Gibbs systematised the ensembles in 1902, and Albert Einstein's 1902-1903 fluctuation papers independently recovered much of the same ground, sharpening the case that atoms are real.
+
+**Ponder (attempt the derivation).** Attempt to derive the Boltzmann distribution with Stage M2's Lagrange-multiplier technique: maximise the entropy of a system split into subsystems sharing a total energy, and identify the exponential's parameter. What does the multiplier turn out to be?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Maximise the log-counting subject to fixed total energy: the Lagrange multiplier of the energy constraint emerges as the temperature's inverse, beta = 1/(kT). The exponential form e^{-beta E} is forced: only an exponential turns additivity of energy into multiplicativity of probabilities, and the multiplier calibrates the scale. The mathematics course's constrained-optimisation machinery (Stage M's Lagrange method, Stage I's probability) is the entire toolkit.
+
+</div>
+</details>
+
 ### 2.1 Microstates and Macrostates
 
 A **microstate** is a complete specification of the state of a system (positions and momenta of all
@@ -9183,6 +9266,28 @@ Statistical mechanics bridges the microscopic world of individual atoms to the m
 }
 </script>
 
+:::note[Quick check]
+
+1. Define microstate versus macrostate.
+2. State the Boltzmann distribution for a subsystem in contact with a heat bath.
+3. Define the partition function and the entropy in terms of it.
+4. State the equipartition theorem, and its per-quadratic-degree energy.
+5. Give the Maxwell-Boltzmann speed distribution's most probable speed.
+6. State the Fermi-Dirac distribution at zero temperature.
+7. State the Bose-Einstein distribution's form.
+8. Name the mathematician-physicists behind the ensembles.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** A microstate is one exact configuration; a macrostate is the set sharing macroscopic values: entropy counts the microstates per macrostate. **2.** P(state) proportional to e^{-E / kT}: the Boltzmann factor. **3.** Z := sum e^{-E / kT}; S = k (ln Z + beta E) at the mean energy. **4.** Each quadratic degree of freedom carries kT / 2 of mean energy. **5.** The Maxwell-Boltzmann peak lands at v_mp = sqrt(2 kT / m). **6.** Step function: all states below the Fermi energy filled, all above empty. **7.** N(E) proportional to 1 / (e^{E / kT} - 1) times the density of states. **8.** Josiah Willard Gibbs systematised the ensembles in 1902; Einstein independently recovered the fluctuation theory in 1902-1903.
+
+</div>
+</details>
+
+:::
+
 ## Cross-References
 
 - **[The Laws of Thermodynamics](/2-thermal-physics/1_the-laws-of-thermodynamics/)**: Statistical mechanics provides the microscopic foundation for the thermodynamic laws through the partition function and entropy.
@@ -9433,6 +9538,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/3_the-grand-canonical-ensembl
 }
 </script>
 
+**History.** The grand canonical ensemble descends from Gibbs's *Elementary Principles of Statistical Mechanics* (1902), completed the year before his death, in which the ensembles were named and systematised. Gibbs's thermodynamic surface and phase-rule work made the chemical potential operational, and his notation survives in every derivation of this section.
+
+**Ponder (attempt the relaxation).** The canonical ensemble fixes particle number N. Attempt to invent the grand canonical relaxation: what Lagrange multiplier relaxes the particle constraint, and what does relaxing it let you compute that the canonical ensemble could not?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The multiplier is the chemical potential mu: maximising entropy subject to fixed average rather than fixed exact N trades the delta-constraint for a mu-weighted counting. Relaxing it computes number fluctuations, the compressibility connection, and every open-system problem (adsorption, semiconductors with variable carriers): the grand ensemble is the natural language of anything that exchanges particles with a reservoir.
+
+</div>
+</details>
+
 ### 3.1 Definition and Motivation
 
 In many physical situations, a system exchanges both energy and particles with a reservoir. The
@@ -9599,6 +9717,28 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 - **Fluctuations scale as $1/\sqrt{N}$:** For macroscopic systems ($ N \sim 10^{23}$), relative particle number fluctuations are negligible ($\sim 10^{-12}$), justifying the use of the canonical ensemble for most practical purposes.
 - **The fugacity $z = e^{\beta\mu}$ parameterises particle number:** The grand partition function is a power series in $z$, where each coefficient encodes the thermodynamics of the $N$-particle sector.
 - **Ideal gas statistics emerge:** The grand canonical treatment of the ideal gas reproduces the canonical results ($\langle E \rangle = \frac{3}{2}Nk_BT$, $PV = Nk_BT$) without the need to compute $N$-particle partition functions.
+
+:::note[Quick check]
+
+1. What does the grand canonical ensemble fix, and what does it let fluctuate?
+2. Write the grand partition function.
+3. State the grand potential's relation to pressure for an ideal gas.
+4. What does the number fluctuation measure, and what does it equal?
+5. Name one physical problem the grand ensemble handles naturally.
+6. How do Fermi-Dirac and Bose-Einstein statistics emerge in the grand formalism?
+7. What is the chemical potential's role in the distribution?
+8. State the adsorption application's reading.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Temperature and chemical potential (via a reservoir); particle number fluctuates. **2.** Xi := sum_N sum_states e^{-beta (E - mu N)}. **3.** Grand potential Omega = -P V: for an ideal gas, P = kT lambda^{-3} z with z the fugacity. **4.** The compressibility: variance of N over N squared equals kT times the isothermal compressibility. **5.** Adsorption: a surface exchanging particles with a gas, counted by the grand ensemble's occupation numbers. **6.** They are the grand ensemble's mean occupation numbers for fermion and boson single-particle states. **7.** States fill until their single-particle energy reaches mu: occupancy is set by E - mu against kT. **8.** The surface's adsorbed fraction is counted by the same distribution the gas obeys: the grand ensemble gives the isotherm.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
@@ -9858,6 +9998,19 @@ URL: https://physics.wyattau.com/2-thermal-physics/1_the-laws-of-thermodynamics/
 }
 </script>
 
+**History.** Sadi Carnot founded the subject in 1824 with *Reflexions sur la puissance motrice du feu*, published before anyone knew heat was energy: he worked with the caloric fluid theory, and his results survived the theory's death. James Prescott Joule's 1845 paddle-wheel experiment measured the mechanical equivalent of heat, killing caloric. Rudolf Clausius named entropy in 1865, choosing the Greek for transformation, and Walther Nernst added the third law in 1906. The zeroth law was named last, in the twentieth century, because the rise of temperature as an operational quantity had been taken for granted.
+
+**Ponder (attempt the forbidden machine).** Attempt to invent a machine that produces work from a single heat bath, cycling forever. Nothing in the first law forbids it. What does the second law forbid about it, and what everyday observation is the evidence?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The first law (energy conservation) permits a boat extracting heat from the ocean and converting it all to propulsion: energy is conserved. The second law forbids it: converting heat entirely to work in a cycle requires decreasing the total entropy, and no process does that. The everyday evidence is that no one has ever built the machine despite a century of attempts, and every engine rejects waste heat to a colder reservoir: Carnot's efficiency bound, derived next section, is the quantitative form.
+
+</div>
+</details>
+
 ### 1.1 Zeroth Law and Temperature
 
 **Zeroth Law:** If system $A$ is in thermal equilibrium with system $B$ And $B$ is in thermal
@@ -9976,6 +10129,17 @@ _Proof._ For constant $T, V$: $dF = dU - TdS = \delta Q - PdV - TdS$. At equilib
 $dS \geq \delta Q/T$ (Clausius inequality), so $dF \leq 0$. Hence $F$ decreases and is minimised at
 equilibrium. The argument for $G$ is analogous. $\blacksquare$
 
+**Ponder (attempt the derivation).** The four Maxwell relations all fall out of one mathematical fact: mixed partial derivatives commute when the underlying function is smooth. Attempt the derivation for the first relation from the Helmholtz free energy F = U - TS: take dF, read off the conjugate pairs, and produce the relation between S's volume-derivative and P's temperature-derivative.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+dF = -S dT - P dV (from dU = T dS - P dV and F = U - TS). Since F is a state function, partial-partial derivatives commute: partial(-S)/partial V at fixed T equals partial(-P)/partial T at fixed V, giving (partial S / partial V)_T = (partial P / partial T)_V. The other three relations come from the same commutativity applied to the Gibbs free energy, enthalpy, and their cousins: one mathematical fact, four measurable predictions.
+
+</div>
+</details>
+
 ### 1.6 Maxwell Relations
 
 From the exactness of $dU = TdS - PdV$ (and similarly for $dH$, $dF$, $dG$), the equality of mixed
@@ -10034,6 +10198,28 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "1_the Laws Of Thermodynamics", "url": "https://physics.wyattau.com/2-thermal-physics/1_the-laws-of-thermodynamics"}]
 }
 </script>
+
+:::note[Quick check]
+
+1. State the zeroth law, and what it makes measurable.
+2. Write the first law for dU, naming the sign conventions.
+3. State the second law in the entropy form for an isolated system.
+4. State the third law, and one consequence for heat capacities.
+5. Write the Helmholtz free energy and its differential.
+6. Derive one Maxwell relation from F = U - TS.
+7. Name the scientist who founded the subject before heat was known to be energy.
+8. State Carnot's efficiency bound for an engine between hot and cold reservoirs.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Two systems in thermal equilibrium with a third are in equilibrium with each other: temperature exists. **2.** dU = T dS - P dV: heat added minus work done. **3.** dS >= 0 for an isolated system: entropy never decreases. **4.** S approaches a constant as T approaches zero; heat capacities vanish there. **5.** F := U - TS; dF = -S dT - P dV. **6.** Commuting mixed partials of F give (partial S / partial V)_T = (partial P / partial T)_V. **7.** Sadi Carnot, 1824: the Reflexions founded thermodynamics before heat was known to be energy. **8.** eta = 1 - T_c / T_h: no engine between those reservoirs does better.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

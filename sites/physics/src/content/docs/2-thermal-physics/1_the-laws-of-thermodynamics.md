@@ -17,6 +17,19 @@ description: "If system is in thermal equilibrium with system And is in thermal 
 }
 </script>
 
+**History.** Sadi Carnot founded the subject in 1824 with *Reflexions sur la puissance motrice du feu*, published before anyone knew heat was energy: he worked with the caloric fluid theory, and his results survived the theory's death. James Prescott Joule's 1845 paddle-wheel experiment measured the mechanical equivalent of heat, killing caloric. Rudolf Clausius named entropy in 1865, choosing the Greek for transformation, and Walther Nernst added the third law in 1906. The zeroth law was named last, in the twentieth century, because the rise of temperature as an operational quantity had been taken for granted.
+
+**Ponder (attempt the forbidden machine).** Attempt to invent a machine that produces work from a single heat bath, cycling forever. Nothing in the first law forbids it. What does the second law forbid about it, and what everyday observation is the evidence?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The first law (energy conservation) permits a boat extracting heat from the ocean and converting it all to propulsion: energy is conserved. The second law forbids it: converting heat entirely to work in a cycle requires decreasing the total entropy, and no process does that. The everyday evidence is that no one has ever built the machine despite a century of attempts, and every engine rejects waste heat to a colder reservoir: Carnot's efficiency bound, derived next section, is the quantitative form.
+
+</div>
+</details>
+
 ### 1.1 Zeroth Law and Temperature
 
 **Zeroth Law:** If system $A$ is in thermal equilibrium with system $B$ And $B$ is in thermal
@@ -135,6 +148,17 @@ _Proof._ For constant $T, V$: $dF = dU - TdS = \delta Q - PdV - TdS$. At equilib
 $dS \geq \delta Q/T$ (Clausius inequality), so $dF \leq 0$. Hence $F$ decreases and is minimised at
 equilibrium. The argument for $G$ is analogous. $\blacksquare$
 
+**Ponder (attempt the derivation).** The four Maxwell relations all fall out of one mathematical fact: mixed partial derivatives commute when the underlying function is smooth. Attempt the derivation for the first relation from the Helmholtz free energy F = U - TS: take dF, read off the conjugate pairs, and produce the relation between S's volume-derivative and P's temperature-derivative.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+dF = -S dT - P dV (from dU = T dS - P dV and F = U - TS). Since F is a state function, partial-partial derivatives commute: partial(-S)/partial V at fixed T equals partial(-P)/partial T at fixed V, giving (partial S / partial V)_T = (partial P / partial T)_V. The other three relations come from the same commutativity applied to the Gibbs free energy, enthalpy, and their cousins: one mathematical fact, four measurable predictions.
+
+</div>
+</details>
+
 ### 1.6 Maxwell Relations
 
 From the exactness of $dU = TdS - PdV$ (and similarly for $dH$, $dF$, $dG$), the equality of mixed
@@ -193,6 +217,28 @@ The second law is the deepest and most subtle. It says that heat flows spontaneo
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "1_the Laws Of Thermodynamics", "url": "https://physics.wyattau.com/2-thermal-physics/1_the-laws-of-thermodynamics"}]
 }
 </script>
+
+:::note[Quick check]
+
+1. State the zeroth law, and what it makes measurable.
+2. Write the first law for dU, naming the sign conventions.
+3. State the second law in the entropy form for an isolated system.
+4. State the third law, and one consequence for heat capacities.
+5. Write the Helmholtz free energy and its differential.
+6. Derive one Maxwell relation from F = U - TS.
+7. Name the scientist who founded the subject before heat was known to be energy.
+8. State Carnot's efficiency bound for an engine between hot and cold reservoirs.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Two systems in thermal equilibrium with a third are in equilibrium with each other: temperature exists. **2.** dU = T dS - P dV: heat added minus work done. **3.** dS >= 0 for an isolated system: entropy never decreases. **4.** S approaches a constant as T approaches zero; heat capacities vanish there. **5.** F := U - TS; dF = -S dT - P dV. **6.** Commuting mixed partials of F give (partial S / partial V)_T = (partial P / partial T)_V. **7.** Sadi Carnot, 1824: the Reflexions founded thermodynamics before heat was known to be energy. **8.** eta = 1 - T_c / T_h: no engine between those reservoirs does better.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

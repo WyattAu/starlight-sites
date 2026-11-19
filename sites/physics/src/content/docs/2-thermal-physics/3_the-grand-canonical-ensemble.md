@@ -17,6 +17,19 @@ description: "In many physical situations, a system exchanges both energy and pa
 }
 </script>
 
+**History.** The grand canonical ensemble descends from Gibbs's *Elementary Principles of Statistical Mechanics* (1902), completed the year before his death, in which the ensembles were named and systematised. Gibbs's thermodynamic surface and phase-rule work made the chemical potential operational, and his notation survives in every derivation of this section.
+
+**Ponder (attempt the relaxation).** The canonical ensemble fixes particle number N. Attempt to invent the grand canonical relaxation: what Lagrange multiplier relaxes the particle constraint, and what does relaxing it let you compute that the canonical ensemble could not?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The multiplier is the chemical potential mu: maximising entropy subject to fixed average rather than fixed exact N trades the delta-constraint for a mu-weighted counting. Relaxing it computes number fluctuations, the compressibility connection, and every open-system problem (adsorption, semiconductors with variable carriers): the grand ensemble is the natural language of anything that exchanges particles with a reservoir.
+
+</div>
+</details>
+
 ### 3.1 Definition and Motivation
 
 In many physical situations, a system exchanges both energy and particles with a reservoir. The
@@ -183,6 +196,28 @@ where $+$ is for fermions (Fermi-Dirac) and $-$ is for bosons (Bose-Einstein). T
 - **Fluctuations scale as $1/\sqrt{N}$:** For macroscopic systems ($ N \sim 10^{23}$), relative particle number fluctuations are negligible ($\sim 10^{-12}$), justifying the use of the canonical ensemble for most practical purposes.
 - **The fugacity $z = e^{\beta\mu}$ parameterises particle number:** The grand partition function is a power series in $z$, where each coefficient encodes the thermodynamics of the $N$-particle sector.
 - **Ideal gas statistics emerge:** The grand canonical treatment of the ideal gas reproduces the canonical results ($\langle E \rangle = \frac{3}{2}Nk_BT$, $PV = Nk_BT$) without the need to compute $N$-particle partition functions.
+
+:::note[Quick check]
+
+1. What does the grand canonical ensemble fix, and what does it let fluctuate?
+2. Write the grand partition function.
+3. State the grand potential's relation to pressure for an ideal gas.
+4. What does the number fluctuation measure, and what does it equal?
+5. Name one physical problem the grand ensemble handles naturally.
+6. How do Fermi-Dirac and Bose-Einstein statistics emerge in the grand formalism?
+7. What is the chemical potential's role in the distribution?
+8. State the adsorption application's reading.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Temperature and chemical potential (via a reservoir); particle number fluctuates. **2.** Xi := sum_N sum_states e^{-beta (E - mu N)}. **3.** Grand potential Omega = -P V: for an ideal gas, P = kT lambda^{-3} z with z the fugacity. **4.** The compressibility: variance of N over N squared equals kT times the isothermal compressibility. **5.** Adsorption: a surface exchanging particles with a gas, counted by the grand ensemble's occupation numbers. **6.** They are the grand ensemble's mean occupation numbers for fermion and boson single-particle states. **7.** States fill until their single-particle energy reaches mu: occupancy is set by E - mu against kT. **8.** The surface's adsorbed fraction is counted by the same distribution the gas obeys: the grand ensemble gives the isotherm.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

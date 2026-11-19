@@ -17,6 +17,19 @@ description: "A is a complete specification of the state of a system (positions 
 }
 </script>
 
+**History.** Ludwig Boltzmann's 1877 identification S = k log W (the equation carved on his Vienna tombstone) built entropy from counting, against a decade of opposition from Ernst Mach's school and Ostwald's energetics. Josiah Willard Gibbs systematised the ensembles in 1902, and Albert Einstein's 1902-1903 fluctuation papers independently recovered much of the same ground, sharpening the case that atoms are real.
+
+**Ponder (attempt the derivation).** Attempt to derive the Boltzmann distribution with Stage M2's Lagrange-multiplier technique: maximise the entropy of a system split into subsystems sharing a total energy, and identify the exponential's parameter. What does the multiplier turn out to be?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Maximise the log-counting subject to fixed total energy: the Lagrange multiplier of the energy constraint emerges as the temperature's inverse, beta = 1/(kT). The exponential form e^{-beta E} is forced: only an exponential turns additivity of energy into multiplicativity of probabilities, and the multiplier calibrates the scale. The mathematics course's constrained-optimisation machinery (Stage M's Lagrange method, Stage I's probability) is the entire toolkit.
+
+</div>
+</details>
+
 ### 2.1 Microstates and Macrostates
 
 A **microstate** is a complete specification of the state of a system (positions and momenta of all
@@ -284,6 +297,28 @@ Statistical mechanics bridges the microscopic world of individual atoms to the m
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "2 Thermal Physics", "url": "https://physics.wyattau.com/2-thermal-physics"}, {"name": "2_statistical Mechanics", "url": "https://physics.wyattau.com/2-thermal-physics/2_statistical-mechanics"}]
 }
 </script>
+
+:::note[Quick check]
+
+1. Define microstate versus macrostate.
+2. State the Boltzmann distribution for a subsystem in contact with a heat bath.
+3. Define the partition function and the entropy in terms of it.
+4. State the equipartition theorem, and its per-quadratic-degree energy.
+5. Give the Maxwell-Boltzmann speed distribution's most probable speed.
+6. State the Fermi-Dirac distribution at zero temperature.
+7. State the Bose-Einstein distribution's form.
+8. Name the mathematician-physicists behind the ensembles.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** A microstate is one exact configuration; a macrostate is the set sharing macroscopic values: entropy counts the microstates per macrostate. **2.** P(state) proportional to e^{-E / kT}: the Boltzmann factor. **3.** Z := sum e^{-E / kT}; S = k (ln Z + beta E) at the mean energy. **4.** Each quadratic degree of freedom carries kT / 2 of mean energy. **5.** The Maxwell-Boltzmann peak lands at v_mp = sqrt(2 kT / m). **6.** Step function: all states below the Fermi energy filled, all above empty. **7.** N(E) proportional to 1 / (e^{E / kT} - 1) times the density of states. **8.** Josiah Willard Gibbs systematised the ensembles in 1902; Einstein independently recovered the fluctuation theory in 1902-1903.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

@@ -17,6 +17,19 @@ description: 'For bosons, the average occupation of a single-particle state of e
 }
 </script>
 
+**History.** Satyendra Nath Bose derived Planck's law in 1924 by counting photon states with a new statistics, and sent the paper to Einstein asking for translation; Einstein recognised the method, translated it himself, and extended the counting to massive particles in 1925, predicting the condensation now carrying both names. The condensate was first realised in Eric Cornell and Carl Wieman's 1995 rubidium experiment, seventy years after the prediction, work recognised by the 2001 Nobel Prize.
+
+**Ponder (attempt the overflow).** Attempt to compute how many particles the excited states of a Bose gas can hold at temperature T, using the density of states and the Bose distribution. What happens to the surplus when the total exceeds that number, and what is the condensed fraction at zero temperature?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The excited states' capacity is N_exc = zeta(3/2) V (mkT/2 pi h-bar^2)^{3/2}, falling like T^{3/2}: below a critical temperature T_c the excited states are saturated and every surplus particle must pile into the single-particle ground state, a macroscopic occupation with no classical analogue. At zero temperature the fraction in the ground state is one: the condensate. The 1995 rubidium experiment observed exactly this macroscopic ground-state occupation at temperatures around 170 nanokelvin.
+
+</div>
+</details>
+
 ### 5.1 Ideal Bose Gas
 
 For bosons, the average occupation of a single-particle state of energy $\varepsilon$ is
@@ -192,6 +205,28 @@ who achieved BEC at temperatures of a few hundred nanokelvin. $\blacksquare$
 ## Intuition
 
 Bose-Einstein condensation is the ultimate quantum overcrowding. When bosonic atoms are cooled below a critical temperature, their thermal de Broglie wavelengths overlap, and a macroscopic fraction collapses into the single lowest-energy quantum state. Unlike a classical gas, where particles are distinguishable and distribute across energies, bosons are indistinguishable and happily occupy the same state. The condensate fraction grows as temperature drops, like snow accumulating on the ground. BEC is a purely statistical phenomenon requiring no interparticle interactions, making it a textbook example of phase transition driven solely by quantum mechanics.
+
+:::note[Quick check]
+
+1. What happens below the Bose-Einstein critical temperature?
+2. Write the critical temperature's scaling with density.
+3. State the condensed fraction at temperature T below T_c.
+4. What happens to the condensate fraction at zero temperature?
+5. Name the 1995 experiment and its atom.
+6. Why do photons not undergo Bose-Einstein condensation at ordinary conditions?
+7. What is the Bose gas's chemical potential below T_c?
+8. Name the prediction's year and the predictor who extended Bose's statistics.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** The ground state acquires a macroscopic occupation: the condensate forms. **2.** T_c scales as the density to the two-thirds, times Planck and mass constants. **3.** 1 - (T / T_c)^{3/2}: a power-law depletion as T rises. **4.** The fraction reaches one: all particles in the ground state. **5.** Eric Cornell and Carl Wieman's rubidium-87 condensate, with Wolfgang Ketterle's sodium work the same year: the 2001 Nobel Prize. **6.** Photon number is not conserved: the chemical potential sticks at zero, and sunlight's thermal distribution has no critical temperature. **7.** Stuck at the ground-state energy: adding particles all enter the condensate without changing mu. **8.** Bose's 1924 counting and Einstein's 1925 extension: the condensation is Einstein's prediction.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
