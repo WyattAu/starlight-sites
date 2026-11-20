@@ -201,3 +201,27 @@ exemplar) and 3_lagrangian-mechanics pass the trap check.
 Queue order: (1) topics 3-7 born-4c during their retrofits;
 (2) legacy physics ladders, worst-score first; (3) math core-course
 ladders; (4) problem-set rewrites + hint layers.
+
+## Topic 3 batch 1 shipped born-4c (2026-11-20, same session)
+
+1_maxwell-s-equations, 2_electrostatics, 3_magnetostatics: history
++ 2 ponders + v1.1.0 ladders (tags, traps, slope, argument
+answers). Commit 913260b60 (rebased over parallel session's
+2cf728f16).
+
+NEW FORMATS LEARNED:
+- .mdx pages: QC aside must NOT use the wn-spoiler-body div
+  (lint-asides flags div/span/strong inside ::: asides in .mdx).
+  Content goes directly under <summary>. The body div is only a
+  fade-in animation hook; safe to drop.
+- Topic 3 files carried the 9_problem-set brace-damage class:
+  Q_{enc}{eps_0}, I_{enc}+ (missing }), stray trailing } on the
+  same lines (compensating pairs). Fix pattern: targeted replace
+  + balance<0 trailing-stray stripper. Expect it in later topic 3
+  files; the repair pass is inside .loop/retrofit-t3-b1.py.
+
+Next: topic 3 batch 2 = 4_electrodynamics, 5_electromagnetic-
+waves, 6_potentials-and-gauge-transformations (survey first;
+4_electrodynamics may be .mdx). Then 7/9/10-13; 8_problem-set is
+a meta page (exempt, gets the 4c problem-set rewrite pass later);
+14/15 are fixtures-driven (exempt).
