@@ -488,42 +488,18 @@ by locating one sentence in the section, the question's own phrasing
 often named the answer, and no item required a derivation. They are
 legacy, and their retrofit is queued.
 
-The rules:
-
-1. **Deliverable verbs.** Every problem demands a product: prove, show,
-   derive, compute, find all, decide, bound, classify, construct.
-   "State / Name / What is" appears in at most two of the eight slots
-   (warm-up), and never when the question sentence contains the head of
-   the answer.
-2. **A concrete object in every statement.** An instance with numbers, a
-   named system, or a parameterised family to classify. No bare "the
-   susceptibility" without a system to compute it for.
-3. **Depth of at least two steps.** The solution chains at least two
-   nontrivial moves. If one sentence of the section settles the item, it
-   is not a problem.
-4. **The trap.** At least one item baits a misconception (the page's
-   common pitfall or the literature's classic one), and its answer names
-   exactly where the tempting move fails.
-5. **Self-contained statement, transformed answer.** All data and
-   notation live in the statement; earlier ladder items may be cited by
-   number; no answer may echo a verbatim sentence of the section: the
-   solver must transform, not locate.
-6. **Ladder, not list.** Items are ordered by technique with a difficulty
-   slope; later items may build on earlier ones; the final item pays off
-   the discovery ladder by proving or computing the section's headline
-   result in the guided case.
-7. **Answers are arguments.** One to four sentences: setup, key move,
-   result. A bare number, or a number without its route, is rejected.
-8. **Verification hook.** Where the result has a checkable edge (limit,
-   equality case, dimension check, known exact value), the answer
-   includes it.
-
-Default template for an eight-slot ladder: warm-up application on a
-concrete instance; a computation with data; a two-step derivation; a
-parameter or classification question; the trap; a guided proof of the
-headline claim; a boundary or limiting case; a synthesis item that
-either checks a cross-section relation or points at the next section's
-question. Slots may merge, but every rule above holds.
+The normative rules live in
+[docs/standards/questions/standard.md](standards/questions/standard.md)
+(single source of truth, versioned), with the pattern library in
+[standards/questions/patterns.md](standards/questions/patterns.md) and
+the review pass in
+[standards/questions/review-checklist.md](standards/questions/review-checklist.md).
+Summary: every question is a task with a deliverable verb; it operates
+on a concrete object; solving it chains at least two moves; one item
+baits the page's pitfall; statements are self-contained and answers
+transform rather than echo; items slope by technique toward the
+section's headline result; answers are arguments that lead with the
+key idea and carry a verification hook.
 
 Scope: quick-check ladders, problem-set pages, and worked-example
 problem blocks. The spoiler conventions are 3.3's, unchanged.
