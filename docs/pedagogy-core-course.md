@@ -478,6 +478,61 @@ Retroactive ledger: the nine pre-standard pages (1A-3D) carry
 neither ponders nor the QC ladder nor history; their retrofit is
 queued as the polish pass's largest item.
 
+## 4c. The problem standard: deliverables, not cues
+
+The quick-check ladders and problem sets are held to the problem-book
+standard (Kaczor-Nowak, Polya-Szego, Irodov): every item is a task with
+a definite deliverable, not a retrieval cue. The pre-standard ladders
+(authored through 2026-11-19) fail this: most questions were answerable
+by locating one sentence in the section, the question's own phrasing
+often named the answer, and no item required a derivation. They are
+legacy, and their retrofit is queued.
+
+The rules:
+
+1. **Deliverable verbs.** Every problem demands a product: prove, show,
+   derive, compute, find all, decide, bound, classify, construct.
+   "State / Name / What is" appears in at most two of the eight slots
+   (warm-up), and never when the question sentence contains the head of
+   the answer.
+2. **A concrete object in every statement.** An instance with numbers, a
+   named system, or a parameterised family to classify. No bare "the
+   susceptibility" without a system to compute it for.
+3. **Depth of at least two steps.** The solution chains at least two
+   nontrivial moves. If one sentence of the section settles the item, it
+   is not a problem.
+4. **The trap.** At least one item baits a misconception (the page's
+   common pitfall or the literature's classic one), and its answer names
+   exactly where the tempting move fails.
+5. **Self-contained statement, transformed answer.** All data and
+   notation live in the statement; earlier ladder items may be cited by
+   number; no answer may echo a verbatim sentence of the section: the
+   solver must transform, not locate.
+6. **Ladder, not list.** Items are ordered by technique with a difficulty
+   slope; later items may build on earlier ones; the final item pays off
+   the discovery ladder by proving or computing the section's headline
+   result in the guided case.
+7. **Answers are arguments.** One to four sentences: setup, key move,
+   result. A bare number, or a number without its route, is rejected.
+8. **Verification hook.** Where the result has a checkable edge (limit,
+   equality case, dimension check, known exact value), the answer
+   includes it.
+
+Default template for an eight-slot ladder: warm-up application on a
+concrete instance; a computation with data; a two-step derivation; a
+parameter or classification question; the trap; a guided proof of the
+headline claim; a boundary or limiting case; a synthesis item that
+either checks a cross-section relation or points at the next section's
+question. Slots may merge, but every rule above holds.
+
+Scope: quick-check ladders, problem-set pages, and worked-example
+problem blocks. The spoiler conventions are 3.3's, unchanged.
+
+Retrofit queue: every ladder authored before 2026-11-20, both courses
+(the 89 mathematics chapters; physics topics 1-2), plus the physics
+problem-set pages, whose solutions currently assert results instead of
+deriving them and whose worked solutions carry broken math delimiters.
+
 ## 5. The rigor invariants
 
 These hold for every chapter at all times. A chapter failing any of them does

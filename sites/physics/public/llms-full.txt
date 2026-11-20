@@ -8512,9 +8512,9 @@ $n \approx 2.65 \times 10^{28}\,\mathrm{m}^{-3}$, $m_e = 9.109 \times 10^{-31}$ 
 <details>
 <summary>Solution</summary>
 
-\varepsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 n)^{2/3}
+$\varepsilon_F = \frac{\hbar^2}{2m_e}(3\pi^2 n)^{2/3}$
 
-= \frac{(1.055 \times 10^{-34})^2}{2 \times 9.109 \times 10^{-31}}(3\pi^2 \times 2.65 \times 10^{28})^{2/3}
+$= \frac{(1.055 \times 10^{-34})^2}{2 \times 9.109 \times 10^{-31}}(3\pi^2 \times 2.65 \times 10^{28})^{2/3}$
 
 $(3\pi^2 \times 2.65 \times 10^{28})^{1/3} = (7.85 \times 10^{29})^{1/3} \approx 9.23 \times 10^9$
 
@@ -8540,11 +8540,11 @@ Below $T_c$: $C_V = \frac{15}{4}Nk_B\,\zeta(5/2)/\zeta(3/2) \cdot (T/T_c)^{3/2}$
 
 At $T = T_c^-$:
 
-C_V(T_c^-) = \frac{15}{4}Nk_B \cdot \frac{\zeta(5/2)}{\zeta(3/2)}
+$C_V(T_c^-) = \frac{15}{4}Nk_B \cdot \frac{\zeta(5/2)}{\zeta(3/2)}$
 
 $\zeta(5/2) \approx 1.341$, $\zeta(3/2) \approx 2.612$:
 
-C_V(T_c^-) = \frac{15}{4} \times \frac{1.341}{2.612}\,Nk_B \approx 1.926\,Nk_B
+$C_V(T_c^-) = \frac{15}{4} \times \frac{1.341}{2.612}\,Nk_B \approx 1.926\,Nk_B$
 
 At $T = T_c^+$: $C_V = \frac{3}{2}Nk_B = 1.5\,Nk_B$.
 
@@ -8566,13 +8566,13 @@ $PV/(Nk_BT) = 1 + B_2(T)\,(N/V) + B_3(T)\,(N/V)^2 + \cdots$.
 
 For a classical gas with pairwise interaction $V(r_{12})$:
 
-B_2(T) = -\frac{1}{2V}\int d^3\mathbf{r}_1\,d^3\mathbf{r}_2\,\left[e^{-\beta V(r_{12})} - 1\right]
+$B_2(T) = -\frac{1}{2V}\int d^3\mathbf{r}_1\,d^3\mathbf{r}_2\,\left[e^{-\beta V(r_{12})} - 1\right]$
 
 = -2\pi \int_0^\infty \left[e^{-\beta V(r)} - 1\right] r^2\, dr
 
 For a hard-sphere gas ($V(r) = \infty$ for $r < d$, $V(r) = 0$ for $r > d$):
 
-B_2 = -2\pi\int_0^d (-1)\,r^2\,dr = \frac{2\pi d^3}{3} = \frac{2\pi}{3}\left(\frac{d}{2}\right)^3 \cdot 8 = 4v_0
+$B_2 = -2\pi\int_0^d (-1)\,r^2\,dr = \frac{2\pi d^3}{3} = \frac{2\pi}{3}\left(\frac{d}{2}\right)^3 \cdot 8 = 4v_0$
 
 Where $v_0 = \pi d^3/6$ is the volume of one sphere. The van der Waals excluded volume parameter is
 $b = 4Nv_0 = N B_2$.
@@ -8589,17 +8589,17 @@ distribution, and derive the condition for the classical limit in terms of the d
 
 The Fermi-Dirac distribution is:
 
-f_{\mathrm{FD}(\varepsilon) = \frac{1}{e^{\beta(\varepsilon - \mu)} + 1}}
+$f_{\mathrm{FD}}(\varepsilon) = \frac{1}{e^{\beta(\varepsilon - \mu)} + 1}$
 
 The total number of particles is:
 
-N = \int_0^\infty \frac{g(\varepsilon)}{e^{\beta(\varepsilon - \mu)} + 1}\, d\varepsilon
+$N = \int_0^\infty \frac{g(\varepsilon)}{e^{\beta(\varepsilon - \mu)} + 1}\, d\varepsilon$
 
 In the classical limit $e^{\beta(\varepsilon - \mu)} \gg 1$ The $+1$ is negligible:
 
 N \approx \int_0^\infty g(\varepsilon)\, e^{-\beta(\varepsilon - \mu)}\, d\varepsilon = e^{\beta\mu} \int_0^\infty g(\varepsilon)\, e^{-\beta\varepsilon}\, d\varepsilon
 
-e^{\beta\mu} = \frac{N}{\int_0^\infty g(\varepsilon)\, e^{-\beta\varepsilon}\, d\varepsilon} = \frac{N\lambda_{\mathrm{th}^3}{V}}
+$e^{\beta\mu} = \frac{N}{\int_0^\infty g(\varepsilon)\, e^{-\beta\varepsilon}\, d\varepsilon} = \frac{N\lambda_{\mathrm{th}^3}{V}}$
 
 The classical limit requires $e^{\beta\mu} \ll 1$ I.e., $N\lambda_{\mathrm{th}^3/V \ll 1}$ Or
 equivalently, the average inter-particle spacing $(V/N)^{1/3}$ must be much larger than
@@ -8615,7 +8615,7 @@ energy is $\langle E \rangle = \hbar\omega(n_B + 1/2)$ where $n_B = 1/(e^{\beta\
 <details>
 <summary>Solution</summary>
 
-Z_{\mathrm{HO} = \sum_{n=0}^{\infty} e^{-\beta\hbar\omega(n+1/2)} = e^{-\beta\hbar\omega/2}\sum_{n=0}^{\infty}\left(e^{-\beta\hbar\omega}\right)^n = \frac{e^{-\beta\hbar\omega/2}}{1 - e^{-\beta\hbar\omega}}}
+$Z_{\mathrm{HO}} = \sum_{n=0}^{\infty} e^{-\beta\hbar\omega(n+1/2)} = e^{-\beta\hbar\omega/2}\sum_{n=0}^{\infty}\left(e^{-\beta\hbar\omega}\right)^n = \frac{e^{-\beta\hbar\omega/2}}{1 - e^{-\beta\hbar\omega}}$
 
 \langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = \frac{\hbar\omega}{2} + \frac{\hbar\omega\,e^{-\beta\hbar\omega}}{1 - e^{-\beta\hbar\omega}} = \frac{\hbar\omega}{2} + \frac{\hbar\omega}{e^{\beta\hbar\omega} - 1} = \hbar\omega\left(\frac{1}{2} + n_B\right)
 
@@ -8642,11 +8642,11 @@ For $N$ non-interacting spins, $Z = Z_1^N = [2\cosh(\beta\mu B)]^N$.
 
 The magnetisation is:
 
-M = \frac{1}{\beta}\frac{\partial \ln Z}{\partial B} = N\mu\tanh(\beta\mu B)
+$M = \frac{1}{\beta}\frac{\partial \ln Z}{\partial B} = N\mu\tanh(\beta\mu B)$
 
 The susceptibility at small $B$ (or high $T$, where $\beta\mu B \ll 1$):
 
-\chi = N\mu^2\beta\,\mathrm{sech}^2(\beta\mu B) \approx \frac{N\mu^2}{k_B T}
+$\chi = N\mu^2\beta\,\mathrm{sech}^2(\beta\mu B) \approx \frac{N\mu^2}{k_B T}$
 
 This is the Curie law $\chi = C/T$ with $C = N\mu^2/k_B$, showing that paramagnetic susceptibility
 obeys a $1/T$ dependence at high temperatures. $\blacksquare$
@@ -8663,16 +8663,16 @@ photon number density and the average energy per photon at temperature $T$.
 
 The Planck distribution gives the spectral energy density:
 
-u(\omega, T) = \frac{\hbar\omega^3}{\pi^2 c^3}\frac{1}{e^{\beta\hbar\omega} - 1}
+$u(\omega, T) = \frac{\hbar\omega^3}{\pi^2 c^3}\frac{1}{e^{\beta\hbar\omega} - 1}$
 
 Integrating over all frequencies:
 
-U(T) = \int_0^\infty u(\omega, T)\,d\omega = \frac{\hbar}{\pi^2 c^3}\int_0^\infty \frac{\omega^3}{e^{\beta\hbar\omega} - 1}\,d\omega
+$U(T) = \int_0^\infty u(\omega, T)\,d\omega = \frac{\hbar}{\pi^2 c^3}\int_0^\infty \frac{\omega^3}{e^{\beta\hbar\omega} - 1}\,d\omega$
 
 Let $x = \beta\hbar\omega$:
 
 $$
-U(T) = \frac{(k_B T)^4}{\pi^2 c^3 \hbar^3}\int_0^\infty \frac{x^3}{e^x - 1}\,dx = \frac{\pi^2 k_B^4}{15 c^3 \hbar^3} T^4 = \sigma T^4
+$U(T) = \frac{(k_B T)^4}{\pi^2 c^3 \hbar^3}\int_0^\infty \frac{x^3}{e^x - 1}\,dx = \frac{\pi^2 k_B^4}{15 c^3 \hbar^3} T^4 = \sigma T^4$
 $$
 
 where $\sigma = \pi^2 k_B^4/(60\hbar^3 c^2)$ is the Stefan-Boltzmann constant.
@@ -8680,7 +8680,7 @@ where $\sigma = \pi^2 k_B^4/(60\hbar^3 c^2)$ is the Stefan-Boltzmann constant.
 The photon number density is:
 
 $$
-n = \int_0^\infty \frac{\omega^2}{\pi^2 c^3}\frac{1}{e^{\beta\hbar\omega} - 1}\,d\omega = \frac{2\zeta(3)}{\pi^2}\left(\frac{k_B T}{\hbar c}\right)^3
+$n = \int_0^\infty \frac{\omega^2}{\pi^2 c^3}\frac{1}{e^{\beta\hbar\omega} - 1}\,d\omega = \frac{2\zeta(3)}{\pi^2}\left(\frac{k_B T}{\hbar c}\right)^3$
 
 The average energy per photon is $\langle E \rangle = U/n = (\pi^4/30\zeta(3))k_B T \approx 2.701\,k_B T$.
 
@@ -8727,7 +8727,7 @@ $T$. What is the limiting behaviour as $T \to 0$ and $T \to \infty$?
 (b) For $N$ distinguishable particles, $Z = Z_1^N$. The average energy is:
 
 $$\langle E \rangle = -\frac{\partial \ln Z}{\partial \beta} = -N\frac{\partial \ln Z_1}{\partial \beta}
-= N\frac{\varepsilon e^{-\beta\varepsilon} + 2\varepsilon e^{-2\beta\varepsilon}}{1 + e^{-\beta\varepsilon} + e^{-2\beta\varepsilon}}
+$= N\frac{\varepsilon e^{-\beta\varepsilon} + 2\varepsilon e^{-2\beta\varepsilon}}{1 + e^{-\beta\varepsilon} + e^{-2\beta\varepsilon}}$
 
 (c) $C_V = \frac{\partial \langle E \rangle}{\partial T} = \frac{1}{k_B T^2}\frac{\partial \langle E \rangle}{\partial \beta}$.
 
@@ -10431,20 +10431,20 @@ The Ising model is the simplest system showing how local interactions create glo
 
 :::note[Quick check]
 
-1. Write the Ising model's energy for spins $s_i = \pm 1$ with nearest-neighbour coupling $J$ and external field $h$, and say what the sign of $J$ does.
-2. What did Ising's exact solution of the one-dimensional model find in his 1925 thesis?
-3. Why was Peierls's 1936 argument the turning point for the model's reputation?
-4. State the mean-field decoupling of $s_i s_j$ and the self-consistency equation it produces.
-5. Where is the critical point of the mean-field equation, and what happens as it is crossed?
-6. For the 2D square lattice, compare the mean-field critical temperature with Onsager's exact value.
-7. How does the susceptibility behave above $T_c$ in the mean-field treatment?
-8. What is the core failure of mean field theory that the pitfalls section emphasises?
+1. Compute the partition function of a three-spin ring ($J > 0$, $h = 0$, $K = \beta J$) two ways: once by listing all $2^3 = 8$ configurations, once from $Z = \lambda_+^3 + \lambda_-^3$ with $\lambda_\pm = e^{K} \pm e^{-K}$. Show both routes give $Z = 2e^{3K} + 6e^{-K}$, and explain why the $\lambda_-$ term cannot be dropped at finite $N$.
+2. Using $m = \partial \ln \lambda_+ / \partial(\beta h)$ with $\lambda_+ = e^{\beta J} \cosh(\beta h) + \sqrt{e^{2\beta J} \sinh^2(\beta h) + e^{-2\beta J}}$, show that the one-dimensional chain has zero magnetisation at $h = 0$ for every finite temperature. Then find the trap: what happens if you take $\beta J \to \infty$ before $h \to 0$?
+3. Expand $m = \tanh(\beta z J m)$ at $h = 0$ to third order in $m$ and show that the nonzero branch obeys $m \approx \sqrt{3(T_c - T)/T_c}$ near the transition, where $T_c = zJ/k_B$. Why must the cubic term be kept when it is the smallest term in the expansion?
+4. Mean field assigns the one-dimensional chain ($z = 2$) a critical temperature $T_c = 2J/k_B$. Decide whether this prediction is inaccurate or qualitatively wrong, and state the lesson about which lattices mean field can be trusted on.
+5. A student argues: 'the mean-field overestimate on the square lattice ($4J$ against Onsager's $2.269J$) is an artefact of the crude decoupling, so a better trial ansatz should reproduce the exact exponents.' Decide whether refining the ansatz can fix the exponents, and identify the flawed step.
+6. Prove that $m = \tanh(\beta z J m)$ at $h = 0$ has a nonzero solution if and only if $\beta z J > 1$: use $\tanh x < x$ for $x > 0$ for one direction, and strict concavity of $g(m) = \tanh(\beta z J m) - m$ on $m > 0$ for the other.
+7. At $h = 0$ the eigenvalue ratio is $\lambda_-/\lambda_+ = \tanh(\beta J)$. Compute the relative error made by dropping $\lambda_-^N$ at $K = 1$, $N = 100$, and then show where in temperature the 1D transition was hiding all along.
+8. Linearise the self-consistency with a small field, $m = \tanh[\beta(zJm + h)]$, to derive the mean-field susceptibility above $T_c$. Then check the scaling relation $2\beta + \gamma = 2$ for both the mean-field exponents and Onsager's exact pair $\beta = 1/8$, $\gamma = 7/4$. What does the relation fix, and what does it leave open?
 
 <details class="wn-spoiler">
 <summary>Answers</summary>
 <div class="wn-spoiler-body">
 
-**1.** $H = -J \sum_{\langle ij \rangle} s_i s_j - h \sum_i s_i$. Positive $J$ rewards aligned neighbours (ferromagnetic coupling); negative $J$ rewards anti-alignment. **2.** No phase transition at any positive temperature: long-range order never appears in 1D, and Ising concluded the model could not describe ferromagnetism. The conclusion is correct for 1D only. **3.** Peierls showed that at low temperature the energy cost of a domain wall beats its entropy in two dimensions, so long-range order must survive: the 2D model does have a phase transition, reviving a model many had written off after Ising's negative result. **4.** Replace each neighbour's spin by its average: $s_i s_j \approx m s_i + m s_j - m^2$. Each spin then feels an effective field from its $z$ neighbours, and self-consistency demands $m = \tanh(\beta J z\, m)$. **5.** The critical coupling is $\beta J z = 1$, that is $k_B T_c = J z$. Below $T_c$ two nonzero solutions $\pm m$ appear continuously from $m = 0$: a phase transition in the simplest possible equation. **6.** Mean field gives $k_B T_c = J z = 4J$ for the square lattice ($z = 4$); the exact Onsager value is $k_B T_c / J = 2/\ln(1+\sqrt{2}) \approx 2.269$. Mean field overestimates $T_c$ by the factor $4/2.269 \approx 1.76$ because it ignores fluctuations. **7.** It diverges as $T \to T_c$ from above, $\chi \sim 1/(T - T_c)$ in mean field (the Curie-Weiss form): the system responds without bound to an arbitrarily small field near criticality. **8.** It neglects fluctuations, which grow without bound near $T_c$: mean field predicts ordering even in one dimension (where none occurs), overestimates $T_c$, and yields the wrong critical exponents.
+**1.** All-up and all-down each satisfy three bonds and give $e^{3K}$; the six single-flip states each break one bond and give $e^{-K}$. From the eigenvalues, $(a+b)^3 + (a-b)^3 = 2a^3 + 6ab^2 = 2e^{3K} + 6e^{-K}$. The $\lambda_-$ term is suppressed only by the ratio $(\tanh K)^N$: at finite $N$ it contributes, and dropping it is a thermodynamic-limit statement, not an identity. **2.** At $h = 0$ the $\cosh$ derivative vanishes and the $\sinh^2$ factor kills the square root's derivative, so $\partial \lambda_+/\partial(\beta h)|_0 = 0$: no spontaneous magnetisation at any finite $T$. The trap is the order of limits: $\beta J \to \infty$ first freezes the chain into magnetised ground states. The 1D transition sits exactly at $T = 0$, so the two limits do not commute. **3.** With $\tilde K = \beta z J = T_c/T$: $m \approx \tilde K m - \tilde K^3 m^3/3$, and the nontrivial branch satisfies $m^2 = 3(\tilde K - 1)/\tilde K^2 \to 3(T_c - T)/T_c$: exponent $\beta = 1/2$. The cubic term decides because at $T_c$ the linear coefficient passes through zero: the leading nonlinearity sets the solution's scale, and truncating earlier destroys the transition. **4.** Qualitatively wrong: the exact 1D answer is no transition at any positive temperature, so mean field invents an ordered phase that does not exist. The error shrinks as coordination grows, since each spin's local field is an average over $z$ neighbours with spread $1/\sqrt{z}$, and mean field's exponents become exact above four dimensions: trust it on high-connectivity lattices, not on chains. **5.** It cannot. The error is structural, not quantitative: below the upper critical dimension every single-site decoupling misses the critical fluctuations, so refining the ansatz moves amplitudes and $T_c$ while the exponents stay mean field's. The flawed step is treating the exponent mismatch as the same kind of error as the $T_c$ overestimate: exponents are universal, and mean field's are correct only for $d > 4$. **6.** If $\beta z J \le 1$: $\tanh(\beta z J m) \le \beta z J m \le m$ with equality only at $m = 0$, so no other root exists. If $\beta z J > 1$: $g(0) = 0$, $g'(0) = \beta z J - 1 > 0$, and $g''(m) = -2(\beta z J)^2 \mathrm{sech}^2(\beta z J m) \tanh(\beta z J m) < 0$ on $m > 0$, so the strictly concave $g$ rises above zero once and, since $g(1^-) = \tanh(\beta z J) - 1 < 0$, crosses back exactly once: the odd map gives the partner root $-m_*$. **7.** $(\tanh 1)^{100} \approx 1.4 \times 10^{-12}$: the correction dies exponentially in $N$ for every finite temperature. But $\tanh K \to 1$ as $K \to \infty$, so the eigenvalues become degenerate exactly at $T = 0$: the level crossing that in two dimensions happens at finite $T_c$ is pushed to the boundary $T = 0$ in one dimension. **8.** Linearising gives $m(1 - \beta z J) = \beta h$, so $\chi = \partial m/\partial h = 1/[k_B(T - T_c)]$: divergence with $\gamma = 1$. The relation holds for both pairs: $2(1/2) + 1 = 2$ and $2(1/8) + 7/4 = 2$. It constrains but does not determine: the exponents themselves are set by dimension and symmetry, which is the question the renormalisation group answers.
 
 </div>
 </details>
