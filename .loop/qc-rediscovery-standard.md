@@ -139,3 +139,29 @@ py_compile -> run -> fixers + asides + handwaves + depth ->
 llms -> scoped add -> commit -> push). First survey each topic's
 file list and HC/PON/QC counts with the one-liner used for
 topic 2. Then track 2 Stage A intro course from physics-v1.1.
+
+## Problem standard 4c adopted (2026-11-20)
+
+The user benchmarked our problems against Kaczor-Nowak and the
+verdict stands: our QC ladders were retrieval quizzes. Diagnosis
+(7 defects): recall-only deliverables; question phrasing naming
+the answer; no concrete instances except 2 of ~300; no
+derivations; flat lists instead of technique ladders; verbatim-
+echo answers; no traps. Full standard now at pedagogy-core-course
+section 4c (8 rules + 8-slot template). Commit 3788c8a5e.
+
+DONE under 4c: 6_the-ising-model's ladder rewritten as the
+exemplar (enumerate ring, differentiate lambda_+, cubic-term
+trap, concavity proof, lambda_- boundary, scaling synthesis).
+9_problem-set's 19 broken math lines repaired (delimiters +
+subscript braces); its solutions still ASSERT rather than derive.
+
+QUEUES in priority order:
+1. Topics 3-7 retrofits use 4c ladders from the first ladder (the
+   batch pattern is unchanged except QC content follows 4c rules).
+2. Legacy ladder upgrade: ~35 physics pages (topics 1-2) + the 89
+   mathematics chapters to 4c. Batch 4-6 pages per pass; reuse the
+   re.subn QC-block replacement pattern in .loop/apply-4c-standard.py.
+3. Problem-set page rewrites to 4c (solutions must derive, not
+   assert). Physics tracks first, then mathematics.
+4. 21_monolith decision still pending (see session-2 note above).
