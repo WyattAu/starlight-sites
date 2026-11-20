@@ -165,3 +165,21 @@ QUEUES in priority order:
 3. Problem-set page rewrites to 4c (solutions must derive, not
    assert). Physics tracks first, then mathematics.
 4. 21_monolith decision still pending (see session-2 note above).
+
+## Standards directory (2026-11-20, later session)
+
+The question standard now lives in docs/standards/questions/
+(standard.md v1.1.0 + patterns.md + review-checklist.md + README).
+pedagogy 4c carries only the summary + pointer. Commit ed80bb2e5.
+
+RECALL PATH for future sessions: authoring a ladder = read
+standard.md + patterns.md; reviewing = review-checklist.md
+(14 points + the one-question audit). Pattern-library upgrades that
+affect shipped pages: two-stage hint spoilers (adopted for problem
+sets first), Morin phenomenon ladders (one per topic on problem-set
+pages), diagnostic distractors for practice fixtures. The websearch
+for source validation returned nothing; the source canon is classic
+and pre-cutoff, so the library stands on established knowledge.
+
+Queues unchanged from the previous note (topics 3-7 with 4c ladders
+first, then legacy upgrades, then problem-set rewrites).
