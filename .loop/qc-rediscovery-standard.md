@@ -225,3 +225,15 @@ waves, 6_potentials-and-gauge-transformations (survey first;
 4_electrodynamics may be .mdx). Then 7/9/10-13; 8_problem-set is
 a meta page (exempt, gets the 4c problem-set rewrite pass later);
 14/15 are fixtures-driven (exempt).
+
+## Audit correction (2026-11-20, same session)
+
+The user asked whether the audit covered both courses. It did not,
+fully: the strict closing regex skipped 12 asides, .mdx was
+excluded, and the fixture banks were never scanned. Corrected
+numbers (script .loop/audit-questions-4c.py updated to match):
+59 QC-aside ladders; 39 (66%) breach rule 1; 4 (6%) carry a trap;
+8 echo items; 35 bare answers; 0 hint layers; 5 tagged.
+Fixture banks: 24 files, 276 questions, 100% carry explanations
+(bright spot), 0% carry distractor diagnosis (pattern 7 gap,
+queued with the practice-fixture work).

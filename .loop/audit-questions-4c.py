@@ -38,13 +38,17 @@ def shingles(text, n=10):
 
 rows = []
 for root in SITES:
-    for p in sorted(root.rglob("*.md")):
+    for pat in ("*.md", "*.mdx"):
+      for p in sorted(root.rglob(pat)):
         t = p.read_text(encoding="utf-8", errors="ignore")
-        m = re.search(r":::note\[Quick check\]\n\n(.*?)\n\n:::\n\n", t, flags=re.DOTALL)
-        if not m:
+        idx = t.find(":::note[Quick check]")
+        if idx < 0:
             continue
-        block = m.group(1)
-        body = t[:m.start()] + t[m.end():]
+        close = t.find("\n:::", idx)
+        if close < 0:
+            continue
+        block = t[idx:close]
+        body = t[:idx] + t[close:]
         body_sh = shingles(body)
         qs = re.findall(r"^\d+\. (.+)$", block, flags=re.MULTILINE)
         ans_block = re.search(r'<div class="wn-spoiler-body">\n\n(.*?)\n\n</div>', block, flags=re.DOTALL)
