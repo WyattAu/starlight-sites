@@ -17,6 +17,8 @@ description: "The magnetic field due to a steady current in a wire element : Com
 }
 </script>
 
+**History.** Hans Christian Orsted's April 1820 lecture demonstration (a compass needle twitching near a live wire) reached Paris within months, and Jean-Baptiste Biot with the young Felix Savart had measured the field's $1/r$ law by October, using a torsion balance, with Laplace reducing their data to the element formula this section states. Andre-Marie Ampere, working from Orsted's news, built the full mathematical theory of current-on-current forces by 1827, a speed of composition that earned him the title 'the Newton of electricity'. The vector potential entered later, through Kelvin (1847) and Maxwell, as the mathematical object this chapter's second half develops.
+
 ### 3.1 The Biot-Savart Law
 
 The magnetic field due to a steady current $I$ in a wire element $d\mathbf{l}$:
@@ -30,6 +32,17 @@ For a complete circuit:
 $$
 \mathbf{B}(\mathbf{r}) = \frac{\mu_0 I}{4\pi} \oint \frac{d\mathbf{l} \times \hat{\mathbf{r}}"}{|\mathbf{r} - \mathbf{r}'|^2}
 $$
+
+**Ponder (attempt the shape).** You are Orsted's Parisian colleagues in 1820: a compass needle near a straight wire settles perpendicular to it, circling as the current grows. Attempt to derive the field's radial dependence from symmetry alone, before any measurement: which symmetry survives, and what does an Amperian circle then force?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+An infinite straight current is invariant under translations along the wire and rotations about it: $\mathbf{B}$ can depend only on $r$ and must be azimuthal ($\hat{\boldsymbol{\phi}}$). On a circle of radius $r$, $B$ is constant and tangential, so Ampere's law forces $B \cdot 2\pi r = \mu_0 I$: the $1/r$ law followed from symmetry in 1820 before Biot and Savart's instruments confirmed it.
+
+</div>
+</details>
 
 ### 3.2 Ampere's Law
 
@@ -53,6 +66,17 @@ $$
 $$
 B = \mu_0 n I \quad \mathrm{(inside)}, \quad B = 0 \quad \mathrm{(outside)}
 $$
+
+**Ponder (attempt the representation).** The condition $\nabla \cdot \mathbf{B} = 0$ looks like a constraint to fight. Attempt instead to exploit it: what does a vanishing divergence suggest about representing $\mathbf{B}$ as a derivative of something else, and what freedom is left in that something? Why is $\mathbf{A}$ called less physical than $\mathbf{B}$?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+A divergence-free field is (in ordinary domains) the curl of something: $\mathbf{B} = \nabla \times \mathbf{A}$, since $\nabla \cdot (\nabla \times \mathbf{A}) \equiv 0$. The representation is not unique: $\mathbf{A} \to \mathbf{A} + \nabla \chi$ leaves $\mathbf{B}$ untouched (curl of a gradient is zero), the gauge freedom. $\mathbf{B}$ is what forces measure; $\mathbf{A}$ is convention plus boundary data, at least classically, and the gauge choice (for instance $\nabla \cdot \mathbf{A} = 0$) is exactly the freedom the derivations below will spend.
+
+</div>
+</details>
 
 ### 3.3 Magnetic Vector Potential
 
@@ -297,6 +321,28 @@ The right-hand rule for the magnetic field of a current element states that $d\m
 
 **Mistake 3: Assuming $\mathbf{B}$ is always parallel to $\mathbf{H}$**
 In linear magnetic materials, $\mathbf{B} = \mu \mathbf{H}$, so they are parallel. But in ferromagnetic materials, the relationship is nonlinear and hysteretic: $\mathbf{B}$ depends on the history of $\mathbf{H}$. The $\mathbf{H}$ field is defined as $\mathbf{H} = \mathbf{B}/\mu_0 - \mathbf{M}$, and it is the auxiliary field that simplifies problems with free currents, not a fundamental field.
+
+:::note[Quick check]
+
+1. (E) A long solenoid has $n = 1000$ turns per metre carrying $I = 2\,\text{A}$. Choose the Amperian loop that isolates the interior field, and compute $B$ inside in millitesla.
+2. (M) Derive $B = \mu_0 I/(2\pi r)$ for an infinite wire by integrating the Biot-Savart law, using $\int_{-\infty}^{\infty} a\, dz/(a^2 + z^2)^{3/2} = 2/a$ with $a = r$.
+3. (M) Given the wire's vector potential in Coulomb gauge, $A_z = -(\mu_0 I/2\pi)\ln(r/r_0)$, compute $\mathbf{B} = \nabla \times \mathbf{A}$ and recover the $1/r$ field; then explain why the constant $r_0$ inside the logarithm is unobservable.
+4. (M) Decide which distributions an Ampere-loop solution can handle and which force Biot-Savart: an infinite wire, an infinite sheet of current, a finite-length solenoid, a toroid. State the criterion.
+5. (M) Trap: 'inside iron, use $\mathbf{H}$ in the force law $q\mathbf{v} \times \mathbf{H}$, since $\mathbf{H}$ is the field in matter.' Decide whether this is right, and state which field the Lorentz force always uses and why.
+6. (H) Show that $\mathbf{B} = \nabla \times \mathbf{A}$ makes $\nabla \cdot \mathbf{B} = 0$ automatic, then substitute into Ampere's law and use the Coulomb gauge to derive the vector Poisson equation $\nabla^2 \mathbf{A} = -\mu_0 \mathbf{J}$.
+7. (M) A cylinder of radius $R$ carries uniform magnetisation $M\hat{\mathbf{z}}$. Compute the bound surface current from $\mathbf{K}_b = \mathbf{M} \times \hat{\mathbf{n}}$, and name the familiar device it makes the magnet equivalent to.
+8. (H) A loop of radius $a$ carries $I$. Show that on-axis, for $z \gg a$, $B \approx \mu_0 m/(2\pi z^3)$ with $m = I\pi a^2$, and compare the falloff with an electric dipole's field: what does this exponent pair promise for Chapter 5's waves?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** A rectangular loop with one long side deep inside and one far outside: the outside leg contributes nothing in the ideal limit and the short sides are perpendicular to $\mathbf{B}$, so $B L = \mu_0 n L I$ gives $B = \mu_0 n I = 4\pi \times 10^{-7} \times 2000 \approx 2.5\,\text{mT}$. **2.** An element $dz$ at distance $\sqrt{a^2 + z^2}$ contributes $dB = (\mu_0 I/4\pi)\, a\, dz/(a^2 + z^2)^{3/2}$ (the cross product kills the $z$-components by symmetry); integrating along the wire gives $B = (\mu_0 I/4\pi)(2/a) = \mu_0 I/(2\pi a)$ with $a = r$: Ampere's law verified element by element. **3.** In cylindrical coordinates $B_\phi = -\partial A_z/\partial r = \mu_0 I/(2\pi r)\hat{\boldsymbol{\phi}}$: recovered. The constant $r_0$ shifts $A_z$ by an additive constant, a gradient of a linear function in $z$, whose curl is zero: a gauge artefact, invisible to every force measurement. **4.** The loop method needs the symmetry to fix $\mathbf{B}$'s direction and make its magnitude constant on a loop: wire and sheet yes, toroid yes (circular loops), finite solenoid no (end effects break the constancy): Biot-Savart by integration, or the boundary conditions of Chapter 4. **5.** The Lorentz force always uses $\mathbf{B}$, in matter and out: $q\mathbf{v} \times \mathbf{B}$ is the microscopic law. $\mathbf{H} = \mathbf{B}/\mu_0 - \mathbf{M}$ is auxiliary bookkeeping whose curl sees only free currents, and in ferromagnets $\mathbf{B}$ is not even proportional to $\mathbf{H}$, so substituting $\mathbf{H}$ into the force law is doubly wrong. **6.** $\nabla \cdot (\nabla \times \mathbf{A}) \equiv 0$: the divergence of a curl is an identity, so the no-monopole condition costs nothing. Then $\nabla \times \mathbf{B} = \nabla \times (\nabla \times \mathbf{A}) = \nabla(\nabla \cdot \mathbf{A}) - \nabla^2 \mathbf{A} = \mu_0 \mathbf{J}$; the Coulomb gauge $\nabla \cdot \mathbf{A} = 0$ deletes the gradient term, leaving one Poisson equation per component, solved as electrostatics in disguise. **7.** $\hat{\mathbf{n}} = \hat{\mathbf{r}}$ on the curved surface, so $\mathbf{K}_b = M\hat{\mathbf{z}} \times \hat{\mathbf{r}} = M\hat{\boldsymbol{\phi}}$: a surface current circulating like a solenoid's, of density $K = M$. A long uniformly magnetised cylinder is therefore equivalent to a solenoid with $nI = M$, giving $B \approx \mu_0 M$ inside: this is why bar magnets behave like solenoids. **8.** The exact on-axis field $B = \mu_0 I a^2/(2(a^2 + z^2)^{3/2})$ becomes $\mu_0 I a^2/(2z^3) = \mu_0 m/(2\pi z^3)$ with $m = I\pi a^2$: the magnetic dipole falls as $1/z^3$, the electric dipole's exponent exactly. The pair's shared structure is what lets one current's field induce EMFs in another loop, and in Chapter 5 the displacement current lets the pair radiate.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

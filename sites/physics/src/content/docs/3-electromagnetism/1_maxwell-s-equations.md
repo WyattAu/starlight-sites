@@ -17,6 +17,8 @@ description: "Maxwell' s equations are the foundation of classical electromagnet
 }
 </script>
 
+**History.** James Clerk Maxwell published twenty component equations in *A Dynamical Theory of the Electromagnetic Field* (1865); Oliver Heaviside condensed them into the four vector form used here in 1884. The one term Maxwell added with no experimental prompt was the displacement current $\mu_0\varepsilon_0 \partial\mathbf{E}/\partial t$: he needed it to reconcile Ampere's law with charge conservation, and it promptly predicted waves travelling at $1/\sqrt{\mu_0\varepsilon_0}$, the measured speed of light. Heinrich Hertz's 1887 experiments produced and detected those waves, and Maxwell's theory became the first great unification in physics.
+
 ### 1.1 The Four Equations
 
 Maxwell's equations are the foundation of classical electromagnetism. In SI units:
@@ -24,7 +26,7 @@ Maxwell's equations are the foundation of classical electromagnetism. In SI unit
 **Integral Form:**
 
 $$
-\oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\mathrm{enc}}{\varepsilon_0} \quad \mathrm{(Gauss's\ Law)}}
+\oint_S \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\mathrm{enc}}}{\varepsilon_0} \quad \mathrm{(Gauss's\ Law)}}
 $$
 
 $$
@@ -36,7 +38,7 @@ $$
 $$
 
 $$
-\oint_C \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\mathrm{enc} + \mu_0 \varepsilon_0 \frac{d\Phi_E}{dt} \quad \mathrm{(Ampere{-}Maxwell\ Law)}}
+\oint_C \mathbf{B} \cdot d\mathbf{l} = \mu_0 I_{\mathrm{enc}} + \mu_0 \varepsilon_0 \frac{d\Phi_E}{dt} \quad \mathrm{(Ampere{-}Maxwell\ Law)}}
 $$
 
 **Differential Form:**
@@ -95,6 +97,17 @@ $$
 
 Since $S$ is arbitrary:
 $\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0\, \partial \mathbf{E}/\partial t$.
+
+**Ponder (attempt the contradiction).** A capacitor is being charged. Apply Ampere's original law $\nabla \times \mathbf{B} = \mu_0 \mathbf{J}$ to two surfaces sharing one loop: a surface cut by the wire, and a surface passing between the plates. Attempt the two computations and confront the contradiction; then invent the repair.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The wire surface gives $\oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 I$; the gap surface sees no conduction current and gives zero: one loop, two answers. The repair must add a term that equals $I$ through the gap: $\mu_0 \varepsilon_0 \partial \Phi_E/\partial t$ works, because between the plates $\Phi_E$ tracks the accumulated charge. The continuity equation is the statement that this repair is not optional: it is the price of charge conservation.
+
+</div>
+</details>
 
 ### 1.3 Continuity Equation
 
@@ -162,6 +175,17 @@ Where $\mathbf{K}_f$ is the free surface current density.
 The electric field is a force landscape: at every point in space, it assigns a vector representing the force that a positive test charge would experience at that location. Near a positive charge, the field points outward -- the "hill" slopes away from the source. Near a negative charge, the field points inward -- the "valley" slopes toward the source. The field lines are the contour lines of this landscape, and their density indicates the strength of the force.
 
 Gauss's law says that the total "outflow" of the electric field through any closed surface equals the enclosed charge divided by the permittivity of free space. Physically, charge is a source (or sink) of field lines. Faraday's law says that a changing magnetic field creates a circulating electric field -- the force landscape twists and swirls when the magnetic environment changes. The beauty of Maxwell's equations is that they unify electricity and magnetism into a single field description: changing electric fields create magnetic fields (Ampere-Maxwell law) and changing magnetic fields create electric fields (Faraday's law), allowing electromagnetic waves to propagate through empty space as self-sustaining oscillations of the field landscape.
+
+**Ponder (attempt the unification).** Take the source-free equations and attempt to eliminate $\mathbf{B}$ entirely: curl Faraday's law, substitute Ampere-Maxwell. What equation must $\mathbf{E}$ obey, and what happens when the measured constants $\mu_0$ and $\varepsilon_0$ are inserted into the wave speed?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Curl Faraday: $\nabla \times (\nabla \times \mathbf{E}) = -\partial_t (\nabla \times \mathbf{B}) = -\mu_0\varepsilon_0 \partial_t^2 \mathbf{E}$; with $\nabla \cdot \mathbf{E} = 0$ the left side is $-\nabla^2 \mathbf{E}$: a wave equation at speed $1/\sqrt{\mu_0\varepsilon_0} \approx 3 \times 10^8$ m/s. Maxwell inserted the constants from laboratory electricity and got the speed of light: 'we can scarcely avoid the inference that light consists in the transverse undulations of the same medium' (1865).
+
+</div>
+</details>
 
 ### 1.5 Worked Example: Deriving the Electromagnetic Wave Equation
 
@@ -333,6 +357,28 @@ The original Ampere's law $\nabla \times \mathbf{B} = \mu_0 \mathbf{J}$ is incon
 
 **Mistake 3: Confusing integral and differential forms**
 The integral form of Gauss's law $\oint \mathbf{E} \cdot d\mathbf{A} = Q_{\text{enc}}/\varepsilon_0$ applies to specific symmetric configurations, while the differential form $\nabla \cdot \mathbf{E} = \rho/\varepsilon_0$ is the general statement. Students often apply the integral form without verifying that the symmetry assumptions (spherical, cylindrical, or planar) are satisfied.
+
+:::note[Quick check]
+
+1. (E) For an infinite line charge of density $\lambda$, the field is $\mathbf{E} = \frac{\lambda}{2\pi\varepsilon_0 r}\hat{\mathbf{r}}$. Compute $\nabla \cdot \mathbf{E}$ for $r > 0$, then use the divergence theorem on a coaxial cylinder of length $L$ to show the axis carries exactly $\lambda L$ of charge.
+2. (E) Derive the normal boundary condition $\hat{\mathbf{n}} \cdot (\mathbf{E}_2 - \mathbf{E}_1) = \sigma/\varepsilon_0$ from Gauss's law with a pillbox of vanishing height straddling a surface charge $\sigma$, and state what it gives at a conductor's surface.
+3. (M) A uniform field $B_0$ through a loop of radius $a$ and resistance $R$ is driven to zero in time $\tau$. Compute the induced EMF and current, give the induced field's direction, and check the sign against Lenz's law.
+4. (M) Decide in which cases Gauss's law alone determines $\mathbf{E}$ everywhere: (i) an infinite charged plane, (ii) a finite charged disk, (iii) a uniformly charged sphere, (iv) a dipole. State the criterion behind your decisions.
+5. (M) Trap: a student says 'the displacement current between a capacitor's plates is real charge flowing through the gap.' Decide whether this is right, and identify what the displacement term actually is.
+6. (H) Derive $\nabla^2 \mathbf{E} = \mu_0\varepsilon_0 \partial^2 \mathbf{E}/\partial t^2$ from the source-free equations in two moves (curl Faraday, substitute Ampere-Maxwell), then compute the wave speed from $\mu_0 = 4\pi \times 10^{-7}$ and $\varepsilon_0 = 8.85 \times 10^{-12}$.
+7. (M) Use Ampere's law on a rectangular loop straddling a solenoid wall to show $B_{\text{in}} - B_{\text{out}} = \mu_0 n I$, and explain why the outside field vanishes in the long-solenoid limit.
+8. (H) Take the divergence of the Ampere-Maxwell law, substitute Gauss's law, and derive $\nabla \cdot \mathbf{J} + \partial \rho/\partial t = 0$. Then show the pre-Maxwell law $\nabla \times \mathbf{B} = \mu_0 \mathbf{J}$ contradicts this whenever $\partial \rho/\partial t \ne 0$.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** The divergence is $(1/r)\,\partial(r E_r)/\partial r = 0$ away from the axis; the flux through the cylinder is $E_r \times 2\pi r L = \lambda L/\varepsilon_0$, so the enclosed charge is $\lambda L$: the entire charge sits on the singular axis, which is the verification hook for the field's $1/r$ form. **2.** Pillbox flux is $(E_{2n} - E_{1n})A$ as the height shrinks (side flux vanishes), equal to $\sigma A/\varepsilon_0$: the jump condition. At a conductor $\mathbf{E}_1 = 0$ inside, so $E_{\text{out},n} = \sigma/\varepsilon_0$. **3.** $\text{EMF} = \pi a^2 B_0/\tau$ (Faraday: flux change over time), $I = \pi a^2 B_0/(\tau R)$. The induced field points in the original direction, propping up the dying flux: opposing the change, exactly Lenz's sign. **4.** (i) and (iii) yes, (ii) and (iv) no. Criterion: $\mathbf{E}$'s direction and magnitude must be constant on a closed surface so $E$ can be pulled from the integral; the disk's off-axis field and the dipole's angular structure defeat that. **5.** No charge crosses the gap: $\mu_0 \varepsilon_0 \partial \mathbf{E}/\partial t$ is a time-varying field term that mimics a current's field-generation effects on every loop, which is why Maxwell's name for it has misled generations. The physical account is stored field energy, not transported charge. **6.** $\nabla \times (\nabla \times \mathbf{E}) = -\partial_t (\nabla \times \mathbf{B}) = -\mu_0\varepsilon_0 \partial_t^2 \mathbf{E}$, and $\nabla \cdot \mathbf{E} = 0$ reduces the left side to $-\nabla^2 \mathbf{E}$. Speed $c = 1/\sqrt{\mu_0 \varepsilon_0} = 1/\sqrt{4\pi \times 8.85 \times 10^{-19}} \approx 3.0 \times 10^8$ m/s: the measured speed of light, the verification hook. **7.** The loop encloses $nL$ turns and sees flux only where it pierces the wall: $B_{\text{in}} - B_{\text{out}} = \mu_0 n I$. As the solenoid length grows, the return flux spreads over infinite area outside, so $B_{\text{out}} \to 0$ and the whole jump drops inside. **8.** Div curl is identically zero, so $0 = \mu_0 \nabla \cdot \mathbf{J} + \mu_0 \varepsilon_0 \partial_t (\nabla \cdot \mathbf{E}) = \mu_0 (\nabla \cdot \mathbf{J} + \partial \rho/\partial t)$. Without the displacement term the law demands $\nabla \cdot \mathbf{J} = 0$ always: charge could never accumulate anywhere, and the charging capacitor could not exist.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

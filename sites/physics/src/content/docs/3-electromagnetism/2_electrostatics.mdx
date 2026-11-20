@@ -10,6 +10,8 @@ description: "The force between two point charges and separated by distance : Co
 
 import DesmosGraph from "@components/DesmosGraph";
 
+**History.** The tools of this chapter have a tangled provenance. George Green's 1828 *Essay* introduced the potential and the identities bearing his name, self-published for a miller's clientele and forgotten until William Thomson (Kelvin) unearthed it around 1845. Thomson's method of images followed in 1848, extracting exact conducting-sphere results from mirror charges with an elegance Maxwell admired. The word dielectric, and the first experiments on polarisable media, are Faraday's (1837); the multipole expansion descends from Laplace and Legendre in the 1780s.
+
 ### 2.1 Coulomb's Law and the Electric Field
 
 **Coulomb's Law:** The force between two point charges $q_1$ and $q_2$ separated by distance $r$:
@@ -135,6 +137,17 @@ $$
 V(a) - V(b) = -\int_a^b \mathbf{E} \cdot d\mathbf{l} = \frac{\lambda}{2\pi\varepsilon_0}\ln\!\left(\frac{b}{a}\right)
 $$
 
+**Ponder (attempt the licence).** The method of images solves a hard conductor problem by pretending the conductor is not there. Attempt to invent the theorem that licenses the fraud: what must be pinned on the boundary, and why does pinning it force exactly one interior field? Sketch the three-line proof before reading the resolution.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Pin $V$ (Dirichlet) on the closed boundary: if $V_1$ and $V_2$ both solved it, $U = V_1 - V_2$ is harmonic with $U = 0$ on the boundary. Green's first identity gives $\int |\nabla U|^2 dV = \oint U (\partial U/\partial n) dA = 0$, so $\nabla U = 0$ everywhere: $U$ is constant, and zero on the boundary makes it zero. Uniqueness is the licence: the image solution satisfies the same boundary data, so it is the truth.
+
+</div>
+</details>
+
 ### 2.7 The Uniqueness Theorem
 
 **Theorem 2.3 (Uniqueness for Dirichlet conditions).** The solution to Poisson's equation
@@ -166,6 +179,17 @@ Constant when $\partial V/\partial n$ is specified on $\mathcal{S}$.
 _Proof._ The same argument applies, but now $\partial U/\partial n = 0$ on $\mathcal{S}$ and the
 Right-hand side of Green's identity vanishes for a different reason. We again conclude
 $\nabla U = \mathbf{0}$ So $U$ is constant. $\blacksquare$
+
+**Ponder (attempt the construction).** A charge $q$ sits a distance $d$ above a grounded infinite plane. Attempt to invent the image configuration that forces $V = 0$ on the plane: what sign, what position, and why does that combination cancel there? Then attempt the bookkeeping: what is the total induced surface charge?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+An image $-q$ at the mirror point $z = -d$: on the plane every point is equidistant from the pair, so the two potentials cancel identically. Integrating the induced $\sigma$ over the plane gives $-q$: the conductor's electrons have rearranged to hide the charge's flux, and the attraction the charge feels is exactly the Coulomb force toward the image, $F = -q^2 \hat{\mathbf{z}}/(4\pi\varepsilon_0 (2d)^2)$.
+
+</div>
+</details>
 
 ### 2.8 Method of Images
 
@@ -383,6 +407,24 @@ The electric potential $V = q/(4\pi\varepsilon_0 r)$ is the potential energy per
 
 **Mistake 3: Assuming the electric field is continuous across a charged surface**
 The normal component of $\mathbf{E}$ is discontinuous across a surface charge density $\sigma$: $E_{2n} - E_{1n} = \sigma/\varepsilon_0$. Only the tangential component $E_t$ is continuous. Students who assume full continuity obtain incorrect boundary conditions for dielectric interfaces.
+
+:::note[Quick check]
+
+1. (E) A charge $q = 1\,\mu\text{C}$ sits $d = 5\,\text{cm}$ above a grounded conducting plane. Compute the force on the charge via the method of images, and state its direction.
+2. (M) Derive Poisson's equation $\nabla^2 V = -\rho/\varepsilon_0$ in two moves from $\mathbf{E} = -\nabla V$ and Gauss's law, and state what the equation becomes in charge-free regions.
+3. (M) A coaxial cable has inner radius $a$, outer radius $b$, charge $\lambda$ per length. Compute $E(r)$ by Gauss's law, integrate to get $V(a) - V(b)$, and derive the capacitance per length $C/L = 2\pi\varepsilon_0/\ln(b/a)$.
+4. (M) Classify boundary-value problems: which data determine a unique solution (fixed $V$, fixed $\partial V/\partial n$, both)? When does the Neumann problem have a solution at all, and what freedom remains in it?
+5. (M) Trap: a student computes the field inside the metal of the grounded plane using the image charge. Decide what went wrong, and state where the image method is valid and what the physical charge distribution inside the conductor is.
+6. (H) Prove the Dirichlet uniqueness theorem in three lines with Green's first identity: assume two solutions, form $U = V_1 - V_2$, and conclude $U \equiv 0$.
+7. (M) At a dielectric interface with no free surface charge, derive the condition on $\mathbf{D}$'s normal component and on $\mathbf{E}$'s tangential component, and identify which bound quantity breaks the continuity of $\mathbf{E}_n$.
+8. (H) A neutral atom has dipole moment $p = 10^{-30}\,\text{C}\cdot\text{m}$. Show that its far-field potential leads with the $1/r^3$ dipole term rather than $1/r^2$, and compute $E$ at $r = 1\,\text{nm}$.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+**1.** The image $-q$ sits $5\,\text{cm}$ below the plane; the force is the Coulomb attraction across $2d = 10\,\text{cm}$: $F = q^2/(4\pi\varepsilon_0 (2d)^2) = 8.99 \times 10^9 \times 10^{-12}/10^{-2} \approx 0.90\,\text{N}$ toward the plane. Verification: halving $d$ quadruples $F$. **2.** $\nabla \cdot \mathbf{E} = -\nabla^2 V$ from the gradient, and Gauss gives $\nabla \cdot \mathbf{E} = \rho/\varepsilon_0$: $\nabla^2 V = -\rho/\varepsilon_0$. Where $\rho = 0$ it is Laplace's equation $\nabla^2 V = 0$, the workhorse of conductor problems. **3.** Gauss on a coaxial cylinder gives $E(r) = \lambda/(2\pi \varepsilon_0 r)$ for $a < r < b$; then $V(a) - V(b) = \int_a^b E\,dr = (\lambda/2\pi\varepsilon_0) \ln(b/a)$, so $C/L = \lambda/\Delta V = 2\pi\varepsilon_0/\ln(b/a)$: check the limit $b \to a$, where $C$ diverges as the gap closes. **4.** Fixed $V$ on the whole boundary (Dirichlet): unique. Fixed $\partial V/\partial n$ (Neumann): unique up to an additive constant, and solvable only if compatible: the total outward flux must equal $-\int \rho\,dV/\varepsilon_0$. Mixed problems need $V$ on enough of the boundary to kill the constant. **5.** The image charge lives only in the field region ($z > 0$); inside the metal $\mathbf{E} = 0$ and the image is bookkeeping, not charge. The physical substitute is the induced surface charge $\sigma(r) = -qd/(2\pi (r^2 + d^2)^{3/2})$, totalling $-q$ and peaked directly below the charge. **6.** $\nabla^2 U = 0$ in the volume, $U = 0$ on the boundary; Green's first identity gives $\int_{\mathcal{V}} |\nabla U|^2\, dV = \oint_{\mathcal{S}} U (\partial U/\partial n)\, dA = 0$. The integrand is nonnegative, so $\nabla U \equiv 0$: $U$ is constant, and the zero boundary value fixes the constant at zero. **7.** Gauss for $\mathbf{D}$ with $\rho_f = 0$ gives $D_{2n} = D_{1n}$ (normal continuity of $\mathbf{D}$); Faraday's static law $\oint \mathbf{E} \cdot d\mathbf{l} = 0$ on a vanishing loop gives $E_{2t} = E_{1t}$. The jump in $E_n$ comes from the bound surface charge $\sigma_b = \mathbf{P} \cdot \hat{\mathbf{n}}$. **8.** The monopole term scales as $Q_{\text{enc}}/r^2$ and dies because the atom is neutral: the first nonzero moment is the dipole, $V \approx p\cos\theta/(4\pi\varepsilon_0 r^2)$, so $E \approx p/(4\pi\varepsilon_0 r^3) = 8.99 \times 10^9 \times 10^{-30}/10^{-27} \approx 9 \times 10^6$ N/C at 1 nm, falling as $1/r^3$: the verification hook is the exponent, not the number.
+</details>
+
+:::
 
 ## Cross-References
 
