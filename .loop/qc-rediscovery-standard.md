@@ -183,3 +183,21 @@ and pre-cutoff, so the library stands on established knowledge.
 
 Queues unchanged from the previous note (topics 3-7 with 4c ladders
 first, then legacy upgrades, then problem-set rewrites).
+
+## Fleet audit against 4c (2026-11-20)
+
+Script: .loop/audit-questions-4c.py (re-run anytime; mechanical
+checks only - depth and slope stay manual via review-checklist.md).
+
+Numbers: 47 ladders shipped (35 physics, 12 math core-course).
+34 (72%) breach rule 1 (recall stems > 2). 41 (87%) have no trap.
+6 echo items. 33 bare answers. 0 hint layers. 2 with tags.
+The retrofit queue is thus the ENTIRE legacy fleet; worst offenders
+ranked by score in the script output. Note: session-2's ladders
+(15/16/17/18/19/20 etc.) score as legacy - they were authored the
+day before the standard existed. Only 6_the-ising-model (the
+exemplar) and 3_lagrangian-mechanics pass the trap check.
+
+Queue order: (1) topics 3-7 born-4c during their retrofits;
+(2) legacy physics ladders, worst-score first; (3) math core-course
+ladders; (4) problem-set rewrites + hint layers.
