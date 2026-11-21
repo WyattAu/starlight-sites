@@ -17,6 +17,30 @@ description: 'A non-relativistic charge undergoing acceleration radiates power: 
 }
 </script>
 
+**History.** Joseph Larmor derived his formula in 1897, the same year J. J. Thomson announced the corpuscle the formula's charge would belong to, and neither Lienard (1898) nor Wiechert (1900) had a physics community sure that electrons existed to radiate. The formula then refused to go away: applied to Rutherford's planetary atom it condemned the electron to spiral into the nucleus in about a hundred picoseconds, which forced Bohr's 1913 stationary-state postulate. And in 1947 engineers at General Electric watched electrons in their new betatron refuse to gain energy on schedule, the light of synchrotron radiation shining from the machine's window: the formula, relativised by Lienard, had become an engineering constraint.
+
+**Ponder (attempt the mechanism).** Why does acceleration radiate when constant velocity does not? Attempt the answer from the field pictures alone: a charge at rest has radial field lines, and a charge moving at constant velocity carries them rigidly along. Attempt to draw what the field lines must do when the charge's velocity suddenly changes, and follow the kink outward.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The velocity change cannot inform the field everywhere at once: the old field, built around the old position, and the new field, built around the new one, meet in a kink that propagates outward at $c$. The kink carries transverse field, and transverse field carries energy in the Poynting flux. A kink born of every acceleration, propagating forever, is what radiation is: no acceleration, no kink, no energy left behind. The Larmor formula is the kink's energy bookkeeping.
+
+</div>
+</details>
+
+**Ponder (attempt the collapse).** Apply the formula to Rutherford's atom: an electron circling a proton at the Bohr radius accelerates continuously. Attempt the energy bookkeeping: compute the radiated power, divide the orbital energy by it, and watch how long the classical atom survives. What did Bohr have to postulate to stop this?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The numbers: centripetal acceleration about $9 \times 10^{22}\,\text{m/s}^2$ gives $P \approx 5 \times 10^{-8}\,\text{W}$, against an orbital binding energy of $13.6\,\text{eV}$: collapse in roughly $10^{-10}\,\text{s}$ (the integrated answer is $1.6 \times 10^{-11}\,\text{s}$). The classical atom is gone before a clock can notice it. Bohr's stationary states, forbidding the orbiting electron to radiate except in jumps, were not a refinement: they were an emergency measure against this calculation.
+
+</div>
+</details>
+
 ### 10.1 Larmor Formula
 
 A non-relativistic charge $q$ undergoing acceleration $\mathbf{a}$ radiates power:
@@ -37,7 +61,7 @@ Where $p_0 = qd$ is the dipole moment amplitude.
 $\ell$ carrying current $I_0$ at frequency $\omega$:
 
 $$
-R_{\text{rad} = \frac{\mu_0 c}{6\pi}\left(\frac{\omega \ell}{c}\right)^2 = \frac{\pi}{6}Z_0\left(\frac{\ell}{\lambda}\right)^2 \approx 197\left(\frac{\ell}{\lambda}\right)^2\ \Omega}
+R_{\text{rad}} = \frac{\mu_0 c}{6\pi}\left(\frac{\omega \ell}{c}\right)^2 = \frac{\pi}{6}Z_0\left(\frac{\ell}{\lambda}\right)^2 \approx 197\left(\frac{\ell}{\lambda\right)^2\ \Omega}
 $$
 
 ### 10.2 Electric Dipole Radiation
@@ -127,11 +151,11 @@ Wait: the power per electron is already the total radiated power. The total sync
 power from the ring is:
 
 $$
-P_{\text{total} = N_{\text{stored} \times P_{\text{per} electron} \times \frac{\text{bending} length}{\text{circumference}}}}
+P_{\text{total}} = N_{\text{stored}} \times P_{\text{per}} electron} \times \frac{\text{bending} length}{\text{circumference}
 $$
 
 For a rough estimate:
-$P_{\text{total} \approx 0.3 \times 3 \times 10^9 \times \frac{1.08 \times 10^{-6}}{1.6 \times 10^{-19}} \times \frac{2\pi \times 7.1}{561.6} \approx 500}$
+$P_{\text{total}} \approx 0.3 \times 3 \times 10^9 \times \frac{1.08 \times 10^{-6}}{1.6 \times 10^{-19}} \times \frac{2\pi \times 7.1}{561.6} \approx 500$
 kW.
 
 The actual Diamond power is about 400 kW, consistent with this estimate.
@@ -189,6 +213,28 @@ The radiated energy is $E_{\text{rad}} = P \Delta t = 2.31 \times 10^{-19} \time
 The fraction is $E_{\text{rad}}/K \approx 3.76 \times 10^{-14}$, which is negligible. $\blacksquare$
 
 </details>
+
+:::note[Quick check]
+
+1. (E) Compute the Larmor power for an electron with $a = 10^{20}\,\text{m/s}^2$ (atomic-field scale), and compare the answer's size with a radio station's output to confirm how weak single-particle radiation is.
+2. (M) Show that a dipole's radiated power scales as $\omega^4$: start from $p(t) = p_0\cos\omega t$, relate dipole acceleration to $\omega^2$, and apply Larmor. Then decide what the $\omega^4$ does to blue versus red light in Rayleigh scattering.
+3. (M) An electron decelerates from $0.1c$ to rest over $d = 1\,\text{mm}$. Compute the average deceleration, the Larmor power, and the radiated fraction of the $2.56\,\text{keV}$ kinetic energy, following the worked example.
+4. (M) Classify by geometry: short-dipole antenna, synchrotron magnet, X-ray tube target. For each, decide the angular pattern and the spectrum, and name the radiation in the file's terms.
+5. (M) Trap: 'an electron in a circular orbit moves at constant speed, so with constant velocity it should not radiate.' Decide what is wrong, and restate the condition for radiation correctly.
+6. (H) Derive the Larmor formula from the far field: integrate the radiation Poynting flux $S = E_\text{rad}^2/\mu_0 c$ over a sphere using $E_\text{rad} \propto qa\sin\theta/(4\pi\varepsilon_0 c^2 R)$, and carry the $\sin\theta$ integral.
+7. (M) A proton in a 1 T cyclotron at $v = 0.5c$ radiates via transverse acceleration. Decide the relativistic scaling that applies ($\gamma^4$ or $\gamma^6$), compute the rough centripetal $a$, and decide why circular machines lose energy faster than the Larmor estimate suggests.
+8. (H) Synthesise: LEP's electrons lost a few percent of their 100 GeV energy per turn to this effect. Decide the design consequence for the radio-frequency cavities, and name the quantum story the classical formula cannot tell.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $P = e^2 a^2/(6\pi\varepsilon_0 c^3) = (1.6 \times 10^{-19})^2 (10^{40})/(6\pi \times 8.85 \times 10^{-12} \times 2.7 \times 10^{25}) \approx 5.7 \times 10^{-14}\,\text{W}$. A station radiates megawatts: fourteen orders of magnitude sit between one shaken electron and engineering. **2.** Dipole acceleration is $a = \omega^2 d$, so Larmor gives $P \propto a^2 \propto \omega^4 d^2$, the file's $\omega^4 p_0^2$ form. Rayleigh scattering is driven-dipole reradiation: blue (higher $\omega$) scatters as $\omega^4$, roughly (700/450)^4 $\approx 6$ times stronger than red, which is the sky's colour and the sunsets'. **3.** $a = v^2/2d = (3 \times 10^7)^2/(2 \times 10^{-3}) = 4.5 \times 10^{17}\,\text{m/s}^2$; $P \approx 2.3 \times 10^{-19}\,\text{W}$; radiated fraction $E_\text{rad}/K \approx 3.8 \times 10^{-14}$. Bremsstrahlung at these energies is negligible: the X-ray tube's photons come from the rare close encounters, not the average stopping. **4.** Short dipole: the $\sin^2\theta$ doughnut, no radiation along the axis, broadband spectrum set by the drive. Synchrotron magnet: a narrow forward cone of opening $\sim 1/\gamma$, spectrum sweeping from radio to X-ray as $\gamma$ climbs. X-ray tube: broad-angle bremsstrahlung with a cutoff at the full electron energy, the continuous spectrum under the characteristic lines. **5.** Velocity is a vector: uniform circular motion changes its direction every instant, so the acceleration is $v^2/r$, never zero. The correct condition is acceleration of any kind, in the inertial frame: constant speed along a curve radiates fully. The trap confuses the scalar speed with the vector, and Larmor's $a^2$ charges the difference. **6.** The flux integrates as $P = \int (q^2 a^2 \sin^2\theta/(16\pi^2 \varepsilon_0^2 c^4 R^2) \times 1/\mu_0 c)\, R^2 d\Omega$; the angular integral $\int \sin^2\theta\, d\Omega = 8\pi/3$ contributes, and with $1/\mu_0 \varepsilon_0 = c^2$ the geometry collapses: $P = q^2 a^2/(6\pi\varepsilon_0 c^3)$. The $\sin^2$ came from projecting the acceleration onto the transverse plane; the integral is the whole derivation. **7.** Transverse acceleration in a cyclotron: the $\gamma^4$ branch (the $\gamma^6$ belongs to acceleration parallel to velocity). With $a = v^2/r$ and $r$ set by the bending field, $P = q^4 B^2 v^2 \gamma^2/(6\pi \varepsilon_0 m^2 c^3) \cdot \gamma^2$: power climbs as $\gamma^4$ at fixed radius. The Larmor estimate with lab $a$ misses both the relativistic factor and the deficit's growth, which is why machines feel it as a wall. **8.** The cavities must replenish a few percent of 100 GeV per turn: megawatts of continuous RF, the machine's dominant power bill, scaling as $\gamma^4/E$ in energy. The classical formula cannot say how the loss is parcelled: quantum mechanically the electron emits discrete photons (in LEP, mostly single hard quanta per turn), which is the file's forward pointer to quantum radiation.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

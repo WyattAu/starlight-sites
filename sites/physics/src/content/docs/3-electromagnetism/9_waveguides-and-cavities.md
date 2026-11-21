@@ -17,6 +17,30 @@ description: "A rectangular waveguide with dimensions (width) and (height) suppo
 }
 </script>
 
+**History.** Lord Rayleigh derived the modes of hollow conducting cylinders in 1897, forty years before anyone built hardware that needed them: the mathematics waited for the microwave era. The hardware arrived in 1936, when George Southworth's team at Bell Labs and Wilmer Barrow's group at MIT demonstrated practical waveguides independently, with a patent fight to match. Radar in the Second World War turned the theory into an industry almost overnight, and the cavity magnetron of 1940, a resonant-cavity device, gave Allied radar a power density that Axis designs spent the war chasing.
+
+**Ponder (attempt the cutoff).** A hollow copper pipe cannot carry DC, and it refuses long wavelengths too. Attempt to find why, from the boundary condition alone: with $E_\text{tangential} = 0$ at every wall, attempt to fit a transverse field pattern across a guide of width $a$, and identify the largest wavelength that can stand.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The tangential condition forces standing transverse structure: a half-sine across the width at minimum, $E_x \propto \sin(\pi x/a)$. That costs transverse wavenumber $k_c = \pi/a$, which the dispersion $k^2 = (\omega/c)^2 - k_c^2$ must pay for: below $\omega_c = c\pi/a$, $k$ turns imaginary and the mode decays as $e^{-|k|z}$, carrying no power. The cutoff is the price of the boundary condition: fields must fit, and long wavelengths have no room to fit.
+
+</div>
+</details>
+
+**Ponder (attempt the paradox).** The guide's phase velocity exceeds $c$: the field pattern sweeps along the walls faster than light. Attempt to reconcile this before deciding anything is broken: model TE10 as two plane waves bouncing between the walls, and compute what the zigzag does to the two velocities.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Each plane wave travels at exactly $c$ along its zigzag; the axial speed of the pattern (phase velocity) and the speed of the wave's energy envelope (group velocity) are that same $c$ projected differently: $v_p = c/\cos\theta > c$ and $v_g = c\cos\theta < c$, with the product $c^2$. Nothing outruns light: the pattern on the wall is a sweep of intersections, like a laser dot swept across the Moon, and energy rides the envelope at $v_g$. Which velocity matters depends entirely on whether you are reading phase or carrying power.
+
+</div>
+</details>
+
 ### 9.1 Rectangular Waveguides
 
 A rectangular waveguide with dimensions $a$ (width) and $b$ (height) supports electromagnetic waves
@@ -49,11 +73,11 @@ The dominant (lowest frequency) mode is TE$_{10}$ with $f_{c,10} = c/(2a)$ (for 
 **Dispersion relation:**
 
 $$
-k = \sqrt{\frac{\omega^2}{c^2} - k_c^2}, \quad v_{\text{phase} = \frac{\omega}{k} = \frac{c}{\sqrt{1 - (\omega_c/\omega)^2}} > c}
+k = \sqrt{\frac{\omega^2}{c^2} - k_c^2}, \quad v_{\text{phase}} = \frac{\omega}{k} = \frac{c}{\sqrt{1 - (\omega_c/\omega)^2} > c}
 $$
 
 $$
-v_{\text{group} = \frac{d\omega}{dk} = c\sqrt{1 - \left(\frac{\omega_c}{\omega}\right)^2} < c}
+v_{\text{group}} = \frac{d\omega}{dk} = c\sqrt{1 - \left(\frac{\omega_c}{\omega}\right)^2 < c}
 $$
 
 The product $v_p \cdot v_g = c^2$.
@@ -63,7 +87,7 @@ The product $v_p \cdot v_g = c^2$.
 The wave impedance for TE modes:
 
 $$
-Z_{\text{TE} = \frac{E_x}{H_y} = \frac{\omega\mu_0}{k} = \frac{Z_0}{\sqrt{1 - (f_c/f)^2}}}
+Z_{\text{TE}} = \frac{E_x}{H_y} = \frac{\omega\mu_0}{k} = \frac{Z_0}{\sqrt{1 - (f_c/f)^2}}
 $$
 
 Where $Z_0 = \sqrt{\mu_0/\varepsilon_0} \approx 377\,\Omega$ is the impedance of free space.
@@ -179,6 +203,28 @@ For TE$_{102}$: $f = 1.5 \times 10^8 \times \sqrt{1111.1 + 10000} = 1.5 \times 1
 For TE$_{011}$: $f = 1.5 \times 10^8 \times \sqrt{(1/0.015)^2 + (1/0.02)^2} = 1.5 \times 10^8 \times \sqrt{4444.4 + 2500} = 1.5 \times 10^8 \times 83.33 = 12.5$ GHz.
 
 TE$_{101}$ at 9.01 GHz is closest to 10 GHz. Fine-tuning the dimensions or inserting a dielectric can adjust the resonant frequency upward to exactly 10 GHz.
+
+:::note[Quick check]
+
+1. (E) A rectangular guide has width $a = 3\,\text{cm}$ ($a > b$). Compute the dominant TE10 cutoff frequency, then decide which of 3, 6, and 10 GHz propagate down it.
+2. (M) Starting from the transverse boundary condition, derive the cutoff wavenumber $k_c = \pi/a$ for TE10 and show $f_{c,10} = c/(2a)$: the boundary condition is the whole derivation.
+3. (M) A signal at $f = 1.5\,f_c$ propagates in the guide. Compute $v_p$, $v_g$, and verify their product, then give the guide wavelength $\lambda_g = v_p/f$ in terms of $\lambda_0$.
+4. (M) Classify modes: why do hollow single-conductor guides support TE and TM but never TEM, while coaxial cable supports TEM? State what TEM requires structurally.
+5. (M) Trap: 'the wave travels in a straight line down the middle of the guide, so its speed down the axis is c.' Decide what actually travels at $c$, and reconstruct the zigzag picture that produces $v_p > c$ and $v_g < c$.
+6. (H) Prove that power flows at the group velocity: show the axial Poynting flux integrated over the cross-section equals the stored energy per unit length times $v_g$ for a mode below the cutoff scaling, and state why the evanescent case carries zero power either way.
+7. (M) A cubic cavity has $a = b = d = 4\,\text{cm}$. Compute the lowest TE101 resonance via $f = (c/2)\sqrt{(m/a)^2 + (n/b)^2 + (p/d)^2}$, then decide the scale factor needed to move it to 2.45 GHz.
+8. (H) Decide the engineering synthesis: why did the cavity magnetron decide the radar war, in terms of $Q$, power density, and the cavity concept itself, and what modern machine inherits the same role?
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $f_{c,10} = c/(2a) = 3 \times 10^8 / 0.06 = 5\,\text{GHz}$. Decision: 3 GHz is below cutoff and decays evanescently; 6 and 10 GHz propagate. The verification hook: real X-band guides (8.2 to 12.4 GHz) have $a \approx 2.3\,\text{cm}$, sitting above the same formula's cutoff. **2.** The wall condition forces one half-period across the width: $k_x = \pi/a$. The dispersion relation $k^2 = (\omega/c)^2 - k_x^2$ then propagates only for $\omega > ck_x$, giving $f_c = ck_x/2\pi = c/(2a)$. No other input enters: the geometry alone sets the cutoff. **3.** $v_p = c/\sqrt{1 - (1/1.5)^2} = c/\sqrt{0.556} \approx 1.34c$; $v_g = c\sqrt{0.556} \approx 0.745c$; product $v_p v_g = c^2$, the check. $\lambda_g = v_p/f = 1.34 \lambda_0$: the guide wavelength exceeds free space's, which is why guide components are oversized for their frequency. **4.** TEM requires the transverse field lines to close around a second conductor: its potential difference defines the mode. A hollow pipe is one conductor with nowhere for the transverse voltage to anchor, so only modes with longitudinal structure (TE, TM) satisfy the walls. Coax has an inner conductor: TEM rides the annulus. **5.** What travels at $c$ is each constituent plane wave along its zigzag path. TE10 is two such waves bouncing between the side walls; their intersections sweep the walls at $v_p > c$ (a pattern speed, like a swept laser dot), while the envelope that carries energy advances axially at $v_g < c$. The straight-line picture hides the bounces and manufactures the paradox. **6.** For a mode far above cutoff, the axial Poynting flux $\int S_z\,dA$ equals the energy density times the axial transport speed; differentiating the dispersion gives that transport speed as $d\omega/dk = v_g$, so $P = u \cdot A \cdot v_g$: energy moves with the envelope. Below cutoff, $k$ is imaginary: $S_z$ averages to zero (reactive fields slosh, nothing net), which is why the evanescent case is power-blind in both pictures. **7.** $f_{101} = (c/2)\sqrt{(1/0.04)^2 \times 2} = 1.5 \times 10^8 \times 35.4 \approx 5.3\,\text{GHz}$. To reach 2.45 GHz the cavity scales up by $5.3/2.45 \approx 2.2$: dimensions near $8.6\,\text{cm}$, the same order as the mode-stirred chamber of a domestic microwave oven, whose frequency was chosen partly to keep the cavity modest. **8.** The magnetron's cavities stored energy with high $Q$ while injecting it hard: resonant accumulation let a small tube deliver kilowatts at centimetre wavelengths, exactly where radar resolution wants them. Power density per volume was the war-winning metric. The modern inheritor: the RF cavities of linear accelerators, resonant structures replenishing particle energy every metre, the same concept at gigavolts.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

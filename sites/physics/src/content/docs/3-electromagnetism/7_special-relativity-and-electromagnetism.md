@@ -17,6 +17,21 @@ description: "The laws of electromagnetism are inherently relativistic. In fact,
 }
 </script>
 
+**History.** Einstein's 1905 paper is titled *On the Electrodynamics of Moving Bodies*, and special relativity was born from an asymmetry inside electromagnetism itself. His opening paragraph moves a magnet past a conductor and then a conductor past a magnet: the observed current is identical, yet the field theory of the day explained one case by an induced electric field and the other by a $\mathbf{v} \times \mathbf{B}$ force. Einstein demanded one explanation, and relativity is the demand granted. Minkowski completed the geometry in 1908, announcing that 'space by itself and time by itself are doomed to fade away': the four-dimensional form this section develops.
+
+**Ponder (attempt the demand).** Run Einstein's opening case yourself: a magnet and a wire loop approach each other. In the magnet's frame the loop sees a changing $\mathbf{B}$ and Faraday induces the current; in the loop's frame the charges feel $\mathbf{v} \times \mathbf{B}$. Attempt to state precisely what is wrong, given that both frames predict the same current.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Nothing measurable is wrong: the current agrees. What is wrong is that the same event carries two unrelated theoretical explanations depending on the frame, one electromagnetic, one kinematic. Einstein's demand was principle, not prediction: the explanation must be frame-independent, and granting it means the electric and magnetic fields cannot be separate objects. They are frame components of one thing, which the field tensor below names.
+
+</div>
+</details>
+
+**History.** Einstein's 1905 paper is titled *On the Electrodynamics of Moving Bodies*, and special relativity was born from an asymmetry inside electromagnetism itself. His opening paragraph moves a magnet past a conductor and then a conductor past a magnet: the observed current is identical, yet the field theory of the day explained one case by an induced electric field and the other by a $\mathbf{v} \times \mathbf{B}$ force. Einstein demanded one explanation, and relativity is the demand granted. Minkowski completed the geometry in 1908, announcing that 'space by itself and time by itself are doomed to fade away': the four-dimensional form this section develops.
+
 ### 7.1 Covariant Formulation
 
 The laws of electromagnetism are inherently relativistic. In fact, it was the inconsistency of
@@ -82,6 +97,17 @@ $\nabla \cdot \mathbf{A} + \frac{1}{c^2}\frac{\partial V}{\partial t} = 0$ Becom
 $$
 \partial_\mu A^\mu = 0
 $$
+
+**Ponder (attempt the invariants).** From the six components of $\mathbf{E}$ and $\mathbf{B}$, attempt to build quantities every inertial observer agrees on. A tensor with two indices admits rotation scalars; attempt to form them from $\mathbf{E}$ and $\mathbf{B}$, and decide how many independent ones there are and what each classifies.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Two survive: $\mathbf{E}^2 - c^2 \mathbf{B}^2$ and $\mathbf{E} \cdot \mathbf{B}$. The first splits fields into electric-like (positive, a frame with $\mathbf{B} = 0$ exists) versus magnetic-like (negative, a frame with $\mathbf{E} = 0$ exists). The second, being a scalar under boosts, says a field that is parallel to $\mathbf{B}$ in one frame is parallel in every frame: crossed fields cannot be un-crossed by motion. A plane wave has both invariants zero, null in every frame: no observer ever rides alongside it.
+
+</div>
+</details>
 
 ### 7.3 The Electromagnetic Field Tensor
 
@@ -200,6 +226,28 @@ Special relativity and electromagnetism are two aspects of the same theory. Elec
 ## Common Pitfalls
 
 - **Parallel vs.\ perpendicular boost components.** When boosting along $\hat{x}$, the $E_x$ and $B_x$ components are unchanged; only the perpendicular components mix. Students often incorrectly apply $\gamma$ to all components.
+
+:::note[Quick check]
+
+1. (E) A pure magnetic field $\mathbf{B} = 0.5\,\text{T}\,\hat{\mathbf{z}}$ is observed from a frame moving at $v = 0.8c$ along $\hat{\mathbf{x}}$. Compute $\gamma$, the induced $\mathbf{E}'$, and decide whether the boosted field stays purely magnetic.
+2. (M) Read off $F^{12}$ and $F^{23}$ from the field-tensor matrix, state which field components they carry, and verify the antisymmetry $F^{21} = -F^{12}$ against the printed matrix.
+3. (M) Compute both invariants for a plane wave with $\mathbf{E} = E_0\hat{\mathbf{x}}$ and $\mathbf{B} = (E_0/c)\hat{\mathbf{y}}$. Decide what null means for boosts: is there any frame where the wave's $\mathbf{E}$ or $\mathbf{B}$ vanishes?
+4. (M) Classify fields by their invariants: $\mathbf{E} \cdot \mathbf{B} \ne 0$, $\mathbf{E}^2 - c^2\mathbf{B}^2 > 0$, $< 0$, and $= 0$. For each, decide which frame (if any) sets one field to zero.
+5. (M) Trap: 'magnetism is just a relativistic correction to electrostatics, so the magnetic force is not real.' Decide how much of this is right, using the wire-and-drifting-charge case, and what the tensor says about 'real'.
+6. (H) Verify that the covariant equation $\partial_\mu F^{\mu\nu} = \mu_0 J^\nu$ contains charge conservation: take $\partial_\nu$ of both sides and use the antisymmetry of $F^{\mu\nu}$ in its indices.
+7. (M) A field $\mathbf{E} = E_0\hat{\mathbf{y}}$, $\mathbf{B} = 0$ is boosted along $\hat{\mathbf{x}}$. Compute which components change and which do not, and state the parallel-versus-perpendicular rule the pitfalls warn about.
+8. (H) Synthesise the direction of the logic: Maxwell's equations contain $c$; relativity declares $c$ invariant for everyone. Decide which theory constrained which, and what this says about finding Maxwell's equations in a post-relativistic course.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\gamma = 1/\sqrt{1 - 0.64} = 5/3$, and a boost on a pure $\mathbf{B}$ generates $\mathbf{E}' = -\gamma\,\mathbf{v} \times \mathbf{B}$ of magnitude $\gamma v B_0 = (5/3)(0.8)(3 \times 10^8)(0.5) \approx 2.0 \times 10^8\,\text{V/m}$ along $-\hat{\mathbf{y}}$. Not purely magnetic anymore: the $\mathbf{E}^2 - c^2\mathbf{B}^2$ invariant is negative here, so the field is magnetic-like but never pure again in a moving frame. **2.** $F^{12} = -B_z$ and $F^{23} = -B_x$ in the printed convention. The antisymmetry check: the matrix prints $F^{21} = +B_z = -F^{12}$, as required. Reading the tensor means locating the field by slot, not re-deriving the convention each time. **3.** $\mathbf{E}^2 - c^2\mathbf{B}^2 = E_0^2 - c^2 E_0^2/c^2 = 0$ and $\mathbf{E} \cdot \mathbf{B} = 0$: both invariants null. Null stays null under every boost, so no observer finds $\mathbf{E} = 0$ or $\mathbf{B} = 0$: you cannot outrun a plane wave's fields, only see them transformed in direction and strength. **4.** $\mathbf{E} \cdot \mathbf{B} \ne 0$: no frame zeroes either field (the boost frame always sees crossed fields). $\mathbf{E}^2 - c^2\mathbf{B}^2 > 0$: a frame with $\mathbf{B} = 0$ exists (electric-like). $< 0$: a frame with $\mathbf{E} = 0$ exists (magnetic-like). $= 0$ with $\mathbf{E} \cdot \mathbf{B} = 0$: null, the plane-wave case, no such frame. The invariants are the classification, not adjectives. **5.** Half right. For a current-carrying wire and a drifting test charge, the relativity of charge density does turn the magnetic force into an electric one in the charge's frame: the purist's computation works there. But it is one configuration, not a reduction, and the tensor verdict is cleaner: $\mathbf{E}$ and $\mathbf{B}$ are components of one object, split differently by frame; neither is the correction and neither the original. **6.** $\partial_\nu \partial_\mu F^{\mu\nu} = 0$ identically, since the symmetric pair of derivatives contracts the antisymmetric tensor to nothing, so the equation forces $\mu_0 \partial_\nu J^\nu = 0$: charge conservation is not an extra postulate but a consequence of writing the theory covariantly. **7.** Every component of this field is perpendicular to the boost: $E_y' = \gamma E_0 = (5/3) E_0$, while a hypothetical $E_x$ would have passed through unchanged ($E_\parallel' = E_\parallel$). A compensating magnetic field appears: $\mathbf{B}' = -\gamma\,\mathbf{v} \times \mathbf{E}/c^2$ with magnitude $\gamma v E_0/c^2$. The rule: perpendicular components mix with $\gamma$, parallel ones are untouched, exactly the pitfall's warning. **8.** The arrow runs from electromagnetism to relativity: Maxwell's equations demanded an invariant $c$ before Einstein declared one, and the theory's Galilean failure was the anomaly. In a post-relativistic course, Maxwell's equations are not adjusted to fit relativity; they are the first theory found already covariant, which is why this chapter reads like a translation rather than a correction.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
