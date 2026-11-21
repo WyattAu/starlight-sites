@@ -251,3 +251,17 @@ fixtures-driven exempt.
 Audit script note: .loop/audit-questions-4c.py now covers md+mdx
 and fixtures (committed with corrected fleet numbers). Re-run it
 after each batch to watch the fleet converge.
+
+## Topic 3 batch 3 shipped (2026-11-21)
+
+7_special-relativity, 9_waveguides, 10_radiation at born-4c.
+Commit 882044245. Topic 3 now 9 of 13 content files; remaining:
+11_advanced-electrodynamics, 13_plasma (batch 4), plus the 12-vs-7
+duplication survey (12_special-relativity-and-electromagnetism-12
+looks like an older copy of 7 - decide merge/keep before
+retrofitting). 8_problem-set exempt meta; 14/15 fixtures exempt.
+
+Repair-pass upgrade ledgered: generic _{\text{X} / _{\mathrm{X}
+subscript-brace regex + unanchored compensating-stray stripper
+(display-math lines don't end in }). The 'simply' handwave caught
+in my own ponder text - the lints police the retrofitter too.
