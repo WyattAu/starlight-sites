@@ -237,3 +237,17 @@ numbers (script .loop/audit-questions-4c.py updated to match):
 Fixture banks: 24 files, 276 questions, 100% carry explanations
 (bright spot), 0% carry distractor diagnosis (pattern 7 gap,
 queued with the practice-fixture work).
+
+## Topic 3 batch 2 shipped (2026-11-21)
+
+4_electrodynamics, 5_electromagnetic-waves,
+6_potentials-and-gauge-transformations at born-4c grade. Commit
+7296f8f30. Topic 3 now: batches 1-2 done (6 of 13 content files);
+remaining 7_special-relativity-and-EM, 9_waveguides, 10_radiation,
+11_advanced-electrodynamics, 12_SR-and-EM (dupe of 7? survey
+before touching), 13_plasma. 8_problem-set exempt meta; 14/15
+fixtures-driven exempt.
+
+Audit script note: .loop/audit-questions-4c.py now covers md+mdx
+and fixtures (committed with corrected fleet numbers). Re-run it
+after each batch to watch the fleet converge.
