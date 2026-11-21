@@ -17,6 +17,8 @@ description: "We can express the fields in terms of potentials: Comprehensive ed
 }
 </script>
 
+**History.** The potentials have led a disputed life. Maxwell built his 1865 theory on them as the primary objects; Oliver Heaviside, impatient with their redundancy, called them 'still-born' and campaigned for the fields-only formulation that textbooks adopted for seventy years. The gauge condition is Ludvig Lorenz's (1867), a Danish physicist so persistently confused with Hendrik Lorentz of Leiden that the misnomer survives in published papers; this chapter's own caution box exists because of it. The potentials' revenge arrived in 1959, when Aharonov and Bohm showed a field-free region can still shift quantum phases, a story the quantum chapters take up.
+
 ### 6.1 Scalar and Vector Potentials
 
 We can express the fields in terms of potentials:
@@ -26,6 +28,17 @@ $$
 $$
 
 In electrostatics, $\mathbf{A} = \mathbf{0}$ and $\mathbf{E} = -\nabla V$.
+
+**Ponder (attempt the redundancy).** The transformation $V' = V - \partial \chi/\partial t$, $\mathbf{A}' = \mathbf{A} + \nabla \chi$ leaves every field unchanged. Attempt two things: first, to see why by direct substitution; second, to flip the redundancy from nuisance to resource, if the potentials carry more data than the fields need, what would you spend that freedom on?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Direct substitution: $\nabla V' = \nabla V - \nabla \dot{\chi}$ and $\partial \mathbf{A}'/\partial t = \partial \mathbf{A}/\partial t + \nabla \dot{\chi}$, so $\mathbf{E}' = -\nabla V' - \partial \mathbf{A}'/\partial t = \mathbf{E}$, with the time derivatives cancelling because mixed partials commute; $\nabla \times \nabla \chi \equiv 0$ handles $\mathbf{B}$. The freedom is real data-slack: one scalar function's worth. Spend it as a constraint, for instance $\nabla \cdot \mathbf{A} = 0$ (Coulomb) or the Lorenz condition, and the wave equations below decouple: the redundancy, once fixed, buys tractability.
+
+</div>
+</details>
 
 ### 6.2 Gauge Transformations
 
@@ -109,6 +122,17 @@ $$
 Both $V$ and $\mathbf{A}$ satisfy wave equations with sources $\rho/\varepsilon_0$ and
 $\mu_0\mathbf{J}$ And both propagate at speed $c$. The Lorenz gauge makes manifest the relativistic
 covariance Of the theory (Section 7).
+
+**Ponder (attempt the arrow).** The wave equation's Green function offers two roots: $t_r = t - R/c$ and $t_a = t + R/c$. The mathematics is indifferent; attempt the physics. Which root survives, what principle kills the other, and what everyday sight is the retarded root hiding in plain sight?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Causality keeps $t_r = t - R/c$: the field here now reflects where the source was, not where it will be. The advanced root is a perfectly good solution of the equation, and only the boundary condition that effects follow causes discards it (time-reversal-symmetric theory, time-asymmetric world). The everyday sight: the Sun on your face is eight minutes stale, the same mechanism at $8.3$ light-minutes instead of $3$ light-nanoseconds across a room.
+
+</div>
+</details>
 
 ### 6.4 Retarded Potentials
 
@@ -211,6 +235,28 @@ $$
 ## Intuition
 
 Gauge symmetry is the idea that potentials are not unique but the fields they produce are. Like choosing different coordinate systems to describe the same physical situation, gauge transformations change the mathematical description without changing the physics. The Coulomb gauge makes the vector potential divergence-free, useful for static magnetic fields. The Lorenz gauge simplifies the wave equations, making radiation problems tractable. The Liénard-Wiechert potentials show that fields from a moving charge are retarded, meaning we see the charge where it was when the light left it, not where it is now.
+
+:::note[Quick check]
+
+1. (E) Verify the gauge invariance of $\mathbf{E}$ by direct substitution: compute $\mathbf{E}' = -\nabla(V - \partial \chi/\partial t) - \partial(\mathbf{A} + \nabla \chi)/\partial t$ and show every $\chi$-term cancels, naming the property of derivatives you used.
+2. (M) Derive the Lorenz condition: substitute $\mathbf{E} = -\nabla V - \partial \mathbf{A}/\partial t$ and $\mathbf{B} = \nabla \times \mathbf{A}$ into Gauss's and Ampere-Maxwell's laws, and show the mixed terms collapse into $\nabla \cdot \mathbf{A} + \mu_0 \varepsilon_0 \partial V/\partial t = 0$, decoupling the potentials into two wave equations.
+3. (M) A desk lamp sits 3 m away. Compute the light-travel delay of its field changes, and decide why electrostatics textbooks never mention retardation: what is special about static sources?
+4. (M) Classify the gauges by use-case: why does the Coulomb gauge serve magnetostatics and bound-state work while the Lorenz gauge serves radiation and relativity? Base the decision on what each does to $V$ and $\mathbf{A}$'s equations.
+5. (M) Trap: 'potentials satisfying the Lorenz condition are the physically real ones; other gauges describe the same physics less accurately.' Decide what is wrong, and state what is observable in classical electromagnetism.
+6. (H) The wave equation's Green function gives two candidate times, $t' = t \mp R/c$. Prove the retarded choice satisfies causality, and verify that for static $\rho$ the retarded potential reduces to the Coulomb integral: retardation must be invisible in statics.
+7. (M) The Lienard-Wiechert fields split into a velocity field falling as $1/R^2$ and an acceleration field falling as $1/R$. Decide which part a detector a kilometre away measures, and what that implies about the source's motion.
+8. (H) Heaviside called the potentials 'still-born'; Aharonov and Bohm disagreed in 1959: an electron path encircling a shielded flux tube has $\mathbf{B} = 0$ along the path yet acquires phase $\Delta\phi = (q/\hbar) \oint \mathbf{A} \cdot d\mathbf{l} \ne 0$. Decide what this does to 'potentials are bookkeeping', and name the flag it plants for the quantum chapters.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\nabla(V - \partial_t \chi) = \nabla V - \nabla \partial_t \chi$ and $\partial_t (\mathbf{A} + \nabla \chi) = \partial_t \mathbf{A} + \nabla \partial_t \chi$; the $\nabla \partial_t \chi$ terms cancel in $\mathbf{E}' = -\nabla V' - \partial_t \mathbf{A}'$ because mixed partial derivatives commute. $\mathbf{B}$ survives because $\nabla \times \nabla \chi \equiv 0$. **2.** Gauss gives $\nabla \cdot \mathbf{E} = -\nabla^2 V - \partial_t (\nabla \cdot \mathbf{A}) = \rho/\varepsilon_0$; Ampere-Maxwell's curl gives $\nabla \times (\nabla \times \mathbf{A}) = \nabla(\nabla \cdot \mathbf{A}) - \nabla^2 \mathbf{A} = \mu_0 \mathbf{J} - \mu_0 \varepsilon_0 \nabla \dot{V} - \mu_0 \varepsilon_0 \ddot{\mathbf{A}}$. Imposing $\nabla \cdot \mathbf{A} + \mu_0 \varepsilon_0 \dot{V} = 0$ deletes both gradient terms at once: two independent wave equations, one for $V$, one for $\mathbf{A}$. **3.** Delay $= R/c = 3/(3 \times 10^8) = 10\,\text{ns}$. Static sources make the retarded and present configurations identical: $\rho(\mathbf{r}', t_r) = \rho(\mathbf{r}', t)$ for all $t_r$, so the integral collapses to Coulomb's and retardation has nothing to show. Only changing sources expose the arrow. **4.** Coulomb gauge ($\nabla \cdot \mathbf{A} = 0$): statics stays simple and $\mathbf{A}$ obeys a Poisson equation, but $V$ becomes instantaneous, awkward for waves. Lorenz gauge: both potentials obey symmetric wave equations with retarded solutions, the form special relativity writes as one four-vector equation. Bound-state and numerical work picks Coulomb; radiation picks Lorenz. **5.** Gauge is convention, not physics: every gauge reproduces the same $\mathbf{E}$ and $\mathbf{B}$, which are the classical observables. The Lorenz condition's virtue is symmetry and decoupling, not truth; calling a gauge physical mistakes a coordinate choice for a fact. (Quantum mechanics later complicates the story, but through the phase, not through preferring one gauge.) **6.** The roots $t' = t - R/c$ and $t' = t + R/c$ are both solutions; causality retains the retarded one, since $t + R/c$ would have the field anticipate its source. For static $\rho$, $\rho(\mathbf{r}', t_r)$ is independent of $t_r$, so $V = (1/4\pi\varepsilon_0) \int \rho\, d^3r'/R$: the Coulomb integral, retardation invisible by construction. **7.** Radiation wins by distance: the acceleration field divided by the velocity field grows linearly with $R$, so past some crossover the detector measures pure $1/R$ radiation and the $1/R^2$ term is gone. Radiation exists only when the charge accelerates, since constant-velocity fields just ride along with the charge: the $1/R$ exponent is the verification hook, the slowest falloff consistent with energy conservation. **8.** It collapses the bookkeeping claim: a field-free region still moves the quantum phase, and the loop integral of $\mathbf{A}$ around the flux is gauge-invariant and measurable. The classical statement 'only $\mathbf{E}$ and $\mathbf{B}$ are observable' survives locally, but globally the potentials carry information no local field does: the flag planted here is the quantum chapters' opening.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

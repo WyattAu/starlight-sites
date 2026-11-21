@@ -17,6 +17,19 @@ description: "A changing magnetic field induces an electric field: Comprehensive
 }
 </script>
 
+**History.** Michael Faraday's iron-ring experiment of 29 August 1831 produced the first current from a changing magnetic field, and his interpretation, fields carrying influence through space rather than action at a distance, was so unorthodox that continental physicists ignored it for a decade. Joseph Henry had seen the effect in 1830 but published nothing, and the priority dispute shadowed both men. The mathematics arrived sixteen years later than the discovery: not from Faraday, who drew field lines instead of equations, but from Maxwell, who turned the flux rule and the displacement current into the theory this chapter completes.
+
+**Ponder (attempt the minus sign).** Faraday's law carries a minus sign, and textbooks present it as a rule. Attempt instead to derive it: a magnet plunges toward a coil and a current appears. If the induced current ran the other way, what would happen to the magnet's motion, and what does that failed experiment tell you the sign has to be? Energy conservation should decide it, not convention.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Run the wrong sign: the induced current would attract the plunging magnet, adding kinetic energy while the current delivers heat to the coil: energy from nowhere, a perpetual-motion machine. The only sign that charges the bookkeeping is the one that makes the induced current oppose the change: that is Lenz's law, and the minus sign is its mathematics. Every generator on the grid is harder to turn in exact proportion to the electrical load it carries, which is the same law paid out in torque.
+
+</div>
+</details>
+
 ### 4.1 Faraday's Law of Induction
 
 A changing magnetic field induces an electric field:
@@ -70,6 +83,17 @@ B = \frac{\mu_0 I r}{2\pi R^2}
 $$
 
 $\blacksquare$
+
+**Ponder (attempt the two derivations).** A rod slides on rails through a uniform field. Attempt the EMF twice: once as the Lorentz force $q\mathbf{v} \times \mathbf{B}$ driving charges along the rod, once as the flux rule $-d\Phi_B/dt$ from the growing loop area. You get the same answer. Attempt to find a configuration where the two methods disagree, and decide which one is the law and which is the shortcut.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+For circuits whose geometry changes, both agree, which is why generators can be designed by the flux rule alone. They part company in configurations like the Faraday disk, a conducting disk spinning in a uniform field, where the flux through any fixed loop stays constant while the force $\mathbf{v} \times \mathbf{B}$ drives a steady EMF from axle to rim. The local law, Lorentz force plus the $-\partial \mathbf{B}/\partial t$ term of Faraday's equation, is always right; the flux rule is a shortcut whose validity must be checked, not an axiom.
+
+</div>
+</details>
 
 ### 4.4 Motional EMF
 
@@ -214,6 +238,28 @@ The displacement current $\mu_0\varepsilon_0\,\partial\mathbf{E}/\partial t$ is 
 
 **Mistake 3: Applying Faraday's law to non-conservative fields**
 Faraday's law $\nabla \times \mathbf{E} = -\partial\mathbf{B}/\partial t$ applies to induced electric fields, which are non-conservative. Students sometimes attempt to define a scalar potential for these fields, but $\mathbf{E} \neq -\nabla V$ when $\partial\mathbf{B}/\partial t \neq 0$. The scalar potential formulation only works in the static limit.
+
+:::note[Quick check]
+
+1. (E) A loop of radius $R = 5\,\text{cm}$ sits in $\mathbf{B} = B_0\cos(\omega t)\,\hat{\mathbf{z}}$ with $B_0 = 0.2\,\text{T}$ and $\omega = 20\,\text{rad/s}$. Compute the EMF's amplitude, and state the induced current's direction when $\sin(\omega t) > 0$ and $\mathbf{B}$ points up but is decreasing.
+2. (M) Derive the sliding-rod EMF $\mathcal{E} = BLv$ from the Lorentz force on the rod's charges, including the surface charge that builds until equilibrium, and check it against $-d\Phi_B/dt$.
+3. (M) A bar magnet falls through a copper ring. Decide the induced current's direction as the magnet approaches, and account for the ring's heating: where does that energy come from?
+4. (M) Classify by mechanism: transformer, rotating generator, induction cooktop, chemical battery. Which term of the induced field drives each: the $-\partial \mathbf{B}/\partial t$ transformer EMF or the $\mathbf{v} \times \mathbf{B}$ motional EMF?
+5. (M) Trap: 'an EMF acts equally at every point of the circuit.' Decide whether this is right, and locate where the driving field actually lives in (a) a stationary coil in a changing field and (b) a sliding rod.
+6. (H) Reproduce Maxwell's correction: show $\nabla \times \mathbf{B} = \mu_0 \mathbf{J}$ contradicts charge conservation whenever $\partial \rho/\partial t \ne 0$, then repair it using Gauss's law, deriving the displacement-current term from the continuity equation.
+7. (M) A copper pendulum swings between magnet poles and stops dead; a slotted copper pendulum of identical size swings freely. Decide why the slots kill the braking.
+8. (H) Take the curl of Faraday's law, substitute the Ampere-Maxwell law, and show that induction plus displacement current is exactly a wave equation: identify the mechanism that carries light.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** Amplitude $\mathcal{E}_0 = \pi R^2 B_0 \omega = \pi (0.0025)(0.2)(20) \approx 31\,\text{mV}$. When upward flux is decreasing, the induced current flows to create upward $\mathbf{B}$: counterclockwise seen from above. The verification hook: the amplitude scales linearly in $R^2$, $B_0$, and $\omega$. **2.** Charges in the moving rod feel $q\mathbf{v} \times \mathbf{B}$ along it; they pile up until the electrostatic field balances the drive in the stationary parts, leaving $\mathcal{E} = \int (\mathbf{E} + \mathbf{v} \times \mathbf{B}) \cdot d\mathbf{l} = vBL$ concentrated in the rod. The flux rule gives $-d(BLx)/dt = -BLv$: same magnitude, and the sign matches because Lenz makes the induced force oppose the rod's motion. **3.** As the magnet approaches (flux growing), the ring's current flows to oppose it, repelling the magnet; after it passes, the current reverses to keep it from leaving. The heat is real: it comes from the magnet's mechanical energy, which is why the magnet falls slower than free fall, the damped-fall experiment that shows Lenz's sign is not optional. **4.** Transformer and induction cooktop: transformer EMF, driven by $-\partial \mathbf{B}/\partial t$ with nothing moving. Rotating generator: motional EMF, $\mathbf{v} \times \mathbf{B}$ in the moving conductors (though both frames describe it). Chemical battery: neither, it is electrochemistry, which is why the classification starts by excluding it. **5.** Wrong in both cases. (a) In the stationary coil the driving field is the induced $\mathbf{E}$, which curls around $\partial \mathbf{B}/\partial t$ and is distributed, but not uniform: it concentrates where the flux changes fastest. (b) In the rod the drive is $\mathbf{v} \times \mathbf{B}$, living only in the moving segment; the rails and resistor carry the current but host no drive. EMF is a line integral, not a point field, which is exactly why the trap tempts. **6.** Taking the divergence gives $0 = \mu_0 \nabla \cdot \mathbf{J}$, demanding $\nabla \cdot \mathbf{J} = 0$ always, while continuity gives $\nabla \cdot \mathbf{J} = -\partial \rho/\partial t$: any accumulating charge breaks it. Rewriting continuity with Gauss as $\nabla \cdot \mathbf{J} = -\nabla \cdot (\varepsilon_0 \partial \mathbf{E}/\partial t)$ shows the missing term: $\nabla \times \mathbf{B} = \mu_0 \mathbf{J} + \mu_0 \varepsilon_0 \partial \mathbf{E}/\partial t$. **7.** Eddy currents need closed loops; the slots cut every loop to a sliver, so the induced EMFs cannot integrate into large circulating currents and their opposing fields collapse. The braking is proportional to the loop area the pendulum presents, which is the design rule behind laminated transformer cores. **8.** $\nabla \times (\nabla \times \mathbf{E}) = -\partial_t (\nabla \times \mathbf{B}) = -\mu_0 \varepsilon_0 \partial_t^2 \mathbf{E} - \mu_0 \partial_t \mathbf{J}$; in vacuum $\mathbf{J} = 0$ and $\nabla \cdot \mathbf{E} = 0$ reduce this to $\nabla^2 \mathbf{E} = \mu_0 \varepsilon_0 \partial_t^2 \mathbf{E}$ at speed $c$. Induction is not a curiosity of coils: it is the mechanism of light itself, which is the next chapter's subject.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 

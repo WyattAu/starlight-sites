@@ -17,6 +17,8 @@ description: "In free space (, ), take the curl of Faraday' s law: Comprehensive
 }
 </script>
 
+**History.** Maxwell died in 1879, eight years before anyone demonstrated that his predicted waves existed. Heinrich Hertz's 1887-88 experiments, an oscillator discharging across a spark gap and a loop detector across the room, produced standing waves in his laboratory, measured their wavelength, and showed their speed matched light's. Asked what use the discovery was, Hertz reportedly answered that it was probably of no use whatsoever; Guglielmo Marconi began radio transmissions eight years later. The waves' polarisation, which Hertz confirmed with wire-grid experiments, settled the older question Fresnel had raised for light: they are transverse, exactly as the equations demand.
+
 ### 5.1 The Wave Equation
 
 In free space ($\rho = 0$, $\mathbf{J} = \mathbf{0}$), take the curl of Faraday's law:
@@ -37,6 +39,17 @@ Similarly: $\nabla^2 \mathbf{B} = \mu_0 \varepsilon_0 \frac{\partial^2 \mathbf{B
 
 These are **wave equations** with wave speed
 $c = 1/\sqrt{\mu_0 \varepsilon_0} \approx 3 \times 10^8$ m/s.
+
+**Ponder (attempt the transversality).** That light is transverse was an experimental fact for fifty years before Maxwell. Attempt to derive it instead: take a plane wave $\mathbf{E} = \mathbf{E}_0 e^{i(\mathbf{k} \cdot \mathbf{r} - \omega t)}$ and apply $\nabla \cdot \mathbf{E} = 0$ to it. What does the computation forbid, and why is the absence of magnetic charge the deeper reason?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The derivatives turn $\nabla \cdot \mathbf{E} = 0$ into $i\mathbf{k} \cdot \mathbf{E}_0 = 0$: the field is perpendicular to its own propagation direction, with no freedom left. A longitudinal electric wave would need field lines beginning and ending along the direction of travel, which requires charge density in the wave; with $\rho = 0$ there is nothing to end on. Transversality is not an extra fact: it is Gauss's law wearing a travelling-wave costume.
+
+</div>
+</details>
 
 ### 5.2 Properties of EM Waves
 
@@ -71,6 +84,17 @@ $(\nabla \times \mathbf{E})_y = -\frac{\partial E_x}{\partial z} = k E_0 \sin(kz
 $\frac{\partial B_y}{\partial t} = -k E_0 \sin(kz - \omega t) \implies B_y = \frac{k}{\omega} E_0 \cos(kz - \omega t) = \frac{E_0}{c}\cos(kz - \omega t)$
 
 So $\mathbf{B} = \frac{E_0}{c}\cos(kz - \omega t)\,\hat{\mathbf{y}}$. $\blacksquare$
+
+**Ponder (attempt the energy route).** A capacitor charges up between parallel plates. Attempt to track where its stored energy physically enters: through the wires that connect it, or somewhere else? Compute the Poynting vector $\mathbf{S} = \mathbf{E} \times \mathbf{B}/\mu_0$ between the plates while $\mathbf{E}$ is growing, and give its direction.
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Between the plates $\mathbf{E}$ points across the gap, and the displacement current gives an azimuthal $\mathbf{B}$, so $\mathbf{S} \propto \mathbf{E} \times \mathbf{B}$ points radially inward: energy flows in through the open sides of the gap, not down the wires. The same analysis around a current-carrying wire shows energy flowing into the copper from the fields outside it: conductors guide the fields; the fields carry the energy. Poynting's theorem is the bookkeeping that makes this precise.
+
+</div>
+</details>
 
 ### 5.4 Poynting's Theorem and Energy Conservation
 
@@ -351,6 +375,28 @@ In free space, phase velocity $v_p = \omega/k = c$ and group velocity $v_g = d\o
 
 **Mistake 3: Forgetting that the Poynting vector represents energy flux**
 The Poynting vector $\mathbf{S} = \mathbf{E} \times \mathbf{B}/\mu_0$ gives the rate of energy flow per unit area. Students sometimes confuse energy density ($u = \frac{1}{2}(\varepsilon_0 E^2 + B^2/\mu_0)$) with energy flux. The time-averaged Poynting vector gives the intensity, which is what a detector measures.
+
+:::note[Quick check]
+
+1. (E) An FM broadcast station transmits at $f = 100\,\text{MHz}$. Compute the wavelength and wavenumber $k$, and decide whether a quarter-wave antenna ($\lambda/4$) would be taller than 1 metre.
+2. (M) For $\mathbf{E} = E_0 \cos(kz - \omega t)\,\hat{\mathbf{x}}$, use Faraday's law to derive the associated $\mathbf{B}$ field: its magnitude, direction, and the relation between $k$, $\omega$, and $c$.
+3. (M) Sunlight delivers $I = 1361\,\text{W/m}^2$ at Earth's orbit. Compute the peak electric field via $I = E_0^2/(2\mu_0 c)$, then the peak magnetic field, and check their ratio against $c$.
+4. (M) Classify propagation in (a) a dielectric, (b) a plasma below its plasma frequency, (c) a good conductor. Use $n^2$ in each case, and decide why AM signals skip off the ionosphere at night while FM does not.
+5. (M) Trap: a student draws $\mathbf{E}$ and $\mathbf{B}$ parallel in a plane wave travelling along $\hat{\mathbf{z}}$. Decide which Maxwell equation this violates, and state what $\mathbf{B} = \hat{\mathbf{k}} \times \mathbf{E}/c$ enforces.
+6. (H) Reproduce Poynting's theorem: dot $\mathbf{B}$ into curl-$\mathbf{E}$ and $\mathbf{E}$ into curl-$\mathbf{B}$, subtract, and use the product rule to identify the energy density $u$, the flux $\mathbf{S}$, and the work term $\mathbf{J} \cdot \mathbf{E}$.
+7. (M) Compute copper's skin depth ($\sigma = 5.96 \times 10^7$) at 50 Hz and at 1 GHz via $\delta = \sqrt{2/\mu_0 \sigma \omega}$, and decide why power lines are thick aluminium while RF interconnects only need surface plating.
+8. (H) In a hollow waveguide, measurements show $v_p = \omega/k > c$ while $v_g = d\omega/dk < c$. Decide whether relativity is violated, which velocity carries information, and why the waveguide's dispersion makes this possible at all.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $\lambda = c/f = 3 \times 10^8 / 10^8 = 3\,\text{m}$, and $k = 2\pi/\lambda \approx 2.1\,\text{rad/m}$; the quarter-wave antenna is $0.75\,\text{m}$, under a metre. The verification hook: real FM antenna masts match this length. **2.** $\nabla \times \mathbf{E} = E_0 k \sin(kz - \omega t)\,\hat{\mathbf{y}}$ and $-\partial \mathbf{B}/\partial t$ must equal it, so $\mathbf{B} = (E_0 k/\omega)\cos(kz - \omega t)\,\hat{\mathbf{y}}$: perpendicular to both $\mathbf{E}$ and the travel direction, with $B_0 = (k/\omega) E_0 = E_0/c$ once $\omega/k = c$. **3.** $E_0 = \sqrt{2 \mu_0 c I} = \sqrt{2 (1.257 \times 10^{-6})(3 \times 10^8)(1361)} \approx 1010\,\text{V/m}$, and $B_0 = E_0/c \approx 3.4\,\mu\text{T}$, about a tenth of Earth's surface field: the check is that $B_0 = E_0/c$ exactly, which is the in-phase relation of Theorem 5.1. **4.** (a) Dielectric: $n^2 > 1$, propagates slower than $c$. (b) Plasma below the plasma frequency: $n^2 < 0$, the field is evanescent and reflects. (c) Conductor: $n$ complex, penetration limited to the skin depth. The ionosphere is a plasma whose cutoff sits between AM and FM frequencies: AM (below cutoff) reflects and skips, FM (above) punches through to space. **5.** Faraday's law kills it: with $\mathbf{E} \parallel \mathbf{B}$ both along $\hat{\mathbf{x}}$ and travelling along $\hat{\mathbf{z}}$, $\nabla \times \mathbf{E}$ points along $\hat{\mathbf{y}}$ while $\partial \mathbf{B}/\partial t$ points along $\hat{\mathbf{x}}$, so the equation cannot hold for any phase relation. $\mathbf{B} = \hat{\mathbf{k}} \times \mathbf{E}/c$ enforces the triad: $\mathbf{E} \perp \mathbf{B} \perp \hat{\mathbf{k}}$, mutually perpendicular and in phase. **6.** $\mathbf{B} \cdot (\nabla \times \mathbf{E}) - \mathbf{E} \cdot (\nabla \times \mathbf{B}) = \nabla \cdot (\mathbf{E} \times \mathbf{B})$ is the product-rule identity; substituting the two curl equations gives $\partial_t (\varepsilon_0 E^2/2 + B^2/2\mu_0) + \nabla \cdot (\mathbf{E} \times \mathbf{B}/\mu_0) = -\mathbf{J} \cdot \mathbf{E}$. Reading: field energy density $u$, flux $\mathbf{S}$ leaving, and $-\mathbf{J} \cdot \mathbf{E}$ the rate fields do work on charges. **7.** $\delta(50\,\text{Hz}) = \sqrt{2/(4\pi \times 10^{-7} \cdot 5.96 \times 10^7 \cdot 314)} \approx 9.2\,\text{mm}$; $\delta(1\,\text{GHz}) \approx 2.1\,\mu\text{m}$. The decision: 50 Hz current fills the conductor (resistance cares about bulk area), while GHz current rides a micrometre skin, so surface plating suffices and bulk purity does not. **8.** No violation: $v_p$ is the phase pattern's speed and can exceed $c$ (waveguide $v_p = c/\sqrt{1 - (\omega_c/\omega)^2}$), but signals travel at $v_g < c$, so information and energy stay subluminal. The waveguide disperses because $\omega^2 = \omega_c^2 + c^2 k^2$ makes $d\omega/dk$ depend on frequency: the dispersion relation is what breaks the vacuum's $v_p = v_g$ coincidence.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
