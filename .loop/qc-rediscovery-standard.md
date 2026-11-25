@@ -265,3 +265,17 @@ Repair-pass upgrade ledgered: generic _{\text{X} / _{\mathrm{X}
 subscript-brace regex + unanchored compensating-stray stripper
 (display-math lines don't end in }). The 'simply' handwave caught
 in my own ponder text - the lints police the retrofitter too.
+
+## Topic 3 batch 4 shipped (2026-11-25)
+
+11_advanced-electrodynamics, 13_plasma at born-4c. Commit
+f4f0e744c. Topic 3 retrofit COMPLETE: 11 of 13 content files born-4c
+(8_problem-set exempt meta; 14/15 fixtures exempt) + 12 resolved
+as companion page (NOT a dupe - unique 12.3 field-momentum
+material; off-graph but index-referenced): retrofit 12 as batch 5
+alongside 7's cross-check, or fold into the legacy pass.
+
+Batch 5 options: (a) retrofit 12 + run fleet audit re-check on
+topic 3 (python3 .loop/audit-questions-4c.py, compare against the
+baseline 59/39-recall/4-trap), then move to topic 4
+(4-optics-and-waves) with the same survey-batch pattern.
