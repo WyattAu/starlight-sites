@@ -14,8 +14,21 @@ description: "The scalar potential of a localised charge distribution at large d
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [{"name": "Home", "url": "https://wyattau.com"}, {"name": "physics", "url": "https://physics.wyattau.com"}, {"name": "3 Electromagnetism", "url": "https://physics.wyattau.com/3-electromagnetism"}, {"name": "11_advanced Electrodynamics", "url": "https://physics.wyattau.com/3-electromagnetism/11_advanced-electrodynamics"}]
-}
+
 </script>
+
+**History.** Adrien-Marie Legendre built the polynomials that order this expansion during Laplace's 1782-85 assault on celestial potential theory; the expansion's mathematics is older than the electrical physics it now describes. Maxwell's stress tensor arrived in the 1873 Treatise as a picture of field lines under tension, pressure across them, and forces transmitted locally through space, and Minkowski's 1908 geometry gave it the covariant form this section states. Maxwell's prediction that light presses on matter was measured by Nichols and Hull in 1901-03, matching the theory's number: the field had been proven to carry momentum.
+
+**Ponder (attempt the hierarchy).** The expansion's terms die by powers of $1/r$: monopole, then dipole, then quadrupole. Attempt to argue the ordering from symmetry alone: why does a nonzero total charge silence every shape term, and what kind of charge arrangement must exist for the quadrupole to lead?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+Each moment measures how the previous one's cancellation failed. Nonzero $Q$ dominates because $1/r$ beats everything: shape is invisible at distance while net charge survives. If $Q = 0$, the first asymmetry, $\mathbf{p}$, leads at $1/r^2$; only when the charge arrangement is also dipole-neutral (two antiparallel dipoles, four alternating charges) does the quadrupole's $1/r^3$ speak: symmetric-top nuclei and quadrupole lenses live exactly in that regime. The hierarchy is a census of cancellations.
+
+</div>
+</details>
 
 ### 11.1 Multipole Expansion
 
@@ -67,6 +80,17 @@ $$
 
 Where $\Box^2 = \nabla^2 - \frac{1}{c^2}\frac{\partial^2}{\partial t^2}$ is the d'Alembertian.
 
+**Ponder (attempt the force without contact).** Two charges push apart without touching. Attempt Maxwell's replacement for action at a distance: surround one charge with a closed surface, and try to compute the force as a flux of the stress tensor through that surface. What must the field be carrying for this to make sense, and what measured effect proved it?
+
+<details class="wn-spoiler">
+<summary>The resolution</summary>
+<div class="wn-spoiler-body">
+
+The answer: the field at each point carries momentum, and force on anything inside the surface is the momentum flux $\oint T \cdot d\mathbf{A}$ through it, with $\partial_\mu T^{\mu\nu} = -f^\nu$ as the books. Tension along field lines, pressure across them, momentum density $\mathbf{S}/c^2$: the field is a mechanical medium in exactly this sense. Nichols and Hull's 1901-03 measurement of light pressure on mirrors, matching Maxwell's $I/c$, is the experiment that retired action at a distance.
+
+</div>
+</details>
+
 ### 11.3 Electromagnetic Stress-Energy Tensor
 
 The electromagnetic stress-energy tensor $T^{\mu\nu}$ encodes the energy density, momentum density,
@@ -90,7 +114,7 @@ on charges.
 **Radiation pressure:** For a normally incident plane wave with intensity $I$:
 
 $$
-P_{\text{rad} = \frac{I}{c} = \frac{1}{2}\varepsilon_0 E_0^2}
+P_{\text{rad}} = \frac{I}{c} = \frac{1}{2}\varepsilon_0 E_0^2
 $$
 
 For a perfect reflector, the radiation pressure is $2I/c$ (momentum transfer is doubled).
@@ -189,7 +213,7 @@ the $xz$-plane.
 $\sin(\pi x/a) = 1$). The power loss per unit length is:
 
 $$
-P_{\text{loss} = \frac{R_s}{2}\oint |\mathbf{K}|^2\, dl}
+P_{\text{loss}} = \frac{R_s}{2}\oint |\mathbf{K}|^2\, dl
 $$
 
 Where $R_s = \sqrt{\omega\mu_0/(2\sigma)}$ is the surface resistance. For fixed $f$ Increasing $a$
@@ -211,7 +235,7 @@ $$
 (b) Find the angular distribution of radiated power $dP/d\Omega$.
 
 (c) Calculate the total radiated power and the radiation resistance. Compare with the short-dipole
-result $R_{\text{rad} = 197(\ell/\lambda)^2\,\Omega}$.
+result $R_{\text{rad}} = 197(\ell/\lambda)^2\,\Omega$.
 
 **Solution:**
 
@@ -260,10 +284,10 @@ $$
 P = \frac{377 \times 1.2188}{16\pi}I_0^2 = 9.16\,I_0^2
 $$
 
-Radiation resistance: $R_{\text{rad} = 2P/I_0^2 = 18.3\,\Omega}$.
+Radiation resistance: $R_{\text{rad}} = 2P/I_0^2 = 18.3\,\Omega$.
 
 For comparison, a short dipole ($\ell \ll \lambda$) of length $\lambda/2$ would give
-$R_{\text{rad} = 197 \times 0.25 = 49.3\,\Omega}$. The half-wave dipole has lower radiation
+$R_{\text{rad}} = 197 \times 0.25 = 49.3\,\Omega$. The half-wave dipole has lower radiation
 resistance because the current distribution (cosine) has less total effective acceleration than a
 uniform current.
 
@@ -271,6 +295,28 @@ The directivity of the half-wave dipole is $D = 1.64$ (2.15 dBi), slightly highe
 dipole ($D = 1.5$).
 
 </details>
+
+:::note[Quick check]
+
+1. (E) Charges $+q$ and $-q$ sit a distance $d$ apart along $\hat{\mathbf{z}}$ ($d = 1\,\text{nm}$, $q = 1.6 \times 10^{-19}\,\text{C}$). Compute the dipole moment, and give the leading potential's form on the axis at $r = 100d$.
+2. (M) Derive the dipole term $\phi \approx \mathbf{p} \cdot \hat{\mathbf{r}}/(4\pi\varepsilon_0 r^2)$ in two moves: Taylor-expand $1/|\mathbf{r} - \mathbf{r}'|$ for $r \gg r'$, then integrate over the distribution.
+3. (M) Construct a charge arrangement whose monopole and dipole both vanish but whose quadrupole does not, and decide which physical systems live in that regime.
+4. (M) Classify the surviving multipole moments by symmetry: a uniformly charged sphere, a polarised atom in a field, a symmetric-top molecule, a neutral atom in its ground state. State the leading nonzero moment for each.
+5. (M) Trap: 'the stress tensor is bookkeeping; forces really act at a distance.' Decide what the tensor adds physically, and name the experiment that decided the question.
+6. (H) Derive the radiation pressure on a perfect reflector: bookkeep the momentum of incident light at intensity $I$, account for the reversal on reflection, and give the factor of 2 from momentum transfer.
+7. (M) Two capacitor plates hold field $E$ between them and nothing outside. Use Maxwell's stress to compute the force per area on a plate, and decide which picture, tension along field lines or energy density, gives the number.
+8. (H) Synthesise: momentum conservation $\partial_\mu T^{\mu\nu} = -f^\nu$ means emitting light recoils the emitter. Decide the sail comparison (reflective sail versus absorbing), and name the chapter where this reappears as radiation reaction.
+
+<details class="wn-spoiler">
+<summary>Answers</summary>
+<div class="wn-spoiler-body">
+
+**1.** $p = qd = 1.6 \times 10^{-28}\,\text{C}\cdot\text{m}$ along $\hat{\mathbf{z}}$. On the axis the leading term is $\phi \approx qd/(4\pi\varepsilon_0 r^2)$: the monopole cancels exactly, so the $1/r^2$ dipole term speaks first. **2.** Expand $1/|\mathbf{r} - \mathbf{r}'| = (1/r)(1 + \hat{\mathbf{r}} \cdot \mathbf{r}'/r + \cdots)$; the zeroth term integrates to $Q/r$, and the first-order term integrates to $\hat{\mathbf{r}} \cdot \mathbf{p}/(4\pi\varepsilon_0 r^2)$, since $\int \rho \mathbf{r}'\,dV' = \mathbf{p}$. The expansion is a moment-generating machine: each order, one cancellation. **3.** Two equal and opposite dipoles end to end (four charges $+q, -q, -q, +q$ in a line, equally spaced): net charge zero, net dipole zero, quadrupole nonzero. This is the regime of quadrupole lenses and, per the section, nuclei with spin $I \geq 1$, whose $Q_{zz}$ measures the deviation from spherical charge. **4.** Uniform sphere: monopole only, $Q_{\text{total}}$, every higher moment dies by spherical symmetry. Polarised atom: dipole. Symmetric-top molecule: quadrupole (dipole cancels by the symmetry). Neutral ground-state atom with full spherical symmetry: nothing beyond monopole, which itself is zero: neutral symmetric atoms have no electrostatic far field at all. **5.** It is the physics, not bookkeeping: the field carries momentum density $\mathbf{S}/c^2$, and force is momentum flux through any surface enclosing the charge, which is how the force gets transmitted without contact. Nichols and Hull (1901-03) measured the pressure of light on a mirror and matched Maxwell's $I/c$: the deciding experiment. **6.** Incident light of intensity $I$ carries momentum flux $I/c$. An absorber keeps it all: pressure $I/c$. A reflector reverses it: the transfer is $I/c - (-I/c) = 2I/c$. The factor of 2 is momentum bookkeeping, nothing else: which is why solar-sail designs prefer reflective films. **7.** The stress tensor between the plates gives attraction $P = \sigma^2/(2\varepsilon_0) = \varepsilon_0 E^2/2 = u$ per unit area: force per area equals the field energy density. Both pictures agree because tension along field lines is exactly the energy density in the tensor's diagonal; the plates are pulled together by the stretched field between them. **8.** An emitter sending power $P$ into a beam loses momentum at $P/c$ (doubled if it bounces off a reflective sail behind it). Solar sails ride this: the sun's $I/c$ is small per square metre but free and constant. Radiation reaction, the same ledger charged back to the radiating charge itself, is where Chapter 10's accelerating charges pay for their light.
+
+</div>
+</details>
+
+:::
 
 ## Cross-References
 
