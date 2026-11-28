@@ -40194,6 +40194,151 @@ These notes follow the standard undergraduate physics curriculum: from Newtonian
 - [Problem-Solving Strategy](#problem-solving-strategy)
 - [FAQ](/hub/)
 
+
+
+<!-- COURSE-MAP:START -->
+## The Course Map
+
+The staged course is a guided path from measurement to the research
+frontier, designed to be read in order after
+**[Before You Begin](/before-you-begin/)**. It is planned as
+78 chapters across 15 dependency stages, with
+0 written so far: chapters ship stage by stage, each with full
+derivations, guided-discovery ponders, anchored history, and QC ladders
+under the same pedagogy standard as the
+[mathematics course](https://mathematics.wyattau.com/hub/). Until a stage
+ships, its chapter titles below mark exactly what is coming, and the
+seven reference tracks above cover the same physics as derivation-based
+reference notes you can read today.
+
+**Stage A — Measurement and Modelling** (5 chapters, models, units, orders of magnitude: what physics asks before it answers)
+
+- What physics asks: models, not truths — *queued*
+- Units, dimensions, and dimensional analysis — *queued*
+- Uncertainty: every measurement is a range — *queued*
+- Estimation: the Fermi method — *queued*
+- Vectors and coordinate freedom — *queued*
+
+**Stage B — Motion and Force** (7 chapters, kinematics becomes vector mechanics; Newton's laws as the first engine)
+
+- Kinematics: describing motion before explaining it — *queued*
+- Newton's three laws, constructed from experiments — *queued*
+- Force inventories and free-body diagrams — *queued*
+- Friction and the models of contact — *queued*
+- Circular motion and the fictitious forces — *queued*
+- Rotational kinematics and angular momentum — *queued*
+- Rotational dynamics, moment of inertia, and rolling — *queued*
+
+**Stage C — Momentum and Energy** (5 chapters, momentum and energy: the first great conservation laws)
+
+- Momentum and its conservation, from collisions — *queued*
+- Work, energy, and the first great conserved quantity — *queued*
+- Potential energy diagrams: reading motion from a picture — *queued*
+- Collisions: elastic, inelastic, and what each conserves — *queued*
+- Angular momentum conservation: gyroscopes and stability — *queued*
+
+**Stage D — Gravity and Orbits** (4 chapters, one law of gravitation: falling apples and Kepler's orbits unified)
+
+- The falling apple and the orbiting moon: one law — *queued*
+- Kepler's laws from Newton's — *queued*
+- Orbits: circles, ellipses, and escape — *queued*
+- Tides and the three-body problem's door — *queued*
+
+**Stage E — Oscillations, Waves, and Fluids** (8 chapters, oscillations, waves, and fluids: the SHM engine and its travelling forms)
+
+- Oscillators: the harmonic model and its limits — *queued*
+- Damping and forcing: resonance — *queued*
+- Waves: the travelling disturbance — *queued*
+- Superposition, standing waves, and music — *queued*
+- The wave equation, derived — *queued*
+- Fluids at rest: pressure and buoyancy — *queued*
+- Fluids in motion: Bernoulli and flow — *queued*
+- The Doppler effect — *queued*
+
+**Stage F — Heat and Thermodynamics** (6 chapters, temperature, heat, entropy: the laws that forbid shortcuts)
+
+- Temperature, heat, and the zeroth laws — *queued*
+- The ideal gas: from experiments to a model — *queued*
+- Kinetic theory: bridging micro and macro — *queued*
+- The first law: energy conservation extended — *queued*
+- The second law: entropy and the arrow of time — *queued*
+- Heat engines and Carnot's bound — *queued*
+
+**Stage G — Electrostatics** (5 chapters, charge, field, potential: Gauss's law and the electrostatic machine)
+
+- Charge: the experimentally invented quantity — *queued*
+- Coulomb's law and the electric field — *queued*
+- Gauss's law: the counting tool — *queued*
+- Potential and energy in the field — *queued*
+- Capacitors and dielectrics — *queued*
+
+**Stage H — Magnetism and Maxwell's Synthesis** (7 chapters, currents, induction, and Maxwell's four equations: light itself derived)
+
+- Current and the magnetic interaction — *queued*
+- Ampere's law and magnetic fields — *queued*
+- Faraday's induction: changing fields make fields — *queued*
+- Maxwell's displacement current: the synthesis — *queued*
+- Light as an electromagnetic wave — *queued*
+- DC circuits: Kirchhoff's laws — *queued*
+- AC circuits and resonance — *queued*
+
+**Stage I — Optics** (5 chapters, interference and diffraction: the wave theory's victory over rays)
+
+- Reflection, refraction, and Fermat's principle — *queued*
+- Interference: Young's experiment — *queued*
+- Diffraction and resolution limits — *queued*
+- Polarisation: the transverse clue — *queued*
+- Lenses, mirrors, and image formation — *queued*
+
+**Stage J — Special Relativity** (4 chapters, the two postulates: time dilation, length contraction, one invariant speed)
+
+- The two postulates and what they cost — *queued*
+- Time dilation and length contraction — *queued*
+- Relativistic energy: E equals mc squared — *queued*
+- Spacetime diagrams and causality — *queued*
+
+**Stage K — Quantum Foundations** (5 chapters, quantisation, wave-particle duality, the uncertainty principle)
+
+- Blackbody radiation: the ultraviolet catastrophe — *queued*
+- The photoelectric effect: light as quanta — *queued*
+- Matter waves and the double slit — *queued*
+- The Schrodinger equation and probability amplitudes — *queued*
+- The uncertainty principle: not ignorance, structure — *queued*
+
+**Stage L — Atoms, Nuclei, and Particles** (4 chapters, spectra, nuclei, and the particle zoo: what the atom is made of)
+
+- The hydrogen atom: spectra and quantisation — *queued*
+- Spin and the Pauli principle — *queued*
+- Nuclei: binding, decay, and half-lives — *queued*
+- Particles and the standard model's inventory — *queued*
+
+**Stage M — Statistical Mechanics** (5 chapters, Boltzmann's bridge: macroscopic thermodynamics from microscopic counting)
+
+- Counting states: microstates and multiplicity — *queued*
+- Boltzmann's entropy and temperature — *queued*
+- Partition functions: the counting machine — *queued*
+- Quantum statistics: bosons and fermions — *queued*
+- Phase transitions and the states of matter — *queued*
+
+**Stage N — Condensed Matter** (4 chapters, bands, phonons, and why solids differ from one another)
+
+- Bonds, bands, and why copper conducts — *queued*
+- Semiconductors and the band gap — *queued*
+- Magnetism in matter — *queued*
+- Superconductivity: the zero-resistance state — *queued*
+
+**Stage O — The Research Frontier** (4 chapters, the open problems: where the frontier currently sits)
+
+- General relativity: gravity as geometry — *queued*
+- Cosmology: the expanding universe — *queued*
+- Quantum field theory: fields as the substance — *queued*
+- Open problems: dark matter, dark energy, quantum gravity — *queued*
+
+**Where to study now:** the reference tracks above are the
+existing library — every page carries full derivations, worked
+examples, and common pitfalls. The course path below them is the
+order to read them in once its stages begin shipping.
+<!-- COURSE-MAP:END -->
 ---
 
 ## The Rigour Ladder
